@@ -1,0 +1,10 @@
+# Book material and study notes: never commit
+Tao of Power/
+google-books-images/
+taoofpower/
+sources/raw/
+docs/study/
+# tooling
+node_modules/
+.wrangler/
+.DS_Store
