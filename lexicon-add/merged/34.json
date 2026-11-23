@@ -1,0 +1,49 @@
+{
+  "歸": {
+    "senses": ["to go home, to return to where one belongs", "of a bride: to go to her husband’s house", "to give back; to hand over to", "to come to rest in, to end in"],
+    "shuowen": "女嫁也。从止，从婦省，𠂤聲。",
+    "shuowenEn": "A woman marries. From 止 (foot); from 婦 (wife), abbreviated; 𠂤 gives the sound.",
+    "parts": [{"c": "𠂤", "m": "a small mound; the sound part"}, {"c": "止", "m": "a foot: movement"}, {"c": "帚", "m": "a broom, short for 婦, wife"}],
+    "story": "The dictionary defines “return” with a wedding: the bride goes to the house that is from then her home. The oldest forms have only the mound and the broom, and their picture is debated. In the Laozi the word is the homeward half of each cycle. Things flourish and each one 歸 to its root (16); the sage returns to the infant, to the limitless, to the uncarved wood (28); the bent thing is made whole and returned (22). In passage 34 the ten thousand things come home to the Dao and find no lord there.",
+    "gap": "“Return” gives a direction and no house. “Revert” and “merge” are abstract. 歸 is arrival at the place where one belongs; the dead and the bride both 歸."
+  },
+  "衣": {
+    "senses": ["an upper garment, a robe; clothes", "(yì) to clothe, to put clothes on someone", "a cover, a skin"],
+    "shuowen": "依也。上曰衣，下曰裳。象覆二人之形。",
+    "shuowenEn": "That which one leans on. The upper piece is called 衣, the lower is called 裳. It shows two people covered.",
+    "py": ["yī", "yì"],
+    "pyNote": "Read yì when it is a verb, “to clothe”, as in passage 34.",
+    "story": "A picture of a robe: collar at the top, lapels crossed below. The Shuowen explains the word by its near-homophone 依, to lean on, and sees two people under a cover; modern scholars see collar and lapels. In passage 34 it is a verb beside 養, to feed: the Dao clothes and feeds the ten thousand things and does not act the lord. Elsewhere in the Laozi, clothes are a mark of class: the court wears patterned silk while the fields are full of weeds (53), and the sage wears rough cloth with jade inside (70).",
+    "gap": "English “clothe” is rare and a little solemn. 衣 as a verb is a daily word, what a parent does for a child each morning."
+  },
+  "氾": {
+    "senses": ["to flood, to overflow the banks", "to float, to drift (also written 泛)", "wide, general, without limit"],
+    "shuowen": "濫也。从水㔾聲。",
+    "shuowenEn": "To overflow. From water, with 㔾 for the sound.",
+    "parts": [{"c": "氵", "m": "water"}, {"c": "㔾", "m": "the sound part"}],
+    "story": "The word for a river that has left its bed, as in the compound 氾濫. Mencius uses it for the chaos that the sage-king Yu ended when he cut channels. The Laozi uses it once, for the great Dao itself: 大道氾兮, the great Dao floods and can go left and right. The same sound and a like graph, 泛, mean “to float, to drift”, so the line also suggests a boat with no mooring.",
+    "gap": "“All-pervading” and “reaches everywhere” keep the idea and remove the water. A flood is not a calm presence. It moves and it does not ask."
+  },
+  "主": {
+    "senses": ["lord, master, owner", "host (the opposite of 客, guest)", "the main thing; to preside over"],
+    "shuowen": "鐙中火主也。",
+    "shuowenEn": "The flame in a lamp.",
+    "story": "The Shuowen reads the graph as a lamp with its flame, the dot at the top; the character 炷, a wick, keeps that sense. From the one light in the room came the head of the house and the lord of a state. The Laozi uses the word with care. The Dao feeds all things and does not act the 主 (34). The soldier’s saying in passage 69 is “I do not dare to be the host; I would rather be the guest”. The lord of ten thousand chariots must not treat his person lightly (26).",
+    "gap": "“Lord” brings in feudal Europe and the God of the English Bible. 主 is also the plain word for a host at a dinner and the owner of a dog."
+  },
+  "恃": {
+    "senses": ["to lean on, to rely on", "to presume on (one’s strength, favor, merit)"],
+    "shuowen": "賴也。从心寺聲。",
+    "shuowenEn": "To depend on. From the heart, with 寺 for the sound.",
+    "parts": [{"c": "忄", "m": "heart"}, {"c": "寺", "m": "the sound part"}],
+    "story": "A heart word: the trust that puts its weight on a thing. Early texts mostly warn against it; one must not lean on walls, on allies, on past merit. The Laozi says four times that the sage and the Dao act and do not lean on the act: 為而不恃 (2, 10, 51, 77). In passage 34 the ten thousand things lean on the Dao and live. The one that does not lean is the one that can be leaned on.",
+    "gap": "“Depend” in modern English is close to weakness. 恃 has weight in it, like a hand on a rail."
+  },
+  "辭": {
+    "senses": ["words, a statement, a plea", "to decline politely, to refuse", "to take leave"],
+    "shuowen": "訟也。",
+    "shuowenEn": "To plead in a lawsuit.",
+    "story": "The Shuowen begins with the law court: words set in order as a plea. From formal words came the polite refusal, and from that, a departure. In the Laozi the word comes two times in the phrase 不辭 (2, 34). It can be heard as “does not refuse”, of a host who turns no one away, or as “does not speak”, of a giver who makes no statement about the gift. Both fit the Dao of passage 34.",
+    "gap": "English has to choose between “refuse” and “speak”. The Chinese word holds a refusal that is made of words."
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "n": 40,
+  "title": "The Way Turns Back",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "反者道之動，",
+      "gloss": {
+        "0": "fǎn: to turn back, to return; to turn over; the opposite",
+        "1": "zhě: marks the topic: “as for turning back…”",
+        "4": "dòng: movement, motion; to stir"
+      }
+    },
+    {
+      "text": "弱者道之用。",
+      "gloss": {
+        "0": "ruò: weak, pliant (not softened to “gentle”)",
+        "4": "use, function, the way that it works"
+      }
+    },
+    {
+      "text": "天下萬物生於有，有生於無。",
+      "gloss": {
+        "4": "shēng: to be born, to sprout, to live",
+        "5": "yú: from, out of; also “in, at”",
+        "6": "having; that which is there",
+        "8": "having (now the subject)",
+        "11": "not-having; that which is not there"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Turning back|fan]] is the [[movement|dong]] [[of the Dao|grammar]].",
+    "[[Weak|ruo]] is the [[use|yong]] of the Dao.",
+    "",
+    "[[All under heaven, the ten thousand things|tianxia]]",
+    "are [[born|sheng]] from [[having|you]];",
+    "having is born from [[not-having|wu]]."
+  ],
+  "notes": {
+    "fan": {
+      "kind": "gap",
+      "title": "反: three words in one",
+      "body": "反 holds three senses, and English needs a word for each. One: to go back, to return home; this sense was later written 返. Two: to turn over, to reverse, as a hand turns from palm to back; the Shuowen gives this first: 覆也, “to turn over”. Three: the opposite, contrary to. So the line says at once that the Dao moves by return, that it moves by reversal into the opposite, and that it moves against the common direction. The book uses each: 遠曰反, “far means return” (25); 正言若反, “straight words seem their opposite” (78); dark de goes 與物反, “the other way from things” (65). A modern version chose “polarity”, which gives two fixed poles and no motion. 反 is a motion. We write “turning back” and lose the opposition. See also [[Return in the Book of Changes|fu]]. Which of the three do you see most often in your own life?",
+      "src": [
+        "Shuowen Jiezi, 又部: 反，覆也。从又，厂反形。"
+      ]
+    },
+    "dong": {
+      "kind": "etymology",
+      "title": "動: strength on a heavy thing",
+      "body": "動 is 重, heavy, with 力, strength, at the right. The Shuowen says that 重 is the sound, and defines the word as 作也, “to rise, to start up”; the same verb 作 named the wanting that stirs in passage 37. The parts make a fair picture: force applied to a weight. This is the only place where the book gives the Dao a 動, a motion, as its own. In other passages the Dao is still, and moving is what things do: 動善時, “in movement, the good is timing” (8); the bellows of heaven and earth, 動而愈出, “the more it moves, the more comes out” (5). And the motion that the Dao is given here is no advance. Each motion that we admire goes forward: progress, growth, a career. The one movement of the Dao is the way back.",
+      "src": [
+        "Shuowen Jiezi, 力部: 動，作也。从力重聲。"
+      ]
+    },
+    "grammar": {
+      "kind": "wordplay",
+      "title": "Five characters, two times",
+      "body": "The first two lines are twins. 反者道之動 and 弱者道之用: the frame X 者道之 Y is fixed, and only the first and last characters change. 者 after a word makes it a topic, “that which turns back”, and 之 joins owner and thing owned, “the Dao’s movement”. Nothing says “is”. Classical Chinese sets two noun phrases side by side, and the equation is made by the reader’s mind. The frame makes a second equation that is not stated. 反 stands where 弱 stands, and 動 where 用 stands: turning back is a kind of weakness, and movement is a kind of use. The end words rhyme: 動 and 用 belong to one old rhyme group, which scholars name 東. The Mawangdui silk texts are reported to add four particles, 反也者，道之動也, and the lines slow to the pace of a teacher who explains. The received text is as bare as a formula."
+    },
+    "ruo": {
+      "kind": "gap",
+      "title": "弱: the word should stay uncomfortable",
+      "body": "弱 is “weak”. The Shuowen defines it as 橈也, “bent”; it is the weakness of that which gives under a load. It was not a good word in early China any more than it is now. States feared to be 弱, and the reformers of the time promised 富國強兵, a rich state and a strong army. To say that weakness is how the Dao works is an offense against the whole program of the age. Translators often help the reader here with “yielding”, “gentleness”, or “receptivity”, words that a strong person can accept as skills. The text does not help. It says that the Dao has no force to apply: it does not push, win, or insist, and by this lack it does everything. Water in passage 78 is the proof: nothing is weaker, and nothing that attacks the hard can beat it. Where do you hide your weakness, and what does the hiding cost?",
+      "src": [
+        "Shuowen Jiezi, 彡部: 弱，橈也。"
+      ]
+    },
+    "yong": {
+      "kind": "gap",
+      "title": "用: how it works, not what it is for",
+      "body": "用 is “use, function”: a thing at work. Passage 11 found the 用 of a wheel, a pot, and a room at the place where each has nothing. Passage 4 said that the Dao is an empty bowl and that use does not fill it. Now the 用 of the Dao gets a name: weak. English “use” suggests a user with a purpose, as if someone took up the Dao as a tool, and some versions make the line a method: be weak and you will succeed. The Chinese says only that this is the manner of its working. Later Chinese philosophy made a great pair of 體 and 用, “body” and “function”: what a thing is and how it acts. [[Wang Bi|wangbi]], who began that way of speaking, comments here in six words: weak and soft go through everywhere and cannot be exhausted."
+    },
+    "tianxia": {
+      "kind": "variant",
+      "title": "The silk texts: plainer, and in a different place",
+      "body": "The Mawangdui silk texts are reported to read 天下之物生於有，有生於无: “the things of the world”, with no “ten thousand”. [[Wang Bi|wangbi]] also quotes the line as 天下之物, so 萬 seems to have entered after his time. The larger difference is position. In the silk manuscripts this passage does not stand between 39 and 41. It comes after passage 41 and directly before passage 42. Read them in that order. Passage 41 ends: the Dao is hidden and nameless, and it alone is good at giving and completing. Then these four lines: turning back, weakness, things from having, having from not-having. Then passage 42: the Dao gives birth to one, one to two, two to three, three to the ten thousand things. The account of origins runs without a break, and this short passage is its hinge. The received order cut the hinge out and set it alone, and there it looks like a riddle. See also [[the oldest reading of the last line|guodian]].",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "sheng": {
+      "kind": "etymology",
+      "title": "生: a sprout comes out of the soil",
+      "body": "The verb of the last two lines is 生, and it is a picture. The Shuowen: 進也。象艸木生出土上, “to come forth; it shows grass and trees that grow out above the soil”. The word means to be born, to give birth, to grow, to live, and to be raw or fresh. English versions often write “produced”, “created”, or “came from”; [[Legge|legge]] has “sprang”. “Produced” is a factory word. “Created” brings in a maker who stands outside the work and a first moment of time. 生 has neither. A sprout is not made by the soil and is not apart from it; it is the soil’s own outward growth, and it goes on. So 有生於無 does not say that a nothing made a something long ago. It says that what is there grows, now, out of what is not there, as a shoot out of dark ground. See the plate.",
+      "src": [
+        "Shuowen Jiezi, 生部: 生，進也。象艸木生出土上。"
+      ]
+    },
+    "you": {
+      "kind": "gap",
+      "title": "有 and 無: not Being and Nothingness",
+      "body": "有 is “to have, there is”; 無 is “to not have, there is not”. As nouns they are “the having” and “the not-having”: what is present and what is absent. Western philosophy translated them as Being and Non-being, and then read this line beside its own long quarrel. The Greeks held that nothing comes from nothing. Christian doctrine answered that God made the world out of nothing. Both sides took “nothing” as absolute: no thing at all, a blank. The Chinese 無 is not that. In passage 11 it is the hollow of a pot: an absence with a shape, which works. It is nearer to “the not-yet-formed”, or to the silence that a note comes out of. The line states no doctrine of creation. It points to the fact that each thing that is there stands in, and comes out of, what is not. Does that fact need a beginning in time?"
+    },
+    "wu": {
+      "kind": "history",
+      "title": "The quarrel over 無",
+      "body": "This line caused one of the great debates of Chinese thought, six centuries after it was written. [[Wang Bi|wangbi]] and his circle, in the 240s CE, took it as the key to the book: 無 is the root of all that is, and the wise ruler goes back to it. Their position was called 貴無, “to honor not-having”. Two generations later the official Pei Wei wrote an essay against them, “In Honor of Having” (崇有論). He argued that pure not-having cannot give birth to anything, that things come about by themselves, and that the fashion for 無 gave idle aristocrats an excuse to neglect their duties. The commentator Guo Xiang then built a philosophy on the same point: there is no source behind things; each is self-born. Both sides could quote the Laozi. Passage 2 says 有無相生, “having and not-having give birth to each other”. Is that a different teaching from this line, or the same one seen from the side?",
+      "src": [
+        "Jin shu, biography of Pei Wei (裴頠)",
+        "Guo Xiang, commentary on the Zhuangzi"
+      ]
+    },
+    "guodian": {
+      "kind": "variant",
+      "title": "The Guodian slips: one character less",
+      "body": "The oldest copy of this passage is on the Guodian bamboo slips, from a tomb of about 300 BCE. Its last line is reported to read 天下之物生於有，生於亡: “the things of the world are born from having, born from not-having”. The second 有 is not there, and 亡 is the old way to write 無. If the scribe wrote what he meant, the sense changes much. Having and not-having are then two parents of things, side by side, as in passage 2, and not a chain in which one comes first. The priority of 無, on which Wang Bi built so much, would be a later reading. But scribes of that time marked a repeated character with a small sign, and such signs were easily lost in copying; many scholars think that this is a simple slip. One missing mark, and two philosophies. We cannot decide it, and the Chinese reader now reads the line with both in view.",
+      "src": [
+        "Guodian Laozi A (reported reading)"
+      ]
+    },
+    "fu": {
+      "kind": "history",
+      "title": "Return in the Book of Changes",
+      "body": "The idea of 反 was not the Laozi’s alone. The Book of Changes has a hexagram named 復, “Return”: five broken lines with one whole line that enters at the bottom. It stands for the winter solstice, the longest night, when the light turns and begins to come back. Its judgment text says 反復其道，七日來復, “turning and returning on its way; in seven days comes the return”, and the old commentary adds 復其見天地之心乎, “in Return, do we not see the heart of heaven and earth?” The Laozi’s own word for it in passage 16 is 復: the ten thousand things rise together, and I watch their return. A later proverb made it a rule of prudence: 物極必反, “a thing at its limit must turn back”. The farmer, the diviner, and the strategist all used this. The Laozi’s claim is larger: the turn is not one event among others. It is the only way that the Dao moves.",
+      "src": [
+        "Zhouyi, hexagram 24 (復), judgment and Tuan commentary"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: to keep having whole, go back to not-having",
+      "body": "On the first line Wang Bi quotes the passage before: 高以下為基，貴以賤為本，有以無為用，此其反也. “The high has the low as its footing, the noble has the lowly as its root, having has not-having as its use: this is its ‘turning back’.” For him 反 is the dependence of each thing on its opposite. On weakness: 柔弱同通，不可窮極, “soft and weak alike go through, and cannot be brought to an end”. On the last line: 天下之物皆以有為生，有之所始，以無為本，將欲全有，必反於無也. “The things of the world all have their life as having. That from which having starts has not-having as its root. To keep having whole, one must turn back to not-having.” His final clause joins the last line to the first. The return of line one is the road from 有 to 無, and it is not a loss of the world. He says it is how the world is kept.",
+      "src": [
+        "Wang Bi commentary on Laozi 40"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: a hymn stanza and a capital “It”",
+      "body": "Legge made the first two lines a rhymed quatrain in the metre of a hymn: the Dao “by contraries proceeds”, and weakness “marks the course of Tao’s mighty deeds”. The Chinese has no “mighty” and no “deeds”; he could not leave weakness alone without a counterweight. In the last lines he writes that all things “sprang from It as existing (and named)” and that existence “sprang from It as non-existent (and not named)”. The capital “It” is the Dao, which the Chinese sentence does not mention: the line has only 有 and 無. He made the two into two states of one supreme subject, with brackets taken from passage 1. This protects the reader from the strange claim that having is born from not-having. It also makes the Dao a thing that exists in two modes, close to a God who is before and in creation.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Watch one thing turn",
+      "body": "Today, find the turning point in three ordinary things. A breath: follow the out-breath to its end and wait; do not pull the next breath in; see it start. A sound: ring a glass or a bell and listen until you cannot say if you still hear it. A mood: when irritation or delight is strong, notice the moment at which it is no longer growing. In each case look at what the next thing comes out of. The in-breath comes out of the empty pause, and the silence after the bell is where the next sound will appear. That is 有生於無 at the scale of a minute."
+    }
+  },
+  "lenses": {
+    "ground": "Twenty-one characters; it is the shortest passage in the book. Two [[twin lines|grammar]] and one sentence in two steps. The Dao has a [[movement|dong]], and it is [[turning back|fan]]. The Dao has a [[way of working|yong]], and it is [[weak|ruo]]. Then the things of the world: they are [[born|sheng]] from [[what is there|you]], and what is there is born from [[what is not|wu]]. No sage, no ruler, no advice, no “therefore”. The passage does not argue. It states, as a carpenter states that wood has a grain. Notice also the order inside the last sentence. It goes backward: from the ten thousand things to having, from having to not-having. The sentence about origins is itself a return.",
+    "inner": "Follow a thought back. It is here, vivid, a thing that you have: 有. A moment ago it was not. Where did it come from? Look, and you find no place and no stuff, only a quiet that was there before it and is there after. That is not a mystical claim; it is what anyone finds who looks. The contemplative reading of [[反|fan]] is this turn of attention, from the things that appear to that out of which they appear. It is [[weak|ruo]] work. Force does not help; a mind that grabs at the source of thought produces one more thought. The turn happens when effort gives out. [[Wang Bi|wangbi]] says that to keep having whole one goes back to not-having: the world is not lost in the quiet. It is seen to stand in it.",
+    "leading": "Each leader is trained to move forward and to be strong. The passage says that the deepest movement goes the other way and works by weakness. Read it first as a description of what will happen in any case. A policy that is pushed to its extreme [[turns into its opposite|fan]]; growth returns to its base; the thing at the top is on its way down. A leader who knows this plans for the return and does not fight it. Read it second as a manner of acting. The force that lasts in an organization is of the [[weak|ruo]] kind: listening, patience, the question that is asked and not the order that is given. These do not look like power, and that is why they are not resisted. Do not make this a tactic, a show of softness to get one’s way. The line says that the Dao works so. It does not offer a technique for winning.",
+    "body": "The body moves by return. A step is a fall that is caught; a jump begins with a bend downward; the arm goes back before the throw; the heart fills before it beats. Each skilled movement has its [[反|fan]], and beginners are known by the lack of it: they try to go straight to the target. The second line is the teaching of every soft art. Strength that is used is local and soon spent. [[Weakness|ruo]], in the exact sense of a joint that gives and a muscle that is not held, lets the whole body act as one, and the ground does the work. Try it with the breath: do not push the air out; let the ribs fall. The out-breath that is not forced goes further, and the in-breath arrives [[out of the pause|practice]] with no help from you.",
+    "nature": "All large motions in nature are returns. The planets go around; the seasons come back; water goes up as vapor and comes down as rain to the sea it left. A tree is the plainest text. The seed is almost nothing, the tree is a great [[having|you]], and at the end the trunk goes back into soil, out of which seeds grow. And the working of all this is [[weak|ruo]]. No part of it uses force as a human engine does. Roots advance by cells, rivers cut rock with soft water, and the light that drives the whole system arrives without weight. The picture in [[生|sheng]] is the last line seen in a field: a shoot, there, where yesterday nothing was to be seen.",
+    "practice": "Do the [[three turnings|practice]]: a breath, a sound, a mood. Then pick one place today where you would normally push: a door, a conversation, a problem at work. Use half of the force that you planned, and look for the direction in which the thing already wants to return. Tonight, read the four lines aloud in Chinese if you can find a recording, or simply count them: five characters, five characters, seven, four. Each line but the third is as short as a breath."
+  },
+  "glyph": "反",
+  "plates": [
+    {
+      "c": "反",
+      "title": "A hand turns over",
+      "lesson": "Four strokes, and the Shuowen sees two parts: 从又，厂反形. 又 is a hand. It is the lower right part, and you know it from 友 (friend: two hands) and 取 (to take: a hand at an ear). In the old scripts 又 is a right hand seen from the side, three fingers and a wrist. The other part is the line that covers the hand from the upper left, written like 厂, a cliff; the Shuowen does not call it a cliff here. It says that it shows the shape of turning over, 反形, and it defines the whole as 覆也, “to turn over”. So the common explanation is a hand that flips something, or a hand that is itself turned, palm to back. From that one gesture come all the senses: to turn over, to turn round, to go back, the reverse side, the opposite, to rebel. The family is large. Add the walking sign and you have 返, to go back by road; the Shuowen says 从辵从反. The others take 反 for its sound, and it is fair to notice that some keep a turn in the sense: 販, to trade, defined as 買賤賣貴者, “one who buys cheap and sells dear”; 版, a board split from a log. In this passage the Dao has one [[movement|dong]], and it is this small gesture: a hand turned over. It takes no force to turn a hand. That is the second line of the passage.",
+      "brush": "Four strokes. First a flat stroke at the top, written from right to left: the brush lands at the right, heavy, and thins as it goes left. Second, a long stroke that begins under the left end of the first and falls down and away to the left. These two make the cover. Third, the hand: a short horizontal that turns at its end and falls to the left, in one movement, through the space under the cover. Fourth, a long stroke that falls to the right, crosses the third, and ends in a broad foot. Watch the first stroke. It is the only one in the character that the brush writes against its usual direction, right to left: the character for turning back begins with a stroke that goes backward. Then watch the crossing of strokes three and four; it should sit under the center of the top stroke, or the hand slides out from under its cover."
+    },
+    {
+      "c": "生",
+      "title": "A sprout above the soil",
+      "lesson": "The base line is the ground. The vertical is a stem that comes up out of it. The two upper horizontals and the small slanted stroke at the top left are leaves or branches. The Shuowen reads it so: 象艸木生出土上, “it shows grass and trees that grow out above the soil”, and its definition is 進也, “to go forward, to come forth”. In the oracle-bone forms the picture is simpler still: a small plant with one pair of leaves on a line of earth. Compare 土, earth: a base line, a vertical, one cross-line; a clod on the ground. 生 is 土 with more growth on top. From “sprout” the word spread to all that lives and begins: to be born, to bear, to grow, life, a living, raw, fresh, unfamiliar. A teacher is 先生, “born earlier”. As a part of other characters it gives sound and often sense. The Shuowen explains 姓, a family name, as 人所生也, “that from which a person is born”: 女, a woman, with 生; many of the oldest clan names, such as 姬 and 姜, are written with 女. By its modern parts, 性, “inborn nature”, is 心, the heart, with 生; the Shuowen takes 生 there as the sound. In this passage the verb comes two times: things are [[born|sheng]] from having, and having from not-having. Keep the plant in mind. The white paper under the base line is not drawn, and the sprout stands on it.",
+      "brush": "Five strokes. First the short stroke at the upper left, which falls to the left. Second, a horizontal that starts from the middle of it. Third, a shorter horizontal below. Fourth, the vertical, from above the first horizontal straight down through both. Fifth, the base, the longest line. Watch the three horizontals: they must be unequal, middle one shortest, base longest, and each one tilted up a little to the right, or the plant becomes a fence. The vertical must stand exactly on the middle of the base. The first stroke is the only one that leans, and it gives the character its life; write it too flat and the sprout wilts. In cursive script the whole character becomes one line with two loops, written in a single breath."
+    }
+  ]
+}

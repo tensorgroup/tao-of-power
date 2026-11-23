@@ -1,0 +1,243 @@
+{
+  "n": 30,
+  "title": "Fruit, and Stop",
+  "theme": "conflict",
+  "zh": [
+    {
+      "text": "以道佐人主者，不以兵強天下。",
+      "gloss": {
+        "2": "to assist, to serve as second (the “left hand”)",
+        "9": "weapons; soldiers; war"
+      }
+    },
+    {
+      "text": "其事好還。",
+      "gloss": {
+        "2": "hào: to be fond of, to tend to (not hǎo, good)",
+        "3": "huán: to come back, to turn round"
+      }
+    },
+    {
+      "text": "師之所處，荊棘生焉。大軍之後，必有凶年。",
+      "gloss": {
+        "17": "ill-omened; of a harvest: failed"
+      }
+    },
+    {
+      "text": "善有果而已，不敢以取強。",
+      "gloss": {
+        "2": "fruit; a result; to bring to a result",
+        "4": "to stop; “and that is all”"
+      }
+    },
+    {
+      "text": "果而勿矜，果而勿伐，果而勿驕。",
+      "gloss": {
+        "13": "haughty; first: a tall horse"
+      }
+    },
+    {
+      "text": "果而不得已，果而勿強。"
+    },
+    {
+      "text": "物壯則老，是謂不道，不道早已。",
+      "gloss": {
+        "1": "in full vigour, at the prime",
+        "13": "finished, over (the same graph as “stop” above)"
+      }
+    }
+  ],
+  "rendering": [
+    "One who [[assists|zuo]] a [[lord of people|ren-zhu]] with Dao",
+    "does not [[force|qiang]] all under heaven with [[weapons|bing]].",
+    "Such business [[likes to come back|hao-huan]].",
+    "",
+    "Where [[an army|shi]] has camped, [[thorn and bramble|jing-ji]] grow.",
+    "After a great host there are sure to be [[years of hunger|xiong-nian]].",
+    "",
+    "The good one [[bears fruit, and stops|guo]],",
+    "and does not dare take the strong place by it.",
+    "Fruit, and no pride.",
+    "Fruit, and no boast.",
+    "Fruit, and [[no high horse|jiao]].",
+    "Fruit, [[because there was no choice|bu-de-yi]].",
+    "Fruit, and no forcing.",
+    "",
+    "A creature [[at its full strength then grows old|zhuang-lao]].",
+    "This is called [[not-Dao|bu-dao]].",
+    "What is not-Dao is [[early finished|zao-yi]]."
+  ],
+  "notes": {
+    "zuo": {
+      "kind": "etymology",
+      "title": "佐: the left hand",
+      "body": "The word for “assist” is written 佐: a person, 亻, beside 左, “left”. The person was added late. The older way to write the word was 左 alone, and the Shuowen defines that graph by the act: 手相左助也, “hands that help each other”. Its parts are a left hand and 工, a tool, the carpenter’s square: the hand that holds the work steady while the right hand cuts. So a minister is a ruler’s left hand, and the two words “left” and “help” were one. The speaker of this passage does not address the lord. It speaks to, or about, the left hand: the adviser who has knowledge and no army of his own. Passage 31, which follows, turns on left and right. Which of your two hands holds things still?",
+      "src": [
+        "Shuowen Jiezi, 左部: 左，手相左助也。从𠂇、工。"
+      ]
+    },
+    "ren-zhu": {
+      "kind": "geopolitics",
+      "title": "The adviser’s trade",
+      "body": "人主, “lord of people”, is the Warring States term for a ruler seen as an employer. The men who served such lords were mostly outsiders: trained, landless, hired for results. The quickest result was military, and several advisers made states strong by arms and paid for it. Wu Qi reformed the army of Chu; when his king died in 381 BCE the nobles shot him full of arrows. Shang Yang rebuilt Qin for war; in 338 BCE, under a new ruler, he was torn apart by chariots. So the first sentence is professional advice inside a dangerous profession, and the third sentence, [[“such business likes to come back”|hao-huan]], had faces. The passage does not ask the adviser to leave. The verb is 佐, to assist. It asks what the left hand should refuse to hold.",
+      "src": [
+        "Shiji 65 (Wu Qi), 68 (Shang Yang)"
+      ]
+    },
+    "bing": {
+      "kind": "etymology",
+      "title": "兵: two hands on an axe",
+      "body": "兵 is the general word for arms. The Shuowen says 械也, “implements”, and reads the graph as 从廾持斤，并力之皃: “two hands that hold an axe; the look of strength joined”. 斤 is an axe or adze, “for cutting wood” in the Shuowen. You can still see the hands as the two legs at the bottom of the modern form. The word then moved from the tool to the man: 兵 came to mean the soldier, then troops, then war as such. Sunzi’s book is the 兵法, “the method of 兵”. Notice that the picture is not a sword or a spear. It is a woodsman’s tool gripped with both hands, a thing made for trees and turned on people. The same graph opens passage 31, where it is called a tool of ill omen.",
+      "src": [
+        "Shuowen Jiezi, 𠬞部: 兵，械也。从廾持斤，并力之皃。",
+        "Shuowen Jiezi, 斤部: 斤，斫木也。象形。"
+      ]
+    },
+    "qiang": {
+      "kind": "wordplay",
+      "title": "強, three times",
+      "body": "The passage is fenced by one word. Line 2: do not 強 the world with weapons. Middle: do not dare to 取強, “take strength”, where 取 is the trophy word of passage 29. Last line of the list: 果而勿強, “fruit, and no forcing”. The Mawangdui silk texts are reported to end the list with a summary that makes the point outright: 是謂果而不強, “this is called fruit without force”. 強 is “strong”, “to force”, and “stiff”, and in this book it is nearly always a symptom (see the note in passage 25 on the insect in its graph). The text does not oppose strength to weakness here. It opposes 強 to 果: forcing an outcome against letting an outcome ripen. Both get results. Only one of them, the last stanza says, has a long life.",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "hao-huan": {
+      "kind": "wangbi",
+      "title": "Wang Bi: what comes back?",
+      "body": "其事好還 is four characters: “its affairs are fond of return”. The common reading is retaliation. The use of arms comes back on the user: the invaded invade, the son avenges the father. [[Legge|legge]] has “its proper return”. Wang Bi reads the line in a different direction: 為始者務欲立功生事，而有道者務欲還反無為，故云其事好還也。 “Those who start things strive to set up merit and make business. Those who have the Dao strive to turn back to not-doing. So the text says: their business is fond of return.” For him 其 points to the adviser with the Dao, and 還 is the homeward motion of the whole book, the 復歸 of passage 28. One reading is a warning and the other is a description of character. The grammar allows both, and both use the same picture: a thing that goes out and turns round.",
+      "src": [
+        "Wang Bi commentary on Laozi 30",
+        "Shuowen Jiezi, 辵部: 還，復也。从辵瞏聲。"
+      ]
+    },
+    "shi": {
+      "kind": "wordplay",
+      "title": "The teacher comes back as an army",
+      "body": "師之所處: “where the 師 stays”. Three passages ago 師 was the teacher whom the not-good person needs. Here it is the older sense of the same graph, an army; the Shuowen counts it at two thousand five hundred men. The next line has the larger unit, 軍, which the Shuowen explains as 圜圍也, “an encirclement”, a camp ringed with chariots, 車. And the verb is 處, “to stay, to settle”, the word passage 24 used for what the one with the Dao does not do among warts and leftovers. An army 處 on farmland as a household does, with fires, latrines, and horses, and then moves on. The line does not describe a battle. It describes the ground afterwards. What grows in a place after you have camped there?",
+      "src": [
+        "Shuowen Jiezi, 帀部: 師，二千五百人爲師。",
+        "Shuowen Jiezi, 車部: 軍，圜圍也。四千人爲軍。从車，从包省。"
+      ]
+    },
+    "jing-ji": {
+      "kind": "etymology",
+      "title": "荊棘: thorn country",
+      "body": "Two shrubs that take over abandoned fields. 棘 is the wild jujube; its graph is two thorns side by side (see the plate). 荊 is the chaste tree, a tough bush whose rods were used for flogging; the Shuowen says 楚木也, “the tree of Chu”, and under 楚 it says 一名荊也, “another name is 荊”. The great southern state of Chu was also called Jing: Thorn-land. The Mawangdui silk texts are reported to write 楚棘 here. Tradition makes Laozi a man of Chu, and the Guodian slips, the oldest copy of this passage, came out of a Chu tomb. So for its first readers the plant that follows an army had the name of their own country. In modern Chinese 荊棘 still means hardship, and a “thorny” problem is 棘手, “thorns to the hand”.",
+      "src": [
+        "Shuowen Jiezi, 艸部: 荊，楚木也。从艸刑聲。",
+        "Shuowen Jiezi, 林部: 楚，叢木。一名荊也。从林疋聲。",
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Shiji 63, “Biography of Laozi”"
+      ]
+    },
+    "xiong-nian": {
+      "kind": "variant",
+      "title": "A line the oldest copies lack",
+      "body": "大軍之後，必有凶年: “after a great host there are sure to be bad years”. 年 is in the Shuowen’s old form “the grain is ripe”, so a year is a harvest, and a 凶年 is a harvest that fails. For 凶 the Shuowen sees a pit in the ground that something has fallen into. The line is exact about cause: men and oxen taken from the fields, seed grain eaten, dikes unrepaired. But the Mawangdui silk texts are reported not to have it; they go from the thorns straight to “the good one bears fruit”. The Guodian slips are reported to lack it too, with the thorn line and the three closing lines on vigour and age. Most scholars therefore take the famine sentence as an early reader’s comment that entered the text; Wang Bi’s note explains the thorns by “ruined and wasted fields” and does not quote the famine sentence. Someone who had seen it added eight characters. They are true, and they stayed.",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Guodian Laozi A (as reported)",
+        "Shuowen Jiezi, 凶部: 凶，惡也。象地穿交陷其中也。",
+        "Shuowen Jiezi, 禾部: 秊，穀孰也。从禾千聲。"
+      ]
+    },
+    "war-scale": {
+      "kind": "geopolitics",
+      "title": "What war had become",
+      "body": "In the old Zhou world, war was a matter of nobles in chariots, a few thousand men, and a day’s fight with rules. By the fourth century BCE the states had registered their whole farming populations, and they put conscript infantry into the field by the hundred thousand for campaigns of months or years. The histories give numbers that may be inflated and are still a measure of the horror: 240,000 heads taken by Qin at Yique in 293 BCE; 400,000 men of Zhao killed after their surrender at Changping in 260 BCE. Mencius said of his own time: 爭地以戰，殺人盈野, “they fight for land, and the killed fill the fields”. Every soldier was a farmer who was absent from a plot. That is why this passage counts the cost of war in weeds and harvests. Its author did not need to mention the dead.",
+      "src": [
+        "Shiji 5, 73",
+        "Mencius 4A14"
+      ]
+    },
+    "guo": {
+      "kind": "etymology",
+      "title": "果: fruit on the tree",
+      "body": "The Shuowen defines 果 as 木實也, “the fruit of a tree”, and says the graph shows the shape of fruit on top of 木. From fruit came “result”, “outcome”; then “to carry through, resolute”; then the adverb “indeed, as it turned out”. Wang Bi glosses it here with 濟, “to bring across, to bring relief”: the good commander goes to settle the trouble, and that is all. Our source has 善有果, with no 者; other old copies are reported to read 善者果, and “the good one” follows them and Wang Bi. Most English versions say “achieves his purpose” or “wins” and lose the tree. The picture matters because of the next two words, 而已: “and stops”. A tree bears and is finished for the year. It does not press on to bear more in winter. The word then comes five more times, each with a thing to leave off: 果而, 果而, 果而, 果而, 果而. What have you carried to fruit and then kept working on?",
+      "src": [
+        "Shuowen Jiezi, 木部: 果，木實也。从木，象果形在木之上。",
+        "Wang Bi commentary on Laozi 30"
+      ]
+    },
+    "jiao": {
+      "kind": "etymology",
+      "title": "驕: the tall horse",
+      "body": "The third warning is 勿驕. The graph has 馬, a horse, and the Shuowen gives the first sense with a measurement: 馬高六尺爲驕, “a horse six feet high is called 驕”. It quotes an ode about a team of such horses. A tall, spirited horse carries its head high and is hard to hold; from that the word came to mean “haughty”. English happens to own the same picture, and we used it: a proud person is on a high horse. Now look at the three warnings as graphs. 矜 is in the Shuowen a spear shaft. 伐 is a person with a halberd. 驕 is a warhorse. Passage 24 used the first two of a civilian’s self-regard. Here they are back in their own country: a commander after a victory, told to put down the spear, the halberd, and the horse that are inside his pride.",
+      "src": [
+        "Shuowen Jiezi, 馬部: 驕，馬高六尺爲驕。从馬喬聲。《詩》曰：“我馬唯驕。”一曰野馬。"
+      ]
+    },
+    "bu-de-yi": {
+      "kind": "gap",
+      "title": "不得已: when there is no choice",
+      "body": "不得已 is, word for word, “not get to stop”: one cannot leave it undone. It is the phrase for action under necessity, and it is the nearest thing in the book to a rule for when arms may be used. It comes in passage 31 as well: weapons are used 不得已. The phrase does not say “when it is justified”. A justification is something one constructs. 不得已 is something one runs out of alternatives to. The Zhuangzi makes it a discipline for all of life: to lodge in what cannot be helped and so feed what is central. Legge gives “a matter of necessity”, which is fair. The Mawangdui silk texts are reported to word the line differently, 果而毋得已居, and scholars do not agree on how to read it. Ask of the last hard thing you did: had I truly no choice, or had I a reason?",
+      "src": [
+        "Zhuangzi 4, “In the World of Men”",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "zhuang-lao": {
+      "kind": "gap",
+      "title": "壯 and 老: the prime, and after",
+      "body": "物壯則老: “a creature, at its prime, then grows old”. 壯 is the body at full power; the Shuowen says only 大也, “big”. The Book of Rites gives it an age: 三十曰壯, “at thirty one is called 壯”. 老 is seventy in the Shuowen, someone with hair and beard gone white: 言須髮變白也. The line can seem to call ageing a fault, and that cannot be meant; trees age. Wang Bi shows the sense by glossing 壯 as 武力暴興, “armed force that rises suddenly”, and quoting passage 23: a whirlwind does not last the morning. The fault is the forced peak. A thing pushed to its maximum has nowhere to go from there. The same three lines close passage 55, which is about an infant: the child is all vitality and no 壯, so the vitality does not run out. What in your life is being held at its peak by effort?",
+      "src": [
+        "Liji, “Qu li”",
+        "Shuowen Jiezi, 士部: 壯，大也。从士爿聲。",
+        "Shuowen Jiezi, 老部: 老，考也。七十曰老。从人、毛、匕。言須髮變白也。",
+        "Wang Bi commentary on Laozi 30"
+      ]
+    },
+    "bu-dao": {
+      "kind": "gap",
+      "title": "Can anything be “not-Dao”?",
+      "body": "是謂不道: “this is called not-Dao”. Dao is left in Chinese (see passage 1): a way, the way things go. The phrase raises a real question. If Dao is the course of everything, how can a thing be off it? Passage 24 placed even boasting “in the Dao”, as its scraps. The answer in this passage is practical and not metaphysical. Nothing escapes the way things go; a forced peak is followed by a fall, and that fall is the way going on. What is 不道 is the conduct: it does not take the way as a way. It rows against the current, and the current remains in charge. So the text does not threaten punishment. It gives a forecast, in the next four characters. Legge’s “not in accordance with the Tao” makes it sound like a breach of regulations. Is a river “not in accordance” with a swimmer who tires?"
+    },
+    "zao-yi": {
+      "kind": "wordplay",
+      "title": "已, twice: stop, or be stopped",
+      "body": "The passage uses 已 two times in the received text, and they answer each other. In the middle: 果而已, “fruit, and stop”. There 已 is a choice. The good commander ends the action when the result is in. At the end: 不道早已, “not-Dao: early finished”. There 已 is what happens to the one who did not choose it. The Mawangdui texts are reported to write the last phrase 蚤已, with a sound-loan for 早. The Shuowen explains 早, “early”, as the sun, 日, over a sign it reads as armour: first light. So the forecast is not “destroyed”. It is quieter: over by morning. The whole ethic of the passage sits between the two uses of one small word. Stop, or be stopped. In passage 29 the same graph ended the sentence about the man who would take the world.",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Shuowen Jiezi, 日部: 早，晨也。从日在甲上。"
+      ]
+    },
+    "sunzi": {
+      "kind": "history",
+      "title": "The soldiers agreed",
+      "body": "It would be easy to read this passage as a civilian’s protest. The military writers of the same centuries say much the same. Sunzi: 夫兵久而國利者，未之有也, “there has never been a long war from which a state gained”. And: to win a hundred battles is not the best skill; to subdue the enemy’s force without a battle is. His book begins by calling war “the ground of death and life” for a state, a thing to be studied with dread. The Laozi and the Sunzi share a vocabulary, the same cool eye for costs, and the idea of a result with no display. They differ in the aim. Sunzi wants to win cheaply. This passage wants the adviser to get the fruit and then, in its own words, to [[stop|zao-yi]], and it applies the same law to the victor’s own strength.",
+      "src": [
+        "Sunzi, “Zuo zhan” (Waging War) and “Mou gong” (Attack by Stratagem)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “decisive blow”",
+      "body": "Legge turns 果 into a military act: “A skilful (commander) strikes a decisive blow, and stops.” He repeats “strikes” through the list. This is the idiom of a nineteenth-century campaign report. The Chinese word is a fruit. It names what comes of the action, and it leaves open that the result might be reached with no blow at all. His 好還 is “sure to meet with its proper return”: “proper” makes the comeback a just reward, as if a judge were keeping accounts. And for 不道 he has “not in accordance with the Tao”. Still, he keeps the briars and the bad years plain. Set his “strikes a decisive blow” beside 果. What does the reader of each picture expect the good commander to be doing?",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "Four parts. A rule for one profession: the one who [[serves a lord as his left hand|zuo]] by the Dao does not make the world submit by [[arms|bing]], because that kind of business [[comes back|hao-huan]]. Evidence from the fields: [[thorns|jing-ji]] where the army camped, and [[failed harvests|xiong-nian]] after it. A code for the case in which force is used: get [[the fruit|guo]] and stop; then five short lines, each “fruit, and…”, that take away [[the spear, the halberd, the tall horse|jiao]], plead [[necessity|bu-de-yi]], and forbid [[forcing|qiang]]. A law of bodies to close: what is driven to [[its prime grows old|zhuang-lao]]; this is [[not-Dao|bu-dao]], and it is [[soon over|zao-yi]]. The passage assumes that there will be armies. [[Its age left no room to doubt it.|war-scale]]",
+    "inner": "Every person has a lord to assist and weapons to hand. The lord is whatever one serves: an aim, a principle, the wish to be good. The weapons are will, anger, argument, discipline turned harsh. The passage says what happens when the aim is served by those means. The ground where the force camped grows [[thorns|jing-ji]]: a habit broken by violence leaves a waste where it stood, and something tough and unpleasant moves in. The middle stanza gives the alternative in the same domain, because sometimes one must act hard. Do the thing until [[it has borne|guo]]. Then stop. No story of victory, no new opinion of oneself, [[no high horse|jiao]]. And check the claim of [[necessity|bu-de-yi]] honestly. The last law is about energy: a state of mind [[held at its peak|zhuang-lao]] by effort is already on its way down.",
+    "leading": "The speaker stands where many readers stand: not the owner, but [[the one who advises|ren-zhu]]. The first counsel is about means. A leader can usually get the next result by force: by threat, by a purge, by a price war, by pressure on the team. The adviser is asked to see the [[return|hao-huan]]: force teaches force, and the ground it crosses is poorer afterwards. The second counsel is about success, and it is rarer. When a hard action was truly needed and it worked, the danger starts. [[Five lines|guo]] list what to refuse: self-satisfaction, the public claim, the swagger, the reason found afterwards, and the use of this win to become the strong one. The military writers of the time [[said much the same|sunzi]]. An organisation at its [[forced peak|zhuang-lao]] should be read as old.",
+    "nature": "The passage reasons from fields and trees. An army is described as an ecological event: it [[settles|shi]] on worked land, and the land’s response is succession, the tough thorny shrubs that take a disturbed and abandoned plot. Then the harvest, which is what [[a year|xiong-nian]] is, fails. The alternative is also a plant: [[果|guo]], the fruit. A tree puts out blossom, sets fruit, ripens it, and is done; then it rests. It does not hold the fruit, and it does not treat the fruit as a reason to grow thorns. The last stanza is a law of organisms. Growth that is driven hard and early to a maximum, like a forced bulb or a crop on too much manure, [[is followed quickly by decline|zhuang-lao]]. The plant that lasts is never quite at full stretch.",
+    "practice": "Find one result this week that you got by pushing: an argument won, a child or colleague made to comply, your own body driven through tiredness. Go back and look at the ground where the force camped. What is growing there now: resentment, a flinch, a debt of sleep? That is the second stanza. Then take the next task that does need firmness and try the code. Before: ask if there is [[truly no other way|bu-de-yi]]. During: aim at [[the fruit|guo]] only, the one outcome needed. After: stop at once. Say nothing about it for a day. Notice the pull to mention it, to stand a little taller, to press the advantage. Each pull is one of the “and no…” lines. See which is strongest in you: the spear, the halberd, or [[the horse|jiao]]."
+  },
+  "glyph": "果",
+  "plates": [
+    {
+      "c": "果",
+      "title": "Fruit at the top of the tree",
+      "lesson": "Start with 木, a tree: an upright trunk, a line for the branches, two strokes that fall away as roots. The Chinese script makes many words by marking this one picture. A short line at the foot gives 本, root (passage 26). A line at the top gives 末, the tip; the Shuowen says 木上曰末. A line through the middle gives 朱, which the Shuowen calls a tree with a red heart. A hand above gives 采, to pick. A nest of birds above gives 巢. And a round thing on top gives 果: 木實也，象果形在木之上, “the fruit of a tree; it shows the shape of fruit on the tree”. The top part looks like 田, a field, in today’s writing. It is not a field. It is one large fruit, drawn round in the old script and squared by the brush; early forms, as commonly described, show several fruits on the branches. The word grew as fruit grows. First the thing you can eat. Then any outcome: 結果, “to tie fruit”, is the modern word for a result. Then the quality of a person who carries things through, 果敢, “resolute”. Then the Buddhist 因果, cause and fruit, the law that acts ripen. When this passage says [[果而已|guo]], all of these are present, and the picture underneath them is a tree in autumn. It has done the year’s work. It is not proud of the pear.",
+      "brush": "Eight strokes. The fruit is written first, and it is not closed in the way that a box usually is. Stroke one is its left side. Stroke two is the top and right side in one turn. Strokes three and four are two horizontals, one across the middle and one that closes the bottom. Stroke five is the long horizontal of the tree, wider than the fruit. Now watch stroke six: one vertical that starts inside the fruit at the top, comes down through its centre, crosses the long horizontal, and continues as the trunk. A single line is the core of the fruit and the trunk of the tree. Stroke seven falls to the left from the crossing, and stroke eight falls to the right, heavier, with a level tail. The fruit must sit square and compact, and the two falling strokes must spread wide under it, or the tree looks top-heavy."
+    },
+    {
+      "c": "棘",
+      "title": "Thorn beside thorn",
+      "lesson": "One part, written twice. The part is 朿, which the Shuowen defines as 木芒也, “the awn of a tree”, a thorn, and calls a picture: a tree, 木, with spikes that stick out from the trunk. The Shuowen adds 讀若刺, “read like 刺”, and 刺, to stab, is the thorn with a knife added. Now the script does something clever with position. Put two thorns one above the other and you have 棗, the jujube or Chinese date, a thorny tree that grows tall: 从重朿, “from thorn stacked on thorn”. Put two thorns side by side and you have 棘, the wild jujube that stays low and spreads in thickets: 小棗叢生者。从並朿, “the small jujube that grows in clumps; from thorn beside thorn”. Up means height; across means a hedge. Chinese often makes a word by doubling: 林, two trees, a wood; 炎, two fires, a blaze; 賏, two shells, a necklace; 誩, two speeches, a quarrel. Other thorns in the script: 策, bamboo over 朿, the whip and the counting slip of passage 27. Because 棘 makes a hedge that nothing passes, it was planted round prisons and examination halls, and the word still means a hard matter. In this passage it is [[what a camp leaves behind|jing-ji]]. A field is rows of one useful plant. A thicket is the same sign repeated with no room between.",
+      "brush": "Twelve strokes, six and six. The left thorn: stroke one is a short horizontal. Stroke two is a short vertical at the left, under it. Stroke three is a horizontal that turns down and hooks inward: with stroke two it makes the pair of spikes. Stroke four is the long vertical through the middle. Stroke five falls to the left from the crossing. Stroke six is only a dot on the right. Now the right thorn repeats the first five movements as strokes seven to eleven. But stroke twelve is a full stroke that falls to the right with a long tail. This is the lesson of the character. A regular-script character has only one such long right-falling stroke, so the left tree gives up its own and takes a dot. The two parts are the same in the dictionary and unequal on the page: the left one stands narrow and yields, and the right one finishes."
+    }
+  ]
+}

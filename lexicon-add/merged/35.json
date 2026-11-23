@@ -1,0 +1,54 @@
+{
+  "淡": {
+    "senses": ["thin in flavor, bland, weak (of soup, wine, tea)", "pale (of color, ink)", "calm, without strong wants"],
+    "shuowen": "薄味也。从水炎聲。",
+    "shuowenEn": "Thin flavor. From water, with 炎 for the sound.",
+    "parts": [{"c": "氵", "m": "water"}, {"c": "炎", "m": "two fires: blaze; here the sound part"}],
+    "story": "A cook’s word: broth with too much water. The Laozi uses it for the Dao when it is spoken, “bland, it has no flavor” (35), and for the right spirit in war, 恬淡, “calm and bland” (31). From these lines and from the Zhuangzi, where the friendship of noble people is “bland like water”, the word rose to be a term of high praise in Chinese taste: plain food, pale ink, quiet verse, a heart that wants little. The sound part 炎 is shared with 談, “to talk”.",
+    "gap": "“Bland”, “insipid”, and “tasteless” are complaints in English. 淡 can be the best thing that one says about a painting or a person."
+  },
+  "客": {
+    "senses": ["guest, visitor", "lodger, traveler, stranger", "a retainer who lives at a lord’s table", "the invading side in war (the opposite of 主, the host)"],
+    "shuowen": "寄也。从宀各聲。",
+    "shuowenEn": "To lodge. From a roof, with 各 for the sound.",
+    "parts": [{"c": "宀", "m": "roof"}, {"c": "各", "m": "a foot that arrives at an opening; also the sound part"}],
+    "story": "A guest is one who stays under a roof that belongs to another. 各, the lower part, wrote the verb “to arrive” in early inscriptions. In the Warring States the 客 were a social class: men of talent who traveled from court to court and lived as retainers. The Laozi uses the word three times: the cautious masters of old are “grave, like a guest” (15); the passing guest stops for music and cakes (35); and the soldier says “I do not dare to be the host, I would rather be the guest” (69).",
+    "gap": "English “guest” is warm and domestic. 客 is also the stranger, the customer, and the one who will leave."
+  },
+  "執": {
+    "senses": ["to hold in the hand, to grip", "to seize, to arrest", "to hold to (a view, a rule), to manage"],
+    "shuowen": "捕罪人也。",
+    "shuowenEn": "To seize a criminal.",
+    "story": "The early forms are commonly explained as a person on the knees with the hands in a shackle. The word kept that force: a grip that does not let go. The Laozi warns against it, “the one who grips it loses it” (29, 64), and then uses it for the right kind of holding: hold the Dao of old (14), hold the great image (35), hold the left half of the tally and make no claim (79). The short form is 执.",
+    "gap": "“Hold” is too soft and “grasp” is too greedy. 執 is the firm hold of an officer; the Laozi applies it to things that have no handle."
+  },
+  "往": {
+    "senses": ["to go toward, to set out for", "gone, past; the past"],
+    "shuowen": "之也。",
+    "shuowenEn": "To go to.",
+    "parts": [{"c": "彳", "m": "a step on the road"}],
+    "story": "The plain verb for motion away from the speaker and toward a goal; its partner is 來, to come. With 來 it also makes the pair past and future. In passage 35 all under heaven 往 to the one who holds the great image. In passage 80 the people of the small state grow old and die and do not 往來, go and come, to the next village. Both are pictures of a world at peace, and they point in opposite directions.",
+    "gap": "English versions often write “comes” for 天下往 and so stand beside the ruler. The Chinese verb stands on the road with the people."
+  },
+  "安": {
+    "senses": ["rest, safety, peace; to settle", "content with, at ease in", "(question word) where? how?", "(connecting word) then, thereupon"],
+    "shuowen": "靜也。从女在宀下。",
+    "shuowenEn": "Still. From a woman under a roof.",
+    "parts": [{"c": "宀", "m": "roof"}, {"c": "女", "m": "woman"}],
+    "story": "A woman under a roof: the peace of a house in order. As a verb it is “to settle”: the Laozi asks who can settle the muddy water until it clears (15), and says that a thing still in its place can be held with ease (64). It is also a small grammar word. In 大道廢，有仁義 the Guodian and Mawangdui texts add it, 安有仁義, where it means “then” or “how”. In passage 35, 安平太 can be three kinds of peace, or “and then: even and at great ease”.",
+    "gap": "“Peace” in English comes from a word for a pact. 安 is not the end of a fight. It is the stillness of being at home."
+  },
+  "餌": {
+    "senses": ["a cake of rice or flour; a sweet", "bait; to lure", "to take (a drug, an elixir)"],
+    "parts": [{"c": "飠", "m": "food"}, {"c": "耳", "m": "ear; the sound part"}],
+    "story": "Food at the left and 耳 for the sound. The word is a pleasant cake at a feast and the bait on a fish-hook, and classical writers use the double sense often. In passage 35 music and 餌 stop the passing guest. Read as cake, the line is a kind remark about tired travelers. Read as bait, it is a remark about how the world catches people. The Dao that follows has no flavor, so it cannot bait a hook.",
+    "gap": "English must choose “cakes” or “bait”. The pinned word is both, and the passage needs both."
+  },
+  "樂": {
+    "senses": ["(yuè) music", "(lè) joy, pleasure; to enjoy", "(yào) to delight in, to be fond of"],
+    "shuowen": "五聲八音緫名。象鼓鞞。木，虡也。",
+    "shuowenEn": "The general name for the five tones and eight kinds of instrument. It shows drums; the wood is the stand.",
+    "story": "One graph for music and for joy. The Shuowen sees drums on a wooden frame; other explanations of the early form exist. For the Confucians, music was a tool of government and the twin of ritual, and they joined the two readings in a motto: “music is joy”. The Laozi uses yuè once, for the music that stops a traveler (35). It uses lè for the grim joy of the killer (31) and for the people who are glad to push the sage forward (66).",
+    "gap": "No English word is both “music” and “joy”. The reader of Chinese cannot see one and not the other."
+  }
+}

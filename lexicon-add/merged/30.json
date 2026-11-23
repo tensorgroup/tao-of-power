@@ -1,0 +1,66 @@
+{
+  "果": {
+    "senses": ["the fruit of a tree", "a result, an outcome; to bring to a result", "resolute, decisive", "indeed, as expected"],
+    "shuowen": "木實也。从木，象果形在木之上。",
+    "shuowenEn": "The fruit of a tree. From 木 (tree); it shows the shape of fruit on top of the tree.",
+    "parts": [{"c": "田", "m": "here: a round fruit (not a field)"}, {"c": "木", "m": "a tree"}],
+    "story": "A fruit drawn on a tree. Every later sense is a ripening of the first: a result is what an action bears, a resolute person carries a matter through to its fruit, and Buddhists paired the word with 因, cause, to name the law of acts and their consequences. In Laozi 30 it is said six times of the good commander: get the fruit and stop; fruit and no pride, no boast, no arrogance, no forcing.",
+    "gap": "“Result” and “success” are abstract. 果 hangs on a branch, and a tree does not go on bearing after harvest."
+  },
+  "棘": {
+    "senses": ["the wild jujube, a low thorn bush", "thorns; thorny, hard to handle"],
+    "shuowen": "小棗叢生者。从並朿。",
+    "shuowenEn": "The small jujube that grows in clumps. From two 朿 (thorns) side by side.",
+    "parts": [{"c": "朿", "m": "a thorn; a tree with spikes"}, {"c": "朿", "m": "the same again, beside it"}],
+    "story": "棘 writes a thicket by setting one thorn tree beside another; the same sign stacked, 棗, is the tall jujube. The shrub colonises neglected ground and makes a hedge that people and animals avoid. Laozi 30 names it with 荊 as what grows where an army has camped. The pair 荊棘 is still the common word for difficulties in one’s path.",
+    "gap": "English “brambles” suggests a country lane. 棘 in this text is farmland that has gone out of use."
+  },
+  "兵": {
+    "senses": ["weapons, arms", "a soldier; troops", "war, military affairs"],
+    "shuowen": "械也。从廾持斤，并力之皃。",
+    "shuowenEn": "Implements (of war). From two hands that hold an axe; the look of strength joined.",
+    "parts": [{"c": "斤", "m": "an axe, an adze"}, {"c": "廾", "m": "two hands"}],
+    "story": "Two hands grip an axe. The word began as the weapon, passed to the men who carry weapons, and then to war as a whole: the 兵法 of Sunzi is “the method of war”. The Laozi names it often and never with praise. One does not force the world with 兵 (30); 兵 are tools of ill omen (31); strong 兵 do not win (76); when armies meet, the one that grieves wins (69).",
+    "gap": "English must choose “weapons”, “soldiers”, or “war”. 兵 is all three, so a sentence about tools is also about men."
+  },
+  "驕": {
+    "senses": ["a tall, spirited horse (Shuowen)", "proud, haughty, arrogant", "to spoil, to indulge"],
+    "shuowen": "馬高六尺爲驕。从馬喬聲。《詩》曰：“我馬唯驕。”一曰野馬。",
+    "shuowenEn": "A horse six feet high is called 驕. From 馬 (horse); 喬 gives the sound. The Odes say: “My horses are tall and proud.” Another sense: a wild horse.",
+    "parts": [{"c": "馬", "m": "a horse"}, {"c": "喬", "m": "sound part; by itself: tall"}],
+    "story": "A big horse that carries its head high. The word moved from the animal to the person who behaves like one. The Laozi uses it twice: wealth and rank with 驕 bring their own disaster (9), and a commander who has his result must not be 驕 (30).",
+    "gap": "By luck English has the same image in “to be on one’s high horse”."
+  },
+  "還": {
+    "senses": ["to come back, to return", "to turn round; to give back", "hái: still, yet (modern)"],
+    "shuowen": "復也。从辵瞏聲。",
+    "shuowenEn": "To return. From 辵 (walking); 瞏 gives the sound.",
+    "parts": [{"c": "辶", "m": "walk, movement"}, {"c": "瞏", "m": "sound part"}],
+    "story": "還 is the journey home, and by extension anything that comes round to its start. In Laozi 30, the business of arms “is fond of 還”: it rebounds on the one who began it, or, as Wang Bi reads, the one with the Dao is always turning back toward not-doing. The word belongs with 復, 歸, and 反, the book’s family of returns.",
+    "gap": "“Retaliation” is one narrow kind of return. 還 says only that the thing comes back."
+  },
+  "荊": {
+    "senses": ["the chaste tree, a tough shrub; a rod cut from it", "thorny scrub", "Jing: an old name for the state of Chu"],
+    "shuowen": "楚木也。从艸刑聲。",
+    "shuowenEn": "The tree of Chu. From 艸 (plants); 刑 gives the sound.",
+    "parts": [{"c": "艹", "m": "plants"}, {"c": "刑", "m": "sound part; by itself: punishment"}],
+    "story": "荊 is a hardy bush of waste ground whose rods were used to beat offenders. It is also another name for Chu, the great state of the south. Laozi 30 pairs it with 棘 for the scrub that follows an army, and the Mawangdui silk texts write 楚 in its place.",
+    "gap": "“Thorns” loses the name of a country. A reader from Chu saw home in the word."
+  },
+  "凶": {
+    "senses": ["ill-omened, unlucky", "bad, harmful; a disaster", "of a harvest: failed (凶年)"],
+    "shuowen": "惡也。象地穿交陷其中也。",
+    "shuowenEn": "Bad. It shows the ground dug out and something crossed that has fallen into it.",
+    "parts": [{"c": "凵", "m": "a pit in the ground"}, {"c": "㐅", "m": "a mark for what has fallen in"}],
+    "story": "The Shuowen’s picture is a pitfall. 凶 is the verdict of a bad divination, the opposite of 吉, and the regular word for a year when the crops fail. In the Laozi, not to know the constant is to act blindly into 凶 (16); after a great army come 凶 years (30); and matters of 凶, mourning, honour the right-hand side (31).",
+    "gap": "“Evil” is a moral word. 凶 is nearer to “disaster”: what one falls into."
+  },
+  "老": {
+    "senses": ["old, aged; to grow old", "an elder; a term of respect", "worn, spent"],
+    "shuowen": "考也。七十曰老。从人、毛、匕。言須髮變白也。",
+    "shuowenEn": "Aged. At seventy one is called 老. From person, hair, and change: it says that beard and hair have turned white.",
+    "parts": [{"c": "耂", "m": "a person with long hair (short form)"}, {"c": "匕", "m": "change (as the Shuowen reads it)"}],
+    "story": "老 is a person whose hair has changed colour; early forms are commonly described as an old man with a stick. It is the first half of the name 老子, “the Old Master”. In the text itself the word is a warning sign: a thing forced to its prime “then grows old”, and that is called not-Dao (30, 55). The good old age of the book is called 壽 and 久, not 老.",
+    "gap": "“Old” in English can be honourable or sad. In the Laozi’s own usage 老 means used up before one’s time."
+  }
+}

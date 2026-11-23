@@ -1,0 +1,166 @@
+{
+  "n": 71,
+  "title": "To Know Not-Knowing",
+  "theme": "seeing",
+  "zh": [
+    {
+      "text": "知不知上，不知知病。",
+      "gloss": {
+        "0": "to know (verb)",
+        "2": "knowing (now the object): “not-knowing”",
+        "3": "above; the highest; some editions write 尚, “esteemed”",
+        "7": "to know, or to think one knows",
+        "8": "bìng: grave illness; a defect, a distress"
+      }
+    },
+    {
+      "text": "夫唯病病，是以不病。聖人不病，以其病病，是以不病。",
+      "gloss": {
+        "1": "only, just because",
+        "2": "bìng, as a verb: to treat as a sickness, to be distressed by",
+        "3": "the sickness (noun, the object)",
+        "8": "to be sick, to have the defect",
+        "17": "to take as a sickness (verb again)",
+        "18": "the sickness (noun again)"
+      }
+    }
+  ],
+  "rendering": [
+    "[[To know not-knowing|zhibuzhi]]: [[the highest|shang]].",
+    "[[Not to know knowing|buzhizhi]]: [[a sickness|bing]].",
+    "",
+    "[[Just because|fuwei]] [[the sickness is taken as a sickness|bingbing]],",
+    "by this there is no sickness.",
+    "",
+    "The [[sage|shengren]] is free of sickness:",
+    "because the sage [[takes the sickness as a sickness|repeat]],",
+    "by this [[free of sickness|medicine]]."
+  ],
+  "notes": {
+    "zhibuzhi": {
+      "kind": "gap",
+      "title": "知不知: three characters, four sentences",
+      "body": "知不知 is “know, not, know”. Classical Chinese has no “that”, no “and yet”, and no marks to show where a clause ends, so the three characters can be at least four English sentences. One: to know that one does not know. This is the common reading. Two: to know, and to hold it as not-knowing; [[Legge|legge]] takes this one, “to know and yet (think) we do not know”. Three: to know not-knowing, with 不知 as a noun: to be at home in the state where nothing is grasped. Four: to know the things that cannot be known, and to stop there. The Zhuangzi points at the third and fourth: 知止其所不知，至矣, “knowing that stops at what it does not know has arrived”. Our rendering keeps the three words in their order and lets the readings stay open. Which did you hear first?",
+      "src": [
+        "Zhuangzi, “Qi wu lun” (齊物論)"
+      ]
+    },
+    "shang": {
+      "kind": "variant",
+      "title": "上 or 尚, and one more 不",
+      "body": "The received text ends the first line with 上, “above, the highest”. The Mawangdui silk texts are reported to write 尚, “esteemed, the best”, and add the particle 矣: 知不知，尚矣. The two graphs were used for each other, and the sense is the same. The second line is the real difference. Silk A is reported to read 不知不知，病矣: “not to know not-knowing is the sickness”. The received text has one 不 fewer: 不知知, “not to know knowing”, which most readers take as “not to know, and to think one knows”. With the silk reading the two lines mirror each other exactly: know your not-knowing, the best; fail to know your not-knowing, the sickness. A single small negative, lost or added by a copyist, turns a clear statement into a puzzle. Many readers have learned from the puzzle.",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "buzhizhi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: knowing cannot bear the weight",
+      "body": "Wang Bi’s whole comment on this passage is one sentence: 不知知之不足任則病也. “Not to know that knowing is not enough to be relied on: that is the sickness.” His reading of 不知知 is neither of the usual two. For him the fault is not ignorance, and it is not false confidence about some fact. It is trust in knowing as such: the belief that knowledge can carry the load of a life or a state. 任 is “to bear, to be given a charge”. Knowing is a useful servant, and it cannot be given the charge. This fits passage 65, where he calls rule by cleverness a spiral of tricks. It also turns the first line: the highest thing is to know what knowing cannot do.",
+      "src": [
+        "Wang Bi commentary on Laozi 71"
+      ]
+    },
+    "bing": {
+      "kind": "etymology",
+      "title": "病: worse than ill",
+      "body": "Chinese has two old words for sickness. 疾 is an illness that strikes; the Shuowen gives its sound part as 矢, an arrow. 病 is heavier: the Shuowen says 疾加也, “an illness that has grown worse”. The frame on the upper left of both, 疒, is the sign of sickness; the Shuowen says it shows a sick person who leans on a support (see the plate). 病 also has wider senses that the passage uses. It is a defect or flaw in a thing. It is distress. And as a verb it is “to be troubled by, to count as a fault”. Confucius uses the verb in a line that speaks to passage 70: the noble person 病 his own lack of ability, and does not 病 the fact that others do not know him. English “disease” covers the first sense only.",
+      "src": [
+        "Shuowen Jiezi, 疒部: 病，疾加也。从疒丙聲。",
+        "Shuowen Jiezi, 疒部: 疾，病也。从疒矢聲。",
+        "Analects 15.19"
+      ]
+    },
+    "bingbing": {
+      "kind": "wordplay",
+      "title": "病病: verb and noun in one graph",
+      "body": "The passage has twenty-eight characters, and eight of them are 病. In 病病 the two are different parts of speech. The first is a verb: “to sick”, that is, to treat as sickness, to feel as a defect. The second is its object. Classical Chinese can use almost any word of quality in this way: 貴 it, “to hold it dear”; 輕 it, “to take it lightly”. English cannot repeat one word and must choose a verb: “recognize”, “be distressed by”, “take as”. Each choice loses the sound. To a Chinese ear the line is nearly a tongue-twister, bìng bìng … bù bìng, and the joke carries the teaching: the cure is made of the same stuff as the illness, turned on itself. Passage 72 does this again with 厭, and passage 64 with 欲不欲 and 學不學."
+    },
+    "fuwei": {
+      "kind": "wordplay",
+      "title": "夫唯 … 是以: the book’s hinge",
+      "body": "夫唯 X，是以 Y: “it is just because of X that Y”. This small frame is one of the signatures of the Laozi, and it nearly always holds a reversal. Just because the sage does not stay in the work, the work does not leave (2). Just because water does not contend, it is without blame (8). Just because it does not fill itself, it can wear out and be renewed (15). Just because there is no knowing, I am not known (70). Just because one does not press, one is not detested (72). Here: just because one takes the sickness as a sickness, one is not sick. 唯 is first a word of the mouth; the Shuowen defines it as 諾也, “to answer yes”. The frame is a yes to something small that turns out to be the whole cause. English “only” hides how much weight it bears.",
+      "src": [
+        "Shuowen Jiezi, 口部: 唯，諾也。从口隹聲。",
+        "Laozi 2, 8, 15, 70, 72"
+      ]
+    },
+    "repeat": {
+      "kind": "variant",
+      "title": "A sentence said twice",
+      "body": "The received text says the same thing twice: 夫唯病病，是以不病, and then, of the sage, 以其病病，是以不病. The Mawangdui silk texts are reported to have it once: 是以聖人之不病，以亓病病也，是以不病. “So the sage’s not being sick is by taking the sickness as sickness; and so there is no sickness.” The general sentence with 夫唯 is absent. It is possible that an early reader wrote a short explanation beside the line and that a copyist later took it into the text. It is also possible that the fuller form was a chant, said twice for memory. The effect differs. The reported silk version is one closed circle. The received text first gives the rule to everyone and then shows the sage inside it. In our rendering the two stanzas keep the echo. Read them aloud once.",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "聖人: not the one who is never ill",
+      "body": "“The sage” is our word for 聖人, and it should not be heard as “saint” or as “perfect being”. The Shuowen defines 聖 as 通也, “open all the way through”, and the graph has an ear in it. This passage shows what the openness is for. The sage is not free of the sickness because some special nature keeps it away. The text gives the cause, 以其, “by this”: the sage takes the sickness as a sickness. So the fault does arise in the sage. It is seen as it arises, and a fault that is seen cannot do its work in the dark. The difference between the sage and others is not in what happens. It is in the speed and honesty of the recognition. Chinese has no “he” here, and we repeat “the sage”.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"
+      ]
+    },
+    "confucius": {
+      "kind": "history",
+      "title": "Confucius drew a line; Laozi distrusts the pen",
+      "body": "The Analects has a famous sentence on the same matter. Confucius says to a rash pupil: 知之為知之，不知為不知，是知也. “To take what you know as known, and what you do not know as not known: this is knowing.” It is a rule of honest accounts. There are two columns, and each item goes in the right one. The Laozi’s first line can be read as agreeing with it. But the weight is elsewhere. Confucius trusts the columns; a careful person can keep them. The Laozi suspects the “known” column itself. In this book the people are best with little cleverness (3, 65), learning is to be reduced each day (48), and the one who knows does not speak (56). The highest state is not a full and accurate ledger. It is to know one’s way about in 不知. For the Greek parallel, see [[Socrates|socrates]].",
+      "src": [
+        "Analects 2.17",
+        "Laozi 48, 56"
+      ]
+    },
+    "socrates": {
+      "kind": "gap",
+      "title": "Not the same as Socrates",
+      "body": "Western readers think at once of Socrates, who said at his trial that he was wiser than others in one small thing: he did not think that he knew what he did not know. The two lines are near in time and in wording. They differ in use. For Socrates, to know one’s ignorance is a beginning. It clears away false belief so that the search for a true definition can start, and the search is the good life. Ignorance is a lack to be reduced by questions. In the Laozi, 不知 is not only a lack. It is a place where one can stand, and the sage lives there. There is no promise that the not-knowing will be filled. The Greek puts down his false knowledge to seek the true. The Chinese text asks whether you can stay with empty hands, and be well.",
+      "src": [
+        "Plato, Apology 21d"
+      ]
+    },
+    "medicine": {
+      "kind": "history",
+      "title": "The duke who was not ill",
+      "body": "Han Fei tells a story in his notes on the Laozi. The doctor Bian Que saw Duke Huan of Cai and said: you have an illness in the skin; if it is not treated it will go deeper. The duke said: I have no illness. When the doctor had gone he added: doctors like to treat the healthy and take the credit. Ten days later the illness was in the flesh; then in the gut. On the second and third visits the duke did not answer. At the fourth visit Bian Que looked and turned away, because it was in the bone marrow. Five days later the duke fell ill, and he died. The oldest medical classic says that the sage treats what is not yet ill. The duke’s first illness was slight. His second was that he could not 病 it. Is there an early sign that you have declined to see?",
+      "src": [
+        "Han Feizi, “Yu Lao” (喻老)",
+        "Huangdi neijing, Suwen 2: 聖人不治已病治未病。"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “(think)”",
+      "body": "Legge fills the open grammar with one bracketed word, used twice: “To know and yet (think) we do not know is the highest (attainment); not to know (and yet think) we do know is a disease.” His “think” turns the first line into a virtue of modesty: the person really knows, and humbly supposes otherwise. That is [[one of the four readings|zhibuzhi]], and the one most at home in a Victorian classroom. “Attainment” is also his: a rung on a ladder of achievement. For [[病病|bingbing]] he writes “being pained at (the thought of) having this disease”, which keeps the two senses apart, pain and disease, and loses the repeated word. He renders 病 as “disease” throughout, a term of the hospital. The Chinese word also means a flaw in a pot or an argument.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Three times “I don’t know”",
+      "body": "Today, catch three moments in which you are about to speak with more certainty than you have: an opinion on the news, a judgment of a person’s motive, an answer to a child. In each, say the plain words: “I don’t know.” Say them with no apology and no hurry to add what you do know. Then stay in the gap for one breath. Notice the feeling in the body. For most people it is a small alarm, as if something had been lost. That alarm is the place where the passage points. The second half of the practice is the verb 病: once today, when you see a fault of your own in action, name it at once, to yourself or aloud: “that was vanity”, “that was fear”. Do not add blame. The naming is the treatment."
+    }
+  },
+  "lenses": {
+    "ground": "Twenty-eight characters, and only eleven different ones. The first line sets two short phrases against each other: [[知不知|zhibuzhi]] is [[the highest|shang]]; [[不知知|buzhizhi]] is [[a sickness|bing]]. The words are the same and their order is reversed, and the grammar leaves each open to several readings. The rest of the passage turns on one word used as verb and as noun: [[病病|bingbing]], to take the sickness as a sickness. The sentence is given [[twice|repeat]], once for anyone and once for the sage, inside the frame [[夫唯 … 是以|fuwei]]. The passage has no image and no example. It is the nearest thing in the book to a formula, and it follows passage 70, where the speaker was not known.",
+    "inner": "The usual mind treats not-knowing as a hole to be filled fast, with a guess, a label, or an opinion. This passage calls the hole [[the highest place|shang]]. Before a thought names what is here, there is a moment of open, awake not-knowing; contemplative traditions in many countries point to it, and some call it “don’t-know mind”. The sickness is to cover that moment with a claim and then forget that one did so. The medicine is not a new state. It is to notice the covering as it happens: to [[病 the 病|bingbing]]. That is why the sage is not ill. The sage does not lack the habit; the habit is seen each time. What is it like, now, not to know what the next moment is?",
+    "leading": "A person with authority is paid to know, and so the sickness of this passage is an illness of leaders. The symptoms are familiar: the confident forecast, the quick diagnosis of a person, the meeting in which no one says “we do not know”. The [[duke of Cai|medicine]] is the pattern: he took the doctor’s report as an attack on his standing. The passage offers no technique for better knowledge. It offers a habit: treat your own certainty as the first thing to examine. In practice, a leader who says “I don’t know” early makes it safe for others to bring bad news while it is still in the skin. [[Wang Bi’s|buzhizhi]] sentence is a good one for a wall: knowing is not enough to be given the charge.",
+    "body": "The body knows the difference between the two lines. When you hold a view that you cannot support, something tightens: the jaw, the belly, the voice goes a little higher. That tension is the [[病|bing]] in its plain sense, a small distress. When you admit that you do not know, there is first a drop, and then the breath goes lower and the shoulders come down. The movement arts train this. A student who is sure what the partner will do next is hit. A student who stands in not-knowing, ready and without a plan, can answer what comes. Old medicine made the same point about health: the patient who feels the early ache and [[calls it by its name|medicine]] is already on the way to being well.",
+    "practice": "Say [[“I don’t know” three times|practice]] today, and name one fault at the moment it acts. In the evening, take a sheet of paper and write at the top one matter that you are sure of: about your work, a person, or yourself. Under it write what you have in fact seen, in plain sentences, and under that what you have added. Do not try to reach doubt. Only look at the join between the two parts. The first line of the passage calls that look [[the highest thing|zhibuzhi]]. The [[Confucian|confucius]] sentence would have you correct the page. The Laozi asks you to be at ease with how much of it is blank."
+  },
+  "glyph": "病",
+  "plates": [
+    {
+      "c": "病",
+      "title": "The sickbed and the third stem",
+      "lesson": "Every character for illness in Chinese lies under one frame: 疒. You see it in 疾, illness; 痛, pain; 療, to treat; 瘦, thin; 癌, cancer. The Shuowen explains it: 倚也。人有疾病，象倚箸之形, “to lean. When a person is ill; it shows the form of leaning on something”. The oracle-bone forms are commonly explained as a person who lies on a bed, with the bed drawn standing on its end and small drops beside the body. The two short strokes at the left of the modern frame are commonly taken as what remains of the bed’s legs. Inside the frame, 病 has 丙. The Shuowen gives it as the sound: 从疒丙聲. 丙 is the third of the ten heavenly stems, the signs by which days were counted, and the Shuowen places it in the south, where all things are complete and bright. In the scheme of the five phases this stem belongs to fire. Many readers have therefore seen a fever on the bed. That is a pleasant aid to memory; the dictionary claims only the sound, and 丙 gives the same sound to 柄, a handle, and 炳, bright. The word itself means an illness that has become grave, and then any flaw or distress. The character for the healer, 醫, has an arrow inside it and a wine jar under it; the Shuowen says that wine is that by which sickness is treated. This passage offers [[a different medicine|bingbing]]: the word 病 itself, used as a verb.",
+      "brush": "Ten strokes. The frame first: a dot at the top; a horizontal under it; then a long stroke that starts at the left end of the horizontal and falls far down to the left. Then the two small strokes on the outside of that long one: a dot, and below it a short stroke that rises to the right. Then 丙 inside: a horizontal; a vertical at the left; the top and right side in one stroke that turns down and ends in a hook; and inside these a stroke that falls to the left and a last dot to the right. Watch the long third stroke. It is the back of the frame, and it must curve away so that the inside has room. A frame of this kind covers two sides only, top and left. The lower right is open, and a calligrapher lets the inner part stand a little out of it."
+    },
+    {
+      "c": "知",
+      "title": "An arrow beside a mouth",
+      "lesson": "The left side is 矢, an arrow. The Shuowen calls it the arrow of bow and crossbow and says that the graph shows 鏑栝羽之形, “the form of the head, the notch, and the feathers”. The right side is 口, a mouth. The Shuowen’s entry for the whole is short: 詞也。从口从矢, “a word of speech. From mouth and arrow”. It does not say why. The usual explanation, made famous by the Qing scholar Duan Yucai, is speed: one who knows a thing speaks of it at once, and the word leaves the mouth like an arrow. Others think of aim: to know is to hit the mark. Both are later readings of an old graph, so hold them lightly. The same arrow is in 疾, illness, under the sickness frame: an illness that strikes fast, and the old word also means “swift”. So the two key words of this passage, [[知|zhibuzhi]] and [[病|bing]], have relatives that share an arrow. Add 曰, “to speak”, now written like 日, beneath 知 and you have 智, “cleverness”; early manuscripts did not separate the two, and the Laozi distrusts the second. Note what the picture leaves out. It has no eye and no heart. In this graph knowing is a thing said: quick, aimed, and gone from the bow. The passage asks for the knowing that can stay on the string.",
+      "brush": "Eight strokes: five for the arrow, three for the mouth. The arrow: a short stroke that falls to the left; a short horizontal that starts under it; a longer horizontal below; then a long stroke that falls to the left through both; and last a dot to the right. When 矢 stands alone, its final stroke is a long sweep to the right. Here it is pulled in to a dot, to make room for its neighbour. This is a rule of the regular script: a part at the left gives way. Then the mouth: left side, top and right side with one corner, base. Watch its height. The mouth is set low, level with the foot of the arrow and well under its head, so that the character leans forward a little. If the mouth is as tall as the arrow, the character goes stiff."
+    }
+  ]
+}

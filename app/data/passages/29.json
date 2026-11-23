@@ -1,0 +1,218 @@
+{
+  "n": 29,
+  "title": "The Spirit Vessel",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "將欲取天下而為之，吾見其不得已。天下神器，",
+      "gloss": {
+        "0": "about to; on the point of",
+        "2": "to take, to seize (the graph: a hand on an ear)",
+        "6": "to do, to make, to work on",
+        "18": "a spirit; of the spirits, sacred"
+      }
+    },
+    {
+      "text": "不可為也，為者敗之，執者失之。",
+      "gloss": {
+        "7": "to ruin, to spoil; to be defeated",
+        "10": "to hold in the hand, to grip; first: to arrest"
+      }
+    },
+    {
+      "text": "故物或行或隨，或歔或吹。或強或羸，或挫或隳。是以聖人去甚，去奢，去泰。",
+      "gloss": {
+        "2": "some; or: at times",
+        "8": "xū: to breathe out softly, to sigh (warm breath)",
+        "15": "léi: lean, thin, worn out",
+        "20": "huī: to fall in ruin; to tear down",
+        "26": "to remove, to put away",
+        "30": "spread too wide; lavish"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Wanting to take|qu]] all under heaven and [[work on it|wei-zhi]]:",
+    "I see that this [[will not succeed|bu-de-yi]].",
+    "All under heaven is a [[spirit vessel|shen-qi]].",
+    "It cannot be worked on.",
+    "Who works on it [[ruins it|bai]].",
+    "Who [[grips it|zhi]] loses it.",
+    "",
+    "So with creatures: [[some go ahead, some follow|huo]];",
+    "some [[breathe warm, some blow cold|xu-chui]];",
+    "some are strong, some thin;",
+    "some [[break, some fall|cuo-hui]].",
+    "",
+    "So [[the sage|shengren]] [[puts away|qu-san]] the extreme,",
+    "puts away [[the lavish|she]],",
+    "puts away the grand."
+  ],
+  "notes": {
+    "qu": {
+      "kind": "etymology",
+      "title": "取: a hand on an ear",
+      "body": "The verb for what the ambitious man wants to do is 取, “to take”. Its parts are 耳, an ear, and 又, a hand. The Shuowen explains: 捕取也, “to capture”, and quotes the Rites of Zhou: 獲者取左耳, “the one who makes a kill takes the left ear”. That line is about the royal hunt, where the left ear of each animal was cut for the tally. The Shuowen then quotes the Methods of the Marshal, 載獻聝, “they carry in and present the cut ears”, and that is war: 聝 is its word for “to cut ears in battle”. So the common word “take” began as a count of the killed. 取天下, “to take all under heaven”, was the stated aim of every large state in the fourth and third centuries BCE; the phrase returns in passages 48 and 57, where the world is taken only by having no business with it. The passage opens with a hand that reaches for an ear. Whose?",
+      "src": [
+        "Shuowen Jiezi, 又部: 取，捕取也。从又从耳。《周禮》：“獲者取左耳。”《司馬法》曰：“載獻聝。”",
+        "Shuowen Jiezi, 耳部: 聝，軍戰斷耳也。"
+      ]
+    },
+    "wei-zhi": {
+      "kind": "gap",
+      "title": "為: to do, to make, to tamper",
+      "body": "為 is the most general verb of action in Chinese: to do, to make, to act as, to manage. Here it has an object, 之, “it”: to do things to the world, to work it as a craftsman works a piece. The line says that the world 不可為, cannot be treated so. This is the positive ground of the book’s famous 無為, wu wei, often put into English as “non-action”, which sounds like idleness. The text does not ask for a ruler who does nothing. It denies that the world is material for a project. The Shuowen gives the graph, in its old form 爲, an odd first sense: 母猴也, “a female monkey”, a creature that is good with its claws. Most modern scholars see in the oracle-bone form a hand that leads an elephant: the largest job of work the Shang knew. Either picture will serve. Which things in your care are elephants, and which are not?",
+      "src": [
+        "Shuowen Jiezi, 爪部: 爲，母猴也。其爲禽好爪。"
+      ]
+    },
+    "bu-de-yi": {
+      "kind": "gap",
+      "title": "不得已: failure, or no rest?",
+      "body": "吾見其不得已. In passages 30 and 31 the three characters 不得已 are a fixed phrase: “to have no choice”, action taken only when it cannot be avoided. Is this the same phrase? Most readers say no. Here 得 is the full verb “to get, to succeed”, and 已 is the particle that closes a statement: “I see that he will not get it, and that is that.” The Mawangdui silk texts are reported to read 弗得已, with a negative that implies an object: “will not get it”. A second reading is possible: 已 as “to stop”. Then: “I see that he will get no rest.” The one who sets out to take and remake the world can never finish. We rendered the first and keep the second in mind, because both are true of the same man. The speaker says 吾見, “I see”. This is offered as an observation, not as a rule.",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "shen-qi": {
+      "kind": "wangbi",
+      "title": "Wang Bi on 神器",
+      "body": "神 is a spirit, one of the unseen powers that received sacrifice; as a describing word it is “of the spirits, numinous”. 器 is a vessel (see passage 28). Wang Bi explains the pair: 神，無形無方也。器，合成也。無形以合，故謂之神器也。 “神 means without form and without fixed place. 器 means a thing put together. It is put together by what has no form; so it is called a spirit vessel.” The world is an assembled thing, he says, like a pot or a cart. But no one can find the maker or the joints, so it cannot be taken apart and rebuilt. English versions say “sacred” or “spiritual”. “Sacred” suggests a rule against touching, with a god to enforce it. The Chinese point is more practical: you cannot find where to put your hands. For the other thing a reader of that time heard in the words, see [[the nine tripods|tripods]].",
+      "src": [
+        "Wang Bi commentary on Laozi 29"
+      ]
+    },
+    "tripods": {
+      "kind": "history",
+      "title": "The nine tripods",
+      "body": "For a Warring States reader, the sacred vessels of the world were real bronzes. Tradition said that the sage-king Yu cast nine tripods from the metal of the nine provinces; the Shuowen repeats it under 鼎: 昔禹收九牧之金，鑄鼎荊山之下. They passed from Xia to Shang to Zhou, and to hold them was to hold the mandate. In 606 BCE King Zhuang of Chu led his army to the Zhou border and asked how heavy the tripods were. The Zhou envoy answered 在德不在鼎: “it lies in de, not in the tripods”. “To ask about the tripods” still means to plot for the throne. In 307 BCE King Wu of Qin, a strong man, tried to lift a great tripod on a visit to the Zhou capital, broke his legs, and died. When Qin ended the Zhou house in the 250s BCE, it carried the tripods off, and they were lost. 執者失之: who grips it loses it.",
+      "src": [
+        "Shuowen Jiezi, 鼎部: 鼎，三足兩耳，和五味之寶器也。昔禹收九牧之金，鑄鼎荊山之下…",
+        "Zuozhuan, Duke Xuan, year 3",
+        "Shiji 5, “Basic Annals of Qin”"
+      ]
+    },
+    "bai": {
+      "kind": "etymology",
+      "title": "敗: to break the treasure",
+      "body": "The Shuowen defines 敗 as 毀也, “to wreck”, and reads the graph as 攴, a hand with a stick, beside 貝, a cowrie shell, the early form of wealth: 敗、賊皆从貝, “敗 and 賊 (robber) both have the shell”. Some early forms are commonly described as a hand that strikes a bronze cauldron in place of the shell. Either way, the picture is of something precious struck with a tool. The same word is the normal term for defeat in battle. So 為者敗之 is exact in two ways. The one who works on the world spoils it, as a clumsy hand breaks a pot. And the one who works on the world is beaten. The couplet 為者敗之，執者失之 comes again word for word in passage 64, with its remedy: the sage does not work on things and so does not ruin them, does not grip and so does not lose.",
+      "src": [
+        "Shuowen Jiezi, 攴部: 敗，毀也。从攴、貝。敗、賊皆从貝，會意。"
+      ]
+    },
+    "zhi": {
+      "kind": "etymology",
+      "title": "執: an arrest",
+      "body": "執 is “to hold in the hand”: a brush, a rein, a rule. The Shuowen gives the older sense: 捕罪人也, “to arrest a criminal”. In its account the graph joins 丮, a kneeling person with both hands held out, and 㚔, which early forms show as wooden manacles. To grip, then, is to put the thing in shackles. Wang Bi sets it against another verb: 可通而不可執也, “it can be gone along with; it cannot be gripped”, because 物有往來, “things come and go”. A prisoner in fetters does not come and go. That is why the grip fails. What is held that hard is no longer the living thing one wanted. Later Chinese Buddhists chose this word for “attachment”, the clinging that their teaching aims to end. Look at your hand when you want something badly. Is it open?",
+      "src": [
+        "Shuowen Jiezi, 㚔部: 執，捕罪人也。从丮从幸，幸亦聲。",
+        "Wang Bi commentary on Laozi 29"
+      ]
+    },
+    "wb-follow": {
+      "kind": "wangbi",
+      "title": "Wang Bi: follow, do not make",
+      "body": "Wang Bi’s comment on the central lines gives the positive side of the warning: 萬物以自然為性，故可因而不可為也。 “The ten thousand things have what is so of itself as their nature. So they can be followed and cannot be made.” His key word is 因, to go by, to rely on, to take one’s lead from. The Shuowen glosses it 就也, “to go to, to settle on”. A farmer does not make the wheat grow. He goes by its nature and by the season, and the work is hard. So 因 is not passivity. It is the kind of doing that starts from what is there. On the sage Wang Bi adds: 除其所以迷，去其所以惑, “he clears away what makes them lose the road and removes what confuses them”. The sage’s whole programme, in this reading, is removal.",
+      "src": [
+        "Wang Bi commentary on Laozi 29",
+        "Shuowen Jiezi, 囗部: 因，就也。从囗、大。"
+      ]
+    },
+    "qin": {
+      "kind": "geopolitics",
+      "title": "The state that took it",
+      "body": "The passage was tested within a century. From 230 to 221 BCE the state of Qin took all the others, one each year or two, and its king named himself First Emperor. He then worked on the world as no one had: one script, one axle width, one law, one set of weights, a great wall, books burned, families moved by the hundred thousand. He died in 210 BCE. By 206 BCE his house was gone, destroyed by revolt in fifteen years. The thinkers of the next dynasty, the Han, read the fall in the terms of this passage. Jia Yi’s essay “The Faults of Qin” says that Qin took the world by force and could not change its ways to hold it. Much of the early Han court honoured the Laozi and governed lightly for some sixty years. 為者敗之 was, for them, recent history.",
+      "src": [
+        "Shiji 6, “Basic Annals of the First Emperor”",
+        "Jia Yi, “Guo Qin lun”"
+      ]
+    },
+    "huo": {
+      "kind": "gap",
+      "title": "或…或: some, or sometimes?",
+      "body": "Eight times the middle stanza says 或. The word means “some” and “at times”, so the four lines can be read across space or across time. Across space: among creatures, some lead and some follow, some are strong and some are 羸 (the graph has a sheep in it; the Shuowen says 瘦也, “lean”). The world is mixed, and a ruler who wants all of it one way must break half of it. Across time: the one who goes ahead now will follow later; what is strong will be thin. Then no state lasts, and the attempt to fix one is lost at the start. Wang Bi takes the second: 逆順反覆, “things go with and against, turn and turn back”. [[Legge|legge]] makes it a rhyme about fortune. The Chinese gives no ranking in either case. It does not say that to lead is better than to follow.",
+      "src": [
+        "Shuowen Jiezi, 羊部: 羸，瘦也。",
+        "Wang Bi commentary on Laozi 29"
+      ]
+    },
+    "xu-chui": {
+      "kind": "practice",
+      "title": "Warm breath, cold breath",
+      "body": "歔 and 吹 are both ways to breathe out. Both graphs contain 欠, the Shuowen’s sign for a yawn, breath that leaves an open mouth; for 吹 it says 出气也, “to send out breath”. The difference is in the lips. Try it. Hold your palm near your mouth and breathe out slowly with the mouth open, as if to fog a mirror: the air is warm. That is 歔. Now purse the lips and blow hard, as on hot soup: the air is cool. That is 吹. The same lungs, the same breath, one moment apart. The Mawangdui silk texts are reported to make the first word 炅, a graph read as “hot”: some heat, some blow. Early breath training used exactly these named breaths; the Zhuangzi lists 吹呴呼吸, “to blow, to breathe warm, to breathe out and in”. If one mouth holds both, what sense does it make to rule that all the world must be warm?",
+      "src": [
+        "Shuowen Jiezi, 欠部: 歔，欷也。从欠虚聲。一曰出气也。 吹，出气也。从欠从口。",
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Zhuangzi 15, “Constrained in Will”"
+      ]
+    },
+    "cuo-hui": {
+      "kind": "variant",
+      "title": "Break and fall, or build and fall?",
+      "body": "The first three pairs are opposites: ahead and behind, warm and cold, strong and thin. The fourth pair in our text is not. 挫 is to snap or crush (the Shuowen: 摧也), and 隳 is to collapse; both are ruin. Something has slipped. The Heshang Gong text reads 或載或隳, “some ride, some fall”, which restores the contrast. Mawangdui silk text B is reported to have a third version, 或培或橢, where the second graph is taken as 墮: “some are banked up, some tumble down”. 培 is to heap earth at the foot of a wall or a plant. That gives the clearest pair of all, and it is a builder’s pair: walls go up, walls come down. Our rendering keeps the received words. The older picture seems to be an earthwork under repair.",
+      "src": [
+        "Shuowen Jiezi, 手部: 挫，摧也。从手𡋲聲。",
+        "Heshang Gong text of Laozi 29",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "A sage who only removes",
+      "body": "聖人, “the sage”: not a saint, and not only a wise man. The graph 聖 has an ear, and the Shuowen’s gloss is 通也, “open, getting through”. Notice the place of the ear in this passage. It began with 取, a hand that seizes an ear. It ends with a person named for an ear that listens. And notice what this sage does. After a passage on the ruin that comes from doing, one expects to be told what to do. The text gives one verb, three times: 去, “to put away”. The sage has no programme for the world. The sage takes three things out of the way, and they are all in the sage’s own conduct, or the court’s. Is there a project of yours that would go better if you only removed something?",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"
+      ]
+    },
+    "qu-san": {
+      "kind": "wordplay",
+      "title": "Three words for too much",
+      "body": "去甚，去奢，去泰. The three objects are near in sense, and each has its own picture in the Shuowen. 甚 is 尤安樂也, “the height of ease and pleasure”; the graph joins 甘, sweet, with 匹, a mate. It is too much of what is pleasant. 奢 is 張也, “stretched out”, with 大, big, on top: display that spreads beyond its frame. 泰 is 滑也, “slippery, smooth”; it shows two hands and water, and came to mean great, grand, at ease to the point of arrogance. So: the over-sweet, the over-wide, the over-smooth. None of the three is a thing. Each is a degree. The sage does not put away pleasure, wealth, or greatness. The sage puts away the “too”. Mawangdui silk text B is reported to give the order 甚, 大, 楮, with the last two as sound-loans for 泰 and 奢. Which of the three is yours?",
+      "src": [
+        "Shuowen Jiezi, 甘部: 甚，尤安樂也。从甘，从匹耦也。",
+        "Shuowen Jiezi, 奢部: 奢，張也。从大者聲。",
+        "Shuowen Jiezi, 水部: 泰，滑也。从廾从水，大聲。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "she": {
+      "kind": "geopolitics",
+      "title": "Terraces",
+      "body": "奢 was a political word. The rulers of the age competed in building. King Ling of Chu finished the Zhanghua Terrace in 535 BCE and invited the other lords to admire it; six years later his army left him and he took his own life. The histories tell this as a lesson. Every high terrace was made by farmers taken from the fields in the season of work, and paid for by the grain tax. The followers of Mozi made “moderation in use” a whole doctrine and counted the cost of music, funerals, and palaces in hungry people. So 去奢 is not advice about personal taste. In its own world it meant: stop the works. The Laozi comes back to it in passage 53, where the court is “very well swept” and the fields are “full of weeds”.",
+      "src": [
+        "Zuozhuan, Duke Zhao, years 7 and 13",
+        "Mozi, “Jie yong”"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “active doing” and fortune’s wheel",
+      "body": "Legge writes that the kingdom “cannot be got by active doing”. He joins 取 and 為 into one idea, getting, and so the lines become advice on how not to win a crown. The Chinese has two verbs: to take the world, and to work on it. He calls the world “a spirit-like thing”, careful and pale. Then he puts the four pairs into rhyme: “What was in front is now behind; / What warmed anon we freezing find.” This is the wheel of fortune from European moral verse, the fall of the great. His last couplet adds a store in ruins that “mocks our toil”, and neither the store nor the mockery is in the text. For the three excesses he gives “excessive effort, extravagance, and easy indulgence”: the first reads the passage’s lesson back into 甚. Where the Chinese lists kinds of creature, he preaches on vanity.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "Three parts. First a case and a verdict: someone is about to [[take|qu]] the world and [[work on it|wei-zhi]]; the speaker sees [[failure|bu-de-yi]]. The reason is a definition: the world is a [[vessel of the spirits|shen-qi]]. Two short laws follow, each built as “who does X, loses by X”: the worker [[ruins|bai]], the gripper [[loses|zhi]]. Second, a look at creatures in four pairs joined by [[或|huo]]: ahead and behind, [[warm breath and cold|xu-chui]], strong and lean, [[broken and fallen|cuo-hui]]. Third, what [[the sage|shengren]] does about it: [[removes three kinds of excess|qu-san]], and nothing else. The verbs carry the picture: a hand on an ear, a hand leading an elephant, a stick against a shell, a prisoner in manacles. History supplied [[real vessels|tripods]] and [[a real taker|qin]].",
+    "inner": "Replace “all under heaven” with “my life” or “my mind” and the passage is unchanged. There is a wish to seize the whole of it and make it into what it should be. The speaker sees that this does not come off. Experience is a thing [[put together by what has no form|shen-qi]]; one cannot find the joints. Meditators know both laws from the cushion. Work on the mind to make it calm, and it is [[spoiled|bai]]. Hold a good state, and it is [[gone|zhi]]. The middle stanza is what one actually finds when one stops: [[at times|huo]] ahead, at times behind, warm, cold, strong, worn out. That is not failure of practice. It is the nature of the creature. What is left to do is small and exact: notice the [[too much|qu-san]], and put that down.",
+    "leading": "The passage is addressed to a founder: someone with the means and the will to take a whole thing and reshape it. Its warning is not that ambition is wicked. It is that a living whole, such as a people, a company, or a family, was [[not assembled by anyone’s hands|shen-qi]] and has no handle. Plans that treat it as material break it; control that is tight enough to feel secure kills what was worth controlling. The middle lines are a lesson in staffing and in timing: [[some lead and some follow|huo]], and the same person is strong in one year and spent in the next. A design that needs everyone warm fails. The method on offer is Wang Bi’s 因: [[go by what is there|wb-follow]]. The leader’s own part is a subtraction, [[three removals|qu-san]], and every one of them begins [[at the top|she]].",
+    "nature": "The middle stanza is an ecologist’s sentence. [[Among creatures|huo]] some go in front and some behind: the herd has its lead animal and its stragglers. Some breathe warm and some blow cold. Some are sturdy and some are lean: every population has both. Some are heaped up and some slide down: [[banks build and banks collapse|cuo-hui]]. A manager of land who wants only the strong, the leading, and the standing will drain the marsh, cull the weak, straighten the river, and be surprised by the flood. The text’s word for the whole is [[器|shen-qi]], a made thing, and its maker cannot be found, so no one has the drawings. What can be done with such a thing is to learn its tendencies and [[go by them|wb-follow]]. The Qin empire [[tried the other way|qin]].",
+    "practice": "Do [[the breath test|xu-chui]] first; it takes ten seconds and fixes the middle stanza in the body. Then choose one thing you are trying to improve by force: a person, a habit, a piece of work that will not come right. For one day do nothing to it. Do only what the last stanza says. Ask the three questions in order. Where is this [[too sweet|qu-san]], where am I getting too much comfort from it? Where is it too wide, where am I showing off? Where is it too smooth, where have I grown grand and careless? Remove one excess, once. Leave the thing itself alone. In the evening, look at your hand as the note on [[執|zhi]] suggests. Then ask if the thing is in a worse state for a day without your work on it."
+  },
+  "glyph": "取",
+  "plates": [
+    {
+      "c": "取",
+      "title": "A hand on an ear",
+      "lesson": "Left side: 耳, an ear. The Shuowen says 主聽也。象形, “it governs hearing; a picture”, and you can still see the outer rim and the folds. Right side: 又, a hand. The Shuowen: 手也。象形, and it adds that the hand is drawn with three fingers because “the many are shown by no more than three”. In early writing 又 is the right hand in profile, reaching. Hand takes ear: 取. The Shuowen’s citation makes the scene plain, [[an ear cut as proof of a kill|qu]]. From the battlefield the word went everywhere: to fetch, to choose, to draw water, to take a wife. Follow the hand first. 又 was borrowed for “again”. The hand is in 友, friend, which early forms write as two hands side by side; in 受, to receive, two hands with a thing between them; in 及, to reach, a hand that catches a person from behind. Now follow 取 itself. Put a woman below it: 娶, to take a wife; the Shuowen says 取婦也. Put a cap above: 最, which the Shuowen explains as 犯而取也, “to rush in and seize”, and which now means “most”. And the ear by itself sits in 聖, the sage, and in 聞, to hear, an ear at a gate. The same ear is in the taker and in the listener. This passage begins with one and ends with [[the other|shengren]].",
+      "brush": "Eight strokes. The ear first. Stroke one is a horizontal across the top. Stroke two is a vertical on the left. Stroke three is a long vertical on the right, which runs lower than the rest of the ear. Strokes four and five are two short marks inside, one above the other. Stroke six starts at the far left, below the ear, and rises to the right; it crosses the foot of stroke two and touches stroke three. It rises because the brush is already on its way to the hand. Stroke seven is a short horizontal that turns and falls to the left. Stroke eight starts at the left under that turn, crosses the falling part of stroke seven, and runs down to the right, long, with pressure at the end. The ear is narrow and upright; the hand is wide and open. The hand must not crowd the ear: a clear channel of white stays between them."
+    },
+    {
+      "c": "神",
+      "title": "An altar and a bolt of lightning",
+      "lesson": "Two parts. The left is 礻, the side form of 示. The Shuowen says 天垂象，見吉凶，所以示人也, “heaven hangs down signs and shows good and ill fortune; by them it shows people”, and 示，神事也, “示 is the business of spirits”. Modern scholars commonly explain the graph as an altar, a stand on which offerings were set; it is the sign of everything that concerns spirits and rites: 祭, sacrifice; 祖, ancestor; 福, blessing; 禮, ritual; 社, the altar of the soil. The right is 申. For 神 the Shuowen says 天神，引出萬物者也。从示，申聲: “the spirits of heaven, which draw out the ten thousand things”, with 申 for the sound. It is more than a sound part: the Shuowen glosses 申 itself as 神也. Its early forms are commonly read as a fork of lightning; the Shuowen keeps the trace under 電, lightning, which it analyses as 从雨从申, “rain and 申”. So a spirit, 神, is in its graph the bolt and the place where people answer it. It is power that arrives from where no one can see, and is not held. In old Chinese usage 神 are many: the powers of rivers, mountains, grain, and the dead. The word is also what is quick and fine in a person: 精神, vital spirit. When the passage calls the world a [[神器|shen-qi]], it puts lightning beside a pot.",
+      "brush": "Nine strokes. The altar side takes four. The first is a dot at the top left. The second is a short horizontal that turns and falls to the left. The third is a vertical that starts on the falling part of the second stroke. The fourth is a small dot to the right of the vertical, tucked in close. Then 申, in five. The fifth stroke is the left side of the box, a short vertical. The sixth is the top and right side in one turn. The seventh is the line across the middle. The eighth closes the box below. The ninth is the stroke to watch: one long vertical from above the box, straight down through its centre and far below it. This is the bolt. Calligraphers call such an ending a “hanging needle” when it tapers to a point and a “dewdrop” when it ends rounded. Everything else in the character is small so that this line can fall freely."
+    }
+  ]
+}

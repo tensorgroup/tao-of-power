@@ -1,0 +1,274 @@
+{
+  "n": 15,
+  "title": "Crossing Winter Water",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "古之善為士者，微妙玄通，深不可識。夫唯不可識，故強為之容。豫焉若冬涉川，",
+      "gloss": {
+        "4": "a man of service: knight, officer, adviser",
+        "10": "to go through; open all the way",
+        "15": "to recognise, to mark, to keep in mind",
+        "24": "qiǎng: forced, against the grain",
+        "27": "the look of a person: face, bearing; a likeness",
+        "29": "wary; in the Shuowen, a great elephant",
+        "33": "to wade across",
+        "34": "a river"
+      }
+    },
+    {
+      "text": "猶兮若畏四鄰，",
+      "gloss": {
+        "0": "watchful, in two minds; in the Shuowen, a kind of ape",
+        "3": "to fear, to dread",
+        "5": "neighbour; a group of five households"
+      }
+    },
+    {
+      "text": "儼兮其若容，渙兮若冰之將釋，敦兮其若樸，曠兮其若谷，混兮其若濁。",
+      "gloss": {
+        "0": "yǎn: grave, dignified",
+        "4": "bearing (the same graph as in line 1); most editions read 客, a guest",
+        "6": "huàn: to scatter, to come loose",
+        "12": "to loosen, to release; of ice: to melt",
+        "14": "thick, solid, honest",
+        "18": "pǔ: wood not yet carved",
+        "20": "wide, open, empty",
+        "26": "blended, undivided",
+        "30": "muddy, turbid"
+      }
+    },
+    {
+      "text": "孰能濁以靜之徐清？孰能安以久動之徐生？",
+      "gloss": {
+        "0": "who? which one?",
+        "4": "still; to make still",
+        "6": "slowly, at an easy walk",
+        "11": "at rest, settled",
+        "17": "to come to life, to grow"
+      }
+    },
+    {
+      "text": "保此道者不欲盈，",
+      "gloss": {
+        "0": "to keep, to guard",
+        "6": "full to the brim"
+      }
+    },
+    {
+      "text": "夫唯不盈，故能蔽不新成。",
+      "gloss": {
+        "7": "to cover (Wang Bi); commonly read as 敝: worn out, tattered",
+        "10": "completed, finished"
+      }
+    }
+  ],
+  "rendering": [
+    "Those of old who were good at [[being officers|shi]]",
+    "were [[fine, subtle, dark, open all the way|four]],",
+    "too deep to be [[marked|shi-know]].",
+    "Just because they cannot be marked,",
+    "a likeness of them, [[made by force|qiang-rong]]:",
+    "",
+    "[[Wary|yu]], as if crossing [[a river in winter|winter]].",
+    "[[Watchful|you-ape]], as if in [[fear of neighbours on four sides|silin]].",
+    "Grave, as if [[holding a formal bearing|ke]].",
+    "Loosening, like [[ice about to melt|huan]].",
+    "Solid, like [[uncarved wood|pu]].",
+    "Wide, like a valley.",
+    "Blended, like [[muddy water|zhuo]].",
+    "",
+    "[[Who can|shu-neng]], muddy, through stillness, [[slowly|xu]] come clear?",
+    "Who can, at rest, through long movement, slowly come alive?",
+    "",
+    "Whoever keeps this way does not want to be [[full|ying]].",
+    "Just because not full:",
+    "able to be [[worn, and not newly finished|bi]]."
+  ],
+  "notes": {
+    "shi": {
+      "kind": "geopolitics",
+      "title": "士: the class that served and wandered",
+      "body": "The 士 were at first the lowest rank of the Zhou nobility: men trained to drive a chariot, shoot, and keep the rites, in service to a lord. When the old order broke in the Warring States, they became a class with skills to sell: officers, clerks, envoys, strategists, teachers. They went from court to court, and rulers competed for them. Confucius, Mozi, Sunzi, and Mencius were all 士. So the line is addressed to a profession, and its reader is a man who must advise a dangerous king and stay alive. The Mawangdui silk texts are reported to read 善為道者, “good at practising the Way”, as passage 65 does; the Guodian bamboo slips are reported to read 士. Legge shows both in a bracket: “masters (of the Tao)”. English has no word for 士. “Knight” has the horse and the rank; “scholar” has the book; “officer” has the service.",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Guodian Laozi A"
+      ]
+    },
+    "four": {
+      "kind": "wordplay",
+      "title": "Four words, each one a door",
+      "body": "微妙玄通: four characters with no grammar between them, and each one was used earlier in the book. 微 is the “minute” of passage 14, that which the hand cannot get; its first sense is to walk unseen. 妙 and 玄 are the fineness and the dark of passage 1. 通 is new: the Shuowen defines it 達也, “to reach through”, and its walking sign, 辶, shows a road with no block on it. So the masters are described with the same words as the Way: you cannot see them, for the same reasons. English must add “and” or commas and a verb. The Chinese only sets four stones in a row. The Mawangdui silk texts are reported to read 玄達 for the last pair; 達 is the Shuowen’s own gloss for 通, so the sense is the same.",
+      "src": [
+        "Shuowen Jiezi, 辵部: 通，達也。从辵甬聲。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "shi-know": {
+      "kind": "gap",
+      "title": "識: to know, or to put on record",
+      "body": "識 is not the general word for knowing, which is 知. It is to recognise a thing when you meet it again, to mark it, to keep it in mind. The Shuowen gives 知也, “to know”, as its second sense, and the graph has 言, speech, at the left: knowledge that can be said. The Mawangdui silk texts are reported to write 志, a word that also means “to record, to note down”. So 深不可識 is “too deep to be marked”: they leave nothing by which a person, or an office, could file them. For a wandering [[officer|shi]] in a state that kept registers of its people, that is a practical skill and a spiritual one in the same breath. English “unfathomable” keeps the depth and loses the record. Who has a file on you, and what could never be in it?",
+      "src": [
+        "Shuowen Jiezi, 言部: 識，常也。一曰知也。从言戠聲。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "qiang-rong": {
+      "kind": "gap",
+      "title": "A portrait under protest",
+      "body": "故強為之容: “so, forced, make them a 容”. 容 is the look of a person: the face, the bearing, and so a likeness of them. 強 (read qiǎng) is “against the grain, with effort”. The speaker says: this cannot be done, and I do it anyway, badly. The Chinese has no “I”; English versions add it, and our line avoids it at some cost to ease. Passage 25 has the same confession about the Way itself, and there the “I” is written: 吾不知其名…強為之名曰大, “I do not know its name… forced to name it, I say ‘great’”. What follows is honest about its own method. There are seven lines, and each one has 若, “as if, like”. Not one of them says what the masters are. [[Wang Bi|shu-neng]] notes it: 凡此諸若，皆言其容象不可得而形名也, “all these ‘likes’ say that their look cannot be given a form and a name”.",
+      "src": [
+        "Wang Bi commentary on Laozi 15",
+        "Laozi 25"
+      ]
+    },
+    "yu": {
+      "kind": "etymology",
+      "title": "豫: the elephant at the bank",
+      "body": "The right side of 豫 is 象, an elephant. The Shuowen’s definition is a surprise: 象之大者, “a large kind of elephant”; and it adds one scholar’s remark, 不害於物, “it does no harm to other creatures”. Elephants lived in north China in early times, and old tradition says the great beast is careful: it tests the ground before it puts its weight down. From this, readers explained the sense “wary, to hesitate”. The word also means “to prepare beforehand” and “to be at ease”. Wang Bi reads the image from the outside: 豫然若欲度、若不欲度，其情不可得見之貌也. “As if they wished to cross, as if they did not wish to cross: the look of one whose feelings cannot be seen.” So the caution is real, and it is also a kind of cover. This word is half of a pair; see [[the other animal|you-ape]].",
+      "src": [
+        "Shuowen Jiezi, 象部: 豫，象之大者。賈侍中說：不害於物。从象予聲。",
+        "Wang Bi commentary on Laozi 15"
+      ]
+    },
+    "you-ape": {
+      "kind": "wordplay",
+      "title": "猶豫: a word cut in two",
+      "body": "The first two portraits begin with 豫 and 猶. Put together, 猶豫 is the common Chinese word for “to hesitate”, in use from the Warring States until today. The poet has split one word and set a half at the head of each line. The Shuowen calls 猶 an animal, 玃屬, “of the ape kind”, and notes that in the far west the word meant a puppy. A sixth-century scholar, Yan Zhitui, tells the lore: a dog runs ahead of its master, waits, and runs back; or a timid beast climbs a tree at each sound and comes down again. Modern linguists think the stories came later. For them 猶豫 is a two-syllable sound word, like 惚恍 in the passage before, and the animals are only the borrowed graphs. Both facts are worth having. The reader of Chinese sees an ape and an elephant, and hears one word for doubt.",
+      "src": [
+        "Shuowen Jiezi, 犬部: 猶，玃屬。从犬酋聲。一曰隴西謂犬子爲猷。",
+        "Yan Zhitui, Yanshi jiaxun, “Shu zheng” (書證)"
+      ]
+    },
+    "winter": {
+      "kind": "history",
+      "title": "Thin ice: a shared image",
+      "body": "To cross a northern river in winter is to walk on ice that may not hold, or to wade in water cold enough to kill. The Book of Odes has the same fear: 戰戰兢兢，如臨深淵，如履薄冰, “in fear and trembling, as if at the edge of a deep pool, as if treading on thin ice”. The Confucians loved that line. The dying disciple Zengzi quotes it in the Analects as the sum of a careful life: now, he says, I know I have come through. So the Laozi’s first portrait uses a picture that its rivals also used. The difference is in what the care protects. For Zengzi it guards the body that his parents gave him, and his good name. Here it has no stated object. It is how one moves when one does not assume that the surface will hold.",
+      "src": [
+        "Shijing, Xiao ya, “Xiao min” (小旻)",
+        "Analects 8.3"
+      ]
+    },
+    "silin": {
+      "kind": "geopolitics",
+      "title": "Neighbours on four sides",
+      "body": "畏四鄰 was not a figure of speech in the fourth century BCE. The states of the central plain, Wei and Han above all, had an enemy on each border and were called “ground of war on four sides”. Wang Bi reads the image as a siege: 四鄰合攻中央之主，猶然不知所趣向者也, “the four neighbours join to attack the lord at the centre, who, in two minds, does not know which way to turn”. The word 鄰 also has a smaller scale. The Shuowen says 五家爲鄰, “five households make a 鄰”. In Qin, the reforms of Shang Yang (from 356 BCE) bound households in groups of five and ten that had to report each other’s crimes, or share the punishment. So a neighbour could be an informer. Look at 畏, fear: the Shuowen says it shows 鬼頭而虎爪, “a ghost’s head and a tiger’s claws”.",
+      "src": [
+        "Wang Bi commentary on Laozi 15",
+        "Shuowen Jiezi, 邑部: 鄰，五家爲鄰。从邑粦聲。",
+        "Shuowen Jiezi, 甶部: 畏，惡也。从甶，虎省。鬼頭而虎爪，可畏也。",
+        "Shiji, “Shang jun liezhuan”"
+      ]
+    },
+    "ke": {
+      "kind": "variant",
+      "title": "容 or 客: a face or a guest",
+      "body": "Our pinned text reads 儼兮其若容: grave, “as if a (formal) bearing”. Most other editions read 客, a guest: grave, like one who is a guest in another’s house. The Mawangdui silk texts and the older Guodian slips are reported to read the same. The two graphs differ by a few strokes under the same roof, 宀. The guest is almost surely the older reading, and the proof is in the sound. The similes rhyme in sets. 客 and 釋 (melt) end alike in the old rhyme group 鐸, as 樸, 谷, and 濁 below them all end in the group 屋. 容 belongs to a different group and breaks the pair. A copyist’s eye may have caught 容 from four lines above. We render the text as it stands. But keep the guest in mind: a person who does not own the room, touches nothing without leave, and watches the host.",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Shuowen Jiezi, 宀部: 客，寄也。从宀各聲。"
+      ]
+    },
+    "huan": {
+      "kind": "etymology",
+      "title": "渙: the moment before the thaw",
+      "body": "After three images of care, the fourth lets go. 渙 is a water word; the Shuowen defines it as flowing and scattering. It is also the name of hexagram 59 in the Book of Changes, wind over water, which the tradition reads as the breaking up of what was rigid, as river ice breaks up in spring. 釋 is “to untie, to release”. The image is exact about time: 將釋, “about to melt”. The ice is still ice, but its edges are wet and its hold is gone. The portrait so far has been tight: wary, watchful, grave. This line says the same person is on the point of flowing. The Mawangdui silk texts are reported to write 淩澤 here, usually read as the same “ice that melts”. Think of someone whom you know to be both very careful and very soft. Is that one quality or two?",
+      "src": [
+        "Shuowen Jiezi, 水部: 渙，流𢿱也。从水奐聲。",
+        "Yijing, hexagram 59 (渙)",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "pu": {
+      "kind": "etymology",
+      "title": "樸: wood before the knife",
+      "body": "This is the first time the book uses one of its main images. 樸 has 木, a tree, at the left. The Shuowen defines it in two characters: 木素也, “wood in its plain state”, a log or block that no tool has shaped. 素 in that gloss is undyed silk; the two words are a pair, and passage 19 sets them side by side. Uncarved wood is not yet a bowl, a wheel, or an idol. It can become any of them, and when it becomes one, it loses the rest. Passage 28 says so: when the 樸 is split, it becomes [[vessels|ying]]. English “simplicity” makes it a virtue and “the uncarved block” a slogan. Here it is only a comparison for a person: 敦, thick and solid, with the bark on. The image returns in passages 19, 28, 32, 37, and 57.",
+      "src": [
+        "Shuowen Jiezi, 木部: 樸，木素也。从木菐聲。"
+      ]
+    },
+    "zhuo": {
+      "kind": "history",
+      "title": "Muddy as praise",
+      "body": "The last simile is a shock in its own culture. 清, clear, was the word for a pure man, and 濁, muddy, for a corrupt age. A famous song says: when the Canglang river is clear, I wash my hat-strings in it; when it is muddy, I wash my feet. Mencius quotes it, and in the Songs of Chu a fisherman sings it to the exiled minister Qu Yuan, who chose to drown and not to soil himself. The fisherman’s question to him was: when the whole world is muddy, why not stir the mud and ride the wave? The Laozi stands with the fisherman, and goes further. Its masters are 混, undivided, and look like mud. The next lines say what the mud is for. The Shuowen cannot help here: for it, 濁 is first the name of a river.",
+      "src": [
+        "Mencius 4A8",
+        "Chuci, “Yu fu” (漁父)",
+        "Shuowen Jiezi, 水部: 濁，水。出齊郡厲嬀山，東北入鉅定。从水蜀聲。"
+      ]
+    },
+    "shu-neng": {
+      "kind": "wangbi",
+      "title": "Wang Bi: two questions and why they are hard",
+      "body": "The two lines are built alike: who can, in state A, by means B, slowly reach C? Muddy, through stillness, clear. At rest, through long movement, alive. Note that the second undoes the first. The place of 久, “long”, is open: “long at rest”, or “through long movement”. Stillness is not the end; when the water is clear and settled, movement must start again or nothing grows. Wang Bi sets them in a row of three: 夫晦以理物則得明，濁以靜物則得清，安以動物則得生，此自然之道也。 “Use the dim to order things and you get light; use the muddy to still things and you get the clear; use rest to move things and you get life. This is the way of what is so of itself.” Then: 孰能者，言其難也, “‘who can’ says that it is hard”. The Mawangdui silk texts are reported to have no “who can”. There the lines are statements.",
+      "src": [
+        "Wang Bi commentary on Laozi 15",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "xu": {
+      "kind": "etymology",
+      "title": "徐: at walking pace",
+      "body": "The word that both questions share is 徐. The Shuowen defines it 安行也: “to walk at ease”. Its left side is 彳, the step. So “slowly” here is a pace of the legs. It is not delay, and it is not the slowness of a clerk. Wang Bi adds a gloss of his own: 徐者，詳慎也, “徐 means careful and attentive”. English “gradually” is a word about a graph; 徐 is a word about a body that does not hurry. It is the speed at which mud sinks and at which a seed comes up, and no effort makes either one faster. Modern life treats this speed as a fault. Note which of today’s tasks, if any, you did at the pace of a walk.",
+      "src": [
+        "Shuowen Jiezi, 彳部: 徐，安行也。从彳余聲。",
+        "Wang Bi commentary on Laozi 15"
+      ]
+    },
+    "ying": {
+      "kind": "gap",
+      "title": "盈: full to the brim",
+      "body": "盈 has 皿, a dish, at its foot. The Shuowen says 滿器也: “to fill a vessel”. It is fullness of the exact kind that comes just before a spill, and Wang Bi’s whole comment is four characters: 盈必溢也, “what is full must overflow”. The book returns to this vessel often. The Way is an empty bowl that use does not fill (4). To hold a thing and fill it is worse than to stop in time (9). Great fullness seems empty (45). Legge writes “full (of themselves)”, and so turns a fact about cups into a sermon against pride. The Chinese is wider than that. Full of plans, of goods, of certainty, of virtue: each of these leaves no room for the next thing. What in you is at the brim?",
+      "src": [
+        "Shuowen Jiezi, 皿部: 盈，滿器也。从皿、夃。",
+        "Wang Bi commentary on Laozi 15"
+      ]
+    },
+    "bi": {
+      "kind": "variant",
+      "title": "A last line that no edition settles",
+      "body": "The received line is 故能蔽不新成. 蔽 is “to cover”, and Wang Bi glosses it so: 蔽，覆蓋也. Read that way the sense is “able to stay covered, and not be newly finished”. Most readers since take 蔽 as a loan for 敝, a worn-out garment; the Shuowen gives 敗衣, “ruined clothing”, as one sense of 敝. Then: “able to be worn, and not newly finished”. Both Mawangdui silk texts are reported to read 是以能敝而不成: “so able to be worn and not complete”, with no “new” at all. Other editions turn the line around, 敝而新成, “worn and then made new”, close to passage 22: 敝則新, “worn, then new”. So the tradition gives three endings: to refuse renewal, to refuse completion, or to be renewed. All three agree on the first half. One who is not full can afford to be worn. 成 is “finished, perfected”, and each version keeps that word. Our rendering keeps the received words.",
+      "src": [
+        "Wang Bi commentary on Laozi 15",
+        "Mawangdui Laozi A and B",
+        "Shuowen Jiezi, 㡀部: 敝，帗也。一曰敗衣。从攴从㡀，㡀亦聲。"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s masters look weak",
+      "body": "Read Legge’s adjectives in a row: “shrinking”, “irresolute”, “grave”, “evanescent”, “unpretentious”, “vacant”, “dull”. To a Victorian reader that is the portrait of a poor character; a gentleman was resolute and bright. Legge is not wrong about the words. He is faithful, and the faithfulness shows how far the passage is from his own ideal of a man. He also adds a host for the guest, “(in awe of his host)”, and people for the fear, “all around them”: the war of [[four borders|silin]] has become shyness in company. In the questions he answers before the text does: “Let it be still, and it will gradually become clear.” The Chinese asks who can. It does not say “let it”. Which of his seven adjectives would you least like to have said about you? Start there.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "A jar of muddy water",
+      "body": "Fill a glass jar with water and stir in a spoon of soil. Set it where you will pass it during the day. Do nothing to it. You cannot clear it by any act: to filter it with a finger, to shake it, to watch it with impatience, all keep it brown. In an hour the top is lighter. By evening there is clear water over a floor of silt. Nothing was removed; the mud is all still in the jar, and it has found its place. Then do the second half, which people forget. Pour the clear water on a plant. [[Rest, then long movement, then life.|shu-neng]] The next time your mind is thick with a problem, remember which one you are in: the stirring, the settling, or the pouring."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has three parts. First, a confession: the good [[officers|shi]] of old were too deep to be [[marked|shi-know]], so a portrait can only be [[forced|qiang-rong]]. Second, the portrait itself: seven lines, each with an exclamation (兮) and the word 若, “as if”. Wary at a winter ford. Watchful, with enemies on four sides. Grave. Loosening like ice. Solid like [[uncarved wood|pu]]. Wide like a valley. Blended like [[mud|zhuo]]. The seven move from tight to loose and from the person out to the landscape. The first two lines begin with the two halves of [[one word for doubt|you-ape]]. Third, two questions about mud and rest, and a close about [[not being full|ying]]. The similes [[rhyme in sets|ke]], and the last line is [[uncertain in each edition|bi]]. No line says what the masters knew or did. We get only how they looked.",
+    "inner": "Read the seven similes as states of attention, in the order in which they come in a long sitting. First care: each breath is a step on ice. Then wide awareness in each direction, as if a sound might come from any side. Then the upright body, formal, a [[guest|ke]] in the house of the present moment. Then the hold [[lets go|huan]]. Then plain, thick presence, without a carved self to show; then space; then a state with no clear edge between this and that. And then the question that each sitter knows: who can let the mud settle? The grammar is the teaching. Stillness is the means, 以靜, and [[slowly|xu]] is the pace. You do not clear the water. You stop stirring. Then the second question keeps the practice from going dead: out of the rest, by long and gentle movement, life starts again.",
+    "leading": "The first reader was an adviser or officer in a dangerous court, and the portrait is partly a manual for survival: do not be easy to [[file|shi-know]]; test the ice; watch [[all four borders|silin]]; behave as a guest where others think they own the hall. That reading is fair, and the strategists made use of it. But the second half goes past it. A group in crisis is muddy water. The leader’s reflex is to stir: one more meeting, one more reorganisation, one more message. The text asks who is able to [[hold still until it clears|shu-neng]], and then who is able to start movement again before stillness turns into stagnation. Both are hard, and they are opposite skills. The close gives the condition for both: [[not full|ying]]. A leader who is full of answers has no room to wait, and one who must look new each quarter cannot afford to look [[worn|bi]].",
+    "body": "The first image is a lesson in stepping. On river ice you do not commit your weight; you set the foot down empty, feel, and then pour the weight in. Taiji teachers describe the same step with a line from the classics of their art: “walk like a cat”. [[豫|yu]] the elephant does it with four tons. Try ten steps this way across a room. The fourth image is the other half: 渙, [[the thaw|huan]]. Hold a fist for a slow breath, and then let it open by its own weight, not by a decision. The portrait asks for both at once, structure and melt: grave like a guest, loose like spring ice. The questions are in the breath too. After the out-breath, wait. The body is at rest, 安. The next breath starts itself, [[slowly|xu]].",
+    "nature": "Each image is from a northern year. The river freezes; a traveller tests it. Spring comes and the ice goes [[soft at the edge|huan]]. A log lies with [[its bark on|pu]]. A valley stands open and takes whatever runs down to it. The Yellow River carries more silt than any other great river on earth, and people who lived beside it knew muddy water well: in a still pond it clears, and the silt it leaves is the richest soil of the plain. So [[mud|zhuo]] is not dirt in this passage. It is water and earth that are not yet sorted, with a field inside. A marsh, an estuary, a flood plain in spring: the most fertile places are the least clear. Then long, slow movement, and things grow. Where did you last see clear water? What was under it?",
+    "practice": "Make the [[jar of muddy water|practice]] and leave it in view for a day. Or take the smaller form: when you next feel the urge to fix a confused matter at once, wait for the length of ten slow breaths and do nothing to it. Note the [[pace|xu]] at which things settle when you do not help. Then read [[Legge’s seven adjectives|legge]] and choose the one that you fear most: shrinking, irresolute, grave, evanescent, unpretentious, vacant, dull. For one conversation today, permit yourself to be that. See what the other person does with the room that you leave. The first simile has [[a famous cousin|winter]] in the Confucian books, if you want to compare two kinds of care. And the opening [[four words|four]] connect this portrait to the first page of the book."
+  },
+  "glyph": "豫",
+  "plates": [
+    {
+      "c": "豫",
+      "title": "An elephant tests the ice",
+      "lesson": "Start at the right, with 象. It is one of the clearest pictures left in the script. The Shuowen describes the animal as if for someone who has not seen one: 長鼻牙，南越大獸, “long nose and tusks, a great beast of the far south”, and says the graph shows its ears, tusks, and four feet. Turn the character a quarter to the left in your mind: the top is the head and trunk, the box is the body, and the strokes that sweep away below are legs and tail. Elephants are named on the oracle bones of the north; the climate was warmer then. By the time of the Laozi the animal was gone from the north, and people knew it from its bones and from pictures. The Han Feizi says that this is why 象 came to mean “image”: men got the bones of a dead elephant and from them pictured the living one. That is the 象 of the passage before this: the image of no thing. Now the left side. 予 means “to give”; the Shuowen says it pictures a thing handed over. Here it gives only its sound. Together they wrote the name of a large elephant, says the Shuowen, and then a set of states of mind: [[wary|yu]], prepared, and also at ease, glad. 豫 is the name of hexagram 16 and the old one-word name of Henan. How did one word get both “hesitate” and “delight”? Perhaps both are what a great body does when it does not hurry.",
+      "brush": "Fifteen strokes: four for 予, eleven for the elephant. 予 first: a level stroke that turns back down to the left; a dot; a second level stroke that ends in a hook; then a vertical that hooks to the left at its foot. The elephant begins with a short falling stroke and a level one that turns down to the left: the head. Then the flat box of the body: left side, top and right side in one stroke, and the line that closes it. Now watch strokes ten to fifteen. A falling stroke; then the long curved stroke with a hook, the spine of the right side; then two more falling strokes under the first, on the left of the spine; then a short falling stroke on its right; and last a stroke that presses out to the lower right. Strokes ten, twelve, and thirteen are parallel, and calligraphers warn against making them equal. They fan out like legs."
+    },
+    {
+      "c": "涉",
+      "title": "Two feet, one stream",
+      "lesson": "Left: 氵, three drops, the short form of 水, water. Right: 步, a step. And 步 is itself two pictures. Its top is 止, which was a drawing of a foot, with the toes up (it now means “to stop”). Its bottom is the same foot turned the other way. The Shuowen says exactly that: 从止𣥂相背, “from a foot and its mirror image, back to back”. Left foot, right foot: one pace. So 涉 is water and two feet. The oracle-bone form is commonly described as even plainer: a stream that runs through the middle, with one footprint on each side of it. The Shuowen lists the word under a fuller graph with the water written twice, and defines it 徒行厲水也, “to cross water on foot”. That is the first sense: to wade, with no boat and no bridge. Then the meaning spread, as it does: to pass through (涉世, to go through the world), to have experience of, to be involved in (干涉, to interfere; 涉及, to touch upon). See the foot in its other homes: 正 (straight; commonly explained as a foot that marches on a town), 足 (the foot and leg), 走 (to run), 武 (commonly explained as a foot and a spear: to go to war), and in 辶, the walking sign of 道. The first portrait of the passage is [[a winter crossing|winter]]. In the character one foot is still on the near bank.",
+      "brush": "Ten strokes: three, four, three. The water is two dots and a stroke that flicks upward; the flick points at the place where the right side begins, and in running script the three join in one wave. The upper foot, 止: a vertical; a short level stroke to its right; a short vertical at the left; and a long level base. That base is the bank, and it is the widest line in the character. Under it the second foot: a vertical in the centre, a dot to the left of it, and then the tenth stroke, a long sweep down to the left. Watch that last stroke; it is the leg that reaches out for the far side, and its slow thinning to a point is the whole movement of the word. Note what is absent: the lower part looks like 少, “few”, but it has no dot on the right."
+    }
+  ]
+}

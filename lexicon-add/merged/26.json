@@ -1,0 +1,58 @@
+{
+  "重": {
+    "senses": ["heavy; weight", "weighty, grave, important; to treat as important", "baggage (輜重)", "chóng: again, doubled, in layers"],
+    "shuowen": "厚也。从壬東聲。",
+    "shuowenEn": "Thick. From 壬; 東 gives the sound.",
+    "parts": [{"c": "人", "m": "a person (fused into the modern form)"}, {"c": "東", "m": "a bundle or sack; sound part"}],
+    "story": "Bronze forms of 重 are commonly described as a person with a bundle on the back; person and bundle later fused into one tall graph. Weight is thus pictured from the carrier’s side. The word spread to everything that has weight in a life: grave conduct, important matters, respect (to 重 someone is to take that person seriously). Armies called their supply train 輜重, “the wagons and the heavy things”. Laozi 26 plays on both: the heavy is the root of the light, and the one who travels does not leave the baggage.",
+    "gap": "English splits “heavy”, “serious”, “important”, and “baggage”. 重 holds them as one idea, so the first line of Laozi 26 is physics and ethics at once."
+  },
+  "燕": {
+    "senses": ["a swallow", "yàn: at ease, at rest; to feast (loan for 宴)", "Yān: the northern state of Yan"],
+    "shuowen": "玄鳥也。籋口，布翄，枝尾。象形。",
+    "shuowenEn": "The dark bird. A mouth like pincers, spread wings, a forked tail. A picture.",
+    "parts": [{"c": "廿", "m": "the beak"}, {"c": "口", "m": "the body"}, {"c": "北", "m": "the two wings"}, {"c": "灬", "m": "the forked tail (not fire)"}],
+    "story": "燕 is a whole swallow, drawn from above: beak, body, wings, tail. The Shuowen calls it the dark bird, the bird that in an old ode brings the Shang royal house into being. The graph was borrowed for a word of ease and private leisure, so 燕居 and 燕處 mean “to be at home, off duty”. It is also the name of the state of Yan, in the far north-east of the Warring States world. In Laozi 26 the traveller 燕處: rests at ease, with splendid towers close by.",
+    "gap": "“At ease” loses the bird, and “swallow” loses the sense. The Chinese reader sees one while reading the other."
+  },
+  "輕": {
+    "senses": ["a light chariot (Shuowen)", "light in weight", "quick, rash, careless; cheap", "to treat as light, to slight (verb)"],
+    "shuowen": "輕車也。从車坙聲。",
+    "shuowenEn": "A light chariot. From 車 (chariot); 坙 gives the sound.",
+    "parts": [{"c": "車", "m": "a chariot, a cart"}, {"c": "巠", "m": "sound part"}],
+    "story": "The Shuowen ties 輕 to a vehicle: the light chariot that an army sends ahead for speed. From there it means light in general, and then light in conduct: hasty, easy to move, of little account. As a verb it means to hold something cheap. In Laozi 26 it is the opposite of 重 and occurs three times: the light has its root in the heavy; a great lord must not make his person light; the light one loses the root.",
+    "gap": "English “light” also means brightness and is mostly pleasant. 輕 has no brightness in it, and in a ruler it is a fault."
+  },
+  "根": {
+    "senses": ["the root or stock of a tree", "origin, base", "to take root"],
+    "shuowen": "木株也。从木艮聲。",
+    "shuowenEn": "The stock of a tree. From 木 (tree); 艮 gives the sound.",
+    "parts": [{"c": "木", "m": "a tree"}, {"c": "艮", "m": "sound part"}],
+    "story": "根 is the part of the tree that stays in the ground: stock and root. In the Laozi it is a constant image for the source that things return to. The gate of the dark female is “the root of heaven and earth” (6); all things “go back to their root”, and that is stillness (16); a deep root and a firm stem are the way of long life (59). In passage 26 the heavy is the root of the light.",
+    "gap": "“Foundation” is laid by a builder and is dead. A root grows, feeds, and is hidden."
+  },
+  "君": {
+    "senses": ["a lord, a ruler", "to rule, to be lord of", "a polite “you”; 君子: a gentleman"],
+    "shuowen": "尊也。从尹。發號，故从口。",
+    "shuowenEn": "The honoured one. From 尹. He issues commands, so it has a mouth.",
+    "parts": [{"c": "尹", "m": "a hand that holds a staff: one who governs"}, {"c": "口", "m": "a mouth: commands"}],
+    "story": "A lord, in this graph, is a hand with the staff of office and a mouth that gives orders. 君子, “the lord’s son”, became the Confucian word for a person of noble conduct. In Laozi 26 the word comes twice: stillness is the lord of restlessness, and the restless ruler loses the lord, which means his seat and also his own inner ruler. The Mawangdui copies of passages 26 and 31 use 君子 where the received text of 26 has “the sage”.",
+    "gap": "English “lord” is feudal or religious. 君 is any holder of command, and also the faculty in a person that should be in command."
+  },
+  "靜": {
+    "senses": ["to examine closely (Shuowen)", "still, quiet, at rest", "clear, pure"],
+    "shuowen": "審也。从青爭聲。",
+    "shuowenEn": "To examine closely. From 青; 爭 gives the sound.",
+    "parts": [{"c": "青", "m": "the fresh blue-green of growing things"}, {"c": "爭", "m": "sound part; by itself: to contend"}],
+    "story": "The Shuowen’s gloss, “to examine closely”, makes stillness a kind of clear attention, not a blank. The Laozi returns to the word often: muddy water cleared by stillness (15), return to the root called stillness (16), stillness as the lord of the restless (26), the people who set themselves right when the ruler loves stillness (57). By accident of script, the graph for “quiet” contains the graph for “contend”, as a sound part only.",
+    "gap": "“Stillness” in English suggests no motion. 靜 allows motion; what it excludes is hurry and agitation."
+  },
+  "輜": {
+    "senses": ["a covered wagon", "輜重: an army’s supply train, baggage"],
+    "shuowen": "軿車前，衣車後也。从車甾聲。",
+    "shuowenEn": "A wagon closed in like a curtained carriage in front and like a clothes cart behind. From 車 (cart); 甾 gives the sound.",
+    "parts": [{"c": "車", "m": "a chariot, a cart"}, {"c": "甾", "m": "sound part"}],
+    "story": "輜 is the slow, covered cart that carries what an army or a traveller needs. With 重, “the heavy things”, it forms the standing term for the supply train. Sunzi warns that an army without it is lost. Laozi 26 makes it the picture of what a person must not ride away from, and the Han Feizi glosses it for rulers: the state is a lord’s baggage train.",
+    "gap": "“Baggage” in English is something one would like to drop. 輜重 is what keeps the traveller alive."
+  }
+}

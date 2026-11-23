@@ -1,0 +1,291 @@
+{
+  "n": 25,
+  "title": "So of Itself",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "有物混成，先天地生。",
+      "gloss": {
+        "2": "mixed in one flow; not yet sorted"
+      }
+    },
+    {
+      "text": "寂兮寥兮，獨立而不改，",
+      "gloss": {
+        "5": "alone, single; with no partner"
+      }
+    },
+    {
+      "text": "周行而不殆，可以為天下母。",
+      "gloss": {
+        "0": "all round; in a full circuit",
+        "4": "in danger; some read 怠, to grow tired"
+      }
+    },
+    {
+      "text": "吾不知其名，"
+    },
+    {
+      "text": "字之曰道，",
+      "gloss": {
+        "0": "to give a style-name, a public second name (verb)"
+      }
+    },
+    {
+      "text": "強為之名曰大。",
+      "gloss": {
+        "0": "qiǎng: by force, against the grain (not qiáng, strong)"
+      }
+    },
+    {
+      "text": "大曰逝，",
+      "gloss": {
+        "2": "to go off, to pass on (as a river does, as the dead do)"
+      }
+    },
+    {
+      "text": "逝曰遠，遠曰反。",
+      "gloss": {
+        "6": "to turn back; to turn over"
+      }
+    },
+    {
+      "text": "故道大，天大，地大，王亦大。"
+    },
+    {
+      "text": "域中有四大，",
+      "gloss": {
+        "0": "a bounded territory, a realm"
+      }
+    },
+    {
+      "text": "而王居其一焉。"
+    },
+    {
+      "text": "人法地，地法天，天法道，道法自然。",
+      "gloss": {
+        "1": "to take as model or rule (verb)",
+        "14": "self; from itself",
+        "15": "so, thus"
+      }
+    }
+  ],
+  "rendering": [
+    "There is [[a thing, formed in one blur|hun-cheng]],",
+    "[[born before heaven and earth|xian-sheng]].",
+    "[[Soundless, empty|ji-liao]],",
+    "it [[stands alone|du-li]] and does not change,",
+    "[[goes all round|zhou-xing]] and is not in danger.",
+    "It can be taken as [[mother of all under heaven|tianxia-mu]].",
+    "",
+    "I do not know its name.",
+    "I [[style it|zi]] “Dao”.",
+    "[[Forced|qiang]] to make a name for it, I say “great”.",
+    "",
+    "Great means [[passing on|shi]].",
+    "Passing on means far.",
+    "Far means [[turning back|fan]].",
+    "",
+    "So Dao is great, heaven is great,",
+    "earth is great, [[the king|wang]] too is great.",
+    "[[Within the borders|yu-zhong]] there are four greats,",
+    "and the king holds one of those seats.",
+    "",
+    "[[A person|ren]] [[takes earth as the rule|fa]].",
+    "Earth takes heaven as the rule.",
+    "Heaven takes Dao as the rule.",
+    "Dao takes as its rule [[what is so of itself|ziran]]."
+  ],
+  "notes": {
+    "hun-cheng": {
+      "kind": "gap",
+      "title": "A thing? Formed how?",
+      "body": "有物混成. 有物 is as plain as Chinese can be: “there is a thing”, a something. The book that says Dao cannot be named here calls it by the humblest noun it has, the one used for an ox or a pot. 混 has the water sign. The Shuowen glosses it 豐流也, “a full, abundant flow”: many waters that run as one, so “mixed, not sorted”. Passage 14 uses it of three things that “blend and are one”, and passage 15 of muddy water. 成 is “to be completed”. So: a thing that is whole while nothing in it has yet been told apart. English “chaos” brings in the Greek gap or a disorder that a god must tame. This blur needs no taming. Our “it” in the next lines is also an English need; the Chinese has no pronoun there. The [[excavated copies|silk-25]] are reported to read the first words differently.",
+      "src": [
+        "Shuowen Jiezi, 水部: 混，豐流也。从水昆聲。"
+      ]
+    },
+    "silk-25": {
+      "kind": "variant",
+      "title": "What the excavated copies lack",
+      "body": "The Mawangdui silk texts are reported to read 有物昆成, with the plain graph 昆 for 混. The Guodian bamboo slips, about a century older, are reported to write a graph that many scholars read as 狀, “shape, appearance”: “there is a shape, formed in a blur”. If that is right, the oldest known copy avoids even the word “thing”. Two more differences are reported for the silk texts. They have no line 周行而不殆, “goes all round and is not in danger”; the thing only stands alone and does not change. And they say 可以為天地母, “mother of heaven and earth”, where the received text says “of all under heaven”. The Guodian slips are reported to lack the circling line too, and to read 天下母 as the received text does. So the circling motion that many readers treat as the heart of the passage may be a later addition. Does the passage need it?",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Guodian Laozi A (as reported)"
+      ]
+    },
+    "xian-sheng": {
+      "kind": "gap",
+      "title": "Born, not eternal, and not a maker",
+      "body": "先天地生: “before heaven and earth, born”. The verb is 生, which the Shuowen explains with a picture: 象艸木生出土上, “it shows grass and trees that come up out of the soil”. The thing in this line does not make heaven and earth, as a craftsman makes a table. It does not stand outside time, as the God of the catechism does. It is born, or it lives, earlier. A reader raised on Genesis looks for a creator and a first day. The line gives a birth with no parent named, and Wang Bi says so: 不知其誰之子, “one does not know whose child it is”, which are the words of passage 4. Two lines later the thing that was born is itself called a mother. What kind of origin is born and gives birth?",
+      "src": [
+        "Shuowen Jiezi, 生部: 生，進也。象艸木生出土上。",
+        "Wang Bi commentary on Laozi 25"
+      ]
+    },
+    "ji-liao": {
+      "kind": "wangbi",
+      "title": "Wang Bi on 寂 and 寥",
+      "body": "Two words, each followed by the sigh 兮, a particle of old song. 寂 is without sound. 寥 is without things: wide and deserted. Both are written under 宀, a roof, as if silence and emptiness were first known in a house. Wang Bi takes the pair as one statement: 寂寥，無形體也, “soundless and empty: it has no form and no body”. He moves from the senses to the logic: what cannot be heard or met has no shape for a name to fix on. Mawangdui silk text B is reported to write the words with other graphs, 繡呵繆呵, which shows that scribes wrote them down by sound. Later, Chinese Buddhists chose 寂 to translate the stillness of nirvana. So when you read 寂 in a Zen text, you are hearing this line.",
+      "src": [
+        "Wang Bi commentary on Laozi 25",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "du-li": {
+      "kind": "etymology",
+      "title": "獨: the dog, not the sheep",
+      "body": "獨, “alone”, has the dog sign 犭 at the left. The Shuowen’s explanation is one of its best: 羊爲羣，犬爲獨也, “sheep make a flock; the dog makes ‘alone’”. A sheep by itself is lost. A dog by itself is complete. So 獨 is not loneliness. It is the state of having no partner and needing none; Wang Bi says 無物之匹, “no thing is its match”. 立 is “to stand”, and the Shuowen sees a person, 大, on a line that is the ground. Passage 24 began with one who rises on the toes and 不立, does not stand. Here is the thing that does stand: alone, on nothing, and it does not change. Later the phrase 獨立 became the modern Chinese word for political independence.",
+      "src": [
+        "Shuowen Jiezi, 犬部: 獨，犬相得而鬬也。从犬蜀聲。羊爲羣，犬爲獨也。",
+        "Shuowen Jiezi, 立部: 立，住也。从大立一之上。"
+      ]
+    },
+    "zhou-xing": {
+      "kind": "gap",
+      "title": "Round, or everywhere? Danger, or tired?",
+      "body": "周行而不殆 holds two choices. 周 can mean “in a circle”, a full circuit that comes back, or “all over, to every place”; the Shuowen’s gloss is 密也, “close, with no gap”. Wang Bi takes the second sense: 周行無所不至, “it goes all round and there is no place it does not reach”. 殆 is “danger” in the Shuowen, 危也, and that is how we render it: a thing that goes everywhere and is never at risk. Many readers take the graph as 怠, “to grow slack, to tire”: it goes round and does not weary. The first reading pictures a traveller who cannot be harmed. The second pictures a motion with no friction. The line [[is reported absent from the excavated copies|silk-25]], so the choice may be between two later readers. Which would you want to be true of the mother of the world?",
+      "src": [
+        "Shuowen Jiezi, 口部: 周，密也。从用、口。",
+        "Shuowen Jiezi, 歺部: 殆，危也。从歺台聲。",
+        "Wang Bi commentary on Laozi 25"
+      ]
+    },
+    "tianxia-mu": {
+      "kind": "gap",
+      "title": "A mother, by permission",
+      "body": "可以為天下母: “it can be taken as the mother of all under heaven”. Note the caution. The text does not say “it is the mother”. 可以為 is “may be regarded as, can serve as”. The speaker offers a likeness and marks it as one. The Shuowen says the graph 母 shows a woman who holds a child, or the breasts. As in passages 1, 20, 52, and 59, the origin is a mother who rears, and no father, lord, or judge is named. 天下, “all under heaven”, was the political word for the whole known world, the thing that kings fought to own. The line gives that world a mother before it gives it [[a king|wang]]. What does a mother do for a grown child that a ruler cannot?",
+      "src": [
+        "Shuowen Jiezi, 女部: 母，牧也。从女，象褱子形。一曰象乳子也。"
+      ]
+    },
+    "zi": {
+      "kind": "history",
+      "title": "名 and 字: two names for one person",
+      "body": "A man of the Zhou elite had two names. His 名 was given in infancy and was used by his parents, his ruler, and himself. At about twenty he went through the capping rite, and then he received a 字, a public name; the Book of Rites says 冠而字之, “he is capped and given a style-name”. From then on, other people used the 字. To use an adult’s 名 was rude; a ruler’s 名 could not be written at all. Confucius had the 名 Qiu and the 字 Zhongni. So the speaker’s two sentences are exact manners. “I do not know its 名”: the true, private name is not mine to know. “I give it the 字 Dao”: here is a polite name for use in company. Wang Bi: 名以定形，字以稱可言, “a name fixes a form; a style-name designates what can be spoken of”. Dao is a courtesy title.",
+      "src": [
+        "Liji, “Qu li” and “Tan gong”",
+        "Wang Bi commentary on Laozi 25"
+      ]
+    },
+    "qiang": {
+      "kind": "etymology",
+      "title": "強: an insect lends its name to force",
+      "body": "強, read qiǎng here, is “by force, against the grain”. The Shuowen gives the graph a surprise for its first meaning: 蚚也, an insect, usually taken as a grain weevil; that is why 虫 sits in it. The word “strong” had a graph of its own, 彊, defined as 弓有力也, “the bow has power”. Scribes borrowed the easier insect graph for the bow word, and it stayed. The speaker has just refused to give a name, and now gives one under pressure. Passage 15 does the same with the old masters: 強為之容, “forced to make a likeness of them”. Elsewhere in the book 強 is what the Dao is not: stiff, violent, close to death (30, 55, 76). To name the Dao is, by the text’s own word, a small act of violence. Did you feel the speaker wince?",
+      "src": [
+        "Shuowen Jiezi, 虫部: 強，蚚也。从虫弘聲。",
+        "Shuowen Jiezi, 弓部: 彊，弓有力也。从弓畺聲。"
+      ]
+    },
+    "shi": {
+      "kind": "gap",
+      "title": "逝: the river and the dead",
+      "body": "The Shuowen defines 逝 as 往也, “to go away”. It has the walking sign 辶. It is the word that Confucius used when he stood by a stream: 逝者如斯夫，不舍晝夜, “what passes on is like this; it does not stop by day or night”. It is also a quiet word for death; modern Chinese still says 逝世, “to pass from the world”. English versions that say “flowing” or “continuing” keep the river and drop the loss. The text says that the great thing does not stay to be admired. Wang Bi: 不守一大體而已, “it does not just guard one great body”. Greatness here is not size that sits still. It is a leaving. The Mawangdui copies are reported to write the word as 筮, a sound-loan. Can a thing be great and not remain?",
+      "src": [
+        "Shuowen Jiezi, 辵部: 逝，往也。从辵折聲。讀若誓。",
+        "Analects 9.17",
+        "Wang Bi commentary on Laozi 25"
+      ]
+    },
+    "fan": {
+      "kind": "wordplay",
+      "title": "A chain of three links",
+      "body": "大曰逝，逝曰遠，遠曰反. Each line ends with the word that starts the next, so the sentence walks: great, gone; gone, far; far, back. 曰 is “to say, to be called”. The speaker is still naming, and each name gives way to another. The last link is 反. The Shuowen glosses it 覆也, “to turn over”, as a hand turns. It is both “to return” and “to reverse”; passage 40 will say 反者道之動, “turning back is the motion of Dao”. The chain is not a circle drawn on paper. It is what happens to anything that goes far enough: at the limit it is on its way back. The form recurs in the last four lines, where each line hands its final word to the next line as a subject. Read the three steps aloud and feel where the turn comes.",
+      "src": [
+        "Shuowen Jiezi, 又部: 反，覆也。从又，厂反形。"
+      ]
+    },
+    "wang": {
+      "kind": "variant",
+      "title": "The king, or the human?",
+      "body": "The received text says 王亦大, “the king too is great”. The last stanza then starts with 人, a person. There is old evidence for that. The Shuowen, about 100 CE, explains the graph 大 by quoting this passage as 天大，地大，人亦大: “heaven is great, earth is great, the human too is great”. But the Guodian slips, four centuries older, are reported to read 王亦大, and the Mawangdui silk texts likewise. So 王 is the oldest reading that we can see, and 人 is an early, humane correction, or a parallel tradition. The Shuowen’s entry for 王 builds a bridge with a saying of Dong Zhongshu: 三者，天、地、人也，而參通之者，王也, “the three strokes are heaven, earth, and the human, and the one who joins them through is the king”. Wang Bi builds the same bridge: the king is 人之主, “the lord of humans”. Is the fourth great thing one man, or the kind?",
+      "src": [
+        "Shuowen Jiezi, 大部: 大，天大，地大，人亦大。故大象人形。",
+        "Shuowen Jiezi, 王部: 王，天下所歸往也。董仲舒曰：「古之造文者，三畫而連其中謂之王。三者，天、地、人也，而參通之者，王也。」",
+        "Guodian Laozi A (as reported)",
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Wang Bi commentary on Laozi 25"
+      ]
+    },
+    "yu-zhong": {
+      "kind": "geopolitics",
+      "title": "Borders, and too many kings",
+      "body": "域 is a territory with limits. Its core is the old graph 或, which the Shuowen explains as a state: 邦也。从囗从戈，以守一, “a domain: an enclosure, and a halberd that guards the ground”. Mawangdui silk text B is reported to write 國中, “within the state”. So the cosmos in this line is drawn as a guarded country, and in it “the king has a seat”. When the passage took shape, the word 王 had lost its old weight. For centuries only the Zhou Son of Heaven was king. Chu took the title early, and then in 334 BCE the rulers of Wei and Qi recognised each other as kings, and by 323 BCE most of the great states had one. A reader of that time knew several men called 王, all at war. The text allows the king one seat in four, and then sets over him [[three things to learn from|fa]].",
+      "src": [
+        "Shuowen Jiezi, 戈部: 或，邦也。从囗从戈，以守一。一，地也。",
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Shiji 5, 44, 46"
+      ]
+    },
+    "ren": {
+      "kind": "wordplay",
+      "title": "One sentence, two ways to cut it",
+      "body": "The usual cut is four clauses of three characters: 人法地，地法天，天法道，道法自然. Each object becomes the next subject, like the chain of [[great, gone, far, back|fan]]. A Tang dynasty reader, Li Yue, cut the same characters another way, with 人 as the only subject: 人法地地，法天天，法道道，法自然. “A person takes as rule the earth’s way of being earth, heaven’s way of being heaven, Dao’s way of being Dao: the rule of the so-of-itself.” Few have followed him, yet his cut shows something. In the standard reading the human is three steps from the source and must go up a ladder. In Li Yue’s reading the human learns one thing from every level directly. The characters allow both. Note also that the stanza says 人, not 王: whoever the fourth great one was, the one who learns is any person.",
+      "src": [
+        "Li Yue, Daode zhenjing xinzhu (Tang)"
+      ]
+    },
+    "fa": {
+      "kind": "gap",
+      "title": "法: a model, before it is a law",
+      "body": "法 is used here as a verb: to take something as one’s pattern. The old noun covers a carpenter’s standard, a method, a model to copy, and a penal law. In the same century the thinkers later called 法家, the Legalists, made 法 the written statute that a ruler fixes and enforces with punishment. This stanza takes their word and turns it. Here no one issues the 法. Each level looks at the next and shapes itself after it. Wang Bi explains the verb as 不違, “not to go against”: 人不違地，乃得全安, “people do not go against the earth, and so get full safety”. English “law” brings a lawgiver and a penalty; “follows” brings obedience. A potter who “takes the wheel as the rule” is nearer. See the plate for the strange beast inside the old graph.",
+      "src": [
+        "Wang Bi commentary on Laozi 25",
+        "Han Feizi, “Ding fa”"
+      ]
+    },
+    "ziran": {
+      "kind": "gap",
+      "title": "自然 is not “Nature”",
+      "body": "The last two characters are the most discussed in the book. 自 is “self, from itself”. 然 is “so, thus”. Together: “so of itself”, what is as it is without being made so. In modern Chinese 自然 is the noun “nature”, and many English versions end the passage with “Tao follows Nature”; [[Legge did not|legge]]. That makes a fifth thing above the Dao, which the passage has just denied by counting four. The early commentators saw the trap. Heshang Gong: 道性自然，無所法也, “the character of Dao is to be so of itself; there is nothing it takes as a rule”. Wang Bi: 自然者，無稱之言，窮極之辭也, “‘so of itself’ is a word for what has no designation, an expression for the last limit”. The ladder of models ends on a step that is not a step. The Dao’s rule is its own way of being. What in you is so of itself?",
+      "src": [
+        "Heshang Gong commentary on Laozi 25",
+        "Wang Bi commentary on Laozi 25"
+      ]
+    },
+    "square-round": {
+      "kind": "wangbi",
+      "title": "In the square, square",
+      "body": "Wang Bi gives the last line a concrete test: 在方而法方，在圓而法圓，於自然無所違也. “In what is square, it takes the square as rule; in what is round, it takes the round as rule; it goes against the so-of-itself in nothing.” The Dao has no shape of its own to press on things. It is square in the square thing and round in the round thing. Read this way, the line reverses the direction that a reader expects. One expects the highest term to give the pattern and all the rest to copy it. Wang Bi’s Dao copies: it lets each thing be the model for what the Dao does there. He then adds the order of worth that runs through the whole chain: 用智不及無知, “to use cleverness does not come up to not-knowing”. Who is the model in a room: the one who shapes, or the one who fits?",
+      "src": [
+        "Wang Bi commentary on Laozi 25"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s brackets and capitals",
+      "body": "Legge is careful here, and his care shows his frame. He writes “the (sage) king”, with a bracket that turns any ruler into a moral one; the Chinese says only 王. He gives 域中 as “in the universe”, a word from astronomy for a word that means a guarded territory. He calls the first name “The Great”, with capitals, as English writes a title of God. And his last stanza begins “Man takes his law from the Earth”: 人 becomes “Man”, male and singular, and 法 becomes “law”. His final sentence is his best: “The law of the Tao is its being what it is.” He did not write “Nature”. A reader who knows Exodus 3:14 may hear an echo of it; we cannot say that Legge intended one. Do you hear it?",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "Five moves. First a report: there is [[a thing, whole and unsorted|hun-cheng]], alive before heaven and earth, [[soundless and empty|ji-liao]], alone, in motion, fit to be called a mother. Second, a scene of naming, and it is a scene of manners: the speaker does not know the true name, offers [[a polite second name|zi]], “Dao”, and then, [[under pressure|qiang]], a describing name, “great”. Third, the describing name runs away from the speaker: [[great, gone, far, back|fan]]. Fourth, a count: four great things inside the borders, one of them [[the king|wang]]. Fifth, [[a ladder of models|fa]] from a person up to the Dao, which ends in two characters that mean [[“so of itself”|ziran]]. The speaker says 吾, “I”, in the naming lines: the one who names stands inside the passage. Two lines of the usual text [[are reported missing or different in the excavated copies|silk-25]].",
+    "inner": "The first lines can be read as a report from stillness. Before the mind sorts the world into heaven and earth, self and other, there is something whole, without sound or content, that does not come and go with thoughts. It [[stands by itself|du-li]]. The passage then shows the mind’s next move with great honesty: it wants a name. The speaker gives one and marks it as [[a courtesy|zi]], gives a second and marks it as [[forced|qiang]]. This is a way to hold any name for what is deepest: use it, and know that you chose it. The final line removes the last support. If the Dao had a model above it, practice would be imitation of that model. It has none. What is left is to be [[so of oneself|ziran]], which cannot be done on purpose. The thing in the first line is not [[a god that made the world|xian-sheng]].",
+    "leading": "The text gives the ruler a seat among the four greats and, in the same breath, three teachers. The 法 of the last stanza was [[the keyword of the Legalists|fa]], who taught kings to issue standards and enforce them. Here the direction is reversed: the one at the top is the one who takes a model. A person learns from the ground: what it bears, what it grows, where water runs. The ground keeps to the sky’s seasons. The chain ends in a source that [[imposes no shape|square-round]] and is square in the square. For anyone who leads a family or a team the test is practical. When I set a rule, am I pressing my shape on the thing, or did I first learn its shape? The title 王 was [[cheap in those years|yu-zhong]]. The passage gives it worth on one condition.",
+    "nature": "It is tempting to read the end as “follow nature”, and the temptation is half right. A person [[takes the earth as the rule|fa]]: this is concrete. Soil, slope, water table, and season decide what will grow, and a farmer who goes against them loses the crop. The earth in turn keeps to heaven: light, warmth, rain, the turning year. But the last step is not to a bigger nature. It is to [[自然|ziran]], which in this text is not a place or a set of living things. It is the way each of them is what it is with no one making it so. The river does not follow a law of rivers. It runs. The middle of the passage adds the motion: what is great [[goes out, goes far, and turns back|fan]], as water leaves the sea and comes home to it.",
+    "practice": "Try the speaker’s two sentences on something you think you know well: a person you love, your work, yourself. First say honestly: “I do not know its name.” Wait and see if that is true. Then give it a name on purpose, aloud, and hear it as a [[style-name|zi]]: a polite handle for use in company, not the thing. Then one more, [[forced|qiang]], and notice the small strain in forcing it. For the rest of the day, when you use any big word (love, success, God, the market), remember that someone once gave it as a courtesy title. If you want a second exercise, look at one thing that is [[so of itself|ziran]], such as a child asleep or rain on a window, and ask what rule it is following."
+  },
+  "glyph": "字",
+  "plates": [
+    {
+      "c": "字",
+      "title": "A child under a roof",
+      "lesson": "Two parts. On top is 宀, a roof. The Shuowen calls it 交覆深屋, “a deep house with crossed coverings”, and says it is a picture: the dot is the ridge and the two sides fall away. Under it is 子, a child; the Shuowen says 象形, a picture, and the usual account is a baby with a large head and wrapped legs. A child under a roof: the Shuowen’s gloss for 字 is 乳也, “to suckle, to bear and nurse”. The first sense is to bring up young in the house. Then the word bred. In his postface Xu Shen says that the first writing was simple pictures, called 文, and that when these were joined, the results were called 字: 字者，言孳乳而寖多也, “字 means that they are born and nursed and grow many”. Written characters are the children of pictures. That is why 字 means “a written character” today. The [[style-name|zi]] is a third growth: a name born from the first name when the child is grown. Look at the roof’s family in this passage. 寂 (soundless) and 寥 (empty) both sit under it. Elsewhere 安, “peace”, is a woman under a roof; the Shuowen says 从女在宀下. 家, “household”, is a pig under a roof. 宗, “ancestral line”, is an altar under a roof. So the name “Dao” is, in its graph, a thing born and reared in a house. Whose house?",
+      "brush": "Six strokes. The first is a dot at the top centre; set it firmly, because the roof hangs from it. The second is a short stroke at the left edge that leans down and out to the left. The third is the roof beam: a horizontal that runs to the right edge and ends in a small hook turned down and back. Now the child. The fourth stroke is a short horizontal that turns at once into a slant down to the left. The fifth is the spine: a vertical with a slight bow that ends in a hook to the upper left. The sixth is the long horizontal that crosses the spine; these are the child’s arms, and they reach wider than the roof. In good regular script the roof is kept flat and small so that the arms can be the widest line. In running script the last three strokes are often written in one turning movement."
+    },
+    {
+      "c": "大",
+      "title": "A person, arms out",
+      "lesson": "Three strokes, and one of the oldest pictures in the script: a person seen from the front, arms held out, legs apart. To show “big”, the makers of the script drew an adult who takes up room. The Shuowen explains the graph by quoting this very passage, in a form that differs from ours by one word: 天大，地大，人亦大。故大象人形, “heaven is great, earth is great, the human too is great; so 大 pictures the human form”. See [[the note on king and human|wang]]. Compare 人, the person seen from the side, small and bent. Chinese has two people: one in profile who works and walks, one face-on who is great. Now add to the figure. A line under the feet gives 立, to stand; the Shuowen says 从大立一之上. A stroke through the top gives 夫, a grown man; the Shuowen sees a hairpin: 一以象簪也. A line above the head gives 天, heaven or sky; the Shuowen says 顛也。至高無上。从一大, “the crown of the head; the highest, with nothing above; from 一 and 大”. So three of the four greats are tied to this figure: 大 itself, 天 above it, and 人 beside it. When the speaker is [[forced|qiang]] to name the Dao and says “大”, the word that comes out is, in its graph, a human body opened as wide as it will go. Is that a failure of the name, or its point?",
+      "brush": "Three strokes. The first is the horizontal, the arms; it rises very slightly to the right and is not long. The second begins well above the horizontal at the centre, comes straight down through it, and then curves away to the lower left, growing thin to a point. The third starts where the second crosses the horizontal, or just below, and falls to the right: the brush presses more and more, then lifts off in a level tail. Watch the legs as they are written. The left one is quick and light. The right one is slow and heavy, and it must end a little lower than the left or the figure tips over. Teachers give this character to beginners because it has nowhere to hide: three strokes, and each shows the hand that made it."
+    },
+    {
+      "c": "法",
+      "title": "Water, and a beast that left",
+      "lesson": "Today the graph is 氵, water, and 去, “to go away”. The old full form is 灋, and it has a third part between them. The Shuowen explains each: 刑也。平之如水，从水；𢊁，所以觸不直者；去之，从去. “Punishment. It makes level as water does, so it has water. The beast is that which butts the one who is not straight. It drives that one away, so it has 去.” The beast, written 廌 in modern print, is the one-horned animal of legend that was led into the court of the judge Gao Yao and struck the guilty party with its horn. So the first picture of law in Chinese is level water, a judging animal, and removal. Later scribes dropped the beast and kept water and “go”. The shorter graph was easier to write, and it also happens to say something gentler: the way water goes. This passage uses 法 as [[a verb for taking a model|fa]], and it is fair to notice that a model is level, like the surface of water in a builder’s trough. Cousins by the water sign in this passage: 混, the blur of the first line. Cousin by 去: the Shuowen reads 去 as 人相違也, “people who turn from each other”, with 大, the open figure of the other plate, on top. The old graph judged and expelled. The Laozi asks its reader to copy the earth.",
+      "brush": "Eight strokes. The first three are the water sign at the left: a dot, a second dot under it, and then a short stroke that flicks up to the right. The three do not line up; they make a shallow curve that opens toward the right side. Then 去. The fourth stroke is a short horizontal. The fifth is a vertical that comes down through it. The sixth is a long horizontal under them, the widest line in the character. The seventh starts under the long line, slants down to the left, and turns sharply to the right. The eighth is a dot that closes the turn. The upward flick of the third stroke points at the start of the fourth, so the brush crosses the gap in the air as if still on the paper. In seal script you can see the full 灋 with the beast in place; the short form won in the scripts that came after."
+    }
+  ]
+}

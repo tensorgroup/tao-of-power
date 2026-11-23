@@ -1,0 +1,264 @@
+{
+  "n": 52,
+  "title": "Return to the Mother",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "天下有始，以為天下母。",
+      "gloss": {
+        "3": "a beginning (the graph has 女, a woman, at its left)",
+        "9": "mother"
+      }
+    },
+    {
+      "text": "既得其母，以知其子，既知其子，復守其母，沒身不殆。",
+      "gloss": {
+        "8": "child, offspring",
+        "16": "to keep to, to guard, to stay with",
+        "20": "mò: to sink, to go under; 沒身: until the body is gone"
+      }
+    },
+    {
+      "text": "塞其兌，閉其門，",
+      "gloss": {
+        "0": "sè: to stop up, to block",
+        "2": "duì: an opening; the mouth; also a trigram of the Changes"
+      }
+    },
+    {
+      "text": "終身不勤。",
+      "gloss": {
+        "3": "to toil; to be worn out"
+      }
+    },
+    {
+      "text": "開其兌，濟其事，終身不救。",
+      "gloss": {
+        "4": "jì: to ford a river; to carry through, to add to"
+      }
+    },
+    {
+      "text": "見小曰明，守柔曰強。",
+      "gloss": {
+        "3": "clear sight; the lit state within"
+      }
+    },
+    {
+      "text": "用其光，",
+      "gloss": {
+        "2": "light that shines outward"
+      }
+    },
+    {
+      "text": "復歸其明，",
+      "gloss": {}
+    },
+    {
+      "text": "無遺身殃，是為習常。",
+      "gloss": {
+        "7": "to practise; at first, a young bird’s repeated flight"
+      }
+    }
+  ],
+  "rendering": [
+    "The world has [[a beginning|shi]],",
+    "taken as the world’s [[mother|mu]].",
+    "Having got the mother, thereby know [[the child|zi]].",
+    "Having known the child, [[go back and keep to the mother|shou]]:",
+    "[[until the body sinks|moshen]], no danger.",
+    "",
+    "Block [[the openings|dui]],",
+    "shut [[the gates|men]]:",
+    "to the end of life, [[no wearing out|qin]].",
+    "Open the openings,",
+    "[[add to the business|ji]]:",
+    "to the end of life, no rescue.",
+    "",
+    "To see the small is called [[clear sight|ming]].",
+    "To keep to the soft is called [[strength|qiang]].",
+    "Use [[the light|guang]],",
+    "and go back again to the clear sight.",
+    "[[Leave the body no calamity|yang]].",
+    "This is [[to practise the constant|xichang]]."
+  ],
+  "notes": {
+    "shi": {
+      "kind": "etymology",
+      "title": "始: the beginning is written with a woman",
+      "body": "始 is “beginning”. Its left part is 女, a woman, and the Shuowen defines the word in a way that few readers expect: 女之初也, “the first of a woman”. Commentators differ on what that means, a girl’s first stage of life or the first-born, and the right part, 台, gives the sound. So when the passage says that the world has a 始 and that it serves as the world’s 母, the two words are already kin on the page: both are built on 女. The first passage of the book set them side by side: what has no name is the 始 of heaven and earth; what has a name is the 母 of the ten thousand things. Here the two are joined in one line. A beginning, in this language, is not a point on a line of time. It is nearer to a womb.",
+      "src": [
+        "Shuowen Jiezi, 女部: 始，女之初也。从女台聲。",
+        "Laozi 1"
+      ]
+    },
+    "mu": {
+      "kind": "gap",
+      "title": "母: more than a figure of speech",
+      "body": "The book calls the Way “mother” five times: of the ten thousand things (1), the one on whom the speaker alone feeds (20), of the world (25, and here), and of the state (59). English readers tend to file this as a metaphor for “source” and move on. Two frames get in the way. One is the Father and Creator of the Bible, beside whom a cosmic mother sounds like a pagan goddess. The other is abstraction, which turns her into a “principle”. The Chinese is neither. A mother is the one from whose body the child came, who is still alive, and to whom the child can go back. The whole passage rests on that last fact. One cannot return to a first cause. One can return to a mother. See the plate for 母."
+    },
+    "zi": {
+      "kind": "gap",
+      "title": "Mother first, then child",
+      "body": "既得其母，以知其子: “having got the mother, by that know the child”. The order goes against a habit of the modern mind. We expect to study the children, the many things, and to reason back to their source: from data to law. The line runs the other way. Get the mother first, and the children are known through her. [[Wang Bi|wangbi]] glosses the pair as root and branch-tip. Then the passage adds a second step that is easy to miss: 既知其子，復守其母. Having known the child, come back. Knowledge of the world is allowed and even expected, and it is not the place to stay. Who is the child? The ten thousand things; the world of affairs; and the reader, who is also a child of that mother."
+    },
+    "shou": {
+      "kind": "history",
+      "title": "守: “keeping” became a word for meditation",
+      "body": "守 is to guard, to keep watch, to hold a post. The graph is 宀, a roof, over 寸, a hand; the Shuowen defines it as 守官也, to keep one’s office, and says that the hand stands for rule and measure. A sentry 守 a gate; an official 守 a city. The Laozi turns the word inward and uses it often: keep to the centre (5), keep to stillness (16), know the male and keep to the female (28), keep to the soft (this passage). In the religious Daoism of the Han and after, 守 became a technical term. 守一, “guarding the One”, is one of the oldest names for meditation in China: the practitioner holds attention at one place as a guard holds a pass. This passage is among its sources. Note 復, “again, back”: the keeping is a return.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 守，守官也。从宀从寸。寺府之事者。从寸。寸，法度也。"
+      ]
+    },
+    "moshen": {
+      "kind": "etymology",
+      "title": "沒身: until the body goes under",
+      "body": "沒 has water at its left, and the Shuowen gives it one word: 沈也, “to sink”. It is used for a diver, for a thing that is covered by a flood, for the sun that goes down. 沒身 is then “until the body sinks from sight”: to the end of one’s life. English “all your life” or “to the end of your days” keeps the time and loses the water. 身 is the living body, as in passage 44. The promise, 不殆, “no danger”, is also from 44, and the full phrase 沒身不殆 closes passage 16. Three times in this passage the measure is a lifetime: 沒身 once and 終身 twice. The text does not speak of what comes after. Its horizon is the whole of one life in a body, with nothing left over.",
+      "src": [
+        "Shuowen Jiezi, 水部: 沒，沈也。从水从𠬸。",
+        "Laozi 16, 44"
+      ]
+    },
+    "dui": {
+      "kind": "wordplay",
+      "title": "兌: an opening, a mouth, a trigram",
+      "body": "兌 is a short word with a long reach. Here it means an opening or hole; old commentators, and [[Legge|legge]] after them, read it as the mouth, or as all the openings of the head. The Shuowen defines it as 說也, a word that covers “to speak” and “to be pleased”. And 兌 is the name of one of the eight trigrams of the Changes, ☱, whose image is a lake and whose attributes include the mouth and tongue, speech, and joy. So a reader of the time heard several things in 塞其兌: stop the hole; shut the mouth; and close the channel of pleasure and exchange. In later Chinese the word means “to exchange”, as money is exchanged. The opening is where things pass out and in. [[Wang Bi|wangbi]] calls it the place where desires for affairs are born. See the plate.",
+      "src": [
+        "Shuowen Jiezi, 儿部: 兌，說也。从儿㕣聲。",
+        "Yijing, “Shuo gua”"
+      ]
+    },
+    "men": {
+      "kind": "history",
+      "title": "塞其兌，閉其門: lines the book repeats",
+      "body": "These six characters come again, word for word, in passage 56, where they lead on to “soften the glare” and “become one with the dust”. They are a formula, and they may be older than either passage; the Guodian slips are reported to have this middle section and not the rest. 門, the gate, pairs with 兌 as a larger opening with a smaller. The Han Feizi called the body’s openings the doors and windows of the spirit (see passage 47), and later practice took the line as an instruction for sitting: lips closed, eyes lowered, hearing turned in, so that breath and attention do not leak away. It is not a rule to be deaf and dumb in daily life. It marks a direction. For some part of each day the traffic at the gates stops, and what is inside is no longer spent.",
+      "src": [
+        "Laozi 56",
+        "Guodian Laozi B"
+      ]
+    },
+    "qin": {
+      "kind": "gap",
+      "title": "不勤: not “idle”",
+      "body": "勤 is toil; the Shuowen says 勞也, and the graph has 力, strength, on the right. In modern Chinese it is a virtue, “diligent”, and a hasty reader may take 終身不勤 as a reproach: a whole life without effort. The classical word names the cost, not the virtue: to labour until one is spent. 不勤 is “not worn out”. Passage 6 uses it of the valley spirit: 用之不勤, “use it, and it is not exhausted”. So the line promises that the one who closes the openings will not be used up, to the end of life. The [[Mawangdui silk texts|silk]] are reported to write 堇, which editors read as the same word. [[Wang Bi|wangbi]] says: 無事永逸, “no business, and ease for good”. What in your day wears you out: the work, or the open gates?",
+      "src": [
+        "Shuowen Jiezi, 力部: 勤，勞也。从力𡏳聲。",
+        "Laozi 6"
+      ]
+    },
+    "ji": {
+      "kind": "gap",
+      "title": "濟其事: to ford, to succeed, to add",
+      "body": "濟 has water at its left. Its root sense is to cross a river, and from that to get a thing across: to bring it off, to help, to supply what is lacking. 濟其事 is “to carry your affairs through” or “to add to your affairs”. In any other book of the age this is praise. A capable minister 濟 the business of the state. Here it is the second half of a warning: open the openings, be effective in affairs, and to the end of life there is 不救, “no rescue”. 救 is to save, and also to stop a harm, as one stops a fire. The Mawangdui silk texts are reported to end the line with another word, 棘, “thorns”, which editors explain in several ways. The passage does not offer a middle path between the two triplets. One closes and is not spent. The other opens and succeeds, and is past help.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "ming": {
+      "kind": "wordplay",
+      "title": "曰明: a definition against common sense",
+      "body": "見小曰明: “to see the small is called 明”. The form A 曰 B, “A is called B”, is how the book defines its terms, and its definitions usually overturn the common use. Common sense says that a clear eye sees great things and far. The text says: 明 is to see what is small, the first sign, the thing before it has grown. Passage 36 calls this 微明, “the subtle light”; passage 64 tells us to act on a thing while it is not yet there. Other definitions of 明 in the book: to know the constant (16, 55); to know oneself (33). The Shuowen records the character in an older form, a moon beside a window. The modern form is sun and moon side by side. [[Wang Bi|wangbi]] makes the line political: the work of rule is not in what is large.",
+      "src": [
+        "Shuowen Jiezi, 朙部: 朙，照也。从月从囧。",
+        "Laozi 16, 33, 36, 55"
+      ]
+    },
+    "qiang": {
+      "kind": "etymology",
+      "title": "強: “strong” is a borrowed insect",
+      "body": "守柔曰強: “to keep to the soft is called strong”. Look up the two characters in the Shuowen and each has a surprise. 柔, soft, is 木, wood, under 矛, a spear; the definition is 木曲直也, “wood that can be bent and straightened”. Softness, for the dictionary, is not weakness. It is the quality of green wood that takes a curve and does not break. 強, strong, is defined as 蚚也: a kind of insect, with 虫 inside it. The word “strong” only borrowed this graph for its sound. The proper character for strength, says the dictionary, is 彊: 弓有力也, “a bow that has force”. So the two halves of the line are closer than they seem. The soft is the bendable wood, and true strength is the bow that is made of it. Passage 76 says the rest: the living are soft, and the dead are stiff.",
+      "src": [
+        "Shuowen Jiezi, 木部: 柔，木曲直也。从木矛聲。",
+        "Shuowen Jiezi, 虫部: 強，蚚也。从虫弘聲。",
+        "Shuowen Jiezi, 弓部: 彊，弓有力也。从弓畺聲。"
+      ]
+    },
+    "guang": {
+      "kind": "gap",
+      "title": "光 and 明: two lights",
+      "body": "English has “light” and “brightness” and uses them loosely. The Chinese line depends on a difference. 光 is light that goes out from a source: the Shuowen explains the graph as 火在人上, “fire above a person”, a torch held up. 明 is the state of being lit and clear, the capacity itself. 用其光，復歸其明: use the beam, and then come home to the lamp. The same structure governs the first part of the passage: know the child, and go back to the mother. Light that is sent out is a child of the clear state within. It may be used; attention may go out to the world. But a light that only shines outward is spent, and the book distrusts glare: soften the 光 (4, 56); be bright and do not dazzle (58). When you have finished looking at something, where does your attention go?",
+      "src": [
+        "Shuowen Jiezi, 火部: 光，明也。从火在人上，光明意也。",
+        "Laozi 4, 56, 58"
+      ]
+    },
+    "yang": {
+      "kind": "etymology",
+      "title": "無遺身殃: nothing bad left behind",
+      "body": "遺 is to leave behind, to lose, to bequeath. 殃 is calamity; the Shuowen glosses it with one word, 咎也, the “fault” of passage 46, and the graph has 歹, bare bone, at its left, like 殆 and 死. 無遺身殃 is “do not leave the body a calamity”, or “leave no calamity to yourself”. The verb suggests an inheritance. Each act that sends the light out and does not bring it home leaves something for the body to receive later, as an heir receives a debt. The silk texts are reported to make the line a prohibition, with 毋, “do not”. Passage 9 used the same verb of wealth and pride: 自遺其咎, they bequeath their own ruin. The line is modest, like the close of passage 44. It promises no bliss. It says that nothing bad is left for later.",
+      "src": [
+        "Shuowen Jiezi, 歺部: 殃，咎也。从歺央聲。",
+        "Laozi 9"
+      ]
+    },
+    "xichang": {
+      "kind": "variant",
+      "title": "習常 or 襲常: to practise it, or to wear it",
+      "body": "Our text ends 是為習常: “this is to 習 the constant”. 習 is to practise by repeating; the Shuowen says 數飛也, “to fly again and again”, the fledgling at the edge of the nest. See the plate. The Mawangdui silk texts, as reported, and several old editions write a different character of the same sound: 襲常. 襲 is a garment word. The Shuowen defines it as a robe of a certain cut, and as a verb it means to put on a layer of clothing, to cover, and so to continue or inherit. 襲常 is then “to wear the constant”, to be clothed in it, or to carry it on. Passage 27 has a sister phrase, 襲明, “to wear the light”. The two readings give two pictures of one thing. In one it is done again each day, like wing-beats. In the other it is worn next to the skin.",
+      "src": [
+        "Shuowen Jiezi, 習部: 習，數飛也。从羽从𪞶。",
+        "Shuowen Jiezi, 衣部: 襲，左衽袍。从衣，龖省聲。",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)",
+        "Laozi 27"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: do not leave the root to chase the tip",
+      "body": "On mother and child: 母，本也；子，末也。得本以知末，不舍本以逐末也. “The mother is the root; the child is the branch-tip. Get the root and by it know the tip; do not let go of the root to chase the tip.” 本 and 末 are his master terms, and each is a tree with a mark, at the foot and at the top. On the openings: 兌，事欲之所由生；門，事欲之所由從也. “The opening is that from which desires for affairs are born; the gate is that through which they go.” On the light, he reads as a statesman: 用其光 is 顯道以去民迷, “show the Way, to remove the people’s confusion”, and 復歸其明 is 不明察也, “do not scrutinise with sharp sight”. The ruler’s light may guide. It must not be turned on the people as a lamp of inspection. Compare his long note to passage 49.",
+      "src": [
+        "Wang Bi commentary on Laozi 52"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge supplies nostrils",
+      "body": "Legge begins with a bracket: “(The Tao) which originated all under the sky”. The Chinese has no subject, only “the world has a beginning”; he has added the cause and the verb of origin. For the openings he writes: “Let him keep his mouth closed, and shut up the portals (of his nostrils)”. The nostrils are his own gloss. He had read of Daoist breath control, and he puts it into the line as an odd rule of hygiene; later, the person with the open mouth “(spends his breath)”. The passage becomes advice on talking too much. At the end he changes to rhymed verse, bright, blight, sight, and takes the last phrase as “hides the unchanging from men’s sight”, which follows [[the reading 襲|xichang]] in the sense “to cover”. His “children” are told what they “should be”: a moral word that the plain 知, “know”, does not have.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "The old copies",
+      "body": "The Mawangdui silk texts are reported to agree with our text in structure and to differ in single words. The collated text has 啓, “to open”, for 開: a known case of the taboo on the name of Emperor Jing of Han, Liu Qi, 啓, whose name later scribes avoided. It has 堇 for 勤 and 棘 for 救 (see [[the notes on those lines|ji]]), 毋 for 無 in the line on calamity, and 襲常 at the end (see [[習常|xichang]]). The Guodian bamboo slips, a century and more older, are reported to contain only the six short lines on the openings, with the gate named first. If that is the older state, then the [[mother and child|zi]] and the [[two lights|guang]] were joined to the formula later, by an editor who saw that all three say one thing: go out, and come back.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)",
+        "Guodian Laozi B"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Shut the gates for ten breaths",
+      "body": "Sit. Close the mouth and let the tongue rest. Lower the eyes or close them. For ten slow breaths, let sounds come and do not go out to meet them; let thoughts of business come and do not [[add to them|ji]]. That is all. Then open the eyes and use them: look at one thing with full attention, a leaf, a face, a line of text. When you have seen it, do not go at once to the next thing. Come back for one breath to the one who was looking. Out, and home: the child, and the mother; [[the light, and the clear sight|guang]]. Do this three times today, at the start of three ordinary tasks. The passage calls the habit [[practising the constant|xichang]]."
+    }
+  },
+  "lenses": {
+    "ground": "Three movements, each with the same shape. First: the world has [[a beginning|shi]], its [[mother|mu]]; get the mother, know [[the child|zi]], and [[go back to keep the mother|shou]]. Second: two matched triplets on [[the openings|dui]] and [[the gates|men]]. Close them, and life is [[not worn out|qin]]. Open them and [[succeed in affairs|ji]], and life is beyond rescue. Third: two definitions, of [[clear sight|ming]] and of [[strength|qiang]]; then [[the light|guang]] that is used and brought home. In each movement something goes out, child, business, light, and the instruction is the word 復, “again, back”, which appears twice. The close gives the whole a name: [[practising the constant|xichang]]. The passage begins with the mother of the world and ends inside one body, and it treats these as one subject.",
+    "inner": "This is one of the book’s clearest texts on practice, and its instruction is a single gesture: return. Attention is born from a quiet source, goes out through the senses into the world of things, and usually does not come back; it goes on to the next thing, and the next. The passage does not forbid the going out. It says: know the child, use the light. It adds the half that is forgotten. After knowing, come back to what knows. [[Closing the gates|men]] is the same gesture made with the body. The fruit is described in negatives, [[not worn out|qin]], no danger, [[no calamity left behind|yang]], because what is gained is not a new experience. It is the end of a leak. The mother was never far. One was only facing the other way.",
+    "leading": "For a person with responsibilities the second triplet is the uncomfortable one: [[濟其事|ji]], to bring one’s affairs to success, is set on the wrong side. The text does not say that work is bad. It describes someone who is all outlet: every channel open, every matter answered, a life of pure response. Such a person is effective for years and at the end is past help, because nothing was ever brought home. [[Wang Bi|wangbi]] reads the lines on light as advice to a ruler: let your clarity guide people, and do not turn it on them as a searchlight. And [[見小曰明|ming]] is a rule that any leader can use. The useful sight is of small things, early: the first sign of trouble, the quiet person, the detail before it has grown.",
+    "body": "[[守柔曰強|qiang]] is a law of the body before it is a philosophy. The Shuowen’s 柔 is green wood that bends, and its true “strong” is the bow. A joint that is held soft can take a load from any angle; a locked joint has one angle and then breaks. Stand with knees and elbows a little bent and let someone press on your arm: the soft arm sends the force to the ground, and the stiff arm sends it to the shoulder. The [[gates|men]] have a bodily sense too. Close the mouth and breathe through the nose. Let the eyes rest. The energy that goes out all day in talk and looking stays in, and one finishes the hour less tired. That is 終身不勤 on the scale of an afternoon.",
+    "nature": "The mother and child are literal in every field. A river is the child of its spring, and the water that reaches the sea comes back as rain. A tree sends out leaves, the leaves fall, and the tree feeds on them at the root; [[Wang Bi’s|wangbi]] root and tip are a real tree. A bird flies out from the nest and returns at dusk. The character 習, [[to practise|xichang]], is that bird, young, trying its wings again and again near home. The rhythm of all living things is out and back, and what only goes out, a stream cut off from its source, a branch off the tree, lasts for a short time. The passage asks a human life to keep the same rhythm that a day and a year already have.",
+    "practice": "Do the exercise of [[ten breaths with the gates shut|practice]], three times today, each before an ordinary task. In the evening, look back on the day for one case of [[見小|ming]]: a small thing that you noticed early. And look for one place where you went out and did not come home: an hour in which attention ran from thing to thing. Do not scold yourself for it. Only notice, at the end of that hour, [[how tired you were|qin]]."
+  },
+  "glyph": "母",
+  "plates": [
+    {
+      "c": "母",
+      "title": "The woman with two dots",
+      "lesson": "Start from 女, a woman. The Shuowen calls 女 a picture, and the common explanation of the early form is a figure who kneels with her hands crossed in front. Now put two dots inside the body of the figure, and you have 母. The Shuowen says: 从女，象褱子形。一曰象乳子也. “From 女; it shows her holding a child. Another view: it shows her suckling a child.” The second view is the one that most scholars follow: the two dots are the breasts. A mother, in this script, is a woman drawn as one who can feed. The dictionary’s definition is a pun on a word of like sound: 母，牧也, “a mother is one who tends”, the verb for a herdsman with cattle. Passage 51 has just used the herdsman’s word, 畜, for what de does. Take the two dots and join them into one stroke, and the graph is 毋, “do not”, a different word that borrowed the mother’s form. Put 母 under a plant-like top and you have 每, “each”; put water beside that and you have 海, the sea. The Laozi gives this character to the Way itself. The passage says that there is a [[mother|mu]] of the world, and that a person can [[go back and keep to her|shou]]. The two dots say what for.",
+      "brush": "Five strokes. The first comes down on the left with a slight lean, turns at the bottom, and runs to the right: the left side and floor of the figure. The second starts at the top left, goes to the right, turns, comes down the right side, and ends in a hook that points inward. Together these two make a leaning, open box. Third, the upper dot. Fourth, a long horizontal that passes through the whole box and out on both sides: the arms. Fifth, the lower dot, under the horizontal. Watch the two dots. They are not alike: each is pressed and lifted in the same direction, one above the line and one below, and they must sit on one slanting axis. The box leans to the right, the horizontal holds it level, and the dots give it a centre."
+    },
+    {
+      "c": "兌",
+      "title": "The open mouth, and its family",
+      "lesson": "Three layers. At the bottom, 儿: the two legs of a person. In the middle, 口: a mouth. On top, two short strokes that part, like 八. The common explanation of the old form is a person with the mouth open and breath or words that spread out above it: someone who speaks, or laughs. The Shuowen treats the upper part as a sound element and gives the meaning in one word: 說也. That word is itself the best commentary, because 說 is 兌 with 言, speech, at its side, and it has two readings. Read shuō, it is to speak, to explain. Read yuè, it is to be pleased, later written 悅 with a heart. Speech and pleasure: the two things that come out of an open mouth. The family is large, and the Shuowen marks 兌 as the sound in each. 稅, with grain: a tax, what is drawn out of the harvest. 脫, with flesh: to shed, to slip off. 銳, with metal: a sharp point; passage 56 says to blunt it, straight after it says to block the 兌. Something leaves or comes to a point in every one. So when the passage says [[塞其兌|dui]], “block the opening”, the character shows what kind of opening: the one through which a person pours out.",
+      "brush": "Seven strokes. First the two small strokes at the top: a dot on the left that leans to the right, and a short stroke on the right that falls to the left, so that the two lean toward each other and do not touch. Then the mouth in three strokes: left side, top and right side in one, base. Keep it small and square under the two strokes. Then the legs. The sixth stroke falls from under the mouth to the lower left. Watch the seventh: it comes down, bends, runs out to the right, and ends in an upward hook. It is the longest stroke and it carries the character. The upper two layers are tight and the legs spread wide beneath them, like a person who stands with feet apart to call out."
+    },
+    {
+      "c": "習",
+      "title": "Wings, again and again",
+      "lesson": "The top is 羽, feathers: two wings side by side, each with its quills. The Shuowen calls it a picture of the long feathers of a bird. The bottom is written 白, “white”, in the modern form; scholars debate what it was at first, and some early forms seem to have a sun, 日, there. The Shuowen’s definition is what matters: 習，數飛也, “to fly again and again”. A young bird at the edge of the nest beats its wings, lifts, drops back, and tries once more. An old calendar text says of the sixth month: 鷹乃學習, “the young hawks now learn and practise”, and those last two characters are the modern Chinese word for “to study”. Confucius opens the Analects with the same pair: to learn, and at due times to 習 it. From flying practice came practice of any kind, then habit, custom, what one is used to. A related word of the same sound is 襲, to put on a garment, which [[other texts read here|xichang]]. In this passage the thing practised is 常, the constant: the going out and coming home of the mother and child, of the light and the clear sight. The image fits closely. A fledgling’s practice is a short flight that always ends back at the nest.",
+      "brush": "Eleven strokes: six for the wings, five for the base. Each wing is three strokes: a horizontal that turns and comes straight down; then a dot inside, which points down to the right; then a second small stroke inside that rises to the right. Write the left wing, then the right wing, and make them twins. They stand side by side at the top and take the full width. Then the base: a short stroke that falls to the left from under the middle of the wings; the left side of the box; the top and right side in one stroke; a horizontal inside; and the bottom line. Watch the four small strokes inside the wings. They are the quills. In each wing the dot and the rising stroke lean toward each other, and all four must be light and quick. The box below is narrower than the wings, as a body is narrower than a wingspan."
+    }
+  ]
+}

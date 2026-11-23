@@ -1,0 +1,46 @@
+{
+  "戶": {
+    "senses": ["a door of one leaf", "a household, a family as a unit of count", "an opening"],
+    "shuowen": "護也。半門曰戶。象形。",
+    "shuowenEn": "That which protects. Half a 門 (gate) is called 戶. A picture.",
+    "story": "戶 is one leaf of a door on its post, half of the two-leaved gate 門. From the door came the family behind it: states of the Warring States period registered their people by 戶 for tax and service. In the Laozi the door is cut to make a room (11), and the one who does not go out of it knows the world (47). The Han Feizi reads the body’s openings as the 戶 and 牖 of the spirit.",
+    "gap": "English “door” is the thing that swings. 戶 is also the opening and the household, so “not going out of the door” is also “staying with one’s own house”."
+  },
+  "知": {
+    "senses": ["to know, to recognise", "to know how a thing goes; to understand", "knowledge", "wisdom, cleverness (read zhì, later written 智)"],
+    "shuowen": "詞也。从口从矢。",
+    "shuowenEn": "A word of speech. From 口 (mouth) and 矢 (arrow).",
+    "parts": [ { "c": "矢", "m": "arrow" }, { "c": "口", "m": "mouth" } ],
+    "story": "知 is the main verb of the Laozi’s teaching on seeing: to know enough (33, 44, 46), to know the constant (16, 55), to know the male and keep to the female (28), to know that one does not know (71). It is recognition more than information. The same graph wrote zhì, cleverness, which the book distrusts (19, 65). A commonly repeated explanation of the parts, from Duan Yucai, is that the one who knows speaks as fast as an arrow.",
+    "gap": "English “know” runs facts, skills, and acquaintance together. 知 in this book is mostly the knowing of a pattern, and it can be complete without new facts."
+  },
+  "闚": {
+    "senses": ["to peep, to look through a gap", "to spy on"],
+    "shuowen": "閃也。从門規聲。",
+    "shuowenEn": "To glimpse through a gate. From 門 (gate), with 規 for the sound.",
+    "parts": [ { "c": "門", "m": "gate" }, { "c": "規", "m": "compass, rule; gives the sound" } ],
+    "story": "闚 is a narrow look, through a gate that stands ajar. Many editions write the same word as 窺, with 穴, a hole, on top, which the Shuowen glosses as “a small look”. Both graphs were used for spying on another state. In passage 47 one sees heaven’s way without this kind of look from the window.",
+    "gap": "English “look out of the window” is neutral. 闚 says that such a look is partial and a little furtive."
+  },
+  "彌": {
+    "senses": ["full, to fill, to extend over", "more and more; 彌 A 彌 B: the more A, the more B", "long-lasting"],
+    "parts": [ { "c": "弓", "m": "bow" }, { "c": "爾", "m": "gives the sound" } ],
+    "story": "彌 has a bow at its left, and its early sense is commonly given as a bow drawn to the full, and so “full, complete, all over”. As an adverb it means “increasingly”. The paired use is a favourite of early prose. Yan Hui says of his master’s teaching: 仰之彌高，鑽之彌堅, “the more I look up at it, the higher it is; the more I bore into it, the harder” (Analects 9.11). The Laozi uses the pair in 47 and 57.",
+    "gap": "English needs the frame “the more … the more”. Chinese does it with one repeated word."
+  },
+  "遠": {
+    "senses": ["far, distant", "to go far; to keep at a distance", "far-reaching, deep"],
+    "shuowen": "遼也。从辵袁聲。",
+    "shuowenEn": "Distant. From 辵 (to walk, movement), with 袁 for the sound.",
+    "parts": [ { "c": "辶", "m": "walking, movement" }, { "c": "袁", "m": "gives the sound" } ],
+    "story": "遠 has the same walking sign as 道: distance is a matter of feet. In the Laozi it is a quality of the Way itself: to be great is to pass on, to pass on is to go 遠, to go far is to return (25). In 47 it is the error of the seeker: the farther out, the less known. In 65 the dark power is deep and 遠. The book lets the Way go far and asks the person to stay near.",
+    "gap": "“Far” in English is neutral or adventurous. In this book distance from the root is usually a loss, unless it turns back."
+  },
+  "行": {
+    "senses": ["to walk, to travel", "to do, to put into practice; conduct", "a road, a row (read háng)"],
+    "shuowen": "人之步趨也。从彳从亍。",
+    "shuowenEn": "A person’s walking and hurrying. From 彳 and 亍 (left step and right step).",
+    "story": "The old form is commonly explained as a crossroads seen from above; the Shuowen divides it into a left step and a right step. From walking comes “to carry out”: 行 is what is done, as against what is said. The Laozi has both senses. The sage does not 行 and yet knows (47); a journey of a thousand li begins under the foot (64); and “my words are very easy to 行” and no one can 行 them (70).",
+    "gap": "English keeps “walk” and “practise” apart. In Chinese to practise a teaching is to walk it."
+  }
+}

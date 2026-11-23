@@ -1,0 +1,64 @@
+{
+  "喪": {
+    "senses": ["sàng: to lose; to be bereft of; to perish", "sāng: mourning, a funeral; the rites for the dead"],
+    "shuowen": "亾也。从哭从亾。會意。亾亦聲。",
+    "shuowenEn": "To lose. From 哭 (to wail) and 亾 (gone); a joined-meaning graph. 亾 also gives the sound.",
+    "parts": [{"c": "吅", "m": "two mouths: wailing"}, {"c": "亡", "m": "gone, fled, lost"}],
+    "story": "The Shuowen reads 喪 as wailing for one who is gone. The oracle-bone forms are commonly described as a mulberry tree, borrowed for its sound, with mouths added. The word names both the loss and the rites that answer it. In Laozi 31 a victory in battle is to be received with 喪禮, the rites of mourning; passage 69 warns that to take the enemy lightly is close to 喪, losing, one’s treasures.",
+    "gap": "English keeps “loss” and “funeral” apart. 喪 is one graph, so to mourn a victory is also to call it a loss."
+  },
+  "左": {
+    "senses": ["the left hand; the left side", "to help, to assist (later written 佐)", "the east side (facing south); the side of honour in peace"],
+    "shuowen": "手相左助也。从𠂇、工。",
+    "shuowenEn": "Hands that help each other. From 𠂇 (the left hand) and 工 (a tool).",
+    "parts": [{"c": "𠂇", "m": "a left hand"}, {"c": "工", "m": "a tool, a carpenter’s square"}],
+    "story": "左 is a left hand with a tool: the hand that steadies the work. Its first meaning was “to assist”, which later took the form 佐. As a side, left ranked above right in Zhou ceremony. Laozi 31 uses the fact: the gentleman honours the left at home and the right in war, since the right is the side of death. In passage 79 the sage “holds the left tally”, the creditor’s half of a contract, and does not press the claim.",
+    "gap": "In English the left is “sinister” and the right is “right”. In Zhou ritual it is the other way: left is life and honour."
+  },
+  "右": {
+    "senses": ["the right hand; the right side", "to help, to protect (later written 佑)", "the west side (facing south); the side of death and war"],
+    "shuowen": "手口相助也。从又从口。",
+    "shuowenEn": "Hand and mouth help each other. From 又 (the right hand) and 口 (mouth).",
+    "parts": [{"c": "𠂇", "m": "a hand (the right hand 又 in the old form)"}, {"c": "口", "m": "a mouth"}],
+    "story": "右 is the right hand with a mouth: the hand that feeds, or the hand helped by a spoken word. Like 左 it first meant “to help”. In ritual order it is the lower side in peace and the leading side in mourning and war. Laozi 31 notes that the chief general stands on the right, and reads this as the placing of a funeral.",
+    "gap": "English “right” also means correct and just. 右 has none of that; in this passage it is the side of the dead."
+  },
+  "樂": {
+    "senses": ["yuè: music", "lè: joy, pleasure", "yào or lè: to delight in, to enjoy (verb)"],
+    "shuowen": "五聲八音緫名。象鼓鞞。木，虡也。",
+    "shuowenEn": "The general name for the five notes and the eight kinds of instrument. It pictures drums; 木 is the stand.",
+    "parts": [{"c": "白", "m": "a drum (in the Shuowen’s reading)"}, {"c": "幺", "m": "small drums or strings at the sides"}, {"c": "木", "m": "a wooden stand"}],
+    "story": "One graph for music and for joy, and the Confucians made a doctrine of the link: music is joy given form. The Shuowen sees drums on a stand; other scholars see silk strings on wood. In Laozi 31 the verb is used with a terrible object, 樂殺人, to take joy in killing people. In 35, music and good food make the passing traveller stop; in 66 the world “delights” to push the sage forward.",
+    "gap": "English cannot hear “music” inside “enjoy”. In Chinese, to delight in killing is to make it one’s music."
+  },
+  "美": {
+    "senses": ["sweet, good to eat (Shuowen)", "beautiful, fine, handsome", "to find beautiful, to admire (verb)"],
+    "shuowen": "甘也。从羊从大。羊在六畜主給膳也。美與善同意。",
+    "shuowenEn": "Sweet. From 羊 (sheep) and 大 (big). Among the six domestic animals the sheep is chief for supplying the table. 美 has the same idea as 善.",
+    "parts": [{"c": "羊", "m": "a sheep"}, {"c": "大", "m": "big; a person"}],
+    "story": "The Shuowen explains beauty through the kitchen: a big sheep is good eating. Others see a person, 大, who wears a headdress of horns. The word covers taste, looks, and worth. The Laozi distrusts it from its second passage on: when all the world knows 美 as 美, there is already ugliness (2); fine words are not to be trusted (81). In 31 it is forbidden outright: do not find victory beautiful.",
+    "gap": "“Beautiful” in English is mostly for the eye. 美 starts in the mouth, so it is closer to appetite."
+  },
+  "淡": {
+    "senses": ["thin in flavour, weak, watery", "plain, pale, mild", "calm, without strong feeling"],
+    "shuowen": "薄味也。从水炎聲。",
+    "shuowenEn": "Thin flavour. From 水 (water); 炎 gives the sound.",
+    "parts": [{"c": "氵", "m": "water"}, {"c": "炎", "m": "sound part; by itself: blazing"}],
+    "story": "淡 is what soup is when it is mostly water. Chinese taste and painting later made it a high value: the pale ink wash, the plain dish that lets the ingredient speak. The Laozi began that: the Dao in words is “thin, with no flavour” (35). In 31, if weapons must be used, 恬淡, calm and plain, is best: no relish in the act.",
+    "gap": "English “bland” and “insipid” are complaints. 淡 is often praise."
+  },
+  "泣": {
+    "senses": ["to weep silently", "tears"],
+    "shuowen": "無聲出涕曰泣。从水立聲。",
+    "shuowenEn": "To shed tears without sound is called 泣. From 水 (water); 立 gives the sound.",
+    "parts": [{"c": "氵", "m": "water"}, {"c": "立", "m": "sound part; by itself: to stand"}],
+    "story": "Chinese separates weeping by sound: 哭 is the loud wail of the mourning rite, and 泣 is quiet tears. Laozi 31 says that when many people have been killed one should 泣 for them with grief and sorrow. The Mawangdui silk texts have a graph read as 莅, “to attend, to stand over”, in this place, and many scholars think that it is the older word.",
+    "gap": "English “weep” does not say whether there is sound. 泣 says that there is none."
+  },
+  "祥": {
+    "senses": ["an omen, a sign (first good or bad)", "a good omen; auspicious, blessed", "不祥: ill-omened, unlucky"],
+    "parts": [{"c": "礻", "m": "an altar: matters of spirits"}, {"c": "羊", "m": "a sheep; also the sound"}],
+    "story": "祥 joins the altar sign and the sheep, the usual offering; the Shuowen glosses the sheep itself as “a good sign”. The word belongs to divination: it is how the unseen powers show their mind. The Laozi uses it three times with a twist. Weapons are 不祥 tools (31). To add to life by force is called 祥, where the word seems to mean a bad omen (55). And the one who takes on the state’s 不祥, its misfortunes, is the true king (78).",
+    "gap": "“Evil” judges; “unlucky” sounds light. 不祥 is in between: a taint that the spirits do not bless."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "鮮": {
+    "senses": ["fresh fish", "fresh, bright, new", "delicious", "xiǎn: rare, few"],
+    "shuowen": "魚名。出貉國。从魚，羴省聲。",
+    "shuowenEn": "The name of a fish. It comes from the land of the Mo. From 魚 (fish), with a short form of 羴 for the sound.",
+    "parts": [
+      { "c": "魚", "m": "fish" },
+      { "c": "羊", "m": "sheep; short for 羴, which gives the sound" }
+    ],
+    "story": "A fish and a sheep. Readers like to see a feast in it, but the Shuowen says that it names one kind of fish and that the sheep marks the sound. It came to mean fresh fish, and then “fresh”. The Laozi uses it once: to rule a great state is like cooking 小鮮, small fresh fish, which are cooked whole and must not be stirred (60).",
+    "gap": "“Fish” loses the freshness; “delicacy” loses the fish. The word also hides a second reading, “rare”."
+  },
+  "鬼": {
+    "senses": ["a ghost: the spirit of a dead person", "the dead as powers that can help or harm", "(later) a demon; sly, uncanny"],
+    "shuowen": "人所歸爲鬼。从人，象鬼頭。鬼陰气賊害，从厶。",
+    "shuowenEn": "What a person goes home to be is a 鬼. From 人 (person), and it shows a ghost’s head. The dark breath of ghosts harms by stealth, so it has 厶.",
+    "parts": [
+      { "c": "儿", "m": "a person’s legs" },
+      { "c": "厶", "m": "private, crooked, by stealth" }
+    ],
+    "story": "The Shuowen defines the ghost by a pun on 歸, “to go home”. In early China the dead were ancestors if they were fed and dangerous if they were not; a murdered or forgotten ghost came back. The Laozi names 鬼 only in passage 60: where the Dao presides, the ghosts have force and do not wound, and the 德 of both sides comes home, 歸.",
+    "gap": "“Ghost” in English is a tale for children, and “demon” is evil. 鬼 is one’s own dead, who have claims."
+  },
+  "烹": {
+    "senses": ["to cook in a pot, to boil", "to boil a person alive (a punishment)", "(modern) to fry quickly"],
+    "parts": [
+      { "c": "亨", "m": "from the old graph for an offering of cooked food" },
+      { "c": "灬", "m": "fire" }
+    ],
+    "story": "Fire under 亨. The Shuowen has only the older graph 亯, an offering of cooked food to the spirits; from it came 享 (to offer, to enjoy), 亨 (to go through, success), and 烹. Cooking was an image of rule: the cauldron was the emblem of a dynasty, and a great minister “blended the cauldron”. Passage 60 picks the most delicate dish: a small fish.",
+    "gap": "“Cook” is homely in English. 烹 has the altar and the execution ground behind it."
+  },
+  "神": {
+    "senses": ["a spirit, a god; the higher unseen powers", "the spirit in a person; the mind’s clear force", "numinous, wondrous; to be potent"],
+    "parts": [
+      { "c": "礻", "m": "altar; things of the spirits" },
+      { "c": "申", "m": "commonly explained as lightning; gives the sound" }
+    ],
+    "story": "神 are the bright powers, as 鬼 are the dead. The word is also a quality: uncanny force. The Laozi speaks of the valley 神 that does not die (6), of the realm as a 神 vessel that cannot be handled (29), and of spirits that are numinous by getting the One (39). In passage 60 it is a verb and then a noun: the ghosts do not 神; their 神 does not wound.",
+    "gap": "English divides “god”, “spirit”, “soul”, and “divine”. 神 is all four, and none with a capital letter."
+  },
+  "傷": {
+    "senses": ["a wound; to wound", "to harm, to injure", "to grieve"],
+    "shuowen": "創也。从人，𥏻省聲。",
+    "shuowenEn": "A cut, a wound. From 人 (person), with a short form of 𥏻 for the sound.",
+    "story": "A wound on a person. Passage 60 uses the word four times in forty-eight characters: the spirits do not 傷 people, the sage also does not, and the two do not 傷 each other. Passage 74 warns that one who chops in place of the master carpenter seldom fails to 傷 the hand.",
+    "gap": "“Harm” is abstract. 傷 is a cut in flesh."
+  },
+  "歸": {
+    "senses": ["to go home, to return", "(of a woman) to marry", "to give allegiance to; to belong to", "to end up at, to converge on"],
+    "shuowen": "女嫁也。从止，从婦省，𠂤聲。",
+    "shuowenEn": "A woman marries. From 止 (foot), from a short form of 婦 (wife), with 𠂤 for the sound.",
+    "story": "The first sense in the Shuowen is a bride who goes to her new home. It is the verb of rivers that reach the sea, of the dead who go to earth (ghost, 鬼, is defined by it), and of people who turn to a good ruler. In the Laozi all things 歸 to their root (16), and the ten thousand things 歸 to the Dao, which does not act as their lord (34). In passage 60, 德 comes home from both sides.",
+    "gap": "“Return” suggests going back. 歸 is going to where one belongs, which may be a new place."
+  },
+  "莅": {
+    "senses": ["to arrive at and oversee", "to preside over, to attend (as a superior)"],
+    "story": "A formal verb, also written 蒞 and 涖: a lord comes to court, an official comes to a post, and looks over it from above. Passage 60 uses it of the Dao and the realm: 以道莅天下. The Mawangdui silk texts have 立, “to stand, to set up”, in its place.",
+    "gap": "“Govern” is too active and “attend” too humble. 莅 is presence from above."
+  }
+}

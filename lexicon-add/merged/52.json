@@ -1,0 +1,57 @@
+{
+  "母": {
+    "senses": ["mother", "the source from which a thing is born and to which it can return", "female (of animals)"],
+    "shuowen": "牧也。从女，象褱子形。一曰象乳子也。",
+    "shuowenEn": "One who tends (as a herdsman tends). From 女 (woman); it shows her holding a child. Another view: it shows her suckling a child.",
+    "parts": [ { "c": "女", "m": "woman" }, { "c": "丶", "m": "two dots: commonly explained as the breasts" } ],
+    "story": "A woman with two dots. The Laozi gives the word to the Way: the mother of the ten thousand things (1), the mother on whom the speaker feeds (20), the mother of the world (25, 52), the mother of the state (59). Passage 52 builds a practice on it: get the mother, know the child, go back and keep to the mother. The same form with the dots joined is 毋, “do not”.",
+    "gap": "In English a cosmic “Mother” sounds like a goddess or a metaphor. 母 is plainer and closer: the one you came from, who is still there."
+  },
+  "兌": {
+    "senses": ["an opening, a hole; the mouth", "a trigram and hexagram of the Changes: lake, mouth, joy", "to exchange (later usage)"],
+    "shuowen": "說也。从儿㕣聲。",
+    "shuowenEn": "To speak; to be pleased. From 儿 (a person’s legs), with 㕣 for the sound.",
+    "parts": [ { "c": "八", "m": "breath or words that spread (top)" }, { "c": "口", "m": "mouth" }, { "c": "儿", "m": "a person’s legs" } ],
+    "story": "Commonly explained as a person with open mouth. It gives its sound, and something of its sense, to 說 (to speak; to please), 悅 (joy), 稅 (tax), 脫 (to shed), and 銳 (sharp). In the Laozi it is the opening that one blocks: 塞其兌，閉其門 (52, 56). Readers of the Changes also heard the trigram of the lake and the mouth.",
+    "gap": "“Openings” or “apertures” is anatomy. 兌 also carries speech, pleasure, and exchange: everything that passes out through a mouth."
+  },
+  "習": {
+    "senses": ["to fly repeatedly (of a young bird)", "to practise, to repeat", "habit, custom; to be used to"],
+    "shuowen": "數飛也。从羽从𪞶。",
+    "shuowenEn": "To fly again and again. From 羽 (feathers, wings) and 白.",
+    "parts": [ { "c": "羽", "m": "feathers, wings" }, { "c": "白", "m": "the base; its first form is debated" } ],
+    "story": "A fledgling that tries its wings. The Analects opens with the word: to learn and at due times to 習. With 學 it makes the modern word for study, 學習, which an old calendar text uses of young hawks. The Laozi ends passage 52 with 習常, to practise the constant; the silk texts write 襲常, to wear it.",
+    "gap": "English “practice” is dry. 習 has wings in it, and the short repeated flight of a bird that is not yet sure."
+  },
+  "守": {
+    "senses": ["to guard, to keep watch", "to keep to, to hold fast, to stay with", "a governor’s post"],
+    "shuowen": "守官也。从宀从寸。寺府之事者。从寸。寸，法度也。",
+    "shuowenEn": "To keep an office. From 宀 (roof) and 寸 (hand). It concerns the business of courts and bureaus; the 寸 stands for rule and measure.",
+    "parts": [ { "c": "宀", "m": "roof" }, { "c": "寸", "m": "hand; measure" } ],
+    "story": "A hand under a roof: to hold a post. The Laozi uses it for its main inward verbs: keep to the centre (5), to stillness (16), to the female, the black, the disgraced (28), to the mother and the soft (52). Lords and kings who can 守 the Way see all things transform of themselves (32, 37). Later Daoists called meditation 守一, guarding the One.",
+    "gap": "“Guard” sounds tense and “keep” sounds like ownership. 守 is patient presence at a post."
+  },
+  "柔": {
+    "senses": ["pliant, flexible, soft", "gentle, yielding", "to make pliant"],
+    "shuowen": "木曲直也。从木矛聲。",
+    "shuowenEn": "Wood that can be bent and straightened. From 木 (wood), with 矛 for the sound.",
+    "parts": [ { "c": "矛", "m": "spear; gives the sound" }, { "c": "木", "m": "wood, tree" } ],
+    "story": "The Shuowen’s softness is that of green wood: it takes a curve and comes back. The Laozi builds on it. The soft and weak overcome the hard and strong (36, 78). The softest thing in the world rides over the hardest (43). Keeping to the soft is called strength (52). People are born soft and die stiff (76).",
+    "gap": "English “soft” suggests weak or mushy. 柔 is springy: the quality of a bow, a sapling, a living body."
+  },
+  "光": {
+    "senses": ["light, a ray, radiance", "glory, lustre", "to shine"],
+    "shuowen": "明也。从火在人上，光明意也。",
+    "shuowenEn": "Brightness. Fire above a person: the idea of light.",
+    "parts": [ { "c": "火", "m": "fire (the top, reshaped)" }, { "c": "儿", "m": "a person" } ],
+    "story": "A person who holds fire overhead. 光 is light that goes out and is seen. The Laozi is wary of it: soften the light (4, 56); be bright and do not dazzle (58). In 52 it may be used, and then one goes back to 明, the clear state that it came from.",
+    "gap": "English “light” covers both the beam and the brightness. The Chinese line needs them apart: 光 is the beam."
+  },
+  "勤": {
+    "senses": ["to toil, to labour", "to be worn out, exhausted", "diligent (the usual later sense)"],
+    "shuowen": "勞也。从力𡏳聲。",
+    "shuowenEn": "To toil. From 力 (strength), with the left part for the sound.",
+    "story": "勤 is hard labour and its cost. In the Laozi 不勤 means “not worn out”: the valley spirit is used and not exhausted (6), and the one who shuts the gates is not spent to the end of life (52). In 41 the best student hears the Way and 勤 walks it, with effort. Later Chinese made the word a plain virtue, diligence.",
+    "gap": "A modern reader sees “not diligent” and hears blame. The classical phrase is a blessing: not used up."
+  }
+}

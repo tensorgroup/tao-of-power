@@ -1,0 +1,56 @@
+{
+  "谷": {
+    "senses": ["a valley, a gorge", "a low place where water gathers", "grain; to nourish (used for 穀)", "a dead end (進退維谷)"],
+    "shuowen": "泉出通川爲谷。从水半見，出於口。",
+    "shuowenEn": "Where a spring comes out and runs through to a river, that is a valley. From water half seen, as it comes out of an opening.",
+    "parts": [ { "c": "八", "m": "upper strokes: water half seen (Shuowen); or two slopes" }, { "c": "口", "m": "a mouth, an opening" } ],
+    "story": "The valley is the main landscape of the Laozi. It is low, and so water comes to it. It is empty, and so there is room in it. The valley spirit does not die (6). The old masters were open like a valley (15). Know glory and keep to disgrace, and be the valley of the world (28). Dao in the world is like streams and valleys that run to the river and the sea (32). The valley is full when it holds to the One (39). The highest power is like a valley (41). The rivers and seas are kings of the hundred valleys because they lie below them (66).",
+    "gap": "The English valley is a view, or a place of shadow and sorrow. 谷 is the fertile low ground with a stream in it: the best place, because it does not rise."
+  },
+  "神": {
+    "senses": ["a god, a spirit", "numinous, wonderful", "the spirit of a person; vital force", "to be effective as a spirit is"],
+    "parts": [ { "c": "示", "m": "an altar; things of the spirits" }, { "c": "申", "m": "sound part; early forms are commonly explained as lightning" } ],
+    "story": "The spirits of early China were many and local: of mountains, rivers, soil, grain, and the dead. They took offerings and gave or held back rain and harvest. The Laozi uses the word with respect and with a turn. The valley has a spirit that does not die (6). The world is a 神 vessel that cannot be handled by force (29). The spirits have their power from the One (39). When Dao is used to oversee the realm, the ghosts have no 神, no force to harm (60). In later Daoism 神 is the highest of three stuffs of the body, above essence and breath.",
+    "gap": "“God” is too large and single. “Spirit” in English suggests the opposite of matter. 神 is a power that is present in a place or a body."
+  },
+  "牝": {
+    "senses": ["the female of an animal: cow, mare, ewe", "female (of beasts and birds)", "a hollow, a keyhole (later)"],
+    "shuowen": "畜母也。从牛匕聲。易曰：“畜牝牛，吉。”",
+    "shuowenEn": "The mother among farm animals. From 牛 (ox), with 匕 for the sound. The Changes says: “To keep cows: good fortune.”",
+    "parts": [ { "c": "牜", "m": "side form of 牛, an ox" }, { "c": "匕", "m": "sound part (Shuowen); some scholars take it as an old sign for “female”" } ],
+    "story": "A word of the herd. Its partner is 牡, the male animal. The Book of Changes speaks of the constancy of the mare, 牝馬之貞, under its second hexagram, Earth. The Laozi uses 牝 three times. The valley spirit is the dark 牝, and her gate is the root of heaven and earth (6). The infant does not know the union of 牝 and 牡 (55). The 牝 always overcomes the 牡 by stillness, and by stillness takes the lower place (61). The book also has a word for the female bird, 雌 (10, 28).",
+    "gap": "“The Feminine” is an abstraction with a capital letter. 牝 is a cow or a mare. The Chinese grounds the first principle in the farmyard."
+  },
+  "根": {
+    "senses": ["a root; the base of a tree", "base, origin, foundation", "to be rooted"],
+    "shuowen": "木株也。从木艮聲。",
+    "shuowenEn": "The base of a tree. From 木 (tree), with 艮 for the sound.",
+    "parts": [ { "c": "木", "m": "a tree" }, { "c": "艮", "m": "sound part; still, stubborn; the trigram of the mountain" } ],
+    "story": "The root is the part that does not show and does not move, and that feeds the rest. The Laozi comes back to it often. The gate of the dark female is the root of heaven and earth (6). All things flourish, and each returns to its root; to return to the root is called stillness (16). The heavy is the root of the light (26). Deep roots and a firm base are the way of long life (59). In later Chinese, 根本 means “fundamental”, and Buddhists used 根 for the sense faculties.",
+    "gap": "“Source” and “origin” point backward to a start. A root is present and below. The difference is between a past cause and a living support."
+  },
+  "緜": {
+    "senses": ["silk floss", "fine and unbroken; continuous", "soft, weak", "(doubled) on and on, thin as a thread"],
+    "shuowen": "聮微也。从系从帛。",
+    "shuowenEn": "Joined and fine. From 系 (a hanging thread) and 帛 (silk cloth).",
+    "parts": [ { "c": "帛", "m": "silk cloth" }, { "c": "系", "m": "a thread that hangs, to tie on" } ],
+    "story": "The loose floss drawn from silk cocoons: very fine, with no joints, and hard to break. The common modern form is 綿, with the silk radical on the left, and it later took the sense “cotton” too. Doubled, 緜緜 describes what goes on with no break: a vine of gourds and a people’s descent in the Book of Songs, a long rain, a range of hills. The Laozi uses it once, for the way the valley spirit is present: 緜緜若存, fine as floss, as if there (6).",
+    "gap": "“Continuous” and “everlasting” are ideas. 緜 is a material that every silk-working household knew by touch: nearly nothing, and it holds."
+  },
+  "死": {
+    "senses": ["to die; death", "dead", "to die for", "fixed, rigid (later)"],
+    "shuowen": "澌也，人所離也。从歺从人。",
+    "shuowenEn": "To run dry; that from which people part. From 歺 (bare bones) and 人 (person).",
+    "parts": [ { "c": "歹", "m": "form of 歺: bones with the flesh gone" }, { "c": "匕", "m": "form of 人, a person (here bent or kneeling)" } ],
+    "story": "A person beside bones. The Shuowen glosses death with a near-homophone that means water that runs out. The Laozi speaks of death without fear and without a heaven. The valley spirit does not die (6). To die and not be lost is long life (33). People come out into life and go into death, and three in ten walk toward death by how they live (50). The living are soft and the dead are hard (76). When the people do not fear death, it is useless to threaten them with it (74).",
+    "gap": "“Immortal” for 不死 brings gods and souls. The Chinese says only “does not die”, and it says it of an empty valley."
+  },
+  "勤": {
+    "senses": ["to toil, to work hard", "diligent", "to be worn out, used up (in the Laozi, as commonly read)"],
+    "shuowen": "勞也。",
+    "shuowenEn": "Labor, toil.",
+    "parts": [ { "c": "堇", "m": "sound part; clay" }, { "c": "力", "m": "strength" } ],
+    "story": "The plain sense is hard work, and one passage of the Laozi uses it so: the best student hears of Dao and practices it with 勤 (41). In two other places most readers take it as “worn out, exhausted”. Use the valley spirit, and it is not 勤 (6). Block the openings and shut the gates, and to the end of life there is no 勤 (52). The Mawangdui silk texts write the word in passage 6 as 堇, with no “strength” part.",
+    "gap": "English must choose between “without effort” and “never used up”. The first is about the user and the second is about the source. The Chinese word can lean either way."
+  }
+}

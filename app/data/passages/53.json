@@ -1,0 +1,232 @@
+{
+  "n": 53,
+  "title": "The Robbers’ Boast",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "使我介然有知，行於大道，唯施是畏。",
+      "gloss": {
+        "0": "suppose; if (I) were made to",
+        "2": "jiè: small, slight (介然: in some small degree); others read “firm”",
+        "10": "a road, a highway; and the Way",
+        "13": "shī: to act, to set up, to display; read by many as 迤, to slant off"
+      }
+    },
+    {
+      "text": "大道甚夷，而民好徑。",
+      "gloss": {
+        "3": "yí: level, flat, even",
+        "8": "jìng: a footpath, a shortcut"
+      }
+    },
+    {
+      "text": "朝甚除，",
+      "gloss": {
+        "0": "cháo: the court (the same graph as zhāo, morning)",
+        "2": "swept, cleared, kept fine; others read “corrupt”"
+      }
+    },
+    {
+      "text": "田甚蕪，倉甚虛；",
+      "gloss": {
+        "2": "wú: overgrown with weeds"
+      }
+    },
+    {
+      "text": "服文綵，帶利劍，厭飲食，財貨有餘；是為盜夸。非道也哉！",
+      "gloss": {
+        "8": "yàn: sated, full to the point of disgust",
+        "19": "dào: a robber; to rob",
+        "20": "kuā: extravagance; to boast (other texts: 竽 yú, a reed pipe)"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Suppose I|shiwo]] had a grain of knowledge",
+    "and walked on [[the great road|dadao]]:",
+    "only [[straying|shi]] would I fear.",
+    "The great road is very [[level|yi]],",
+    "yet people love [[the shortcuts|jing]].",
+    "",
+    "[[The court is very well swept|chao]];",
+    "the fields are very [[weedy|wu]];",
+    "the granaries are very [[empty|xu]].",
+    "[[Patterned silks|wencai]] are worn,",
+    "[[sharp swords|jian]] at the belt;",
+    "glutted with drink and food,",
+    "with [[goods in surplus|yu]].",
+    "This is called [[the robbers’ boast|daokua]].",
+    "[[Not the Way|feidao]], indeed!"
+  ],
+  "notes": {
+    "shiwo": {
+      "kind": "gap",
+      "title": "使我介然有知: a modest and ironic “I”",
+      "body": "使我 is “suppose I were made to”, a hypothesis. 介然 is the hard word. 介 is small, a mere particle, as in 纖介, a hair’s breadth; so 介然有知 is “to have knowledge in the smallest degree”. Other readers take 介 as “firm, resolute”: if I had solid knowledge. The rendering follows the first, an old gloss recorded by Lu Deming; Heshang Gong reads the opposite, “great”, and [[Wang Bi|wangbi]] simply repeats the word. The speaker is one of the rare “I” voices in the book, and the tone is dry. This “I” claims almost nothing: grant me a grain of sense, no more. Then the passage shows what that grain is enough to see: a level road, people who leave it, and a court that eats the country. The implied judgment on those in power is sharp. They lack even this small amount.",
+      "src": [
+        "Shuowen Jiezi, 八部: 介，畫也。从八从人。人各有介。"
+      ]
+    },
+    "dadao": {
+      "kind": "wordplay",
+      "title": "大道: here the Way is a road",
+      "body": "道 is first a road, and this passage is the place in the book where the first meaning is most alive. Every key word of the opening is a road word. 行, to walk. 大道, the great road: the main highway, wide enough for carts. 夷, level. 徑, a footpath. And 施, on one reading, to veer off. A Warring States reader knew such highways well; states built them for armies and grain, and footpaths ran off them across the fields. English must print “the Way” with a capital, or “the road” without one, and each choice loses half. In Chinese the speaker is on an actual road and on the Way in the same four characters. The last line of the passage will play on the word once more: see [[非道|feidao]]."
+    },
+    "shi": {
+      "kind": "gap",
+      "title": "唯施是畏: fear of acting, or of straying",
+      "body": "“Only 施 is to be feared.” The grammar is emphatic: 唯 … 是 puts the object first. But what is 施? Its common meanings are to apply, to carry out, to bestow, to display. [[Wang Bi|wangbi]] reads it so, as 施為: the one thing to fear on the great road is to set things up and do them, wu wei stated from the other side. [[Legge|legge]] follows with “a boastful display”. The Qing scholar Wang Niansun proposed that 施 stands here for 迤, “to go slanting”, a road that bends away: the fear is of leaving the highway. That fits the images before and after it, and we render “straying”. The two readings meet. In this book, to act with purpose upon the world is the main way to leave the road. The Shuowen’s own entry for 施 is a flag that waves.",
+      "src": [
+        "Wang Bi commentary on Laozi 53",
+        "Shuowen Jiezi, 㫃部: 施，旗皃。从㫃也聲。"
+      ]
+    },
+    "yi": {
+      "kind": "etymology",
+      "title": "夷: level; and the people of the east",
+      "body": "夷 is “level, flat, smooth”. The Shuowen says 平也, and then adds a second fact: 从大从弓。東方之人也, “from 大, a person, and 弓, a bow; the people of the east”. The same word named the non-Zhou peoples of the eastern coast, drawn as a person with a bow, and it was later used for foreigners in general; nineteenth-century Chinese documents used it of the British, who objected by treaty. How one graph serves both senses is not settled. In the Laozi it is always the first: the Way that is 夷, level, looks rough (41); what is looked at and not seen is named 夷 (14). A level road asks nothing of the walker. It has no climb, no view, and no interest. That may be why the next line follows. See the plate.",
+      "src": [
+        "Shuowen Jiezi, 大部: 夷，平也。从大从弓。東方之人也。",
+        "Laozi 14, 41"
+      ]
+    },
+    "jing": {
+      "kind": "history",
+      "title": "徑: the shortcut",
+      "body": "徑 is a path for feet. The Shuowen says 步道也, “a walking path”: a track across the fields, too narrow for a cart, which saves distance. It had a moral colour in the speech of the time. A disciple of Confucius praises an honest man in these words: 行不由徑, “when he walks he does not go by the shortcut”, and he never comes to my office except on public business. The shortcut is the private way, the clever way, the way that gets there first. So 民好徑 is not a remark on rural footpaths. People love the quicker path, and the great road, which is level and open to all, stands empty. Who are the 民? The word is usually “the common people”; some editions have 人, “persons”, and what follows shows that those at court are meant most of all. The silk texts are reported to add a second 甚, “very much”, and to end the line with a different word, 解.",
+      "src": [
+        "Shuowen Jiezi, 彳部: 徑，步道也。从彳巠聲。",
+        "Analects 6.14",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "chao": {
+      "kind": "gap",
+      "title": "朝甚除: three lines, three “very”",
+      "body": "朝甚除，田甚蕪，倉甚虛. Three lines of three characters with 甚, “very, too much”, in the middle of each; passage 29 says that the sage gets rid of 甚. 朝 is the court, the place of the morning audience. 除 is first the steps of a palace hall, says the Shuowen, and as a verb “to clear, to sweep away”. Wang Bi takes it as praise turned sour: 朝，宮室也。除，潔好也, “the court means the palace buildings; 除 means clean and fine”. The palace is spotless, and the fields are in weeds. Some later scholars read 除 as “corrupt, defiled”, which gives three evils in a row. The first reading is the sharper, because it makes a cause. [[Wang Bi|wangbi]] states it: set up the one, and a crowd of harms is born. The labour and grain that keep the court swept are the labour and grain that are missing in the fields.",
+      "src": [
+        "Shuowen Jiezi, 𨸏部: 除，殿陛也。从𨸏余聲。",
+        "Wang Bi commentary on Laozi 53"
+      ]
+    },
+    "wu": {
+      "kind": "etymology",
+      "title": "蕪: grass over nothing",
+      "body": "蕪 is 艹, grass, over 無. The Shuowen glosses it 薉也, “choked with weeds”, and treats 無 as the sound. A reader of this book cannot help seeing more. 無 is the great word of the Laozi: not-having, the nothing that makes the wheel, the pot, and the room of use (11). Here it sits under the grass radical, and the nothing is of the other kind: a field in which nothing has been planted and where the wild growth has come back. Why are the fields in weeds? In the Warring States the answer was known to all. The men were away, on campaign or on labour service for walls, roads, and palaces, and they were away in the farming season. A weedy field in this passage is not a sign of lazy farmers. It is a sign of a busy state. See the plate.",
+      "src": [
+        "Shuowen Jiezi, 艸部: 蕪，薉也。从艸無聲。"
+      ]
+    },
+    "xu": {
+      "kind": "wordplay",
+      "title": "虛: the book’s good word in a bad place",
+      "body": "虛, “empty”, is one of the Laozi’s words of praise. Empty the heart (3). The space between heaven and earth is empty and is not exhausted (5). Reach the utmost emptiness (16). In this line it is used for an empty granary, and it means hunger. The book knows the difference between its two kinds of nothing, and it does not romanticise want. The hollow of a bowl is of use because the bowl is whole. A granary is of use when there is grain in it, and its emptiness in spring before the harvest is death for a village. The Shuowen defines 虛 by an image of loss: 大丘也, “a great mound”, the word for an abandoned site, later written 墟, ruins. Emptiness in the heart of a ruler fills the granaries. Emptiness in the granaries comes from a ruler whose heart is full.",
+      "src": [
+        "Shuowen Jiezi, 丘部: 虛，大丘也。… 丘謂之虛。从丘虍聲。",
+        "Laozi 3, 5, 16"
+      ]
+    },
+    "wencai": {
+      "kind": "history",
+      "title": "文綵: the cloth of rank",
+      "body": "文 is a pattern of crossed lines; the Shuowen says 錯畫也。象交文. 綵 is silk of many colours. 文綵 are figured silks: woven or embroidered cloth with designs, the most labour-heavy product of the age. In a Zhou court, pattern was law. Rank fixed the colours and emblems that a person could wear, and a robe was read like a badge. The word 文 then grew to mean writing, culture, refinement, all that the school of Confucius valued as the ornament that makes people civilised. So the line has two targets. The first is plain luxury: one robe took a household of women months to weave, while the farmers who fed them wore hemp. The second is 文 itself, pattern laid over an empty store. The silk texts are reported to write the simpler 采, “colours”.",
+      "src": [
+        "Shuowen Jiezi, 文部: 文，錯畫也。象交文。",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "jian": {
+      "kind": "history",
+      "title": "帶利劍: the sword at the belt",
+      "body": "The long sword was a new thing in this period. Earlier nobles fought from chariots with the dagger-axe and the bow; a short bronze sword was a side weapon. In the Warring States, bronze swords grew long and fine, iron ones appeared, and the sword became the personal weapon and the mark of a gentleman. The Shuowen, which writes the word in a variant form, defines it by the custom in this line: 人所帶兵也, “the weapon that a person wears at the belt”. The Shiji notes under the year 409 BCE that the state of Qin first ordered its officials to wear swords. 利 is “sharp”, the blade in the grain of passage 11. So the courtier of this passage is dressed in the latest style: figured silk, and at the waist an edge that is kept keen. Against whom does a man at court need a sharp sword?",
+      "src": [
+        "Shuowen Jiezi, 刃部: 劒，人所帶兵也。从刃僉聲。",
+        "Shiji 5 (Annals of Qin)"
+      ]
+    },
+    "yu": {
+      "kind": "gap",
+      "title": "有餘: surplus, and whose it is",
+      "body": "厭 is to be sated, full past wanting; the same graph means “to be sick of”. 餘 is what is left over; the Shuowen glosses it with 饒也, “abundance”, the word that it used for 益 in passage 48. 財貨有餘 is “wealth and goods in surplus”. A modern reader hears success: a surplus is good management. The Laozi uses 有餘 as a technical term, and passage 77 gives the rule. Heaven’s way takes from those who have surplus and gives to those who have not enough, like the bending of a bow. The way of people does the reverse: 損不足以奉有餘, “it takes from those who lack, to offer to those who have surplus”. Surplus, in this book, is always somebody’s shortage, moved. The list in this passage runs from the empty granary to the full table in four lines, and the reader is left to connect the two.",
+      "src": [
+        "Shuowen Jiezi, 食部: 餘，饒也。从食余聲。",
+        "Laozi 77"
+      ]
+    },
+    "daokua": {
+      "kind": "variant",
+      "title": "盜夸 or 盜竽: a boast, or a pipe",
+      "body": "Our text names such people 盜夸. 盜 is a robber. 夸 is “extravagance”, 奢也 in the Shuowen, and “to boast”: so “robber-braggarts”, or “the robbers’ boast”, theft that shows itself off. The Han Feizi has a different last word, 盜竽, and the Mawangdui silk text is reported to agree. The 竽 was a large mouth-organ of reed pipes; the Shuowen gives it thirty-six reeds. The Han Feizi explains. The 竽 is the leader among instruments: when it sounds first, bells and zithers follow, and when it sings, all the players join. So when great villains rise, the common people take up the tune, and small robbers answer. The court in its silks is the lead pipe of a band of thieves. The two graphs sounded alike. One image is of display. The other is of example: what the top does, the rest play.",
+      "src": [
+        "Shuowen Jiezi, 大部: 夸，奢也。从大于聲。",
+        "Shuowen Jiezi, 竹部: 竽，管三十六簧也。从竹亏聲。",
+        "Han Feizi, “Jie Lao” (解老)",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "feidao": {
+      "kind": "wordplay",
+      "title": "非道也哉: robbers and the Way",
+      "body": "The passage ends on a cry of four characters: 非道也哉, “this is not the Way, indeed!” Read it aloud in modern Chinese with the line before: dào kuā … fēi dào. 盜, robber, and 道, Way, are the same syllable today, and the close sounds like “robbery … not Dao”. Was it a pun for the author? We must be careful. In the old rhyme groups the two words are neighbours and not twins: 道 belongs to the 幽 group and 盜 to the 宵 group, with the same kind of initial. So the first hearers had a near echo, which Mandarin has since made exact. The surer music is the rhyme. 除, 蕪, 虛, 餘, and the final 夸 or 竽 all belong to one old group, 魚, so that the list of court, fields, granaries, and surplus strikes one sound five times, and 道 at the very end falls outside it."
+    },
+    "robbers": {
+      "kind": "geopolitics",
+      "title": "The rulers are the thieves",
+      "body": "This is the most direct social attack in the book, and it was a view shared across the schools. Mencius says to a king’s face: there is fat meat in your kitchens and there are fat horses in your stables, the people have the look of hunger, and in the wilds lie the bodies of the starved; this is to lead beasts to eat people. The Zhuangzi puts it in one line: the one who steals a belt-hook is executed, and the one who steals a state becomes a lord. The Laozi’s own passage 75 gives the mechanism: the people starve because those above eat too much in taxes. The Warring States court took grain, cloth, and labour from farming households to pay for armies and display. The text gives this the legal name. Everyone knew that 盜 was a crime with a punishment.",
+      "src": [
+        "Mencius 1A4",
+        "Zhuangzi, “Qu qie” (胠篋)",
+        "Laozi 75"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: set up one thing, and harms are born",
+      "body": "On the road: 言大道蕩然正平，而民猶尚舍之而不由，好從邪徑. “It says that the great road is broad, straight, and level, and still people leave it and do not go by it; they like to follow crooked paths.” On the three “very” lines he gives a sentence that could stand over the gate of any government office: 朝甚除，則田甚蕪，倉甚虛，設一而眾害生也. “When the court is very fine, the fields are very weedy and the granaries very empty: set up one thing, and a crowd of harms is born.” On the name: 凡物不以其道得之，則皆邪也，邪則盜也. “Whatever is not got by its proper way is crooked, and what is crooked is robbery.” He adds a phrase for those in office: 竊位也, they have stolen their position. Note his play on 道: to get a thing by its 道.",
+      "src": [
+        "Wang Bi commentary on Laozi 53"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge keeps the anger",
+      "body": "Legge’s first line is his own construction: “If I were suddenly to become known, and (put into a position to) conduct (a government) according to the Great Tao”. He has read 知 as “be known” and built a scene of a sage called to office; the Chinese says only “had some knowledge and walked on the great road”. For 夷 he gives “level and easy”, and “easy” is an addition that makes the Way a matter of comfort. For 徑 he has “by-ways”, which misses the point of the shortcut. But in the second half he is plain and strong. The people “pamper themselves in eating and drinking”, and “such (princes) may be called robbers and boasters”. His bracket names the target correctly. A Victorian clergyman and Oxford professor did not soften that line.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Find the weedy field",
+      "body": "Apply the three lines to something that you help to run: a household, a team, your own week. First find the swept court: the part that is kept fine because it is seen, the front room, the report, the public face. Then look for the field that pays for it. What basic work, the kind that feeds everything else, has gone to weeds while the front was polished? Sleep, a friendship, the maintenance of a tool, the training of a new person. Then look in the granary: what reserve is empty? Do not fix all three. Take one hour this week from the court and give it to the field. And notice your own [[shortcut|jing]]: one place where you take the quick private path past a level public road."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has two parts and a cry. In the first, [[an “I” with a grain of knowledge|shiwo]] walks [[the great road|dadao]] and fears only [[to stray|shi]]; the road is [[level|yi]], and people prefer [[the shortcut|jing]]. In the second, with no connecting word, the camera turns to a state. Three lines with 甚, “very”: [[court swept|chao]], [[fields in weeds|wu]], [[granaries empty|xu]]. Four lines on persons, each of three or four characters: [[figured silk|wencai]], [[sharp swords|jian]], too much food and drink, [[goods left over|yu]]. Then the verdict in four characters, [[盜夸|daokua]], and the cry, [[非道也哉|feidao]]. The order of the list is exact: from the building, to the land, to the store, to the body of the courtier, its clothes, its weapon, and its stomach. The first part states a principle; the second shows where the shortcuts lead.",
+    "inner": "The level road is hard to stay on for a strange reason: nothing is wrong with it. It is flat and open and has no drama. The mind [[loves a shortcut|jing]], a trick, a faster way to be someone, and each shortcut needs upkeep. Read the second part as a picture of one person. The court is the self that others see, and it is kept very well swept. The fields are the plain, unseen sources of a life: rest, attention, honest work, the people who are close. The granary is what is in reserve. When all effort goes to the front, the fields go to weeds and the store runs down, and the person dresses the emptiness in pattern. The speaker’s fear in the third line is then precise. It is not a fear of enemies. It is a fear of [[one’s own turning aside|shi]].",
+    "leading": "The reading for a leader is the literal one, and it should not be softened into a parable about organisations. The passage says that [[a ruling class that lives well while the farms fail is a band of thieves|robbers]], and it says so in the language of law. Any person who holds office can use its test, which needs no theory. Look at three places. Is the headquarters [[very fine|chao]]? Are the fields, the places where the real work is done, short of hands and care? Are the reserves empty? If all three are “very”, the comforts at the top are not a reward. They are the missing grain. The Han Feizi adds the warning of [[the lead pipe|daokua]]: those below will play the tune that the top plays.",
+    "nature": "蕪 is what land does when it is left: grass and scrub return within a season, and in a few years the field is gone. A farm is a daily agreement between people and a piece of ground, and it lapses the moment the people are called away. The passage reads the health of a society from its land, as an ecologist reads a watershed: the state of the fields and of the stores tells the truth about the court, whatever the court says. There is also the image of the road. Water takes the level way and reaches the sea. Animals make paths that follow the ground. The [[great road|dadao]] of the passage is level in that sense. It goes where the land lets it go, and [[the shortcut|jing]] is the line that someone in a hurry cut across the slope.",
+    "practice": "Do the exercise of [[the weedy field|practice]]: name your swept court, your neglected field, and your empty store, and move one hour from the first to the second. Then keep the third line in mind for a day as a single question, asked at each choice: is this the level road, or am I [[turning off|shi]] because the turn looks quicker? You will not always know. The speaker of the passage does not claim to know much either: only [[a grain|shiwo]]."
+  },
+  "glyph": "盜",
+  "plates": [
+    {
+      "c": "盜",
+      "title": "Drooling over another’s dish",
+      "lesson": "The modern short form, 盗, hides the picture; look at the full one. At the bottom is 皿, a dish, the same vessel that holds up 益 and 盈. On top is a rare character, 㳄, made of 氵, water, and 欠. You met 欠 in passage 49: a person with the mouth wide open, breath going out, a yawn. Water beside an open mouth is saliva, and the Shuowen defines 㳄 with care: 慕欲口液也, “the fluid of the mouth in longing and desire”. Its entry for 盜 then joins the parts into a scene: 私利物也。从㳄，㳄欲皿者, “to take a thing for private gain; from 㳄: one who drools with desire for the dish”. A robber, for the dictionary, is not first a man with a knife. It is a person who stands with open mouth and wet lips over someone else’s bowl. The definition has two words that matter in this passage: 私, private, against the great road that is open to all, and 利, gain. The same 㳄 is the lower part of 羨, to envy, which the Shuowen glosses 貪欲也, “greedy desire”. Now read the list again: glutted with drink and food, with goods in surplus. The text calls these people by a character in which the wanting has not stopped. The dish is full and the mouth is still open. See [[盜夸|daokua]].",
+      "brush": "Twelve strokes in two floors. The upper floor is seven strokes in two parts. On the left, water in three: a dot, a second dot below it, and a third stroke that rises from lower left to upper right. On the right, the open-mouthed figure in four: a short stroke that falls to the left; a horizontal that ends in a downward hook; then a long stroke that falls to the left and a long one that falls to the right, like a person’s spread legs. The lower floor is the dish in five: the left side; the top and right side in one stroke; two short verticals inside; and the long base line. Watch the twelfth stroke. It is the widest line of the character and it must run past both upper parts, because the whole leaning, hungry upper floor has to stand on it. Keep the dish low and flat."
+    },
+    {
+      "c": "蕪",
+      "title": "Grass above the dancer",
+      "lesson": "Two parts. The top is 艹, the short form of 艸, grass: two small plants side by side. It marks plants of every kind: 草 (grass), 花 (flower), 茶 (tea), 葉 (leaf), and 藏, “to store”, from passage 44. The rest is 無, twelve strokes, the character that this book made famous. If you have read the plate at passage 11 you know its story: the early form is widely explained as a dancer with tassels in the hands; the graph was borrowed for the word “not have”, and the dance took a new character with feet, 舞. The Shuowen says that in 蕪 it gives only the sound: 蕪，薉也。从艸無聲, “overgrown; from grass, with 無 for the sound”. Both words were said alike, and both are still wú. But a sound-part is seldom chosen at random when a fitting one is at hand, and this one fits: a field with “nothing” in it, under grass. The word has a small family of ruin. 荒, “waste”, is glossed by the Shuowen with this very character, 蕪也; 荒蕪 together is still the Chinese for derelict land. The poet Tao Yuanming begins his most famous piece with the same fear: my fields and garden will go to 蕪; why not go home? In this passage the [[weedy fields|wu]] are the middle term of three. The court takes, the granary lacks, and between them is this character.",
+      "brush": "Sixteen strokes: four for the grass and twelve for 無. The stroke data write the grass in its older, divided form: a short upright and a horizontal on the left, then a short upright and a horizontal on the right, two separate plants with a gap between. Below them 無 begins: a short stroke that falls to the left, then a horizontal, then a long horizontal. Four verticals follow, evenly spaced, and a long horizontal closes them underneath; this is the widest line of the character. Last, four dots in a row, from left to right. Watch the four verticals. They pass through the middle band like fence posts, and the white between them must be equal. The danger is height, since grass is set on top of a tall character. Press the upper part down and keep the dots close under the long line."
+    },
+    {
+      "c": "夷",
+      "title": "A person and a bow",
+      "lesson": "The Shuowen analyses this character as two pictures laid one over the other: 从大从弓, “from 大 and from 弓”. 大 is a person seen from the front with arms and legs spread; it means “big”, and you can find its top stroke, its arms, and its two legs here. 弓 is a bow, with its curved stave: the three bends in the middle of this character. A person who carries a bow. The dictionary adds: 東方之人也, “the people of the east”, the coastal peoples whom the Zhou knew as archers. Modern scholars do not all accept this analysis of the earliest forms, so take it as the Han reading. The first definition that the Shuowen gives is the other sense: 平也, “level”. How the archer and the level ground came to share a graph is not known; the simplest view is that one word borrowed the other’s character. The level sense makes its own family: 夷 as a verb is to flatten, to raze a city, to wipe out a clan; a calm sea is 夷. In the Laozi the word belongs to the Way. It is the name of what the eye cannot catch (14), and it is the quality of the [[great road|yi]] here: 大道甚夷. Hold the two senses together for a moment. The Zhou drew the people at the edge of their world with this character, and the book uses it for the main highway.",
+      "brush": "Six strokes. First a horizontal across the top: the arms of the person. Then the bow in three strokes: a horizontal that turns down at its right end; a second horizontal below it; and then a stroke that starts at the left, goes down, turns right, turns down again, and ends in a hook. These three must stack closely, like the folds of a stave. Watch the fifth stroke. It starts above the first horizontal, passes down through all the bends of the bow, and sweeps away to the lower left; it is the body and one leg of the person, and it joins everything. The sixth stroke is the other leg: from the centre down to the right, pressed harder as it goes, with a long sharp tail. The two legs must spread wide, because the bow in the middle is narrow and needs a base."
+    }
+  ]
+}

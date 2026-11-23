@@ -1,0 +1,61 @@
+{
+  "芻": {
+    "senses": ["cut grass, hay, fodder", "to cut grass; a grass-cutter", "animals fed on hay", "straw (as in 芻狗, a straw dog)"],
+    "shuowen": "刈艸也。象包束艸之形。",
+    "shuowenEn": "Cut grass. It shows the form of grass wrapped in bundles.",
+    "parts": [ { "c": "勹", "m": "a wrap (twice)" }, { "c": "屮", "m": "a sprout, a blade of grass (twice)" } ],
+    "story": "A picture of two bound bundles of grass, one on the other. The word is plain farm language: hay for oxen and sheep. The Mencius uses 芻豢 for grass-fed and grain-fed meat, the food that pleases the mouth. In the Laozi the word stands only in 芻狗, the straw dog of the rite (5). The Zhuangzi tells how such a dog was boxed, covered with embroidery, and handled by priests who had fasted, and how after the offering people walked on it and the grass-cutters burned it. In modern Chinese, 芻議 is a modest name for one’s own proposal: “hay talk”.",
+    "gap": "“Straw” in English means worthless: a straw man, the last straw. The straw dog is not worthless in its hour. It is honored, and then its hour ends."
+  },
+  "仁": {
+    "senses": ["to be close, to treat as kin", "humane; humaneness (the first Confucian virtue)", "the kernel of a nut or seed", "feeling in a limb (不仁: numb)"],
+    "shuowen": "親也。从人从二。",
+    "shuowenEn": "To be close, to treat as kin. From 人 (person) and 二 (two).",
+    "parts": [ { "c": "亻", "m": "a person" }, { "c": "二", "m": "two" } ],
+    "story": "The word for what passes between two people. Confucius made it the centre of his teaching; Mencius told kings that a humane ruler has no enemy who can stand against him. It is warm and graded: most for kin, less for those far away. Guodian bamboo texts are reported to write it with a body over a heart. The Laozi treats it with suspicion. Heaven and earth are not 仁 (5). When the great Dao is left, 仁 and duty appear (18). Cut off 仁, and the people return to family love (19). The highest 仁 acts, and has no motive for acting (38). One line uses it without blame: in giving, 仁 is good (8).",
+    "gap": "“Benevolence” is Victorian charity from above. “Humanity” is too wide. 仁 is close, kin-like warmth that has degrees. The Laozi objects to the degrees and to the display."
+  },
+  "狗": {
+    "senses": ["a dog", "a young or small dog (older usage)", "a term of abuse (later)"],
+    "shuowen": "孔子曰：“狗，叩也。叩气吠以守。”从犬句聲。",
+    "shuowenEn": "Confucius said: “狗 is 叩, to knock: it knocks out its breath in barks and keeps guard.” From 犬 (dog), with 句 for the sound.",
+    "parts": [ { "c": "犭", "m": "side form of 犬, a dog" }, { "c": "句", "m": "sound part; bent, a hook" } ],
+    "story": "犬 is the picture of a dog, and 狗 is the later sound-compound, at first for the young or small animal. The dog guarded the house, was eaten, and was offered in the ancestral temple. In the Laozi it appears twice. The straw dog of the rite is the image for how heaven and earth treat all things (5). In the small state of passage 80, neighbors hear each other’s cocks and dogs and grow old with no visits between them: the dog’s bark there is the sound of a settled village.",
+    "gap": "The English dog is a pet and a friend. The early Chinese dog is a guard, a food animal, and an offering."
+  },
+  "橐": {
+    "senses": ["a sack, a bag open at both ends", "the leather bag of a bellows", "the sound of pounding (橐橐)"],
+    "shuowen": "囊也。",
+    "shuowenEn": "A bag.",
+    "story": "A leather sack. With 籥, a pipe, it names the bag-bellows of the early foundry: the bag is pressed, and the pipe carries the blast to the fire. Chinese smiths were casting iron by about the fifth century BCE, and that needed a strong, steady blast; the bellows was among the important machines of the age. The Laozi uses it once, for the space between heaven and earth: empty, and more comes out the more it moves (5). Wang Bi explains 橐 as the bellows and 籥 as a musical pipe, and says that both are hollow.",
+    "gap": "“Bellows” is right for the tool. English loses the plain word inside it: a bag. The image is a common sack that works because nothing is in it."
+  },
+  "窮": {
+    "senses": ["the far end, the limit", "to come to an end, to be used up", "a dead end; with no way out", "poor"],
+    "parts": [ { "c": "穴", "m": "a cave, a hole" }, { "c": "躬", "m": "the body (身 with 弓); sound part" } ],
+    "story": "The Shuowen enters the older form 竆 under 穴, the cave, and defines it as “the far limit”. To be 窮 is to be at the back wall with nowhere to go, and so the word also means poor and stuck. Its opposite in early texts is 通 or 達, to get through. The Laozi uses it for what Dao does not do: many words meet the 窮 again and again (5); great fullness seems empty, and its use does not 窮 (45). Sunzi warns: do not press an enemy who is 窮.",
+    "gap": "“Exhausted” is about energy and “poor” is about money. 窮 is about space: no road left."
+  },
+  "間": {
+    "senses": ["a gap, a crack", "the space between", "among, in the midst of", "an interval of time", "to separate; to find a gap in (jiàn)"],
+    "parts": [ { "c": "門", "m": "a door with two leaves" }, { "c": "日", "m": "sun (the older form has 月, moon)" } ],
+    "story": "The older graph is 閒: a door with the moon in it. The Shuowen defines that form as a crack or gap: light seen between two door leaves. From the gap in a door the word spread to every in-between: the space between things, a span of time, the world of people (人間). In the Laozi, the whole world is 天地之間, the gap between heaven and earth, and it is compared to a bellows (5). Passage 43 says that what has no substance can enter where there is no 間, no gap at all.",
+    "gap": "English “space” is an abstract container. 間 is a crack with light in it: an opening between two things that are there."
+  },
+  "姓": {
+    "senses": ["a clan name, a surname", "a clan", "百姓: the hundred clans; the common people"],
+    "shuowen": "人所生也。",
+    "shuowenEn": "That from which a person is born.",
+    "parts": [ { "c": "女", "m": "a woman" }, { "c": "生", "m": "birth, to be born; also the sound" } ],
+    "story": "A woman and birth: the line of descent that a person is born into. Several of the oldest clan names are themselves written with 女, such as 姬, the clan of the Zhou kings, and 姜. In early Zhou only the nobility had a 姓, and 百姓 meant the great families. By the Warring States the phrase meant the people at large. The Laozi uses 百姓 for those whom a ruler affects: the sage treats them as straw dogs (5); when the work is done, they say “we are so of ourselves” (17); the sage takes their heart as the sage’s own (49).",
+    "gap": "“The people” is a political abstraction. 百姓 is concrete: a hundred family names, each a line of births."
+  },
+  "守": {
+    "senses": ["to keep, to guard", "to stay at, to hold to", "to keep watch; a governor (shòu)"],
+    "shuowen": "守官也。从宀从寸。",
+    "shuowenEn": "To keep an office. From 宀 (roof) and 寸 (hand, measure).",
+    "parts": [ { "c": "宀", "m": "a roof, a building" }, { "c": "寸", "m": "a hand at the wrist; measure, rule" } ],
+    "story": "A hand under a roof: to stay at a post and keep it. The Shuowen explains it as the keeping of an office under a rule. The Laozi turns this official word inward. Its sage keeps things that are low and quiet: keep to the middle (5); keep to stillness (16); know the male and keep to the female, know the white and keep to the black (28); keep to the mother (52); keep to the soft (52). If lords and kings could keep to Dao, things would change of themselves (32, 37).",
+    "gap": "“Guard” sounds like defense against attack. 守 is mostly to stay with a thing and not leave it."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "嬰": {
+    "senses": ["a necklace; to wear at the neck (old sense)", "to wind round, to be bound by", "an infant", "to touch, to meet with"],
+    "shuowen": "頸飾也。从女、賏。賏，其連也。",
+    "shuowenEn": "An ornament for the neck. From 女 (woman) and 賏 (two shells); 賏 is the string of them.",
+    "parts": [ { "c": "賏", "m": "two cowrie shells: a necklace" }, { "c": "女", "m": "a woman" } ],
+    "story": "First a string of shells at a woman’s neck. The sense “infant” is commonly explained from the child carried at the neck and breast; some scholars say the graph was only borrowed for the sound. The infant is the Laozi’s picture of whole power. Gather the breath to full softness: can there be an infant? (10). “I alone am still, with no sign yet, like an infant that has not yet smiled” (20). Keep to the hen, and return to the infant (28). The one who holds power in fullness is like a newborn child (55).",
+    "gap": "The English infant is helpless and “infantile” is an insult. The Laozi’s infant is the strongest state of a person: soft, whole, with no wasted force."
+  },
+  "能": {
+    "senses": ["a bear-like animal (first sense)", "ability, power; able", "can, to be able to", "a person of ability"],
+    "shuowen": "熊屬。足似鹿。从肉㠯聲。能獸堅中，故稱賢能；而彊壯，稱能傑也。",
+    "shuowenEn": "Of the bear kind. Its feet are like a deer’s. From 肉 (flesh), with 㠯 for the sound. The 能 beast is solid inside, and so the worthy are called 能; it is strong, and so the outstanding are called 能.",
+    "parts": [ { "c": "厶", "m": "upper left: commonly explained as the head; the Shuowen takes it as the sound" }, { "c": "月", "m": "short form of 肉, flesh: the body" }, { "c": "匕", "m": "a paw (twice)" } ],
+    "story": "A picture of a bear, borrowed for “ability” because the animal is strong and solid. When the borrowed sense took over, fire dots were added to write the animal: 熊. In the Laozi, 能 is a plain helping word with a large role. Heaven and earth are able to last because they do not live for themselves (7). Passage 10 asks 能 six times: can the soul be held, can there be an infant, can the mirror be clean? Under heaven no one is able to know or to practice what is easy to know and practice (70).",
+    "gap": "English “can” is a colourless helper. 能 still has an animal’s solid strength in it."
+  },
+  "宰": {
+    "senses": ["a bound servant in a great house (first sense)", "a steward; a chief minister", "to carve, to butcher", "to rule over, to dispose of"],
+    "shuowen": "辠人在屋下執事者。从宀从辛。辛，辠也。",
+    "shuowenEn": "A convict who does service under a roof. From 宀 (roof) and 辛; 辛 means crime.",
+    "parts": [ { "c": "宀", "m": "a roof, a house" }, { "c": "辛", "m": "a blade for marking convicts; crime; bitter" } ],
+    "story": "From house-slave to steward to chancellor: the word climbed as the servants of great houses became the officers of states. The steward carved and shared the sacrificial meat, and so the word also means to butcher. Later 宰相 is the prime minister, and 主宰 is the master who disposes of all. The Laozi uses the word in one phrase, twice: 長而不宰, to raise and be head of a thing and not carve it up as its master (10, 51).",
+    "gap": "“Rule” and “dominate” miss the knife. 宰 is to have a thing on the block and decide its parts."
+  },
+  "魄": {
+    "senses": ["pò: the bodily soul, tied to flesh, senses, and bones", "the dark or faint part of the moon’s disc", "vigor, bodily spirit"],
+    "shuowen": "陰神也。从鬼白聲。",
+    "shuowenEn": "The yin spirit. From 鬼 (ghost), with 白 for the sound.",
+    "parts": [ { "c": "白", "m": "sound part; white" }, { "c": "鬼", "m": "a ghost; a spirit of the dead" } ],
+    "story": "One of a person’s two souls. The 魄 comes with the body’s first shaping and stays with the bones; the 魂, the cloud-soul, is added after and can wander. At death the 魂 rises and the 魄 sinks into the earth. The same word names phases of the moon in early bronze inscriptions. In the Laozi it stands once, in the first question of passage 10: carrying the 魄 and holding the One, can there be no parting? In modern Chinese 魄力 is boldness, and 落魄 is to be down and out: to have dropped one’s 魄.",
+    "gap": "“Soul” in English is one, immaterial, and immortal. 魄 is one of two, close to the flesh, and it does not outlast the body for long."
+  },
+  "氣": {
+    "senses": ["breath, vapor, steam", "air, weather", "the fine stuff of life and of all things", "mood, spirit, force of character"],
+    "shuowen": "饋客芻米也。从米气聲。",
+    "shuowenEn": "Fodder and rice presented to guests. From 米 (rice), with 气 for the sound.",
+    "parts": [ { "c": "气", "m": "vapor, breath: layers of rising mist" }, { "c": "米", "m": "rice, grain" } ],
+    "story": "The simple graph 气 is commonly explained as thin lines of vapor. The Shuowen says that the fuller graph with 米 was first a word for provisions; it later took over the sense of breath. From breath the word grew to cover weather, vitality, and the stuff of which everything is made. The Laozi names it three times. Gather the 氣 to full softness (10). The ten thousand things carry yin and hold yang, and the surging 氣 makes their harmony (42). When the heart drives the 氣, that is called forcing (55).",
+    "gap": "“Energy” is physics and “spirit” is religion. 氣 is neither: it is material, it moves, and it can be felt as breath."
+  },
+  "柔": {
+    "senses": ["pliant: wood that bends and straightens", "soft, tender, supple", "gentle, yielding", "to soften, to win over by gentleness"],
+    "shuowen": "木曲直也。从木矛聲。",
+    "shuowenEn": "Wood that can be bent and straightened. From 木 (tree), with 矛 for the sound.",
+    "parts": [ { "c": "矛", "m": "sound part; a spear" }, { "c": "木", "m": "a tree, wood" } ],
+    "story": "The softness of green wood, which bends and comes back. It is a central value of the Laozi and nearly always wins. Gather the breath to full 柔 (10). The 柔 and weak overcome the hard and strong (36). The softest thing under heaven rides over the hardest (43). To keep to the 柔 is called strength (52). The living are 柔 and the dead are stiff (76). Nothing is more 柔 than water, and nothing is better against the hard (78). Later strategists and martial arts took 以柔克剛, “overcome the hard with the soft”, from these lines.",
+    "gap": "“Soft” and “weak” are faults in English. 柔 is the suppleness of a living thing. Its opposite is the rigidity of a dead one."
+  },
+  "雌": {
+    "senses": ["a hen bird, a female bird", "female (opposite of 雄)", "the responding, lower role", "weak, defeated (later)"],
+    "shuowen": "鳥母也。从隹此聲。",
+    "shuowenEn": "The mother bird. From 隹 (bird), with 此 for the sound.",
+    "parts": [ { "c": "此", "m": "sound part; this" }, { "c": "隹", "m": "a short-tailed bird" } ],
+    "story": "Chinese names the sexes of birds 雌 and 雄, and of beasts 牝 and 牡. The cock leads the song and the hen answers; Wang Bi explains the word in this passage by that image. The Laozi uses it twice. Heaven’s gate opens and shuts: can it be as the 雌? (10). Know the cock and keep to the 雌, and be the ravine of the world (28). In later Chinese, 雌雄 also means “loser and winner”: to decide the hen and the cock is to fight it out.",
+    "gap": "“Feminine” is a set of cultural traits. 雌 is a hen on a nest: a role in a pair, defined by what she does."
+  },
+  "德": {
+    "senses": ["de: the power proper to a thing or person", "the quality of a ruler that draws people with no force", "virtue, moral excellence", "favor, kindness received; to be grateful"],
+    "shuowen": "升也。从彳㥁聲。",
+    "shuowenEn": "To rise. From 彳 (a step), with 㥁 for the sound.",
+    "parts": [ { "c": "彳", "m": "a step, a road" }, { "c": "㥁", "m": "right part: commonly explained as a straight eye over a heart" } ],
+    "story": "The second word of the book’s title. In Zhou bronze inscriptions it is the quality that a king receives from Heaven and the ancestors and by which he holds the realm; Confucians made it moral virtue. Early writers explain it by a near-homophone: 德 is 得, what one has got. In the Laozi it is what each thing has from Dao: its own power to be what it is. The highest 德 does not act as 德, and so has it (38). Dao gives life, and 德 rears (51). To give life and not own is the dark 德 (10, 51). One who holds 德 in fullness is like an infant (55).",
+    "gap": "“Virtue” now means moral goodness, and “power” suggests force. 德 is the working strength of a thing’s own nature, which acts on others with no push."
+  }
+}

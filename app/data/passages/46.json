@@ -1,0 +1,209 @@
+{
+  "n": 46,
+  "title": "War Horses at the Outskirts",
+  "theme": "conflict",
+  "zh": [
+    {
+      "text": "天下有道，卻走馬以糞。",
+      "gloss": {
+        "2": "to have: the world “has” Dao, a political condition",
+        "5": "què: to turn back, to send back",
+        "6": "to run (the classical sense; “to walk” is modern)",
+        "9": "fèn: to manure the fields; dung"
+      }
+    },
+    {
+      "text": "天下無道，戎馬生於郊。",
+      "gloss": {
+        "5": "róng: weapons, war",
+        "7": "to be born; here, to foal",
+        "9": "jiāo: the open land outside the city wall"
+      }
+    },
+    {
+      "text": "禍莫大於不知足；咎莫大於欲得。故知足之足，常足矣。",
+      "gloss": {
+        "0": "huò: calamity, disaster",
+        "8": "jiù: fault, blame; harm that one has earned",
+        "13": "to get, to gain",
+        "19": "enough, now a noun: “the enough”",
+        "21": "constant; always"
+      }
+    }
+  ],
+  "rendering": [
+    "When [[the world has Dao|youdao]],",
+    "[[running horses|zouma]] are [[turned back|que]] to [[dung the fields|fen]].",
+    "When the world has no Dao,",
+    "[[war horses|rongma]] [[are born|sheng]] at the [[outskirts|jiao]].",
+    "",
+    "No [[calamity|huo-jiu]] is greater than not to know enough;",
+    "no fault is greater than [[the wish to get|yude]].",
+    "So the [[enough of know-enough|zuzu]]",
+    "is [[always|chang]] enough."
+  ],
+  "notes": {
+    "youdao": {
+      "kind": "gap",
+      "title": "天下有道: the world “has” the Way",
+      "body": "天下 is “under heaven”: the whole known world, the Zhou realm and its states. 有道, “has the Way”, was a common political phrase of the time, and it did not belong to the Daoists. Confucius uses it often. When the world has the Way, he says, show yourself; when it does not, stay hidden. And: when the world has the Way, rites, music, and campaigns of war come from the Son of Heaven alone. For such speakers 有道 means that the realm is in order and under right rule; 無道 means the age of usurpers. The Laozi takes the phrase that everyone used and gives it one test only: look at the horses. English versions write that the Dao “prevails”, a word of contest. The Chinese verb is 有, to have, as a field has water.",
+      "src": [
+        "Analects 8.13, 16.2"
+      ]
+    },
+    "zouma": {
+      "kind": "etymology",
+      "title": "走: to run",
+      "body": "In modern Chinese 走 means “to walk, to go”. In the classical language it means “to run”. The Shuowen defines it as 趨也, “to hurry”, and analyses the graph as 夭 above 止: a foot, with a figure over it that the dictionary calls bent. Many modern scholars see in the old form a person with swinging arms above a foot. So 走馬 are running horses: fast horses, bred and fed for speed. In this age such a horse had one main purpose. It pulled the war chariot, four to a team, or from the late fourth century carried a mounted archer; it also ran in the relay posts that took a ruler’s orders across the state. A fast horse ate grain that could feed people. To send it back to the farm is to turn the costliest machine of the state toward food.",
+      "src": [
+        "Shuowen Jiezi, 走部: 走，趨也。从夭、止。夭止者，屈也。"
+      ]
+    },
+    "que": {
+      "kind": "gap",
+      "title": "卻: who turns the horses back?",
+      "body": "卻 is “to step back, to send back, to decline”. The line has no subject. It does not say “the ruler turns back the horses” or “people send them home”; the horses simply go the other way. English needs a subject or a passive, and we use the passive. The Shuowen as we have it defines the word in a surprising way: 節欲也, “to restrain desire”. Later editors doubted this text and corrected it to a sense of “hold back and withdraw”. Take it as a curious chance, since this passage ends with a judgment on 欲, desire. It is still a good chance. The first act of a world that has the Way is a step backward. The word for it is the same word that a dictionary could gloss as desire held in check.",
+      "src": [
+        "Shuowen Jiezi, 卩部: 卻，節欲也。从卪谷聲。"
+      ]
+    },
+    "fen": {
+      "kind": "gap",
+      "title": "以糞: four characters became a debate",
+      "body": "糞 is dung, and as a verb it is to manure a field. The line ends on it with no object: “turn back the running horses in order to 糞”. Old readers fill the gap in three ways. The horses pull the plough and the manure carts. Or the horses are kept for their dung. Or, as [[Wang Bi|wangbi]] has it, they are sent to 治田糞, “to work the fields and dung them”. The Han Feizi says that in such a world the relay posts are not used, so the fast horses go to the farm. All three agree on the direction: from the road to the soil. Note the level of the image. The sign of a world in order is not music or jade. It is manure. Some English translators softened the word. [[Legge|legge]] did not, and the Chinese does not.",
+      "src": [
+        "Wang Bi commentary on Laozi 46",
+        "Han Feizi, “Yu Lao” (喻老)"
+      ]
+    },
+    "rongma": {
+      "kind": "geopolitics",
+      "title": "戎馬: the horse as an arms race",
+      "body": "戎 is weapons and war; the Shuowen records it in an older graph and explains it as 戈, the dagger-axe, with 甲, armour. The same word named the peoples of the western frontier. 戎馬 are war horses. A state’s rank was counted in chariots, and each chariot needed four trained horses, a driver, an archer, and a spearman. In 307 BCE King Wuling of Zhao ordered his army to wear the trousers of the steppe riders and to shoot from horseback; cavalry spread to all the great states, and the demand for horses grew again. Good horses came from the northern border. To the people who paid the grain tax, a war horse was a visible measure of what the state took. The line after this one says where the measure ends.",
+      "src": [
+        "Shuowen Jiezi, 戈部: 𢦦，兵也。从戈从甲。",
+        "Shiji 43 (House of Zhao)"
+      ]
+    },
+    "sheng": {
+      "kind": "history",
+      "title": "生於郊: foals on the field of war",
+      "body": "生 is “to be born”. English versions often write that war horses are “bred” or “raised”, and the line becomes a note on stud farms. The oldest readers heard a harder thing. The Han Feizi, the first commentary that we have, says that when wars do not stop, the stallions run short and the mares must be sent to the army; so foals are born on campaign. A Han text, the Discourses on Salt and Iron, repeats it of its own time: mares enter the ranks, and the young are born on the battle ground. A mare in foal is the future of the herd, and here she is in harness at the front. Passage 30 uses the same verb for the same grief: where an army has camped, thorns are born.",
+      "src": [
+        "Han Feizi, “Jie Lao” (解老)",
+        "Yantie lun, “Wei tong” (未通)",
+        "Laozi 30"
+      ]
+    },
+    "jiao": {
+      "kind": "gap",
+      "title": "郊: not a suburb",
+      "body": "A Zhou city was a wall with the ruler’s house and the ancestral temple inside it. Outside the wall lay the 郊: open land, fields, and beyond it the wilds. The Shuowen gives a formal measure: 距國百里爲郊, “a hundred li from the capital is the 郊”. Armies met there, since a state fought before its own walls or before the enemy’s. And at the 郊 the ruler made the great offering to Heaven, which took its name from the place. So the word carries two things that the dictionary word “suburb” or “border” cannot: the place where the state faces Heaven, and the place where it faces the enemy. The Han Feizi stresses a third: 郊 is near. The war is not at a far frontier. It has come to the edge of home.",
+      "src": [
+        "Shuowen Jiezi, 邑部: 郊，距國百里爲郊。从邑交聲。",
+        "Han Feizi, “Jie Lao” (解老)"
+      ]
+    },
+    "huo-jiu": {
+      "kind": "etymology",
+      "title": "禍 and 咎: words from the diviner’s table",
+      "body": "Both nouns come from religion. 禍 has 示 at its left, the altar sign that marks what concerns spirits: 神 (spirit), 福 (blessing), 祭 (offering). The Shuowen defines 禍 as 害也，神不福也, “harm; the spirits do not bless”. 咎 is the word for blame in the Book of Changes, where the best that a line can often promise is 无咎, “no blame”. The Shuowen defines it as 災也, “disaster”, and reads the graph as 人, a person, with 各, which it explains as 相違, “to go against each other”. In the older view, calamity came from Heaven and the ancestors, and one asked a diviner for its cause. This passage keeps the words and moves the cause. It is inside: not to know enough, and to want to get. No altar is needed to find it.",
+      "src": [
+        "Shuowen Jiezi, 示部: 禍，害也，神不福也。从示，咼聲。",
+        "Shuowen Jiezi, 人部: 咎，災也。从人从各。各者，相違也。"
+      ]
+    },
+    "yude": {
+      "kind": "wordplay",
+      "title": "欲得: wanting to get",
+      "body": "Two plain words: 欲, to want, and 得, to get. The fault is not in having, and not in getting as such. It is in the wish that leans forward to get. 得 is the same word that stood in the third question of passage 44, “gain or loss, which is the sickness?”, and this passage gives the answer. There is a sound in it as well. 得 was a homophone of 德, the “inner power” of the book’s title, and early writers explain one by the other: to have 德 is to have got something. Passage 38 says that the highest 德 does not act as 德. Here the same thought is put low and plain: the one who is bent on 得 has the greatest fault. The link from this private wish to the war horses is the whole argument of the passage. See also [[the missing line|silk]].",
+      "src": [
+        "Laozi 38, 44"
+      ]
+    },
+    "zuzu": {
+      "kind": "wordplay",
+      "title": "知足之足常足: three times enough",
+      "body": "Six characters, and three of them are 足. The first is inside a verb phrase: 知足, “to know enough”. The second is a noun: 之足, “the enough of” that. The third is the predicate: 常足, “is always enough”. So: the enough that consists in knowing what is enough is the enough that lasts. The line separates two kinds. One is the enough of quantity: the store is full. That kind does not hold, because the measure moves as the store grows. The other is the enough of knowing, and it does not depend on the store. English must use “contentment”, “sufficiency”, and “satisfaction” to follow the turns, and the echo is lost. In Chinese the word strikes three times like a foot set down. 足 is also “foot”; see passage 44."
+    },
+    "chang": {
+      "kind": "variant",
+      "title": "常 and 恆: an emperor’s name",
+      "body": "Our text says 常足, “constantly enough”. The Mawangdui silk texts are reported to say 恆足. The two words mean nearly the same, and the change has a known cause. The personal name of Emperor Wen of Han, who came to the throne in 180 BCE, was Heng, 恆. A reigning emperor’s name could not be written, so scribes put 常 in its place through the whole book; the first line, 道可道非常道, was once 非恆道. The Shuowen shows how odd the stand-in is. Its entry for 常 reads 下帬也, “a lower garment”: the word was first a skirt. Under 恆 it says 常也, and explains the graph as a heart and a boat between two banks. The steady word of the Laozi was a boat that goes across and comes back.",
+      "src": [
+        "Shuowen Jiezi, 巾部: 常，下帬也。从巾尚聲。",
+        "Shuowen Jiezi, 二部: 恆，常也。从心从舟，在二之閒上下。心以舟施，恆也。",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "The line that Wang Bi’s text lost",
+      "body": "The Mawangdui silk texts are reported to have three “none greater” lines, and the first is not in our text: 罪莫大於可欲, “no [[crime|zui]] is greater than the desirable”, or “than to approve of desire”. Then: 禍莫大於不知足，咎莫憯於欲得. The last has 憯, “painful”, where we have 大: no fault is more grievous. The Heshang Gong text and the Han Feizi have the three lines too, and the Guodian slips are reported to have three, in another order and with other adjectives; they are also reported to lack the two lines on horses. The extra line sharpens the politics. 可欲 is the word of passage 3: do not display the desirable, and the people’s hearts are not troubled. The first crime is then not in the one who wants. It is in the one who sets up the object.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)",
+        "Laozi 3"
+      ]
+    },
+    "zui": {
+      "kind": "history",
+      "title": "罪: a word rewritten by the First Emperor",
+      "body": "The word for “crime” in the older copies has its own story of power. The Shuowen says that 罪 was first a bamboo net for fish: the top part is 网, a net. The word “crime” was written 辠, which the dictionary explains as 辛, bitter, with 自, the nose: an offender who wrinkles the nose in pain. Then it adds: 秦以辠似皇字，改爲罪. “Qin, because 辠 looked like the character 皇, ‘emperor’, changed it to 罪.” The First Emperor had taken the new title 皇帝 in 221 BCE, and he did not want the graph for “criminal” to look like his own. The state that won the wars of this passage by the largest use of war horses then corrected the dictionary. See [[the silk texts|silk]] for the line.",
+      "src": [
+        "Shuowen Jiezi, 网部: 罪，捕魚竹网。从网、非。秦以罪爲辠字。",
+        "Shuowen Jiezi, 辛部: 辠，犯法也。从辛从自，言辠人蹙鼻苦辛之憂。秦以辠似皇字，改爲罪。"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: inside and outside",
+      "body": "Wang Bi reads the two pictures with one pair of words, 內 and 外, inside and outside. On the first: 天下有道，知足知止，無求於外，各修其內而已. “When the world has the Way, people know enough and know to stop; they seek nothing outside, and each simply tends what is within.” On the second: 貪欲無厭，不修其內，各求於外，故戎馬生於郊也. “Craving without limit, they do not tend what is within, and each seeks outside; so war horses are born at the outskirts.” He joins this passage to the last lines of 44 with the words 知足知止. And he gives the horses a direction: the farm horse works inside the walls and fields, and the war horse is at the 郊, outside. War, for Wang Bi, is the outward form of a search that has left home.",
+      "src": [
+        "Wang Bi commentary on Laozi 46"
+      ]
+    },
+    "hanfei": {
+      "kind": "history",
+      "title": "The first commentator was a Legalist",
+      "body": "The oldest explanations of Laozi lines that survive are two chapters of the Han Feizi, “Explaining Lao” and “Illustrating Lao”. Han Fei died in a Qin prison in 233 BCE. He was the great theorist of state power, and he read the Laozi as a book for rulers. Both chapters treat this passage. In one he draws the world without the Way: attack follows attack, armies face each other for years, lice breed in the armour, swallows nest in the tents, and the soldiers do not come home. In the other he traces the cause step by step, from a ruler’s desire, to disordered thought, to calamity for the state. So the first reader on record already saw the link that the passage makes with one word, 故: [[the wish to get|yude]], and then the horses.",
+      "src": [
+        "Han Feizi, “Jie Lao” (解老) and “Yu Lao” (喻老)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: guilt, ambition, contentment",
+      "body": "Legge translated a text with [[three lines|silk]], and his first is: “There is no guilt greater than to sanction ambition”. Each noun is a choice. “Guilt” is a state of the soul before a judge; 罪 is an offence against a law. “Ambition” is one desire among many; 可欲 is anything that can be wanted. In the last line 知足之足 becomes “the sufficiency of contentment”, and the triple strike of [[足|zuzu]] turns into two long Latin words. “Contentment” was a Christian virtue of his day, the duty to accept one’s lot, and he writes “discontented with one’s lot” in the line before. The Chinese has no lot. It has a quantity, enough, and the verb “to know”. For the horses he is exact, and he does not hide the dung.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Find the fast horse",
+      "body": "Every life keeps some running horses: strength that is fed and trained for a contest. It may be the hours given to rivalry at work, the attention spent on a quarrel, the money held ready to win something. Name one today. Then ask the question of the first line: what would it mean to turn this back to the field? The same energy, on the thing that feeds you and the people near you. Do one small act of that kind. Then ask the second question, which is harder. Is there a mare at the front? Something that should be resting, growing, or bearing, a body, a child’s time, a friendship, that the contest has taken into service?"
+    }
+  },
+  "lenses": {
+    "ground": "Two pictures of the same animal, and then a diagnosis. [[When the world has the Way|youdao]], the [[running horses|zouma]] go [[back|que]] to the farm and [[the fields are dunged|fen]]. When it has none, [[war horses|rongma]] [[are born|sheng]] on the open ground [[outside the wall|jiao]]. Each picture is nine characters. No ruler is named and no battle is described; the horse alone shows the state of the world. Then the cause, in two parallel lines of religious weight, [[禍 and 咎|huo-jiu]]: not to know enough, and [[the wish to get|yude]]. Then one line that turns on [[three 足|zuzu]]. The move from the horses to the heart is made without a connecting word. The reader is left to see that the war at the 郊 and the wanting in the chest are one thing at two sizes.",
+    "inner": "Read the two pictures as states of one mind. In one, the fast energy is turned to the ground under the feet: the task at hand, the meal, the person in the room. In the other, the mind is on campaign, and even its tender parts are in harness; something that should be born in shelter [[is born at the front|sheng]]. The passage places the cause where a person can look at it. It is not “desire” as a large enemy. It is the precise movement of [[欲得|yude]], the lean toward getting, which can be felt as it starts. And the remedy is not a victory over that movement. It is a kind of knowledge: [[the enough of know-enough|zuzu]]. Wang Bi says it in four words: [[seek nothing outside|wangbi]].",
+    "leading": "The passage is short, and it is one of the angriest in the book. It was written when rulers measured greatness in horses and land. Its claim is direct: the wars come from the top, from one person’s inability to say “enough”, and [[Han Fei|hanfei]], no friend of soft rule, read it the same way. The test that it gives a leader is useful and hard. Do not listen to what an organisation says about itself. Look at where its fastest horses are. Are the best people and the most money on the field that feeds everyone, or on a contest at the border? And look for the mare: the function that should be protected and is in the fight. A growth target with no “enough” in it will reach the [[郊|jiao]] in time.",
+    "nature": "The first picture is a closed circle. The horse eats from the field, and its dung goes back to the field, and the field grows more. Farmers of north China kept this circle with great care for three thousand years; manure was collected, stored, and valued. The second picture breaks the circle at each point. The grain goes to feed horses that grow nothing. The dung falls on the road. The foal [[is born|sheng]] where there is no stable and no pasture. A world with the Way, in this passage, is not a paradise. It is a nutrient cycle that has not been cut. Notice that the [[enough|zuzu]] of the last line has the same shape: it is a circle that closes, and wanting is a line that runs outward.",
+    "practice": "Do the exercise of [[the fast horse|practice]] today: name one strength that you keep for a contest, and turn one hour of it to the field. Then test the last line in a small way. Before a meal, a purchase, or the next check of a screen, ask a question of fact, not of morals: is there enough here already? Do not answer “yes” by rule. Look. Sometimes there is not enough, and then you act. The line says only that the one who can know this has a supply that does not run out."
+  },
+  "glyph": "馬",
+  "plates": [
+    {
+      "c": "馬",
+      "title": "Head, mane, tail, four legs",
+      "lesson": "This is a drawing, and the Shuowen tells you how to see it: 象馬頭髦尾四足之形, “it pictures the horse’s head, mane, tail, and four legs”. Imagine the animal stood on its tail, nose up. The upper block is the head and neck; the level lines that stick out to the right are the mane. The long line that turns along the bottom and hooks is the back and the tail. The four dots are the four legs. Oracle-bone and bronze forms are much more of a portrait, with a long face, an eye, and a brush of mane; they differ among themselves, so look at them in the links and do not trust one description. The dictionary’s definition is a pun on the sound: 馬，怒也，武也, “horse: fury; war”. For the Han scholar the animal was first of all a thing of battle, as it is in this passage. As a part, 馬 marks its kind and what is done with it: 駒 (a colt; the Shuowen says a horse of two years), 駕 (to yoke), 馳 (to gallop), 驚 (to startle, as a horse does), 驕 (a tall horse, and then “proud”). It also serves as a sound, in 媽 (mother) and 嗎, the modern question word. See [[running horses|zouma]] and [[war horses|rongma]].",
+      "brush": "Ten strokes. First a horizontal at the top. Second, the long vertical at the left: the line of the neck. Third and fourth, two more horizontals, the mane. Fifth, a vertical through the middle of the three horizontals. Keep the three level lines evenly spaced and let them reach to the right; the left side is closed and the right side is open. Watch the sixth stroke. It starts at the foot of the left vertical, runs to the right, turns the corner, comes down, and ends in a hook that points back to the left: one stroke for the back, the rump, and the tail. It makes a shelter, and the last four strokes, the dots, go underneath it from left to right. In cursive script the four legs became one line, and that form is the base of the short modern 马."
+    },
+    {
+      "c": "糞",
+      "title": "What looks like rice and is not",
+      "lesson": "Read the modern character from the top and you get a pleasant error: 米, rice; 田, a field; 共, together. Rice, field, shared: a farm. None of the three is what it seems. The Shuowen has the word under an older graph and defines it as 棄除也, “to throw out, to clear away”. It explains the parts: two hands, 廾, push a kind of dustpan and throw out what is in it. Then it quotes an authority, Guan Pu, on the top part: 似米而非米者，矢字, “that which is like 米 and is not 米 is the graph for excrement”. So the “rice” is waste; the “field” is the pan or basket; and “together” is the two hands at the bottom. The first sense is to sweep out the house or stable. The second sense is the thing that is swept out. The third is what a farmer does with it: to dress a field. That is the sense of [[以糞|fen]] in this passage. One character holds the whole circle: the stable is cleaned, and the field is fed. Two cousins by the hands: 共 itself, and 棄, “to abandon”, the first word of the Shuowen’s definition, which the dictionary also explains with two hands and the same pan.",
+      "brush": "Seventeen strokes in three floors. The top floor is six strokes, written like 米: a dot at upper left, a short stroke at upper right that leans in, a horizontal, a vertical through it, then a stroke that falls to the left and one that falls to the right. The middle floor is the box, five strokes: left side; top and right side in one; the inner horizontal; the inner vertical; the base. The bottom floor is six strokes: a horizontal, two short verticals, a long horizontal, and two dots below that lean apart. Watch the fifteenth stroke, the long horizontal near the bottom. It is the widest line in the character and the two hands carry everything on it. The danger is height. A good writer presses each floor flat, so that three characters’ worth of strokes fit in one square."
+    }
+  ]
+}

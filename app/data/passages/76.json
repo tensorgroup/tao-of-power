@@ -1,0 +1,258 @@
+{
+  "n": 76,
+  "title": "Soft Alive, Stiff Dead",
+  "theme": "yielding",
+  "zh": [
+    {
+      "text": "人之生也柔弱，其死也堅強。",
+      "gloss": {
+        "2": "alive; also: at birth",
+        "4": "soft, pliant: wood that can be bent and straightened",
+        "5": "weak, yielding, bent like down",
+        "8": "dead; at death",
+        "10": "hard, firm, like packed earth",
+        "11": "strong, stiff, forceful"
+      }
+    },
+    {
+      "text": "萬物草木之生也柔脆，其死也枯槁。",
+      "gloss": {
+        "8": "cuì: tender, easily snapped",
+        "13": "dried out",
+        "14": "gǎo: withered (of wood)"
+      }
+    },
+    {
+      "text": "故堅強者死之徒，柔弱者生之徒。",
+      "gloss": {
+        "6": "follower, companion; first, one who goes on foot"
+      }
+    },
+    {
+      "text": "是以兵強則不勝，",
+      "gloss": {
+        "2": "army; weapons (a noun here)"
+      }
+    },
+    {
+      "text": "木強則兵。",
+      "gloss": {
+        "3": "a verb here: to take a blade to; is felled. Other texts: 折, breaks"
+      }
+    },
+    {
+      "text": "強大處下，",
+      "gloss": {
+        "2": "chǔ: to dwell, to take a place",
+        "3": "below"
+      }
+    },
+    {
+      "text": "柔弱處上。",
+      "gloss": {
+        "3": "above"
+      }
+    }
+  ],
+  "rendering": [
+    "[[A person, alive,|sheng]] is [[soft|rou]] and [[weak|ruo]];",
+    "[[dead|si]], [[hard|jian]] and [[strong|qiang]].",
+    "The ten thousand things, the grasses and trees,",
+    "alive, are soft and [[tender|cui]];",
+    "dead, [[dry and withered|ku-gao]].",
+    "",
+    "[[So|gu-yue]] the hard and strong are [[the company of death|tu]];",
+    "the soft and weak are the company of life.",
+    "",
+    "For this reason",
+    "[[an army that is strong does not win|bing-qiang]];",
+    "[[a tree that is strong meets the axe|mu-qiang]].",
+    "The strong and great [[take the place below|chu-xia]];",
+    "the soft and weak take the place above."
+  ],
+  "notes": {
+    "sheng": {
+      "kind": "gap",
+      "title": "生: alive, or at birth?",
+      "body": "人之生也 is “a person’s 生”. 生 is to be born, to grow, and to be alive; Chinese does not divide these. Legge chose “at his birth”. Then the line sets a newborn beside a corpse, the two ends of a life. That reading has support in passage 55, where the infant’s bones are weak and its sinews soft, 骨弱筋柔, and its grip is firm. Our “alive” takes the wider sense: at any age, the living body gives under the hand, and the dead one does not. The Chinese has both at once, and with them a third thought: softness is greatest at the start and is lost by degrees. On that reading we stiffen all our lives. English also needs a body word that the Chinese leaves out. The line does not say “body”. It says 人, a person: the whole person is soft or hard.",
+      "src": [
+        "Laozi 55"
+      ]
+    },
+    "rou": {
+      "kind": "etymology",
+      "title": "柔: wood that bends and comes back",
+      "body": "柔 has 木, a tree, at its foot. The Shuowen defines it as 木曲直也, “wood that can be made crooked and straight”. This is green wood, the kind that a wheelwright bends over a fire into a rim; a related word, 煣, with fire added, means exactly that work. So 柔 is not the softness of a cushion, which only gives way. It is the softness of a young branch: it gives way, keeps its fibre, and returns. English “soft” loses the return. “Supple” and “pliant” keep it and lose the tenderness. The word became the name of a whole method. Passage 36 says that the soft and weak overcome the hard and strong, and two thousand years later Japanese teachers named their arts with this character: [[柔術 and 柔道|rou-dao]].",
+      "src": [
+        "Shuowen Jiezi, 木部: 柔，木曲直也。从木矛聲。",
+        "Shuowen Jiezi, 火部: 煣，屈申木也。",
+        "Laozi 36"
+      ]
+    },
+    "ruo": {
+      "kind": "gap",
+      "title": "Weak has to stay weak",
+      "body": "弱 is “weak”. Modern versions often change it to “flexible”, “yielding”, or “receptive”, words that a reader can accept as praise. The Chinese word is not polite in that way. The Shuowen glosses it 橈, “bent”, like a thing that cannot hold itself up, and sees in the graph the fine hair of an animal. It is the word for a small state, a sick man, a child. The Laozi chose it on purpose and repeats it: 弱者道之用, “weakness is how Dao works” (40); nothing in the world is softer and weaker than water (78). The teaching is harder than “be flexible”. It says that the quality that we fear and hide is on the side of life. Notice your own first response to the word “weak”. Is that response soft, or hard?",
+      "src": [
+        "Shuowen Jiezi, 彡部: 弱，橈也。上象橈曲，彡象毛氂橈弱也。",
+        "Laozi 40, 78"
+      ]
+    },
+    "si": {
+      "kind": "etymology",
+      "title": "死: to run dry",
+      "body": "The Shuowen defines death with a water word: 死，澌也，人所離也, “死 is 澌; it is that from which the person departs”. 澌 is water that runs out to the last drop. The graph, the Shuowen says, joins 歺, broken bone, and 人, a person. So death, in the dictionary’s picture, is a drying and a leaving: the moisture goes, and the person steps away from the bones. This fits the passage closely. Its second sentence ends with 枯槁, dried and withered, and its proof is the difference between wet wood and dry. Life here is not a spirit that is added to matter. It is the wetness and bend of the matter itself. The word for “to live” in passage 73, 活, is the sound of running water by the same dictionary’s account.",
+      "src": [
+        "Shuowen Jiezi, 死部: 死，澌也，人所離也。从歺从人。",
+        "Shuowen Jiezi, 水部: 澌，水索也。 活，水流聲。"
+      ]
+    },
+    "jian": {
+      "kind": "gap",
+      "title": "堅強: now a compliment",
+      "body": "堅 is hard like packed earth; the graph has 土, earth, at its foot, and the Shuowen defines it by 剛, the hardness of metal. 強 is strong. Together, 堅強, they are in this passage the mark of a corpse. A modern Chinese reader meets a shock here that an English reader cannot feel. In today’s language 堅強 (jiānqiáng) is a warm word: “be strong”, said to a friend in grief or to a child who has fallen. It means resilient, brave. The Laozi’s phrase for the dead body has become the phrase for courage. The modern use is not wrong; languages move. But the old line still asks its question of the new word. When you tell someone to be 堅強, what do you ask them to stop feeling?",
+      "src": [
+        "Shuowen Jiezi, 臤部: 堅，剛也。从臤从土。"
+      ]
+    },
+    "qiang": {
+      "kind": "wordplay",
+      "title": "強, five times",
+      "body": "The passage has fifty-eight characters, and among its words of quality 強 is the one that returns most: 堅強, 堅強, 兵強, 木強, 強大. Each time it stands on the losing side. The book is not simple about this word. Elsewhere it gives 強 a good sense by turning it inward: 自勝者強, “one who overcomes the self is strong” (33), and 守柔曰強, “to keep to the soft is called strong” (52). It also warns that the violent and strong do not get their own death (42). So the Laozi has two strengths. One is the strength that shows, in a jaw, an army, a trunk. The other has no outward form and is found by keeping to the soft. Only the first is “the company of death”. English has one word for both, and so has the Chinese; the reader has to hear which is meant.",
+      "src": [
+        "Laozi 33, 42, 52"
+      ]
+    },
+    "cui": {
+      "kind": "etymology",
+      "title": "脆: soft and easy to snap",
+      "body": "Legge wrote “soft and brittle”, and the pair looks odd in English, where brittle things are hard. The Chinese word explains it. The Shuowen enters 脆 under its older form 脃 and defines it 小耎易斷也, “small, soft, and easily broken”. It has 月, flesh, on the left. This is the nature of a new shoot or a bean sprout: full of water, tender, and crisp. You can snap it with two fingers. The modern language keeps both sides, in 脆弱, fragile, and in the word for crisp food. So the line admits something that praise of softness usually leaves out. The living thing is easy to damage. Passage 64 says the same of affairs: 其脆易泮, “while a thing is tender it is easy to break up”. Life is on the side of what can be hurt.",
+      "src": [
+        "Shuowen Jiezi, 肉部: 脃，小耎易斷也。从肉，从絕省。",
+        "Laozi 64"
+      ]
+    },
+    "ku-gao": {
+      "kind": "wordplay",
+      "title": "枯槁: the other dry wood",
+      "body": "枯 and 槁 both have 木, a tree, on the left, and both mean dried-out wood; the Shuowen defines the one by the other. 枯 has 古, “old”, as its sound-part, and a learner can remember it as old wood. The pair sets a trap for readers of the other great Daoist book. In the Zhuangzi a master sits so still that his student asks: can the body really be made like 槁木, withered wood, and the heart like dead ashes? There the dry tree is praise: a mind in which the usual sap of want and fear has stopped. In the Laozi the dry tree is only dead. The two books do not disagree about practice. The Zhuangzi’s sitter is not rigid; he has let go so fully that nothing in him pushes back. From outside, deep ease and death can look alike. How do you tell them apart in a person?",
+      "src": [
+        "Shuowen Jiezi, 木部: 枯，槀也。从木古聲。",
+        "Zhuangzi, “Qi wu lun” (齊物論)"
+      ]
+    },
+    "gu-yue": {
+      "kind": "variant",
+      "title": "“So it is said”: a proverb inside",
+      "body": "Our text joins the conclusion with one word, 故, “so”. A modern collated edition of the Mawangdui silk texts has two: 故曰, “so it is said”. That small word 曰 changes the status of the next lines. They are a quotation. The author did not invent “the hard and strong are the company of death”; it was a saying, and the passage is built to lead up to it. The collated silk text also has a longer soft side: 柔弱微細，生之徒也, “the soft, weak, minute, and fine are the company of life”, and it repeats the four words in the last line. 微 and 細 are words for the very small. They widen the claim from the pliant to the slight: what is too small to notice is also on life’s side. The received text dropped them, perhaps to make the two halves match. The collated text also has two more characters in the first line, 亓死也恆仞堅強; editors read them as a word for a body stretched stiff.",
+      "src": [
+        "Mawangdui Laozi (modern collated edition)"
+      ]
+    },
+    "tu": {
+      "kind": "gap",
+      "title": "徒: those who walk behind",
+      "body": "徒 first meant to go on foot. From that came foot soldiers, as against the men in chariots; then the followers of a lord or a teacher; then “people of a kind”. Confucius uses it for his own students, and for “the kind of people one can live among”. So 死之徒 is “those who go on foot behind death”: its followers, its troop. Legge’s “concomitants” turns a crowd into an abstract noun. The phrase is from passage 50, which counts heads: 生之徒十有三，死之徒十有三, “the company of life, three in ten; the company of death, three in ten”. There the two companies are sets of people. Here they are qualities, and the picture still holds: hardness walks in death’s train. With a military word in the middle of the passage, the next line about armies does not come from nowhere.",
+      "src": [
+        "Laozi 50",
+        "Analects 11.17, 18.6"
+      ]
+    },
+    "bing-qiang": {
+      "kind": "wangbi",
+      "title": "Wang Bi: what all things hate",
+      "body": "Why does a strong army not win? One could give a tactical answer: it grows proud, slow, and predictable. Wang Bi gives a different one: 强兵以暴於天下者，物之所惡也，故必不得勝。 “One who uses a strong army to do violence in the world is the thing that all others hate. So such a one will surely not get the victory.” His reason is the reaction of everything else. Strength that shows itself gathers enemies, as [[the house of Zhi|zhi-bo]] learned. The phrase 物之所惡 echoes the question of passage 73, where heaven has things that it hates and no one knows the reason. Here a reason is given. Note also that the Chinese says 不勝, “does not win”, and Wang Bi says 不得勝, “does not get to win”. He does not say that the army loses each battle. It fails to get what a victory is for.",
+      "src": [
+        "Wang Bi commentary on Laozi 76",
+        "Laozi 73"
+      ]
+    },
+    "zhi-bo": {
+      "kind": "geopolitics",
+      "title": "The strongest house in Jin",
+      "body": "The Warring States period is often dated from one lesson in strength. In the fifth century BCE the great state of Jin was run by a few noble houses. The strongest by far was the house of Zhi, under Zhi Bo. He demanded land from the others. Han and Wei gave way. Zhao refused, and Zhi Bo led all three armies against the Zhao city of Jinyang and turned a river into it. The city was near its end when a Zhao envoy went by night to Han and Wei and said: when we are gone, you are next. They turned the water on Zhi Bo’s camp. In 453 BCE his house was destroyed and his skull, the histories say, was lacquered as a cup. Han, Wei, and Zhao divided Jin. Readers of this passage in that age knew the story as we know our own wars.",
+      "src": [
+        "Zhanguoce, “Zhao ce” 1",
+        "Shiji 43, “Zhao shijia”"
+      ]
+    },
+    "mu-qiang": {
+      "kind": "variant",
+      "title": "木強則兵: one line, four endings",
+      "body": "The last character of this line differs from text to text. Our pinned text has 兵: weapon, soldier. As a verb it gives “a strong tree is taken with the blade”; the Shuowen’s own picture of 兵 is two hands that hold an axe, so our “meets the axe” stays close to the graph. Wang Bi’s note fits it: 物所加也, “it is what things are laid on”. The Heshang Gong text has 共; Legge followed it, read it as 拱, to circle with the arms, and wrote of a tree that fills the outstretched arms and invites the feller. A modern collated edition of the Mawangdui silk texts prints 木強則恆; the two manuscripts are reported to differ here, and the reading is disputed. And when the Liezi and the Huainanzi quote the saying, they give 木強則折, “a strong tree breaks”: the stiff trunk in a storm. Blade, embrace, or wind. The tree’s end is the one fixed point.",
+      "src": [
+        "Wang Bi commentary on Laozi 76",
+        "Heshang Gong commentary on Laozi 76",
+        "Liezi, “Huangdi”; Huainanzi, “Yuan dao”",
+        "Shuowen Jiezi, 𠬞部: 兵，械也。从廾持斤，并力之皃。"
+      ]
+    },
+    "straight-tree": {
+      "kind": "history",
+      "title": "The straight tree is cut first",
+      "body": "The tree that suffers for its strength became a theme of the Zhuangzi. A proverb there says 直木先伐，甘井先竭, “the straight tree is the first to be felled; the sweet well is the first to be drained”. In its stories a carpenter walks past a huge oak without a look, because its wood is useless: boats made of it sink, coffins rot, doors sweat sap. The oak comes to him in a dream and says that uselessness is what let it grow so large. The Laozi’s line is shorter and less playful. It does not recommend that you be useless. It states a fact of the timber trade: the trunk that is hard, thick, and straight is the one that the axe is for. What in you is good timber, and who has noticed?",
+      "src": [
+        "Zhuangzi, “Shan mu” (山木)",
+        "Zhuangzi, “Ren jian shi” (人間世)"
+      ]
+    },
+    "chu-xia": {
+      "kind": "wangbi",
+      "title": "Wang Bi: it is a tree",
+      "body": "強大處下，柔弱處上: the strong and great are placed below; the soft and weak are placed above. Many readers hear a promise that the ranks of society will be reversed, and English readers hear the verse about the meek who inherit the earth. Wang Bi reads no such promise. His two notes are among the shortest in his commentary. On “below”: 木之本也, “this is the root and trunk of the tree”. On “above”: 枝條是也, “this is the branches and twigs”. The line still describes the tree of the line before. The thick, hard part is at the bottom. The part that moves in the wind, puts out leaves, and takes the light is at the top. It is a description of how a living thing is arranged. Whether it is also a statement about rank, the reader must decide. In this book, the low place is usually the better one (8, 66).",
+      "src": [
+        "Wang Bi commentary on Laozi 76"
+      ]
+    },
+    "rou-dao": {
+      "kind": "history",
+      "title": "The arts named “soft”",
+      "body": "The thought of this passage became a way to train the body. In Japan, schools of unarmed fighting took the name 柔術 (jūjutsu), “the technique of 柔”, and in 1882 Kano Jigoro named his reform of them 柔道 (jūdō), “the way of 柔”. The character is the 柔 of our first line. In China the writings on taijiquan, set down in the nineteenth century, are full of the passage’s terms; one of them says 極柔軟，然後極堅剛, “be soft to the limit, and after that hard to the limit”. That sentence goes a step that the Laozi does not go. It makes softness the road to a better hardness. The passage itself promises no such return. It says only where life is. Does softness need to be justified by the strength that it produces?",
+      "src": [
+        "Shisan shi xing gong xin jie (十三勢行功心解), taijiquan classic"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “Man”, and a tree in brackets",
+      "body": "Legge begins “Man at his birth is supple and weak; at his death, firm and strong”. “Supple” and “firm” are kinder than the Chinese: 柔 and 堅 can bear them, but they hide the rhyme of ideas with the tree that follows. “Man” and “his” are English; 人 is a person of either sex. His tree line is the most interesting. He writes that a strong tree “will fill the out-stretched arms, (and thereby invites the feller.)” The brackets hold his own explanation. He was translating [[a text with 共|mu-qiang]], and the Chinese gave him only “a strong tree, then: arms around it”; the feller is his. It is a good guess, and it agrees in the end with the 兵 of our text. His “concomitants of death” for [[死之徒|tu]] is the Latin of a lecture hall. The Chinese has people on foot.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "touch": {
+      "kind": "practice",
+      "title": "The proof is in the hand",
+      "body": "The passage argues from touch, so test it by touch. Press the pad of your thumb into the muscle of your forearm. It gives, and when you let go it returns: that is 柔. Bend a green twig and a dry one. Then find the places where you are, at this moment, 堅強 without need. The usual ones are the jaw, the tongue against the palate, the shoulders, the hands, the belly. In each, something is braced against a blow that has not come. Let one of them go soft and see what feeling was held under it. Often it is a small fear. The passage does not ask you to be limp. A living branch is not limp. It asks on which side of the line each part of you now stands."
+    }
+  },
+  "lenses": {
+    "ground": "The passage is a proof from the hand, in four steps. Step one: touch a person. [[Alive|sheng]], the body is [[soft|rou]] and [[weak|ruo]]; [[dead|si]], it is hard and stiff. Step two: touch a plant. Alive, it is soft and [[tender|cui]]; dead, it is [[dry wood|ku-gao]]. Step three, the rule, perhaps [[an old saying|gu-yue]]: hardness belongs to [[death’s company|tu]], softness to life’s. Step four applies the rule to the two things that the age admired most, a strong army and a tall tree: the first [[does not win|bing-qiang]], and the second [[is cut down|mu-qiang]]. The close turns the tree into a diagram: [[thick trunk below, soft twigs above|chu-xia]]. The key word [[強|qiang]] comes five times. The evidence is all physical: skin, a shoot, a dry stick, an axe. No abstraction is needed, and the text uses none.",
+    "inner": "Apply the test to the mind. A living view can be bent and comes back; it can take a question. A dead view is hard: it cannot be touched without a crack, and so it has to be defended. Most of us carry some of each. The hard ones feel like our strength, and they are often the positions we are most proud of. The passage suggests that they are the parts that have already stopped. This is uncomfortable, and the text does not soften it: [[弱|ruo]] is “weak”, the word that no one wants. To let a fixed opinion become tender again is to feel, for a while, without defence. That feeling is the [[brittle softness|cui]] of a new shoot. The passage counts it as the sign of life. Where are you certain in a way that cannot bend?",
+    "leading": "The fourth step speaks to those who build strong things: 兵強則不勝, a strong army does not win. Wang Bi’s reason is that [[everything else comes to hate it|bing-qiang]]; the fall of [[the strongest house in Jin|zhi-bo]] was the textbook case. An organisation is strong in this fatal sense when it cannot bend: its rules have no exceptions, its plans admit no doubt, its leader is never wrong. Such a group wins for a while and then meets the one situation that its strength does not fit. The last line gives a design. Put what is strong and large [[underneath|chu-xia]], as support: the trunk, the budget, the firm commitments. Put what is soft at the top and the edge, where the group meets the weather: the people who listen and adjust. Most organisations do the reverse. They put the hardest person at the front.",
+    "body": "This is the passage that the soft martial arts took as their own, and [[柔道|rou-dao]] carries its first adjective in its name. The body lesson is exact. A stiff arm gives the partner a handle: the force goes straight through it to your centre. A soft arm gives nothing to push on, and it can still feel. Softness here is the state in which you get the most information, because a tense muscle is numb. Age is partly a slow rehearsal of the corpse: joints lose range, the breath grows shallow, the face sets. Practice works against this by wetting and bending, never by forcing. [[Test it with your hand.|touch]] The infant of passage 55 is the model: bones weak, sinews soft, and a grip that does not let go.",
+    "nature": "Walk in a wood after a storm. The trunks that lie on the ground are mostly the big, rigid ones; some texts of this passage say outright that [[the strong tree breaks|mu-qiang]]. The grass under them is flat and will stand again by evening. The woodcutter makes the same choice as the wind: [[the straight tree is cut first|straight-tree]]. A living tree keeps its soft parts where the growth is: the tips of twigs and roots, and a thin wet layer under the bark. The heartwood that gives the trunk its strength is dead cells. So the tree itself has the arrangement of the last line: [[the strong and great below|chu-xia]] and within, the soft and weak above and outside. Water is the test in each case. Green wood is half water, and the Shuowen’s word for death is [[to run dry|si]]. Two passages later the book makes water its direct subject.",
+    "practice": "Twice today, do [[the hand test|touch]]. Once on your own body: find one place that is hard without reason and let it go soft for three breaths. Once on your thinking: find one opinion that you hold stiffly and say aloud the best point on the other side, as if you meant it. Notice the moment of feeling undefended; it is short. Then look at one strong thing that you admire, a tree, a building, an institution, and ask where its softness is and whether it has kept any. If you want a companion text, read [[Legge’s version|legge]] and mark each place where he chose a gentler English word than the Chinese gives. Ask whether his choices are themselves soft, or only polite."
+  },
+  "glyph": "弱",
+  "plates": [
+    {
+      "c": "弱",
+      "title": "Two bows that bend",
+      "lesson": "The character is one shape written twice. Each half has 弓 above, which today is the graph for a bow, and two short strokes below. The Shuowen explains it so: 上象橈曲，彡象毛氂橈弱也, “the upper part pictures a thing bent and curved; the lower strokes picture fine hair, bent and weak”. And why two? 弱物并，故从二, “weak things go side by side, so it is doubled”. That last sentence is a small piece of observation: the weak are found together, like reeds. Modern scholars discuss the early forms and do not agree; some see two bows with loose strings or ornaments. The bow reading is useful for a learner even if it is not certain, because the bow is the origin of the opposite word. The Shuowen’s proper graph for “strong” is 彊, defined as 弓有力也, “a bow that has force”. So in the old script both strong and weak are said with a bow: one that is drawn tight, one that curves and gives. The next passage opens with a bow that is being strung. Look also at the double form itself. Chinese often doubles a graph for “many”: 林, a grove, from two 木. Here the doubling means something else: what is weak does not stand alone. The Laozi says [[weakness is how Dao works|ruo]]. The character adds: and it works in company.",
+      "brush": "Ten strokes: five, and the same five again. The bow takes three. A short level stroke that turns down at a corner; a second level stroke; then one long line that goes down, turns right, turns down again, and hooks to the left. That third stroke has two corners and a hook, and the brush should pause at each. Then two small strokes under the hook: a dot, and a stroke that rises to the right. Now write the whole thing again beside it. The skill is in making twins that are not identical. A good hand writes the left one narrower and a little higher, the right one broader with a stronger hook, so that the pair leans together. In cursive script each bow becomes one turning line, like a ribbon let fall."
+    },
+    {
+      "c": "柔",
+      "title": "A spear on a tree",
+      "lesson": "Below is 木, a tree. The Shuowen says of it 冒地而生, “it pushes up through the ground and grows”, and that the lower part of the graph shows roots. Above is 矛, a spear; the Shuowen describes a long one, set upright on a war chariot. So the character for “soft” is a weapon on top of a tree. The spear is there for its sound: the two words belong to one old rhyme group, the one that the tradition calls 幽, and you can hear the same sound-part in 茅 (máo), thatch grass. That is the dictionary’s whole account: 从木矛聲. The meaning comes from the tree. The definition is 木曲直也, “wood that can be bent and straightened”. A second-century reader thought at once of the craftsman who steams and bends green wood; add the fire sign and you get 煣, that very work, and with the hand sign 揉, to rub and knead. With the foot sign it is 蹂, to trample. The family all work a thing until it gives. There is a quiet irony in the graph for a reader of this passage. The hardest object of the age, the spear point, sits in the character and has no say in the meaning. The living wood under it decides. That is very nearly what the passage claims of [[armies and trees|bing-qiang]].",
+      "brush": "Nine strokes, five for the spear and four for the tree. The spear begins with a short level stroke that turns and falls left, then a dot under it. The third stroke is a longer level line that ends in a small downward hook. The fourth comes down through it and hooks left at the foot: the shaft. The fifth is a slash to the lower left. Keep these five compact; they are the upper third. Then the tree. A long level line, the widest in the character. An upright through its middle. Then the two great strokes that give the character its life: a sweep to the lower left and a press to the lower right. They must open like branches under weight, light at the start and full at the end. If these two are stiff, the character contradicts its meaning."
+    },
+    {
+      "c": "強",
+      "title": "The insect that means strong",
+      "lesson": "Look at the right side, at the bottom: 虫, the sign for insects, worms, and snakes. What is it doing in the word for “strong”? The Shuowen answers plainly. 強 is 蚚也, the name of an insect, commonly said to be a weevil that lives in grain: 从虫弘聲, “from 虫, with 弘 for the sound”. The word “strong” had its own graph, 彊, which the Shuowen defines as 弓有力也, “a bow that has force”; its right side shows fields with boundary lines, and it also wrote the word for a border, now 疆. But 彊 took many strokes, and 強 had the same sound. Writers borrowed the insect, and in time the borrowed graph won. So each time this passage says “strong”, the brush writes a bow, 弓, and a bug. The bow on the left is real history: strength was first the pull of a bow. The upper right part, written 厶 here and 口 in the common variant 强, is what is left of 弘, which the Shuowen calls the sound of a bowstring. Read the passage with this in mind: 堅強, 兵強, 木強, 強大. The great word of the generals is written with a small soft creature that eats stored grain from inside. The scribes did not mean a joke. The Laozi would have [[enjoyed it|qiang]].",
+      "brush": "Eleven strokes. The bow on the left takes three, as in 弱: a level stroke with a corner, a second level stroke, and the long line with two corners and a hook. Make it tall and narrow. On the right, first the small upper part in two strokes: a line that falls left and turns back to the right, and a dot. Then the insect in six: the left side of its box; the top and right side with a corner; the base; an upright through the middle that runs below the box; a rising stroke to the right; and a final dot. That last dot sits at the lower right corner and steadies the whole. The left side is all bends and the right side is small pieces. The variant 强, with 口 on top, is the standard form in mainland China today."
+    }
+  ]
+}

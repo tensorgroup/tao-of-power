@@ -1,0 +1,86 @@
+{
+  "伏": {
+    "senses": ["to crouch, to lie face down", "to lie hidden, to wait in ambush", "to submit, to yield", "the hottest weeks of summer (三伏)"],
+    "shuowen": "司也。从人从犬。",
+    "shuowenEn": "To keep watch. From 人 (person) and 犬 (dog).",
+    "parts": [
+      { "c": "亻", "m": "a person" },
+      { "c": "犬", "m": "a dog" }
+    ],
+    "story": "A person with a dog, low to the ground and waiting. From that posture come the senses “to hide”, “to submit”, and “to ambush”. In passage 58 disaster 伏 inside good fortune: it is present now, flat and patient, and not a later stage. The line is the source of a common saying, 禍福相倚, “disaster and fortune lean on each other”.",
+    "gap": "“Lurks” makes it sinister and “hides” makes it passive. 伏 is a trained stillness with intent in it."
+  },
+  "福": {
+    "senses": ["blessing, good fortune", "the blessing that comes from the spirits", "happiness, well-being"],
+    "parts": [
+      { "c": "礻", "m": "altar; things of the spirits" },
+      { "c": "畐", "m": "commonly explained as a full jar; gives the sound" }
+    ],
+    "story": "A full vessel before the altar: the good that comes back from ancestors and Heaven to those who keep the rites. It hangs on doors at the New Year, often upside down, because “upside down” and “arrived” sound alike in modern Chinese. The Laozi uses the word with caution: fortune is where disaster crouches (58), and to rule a state without cleverness is the state’s 福 (65).",
+    "gap": "“Luck” is chance and “blessing” is churchly. 福 is concrete well-being, long life, sons, enough to eat, and it was understood as sent."
+  },
+  "禍": {
+    "senses": ["disaster, calamity", "harm sent by the spirits or by Heaven", "to bring ruin on"],
+    "parts": [
+      { "c": "礻", "m": "altar; things of the spirits" },
+      { "c": "咼", "m": "gives the sound" }
+    ],
+    "story": "The dark twin of 福, with the same altar sign: harm that comes down from above. The Laozi names its sources in human terms: no 禍 is greater than not to know what is enough (46), and none is greater than to take an enemy lightly (69). In passage 58 good fortune leans on it.",
+    "gap": "“Disaster” in English is a star gone wrong. 禍 is a response from the unseen, and so it invites the question of what one did."
+  },
+  "廉": {
+    "senses": ["the edge of a hall’s platform; a corner, an angle", "having clean edges: upright, incorrupt", "sparing, modest", "(modern) low-priced"],
+    "shuowen": "庂也。从广兼聲。",
+    "shuowenEn": "A side, an edge. From 广 (a building), with 兼 for the sound.",
+    "parts": [
+      { "c": "广", "m": "a building open at the front" },
+      { "c": "兼", "m": "to hold two together; gives the sound" }
+    ],
+    "story": "First the sharp border of the platform under a hall; then a person with such an edge, who takes nothing over the line. 廉 became the standard praise for an honest official. Passage 58 gives the craftsman’s warning: 廉而不劌, have the edge and do not wound with it. The same four characters are said of jade in the Record of Rites.",
+    "gap": "“Incorruptible” is only moral. 廉 keeps the picture of a corner that is exact and can hurt."
+  },
+  "悶": {
+    "senses": ["shut in, stifled, stuffy", "dull, low in spirits", "doubled (悶悶): muffled, unremarkable"],
+    "shuowen": "懣也。从心門聲。",
+    "shuowenEn": "Stifled, pent up. From 心 (heart), with 門 (gate) for the sound.",
+    "parts": [
+      { "c": "門", "m": "gate; gives the sound" },
+      { "c": "心", "m": "heart" }
+    ],
+    "story": "A heart behind a gate. The Laozi takes this unflattering word as a badge. In passage 20 the speaker says: the common people are sharp-eyed, I alone am 悶悶. In passage 58 the same doubled word describes the best government, under which the people are whole.",
+    "gap": "English has no praise-word for dullness. “Unobtrusive” is too polite; 悶悶 really does mean dull."
+  },
+  "察": {
+    "senses": ["to examine closely, to inspect", "to see clearly, to discern", "doubled (察察): sharp-eyed, prying"],
+    "shuowen": "覆也。从宀、祭。",
+    "shuowenEn": "To go over a thing. From 宀 (roof) and 祭 (sacrifice).",
+    "parts": [
+      { "c": "宀", "m": "roof" },
+      { "c": "祭", "m": "sacrifice: hand, meat, altar" }
+    ],
+    "story": "A close check under the temple roof. For most schools 察 is a virtue of rulers and judges. The Laozi uses it only doubled and only as a warning: the common people are 察察 (20), and where the rule is 察察 the people are chipped (58).",
+    "gap": "“Scrutiny” is neutral in English. Here it is what a watched person feels."
+  },
+  "缺": {
+    "senses": ["chipped, broken (of a vessel)", "a gap; lacking, incomplete", "doubled (缺缺): damaged; needy; shifty"],
+    "shuowen": "器破也。从缶，決省聲。",
+    "shuowenEn": "A vessel is broken. From 缶 (earthenware jar), with a short form of 決 for the sound.",
+    "parts": [
+      { "c": "缶", "m": "an earthenware jar" },
+      { "c": "夬", "m": "to split open; gives the sound" }
+    ],
+    "story": "A chip out of the rim of a jar. Passage 45 says that the greatest completeness seems 缺, and its use never wears out. Passage 58 says that under a sharp-eyed rule the people are 缺缺: something has been knocked out of each.",
+    "gap": "“Deficient” is a judgment. 缺 is a picture: you can see where the piece is gone."
+  },
+  "極": {
+    "senses": ["ridgepole", "the highest point, the farthest limit, the end", "utmost, extremely", "a pole (of the sky or earth)"],
+    "shuowen": "棟也。从木亟聲。",
+    "shuowenEn": "The ridgepole. From 木 (wood), with 亟 for the sound.",
+    "parts": [
+      { "c": "木", "m": "wood" },
+      { "c": "亟", "m": "urgent; gives the sound" }
+    ],
+    "story": "The top beam of a house, where the two slopes of the roof meet; then any utmost point. The Laozi asks who knows the 極 of disaster and fortune (58), and says that nobody knows the 極 of one who stores up 德 (59). Passage 28 speaks of a return to 無極, “that which has no ridge”, a term with a long later life in philosophy.",
+    "gap": "“Limit” and “end” are flat. 極 is the ridge-line where one side becomes the other."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "字": {
+    "senses": ["to bear and nurse young; to rear", "a style-name, the public name taken at adulthood; to give one", "a written character (a compound graph)"],
+    "shuowen": "乳也。从子在宀下，子亦聲。",
+    "shuowenEn": "To suckle, to bear young. From a child under a roof; 子 also gives the sound.",
+    "parts": [{"c": "宀", "m": "a roof, a house"}, {"c": "子", "m": "a child"}],
+    "story": "A child under a roof. The first sense is to bear and nurse young. Two great later senses grew from it. A written character is a 字 because, as Xu Shen says in the postface to the Shuowen, compound graphs are “born and nursed” from simple pictures and so multiply. And a person’s public name is a 字 because it is born from the given name (名) at the capping rite. In Laozi 25 the speaker does not know the 名 of the thing that came before heaven and earth and so gives it a 字: Dao.",
+    "gap": "English has “name” and “nickname”, and neither fits. A 字 is a formal second name that others use out of respect, because the first name is too intimate to say."
+  },
+  "大": {
+    "senses": ["big, great", "to be great; to make great", "the forced name of Dao (Laozi 25)"],
+    "shuowen": "天大，地大，人亦大。故大象人形。",
+    "shuowenEn": "Heaven is great, earth is great, the human too is great. So 大 pictures the human form.",
+    "parts": [{"c": "大", "m": "a person seen from the front, arms and legs spread"}],
+    "story": "大 is a front view of a person with the arms out: the adult who takes up room, used to write “big”. The Shuowen explains the graph with a line from Laozi 25, and in its version the fourth great thing is the human (人), where the received text and the Mawangdui silk texts say the king (王). The figure is the base of 天 (sky, heaven), 夫 (a grown man), and 立 (to stand). In Laozi 25, “great” is the name that the speaker is forced to give the Dao, and it at once turns into “passing on”.",
+    "gap": "English “great” leans toward praise. 大 is first about extent: what reaches everywhere and leaves nothing outside."
+  },
+  "法": {
+    "senses": ["a standard, a model, a method", "to take as a model (verb)", "penal law, statute", "later: the Buddhist dharma"],
+    "parts": [{"c": "氵", "m": "water (level)"}, {"c": "去", "m": "to go away; to remove"}],
+    "story": "The old full graph is 灋: water, the one-horned beast 廌 that butts the guilty, and 去, to remove. The Shuowen explains it as punishment that is level like water. The short form 法 dropped the beast. In the Warring States period 法 became the keyword of the Legalists: written statute enforced by reward and punishment. Laozi 25 uses it as a verb of learning: a person takes the earth as model, earth takes heaven, heaven takes Dao, and Dao takes what is so of itself. Chinese Buddhists later chose 法 to translate dharma.",
+    "gap": "“Law” implies a lawgiver and a penalty. 法 in Laozi 25 has neither; it is the pattern that a learner copies from a master."
+  },
+  "逝": {
+    "senses": ["to go away, to pass on", "to flow past (of water, of time)", "to die"],
+    "shuowen": "往也。从辵折聲。讀若誓。",
+    "shuowenEn": "To go away. From 辵 (walking); 折 gives the sound. Read like 誓.",
+    "parts": [{"c": "辶", "m": "walk, movement"}, {"c": "折", "m": "sound part; by itself: to break off"}],
+    "story": "逝 is departure that does not look back. Confucius used it beside a river for all that passes, day and night. It became a gentle word for death. In Laozi 25 it is the first thing that “great” turns into: what is great does not stay to be measured. The chain then runs on: gone, so far; far, so back again. The Mawangdui silk texts write the word with the sound-loan 筮.",
+    "gap": "“Flowing” keeps the river and loses the leaving. “Departing” keeps the leaving and loses the river."
+  },
+  "獨": {
+    "senses": ["alone, single, by oneself", "only", "unique, without a match"],
+    "shuowen": "犬相得而鬬也。从犬蜀聲。羊爲羣，犬爲獨也。",
+    "shuowenEn": "Dogs that meet and fight. From 犬 (dog); 蜀 gives the sound. Sheep make a flock; the dog makes “alone”.",
+    "parts": [{"c": "犭", "m": "a dog"}, {"c": "蜀", "m": "sound part"}],
+    "story": "The Shuowen explains aloneness by animals: sheep gather, dogs do not. So 獨 is the solitude of a creature that is whole by itself. The Laozi uses it for the thing before heaven and earth, which “stands alone and does not change” (25), and for the speaker of passage 20, who alone is quiet and dull while the crowd is bright. The Confucian 慎獨, “to be watchful when alone”, uses the same word.",
+    "gap": "English “alone” slides toward “lonely”. 獨 has no sadness in it; it means that nothing stands opposite as a pair."
+  },
+  "混": {
+    "senses": ["waters that flow as one; a full flow", "mixed, blended, not sorted", "muddy, turbid"],
+    "shuowen": "豐流也。从水昆聲。",
+    "shuowenEn": "An abundant flow. From 水 (water); 昆 gives the sound.",
+    "parts": [{"c": "氵", "m": "water"}, {"c": "昆", "m": "sound part; by itself: many together"}],
+    "story": "混 is water in which separate streams can no longer be told apart. The Laozi uses it three times for the state before distinctions: the three that “blend and are one” (14), the old masters who are “blurred, like muddy water” (15), and the thing “formed in a blur” before heaven and earth (25). Later cosmology made the word a noun, 混沌, the unsorted beginning.",
+    "gap": "“Chaos” suggests disorder that needs a ruler. 混 is wholeness before sorting; nothing in it is wrong."
+  },
+  "強": {
+    "senses": ["strong, stiff, forceful (qiáng)", "to force; forced, against the grain (qiǎng)", "stubborn (jiàng)"],
+    "shuowen": "蚚也。从虫弘聲。",
+    "shuowenEn": "A weevil. From 虫 (insect); 弘 gives the sound.",
+    "parts": [{"c": "弓", "m": "a bow (in the sound part 弘)"}, {"c": "虫", "m": "an insect"}],
+    "story": "The Shuowen lists 強 as the name of an insect and gives “strong” its own graph, 彊, “the bow has power”. Scribes borrowed the insect for the bow, and 強 became the normal way to write strength. In the Laozi the word is mostly a warning: the stiff and strong are companions of death (76), a thing forced to its prime grows old (30, 55). Read qiǎng, it is the adverb “by force”: the speaker is forced to describe the old masters (15) and forced to name the Dao “great” (25).",
+    "gap": "English “strong” is nearly always praise. 強 in this book is closer to “rigid” or “forcing”, and is usually a sign of something about to break."
+  }
+}

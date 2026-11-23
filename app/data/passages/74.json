@@ -1,0 +1,223 @@
+{
+  "n": 74,
+  "title": "The Great Carpenter’s Axe",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "民不畏死，奈何以死懼之？若使民常畏死，而為奇者，吾得執而殺之，孰敢？",
+      "gloss": {
+        "2": "to dread, to stand in awe of",
+        "5": "奈何: how? what can be done?",
+        "9": "to frighten (here: to make them afraid)",
+        "15": "always, as a constant state",
+        "21": "qí: odd, irregular, out of line",
+        "24": "I (a ruler’s voice)",
+        "25": "to get to, to be in a position to",
+        "26": "to seize, to arrest"
+      }
+    },
+    {
+      "text": "常有司殺者殺，夫代司殺者殺，是謂代大匠斲。",
+      "gloss": {
+        "2": "to have charge of, to hold the office of",
+        "3": "killing (part of the title: “the one in charge of killing”)",
+        "5": "kills (the verb of the sentence)",
+        "8": "to take the place of, to stand in for",
+        "18": "carpenter, master woodworker",
+        "19": "zhuó: to hew, to chop with an axe or adze"
+      }
+    },
+    {
+      "text": "夫代大匠斲者，希有不傷其手矣。",
+      "gloss": {
+        "7": "rare, seldom",
+        "10": "to wound, to cut",
+        "12": "the hand"
+      }
+    }
+  ],
+  "rendering": [
+    "The people [[do not fear death|wei]].",
+    "[[How, then,|naihe]] [[frighten|ju]] them with death?",
+    "",
+    "Suppose the people were made to [[fear death always|chang-wei]],",
+    "and those who do [[the irregular|qi]]:",
+    "[[I|wu]] could [[seize|zhi]] them and kill them.",
+    "[[Who would dare?|shu-gan]]",
+    "",
+    "There is always [[the one in charge of killing|si-sha]], who kills.",
+    "To kill [[in the place of|dai]] the one in charge of killing:",
+    "this is called hewing in the place of [[the great carpenter|da-jiang]].",
+    "[[Hew|zhuo]] in the place of the great carpenter,",
+    "and [[seldom is the hand not hurt|shang-shou]]."
+  ],
+  "notes": {
+    "wei": {
+      "kind": "etymology",
+      "title": "畏: a ghost’s head, a tiger’s claws",
+      "body": "The Shuowen explains 畏 as a monster. Its definition is 惡也, “to find hateful”, and then it reads the picture: 鬼頭而虎爪，可畏也, “the head of a ghost and the claws of a tiger: a thing to dread”. The top part, now written like 田, a field, is for the Shuowen the head of a spirit of the dead; the same head is the top of 鬼, ghost. So 畏 is not ordinary fear. It is the dread felt before a power that is not human: the dead, a great lord, heaven. Confucius used the word for the three things that a noble person holds in awe. Now read the first line again. The people do not 畏 death. The greatest of the powers has lost its ghost head for them. What has to happen to a people before that is true?",
+      "src": [
+        "Shuowen Jiezi, 甶部: 畏，惡也。从甶，虎省。鬼頭而虎爪，可畏也。",
+        "Analects 16.8"
+      ]
+    },
+    "ju": {
+      "kind": "wordplay",
+      "title": "Two fears, three deaths, five killings",
+      "body": "The first sentence uses two words for fear. The people do not 畏 death: [[畏|wei]] is dread and awe, a lasting attitude. The ruler wants to 懼 them: 懼 is fright, and here it means “to cause fright”. The Shuowen builds 懼 from 心, heart, and 瞿, and it defines 瞿 as 鷹隼之視也, “the stare of a hawk or falcon”: two eyes above a bird. So 懼 is the wide-eyed start of a creature that sees the hawk. A state can produce that start with an execution in the market. It cannot produce awe. Count also the heavy words. 死, death, comes three times in the first sixteen characters. 殺, to kill, comes five times in the passage. No other passage of the book says it so often. In 常有司殺者殺 two 殺 stand back to back: the first ends a title, and the second is the verb. The sound of the text is a drum.",
+      "src": [
+        "Shuowen Jiezi, 心部: 懼，恐也。从心瞿聲。",
+        "Shuowen Jiezi, 瞿部: 瞿，鷹隼之視也。从隹从䀠，䀠亦聲。"
+      ]
+    },
+    "naihe": {
+      "kind": "geopolitics",
+      "title": "The logic that ended Qin",
+      "body": "The first line was tested in history. The state of Qin united China in 221 BCE with the strictest laws of the age. In 209 BCE a group of conscripts was held up by rain on the way to a frontier post. Under Qin law the penalty for late arrival was death. Their leader, Chen Sheng, put the case to them, as the historian Sima Qian records it: 今亡亦死，舉大計亦死, “now, to run away is death, and to start a great plan is also death”. They rose. Within three years the dynasty was gone. A law that kills for everything leaves nothing to fear. The next passage gives the Laozi’s own account of why a people comes to this point: those above them take too much, and so they take death lightly (75).",
+      "src": [
+        "Shiji 48, “Chen She shijia”",
+        "Laozi 75"
+      ]
+    },
+    "chang-wei": {
+      "kind": "variant",
+      "title": "Three “ifs” in the collated silk text",
+      "body": "The received text has two steps: the people do not fear death; but suppose they always did. A modern collated edition of the Mawangdui silk texts has three, each with 恆, “constantly” (our text writes 常; see the note on the taboo in passage 1). First: 若民恆且不畏死，奈何以殺懼之也, “if the people constantly do not fear death, how frighten them with killing?” Second: 若民恆是畏死, if they constantly do fear it, then “I” may kill the offender, and who will dare? Third: 若民恆且必畏死，則恆有司殺者, “if the people constantly and surely fear death, then there is constantly one in charge of killing”. The third step is absent from our text. (Our 若使 may also be a plain “if”: “if the people always feared death”.) It ties the two halves of the passage together. Where death is truly feared, the office of killing is already filled, and the ruler does not need to take it.",
+      "src": [
+        "Mawangdui Laozi (modern collated edition)"
+      ]
+    },
+    "qi": {
+      "kind": "wangbi",
+      "title": "Wang Bi on 奇, the odd",
+      "body": "Wang Bi comments on only one word of the first sentence: 詭異亂群謂之奇也, “the devious and strange, that which disturbs the group, is called 奇”. The Shuowen gives the plain sense: 異也。一曰不耦, “different; another explanation: not paired”, an odd number. So 為奇者 are “those who do the odd thing”. It is not a word for a crime that a code lists. It is whatever does not match. That makes it a dangerous word in a ruler’s mouth, because the ruler decides what matches. The Laozi uses it elsewhere without blame: 以奇用兵, “use the irregular to use weapons” (57), and 正復為奇, “the regular turns again into the irregular” (58). The state prizes in a general the same quality that it kills in a subject.",
+      "src": [
+        "Wang Bi commentary on Laozi 74",
+        "Shuowen Jiezi, 可部: 奇，異也。一曰不耦。从大从可。",
+        "Laozi 57, 58"
+      ]
+    },
+    "wu": {
+      "kind": "gap",
+      "title": "Who says “I”?",
+      "body": "吾, “I”, speaks in a number of passages of this book. Only here does it have a sword. The speaker can seize and kill. So the voice is a ruler’s, or the voice of a teacher who speaks as a ruler for one sentence to try the thought. 得 is “to get to, to have the chance”; our “could” follows it. The sentence is a trial in thought. Suppose the method works: fear is constant, and I remove each person who steps out of line. The voice asks a question, and then it does not answer. It turns away to speak of the executioner and the carpenter. English needs a “them” after “seize” and after “kill”, twice; the Chinese has one 之 for both. Notice how quickly the “I” leaves the passage after this line. It does not return."
+    },
+    "zhi": {
+      "kind": "etymology",
+      "title": "執: the arrest inside “to hold”",
+      "body": "執 is the common classical word for “to hold, to grasp”. Here it has its first sense. The Shuowen defines it as 捕罪人也, “to arrest an offender”. Its left part is, for the Shuowen, a thing 所以驚人, “used to terrify people”; the early forms are commonly explained as a pair of shackles, with a kneeling person whose hands are in them. The same part stands in 報, which the Shuowen defines as passing sentence on an offender. So when the Laozi says elsewhere 執者失之, “the one who grasps loses it” (29, 64), an early reader could see the fetters in the verb. To grasp a thing is to put it under arrest. Here the ruler dreams of that grip on a whole people.",
+      "src": [
+        "Shuowen Jiezi, 㚔部: 執，捕罪人也。 㚔，所以驚人也。 報，當罪人也。",
+        "Laozi 29, 64"
+      ]
+    },
+    "shu-gan": {
+      "kind": "gap",
+      "title": "Dare to do what?",
+      "body": "孰敢 is two characters: “who dares?” The verb has no object. The usual reading supplies one from the line before: who would dare to do the irregular thing? Then the sentence is the ruler’s boast, and the rest of the passage answers it. A second reading takes the question another way: seize them and kill them, and who would dare to do that? Then the doubt is already inside the ruler’s sentence. The second reading has a witness in the passage before this one, which opened with the same verb: 勇於敢則殺, courage in daring ends in killing (73). There the one who dares is the one near the blade. Our rendering leaves the object out, as the Chinese does. Which question do you hear?",
+      "src": [
+        "Laozi 73"
+      ]
+    },
+    "si-sha": {
+      "kind": "gap",
+      "title": "Who is in charge of killing?",
+      "body": "司殺者 is “the one who has charge of killing”. 司 is an office word. Zhou and Warring States governments were full of such titles: 司馬, in charge of horses, the minister of war; 司寇, in charge of bandits, the minister of justice; 司空, in charge of works. So the phrase sounds like a post in a ministry. The text does not say who holds it. Three answers are old. It is heaven, whose [[wide net|death-group]] loses nothing. It is death itself, which comes to each person at the due time. Or it is the proper officer of the law, and the warning is to a ruler who kills by personal will, outside the process. [[Wang Bi gives a fourth answer.|wb-sisha]] English versions that write “the Executioner” or “One who presides” have already chosen. The Chinese gives a job title and leaves the desk empty.",
+      "src": [
+        "Zhouli (titles 司馬, 司寇, 司空)"
+      ]
+    },
+    "wb-sisha": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the executioner is everyone",
+      "body": "Wang Bi’s comment on the last lines does not mention heaven. He writes: 為逆，順者之所惡忿也；不仁者，人之所疾也。故曰，常有司殺也。 “One who acts against the order is the thing that those who go with the order hate and resent. One who is without humaneness is the thing that people detest. So the text says: there is always one in charge of killing.” For Wang Bi the standing executioner is the common feeling of the people. A person who does real harm is already surrounded: neighbours turn away, help stops, the group closes. The ruler does not need to add a blade to this, and a ruler who does so takes on a hatred that was not aimed at the ruler before. Does a group that you know punish in this way, without any officer?",
+      "src": [
+        "Wang Bi commentary on Laozi 74"
+      ]
+    },
+    "dai": {
+      "kind": "etymology",
+      "title": "代: to take another’s turn",
+      "body": "代 is written with 亻, a person, and 弋, which gives the sound. The Shuowen defines it in one word: 更也, “to change over”, as when one watchman relieves the next. From this come the later senses “a generation” and “a dynasty”: each takes the place of the one before. In this passage the word comes three times in the last two sentences, and it carries the charge. The ruler is not accused of cruelty. The ruler is accused of substitution: of standing at another’s post and doing another’s work. The Zhuangzi uses the same word for the same fault: even if the cook does not keep the kitchen in order, the priest does not step over the ritual vessels 而代之, “and take the cook’s place”. What work do you do that is in fact someone else’s turn?",
+      "src": [
+        "Shuowen Jiezi, 人部: 代，更也。从人弋聲。",
+        "Zhuangzi, “Xiaoyao you” (逍遙遊)"
+      ]
+    },
+    "da-jiang": {
+      "kind": "history",
+      "title": "The carpenter who did not hurt the nose",
+      "body": "匠 is a woodworker, and 大匠 is the master of the craft. Under the Han the title of the director of palace building works contained these two characters. The Zhuangzi tells of such a master, Carpenter Shi. A man of Ying had a speck of plaster on the tip of his nose, as thin as a fly’s wing, and asked the carpenter to cut it off. 匠石運斤成風, “Carpenter Shi whirled his axe until it made a wind”, and hewed. The plaster was gone and 鼻不傷, “the nose was not hurt”. The story uses the two key words of our last line: 斲, to hew, and 傷, to hurt. That is what the great carpenter’s stroke is like. It removes exactly what must go and touches nothing else. Now put the same axe in the hand of a person who has only watched.",
+      "src": [
+        "Zhuangzi, “Xu Wugui” (徐無鬼)"
+      ]
+    },
+    "zhuo": {
+      "kind": "etymology",
+      "title": "斲: the axe at work",
+      "body": "斲 (zhuó) is to hew: to shape timber with blows of an edged tool. The Shuowen defines it by another axe word, 斫, and files it under 斤. 斤 is the tool itself; the Shuowen says 斫木也。象形, “it chops wood; a picture”. It was an axe or an adze, with a heavy head on a bent handle, swung toward the worker’s own feet and hands. This is not carving with a knife at a bench. A beam is squared by a row of full blows, each a finger’s width from the last. The skill is in the stop. Later 斤 was borrowed for a unit of weight, the catty, and most readers now know only that sense. The tool is still inside 斧 (axe), 析 (to split wood), and 匠 (the carpenter).",
+      "src": [
+        "Shuowen Jiezi, 斤部: 斲，斫也。 斤，斫木也。象形。"
+      ]
+    },
+    "shang-shou": {
+      "kind": "geopolitics",
+      "title": "The lawmaker’s hand",
+      "body": "希有不傷其手 is a craftsman’s understatement: “seldom is there one who does not wound the hand”. The age gave examples. Shang Yang rebuilt the state of Qin in the fourth century BCE on rewards, registers, and harsh punishments, with whole groups of households liable for one member’s offence. When his patron died in 338 BCE he fled. An innkeeper refused him a bed, because Lord Shang’s own law punished anyone who lodged a traveller without papers. He was caught, and his body was torn apart by chariots. Li Si, the minister who helped the First Emperor apply the same method to all of China, was cut in two in the market in 208 BCE. The Laozi may be older or younger than Shang Yang; scholars do not agree on its date. The carpenter’s proverb did not need to wait for him.",
+      "src": [
+        "Shiji 68, “Shang jun liezhuan”",
+        "Shiji 87, “Li Si liezhuan”"
+      ]
+    },
+    "death-group": {
+      "kind": "history",
+      "title": "Four passages on fear and death",
+      "body": "Passages 72 to 75 stand together and speak to each other. 72 begins 民不畏威，則大威至: when the people do not dread authority, a greater dread arrives. 73 sets courage in daring against courage in not daring, and ends with heaven’s net, wide and with a loose mesh, that loses nothing. 74, this one, asks what use it is to threaten death, and warns against killing in another’s place. 75 gives the cause: the people starve and take death lightly because those above them consume too much. Read in a row, the four make one argument about the limits of fear as a tool of rule. They share words: 畏 in 72 and 74, 敢 and 殺 in 73 and 74, 死 in 74 and 75, 民 in three of the four. Read alone, each one sounds like a proverb. In sequence they sound like a case brought before a ruler.",
+      "src": [
+        "Laozi 72, 73, 75"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s capital O",
+      "body": "Legge writes: “There is always One who presides over the infliction death”. The capital letter is his. For a missionary of 1891 the reader could supply only one name for that One. The Chinese 司殺者 has no capital, no “One”, and no “He”; it is [[a job title|si-sha]]. Legge also turns 為奇者, “those who do the odd thing”, into “those who do wrong”, so that the ruler’s targets are plainly guilty. And he softens the ruler’s act with “put them to death”, the language of a court, where the Chinese has the bare 殺, kill. With these three changes the passage becomes a sermon: leave judgment to God. That reading is possible. But the text chose a workshop for its picture, and not a throne room.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "pause": {
+      "kind": "practice",
+      "title": "Whose axe is this?",
+      "body": "The next time you are about to punish, ask the carpenter’s question first. The punishment may be small: a cold reply, a public correction, the removal of a task from someone who failed at it. Before you act, ask three things. Is this my post, or do I stand in for someone or something else: the group, the rules, the plain result of the person’s own act? Has the result perhaps already arrived without me? And where is my hand in relation to the edge? You do not have to decide against acting. A carpenter does hew. The passage only says that the one who takes the tool from the master is seldom unhurt. Notice, a day later, where the cut went."
+    }
+  },
+  "lenses": {
+    "ground": "The passage moves from a market square to a workshop. It opens with a fact and a question: the people do not [[dread|wei]] death, so how can death [[frighten|ju]] them? Then a ruler’s voice tries the opposite case: suppose they always feared it, and [[I|wu]] seized and killed each person who did [[the odd thing|qi]]; who would dare? No answer follows. The text changes scene. Killing has its own officer, [[the one in charge of killing|si-sha]]. To kill in that officer’s place is to take the axe from [[the great carpenter|da-jiang]] and [[hew|zhuo]] in the master’s place. The last line is dry: seldom is the hand not hurt. The passage holds a ghost’s head with tiger claws, a hawk’s stare, shackles, an office title, a heavy axe, and one cut hand. It is the third of [[four passages|death-group]] on fear and death.",
+    "inner": "Each person has a small ruler inside who governs by threat. It says: if you fail, you are worthless; if you rest, you will fall behind. The method works for a time. Then a day comes when the threat has been used too often, and the inner people do not fear it. Nothing moves. The passage describes this exactly: 民不畏死，奈何以死懼之. Its second half offers a different trust. Results have their own officer. An act that goes against the grain of things meets its end without a second punishment from you. To add self-hatred to a mistake is to hew in the place of the great carpenter. The mistake is seldom corrected by it, and the hand is hurt. Can you leave a fault to its own result, and only watch?",
+    "leading": "A leader who governs by fear needs the fear to stay fresh. Each use spends some of it. The first line marks the point where it is all spent. In the text’s own world that point [[brought down a dynasty|naihe]]. The second half gives a more exact warning than “do not be harsh”. It names a fault of role: [[代|dai]], to act in another’s place. Many of the results that a leader wants to impose already have an agent: the response of colleagues, as [[Wang Bi|wb-sisha]] says, or the plain result of the work, or a fair process that exists for the purpose. When the leader takes that work over in person, the anger of the punished and the fear of the watchers attach to the leader. Shang Yang [[died under his own law|shang-shou]]. Ask before a hard act: [[whose axe is this?|pause]]",
+    "body": "Hold an axe once, if you can, or a heavy kitchen cleaver. The tool has its own line of fall. A trained hand lifts it and then mostly lets it go; the weight does the work, and the other hand stays outside the line. An untrained hand pushes the blade, corrects it in the air, and brings the free hand in to steady the wood. That is where the cut comes from. The Zhuangzi’s carpenter [[whirls the axe until it makes a wind|da-jiang]] and removes a speck from a nose. The mastery is a relaxed arm and an exact stop. The verb [[執|zhi]], to seize, is the opposite body state: the fist closed, the forearm hard. A closed fist cannot feel where the edge is. Notice your own grip the next time you use a knife.",
+    "nature": "In a forest nothing is executed and everything dies. Death has its seasons and its agents: frost, age, the hawk, the fungus that takes a tree which has finished. This is one old reading of [[the one in charge of killing|si-sha]]: the standing order by which each thing reaches its term. People who take this office over, with good intentions, have often cut their own hand. They kill the wolves, and the deer strip the hillsides. They poison the insects, and the birds go. The passage does not say that nothing should ever be cut. A carpenter fells trees. It says that the cut is a master’s work, and that the master is already at the bench. What in your garden, or your care, would you leave to the frost?",
+    "practice": "Today, catch one threat that you make. It may be to a child, a colleague, or yourself: “if this happens again, then…”. Do not judge it. Ask the first question of the passage: does the other person still fear this? If the threat has been made many times, the honest answer is often no. Then ask the second question: [[is this my axe?|pause]] Try, once, to name the natural result and step back from the role of the one who delivers it. Say what will follow from the act, and do not say what you will do to the person. Afterwards read [[Legge’s version|legge]], with its capital “One”, and compare it with the plain job title in the Chinese."
+  },
+  "glyph": "匠",
+  "plates": [
+    {
+      "c": "匠",
+      "title": "An axe in its box",
+      "lesson": "Two parts, and the Shuowen names both: 从匚从斤, “from 匚 and from 斤”. 匚 is a box seen from the side, open to the right; the Shuowen calls it 受物之器, “a vessel that receives things”. 斤 is the axe, and the Shuowen adds a line of pure workshop sense: 斤，所以作器也, “the axe is that with which vessels are made”. So 匠 is an axe in its box, and the definition is 木工也, a worker in wood. Now follow the axe through its family. The Shuowen explains 兵, weapon or soldier, as two hands that hold a 斤. It explains 析, to split, as 木 wood and 斤. For 所, now the common word for “place”, it gives 伐木聲也, “the sound of felling trees”, and quotes the Book of Odes; the word was borrowed for its sound. 新, new, is defined as 取木也, “to take wood”; the firewood sense is now written 薪, with grass on top, and the old graph was left with “new”: fresh-cut. 斧, the usual word for axe, sets 父, father, on top for the sound. Look how much of daily language was cut with this tool. [[The last line of the passage|shang-shou]] uses the verb that belongs to it, [[斲|zhuo]], which has the same 斤 on its right side. The carpenter keeps the axe in a box. Who taught you where to keep yours?",
+      "brush": "Six strokes, and the order is the lesson. Stroke one is the lid of the box, a level line. Then the brush leaves the box unfinished and writes the whole axe inside it: a short flat stroke that falls left, the blade; a longer one that falls left below it; a level line; an upright. Only then does stroke six close the box: down the left side, a firm turn at the corner, and along the bottom, a little past the lid above. This rule holds for all characters of this frame: the contents go in before the box is shut. Watch the turn in the last stroke. In regular script the brush lifts slightly, sets down again, and moves right with even weight. In seal script the frame was a smooth curve, like bent wood."
+    },
+    {
+      "c": "畏",
+      "title": "Ghost head, tiger claws",
+      "lesson": "Cover the lower half and you see 田, a field. That is an accident of later writing. The Shuowen calls this top part 甶 and defines it as 鬼頭也, “the head of a ghost”: the large, strange head of a spirit of the dead. You can find the same head, with one small stroke above it, at the top of 鬼, ghost; the Shuowen says of that word 人所歸爲鬼, “that to which a person returns is called 鬼”. Below the head, in 畏, the Shuowen sees what is left of 虎, tiger: 鬼頭而虎爪，可畏也, “a ghost’s head and a tiger’s claws: a thing to dread”. Modern scholars read the oldest forms a little differently, commonly as a ghost-headed figure that holds a rod or weapon. Both readings agree on the main point: 畏 is a picture of the thing feared, and the thing is not human. Compare 懼, the passage’s other word for fear, which shows [[the one who is afraid|ju]]: a heart, and the two wide eyes of a bird. And compare the field that is a real field: 男, a man, is 田 over 力, strength; the Shuowen says a man uses strength in the field. The same square shape is a ghost’s face in one character and a farm in the other. A reader has to learn, for each one, [[what stands behind the square|wei]].",
+      "brush": "Nine strokes. The head takes five: the left side down; the top and right side in one stroke with a corner; the inner level line; the inner upright; the base that shuts it. Make the head wide and not tall. Stroke six is a long level line under it, wider than the head, like shoulders. The last three strokes are the claws. Stroke seven goes straight down from the line and flicks up to the right at its foot. Stroke eight is a short slash that falls left from the right side. Stroke nine is the long pressing stroke to the lower right: the brush starts light, grows heavy, and lifts to a point. That last stroke carries the weight of the whole character. In clerical script it flares into a broad tail."
+    },
+    {
+      "c": "司",
+      "title": "A ruler in the mirror",
+      "lesson": "The Shuowen says something unusual about this character: 从反后, “it is 后 turned around”. Put the two side by side: 后 and 司. Each has a mouth, 口, and one level stroke, under a cover; in 后 the cover opens to the right, and in 司 it opens to the left. For the Shuowen 后 is the sovereign who 施令以告四方, “issues orders to inform the four quarters”: a figure with a mouth that gives commands. 司 is the mirror image, and its definition is 臣司事於外者, “a minister who manages affairs outside”, away from the court. So the lord faces one way and speaks; the officer faces the other way and carries the word out. Modern scholars think that in the oldest writing the two were often one graph written in either direction. The Shuowen’s reading is still a good way to remember them, and it shows how a Han scholar thought about office: an officer is a ruler reversed. The family is large. 詞, a word or phrase, has 言, speech, beside 司. 伺, to watch and wait on, adds a person. 飼, to feed animals, adds food. In each, someone attends to a charge. In this passage the charge is [[killing|si-sha]], and the text asks the ruler to respect the officer’s desk.",
+      "brush": "Five strokes. The first is the cover and it does most of the work: a level line to the right, a firm corner, a long fall with a slight lean inward, and a hook to the left at the foot. Give it height; the rest lives under it. Stroke two is a short level line, set high and not touching the right wall. Then the mouth, in three: the left side down; the top and right side with a corner; the base. Keep the mouth small and to the left, so that white space stays between it and the hook. That open space is the character’s balance. In running script the level line and the mouth often flow together in one turning movement, and the hook becomes a quick return of the wrist."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "n": 7,
+  "title": "The Body Put Behind",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "天長地久。天地所以能長且久者，以其不自生，",
+      "gloss": {
+        "1": "cháng: long (in reach and in time)",
+        "3": "lasting, for a long time",
+        "9": "able to, can",
+        "15": "because of, by means of",
+        "18": "self, of itself; for itself",
+        "19": "to live; to give life, to be born"
+      }
+    },
+    {
+      "text": "故能長生。是以聖人後其身而身先；外其身而身存。非以其無私邪，故能成其私。",
+      "gloss": {
+        "2": "cháng: long",
+        "3": "to live; life (長生: long life)",
+        "9": "behind; here a verb: to put behind (the Mawangdui silk texts are reported to write an old form of 退, to draw back, which some editions print as 芮)",
+        "11": "the body; one’s own person",
+        "14": "ahead, in front; first",
+        "16": "outside; here a verb: to put outside, to leave out of account",
+        "21": "to remain, to survive, to be kept",
+        "27": "private; what is one’s own",
+        "28": "yé: a question particle (elsewhere xié: slanted, wrong)",
+        "32": "to complete, to bring to fullness"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Heaven is long, earth is lasting|chang-jiu]].",
+    "What makes heaven and earth [[able|echo]] to be long and lasting?",
+    "They [[do not live for themselves|zisheng]].",
+    "So they are able to [[live long|changsheng]].",
+    "",
+    "For this reason the sage",
+    "puts [[the body|shen]] [[behind|hou-xian]], and the body is in front;",
+    "puts the body [[outside|wai]], and the body [[is kept|cun]].",
+    "Is it not because the sage is [[without the private|si]]?",
+    "So [[the private is brought to completion|cheng-si]]."
+  ],
+  "notes": {
+    "chang-jiu": {
+      "kind": "gap",
+      "title": "長 and 久: not “eternal”",
+      "body": "天長地久: four characters, two matched pairs. 長 is “long”, first of things in space and then of time; the Shuowen defines it as 久遠也, “lasting and far”. 久 is “for a long time”. Many versions write “Heaven is eternal, Earth everlasting”. “Eternal” is a word from Greek and Christian thought: outside time, with no beginning and no end. The Chinese words are modest. They say that the sky has gone on for a long time and the ground has held for a long time. They are words that a farmer could use of an old tree. Other passages even say that heaven and earth are not permanent: a storm does not last a morning (23). The phrase 天長地久 had a long life of its own in poems of love and loss. What lasts, in your experience, and what kind of thing is it?",
+      "src": [
+        "Shuowen Jiezi, 長部: 長，久遠也。",
+        "Laozi 23"
+      ]
+    },
+    "zisheng": {
+      "kind": "gap",
+      "title": "不自生: two readings",
+      "body": "不自生 is “not self-live”. 自 can mean “for oneself” or “by oneself”, and 生 can mean “to live” or “to give life”. So there are two readings. One: heaven and earth do not live for themselves. Rain and soil go to the ten thousand things; the sky keeps nothing. This is the usual reading, and ours. Two: heaven and earth do not give themselves life; they do not strive to add to their own being. On this reading the line looks ahead to passage 50, where people die early because they “feed life too thickly”. [[Wang Bi|wangbi]] takes the first reading and adds the cause: to live for oneself is to compete. Our “for themselves” adds a preposition that the Chinese lacks. Notice the logic of the stanza. The Chinese gives one reason for their long life, and it is a “not”."
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: things come home",
+      "body": "Wang Bi comments on heaven and earth: 自生則與物爭，不自生則物歸也。 “If they lived for themselves, they would contend with things. They do not live for themselves, and so things come home to them.” 歸 is the word for going back to where one belongs: a bride to her husband’s house, a traveller to the village, water to the sea. Wang Bi’s reason is practical. It is not a moral reason. A thing that takes for itself is one more competitor; a thing that does not is a place to return to. On the sage he writes: 無私者，無為於身也。 “To be without the private is to do no forcing on behalf of one’s own person.” He joins the 無為 of passage 2 to the body: the sage does not work at the self.",
+      "src": [
+        "Wang Bi commentary on Laozi 7"
+      ]
+    },
+    "changsheng": {
+      "kind": "history",
+      "title": "長生: what the phrase became",
+      "body": "長生, “long life”, is a simple phrase here. It became the name of the great project of religious Daoism: 長生不老, “long life and no old age”. From the Qin and Han on, masters of methods taught breathing, diet, sexual arts, and above all alchemy, and they read the Laozi as their scripture. Emperors paid for the search. The First Emperor sent ships to find immortals. Several Tang emperors died of elixirs made with mercury and lead. The irony is strong when the phrase is read in its place. This passage says that heaven and earth live long because they do not live for themselves. The elixir-takers wanted long life for themselves, with great effort. Passage 59 uses the fuller phrase 長生久視, “long life and lasting sight”, and ties it to deep roots. It does not tie it to a drug.",
+      "src": [
+        "Laozi 50, 59",
+        "Shiji 6, on the First Emperor"
+      ]
+    },
+    "echo": {
+      "kind": "wordplay",
+      "title": "A passage made of repeats",
+      "body": "Count the repeated words. 長 comes three times, 久 twice, 生 twice, 身 four times, 私 twice, and 能, “able”, three times. The whole passage has forty-nine characters, and it is built from a small set that turns round. The argument is made by the turns. 自生, “live for self”, becomes 長生, “live long”, with one character changed. 後其身 becomes 身先: the same 身 moves from the end of one phrase to the head of the next, and the body goes from behind to in front on the page. 無私 becomes 成其私. English style avoids repeated words and reaches for a synonym each time. That habit destroys this text. We keep “body” four times and “private” twice. There is one more detail: the Shuowen says that 能 was first the name of a strong animal like a bear, and passage 10 will ask 能 six times.",
+      "src": [
+        "Shuowen Jiezi, 能部: 能，熊屬。"
+      ]
+    },
+    "shen": {
+      "kind": "gap",
+      "title": "身: the body, the person",
+      "body": "身 is the body. The Shuowen says 象人之身, “it shows a person’s body”, and early forms are commonly explained as a figure in side view with a round belly. From “body” it came to mean one’s own person, one’s life, oneself. English versions usually write “self”: the sage “puts himself last”. That brings in a Western inner self, an “I” inside that owns a body. Classical Chinese does not make that cut at this place. The 身 is the living person, the one who can be fed, promoted, hurt, and killed. So 後其身 is concrete: to put one’s own skin behind. And 身存 is concrete: the body survives. We write “the body” throughout, and the same in passage 13, where the whole argument turns on this word. Where do you feel “self” when you say the word: in the head, in the chest, or in the whole frame?",
+      "src": [
+        "Shuowen Jiezi, 身部: 身，躳也。象人之身。"
+      ]
+    },
+    "hou-xian": {
+      "kind": "etymology",
+      "title": "後 and 先: two kinds of feet",
+      "body": "Both words are about walking. The Shuowen defines 先 as 前進也, “to go forward”, and builds it from a person and 之, “to go”; the top part is commonly explained as a foot. A foot above a person: one who has stepped ahead. 後 it defines as 遲也, “slow, late”; its parts are a road-step 彳, a thread 幺, and a trailing foot 夊, and it is commonly explained as a foot held back by a cord. In this line both are positions in a column of people: the rear and the front. An ancestor is a 先人, “one who went ahead”. Passage 66 says the same thing of rulers: to stand before the people, put your body behind them. The Mawangdui silk texts are reported to write an old form of 退, “to draw back”, for 後 here; some editions print the graph as 芮. That is a stronger act than “to put behind”. It is the last word of passage 9.",
+      "src": [
+        "Shuowen Jiezi, 先部: 先，前進也。",
+        "Shuowen Jiezi, 彳部: 後，遲也。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Laozi 66"
+      ]
+    },
+    "wai": {
+      "kind": "gap",
+      "title": "外其身: the body as an outside thing",
+      "body": "外 is “outside”, and here it is a verb: “to outside the body”. English has no such verb. It can mean to treat one’s own person as an outer thing, of no more concern than a stranger’s; [[Legge|legge]] has it well: “treats his person as if it were foreign to him”. It can also mean to leave the body out of the count when one decides what to do. The Zhuangzi uses the same verb for stages of practice: after three days a student could 外天下, put the world outside; after seven, put things outside; after nine, 外生, put life itself outside. So the phrase became a term of meditation. In this passage the result is the surprise: the body that is put outside is the body that remains. The third plate shows where the character 外 comes from, and it is not what you expect.",
+      "src": [
+        "Zhuangzi 6, “Da zongshi”"
+      ]
+    },
+    "cun": {
+      "kind": "geopolitics",
+      "title": "身存: to stay alive at court",
+      "body": "存 is “to survive”. Its usual partner is 亡, “to perish”, and the pair 存亡 was the urgent word of the age: states were being destroyed one after another, and their ministers with them. For a member of the 士 class who served a ruler, 身存 was not a figure of speech. Shang Yang made Qin strong and was torn apart by chariots in 338 BCE. Wu Qi reformed Chu and was shot full of arrows at his king’s funeral. Han Fei went to Qin and died in prison there. Each had put his body in front. Many sayings of the Laozi can be read as advice from those who watched such careers: do not stand in the first rank, and the body stays whole. The passage gives heaven and earth as the model. Its first readers also knew the names of the dead.",
+      "src": [
+        "Shiji 68 (Shang Yang), 65 (Wu Qi), 63 (Han Fei)"
+      ]
+    },
+    "si": {
+      "kind": "etymology",
+      "title": "私: my grain",
+      "body": "私 has 禾, a grain plant, on the left, and the Shuowen’s definition is a surprise: 禾也, “grain”. It adds that in the north the owner of the grain was called 私主人. The right side, 厶, has its own entry, with a quotation from Han Fei: 自營爲厶, “to draw a circle round oneself is 厶”. And under 公, “public”, the Shuowen quotes him again: 背厶爲公, “to turn one’s back on 厶 is 公”. So the private is a ring drawn round a share of the harvest. Mencius describes the old ideal of the fields in these terms: eight families each farmed a 私 plot and worked the lord’s 公 plot together. In the Warring States, 私 was a hard political word: private armies, private interest against the ruler. 無私 was praise for an official. See the first plate.",
+      "src": [
+        "Shuowen Jiezi, 禾部: 私，禾也。从禾厶聲。北道名禾主人曰私主人。",
+        "Shuowen Jiezi, 厶部: 厶，姦衺也。韓非曰：“蒼頡作字，自營爲厶。”",
+        "Shuowen Jiezi, 八部: 公，平分也。… 韓非曰：背厶爲公。",
+        "Mencius 3A3"
+      ]
+    },
+    "cheng-si": {
+      "kind": "wordplay",
+      "title": "無私 … 成其私",
+      "body": "非以其無私邪，故能成其私. The line is a question that expects “yes”: “Is it not because of the sage’s having no 私?” Then: “so the sage can complete the sage’s 私.” The same word ends both halves, once denied and once fulfilled. English versions often change the second one to “fulfilment” or “true self”, and so remove the scandal. The Chinese keeps the bare word. What is the 私 that is completed? The lines above have said it: the body in front, the body kept. It may also mean more: what is most a person’s own comes to fullness only when the person stops guarding it. 成 is the word for a thing that ripens, as in 功成, the work done. Our rendering drops the possessive 其 and does not say whose private it is. The text does not explain how this works. Should it?"
+    },
+    "trick": {
+      "kind": "geopolitics",
+      "title": "A paradox, or a trick?",
+      "body": "A reader can take the passage as a method: step back in order to get ahead; look selfless in order to gain. Chinese critics saw this early. Legalist writers used the Laozi as a handbook of rule by concealment; the Han Feizi has two chapters that explain it. Later Confucians, Zhu Xi among them, accused Laozi of cunning for lines like this one and like passage 36: to take, first give. The charge has a clear answer in the text. The model is heaven and earth, and they have no plan. A sky that sent rain “in order to” last longer is not what the first lines describe. And a person who puts the body behind as a tactic has not put it behind; the 私 is still in front, watching. The passage describes what happens. It cannot be used as a lever. Or can it?",
+      "src": [
+        "Han Feizi, “Jie Lao” and “Yu Lao”",
+        "Zhuzi yulei 125",
+        "Laozi 36"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge, careful here",
+      "body": "Legge is at his best in this passage. He does not write “eternal”. He writes “Heaven is long-enduring and earth continues long”, clumsy and correct. For 不自生 he gives both senses with a comma: they “do not live of, or for, themselves”: “of” for [[self-born|zisheng]], “for” for self-serving. For 外其身 he finds “as if it were foreign to him”. His frame shows in small ways. The sage is “he”, with “his own person”. And the last line becomes a matter of “personal and private ends” that are “realised”, the language of Victorian moral accounts: unselfishness pays. The Chinese says 成其私, and 成 is to ripen or complete. It is not a word for a payment. Still, a reader with no Chinese gets nearer to this passage with Legge than with many later versions.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Go through the door last",
+      "body": "Take the line in its most literal sense for one day. 後其身: put the body behind. At each door, let the others go through first. In a queue, do not look for the faster line. In a talk, let your point wait until the others have spoken. Do it with the body, and do not make a show of it or tell anyone. Notice what the body does when it is put behind: often a small protest, a tightness, a fear of being left out. That protest is the 私, the ring drawn round oneself. Then notice what else happens. Did you lose anything that mattered? Were you, at the end of the day, less present, or more?"
+    }
+  },
+  "lenses": {
+    "ground": "The passage has two parts joined by 是以, “for this reason”. The first part is about [[heaven and earth|chang-jiu]]. They are long and lasting, and the text asks why. The answer is one clause: they [[do not live for themselves|zisheng]]. So they [[live long|changsheng]]. The second part applies this to the sage in two matched lines. The sage puts [[the body|shen]] [[behind|hou-xian]], and the body is in front. The sage puts the body [[outside|wai]], and the body [[remains|cun]]. The close is a question with its answer built in: is it not by having [[nothing private|si]] that [[the private|cheng-si]] is completed? The passage uses [[very few words, many times|echo]]. Each key word comes back in a reversed position.",
+    "inner": "The strongest sense of “me” is a sense of the body as mine: this skin to protect, this place in the line to hold. The passage calls the guarding 私, a [[ring drawn round oneself|si]]. Contemplative practice often finds what the passage reports. When the guarding relaxes, the body is still here. It is more here: it breathes more easily, and it is felt more fully, because attention is no longer spent on defense. To [[outside the body|wai]] is not to despise it. It is to stop standing over it as an owner. Then “the private is completed” has a plain sense. What is most one’s own was never the fence. A caution belongs here too: this [[cannot be done as a tactic|trick]], because the one who uses the tactic is the fence.",
+    "leading": "People follow those who do not seem to need the front place. That is an old observation, and passage 66 states it of kings. A leader whose first concern is position turns each decision into a move in a private game, and others feel it at once. A leader who [[puts the body behind|hou-xian]] gives the team no rival at the top, and, as [[Wang Bi|wangbi]] says, things come home to such a person. But read [[the warning|trick]] before you use this. Humility as a technique is quickly seen through, and it is rightly resented. The first readers also heard [[a matter of survival|cun]]: the ministers who stood in front were the ones who died. The text’s only model is the sky and the ground, which give all day and keep no account.",
+    "body": "身 is [[the body|shen]], and the lines can be done as movement. In partner arts, the person who pushes the body forward to win gives the other a target and a handle. The one who keeps the body back, behind the hands and behind the moment, cannot be found, and arrives first. Fencers and boxers know it as distance. Taiji players know it as not leading with the chest. 外其身 has a body sense too: [[treat the body as outside|wai]], and do not fuss over it or tense it to protect it. A tense body is hurt more easily in a fall than a loose one. And the first stanza describes good breathing. The lungs do not keep the air for themselves, and for that reason there is always more.",
+    "nature": "The sky holds no rain back for its own use, and the ground does not eat its own harvest. Everything that heaven and earth have goes through them to other things. That is why they are still here: there is nothing in them to use up. A thing that [[lives for itself|zisheng]] is a store, and stores run out or are robbed. A thing that passes life on is a channel. In a forest, the oldest presences are of this kind: the soil, the watercourse, the fungus threads under the ground that feed all the roots. The showy individual lives a season. The passage’s word for the self-serving is [[私|si]], written with the grain plant: a share of the harvest fenced off. The fenced share is the part that spoils.",
+    "practice": "Try the [[door practice|practice]] for a day. Or work with the first stanza alone. Choose one thing that you have and tend to keep for yourself: knowledge, a contact, time, credit, a good tool. For one week let it pass through you to others, with no account kept. Do not expect [[a return|trick]]; that would be the old habit in a new form. At the end of the week, look at the thing itself. Is there less of it, or has it lasted better because it moved?"
+  },
+  "glyph": "私",
+  "plates": [
+    {
+      "c": "私",
+      "title": "A ring round the grain",
+      "lesson": "Left side first. 禾 is a grain plant, most likely millet, the staple of north China. The Shuowen builds it from 木, a plant, with an added stroke at the top that shows the hanging ear: 象其穗, “it pictures the ear of grain”. Look at the first stroke of the character: it lies nearly flat and droops to the left, a ripe head that bends the stalk. 禾 stands in many words of the harvest and of what the harvest pays for: 秋, autumn; 稅, tax; 租, rent; 和, harmony, which the Shuowen takes as a sound-compound; and 利, profit, which by its modern parts is a grain plant and a knife. The right side is 厶. It now looks like a small triangle that does not close. The Shuowen quotes Han Fei on it: 自營爲厶, “to circle round oneself is 厶”. The same source gives the opposite: 公, “public”, is 八 over 厶, and 八 means “to turn the back”: 背厶爲公. Put the two sides together. The Shuowen says flatly that 私 means grain, 禾也, and that 厶 is the sound. The picture that readers have always seen in it is still there: a ring drawn round one’s own share of the crop. English “private” comes from a Latin word for “set apart, deprived”. The Chinese word began in a field. [[The passage|si]] asks what happens to a person who does not draw the ring.",
+      "brush": "Seven strokes. The grain plant takes five. First the flat stroke at the top, written from right to left with a slight droop. Then a horizontal, and the vertical through it. Fourth, a stroke that falls to the left from the crossing. Fifth, a dot on the right; in the free-standing 禾 this is a long sweep, and here it is cut short to make room. Then 厶 in two strokes. The sixth starts high, falls to the lower left, and then turns back to the right along the bottom: one stroke with one sharp corner. Watch it. The brush must stop and gather at the corner and then set off again. The last stroke is a long dot at the right that leans in and does not quite close the triangle. So the ring that Han Fei described is left open by the brush. The left half is tall and upright; the right half sits a little lower."
+    },
+    {
+      "c": "久",
+      "title": "Held from behind",
+      "lesson": "Three strokes, and an odd story. The Shuowen explains 久 as a picture: 象人兩脛後有距也, “it shows a person’s two shins with something set against them from behind”. Its first words are 以後灸之: to apply heat from behind, with the word 灸, the burning of moxa on the skin. The Shuowen defines 灸 as 灼也, “to burn”, with fire, 火, as the meaning and 久 as the sound. So many scholars take 久 to be the first way of writing 灸: a person treated with burning herb at the back of the legs. The treatment is slow, and the herb must stay in place a long time. On this account the graph was borrowed for the word “a long time”, and fire was added below to keep the old sense. The Shuowen then quotes a line from the Rites of Zhou, in which a craftsman 久 a piece of wood against a wall, that is, props it and leaves it, to see how it bends. Both uses share one idea: a thing held in place and left. That is a good picture of what “lasting” means in this book. It is not eternity above time. It is staying put. 天長地久: the sky is long, the ground [[stays|chang-jiu]]. A modern cousin by sound is 玖, a dark jade, used as the formal numeral nine.",
+      "brush": "Three strokes, and each one is different. The first is short: it starts at the top and falls to the lower left. The second starts near the top of the first, goes a short way to the right, turns, and then makes a long sweep down to the left. Watch this stroke. It is the longest of the three; the brush presses at the turn and then thins as it travels, and ends in a fine point. The third is the 捺. It starts from the middle of the second stroke and runs down to the right, pressing as it goes, and lifts at the end. The two long strokes spread like legs, and the character stands on them. Simple characters are the hard ones. With three strokes there is nothing to cover a weak line, and the open space between the legs must feel calm. Its three strokes are among the eight that students learn from the character 永."
+    },
+    {
+      "c": "外",
+      "title": "A divination at dusk",
+      "lesson": "Left and right are both old pictures. On the left is 夕, evening. The Shuowen says 从月半見, “from the moon, half seen”: it is 月 with a stroke missing, the moon as it first shows at dusk. On the right is 卜, to divine. The Shuowen calls it a picture of the scorching of a tortoise shell, 象灸龜之形, and gives a second account: 象龜兆之從橫也, the crack lines that run down and across. Shang diviners read such cracks, and the graph keeps their shape: a long line and a short branch. The word is thought to imitate the sound of the shell as it cracked. Now the Shuowen’s account of 外. The definition is 遠也, “far”. The reason: 卜尚平旦，今夕卜，於事外矣. “Divination values the early morning. Now to divine in the evening is to be outside the matter.” The right time to ask the spirits was dawn. A crack made at night was off the record, beside the point: outside. Modern scholars doubt the explanation and often take one part as the sound; the Shuowen’s story is the one that readers knew for two thousand years. So “outside” in Chinese began as a matter of timing and ritual, and not as a place. The phrase [[外其身|wai]] gains from this. To “outside” the body is to treat it as not the matter in hand.",
+      "brush": "Five strokes. Evening takes three. First a short stroke that falls to the left. Second, a stroke that starts beside it, goes right a short way, turns, and sweeps down to the left, long and curved. Third, a dot inside the curve; it must touch nothing. Then divination, in two. Stroke four is the long vertical, the tallest line of the character: it starts above everything else and comes straight down. Watch where it stands: close to the left half, so that the two parts hold together. The last stroke is a dot that begins on the vertical, a little above its middle, and falls to the right. It is the branch of the crack. The left half leans and curves; the right half is one firm upright. Writers let the dot at the right reach out a little, and it balances the long sweep on the left."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "末": {
+    "senses": [
+      "the tip of a branch; a treetop",
+      "the end, the last part",
+      "the minor thing (against 本, the root)",
+      "fine powder, dust"
+    ],
+    "shuowen": "木上曰末。从木，一在其上。",
+    "shuowenEn": "The top of a tree is called 末. From 木 (tree), with one stroke above it.",
+    "parts": [
+      { "c": "木", "m": "tree" },
+      { "c": "一", "m": "a mark that points at the top" }
+    ],
+    "story": "末 is a tree with a mark at its top: the tip. Its partner is 本, the same tree with a mark at its foot: the root. The pair 本末, root and tip, became a common term for the main thing and the minor thing; “to give up the root and chase the tip” is an old Chinese rebuke. The Laozi uses 末 once, in passage 64, and turns the ranking over: the tree that fills the arms is born from 毫末, the tip of a fine hair. Do not confuse 末 with 未, “not yet”: in 末 the upper line is the long one.",
+    "gap": "English “end” has a sense of purpose or finish. 末 is only position: the outermost, smallest part. It can be the least important thing or, as in passage 64, the place where growth begins."
+  },
+  "兆": {
+    "senses": [
+      "the cracks on a heated turtle shell or bone, read in divination",
+      "omen, sign; to show a sign",
+      "the first trace of a thing to come",
+      "a very large number (a million; in old counts more)"
+    ],
+    "shuowen": "灼龜坼也。从卜；兆，象形。",
+    "shuowenEn": "The splits of a scorched turtle shell. From 卜 (to divine); 兆 is a picture. (The Shuowen enters the word under the fuller graph 𠧞.)",
+    "story": "Shang and Zhou diviners put a hot point to a prepared shell or bone and read the cracks that appeared. 卜 pictures one such crack with its branch; 兆 is the pattern to be read. From there the word came to mean any sign of what is to come. The Laozi uses it as a verb with 未, “not yet”: in passage 20 the speaker is still, 未兆, like an infant that has not yet smiled; in passage 64 a thing that is 未兆 is easy to plan for. The sense is earlier than “early”: no sign has appeared at all. As a part it gives the sound in 跳, 逃, and 桃.",
+    "gap": "“Omen” in English suggests a message from a god or from fate. 兆 is more physical: a crack, a first visible line. “Before it begins” loses the picture of the diviner and the shell."
+  },
+  "輔": {
+    "senses": [
+      "side pieces tied to a cart to strengthen it",
+      "the jaw, the cheek",
+      "to assist, to support from the side",
+      "a minister; an aide"
+    ],
+    "shuowen": "人頰車也。从車甫聲。",
+    "shuowenEn": "The cheek-frame (jaw) of a person. From 車 (cart), with 甫 for the sound.",
+    "parts": [
+      { "c": "車", "m": "cart" },
+      { "c": "甫", "m": "gives the sound" }
+    ],
+    "story": "The graph has a cart in it, and the Book of Songs uses the word for props that are fastened to a loaded cart. The Shuowen defines it as the jaw. A proverb in the Zuozhuan joins the two: 輔車相依, prop and cart, or cheek and jaw, depend on each other. From this came the sense “to assist”, and the title of the ministers who stood at a ruler’s side. In passage 64 it is the last verb of the sage: 輔萬物之自然, to assist the self-so of the ten thousand things. The helper takes load and does not steer.",
+    "gap": "“Help” and “assist” are weak in English and can hide control (“let me help you”). 輔 is structural: a part at the side that bears weight and has no power of direction."
+  },
+  "泮": {
+    "senses": [
+      "(of ice) to break up, to melt apart",
+      "to split, to come apart (loan for 判)",
+      "the half-moon pool of a lords’ school; the school itself"
+    ],
+    "shuowen": "諸矦鄉射之宮，西南爲水，東北爲牆。从水从半，半亦聲。",
+    "shuowenEn": "The hall of the lords for the district archery rite; water on the south-west side, a wall on the north-east. From 水 (water) and 半 (half); 半 also gives the sound.",
+    "parts": [
+      { "c": "氵", "m": "water" },
+      { "c": "半", "m": "half; also the sound" }
+    ],
+    "story": "The Shuowen knows 泮 as a building: the school and archery hall of a feudal lord, with a pool around half of it. The Book of Songs also uses the graph for a word of the same sound: river ice that breaks up in spring. Passage 64 has that second word: the brittle is easy to 泮. The Mawangdui silk texts write 判, “to split”, and both graphs hold 半, “half”. So the image may be thin ice, which a small force parts while it is thin.",
+    "gap": "English must choose “melt”, “break”, or “split”. The word covers the way ice goes: it weakens, cracks, and separates in one event."
+  },
+  "過": {
+    "senses": [
+      "to pass, to go by, to cross",
+      "to exceed, to go too far",
+      "a fault, an error",
+      "to visit"
+    ],
+    "shuowen": "度也。从辵咼聲。",
+    "shuowenEn": "To cross over, to pass. From 辵 (to walk), with 咼 for the sound.",
+    "parts": [
+      { "c": "辶", "m": "walk, movement" },
+      { "c": "咼", "m": "gives the sound" }
+    ],
+    "story": "過 is a word of walking: to pass a place. From “go past” came “go beyond the mark”, and from that the common word for a fault. In Chinese ethics an error is first an overshoot, and Confucius says that to go too far is as bad as not to reach. The Laozi plays on both senses in passage 64: the sage 復眾人之所過, goes back to what the many pass by, or makes good what the many overdo. In passage 35 the same graph is plain: music and food make the passing guest (過客) stop.",
+    "gap": "“Sin” and “fault” in English suggest a broken rule or a stain. 過 is spatial. The thing was there, and one went past it."
+  },
+  "臺": {
+    "senses": [
+      "a high platform of rammed earth; a terrace",
+      "a tower, a lookout",
+      "a stage, a stand"
+    ],
+    "shuowen": "觀，四方而高者。从至从之，从高省。與室屋同意。",
+    "shuowenEn": "A lookout, four-sided and high. From 至 (to arrive) and 之, with a reduced 高 (high). It is made on the same idea as 室 and 屋.",
+    "story": "A 臺 was built of earth carried in baskets and beaten hard between boards, layer on layer, and a hall or tower stood on top. Rulers of the Spring and Autumn and Warring States periods built them to see far and to be seen, and writers often treated a famous terrace as a sign of a ruler’s excess. The Laozi has the word twice. In passage 20 the crowd is merry as if it climbed a terrace in spring. In passage 64 a terrace of nine storeys rises from heaped earth: the tallest work of a state begins as one load.",
+    "gap": "“Tower” suggests stone and a narrow shape; “terrace” suggests a garden. A 臺 is a broad, solid mass of packed earth, and its making is mass labour."
+  },
+  "執": {
+    "senses": [
+      "to seize, to arrest",
+      "to grip, to hold in the hand",
+      "to hold to (a view, a rule)",
+      "to manage, to be in charge of"
+    ],
+    "shuowen": "捕罪人也。从丮从幸，幸亦聲。",
+    "shuowenEn": "To arrest a guilty person. From 丮 (to grasp) and 幸; 幸 also gives the sound.",
+    "story": "The first sense in the Shuowen is an arrest, and the early graph is commonly explained as a kneeling person with the hands in shackles. From “to seize a person” it widened to any firm grip: a tool, a weapon, an office, an opinion. The Laozi uses it both ways. In passages 29 and 64 it is a fault: 執者失之, who grips it loses it. In passage 35 it is good: hold (執) the great image and the world comes. The difference is in the thing held and in the hand. Later Buddhism chose this word for “attachment”.",
+    "gap": "“Hold” is too soft and “seize” too brief. 執 is a grip that does not let go, with the shadow of the shackle in it."
+  }
+}

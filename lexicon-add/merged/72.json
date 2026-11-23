@@ -1,0 +1,109 @@
+{
+  "威": {
+    "senses": [
+      "awe, dread; that which is feared",
+      "majesty, the power to overawe and punish",
+      "to overawe, to terrify",
+      "威姑: (Han law) the husband’s mother"
+    ],
+    "shuowen": "姑也。从女从戌。漢律曰：“婦告威姑。”",
+    "shuowenEn": "The husband’s mother. From 女 (woman) and 戌. The Han statutes say: “A wife reports to the 威姑.”",
+    "parts": [
+      { "c": "戌", "m": "at first a broad axe; a weapon" },
+      { "c": "女", "m": "woman" }
+    ],
+    "story": "A woman under a weapon. The Shuowen takes the first sense as the mother-in-law, before whom a bride stood in awe; modern scholars read the graph as fear and its cause. In political writing 威 is the ruler’s dread power, the partner of 德, favour, and the main tool of the Legalists. It is the same root as 畏, to fear, and the Mawangdui silk texts write both with one graph. The Laozi has the word only in passage 72: when the people do not fear 威, the great 威 arrives. The power lasts only as long as the fear does.",
+    "gap": "“Authority” sounds lawful and calm; “terror” sounds criminal. 威 is between them: the weight of a power that can hurt you, felt as awe."
+  },
+  "畏": {
+    "senses": [
+      "to fear, to dread",
+      "to hold in awe, to respect deeply",
+      "fearsome; a thing to be feared"
+    ],
+    "shuowen": "惡也。从甶，虎省。鬼頭而虎爪，可畏也。",
+    "shuowenEn": "To dread. From 甶 (a ghost’s head) and a reduced 虎 (tiger). A ghost’s head and a tiger’s claws: this is to be feared.",
+    "parts": [
+      { "c": "甶", "m": "a ghost’s head (written like 田)" }
+    ],
+    "story": "The Shuowen joins a ghost’s head to a tiger’s claws; the early graph is commonly explained as a great-headed figure with a stick. 畏 is fear of a power, with respect in it. In the Laozi the old masters were wary as if they feared their neighbours (15). The second rank of ruler is feared (17). What others fear cannot be left unfeared (20). On the great road the speaker fears only to stray (53). When the people do not fear what is fearsome, the great dread comes (72). When they do not fear death, death is no threat (74).",
+    "gap": "English splits “fear” (bad) from “awe” and “reverence” (good). 畏 is one feeling toward anything greater than oneself, a tiger, a ghost, a ruler, or heaven."
+  },
+  "厭": {
+    "senses": [
+      "(yā) to press down, to weigh on (later 壓)",
+      "(yàn) to be sated, to have had enough",
+      "to be sick of, to loathe, to reject",
+      "to satisfy"
+    ],
+    "shuowen": "笮也。从厂猒聲。一曰合也。",
+    "shuowenEn": "To press down. From 厂 (cliff), with 猒 for the sound. Another sense: to fit together.",
+    "parts": [
+      { "c": "厂", "m": "cliff, overhang" },
+      { "c": "猒", "m": "sated: sweet (甘) with dog meat (肰); also the sound" }
+    ],
+    "story": "The inner part, 猒, is a full stomach: the Shuowen says “to have eaten one’s fill”. Under a cliff it becomes pressure. The one graph wrote both “to press” and “to be sick of”, and the Laozi uses each. The rich are 厭 with drink and food (53). The world pushes the sage forward and does not tire (66). Passage 72 plays on both in one line: do not press on what the people live by; only because there is no pressing, there is no loathing. The Mawangdui silk texts write 猒 in all three places.",
+    "gap": "English has no word that is both a weight from above and a disgust from below. “Oppress” and “fed up” together come near."
+  },
+  "狎": {
+    "senses": [
+      "to be familiar with, to be at ease with",
+      "to treat with easy contempt, to take liberties",
+      "(as a loan for 狹) to make narrow, to cramp"
+    ],
+    "shuowen": "犬可習也。从犬甲聲。",
+    "shuowenEn": "A dog that can be made familiar. From 犬 (dog), with 甲 for the sound.",
+    "parts": [
+      { "c": "犭", "m": "dog" },
+      { "c": "甲", "m": "gives the sound" }
+    ],
+    "story": "The Shuowen starts from a tame dog: an animal with which one is at ease. Among people the word turns bad: familiarity that has lost respect. In passage 72 the received text says 無狎其所居, do not 狎 the place where they dwell. Read as written, the ruler is told not to treat the people’s homes with contempt. Most editors follow the Heshang Gong text and read 狹, narrow: do not cramp their dwellings. The Mawangdui silk texts have 閘, a gate that shuts. The three graphs are near in sound.",
+    "gap": "“Familiar” is warm in English. 狎 is the cold side of it: the ease of one who walks in without knocking."
+  },
+  "居": {
+    "senses": [
+      "to dwell, to live at; a dwelling",
+      "to stay in, to occupy (a place, a rank)",
+      "to sit, to squat (old sense)",
+      "to claim, to take credit for"
+    ],
+    "shuowen": "蹲也。从尸古者，居从古。",
+    "shuowenEn": "To squat. From 尸 (a body at rest), with 古.",
+    "parts": [
+      { "c": "尸", "m": "a body sitting or lying" },
+      { "c": "古", "m": "gives the sound" }
+    ],
+    "story": "The first sense is a posture: to sit low, to squat, and so to stay in a place. The Laozi uses 居 for where one settles and for what one claims. The sage dwells in the work of not-forcing (2), and when the work is done does not dwell in it, so it does not leave (2). In dwelling, the good is the ground (8). The great man dwells in the thick and not in the thin (38). Do not cramp the place where the people dwell (72). The people of the small state are at peace in their dwellings (80).",
+    "gap": "“Dwell” is poetic and “reside” is legal. 居 is plain sitting down in a place, and it also covers settling into a credit or a title."
+  },
+  "愛": {
+    "senses": [
+      "to care for, to hold dear",
+      "to be sparing of, to grudge",
+      "to love"
+    ],
+    "shuowen": "行皃。从夊㤅聲。",
+    "shuowenEn": "A manner of walking. From 夊 (a slow foot), with 㤅 for the sound.",
+    "parts": [
+      { "c": "心", "m": "heart (in the middle)" },
+      { "c": "夊", "m": "a foot that goes slowly (at the base)" }
+    ],
+    "story": "The Shuowen gives the graph 愛 to a word for walking and writes the word for love as 㤅; in use the two merged, and 愛 has a heart in its middle. In early texts the word is care that does not want to lose its object, and it often means “to be sparing of”. The Laozi uses it so. Can one care for the state and govern the people without cleverness? (10). One who cares for the body as for the world can be given the world (13). Great attachment costs dear (44). The sage cares for the self and does not set a high price on it (72).",
+    "gap": "English “love” is passion or devotion. 愛 is nearer to “to care about and not waste”, and it can be a fault when it clings."
+  },
+  "見": {
+    "senses": [
+      "(jiàn) to see, to meet with",
+      "(xiàn) to appear, to show, to make seen (later 現)",
+      "a view, an opinion"
+    ],
+    "shuowen": "視也。从-{儿}-从目。",
+    "shuowenEn": "To look. From 儿 (a person) and 目 (eye).",
+    "parts": [
+      { "c": "目", "m": "eye" },
+      { "c": "儿", "m": "a person’s legs" }
+    ],
+    "story": "An eye on legs: a person who sees. The same graph, read xiàn, is the reverse: to be seen, to show. The Laozi uses both. Look for it and it is not seen (14). Show plainness and hold the uncarved wood (19). One who does not show the self is bright; one who shows the self is not bright (22, 24). Without looking out of the window, see heaven’s way (47). The sage knows the self and does not show the self (72), and does not wish to show worth (77).",
+    "gap": "English keeps “see” and “show” apart. In 見 they are one act with two directions, so that display is a kind of looking at oneself."
+  }
+}

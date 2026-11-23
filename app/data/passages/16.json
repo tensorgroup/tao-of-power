@@ -1,0 +1,300 @@
+{
+  "n": 16,
+  "title": "Home to the Root",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "致虛極，守靜篤。",
+      "gloss": {
+        "0": "to bring to, to reach",
+        "1": "empty, open; first, a great mound or a deserted site",
+        "2": "the ridgepole of a roof; the utmost point",
+        "4": "to guard, to keep",
+        "5": "still, quiet",
+        "6": "dǔ: firm, weighty, in earnest"
+      }
+    },
+    {
+      "text": "萬物並作，吾以觀復。",
+      "gloss": {
+        "2": "side by side, all at once",
+        "3": "to rise, to stir, to start up",
+        "5": "I (the speaker appears)",
+        "8": "to come back, to return"
+      }
+    },
+    {
+      "text": "夫物芸芸，各復歸其根。歸根曰靜，是謂復命。復命曰常，",
+      "gloss": {
+        "2": "yún: doubled, teeming like thick growth",
+        "7": "to go home; of a bride, to go to her new house",
+        "9": "root",
+        "19": "what is commanded or given: a charge, a span of life",
+        "24": "constant, regular; the constant"
+      }
+    },
+    {
+      "text": "知常曰明。不知常，妄作凶。",
+      "gloss": {
+        "3": "bright; clear sight",
+        "9": "wàng: wild, with no ground",
+        "10": "to rise, to act (the same graph as in “rise side by side”)",
+        "11": "ill-omened: the diviner’s word for a bad outcome"
+      }
+    },
+    {
+      "text": "知常容，",
+      "gloss": {
+        "2": "to hold, to have room for"
+      }
+    },
+    {
+      "text": "容乃公，",
+      "gloss": {
+        "2": "common to all, even-handed; also: a duke"
+      }
+    },
+    {
+      "text": "公乃全，",
+      "gloss": {
+        "2": "whole, complete (a modern correction; the old editions read 王, king)"
+      }
+    },
+    {
+      "text": "全乃天，",
+      "gloss": {
+        "2": "heaven, the sky"
+      }
+    },
+    {
+      "text": "天乃道，",
+      "gloss": {}
+    },
+    {
+      "text": "道乃久，",
+      "gloss": {
+        "2": "lasting, long"
+      }
+    },
+    {
+      "text": "沒身不殆。",
+      "gloss": {
+        "0": "mò: to sink, to go under; 沒身: until the body is gone",
+        "3": "dài: danger"
+      }
+    }
+  ],
+  "rendering": [
+    "Reach [[emptiness|xu]]: the limit.",
+    "Keep [[stillness|jing]]: [[held firm|du]].",
+    "The ten thousand things [[rise side by side|zuo]];",
+    "I, by this, [[watch the return|guanfu]].",
+    "",
+    "Now things, [[thick and teeming|yunyun]],",
+    "each [[go home again to the root|guigen]].",
+    "Going home to the root is called stillness.",
+    "This is called [[reporting back on the charge|fuming]].",
+    "To report back on the charge is called [[the constant|chang]].",
+    "To know the constant is called [[bright|ming]].",
+    "Not to know the constant:",
+    "[[wild rising, ill-omened|wang]].",
+    "",
+    "Know the constant: [[room for all|rong]].",
+    "Room for all, then [[even-handed|gong]].",
+    "Even-handed, then [[whole|quan]].",
+    "Whole, then heaven.",
+    "Heaven, then Dao.",
+    "Dao, then lasting.",
+    "[[Until the body goes under|moshen]], no danger."
+  ],
+  "notes": {
+    "xu": {
+      "kind": "etymology",
+      "title": "虛: an empty hill",
+      "body": "The Shuowen’s entry for 虛 has nothing abstract in it. It says 大丘也, “a great mound”, and then gives a lesson on land: nine men make a well-field, four well-fields a town, four towns a 丘, and 丘謂之虛, “a hill-district is called a 虛”. The word was used for a wide, bare height, and for the site where a city used to be: the ruins of the Shang capital are still called 殷虛 (now written 殷墟). So the picture behind “emptiness” is open ground with wind over it, where things once stood and may stand again. It is not a vacuum, and not the “void” that Western thought fears. Passage 5 called the space between heaven and earth 虛 and compared it to a bellows: empty, and never used up. English “vacancy”, Legge’s word, sounds like a room to let.",
+      "src": [
+        "Shuowen Jiezi, 丘部: 虛，大丘也。崐崘丘謂之崐崘虛。古者九夫爲井，四井爲邑，四邑爲丘。丘謂之虛。从丘虍聲。"
+      ]
+    },
+    "jing": {
+      "kind": "gap",
+      "title": "靜 is stillness, not “harmony” and not “peace”",
+      "body": "靜 is the opposite of 動, movement. It is what muddy water does in the passage before this one: it stops, and so clears. Modern versions often soften the word to “peace”, “tranquillity”, “serenity”, or “harmony”, which are pleasant feelings. 靜 is not a feeling. It is a physical fact that you can check: is it moving or not? The Shuowen’s gloss is unexpected: 審也, “to examine closely”. The dictionary connects stillness with exact sight; a thing that keeps still can be looked at, and one who keeps still can look. The passage makes the same connection four lines later, when it calls knowledge of the constant [[bright|ming]]. 靜 was also a term of the meditation teachers of the age; see [[the school in Qi|neiye]]. It is the practice word of this passage. Keep it hard and plain.",
+      "src": [
+        "Shuowen Jiezi, 青部: 靜，審也。从青爭聲。"
+      ]
+    },
+    "du": {
+      "kind": "variant",
+      "title": "Six characters, and no agreement on the last",
+      "body": "致虛極，守靜篤 is two matched lines of three. 極 is the ridgepole of a house, and so the highest point. 篤 is “solid, in earnest”; the Shuowen’s picture is 馬行頓遟, “a horse that walks with heavy, slow steps”. The grammar is open: “reach the limit of emptiness”, or “reach emptiness, to the limit”. Wang Bi takes the second word of each line as the object: 言致虛物之極，篤守靜物之真正也, “this says: reach the limit of empty things; firmly keep the true rightness of still things”. The excavated texts differ. The Mawangdui silk texts are reported to end each line with 也, as statements: 至虛極也. Their last word is reported not to be 篤, and scholars dispute the graph. The Guodian bamboo slips are reported to read 守中，篤也, “keep the centre: firm”. There 中, the centre, stands in the place of 靜, stillness. Is stillness a centre for you, or an edge?",
+      "src": [
+        "Shuowen Jiezi, 馬部: 篤，馬行頓遟。从馬竹聲。",
+        "Wang Bi commentary on Laozi 16",
+        "Mawangdui Laozi A and B",
+        "Guodian Laozi A"
+      ]
+    },
+    "zuo": {
+      "kind": "wordplay",
+      "title": "作 twice: to rise, and to rise wildly",
+      "body": "作 is “to get up, to start”; the Shuowen says 起也, “to rise”. In line 3 the ten thousand things 並作, rise side by side: seeds come up, people get out of bed, plans begin. Nine lines later the word returns in a darker phrase, 妄作, [[wild rising|wang]]. It is one verb. The rising of things is not a fault; the text watches it with interest. The fault is to rise with no knowledge of the return. English needs two words, “arise” and “act”, and so the echo is lost. The lines were built for the ear in other ways too. In the old rhyme groups 篤 and 復 end alike (覺); so do 芸 and 根 (文), 靜 and 命 (耕), 常 and 明 (陽), 容 and 公 (東). Each step of the argument is tied to the next by sound."
+    },
+    "guanfu": {
+      "kind": "history",
+      "title": "復: the hexagram of midwinter",
+      "body": "A reader of the time knew 復 as the name of a figure in the Book of Changes, the twenty-fourth hexagram. It has five broken lines, and one whole line that enters at the bottom: thunder under the earth. The tradition matched it to the month of the winter solstice, when the dark is at its limit and the light starts to come back, though nothing can yet be seen above ground. An old comment on the figure says: 復其見天地之心乎, “in Return, do we not see the heart of heaven and earth?” The verb in our line, 觀, “to watch”, is the name of another hexagram, the twentieth. So 吾以觀復 has the sound of a diviner at work. But here no stalks are counted. The “I” of the text only keeps empty and still, and watches where each thing goes. The Shuowen defines 復 as 往來也: “to go and to come”.",
+      "src": [
+        "Yijing, hexagram 24 (復), Tuan commentary",
+        "Shuowen Jiezi, 彳部: 復，往來也。从彳复聲。"
+      ]
+    },
+    "wangbi-fu": {
+      "kind": "wangbi",
+      "title": "Wang Bi: movement starts in stillness",
+      "body": "On the line “I watch the return” Wang Bi writes: 以虛靜觀其反復。凡有起於虛，動起於靜，故萬物雖並動作，卒復歸於虛靜，是物之極篤也。 “By emptiness and stillness, watch their turning back. All that there is arises from emptiness; movement arises from stillness. So although the ten thousand things move and rise together, in the end they go back to empty stillness. This is the limit and the firmness of things.” For him, stillness is not one of two equal partners. It is the ground, and movement is a visit away from it. He said the same about [[the hexagram|guanfu]]: when movement stops in the earth, the heart of heaven and earth is seen. Later Confucian thinkers objected that the heart of heaven and earth is life and motion. Watch your own breath for a minute. Which seems the base to you: the moving, or the pause?",
+      "src": [
+        "Wang Bi commentary on Laozi 16",
+        "Wang Bi, Zhouyi zhu, hexagram 24"
+      ]
+    },
+    "yunyun": {
+      "kind": "etymology",
+      "title": "芸芸: a plant that dies and lives again",
+      "body": "芸 has the grass sign, 艹, on top. The Shuowen says it is a herb, like alfalfa, and then quotes a line that fits this passage almost too well: 芸艸可以死復生, “the 芸 plant can die and come to life again”. The word in that quotation is 復, the “return” of our passage. Doubled, 芸芸 is a sound-picture of dense growth: leaves beyond counting. The Mawangdui silk texts are reported to write 雲雲, “cloud on cloud”, and read 天物, “the things of heaven”; the Guodian slips are reported to have 天道員員, “heaven’s way goes round and round”. So one line has three pictures in three old copies: herbs, clouds, a wheel. The Guodian text of this passage is reported to stop at this line. Later Chinese joined it to a Buddhist term for the crowd of living beings: 芸芸眾生. Look at a hedge or a lawn in June. Each leaf in that crowd, the line says, has a way home.",
+      "src": [
+        "Shuowen Jiezi, 艸部: 芸，艸也。似目宿。从艸云聲。《淮南子》說：芸艸可以死復生。",
+        "Mawangdui Laozi A and B",
+        "Guodian Laozi A"
+      ]
+    },
+    "guigen": {
+      "kind": "etymology",
+      "title": "歸: the bride goes home",
+      "body": "English “return” can mean defeat: to go back, to lose ground. 歸 does not. The Shuowen defines it 女嫁也, “a woman goes to be married”. In the old view a bride did not leave home. She went to the house where she belonged from then on, and the Book of Odes sings of it: 之子于歸, “this girl goes to her home”. So 歸 is to arrive where one belongs: soldiers 歸 from a campaign, rivers 歸 to the sea, and the dead were called 歸人, “those who have gone home”. 根 is the foot of a tree; the Shuowen says 木株也, the stock. Put the two together. In autumn the sap goes down and the leaves fall on the roots and feed them. The text does not call that a loss. It calls it a homecoming, and gives it the name [[stillness|jing]].",
+      "src": [
+        "Shuowen Jiezi, 止部: 歸，女嫁也。从止，从婦省，𠂤聲。",
+        "Shuowen Jiezi, 木部: 根，木株也。从木艮聲。",
+        "Shijing, Zhou nan, “Tao yao” (桃夭)"
+      ]
+    },
+    "fuming": {
+      "kind": "gap",
+      "title": "復命: fate, or a report to one’s lord?",
+      "body": "命 is a mouth, 口, and an order, 令. The Shuowen says 使也, “to cause, to send on a task”. From “command” came “the mandate of heaven”, 天命, by which a house rules, and then “what heaven gives each creature”: its nature and its span of life. English versions say “returning to destiny” or “to fate”. Those words suggest a future fixed in advance by gods or stars. 命 is a charge that was given, not a script. And 復命 was a plain phrase of court life. An envoy who was sent out with orders came back when the work was done and reported to his lord; the Analects uses the phrase so. Legge heard it: he writes of a “reporting” that things have “fulfilled their appointed end”. Each thing was sent out with a charge: to be this leaf, this life. At the root it hands the charge back. What were you sent out to do?",
+      "src": [
+        "Shuowen Jiezi, 口部: 命，使也。从口从令。",
+        "Analects 10.3"
+      ]
+    },
+    "chang": {
+      "kind": "gap",
+      "title": "The constant is the return itself",
+      "body": "Passage 1 used 常 as an adjective: the constant Dao, the constant name. Here it stands alone as a noun and has a definition: 復命曰常. To go back to the root and hand in the charge: that is called the constant. So the constant is not an object behind the world, and capital-letter words such as “the Eternal” are poor English for it. Nothing in this passage is outside time. What is constant is a movement: out and back, rise and return, as regular as the year. Wang Bi describes it by what it lacks: 常之為物，不偏不彰，無皦昧之狀，溫涼之象. “The constant, as a thing, does not lean and does not show; it has no bright or dark shape, no warm or cool image.” His “bright or dark” quotes passage 14. If the only constant thing is that all things go home, is that sad to you, or a relief?",
+      "src": [
+        "Wang Bi commentary on Laozi 16"
+      ]
+    },
+    "ming": {
+      "kind": "etymology",
+      "title": "明: light enough to see by",
+      "body": "明 is written with 日, the sun, beside 月, the moon. The Shuowen enters it in an older form, 朙, with a window in place of the sun, and defines it 照也, “to shine on, to light up”: moonlight that comes in at a window. English versions say “enlightenment” or “insight”, and each brings its own history: the Buddha’s awakening, the European age of reason, a flash in the mind. 明 is plainer. It is enough light to see what is in the room. In this passage it is defined: to know that things return is to be 明. Passage 33 says 自知者明, “one who knows oneself is 明”; passage 52 says 見小曰明, “to see the small is called 明”. The opposite here is not darkness, which this book respects. It is [[妄|wang]]: action with no ground under it.",
+      "src": [
+        "Shuowen Jiezi, 朙部: 朙，照也。从月从囧。"
+      ]
+    },
+    "wang": {
+      "kind": "etymology",
+      "title": "凶: the pit in the path",
+      "body": "不知常，妄作凶. Six characters, with no “if” and no “then”. 妄 is “wild, baseless”; the Shuowen says 亂也, “disorder”, and the graph has 亡, “lost”, in it. 作 is [[the rising of line 3|zuo]]. 凶 is the diviner’s verdict, the opposite of 吉, “auspicious”, and it is cut on thousands of oracle bones. The Shuowen explains the graph as a trap: 象地穿交陷其中也, “it pictures a hole in the ground, and a thing that has fallen into it”. So the line is a small scene. One who does not know that things return starts up blindly, and walks into a pit. It is not a threat of punishment; there is no judge in it. A person who expects summer to last, a state that expects to grow each year, will meet the hole that was always in the road. The Mawangdui silk texts are reported to repeat a word: 不知常，妄；妄作，凶.",
+      "src": [
+        "Shuowen Jiezi, 女部: 妄，亂也。从女亡聲。",
+        "Shuowen Jiezi, 凶部: 凶，惡也。象地穿交陷其中也。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "rong": {
+      "kind": "wordplay",
+      "title": "容 again: from a face to a valley",
+      "body": "In passage 15, 容 was the look of a person: a likeness, a bearing. Here the same graph is a verb: to hold, to have room for. The Shuowen gives this sense first: 盛也, “to contain, as a vessel does”. And it reads the graph as 宀, a roof, over 谷, a valley: a sheltered hollow that takes in what comes. The two senses are one in Chinese. A face is that which holds a person’s feelings, and a large-minded person has a large “capacity”. Wang Bi glosses the line 無所不包通也: “there is nothing that it does not wrap and pass through”. Legge needs two nouns, “capacity and forbearance”. Note the logic. One who knows that each thing returns has no need to push any of them out. Tolerance here is not a moral effort. It is what is left when the fear of things goes.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 容，盛也。从宀、谷。",
+        "Wang Bi commentary on Laozi 16"
+      ]
+    },
+    "gong": {
+      "kind": "geopolitics",
+      "title": "公: the back turned on the private",
+      "body": "公 is a political word. The Shuowen defines it 平分也, “to share out evenly”, and explains the graph with a quotation from the Legalist Han Fei: 背厶爲公, “to turn the back on the private is 公”. The lower part, 厶, is the old way to write 私, private interest; the upper part, 八, is read as two strokes that turn away from each other. In Han Fei’s state, 公 and 私 are enemies: each private loyalty to family, friend, or teacher is a theft from the ruler’s order. The same graph is the title “duke”, the lord of a state. So a Warring States reader hears three things in 容乃公: fair, public, and lordly. The Laozi comes to 公 by a road that Han Fei did not take. No law forces it and no private tie is broken. It follows from [[room for all|rong]].",
+      "src": [
+        "Shuowen Jiezi, 八部: 公，平分也。从八从厶。八猶背也。韓非曰：背厶爲公。",
+        "Han Feizi, “Wu du” (五蠹)"
+      ]
+    },
+    "quan": {
+      "kind": "variant",
+      "title": "Whole, or king?",
+      "body": "Our pinned text reads 公乃全，全乃天: “even-handed, then whole; whole, then heaven”. This is a modern correction. Every old transmitted edition reads 王, king: 公乃王，王乃天, “even-handed, then a king; a king, then heaven”, and the Mawangdui silk texts are reported to read the same. Legge follows it with “a kingliness of character”. Scholars of the twentieth century proposed 全 for two reasons. Wang Bi’s own comment on the line does not speak of a king: it says 無所不周普, “there is nothing that it does not reach all round”, which explains “whole” well. And they held that 全 makes a nearer rhyme with 天, the next link. The Shuowen’s entry for 王 has the Han view of a king: three level strokes for heaven, earth, and humankind, and one line that joins them. With 王 the passage is advice to a ruler. With 全 it is open to any person. The evidence of the copies is for “king”. Which chain would you rather climb?",
+      "src": [
+        "Wang Bi commentary on Laozi 16",
+        "Mawangdui Laozi A and B",
+        "Shuowen Jiezi, 王部: 王，天下所歸往也。董仲舒曰：古之造文者，三畫而連其中謂之王。三者，天、地、人也，而參通之者，王也。"
+      ]
+    },
+    "moshen": {
+      "kind": "wangbi",
+      "title": "沒身: when the body goes under",
+      "body": "沒 is a water word. The Shuowen says 沈也, “to sink”. 沒身 is “until the body sinks”: to the end of life. The passage that began with rising ends with going under, and looks at it calmly. 不殆 is “no danger”; the Shuowen glosses 殆 as 危也, “peril”. This is not a promise that one will not die. It says that the whole length of the road, the end included, has no pit in it. Wang Bi’s comment is his longest here: 無之為物，水火不能害，金石不能殘。用之於心則虎兕無所投其齒角，兵戈無所容其鋒刃. “Nothingness, as a thing: water and fire cannot harm it, metal and stone cannot break it. Use it in the heart, and tiger and rhinoceros find no place for tooth and horn, and weapons no place for their edge.” He borrows the beasts from passage 50. The same four characters come again in passage 52.",
+      "src": [
+        "Shuowen Jiezi, 水部: 沒，沈也。从水从𠬸。",
+        "Shuowen Jiezi, 歺部: 殆，危也。从歺台聲。",
+        "Wang Bi commentary on Laozi 16"
+      ]
+    },
+    "neiye": {
+      "kind": "history",
+      "title": "Stillness had teachers",
+      "body": "虛 and 靜 were technical terms before they were poetry. In the fourth century BCE the state of Qi paid scholars of each school to live and debate near the Ji gate of its capital. A group of texts linked to that circle and kept in the collection called Guanzi teaches a method: sit with the body upright, calm the breath, empty the heart of likes and dislikes, and a fine vital essence will come to rest in you. The best known of them is the “Inward Training” (內業). Its words are the words of this passage: 靜, 虛, 守, the still heart as a “lodging place”. So the first two lines were instructions that a student of the time could follow, with a teacher and a posture. The same texts say that a ruler who can do this will order the state without effort. In that age the practice and the politics were not separate.",
+      "src": [
+        "Guanzi, “Nei ye” (內業) and “Xin shu shang” (心術上)",
+        "Shiji, “Tian Jingzhong Wan shijia”"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge guards stillness “with unwearying vigour”",
+      "body": "Legge’s first sentence shows a Victorian at work on a word that he does not trust. Stillness, he writes, is to be “guarded with unwearying vigour”: effort and energy, the virtues of his own age, are brought in to keep watch over their opposite. Emptiness is “(the state of) vacancy”. He helps the plants with a bracket, “(in the vegetable world)”, which is right about the image and limits it to botany. At the end he promises that one “is exempt from all danger of decay”, where the Chinese says only [[until the body goes under, no danger|moshen]]: decay is not denied in the text. But he also hears things that later versions miss. His “reporting that they have fulfilled their appointed end” keeps the court sense of [[復命|fuming]], and his “regular, unchanging rule” for 常 has the word “regular” in it.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Watch one thing go home",
+      "body": "Sit upright for five minutes. Do not try to empty the mind; that is one more [[rising|zuo]]. Let things rise as they wish: a sound, an itch, a plan, a memory. Your one task is the second half of each. Each of them, if you do not feed it, goes back. The sound ends. The itch fades. The plan runs out of words. Watch for the place where each one goes, as you would watch where a bird lands. You will find that you seldom see it; attention jumps to the next rising before the last has gone home. After some days it gets easier. The passage says that this watching has a result that is not mystical at all: [[room|rong]]. What returns by itself does not need to be pushed away."
+    }
+  },
+  "lenses": {
+    "ground": "Two lines of instruction, then a report, then a chain. The instruction: bring [[emptiness|xu]] to its limit and keep [[stillness|jing]] firm. The report, in the first person: the ten thousand things [[rise side by side|zuo]], and I watch them [[return|guanfu]]. They are [[thick and teeming|yunyun]], and each one [[goes home to its root|guigen]]. Then a run of definitions, each joined to the last: home at the root is stillness; stillness is [[the charge reported back|fuming]]; that is [[the constant|chang]]; to know it is [[brightness|ming]]; not to know it is a [[pit|wang]]. The chain at the end has seven links with 乃, “and then”: [[room|rong]], [[even-handed|gong]], [[whole|quan]], heaven, Dao, lasting. The last line is about the death of the body. The plain pictures are a bare hill, a slow horse, a herb, a bride, an envoy, a window with moonlight, and a trap.",
+    "inner": "This is the nearest thing in the book to a meditation instruction, and [[it had a living context|neiye]]. The two verbs matter: 致, to bring a thing to its end, and 守, to guard. Emptiness is reached; stillness is kept. Then the text does not describe a blank. It describes a world in full motion, seen from a still place. That is the point that is easy to miss. The practice is not to stop things from rising. It is [[to see the whole arc of each one|practice]], the return as well as the rise. A mind that sees only risings is always behind: each new thing seems to need an answer. A mind that sees returns can let most things finish by themselves. [[Wang Bi|wangbi-fu]] makes stillness the ground and movement the visitor. And the end is honest: [[the body goes under|moshen]] too, and that also is a way home.",
+    "leading": "The last chain is the political part. It starts in knowledge, not in will: know the constant, and you have [[room|rong]]. A leader who knows that fashions, crises, rivals, and enthusiasms all rise and return does not need to crush each one, or to join each one. From room comes [[公|gong]]: even-handedness, the public interest, the quality of a true lord. The Legalists got 公 by law and fear, with each private tie cut. Here it comes from width. Then the edition matters. If the next link is [[王, king|quan]], as in every old copy, the passage tells a ruler how to deserve the title. If it is 全, whole, it tells anyone. The warning in the middle is for planners: [[妄作凶|wang]]. Action that assumes the present trend will go on, with no knowledge of the return, is the pit in the road.",
+    "body": "致虛極: breathe out fully and do not hurry the next breath. For a moment the chest is an [[empty hill|xu]]. 守靜篤: [[篤|du]] is the tread of a heavy horse, so let the weight of the body go down through the seat or the feet, slow and firm. Then watch [[the return|guanfu]] in the breath itself. Each in-breath is a rising, and each out-breath goes home. The standing practice of the Chinese movement arts is called 站樁, “to stand like a post”, and its teachers speak of the legs as roots. A tree is still at the root and moves at the leaves. Most of us live the other way: busy at the centre, and stiff at the edges. Stand for two minutes and reverse it. Where is the root of your standing?",
+    "nature": "Go to a deciduous wood at the end of autumn. All summer the trees sent matter up and out: leaves beyond counting, [[芸芸|yunyun]]. Now the sugars have gone down into the roots, and the leaves lie on the ground over them, where fungi and worms turn them into next year’s soil. Nothing has gone wrong. The wood is as alive as in June, and the life is [[at the root|guigen]], in the dark, and still. [[The hexagram of Return|guanfu]] marks the solstice, when this stillness is deepest and the light has already turned. Water does it too: rain, river, sea, cloud. So does each body. The text asks you to know this as a fact of the same order as gravity, and it says that people who plan as if growth had no return [[fall into a pit|wang]].",
+    "practice": "Take [[five minutes to watch one thing go home|practice]]. Then carry the question into the day: of the things that rose in you this morning, a worry, an anger, a wish to buy something, which have already returned without your help? Count them at night. Most people find that nearly all of them did. That count is a small piece of [[the constant|chang]], and to see it is a small piece of [[明|ming]]. One more exercise, for a larger scale. Name one thing in your life or work that is now in its return: it grew, and now it goes back to the root. Ask whether you still treat it as if it must rise. [[Legge|legge]] read stillness as a thing to guard “with unwearying vigour”. Try it without the vigour."
+  },
+  "glyph": "根",
+  "plates": [
+    {
+      "c": "根",
+      "title": "A tree, and an eye that looks back",
+      "lesson": "The left side is 木, a tree, and it is a drawing: a trunk, a line of branches across it, and two roots that spread at the foot. Three small additions to that drawing make three words that Chinese children learn together. A mark at the foot of the tree is 本, the root, and so “origin, basis”. A mark at the top is 末, the tip, “the last and least”. A mark through the middle, in the Shuowen’s account, is 朱, the red heartwood. Our character is the other, later word for root, and it is made in the usual way: 木 for the meaning, with a second part for the sound. That second part is 艮 (gèn). It is worth a look for its own sake. The Shuowen explains it as 匕 and 目, an eye and a person turned around: “eyes that glare at each other, and neither gives way”. Its sense is “stubborn, to stop”. In the Book of Changes 艮 is the name of the trigram of the mountain, whose quality is keeping still. No one planned this; 艮 is in 根 for its sound. But the reader’s eye sees a tree and a stillness, in the character for [[the place that things go home to|guigen]]. Cousins by the same sound part: 很 (stubborn; now “very”), 限 (a limit), 恨 (a grudge), 眼 (the eye), 銀 (silver), 跟 (the heel; to follow). The Laozi comes back to the root in passages 6, 26, and 59.",
+      "brush": "Ten strokes: four for the tree, six for 艮. The tree: a level stroke; a vertical through it; then a stroke that falls to the left; and a fourth that would be a long sweep to the right if the tree stood alone. Here it is cut down to a dot. This is a rule of the regular script: a part at the left gives way and pulls in its right arm, so that the two halves do not strike each other. Then 艮: a stroke that goes right and turns down; two short level strokes inside; then a long vertical that turns at its foot and flicks up to the right. Watch the last two: a short stroke that falls to the left, and then the long stroke that presses out to the lower right. That final one is the only wide gesture in the character, and it runs low and far, like a root just under the ground."
+    },
+    {
+      "c": "靜",
+      "title": "Stillness, with a tug-of-war inside",
+      "lesson": "Two parts, and each has two parts more. On the left is 青, the colour of living plants: blue-green. The Shuowen calls it 東方色也, “the colour of the east”, and reads the graph as 生 over 丹. 生 is a sprout that comes out of the ground. 丹 is the red mineral cinnabar, in its pit; it stands here for mineral colour in general. So 青 is “the colour of that which grows”. You know its family: 清 (clear water), 晴 (clear sky), 精 (fine, pure rice; essence), 情 (feeling), 請 (to ask). On the right is 爭, to contend. The Shuowen glosses it 引也, “to pull”, and its seal form is commonly explained as two hands, one above and one below, that pull at one thing. The Laozi uses this word for what the sage and water do not do: 不爭. So the character for [[stillness|jing]] contains the character for struggle. The Shuowen says that 爭 gives only the sound, and that is surely right. Still, each reader of Chinese sees it there, and it is a true picture of an hour of sitting: clear green on one side, and a tug-of-war on the other. The Shuowen’s meaning for the whole is 審也, “to examine closely”. A short form, 静, is used today on the mainland and in Japan. Passage 45 says 清靜為天下正: “clear and still, the measure of the world”. Both of its key words have 青 in them.",
+      "brush": "Sixteen strokes, eight and eight. 青 first: two level strokes, a vertical through them, and a longer level stroke that is the ground under the sprout. Below it, the form that looks like 月: a vertical; a stroke that goes right, turns down, and hooks; and two short level strokes inside. Then 爭: a flat stroke that falls to the left; two dots; a short falling stroke. These four are the upper hand. Next, a level stroke that turns down; a long level stroke that crosses out to the right; one more level stroke below. Watch the sixteenth stroke: a vertical with a hook that goes down through all three, and joins them as a hand closes. Each half has many level lines. The skill is to keep them evenly spaced and not quite parallel, so that the two halves of the character are still and do not look frozen."
+    }
+  ]
+}

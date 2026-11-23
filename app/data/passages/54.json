@@ -1,0 +1,252 @@
+{
+  "n": 54,
+  "title": "The Sacrifice Does Not Stop",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "善建者不拔，",
+      "gloss": {
+        "0": "good at; done well",
+        "1": "to set up, to found (a post, a house, a state)",
+        "4": "to pull out; also, to take a city by storm"
+      }
+    },
+    {
+      "text": "善抱者不脫，",
+      "gloss": {
+        "1": "to hold in the arms, to embrace",
+        "4": "to slip off, to come loose"
+      }
+    },
+    {
+      "text": "子孫以祭祀不輟。",
+      "gloss": {
+        "1": "grandson; with 子: descendants",
+        "3": "to offer food to the dead",
+        "4": "the fixed round of offerings",
+        "6": "chuò: to break off, to pause"
+      }
+    },
+    {
+      "text": "修之於身，其德乃真；修之於家，其德乃餘；",
+      "gloss": {
+        "0": "to tend, to put in order, to repair",
+        "3": "the body; the person",
+        "8": "real, genuine: a Daoist word",
+        "13": "household: the family with its land and servants",
+        "18": "surplus, more than enough"
+      }
+    },
+    {
+      "text": "修之於鄉，其德乃長；修之於國，其德乃豐；修之於天下，其德乃普。故以身觀身，以家觀家，以鄉觀鄉，以國觀國，",
+      "gloss": {
+        "3": "village, home district",
+        "8": "cháng: long, lasting (or zhǎng: to grow, to lead)",
+        "13": "state; the older text has 邦",
+        "18": "abundant: a full ritual vessel",
+        "29": "everywhere, wide",
+        "32": "by means of, with",
+        "34": "to look at with attention"
+      }
+    },
+    {
+      "text": "以天下觀天下。",
+      "gloss": {
+        "1": "天下: all under heaven, the whole realm"
+      }
+    },
+    {
+      "text": "吾何以知天下然哉？以此。",
+      "gloss": {
+        "6": "so, thus",
+        "10": "this (what is near the speaker)"
+      }
+    }
+  ],
+  "rendering": [
+    "What is [[well set up|jian]] is not torn out.",
+    "What is [[well held in the arms|bao]] does not slip away.",
+    "Sons and grandsons [[bring the offerings|jisi]],",
+    "[[and the line does not break|chuo]].",
+    "",
+    "[[Tend it|xiu]] in the [[body|shen]]: its [[de|de]] is then [[real|zhen]].",
+    "Tend it in the household: its de is then more than enough.",
+    "Tend it in the [[village|xiang]]: its de then lasts.",
+    "Tend it in the [[state|guo]]: its de is then abundant.",
+    "Tend it in [[all under heaven|tianxia]]: its de then reaches everywhere.",
+    "",
+    "So: by the body, [[look at|guan]] the body.",
+    "By the household, look at the household.",
+    "By the village, look at the village.",
+    "By the state, look at the state.",
+    "[[By all under heaven, look at all under heaven.|wangbi]]",
+    "",
+    "How do I know that all under heaven is so?",
+    "[[By this.|yi-ci]]"
+  ],
+  "notes": {
+    "jian": {
+      "kind": "geopolitics",
+      "title": "建 and 拔: to found, to storm",
+      "body": "English versions make this a garden: a plant that is not uprooted. The Chinese words are harder. 建 is to set a thing upright: a post, a banner, a house, and above all a state. To give a kinsman land and a title was 封建, “to enfeoff and set up”. The Shuowen defines the word from the court: 立朝律也, “to establish the statutes of the court”. 拔 is to pull out by the root, and in the war records of the time it is the usual verb for the fall of a town: 拔城, “to pull out a city”. A reader in the Warring States, where a state was “pulled out” every few years, heard a claim about politics in the first five words. There is a way to found a thing so that no army can take it. The passage then says where that foundation is, and the answer is not a wall. The agent is open too; see [[者|zhe]].",
+      "src": [
+        "Shuowen Jiezi, 廴部: 建，立朝律也。从聿从廴。",
+        "Shuowen Jiezi, 手部: 拔，擢也。从手犮聲。"
+      ]
+    },
+    "zhe": {
+      "kind": "gap",
+      "title": "善建者: who, or what?",
+      "body": "者 turns the words before it into a noun: “the one that…”. 善建者 can be “the one who is good at setting up”, a person, or “that which is well set up”, a thing. Chinese does not choose. Our English has to, and we took the thing, because 不拔 fits a thing best: it “is not pulled out”. But hear the other reading as well. The good founder is not pulled out; the good embracer does not lose the grip. Then the first two lines describe a person, and the third line gives that person descendants. The line also has no passive mark. 不拔 is only “not pull out”. English adds “is” and “what”. Which do you hear first: the thing that stays, or the one who set it up?"
+    },
+    "bao": {
+      "kind": "wordplay",
+      "title": "抱: the arms of the book",
+      "body": "抱 is to put the arms around a thing and hold it to the chest. The character is 扌, hand, with 包, “to wrap”, which also gives the sound. This is a verb that the Laozi loves. In passage 10 the question is whether a person can 抱一, hold the One in the arms, and not let go. In passage 19 the advice is 抱樸, hold the uncut wood. In passage 22 the sage holds the One and becomes a measure for the realm. In passage 42 the ten thousand things carry yin on the back and 抱陽, hold yang to the chest. So the verb here is not new. What is held is not named, and readers supply 道, or the One. The picture is a parent with a child. A thing that you grip with the fingers can be pulled away. What do you hold with the whole of the arms?"
+    },
+    "jisi": {
+      "kind": "history",
+      "title": "祭祀: feeding the dead",
+      "body": "In early China a family did not end at death. The dead lived on as ancestors as long as their descendants gave them food and drink at fixed times: grain, meat, wine, set out before a tablet or a living stand-in. That is 祭祀. A line with no sons had no one to feed its dead, and that was the worst end. The same was true of a state. To destroy a ruling house fully was 絕祀, “to cut off its sacrifices”, and a decent conqueror did not do it: the Zhou kings set up a descendant of the fallen Shang house in the state of Song so that the Shang ancestors still ate. So “the sacrifices do not stop” is the Chinese way to say “it lasts for ever”. It is not an abstract eternity. It is a table that someone lays again each season. The line also has 以, “by this”: by what was well set up, the descendants keep the rite. Our English drops the word. See [[輟|chuo]] for the verb.",
+      "src": [
+        "Shiji, “Song Weizi shijia”",
+        "Zuozhuan, Xi 10: 神不歆非類，民不祀非族。"
+      ]
+    },
+    "chuo": {
+      "kind": "variant",
+      "title": "輟 or 絕: a pause or a cut",
+      "body": "The received text says the sacrifices 不輟. 輟 has 車, cart, at its side. The Shuowen explains it from a column of carts: 車小缺復合者, “carts with a small gap that close up again”. So 輟 is to pause, to leave a gap in a row. The silk texts are reported to read 子孫以祭祀不絕: 絕 is to cut a thread through, the word used for a line that dies out. The silk reading is the stronger word. The received reading is finer: not one small gap in the row, not one season missed. English must add an object. The Chinese says only “not pause”, and it does not say what does not pause: the offerings, the sons, or the thing well set up. We wrote “the line does not break” and so chose for you. This passage is also among the Guodian bamboo slips, the oldest Laozi material found so far; they write the verb as 屯, which editors read as 輟.",
+      "src": [
+        "Shuowen Jiezi, 車部: 輟，車小缺復合者。从車叕聲。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "xiu": {
+      "kind": "gap",
+      "title": "修: not quite “cultivate”",
+      "body": "修 is always “cultivate” in English, and the word brings a field or a garden. The Chinese picture is different. The Shuowen says 飾也, “to adorn”: to dress, to trim, to brush clean. The three strokes at the lower right, 彡, are in characters for hair, feathers, and ornament. From there the word means to repair a wall, to put a road in order, to keep a tool fit. 修身, “to keep the person in order”, was a term that all the schools shared. So 修 is regular care of a thing that is already there. It is nearer to how a person keeps a boat than to how a person grows a crop. The object is only 之, “it”. Readers take “it” as the Dao, or as the thing well set up. The silk texts are reported to be shorter still: 修之身, “tend it, the body”, with no “in”.",
+      "src": [
+        "Shuowen Jiezi, 彡部: 修，飾也。从彡攸聲。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "shen": {
+      "kind": "gap",
+      "title": "身: the body that is the person",
+      "body": "身 is the trunk of the body, and it is also “self, person, one’s own life”. The Shuowen says 躳也。象人之身, “the body; it shows a person’s trunk”. Chinese does not split a person into a body and a self that owns it. English does, and translators of this line write “self”, “inner self”, “one’s person”. Each of those moves the work into the mind. The Chinese puts it in the flesh: breath, posture, appetite, sleep, what the hands do. The legalist Han Feizi read the line just so. In his chapter on the Laozi he says 身以積精為德, “the body takes stored essence as its de”. The first place where a person can check if a teaching is real is a place that nobody else can see or fake. Where in the body do you know that a thing is true?",
+      "src": [
+        "Shuowen Jiezi, 身部: 身，躳也。象人之身。",
+        "Han Feizi, “Jie Lao” (解老)"
+      ]
+    },
+    "de": {
+      "kind": "gap",
+      "title": "德: what the tending yields",
+      "body": "We leave 德 as “de”. “Virtue” is the old English word for it, in the sense of “the virtue of a herb”: the power that a thing has because of what it is. The moral sense is later and narrower. In this passage 德 is plainly a yield. You tend, and the 德 of that place becomes real, then ample, then lasting, then abundant, then wide. It is the 德 of the body, of the household, of the village: 其, “its”, points each time to the scale and not to a ruler. Han Feizi counts it in plain goods: the body’s 德 is stored essence, the household’s is its property, and for village, state, and realm it is the people. 德 here is not a private merit that a person carries from place to place. Each scale has its own.",
+      "src": [
+        "Han Feizi, “Jie Lao”: 身以積精為德，家以資財為德，鄉國天下皆以民為德。"
+      ]
+    },
+    "zhen": {
+      "kind": "etymology",
+      "title": "真: a word the classics do not use",
+      "body": "真 means “real, genuine, not fake”. It is a common word now, so the surprise is easy to miss: scholars since Gu Yanwu in the 17th century have noted that 真 does not occur in the Confucian Five Classics. It is a word of the Daoist texts. The Laozi has it three times (passages 21, 41, and here), and the Zhuangzi makes a figure of it, the 真人, the “real person”. By the Han the word was so tied to that world that the Shuowen defines it thus: 僊人變形而登天也, “an immortal who changes form and rises to heaven”. That is a late, religious gloss, and we do not read it back into this line. But it shows the place of the word. The first fruit of tending the body is not goodness, and not health. It is to be real. What would it mean for your 德 to be fake?",
+      "src": [
+        "Shuowen Jiezi, 𠤎部: 眞，僊人變形而登天也。",
+        "Gu Yanwu, Rizhilu"
+      ]
+    },
+    "xiang": {
+      "kind": "etymology",
+      "title": "鄉: those who eat together",
+      "body": "鄉 is the home district: a group of villages with its own elders, wine feasts, and archery meets. The early form of the character is commonly explained as two people who kneel face to face with a vessel of food between them. The same picture gave three words: 鄉, the community; 饗, to feast (the food radical 食 was added below); and 卿, a high minister, at first one who dined with the ruler. So a village, in the eye of the script, is the people who share a meal. The ladder of this passage is therefore a ladder of tables: the body that eats, the household at one hearth, the district at its feast, the state, the realm. The first rung and the third are joined by the [[offerings to the dead|jisi]], which are also a meal. The Shuowen enters the word under an older graph, 𨞰, and defines it from the side of the state: 民所封鄉也。嗇夫別治, “the district to which people are assigned; a 嗇夫 governs each”. That officer’s title is the farmer’s word of passage 59."
+    },
+    "guo": {
+      "kind": "variant",
+      "title": "國 was 邦: a broken rhyme",
+      "body": "Silk manuscript A is reported to read 修之邦，亓德乃豐; manuscript B, copied under the Han taboo, has 國. 邦 is the older word for a state: land given by grant, with its lord. When Liu Bang founded the Han dynasty in 202 BCE, his personal name became taboo, and scribes changed 邦 to 國 in book after book. Our received text carries that change. It cost a rhyme. In this stanza each scale rhymes with its fruit: 身 and 真 (the 真 group), 家 and 餘 (the 魚 group), 鄉 and 長 (the 陽 group), 天下 and 普 (the 魚 group again; the silk texts are reported to have 博 there, of the related 鐸 group). 邦 and 豐 belonged to the neighbouring 東 and 冬 groups, which early verse rhymes together. 國 rhymes with nothing here. So the old reader heard five matched pairs: the place and its result sound alike, as if one came out of the other. The emperor’s name removed one of the five.",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "tianxia": {
+      "kind": "gap",
+      "title": "天下: not “the world”",
+      "body": "天下 is “under heaven”: all that the sky covers. English says “the world” or “the empire”, and both miss. “The world” is a globe seen from outside. “Empire” did not exist yet. 天下 is seen from the ground: the whole of the known, settled land with its many states, which had once had one king, the Son of Heaven, and now had none who mattered. For a Warring States reader the word had a wound in it. Who would join 天下 again, and by what means, was the question of the age. This passage answers in an odd way. It does not say how to take it. It says how to tend it and how to look at it, and it places it fifth in a row that starts at the body."
+    },
+    "ladder": {
+      "kind": "history",
+      "title": "The same ladder in other hands",
+      "body": "Body, household, state, realm: the ladder was common property. Mencius says 天下之本在國，國之本在家，家之本在身, “the root of the realm is in the state, of the state in the household, of the household in the person”. The “Great Learning” made it a program: the person is put in order, then the household is made even, then the state is governed, then the realm is at peace. There each step is a cause that pushes the next one. The Laozi ladder has no “then”. Each scale is tended where it is, and has its own fruit. The Guanzi is nearer to our text and may share a source with it: 以家為家，以鄉為鄉，以國為國，以天下為天下, “treat the household as a household, the district as a district, the state as a state, the realm as the realm”. It adds a warning: run a district as if it were a household, and the district cannot be run.",
+      "src": [
+        "Mencius 4A5",
+        "Liji, “Daxue”",
+        "Guanzi, “Mu min” (牧民)"
+      ]
+    },
+    "guan": {
+      "kind": "gap",
+      "title": "觀: to look, not to judge",
+      "body": "觀 is to look long and with care. The Shuowen says 諦視也, “to look at with close attention”. 以身觀身 is five plain words: “by body, look at body”. English wants more: whose body, and by what standard? Three readings are old. One: by my own body I look at the bodies of others. Two: by the body that is tended I look at the body that is not. Three, and the plainest: look at a body as a body, on its own scale and by its own measure, and do not judge a village as if it were a family. The [[Guanzi parallel|ladder]] supports the third. All three agree on what 觀 is not. It is not to plan, to picture an ideal, or to improve. Later the same character, read guàn, became the name for a Daoist temple: a place for looking.",
+      "src": [
+        "Shuowen Jiezi, 見部: 觀，諦視也。从見雚聲。"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: with the people’s heart",
+      "body": "On the first line Wang Bi writes: 固其根而後營其末，故不拔也, “make the root firm, and only after that see to the branch-tips; so it is not pulled out”. On the last rung he writes: 以天下百姓心觀天下之道也, “with the heart of the hundred families of the realm, look at the way of the realm”. The ruler does not look at the realm with a ruler’s heart. And on the closing answer: 察己以知之，不求於外也，所謂不出戶以知天下者也. “Examine yourself and so know it; do not seek it outside. This is what is meant by: without going out of the door, know all under heaven.” He ties the passage to passage 47. For Wang Bi “this” is the self: what is true in the nearest case is true in the farthest, since 彼皆然也, “those others are all so too”.",
+      "src": [
+        "Wang Bi commentary on Laozi 54"
+      ]
+    },
+    "yi-ci": {
+      "kind": "wordplay",
+      "title": "以此: two words for an answer",
+      "body": "The question is long and formal: 吾何以知天下然哉, “by what do I know that all under heaven is so?” The answer is two words: 以此, “by this”. The same question and the same answer close a section in passage 21 and open the proof in passage 57. 此 is the pointing word for what is near the speaker, as 彼 is for what is far. So what is “this”? The method just given: look at each thing as itself. Or the body, the first rung, which is as near as a thing can be. Or this that is in front of you now. [[Wang Bi|wangbi]] takes it as the self. The silk texts are reported to write 然茲以此, where 茲 is a loan for the particle 哉 at the end of the question and not a part of the answer. Legge adds a [[bracket|legge]]. The Chinese adds nothing, and the gesture is a finger that points down."
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s hymn",
+      "body": "Legge puts the first two stanzas into rhymed English verse, and the form changes the content. His opening has a “skilful planter”, in brackets the Tao’s own, and by the third line a “shrine”. The grammar of a hymn has entered: a person, male, who is honoured. The Chinese has no “his”. In the ladder he writes that the Tao is “nursed within one’s self” and that the family gets “riches”. Then he gives up verse, and the five looks become a flat report that “the effect will be seen” in each place: the act of looking is gone, and a result is put where it was. At the end he explains the two last words as “By this (method of observation)”. That is one fair reading. But the bracket closes a door that the text left open; see [[以此|yi-ci]].",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "One scale at a time",
+      "body": "Try the five looks as an exercise, and keep each one on its own scale. First the body: sit, and for two minutes only notice it as a body. Is it tired, tight, hungry, at ease? Do not explain it with your work or your family. Then the household: think of your home at a normal hour, as if you stood in the doorway. What is its mood? Do not judge it by how you feel. Then one wider circle that you belong to: a street, a team, a town. Each time, ask what this thing is like when you measure it only by itself. Most trouble in judgment comes from a mix of scales: a company treated as a family, a family run as a state. What changes when you stop?"
+    }
+  },
+  "lenses": {
+    "ground": "The passage has three parts. First, two short claims and their proof: a thing [[well set up|jian]] is not torn out, a thing [[held in the arms|bao]] does not slip, and the sign is that the [[sacrifices|jisi]] of the descendants go on [[without a gap|chuo]]. Second, a ladder of five places: body, household, village, state, all under heaven. At each one the same act, [[修|xiu]], gives a different fruit of [[德|de]]: real, ample, lasting, abundant, everywhere. In the old text each place [[rhymes with its fruit|guo]]. Third, the ladder again, now as a way of knowing: by each thing, [[look at|guan]] that thing. Then a question and a two-word answer. No sage is named, and no ruler. The speaker says 吾, “I”, once, to ask how “I” know.",
+    "inner": "The order matters. The realm is last and the [[body|shen]] is first, and the fruit of the first rung is the only one that is not a quantity: [[真|zhen]], real. The others, more than enough, lasting, abundant, wide, are sizes. They grow from the first, and a large thing that grows from an unreal root is only large. The second half is a discipline of attention. To look at the body by the body is to look without a second thing held up beside it: no ideal body, no other person’s body, no story. Most looking is a comparison. This is the look before comparison. The answer [[以此|yi-ci]] points at that. The knowledge of “all under heaven” is not collected from far away. It is here, at the scale where you can check it.",
+    "leading": "Founders want to know how to make a thing that lasts. The first line uses their words, [[建 and 拔|jian]], and the answer turns away from walls and armies to a table that is laid again each season: a thing lasts when those who come after choose to continue it. Nobody can force that choice. The ladder then gives a rule that leaders break daily. Each scale has its own [[德|de]] and must be [[seen as itself|guan]]. A household is not a small state. A team is not a family, and a state is not a firm. [[Other schools|ladder]] made the ladder a chain of command that runs outward from the ruler’s person. Here nothing is pushed outward. [[Wang Bi|wangbi]] adds the hardest part: look at the realm with the heart of its people, not with your own.",
+    "body": "A stance teaches the first line. Stand with the feet under the hips and let the weight go down through the legs into the floor. A person who is “well set up” in this way is hard to pull off balance, and the reason is not stiffness. Stiff legs give one handle to push on. Then the second line: make a circle of the arms in front of the chest, as if around a large ball or a child, with the shoulders down. This is the shape of [[抱|bao]]. A grip of the fingers tires in a minute. A hold with the whole frame can last, because nothing in it is clenched. Now [[look at the body by the body|guan]]: feel it from inside for a few breaths, with no picture of how it should be. That is where 修之於身 begins.",
+    "nature": "A tree that is not pulled out by the storm is one whose root took hold before its crown spread. [[Wang Bi|wangbi]] says so in a line: the root first, the branch-tips after. The five fruits also follow growth as a farmer knows it. Seed that is [[real|zhen]], not empty husk. Then a surplus over what the plant needs. Then length of season. Then a full ear: 豐 is the picture of a ritual vessel piled high. Then spread over the whole field. And each scale in a living system has its own measure. A cell, an organ, a body, a herd, a valley: what is health for one is not health for another, and a part that grows by the rule of a different scale is a sickness in the whole.",
+    "practice": "Do the [[five looks|practice]] once this week, slowly. Then take the question of the first lines into one ordinary thing that you have set up: a habit, a friendship, a project, a rule in your home. Ask of it: if I stopped pushing, would anyone lay this table again? If yes, it is [[well set up|jian]]. If no, do not push harder. Go down the ladder one rung, toward the [[body|shen]], and see what is not yet [[real|zhen]] there."
+  },
+  "glyph": "祭",
+  "plates": [
+    {
+      "c": "祭",
+      "title": "A hand, a piece of meat, an altar",
+      "lesson": "Read this character as a small scene with three actors. At the top left is a tilted form that looks like 夕 with an extra dot. It is 肉, meat, in the squeezed shape that it takes inside other characters; you know it in a different squeezed shape as the 月 at the side of 肝 (liver) and 腸 (gut). At the top right is 又, a right hand, with its last stroke stretched out. Below both is 示, the mark for all things that concern spirits. 示 is commonly explained as a picture of an altar stand or a spirit tablet, and it is the part that 神 (spirit), 福 (blessing), 禍 (disaster), 祀 (the round of offerings), and 禮 (rite) all share. So: a hand sets meat on the altar. The Shuowen says just that: 祭祀也。从示，以手持肉, “to sacrifice; from 示, with a hand that holds meat”. The oldest forms are reported to be simpler, a piece of meat with drops beside it, and scholars differ on the details, so hold the early history lightly. Cousins by sound: 察, “to examine”, in which the Shuowen sees a roof 宀 over 祭, and 際, “border, meeting place”. The passage says that a thing well set up is known by this act, [[repeated without a gap|chuo]]. See [[the note on the rite|jisi]].",
+      "brush": "Eleven strokes. The meat first, four strokes: a stroke that falls to the left, a horizontal that turns and falls to the left, then two dots inside. Then the hand, two strokes: a horizontal that turns and falls to the left, and a long stroke that sweeps down to the right. Watch that sixth stroke. With the second stroke of the meat it makes a wide roof, and all the rest of the character stands under it. Then 示, five strokes: a short horizontal, a longer horizontal, a vertical with a hook, a dot to the left and a dot to the right. The two top parts lean toward each other like two people over a table. The altar must be narrow and upright below them, or the character falls open. In clerical script the sweep of the hand is the showpiece, flared like a wing."
+    },
+    {
+      "c": "孫",
+      "title": "A child on a thread",
+      "lesson": "孫 is “grandson”, and with 子 before it, 子孫, it is “descendants”. It has two parts. On the left is 子, a child. The Shuowen calls 子 a picture, 象形; the common explanation is an infant with a large head and arms out, the legs wrapped. On the right is 系, a thread that hangs from a hook or a hand: the top stroke, then the twisted silk 幺, then the loose ends 小. The Shuowen reads the pair with care: 子之子曰孫。从子从系。系，續也, “the child of a child is called 孫. From 子 and from 系. 系 is to continue.” A grandchild is the child who continues the thread. The silk radical carries this idea in many words: 繼 (to succeed, to carry on), 續 (to continue), 絕 (to cut off: silk and a knife), 經 (the warp of a loom, then a classic text), 統 (the main thread, a ruling line). Chinese speaks of a family as one line of thread, and of its end as a cut. Now read the third line of the passage again. [[The silk texts are reported to say|chuo]] that the sacrifices are not 絕, not cut. The thread is in the grammar of the line and in this character both.",
+      "brush": "Ten strokes. 子 first, three strokes, written narrow because it is a left side: a horizontal that turns down in a short hook, then a vertical with a hook to the left, then a stroke that rises to the right. In the full character 子 this third stroke is a level horizontal; here it lifts, and it points at the thread. Then 系, seven strokes: a short stroke that falls to the left on top; two strokes that fall left and turn back, like a folded cord; a dot; then a vertical with a hook, a dot on the left and a dot on the right. Watch the two folds of the silk. They must be the same angle and stack exactly, and the vertical below must hang from their centre like a weight on a line. The simplified form 孙 keeps the child and cuts away all the silk but 小."
+    },
+    {
+      "c": "觀",
+      "title": "The bird that watches",
+      "lesson": "觀 has twenty-five strokes and two parts. The right side is 見, “to see”: an eye, 目, on two legs. The eye is so large that the person under it is only legs. The left side is 雚 (guàn), and the Shuowen says it gives the sound: 从見雚聲. But look at what it draws. At the bottom is 隹, a short-tailed bird. Above the bird are two 口, and above them a crest. 雚 is an old name for a water bird, commonly identified as a stork or heron, and the two “mouths” are often explained as its two wide eyes. We cannot prove that the scribes chose it for the picture; sound was their reason. Still, a reader sees a tall bird that stands in shallow water without a move and looks. That is a good teacher for [[this verb|guan]]. The same sound-part is in 歡 (joy), 勸 (to urge), and 權 (the weight of a scale, then power). 觀 is also the name of hexagram 20 of the Changes, where it means both to look and to be looked at, like a tower. A gate tower was a 觀, and then a Daoist temple. Passage 1 has the same verb: 以觀其妙, “to look at its fine points”.",
+      "brush": "Twenty-five strokes. The left side takes eighteen. The crest, four strokes: a vertical, a horizontal, a vertical, a horizontal. Two small mouths side by side, each in three: a vertical, a horizontal that turns down, a closing horizontal. Then 隹, eight strokes: a stroke that falls left, a vertical, a dot, three horizontals, a vertical through their middle, and a last horizontal as the base. The right side, 見, takes seven: the eye in five (left side; top and right side in one stroke; two lines inside; the base), then a stroke that falls to the left and a last stroke that goes down, turns right, and ends in a hook up. That final hook is the only free line in the character. All the rest is packed tight, and the white inside must stay open. Cursive script reduced it to a few turns, the source of the short form 观."
+    }
+  ]
+}

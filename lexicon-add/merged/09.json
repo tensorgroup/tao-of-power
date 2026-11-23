@@ -1,0 +1,63 @@
+{
+  "盈": {
+    "senses": ["full (of a vessel); to fill to the brim", "full (of the moon)", "surplus, excess", "to be complete"],
+    "shuowen": "滿器也。从皿、夃。",
+    "shuowenEn": "A full vessel. From 皿 (dish) and 夃 (to get much at market).",
+    "parts": [ { "c": "夃", "m": "upper part: in Qin speech, to get much when buying" }, { "c": "皿", "m": "a food dish" } ],
+    "story": "A dish at its brim. The word is the usual one for the full moon, the night before it starts to wane, and the Book of Changes says that the way of heaven lessens the 盈 and adds to the humble. The Laozi uses it as a warning mark. Dao is used and does not 盈 (4). Hold and fill it: better to have stopped (9). Those who keep this Dao do not wish to be 盈 (15). The hollow becomes 盈 (22). The valley holds to the One and is 盈 (39). Great 盈 seems empty (45). Han scribes often replaced the word with 滿, to avoid the name of Emperor Hui.",
+    "gap": "“Full” in English is good: a full life, a full heart. 盈 is the point of turning: full, and so about to spill or to wane."
+  },
+  "驕": {
+    "senses": ["a tall, spirited horse", "proud, arrogant", "to make proud, to spoil", "fierce (of the sun, of an army)"],
+    "shuowen": "馬高六尺爲驕。从馬喬聲。",
+    "shuowenEn": "A horse six chi tall is called 驕. From 馬 (horse), with 喬 for the sound.",
+    "parts": [ { "c": "馬", "m": "a horse" }, { "c": "喬", "m": "sound part; tall and curved" } ],
+    "story": "First a big horse, then the bearing of a person who is like one. Military writers used the word with care: an army that is 驕 after victory will be beaten, and a good general makes the enemy 驕 on purpose. The Laozi uses it twice. Rich, of high rank, and 驕: one leaves ruin to oneself (9). The one who helps a ruler with Dao wins and stops: the result is reached, and there is no 驕 (30).",
+    "gap": "English “pride” can be a virtue: pride in one’s work. 驕 cannot. It is the high head of an animal that is hard to hold."
+  },
+  "咎": {
+    "senses": ["calamity, harm", "fault, blame", "to blame, to hold at fault", "无咎: no harm (a verdict in divination)"],
+    "shuowen": "災也。从人从各。各者，相違也。",
+    "shuowenEn": "Calamity. From 人 (person) and 各; 各 means to be at odds with each other.",
+    "parts": [ { "c": "夂", "m": "a foot that points down (top of 各)" }, { "c": "人", "m": "a person (written small at the upper right)" }, { "c": "口", "m": "a mouth (bottom of 各)" } ],
+    "story": "A word of the diviners. In the Book of Changes a line is judged 吉, good fortune; 凶, misfortune; or very often 无咎, “no harm”: a result with nothing to regret. The Shuowen reads the graph as a person at cross purposes. The Laozi uses the word twice, and both times the harm is self-made. The rich and proud leave their 咎 to themselves (9). No 咎 is greater than the wish to get (46).",
+    "gap": "English keeps harm (what happens) apart from blame (who is at fault). 咎 is both at once: a harm that has an owner."
+  },
+  "持": {
+    "senses": ["to hold in the hand, to grasp", "to keep up, to maintain", "to hold steady, to support"],
+    "shuowen": "握也。从手寺聲。",
+    "shuowenEn": "To grip. From 手 (hand), with 寺 for the sound.",
+    "parts": [ { "c": "扌", "m": "a hand" }, { "c": "寺", "m": "sound part" } ],
+    "story": "To hold a thing in the hand and keep holding it. From the grip the word came to mean to maintain a state of affairs, and 持盈, “to hold what is full”, became a set phrase in later Chinese for the hard art of keeping success. The Laozi uses the word three times. Hold it and fill it: better to have stopped (9). A thing that is still quiet is simple to 持 (64). “I have three things that I 持 and keep safe” (67).",
+    "gap": "“Hold” is neutral in English. 持 has effort in it: the hand stays closed."
+  },
+  "金": {
+    "senses": ["metal; bronze", "gold", "money", "one of the five phases (west, autumn, white)"],
+    "shuowen": "五色金也。黃爲之長。",
+    "shuowenEn": "The metals of five colors. The yellow one is their chief.",
+    "story": "For the Warring States, 金 is metal in general and most often bronze, the stuff of ritual vessels, bells, and weapons; gold is “yellow 金”. The Shuowen praises gold: long buried, it grows no coat; refined a hundred times, it is no lighter. It reads the graph as earth, 土, with dots that show the ore in it. The Laozi names 金 once: 金 and jade fill the hall, and no one can guard them (9). Later Daoist alchemy made 金 its great aim: 金丹, the golden elixir.",
+    "gap": "“Gold” is too narrow for the early word. A hall “full of gold” was mostly a hall full of bronze."
+  },
+  "富": {
+    "senses": ["rich, well provided", "wealth; to enrich", "abundant"],
+    "shuowen": "備也。一曰厚也。从宀畐聲。",
+    "shuowenEn": "Complete, provided for. Another sense: thick, ample. From 宀 (roof), with 畐 for the sound.",
+    "parts": [ { "c": "宀", "m": "a roof, a house" }, { "c": "畐", "m": "sound part; commonly explained as a full wine jar" } ],
+    "story": "A roof with fullness under it. The Shuowen’s first gloss is not “much money”. It is “complete”: a house that lacks nothing. With 貴, high rank, it makes 富貴, the standard pair for worldly success. The Laozi redefines the word. Rich and high and proud: ruin (9). The one who knows what is enough is 富 (33). “I have no affairs, and the people 富 of themselves” (57).",
+    "gap": "“Rich” in English measures against others. 富 measures against need: provided for. Passage 33 uses that sense against the common one."
+  },
+  "退": {
+    "senses": ["to step back, to withdraw", "to retire from office", "to decline, to recede", "yielding, retiring (of manner)"],
+    "parts": [ { "c": "辶", "m": "to walk, movement" }, { "c": "艮", "m": "right part as now written; in the older form 𢓴 the parts are a step, the sun, and a trailing foot" } ],
+    "story": "The Shuowen enters an older graph, 𢓴, and glosses it as “to draw back; another sense, to walk slowly”. The word is the partner of 進, to advance, and the pair covers armies, careers, and manners. The Laozi takes the side of 退. The work carried through, the body steps back: the way of heaven (9). The Dao that goes forward seems to 退 (41). “I do not dare advance an inch; I 退 a foot” (69). The Mawangdui silk texts write the word 芮, and have it also in passage 7.",
+    "gap": "“Retreat” is a defeat and “retire” is the end of a career. 退 is a step backward, taken in good order, and it can be the strongest move."
+  },
+  "滿": {
+    "senses": ["full to overflowing", "to fill; to reach the full term", "satisfied; complacent"],
+    "shuowen": "盈溢也。从水㒼聲。",
+    "shuowenEn": "Full and running over. From 水 (water), with 㒼 for the sound.",
+    "parts": [ { "c": "氵", "m": "water" }, { "c": "㒼", "m": "sound part; level, even" } ],
+    "story": "Water at the rim and over it. The Shuowen defines it by 盈 and adds 溢, to spill. The proverb 滿招損，謙受益, “fullness invites loss, modesty receives gain”, comes from the Book of Documents. In the Laozi the received text has 滿 once: gold and jade fill the hall (9). The Mawangdui silk texts read 盈 there. 滿 is commonly explained as a Han replacement, made to avoid the personal name of Emperor Hui, Liu Ying.",
+    "gap": "“Full” is the end of a process in English. 滿 already includes the next moment: the spill."
+  }
+}

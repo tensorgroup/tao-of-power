@@ -1,0 +1,234 @@
+{
+  "n": 61,
+  "title": "The Great One Below",
+  "theme": "yielding",
+  "zh": [
+    {
+      "text": "大國者下流，",
+      "gloss": {
+        "2": "(marks the topic: “as for…”)",
+        "3": "low, lower",
+        "4": "to flow; a reach of a river"
+      }
+    },
+    {
+      "text": "天下之交。",
+      "gloss": {
+        "3": "a crossing, a meeting place; also intercourse"
+      }
+    },
+    {
+      "text": "天下之牝，",
+      "gloss": {
+        "3": "pìn: the female animal"
+      }
+    },
+    {
+      "text": "牝常以靜勝牡，以靜為下。",
+      "gloss": {
+        "1": "always; the silk texts are reported to have 恆",
+        "3": "stillness",
+        "4": "to overcome, to be equal to",
+        "5": "mǔ: the male animal",
+        "9": "to act as, to take the place of",
+        "10": "the one below"
+      }
+    },
+    {
+      "text": "故大國以下小國，",
+      "gloss": {
+        "4": "to put oneself below (a verb here)"
+      }
+    },
+    {
+      "text": "則取小國；",
+      "gloss": {
+        "1": "to take; to annex; to win over"
+      }
+    },
+    {
+      "text": "小國以下大國，則取大國。",
+      "gloss": {
+        "8": "to take; the silk texts are reported to add 於: to be taken in by"
+      }
+    },
+    {
+      "text": "故或下以取，或下而取。",
+      "gloss": {
+        "1": "in one case; some",
+        "3": "in order to",
+        "8": "and so"
+      }
+    },
+    {
+      "text": "大國不過欲兼畜人，小國不過欲入事人。夫兩者各得其所欲，大者宜為下。",
+      "gloss": {
+        "3": "to go beyond",
+        "5": "to hold two together; to annex",
+        "6": "xù: to rear, to feed (as livestock)",
+        "14": "to enter",
+        "15": "to serve",
+        "29": "it is fitting; ought"
+      }
+    }
+  ],
+  "rendering": [
+    "A great state is [[the low reach of the river|xia-liu]]:",
+    "[[where all under heaven meets|jiao]],",
+    "[[the female|pin]] of all under heaven.",
+    "By stillness the female always [[gets the better of the male|jing-sheng]],",
+    "and by stillness [[takes the place below|xia-verb]].",
+    "",
+    "So a great state that puts itself below a small state",
+    "[[takes|qu]] the small state.",
+    "A small state that puts itself below a great state",
+    "[[takes the great state|qu-yu]].",
+    "So one goes low in order to take;",
+    "[[one goes low, and so takes|yi-er]].",
+    "",
+    "A great state wants no more than to [[gather people in and feed them|jian-xu]].",
+    "A small state wants no more than to [[enter and serve|ru-shi]].",
+    "Now both get what they want.",
+    "[[The great one ought to be the one below.|da-zhe]]"
+  ],
+  "notes": {
+    "xia-liu": {
+      "kind": "wordplay",
+      "title": "下流: a word of shame, turned",
+      "body": "下流 is the lower course of a river, the place toward which everything in the valley runs. In the moral language of the time it was a bad place to be. A disciple of Confucius says in the Analects: 君子惡居下流，天下之惡皆歸焉. “The noble person hates to dwell in the low reach, for all the foulness under heaven comes to rest there.” His example is the last Shang king: once a man is down, every crime is laid on him. In modern Chinese 下流 still means “low, obscene”. The Laozi takes this exact word and makes it the definition of greatness. The low reach is where the filth collects; it is also where the water collects, and the river is greatest at its mouth. The book has said it before: water is good because it stays where people hate to be (8); rivers and seas are kings of the hundred valleys because they are good at being below them (66). Wang Bi: the great state that sits low is where the whole realm flows.",
+      "src": [
+        "Analects 19.20",
+        "Wang Bi commentary on Laozi 61: 江海居大而處下，則百川流之。"
+      ]
+    },
+    "jiao": {
+      "kind": "variant",
+      "title": "交: confluence, and the other meaning",
+      "body": "交 is a crossing: the Shuowen’s picture is a person with crossed legs. 天下之交 is the place where all under heaven crosses: a confluence of rivers, a junction of roads, a centre of dealings between states (邦交 is still “diplomatic relations”). The word has a second sense that every reader knew. 交 is also the joining of male and female, and the next line names the female. The two short lines are set side by side on purpose: the world’s meeting place, the world’s female. The silk texts are reported to give them in the other order, 天下之牝，天下之交也, female first and crossing second, which makes the link to the lines on female and male smoother. In the received order the geography comes first and the body second. English must choose “confluence” or “intercourse”. The Chinese word is both a map and a bed.",
+      "src": [
+        "Shuowen Jiezi, 交部: 交，交脛也。从大，象交形。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "pin": {
+      "kind": "etymology",
+      "title": "牝: the female animal",
+      "body": "牝 has 牛, an ox, at its left, and the Shuowen defines it as 畜母也, “the mother among livestock”: cow, mare, ewe. Its partner 牡, “the father among livestock”, stands in the next line. These are a herdsman’s words. They are not 女 and 男, woman and man, and not the cosmic pair 陰 and 陽. English writers on this book like “the Feminine” with a capital, and that brings in a 19th-century European idea of a soft, eternal, womanly principle. The Chinese is an animal in a field at mating time. The book uses the word at key points: the valley spirit that does not die is called the dark 牝, and her gate is the root of heaven and earth (6); the infant does not yet know the joining of 牝 and 牡 (55). Here a great state is told to be one. No ruler of the time, each a man with an army, could have liked the comparison.",
+      "src": [
+        "Shuowen Jiezi, 牛部: 牝，畜母也。从牛匕聲。",
+        "Shuowen Jiezi, 牛部: 牡，畜父也。从牛土聲。"
+      ]
+    },
+    "jing-sheng": {
+      "kind": "wangbi",
+      "title": "以靜勝牡: the plain image, and Wang Bi",
+      "body": "The image is of mating, and the text does not look away. The male moves, pursues, and is spent. The female is still and below, receives, and is not spent. 勝 is usually “to defeat”; the Shuowen gives its root sense as 任也, “to bear, to be equal to”. So the female is more than a match for the male, and outlasts him, and her means is 靜, stillness. Wang Bi says it without a blush: 雄躁動貪欲，雌常以靜，故能勝雄也. “The male is restless, moves, and is greedy in desire. The female is constant in stillness, and so can overcome the male.” He adds: 以其靜復能為下，故物歸之也, “by her stillness she is, further, able to be below, and so things come home to her”. The silk texts are reported to give the reasoning in other words: 為亓靚也，故宜為下, “because of her stillness, it is fitting that she be below”. Note that stillness comes first. The low place follows from it and is no trick of posture.",
+      "src": [
+        "Wang Bi commentary on Laozi 61",
+        "Shuowen Jiezi, 力部: 勝，任也。从力朕聲。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "xia-verb": {
+      "kind": "wordplay",
+      "title": "下: nine times",
+      "body": "Count the character 下 in this short passage: nine. It does five jobs. In 下流 it is an adjective, “lower”. In 天下, “under heaven”, it is part of the name of the world. In 以靜為下 and at the very end it is a noun: “the one below”. In 大國以下小國 it is a verb with an object, a use that English lacks: “a great state by under-ing a small state”. We wrote “puts itself below”. And in 下以取, 下而取 it is a verb alone: “to go low”. Classical Chinese lets a word change its part of speech without any change of form, and the passage uses that freedom to make one syllable sound through every line, like a low note held on a string. Even the world is named by it: all that is under. By the last line, 大者宜為下, the ear has been taught where greatness goes."
+    },
+    "qu": {
+      "kind": "geopolitics",
+      "title": "取: the conqueror’s verb",
+      "body": "取 is “to take”, and its picture is a hand on a severed ear, a war trophy; the Shuowen cites the army rule for it. 取國, “to take a state”, is in the chronicles the plain term for conquest. So the sentence says: by going below the small state, the great state takes it. This is hard speech, and soft versions (“wins its trust”, “gains its friendship”) mislead. The passage speaks to rulers who meant to swallow their neighbours, and it does not tell them to stop wanting it. It says that the armies are the wrong tool. Some commentators ease the word by reading 取 as 聚, “to gather” (the two graphs are related: 取 gives 聚 its sound). The effect is the same either way: the small state ends inside the great one. But it enters as a river enters the sea, of itself. Is that still conquest? What is the difference to the one who is taken?",
+      "src": [
+        "Shuowen Jiezi, 又部: 取，捕取也。从又从耳。《周禮》：“獲者取左耳。”",
+        "Shuowen Jiezi, 㐺部: 聚，會也。从乑取聲。"
+      ]
+    },
+    "qu-yu": {
+      "kind": "variant",
+      "title": "取大國, or 取於大國",
+      "body": "In our text the two sentences match: the great state 取 the small; the small state 取 the great. Can a small state “take” a great one? It can win it, as a client wins a patron. But the silk texts are reported to have one more word: 小邦以下大邦，則取於大邦 (so manuscript A; B writes 國 for 邦). 於 after a verb marks the agent or the source: “is taken by the great state”, or “gets from the great state”. With 於 the two sentences are not a mirror. The great one takes; the small one is taken in. The received text dropped the small word, and then the second 取 had to bear two senses. Wang Bi, who had the shorter text, still read it the old way: 大國納之也, “the great state admits it”. English cannot use one verb for “take” and “be taken”. Chinese can, and the lost 於 was the only sign of which was meant. See [[the next pair of lines|yi-er]].",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)",
+        "Wang Bi commentary on Laozi 61"
+      ]
+    },
+    "yi-er": {
+      "kind": "wordplay",
+      "title": "以 and 而: two small words",
+      "body": "或下以取，或下而取. The two halves differ by one particle. 以 joins an act to its aim: “to go low in order to take”. 而 only joins two things in time or result: “to go low, and take”, or, if 取 is passive as in [[the reported silk reading|qu-yu]], “to go low and so be taken in”. The first half is the great state. It has a choice and an aim; its lowness is policy. The second is the small state. It is low already, by its size; what it gets is a place. So the same act, 下, is a strategy in one case and a condition in the other, and the same verb, 取, is active in one and passive in the other. A whole theory of unequal relations is carried by 以 against 而. English has no way to do this in eight syllables. We gave “in order to” for 以 and “and so” for 而."
+    },
+    "shi-da": {
+      "kind": "geopolitics",
+      "title": "Great and small: the diplomacy behind the passage",
+      "body": "How great and small states should deal with each other was a set topic. The older code is stated in the Zuozhuan: 禮也者，小事大，大字小之謂, “ritual means that the small serves the great, and the great cherishes the small”. The small sent tribute and troops, and the great gave protection, in theory. By the fourth century the great simply ate the small. Mencius, asked by a king how to deal with neighbours, gave an answer close to this passage: only the humane can, being great, serve the small; only the wise can, being small, serve the great. He meant moral feeling. The Laozi gives no moral. It gives a mechanism, water, and a body, the female. The old phrase 事大, “serve the great”, had a long later life: for five centuries it was the name of Korea’s policy toward the Ming and Qing courts. The other half of the code, the duty of the great, was easier to forget.",
+      "src": [
+        "Zuozhuan, Zhao 30",
+        "Mencius 1B3"
+      ]
+    },
+    "jian-xu": {
+      "kind": "etymology",
+      "title": "兼畜: to bind sheaves, to keep a herd",
+      "body": "Two farm words for what a great state wants. 兼 is a hand that holds two stalks of grain at once: 从又持秝, says the Shuowen. From “to hold two together” it became the word of the age for swallowing states: 兼并, annexation. The Mohists used the same character for their ideal, 兼愛, care that takes in everyone. 畜 is livestock, and as a verb (xù) to rear and feed animals. It is the word for what the Dao’s 德 does for all things in passage 51: 德畜之, “德 rears them”. So 兼畜人 is “to bring people together under one hand and feed them”. People are the herd. English softens it to “unite and nourish”, but the Chinese is honest about power in a way that modern political speech is not. A governor was in fact called a 牧, a herdsman. The text does not sneer at the wish. It grants it: both get what they want.",
+      "src": [
+        "Shuowen Jiezi, 秝部: 兼，并也。从又持秝。兼持二禾，秉持一禾。",
+        "Shuowen Jiezi, 田部: 畜，田畜也。《淮南子》曰：“玄田爲畜。”"
+      ]
+    },
+    "ru-shi": {
+      "kind": "gap",
+      "title": "入事人: to go in and serve",
+      "body": "入 is to enter: a door, a court, a sphere. 事 is to serve, as a minister serves a lord. 入事人 is “to enter and serve people”, that is, to come inside a greater power’s order and take a place in it. A small state had few other ways to live. It could not win a war against a great one, and neutrality between two great ones was a quick death; the chronicles are full of small states crushed between Jin and Chu. Service bought survival, its ancestral temple kept, its lord left on his seat. The phrase 不過欲, “wants no more than”, is exact and a little dry. Neither side has a noble aim. One wants more people; the other wants to go on existing. The passage builds on wants as they are. Modern readers may hear “serve” as shame. In the old code it was the normal state of nearly everyone: son, wife, minister, and lesser lord."
+    },
+    "da-zhe": {
+      "kind": "gap",
+      "title": "大者宜為下: on whom the duty falls",
+      "body": "The last line has five words: “great-one-fitting-be-below”. 宜 is “it is fitting, it suits, ought”. It is a mild word, the “ought” of a good fit and not of a command. Why does the duty fall on the great? The small state is low already; its low place costs it nothing new and gains it little beyond its life. The great state has a choice, and its choice sets the terms for all. Wang Bi: 小國修下自全而已，不能令天下歸之，大國修下則天下歸之. “A small state that practises lowness only keeps itself whole; it cannot make all under heaven come to it. When a great state practises lowness, all under heaven comes to it.” The line is one of the few in the book that sounds like a plain political demand, and history has mostly ignored it. English “humble” is a feeling, and [[Legge’s words|legge]] are heavier still. 為下 is a position that one takes, like the lower seat at a table.",
+      "src": [
+        "Wang Bi commentary on Laozi 61"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “condescending”",
+      "body": "Legge writes that a great state gains small states “by condescending” to them, and that small states win a great one “by abasing themselves”. Both words are of his time. In Victorian English “to condescend” was still praise: a superior steps down graciously, and stays a superior. “Abasement” comes from the language of the pulpit, where the sinner abases himself before God. So his great state stoops from above, and his small state grovels. The Chinese has one word for both acts, 下, with no moral colour: to be under. He also softens the first line with “(like)”, and calls stillness “(a sort of) abasement”. His female “overcomes the male by her stillness”, which is exact. He ends with “the great state must learn to abase itself”. “Learn” is his. The text says only that it is fitting.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Take the lower seat",
+      "body": "In any meeting of two there is a greater and a smaller: by age, rank, money, knowledge, or need. Find one meeting today in which you are the greater. Then take the place below, in fact and not as a show. Go to the other’s room. Ask first, and wait through the answer. Let the other set the time. Sit lower if there are two chairs. Keep still; that is the female’s method in this passage, and the low place comes from it. Watch what flows toward you when you do not push. Then notice the cases in which you are the smaller, and see the difference: there your low place is not a choice. The passage asks nothing of you there. What it asks, it asks of the one who could do otherwise."
+    }
+  },
+  "lenses": {
+    "ground": "An image, a rule, and a bargain. The image comes in three quick names for a great state: [[the low reach of a river|xia-liu]], [[the meeting place|jiao]] of the world, the world’s [[female|pin]]. That image is then explained: by stillness she [[is more than a match for the male|jing-sheng]], and she is below. The rule is drawn from it in two matched sentences: great below small [[takes|qu]] the small; small below great [[takes, or is taken in by,|qu-yu]] the great. A summary marks the difference with [[two particles|yi-er]]. Then the bargain: the great wants to [[gather and feed people|jian-xu]], the small wants to [[enter and serve|ru-shi]], both get it, and the burden is assigned: [[the great should be below|da-zhe]]. The word 下 comes [[nine times|xia-verb]]. No Dao, no sage, and no 德 are named. The passage talks to kings in their own terms: size, taking, and wanting.",
+    "inner": "Take the two states as two parts of a person: a strong part that manages, plans, and knows, and the many small parts that it would like to command, a mood, a fear, a tired body, a wish that does not fit. The usual way is conquest: the great part overrides the small. The passage offers a different relation. The strong part goes below: it becomes still and receives. A fear that is listened to from below comes in, as a stream comes to a river, and what was a border war becomes one water. The female image is exact here. Receiving is an act, and it [[outlasts|jing-sheng]] the act of pushing. Nothing is given up. The great part still [[takes|qu]]. But it takes by being the place where things arrive, and that is also what is meant by a mind that is large.",
+    "leading": "The passage is realistic about power in a way that makes it useful. It does not ask the strong to become weak or to stop wanting. A great state, firm, or person wants [[to bring more people in and keep them|jian-xu]]; the passage says so without blame and then says how. The strong party that stands on its rank gets fear, and fear leaves when it can. The strong party that goes to the other, asks, serves first, and takes the lower chair gets what force cannot get: others who come of themselves. The burden is on the strong since only the strong have a choice; [[Wang Bi|da-zhe]] says why. There is a warning for the reader who likes this too much. Lowness that is used as a technique, with stillness missing, is felt as a trick. [[The old code|shi-da]] between great and small states failed at that point.",
+    "body": "Low wins. A wrestler, a judo player, and a taijiquan player all learn that the one whose centre is lower moves the one whose centre is higher. The lower hips take the other’s weight and turn it. But the passage gives the order of things, and it is stillness first: [[以靜為下|jing-sheng]]. A person who drops low with a restless mind is only crouching. Sink by letting go, not by pressing down, and the weight goes to the feet by itself, as water goes to [[the low reach|xia-liu]]. Then receive. In partner work, do not meet the push; be the place where it arrives, and it has nothing to stand on. The same holds for the voice in a quarrel: the one who speaks lower and slower, from stillness, is the one toward whom the talk begins to flow.",
+    "nature": "Every river system is this passage. Small streams are high, fast, and loud. The great river is low, slow, and wide, and it is great only for that reason: it lies below all the others and they have nowhere else to go. The sea is the lowest of all and is never full. A delta, the lowest land, is the richest; the first cities were built on such ground. [[下流|xia-liu]] is also where the silt, the dead leaves, and the dirt of a whole country end up. The low place takes what nobody wants along with the water, and makes soil of it. In the script and in the book, the valley, [[the female|pin]], and the low water are one family of images. What they share is that they receive, and that what receives grows.",
+    "practice": "Do the exercise of [[the lower seat|practice]] once today, in a meeting where you are the stronger. Keep the order of the passage: become still first, then go low. Afterwards ask two things. What came toward me that I did not pull? And did I do it [[in order to take|yi-er]], or did I do it and find that something was given?"
+  },
+  "glyph": "兼",
+  "plates": [
+    {
+      "c": "兼",
+      "title": "One hand, two stalks",
+      "lesson": "The Shuowen explains this character with a comparison, like a teacher who sets two things side by side. 兼持二禾，秉持一禾: “兼 holds two stalks of grain; 秉 holds one.” Look at 秉 first: 禾, a grain plant with its bent head, and through its middle a hand, 又 in an old shape, that grips the stalk. It means “to grasp, to hold” a brush, a candle, power. Now give the hand a second stalk. The Shuowen: 从又持秝, “from a hand that holds 秝”, and 秝 is two 禾 side by side, grain planted in an even row. In the modern form of 兼 the two plants have run together: the two verticals in the middle are their stalks, the two small strokes on top are their heads, the two strokes at the foot are their roots, and the horizontal lines with a corner are the hand that binds them. To hold two as one: “both, at once, to combine”. The Warring States gave the word its hard sense, 兼并, to swallow a neighbour, and the Mohists its generous one, 兼愛, to care for all alike. [[A great state wants to 兼|jian-xu]]. Add 言, speech, and you get 謙, “modest”, the name of a hexagram of the Changes that shows a mountain placed under the earth: the high below the low. It is the cousin that this passage is about. Add 广, a hall: 廉, the clean edge of passage 58.",
+      "brush": "Ten strokes. Two short strokes at the top that lean toward each other: a dot on the left and a short fall to the left on the right. Then a horizontal. Then a horizontal that turns down at the right: the first part of the hand. Then the long horizontal, the widest stroke, which crosses the whole character. Then one more short horizontal below it. Now the two stalks: two verticals side by side, drawn down through all the horizontals. Then the roots: a stroke that falls to the left and a stroke that falls to the right. Watch the two verticals. They are the heart of the meaning and must be twins: parallel, the same length, the same distance from the centre. If one is stronger, the hand holds one stalk and a shadow. The two last strokes spread wide and settle the weight."
+    },
+    {
+      "c": "畜",
+      "title": "The dark field",
+      "lesson": "Top: 玄. Bottom: 田, a field, which the Shuowen calls a picture of plots with the paths that cross between them. The Shuowen’s entry for 畜 is short and odd: 田畜也, “livestock of the fields”, and then a quotation from the Huainanzi: 玄田爲畜, “dark field makes 畜”. That is an old teaching rhyme for the two parts. 玄 is the “dark” of the book’s first passage, and its picture is commonly explained as a twisted cord or a skein of silk. So some modern scholars see a rope above a field, a beast on a tether, and others see a different thing in the early forms; the origin is not settled. What is clear is the range of meaning. As a noun, read chù, it is the animals that people keep: ox, horse, sheep, pig, dog, fowl, the “six 畜”. As a verb, read xù, it is to rear them: to feed, to pen, to keep, to tame. From there it means to support a family, to keep retainers, and to store up; with the grass sign on top it is 蓄, “to save, to hoard”, which the Shuowen glosses 積也. Two hexagrams of the Changes are named with it: “Small Taming” and “Great Taming”. In this book the verb is tender: the Dao gives life to things, and 德 rears them (51). In this passage it is what [[a great state wants to do with people|jian-xu]]. Both senses are true of a herd.",
+      "brush": "Ten strokes. The dark part first, five strokes: a dot; a horizontal; then two strokes of the same kind, each falling to the left and turning back to the right, one under the other like two twists of a cord; then a dot at the lower right that closes the twist. Then the field, five strokes: the left side; the top and right side in one stroke with a corner; the horizontal inside; the vertical inside; and the base. Watch the two folds of the cord. Each is one movement of the brush, down-left and back, with the turn made by pressure and not by a lift. They must stack exactly, and the field must sit square under them, a little wider than the cord. A tall narrow field makes the character weak. A broad field holds the tether."
+    },
+    {
+      "c": "交",
+      "title": "Crossed legs",
+      "lesson": "Six strokes that the Shuowen reads as a body: 交脛也。从大，象交形, “crossed shins; from 大, a person, and it shows the form of crossing”. 大 is the standing human with arms out. In 交 the upper part is still that figure, head and arms, and at the bottom the two legs do not stand apart as in 大. They cross, the left leg swinging right and the right leg swinging left. From a person with crossed legs the word took in everything that crosses: roads, rivers, glances, swords, and the dealings of people. To 交 is to hand over, to exchange, to make friends (交友), to conduct relations between states (外交 is “diplomacy” today), and to mate. The Changes uses it for the largest crossing of all. Its hexagram “Peace” is drawn with earth above and heaven below, and the comment says 天地交而萬物通也, “heaven and earth cross, and the ten thousand things go through”. That hexagram is this passage as a diagram: the high one has gone below, and for that reason things flow. The family of 交 keeps the idea of two that meet: 郊, the outskirts where town and country meet, and where the king offered the great sacrifice; 校, a school; 較, to compare. [[The meeting place of all under heaven|jiao]] is a cross drawn on the map.",
+      "brush": "Six strokes. A dot on top. A horizontal under it. Then two short strokes under the horizontal: one that falls to the left and one that falls to the right, like the character 八; these are what remains of the arms and the body. Then the crossing itself: a long stroke that starts on the right side and falls to the left, and a last stroke that starts on the left side, crosses the fifth stroke, and sweeps out to the right with a pressed, flared end. Watch the point where the last two strokes cross. It must lie exactly under the dot at the top, on the centre line. The two long strokes should open at the same angle, so the figure is balanced on its crossed legs. In cursive script the four lower strokes are written as one continuous knot."
+    }
+  ]
+}

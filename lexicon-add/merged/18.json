@@ -1,0 +1,72 @@
+{
+  "孝": {
+    "senses": ["a child’s devotion and service to parents", "to mourn a parent; mourning dress"],
+    "shuowen": "善事父母者。从老省，从子。子承老也。",
+    "shuowenEn": "One who serves father and mother well. From 老 (old), abbreviated, and 子 (child). The child bears up the old.",
+    "parts": [{"c": "耂", "m": "top of 老: an old person"}, {"c": "子", "m": "a child"}],
+    "story": "An old person above, a child below, and the child carries. 孝 was the root virtue of the Confucian family and later of imperial law. The Laozi names it twice, each time paired with 慈, a parent’s care. When the six kin are out of tune, there are 孝慈 (18). Drop the slogans of humaneness and duty, and the people return to 孝慈 (19). So the book has no quarrel with the thing. It notes when the word becomes loud.",
+    "gap": "“Filial piety” is a term from Latin and the church. 孝 is concrete: to feed, to carry, to bury, to remember."
+  },
+  "義": {
+    "senses": ["what is fitting; right conduct; duty", "dignified bearing (Shuowen)", "meaning, sense", "adopted, artificial (義父, a foster father)"],
+    "shuowen": "己之威儀也。從我、羊。",
+    "shuowenEn": "One’s own dignified bearing. From 我 (I; at first a weapon) and 羊 (sheep).",
+    "parts": [{"c": "羊", "m": "sheep; a sign of good things"}, {"c": "我", "m": "I, we; commonly explained as a toothed axe"}],
+    "story": "The second great Confucian virtue, joined with 仁 by Mencius as a pair. It is duty as fitted to a role. The Laozi places it low: when the great Dao falls there are 仁義 (18); cut them off and the people return to family feeling (19); 義 comes after humaneness is lost and before ritual (38).",
+    "gap": "“Righteousness” brings a judging God. “Justice” brings a law court. 義 is nearer to “doing the fitting thing in one’s place”."
+  },
+  "臣": {
+    "senses": ["a subject, a minister; one who serves a lord", "a bondsman, a captive (early)", "“I”, in speech to a ruler"],
+    "shuowen": "牽也。事君也。象屈服之形。",
+    "shuowenEn": "To be led. To serve a lord. It shows the form of one who bends in submission.",
+    "story": "The Shuowen sees a bowed body; modern scholars commonly see an eye turned on end, the eye of one whose head is lowered. From captive to minister, the word kept the sense of service to one above. In the Laozi the uncarved wood is small, and no one in the world can make it a 臣 (32); the loyal 臣 appears when state and house are in the dark (18).",
+    "gap": "“Minister” has rank and “subject” has none; “servant” is too low. 臣 is all of them: anyone seen from the throne."
+  },
+  "仁": {
+    "senses": ["humaneness; fellow-feeling", "kind, humane", "the kernel of a fruit stone (later)"],
+    "shuowen": "親也。从人从二。",
+    "shuowenEn": "Closeness, kinship. From 人 (person) and 二 (two).",
+    "parts": [{"c": "亻", "m": "a person"}, {"c": "二", "m": "two"}],
+    "story": "A person and two: what exists between people. Confucius made it the highest quality of a human being. The Laozi answers from a wider frame. Heaven and earth are not 仁 (5); when the great Dao falls there are 仁 and 義 (18); the highest 仁 acts and has no motive for acting, and still it comes only after the Way and its power are lost (38). Yet the good giver is 仁 in passage 8.",
+    "gap": "“Benevolence” looks down from above. 仁 is level: one person and another."
+  },
+  "廢": {
+    "senses": ["of a house: to collapse", "to fall out of use; to abandon; to abolish", "to depose", "crippled, useless, waste"],
+    "shuowen": "屋頓也。从广發聲。",
+    "shuowenEn": "A house that collapses. From 广 (a building), with 發 for the sound.",
+    "parts": [{"c": "广", "m": "a hall, a shed"}, {"c": "發", "m": "sound; alone: to shoot, to send out"}],
+    "story": "A building that falls in for lack of care. In passage 18 it is what happens to the great Dao; in passage 36 it is paired with 興: “to make a thing fall, first raise it up”.",
+    "gap": "“Abandoned” needs someone who abandons. 廢 can happen with nobody to blame."
+  },
+  "偽": {
+    "senses": ["made by people; artifice; acquired by effort", "false, counterfeit, pretended"],
+    "shuowen": "詐也。从人爲聲。",
+    "shuowenEn": "Deceit. From 人 (person), with 爲 for the sound. (The Shuowen writes the graph in its fuller form, 僞.)",
+    "parts": [{"c": "亻", "m": "a person"}, {"c": "為", "m": "to do, to make"}],
+    "story": "A person plus “to make”. For Xunzi it is a proud word: what is good in people is made, not born. For the Laozi it is what appears when cleverness comes out (18). The Guodian slips are reported to have it in passage 19 as a thing to cut off.",
+    "gap": "“Hypocrisy” judges a motive. 偽 only says “made”; it is the reader who decides if made is false."
+  },
+  "慈": {
+    "senses": ["a parent’s tender care", "gentle, compassionate", "one’s mother (家慈)"],
+    "shuowen": "愛也。从心兹聲。",
+    "shuowenEn": "To love, to cherish. From 心 (heart), with 兹 for the sound.",
+    "parts": [{"c": "兹", "m": "sound part"}, {"c": "心", "m": "heart"}],
+    "story": "Care that goes down, from the older to the younger. Paired with 孝 in passages 18 and 19. In passage 67 it stands alone as the first of three things to treasure: “with 慈, one can be brave”, and heaven guards with 慈 those whom it would save. Buddhism later used it for the kindness of a bodhisattva (慈悲).",
+    "gap": "“Compassion” in English suffers with another. 慈 is the strong tenderness of a mother toward a child."
+  },
+  "忠": {
+    "senses": ["loyal; to do one’s utmost for another", "honest, whole-hearted"],
+    "shuowen": "敬也。从心中聲。",
+    "shuowenEn": "Reverent care. From 心 (heart), with 中 (centre) for the sound.",
+    "parts": [{"c": "中", "m": "centre; here also the sound"}, {"c": "心", "m": "heart"}],
+    "story": "A heart at its centre. In early use it is whole-heartedness toward anyone; the empire narrowed it to loyalty to the ruler. The Laozi has it twice: loyal ministers appear when the state is dark (18), and ritual is “the thin edge of 忠 and trust” (38).",
+    "gap": "“Loyalty” is owed to someone. 忠 is first a state of the heart: undivided."
+  },
+  "亂": {
+    "senses": ["disorder, revolt, a tangle", "to put in order (old sense)", "the closing section of a song"],
+    "shuowen": "治也。从乙，乙，治之也；从𤔔。",
+    "shuowenEn": "To put in order. From 乙, which is “to set it in order”, and 𤔔.",
+    "story": "A word that holds its own opposite: the tangle, and the untangling. The early graph is commonly explained as two hands at a frame of tangled silk. In the Laozi it is always the disorder: do not show what is desirable, and the people’s hearts are not in 亂 (3); state and house are dark and in 亂 (18); ritual is the head of 亂 (38); order things before they are in 亂 (64).",
+    "gap": "“Chaos” is cosmic. 亂 is social and near: a household, a court, a skein."
+  }
+}

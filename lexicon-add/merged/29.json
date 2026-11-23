@@ -1,0 +1,56 @@
+{
+  "取": {
+    "senses": ["to take, to seize, to capture", "to fetch, to get; to choose", "to take a wife (later written 娶)"],
+    "shuowen": "捕取也。从又从耳。《周禮》：“獲者取左耳。”《司馬法》曰：“載獻聝。”聝者，耳也。",
+    "shuowenEn": "To capture. From 又 (hand) and 耳 (ear). The Rites of Zhou say: “The one who takes a captive takes the left ear.” The Methods of the Marshal say: “They carry and present the cut ears.” 聝 means the ear.",
+    "parts": [{"c": "耳", "m": "an ear"}, {"c": "又", "m": "a hand"}],
+    "story": "取 is a hand that takes hold of an ear. The Shuowen explains it from the custom of cutting the left ear of a fallen or captured enemy as proof for the count. The everyday verb “to take” thus began on a battlefield. In the Laozi, 取天下, “to take all under heaven”, is the ambition that defeats itself when pursued by doing (29); the world is taken only by having no business with it (48, 57). A large state “takes” a small one by lying below it (61).",
+    "gap": "English “take” is colourless. 取 keeps a trace of force and of a trophy."
+  },
+  "神": {
+    "senses": ["a spirit, a divine power (of sky, mountain, river, ancestor)", "numinous, of the spirits; beyond reckoning", "the spirit or vital awareness in a person"],
+    "parts": [{"c": "礻", "m": "an altar: matters of spirits and rites"}, {"c": "申", "m": "lightning (early form); also the sound"}],
+    "story": "The right side, 申, is commonly read as a fork of lightning in its early forms, and the Shuowen glosses 申 with the word 神 itself. The left side marks the altar. A 神 is a power that is real, unseen, and not under human command. The Laozi uses the word for the valley spirit that does not die (6), for the world as a “spirit vessel” that cannot be worked on (29), for spirits that gain their potency from the One (39), and for ghosts that lose the power to harm when the world is ruled by Dao (60).",
+    "gap": "“God” is singular and a creator; “spirit” suggests a ghost or a mood. 神 is plural, local, and as physical as lightning."
+  },
+  "執": {
+    "senses": ["to arrest, to seize (a criminal)", "to hold in the hand, to grip", "to hold to, to maintain; later (Buddhist): to cling"],
+    "shuowen": "捕罪人也。从丮从幸，幸亦聲。",
+    "shuowenEn": "To arrest a criminal. From 丮 (a kneeling person with hands out) and 幸 (here the old graph 㚔, manacles), which also gives the sound.",
+    "parts": [{"c": "幸", "m": "here: 㚔, wooden manacles"}, {"c": "丸", "m": "here: 丮, a kneeling person with both hands held out"}],
+    "story": "執 pictures a kneeling person with the hands in a shackle. From “arrest” it widened to any firm hold: to hold a brush, to hold office, to hold a view. The Laozi warns against the grip: “who grips it loses it” (29, 64). Yet it also says to “hold the great image” (35) and “hold the Dao of old” (14); there the hold is of something that cannot be shackled. Buddhist translators later used the word for attachment.",
+    "gap": "English “hold” is gentle. 執 began as handcuffs."
+  },
+  "敗": {
+    "senses": ["to ruin, to spoil, to wreck", "to defeat; to be defeated", "to go bad, to decay"],
+    "shuowen": "毀也。从攴、貝。敗、賊皆从貝，會意。",
+    "shuowenEn": "To wreck. From 攴 (a hand with a stick) and 貝 (shell). 敗 and 賊 (robber) both have the shell; a joined-meaning graph.",
+    "parts": [{"c": "貝", "m": "a cowrie shell: something of value"}, {"c": "攵", "m": "a hand with a stick: to strike"}],
+    "story": "A valued thing struck with a stick. The word covers a pot that is broken, food that has gone off, a plan that fails, and an army that is beaten. The Laozi uses it for what deliberate doing brings about: “who works on it ruins it” (29, 64), and people “always ruin their affairs when they are close to done” (64).",
+    "gap": "English separates “to spoil” from “to be defeated”. In 敗 the one who spoils the work and the one who loses are the same person."
+  },
+  "奢": {
+    "senses": ["stretched out, spread wide (Shuowen)", "lavish, extravagant", "excessive"],
+    "shuowen": "張也。从大者聲。",
+    "shuowenEn": "Stretched out. From 大 (big); 者 gives the sound.",
+    "parts": [{"c": "大", "m": "big; a person with arms spread"}, {"c": "者", "m": "sound part"}],
+    "story": "奢 is display that takes more room than it needs. In the classics it is the standing opposite of 儉, thrift; Confucius says that in ritual it is better to be sparing than lavish. In Laozi 29 it is the second of three excesses that the sage puts away, between 甚 (too much pleasure) and 泰 (too much grandeur). Passage 67 names thrift as one of the speaker’s three treasured things.",
+    "gap": "“Extravagance” sounds like a private vice. 奢 in a ruler meant terraces, taxes, and conscript labour."
+  },
+  "泰": {
+    "senses": ["smooth, slippery (Shuowen)", "great, grand; at ease, at peace", "too grand, arrogant, excessive"],
+    "shuowen": "滑也。从廾从水，大聲。",
+    "shuowenEn": "Slippery. From 廾 (two hands) and 水 (water); 大 gives the sound.",
+    "parts": [{"c": "大", "m": "big; sound part"}, {"c": "廾", "m": "two hands"}, {"c": "氺", "m": "water"}],
+    "story": "Two hands and water under “big”: the Shuowen’s sense is smoothness, as of water slipping through the hands. The word came to mean ease and greatness (it is the name of hexagram 11, Peace, and of Mount Tai), and then ease that has turned to pride. In Laozi 29 it is the third excess that the sage removes. In passage 35 it is still a good word: those who go to the one who holds the great image find “safety, evenness, peace”.",
+    "gap": "English has no one word that is good at one strength and bad at a stronger one. 泰 is “great” until it is “too great”."
+  },
+  "甚": {
+    "senses": ["the height of ease and pleasure (Shuowen)", "very, extremely", "extreme, excessive"],
+    "shuowen": "尤安樂也。从甘，从匹耦也。",
+    "shuowenEn": "The utmost ease and pleasure. From 甘 (sweet) and 匹, a mate, a pair.",
+    "parts": [{"c": "甘", "m": "sweet"}, {"c": "匹", "m": "a mate, a match"}],
+    "story": "In the Shuowen’s reading the graph joins sweetness and a partner: as much delight as one can have. In common use it is only the adverb “very”. The Laozi uses it with care: “much love means great expense” (44) uses it, the court that is “very swept” while the fields are “very weedy” (53) uses it, and in 29 it stands by itself as the first thing the sage puts away: the extreme.",
+    "gap": "“Extreme” in English is neutral. 甚 keeps a taste of sweetness: it is too much of something one likes."
+  }
+}

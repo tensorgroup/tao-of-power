@@ -1,0 +1,201 @@
+{
+  "n": 35,
+  "title": "Bland Beside the Feast",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "執大象，天下往。",
+      "gloss": {
+        "0": "zhí: to grip, to hold in the hand; at first, to arrest",
+        "2": "image, figure, emblem; first, an elephant",
+        "6": "wǎng: to go toward (not “to come”)"
+      }
+    },
+    {
+      "text": "往而不害，安平太。",
+      "gloss": {
+        "3": "harm, injury; to harm",
+        "5": "rest, safety; some read it as “then, and so”",
+        "6": "level, even",
+        "7": "tài: great ease; the same word as 泰"
+      }
+    },
+    {
+      "text": "樂與餌，過客止。道之出口，淡乎其無味，視之不足見，聽之不足聞，用之不足既。",
+      "gloss": {
+        "0": "yuè here: music; the same graph is lè, joy",
+        "2": "ěr: a cake of rice or flour; also bait for fish",
+        "4": "guò: to pass by",
+        "5": "guest, lodger, traveler, stranger",
+        "6": "stops (a foot that comes to rest)",
+        "11": "mouth: the organ that speaks and eats",
+        "13": "dàn: thin in flavor, bland, pale",
+        "22": "enough, sufficient to",
+        "35": "jì: to finish, to use up; at first, to finish a meal"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Hold|zhi]] the [[great image|daxiang]]:",
+    "all under heaven [[goes toward it|wang]].",
+    "Goes, and [[meets no harm|hai]]:",
+    "[[rest, evenness, great ease|anpingtai]].",
+    "",
+    "[[Music|yue]] and [[cakes|er]]:",
+    "the [[passing guest|guoke]] stops.",
+    "The Dao, [[as it comes out of the mouth|chukou]]:",
+    "[[bland|dan]]! It has no flavor.",
+    "",
+    "Look at it: [[not enough to see|buzu]].",
+    "Listen to it: not enough to hear.",
+    "Use it: not enough [[to end it|ji]]."
+  ],
+  "notes": {
+    "zhi": {
+      "kind": "etymology",
+      "title": "執: the grip of an arrest",
+      "body": "執 is a hard word for “hold”. The Shuowen defines it as 捕罪人也, “to seize a criminal”, and the early forms are commonly explained as a person on the knees with both hands in a wooden shackle. From that came each firm grip: to hold a tool, a post, an opinion. The Laozi mostly speaks against it: 執者失之, “the one who grips it loses it” (29 and 64). Now it tells the reader to grip, and the thing to be gripped is [[an image with no shape|daxiang]]. The hand closes on nothing. Passage 14 has the same hard grammar: 執古之道, “hold the Dao of old”, in the passage that says the Dao cannot be seen, heard, or touched. How does a hand hold that which it cannot close around? Perhaps only by not holding a different thing.",
+      "src": [
+        "Shuowen Jiezi, 㚔部: 執，捕罪人也。"
+      ]
+    },
+    "daxiang": {
+      "kind": "gap",
+      "title": "大象: image, emblem, elephant",
+      "body": "象 is the elephant; the Shuowen describes its long nose and tusks. By the Warring States the word also meant a likeness, the form by which an unseen thing is known. It became a technical term: the signs in the sky are 天象, and the figures of the Book of Changes are 象. English “image” suggests a picture in the mind, a thing that a person forms. Passage 41 says that this one cannot be formed: 大象無形, “the great image has no shape”. So 大象 is a name for the Dao: the pattern behind all patterns. [[Wang Bi|wangbi]] calls it “the mother of heaven’s images”. A reader of Chinese also sees, for a moment, the animal: “take hold of the great elephant”. The line does not mean that. But the largest land animal is in the word, and it is hard to hold.",
+      "src": [
+        "Shuowen Jiezi, 象部: 象，長鼻牙，南越大獸，三秊一乳，象耳牙四足之形。"
+      ]
+    },
+    "wang": {
+      "kind": "geopolitics",
+      "title": "天下往: people went on foot to a better state",
+      "body": "往 is “to go toward”. The Shuowen glosses it with 之, “to go to”. Most English versions write “comes”, from the viewpoint of the one who holds. The Chinese stands with the people: they go. In the Warring States this was a fact of policy. Borders were open to farmers, and the strength of a state was its number of households. Rulers competed for migrants. King Hui of Liang complains to Mencius that he works hard for his people and yet his population does not grow. Mencius answers that people go to a humane ruler 由水之就下, “as water goes downward”. The Laozi agrees about the movement and removes the program. Nothing is offered. The one at the center holds an image that has no shape, and the world walks toward it.",
+      "src": [
+        "Shuowen Jiezi, 彳部: 往，之也。",
+        "Mencius 1A3 and 1A6"
+      ]
+    },
+    "hai": {
+      "kind": "gap",
+      "title": "往而不害: who does not harm whom?",
+      "body": "Four characters: “go / and / not / harm”. Classical Chinese does not mark active and passive, and gives no object. Three readings are in the line together. The people go and are not harmed; we render this one. The people go and do no harm, to each other or to the one they go to. Or the going itself does no damage: the world moves and nothing breaks. [[Wang Bi|wangbi]] keeps the third: the great image is formless and leans to no side, so all things can go and are not hindered. The Shuowen defines 害 as 傷也, “to wound”, and says that the roof and the mouth in the graph show that harm starts with words in the house. Legge and many others add “him” and “men”. The Chinese has no persons here, only motion and no wound.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 害，傷也。从宀从口。宀、口，言从家起也。"
+      ]
+    },
+    "anpingtai": {
+      "kind": "wordplay",
+      "title": "安平太: three words for peace, or two",
+      "body": "Three characters with no grammar between them. 安 is a woman under a roof: the Shuowen says 靜也, “still”, 从女在宀下. It is the peace of being safe at home. 平 is “level”: ground with no high and low, a scale in balance, and so fairness. 太 is the same word as 泰: wide, at ease; it is the name of the hexagram in the Book of Changes where heaven and earth meet. So: safety, evenness, ease. English has one word, “peace”, and its root is a pact that ends a war. A second reading is old and serious. 安 is also a connecting word, “then, thereupon”. The line is then “they go and meet no harm; and so: even, and at great ease”, and 平太 is one compound. The same two words in the other order became [[a slogan with a long history|taiping]].",
+      "src": [
+        "Shuowen Jiezi, 宀部: 安，靜也。从女在宀下。",
+        "Wang Yinzhi, Jingzhuan shici, on 安 as “then”"
+      ]
+    },
+    "taiping": {
+      "kind": "history",
+      "title": "太平: what the two words did later",
+      "body": "平 and 太 in this line, reversed, are 太平, “Great Peace”. In the Han dynasty this became the name of the perfect age that a true ruler would bring. A long religious book, the Taipingjing, the “Scripture of Great Peace”, promised it. In 184 CE the Yellow Turban movement rose under that sign with hundreds of thousands of followers, and the wars that followed ended the Han. Seventeen centuries later a rebel state took the same name, the Taiping Heavenly Kingdom (1851–1864), now with a Christian vision; its war cost some twenty million lives. So the words of a line about a world that meets no harm were carried on the flags of two of the bloodiest risings in Chinese history. Each time, people held an image very tightly. Was it the great image, or [[music and cakes|er]]?"
+    },
+    "yue": {
+      "kind": "wordplay",
+      "title": "樂: music, and joy",
+      "body": "One graph writes two words: yuè, “music”, and lè, “joy, pleasure”. The Confucian school made a doctrine of the pun: 樂者樂也, “music is joy”, says the Record of Music. The Shuowen takes the graph as a picture of drums on a wooden stand: 象鼓鞞。木，虡也. Here the word is yuè, because it stands beside food as the second attraction of a feast. But the reader sees lè too: pleasure and cakes. Music was also statecraft. Court music with bronze bells was a ruler’s display, and Confucians held that correct music made correct people. The Mohists wrote a whole chapter, “Against Music”, on its cost. The Laozi does not argue. It only notes what music does to a person on the road: the person stops.",
+      "src": [
+        "Shuowen Jiezi, 木部: 樂，五聲八音緫名。象鼓鞞。木，虡也。",
+        "Liji, “Yue ji”: 樂者樂也。",
+        "Mozi, “Fei yue”"
+      ]
+    },
+    "er": {
+      "kind": "wordplay",
+      "title": "餌: cake, and bait",
+      "body": "餌 has 食, food, at the left. It is a cake of steamed rice or flour, a treat for a feast. It is also the usual word for bait: the thing on the hook, the thing in the trap. Later, 餌 is the verb for “to lure” an enemy, and Daoist texts use it for taking drugs of long life. The line gives the pleasant sense first: music and cakes, and the traveler stops, as any tired person does. The second sense arrives a moment later. The traveler has been caught. Good smells and sounds are the hooks of the world, and the Dao is described next as a thing with no smell and no sound: it has nothing to put on a hook. Notice the fairness of this. The Dao does not catch people. What stopped you on the road today?"
+    },
+    "guoke": {
+      "kind": "history",
+      "title": "過客: the one who is passing through",
+      "body": "客 is a guest, and also a stranger: a person who lodges in a house that is not theirs. The Shuowen defines it as 寄也, “to lodge, to stay for a time”. The roads of the Warring States were full of 客: traders, envoys, and the “guest-ministers” who went from court to court with advice to sell. Great lords kept thousands of them at their tables, and fed them in grades. 過客 is a guest who is only passing. Later Chinese poetry took the phrase as a name for human life. Li Bai wrote: 夫天地者，萬物之逆旅也；光陰者，百代之過客也. “Heaven and earth are the inn of the ten thousand things; time is the passing guest of a hundred generations.” Read the line with that sense. Each of us is on the way through, and each of us stops for music and cakes.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 客，寄也。从宀各聲。",
+        "Li Bai, “Preface for a Spring Night Feast in the Peach-Blossom Garden”"
+      ]
+    },
+    "chukou": {
+      "kind": "variant",
+      "title": "出口: out of the mouth that eats",
+      "body": "道之出口 is “the Dao’s coming out of the mouth”: the Dao as it is spoken. 道 itself can mean “to say”, as in the first line of the book, so the phrase is also “the saying, as it leaves the mouth”. The Mawangdui silk texts are reported to read 故道之出言也，曰淡呵亓無味也: “so when the Dao puts out words, they are called bland: they have no flavor”. [[Wang Bi|wangbi]] also paraphrases with 出言, “puts out words”. The received 口 is the stronger picture. The Shuowen defines the mouth as 人所以言食也, “that with which a person speaks and eats”. One opening, two directions: cakes go in, words come out. The passage puts the Dao in the traffic of the mouth and says that it has no taste. English “when it is spoken” loses the tongue.",
+      "src": [
+        "Shuowen Jiezi, 口部: 口，人所以言食也。象形。",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "dan": {
+      "kind": "gap",
+      "title": "淡: bland is a word of praise",
+      "body": "The Shuowen defines 淡 as 薄味也, “thin flavor”. In English, “bland”, “insipid”, and “tasteless” are complaints; [[Legge|legge]] wrote “insipid”. In Chinese, 淡 became one of the highest words of praise. The Zhuangzi says: 君子之交淡若水，小人之交甘若醴. “The friendship of noble people is bland like water; the friendship of small people is sweet like new wine.” Water does not tire the tongue, so one can drink it for a lifetime. Painters and poets later prized 平淡, the “even and bland”: pale ink, plain words, a style with nothing that seizes the eye. The Laozi itself says 恬淡為上, “calm and bland is best” (31), and tells the reader to 味無味, “taste that which has no taste” (63). A strong flavor ends the appetite. What have you been able to return to every day without tiring of it?",
+      "src": [
+        "Shuowen Jiezi, 水部: 淡，薄味也。从水炎聲。",
+        "Zhuangzi, “Shan mu” (山木)"
+      ]
+    },
+    "buzu": {
+      "kind": "wordplay",
+      "title": "不足: three times “not enough”",
+      "body": "The last three lines have one frame: verb, 之, 不足, verb. Look at it, not enough to see. Listen to it, not enough to hear. The pairs are exact in Chinese: 視 is to direct the eyes and 見 is to see something; 聽 is to give ear and 聞 is to hear something. The effort is made and the result does not come. Passage 14 has the same pairs: 視之不見…聽之不聞, “look for it, not seen; listen for it, not heard”. 足 is a foot, and so “to have enough to stand on, to be worth”. The first two lines sound like a judgment against the Dao: it is not worth a look. Then the third line turns the same words around: use it, and the use is [[not enough to finish it|ji]]. The lack in the first two lines was on the side of our eyes and ears. In the third it is on the side of our need. We are too small to exhaust it."
+    },
+    "ji": {
+      "kind": "etymology",
+      "title": "既: the meal is over",
+      "body": "既 usually means “already”. Here it is a verb, “to finish, to come to the end of”. The Shuowen enters the word under the older graph 旣 and defines it as 小食也, “a small meal”. The early form is commonly explained as a person who kneels at a food vessel and has turned the head away: the meal is over. If that is right, the last word of the passage goes back to the table where the passage began, with music and cakes. A feast is the thing that ends: the dishes are emptied and the guest goes on. The Dao is the meal at which no one reaches the turn of the head. The Mawangdui silk texts are reported to read 用之不可既也, “use it: it cannot be finished”, with 可, “can”, where the pinned text repeats 足, “enough”, for a third time. The book says the same in other pictures: 用之不勤, “use does not wear it out” (6); 用之或不盈, “use never fills it” (4).",
+      "src": [
+        "Shuowen Jiezi, 皀部: 旣，小食也。从皀旡聲。",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: not cold, not warm, not cool",
+      "body": "Wang Bi on the first line: 大象，天象之母也，不寒不溫不涼，故能包統萬物，無所犯傷，主若執之，則天下往也. “The great image is the mother of heaven’s images. It is not cold, not warm, not cool; so it can enfold and gather the ten thousand things and wound none. If a lord holds it, all under heaven goes to him.” An image that has one quality, such as heat, excludes the opposite quality. Only an image with no quality can hold all. Note his word 主, lord: for Wang Bi the line is advice to a ruler. On the second half he is honest about the audience: when people hear the words of the Dao, 乃更不如樂與餌，應時感悅人心也, “they are in fact not equal to music and cakes, which at once move and please the human heart”.",
+      "src": [
+        "Wang Bi commentary on Laozi 35"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: “to him who holds”",
+      "body": "Legge begins “To him who holds in his hands the Great Image (of the invisible Tao), the whole world repairs.” The Chinese has no “him”: 執大象 is a bare verb and its object, and we render it as an imperative only because English needs some form. His bracket explains the image before the reader can wonder at it. His people “resort to him, and receive no hurt”; see [[the open grammar of that line|hai]]. For 餌 he writes “dainties”, a word from a Victorian tea table, and he softens the last part with “though … seems”: the Dao only seems insipid. The Chinese does not say “seems”. It says 無味: it has no flavor. Legge defends the Dao against a charge of dullness. The text pleads guilty, and [[means it as praise|dan]].",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Drink plain water slowly",
+      "body": "Pour a glass of plain water at room temperature. Drink it slowly, as you would taste a wine. For the first seconds the tongue looks for a flavor and reports that nothing is there: 無味. Stay with it. After some moments the water has a coolness, a weight, a faint sweetness or a mineral edge. The tongue had to become quiet before it could find them. Then notice the next thing that you taste after the water, and how loud it is. Do the same once today with the ears: one minute of the plain sound of the room before you put on music."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has two halves that seem not to fit. The first is about power: [[hold|zhi]] the [[great image|daxiang]] and the whole world [[moves toward it|wang]], unharmed, into [[three kinds of peace|anpingtai]]. The second is about dinner: [[music|yue]] and [[cakes|er]] stop a [[traveler|guoke]], but the Dao in the [[mouth|chukou]] has [[no flavor|dan]], and eye and ear get [[too little|buzu]] from it. The join is the question of attraction. Two things draw people. One draws by flavor, and the guest stops and later goes on. The other has no flavor at all, and all under heaven goes to it and stays whole. The first attraction is strong and short. The second is so weak that it cannot be sensed, and it [[does not run out|ji]].",
+    "inner": "Each experience that stops you has a flavor: pleasure, fear, a good idea, a mood. The one who tastes them has none. Attention to a sound is not loud; the sight of red is not red. Look for that which is aware and you find [[not enough to see|buzu]]: no color, no place, no edge. Contemplatives of many schools report the first meeting with it as a disappointment. It is [[bland|dan]]. The mind is a [[passing guest|guoke]] and goes back to the music. But a person can rest in that plainness for a whole life and not reach the end of it, and sights and sounds [[go to it and are not harmed|hai]] by it. To [[hold|zhi]] it is not a grip. It is closer to not being bought by each cake.",
+    "leading": "Rulers of the time wanted exactly the first line: that all under heaven should [[go to them|wang]]. Most tried [[music and cakes|er]]: displays, rewards, promises, a strong flavor of some kind. It works, and the passage admits it; the guest does stop. But a guest who came for the feast leaves when a better table is laid. A leader who draws people by charm must supply more charm each year. The second way is poor in drama. The leader keeps to a thing with no particular quality, which [[Wang Bi|wangbi]] calls “not cold, not warm, not cool”, and so excludes no one. People come and are [[not used|hai]]. Be careful with the [[later history of “Great Peace”|taiping]]: an image that is held with a shackle grip becomes a banner.",
+    "body": "Taste belongs to the body, and the body knows this passage well. Strong flavors, sugar and salt and fat, stop us as bait stops a fish; the food industry is a science of [[餌|er]]. The staple foods of the long-lived are bland: rice, bread, water, tea. You can eat them every day because they do not shout. The same law holds in movement. A showy effort feels like something; an efficient movement feels like almost nothing, and teachers of the internal martial arts say that correct structure feels [[bland|dan]], even empty. Breath is the clearest case. It has no flavor, you cannot see it, you hardly hear it, and you have used it since birth and [[not come to the end of it|ji]].",
+    "practice": "Do the [[water exercise|practice]]. Then make a list, in the evening, of what stopped you today as music and cakes stop a [[traveler|guoke]]: a headline, a snack, a message, a quarrel. No blame; the passage says plainly that this is what happens to guests. Then make a second list, shorter and harder: the flavorless things that carried the day and that you did not notice. Air, light, the floor, a person who was simply there. Ask of each list: which of these could I use for forty years?"
+  },
+  "glyph": "淡",
+  "plates": [
+    {
+      "c": "淡",
+      "title": "Water beside two fires",
+      "lesson": "Read it from the left. 氵 is water: three drops, the form that 水 takes at the side of a character. To the right are two fires, one on the other. 火 is a flame with a spark at each side; doubled, it is 炎, and the Shuowen says 火光上也。从重火, “the light of fire goes up; from fire, doubled”. Today 炎 means blazing heat and inflammation. So the character for “bland” is water beside a blaze. It is tempting to tell a story from that: fire put out, flavor boiled away. The Shuowen does not tell that story. It says 从水炎聲: water gives the meaning, and 炎 is there for its sound. Its definition is 薄味也, [[thin flavor|dan]], as a broth with too much water. But the sound part gives the character a family, and the family is worth a look. Put 言, speech, in place of the water, and you have 談, “to talk, to chat”, also 炎聲 in the Shuowen. This passage is about the Dao when it [[comes out of the mouth|chukou]]: its talk, 談, is 淡. In Mandarin the two differ only in tone, tán and dàn. That is the modern sound; but scholars of the old sounds also put both words in one rhyme group, and they name the group 談. The sense of 淡 grew from weak soup to pale colors, light ink, a quiet season of trade, and a calm heart: 淡泊, to want little.",
+      "brush": "Eleven strokes. Water first: a dot, a second dot under it, then a stroke that rises from low left toward the fires. Then the upper fire, in four strokes: a dot at the left, a short stroke at the right that falls left, the long stroke that falls to the left, and last a short dot where a long right-falling stroke would be. Then the lower fire: a dot, a short stroke that falls left, the long left-falling stroke, and the final long stroke that falls to the right. Watch stroke seven against stroke eleven. They are the same stroke of 火, but the upper fire draws its right leg in to a dot, and only the lower fire is given the full sweep. Two full sweeps would fight; a good hand lets one flame yield. The third water stroke points up at the flames, and the white space between water and fire must stay open."
+    },
+    {
+      "c": "客",
+      "title": "A foot arrives under a roof",
+      "lesson": "The top part, 宀, is a roof; you can see the ridge and the two eaves. It marks things of the house: 家 (home: a roof over 豕, a pig), 安 (rest: a roof over 女, a woman; see [[three words for peace|anpingtai]]), 室 (a room), 寄 (to lodge), and 害, the [[harm|hai]] of this passage, which the Shuowen says begins with words under a roof. Under the roof here is 各. The Shuowen takes 各 as the sound of the character and defines the whole as 寄也, “one who lodges”. But 各 is not an empty sound. Its lower part is 口, here commonly explained as the opening of a dwelling. Its upper part, 夂, is the picture of a foot that points down, toward the viewer: someone is arriving. Early inscriptions use 各 for the verb “to arrive”, later written 格. So 客 is: a foot comes to a door, under a roof. A guest. The same foot walks in 路 (road: 足 with 各). The Mawangdui scribes are reported to have written this line as 過格止, with 格 for 客: they wrote the arrival and left the roof off. Now see the word for [[“stops”|guoke]] at the end of the line: 止 is also a foot, the footprint that points up and away. The line begins with a foot that comes in and ends with a foot that rests.",
+      "brush": "Nine strokes. The roof takes three: a dot at the top center, a short dot at the left that leans down, and a horizontal that ends in a hook back to the left. The roof must be wide enough to cover all that follows. Then the foot, 夂: a stroke that falls to the left; a short horizontal that turns and falls left in one movement; then a long stroke that falls to the right. Watch this sixth stroke. It reaches out past the roof on the right, like a traveler’s leg in mid-step, and it is the one free line in the character. Last the opening, 口: left side, top and right side in one stroke, then the base. Keep the box small and directly under the crossing of the two long strokes, so that the foot seems to stand on the threshold."
+    }
+  ]
+}

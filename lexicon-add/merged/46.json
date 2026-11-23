@@ -1,0 +1,53 @@
+{
+  "馬": {
+    "senses": ["horse", "war horse, chariot horse"],
+    "shuowen": "怒也。武也。象馬頭髦尾四足之形。",
+    "shuowenEn": "Fury; war. It pictures the horse’s head, mane, tail, and four legs.",
+    "story": "A picture of the animal, turned on end: head and mane above, back and tail in the long hooked stroke, four dots for the legs. The Shuowen defines it by sound as “fury” and “martial”. In the Warring States the horse was the engine of chariots and, after 307 BCE, of cavalry. The Laozi names it twice: the running horses and war horses of 46, and the team of four that goes before a jade disc in 62.",
+    "gap": "For a modern reader a horse is sport or countryside. For this text it is state power, as a tank or an aircraft is now."
+  },
+  "糞": {
+    "senses": ["to sweep out, to clear away", "dung, manure", "to manure a field"],
+    "parts": [ { "c": "米", "m": "looks like rice; the Shuowen says it is waste" }, { "c": "田", "m": "looks like a field; explained as a dustpan or basket" }, { "c": "共", "m": "two hands (廾)" } ],
+    "story": "The Shuowen lists the word under an older graph, defines it as “to throw out, to clear away”, and explains it as two hands that push a pan of waste. From sweeping out came the thing swept, and then its use on the land. In the Laozi it occurs once (46): in a world that has the Way, fast horses are sent back 以糞, to dung the fields.",
+    "gap": "English has polite words (“fertilize”, “manure”) and rude ones. 糞 is neither; it is the plain farm word, and the passage uses it as the sign of peace."
+  },
+  "走": {
+    "senses": ["to run, to hurry (classical)", "to flee", "to walk, to go, to leave (modern)"],
+    "shuowen": "趨也。从夭、止。夭止者，屈也。",
+    "shuowenEn": "To hurry. From 夭 and 止 (foot). 夭 with 止 means to bend.",
+    "parts": [ { "c": "夭", "m": "a bent figure (now written like 土)" }, { "c": "止", "m": "foot" } ],
+    "story": "In classical Chinese 走 is to run and 行 is to walk; the modern sense “walk” came much later. Many modern scholars explain the old form as a person with swinging arms over a foot. 走馬 in passage 46 are therefore running horses, swift horses kept for war and for the relay post.",
+    "gap": "A reader who knows modern Chinese will see “walking horses”. The classical word is the opposite: speed."
+  },
+  "郊": {
+    "senses": ["the open land outside a city wall", "the offering to Heaven made there", "outskirts, border country"],
+    "shuowen": "距國百里爲郊。从邑交聲。",
+    "shuowenEn": "A hundred li from the capital is the 郊. From 邑 (walled town), with 交 for the sound.",
+    "parts": [ { "c": "交", "m": "to cross, to meet; gives the sound" }, { "c": "阝", "m": "邑, a walled town" } ],
+    "story": "Outside a Zhou city wall lay the 郊, and beyond it the wilds. The ruler made the great offering to Heaven there, and armies met there. The sound part 交 means “to cross, to meet, to join battle”, which suits the place though the dictionary treats it only as sound. In passage 46 war horses are born at the 郊: the war has come to the edge of the city.",
+    "gap": "“Suburb” suggests houses and gardens. The 郊 is open ground where a state meets Heaven and its enemies."
+  },
+  "咎": {
+    "senses": ["blame, fault", "disaster that one has brought on oneself", "to blame"],
+    "shuowen": "災也。从人从各。各者，相違也。",
+    "shuowenEn": "Disaster. From 人 (person) and 各. 各 means to go against each other.",
+    "parts": [ { "c": "人", "m": "person" }, { "c": "各", "m": "each; explained by the Shuowen as “at odds”" } ],
+    "story": "咎 is a word of the Book of Changes, whose line statements often end 无咎, “no blame”. It joins harm and responsibility: a 咎 is a misfortune with an owner. The Laozi uses it three times, each time of someone who went too far: riches and pride leave their own 咎 (9), the wish to get is the greatest 咎 (46), and it asks in 52 that one leave no ruin to the body.",
+    "gap": "English separates “fault” (what you did) from “misfortune” (what came to you). 咎 is both at once."
+  },
+  "戎": {
+    "senses": ["weapons, arms", "war, military affairs", "the peoples of the western frontier"],
+    "parts": [ { "c": "戈", "m": "dagger-axe" }, { "c": "十", "m": "explained as what is left of 甲, armour" } ],
+    "story": "The Shuowen records the word under an older graph and explains it as dagger-axe with armour: the full kit of a fighter. The same word named the non-Zhou peoples of the west, whom the Zhou both fought and married. 戎馬 are war horses (46). The Zuo zhuan says that the great affairs of a state are sacrifice and 戎.",
+    "gap": "“Military” is an abstract adjective. 戎 is the weapon and the armour themselves."
+  },
+  "卻": {
+    "senses": ["to step back, to withdraw", "to send back, to decline", "but, yet (later usage)"],
+    "shuowen": "節欲也。从卪谷聲。",
+    "shuowenEn": "To restrain desire. From 卪 (a kneeling figure; a tally), with 谷 for the sound.",
+    "parts": [ { "c": "谷", "m": "gives the sound (not “valley” here)" }, { "c": "卩", "m": "a kneeling person; a tally" } ],
+    "story": "卻 is movement backward: to retreat, to refuse a gift, to turn something away. Later editors doubted the Shuowen’s gloss, “to restrain desire”, and corrected the text; we quote it as it stands. In passage 46 the running horses are 卻, turned back, from the road to the farm. The modern short form is 却.",
+    "gap": "English “turn back” needs someone who does the turning. The Chinese verb stands without a subject."
+  }
+}

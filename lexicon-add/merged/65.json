@@ -1,0 +1,103 @@
+{
+  "愚": {
+    "senses": [
+      "simple, dull, foolish",
+      "to make or keep simple (as a verb)",
+      "a humble word for “I, my” (愚見, my simple view)"
+    ],
+    "shuowen": "戇也。从心从禺。禺，猴屬，獸之愚者。",
+    "shuowenEn": "Simple-minded. From 心 (heart) and 禺. 禺 is of the monkey kind, the 愚 one among the animals.",
+    "parts": [
+      { "c": "禺", "m": "a kind of monkey; also the sound" },
+      { "c": "心", "m": "heart, mind" }
+    ],
+    "story": "The Shuowen reads the graph as a monkey’s mind; many scholars take 禺 mainly as the sound. The word is an insult in most early texts and a polite self-name in letters. The Laozi turns it. In passage 20 the speaker says 我愚人之心也哉, “mine is the heart of a 愚 person”, against a crowd that is bright and sharp. In passage 65 the masters of old use the Dao to 愚 the people, a line that rulers later used to defend ignorance. In passage 38, foreknowledge is called the beginning of 愚. The book’s 愚 is a mind that has not learned to calculate.",
+    "gap": "“Stupid” and “ignorant” judge by a scale of intelligence and schooling. 愚 in the Laozi is nearer to “without cunning”. English has no word that is free of contempt."
+  },
+  "順": {
+    "senses": [
+      "to go along with, to follow the course of",
+      "smooth, in order, favourable",
+      "to obey, to comply (in Confucian use)"
+    ],
+    "shuowen": "理也。从頁从巛。",
+    "shuowenEn": "To follow the lines of a thing. From 頁 (head) and 巛 (stream).",
+    "parts": [
+      { "c": "川", "m": "river, stream" },
+      { "c": "頁", "m": "head" }
+    ],
+    "story": "A head beside a stream: to face the way the water runs. The word names any movement with the grain: a wind behind the boat, a year of good weather, a text that reads smoothly. Its opposite is 逆, to go against. Confucian writers used it for the obedience of a child or a subject. The Laozi has it once, as the last word of passage 65: 大順, the great going-along, reached only after dark de has turned back with all things. Cousins on 川: 訓, to instruct, and 馴, tame.",
+    "gap": "“Harmony” belongs to 和, a blend of unlike things. “Obedience” adds a master. 順 has neither: it is motion in the direction that a thing already goes."
+  },
+  "賊": {
+    "senses": [
+      "to injure, to ruin, to murder",
+      "one who does violent harm: a bandit, a rebel, a traitor",
+      "(later) a thief"
+    ],
+    "shuowen": "敗也。从戈則聲。",
+    "shuowenEn": "To ruin. From 戈 (dagger-axe), with 則 for the sound.",
+    "parts": [
+      { "c": "貝", "m": "cowrie shell (part of 則)" },
+      { "c": "戈", "m": "dagger-axe" }
+    ],
+    "story": "賊 is harm done with a weapon. In early texts it is the word for an assassin, a rebel, or a person who destroys a thing from inside; Mencius says that a king who does violence to humaneness is a 賊 and no king. The Laozi uses it three times. Passage 19: give up skill and profit, and robbers and 賊 will be gone. Passage 57: the more laws are displayed, the more robbers and 賊 there are. Passage 65: to govern a state by cleverness is to be the state’s 賊. In each case the 賊 is produced by the cleverness of those above.",
+    "gap": "“Thief” is too light; “bane” and “curse” lose the person. 國之賊 names the ruler as a criminal against the state."
+  },
+  "式": {
+    "senses": [
+      "a model, a pattern, a standard",
+      "a rule to follow",
+      "the front bar of a chariot; to bow over it in respect"
+    ],
+    "shuowen": "法也。从工弋聲。",
+    "shuowenEn": "A rule, a standard. From 工 (work, the carpenter’s square), with 弋 for the sound.",
+    "parts": [
+      { "c": "工", "m": "work; a square" },
+      { "c": "弋", "m": "gives the sound" }
+    ],
+    "story": "式 has 工 in it, the sign of the craftsman, and it names the thing that a craftsman works from: the model. In the Laozi the sage is a 式 for the world. Passage 22: the sage holds the One and is the pattern of all under heaven. Passage 28: know the white, keep the black, and be the pattern of all under heaven. Passage 65 uses the word for a rule of judgment: to know the two results of government is the 稽式, the pattern to check by. A 式 does not command. Others look at it and take their measure.",
+    "gap": "“Model” in English suggests a perfect copy to imitate; “standard” suggests a number. 式 is a working pattern, as in a workshop."
+  },
+  "稽": {
+    "senses": [
+      "to stay, to delay",
+      "to examine, to check against",
+      "to tally, to reckon",
+      "(qǐ) to bow the head to the ground"
+    ],
+    "shuowen": "畱止也。从𥝌从尤，旨聲。",
+    "shuowenEn": "To stay, to stop. From 𥝌 and 尤, with 旨 for the sound.",
+    "story": "The first sense in the Shuowen is “to stay”. To stay with a thing is to look into it, and the common classical sense is “to examine, to check one thing against another”, as accounts are checked against a tally. In passage 65 the received text has 稽式. Wang Bi glosses 稽 as 同, “the same”: the pattern that holds for the past and the present. The Heshang Gong text has 楷式, “model pattern”. The Mawangdui silk texts read 稽. With 稽 the phrase has a use: it is the pattern against which a ruler’s methods are checked.",
+    "gap": "English separates “to examine”, “to tally”, and “to stay”. In 稽 they are one act: to stop at a thing long enough to compare it."
+  },
+  "反": {
+    "senses": [
+      "to turn over, to reverse",
+      "to return, to go back (later written 返)",
+      "opposite, contrary",
+      "to rebel"
+    ],
+    "shuowen": "覆也。从又，厂反形。",
+    "shuowenEn": "To turn over. From 又 (hand); 厂 shows the shape of turning over.",
+    "parts": [
+      { "c": "又", "m": "hand" },
+      { "c": "厂", "m": "a thing turned by the hand" }
+    ],
+    "story": "A hand that turns a thing over. The word covers reversal and return, because to turn back is to go the opposite way. The Laozi makes it a law: 反者道之動, “turning back is the movement of the Dao” (40). The great is said to go far, and the far to 反 (25). In passage 65 dark de is 與物反: contrary to things, or returning together with things. Passage 78 has the related saying that true words seem 反, the reverse of what is expected. Later writers added the walking sign and wrote “return” as 返.",
+    "gap": "English must choose between “opposite” and “return”. In 反 they are the same motion, seen from two sides."
+  },
+  "福": {
+    "senses": [
+      "good fortune, blessing",
+      "the meat and wine of a sacrifice, shared after the rite",
+      "to bless"
+    ],
+    "parts": [
+      { "c": "示", "m": "altar; things of the spirits" },
+      { "c": "畐", "m": "gives the sound; commonly explained as a full wine jar" }
+    ],
+    "story": "福 is the fortune that comes from above: long life, wealth, health, sons. Its left part is the altar sign, and in early use the word also names the sacrificial meat that was shared out after a rite, the visible form of the ancestors’ favour. The Laozi uses it twice. Passage 58: 禍兮福之所倚, disaster is what fortune leans on, and fortune is where disaster hides. Passage 65: not to govern a state by cleverness is the state’s 福. There it rhymed with 賊, “robber”, in the old pronunciation.",
+    "gap": "“Blessing” brings a god who blesses; “luck” brings chance. 福 is neither: it is well-being received, as a share is received at a family rite."
+  }
+}

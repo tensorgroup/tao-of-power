@@ -1,0 +1,222 @@
+{
+  "n": 5,
+  "title": "Straw Dogs and a Bellows",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "天地不仁，以萬物為芻狗；",
+      "gloss": {
+        "0": "heaven, the sky",
+        "1": "earth, the ground",
+        "3": "humane: the warm, graded care of kin; the first Confucian virtue",
+        "5": "to take, to treat (以 A 為 B: to treat A as B)",
+        "8": "wéi: as, to count as",
+        "9": "chú: cut grass in bundles; straw, fodder",
+        "10": "dog; in older usage a young or small dog"
+      }
+    },
+    {
+      "text": "聖人不仁，以百姓為芻狗。",
+      "gloss": {
+        "6": "a hundred; all the many",
+        "7": "clan name, surname"
+      }
+    },
+    {
+      "text": "天地之間，其猶橐籥乎？虛而不屈，動而愈出。",
+      "gloss": {
+        "3": "the gap, the space between",
+        "6": "to be like",
+        "7": "tuó: a sack; the leather bag of a bellows",
+        "8": "yuè: a pipe; the tube of the bellows (Wang Bi: a flute)",
+        "11": "empty, hollow",
+        "14": "to bend, to give way; also read as “to be used up”",
+        "16": "to move, to set in motion",
+        "18": "the more, more and more",
+        "19": "to come out"
+      }
+    },
+    {
+      "text": "多言數窮，不如守中。",
+      "gloss": {
+        "1": "words, talk (the Mawangdui silk texts are reported to read 聞, hearing, learning)",
+        "2": "shuò: again and again; some read it as 速, quickly; shù: number, reckoning",
+        "3": "the far end, a dead end; used up",
+        "7": "to keep, to guard, to stay at",
+        "8": "the middle; the inside"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Heaven and earth|tiandi]] are [[not humane|buren]]:",
+    "they treat the ten thousand things as [[straw dogs|chugou]].",
+    "[[The sage is not humane|sage-buren]]:",
+    "the sage treats [[the hundred families|baixing]] as straw dogs.",
+    "",
+    "The [[space between|jian]] heaven and earth:",
+    "is it not like a [[bellows|tuoyue]]?",
+    "Empty, and it [[does not give way|buqu]].",
+    "Moved, and [[more comes out|yuchu]].",
+    "",
+    "[[Many words|duoyan]]: [[again and again, the dead end|shuqiong]].",
+    "Better to [[keep to the middle|shouzhong]]."
+  ],
+  "notes": {
+    "tiandi": {
+      "kind": "gap",
+      "title": "天地: the sky and the ground",
+      "body": "天地 is “heaven-earth”, two words used as one: the whole world, named by its roof and its floor. English “Heaven” with a capital brings God, angels, and a place for the dead. English “nature” brings a thing that people stand outside and study. 天地 is neither. It is the sky that sends rain and seasons and the ground that carries and feeds, taken as one working pair. People live in the [[gap between|jian]] the two. Some modern readers make 天 the spiritual realm and 地 the material one. That split is Western. In this text both are physical, and both are 自然, “so of themselves”. Note what the line does with this pair. It does not say that heaven and earth are cruel. It says they lack one named human virtue."
+    },
+    "buren": {
+      "kind": "geopolitics",
+      "title": "不仁: an attack on the first virtue",
+      "body": "仁 was the highest word of the Confucian school. Confucius was asked about it more than about any other thing, and Mencius told kings that a 仁 government would win the world with no need for war. The age also believed that Heaven itself cared: Heaven gave its mandate to good kings and took it from bad ones. So 天地不仁, four characters, strikes at two beliefs together: the school’s first virtue, and the idea of a cosmos with moral favorites. Later passages go on with the attack: when the great Dao is left, there is 仁 and duty (18); cut off 仁, and the people return to family love (19). The first readers heard a provocation. A translation that makes the line comfortable has lost it. See [[what the word holds|ren-word]].",
+      "src": [
+        "Laozi 18, 19, 38",
+        "Mencius 1A5"
+      ]
+    },
+    "ren-word": {
+      "kind": "gap",
+      "title": "仁: what kind of love?",
+      "body": "仁 is 人, a person, and 二, two. The Shuowen defines it as 親也: “to be close, to treat as kin”. That is the centre of it. 仁 is warm, and it is graded: most for parents, then family, then neighbors, then strangers. The Mohists attacked that grading and asked for equal care for all. English has no word of this shape. [[Legge|legge]] wrote “benevolent”, a word of Victorian charity. “Humane” keeps the 人, and we use it. “Ruthless” goes too far, and “impartial” is too mild: it turns a shock into a compliment. The line says that the world has no inner circle. Rain does not fall first on its own relatives. There is also an old medical sense: in the early medical books, 不仁 is numbness, a limb that does not feel. Which do you hear in the line: no favorites, or no feeling?",
+      "src": [
+        "Shuowen Jiezi, 人部: 仁，親也。从人从二。"
+      ]
+    },
+    "chugou": {
+      "kind": "history",
+      "title": "Straw dogs, before and after",
+      "body": "A 芻狗 was a dog made of bound straw for use in a rite. The Zhuangzi (chapter 14) tells its life. Before the offering, the straw dogs are kept in a box and covered with embroidered cloth, and the priests fast before they handle them. After the offering: 行者踐其首脊, “people who pass tread on their heads and backs”, and the grass-cutters take them to burn for cooking. So the image is not simply “worthless things”. A straw dog is honored fully and discarded fully, and no one acts from love or from hate at either moment. The difference is time. Each thing has its hour in the rite, and then the hour is over. Heaven and earth treat the ten thousand things so: full care in the season, no clinging after. [[Wang Bi|wangbi]] reads the two characters quite differently.",
+      "src": [
+        "Zhuangzi 14, “Tian yun”"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: grass, and dogs",
+      "body": "Wang Bi does not mention the ritual object. He reads 芻 and 狗 as two things: 地不為獸生芻，而獸食芻；不為人生狗，而人食狗。 “The earth does not grow grass for the beasts, and the beasts eat grass. It does not produce dogs for people, and people eat dogs.” The point is that nothing is made for the sake of another thing, and yet each finds its use. On 仁 he is sharp: 仁者必造立施化，有恩有為, “the humane must make and set up, bestow and transform; they have favors and they have doing”. Then: 物失其真, “things lose what is true in them”. Care that arranges things damages them. Heaven and earth 任自然, “leave it to what is so of itself”. Most later readers prefer the straw dog of the rite. Wang Bi’s grass and dogs are still a fair picture of a world with no plan for you.",
+      "src": [
+        "Wang Bi commentary on Laozi 5"
+      ]
+    },
+    "sage-buren": {
+      "kind": "gap",
+      "title": "A sage with no kindness?",
+      "body": "聖人不仁 is harder than the first line. We accept that weather is indifferent. A ruler who treats the people as straw dogs sounds like a tyrant, and some rulers used the line so. But the book elsewhere gives the sage a strong care. Passage 49: the sage treats all the people as children. Passage 67: of the three things that the speaker holds most dear, the first is 慈, the love of a mother for a child. How do the two fit? 仁 in this period was a public virtue with a name: a ruler displayed it, graded it by rank and kin, and was praised for it. 慈 has no grades and no display. So the sage lacks the virtue that picks favorites, and keeps the care that does not. [[Wang Bi|wangbi]] says only: 聖人與天地合其德, “the sage joins heaven and earth in their power”. Can a person care fully and still not cling when the hour is past?",
+      "src": [
+        "Laozi 49, 67",
+        "Wang Bi commentary on Laozi 5"
+      ]
+    },
+    "baixing": {
+      "kind": "geopolitics",
+      "title": "百姓: the hundred surnames",
+      "body": "百姓 is “the hundred clan names”. In early Zhou only noble clans had a 姓, and the phrase meant the great families. By the Warring States it had moved down and meant the common people in general. The Shuowen explains 姓 as 人所生也, “that from which a person is born”, and the graph is a woman, 女, beside birth, 生. The image of the straw dog was close to fact for these people. The states of the time enrolled farmers by household for mass infantry armies. The Shiji reports that after the battle of Changping in 260 BCE the army of Qin killed some four hundred thousand men of Zhao who had surrendered; the number is disputed, and the scale of such wars is not. A reader of that century knew very well how rulers used the hundred families. The line may be describing the sage. It may also be a bitter description of the age.",
+      "src": [
+        "Shuowen Jiezi, 女部: 姓，人所生也。",
+        "Shiji 73, biography of Bai Qi"
+      ]
+    },
+    "jian": {
+      "kind": "etymology",
+      "title": "間: the gap in the door",
+      "body": "間 is a door, 門, with the sun, 日, in the opening. The older form of the character is 閒, with the moon, 月, and the Shuowen defines that form in one word: 隟也, “a crack, a gap”. The picture is light that comes through the space between two door leaves. So 天地之間 is “the gap of heaven and earth”: the world as the opening between a sky-leaf and an earth-leaf. Everything that lives is in that crack. English says “the universe”, a word for the total of things. The Chinese phrase is about the room, and it does not count the contents. This is the thought of passage 11 again: the use of a house is in the part where there is nothing. Here the house is the world.",
+      "src": [
+        "Shuowen Jiezi, 門部: 閒，隟也。从門从月。"
+      ]
+    },
+    "tuoyue": {
+      "kind": "history",
+      "title": "橐籥: the smith’s bag and pipe",
+      "body": "橐 is a sack; the Shuowen says 囊也, “a bag”. 籥 is a pipe. Together they name the bellows of the early Chinese foundry: a leather bag that is pressed and released, and a tube that carries the blast into the furnace. This was high technology. Chinese smiths were casting iron by about the fifth century BCE, long before Europe, and cast iron needs a strong and steady blast. Iron plowshares and iron weapons changed the wars of the age. So the image is not rustic. It comes from the workshop that armed the states. [[Wang Bi|wangbi]] divides the word: 橐 is the bellows and 籥 is a musical pipe, and he says that both are hollow inside, with no feelings and no doing. He ends with the pipe: 若橐籥有意於為聲也，則不足以共吹者之求也, “if the bellows-pipe had a will of its own to make sound, it could not meet the need of the one who blows”. A bag with nothing in it gave the blast for a furnace. What does it give out?",
+      "src": [
+        "Shuowen Jiezi, 㯻部: 橐，囊也。",
+        "Wang Bi commentary on Laozi 5: 橐，排橐也。籥，樂籥也。"
+      ]
+    },
+    "buqu": {
+      "kind": "gap",
+      "title": "不屈: does not bend, or does not run out",
+      "body": "屈 is first “to bend, to buckle”. On that reading, the bellows is empty and does not collapse: its hollow keeps its form, and that is why it can work. A second reading takes 屈 as “to be exhausted”, close to 竭. [[Wang Bi|wangbi]] reads it so: 虛而不得窮屈, “empty, and it cannot be brought to an end”. Then the line says that the emptiness is never used up, which is the claim of passage 4. The Mawangdui silk texts are reported to write the word with water, 淈; the Shuowen gives one sense of that graph as 水出皃, “the look of water that comes out”. Our “does not give way” tries to hold both: a thing gives way when it buckles, and a supply gives way when it fails. The line that follows chooses neither, and adds a fact: the more it moves, the more comes out.",
+      "src": [
+        "Shuowen Jiezi, 水部: 淈，濁也。… 一曰水出皃。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "yuchu": {
+      "kind": "variant",
+      "title": "Three sayings in one passage",
+      "body": "Listen to the ends of the lines. 屈 and 出 rhyme; both belong to the old 物 rhyme group. 窮 and 中 rhyme; both belong to the 冬 group. The straw-dog lines have no such rhyme. The passage has three parts with three forms: a hard parallel statement, a rhymed riddle about a bellows, and a rhymed proverb about words. The oldest copy supports the idea that they were once apart. The Guodian bamboo slips (about 300 BCE) are reported to hold only the middle part, from 天地之間 to 動而愈出, with no straw dogs and no proverb. An editor joined them later. The join is good. All three parts say that the centre is empty: no favor in heaven, no stuffing in the bellows, no profit in many words. Read the three parts once as one argument and once as three separate cards.",
+      "src": [
+        "Guodian Laozi A (as reported)",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "duoyan": {
+      "kind": "variant",
+      "title": "多言 or 多聞: talk, or learning",
+      "body": "The pinned text has 多言, “many words”. The Mawangdui silk texts are reported to read 多聞數窮, “much hearing: again and again the dead end”. 聞 is “to hear”, and 多聞, “to have heard much”, was the usual praise for a learned man. The Analects lists a friend who is 多聞 among the three useful kinds of friend. So the two readings have two targets. The received line warns the talker. The silk line warns the scholar: a person who is full of things heard comes to the end of them. The silk reading suits the bellows better. A bellows works because it is not stuffed; a head packed with learning has no draft. A book that is itself five thousand characters of teaching says this about learning. How do you read it there?",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Analects 16.4"
+      ]
+    },
+    "shuqiong": {
+      "kind": "gap",
+      "title": "數窮: three ways to hit the wall",
+      "body": "窮 is the end of a road. The Shuowen enters the older form 竆 and defines it as 極也, “the far limit”, with 穴, a cave, as its meaning part. In the modern graph a body, 身, stands under the cave roof with a bow, 弓, beside it; the Shuowen takes the part under the roof as the sound. The word also means “poor”: a person with no way out. 數 before it has three readings. As shuò it is “often, again and again”: the talker meets the wall each time. Many scholars read it as 速, “quickly”: much talk, a quick end. As shù it is “number, count, lot”, and [[Wang Bi|wangbi]] writes 必窮之數也, “this is the reckoning that must end in exhaustion”. We give the first. English must choose one. The Chinese reader may hold all three."
+    },
+    "shouzhong": {
+      "kind": "gap",
+      "title": "守中: which middle?",
+      "body": "不如守中: “not as good as keeping the 中”. Modern versions say “stay centered”, which makes 中 a calm state of the self. The passage gives a nearer sense. 中 is “the inside”, and the thing just described is a bellows, whose work is done by its hollow inside. To 守中 is to guard that hollow: do not stuff it with words. The Mawangdui silk texts are reported to read 守於中, “keep to the within”. Some scholars connect 中 here with 沖, the empty bowl of passage 4; the two graphs differ only by the water. It is not the 中 of the Confucian Zhongyong, the mean between too much and too little. And it is not a rule of silence. A bellows moves and gives a great deal. It gives because it does not try to hold anything.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Laozi 4"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge softens the blow",
+      "body": "Legge could not let heaven be simply “not benevolent”. He wrote that heaven and earth “do not act from (the impulse of) any wish to be benevolent”. The brackets are his addition, and so is “any wish”. The line now says only that heaven has no motive of kindness, and a reader may still think that its acts are kind. For a missionary, a heaven without benevolence was close to a denial of Providence. His “dogs of grass” is exact and plain. At the close he turns to rhyme and pads the line: “Your inner being guard, and keep it free.” The Chinese is four characters, 不如守中, with no “your”, no “being”, and no “free”. His “inner being” is the start of the long English habit to read [[中|shouzhong]] as a private self.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Three breaths as a bellows",
+      "body": "Sit or stand. Put one hand on the lower ribs. Breathe out fully and wait. Do not pull the next breath in; let the ribs open by themselves, as a pressed bag opens when the hand lets go. Do this three times. The chest is a 橐籥: a bag and a pipe. It gives most when it is emptied well, and it never needs to be held full. Then take the last line into the day. In one conversation, notice the moment when you have said enough and feel the wish to add more. Stop there. Keep the hollow. See if the other person fills it, or if the silence does the work."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has three pieces. First, two matched sentences: [[heaven and earth|tiandi]] are [[not humane|buren]] and treat all things as [[straw dogs|chugou]]; the sage is not humane and treats [[the hundred families|baixing]] so. Second, a question about the [[space between|jian]] heaven and earth: is it not like a smith’s [[bellows|tuoyue]]? Two short lines answer: empty, and it [[does not give way|buqu]]; moved, and more comes out. Third, a proverb: [[many words|duoyan]] meet [[the dead end|shuqiong]] again and again, and it is better to keep to [[the middle|shouzhong]]. The last two pieces rhyme and the first does not; they may have been [[separate sayings|yuchu]]. One image joins them: a thing with nothing at its centre.",
+    "inner": "The first line removes a comfort: the wish that the world has a special regard for me. Much suffering is a quarrel with that wish. “Why did this happen to me?” has no answer in a world of [[straw dogs|chugou]], and the question can then stop. This is not coldness. The straw dog is honored with full care in its hour. What is absent is [[clinging|sage-buren]] before and after. The bellows gives the positive side. Awareness is like the [[gap|jian]] between heaven and earth: it has nothing inside it, and for that reason sights and sounds keep coming out of it and it is not used up. Thought and talk fill the space and bring a person to [[the wall|shuqiong]]. To [[keep the middle|shouzhong]] is to rest as the hollow, while the breath moves.",
+    "leading": "A leader who has favorites has a court. Graded warmth, more for the near and less for the far, is what [[仁|ren-word]] meant in practice, and every organization knows its cost: people study the leader’s affections and stop studying the work. The first stanza asks for a care with no inner circle. It is hard, and it is easy to abuse; [[rulers have quoted it|baixing]] to excuse the use of people as material. The test is the Zhuangzi’s picture: the straw dog receives full honor in its hour. The second and third parts are lighter advice. An office, a meeting, a team needs a [[hollow|tuoyue]]: room that is not filled by the leader’s views. And a leader who explains again and again [[runs out|shuqiong]]. Say it once, and then guard the space.",
+    "body": "The chest and belly are a 橐籥, a [[bag and a pipe|tuoyue]]. The breath lines are exact anatomy. 虛而不屈: after a full out-breath the body is empty and it [[does not collapse|buqu]]; the frame holds its form. 動而愈出: the more freely the diaphragm moves, the more breath there is. A person who holds the chest full and tight has less air. Singers, swimmers, and fighters all learn this. In partner work the same law holds: a body that is hollow in the centre and not stuffed with tension can give force again and again, and a rigid body gives it once. The last line also applies. Much explaining of a movement brings a student to [[a dead end|shuqiong]]. The teacher shows it, and the student finds [[the middle|shouzhong]] in the body.",
+    "nature": "A hawk takes a young hare. A late frost kills the blossom, and the same frost kills the pests. Heaven and earth do not take the side of the hare or of the hawk, and because they take no side, both species go on. A world that favored one creature would soon have only that creature. So [[不仁|buren]] is the condition of the ten thousand things. It is the reason there are ten thousand. The [[straw dog|chugou]] adds time: each leaf is fully a leaf in its season, and then it is litter, and the litter feeds the root. The bellows is the sky itself: the hollow [[between|jian]] ground and cloud, where wind, weather, and breath move and are not used up. [[Wang Bi|wangbi]] notes that the earth does not grow grass for the beasts. They eat it all the same.",
+    "practice": "Do the [[three bellows breaths|practice]] once in the morning. Then carry one question through the day: where do I act from favor? Notice a small case, such as the person whose message you answer first, or the task you treat as beneath you. Give the less favored one its full hour of care, as the rite gives the straw dog. And when the hour is over, for a task or a meeting or a mood, let it be over. In the evening, look back at your talk. Where did [[many words|duoyan]] bring you to the wall?"
+  },
+  "glyph": "芻",
+  "plates": [
+    {
+      "c": "芻",
+      "title": "Two bundles of cut grass",
+      "lesson": "Most characters are built from a meaning part and a sound part. This one is a pure picture, and the Shuowen says so: 象包束艸之形, “it shows the form of grass wrapped in bundles”. Look at the top half. The outer stroke that wraps from above and down the right side is 勹, the form used in 包, “to wrap”. Inside it is 屮, a single sprout: a stem with a blade on each side. The Shuowen builds its word for grass, 艸, from two of these sprouts, and the short form 艹 stands on top of nearly every plant name. Now look at the bottom half. It is the same shape again. The character is one bundle on another: a stack. The Shuowen’s definition is 刈艸也, “cut grass”: fodder for animals, and the material of the [[straw dog|chugou]]. In its cousins the bundle gives the sound, and a new part gives the meaning. The Shuowen says so of two: 雛, a chick, has a bird, 隹; 趨, to hurry, has running feet. The later character 皺, a wrinkle, has skin. The simplified form 刍 keeps the wrap and reduces the grass to a small hook. The plain word for hay is at the head of the hardest sentence in the book. The thing itself is light, bound by hand, made for one day, and burned in the kitchen the next.",
+      "brush": "Ten strokes, and the lesson is in the count: five strokes, then the same five again. First a short stroke that falls to the left. Second, the wrap: a horizontal that turns the corner, runs down the right side, and ends in a hook. Third, inside, a short vertical that turns along the bottom, like the left half of a cup. Fourth, a short vertical for the right side of the cup. Fifth, the stem of the sprout, which falls through the middle and leans left. Then the brush moves down and does it all once more. The danger is plain: two equal halves look like a ladder. Watch how the lower bundle is set a little wider and a little heavier, so that it can carry the upper one. The two hooks should not be twins; the lower one is firmer."
+    },
+    {
+      "c": "仁",
+      "title": "A person and the number two",
+      "lesson": "Four strokes hold the word that Confucius cared for most. On the left is 亻, the form of 人, a person, when it stands at the side: a person seen from the side, one stroke for the body and one for the arm or leg. On the right is 二, two. The Shuowen reads the parts together, 从人从二, and defines the word as 親也, “to be close, to treat as kin”. The usual teaching is simple: 仁 is what there is between two people. One person alone cannot have it. Some scholars explain the two lines differently, as a mark of repetition in early script; the Shuowen’s reading is the one that the tradition used. Bamboo texts found at Guodian are reported to write the word in another way, with a body, 身, above a heart, 心: care felt in one’s own person. Cousins by the left side are easy to find: 信, a person and speech, to stand by one’s word; 休, a person by a tree, to rest; 伐, a person and a dagger-axe, to attack. The Shuowen takes each of these as two meanings joined. So the script itself says that 仁 belongs to pairs and to kin. [[This passage|ren-word]] says that heaven and earth are not a pair with anyone. They do not stand at one person’s side.",
+      "brush": "Four strokes. The first falls from the upper right to the lower left, long and light at its end. The second is the vertical; it starts under the middle of the first stroke and stands straight. These two make the person, tall and narrow. Then the two horizontals. The upper one is short and sits high. Watch the last stroke: the lower horizontal is much longer, it rises a little to the right, and it ends with a firm press. A character with so few strokes has nowhere to hide. Each stroke is fully seen, and the white space between the two level lines is as much a part of the writing as the ink. In the small-script copies of the Daodejing, such as Zhao Mengfu’s of 1316, the simple characters like this one give the page its room to breathe among the dense ones."
+    },
+    {
+      "c": "狗",
+      "title": "The dog that knocks",
+      "lesson": "Chinese has two words for a dog, and they are made in two ways. 犬 is a picture. The Shuowen quotes Confucius on it: 視犬之字如畫狗也, “look at the character 犬: it is like a drawing of a dog”. 狗 is the other kind of character. The left side, 犭, is that same 犬 pressed thin to stand at the side, and it gives the meaning: an animal of the dog kind. The right side, 句, gives the sound; alone it means “bent, a hook”, and the Shuowen defines it as 曲也, “curved”. Then the Shuowen quotes Confucius once more, with a pun as an explanation: 狗，叩也。叩气吠以守, “狗 is 叩, to knock: it knocks out its breath in barks and keeps guard”. Old glossaries add that 狗 was the young or small dog and 犬 the general word. In this passage the dog is made of straw, and its work is in the rite. Dogs were real offerings too. The Shuowen says under 獻, “to offer”, which has a 犬 in it, that the dog of the ancestral temple had a special name and that a fat dog was chosen to offer. [[Wang Bi|wangbi]] adds a plain fact: people ate dogs. So the animal in [[芻狗|chugou]] was guard, food, and gift to the ancestors, and here it is a thing of straw that stands in for all three.",
+      "brush": "Eight strokes. The dog radical takes three. First a short stroke that falls to the left. Second, the spine: it starts at the top, curves down in a long bow, and ends with a hook to the left. Watch this stroke; it gives the whole left side its spring. Third, a stroke that falls left from the middle of the spine, like a leg. Then 句 in five: a falling stroke on the left; then the long wrapping stroke, a horizontal that turns, drops, and hooks inward; and inside that wrap a small mouth, 口, in three strokes, closed by its base line last. The mouth must sit high and to the left inside the wrap, with white space below it. The left side is all curve and the right side is all corner. In running script the three strokes of the animal are often made as one linked motion."
+    }
+  ]
+}

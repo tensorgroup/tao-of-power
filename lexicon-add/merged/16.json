@@ -1,0 +1,74 @@
+{
+  "根": {
+    "senses": ["the root or stock of a tree", "base, origin", "to take root"],
+    "shuowen": "木株也。从木艮聲。",
+    "shuowenEn": "The stock of a tree. From 木 (tree), with 艮 for the sound.",
+    "parts": [{"c": "木", "m": "tree"}, {"c": "艮", "m": "sound gèn; alone: to stop; the mountain trigram, keeping still"}],
+    "story": "The part of the tree that is in the dark, does not move, and feeds the rest. The Laozi makes it the place of return: the gate of the dark female is the root of heaven and earth (6); each thing goes home to its root, and that is called stillness (16); the heavy is the root of the light (26); deep roots and a firm stock are the way of long life (59).",
+    "gap": "English “source” is a spring: water that leaves it does not come back. A root is where the life goes back to each winter."
+  },
+  "靜": {
+    "senses": ["still, not moving", "quiet, silent", "to examine closely (Shuowen)"],
+    "shuowen": "審也。从青爭聲。",
+    "shuowenEn": "To examine closely. From 青 (the green of living things), with 爭 for the sound.",
+    "parts": [{"c": "青", "m": "blue-green; clear"}, {"c": "爭", "m": "sound; alone: to pull, to contend"}],
+    "story": "The opposite of 動, movement. A practice word of the fourth-century meditation teachers and of the Laozi: muddy water made still slowly clears (15); keep stillness firmly, and return to the root is called stillness (16); stillness is the lord of haste (26); the female overcomes the male by stillness (61); “I love stillness and the people right themselves” (57).",
+    "gap": "“Peace”, “serenity”, and “tranquillity” are feelings. 靜 is a fact: not moving. The feelings may come or not."
+  },
+  "虛": {
+    "senses": ["a great mound; a deserted site (later 墟)", "empty, hollow, open", "unreal, in vain (later)"],
+    "shuowen": "大丘也。崐崘丘謂之崐崘虛。古者九夫爲井，四井爲邑，四邑爲丘。丘謂之虛。从丘虍聲。",
+    "shuowenEn": "A great mound. The Kunlun hill is called the Kunlun 虛. In old times nine men made a well-field, four well-fields a town, four towns a hill-district; a hill-district is called a 虛. From 丘 (hill), with 虍 for the sound.",
+    "parts": [{"c": "虍", "m": "sound part (tiger stripes)"}, {"c": "丘", "m": "a hill (lower part, altered)"}],
+    "story": "First a wide, bare height, and the site of a city that is gone. From open ground came “empty”. The Laozi uses it for productive openness: empty the heart, fill the belly (3); the bellows is empty and not used up (5); reach emptiness, the limit (16).",
+    "gap": "“Void” and “vacancy” suggest lack. 虛 is open land: nothing stands on it now, so anything may."
+  },
+  "復": {
+    "senses": ["to go and come back; to return", "again", "to restore; to report back", "hexagram 24, Return"],
+    "shuowen": "往來也。从彳复聲。",
+    "shuowenEn": "To go and to come. From 彳 (a step), with 复 for the sound.",
+    "parts": [{"c": "彳", "m": "a step, a road"}, {"c": "复", "m": "sound and sense: to go back over"}],
+    "story": "To come back along the road. As a hexagram it is the first light after the winter solstice. In the Laozi it is the direction of all things: it returns to no-thing (14); I watch the return, and each returns to its root (16); return to the infant, to the limitless, to the uncarved wood (28); “turning back is the movement of the Way”, with the near-synonym 反 (40).",
+    "gap": "“Return” in English can sound like retreat or repetition. 復 is the second half of every going-out."
+  },
+  "歸": {
+    "senses": ["to go home; to go where one belongs", "of a bride: to go to her husband’s house", "to give back; to come together at"],
+    "shuowen": "女嫁也。从止，从婦省，𠂤聲。",
+    "shuowenEn": "A woman goes to be married. From 止 (foot) and an abbreviated 婦 (wife), with 𠂤 for the sound.",
+    "parts": [{"c": "𠂤", "m": "sound part"}, {"c": "止", "m": "a foot"}, {"c": "帚", "m": "broom; short for 婦, wife"}],
+    "story": "The Shuowen’s first sense is the bride’s journey to the house that is hers from then on. So 歸 is arrival where one belongs. In the Laozi all things 歸 to the root (16), the weary one seems to have nowhere to 歸 (20), the whole is 歸 to the one who bends (22), and the ten thousand things 歸 to the Way, which does not play the lord over them (34).",
+    "gap": "“Go back” looks behind. 歸 looks ahead, to home."
+  },
+  "命": {
+    "senses": ["to command; an order", "the mandate of heaven", "what is given to each: life, span, lot", "to name"],
+    "shuowen": "使也。从口从令。",
+    "shuowenEn": "To cause, to send on a task. From 口 (mouth) and 令 (an order).",
+    "parts": [{"c": "口", "m": "mouth"}, {"c": "令", "m": "an order; a person who kneels under a roof or a mouth"}],
+    "story": "At first the same word as 令, a spoken order. Heaven’s order gave a ruling house its right to rule; in the same way each creature has from heaven its nature and its length of days. 復命 was the envoy’s report when the task was done. In passage 16 each thing goes back to the root and “reports on its charge”. Passage 51 says no one commands (命) the honour paid to the Way; it is always so of itself.",
+    "gap": "“Fate” and “destiny” point to a fixed future. 命 points back to something given at the start."
+  },
+  "篤": {
+    "senses": ["firm, solid, in earnest", "of a horse: to walk heavily and slowly", "of illness: grave"],
+    "shuowen": "馬行頓遟。从馬竹聲。",
+    "shuowenEn": "A horse that walks with heavy, slow steps. From 馬 (horse), with 竹 for the sound.",
+    "parts": [{"c": "竹", "m": "bamboo; here the sound"}, {"c": "馬", "m": "horse"}],
+    "story": "The dictionary’s picture is a horse that sets each foot down with weight. From it comes the sense of the texts: solid, sincere, in earnest. Passage 16 pairs it with 極, the ridgepole: the top of the roof and the heavy tread.",
+    "gap": "“Sincerely” and “utterly” are adverbs of the mind. 篤 has weight in the legs."
+  },
+  "凶": {
+    "senses": ["ill-omened: the diviner’s verdict, opposite of 吉", "disaster, famine", "fierce, violent (later also 兇)"],
+    "shuowen": "惡也。象地穿交陷其中也。",
+    "shuowenEn": "Bad. It pictures a hole in the ground and a thing that has fallen into it.",
+    "parts": [{"c": "凵", "m": "a pit"}, {"c": "㐅", "m": "a thing crossed, fallen in"}],
+    "story": "One of the two commonest words on the oracle bones and in the Book of Changes: this course is 吉, that one is 凶. The Shuowen sees a pitfall. In passage 16, to rise wildly without knowledge of the constant is 凶; in passage 30, after a great army there are 凶 years.",
+    "gap": "“Evil” makes it a moral judgement. 凶 is about outcomes: this path has a hole in it."
+  },
+  "公": {
+    "senses": ["common to all, public; even-handed", "duke; a lord", "a term of respect for an old man"],
+    "shuowen": "平分也。从八从厶。八猶背也。韓非曰：背厶爲公。",
+    "shuowenEn": "To share out evenly. From 八 and 厶. 八 is like “to turn the back”. Han Fei said: to turn the back on the private (厶) is 公.",
+    "parts": [{"c": "八", "m": "to part, to turn away"}, {"c": "厶", "m": "private (old form of 私)"}],
+    "story": "The word joins three ideas that English keeps apart: fair, public, and noble. The Legalists set 公 against 私, the private, and built the state on the first. In passage 16 it comes from having room for all things, and it leads on to heaven.",
+    "gap": "“Impartial” is cool; “public” is institutional; “duke” is a rank. A Chinese reader hears all three."
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "n": 79,
+  "title": "The Left Tally",
+  "theme": "conflict",
+  "zh": [
+    {
+      "text": "和大怨，必有餘怨，",
+      "gloss": {
+        "0": "hé: to bring into accord, to make peace in",
+        "2": "grievance, resentment, a grudge",
+        "6": "left over, remaining"
+      }
+    },
+    {
+      "text": "安可以為善？是以聖人執左契，",
+      "gloss": {
+        "0": "ān: how? (a question word here, not “peace”)",
+        "4": "good",
+        "10": "to hold in the hand",
+        "11": "left",
+        "12": "qì: a tally; a contract cut in wood or bamboo"
+      }
+    },
+    {
+      "text": "而不責於人。有德司契，",
+      "gloss": {
+        "2": "zé: to demand payment; also to blame",
+        "7": "de: inner power; also a kindness that puts another in one’s debt",
+        "8": "to have charge of, to keep"
+      }
+    },
+    {
+      "text": "無德司徹。",
+      "gloss": {
+        "3": "chè: the Zhou tithe; to take a share; (Wang Bi) to watch for faults"
+      }
+    },
+    {
+      "text": "天道無親，常與善人。",
+      "gloss": {
+        "3": "kin, one’s own people; favourites",
+        "6": "yǔ: to give to; to side with, to be with",
+        "7": "good; or good at something"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Make peace|he]] in a great [[grievance|yuan]],",
+    "and [[some grievance is sure to be left over|yu-yuan]].",
+    "[[How can that count as good?|shan]]",
+    "",
+    "So [[the sage|sheng]] holds [[the left tally|zuo-qi]]",
+    "and [[makes no claim|ze]] on anyone.",
+    "One with [[de|de]] [[keeps the tally|si-qi]];",
+    "one without de [[keeps the tithe|si-che]].",
+    "",
+    "[[The way of heaven has no kin.|wu-qin]]",
+    "It is always [[with|yu]] the good person."
+  ],
+  "notes": {
+    "sheng": {
+      "kind": "gap",
+      "title": "聖人: not a saint",
+      "body": "聖人 is “the sage” by custom, and the English word misleads. This is not a saint: there is no holiness here and no reward after death. It is not only a wise man either. The graph has 耳, an ear, and the Shuowen defines the word as 通, “to pass through, to reach”: a person whose hearing is open, and who leads by that attunement. In this passage the sage is a party to a contract, with a tally in the hand like anyone else. The difference is in what is done with it.",
+      "src": ["Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"]
+    },
+    "he": {
+      "kind": "etymology",
+      "title": "和: to answer in song",
+      "body": "The first word is a musical one. The Shuowen defines 和 as 相譍也, “to answer one another”: one voice sings a line and a second voice comes in on it. From that comes harmony, and from harmony, peace between people. As a verb, 和 is what a mediator does: brings two parties into tune. The text is doubtful about this work when the grievance is great. Voices can be brought into tune for an afternoon. Elsewhere the book prizes 和 deeply: the ten thousand things carry yin on their backs and hold yang in their arms, and the blended breath makes their 和 (42); to know 和 is called constancy (55). So the word itself is not in question. The question is whether accord can be made after the fact, by a treaty, when it was not kept before.",
+      "src": [
+        "Shuowen Jiezi, 口部: 和，相譍也。从口禾聲。",
+        "Laozi 42, 55"
+      ]
+    },
+    "yuan": {
+      "kind": "etymology",
+      "title": "怨: a heart that turns in bed",
+      "body": "怨 is the grievance of one who has been wronged, or believes so: resentment that is kept. The Shuowen defines it as 恚, hatred, and builds it from 心, the heart, with 夗 above for the sound. Look up 夗 by itself and the dictionary gives a picture that is hard to forget: 轉臥也, “to turn over while lying down”. It is written with 夕, evening, and a bent figure. The Shuowen does not say that this sense plays a part in 怨; it marks only the sound. But a reader of the graph sees an evening, a body that turns, and a heart under them. That is an exact description of a grudge at night. English “grievance” is a legal word, and “resentment” is Latin for “feeling again”. The Chinese graph shows where the feeling is felt again, and at what hour.",
+      "src": [
+        "Shuowen Jiezi, 心部: 怨，恚也。从心夗聲。",
+        "Shuowen Jiezi, 夕部: 夗，轉臥也。从夕从卪。臥有卪也。"
+      ]
+    },
+    "yu-yuan": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the wound does not go back",
+      "body": "Why is there always a remainder? Wang Bi writes: 不明理其契，以致大怨已至。而德和之，其傷不復，故有餘怨也。 “One did not keep the tally clear and in order, and so a great grievance has already come. If one then uses 德 to make peace in it, the wound does not return to what it was. So there is grievance left over.” His weight is on 已, “already”. Peace-making arrives after the damage, and damage of this kind does not reverse. So he moves the whole teaching to an earlier point in time: the work is to keep one’s own agreements clear, so that the great grievance never forms. This agrees with passages 63 and 64: deal with a thing while it is small; act on it before it exists. The word 餘 was “surplus” in passage 77. Here the surplus is of pain.",
+      "src": [
+        "Wang Bi commentary on Laozi 79",
+        "Laozi 63, 64"
+      ]
+    },
+    "shan": {
+      "kind": "gap",
+      "title": "安可以為善: an honest question",
+      "body": "安 is here the question word “how?”, and the line is five characters: how can [this] be taken as good? The text does not say that reconciliation is bad. It says that it cannot be called 善, the good outcome, because the residue is still in the hearts of both sides. This goes against a moral habit of English, in which “they made peace” is a happy ending. It also seems to go against the book itself. Passage 63 said 報怨以德, “answer grievance with 德”, a line that Confucius is said to have questioned: with what, then, will you answer kindness? The two passages can be read together. To answer a small grievance with 德 at once, before it grows, is passage 63. To arrive with good will after a great one has formed is this line, and it is too late for “good”.",
+      "src": [
+        "Laozi 63",
+        "Analects 14.34"
+      ]
+    },
+    "zuo-qi": {
+      "kind": "history",
+      "title": "契: a contract you can split",
+      "body": "A 契 was a strip of bamboo or wood. The terms of a loan or a sale were written on it, notches were cut across its edge, and it was split down the middle. Each party kept one half. When the debt came due, the halves were set side by side; if the notches met, the claim was true. The Shuowen says of a related word, 券, that the two parts were cut apart with a knife along the side. Such tallies were the ordinary instrument of credit in the Warring States, and the state used the same device in bronze for military orders. The Book of Changes makes them a mark of civilisation: in high antiquity people ruled by knotted cords, and later sages replaced these with 書契, writing and tallies. The next passage of the Laozi asks for the knotted cords back.",
+      "src": [
+        "Shuowen Jiezi, 大部: 契，大約也。从大从㓞。《易》曰：“後代聖人易之以書契。”",
+        "Shuowen Jiezi, 刀部: 券，契也…以刀判契其旁，故曰契券。",
+        "Yijing, “Xici” B.2"
+      ]
+    },
+    "left-right": {
+      "kind": "variant",
+      "title": "Left half or right half?",
+      "body": "Which half did the creditor hold? Readers have argued for two thousand years. The Heshang Gong commentary and many later scholars say the left: the sage is the lender who holds the proof of a claim and does not use it. But two texts of the period speak of a person who “takes the right tally” in order to press a demand, with the very verb 責. On that evidence the right half is the creditor’s and the left the debtor’s, and the sage takes the lower seat in the contract: the side that owes. A ritual text adds that one who presents grain holds the right half, and the old comment there says that the right was the side of honour. The two Mawangdui silk texts are reported to disagree: silk A has 右介, the right tally, and silk B has the left, as our text does. Custom may have differed from state to state. In every version the next clause is the same, and it carries the sense: no demand is made.",
+      "src": [
+        "Zhanguoce, “Han ce” 3 (操右契…責德); Shiji 76 (操右券以責)",
+        "Liji, “Qu li” A (獻粟者執右契), with Zheng Xuan’s comment",
+        "Heshang Gong commentary on Laozi 79",
+        "Mawangdui Laozi A and B (as reported; a modern collated edition prints 執右介)"
+      ]
+    },
+    "ze": {
+      "kind": "etymology",
+      "title": "責: a thorn over money",
+      "body": "責 has 貝, the cowrie shell that was money, at its foot. The Shuowen defines the word as 求也, “to demand”, and names the top part as 朿, which gives the sound. 朿 is its word for a thorn, 木芒也, the sharp point on a tree; the same part, with a knife, makes 刺, to stab. So the graph for pressing a claim is, to the eye, a thorn over a shell. The word has three senses that English keeps apart: to demand payment; to blame or reproach; and a duty, as in the modern 責任, responsibility. With a person added it is 債, debt. In Chinese, then, to blame someone is to present a bill. 不責於人 can be heard both ways at once: the sage does not collect from people, and does not reproach them. Is there a difference, when you reproach someone, from asking to be paid?",
+      "src": [
+        "Shuowen Jiezi, 貝部: 責，求也。从貝朿聲。",
+        "Shuowen Jiezi, 朿部: 朿，木芒也。象形。"
+      ]
+    },
+    "feng-xuan": {
+      "kind": "geopolitics",
+      "title": "The man who burned the tallies",
+      "body": "The age had a famous case of this passage in action. Lord Mengchang, a minister of Qi about 300 BCE, kept three thousand retainers and lived on loans to the people of his fief, Xue. He sent a poor retainer named Feng Xuan to collect. Feng Xuan called in all the debtors, matched their tallies, and then, in the lord’s name, burned the tallies in front of them. The people shouted “ten thousand years”. Mengchang was angry: where was his money? Feng Xuan answered that the lord’s house was full of goods and lacked one thing, 義, right dealing, and that he had bought it for him. A year later Mengchang lost his post and went home to Xue. The whole population came out a hundred li to meet him. The story is told as clever policy. The passage is less interested in the return.",
+      "src": [
+        "Zhanguoce, “Qi ce” 4"
+      ]
+    },
+    "de": {
+      "kind": "gap",
+      "title": "德 in a passage about debt",
+      "body": "We leave 德 as de. Its usual English, “virtue”, was right in the old sense of that word, the power in a thing, as when a herb has virtue. In the Laozi it is the inner power of a person or creature that is in accord with Dao. But 德 had a second, everyday sense in this period, and a passage on tallies brings it out. A 德 was a kindness done, and so a credit: the one who received it owed something back. Texts of the time speak of “claiming one’s 德” from a ruler, in the very phrase used for debts. So 有德, “to have 德”, can also be heard as “to be owed”. The line plays on this. The person with real 德 is the one who holds the proof of what is owed, the tally, and only keeps it. [[Wang Bi reads the keeping in his own way.|si-qi]]",
+      "src": [
+        "Zhanguoce, “Han ce” 3 (責德)"
+      ]
+    },
+    "si-qi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: mind your own half",
+      "body": "On 有德司契 Wang Bi writes: 有德之人念思其契，不念怨生而後責於人也。 “The person who has 德 keeps their thought on their own tally. They do not wait until grievance has arisen and afterwards make demands on others.” And on the left tally: 左契，防怨之所由生也, “the left tally guards the place from which grievance is born”. In his reading the tally is not mainly a claim. It is a record of what was agreed, and the person with 德 studies their own half: what did I undertake? Have I kept it? The attention goes to one’s own side of every agreement. The other person’s side is left to the other person. This turns the line into a daily discipline, and it explains how the sage can hold a tally for life and never press a claim: the tally was for self-examination.",
+      "src": [
+        "Wang Bi commentary on Laozi 79"
+      ]
+    },
+    "si-che": {
+      "kind": "history",
+      "title": "徹: the tithe, or the hunt for faults",
+      "body": "司徹 is “to have charge of 徹”, and the word has been read in three ways. The plainest takes it as the name of the Zhou land tax. Mencius says: the Xia took tribute, the Yin took labour, and 周人百畝而徹, “the people of Zhou took the 徹 on a hundred mu”, about one part in ten. Then the line sets two officers side by side. One keeps tallies and waits for free payment. The other keeps the tithe and takes a fixed share, due or not, in good years and bad. Trust faces extraction, and the passage joins the criticism of passages 75 and 77. Wang Bi reads otherwise: 徹，司人之過也, “徹 is to watch for people’s faults”. The Shuowen’s root sense is 通, to go right through. Others read the graph as 轍, wheel-tracks: the marks that people leave. Tithe or fault, the one without 德 is busy with what others owe.",
+      "src": [
+        "Mencius 3A3",
+        "Wang Bi commentary on Laozi 79",
+        "Shuowen Jiezi, 攴部: 徹，通也。"
+      ]
+    },
+    "wu-qin": {
+      "kind": "geopolitics",
+      "title": "無親: heaven has no relatives",
+      "body": "親 is a parent, a kinsman, one’s own people. The Shuowen’s gloss is 至, “to reach all the way”: those who are closest. Zhou society was built on this word. Fiefs went to the king’s kin; office went by lineage; and the Confucians made 親親, “treating kin as kin”, the root of all goodness. To say 天道無親 is therefore a political act. Heaven’s way has no family, no clan, no chosen house. The thought was older than the Laozi. A saying preserved in the Zuo chronicle from a lost Zhou document runs: 皇天無親，惟德是輔, “august heaven has no kin; it helps only 德”. That saying had served the Zhou to explain why heaven left the Shang kings. Passage 5 has the same coolness: heaven and earth are not humane. For whom would this line be bad news?",
+      "src": [
+        "Shuowen Jiezi, 見部: 親，至也。从見亲聲。",
+        "Zuozhuan, Duke Xi year 5",
+        "Laozi 5"
+      ]
+    },
+    "yu": {
+      "kind": "gap",
+      "title": "No favourites, yet “always with the good”?",
+      "body": "The last two clauses seem to conflict. Heaven has no favourites; and it is always 與 the good person. 與 can mean “to give to”, “to side with”, and “to be with”. If it means “to reward”, then heaven has favourites after all, the good ones. The conflict resolves when 親 and 善 are read with care. 親 is closeness by birth or tie: heaven has none of that. 善 is a way of acting, and in this book it often means “good at”: good at walking, good at closing (27). The 善人 of this passage is the one just described, who holds the tally and makes no claim. Heaven’s way was said in passage 77 to take from surplus and mend lack. A person who acts so is going where heaven goes. Heaven is “with” that person as a current is with a swimmer. No choice is made, and no reward is paid.",
+      "src": [
+        "Laozi 27, 77"
+      ]
+    },
+    "sima-qian": {
+      "kind": "history",
+      "title": "The historian’s doubt",
+      "body": "The closing line became a proverb, and the greatest historian of China used it to ask a terrible question. Sima Qian (about 145–86 BCE) opens his collection of biographies with Bo Yi and Shu Qi, two brothers who refused on principle to eat the grain of a new dynasty and starved on a mountain. He writes: some say 天道無親，常與善人. Were Bo Yi and Shu Qi not good people? And the robber Zhi killed the innocent every day and died in bed at a great age. Then: 余甚惑焉，儻所謂天道，是邪非邪, “I am deeply perplexed. This so-called way of heaven: is it so, or is it not?” Sima Qian had himself been castrated for speaking in defence of a defeated general. He read 與 as “reward” and found the line false. Does [[the other reading of 與|yu]] answer him, or only step around him?",
+      "src": [
+        "Shiji 61, “Bo Yi liezhuan”"
+      ]
+    },
+    "last-of-half": {
+      "kind": "history",
+      "title": "Once, the last line of a book",
+      "body": "In the received order this passage is third from the end. In the Mawangdui silk texts it stands at a greater place. Those texts begin with the part on 德, our passages 38 to 81, and put our 80 and 81 earlier, after 66. So their first book runs out here; after the words 恆與善人 the collated silk text marks the start of the part on Dao. For readers of that edition, the book of 德 ended on the line about heaven’s way. Its last images were a split piece of bamboo, a tax officer, and a heaven without family. The same book opens, in our passage 38, with the highest 德 that does not act as 德. A reader who went from that opening to this close was shown what such 德 looks like in the hand: a tally that is held and never presented.",
+      "src": [
+        "Mawangdui Laozi A and B (order of chapters)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s eight brackets",
+      "body": "Legge needed eight sets of brackets for this short passage, and they show where the Chinese gave him less than a Victorian sentence requires. The grudge remains “(in the mind of the one who was wrong)”; the Chinese does not say in whose mind. The sage does not insist on the “(speedy) fulfilment” of the contract; the Chinese says that the sage makes no demand, with no word about speed. 德 becomes “the attributes (of the Tao)”, a phrase from theology, where God has attributes. For 徹 he writes “the conditions favourable to himself”, which is a guess. At the end, 無親 becomes “no partiality of love”. A missionary could not write that heaven has no love for its own; he wrote that its love is impartial. His last clause is exact and brave: “it is always on the side of the good man”. Only “man” is added.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "uncollected": {
+      "kind": "practice",
+      "title": "Hold one tally, and do not present it",
+      "body": "Think of something that is owed to you. It may be money. More often it is an apology, a favour returned, an acknowledgment of work that you did. You hold your half of that tally, and the notches are clear in your mind; you can recite them. For one week, keep the tally and do not present it. Do not hint at it, and do not mention it to a third person. This is not the same as forgiving the debt or pretending that it does not exist. The sage holds the tally. Then do Wang Bi’s exercise and [[look at your own half|si-qi]] of the same agreement: what did you undertake, and did you deliver it? Notice at what hour the grievance comes to you. The graph [[怨|yuan]] suggests that it is at night."
+    }
+  },
+  "lenses": {
+    "ground": "The passage starts where a negotiation ends. A great [[grievance|yuan]] has been [[brought to accord|he]], and the text observes that [[some of it remains|yu-yuan]], and asks how that can be called good. The answer is an object: [[a tally|zuo-qi]], the split bamboo contract of the age. The sage holds one half of it, [[the left|left-right]], and [[presents no claim|ze]]. Two officers are then compared: the one with [[de|de]] keeps tallies, and the one without keeps [[the tithe|si-che]]. The close lifts the eyes: [[heaven’s way has no kin|wu-qin]], and it is always [[with|yu]] the good person. The things in the passage are a song for two voices, a body that turns in bed, a notched stick, a thorn over a shell, and a tax register. In the oldest manuscripts this was [[the last passage of a book|last-of-half]].",
+    "inner": "Each of us keeps accounts. In them are the notched sticks of every wrong done to us, and we can match the notches years later. The passage does not ask us to throw the sticks away. That would be a pretence, and the residue would stay, as it stays after any made peace. It describes a different way to hold them: the tally in the hand, clear, and [[no demand|ze]]. A claim that is not pressed stops growing. The mind is then free to do what [[Wang Bi|si-qi]] advises and look at its own half: what did I owe, and did I pay? Most grievance lives on the hope of collection. The last lines remove the helper that we hoped for. [[Heaven has no kin|wu-qin]]: it is not on my side because I am me.",
+    "leading": "Three lessons for people who settle disputes. First, be modest about settlements. After a great conflict, an agreement on paper [[leaves a remainder|yu-yuan]], and a leader who announces that the matter is closed will meet it again. The better work is earlier: clear agreements, kept, before a grievance forms. Second, the line on two officers describes two styles of authority. One keeps the record of what people have freely undertaken and trusts them to honour it. The other [[takes a share and looks for faults|si-che]]. People know very quickly which kind they work for. Third, a strong position is a tally in the hand, and its best use is restraint. [[Feng Xuan burned his lord’s tallies|feng-xuan]] and bought loyalty that no interest could buy. The text asks for the restraint without the calculation.",
+    "nature": "The last line can be watched in any field. Rain falls on the careful farmer’s land and on the careless one’s alike; that is 無親, [[no kin|wu-qin]]. Yet the field that was dug and mulched takes the rain in, and the hard field sheds it. Heaven is [[“with”|yu]] the good farmer, and it chose no one. Rivers show the first half. Two streams that meet after a storm, one clear and one brown, run side by side in the same bed for a long way before they mix; the join is made at once and the accord takes miles. A broken bone knits and remains visible on a picture of the limb for life. Things that are joined after a break carry the break. This is not a moral fault in them. It is why the text looks for the good before the break.",
+    "practice": "Do the exercise of [[the uncollected tally|uncollected]] this week with one real debt of the non-money kind. Hold it clearly; do not present it. Beside that, do one small act of the earlier kind that Wang Bi points to: find an agreement that you are part of which is not clear, with a colleague, a partner, a child, and make your own half exact. Say what you will do and by when. Many great grievances begin as a tally that nobody cut. At the end of the week, read the last line and then [[Sima Qian’s doubt|sima-qian]] about it. Do not hurry to defend the line. Ask what you expect heaven to do for the good, and whether [[Legge’s “on the side of”|legge]] is your reading too."
+  },
+  "glyph": "契",
+  "plates": [
+    {
+      "c": "契",
+      "title": "Notches, a knife, and a great thing",
+      "lesson": "The character has three parts, and the top two tell how a contract was made. At the upper left is 丰, three short strokes across one upright: a stick with notches cut in it. At the upper right is 刀, a knife, the tool that cut them. The Shuowen treats these two together as one older graph, 㓞, the act of carving. Under them is 大, “great”, which the dictionary explains as the picture of a person: 天大，地大，人亦大, “heaven is great, earth is great, and a person is also great”. The definition of the whole is 大約也, “a major agreement”. So 契 says: a great matter, settled with a knife and notches. A variant graph, 栔, has 木, wood, at the foot in place of 大. The Shuowen then quotes the Book of Changes on the invention of [[writing and tallies|zuo-qi]], which replaced the knotted cords. The word spread from the object to what it does. 契 is to fit together exactly, as two halves fit: a deep friendship is 默契, a silent tally. Its relatives carry the knife sense: 楔, a wedge, with wood; 鍥, to carve, with metal. The modern word for a contract is still 契約. Note what this instrument assumes: two people, one object, and a future day when the halves will meet. The sage of the passage holds half of that future and [[does not call it in|ze]].",
+      "brush": "Nine strokes. The notched stick first, in four: three short level strokes from the top down, the third rising a little to the right, and then the upright through all three. Keep it narrow and to the left. The knife next, in two: a stroke that goes right, turns the corner, and comes down to a hook; then a slash inside it, falling left. The stick and the knife share the upper half and must stand close without touching. Then 大 below, in three: a long level line that underlines both upper parts; a slash from its centre to the lower left; and a press to the lower right. These last two open like a person’s legs and carry everything above. The upper half is small, careful cutting, and the lower half is one broad gesture. A good hand lets the difference show."
+    },
+    {
+      "c": "怨",
+      "title": "Evening, a bent body, a heart",
+      "lesson": "The lower part is 心, the heart, and it tells you the field: this is a feeling. The heart sign is under most Chinese words for states of mind: 思 (to think), 忘 (to forget), 怒 (anger), 恩 (kindness received), 悲 (grief). Above it is 夗 (yuàn), which gives the sound. 夗 has two halves of its own. The left is 夕, evening, the crescent moon just risen. The right is a bent or kneeling figure. The Shuowen defines 夗 as 轉臥也, “to turn over while lying down”, and comments 臥有卪也, “even in lying down there is a measure”. You know this sound-part from 鴛, the mandarin duck, the bird of faithful pairs, and from 宛, to bend or wind, which the Shuowen explains as grass that bends over and covers itself. The family is about curling and turning. So read 怨 from the top: evening; a body that turns; and under them the heart. The dictionary’s own definition is short, 恚也, “hatred held in”, and it does not claim that the parts make a picture. But a learner is allowed to keep a picture that fits this well. [[A grievance is the thing that turns us over at night.|yuan]] The passage says that even after peace is made, some of it is left. The body knows where.",
+      "brush": "Nine strokes: five above, four below. Evening first: a short slash to the left; a stroke that goes right, turns, and sweeps down to the left; a dot inside. Then the bent figure: a stroke that goes right, turns, and hooks; and under it a stroke that comes down, bends, runs right, and hooks upward. These two parts sit side by side and should lean toward each other a little. Now the heart, wide and low, in four strokes that never touch: a dot at the left; the long lying hook, which dips like the bottom of a bowl and flicks up at the right end; a dot above the middle of the bowl; a dot at the far right. The lying hook is the hardest stroke in regular script. Enter lightly, press as it curves, and hook toward the centre dot. The three dots should look as if they are in motion over still water."
+    },
+    {
+      "c": "責",
+      "title": "The thorn on the shell",
+      "lesson": "The lower part is 貝, the cowrie shell, which was money before metal coins, and which stands under most words of value: 財 (wealth), 貨 (goods), 買 (to buy), 貴 (dear), 貧 (poor). The upper part is now four simple strokes. The Shuowen names what it was: 朿, a thorn, 木芒也, “the sharp point of a tree”, and says that it gives the sound. You can see the thorn more fully in 刺, to stab, where it stands beside a knife, and in 棗, the jujube, a thorny tree written with two of them. The definition of 責 is 求也: to demand, to seek what is due. So the word was first about payment. Its other senses grew from that: to hold someone to account, to reproach, to punish, and then the duty for which one is held to account. The family is the vocabulary of obligation. 債 adds a person: a debt. 積, with grain, is to pile up; the Shuowen says 聚也, to gather. 績, with thread, is spun yarn and so a record of work done. 蹟, with a foot, is a track left behind. In each, something has built up that can be counted. The passage’s sage has the shell’s worth in hand and leaves the thorn unused: [[不責於人|ze]]. Feel the difference in your own speech between stating what is owed and pressing the point in.",
+      "brush": "Eleven strokes: four for the top, seven for the shell. The top begins with a level line; then a second, a little shorter; then an upright that starts above the first line and passes down through both; then a third level line, long, which the upright meets and does not cross. This long line is the lid of the character, and it should reach past the shell on both sides. The shell: its left side; its top and right side in one stroke with a corner; two short level lines inside; a third that closes the box; and then the two feet, a slash to the left and a dot to the right. Keep the box tall and narrow, with even spaces. The feet spread just wider than the box and end level with each other. In running script the three top lines become one zigzag and the feet become two quick dots."
+    }
+  ]
+}

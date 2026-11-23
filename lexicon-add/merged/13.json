@@ -1,0 +1,66 @@
+{
+  "辱": {
+    "senses": ["shame, disgrace", "to disgrace, to insult", "to be so kind as to (polite speech: “you disgrace yourself by…”)", "dark, soiled (in 大白若辱)"],
+    "shuowen": "恥也。从寸在辰下。失耕時，於封畺上戮之也。辰者，農之時也。",
+    "shuowenEn": "Shame. From 寸 (a hand) under 辰. One who missed the time of plowing was punished at the boundary mound. 辰 is the farmers’ season.",
+    "parts": [ { "c": "辰", "m": "the farming season and its star; commonly explained as a shell blade for field work" }, { "c": "寸", "m": "a hand; rule, measure" } ],
+    "story": "The Shuowen reads the graph as a public punishment for failing the season; modern scholars see a hand with a farm tool and doubt the story. The word is the partner of 榮, glory, and of 寵, favor. The Laozi treats it as a place that one can choose to stand in. Favor and 辱 are both like a fright (13). Know glory and keep to 辱: be the valley of the world (28). The great white seems 辱, soiled (41). Know what is enough and there is no 辱 (44).",
+    "gap": "“Disgrace” is a fall from grace, a word of court and church. 辱 is exposure before one’s neighbors. The Laozi advises a person to keep to it, which no English moralist would say of disgrace."
+  },
+  "寵": {
+    "senses": ["favor from a superior", "to favor, to dote on", "a favorite: a minister, a consort; later, a pet", "honor, glory"],
+    "shuowen": "尊居也。从宀龍聲。",
+    "shuowenEn": "To dwell in honor. From 宀 (roof), with 龍 for the sound.",
+    "parts": [ { "c": "宀", "m": "a roof, a house" }, { "c": "龍", "m": "sound part; a dragon" } ],
+    "story": "A dragon under a roof. The word is used only downward: a lord’s regard for someone below. The Han Feizi’s story of Mi Zixia and the peach shows its nature: the same act is charming under favor and criminal after it. The Laozi uses the word in one passage only, and gives it no good sense: 寵 makes one the lower; to get it is a fright and to lose it is a fright (13). In modern Chinese a pet animal is a 寵物, “favor-thing”.",
+    "gap": "“Favor” and “honor” can sound like things a person has. 寵 stays in the giver’s hands. To have it is to be held."
+  },
+  "患": {
+    "senses": ["trouble, calamity", "illness", "worry; to worry about", "to suffer from"],
+    "shuowen": "憂也。从心上貫吅，吅亦聲。",
+    "shuowenEn": "Worry. From 心 (heart), with 吅 strung through above it; 吅 also gives the sound.",
+    "parts": [ { "c": "串", "m": "two things strung on one line" }, { "c": "心", "m": "heart" } ],
+    "story": "A heart with something run through it. One word serves for the outer disaster and for the inner distress. Confucius uses it often for what should and should not worry a person: do not 患 that others do not know you. The Laozi uses it in one passage: great 患 comes from having a body, and with no body, what 患 would there be? (13). A modern patient is a 患者, “one who has a 患”.",
+    "gap": "English divides the event (“disaster”) from the feeling (“worry”). 患 does not, and the passage depends on that: the trouble and the one who can be troubled arrive together."
+  },
+  "驚": {
+    "senses": ["(of a horse) to shy, to bolt", "to start in fear; to startle", "alarm, surprise, amazement"],
+    "shuowen": "馬駭也。从馬敬聲。",
+    "shuowenEn": "A horse takes fright. From 馬 (horse), with 敬 for the sound.",
+    "parts": [ { "c": "敬", "m": "sound part; respect, awe" }, { "c": "馬", "m": "a horse" } ],
+    "story": "First the sudden jump of a frightened horse, then the same jump in a person. It is a movement of the body before thought. The Laozi uses it in one passage, five times: favor and disgrace are like a 驚; to get favor is like a 驚, and to lose it is like a 驚 (13). One of the twenty-four terms of the farmers’ year is 驚蟄, “the startling of the sleeping insects”, when the first thunder wakes them.",
+    "gap": "“Alarm”, “anxiety”, and “surprise” are states of mind. 驚 is a jolt of the whole animal."
+  },
+  "寄": {
+    "senses": ["to lodge, to stay for a time", "to leave in someone’s keeping, to entrust", "to send (a message, a parcel)", "to depend on"],
+    "shuowen": "託也。从宀奇聲。",
+    "shuowenEn": "To entrust. From 宀 (roof), with 奇 for the sound.",
+    "parts": [ { "c": "宀", "m": "a roof, a house" }, { "c": "奇", "m": "sound part; odd, single" } ],
+    "story": "To be under another’s roof for a while: a traveller lodges, and a thing is left in keeping. The Shuowen defines 寄 by 託 and 託 by 寄. Poets later used the word for life itself: a person 寄 in the world like a guest. The Laozi uses it once: to the one who honors the body as all under heaven, all under heaven can be 寄 (13). The realm is a thing lodged. It is not a thing possessed.",
+    "gap": "English says a ruler “holds” or “takes” power. 寄 gives the ruler a guest’s position, or that of a keeper of another’s goods."
+  },
+  "託": {
+    "senses": ["to entrust, to commit to someone’s care", "to rely on", "to use as a pretext", "to send word through"],
+    "shuowen": "寄也。从言乇聲。",
+    "shuowenEn": "To lodge with. From 言 (speech), with 乇 for the sound.",
+    "parts": [ { "c": "言", "m": "speech, a word" }, { "c": "乇", "m": "sound part" } ],
+    "story": "To put a thing in another’s hands by word. A dying ruler 託 his young heir to a minister; that is the classic use, and the Analects praises the person to whom an orphan prince can be 託. The Laozi uses it once, as the twin of 寄: to the one who cherishes the body as all under heaven, all under heaven can be 託 (13). The Zhuangzi quotes the two lines with the verbs in the other order.",
+    "gap": "“Entrust” is close. English has no pair like 寄 and 託, two words that the oldest dictionary defines by each other."
+  },
+  "吾": {
+    "senses": ["I, my, we, our"],
+    "shuowen": "我，自稱也。从口五聲。",
+    "shuowenEn": "“I”: what one calls oneself. From 口 (mouth), with 五 for the sound.",
+    "parts": [ { "c": "五", "m": "sound part; five" }, { "c": "口", "m": "a mouth" } ],
+    "story": "One of the two common classical words for “I”; the other is 我. 吾 is used mostly as subject or possessor. The speaker of the Laozi says 吾 at moments of plain report or confessed limit: “I do not know whose child it is” (4); “I have great trouble because I have a body” (13); “I see their return” (16); “I do not know its name” (25); “my words are very easy to know” (70). The book has no name of an author in it. It has this voice.",
+    "gap": "English “I” is always the same word. Classical Chinese has several, and the choice sets a tone; 吾 is plain and unassuming."
+  },
+  "貴": {
+    "senses": ["costly, of high price", "of high rank, noble", "to value, to prize, to honor", "(old gloss, in passage 13) to treat as grave, to fear"],
+    "shuowen": "物不賤也。从貝臾聲。",
+    "shuowenEn": "Of things: not cheap. From 貝 (shell, money), with 臾 for the sound.",
+    "parts": [ { "c": "貝", "m": "cowrie shell; money" } ],
+    "story": "First a word of the market: dear, the opposite of 賤, cheap. Then of persons: high in rank. As a verb: to hold dear. The Laozi uses all three and keeps reversing them. Do not 貴 rare goods (3, 64). Rich and 貴 and proud: ruin (9). 貴 the body as all under heaven (13). The 貴 has the lowly as its root (39). Those who know “me” are few, and so “I” am 貴 (70). The sage cares for the self and does not 貴 the self (72).",
+    "gap": "English keeps “expensive”, “noble”, and “to value” apart. 貴 is one word, and it shows that rank and price are one kind of thing."
+  }
+}

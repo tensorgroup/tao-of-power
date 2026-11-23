@@ -1,0 +1,135 @@
+{
+  "甘": {
+    "senses": [
+      "sweet, good to taste",
+      "to find sweet, to relish",
+      "willing, glad (甘心)"
+    ],
+    "shuowen": "美也。从口含一。一，道也。",
+    "shuowenEn": "Fine to taste. From a mouth that holds a one. The one is Dao.",
+    "parts": [
+      { "c": "口", "m": "a mouth (the outer shape)" },
+      { "c": "一", "m": "the thing held in the mouth" }
+    ],
+    "story": "A mouth with something in it that is worth keeping there. In the Laozi the word comes twice. Heaven and earth join and send down sweet dew, and it falls evenly on all with no one’s command (32). The people of the small state find their food sweet (80); there the word is a verb, and the sweetness is the eater’s act.",
+    "gap": "“Sweet” in English is the taste of sugar. 甘 is any good taste, and the relish that goes with it."
+  },
+  "國": {
+    "senses": [
+      "a state, a domain with its walled capital",
+      "the capital city",
+      "(later) a country, a nation"
+    ],
+    "shuowen": "邦也。从囗从或。",
+    "shuowenEn": "A state. From 囗 (an enclosure) and 或 (an enclosure with a dagger-axe that guards a piece of ground).",
+    "parts": [
+      { "c": "囗", "m": "an outer wall" },
+      { "c": "或", "m": "a town 口, a dagger-axe 戈, and ground 一: a defended place" }
+    ],
+    "story": "A wall around a weapon and a piece of land. In the Warring States a 國 was a territorial state with borders, registers, and an army. The Laozi speaks to its rulers: govern a great state as you cook a small fish (60); a great state is like the low reach of a river (61). The old manuscripts write 邦 in these places; scribes changed it to 國 to avoid the name of the first Han emperor. Passage 80 imagines the state small.",
+    "gap": "“Country” and “nation” suggest a people with a shared identity. A 國 was a ruler’s armed domain; the people in it could be lured away by a rival."
+  },
+  "雞": {
+    "senses": [
+      "a chicken; a cock or hen"
+    ],
+    "shuowen": "知時畜也。从隹奚聲。",
+    "shuowenEn": "The domestic animal that knows the time. From 隹 (short-tailed bird), with 奚 for the sound.",
+    "parts": [
+      { "c": "奚", "m": "sound xī" },
+      { "c": "隹", "m": "a short-tailed bird" }
+    ],
+    "story": "The household clock of early China: the cock that calls before dawn. With the dog it stands for a settled village. In passage 80 the sound of chickens and dogs is heard from one state to the next, and the phrase 雞犬相聞 became a fixed expression for neighbours within earshot.",
+    "gap": "For a modern reader a rooster is a farm sound. For the first readers it was the hour."
+  },
+  "寡": {
+    "senses": [
+      "few, scanty",
+      "alone, widowed",
+      "寡人: “the deficient one”, a ruler’s word for himself"
+    ],
+    "shuowen": "少也。从宀从頒。頒，分賦也，故爲少。",
+    "shuowenEn": "Few. From 宀 (a roof) and 頒. 頒 is to divide and hand out; hence “little”.",
+    "parts": [
+      { "c": "宀", "m": "a roof" },
+      { "c": "頒", "m": "to divide and hand out (reduced in the modern form)" }
+    ],
+    "story": "Lords and kings called themselves the orphaned, the widowed, the grainless; the Laozi notes it twice (39, 42). It tells the reader to lessen self-interest and make desires few, 寡欲 (19). In passage 80 it gives the state’s size in people: few.",
+    "gap": "“Few” is a count. 寡 also carries loneliness: it is the word for a widow."
+  },
+  "繩": {
+    "senses": [
+      "a cord, a rope",
+      "the carpenter’s ink-line; a standard",
+      "to measure, to correct by a standard"
+    ],
+    "shuowen": "索也。从糸，蠅省聲。",
+    "shuowenEn": "A rope. From 糸 (silk thread), with a reduced 蠅 (fly) for the sound.",
+    "parts": [
+      { "c": "糸", "m": "silk thread, cord" },
+      { "c": "黽", "m": "what is left of the sound-part 蠅; by itself, a frog" }
+    ],
+    "story": "Twisted fibre. In the Laozi it is the knot that needs no cord: the good binder uses no rope and the knot cannot be undone (27). In passage 14 the word is doubled, 繩繩, for something that runs on without a break. In passage 80 it is the knotted cord of the time before writing.",
+    "gap": "English has no memory of cords as records. For a Chinese reader 結繩 means the world before documents."
+  },
+  "望": {
+    "senses": [
+      "to gaze into the distance",
+      "to look toward with hope; to expect",
+      "the full moon, the fifteenth day"
+    ],
+    "shuowen": "出亡在外，望其還也。从亡，朢省聲。",
+    "shuowenEn": "Someone has gone away and is abroad; one looks for their return. From 亡 (to be gone), with a reduced 朢 for the sound.",
+    "parts": [
+      { "c": "亡", "m": "gone, absent" },
+      { "c": "月", "m": "the moon" },
+      { "c": "王", "m": "in the old form, a person who stands on the ground" }
+    ],
+    "story": "A long look with longing in it. The early forms are commonly explained as a person who stands on tiptoe with a large eye; the moon was added for the day when the full moon faces the sun. In passage 80 neighbouring states gaze toward each other and do not visit.",
+    "gap": "“See” and “look” are neutral. 望 is to look toward something that is far and matters."
+  },
+  "鄰": {
+    "senses": [
+      "a neighbour; neighbouring",
+      "a group of five households"
+    ],
+    "shuowen": "五家爲鄰。从邑粦聲。",
+    "shuowenEn": "Five families make a 鄰. From 邑 (a settlement), with 粦 for the sound.",
+    "parts": [
+      { "c": "粦", "m": "sound lín" },
+      { "c": "阝", "m": "a settlement (the form of 邑 at the right of a graph)" }
+    ],
+    "story": "The smallest unit of village life. The Laozi uses it for wariness and for nearness. The masters of old were watchful, as if in fear of neighbours on all four sides (15). In passage 80 neighbouring states are within sight and hearing of each other.",
+    "gap": "English “neighbour” is a person. 鄰 is first a unit: the five houses that share a lane."
+  },
+  "安": {
+    "senses": [
+      "at rest, at peace, safe",
+      "to settle, to make secure",
+      "how? where? (a question word)"
+    ],
+    "shuowen": "靜也。从女在宀下。",
+    "shuowenEn": "Stillness. From a woman under a roof.",
+    "parts": [
+      { "c": "宀", "m": "a roof" },
+      { "c": "女", "m": "a woman" }
+    ],
+    "story": "Peace pictured as a house with someone at home. A thing that is settled is simple to keep in hand (64). Those who go to the great image find rest, evenness, and greatness (35). The people of the small state are at rest in their homes (80). The same graph is also a question word: how can that count as good? (79).",
+    "gap": "“Peace” in English is the opposite of war, and “safety” the opposite of danger. 安 is a positive state: settled, and still."
+  },
+  "俗": {
+    "senses": [
+      "custom, the ways of a place",
+      "common, ordinary; the common people",
+      "vulgar (later)"
+    ],
+    "shuowen": "習也。从人谷聲。",
+    "shuowenEn": "What is practised. From 人 (a person), with 谷 (valley) for the sound.",
+    "parts": [
+      { "c": "亻", "m": "a person" },
+      { "c": "谷", "m": "sound; by itself, a valley" }
+    ],
+    "story": "The habits that a community shares. In passage 20 the speaker is set against 俗人, ordinary people, who are bright and sharp while the speaker is dim. In passage 80 the people take joy in their customs, and the word is warm.",
+    "gap": "“Custom” is neutral and “vulgar” is a sneer. 俗 can be either, and the Laozi uses both tones."
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "n": 18,
+  "title": "After the House Falls",
+  "theme": "simplicity",
+  "zh": [
+    {
+      "text": "大道廢，有仁義；",
+      "gloss": {
+        "1": "road, way; Dao",
+        "2": "fèi: to collapse, as a house does; to fall out of use",
+        "4": "there is, there are (four times, each after a loss)",
+        "5": "humaneness: the Confucian chief virtue",
+        "6": "right conduct, duty"
+      }
+    },
+    {
+      "text": "智慧出，有大偽；",
+      "gloss": {
+        "0": "knowledge, cleverness",
+        "1": "quick wit, shrewdness",
+        "2": "to come out, to appear",
+        "6": "wěi: what is made by people; artifice; fraud"
+      }
+    },
+    {
+      "text": "六親不和，有孝慈；國家昏亂，有忠臣。",
+      "gloss": {
+        "1": "close kin",
+        "3": "in tune; to answer each other in song",
+        "6": "a child’s devotion to parents",
+        "7": "a parent’s tender care",
+        "9": "the walled domain of a lord: a state",
+        "10": "the house of a great minister; a family",
+        "11": "dusk; dark, benighted",
+        "12": "disorder (the Shuowen: “to put in order”)",
+        "15": "loyal; the heart at its centre",
+        "16": "a minister, a subject; one who serves"
+      }
+    }
+  ],
+  "rendering": [
+    "The [[great Dao|dadao]] [[falls to ruin|fei]]:",
+    "[[there are|an]] [[humaneness|ren]] and [[right conduct|yi]].",
+    "[[Cleverness and wit|zhihui]] come out:",
+    "there is the [[great fabrication|wei]].",
+    "The [[six kin|liuqin]] are out of tune:",
+    "there are [[devoted children and tender parents|xiaoci]].",
+    "[[State and house|guojia]] are [[dark and disordered|hunluan]]:",
+    "there are [[loyal ministers|zhongchen]]."
+  ],
+  "notes": {
+    "dadao": {
+      "kind": "history",
+      "title": "The Confucians told the same story",
+      "body": "大道 is first “the great road”: the highway, wide and level, that passage 53 says people leave for the side paths. The idea that a great Dao was once in use and then lost was common ground in early China. A famous Confucian text, the “Evolution of Rites”, says it in almost the same words: 大道之行也，天下為公, “when the great Dao was walked, the world was shared by all”. People then cared for each other’s parents and children, and doors were not shut at night. Then: 今大道既隱，天下為家, “now the great Dao is hidden, and the world is family property”; and so, it says, the kings made rites and duties to hold things together. The Confucian author calls the result “the lesser peace”, and is grateful for it. The Laozi tells the same history and is not grateful. Is a splint a good thing?",
+      "src": [
+        "Liji, “Li yun” (禮運)"
+      ]
+    },
+    "fei": {
+      "kind": "etymology",
+      "title": "廢: the roof comes down",
+      "body": "廢 has 广 at the top and left, the sign for a building open on one side: a hall, a shed. The Shuowen’s definition is a picture: 屋頓也, “a house that collapses”. From it come the common senses: to fall out of use, to abandon, to abolish, to depose a ruler; a 廢人 is a person who is crippled or useless. So the first line does not say that the Way was rejected by a decision, or that people sinned against it. It says a structure that everyone lived in fell down through neglect, as a house does when nobody keeps the roof. What follows in the passage is what people build in the ruins. English “declined” or “was forgotten” has no roof in it. The Dao itself does not fall, as other passages make plain. The 大道 here is the road, the shared way of living.",
+      "src": [
+        "Shuowen Jiezi, 广部: 廢，屋頓也。从广發聲。"
+      ]
+    },
+    "an": {
+      "kind": "variant",
+      "title": "One small word that could turn the passage around",
+      "body": "The received text says only 有: “there is”. The older copies have a word before it in each line. Mawangdui silk text A writes 案有, and silk text B and the Guodian bamboo slips write 安有: 安有仁義, 安有大偽, 安有孝茲. 安 is ambiguous. It can mean “then, and so”: the Way falls, and then there is humaneness. That is the sense of the received text, and the 案 of silk text A supports it. But 安 is also the common question word “how? where?”. Then the lines say: “When the great Dao has fallen, how can there be humaneness and right conduct? When the six kin are out of tune, how can there be devoted children?” That reading does not attack the virtues at all. It says they need the Way as their ground. Most scholars choose “then”, and the mocking tone of the received version depends on it. But the oldest copies leave the door open. Read the passage aloud both ways.",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Guodian Laozi C"
+      ]
+    },
+    "ren": {
+      "kind": "etymology",
+      "title": "仁: a person and two",
+      "body": "仁 is 亻, a person, and 二, two. The Shuowen defines it with one word: 親也, “closeness, kinship”. It is the quality that exists between two people: fellow-feeling, the sense that the other is a person as I am. Confucius made it the centre of his teaching and refused to define it; asked what it was, he once said 愛人, “to care for people”. The first English translators, missionaries all, chose “benevolence”, a word of the eighteenth-century pulpit that means good will from above. Later versions say “humaneness” or “humanity”, which is nearer. The Laozi is hard on the word in more than one place. Passage 5 says heaven and earth are 不仁, not humane, and treat all things as straw dogs. Passage 38 puts 仁 two steps below the Way. It is not that kindness is bad. The question is why it had to be named.",
+      "src": [
+        "Shuowen Jiezi, 人部: 仁，親也。从人从二。",
+        "Analects 12.22"
+      ]
+    },
+    "yi": {
+      "kind": "gap",
+      "title": "義 is not “righteousness”",
+      "body": "義 is to do what is fitting in one’s place: a minister’s duty to his lord, a friend’s to a friend, a soldier’s to die where he stands. The Shuowen defines it 己之威儀也, “one’s own dignified bearing”: it begins as how a person of rank carries himself. The graph is 羊, a sheep, over 我, “I”. English “righteousness” is a word of the King James Bible, and brings in a God who judges and a sinner who is made right. 義 has no god in it. It is social, and it can be seen. Mencius, in the fourth century BCE, joined it with [[仁|ren]] as a fixed pair, 仁義, and opened his book with it: a king, he says, needs only these two. So when this line names the pair, it names the slogan of a school that was alive and in competition for the ear of kings.",
+      "src": [
+        "Shuowen Jiezi, 我部: 義，己之威儀也。從我、羊。",
+        "Mencius 1A1"
+      ]
+    },
+    "zhihui": {
+      "kind": "gap",
+      "title": "智慧: not yet “wisdom”",
+      "body": "In modern Chinese, 智慧 is the word for wisdom, and a wise old person has it. That is mostly the work of Buddhism, which chose 智慧 centuries later to translate prajñā, the insight that frees. In this line the two words are nearer to “cleverness and wit”. 智 is knowing-how, intelligence as a tool; the old texts often write it with the plain graph 知, as Mawangdui silk text A does here. 慧 is quickness; the Shuowen glosses it 儇也, “nimble, sharp”. The Warring States prized such people. Courts kept debaters, strategists, and persuaders who could argue either side by evening. Wang Bi explains the line as an arms race: 行術用明，以察姦偽；趣覩形見，物知避之. “Use technique and sharp sight to search out fraud, and your aims show and your forms are seen, and creatures know how to slip past.” Each clever control teaches a cleverer evasion. The Guodian slips are reported to lack this line.",
+      "src": [
+        "Shuowen Jiezi, 心部: 慧，儇也。从心彗聲。",
+        "Wang Bi commentary on Laozi 18",
+        "Mawangdui Laozi A and B",
+        "Guodian Laozi C"
+      ]
+    },
+    "wei": {
+      "kind": "etymology",
+      "title": "偽: a person plus “to make”",
+      "body": "偽 is 亻, a person, beside 為, to do or to make. The simplest reading of the parts is “what a person makes”: the made thing, as against what grows. The Shuowen, which writes the graph in its fuller form 僞, gives the dark sense: 詐也, “deceit”. Both senses were alive. A generation or two after this text, the Confucian Xunzi used the word with pride. Human nature is bad, he wrote, and 其善者偽也: “what is good in people is 偽”, made by effort, as a potter makes a pot from clay. For Xunzi culture is artifice, and artifice is our glory. The Laozi sees the same fact and does not rejoice. Note the echo inside the graph: 為 is the word in 無為, not-forcing. 偽 is 為 with a person added. English “hypocrisy” gives only the bad half. What of your own goodness is made, and what grew?",
+      "src": [
+        "Shuowen Jiezi, 人部: 僞，詐也。从人爲聲。",
+        "Xunzi, “Xing e” (性惡)"
+      ]
+    },
+    "liuqin": {
+      "kind": "wangbi",
+      "title": "Wang Bi: fish on dry ground",
+      "body": "Wang Bi names the six kin: 六親，父子兄弟夫婦也, “father and son, elder and younger brother, husband and wife”. Then he gives the logic of the whole passage: 甚美之名生於大惡，所謂美惡同門. “The names of great beauty are born from great ugliness; as the saying goes, beauty and ugliness come from one gate.” 若六親自和，國家自治，則孝慈忠臣不知其所在矣. “If the six kin were in tune of themselves, and state and house in order of themselves, no one would know where the devoted child and the loyal minister were to be found.” He ends with fish, from a story in the Zhuangzi. When the spring dries up, the fish lie together on the ground and wet each other with their spit. That is a touching sight, and it is far worse than to forget each other in the rivers and lakes. Wang Bi’s sentence as it has come down seems to have lost a word, but the sense is clear: the virtue of mutual wetting is born when the water is gone.",
+      "src": [
+        "Wang Bi commentary on Laozi 18",
+        "Zhuangzi, “Da zong shi” (大宗師)"
+      ]
+    },
+    "xiaoci": {
+      "kind": "history",
+      "title": "The famous son needs a terrible father",
+      "body": "孝 is what a child owes to parents, and 慈 is the tender care that goes down from parent to child. The model of 孝 for all later China was the sage-king Shun. His father, the Blind Old Man, with his stepmother and half-brother, tried again and again to kill him: they set fire to a barn while he was on its roof and filled in a well while he was at its bottom. Shun survived each time and served them with more devotion than before. The story proves the line. Without a murderous father, Shun is one more good son whose name no one records. The Laozi does not despise the feelings. Passage 67 calls 慈 the first of the three things that it treasures, and passage 19 says that when the slogans are dropped the people will 復孝慈, return to devotion and care. The passage objects to the name, the fame, and the need.",
+      "src": [
+        "Mencius 5A2",
+        "Shiji, “Wu di benji”"
+      ]
+    },
+    "guojia": {
+      "kind": "geopolitics",
+      "title": "國家: two levels of power, both in trouble",
+      "body": "In modern Chinese 國家 is one word: “country, nation”. In this line it is two. A 國 was the walled domain of a ruling lord; the graph has a wall, 囗, around it. A 家 was the “house” of a great minister: a hereditary line with its own lands, towns, and troops. The story of the age was the war of the houses on the states. In Jin, the strongest state of the north, three ministerial houses destroyed their rivals in 453 BCE and cut the state in three; the king recognised them as lords in 403, the date from which the Warring States period is often counted. In Qi a minister’s house took the throne. So “loyal ministers” was a bitter phrase. Mawangdui silk text A and the Guodian slips read 邦家. 邦 is the older word for a state, and it was the personal name of the first Han emperor, Liu Bang. Silk text B, copied a little later, already avoids it and writes 國家.",
+      "src": [
+        "Shuowen Jiezi, 囗部: 國，邦也。从囗从或。",
+        "Shiji, “Jin shijia”",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "hunluan": {
+      "kind": "wordplay",
+      "title": "亂: a word that means its opposite",
+      "body": "昏 is dusk. The Shuowen says 日冥也, “the sun goes dark”, and reads the graph as the sun, 日, gone down below. A state at dusk is one where nobody can see clearly: who holds power, what the law is, whom to believe. 亂 is disorder, revolt, a tangle. Here the Shuowen has a surprise: it defines 亂 as 治也, “to put in order”. The same word could mean the mess and the work of setting it right, and the classics use it both ways; ministers who brought order are called 亂臣 in one old text. The early graph is commonly explained as two hands at work on a tangle of silk on a frame. One picture, two readings: the tangle, or the untangling. It fits the passage very well. Each remedy in these four lines arrives together with the disorder, and from a distance they are hard to tell apart.",
+      "src": [
+        "Shuowen Jiezi, 日部: 昏，日冥也。从日氐省。氐者，下也。一曰民聲。",
+        "Shuowen Jiezi, 乙部: 亂，治也。从乙，乙，治之也；从𤔔。",
+        "Shangshu, “Tai shi” (泰誓)"
+      ]
+    },
+    "zhongchen": {
+      "kind": "history",
+      "title": "Loyal ministers die young",
+      "body": "Each reader of the time could name the loyal ministers, and each one of them was a corpse. Bi Gan protested against the cruelties of the last Shang king, who said, “I hear that a sage’s heart has seven openings”, and had him cut open to see. Wu Zixu warned the king of Wu against the state of Yue, was ordered to kill himself, and asked that his eyes be hung on the city gate to watch the Yue army march in; it did. The fame of the 忠臣 is a measure of how bad the court is. Under a good ruler the same man gives the same advice, is listened to, and is forgotten. Both Mawangdui silk texts read 貞臣, “steadfast ministers”, and the Guodian slips are reported to read 正臣, “upright ministers”. 忠 was not yet the fixed slogan that it became when the empire made loyalty its first virtue.",
+      "src": [
+        "Shiji, “Yin benji” and “Wu Zixu liezhuan”",
+        "Mawangdui Laozi A and B",
+        "Guodian Laozi C"
+      ]
+    },
+    "symptom": {
+      "kind": "gap",
+      "title": "Cause, or sign?",
+      "body": "Four times the passage says A, and then 有 B: “there is B”. It never says “because” or “therefore”, and it never says that B is bad. English versions often add a verb that decides the matter: virtue “arises”, hypocrisy “ensues”, as Legge has it. The bare Chinese permits at least three attitudes. First, satire: your prized virtues are symptoms of rot. Second, diagnosis with no blame: when the body is sick, there is medicine, and one does not hate the medicine; one only wishes not to need it. Third, with [[the older particle|an]] read as a question, a defence of the root: without the Way, how could the virtues exist at all? The passage is twenty-six characters long. It gives the pairs and leaves the verdict to the reader. What you hear in it will depend a good deal on how you feel about the virtues that you were taught as a child."
+    },
+    "ladder": {
+      "kind": "history",
+      "title": "The middle of a longer fall",
+      "body": "This passage is not a separate poem. In the oldest copy, the Guodian slips, it is the end of passage 17, joined on by “and so”: first the four ranks of rulers, from the unnoticed to the scorned, and then these lines as the result. The book also gives the same history a third time and in full. Passage 38 says: 失道而後德，失德而後仁，失仁而後義，失義而後禮. “Lose the Way, and after that comes inner power; lose inner power, and then humaneness; lose humaneness, and then right conduct; lose right conduct, and then ritual.” And ritual, it adds, is the thin edge of loyalty and trust, and the start of disorder. Passage 19 then proposes the cure. Read 17, 18, and 19 in one sitting. They are one argument: how rule went wrong, what grew in the ruins, and what to drop.",
+      "src": [
+        "Guodian Laozi C",
+        "Laozi 38"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: virtue “came into vogue”",
+      "body": "Legge gives 仁義 as “benevolence and righteousness”, the pair that he and other missionary translators fixed for a century, and that still colours how English readers hear Confucius: as a preacher. Then he does something sharper than he perhaps meant to. The virtues, he writes, “came into vogue”. Vogue is a word for hats. It makes the two great Confucian virtues a fashion, and so gives the satirical reading more bite than the Chinese 有, “there are”, has by itself. He glosses 道 in a bracket as “(Way or Method)”, a sign that he was not sure the word here meant what it meant in passage 1. He renders [[國家|guojia]] “the states and clans”, and so keeps the two levels that “the nation” loses. And for [[孝慈|xiaoci]] he has only “filial sons”; the tender parents are gone, and with them the other half of the bond.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Where a virtue is on the wall",
+      "body": "For one day, notice where a virtue is named aloud or in print. A company puts “integrity” on the wall of the lobby. A family says often how close it is. A person tells you that they are “a very honest person”. A government names a ministry for truth, or harmony. Do not judge; only ask the passage’s question in each case: what fell down here, that this had to be said? Then turn the question on yourself. Which of your own virtues do you mention most often, or most enjoy being praised for? What would be in its place if the ground under it were whole? The answer is not always shameful. Sometimes the named virtue is a good splint on a real break. It is still worth knowing where the break is."
+    }
+  },
+  "lenses": {
+    "ground": "Four pairs, each of two short lines. A loss, and then 有, “there is”. The [[great road|dadao]] [[collapses|fei]]: there are [[humaneness|ren]] and [[right conduct|yi]]. [[Cleverness|zhihui]] comes out: there is [[great fabrication|wei]]. The family is out of tune: there are [[devoted children and tender parents|xiaoci]]. The [[state and the great houses|guojia]] are [[dark and tangled|hunluan]]: there are [[loyal ministers|zhongchen]]. The scale moves from the whole world, through the mind and the family, to the court. Three of the four things that appear are virtues that every school praised. The second pair is the odd one, since its result is a vice; [[the oldest copy is reported not to have it|zhihui]]. No line has a verb of cause, and none has a word of blame; see [[cause, or sign?|symptom]]. Twenty-six characters. Everything else is tone, and the tone depends on [[one particle|an]] that the received text dropped.",
+    "inner": "Bring the passage inside one life. When ease in the body is lost, there are diets and regimes. When sleep is lost, there is the science of sleep. When a friendship has gone out of tune, there are careful messages and remembered birthdays. Each of these is good, and each is a sign. The contemplative point is not to tear down the remedies; a person in the ruins needs a shelter. It is to see them as remedies, and to look now and then at what they stand in for. [[Wang Bi’s fish|liuqin]] say it best. On dry ground the fish wet each other with their spit, and this is kind. In water they do not think of each other at all. The practice is not to become indifferent. It is to find the water. Which of your disciplines would you forget, if you were well?",
+    "leading": "A rule for diagnosis: read the slogans of an organisation as a map of its injuries. Where “trust” is a stated value, [[trust was short|ladder]]. Where teamwork is praised each week, people do not help each other without it. Where a few heroic employees save each project at midnight, the structure is [[dark and tangled|hunluan]], and the heroes are its [[loyal ministers|zhongchen]]; the better the firm, the fewer the heroes. The second pair is a warning to those who design controls. Each clever system of measures and audits [[teaches a cleverer evasion|zhihui]], and the result is a great [[fabrication|wei]]: numbers made for the measurer. The passage offers no technique in reply. It only asks you to look under the virtue for the roof that [[fell|fei]]. The Confucians [[told the same history|dadao]] and concluded that rites and duties are what we have, so we must keep them well. That is an honest answer too.",
+    "nature": "A wolf does not practise devotion to its young, and a tree does not show loyalty to the forest. Things in a living system do what the system needs, and nobody names it. Names come with breakdown. We spoke little of “clean air” before the smoke, or of “biodiversity” before the losses; a river has no “water quality” until it is fouled. Conservation, like [[孝|xiaoci]], is a virtue of the ruins: real, needed, and a sign. The Zhuangzi’s picture is exact. [[Fish on the mud|liuqin]] of a pond that has dried keep each other wet, and it would be better for them to forget each other in a lake. The passage does not tell us to stop wetting the fish. It asks where the water went. What do you now protect with effort that once needed no protection?",
+    "practice": "Do the [[day of noticing|practice]]: each time a virtue is named, ask what fell. Then try the reverse, which is harder and more cheerful. Find one place in your life where nothing is named because nothing is wrong: a friendship in which nobody keeps count, a task that you do well and never mention, a street where neighbours help and have no word for it. That is what the [[great Dao|dadao]] looks like when the roof is still on. It is easy to miss, because it makes no claim on your attention. Last, read the passage once in the usual way and once with [[the question-word|an]]: “how can there be…?” Note which reading you want to be true. For the long form of the same story, see [[the ladder in passage 38|ladder]], and for a Victorian’s sharp tongue, [[Legge|legge]]."
+  },
+  "glyph": "孝",
+  "plates": [
+    {
+      "c": "孝",
+      "title": "The old one on the child’s back",
+      "lesson": "The top is what is left of 老, “old”. The Shuowen reads 老 as a person with hair that has changed, 言須髮變白也: “it says that beard and hair turn white”; the oracle-bone form is commonly described as a bent figure with long hair who leans on a stick. In 孝 the lower part of 老 is cut away, and in the space is 子, a child. The Shuowen says how to read the two: 子承老也, “the child bears up the old”. 承 is to receive from above, to carry, to continue. So the picture is a young person under an old one: a child who carries a parent on the back, or one who holds an elder up by the arm. The definition is 善事父母者, “one who serves father and mother well”. Now see the same top in other places. 考, the Shuowen’s partner word for 老, is a dead father, and then “to examine”. And look at 教, to teach: its left side has 子 at its foot too, under the sign 爻; the right side is a hand with a rod. In 孝 the child holds up the old. In 教 the old stand over the child. The two graphs between them hold the whole Confucian family. In later China, 孝 was law as well as feeling: an unfilial son could be put to death. The passage says that the word [[becomes famous when families fail|xiaoci]]. In the graph there is no fame. There is only one generation with its back under another.",
+      "brush": "Seven strokes: four above, three below. A short level stroke; a short vertical through it; then a long level stroke, the beam that the whole character hangs from. The fourth stroke is the one to watch. It starts above the beam, cuts through it, and sweeps far down to the left: it is the old person’s bent back, and the longest line in the character. In its shelter sits 子: a level stroke that turns back with a small hook; a curved vertical that ends in a hook to the left; and the child’s arms, one level line across. The child must sit a little to the right of centre, under the place where the beam and the long sweep cross, so that it seems to carry the weight. If the last level stroke is too long, the child pushes the elder away. If it is too short, the elder falls."
+    },
+    {
+      "c": "義",
+      "title": "A sheep above a weapon",
+      "lesson": "The top is 羊, a sheep or goat, seen from the front: two horns, and a face with lines across it. In the script the sheep is a sign of good things: 美 (beautiful) is a sheep over 大, big; 善 (good) has it on top; 祥 (auspicious) has it at the side; 養 (to nourish) has it over 食, food. Flocks were wealth, and the sheep was an animal of sacrifice. The bottom is 我, the word for “I, we”. But 我 did not begin as a pronoun. Its early forms are commonly explained as a picture of a weapon, an axe with a toothed blade, and the Shuowen still sees 戈, the dagger-axe, in it and records a view that it was an old word for “to kill”. The graph was borrowed for the sound of “I”. So 義 is a sheep over a weapon, or a sheep over “me”. Scholars read it as sacrifice properly done, or as a fine display on a ceremonial arm; the Shuowen’s definition, 己之威儀也, “one’s own dignified bearing”, points to display. Its meaning grew from bearing to what is fitting, and to duty. A 義士 is a man who dies for a cause; in modern words it is “justice” (正義) and “meaning” (意義). The mainland short form, 义, keeps nothing of the picture. Read the passage’s second line again with the old graph in view: when the great road is gone, there are [[bearing and sacrifice|yi]].",
+      "brush": "Thirteen strokes: six for the sheep, seven for 我. The horns first: a dot to the right and a short stroke to the left, which lean toward each other. Then two level strokes, a short vertical through them, and a third level stroke, longer, which is the floor of the upper part. The sheep has no tail here; its vertical stops at that floor. Then 我: a flat stroke that falls to the left; a long level stroke; a vertical with a hook; a short stroke that rises to the right. Now watch the eleventh stroke, the long slanting hook. It starts high, crosses the level stroke, runs down to the lower right, and flicks up. It is the shaft of the weapon and the backbone of the character. Then a falling stroke across its lower part, and a dot high on the right. The sheep is balanced on the point where the shaft and the level stroke cross."
+    },
+    {
+      "c": "臣",
+      "title": "The eye that looks down",
+      "lesson": "This is a whole character with no separate parts, and the Shuowen calls it a picture: 象屈服之形, “it shows the form of one who bends in submission”. Its definition is two words, 牽也, “to be led, as by a rope”, and then 事君也, “to serve a lord”. Modern scholars read the old forms otherwise, and their account is widely accepted: it is an eye. Compare 目, the eye, which is the same drawing set upright and squared. In 臣 the eye is turned on end, as it looks when the head is bowed, or when one looks up from the ground. The earliest 臣 were captives and bondsmen. By the Zhou the word meant anyone who served a lord, up to the chief minister, and a man said 臣 for “I” when he spoke to his king. The eye appears in two other graphs that are worth knowing. 臥, to lie down, is a person beside it. 監, to oversee, is commonly explained as a person with a large eye who bends over a basin of water: at first, to look at one’s own face. Its descendant 鑑 means a mirror. So the same eye that submits is also the eye that inspects. The passage’s last word joins it with 忠, a heart, 心, under 中, the centre: a 忠臣 is a heart held centred, and an eye held low. The line says [[when you will hear of such a person|zhongchen]].",
+      "brush": "Six strokes. A level stroke on top. A short vertical down from it at the centre. Then a stroke that goes right and turns down: the top and right side of the inner box. A level stroke that closes the box below. A second short vertical, from the box to the base. Watch the sixth and last stroke. It starts at the upper left, comes straight down the whole left side, turns the corner, and runs along the bottom to the right: one long line that takes more ink than the other five together. It is the frame, and it is written last, so that the hand must judge the height and the width of everything from the inside first. The right side stays open; the two inner openings face the reader like a pupil. Some schools of writing teach a different order, with the left side first."
+    }
+  ]
+}

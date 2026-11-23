@@ -1,0 +1,57 @@
+{
+  "靈": {
+    "senses": ["a spirit’s power to respond; numinous, potent", "a spirit; the soul of the dead", "a spirit-medium (in the songs of Chu)", "quick, clever, effective"],
+    "parts": [{"c": "雨", "m": "rain"}, {"c": "口", "m": "three: raindrops (or mouths)"}, {"c": "巫", "m": "a spirit-medium who dances"}],
+    "story": "Rain above, three drops, a dancing medium below: a rain rite, and the word for the power that makes it work. The Shuowen explains the upper part, 霝, as falling rain, and the silk texts of the Laozi write only that part. A god, a place, a medicine, or a person is 靈 when it answers. In passage 39 the spirits got the One and so are 靈; without it they would give out, like breath. The short form is 灵.",
+    "gap": "“Divine”, “spiritual”, “soul”, and “efficacious” each take one corner. 靈 is power that is proved by a response."
+  },
+  "玉": {
+    "senses": ["jade", "precious, fine; a polite word for another person’s things"],
+    "story": "At first three horizontals on a vertical, commonly explained as jade pieces on a cord; the dot was added later to tell it from 王, king. At the left of a character it is written with no dot. Jade was the stuff of rank and ritual in Zhou China. The Laozi names it four times, each time to step past it: a hall full of gold and jade cannot be kept (9); no wish to be rare like jade (39); a jade disc before a team of four horses is less than the gift of the Dao (62); the sage wears rough cloth and holds jade within (70).",
+    "gap": "“Jade” in English is a green ornament. 玉 was the measure of all worth, moral worth included: a person of fine character is “like jade”."
+  },
+  "一": {
+    "senses": ["one", "the One: the undivided whole", "to make one, to unite; single, the same"],
+    "story": "One stroke. In the Laozi it is a number and a name. As a name: hold to the One and do not leave it (10); the sage holds the One and is the model of the world (22); the unseen, the unheard, and the untouched merge into one (14); heaven, earth, spirits, valleys, and kings got the One (39); the Dao gives birth to one, one to two, two to three (42). Wang Bi calls it “the beginning of number and the limit of things”.",
+    "gap": "“The One” with capitals suggests the God of the philosophers or a Neoplatonic source. 一 is also the plain numeral and a horizontal line, and the Dao is said to come before it."
+  },
+  "寧": {
+    "senses": ["at rest, peaceful, safe; to bring peace to", "(nìng) would rather; how could"],
+    "shuowen": "願詞也。从丂寍聲。",
+    "shuowenEn": "A word of wishing (“would rather”). From 丂, with 寍 for the sound. (For the sense “peace” the Shuowen has the older graph 寍: a roof, with a heart above a bowl.)",
+    "parts": [{"c": "宀", "m": "roof"}, {"c": "心", "m": "heart"}, {"c": "皿", "m": "bowl, dish"}, {"c": "丁", "m": "here from 丂, breath that comes out: the particle"}],
+    "story": "Two words in one graph. The peace word is a roof, a heart, and a bowl: the Shuowen says that food vessels are that by which people are at peace. The particle “would rather” added a sign for breath. In passage 39 earth got the One and so is 寧, and heaven is 清; the pair gave names to palaces in Beijing. The short form is 宁.",
+    "gap": "“Tranquil” is a mood. 寧 is security: the ground does not move and there is food in the house."
+  },
+  "貞": {
+    "senses": ["to test by divination (the oracle-bone sense)", "firm, constant, true", "a standard, that which is correct", "(later) chaste"],
+    "shuowen": "卜問也。从卜，貝以爲贄。",
+    "shuowenEn": "To ask by divination. From 卜 (the crack in the bone), with 貝 (cowrie) as the gift offered.",
+    "parts": [{"c": "卜", "m": "the crack of the oracle"}, {"c": "貝", "m": "cowrie; in early forms a tripod, 鼎"}],
+    "story": "The verb that opens the questions on the Shang oracle bones. From the tested answer came “firm” and “true”, and the word is one of the four at the head of the Book of Changes. In passage 39 lords and kings, by the One, become the 貞 of all under heaven; the silk texts write 正, a standard.",
+    "gap": "Dictionaries give “chaste, virtuous”, the late and narrow sense. In early texts it is closer to “proved true”."
+  },
+  "孤": {
+    "senses": ["fatherless; an orphan", "alone, solitary", "“the orphan”: a ruler’s word for himself"],
+    "shuowen": "無父也。从子瓜聲。",
+    "shuowenEn": "Without a father. From 子 (child), with 瓜 for the sound.",
+    "parts": [{"c": "子", "m": "child"}, {"c": "瓜", "m": "melon; the sound part"}],
+    "story": "A child, and a melon for the sound. Rulers used it of themselves, at first in times of mourning and disaster, since a lord came to his seat when his father died. With 寡 and 不穀 it makes the three royal names of modesty that the Laozi cites two times (39, 42) as proof that the high rests on the low.",
+    "gap": "English “orphan” asks for pity. In a king’s mouth 孤 was a formula, as flat as “the Crown”."
+  },
+  "谷": {
+    "senses": ["valley, the bed of a stream between hills", "(in some texts, for 穀) grain; to nourish"],
+    "shuowen": "泉出通川爲谷。从水半見，出於口。",
+    "shuowenEn": "Where a spring comes out and runs through to a river is a valley. From water half seen, which comes out of an opening.",
+    "story": "Water that appears from an opening: a valley is first a watercourse. It is the Laozi’s chief land form and a picture of the Dao’s way of being: low, empty, and so supplied. The valley spirit does not die (6). The old masters were open like a valley (15). Know glory, keep to disgrace, and be the valley of the world (28). Highest de is like a valley (41). Rivers and seas are kings of the hundred valleys because they lie below them (66).",
+    "gap": "An English valley is a view. 谷 is a hollow that collects."
+  },
+  "輿": {
+    "senses": ["the box of a cart or chariot", "a cart, a carriage; a sedan chair", "the many, the public (輿論, public opinion)"],
+    "shuowen": "車輿也。从車舁聲。",
+    "shuowenEn": "The box of a cart. From 車 (cart), with 舁 for the sound.",
+    "parts": [{"c": "車", "m": "cart"}, {"c": "舁", "m": "four hands that lift; also the sound"}],
+    "story": "A cart in the middle and hands at the four corners: the part that carries. In passage 39 the pinned text says that if you count out the 輿, there is no 輿; other editions read 譽, praise. In passage 80 the small state has boats and carts, 舟輿, and no one rides them.",
+    "gap": "None in the word. The gap is in the line: cart or praise, and no one is sure."
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "n": 9,
+  "title": "Full to the Brim",
+  "theme": "simplicity",
+  "zh": [
+    {
+      "text": "持而盈之，不如其已；",
+      "gloss": {
+        "0": "to hold in the hands, to grasp",
+        "2": "to fill up; full (of a vessel)",
+        "6": "to be as good as (不如: not as good as, better to)",
+        "8": "to stop; to be finished"
+      }
+    },
+    {
+      "text": "揣而梲之，不可長保。",
+      "gloss": {
+        "0": "to hammer, to forge; also to measure, to feel out",
+        "2": "zhuó: a wooden staff. Here read as 銳, to sharpen (so Wang Bi’s comment; Mawangdui Silk A is reported to read 銳)",
+        "7": "cháng: for long",
+        "8": "to keep safe, to preserve"
+      }
+    },
+    {
+      "text": "金玉滿堂，莫之能守；",
+      "gloss": {
+        "0": "metal; bronze; gold",
+        "1": "jade",
+        "2": "full to overflowing (the Mawangdui silk texts are reported to read 盈)",
+        "3": "the main hall of a great house",
+        "5": "no one, none (the graph first meant dusk)",
+        "8": "to guard, to keep"
+      }
+    },
+    {
+      "text": "富貴而驕，自遺其咎。",
+      "gloss": {
+        "0": "rich, well provided",
+        "1": "of high rank; costly",
+        "3": "proud, arrogant (first: a tall horse)",
+        "6": "wèi: to hand on, to bequeath. Read yí: to lose, to leave behind",
+        "8": "ruin, calamity; blame (a word of divination)"
+      }
+    },
+    {
+      "text": "功遂身退，天之道。",
+      "gloss": {
+        "0": "merit, counted work",
+        "1": "to follow through, to be accomplished",
+        "2": "the body, the person",
+        "3": "to step back, to withdraw",
+        "5": "heaven, the sky"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Hold it and fill it|chi-ying]] to the brim:",
+    "better [[to have stopped|yi]].",
+    "[[Hammer it and sharpen it|chuai]]:",
+    "it [[cannot be kept for long|sword]].",
+    "[[Gold and jade fill the hall|jinyu]]:",
+    "no one can guard them.",
+    "Rich, high in rank, and [[proud|jiao]]:",
+    "this is [[to hand oneself one’s own ruin|jiu]].",
+    "The work [[carried through|gong-sui]], the body [[steps back|shen-tui]]:",
+    "[[the Way of heaven|tiandao]]."
+  ],
+  "notes": {
+    "chi-ying": {
+      "kind": "history",
+      "title": "The vessel that tips over",
+      "body": "持 is to hold a thing in the hands; 盈 is to fill a vessel to the top. The first readers may have thought of a real object. The Xunzi tells that Confucius visited the temple of Duke Huan of Lu and saw a 欹器, a tilting vessel that hung by the ruler’s seat as a warning. He had his students pour water into it: 虛則欹，中則正，滿則覆, “empty, it leans; half full, it stands straight; full, it turns over”. Confucius sighed: is there anything that is full and does not overturn? So the image of this line was a known teaching tool, and the two schools shared it. Even without the device, the picture is plain. Carry a cup filled to the brim across a room. Every step is a risk, and all your attention goes to the cup.",
+      "src": [
+        "Xunzi 28, “You zuo”"
+      ]
+    },
+    "ying": {
+      "kind": "etymology",
+      "title": "盈: a full dish, a good bargain",
+      "body": "The Shuowen defines 盈 as 滿器也, “a full vessel”. The lower part is 皿, a dish. The upper part is 夃, and the Shuowen’s note on it is a piece of market talk: 秦以市買多得爲夃, “in Qin, to get much when you buy at market is called 夃”. A dish, and a great deal got: full. The word is one of the keys of the book, and nearly always with a warning. Dao is used and does not fill (4). Those who keep this Dao do not wish to be full (15). The hollow becomes full (22). Great fullness seems empty (45). A Chinese reader hears the moon in the word also: 盈 is the usual term for the moon when it is full, just before it wanes. See the first plate.",
+      "src": [
+        "Shuowen Jiezi, 皿部: 盈，滿器也。从皿、夃。",
+        "Shuowen Jiezi, 夂部: 夃，秦以市買多得爲夃。"
+      ]
+    },
+    "yi": {
+      "kind": "gap",
+      "title": "不如其已: stop when?",
+      "body": "已 is “to stop” and “to be done”. 不如其已 is “not as good as its stopping”. English must decide when the stop comes. One reading: stop in time, before the brim. A second: it were better to have left off altogether, and never to have filled. [[Wang Bi|wangbi]] takes a hard line and reads the second: a person who holds on to power and merit and then adds more is worse off than a person with no merit at all. Our “better to have stopped” leans the same way. Note what the line does not say. It does not say that a full cup is wicked. It says that a full cup must be held, and that holding it is worse than rest. The measure is practical: how much of your day goes to carrying something level?"
+    },
+    "chuai": {
+      "kind": "variant",
+      "title": "揣 and 梲: forge it, or feel it",
+      "body": "The second line has two problem words. 揣: the Shuowen gives 量也, “to measure”, and then 一曰捶之, “another sense: to hammer it”. 梲 in the pinned text is a wooden staff, which makes no sense here. Mawangdui Silk A is reported to read 銳, “sharp”. Silk B is reported to have 鍛而允之, with 鍛, “to forge”, and 允 as a loan for 銳. [[Wang Bi’s|wangbi]] own comment uses 銳 too, so his copy had it; 梲 is a scribe’s slip that stayed in the printed editions. With “hammer” and “sharpen”, the line is about a blade: beat it thin, grind it keen, and the edge will not last. [[Legge|legge]] took the other sense of 揣 and wrote of one who keeps “feeling a point that has been sharpened”. Some modern versions follow him and make the line about a probing mind. The smith’s reading has the older support. A very fine edge is the first part of a tool to chip.",
+      "src": [
+        "Shuowen Jiezi, 手部: 揣，量也。从手耑聲。度高曰揣。一曰捶之。",
+        "Shuowen Jiezi, 木部: 梲，木杖也。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the force of the situation",
+      "body": "On the blade, Wang Bi writes: 既揣末令尖，又銳之令利，勢必摧衂。 “You have hammered the tip to a point, and then you sharpen it more to make it keen: by the force of the situation it must snap.” His word 勢 is the term of the strategists for the way a situation leans, as water leans downhill. He uses it twice in this passage; of the full vessel he says 勢必傾危, “it must tip into danger”. So the ruin is not a punishment. It is in the shape of the thing. On the last line he looks at the sky: 四時更運，功成則移。 “The four seasons turn one after another; when the work is done, it moves on.” Summer does not stay to be thanked. That is all he says about the Way of heaven here.",
+      "src": [
+        "Wang Bi commentary on Laozi 9"
+      ]
+    },
+    "sword": {
+      "kind": "geopolitics",
+      "title": "The sharpest states",
+      "body": "The age knew blades well. The southern states of Wu and Yue made the best bronze swords in the world; one, with the name of King Goujian of Yue on it, was found in 1965 with its edge still keen. The same states are the classic case of this line. Wu sharpened itself for a generation, broke its great neighbor Chu, marched north to claim leadership of all the lords, and was wiped out by Yue in 473 BCE. Later the state of Qin made itself the keenest weapon of all: every farmer a soldier, every rank earned by enemy heads. It conquered all the other states by 221 BCE, and its dynasty lasted fifteen years. 不可長保: “it cannot be kept for long”. The line is about a tool. The first readers could put the names of states to it.",
+      "src": [
+        "Shiji 31 and 41, on Wu and Yue",
+        "Shiji 6, on Qin"
+      ]
+    },
+    "jinyu": {
+      "kind": "history",
+      "title": "Gold and jade in the hall",
+      "body": "金 in this period is metal in general and bronze above all; the Shuowen calls it 五色金, “the metals of five colors”, with yellow gold as their chief. 玉 is jade, the stone of rank and ritual. 堂 is the raised main hall of a great house, where guests were received and wealth was shown. Tombs of the time show what such a hall held: that of Marquis Yi of Zeng (about 433 BCE) contained some ten tons of bronze. The Mawangdui silk texts are reported to read 金玉盈室, “fill the room”, with [[盈|ying]] again; 滿 is commonly explained as a Han replacement, to avoid the personal name of Emperor Hui, Liu Ying. The phrase then had a strange later life. 金玉滿堂 is today a New Year blessing, painted on red paper: may gold and jade fill your hall. The warning was cut off, and the wish was kept.",
+      "src": [
+        "Shuowen Jiezi, 金部: 金，五色金也。黃爲之長。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "jiao": {
+      "kind": "etymology",
+      "title": "驕: a very tall horse",
+      "body": "驕 has a horse, 馬, on the left. The Shuowen’s definition is a measurement: 馬高六尺爲驕, “a horse six chi high is called 驕”. The right side, 喬, gives the sound, and the Shuowen defines it as 高而曲也, “tall and curved”, like a great tree. So pride, in Chinese, is first a big, spirited horse that is hard to hold. English has the same picture by chance: to be “on a high horse”. The horse was the status animal of the age. It pulled the war chariot, and cavalry was new in China in the fourth century BCE. 富貴 is the standard pair for worldly success: wealth, and rank at court. Confucius grants that all people want these two. The line does not attack them. It adds the third word, 而驕, “and proud”, and the ruin comes from that. See the second plate.",
+      "src": [
+        "Shuowen Jiezi, 馬部: 驕，馬高六尺爲驕。从馬喬聲。",
+        "Shuowen Jiezi, 夭部: 喬，高而曲也。",
+        "Analects 4.5"
+      ]
+    },
+    "jiu": {
+      "kind": "etymology",
+      "title": "咎: ruin that you leave to yourself",
+      "body": "咎 is a word from divination. In the Book of Changes, line after line ends with 无咎, “no blame, no harm”. The Shuowen defines it as 災也, “calamity”, and takes it apart: 从人从各, a person and 各, and 各者，相違也, “各 means to be at odds with each other”. A person at cross purposes: harm. The verb before it is the sharp part. 遺, read wèi, is “to hand on, to leave as a gift or a legacy”. Parents 遺 land and goods to their children. So 自遺其咎 is “to bequeath one’s ruin to oneself”. No enemy is needed, and no judge in heaven. The proud person is both the one who leaves the estate and the heir. Our “to hand oneself” supplies “oneself” for 自, as English requires. See the third plate.",
+      "src": [
+        "Shuowen Jiezi, 人部: 咎，災也。从人从各。各者，相違也。"
+      ]
+    },
+    "gong-sui": {
+      "kind": "variant",
+      "title": "功遂身退: four words, or six",
+      "body": "The pinned text has four characters: 功遂身退, “the work carried through, the body steps back”. Many later editions have six: 功成名遂身退, “the work done, the name achieved, the body steps back”. Legge’s edition was of that kind, and he translates the name: “when the work is done, and one’s name is becoming distinguished”. The shorter form is the older. The Mawangdui silk texts are reported to have 述 for 遂 and an old form of 退, which some editions print as 芮. The Guodian bamboo slips, the oldest copy, also hold this passage, and are reported to have the short form. So “name” was added. The addition is telling: later readers wanted fame to be secured before the retreat. In the old text nothing is secured. The work goes through, and the person goes back.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Guodian Laozi A (as reported)"
+      ]
+    },
+    "shen-tui": {
+      "kind": "history",
+      "title": "Those who stepped back, and those who stayed",
+      "body": "Every educated Chinese reader hears names in this line. Fan Li helped King Goujian of Yue destroy Wu in 473 BCE. Then he left at once, and wrote to his colleague Wen Zhong: when the birds are gone, the good bow is put away; when the hare is dead, the hound is cooked. Wen Zhong stayed, and the king sent him a sword to die by. Three centuries later Zhang Liang planned the victories that founded the Han, declined a great fief, and retired to study the arts of long life. Han Xin, the general who won the battles, stayed near power and was executed in 196 BCE. The saying 功成身退 became a proverb from these lives. Note 身 again: it is the body that steps back, the same body that passage 7 put behind.",
+      "src": [
+        "Shiji 41 (Goujian and Fan Li)",
+        "Shiji 55 (Zhang Liang), 92 (Han Xin)"
+      ]
+    },
+    "tiandao": {
+      "kind": "gap",
+      "title": "天之道: the sky’s way",
+      "body": "天之道 is “the way of heaven”, and 天 is first the sky. The meaning is given by things that anyone can watch. The Book of Changes says: 日中則昃，月盈則食, “the sun at noon begins to decline; the moon when full begins to be eaten away”. It uses 盈, the first verb of this passage. Some versions turn 天 into “Nature” with a capital letter, a modern idea, or suggest a Providence that rewards the humble. The text has neither. It does not promise that the one who steps back will rise again, or will move on to greater things. The step back is the end of the sentence. Summer finishes and goes. This is the first 天之道 in the book; the phrase returns in passages 73, 77, 79, and 81, each time as a pattern that people can match or resist.",
+      "src": [
+        "Yijing, hexagram 55 (Feng), Tuan commentary",
+        "Laozi 73, 77, 79, 81"
+      ]
+    },
+    "form": {
+      "kind": "wordplay",
+      "title": "Four pairs and a verdict",
+      "body": "The passage is built like a set of proverbs. Four pairs of four-character lines come first: a case, then its result. The fifth pair breaks the pattern: four characters, then only three, 天之道, and the passage stops short, as its subject does. The end words rhyme. 保, 守, 咎, and 道 all belong to one old rhyme group (幽), and 已 at the end of the first pair is close to it. The four cases also move in an order: a cup, a blade, a hall, a person. That is from a thing held in two hands to a whole life at court. Each case has the same shape. Something is brought to its extreme, 盈 or 銳 or 滿 or 驕, and the extreme is the turning point. The Mawangdui silk texts are reported to add the particle 也 to several lines, which slows them into prose.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “obscurity”",
+      "body": "Legge turns the first line round to make it clear: “It is better to leave a vessel unfilled, than to attempt to carry it when it is full.” The sense is right, and “carry” is a good word for 持. For the second line he takes 揣 as [[“feeling”|chuai]] a point. The last sentence shows his frame: “to withdraw into obscurity is the way of Heaven”. “Into obscurity” is his addition. The Chinese says 身退, the body steps back, and does not say where to. A Victorian reader knew that phrase from the lives of statesmen who retired to their estates. He also capitalizes “Heaven”, and for his readers that word was close to “God’s will”. The Chinese 天 here is the sky with its seasons.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Carry a full cup",
+      "body": "Fill a cup with water to the very brim and carry it from one room to another. Feel what the body does: the breath held, the eyes fixed, the slow steps, the grip. That is 持而盈之. Now pour a third of it out and carry it again. Walk normally. Look around. Then ask where in your life you are carrying a full cup: a schedule with no gap, an account that must not drop, a reputation that must be kept level. You do not need to empty it. Find one place today where you can stop a little before the brim: one task not added, one more point not made, one helping not taken."
+    }
+  },
+  "lenses": {
+    "ground": "Five pairs of lines. A vessel [[held and filled|chi-ying]] to the top: better to have [[stopped|yi]]. A blade [[hammered and sharpened|chuai]]: it does not keep. A hall full of [[bronze and jade|jinyu]]: no one can guard it. Wealth and rank with [[pride|jiao]]: a ruin [[left to oneself|jiu]]. Then the fifth pair, which is shorter: the work [[carried through|gong-sui]], the body [[steps back|shen-tui]]; this is [[the way of heaven|tiandao]]. The first four are warnings and the last is the alternative. The passage moves [[from small to large|form]]: cup, blade, hall, career. Each case reaches a peak, and the text places the danger exactly at the peak.",
+    "inner": "The mind has its own brim. It holds a good state and tries to add to it: a calm sitting that I want to make calmer, an insight that I sharpen into a doctrine. The effort to [[fill|ying]] is the thing that spills it. The blade is the same in thought: an idea [[honed too far|chuai]] turns brittle and breaks on the first hard fact. The fourth case is the subtle one. Rich in understanding, high in the regard of others, and proud of it: that pride is how a person [[hands themselves their own ruin|jiu]]. The last line gives the practice. Let each thing complete, and step back from it at once: the breath, the thought, the good deed. Do not stay to own it. The sky does this every evening.",
+    "leading": "The passage is plain advice for anyone with power, and history has tested it. Do not fill every hour, every budget, every role to the top; an organization at the [[brim|chi-ying]] has no room for the next thing and spills at a touch. Do not grind a team or a strategy to the last degree of [[sharpness|sword]]; what is keenest fails first. Do not build a show of wealth that then needs [[guards|jinyu]]. And know the last step. When the work is carried through, [[step back|shen-tui]]. Fan Li left and lived; Wen Zhong stayed and died. Some modern readers make this a tactic: leave at the top and go on to something greater. The text has no “next”. Its model is a season, which finishes [[and does not ask what it gets|tiandao]].",
+    "body": "The body knows this passage well. A lung filled to the very top cannot do anything but hold; the useful breath stops short of full. A muscle at full stretch or full tension has no reserve, and that is where it tears. Good posture is never the extreme of straightness. In martial practice a strike that is driven to its last inch leaves the fighter fixed at the end of it, with nothing to draw back; the teaching is to complete the technique and [[withdraw the body|shen-tui]] in the same motion. 身退 is literal there. Even the [[blade|chuai]] is literal: a working edge is ground to a sound angle, and a razor edge is kept for razors. Find the place in your own training where you always add one repetition too many.",
+    "nature": "The [[sky’s way|tiandao]] is easy to observe. The sun is highest at noon, and from that moment it goes down. The moon is [[full|ying]] for one night. A river in flood is at its greatest just before it breaks its bank and loses itself in the fields. The fruit that hangs longest is the one that rots on the branch. Nothing in nature holds a peak, and nothing tries. Each season brings its work to completion and [[moves on|wangbi]]: spring does not stay to see the harvest. Human beings are the creatures that try to stay at noon. The passage does not call this a sin. It notes, with four examples, that it does not work.",
+    "practice": "Do the [[full cup walk|practice]] once, with real water. Then choose one of the four cases for a week. The cup: leave a margin in each day, and do not fill it. The blade: stop improving one thing that is already good enough. The hall: give away or put out of sight one thing that you keep mainly so that it can be seen. The tall horse: notice [[驕|jiao]] each time it rises, in the voice or the back of the neck. And once this week, finish something and leave the room before anyone can say that it was good."
+  },
+  "glyph": "盈",
+  "plates": [
+    {
+      "c": "盈",
+      "title": "A dish with too much in it",
+      "lesson": "Start from the bottom. 皿 is a dish; you met it in 盜, the thief, in passage 3. The Shuowen calls it a vessel for food and a picture. Many vessel words stand on it: 盆, a basin; 盤, a tray; 盛, to fill a vessel, to be abundant; 盡, to use up, which the Shuowen defines as 器中空也, “the vessel is empty”, the exact opposite of this character; and 盅, the hollow of a cup, the word behind the first line of passage 4. Now the top. The Shuowen reads the upper part as 夃 and gives it a note from the market: in the speech of Qin, 夃 was to buy and come away with a great deal. As written today, the top looks like 乃 with 又, a hand, inside it. A dish, and much got: the Shuowen’s definition of the whole is 滿器也, “a vessel that is full”. Compare the two words for “full” in this passage. 盈 is full as a vessel is full: up to the rim, with a rim that can be passed. 滿, with water at its side, the Shuowen defines as 盈溢也: full and running over. The book keeps coming back to 盈, because a brim is a turning point. The moon is 盈 for one night. [[The first line|ying]] of this passage puts such a dish in two hands.",
+      "brush": "Nine strokes. The first is the hardest: one long stroke that goes right, turns down, steps right again, turns down once more, and ends in a hook. It makes the outer frame of the top in a single movement, and the brush must gather at each corner. The second stroke falls to the left from the top of the frame. Strokes three and four are the small hand inside: a short line that turns and falls left, and a stroke that crosses it to the right. Then the dish, in five: a short left side, the top and right side in one turn, two short verticals inside, and last the base. Watch the base line. It is the longest and steadiest stroke, far wider than the dish walls, and it holds up the busy top as a table holds a full bowl. If the top is too large, the character looks ready to spill."
+    },
+    {
+      "c": "驕",
+      "title": "Six feet at the shoulder",
+      "lesson": "The left half is a horse. The Shuowen calls 馬 a picture, 象馬頭髦尾四足之形: “it shows the head, the mane, the tail, and the four feet”. Turn your head to the left and you can find them: the three level lines are the mane that flies back from the neck, the long hooked stroke is the back and tail, and the four dots are the feet. The Shuowen’s gloss on the animal is two strong words: 怒也，武也, “fierce, martial”. The horse was the engine of war. Dozens of characters once sorted horses by color, age, and size, and this is one of them: 馬高六尺爲驕, “a horse six chi tall is a 驕”. Six chi of the time is nearly a metre and forty, a big animal. The right half, 喬, gives the sound and helps the sense. The Shuowen defines it as 高而曲也, “tall and curved”, and quotes a line of the Book of Songs about tall trees. It stands in 橋, a bridge, the tall curved thing of wood, and in 僑, a person who lives away from home; in both the Shuowen takes it as the sound. So 驕 is a tall, high-headed horse, and then the manner of a person who is like one: [[proud|jiao]]. The simplified form 骄 has thinned the horse to three strokes and kept the tall tree.",
+      "brush": "Twenty-two strokes. The horse takes ten. A horizontal, the left vertical, two more horizontals, and the centre vertical: this is the head and mane. Stroke six is the long one: across, down, and a hook back to the left; it is the back and the tail, and it wraps the four dots that come next. The dots are the feet. The first leans to the left, and the other three lean to the right. Then 喬 in twelve. A flat stroke from right to left, a horizontal, and two long strokes that fall left and right: this top spreads like a tree. Under it a small mouth in three strokes: left side, top and right side, base. Then a frame in two: a left vertical, and a stroke across the top and down the right side with a hook. Inside it a second small mouth, in the same three strokes. The two long falling strokes are the widest part."
+    },
+    {
+      "c": "咎",
+      "title": "At cross purposes",
+      "lesson": "The Shuowen says this character is made of a person, 人, and the character 各. Look for them. 各 is the top left part, 夂, with the 口 at the bottom: the person has been pushed into the upper right corner, where it is written as a vertical with a short stroke, and it splits 各 into two floors. First 各 itself. 夂 is a foot that points downward, a foot that arrives or drags. 口 is a mouth. The Shuowen explains: 夊者，有行而止之，不相聽也, “one walks and another stops him; they do not listen to each other”, and so it defines 各 as 異辭, “words that differ”. The common modern sense of 各 is “each”: each on a separate road. Scholars who work on the oldest forms commonly explain 各 another way, as a foot that arrives at a dwelling, the first way of writing 格, “to come”. Now add the person. 从人从各…相違也: a person, and being at odds. The Shuowen’s definition is 災也, “calamity”. Harm is what comes when a person and the turn of things go separate ways. Cousins with 各 as the sound, each so marked in the Shuowen: 客, a guest, under a roof; 格, a tall tree, later a frame; 洛, the Luo River. 路, a road, has a foot beside 各, and there the Shuowen joins the two as meanings. The diviner’s verdict 无咎, “no harm”, was the best that most lines of the Changes could promise. [[This passage|jiu]] describes people who write their own verdict.",
+      "brush": "Eight strokes. The foot at the top left takes three: a short stroke that falls to the left; a second that starts beside it, goes right a little, and then falls left; and a long 捺 that crosses both and runs down to the right. Watch this third stroke. It is the longest in the character, and it shelters the mouth below like a roof with one long eave. Then the person in the upper right, in two: a vertical, and a short stroke out from its side. They are small and stand in the space that the long 捺 leaves open. Then the mouth, in three: left side, top and right side, base. The mouth is centred under the meeting point of the strokes above. The whole is a little off balance on purpose. The top leans left, the long stroke pulls right, and the small square at the bottom holds them."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "n": 48,
+  "title": "Each Day Less",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "為學日益，",
+      "gloss": {
+        "0": "wéi: to do, to work at, to practise",
+        "1": "learning, study",
+        "3": "to add; more; gain"
+      }
+    },
+    {
+      "text": "為道日損。",
+      "gloss": {
+        "3": "sǔn: to take away; less; loss"
+      }
+    },
+    {
+      "text": "損之又損，以至於無為。無為而無不為。",
+      "gloss": {
+        "2": "again (the graph is a hand)",
+        "6": "to arrive, to come down to",
+        "9": "doing, working on things: 無為, not-doing",
+        "16": "done: the same 為, its sixth time in the passage"
+      }
+    },
+    {
+      "text": "取天下常以無事，",
+      "gloss": {
+        "0": "to take, to capture, to win",
+        "6": "business, an undertaking; service to the state"
+      }
+    },
+    {
+      "text": "及其有事，",
+      "gloss": {
+        "0": "to reach; when it comes to"
+      }
+    },
+    {
+      "text": "不足以取天下。",
+      "gloss": {
+        "1": "enough, sufficient"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Work at|wei]] [[learning|xue]]: each day [[more|yi]].",
+    "Work at [[Dao|dao]]: each day [[less|sun]].",
+    "[[Less, and again less|sunsun]],",
+    "until it comes to [[not-doing|wuwei]].",
+    "Not doing, and [[nothing is left undone|wubuwei]].",
+    "",
+    "[[To take the world|qu]]",
+    "is always by [[having no business|wushi]].",
+    "Once [[there is business|youshi]],",
+    "unfit to take the world."
+  ],
+  "notes": {
+    "wei": {
+      "kind": "wordplay",
+      "title": "為: one verb, six times",
+      "body": "The passage is built from the verb 為, which stands in it six times. 為學: to do learning. 為道: to do the Way. 無為: not-doing. Then 無為而無不為, with three more. English must change the word each time, “pursue”, “practise”, “act”, “do”, and the thread is cut. In Chinese it is one thread, and it is pulled until it turns round on itself: the doing of the Way is a daily loss that arrives at not-doing, and from not-doing nothing fails to be done. 為 is a strong verb. It means to make, to work on a thing, to act as, to govern. Its old form is commonly explained as a hand that leads an elephant; see the plate. So the word that the passage takes apart is the word for work done on a large and living thing."
+    },
+    "xue": {
+      "kind": "history",
+      "title": "學: what “learning” meant",
+      "body": "學 was a programme with a content, and one school owned the word. For the followers of Confucius it meant the Odes and Documents, the rites, music, and the long shaping of conduct by them. The Analects opens with it: to learn and at due times to practise, is that not a pleasure? The Xunzi opens with it too: 學不可以已, “learning must not stop”, and it goes on to praise accumulation: pile up earth and make a mountain. That is 日益, more each day, stated as an ideal. The Laozi answers from outside the school. Passage 20 says: cut off learning and there is no grief. Passage 64 says that the sage learns to un-learn. The Shuowen records the word under an older graph and glosses it 覺悟也, “to awaken”. The quarrel is over what wakes a person: more, or less.",
+      "src": [
+        "Analects 1.1",
+        "Xunzi, “Quan xue” (勸學)",
+        "Shuowen Jiezi, 教部: 斆，覺悟也。从教从冂。冂，尚矇也。臼聲。"
+      ]
+    },
+    "yi": {
+      "kind": "etymology",
+      "title": "益 and 損: the full dish and the hand",
+      "body": "益 is 皿, a dish, with water over it; the Shuowen defines it as 饒也, “abundance”, 从水、皿. Add the water sign again and you have 溢, to overflow. 損 is 扌, a hand, beside a part that gives the sound; the Shuowen says 減也, “to reduce”. One word fills a vessel and the other takes away with the hand. Readers of the time knew them as a pair from the Book of Changes, where Sun and Yi are two hexagrams side by side, the forty-first and the forty-second, each the other turned upside down. The lesson there is that they turn into each other: what is reduced below is added above. Passage 42 has said the same: things are sometimes added to by being reduced, and reduced by being added to. Here the pair is given to two ways of life.",
+      "src": [
+        "Shuowen Jiezi, 皿部: 益，饒也。从水、皿。皿，益之意也。",
+        "Shuowen Jiezi, 手部: 損，減也。从手員聲。",
+        "Yijing, hexagrams 41 and 42",
+        "Laozi 42"
+      ]
+    },
+    "dao": {
+      "kind": "variant",
+      "title": "為道: to do the Way, or to hear it",
+      "body": "Dao, 道, the Way, is left untranslated: it is a road, a method, a way of speaking, and the course of all things. 為道 is then an odd phrase. One can do learning. How does one “do” the course of things? The verb makes the Way a practice, a thing worked at each day like a craft. The Mawangdui silk text is reported to read differently: 聞道者日損, “the one who has heard the Way loses each day”. That makes the loss a result and not a method. A person hears, and from then on things fall away. The same words open passage 41, where the best student hears the Way and walks it. The [[Guodian slips|silk]] are reported to read 為道者, as our text does, and to say 學者, “the one who learns”, in the first line. Both versions add 者: they speak of persons.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)",
+        "Guodian Laozi B",
+        "Laozi 41"
+      ]
+    },
+    "sun": {
+      "kind": "gap",
+      "title": "日損: less of what?",
+      "body": "The text does not say what is lost. 損 has no object in the second line, and in the third only 之, “it”. English wants to fill the place, and each filling is a doctrine. [[Legge|legge]] writes “(his doing)”. The Heshang Gong commentary says that the loss is of passions and outward ornament. [[Wang Bi|wangbi]] says that the aim is to go back to empty nothing. A modern reader thinks of opinions or possessions. The open object is better than any of these. Whatever was added by the first way of life is what the second takes off: the stock of knowledge, the wish to add to it, the plans that knowledge makes, the self that owns the stock. Notice also 日, “each day”. It is not a single renunciation. It is a small loss today, and another tomorrow.",
+      "src": [
+        "Heshang Gong commentary on Laozi 48"
+      ]
+    },
+    "sunsun": {
+      "kind": "wordplay",
+      "title": "損之又損: the second loss",
+      "body": "損之又損: “lose it, and again lose”. The frame is the same as in the last line of passage 1, 玄之又玄, “dark, and again dark”. The plain sense is persistence: reduce, and keep reducing. Later Daoist thinkers of the Tang read the repetition as two different acts. The first loss removes what one holds: desires, views, doing. The second loss removes the one who is proud of having removed them: the holding on to emptiness, the project of reduction itself. Without the second, the path of less becomes one more kind of gain, a store of renunciations. The word 又, “again”, is in origin a hand; the Shuowen says 手也. The hand that takes away comes back once more, and the second time it takes itself.",
+      "src": [
+        "Shuowen Jiezi, 又部: 又，手也。象形。",
+        "Laozi 1"
+      ]
+    },
+    "wuwei": {
+      "kind": "gap",
+      "title": "無為: a place that is reached",
+      "body": "無為, wu wei, is “without 為”: not-doing, not-forcing. It does not mean idleness. [[為|wei]] is purposeful work upon things, the act of one who has a plan and makes the world fit it; 無為 is the absence of that. This passage is the only place in the book that says how it comes about, and the verb matters: 以至於無為, “and so arrive at”. 至 is to reach a place. The Shuowen explains the graph as a bird that flies down from a height and comes to the ground, the bottom line being the earth. So not-doing is not a technique that one applies. It is where one lands when enough has been taken off. One cannot decide to do it, because the deciding is 為. English “non-action” makes it sound like a kind of action with a minus sign.",
+      "src": [
+        "Shuowen Jiezi, 至部: 至，鳥飛从高下至地也。从一，一猶地也。象形。"
+      ]
+    },
+    "wubuwei": {
+      "kind": "gap",
+      "title": "無不為: two negatives, and who does it?",
+      "body": "無不為 is “there is nothing that is not done”. The grammar hides the doer. It can mean “and yet one does everything”, or “and yet everything gets done”. The second is nearer to the book: in passage 37 the Way itself is described with these same six characters, and the ten thousand things then transform of themselves. The first reading had a long career in politics. Legalist writers took it as a rule for the throne: the ruler does nothing, the ministers do everything, and the ruler holds them to account. That reading keeps a will at the centre, hidden. The passage has just spent three lines removing such a will. [[Wang Bi|wangbi]] gives the logic in one line: where there is doing, something is missed.",
+      "src": [
+        "Laozi 37"
+      ]
+    },
+    "qu": {
+      "kind": "geopolitics",
+      "title": "取天下: the hand and the ear",
+      "body": "取 is “to take”, and its picture is plain: 耳, an ear, and 又, a hand. The Shuowen explains it by a custom of war. It quotes the Rites of Zhou, 獲者取左耳, “the one who makes a capture takes the left ear”: ears were cut from the enemy dead and counted for reward. So 取天下 is the language of conquest, and in this century it was a real programme. Each great state aimed to take all under heaven, and in 221 BCE one did. The Heshang Gong commentary softens the word and glosses it as “to govern”. The book’s own use is sharper. Passage 29: those who would take the world and work on it, I see that they do not succeed. Passage 57: by no-business take the world. The prize of the age is offered to the one person who does not reach for it.",
+      "src": [
+        "Shuowen Jiezi, 又部: 取，捕取也。从又从耳。《周禮》：“獲者取左耳。”",
+        "Laozi 29, 57"
+      ]
+    },
+    "wushi": {
+      "kind": "gap",
+      "title": "無事: no business",
+      "body": "無事 is a term of its own, and it is not the same as [[無為|wuwei]] or as “no effort”. 事 is an affair, a task, a piece of business; as a verb it is to serve. The Shuowen glosses it 職也, “an office, a duty”, and derives it from 史, the scribe: 事 is what an official has on his desk. A state full of 事 is a state of projects: surveys, levies, works, campaigns, laws. 無事 is the absence of these, and passage 57 gives the result: 我無事而民自富, “I have no business, and the people of themselves grow rich”. Passage 63 makes it a practice, 事無事: serve no-business. Modern English has the word “busy” as praise. What would it be to hold an office and to have nothing on the desk?",
+      "src": [
+        "Shuowen Jiezi, 史部: 事，職也。从史，之省聲。",
+        "Laozi 57, 63"
+      ]
+    },
+    "youshi": {
+      "kind": "geopolitics",
+      "title": "有事: “to have business” with a neighbour",
+      "body": "有事, “to have business”, had a special use in the speech of courts. The Zuo zhuan says that the great affairs of a state are two, sacrifice and war. And when the Ji family prepares to attack a small dependent territory, the Analects reports it in these words: 季氏將有事於顓臾, “the Ji are about to have business with Zhuanyu”. Confucius is angry with his students for allowing it. 有事 there is a polite word for a campaign. Heard so, the last lines carry a pointed sense: whoever has such “business” is not sufficient to take the world. The words for “not sufficient” are 不足, the 足 of “enough” in passages 44 and 46. The one who cannot know enough is not enough.",
+      "src": [
+        "Analects 16.1",
+        "Zuo zhuan, Duke Cheng year 13"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: doing always misses something",
+      "body": "Wang Bi’s notes here are very short. On learning: 務欲進其所能，益其所習, “the aim is to advance what one can do and to add to what one has practised”. On the Way: 務欲反虛無也, “the aim is to go back to empty nothing”. His verb is 反, to return: the loss is a way home. On the central line: 有為則有所失，故無為乃無所不為也. “Where there is doing, something is missed; so it is not-doing by which nothing is left undone.” Any act selects, and what it does not select is neglected. Only what does not select leaves nothing out. On the last lines he gives three notes of three or four characters. No-business: 動常因也, “movement always follows”. Having business: 自己造也, “it is made out of oneself”. Not sufficient: 失統本也, “the governing root is lost”.",
+      "src": [
+        "Wang Bi commentary on Laozi 48"
+      ]
+    },
+    "zhuangzi": {
+      "kind": "history",
+      "title": "Yan Hui “gains” by forgetting",
+      "body": "The Zhuangzi quotes these lines almost word for word, and it also tells a story that plays them out with the vocabulary reversed. Yan Hui, the best student of Confucius, comes to his master and says: 回益矣, “I have gained”. How? “I have forgotten humaneness and duty.” Good, says Confucius, but not yet enough. Another day: “I have gained. I have forgotten rites and music.” Not yet enough. A third day: “I have gained. I sit and forget.” Confucius is startled and asks what that is. Yan Hui describes limbs and mind let go. Confucius asks to become his follower. The joke is in the word 益. Each loss is reported as a gain, in the mouth of the school of [[learning|xue]]. The phrase 坐忘, “to sit and forget”, became the name of a Daoist practice.",
+      "src": [
+        "Zhuangzi, “Da zong shi” (大宗師)",
+        "Zhuangzi, “Zhi bei you” (知北遊)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s seven brackets",
+      "body": "Legge needed seven brackets for forty-odd characters. The learner “(seeks)” to increase “(his knowledge)”; the follower of the Tao “(seeks)” to diminish “(his doing)”. He has given [[the loss|sun]] an object, and it is the object that makes the next line easy for him. Then: till he arrives at doing nothing “(on purpose)”. The bracket turns 無為 into a matter of motive, a problem of the will that his own theology knew well. And at the end the world is got by “giving himself no trouble (with that end)”, a bracket that he uses twice. 取, the taker of ears, has become “gets as his own”. Each addition is intelligent, and together they turn six uses of one verb into a paragraph of explanation. He also writes “he” throughout; the Chinese has no person.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "Half a passage on bamboo",
+      "body": "The Guodian bamboo slips, about 300 BCE, are reported to hold only the first half of this passage, down to “nothing is left undone”, and to write 亡 for 無 throughout. The lines on taking the world are not there. They may once have been a separate saying; passage 57 has a close relative of them. This matters for the reading. Without the second half, the passage is about a person and a practice. With it, the practice becomes the qualification for rule. The Mawangdui silk texts are reported to be damaged at this place. The collated text has both halves, with 恆 for 常, and adds a particle that slows the second line from the end: 及其有事也. On 聞道, “to hear the Way”, in the silk, see [[the note on 為道|dao]].",
+      "src": [
+        "Guodian Laozi B",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "A ledger of less",
+      "body": "At the end of today, do not ask what you learned or got done. Ask what you put down. One opinion that you did not defend. One piece of information that you did not look up. One plan that you let go. One improvement that you did not make to another person. Write a single line. Do this for a week and read the seven lines. The Chinese word is 日損, a loss each day, and the scale is small on purpose. Watch for [[the second loss|sunsun]] too: if the list becomes a source of pride, lose the list."
+    }
+  },
+  "lenses": {
+    "ground": "Two lines of four characters, alike but for two words: [[work at|wei]] [[learning|xue]], each day [[more|yi]]; work at [[the Way|dao]], each day [[less|sun]]. The second path is then followed down: [[less and again less|sunsun]], until one [[arrives at not-doing|wuwei]]. Then the line that the whole book is known for: 無為而無不為, not doing, and [[nothing not done|wubuwei]]. The second half changes the scale from a person to all under heaven. The world is [[taken|qu]] by [[no-business|wushi]]; the one who [[has business|youshi]] is not sufficient to take it. The passage contains no image at all. It is made of nine common words, and one of them, 為, appears six times.",
+    "inner": "The first line describes most of a life: more skills, more knowledge, more experience, more self. Nothing in the passage says that this is wrong. It says that there is a second movement with the opposite sign, and that the Way belongs to it. The practice is a subtraction, and it is exact about its end. The end is not emptiness as a prize. It is the point where the one who works upon things is no longer found; the text says [[arrive|wuwei]], as a bird arrives at the ground. What is left acts, and often acts well, because nothing stands between the situation and the response. [[Yan Hui’s report|zhuangzi]] gives the feeling of it: he calls each loss a gain. The [[second loss|sunsun]] guards against the last possession, the pride of the one who has let go.",
+    "leading": "The second half was written for men who wanted [[to take the world|qu]], and it tells them that their wanting disqualifies them. Read it for any place where one person has power over others. A leader with many [[projects|wushi]] gives the organisation much to do, and each project has a cost that the leader does not see. [[Wang Bi’s|wangbi]] line is a good rule of management: where there is doing, something is missed. The leader who has taken off the personal plans, the wish to be seen acting, the favourite reforms, leaves room for what the work itself asks. This is not passivity, and it must not be used as a cover, as the Legalists used it: a hidden will behind [[a show of stillness|wubuwei]]. The test is whether things are in fact not left undone.",
+    "body": "Every physical skill is learned in two phases. In the first you add: positions, corrections, strength, rules. In the second you take away: the extra tension in the shoulder, the breath held at the hard part, the thought about the next step. A beginner’s movement is full of [[為|wei]]. A master’s movement has had things removed from it for thirty years, and looks like less. Try it with one simple act, standing up from a chair. Do it once as usual. Then do it five more times, and each time find one effort that is not needed, and leave it out: the push of the hands, the forward jerk of the head. [[Less, and again less|sunsun]]. At some point the standing up does itself.",
+    "practice": "Keep the [[ledger of less|practice]] for one week: each evening, one line on what you put down. And try the second half of the passage once. Choose a matter in which you have power, at home or at work, and for one day have [[no business|wushi]] with it: no check, no advice, no improvement. Stay present. See what is left undone at the end of the day, and what was done without you."
+  },
+  "glyph": "取",
+  "plates": [
+    {
+      "c": "取",
+      "title": "A hand takes an ear",
+      "lesson": "Two parts, and both are parts of the body. On the left is 耳, an ear; the Shuowen calls it a picture and says 主聽也, “it governs hearing”. On the right is 又, which is now the word “again” and was at first a right hand: 手也, says the Shuowen, a hand drawn with three fingers. A hand at an ear. The dictionary explains the scene with two quotations from the old books of rites and war. One is 獲者取左耳, “the one who makes a capture takes the left ear”. The ears of the slain, or of game, were cut off, carried back, and counted. A nearby entry, 聝, is defined as 軍戰斷耳也, “in battle, to cut off ears”. So the ordinary verb “to take”, which a child learns in the first year, began on a battlefield. Its family keeps the sense of seizure. 娶, to take a wife: the Shuowen writes 取婦也, a woman under 取. 最, now “most”: the dictionary’s gloss is 犯而取也, “to attack and take”. In this passage the object of [[取|qu]] is 天下, all under heaven. The text says that the world cannot be had by the hand that reaches for the ear. Look once more at the left side. 耳 is also the first part of 聖, the sage, who listens. One hand cuts the ear off. The other way is to use it.",
+      "brush": "Eight strokes: six for the ear and two for the hand. The ear begins with a horizontal across the top. Then the left vertical, short. Then the right vertical, which is long and goes down past everything else: it is the spine of this side. Two short horizontals follow inside, and the sixth stroke rises from the lower left up to the right and crosses the long vertical. As a left-hand part the ear is made narrow and its last stroke lifts toward the neighbour. Then 又 in two strokes. The seventh goes to the right, turns sharply, and falls to the lower left. Watch the eighth: it begins inside that angle, crosses it, and sweeps down to the right with growing pressure to a long, sharp end. That stroke is the reach of the hand, and it is the only expansive line in the character."
+    },
+    {
+      "c": "益",
+      "title": "Water over the dish",
+      "lesson": "Look at the bottom first. 皿 is a dish or shallow bowl seen from the side, on its foot; the Shuowen calls it 飯食之用器, “a vessel used for food”, and a picture. It is the base of many vessel words: 盆 (a basin), 盤 (a tray), 盛 (to fill a vessel, and so “abundant”), 盈 (full; passage 45), and 盅, the empty bowl that the Shuowen quotes from the Laozi. Now the top. In the modern form it looks like two dots, a line, and two legs. The Shuowen tells you what it was: 从水、皿, “from water and dish”. The upper part is 水, water, laid on its side across the bowl. Water above the rim: the vessel has more than it can hold. The dictionary’s gloss is 饒也, “abundance, more than enough”. When the graph came to be used mostly for “to add, benefit, more”, a second water was put at the left for the plain sense, and that is 溢, to overflow: 器滿也, “the vessel is full”. So [[益|yi]] is a picture of the first line of this passage, and of its hidden cost. 日益, more each day, is water poured into a dish that is already full. Passage 9 says of that: to hold and fill it is not as good as to stop.",
+      "brush": "Ten strokes. The top is five: a dot at upper left that leans in, a short stroke at upper right that leans in to meet it, then a horizontal under both. Below the horizontal, a stroke falls to the left and a shorter one to the right; they must not touch each other. These five are the water. Then the dish in five: the left side, then the top and right side in one stroke, then two short verticals inside, and last a long horizontal along the bottom. Watch that tenth stroke. It is much wider than the dish that stands on it, and it gives the character a foot. Keep the upper part light and open and the dish broad and low. If the top is heavy, the water looks ready to spill, which may be the truest way to write it."
+    },
+    {
+      "c": "為",
+      "title": "The hand that leads an elephant",
+      "lesson": "This is the verb “to do”, and its history is one of the surprises of the script. The Shuowen writes it 爲 and gives an explanation that scholars no longer follow: 母猴也, “a female monkey”, with the top as its claw. Inscriptions on bone and bronze, found long after the dictionary was written, are commonly read differently: a hand at the top, and under it an elephant, with trunk, body, and legs. A hand leads an elephant to work. Elephants lived in north China in the Shang period, and the Shuowen’s own entry for 象 still describes the animal with care: long nose and tusks, a great beast of the far south, which bears young once in three years. By the time of this passage the animal was gone from the north, and few who wrote 為 thought of it. The picture is still exact for the word’s sense: to work upon a thing that is large, alive, and stronger than you, and to make it serve a purpose. That is the [[為|wei]] that this passage removes, six uses of the same verb. 無為 does not let the elephant loose in the village. It takes away the hand at its trunk and the idea that the animal is for something. A related graph adds a person at the side: 偽, “made by people, artificial”, and in later use “false”.",
+      "brush": "Twelve strokes; the stroke data draw the form with the full claw at the top. First four small strokes: one that falls to the left, two dots, and one more short stroke that leans in from the right. They are the fingers of the hand. Fifth, a long stroke that falls from under the claw to the lower left: the line of the trunk. Then three strokes that each go right and turn down, one under the other, like steps; the third and largest ends in a hook. They are the body. Last, four dots in a row inside the hook: the legs. Watch the three turning strokes. Each is wider than the one above, and the rhythm quickens as the brush descends. In running and cursive script the whole figure is reduced to two or three linked turns, and that habit of the brush is the source of the short form 为."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "下": {
+    "senses": [
+      "below, under; the lower part",
+      "to go down, to descend",
+      "to put oneself below (someone)",
+      "low in rank; inferior",
+      "天下: all under heaven, the world"
+    ],
+    "parts": [
+      { "c": "一", "m": "a line of reference" },
+      { "c": "卜", "m": "the mark below it (shape only; not the word “divine”)" }
+    ],
+    "story": "The early graph is a long line with a short mark under it; 上 is the reverse. In the postface to the Shuowen, Xu Shen gives 上 and 下 as his examples of 指事, graphs that point at an idea. In the Laozi the low place is the place of power. Water stays where people hate to be (8). High and low lean on each other (2); the high has the low as its base (39). The great state is the low reach of the river (61). In passage 66, 下 is a verb and a skill: the River and the sea are 善下, good at being below, and so they are kings.",
+    "gap": "English “below” and “under” are prepositions and carry a sense of defeat (“underling”, “beneath me”). 下 can be an action that one does well, and in this book it is where things gather."
+  },
+  "江": {
+    "senses": [
+      "the Jiang: the Yangzi river",
+      "a large river",
+      "江海: the River and the sea; the great waters"
+    ],
+    "shuowen": "水。出蜀湔氐徼外崏山，入海。从水工聲。",
+    "shuowenEn": "A river. It comes out of the Min mountains beyond the border of Jiandi in Shu, and enters the sea. From 水 (water), with 工 for the sound.",
+    "parts": [
+      { "c": "氵", "m": "water" },
+      { "c": "工", "m": "gives the sound" }
+    ],
+    "story": "In early texts 江 is a name: the great river of the south, as 河 is the Yellow River. Xu Shen uses 江 and 河 as his examples of the form-and-sound class of characters. The Laozi names the 江 twice, both times with the sea. In passage 32 the Dao is to the world as 江海 are to the streams and valleys. In passage 66 the 江海 are kings of the hundred valleys because they lie below them. The south was the country of Chu, wide and wet, where tradition places the book’s origin.",
+    "gap": "“Rivers” in the plural hides a proper name. A reader of the time saw one river, far to the south, into which half the known world drained."
+  },
+  "海": {
+    "senses": [
+      "the sea",
+      "a vast body or expanse",
+      "四海: the four seas; the edges of the world"
+    ],
+    "shuowen": "天池也。以納百川者。从水每聲。",
+    "shuowenEn": "Heaven’s pool; that which takes in the hundred rivers. From 水 (water), with 每 for the sound.",
+    "parts": [
+      { "c": "氵", "m": "water" },
+      { "c": "每", "m": "gives the sound; it holds 母, mother" }
+    ],
+    "story": "The Shuowen’s definition is close to passage 66 itself: the sea is the pool that takes in a hundred rivers. The right-hand part 每 is there for the sound, and inside it is 母, “mother”, a woman with two dots for the breasts; readers have long enjoyed the mother in the sea, but the dictionary claims only the sound. For the states of the central plain the sea was the edge of the world, far and little known. The Laozi uses it as the great low place: restless like the sea (20), the end of streams and valleys (32), king of the hundred valleys (66).",
+    "gap": "For English readers the sea is adventure, trade, and danger. In the Laozi it does not act at all. It is the lowest place, and its greatness is that it receives."
+  },
+  "谷": {
+    "senses": [
+      "a valley; a ravine with a stream",
+      "the stream of a valley",
+      "hollow, empty, receptive",
+      "(in 不穀/不谷) grain, as a loan"
+    ],
+    "shuowen": "泉出通川爲谷。从水半見，出於口。",
+    "shuowenEn": "Where a spring comes out and goes through to a river, that is a 谷. From water half seen, as it comes out of an opening.",
+    "parts": [
+      { "c": "口", "m": "an opening, the valley’s mouth" }
+    ],
+    "story": "A valley is land with something missing, and water gathers there. The Laozi returns to the image often. The valley spirit does not die (6). The old masters were wide open, like a valley (15). Know glory, keep to disgrace, and be the valley of the world (28). The valley is full by getting the One (39). The highest de is like a valley (41). In passages 32 and 66 the valleys are many, and their streams all run to the River and the sea. A valley is the book’s picture of a mind and a ruler: low, empty, and so never without water.",
+    "gap": "“Valley” in English is scenery. 谷 is a working hollow: the place that collects because it does not rise."
+  },
+  "推": {
+    "senses": [
+      "to push",
+      "to push forward, to promote, to acclaim",
+      "to infer, to extend (a line of thought)",
+      "to decline, to push away"
+    ],
+    "shuowen": "排也。从手隹聲。",
+    "shuowenEn": "To push along, to push aside. From 手 (hand), with 隹 for the sound.",
+    "parts": [
+      { "c": "扌", "m": "hand" },
+      { "c": "隹", "m": "gives the sound" }
+    ],
+    "story": "A hand that pushes. From the plain act came the sense “to put a person forward” for office or honour, and later “to reason from one thing to the next”. In the Laozi the word comes once, in passage 66: the world is glad to 推 the sage and does not tire. It is the people’s side of the king pun: a king is the one to whom all go, and the one whom all push to the front. Mencius describes Shun’s rise in this way: the lords, the litigants, and the singers went to him of themselves.",
+    "gap": "“Elect” brings a procedure; “exalt” brings a throne. 推 is hands on a back: support that is physical and can stop at any time."
+  },
+  "爭": {
+    "senses": [
+      "to pull against, to contend, to fight over",
+      "to compete, to strive",
+      "to argue, to dispute"
+    ],
+    "shuowen": "引也。从𠬪、𠂆。",
+    "shuowenEn": "To pull. From 𠬪 (two hands) and 𠂆 (a thing drawn between them).",
+    "story": "The Shuowen explains the graph as two hands that pull at one object: a tug of war. 不爭, “not contending”, is one of the book’s fixed terms. Not honouring the worthy keeps the people from contention (3). Water benefits all things and does not contend (8). Because the sage does not contend, no one can contend with the sage (22, 66). There is a de of not contending (68). Heaven’s way does not contend and is good at winning (73). The last line of the book is 為而不爭, to act and not contend (81).",
+    "gap": "“Compete” is a neutral or good word in modern English. 爭 is closer to a quarrel over a thing that both want. Not to 爭 is not to lose; it is to let go of the rope."
+  },
+  "身": {
+    "senses": [
+      "the body, the trunk",
+      "oneself, one’s own person",
+      "one’s life; one’s lifetime",
+      "in person"
+    ],
+    "shuowen": "躳也。象人之身。从人𠂆聲。",
+    "shuowenEn": "The torso. It pictures a person’s body. From 人 (person), with 𠂆 for the sound.",
+    "story": "身 is the body, and for that reason the self: the early graph is commonly explained as a person seen from the side with a large belly. Chinese thought of this period does not set a mind against a body, and 身 covers both. The Laozi uses it at key points. The sage puts the 身 last and it comes first (7). Honour and great trouble are as one’s 身 (13). Fame or the 身: which is dearer? (44). Cultivate it in the 身 and its de is real (54). In passage 66 the one who would be ahead puts the 身 behind the people.",
+    "gap": "English must choose “body” or “self”. “Self” is too inner and “body” too outer. 身 is the person as a living body that stands in one place."
+  },
+  "王": {
+    "senses": [
+      "a king",
+      "(wàng) to rule as king; to be king over",
+      "the greatest of its kind"
+    ],
+    "story": "Han scholars explained 王 by a pun on 往, “to go toward”: a king is the one to whom all under heaven go. They also read the graph as three lines, for heaven, earth, and humankind, joined by one vertical; modern scholars commonly see in the oldest forms the blade of a great axe, a sign of the power to punish. In the Laozi the king is one of the four great things (25), and lords and kings are told to hold to the Dao (32, 37). Passage 66 builds on the pun: the River and the sea are kings of the hundred valleys because all waters go down to them. Passage 78 says who is fit for the title: the one who takes on the state’s dirt.",
+    "gap": "“King” in English is rank by blood or conquest. The Chinese pun gives another test: do people come? A king to whom no one goes is only a man in a hall."
+  }
+}

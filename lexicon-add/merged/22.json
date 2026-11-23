@@ -1,0 +1,161 @@
+{
+  "曲": {
+    "senses": [
+      "bent, curved; a bend",
+      "a corner; a part; a secluded place",
+      "not straight; indirect; wronged",
+      "qǔ: a tune, a song"
+    ],
+    "shuowen": "象器曲受物之形。或說曲，蠶薄也。",
+    "shuowenEn": "It shows the form of a vessel, curved, that receives things. Some say 曲 is a silkworm tray.",
+    "story": "A single picture: a curved container. From “bent” come a river’s turn, a corner, a twisted meaning, and a melody. The Laozi opens passage 22 with an old proverb, 曲則全, “bent, then whole”, and closes by asking whether the ancients spoke empty words. Passage 45 has the partner line: 大直若屈, “great straightness seems bent”.",
+    "gap": "“Yield” in English is a decision. 曲 is a shape. Legge’s “partial” takes another real sense of the word, a corner or fragment, and loses the curve."
+  },
+  "伐": {
+    "senses": [
+      "to strike; to attack a state",
+      "to cut down, to fell",
+      "to boast of one’s deeds"
+    ],
+    "shuowen": "擊也。从人持戈。一曰敗也。",
+    "shuowenEn": "To strike. A person who holds a dagger-axe. Another sense: to ruin.",
+    "parts": [
+      {
+        "c": "亻",
+        "m": "a person"
+      },
+      {
+        "c": "戈",
+        "m": "a dagger-axe"
+      }
+    ],
+    "story": "A person and a halberd. The word for a campaign against a state became a word for bragging: to attack with one’s own merits. The Laozi uses that sense three times: not self-praising, so there is merit (22); the self-praiser has no merit (24); achieve the result and do not boast (30).",
+    "gap": "English “boast” is only vain. 伐 keeps the violence: self-praise as an assault on the listener."
+  },
+  "全": {
+    "senses": [
+      "whole, intact, nothing missing",
+      "to keep whole; to preserve",
+      "all, entirely"
+    ],
+    "story": "The Shuowen glosses the word “complete”; it is commonly added that the form with jade stood for a piece of jade with no flaw. In the Warring States it was a word of survival and of strategy: to keep one’s life whole, to take a state whole. The proverb of passage 22 says the bent is what stays 全. Our text of passage 16 has it in the great chain: even-handed, then whole; whole, then heaven.",
+    "gap": "“Perfect” and “complete” add an ideal. 全 only says that no piece has been broken off.",
+    "shuowen": "完也。从入从工。",
+    "shuowenEn": "Complete. From 入 and 工. (The Shuowen enters the word under the older graph 仝.)"
+  },
+  "枉": {
+    "senses": [
+      "of wood: warped, bent",
+      "crooked, unjust",
+      "wronged; in vain"
+    ],
+    "shuowen": "衺曲也。从木㞷聲。",
+    "shuowenEn": "Slanting and bent. From 木 (wood), with 㞷 for the sound.",
+    "parts": [
+      {
+        "c": "木",
+        "m": "wood"
+      },
+      {
+        "c": "王",
+        "m": "sound part (from 㞷)"
+      }
+    ],
+    "story": "A carpenter’s word for a board that is not true, and then a judge’s word for a crooked verdict and its victim. The proverb in passage 22 says: crooked, then straight. A saying of the diplomats, which Mencius rejected, promised more: bend a foot and straighten eight.",
+    "gap": "English “crooked” blames; “wronged” pities. 枉 is both the bent thing and the one bent."
+  },
+  "新": {
+    "senses": [
+      "new, fresh",
+      "to renew",
+      "(first sense) to cut firewood: later 薪"
+    ],
+    "shuowen": "取木也。从斤新聲。",
+    "shuowenEn": "To get wood. From 斤 (axe), with the left part for the sound.",
+    "parts": [
+      {
+        "c": "亲",
+        "m": "left part: sound (a tree with 辛)"
+      },
+      {
+        "c": "斤",
+        "m": "an axe"
+      }
+    ],
+    "story": "At first the word for felling and splitting wood. The sense “new” took over the graph, and firewood was given a grass top: 薪. The Laozi pairs it with 敝, worn out: worn, then new (22).",
+    "gap": "“New” in English is abstract. The graph still has the axe and the white of fresh-cut wood."
+  },
+  "式": {
+    "senses": [
+      "a pattern, a standard, a model",
+      "a rule, a form; a ceremony",
+      "the diviner’s cosmic board (Han)"
+    ],
+    "shuowen": "法也。从工弋聲。",
+    "shuowenEn": "A standard. From 工 (the carpenter’s square), with 弋 for the sound.",
+    "parts": [
+      {
+        "c": "工",
+        "m": "work; a square"
+      },
+      {
+        "c": "弋",
+        "m": "sound"
+      }
+    ],
+    "story": "The pattern piece from which others are cut. The sage holds the One and is the 式 of the world (22); know the white, keep the black, and be the 式 of the world (28); to know the two models of rule is a standing 式 (65). The Mawangdui silk texts read 牧, herdsman, in passage 22.",
+    "gap": "“Model” in English suggests a person to imitate. 式 is nearer to a gauge: it does nothing, and things are checked against it."
+  },
+  "矜": {
+    "senses": [
+      "the shaft of a spear (Shuowen)",
+      "to hold oneself high; proud",
+      "to pity; to be careful of"
+    ],
+    "shuowen": "矛柄也。从矛今聲。",
+    "shuowenEn": "The shaft of a spear. From 矛 (spear), with 今 for the sound.",
+    "parts": [
+      {
+        "c": "矛",
+        "m": "a spear"
+      },
+      {
+        "c": "今",
+        "m": "sound"
+      }
+    ],
+    "story": "A spear-shaft, held upright; and so, of a person, stiff with self-regard. Not self-proud, so lasting (22); the self-proud does not last (24); achieve the result and do not be proud (30).",
+    "gap": "One graph for “proud” and “to pity”. English has no word that looks down in both ways."
+  },
+  "爭": {
+    "senses": [
+      "to pull against; to contend, to fight over",
+      "to dispute; to compete"
+    ],
+    "shuowen": "引也。从𠬪、𠂆。",
+    "shuowenEn": "To pull. From 𠬪 (two hands) and 𠂆.",
+    "story": "Two hands that pull at one thing. 不爭, “no contending”, is one of the book’s signatures: do not honour the worthy and the people will not contend (3); water benefits all and does not contend (8); because of no contending, no one can contend with such a one (22, 66); the power of not-contending (68); heaven’s way does not contend and is good at winning (73); the sage’s way is to act and not contend (81).",
+    "gap": "“Not striving” sounds lazy and “not competing” sounds meek. 不爭 is to let go of the rope."
+  },
+  "得": {
+    "senses": [
+      "to get, to obtain; gain",
+      "to succeed in; can",
+      "to fit, to be at ease with"
+    ],
+    "shuowen": "行有所得也。从彳㝵聲。",
+    "shuowenEn": "To walk and come upon something. From 彳 (a step), with 㝵 for the sound.",
+    "parts": [
+      {
+        "c": "彳",
+        "m": "a step, a road"
+      },
+      {
+        "c": "㝵",
+        "m": "a hand on a cowrie: to get"
+      }
+    ],
+    "story": "A hand closes on a shell, on the road. The word sounds like 德, inner power, and early writers defined the one by the other: 德 is what one has got. The Laozi plays on the pair in passage 23. It warns against 難得之貨, goods hard to get (3, 12, 64), and says: few, then gain (22).",
+    "gap": "English keeps “get” and “virtue” far apart. In Chinese they are near-homophones, and thinkers used the echo."
+  }
+}

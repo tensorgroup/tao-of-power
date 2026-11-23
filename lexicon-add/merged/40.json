@@ -1,0 +1,40 @@
+{
+  "反": {
+    "senses": ["to turn over, to reverse", "to turn back, to return (later written 返)", "the opposite; contrary to", "to rebel; to reflect on"],
+    "shuowen": "覆也。从又，厂反形。",
+    "shuowenEn": "To turn over. From 又 (a hand); the 厂 shows the shape of turning over.",
+    "parts": [{"c": "厂", "m": "here the sign of turning over (not “cliff”)"}, {"c": "又", "m": "a hand"}],
+    "story": "A hand that turns something over, or is turned. The one gesture gives return, reversal, and opposition, and the Laozi uses all three. The great goes far, and far means 反, return (25). Dark de is deep and far and goes 反, the other way, from things (65). Straight words seem 反, their opposite (78). And the summary: 反 is the movement of the Dao (40).",
+    "gap": "“Return”, “reversal”, and “opposite” are three English words with three feelings: home, change, conflict. 反 is one word, and a reader of Chinese does not have to choose."
+  },
+  "生": {
+    "senses": ["to be born; to give birth to", "to grow, to sprout; to arise", "life; to live, alive", "raw, fresh, unripe; unfamiliar"],
+    "shuowen": "進也。象艸木生出土上。",
+    "shuowenEn": "To come forth. It shows grass and trees that grow out above the soil.",
+    "story": "A sprout on a line of earth. It is the Laozi’s verb for every origin: having and not-having 生 each other (2); heaven and earth last because they do not live for themselves, 不自生 (7); the Dao gives birth to one (42); the Dao gives them birth and de rears them (51). It is also “life” as a thing that people cling to: those who make too much of life, 生生之厚, walk into death (50).",
+    "gap": "“Produce” and “create” need a maker and a product. 生 is growth: the thing born is the continued life of that which bore it."
+  },
+  "動": {
+    "senses": ["to move, to stir; movement", "to set in motion, to act", "to be moved (in feeling)"],
+    "shuowen": "作也。从力重聲。",
+    "shuowenEn": "To rise, to start up. From 力 (strength), with 重 for the sound.",
+    "parts": [{"c": "重", "m": "heavy; the sound part"}, {"c": "力", "m": "strength; a plow"}],
+    "story": "Strength beside a weight. In the Laozi the good in movement is timing (8); the bellows, when it moves, gives more and more (5); who can bring the still thing to life by slow movement (15)? People move toward the place of death (50). The Dao has one movement: turning back (40). The short form is 动.",
+    "gap": "English “movement” suggests progress or a cause. The Dao’s 動 goes back to where it came from."
+  },
+  "萬": {
+    "senses": ["ten thousand", "all, the whole number of; very many"],
+    "shuowen": "蟲也。从厹，象形。",
+    "shuowenEn": "A creature (an insect). From 厹; a picture.",
+    "story": "The early graph is a scorpion, with claws and a tail; it was borrowed for the number of like sound. Ten thousand was the largest common unit of counting, so 萬物, “the ten thousand things”, means all that exists, each thing counted singly. The Laozi uses 萬物 in more than twenty passages. They are born, fed, and come home; they are never added up into a “universe”. The short form 万 is old.",
+    "gap": "“The universe”, “all things”, “creation” make one collective. 萬物 is a crowd."
+  },
+  "物": {
+    "senses": ["a thing, a being, a creature", "the world outside oneself; other people", "a kind, a class"],
+    "shuowen": "萬物也。牛爲大物；天地之𢿙，起於牽牛，故从牛。勿聲。",
+    "shuowenEn": "The ten thousand things. The ox is a great thing; the count of heaven and earth starts from the Ox-Leader star, and so it is from 牛 (ox). 勿 gives the sound.",
+    "parts": [{"c": "牛", "m": "ox"}, {"c": "勿", "m": "the sound part"}],
+    "story": "An ox, with a sound part: the dictionary says that the ox is the great example of a thing. 物 covers beasts, plants, objects, and people as creatures. In the Laozi the Dao itself is called a 物 once: “there is a thing, formed in confusion, born before heaven and earth” (25). And the Dao “as a thing” is vague and elusive (21).",
+    "gap": "English “thing” is lifeless. 物 includes all that lives; “creature” is often closer."
+  }
+}

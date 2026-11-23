@@ -1,0 +1,65 @@
+{
+  "病": {
+    "senses": [
+      "grave illness; to be seriously ill",
+      "a defect, a flaw, a fault",
+      "distress, trouble; to suffer",
+      "to be troubled by; to count as a fault (verb)"
+    ],
+    "shuowen": "疾加也。从疒丙聲。",
+    "shuowenEn": "An illness that has grown worse. From 疒 (the sickness frame), with 丙 for the sound.",
+    "parts": [
+      { "c": "疒", "m": "sickness; commonly explained as a person on a bed" },
+      { "c": "丙", "m": "gives the sound; the third heavenly stem" }
+    ],
+    "story": "病 is heavier than 疾: an illness that has deepened. The word also covers any defect, and as a verb it means to feel a thing as a fault. The Laozi uses it in two passages. Which is the 病, gain or loss? (44). Passage 71 uses the word eight times in twenty-eight characters: not to know one’s knowing is a 病, and the sage is free of it by 病病, taking the sickness as a sickness. The verb and its object are the same graph, so the cure is the illness turned on itself.",
+    "gap": "“Disease” is a medical object that one has. 病 is also a verb of judgment: to find something wrong, in oneself first. English needs two words where the Chinese pun needs one."
+  },
+  "知": {
+    "senses": [
+      "to know, to understand",
+      "to be aware of, to notice",
+      "knowledge; knowing",
+      "(zhì) cleverness, wisdom (later written 智)",
+      "to know a person; to recognize someone’s worth"
+    ],
+    "shuowen": "詞也。从口从矢。",
+    "shuowenEn": "A word of speech. From 口 (mouth) and 矢 (arrow).",
+    "parts": [
+      { "c": "矢", "m": "arrow" },
+      { "c": "口", "m": "mouth" }
+    ],
+    "story": "An arrow beside a mouth; the usual explanation is that one who knows speaks as fast as an arrow flies. The Laozi treats 知 with care. Knowing others is cleverness, and knowing oneself is light (33). To know the constant is light (16, 55). To know what is enough and when to stop keeps one from harm (44). But the one who knows does not speak (56), the people are best kept from cleverness (3, 65), and the highest thing is 知不知, to know not-knowing (71). Early manuscripts write 知 for both “to know” and “clever”, so each line must be judged by its sense.",
+    "gap": "English “know” suggests facts held in the head. 知 is also to recognize, to be acquainted with, and to be known by a patron. The Laozi adds a doubt that English lacks a word for: knowing as a habit that covers what is there."
+  },
+  "上": {
+    "senses": [
+      "above, upper; the top",
+      "the highest, the best",
+      "the one above: a superior, a ruler",
+      "to go up; to put above"
+    ],
+    "parts": [
+      { "c": "一", "m": "a line of reference" },
+      { "c": "卜", "m": "the mark above it (shape only)" }
+    ],
+    "story": "上 is a base line with a mark over it; with 下 it is Xu Shen’s example of a graph that points at an idea. In the Laozi it is the word for the best and for those who rule. The highest good is like water (8). Of the highest ruler, those below know only that he exists (17). The highest de is not de-like (38). The highest officer hears the Dao and walks it (41). To wish to be above the people one must go below them (66). To know not-knowing is 上 (71). The people starve because those above eat too much in taxes (75).",
+    "gap": "English uses different words for “upper”, “best”, and “the authorities”. 上 is all three, so each praise of the highest is also a remark about those on top."
+  },
+  "唯": {
+    "senses": [
+      "only, alone",
+      "just because (in 夫唯 … 是以)",
+      "yes; a prompt word of assent",
+      "an opening particle"
+    ],
+    "shuowen": "諾也。从口隹聲。",
+    "shuowenEn": "To answer yes. From 口 (mouth), with 隹 for the sound.",
+    "parts": [
+      { "c": "口", "m": "mouth" },
+      { "c": "隹", "m": "gives the sound" }
+    ],
+    "story": "唯 is first the quick “yes” of a junior to a senior, and passage 20 asks how far that 唯 is from an angry “hm”. Its common use is “only”. The Laozi builds a signature frame on it: 夫唯 X，是以 Y, “just because X, therefore Y”, where X is small or negative and Y is large. Just because the sage does not stay, the work does not leave (2). Just because of not contending, there is no blame (8). Just because the sickness is taken as a sickness, there is no sickness (71). Just because one does not press, one is not detested (72).",
+    "gap": "“Only” in English limits. In the Laozi’s frame 唯 points: this one small thing, and no other, is the cause."
+  }
+}

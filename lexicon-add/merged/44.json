@@ -1,0 +1,57 @@
+{
+  "足": {
+    "senses": ["foot, leg", "enough, sufficient", "to be worth, to deserve"],
+    "shuowen": "人之足也。在下。从止、口。",
+    "shuowenEn": "A person’s foot. It is below. From 止 (foot) and 口.",
+    "parts": [ { "c": "口", "m": "here not a mouth: commonly explained as the knee or lower leg" }, { "c": "止", "m": "foot, footprint; to stop" } ],
+    "story": "足 is the foot, and by a path that is not settled it is also “enough”. The Laozi uses the second sense as a key term: 知足, to know enough (33, 44, 46). Passage 46 sets three 足 in six characters: 知足之足常足. In passage 64 the first sense appears: a journey of a thousand li begins 足下, under the foot. The Chinese reader sees one graph in both places, so “enough” always stands on the ground.",
+    "gap": "English “contentment” names a mood. 知足 names a piece of knowledge: an accurate sense of the point where enough has arrived."
+  },
+  "辱": {
+    "senses": ["disgrace, public shame", "to humiliate", "passage 41: stained, soiled (as against pure white)"],
+    "shuowen": "恥也。从寸在辰下。失耕時，於封畺上戮之也。辰者，農之時也。",
+    "shuowenEn": "Shame. From 寸 beneath 辰. One who missed the time of ploughing was punished on the boundary mound. 辰 is the farmer’s season.",
+    "parts": [ { "c": "辰", "m": "the farming season; commonly explained as a clam-shell hoe" }, { "c": "寸", "m": "hand (inch)" } ],
+    "story": "The Shuowen explains the graph by a custom: the farmer who ploughed late was shamed at the edge of the field. Modern scholars commonly see a hand with a hoe, the first form of 耨, to weed, and take “shame” as a borrowed or later sense. In the Laozi, 辱 is the cost of rising too high: 寵辱若驚 (13), 知足不辱 (44). In 28 and 41 it is the dark, low, soiled side that the sage keeps to.",
+    "gap": "“Disgrace” in English can be private guilt. 辱 is done in public, by others, and in the Warring States it often came with loss of office, mutilation, or death."
+  },
+  "身": {
+    "senses": ["the body, the trunk", "the person, oneself", "one’s lifetime (終身)"],
+    "shuowen": "躳也。象人之身。",
+    "shuowenEn": "The body. It pictures a person’s body.",
+    "story": "身 is the body as the person. Classical Chinese says “oneself” with it: 修身, to cultivate oneself, is to tend the body-person. The Laozi asks whether name or body is nearer (44), finds the root of trouble in having a body (13), and promises 沒身不殆, “to the end of the body, no danger” (16, 52). The graph is commonly explained as a figure in profile with a large trunk.",
+    "gap": "English splits “body” from “self” and “life”. 身 is all three, and translators who write “life” or “self” lose the flesh."
+  },
+  "貨": {
+    "senses": ["goods, wares", "wealth in movable things; money"],
+    "shuowen": "財也。从貝化聲。",
+    "shuowenEn": "Wealth. From 貝 (cowrie), with 化 for the sound.",
+    "parts": [ { "c": "貝", "m": "cowrie shell, early money" }, { "c": "化", "m": "to change; gives the sound" } ],
+    "story": "Cowrie shells served as valuables in Shang and early Zhou China, and 貝 marks characters of wealth and trade: 財, 買, 賣, 費, 貴, 賤. 貨 is wealth that changes hands. The Laozi speaks three times of 難得之貨, rare goods that are hard to come by (3, 12, 64), and in 53 of 財貨有餘, wealth and goods in surplus, while the fields are full of weeds.",
+    "gap": "“Wealth” is abstract and “goods” is commercial. 貨 keeps the shell in view: a thing whose value is that others want it."
+  },
+  "愛": {
+    "senses": ["to love, to cherish", "to be sparing with, to grudge", "to care for (愛民, 愛其身)"],
+    "shuowen": "行皃。从夊㤅聲。",
+    "shuowenEn": "The look of walking. From 夊 (slow steps), with 㤅 for the sound.",
+    "parts": [ { "c": "心", "m": "heart, in the middle" }, { "c": "夊", "m": "a foot that drags, at the base" } ],
+    "story": "The Shuowen gives the love-word a different graph, 㤅, glossed 惠也, “kindness”, and defines 愛 itself as a way of walking. Usage joined the two long ago. In early texts 愛 often means to begrudge: the king in Mencius 1A7 is thought 愛, stingy, over an ox. The Laozi uses the word with care: 愛民 (10), 自愛不自貴 (72), and the warning of 44 that extreme 愛 costs dear.",
+    "gap": "English “love” has no shadow of “hoard”. 愛 has: to hold dear and to hold back are one verb."
+  },
+  "親": {
+    "senses": ["near, close", "parents, kin", "dear; to hold dear", "in person (親自)"],
+    "shuowen": "至也。从見亲聲。",
+    "shuowenEn": "To arrive, to reach all the way. From 見 (to see), with 亲 for the sound.",
+    "parts": [ { "c": "亲", "m": "gives the sound" }, { "c": "見", "m": "to see" } ],
+    "story": "親 is nearness, and so family, and so affection. The six relations of passage 18 are 六親. In 17 the people 親 the second-best ruler: they feel close to him. In 56 the one who has reached the dark sameness cannot be made 親, near, or 疏, distant. Passage 79 says that heaven’s way has no 親: no favourites, no kin.",
+    "gap": "English must choose between “near”, “kin”, and “dear”. The Chinese question “which is 親?” asks all three at once."
+  },
+  "病": {
+    "senses": ["serious illness", "to be sick of, to be distressed by", "fault, harm"],
+    "shuowen": "疾加也。从疒丙聲。",
+    "shuowenEn": "A sickness that has grown heavy. From 疒 (sickbed), with 丙 for the sound.",
+    "parts": [ { "c": "疒", "m": "illness: explained by the Shuowen as a person leaning on a bed" }, { "c": "丙", "m": "gives the sound" } ],
+    "story": "Classical usage often sets 疾 as a sickness and 病 as a sickness grown grave. As a verb 病 means to suffer from, to be troubled by. The Laozi uses it as a diagnosis: gain or loss, which is the sickness (44)? And in 71 it turns the word on itself: 夫唯病病，是以不病, “only by being sick of the sickness is one not sick”.",
+    "gap": "Translations write “worse” or “harm”. The medical picture, a condition that the patient may not feel, is the point."
+  }
+}

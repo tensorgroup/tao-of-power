@@ -1,0 +1,223 @@
+{
+  "n": 12,
+  "title": "For the Belly, Not the Eye",
+  "theme": "simplicity",
+  "zh": [
+    {
+      "text": "五色令人目盲，五音令人耳聾，五味令人口爽，馳騁畋獵令人心發狂，",
+      "gloss": {
+        "0": "five; the full ritual set",
+        "1": "color; first, the look of a face",
+        "2": "to command; so, to cause (the Mawangdui silk texts are reported to write 使)",
+        "4": "the eye",
+        "5": "blind: an eye with no pupil",
+        "8": "a musical note; patterned sound",
+        "11": "the ear",
+        "12": "deaf",
+        "15": "flavor",
+        "18": "the mouth",
+        "19": "here: to go wrong, to lose its truth. Usually: bright, clear, brisk",
+        "21": "to drive horses hard",
+        "22": "to gallop straight on",
+        "23": "tián: to hunt across the fields",
+        "24": "to hunt with dogs",
+        "27": "the heart",
+        "28": "to shoot off, to break out",
+        "29": "mad, wild (first: a mad dog)"
+      }
+    },
+    {
+      "text": "難得之貨令人行妨。",
+      "gloss": {
+        "3": "goods, wares",
+        "6": "to walk; conduct, the way one goes",
+        "7": "to harm, to hinder"
+      }
+    },
+    {
+      "text": "是以聖人為腹不為目，故去彼取此。",
+      "gloss": {
+        "4": "wèi: for, on behalf of",
+        "5": "the belly",
+        "8": "the eye",
+        "11": "to leave, to put away",
+        "12": "that, the one over there",
+        "13": "to take (the graph is a hand on an ear)",
+        "14": "this, the one here"
+      }
+    }
+  ],
+  "rendering": [
+    "[[The five colors|wuse]] [[make|ling]] a person’s eye [[blind|mang]].",
+    "[[The five notes|five]] make a person’s ear [[deaf|long]].",
+    "The five flavors make a person’s mouth [[go wrong|shuang]].",
+    "[[Galloping and hunting|hunt]] make a person’s heart [[break out in madness|kuang]].",
+    "[[Goods hard to get|huo]] make a person’s walk stumble.",
+    "",
+    "For this reason the sage",
+    "is [[for the belly, not for the eye|fu-mu]],",
+    "and so [[leaves that and takes this|bi-ci]]."
+  ],
+  "notes": {
+    "wuse": {
+      "kind": "history",
+      "title": "五色: the five correct colors",
+      "body": "“The five colors” is not a loose phrase for “many colors”. It is a set: blue-green, red, yellow, white, and black, the five that ritual counted as pure. Court robes, banners, lacquer, and the painted earth of altars used them by rule, and a rank could be read from them. In the third century BCE the thinker Zou Yan and others tied each color to a direction, a season, a metal or element, and a dynasty, and new rulers chose their color to show their right to rule. The word 色 has its own history. The Shuowen defines it as 顔气也, “the air of the face”: the color that comes and goes in a person’s look. From there it means beauty, and desire. So the first line is about the eye at court. It names a complete, official, costly display.",
+      "src": [
+        "Shuowen Jiezi, 色部: 色，顔气也。"
+      ]
+    },
+    "five": {
+      "kind": "geopolitics",
+      "title": "Who had all five?",
+      "body": "Five colors, five notes, five flavors: three ordered systems, and each belonged to the rich. The five notes are the scale of court music, played on sets of bronze bells that only a lord could cast. The five flavors, sour, bitter, sweet, pungent, and salty, are the art of the palace cook. Then come the horse hunt and the rare goods. A farmer of the time ate millet, wore undyed hemp, and heard a drum at the harvest. So the passage is not about the human senses in general. It is a description of how rulers lived, and the first critics of that life were the Mohists, who wrote a whole chapter “Against Music” on the cost of bells and feasts to the people. The Mawangdui silk texts are reported to make the frame plain: they add “in [[the sage’s rule|order]]” before the last line. The Zhuangzi has [[its own form of the list|zhuangzi]].",
+      "src": [
+        "Mozi, “Fei yue” (Against Music)",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "ling": {
+      "kind": "gap",
+      "title": "令: the colors give the order",
+      "body": "The verb in all five lines is 令. The Shuowen defines it as 發號也, “to issue a command”, and that is its first sense: an order from above. It then came to mean “to cause”. The Mawangdui silk texts are reported to use the plainer 使, “to make, to cause”, in each line. With 令 the lines have an edge that English “make” does not keep: the five colors command the eye, and the eye obeys. The person in the line is 人, “a person, people”, with no “you” and no “men”; our “a person’s” follows that. Note also that the object is each time a single organ and its function. The colors do not blind “the mind”. They blind 目, the eye. The harm is put exactly where the pleasure enters. What gives your eye its orders in the course of a day?",
+      "src": [
+        "Shuowen Jiezi, 卩部: 令，發號也。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "mang": {
+      "kind": "etymology",
+      "title": "盲: the eye that is gone",
+      "body": "盲 is 亡 above 目. 目 is the eye, a picture turned on its side. 亡 means “gone, lost”; the Shuowen defines it as 逃也, “to flee”. The Shuowen takes 亡 here as the sound and defines the whole word: 目無牟子, “an eye with no pupil”. Sound and sense agree: the seeing part of the eye has left. The line does not say that colors are bad. It says something that the body confirms. Stare at a bright thing and you see less afterwards; live among strong stimuli and you stop seeing plain ones. The blindness here is a loss of fineness. A person who has had every color cannot see grey. Passage 35 gives the opposite case: Dao has no flavor, and you look at it and there is not enough to see, and its use does not run out. See the first plate.",
+      "src": [
+        "Shuowen Jiezi, 目部: 盲，目無牟子。从目亡聲。",
+        "Shuowen Jiezi, 亡部: 亡，逃也。"
+      ]
+    },
+    "long": {
+      "kind": "etymology",
+      "title": "聾: a dragon over the ear",
+      "body": "聾 is an ear, 耳, under a dragon, 龍. The Shuowen says that the dragon gives only the sound, lóng, and it defines the word plainly: 無聞也, “to hear nothing”. Still, generations of readers have seen the picture, and it is hard not to: a roar so great that the ear under it is finished. The music in question was very loud. A set of sixty-five bronze bells was found in the tomb of Marquis Yi of Zeng (about 433 BCE); the tomb also held stone chimes, drums, and pipes, enough for an ensemble of twenty or more. The Shuowen’s gloss on the ear is worth setting beside the line: 主聽也, “it is in charge of listening”. An ear has an office. The five notes, when there are too many of them, put it out of office. See the second plate.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聾，無聞也。从耳龍聲。",
+        "Shuowen Jiezi, 耳部: 耳，主聽也。象形。"
+      ]
+    },
+    "shuang": {
+      "kind": "wordplay",
+      "title": "爽: a word with two faces",
+      "body": "爽 is the surprise of the passage. The Shuowen defines it as 明也, “bright, clear”, and that is its usual sense: a clear dawn, a brisk wind. In modern speech it is the word for a thing that feels great. Here it means the reverse. [[Wang Bi|fu-mu]] glosses it: 爽，差失也, “爽 is to miss, to go wrong”, and adds 失口之用, “the mouth loses its function”. A palate that has had every flavor can no longer taste. Classical Chinese has several words like this, with two opposite senses; passage 3 showed another, 亂, which is both “tangle” and “to set in order”. The effect on a reader is a small shock: five flavors make the mouth 爽, and for an instant the line says “bright”, and then it says “ruined”. The pleasure and the damage are one word.",
+      "src": [
+        "Shuowen Jiezi, 㸚部: 爽，明也。从㸚从大。",
+        "Wang Bi commentary on Laozi 12"
+      ]
+    },
+    "hunt": {
+      "kind": "history",
+      "title": "The royal hunt",
+      "body": "馳騁畋獵 is four characters of speed. 馳 is “to drive hard” and 騁 “to gallop straight”; both are written with the horse. 畋 is to hunt across open fields, and the Shuowen gives its base sense as 平田也, “to level a field”; 獵, with the dog radical, is 放獵逐禽, “to loose the hounds and chase game”. This was the sport of kings and lords. A great hunt used chariots, beaters, and nets over miles of country, and it served also as a drill for war. It was a known political sore. Mencius told King Xuan of Qi that his people saw the royal park, forty li square, as a trap in the middle of the state, because to kill a deer in it was punished like murder. Farmers’ fields lay under the hooves. The line says what the hunt does to the hunter.",
+      "src": [
+        "Shuowen Jiezi, 攴部: 畋，平田也。从攴、田。",
+        "Shuowen Jiezi, 犬部: 獵，放獵逐禽也。",
+        "Mencius 1B2"
+      ]
+    },
+    "kuang": {
+      "kind": "etymology",
+      "title": "發狂: the heart shoots off",
+      "body": "狂 has the dog radical, and the Shuowen’s definition is blunt: 狾犬也, “a mad dog”. The word then covers every kind of wildness in people: frenzy, mania, and also the free, bold manner that Confucius half admired in certain students. 發 is an archer’s word. The Shuowen glosses it as the release of an arrow from the bow. So 心發狂 is close to “the heart lets fly, like a mad dog”. Look at the animals in this one line. Two characters with the horse, one with the hound, and then the hunter’s own heart with the dog in it. The chase turns the rider into one of the pack. English versions say that the hunt will “derange the mind”. The Chinese is not about a mind and not about reason. It is 心, the heart, and the heart bolts.",
+      "src": [
+        "Shuowen Jiezi, 犬部: 狂，狾犬也。从犬㞷聲。",
+        "Shuowen Jiezi, 弓部: 發，䠶發也。"
+      ]
+    },
+    "huo": {
+      "kind": "gap",
+      "title": "行妨: a walk that is harmed",
+      "body": "難得之貨, “goods hard to get”, comes from passage 3, where a ruler who does not prize them has no thieves. Here the harm is to the one who wants them: 令人行妨. 妨 is “to harm, to get in the way of”; the Shuowen says 害也. 行 is “to walk”, and then “conduct”, the way a person goes through life; the Shuowen defines it as 人之步趨, “a person’s walking and hurrying”. [[Wang Bi|fu-mu]] keeps the road: 塞人正路, such goods “block a person’s straight path”. [[Legge|legge]] moralized it: men’s conduct “will to evil change”. The Chinese has no “evil”. It has a picture of someone who cannot walk straight, because something rare is in view and the feet turn toward it. This is the only one of the five lines that names no sense organ. The harm has moved from an organ to a whole life’s direction."
+    },
+    "order": {
+      "kind": "variant",
+      "title": "Another order, and four more words",
+      "body": "The Mawangdui silk texts are reported to give the five lines in a different order: colors, the hunt, rare goods, flavors, notes. The received text is tidier. It puts the three “fives” together, eye, ear, mouth, and then the two larger cases. An editor has clearly arranged it. The silk order has a reason of sound: 盲, 狂, 妨, and 爽 belong to one old rhyme group (陽), and it puts these four together, with the unrhymed 聾 last. Silk A is also reported to write 明, “bright”, for 盲 in the first line. The silk texts are also reported to have four more characters before the last line: 是以聖人之治也, “for this reason, in the sage’s ordering”. That is the phrase of passage 3, where the sage’s ordering fills bellies. With it, the last line is a policy of a ruler toward a people. Without it, as in the pinned text, it reads as one person’s rule of life. Which did you assume?",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Laozi 3"
+      ]
+    },
+    "fu-mu": {
+      "kind": "wangbi",
+      "title": "Wang Bi: fed by things, or drafted by them",
+      "body": "為腹不為目: “for the belly, not for the eye”. 為, read wèi, is “to act on behalf of”. Wang Bi explains the pair in a sentence that is often quoted: 為腹者以物養己，為目者以物役己。 “One who is for the belly uses things to nourish the self. One who is for the eye uses things to press the self into service.” 役 is the word for forced labor and frontier duty; the Shuowen defines it as 戍邊, “to guard the border”. So the eye makes a person a conscript of things. He says of the first lines: the ear, eye, mouth, and heart each have a nature to follow, and when they are used against that nature they are hurt; 故曰盲、聾、爽、狂也, “and so it says blind, deaf, spoiled, mad”. The four ruins are one event: a sense that is pushed past its own measure.",
+      "src": [
+        "Wang Bi commentary on Laozi 12",
+        "Shuowen Jiezi, 殳部: 役，戍邊也。"
+      ]
+    },
+    "belly": {
+      "kind": "gap",
+      "title": "Not “control of the senses”",
+      "body": "Western readers easily hear an old sermon here: the senses deceive, the flesh is weak, turn from the body to the spirit. The passage says nothing like that. Its remedy for the eye is not the soul. Its remedy is 腹, the belly, the most bodily part of the body. The contrast is between two ways in which a body meets the world. The eye reaches out to things at a distance, and it has no “enough”; it can always take one more look. The belly takes in what is near, and it knows exactly when it is full. Passage 3 said that the sage fills the bellies. Later breath practice put the centre of attention in the lower belly, and read this line as a direction for sitting. The text does not ask anyone to see less. It asks which organ gives the orders."
+    },
+    "bi-ci": {
+      "kind": "wordplay",
+      "title": "去彼取此: that and this",
+      "body": "故去彼取此, “so: leave that, take this”, is a set formula. It closes passages 38 and 72 also. The four characters are two verbs and two pointing words, and the Shuowen shows that each pointing word has a movement inside it. 彼, “that”, has the road-step 彳 and is glossed 往, “to go toward”. 此, “this”, has 止, a foot at rest, and is glossed 止也, “to stop”. That is where one must go; this is where the foot already stands. The eye lives in 彼: its objects are over there. The belly is 此: here, inside. The verb 取, “to take”, holds one more thing, and it is grim. The graph is a hand on an ear. See the third plate. The formula gives no reasons. It is a gesture, like a hand that points down. What is “this”, where you are now?",
+      "src": [
+        "Shuowen Jiezi, 彳部: 彼，往，有所加也。",
+        "Shuowen Jiezi, 此部: 此，止也。从止从匕。",
+        "Laozi 38, 72"
+      ]
+    },
+    "zhuangzi": {
+      "kind": "history",
+      "title": "The same list in the Zhuangzi",
+      "body": "The Zhuangzi has a near twin of this passage. Chapter 12 lists five ways to lose one’s inborn nature: 五色亂目, “the five colors confuse the eye”, so that it does not see clearly; the five sounds confuse the ear; the five smells assault the nose; 五味濁口, “the five flavors foul the mouth”; and fifth, likes and dislikes unsettle the heart. Its word for the mouth’s damage includes our 爽. So the list was common property among the thinkers who distrusted court culture, and each shaped it. The Zhuangzi keeps five senses and ends with the heart’s preferences. The Laozi drops smell, adds the hunt and rare goods, and so leans toward the life of a ruler. The Zhuangzi ends with a diagnosis: “these are all harms to life.” The Laozi ends with a choice of belly over eye.",
+      "src": [
+        "Zhuangzi 12, “Tian di”"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s verse and his brackets",
+      "body": "Legge put the five lines into rhymed English: “Colour’s five hues from th’ eyes their sight will take”. The form is close to the feel of the Chinese, which is five hammer blows. The cost is at the end of the stanza, where rare objects, “sought for, men’s conduct will to evil change”. “Evil” is his; the Chinese [[妨|huo]] is “to hinder, to harm”. In the prose that follows he explains by brackets: the sage seeks to satisfy “(the craving of) the belly, and not the (insatiable longing of the) eyes”. The brackets hold a good reading, the same as [[Wang Bi’s|fu-mu]], and they also show how bare the original is: 為腹不為目, six characters, with no craving and no longing in them. He adds “he” for the sage, as always.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "One plain meal",
+      "body": "Eat one meal today with the eye off duty. Put away the screen and the page. Choose plain food: rice or bread, one vegetable, water. Eat slowly, and give your attention to the mouth and the belly. Notice how much taste there is in plain food when nothing strong has come before it; that is a mouth that is not 爽 in the bad sense. Notice the moment when the belly says “enough”. It is quiet, and it is easy to miss if the eye is busy. Stop there. For the rest of the day, each time you reach for something, ask one question from the last line: is this for the eye, or for the belly?"
+    }
+  },
+  "lenses": {
+    "ground": "Five lines of one pattern, then a conclusion. [[The five colors|wuse]] [[make|ling]] the eye [[blind|mang]]. The five notes make the ear [[deaf|long]]. The five flavors make the mouth [[go wrong|shuang]]. The [[horse hunt|hunt]] makes the heart [[break out in madness|kuang]]. [[Rare goods|huo]] harm a person’s walk. Each line names a pleasure of [[the great houses|five]], an organ, and the ruin of that organ’s own work. Then the sage’s choice in six characters: [[for the belly, not for the eye|fu-mu]]. The last four characters are a formula that the book uses three times: [[leave that, take this|bi-ci]]. The passage has no word for sin or for virtue. It describes damage, and then a preference.",
+    "inner": "Attention has two directions. It can go out through the eye to what is [[over there|bi-ci]]: the next sight, the next thing to want. Or it can rest in what is here: breath, weight, the felt inside of the body, which the passage calls the belly. The first has no end, and it thins a person out; this is the real sense of the five ruins. A mind fed on strong impressions loses the fine ones, and silence starts to seem empty. The passage does not teach [[contempt for the senses|belly]]. A sense that is not flooded is sharper. After a day of quiet, one birdcall is vivid. The practice is a change of master. Let the organ that knows “enough” decide, and the eye, the ear, and the mouth recover their own offices.",
+    "leading": "Read with the [[Mawangdui frame|order]], this is advice on what a ruler should want for a people and from a court. A state that runs on display, with ever finer goods, louder ceremony, and the excitement of the chase, trains everyone in it to look outward and to want more. It then finds that no one can see or hear plain things, such as a quiet report of bad news. The leader’s own case comes first. A person who is led by the eye is, in [[Wang Bi’s|fu-mu]] word, drafted by things: prestige projects, rare acquisitions, the hunt for the next win. “For the belly” is a hard and humble test for any plan: does this feed people, or does it only look good? The passage [[leaves that and takes this|bi-ci]].",
+    "body": "Each sense has a working range, and training respects it. A musician protects the ear, and a cook rests the tongue. An archer knows that the eye strains and blurs when it fixes too hard on the target. The line on the hunt is exact about arousal: speed and the chase bring a state in which the [[heart bolts|kuang]] and fine control is lost. Fighters call it losing the centre. The remedy in every internal art is the one given here: bring attention down from the eyes to the [[belly|belly]]. Breathe there, move from there, and let the eyes be soft and wide and not grasping. The gaze that is not chasing sees more of the field. Try a walk with the attention held low, behind the navel.",
+    "nature": "An animal in its own setting is led by the belly. A deer eats until it is full and then lies down and chews; a wolf that has fed does not hunt for sport. Its senses stay keen, because they are used at their natural level: the ear turns at a twig. Human courts invented the things in this passage: color made into a system, sound made into bells by the ton, flavor made into an art, the hunt made into a parade, and stones made precious. These are nature raised to a pitch that no creature’s organs were made for. The result is given in animal terms: the heart of the rider becomes [[a mad dog|kuang]]. “Take this”, [[此|bi-ci]], is in the Shuowen a foot that has stopped. It is the creature at rest in its place.",
+    "practice": "Have [[one plain meal|practice]] with the eye off duty. Then choose one of the five for a week and lower its volume. Colors: fewer screens after dark. Notes: one journey a day with no sound in the ears. Flavors: three days with no added sweetness. The hunt: one day with no race against the clock. Rare goods: one week in which you buy nothing that you want mainly because it is hard to get. At the end, test the sense that you rested. See what a plain thing looks, sounds, or tastes like now."
+  },
+  "glyph": "盲",
+  "plates": [
+    {
+      "c": "盲",
+      "title": "Gone, over an eye",
+      "lesson": "Start with the lower part, 目, the eye. In the oldest script it is an eye as you would draw it: a long oval lying on its side with the pupil in the middle. When writing went onto narrow bamboo strips, wide shapes were turned upright, and the eye now stands on end; the two inner lines are what remains of the pupil. The Shuowen says 人眼，象形: “the human eye; a picture”. Turned eyes are in many characters: 見, to see, is an eye on legs; 相, to look closely, is an eye beside a tree; 眉, the eyebrow, has a brow drawn above it. Now the upper part, 亡. The Shuowen defines it as 逃也, “to flee”, and it means “gone, lost, dead”; in the oldest Laozi manuscripts it is the common way to write 無, “to not have”. Put together: 目無牟子, “an eye with no pupil”. The Shuowen takes 亡 as the sound, and the sound part also tells the story. Its cousins do the same. 忘, to forget, is 亡 over a heart: the Shuowen says 从心从亡. 望, to gaze into the distance, the Shuowen explains from 亡 too: someone has fled abroad, and you look for his return. Modern 忙, busy, is a heart beside 亡. Blind, forgetful, busy: an eye, a heart, a heart, each with “gone” written on it. [[The first line|mang]] says that the five colors do this to the eye.",
+      "brush": "Eight strokes. 亡 takes three. First a dot at the top centre. Second, a long horizontal; watch it, for it is the widest line of the character and covers the eye like a lid or a brim. Third, a stroke that comes down on the left and turns to the right along the bottom: a short upright and a level foot. Then the eye in five: the left side, the top and right side in one turning stroke, two short lines inside, and the base to close it. The eye must be narrow and upright, set under the middle of the long line, with even white spaces between its four level strokes. The top is wide and open, and the bottom is tall and shut. In seal script the eye still has curved lids; clerical script squared it off. A blind eye and a seeing eye are written with the same five strokes. Only the top part differs."
+    },
+    {
+      "c": "聾",
+      "title": "The dragon and the ear",
+      "lesson": "Top and bottom. The bottom is 耳, the ear, a picture of the outer ear with its folds; the Shuowen says 主聽也，象形, “it is in charge of listening; a picture”. You have seen the ear in 聖, the sage, the one who hears, and in 聲, sound, and it will come back in 取 in the third plate. The top is 龍, the dragon, one of the grand characters of the script. The Shuowen’s entry on it is a small poem: 鱗蟲之長, “chief of the scaled creatures”; 能幽能明，能細能巨, “it can be dark or bright, tiny or vast”; 春分而登天，秋分而潛淵, “at the spring equinox it climbs the sky, and at the autumn equinox it sinks into the deep pool”. The left half of 龍 as now written looks like 立 over 月, and the right half is the curling body; the oracle-bone form is commonly explained as a serpent with a crowned head and a wide mouth. In 聾 the Shuowen says the dragon is only the sound: 从耳龍聲. The same sound part stands in 籠, a cage of bamboo, and in 寵, favor, where a dragon is under a roof; that character opens passage 13. Readers have always enjoyed the accident here: a dragon on top of an ear. [[The five notes|long]] of the court were a roar of bronze, and under them the ear stopped work.",
+      "brush": "Twenty-two strokes: sixteen for the dragon and six for the ear. The dragon is written in two columns. Left column: a dot, a horizontal, two small strokes that lean together, and a longer horizontal; then below it the shape like 月, in four strokes. Right column: a short horizontal, a stroke that comes down, turns right, and turns down again, another short horizontal, and then stroke thirteen, the body: it falls, bends to the right, and hooks up. Three short horizontals go inside its curve, like scales. All sixteen strokes must stay in the upper two thirds and must be kept thin. Then the ear: a horizontal, a short vertical on the left, a long vertical on the right, two short lines inside, and last a long horizontal across the foot. Watch that last stroke. It is the widest line in the character, and the whole dragon stands on it."
+    },
+    {
+      "c": "取",
+      "title": "A hand on an ear",
+      "lesson": "This is among the most common verbs in Chinese, “to take”, and it holds a battlefield. The left side is 耳, an ear, made narrow. The right side is 又, a right hand: the Shuowen calls 又 a hand, and its old form shows three fingers and a wrist. A hand that reaches for an ear. The Shuowen explains why: 捕取也, “to capture and take”, and then it quotes the Rites of Zhou: 獲者取左耳, “the one who makes a kill or a capture takes the left ear”. Soldiers cut the left ears from the enemy dead and brought them in to be counted; hunters did the same with game. The Shuowen adds a line from an old military code about carrying in the tally of ears. Rewards were paid on the count. So “to take” is first to take a trophy. The cousins soften with time: 娶, to take a wife, is 取 over a woman; 最, “most”, is commonly explained with 取 under a cover; 趣, to hasten toward, has running feet beside it, and there the Shuowen takes 取 as the sound. Now read the end of the passage: 去彼[[取此|bi-ci]]. The text has just said what the five notes do to the ear. Its last verb has a severed ear in it, and the sage uses that verb for the gentlest of acts: to take what is here.",
+      "brush": "Eight strokes. The ear takes six. A horizontal at the top; a short vertical down from its left end; then the long vertical on the right, which runs the full height. Two short horizontals go between the uprights. Stroke six is the foot of the ear. In the free-standing 耳 it is a level line; here, at the left of a character, it rises to the right and reaches out past the long vertical. Watch it: it starts far to the left, and its tip leads the eye across to the hand. Then the hand in two strokes. Stroke seven is a horizontal that turns and sweeps down to the left, long and fast. Stroke eight is the 捺: it starts inside the angle, crosses the falling stroke, and presses out to the lower right. The ear is upright and narrow. The hand is all diagonals, and its last stroke reaches under and steadies both halves."
+    }
+  ]
+}

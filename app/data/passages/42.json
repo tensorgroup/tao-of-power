@@ -1,0 +1,225 @@
+{
+  "n": 42,
+  "title": "Shade Behind, Sun Before",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "道生一，一生二，二生三，三生萬物。萬物負陰而抱陽，沖氣以為和。人之所惡，唯孤﹑寡﹑不穀，而王公以為稱。故物或損之而益，或益之而損。",
+      "gloss": {
+        "1": "shēng: to give birth to; to grow out as",
+        "19": "fù: to carry on the back; to turn the back to",
+        "20": "yīn: shade; the north side of a hill",
+        "22": "bào: to hold in the arms, to hug to the chest",
+        "23": "yáng: sunlight; the south side of a hill",
+        "25": "chōng: to surge, to pour together; empty (silk text, as reported: 中, middle)",
+        "26": "qì: breath, vapor, the stuff of life",
+        "29": "hé: accord; voices that answer each other",
+        "34": "wù (classical reading): to hate, to dislike",
+        "49": "chēng: a title, what one calls oneself",
+        "54": "sǔn: to lessen, to take away from",
+        "57": "yì: to add to, to increase; benefit"
+      }
+    },
+    {
+      "text": "人之所教，我亦教之。",
+      "gloss": {
+        "3": "jiào: to teach; a teaching",
+        "5": "I (the speaker)"
+      }
+    },
+    {
+      "text": "強梁者不得其死，吾將以為教父。",
+      "gloss": {
+        "1": "liáng: a beam, a bridge; 強梁, overbearing, violent",
+        "4": "dé: to get, to attain",
+        "13": "fù: father; here, the head or origin"
+      }
+    }
+  ],
+  "rendering": [
+    "The Dao [[gives birth to|sheng]] [[one|numbers]].",
+    "One gives birth to two.",
+    "Two gives birth to three.",
+    "Three gives birth to the ten thousand things.",
+    "",
+    "The ten thousand things [[carry shade on the back|yin]]",
+    "and [[hold sun in the arms|fubao]];",
+    "the [[surging breath|chongqi]] makes their accord.",
+    "",
+    "What people hate",
+    "is to be [[orphaned, alone, unfed|gugua]],",
+    "and kings and dukes take these as their titles.",
+    "So a thing may be [[lessened and so grow|sunyi]],",
+    "or grow and so be lessened.",
+    "",
+    "[[What people teach|renjiao]], I teach too:",
+    "the [[hard and overbearing|qiangliang]] do not [[get their own death|si]].",
+    "I will take this as [[father of the teaching|jiaofu]]."
+  ],
+  "notes": {
+    "sheng": {
+      "kind": "gap",
+      "title": "生: gives birth, not “produces”",
+      "body": "The verb comes four times in thirteen characters: 生. It is the picture of a sprout that comes out of soil, and it means to bear, to be born, to grow. [[Legge|legge]] and most English versions write “produced”, as of goods. But the passage is a line of births: each term comes out of the one before as a child from a parent, and remains of its substance. The book calls the Dao a mother more than once: 可以為天下母, “it can be taken as the mother of the world” (25; compare 以為天下母 in 52). So the opening is nearer to a family record than to a formula. The Chinese has no “the” before the numbers: 一 is “one” and “the One” together. And no tense: it does not say that this happened once, long ago. It can be read as happening now, in each thing, at each moment. See [[the old ways to count|numbers]]."
+    },
+    "numbers": {
+      "kind": "history",
+      "title": "One, two, three: what the old readers said",
+      "body": "The text does not say what the numbers are, and each age has filled them in. The Huainanzi, a Han book of the second century BCE, quotes the line and explains: the Dao begins in one; one alone does not give birth, so it divides into yin and yang; yin and yang join in accord and the ten thousand things are born. The Heshang Gong commentary is close: one is the first breath; two is yin and yang; three is the clear, the turbid, and the blended breaths, which become heaven, earth, and the human. [[Wang Bi|wangbi]] gives no cosmology at all; he derives the numbers from the act of speaking. A modern reader has matched them to space-time, electric charge, and matter, and Europe’s first readers had [[a map of their own|trinity]]. Each map dates itself. The line survives them because it gives only a count, the oldest thing that people share: one, two, three, many. Small children count that way.",
+      "src": [
+        "Huainanzi, “Tian wen xun”: 道始於一，一而不生，故分而為陰陽，陰陽合和而萬物生。",
+        "Heshang Gong commentary on Laozi 42"
+      ]
+    },
+    "trinity": {
+      "kind": "geopolitics",
+      "title": "The Jesuits found the Trinity here",
+      "body": "When Europe first read this passage, it read its own creed. A group of French Jesuits at the Qing court around 1700, called the Figurists, held that the oldest Chinese books kept traces of the first revelation to humankind. In 道生一，一生二，二生三 they saw the three persons of the Christian Trinity. A Latin version of the Laozi that reached London in 1788 was sent to prove this point. In 1823 the first professor of Chinese in Paris, Abel-Rémusat, argued that three words of passage 14, 夷, 希, 微, spelled the Hebrew name of God. Legge, a missionary himself, rejected these readings, and his notes say so. But the habit remained in the vocabulary: “the One”, “the Three”, “produced”, each with a capital or a tone of Genesis. The Chinese numbers are small words that a market trader uses. Try the line as “way bears one, one bears two”.",
+      "src": [
+        "J.-P. Abel-Rémusat, Mémoire sur la vie et les opinions de Lao-tseu (1823)",
+        "James Legge, The Texts of Taoism (1891), introduction"
+      ]
+    },
+    "yin": {
+      "kind": "etymology",
+      "title": "陰 and 陽: two sides of one hill",
+      "body": "Before they were cosmic principles, 陰 and 陽 were words for landscape. Both have the hill sign 阝 at the left. The Shuowen defines 陰 as 闇也。水之南、山之北也: “dark; the south bank of a river, the north side of a mountain”, the side that the sun does not reach. It defines 陽 as 高、明也, “high and bright”. Many Chinese place names keep this: Luoyang is the city on the sunny, north bank of the Luo river. So the pair is one hill at one moment, with a lit slope and a shaded slope, and as the day goes on, each becomes the other. Nothing here is “positive” and “negative”, male and female as fixed things, or good and evil. Shade is not the enemy of the sun; it is what the sun makes when it meets a hill. This passage is [[the only place|school]] where the Laozi names the pair. See the plate.",
+      "src": [
+        "Shuowen Jiezi, 𨸏部: 陰，闇也。水之南、山之北也。从𨸏侌聲。",
+        "Shuowen Jiezi, 𨸏部: 陽，高、明也。从𨸏昜聲。"
+      ]
+    },
+    "school": {
+      "kind": "history",
+      "title": "Yin and yang appear only here",
+      "body": "A reader who comes to the Laozi from later Daoism expects yin and yang on every page. They are in this one line, and nowhere else in the book. In the oldest texts the two words are plain: the Book of Songs uses them for the shady and sunny sides of hills and for cloud and sun. In the fourth and third centuries BCE they became a theory. Thinkers such as Zou Yan of Qi, in the early third century BCE, joined them to the “five phases” and made a system that explained seasons, medicine, and the rise and fall of dynasties; the Han empire took this up as state doctrine. The Laozi stands before that system or at its edge. Its line is still close to the hill: things have a shaded back and a sunlit front. Some scholars think that the line is a late addition to the book for this reason. The Guodian slips do not have this passage.",
+      "src": [
+        "Shiji, “Mengzi Xun Qing liezhuan” (on Zou Yan)"
+      ]
+    },
+    "fubao": {
+      "kind": "etymology",
+      "title": "負 and 抱: the back and the arms",
+      "body": "The two verbs are of the body. 負 is to carry on the back, as a porter or a mother carries; from that, to turn one’s back on, to owe. The Shuowen explains the graph as a person who guards cowries, 从人守貝, and so “to rely on”. 抱 has the hand at the left and 包, “to wrap”, at the right: to hold in the arms against the chest, as one holds a child. The Laozi uses it for its dearest objects: 抱一, “hold the One” (10, 22); 抱樸, “hold the uncarved wood” (19). So each of the ten thousand things is given a body with a back and a front. On the back, shade; in the arms, sun. A Chinese house was built in this posture, with its back wall to the north and its door to the south, and a ruler sat on his throne facing south. A plant also stands so. Which way do you face?",
+      "src": [
+        "Shuowen Jiezi, 貝部: 負，恃也。从人守貝，有所恃也。"
+      ]
+    },
+    "chongqi": {
+      "kind": "variant",
+      "title": "沖氣 or 中氣: surging, empty, or middle",
+      "body": "沖氣以為和: “沖 breath, taken as the accord”. 沖 was the key word of passage 4, where the Dao is 沖, and it has two senses that the tradition never fully separated: to surge and dash together, as waters meet; and to be empty, hollow. So 沖氣 is the breaths of shade and sun as they surge into each other, or it is the empty breath between the two, a third thing that lets them blend. The Mawangdui silk texts are reported to read 中氣, “the middle breath”, which favors the second: there is a breath at the center. 和, “accord”, is at root a word of music: the Shuowen says 相譍也, “to answer one another”, as one voice answers a second in a song. It is not sameness. Two notes that are the same note make no accord. Passage 55 says that to know this accord is to know the constant.",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)",
+        "Shuowen Jiezi, 口部: 和，相譍也。从口禾聲。"
+      ]
+    },
+    "qi": {
+      "kind": "gap",
+      "title": "氣: breath, not “energy”",
+      "body": "氣 is one of the words that English cannot hold. Its first meaning is vapor: mist over a field, steam, the breath that one sees on a cold morning. From that it is the air that we breathe, the weather, the temper of a person, the vigor of a body, the mood of an age, and, for Chinese medicine and physics, the fine stuff of which all things are made and which moves between them. It is matter and force at once, and it is never apart from breathing. “Energy” is a word of nineteenth-century physics; it has no moisture and no lungs. “Spirit” is too holy. A modern version gives “influence”. The Laozi uses the word only three times, and each time it is in a body: the infant gathers its 氣 and becomes soft (10); the heart that forces the 氣 is called violent (55); and here, where the breaths of shade and sun meet in each thing."
+    },
+    "gugua": {
+      "kind": "history",
+      "title": "The royal names again",
+      "body": "孤, 寡, 不穀: “the orphan”, “the lone one”, “the unfed”. These are the three words that rulers used for “I”; passage 39 gave them as proof that the high rests on the low. Here they come back with a different point. 人之所惡: these are the things that people hate. To be fatherless, to be without a mate, to be without grain: these are the plain disasters of a farming society, and the Zhou texts list such people as the ones a good king must feed first. And the men at the top chose exactly these words as titles. The silk text is reported to say 以自名, “name themselves by them”. The passage takes it as a case of its law of [[loss and gain|sunyi]]: a title that lessens makes its owner greater. It is also a quiet joke. No king was unfed.",
+      "src": [
+        "Mencius 1B5 (on the widowed, the orphaned, and the alone)",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "sunyi": {
+      "kind": "etymology",
+      "title": "損 and 益: two hexagrams",
+      "body": "損 is “to lessen”; the Shuowen says 減也, “to reduce”, and the hand at the left takes something away. 益 is “to add, to increase”, and its graph is a picture that the Shuowen reads: 饒也。从水、皿, “abundance; from water and a dish”: a vessel so full that the water stands above the rim. It is the first form of 溢, to overflow. The two words are also the names of two hexagrams that stand side by side in the Book of Changes, 損 and 益, numbers 41 and 42, and each is the other turned upside down. A Han story says that Confucius sighed each time that he read them, because he saw in them that an act meant to benefit a thing can harm it, and an act meant to harm can benefit. The line here says more than “gain and loss alternate”. It says that the lessening is itself the growing. Passage 48 gives the practice: in learning, add each day; in the Dao, 損, take away each day.",
+      "src": [
+        "Shuowen Jiezi, 手部: 損，減也。从手員聲。",
+        "Shuowen Jiezi, 皿部: 益，饒也。从水、皿。皿，益之意也。",
+        "Huainanzi, “Ren jian xun”"
+      ]
+    },
+    "renjiao": {
+      "kind": "gap",
+      "title": "人之所教: the sage has no new doctrine",
+      "body": "人之所教，我亦教之: “what people teach, I also teach it”. After the grandest opening in the book, the speaker says that the lesson is not original. It is what everyone says. Then a common saying is quoted. This is an unusual modesty for a philosopher of the age; each school claimed a doctrine that the others lacked. The claim here is the reverse: the truth is already in the proverbs of the people, and the teacher’s work is to take one of them seriously. [[Wang Bi|wangbi]] reads the line with more edge: I do not force people to follow; I point to what is so, and those who go against it bring ill on themselves. The silk texts are reported to have a different and difficult wording, 夕議而教人, which editors read in several ways. What do the old sayings of your own family teach that you have not yet taken as a teaching?",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "qiangliang": {
+      "kind": "history",
+      "title": "強梁: the saying on the bronze man",
+      "body": "強梁者不得其死 was a proverb before it was in the Laozi. 梁 is a roof beam or a bridge; 強梁 is a set phrase for a person who is stiff, forceful, and overbearing, perhaps “strong as a beam”, perhaps a loan for a different word; scholars are not sure. A Han collection of stories, the Shuoyuan, tells that Confucius, on a visit to the ancestral temple of Zhou, saw a bronze statue of a man with his mouth sealed three times, and an inscription on its back. One line of the inscription is 強梁者不得其死，好勝者必遇其敵: “the overbearing do not get their own death; those who love to win will meet their match”. The story is late, but the saying was plainly common property. The silk texts are reported to write 強良. The stiff beam is the one that cracks; compare passage 76, where the tree that is strong is the one that the axe finds.",
+      "src": [
+        "Shuoyuan, “Jing shen” (敬慎): the Metal Man inscription"
+      ]
+    },
+    "si": {
+      "kind": "gap",
+      "title": "不得其死: to “get one’s death”",
+      "body": "不得其死 is “not / get / their / death”. Chinese treats a good death as a thing that a person gets, like an inheritance: to die in bed, of age, with one’s body whole and one’s children present. The violent do not get it. They die by the sword, by execution, on the road. Confucius used the same phrase of his boldest student: “a man like You will not get his death”; and Zilu did die in a fight, in a palace coup in 480 BCE. English “die a natural death” is close but clinical. The Chinese has a 其, “their own”: each person has a death that belongs to them, and force loses it. Note the verb 得, “to get”, the word that passage 39 used for getting the One. Heaven got the One and is clear. The overbearing do not even get their own end.",
+      "src": [
+        "Analects 11.13"
+      ]
+    },
+    "jiaofu": {
+      "kind": "gap",
+      "title": "教父: the father of the teaching",
+      "body": "吾將以為教父: “I will take it as teaching-father”. 父 is the father, and so the head, the origin, the one with authority; the Shuowen sees a hand that holds up a rod: 家長率教者, “the head of the house, who leads and teaches”. 教, to teach, is defined there as 上所施下所效也, “what those above give out and those below copy”. So the speaker takes a people’s proverb about violent men as the father of all his teaching: its first principle and its authority. This is striking in a book whose own images of origin are mothers. Some editions read 學父, “father of learning”, as the silk texts are reported to do. English versions that write “the basis” or “my main teaching” lose the parent. In modern Chinese 教父 has a new life: it is the word for a godfather at a Christian baptism, and the title of a famous film about one.",
+      "src": [
+        "Shuowen Jiezi, 又部: 父，矩也。家長率教者。从又舉杖。",
+        "Shuowen Jiezi, 教部: 教，上所施下所效也。"
+      ]
+    },
+    "halves": {
+      "kind": "history",
+      "title": "Two passages in one?",
+      "body": "A reader feels a break after 沖氣以為和. The first part is cosmogony: numbers, shade and sun, breath. The second is about the titles of kings and a proverb on violent men. Some scholars think that two separate pieces were joined here, and some move the second half to passage 39, where the royal names first appear. But the passage has its own logic. The first half says how each thing is made: of two that are opposed, in accord. The second half applies it: so what is low and hated gives greatness, and what is hard and strong loses even its death. In the Mawangdui silk order this passage comes directly after our passage 40, which ends “having is born from not-having”; then 道生一 follows with no break. Read 41, 40, 42 in that order once. The account of origins runs from the laughing scholar to the father of the teaching."
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the numbers come from speech",
+      "body": "Wang Bi does not say that one is breath or that two is yin and yang. He asks how one can arrive at one at all: 何由致一，由於無也。由無乃一，一可謂無。已謂之一，豈得無言乎。有言有一，非二如何？有一有二，遂生乎三. “By what does one arrive at one? By nothing. From nothing, then, one; so one can be called nothing. But we have already called it ‘one’: how can there be no word? There is the word and there is the one: what is this, if not two? There is one and there is two, and so three is born.” The argument is from the Zhuangzi. The moment that you say “all is one”, there is the one and the saying, and you have two. Number is born from naming. Then he draws the practical end: 愈多愈遠，損則近之, “the more, the farther; lessen, and you come near it”.",
+      "src": [
+        "Wang Bi commentary on Laozi 42",
+        "Zhuangzi, “Qi wu lun” (齊物論)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: “leave behind” and “go forward”",
+      "body": "Legge writes: “The Tao produced One; One produced Two”, the factory verb, in the past tense, with capitals. His next sentence changes the picture of the passage. All things “leave behind them the Obscurity (out of which they have come), and go forward to embrace the Brightness (into which they have emerged)”. For Legge, shade and sun are a before and an after: creatures march out of the dark and into the light. This is a story of progress, and of salvation; a Victorian missionary could hardly see it in a different way. The Chinese has no motion in it. 負 is to carry: the things have the shade on their backs now, and keep it. For 沖氣 he gives “the Breath of Vacancy”, which is fair to one sense of 沖. And for 不穀 he again has “carriages without naves”, the hub reading that he took from the Heshang Gong commentary; see passage 39.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Find your shaded side",
+      "body": "Stand outside on a clear day, or by a window, with the light on your face and chest. Feel the warmth in front. Then put your attention on your back: the cooler side, which you never see. You carry it everywhere. Breathe in and out a few times and notice that the breath moves between the two, front and back, and makes them one body. Then apply it. Take one quality that you show, a sunny one: competence, cheer, patience. Ask what its shaded side is, the thing that goes with it and stays behind you. Do not turn around to fix it. The passage says only that you carry it, and that the accord is in the breath between."
+    }
+  },
+  "lenses": {
+    "ground": "The passage opens with a count: the Dao [[bears|sheng]] one, one two, two three, three [[all things|numbers]]. Four short clauses with one verb; then the count stops, since after three there is only “many”. The second sentence turns from origin to structure: each thing has [[shade on its back|yin]] and [[sun in its arms|fubao]], and a [[breath that blends them|chongqi]]. Then, with no bridge, we are at court: kings name themselves with [[the words that people hate|gugua]], and a law is drawn, that [[lessening is growing|sunyi]]. Last, the speaker cites [[a common proverb|qiangliang]] and names it [[father of the teaching|jiaofu]]. Some hold that these are [[two passages|halves]]. Read as one, it goes from the largest thing that can be said to the smallest: from the birth of the world to how a bully dies.",
+    "inner": "The count can be watched in experience. Before a thought, awareness is not divided: no number fits it. Then “here I am”: [[one|numbers]]. Then “and there is that”: two, a knower and a known. Then the relation between them, liking or fear or interest: three. From three the whole busy world unfolds in a second. [[Wang Bi|wangbi]] saw that the first step is a word: to say “one” is already two. The way back is the 損 of the second half: [[less|sunyi]], and less. The middle lines describe the state of any living moment: it has a lit side that we show and hold, and a [[shaded side|yin]] that we carry and do not see, and it is whole when [[breath|qi]] moves freely between them. No part of this says to get rid of the shade.",
+    "leading": "Kings chose the worst words for their titles: [[orphan, alone, unfed|gugua]]. The passage reads the custom as a law of power. An organization that grows by adding, with more staff, more rules, more reach, is at some point [[lessened by the adding|sunyi]]; one that cuts back to its root grows. A leader who takes the low name and the blame is made larger, and one who takes each honor is made smaller, and the people around both of them can see it. Then the proverb: [[the hard and overbearing|qiangliang]] end badly. Each office has known such a person and has seen the end. The speaker [[claims no new wisdom|renjiao]]. For a leader this may be the most useful line: the principle that you need is probably one that your grandmother said, and you have not yet made it [[the father of your practice|jiaofu]].",
+    "body": "Chinese medicine and the movement arts took their first map from this passage. The back of the body is its [[yin|yin]] side in the passage’s own sense: it is carried, and turned from the light. The front is held open to the sun. Stand and feel both. Most people live in the front, in the face and chest and hands, and forget that half of the body is behind them. Then the [[breath|qi]]: a full breath widens the back as much as the chest, and when it does, front and back stop being two. That is 和, [[accord|chongqi]], as a physical fact. The last lines are also of the body. Stiffness is 強梁, the [[strong beam|qiangliang]]: locked knees, a held jaw, force used against force. Such a body is easy to break and wears out early.",
+    "nature": "Go to any hill at noon. The south slope is [[陽|yin]]: warm, dry, with one set of plants. The north slope is 陰: cool, mossy, with ferns and a different wood. One hill, two climates, and the ridge between them is not a wall. By evening the light has moved and the slopes have begun to change roles. Life needs both: seeds sprout in the shade and fruit ripens in the sun. And between them moves [[air|qi]], warm rising from the lit side, cool sinking on the dark side; the wind on a mountain is this surging of two breaths. The count at the head of the passage is the same hill seen in time: one land, two slopes, the weather between them, and then all the living things.",
+    "practice": "Do the exercise of [[the shaded side|practice]] once today. Then choose one 損, one small lessening, and watch for the gain in it: say less in one meeting, own one thing less, leave one claim unmade. And remember one saying that your elders repeated, the kind that everyone knows and no one obeys. For a week, treat it as the speaker treats his proverb: as [[the father of the teaching|jiaofu]]."
+  },
+  "glyph": "氣",
+  "plates": [
+    {
+      "c": "氣",
+      "title": "Vapor, and a gift of rice",
+      "lesson": "Two parts. On top and around the right side is 气: three thin lines that drift, the last with a long tail. This is the original character for vapor; the Shuowen says 雲气也。象形, “cloud vapor; a picture”. In its oldest forms it is just three wavy strokes: mist that rises, cloud layers, breath in cold air. Inside is 米, rice or millet in the grain; the Shuowen says 粟實也。象禾實之形, “the kernels of grain; it shows their shape”: a stalk with seeds at each side. Many teachers explain the whole as steam that rises from a pot of cooking rice, and it is a good picture to remember: breath as what food becomes. But the history is different, and more interesting. The Shuowen defines 氣 as 饋客芻米也, “to present fodder and grain to guests”, and says 从米气聲: the rice gives the meaning and 气 only the sound. The character with the rice in it was first a word for a gift of provisions. Scribes then borrowed it for the vapor word, and the gift word was given a new character with the food sign, 餼. So the grain came into “breath” by a loan. Later Daoists wrote the first, formless breath in a third way, 炁, commonly read as 无, nothing, above 灬, fire. And the short form used today, 气, has gone back to the three bare lines. In this passage the [[surging breath|chongqi]] joins shade and sun. See also [[why “energy” will not do|qi]].",
+      "brush": "Ten strokes. The vapor first, in four: a short stroke that falls to the left; a horizontal from its middle; a second, shorter horizontal under it; then the great stroke of the character, a horizontal that turns down, sweeps in a long curve to the lower right, and ends in a hook that flicks up. Then the grain, in six, tucked under the curve: a dot at the upper left, a short stroke at the upper right that falls left, a horizontal, a vertical through it, then a stroke that falls left and a last one that falls right, here pressed short into a long dot. Watch stroke four. It is one of the longest single strokes in the regular script, and it must stay elastic along its whole curve, like a bent bow; a weak curve drops the rice on the floor. The grain sits a little left of center, sheltered. In the cursive hands the three vapor lines become one ribbon that falls and loops."
+    },
+    {
+      "c": "陽",
+      "title": "The sunny side of the hill",
+      "lesson": "The left part, 阝, is all that the brush has kept of 𨸏 (阜), a hill or a terraced slope; the old forms are a set of steps cut into a height. At the left of a character it means land that rises: 陵 (a mound), 降 (to come down: two feet that descend a hill), 隅 (a corner, from passage 41), 陰. The right part is 昜. Its top is 日, the sun. Under the sun is a line, and under that some slanting strokes that are commonly explained as rays that come down, or as the sun above an altar; the Shuowen defines 昜 as 開也, “to open”, and lists it as a character by itself. With the hill at its side, the Shuowen’s gloss is 高、明也, [[high and bright|yin]]. The same right side gives its sound, and often its brightness, to 揚 (to lift, to spread), 湯 (hot water), and 場 (an open ground). Now set 陰 beside it. Same hill. On the right, 今 above 云, and 云 is the old picture of a cloud. So the pair is: a hill with the sun up, a hill under cloud. The short forms make it simpler still, and children learn them first: 阳 is hill and 日, sun; 阴 is hill and 月, moon. In all these forms the hill is the same hill. The passage says that each of the ten thousand things is such a hill, with [[one side to the light|fubao]].",
+      "brush": "Eleven strokes. The hill takes two: first a stroke that goes right, turns back, and curls twice like an ear; then a long vertical that stands under its left edge. Then the sun, four strokes: left side, top with right side, the line inside, the base. Then a long horizontal under the sun, the widest line of the right half. Then four more: a stroke that falls left; a horizontal that turns down and ends in a hook to the left; and inside that frame two strokes that fall left, side by side. Watch the last two. They are parallel and must stay apart, like rays; if they touch, the light goes out of the character. The hill should be narrow and stand a little high, so that the sun on the right can be full. Its long vertical ends in a point like a needle that hangs."
+    }
+  ]
+}

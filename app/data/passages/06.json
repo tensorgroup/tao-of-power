@@ -1,0 +1,191 @@
+{
+  "n": 6,
+  "title": "The Valley Spirit",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "谷神不死，是謂玄牝。玄牝之門，是謂天地根。緜緜若存，用之不勤。",
+      "gloss": {
+        "0": "valley; the low open place where a spring runs out (the Heshang Gong commentary reads it as “to nourish”)",
+        "1": "spirit, god; what is numinous",
+        "3": "to die",
+        "6": "to be called, to be named",
+        "7": "dark; the color of the deep sky",
+        "8": "pìn: the female of an animal: a cow, a mare",
+        "13": "gate, a door of two leaves",
+        "19": "root; the base of a tree",
+        "21": "mián: silk floss; fine and unbroken (doubled: on and on, thin as a thread)",
+        "23": "as if, seems",
+        "24": "to be there, to remain",
+        "26": "to use, to draw on",
+        "29": "to toil; here usually read as “to be used up, to wear out”"
+      }
+    }
+  ],
+  "rendering": [
+    "The [[valley|gu]] [[spirit|shen]] [[does not die|busi]].",
+    "This is called the [[dark|xuan]] [[female|pin]].",
+    "The [[gate|men]] of the dark female:",
+    "this is called the [[root|gen]] of heaven and earth.",
+    "[[Thin as silk floss|mianmian]], it [[seems to be there|ruocun]].",
+    "Use it: it [[does not wear out|buqin]]."
+  ],
+  "notes": {
+    "gu": {
+      "kind": "etymology",
+      "title": "谷: water half seen",
+      "body": "The Shuowen defines 谷 by what a valley does: 泉出通川爲谷, “where a spring comes out and runs through to a river, that is a valley”. Then it reads the graph: 从水半見，出於口, “from water half seen, as it comes out of an opening”. So the valley in this book is not first a view between two mountains. It is a low, open place with water in it. Because it is low, the water comes to it. Because it is empty, there is room for a river, for fields, for villages. Passage 66 says that rivers and seas are kings of the hundred valleys because they lie below them. Passage 28 tells a person to be the valley of the world. Both Mawangdui silk copies are reported to write the word 浴, with water at its side. In English, a valley is often a place of sorrow or of shadow. Here it is the place where life gathers. See the first plate.",
+      "src": [
+        "Shuowen Jiezi, 谷部: 谷，泉出通川爲谷。从水半見，出於口。"
+      ]
+    },
+    "shen": {
+      "kind": "gap",
+      "title": "神: a spirit, plainly",
+      "body": "神 is a religious word. It has 示, the altar, on its left, and the Shuowen defines it as 天神，引出萬物者也: “the spirits of heaven, which draw out the ten thousand things”. It names the gods and spirits that received offerings: spirits of mountains, rivers, grain, and the dead. People of the Warring States made offerings to the spirits of real valleys and streams. So 谷神, “valley spirit”, would not sound abstract. It would sound like the god of a place. Some modern versions avoid the word and make the god into a “mystery”. The text then does a strange thing with this god. It gives it no temple and no name. It says only that it does not die, and calls it a [[female animal|pin]]. Is 谷神 one thing, “the spirit of the valley”, or two, “the valley and the spirit”: emptiness and its power? The two characters allow both. [[Wang Bi|wangbi]] and the [[Heshang Gong commentary|heshang]] each go a different way."
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the valley’s empty middle",
+      "body": "Wang Bi comments: 谷神，谷中央無谷也。 “The valley spirit is the middle of the valley, where there is no valley.” That is: not the slopes, which are something, but the open part between them, which is nothing. He goes on: 無形無影，無逆無違，處卑不動，守靜不衰。 “No form, no shadow; nothing it opposes, nothing it goes against. It stays low and does not move; it keeps still and does not decline.” And on [[the hedge in line five|ruocun]]: 欲言存邪，則不見其形，欲言亡邪，萬物以之生。 “You want to say it is there? You do not see its form. You want to say it is not there? The ten thousand things are born by it.” For him the passage is one more picture of 無, the not-having of passage 11.",
+      "src": [
+        "Wang Bi commentary on Laozi 6"
+      ]
+    },
+    "heshang": {
+      "kind": "variant",
+      "title": "Another reading: “feed the spirit”",
+      "body": "The Heshang Gong commentary, the other great early commentary, reads the first word as a verb. 谷，養也: “谷 means to nourish”. The graph 谷 was often used for 穀, grain, which the Shuowen calls 百穀之緫名, “the general name of the hundred grains”; grain feeds. On this reading the line is an instruction: 人能養神則不死, “a person who can nourish the spirit does not die”. The spirit is then the spirits that live in the organs of the body. The dark and the female become the nose and the mouth, the two gates where the breath of heaven and the food of earth go in. The passage turns into a manual of breathing: long, fine, unbroken, never forced. Daoist practice read it so for two thousand years. The two readings, valley and body, do not cancel each other. The body has valleys too.",
+      "src": [
+        "Heshang Gong commentary on Laozi 6",
+        "Shuowen Jiezi, 禾部: 穀，續也。百穀之緫名。"
+      ]
+    },
+    "busi": {
+      "kind": "gap",
+      "title": "不死: “does not die”, not “immortal”",
+      "body": "不死 is two plain words: “not die”. The Shuowen defines 死 with a water word: 澌也，人所離也, “to run dry; that from which people part”. “Immortal” in English belongs to gods and souls, and it suggests a being that lives forever. The line says less, and something stranger. A valley’s open middle was never a living thing. It cannot be killed, as a hole cannot be broken. Fill the valley with a landslide, and the emptiness has only moved. The age wanted a different kind of deathlessness. Kings of Qi and Yan, and later the First Emperor of Qin, sent ships to look for islands of immortals and a drug of 不死. This passage was read in support of such hopes. What it says is that the thing that does not die is the low, empty one.",
+      "src": [
+        "Shuowen Jiezi, 死部: 死，澌也，人所離也。从歺从人。",
+        "Shiji 6 and 28, on the search for the drug of deathlessness"
+      ]
+    },
+    "xuan": {
+      "kind": "gap",
+      "title": "玄: dark, not “mysterious”",
+      "body": "玄 is a color. The Shuowen says 幽遠也, “hidden and far”, and then 黑而有赤色者爲玄, “black with red in it is called 玄”: the dark of the sky before dawn, or of cloth dyed many times. Passage 1 used it for the place where the named and the nameless are one: 玄之又玄，眾妙之門, “dark, and darker still: the gate of all wonders”. Note that passage 1 ends on a gate, and this passage has a gate also. English versions like “mysterious” or “subtle” here. Those are words about the knower: a thing is mysterious to someone. 玄 is about the thing: deep enough that light does not come back out. A womb is dark in this plain sense. So is the soil around a seed. What grows in your life only where it is dark?",
+      "src": [
+        "Shuowen Jiezi, 玄部: 玄，幽遠也。黑而有赤色者爲玄。",
+        "Laozi 1"
+      ]
+    },
+    "pin": {
+      "kind": "etymology",
+      "title": "牝: the mother of the herd",
+      "body": "牝 is not the word for a woman; that is 女. It has 牛, an ox, on the left, and the Shuowen defines it as 畜母也, “the mother among farm animals”: a cow, a mare, a ewe. Its partner is 牡, 畜父也, the sire. The Shuowen adds a line from the Book of Changes: 畜牝牛，吉, “to keep cows: good fortune”. So 玄牝 is “the dark dam”. The word is from the farmyard, about breeding and birth, and the first readers heard that. English versions say “the Mysterious Female” or “the Subtle Feminine” and make her an idea. The Chinese chose an animal. The same word returns in passage 61: the 牝 always overcomes the 牡 by stillness. Why might a text about the first principle prefer the word for a cow to the word for a goddess? See the second plate.",
+      "src": [
+        "Shuowen Jiezi, 牛部: 牝，畜母也。从牛匕聲。易曰：“畜牝牛，吉。”",
+        "Laozi 55, 61"
+      ]
+    },
+    "passive": {
+      "kind": "gap",
+      "title": "Not the “passive feminine”",
+      "body": "Western readers have often used this passage for a list: the feminine is passive, receptive, quiet, and Dao is like that. The list comes from Europe. Look at what the 牝 does here. She is the one from whose [[gate|men]] heaven and earth come. Nothing in the book is more productive. She is called low, still, and dark, and those are the conditions of her power. They are not a weakness that the text excuses. Note also what is absent. The passage has no male partner, no father, no seed from above. Later Chinese thought likes balanced pairs, yin with yang; the Laozi names yin and yang only once (42). Its picture of origin here is a mother alone. The Zhou world passed power, names, and ancestors through fathers. This text puts a nameless dam under all of it."
+    },
+    "men": {
+      "kind": "gap",
+      "title": "門: the gate of birth",
+      "body": "玄牝之門, “the gate of the dark female”, is a body image, and it is plain: the opening through which the young are born. 門 is a picture of a door with two leaves. The Victorian translators could not write this. [[Legge|legge]] gives “Its gate, from which at first they issued forth”, in verse, and calls her “the female mystery”. Many modern versions say “gateway” and move on to cosmology. The image deserves a pause. A gate is not a wall and not a road. It is an opening that things pass through in one direction, and nothing stays in it. The book has three such gates: the gate of all wonders (1), this birth gate (6), and the gate of heaven that opens and closes (10). Each is a place where what was not seen comes into view."
+    },
+    "gen": {
+      "kind": "etymology",
+      "title": "根: a root is not a “source”",
+      "body": "根 has 木, a tree, on the left. The Shuowen defines it as 木株也, “the base of a tree, the stump with its roots”. Translations often write “source” or “origin”. Those are words for a spring or a starting point: you leave them behind. A root is not behind. It is under the tree now, in the dark, and it feeds the tree at this moment; cut it and the tree dies today. So 天地根 says that heaven and earth are growing things, and that the gate of the dark female is below them now, alive. The Mawangdui silk texts are reported to write 天地之根, with the same sense. Passage 16 gives the practice that goes with the image: all things flourish, and each returns to its 根. The third plate looks at the character.",
+      "src": [
+        "Shuowen Jiezi, 木部: 根，木株也。从木艮聲。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Laozi 16"
+      ]
+    },
+    "mianmian": {
+      "kind": "etymology",
+      "title": "緜緜: silk floss",
+      "body": "緜 is silk. The Shuowen builds it from 系, a thread that hangs, and 帛, silk cloth, and defines it as 聮微也, “joined and fine”. It is the loose floss drawn out from cocoons: so fine that one fibre can hardly be seen, and yet it does not break and has no joints. Silk was China’s own craft, and every household knew this material by touch. Doubled, 緜緜 is a sound-picture of something that goes on and on, very thin. The Book of Songs uses it for a line of gourds on a vine and for a family that does not end. The Mawangdui silk texts are reported to add the sung particle 呵 after it, as in passage 4. Our “thin as silk floss” keeps the object. English “continuous” or “everlasting” keeps the idea and loses the thread.",
+      "src": [
+        "Shuowen Jiezi, 系部: 緜，聮微也。从系从帛。",
+        "Shijing, Mao 237 “Mian”",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "ruocun": {
+      "kind": "gap",
+      "title": "若存: as if it were there",
+      "body": "若 is “as if”. 存 is “to be there, to remain”. So 若存 is a hedge: it seems to be present. Passage 4 hedged in the same place and nearly the same words: 似或存, “it seems, perhaps, to be there”. English versions often remove the doubt and write “it is always present” or “ever-existing”. The Chinese does not say that. A thread of floss is a good picture of the reason. You know it is there because something is held by it. You cannot quite see it. [[Wang Bi|wangbi]] states the two sides: say “it exists” and you find no form; say “it does not exist” and all things are born from it. The text stays between yes and no. The speaker of this book does not claim to see more than can be seen."
+    },
+    "buqin": {
+      "kind": "gap",
+      "title": "不勤: not toil, or not used up",
+      "body": "勤 is commonly “to toil, to work hard”; the Shuowen says 勞也, “labor”. On that reading the line says: use it, and there is no strain. [[Wang Bi|wangbi]] reads it so: 用而不勞也, “used, and not wearied”. Most modern scholars take 勤 here as a loan for a word that means “to be exhausted”. The Mawangdui silk texts are reported to write the word 堇, with no “strength” part, which shows only that the graph was not fixed. Then the line says: use it, and it is never used up. The grammar matters. In both readings the thing that does not tire or run out is the valley spirit. Some versions turn the line into a promise to the user: act with Dao, and your work will cost you no effort. That is not what the six characters say.",
+      "src": [
+        "Shuowen Jiezi, 力部: 勤，勞也。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "rhyme": {
+      "kind": "wordplay",
+      "title": "A chant in six lines",
+      "body": "Every line of this passage ends on a rhyme. 死 and 牝 close the first two lines; they belong to one old rhyme group (脂). Then 門, 根, 存, and 勤 close the next four; all belong to the 文 group. The lines are short, mostly four characters. Two of them use the same frame, 是謂, “this is called”. It is a chant, and it is easy to learn by heart. Many scholars think that this is older verse, taken into the book, and [[one early book|huangdi]] gives it another source. That would explain its manner. The passage does not argue, and it has no “therefore” and no sage. It names a thing three times, each name stranger than the last, and then says how it feels to the touch. Read the Chinese aloud with the pinyin: sǐ, pìn; mén, gēn, cún, qín. The modern sounds have moved. 牝 had two old readings: one rhymed with 死, and the other gave the modern pìn. The second set of four can still be heard."
+    },
+    "huangdi": {
+      "kind": "history",
+      "title": "From a Book of the Yellow Emperor?",
+      "body": "The Liezi, a Daoist book of uncertain date, quotes these six lines whole. It does not give them to Laozi. It introduces them with 黃帝書曰, “the Book of the Yellow Emperor says”. The Yellow Emperor was the legendary first ruler. In the fourth to second centuries BCE many texts on rule, medicine, and long life were written under his name, and “Huang-Lao”, Yellow Emperor and Laozi together, was the name of a school that advised the early Han court. So these lines may have gone about as a separate verse before any Laozi book existed, or two traditions may have claimed them. Either way, the passage reminds us what the Daodejing is: a collection. Sayings from several sources stand side by side in it, and this may be among the oldest.",
+      "src": [
+        "Liezi, “Tian rui”"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge in rhyme",
+      "body": "Legge saw that the passage is verse, and he made English verse of it. The price was padding. “The valley spirit dies not, aye the same”: the last three words are his. “The female mystery thus do we name”: 牝, a female animal, has become a “mystery”, and the adjective 玄 has become the noun. The last line is the furthest from the text: “Used gently, and without the touch of pain.” The Chinese is 用之不勤, “use it; it does not [[wear out|buqin]]”. There is no “gently” and no “pain”; they came with the rhyme. His first line is his best. “Dies not” is closer to [[不死|busi]] than the “immortal” of many later versions.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Breathe like floss",
+      "body": "Sit with the back straight and the belly loose. Let the breath become quiet through the nose, and make it fine: so fine that a feather held under the nose would not move. Do not hold it and do not push it. Let it be long and unbroken, like floss drawn from a cocoon. That is 緜緜. After a few minutes, see if you can say that you are breathing, or only that breathing seems to be there: 若存. Then notice that this fine breath costs nothing and does not run out. The old breath teachers took the whole passage as this one exercise. If you prefer the valley to the body, go to a low place with water in it, and sit there."
+    }
+  },
+  "lenses": {
+    "ground": "Six short lines, all in [[rhyme|rhyme]]. The first names a thing: the [[valley|gu]] [[spirit|shen]], which does not die. The second gives it another name, the [[dark|xuan]] [[female|pin]], with the word for a cow or a mare. The third and fourth go to her [[gate|men]], and call it the [[root|gen]] of heaven and earth. The fifth says how it is present: fine as [[silk floss|mianmian]], and only [[as if|ruocun]] there. The sixth says what happens when it is used: it [[does not wear out|buqin]]. The images run from land to animal to body to plant to thread. Each is low, open, or fine. The passage has no ruler, no sage, and no advice. It only names.",
+    "inner": "The contemplative traditions of China took this as a direct pointer. What in experience is like the open middle of a valley? [[Wang Bi|wangbi]] says: the part of the valley that is not valley. In a mind, that is the open awareness in which thoughts and sounds appear. It has no form and no shadow, and it opposes nothing. Thoughts are born and die in it, and it [[does not die|busi]] with them. It is [[dark|xuan]] in the exact sense: it cannot be looked at, because it is the looking. It seems [[barely there|ruocun]], thin as floss, and attention can use it all day and not use it up. The passage calls this a mother. The comparison is with birth. It is not with a mirror or a void: what appears comes out of it, as young come from a dam.",
+    "leading": "The passage gives no advice on rule, and a reader should not force one from it. Its picture of power is still worth a leader’s time. The strong thing here is low, open, and productive. It is not high, full, or commanding. A valley gathers water, and it does not chase the water. The people in a group who are like this are often not the visible ones: the person to whom others bring problems, the one whose room is always open. Much comes [[out of them|men]], and they do not seem to tire. The common picture of the [[“passive” feminine|passive]] hides this kind of strength, and organizations often fail to see it for that reason. Passage 66 draws the political conclusion: the sea is king of the valleys because it lies below them.",
+    "body": "The [[Heshang Gong reading|heshang]] makes the whole passage a breathing lesson, and it works. The nose and mouth are gates. The breath goes in and out [[fine and unbroken|mianmian]]. The breather does not force it, and so it [[does not tire|buqin]]. Internal martial arts add the pelvis: the body’s own valley, the low basin from which legs and spine both grow. A fighter or dancer who moves from there has a [[root|gen]]. A person who moves from the chest and shoulders is a tree with no base. Try to stand with the weight low, knees soft, and the breath in the belly, and let someone push lightly on your shoulder. The valley does not push back. The push runs down into the ground, like water that has found the low place.",
+    "nature": "Walk into a real valley. The ridge is dry, windy, and bright, and little grows there. All the water of both slopes runs to the bottom. There the soil is deep and dark, and the springs come out: [[water half seen|gu]], as the Shuowen says. The first farm villages of north China stood in such places, along the streams of the loess country. The valley does none of this by effort. It is lower, and things come. The other images are from the same countryside: the [[cow or mare|pin]] that drops her young each spring, the [[root|gen]] under the tree, the [[floss|mianmian]] pulled from the silkworm’s cocoon. Passage 39 has a line that this passage explains: the valley, when it holds to the One, is full.",
+    "practice": "Try the [[floss breath|practice]] for five minutes. Then use the passage as a question for one day: where is the valley in this? In a room, it is the empty middle that people cross. In a talk, it is the listening. In a piece of work, it is the open time before you know what to do. Find it, and for once do not fill it. See what [[comes out|men]]."
+  },
+  "glyph": "谷",
+  "plates": [
+    {
+      "c": "谷",
+      "title": "Water comes out of an opening",
+      "lesson": "The character has three layers. At the top, two small strokes lean away from each other. Under them are two longer strokes of the same kind, like a roof. At the bottom is a square, 口, which means a mouth or any opening. The Shuowen explains the upper four strokes as water, drawn only in part: 从水半見，出於口, “from water half seen, as it comes out of an opening”. A spring comes out of the ground between two slopes; the definition is 泉出通川爲谷, “where a spring comes out and runs through to a river”. Many teachers explain the top differently, as the lines of two hillsides that fall toward a gorge mouth. Both explanations draw the same place. Compare 泉, a spring, and 川, a river, which is three lines of running water. 谷 has cousins that keep it as a sound part, and the Shuowen says so of each: 欲, to desire, is 谷 beside 欠, an open mouth, 从欠谷聲; 浴, to bathe, adds water; 俗, custom, adds a person. In this book the valley is the first teacher. It is low and empty, and so the water comes. [[谷神|shen]] is the spirit of such a place. Mainland simplified script also uses this graph for 穀, grain, and that brings back by chance [[the old reading|heshang]] “to nourish”.",
+      "brush": "Seven strokes. The top pair comes first: a short stroke that falls to the left, then a short one that falls to the right. They do not touch. Then the second pair, in the same order and much longer: a stroke that sweeps down to the left, and then the 捺, which travels down to the right, presses, and lifts to a point. Watch how these two meet at the top and spread wide, wider than anything else in the character. They are the slopes, and they shelter the mouth below. The mouth takes three strokes: left side, then top and right side in one turn, then the base. It is small and sits in the centre under the peak. The whole shape is a triangle on a small box. Regular script made the four upper strokes into separate marks. In seal script they are curved lines, and they look like running water."
+    },
+    {
+      "c": "牝",
+      "title": "The cow, and a small spoon",
+      "lesson": "On the left is 牛, an ox, made narrow to stand at the side. The Shuowen calls 牛 大牲也, “the great sacrificial animal”, and says the graph shows the horns and head. The usual explanation is a head seen from the front: two horns that curve up, and a line for the face. As a side part it marks cattle and the things of cattle: 牧, to herd; 物, “thing”, whose first sense is commonly explained as a kind of ox; 特, a bull; 犧 and 牲, animals for offering. On the right is 匕. The Shuowen gives 匕 two senses: a person turned round, and a spoon for taking up rice. In 牝 it says only that 匕 is the sound: 从牛匕聲. Some modern scholars think that 匕 was itself an old sign for “female” in the names of animals; this is debated. The partner word is 牡, the male: 牛 with 土, which the Shuowen also takes as sound. The pair 牝牡 is the common classical way to say “female and male” of beasts, and it stands in passage 55. Shang diviners wrote of offerings of so many 牝 and 牡. So the word that this passage chose for the mother of heaven and earth comes from the herd book. [[玄牝|pin]] is the dark dam.",
+      "brush": "Six strokes. The ox takes four. First a short stroke that falls to the left, then a horizontal that starts from it. Third, the long vertical, which runs the full height. Then the fourth stroke. In the full character 牛 this is a level line; here, at the side, it rises to the right. Watch it: the tip points at the right half and gives it room. Then 匕 in two strokes. The fifth is a short stroke that falls to the left, from right to left, and touches the stem of the next. The sixth is the great one: it comes straight down, bends, runs along the bottom to the right, and flicks upward at the end. This last stroke is longer than all the rest and carries the character like a cradle. Left side tall and tight, right side open and round."
+    },
+    {
+      "c": "根",
+      "title": "A tree, and an eye that will not yield",
+      "lesson": "The left side is 木, a tree. It is one of the clearest pictures in the script: a trunk, a line for the branches, and two strokes below for the roots. So the roots are already in the meaning part. Two characters are made from that picture by one added mark. 本, the root or base, is a tree with a short line across the foot of the trunk. 末, the tip, is a tree with a long line across the top. 根 is made the other way, with a sound part: 从木艮聲. The right side, 艮, is worth a look of its own. The Shuowen defines it as 很也, “defiant”, and reads it as 匕 and 目: eyes that measure each other and do not give way, 不相下也. In the Book of Changes, 艮 is the trigram of the mountain and of keeping still. Its sound family is large, and the Shuowen marks each as a sound-compound: 限, a limit or threshold; 恨, resentment; 眼, the eye. A root is the still part of a tree. It holds while the top moves, and the Chinese word keeps that still, stubborn 艮 in it. The Shuowen defines 根 as 木株也, the base of the tree. The passage says that the gate of the dark female is this for heaven and earth: [[the part below|gen]], unmoved, which feeds the rest.",
+      "brush": "Ten strokes. The tree first, in four: the horizontal, the long vertical through it, a stroke that falls to the left, and then a dot. In the free-standing 木 the fourth stroke is a long sweep to the right. At the side it is cut down to a dot, so that it does not push into the right half. Calligraphers call this yielding, 避讓. Then 艮 in six: the top and right side of the eye in one turning stroke, two short horizontals inside, and then stroke eight, a long vertical on the left that turns at the foot and rises to the right. Then a short stroke that falls to the left, and last the 捺, long, pressed, and lifted. Watch the last stroke: it reaches under the right side, as a root reaches under a tree. The left half is narrow and high, and the right half spreads at the foot."
+    }
+  ]
+}

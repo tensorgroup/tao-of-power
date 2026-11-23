@@ -1,0 +1,221 @@
+{
+  "n": 69,
+  "title": "The Guest at War",
+  "theme": "conflict",
+  "zh": [
+    {
+      "text": "用兵有言﹕「吾不敢為主而為客，不敢進寸而退尺。」是謂行無行，",
+      "gloss": {
+        "1": "weapons; troops; war",
+        "10": "host: the side that holds the ground, or that moves first",
+        "13": "guest: the side that enters another’s land, or that only answers",
+        "18": "cùn: a thumb’s width, one tenth of a 尺",
+        "21": "chǐ: a foot-length (about 23 cm in this period)",
+        "26": "xíng: to march, to move forward",
+        "28": "háng: a rank, a battle line"
+      }
+    },
+    {
+      "text": "攘無臂，扔無敵，",
+      "gloss": {
+        "0": "rǎng: to push up (the sleeves), to bare",
+        "4": "rēng: to pull at, to drag toward (not the modern “to throw”)",
+        "6": "dí: the enemy; a match"
+      }
+    },
+    {
+      "text": "執無兵。",
+      "gloss": {
+        "2": "a weapon (here a thing held in the hand)"
+      }
+    },
+    {
+      "text": "禍莫大於輕敵，輕敵幾喪吾寶。",
+      "gloss": {
+        "4": "light; here a verb: to take lightly",
+        "9": "jī: nearly",
+        "10": "sàng: to lose, as one loses the dead",
+        "12": "treasure: the three of passage 67"
+      }
+    },
+    {
+      "text": "故抗兵相加，哀者勝矣。",
+      "gloss": {
+        "1": "to raise; to oppose",
+        "4": "to be set against; to meet",
+        "6": "āi: to grieve, to mourn"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Those who use arms|yongbing]] have a saying:",
+    "“I do not dare to be [[the host|zhuke]]; I am the guest.",
+    "I do not dare to advance [[an inch|cunchi]]; I go back a foot.”",
+    "",
+    "This is called [[marching ranks that are not there|hang]],",
+    "[[baring an arm|rangbi]] that is not there,",
+    "[[pulling at an enemy|reng]] who is not there,",
+    "gripping [[a weapon that is not there|zhibing]].",
+    "",
+    "No disaster is greater than [[to take the enemy lightly|qingdi]].",
+    "To take the enemy lightly is nearly to lose [[my treasures|bao]].",
+    "",
+    "So when [[raised armies meet|kangbing]],",
+    "[[the one who grieves|ai]] wins."
+  ],
+  "notes": {
+    "yongbing": {
+      "kind": "history",
+      "title": "用兵有言: a soldier’s proverb",
+      "body": "The passage begins with a quotation. 用兵 is “to use arms”, the common phrase for making war, and 有言 is “there is a saying”. So the first two lines are not the Laozi’s own words. They come from the camp, from the oral lore of commanders, and we do not have their source. This is how much of the book was made: a saying that was already in use is set down, and then a comment follows it, here with 是謂, “this is called”. The Mawangdui silk texts are reported to add 曰, the mark of quotation, after 言. Where the quotation ends is an editor’s choice; old Chinese texts had no quotation marks. We close it after the inch and the foot. The “I” is therefore a general. Listen to what a general of that age is made to say first: 不敢, “I do not dare”.",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "zhuke": {
+      "kind": "geopolitics",
+      "title": "主 and 客: host and guest",
+      "body": "The military writers used 主 and 客 as technical terms. The 客, the guest, is the army that has entered another state’s land; the 主, the host, defends at home. The Sunzi speaks of “the way of being a guest”: go in deep. A text of Sun Bin, found in a Han tomb in 1972, has a chapter on the division between guest and host. In that sense the guest is the invader, and the saying would be strange. So most readers take the words here in their plain social sense. A host arranges and decides. A guest waits to be shown a seat, eats what is served, and makes no demands. The old Heshang Gong commentary takes 主 as the one who moves first. The saying puts a guest’s manners into a campaign: I do not begin; I answer.",
+      "src": [
+        "Sunzi, “Jiu di” (九地)",
+        "Sun Bin bingfa, “Ke zhu ren fen” (客主人分)",
+        "Heshang Gong commentary on Laozi 69"
+      ]
+    },
+    "cunchi": {
+      "kind": "etymology",
+      "title": "寸 and 尺: measures of the body",
+      "body": "寸 and 尺 are usually rendered “inch” and “foot”, and both systems come from the body. The Shuowen says that a 寸 is the distance from the wrist to the place where the pulse beats; doctors still call that place 寸口, “the inch-mouth”. Ten 寸 make one 尺, and the dictionary adds: 周制，寸、尺、咫、尋、常、仞諸度量，皆以人之體爲法, “in the Zhou system all these measures took the human body as their rule”. A Warring States 尺 was about 23 centimetres. The saying gives up ten to avoid taking one. Later Chinese made a proverb with the same two words and the opposite sense: 得寸進尺, “get an inch and advance a foot”, said of a greedy person. The Mawangdui silk texts are reported to write the verb “go back” with a loan graph: 不敢進寸而芮尺.",
+      "src": [
+        "Shuowen Jiezi, 寸部: 寸，十分也。人手卻一寸，動𧖴，謂之寸口。从又从一。",
+        "Shuowen Jiezi, 尺部",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "hang": {
+      "kind": "wordplay",
+      "title": "行無行: one graph, two words",
+      "body": "行無行 has the same character at both ends. The first is xíng, “to walk, to march”. The second is háng, “a row”, and in an army a rank or a battle line; Wang Bi notes it: 行，謂行陳也, “行 means the battle array”. The Shuowen gives the walking sense: 人之步趨也, “the stepping and hurrying of a person”. The early graph is commonly explained as a crossroads. So the phrase reads “to march a no-rank”: to move as an army moves, and to show no formation. Three more follow in the same form, a verb, 無, and the verb’s natural object. English cannot make a noun out of “no rank”, so we write “ranks that are not there”. The Chinese is quicker and odder. It is a soldier’s joke: all the drill of an army, done with nothing.",
+      "src": [
+        "Wang Bi commentary on Laozi 69",
+        "Shuowen Jiezi, 行部: 行，人之步趨也。从彳从亍。"
+      ]
+    },
+    "rangbi": {
+      "kind": "wordplay",
+      "title": "攘臂: the sleeves go up",
+      "body": "攘臂 is a set phrase: to push the sleeves up the arms, as a man does before a fight or hard work. The robes of the time had long, wide sleeves, and a bare forearm was a clear signal. The Laozi has used the picture once before, as a joke against the Confucians. In passage 38 the man of highest ritual acts, and no one responds; 則攘臂而扔之, “then he bares his arms and drags them to it”. The same two verbs, 攘 and 扔, stand side by side here. That is the sign of force: the arm shown, the other person pulled. In this passage each verb is emptied. 攘無臂: the gesture of baring, and no arm appears. A threat needs something to show. What do you show before you have said a word?",
+      "src": [
+        "Laozi 38",
+        "Shuowen Jiezi, 手部: 攘，推也。从手襄聲。"
+      ]
+    },
+    "reng": {
+      "kind": "variant",
+      "title": "扔無敵 or 乃無敵: a list, or a result",
+      "body": "扔 today means “to throw away”. Its old sense is different: the Shuowen says 因也, “to follow on, to hold to”, and in passage 38 it is to pull a person along. So 扔無敵 is “to pull at a no-enemy”: to close with an opponent and find no one. The Mawangdui silk texts are reported to have another order and another word: 攘无臂，執无兵，乃无敵矣. In their text the third phrase comes last, and its first graph is 乃, “and so, then”, with no hand beside it: “bare no arm, grip no weapon, and so there is no enemy”. Then the list has three items and a conclusion. The one who shows no form of attack has no opponent. The received text made four matching phrases. The silk reading also prepares the next line, where [[the same two words|wudi]] return as a warning.",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)",
+        "Shuowen Jiezi, 手部: 扔，因也。从手乃聲。"
+      ]
+    },
+    "zhibing": {
+      "kind": "wangbi",
+      "title": "Wang Bi: no one to stand against",
+      "body": "Wang Bi reads the four phrases as one condition: 言以謙退哀慈，不敢為物先，用戰猶行無行，攘無臂，執無兵，扔無敵也，言無有與之抗也. “It says: with modesty, withdrawal, grief, and tenderness, not daring to be ahead of things, one’s use of battle is like marching with no ranks, baring no arm, gripping no weapon, pulling at no enemy. It says that no one stands against such a one.” The strategists had a similar idea and used it as a method. The Sunzi says that the height of forming troops is to arrive at no form; then the deepest spy cannot see in. In the Sunzi, formlessness hides a blow. Wang Bi’s list of causes is different: modesty, withdrawal, grief, tenderness. Those are not ways to hide. Is there a difference, in practice, between no form and nothing to hide?",
+      "src": [
+        "Wang Bi commentary on Laozi 69",
+        "Sunzi, “Xu shi” (虛實)"
+      ]
+    },
+    "qingdi": {
+      "kind": "variant",
+      "title": "輕敵 or 無敵: the great variant",
+      "body": "The received text says 禍莫大於輕敵: “no disaster is greater than to take the enemy lightly”. 輕 is “light”; the Shuowen says it is first a light chariot, a fast one. To 輕 an enemy is to think little of him and to go to war easily. This is sound advice, and any general would agree. The Mawangdui silk texts are reported to say something much stranger: 禍莫大於无適，无適近亡吾寶矣. Their 適 writes the word 敵. “No disaster is greater than to have no enemy; to have no enemy is close to the loss of my treasures.” 無敵 is “without a match”, the boast of a power that no one can oppose. In this reading the worst thing that can happen to you is to be unrivalled. See [[what Wang Bi’s own comment shows|wudi]]. Which line would a ruler rather have in his copy?",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)",
+        "Shuowen Jiezi, 車部: 輕，輕車也。从車坙聲。"
+      ]
+    },
+    "wudi": {
+      "kind": "wangbi",
+      "title": "Wang Bi read “no enemy”",
+      "body": "Our Chinese text is the one printed with Wang Bi’s commentary, and it says [[輕敵|qingdi]]. His comment does not fit it. He writes: 言吾哀慈謙退，非欲以取强，無敵於天下也。不得已而卒至於無敵，斯乃吾之所以為大禍也. “It says: my grief, tenderness, modesty, and withdrawal are not from a wish to gain strength and be without a match in the world. If against my will I come at last to be without a match, this is what I count as the great disaster.” He quotes the close as 幾亡吾寶, with 亡 and not 喪. So the text on his desk, in the 240s CE, had 無敵, as the silk texts are reported to have. Later copyists changed the line above his comment and left the comment. Mencius gives the political sense: a state with no rival states and no outside troubles will perish.",
+      "src": [
+        "Wang Bi commentary on Laozi 69",
+        "Mencius 6B15"
+      ]
+    },
+    "bao": {
+      "kind": "wordplay",
+      "title": "喪吾寶: to lose as one loses the dead",
+      "body": "吾寶 is “my treasures”, and Wang Bi says which: 寶，三寶也, the three of passage 67, which are tenderness, spareness, and not daring to go ahead of the world. A war taken up lightly, or a power with no rival, destroys exactly these three. The verb is 喪. It is the word for a funeral and for the loss of kin: the Shuowen says 亾也。从哭从亾, “to lose; from 哭, to wail, and 亾, gone”. English “lose” is what one does with keys. 喪 has weeping in the graph. So the line prepares the last one. The speaker fears a loss that must be mourned, and then says that [[the mourner|ai]] wins. The first treasure, 慈, is also what makes mourning possible. A side that has thrown tenderness away has no one to grieve for.",
+      "src": [
+        "Wang Bi commentary on Laozi 69",
+        "Shuowen Jiezi, 哭部: 喪，亾也。从哭从亾。會意。亾亦聲。",
+        "Laozi 67"
+      ]
+    },
+    "kangbing": {
+      "kind": "variant",
+      "title": "抗兵相加: when the sides are equal",
+      "body": "Wang Bi glosses the two verbs: 抗，舉也；加，當也, “抗 is to raise; 加 is to face, to be matched against”. So 抗兵相加 is “raised armies set against each other”: the moment when two forces stand ready. 抗 also means “to oppose as an equal”. The Mawangdui silk texts are reported to have other wording: 故稱兵相若，則哀者勝矣. 稱兵 is “to raise troops”, and 相若 is “alike, equal to each other”. “When the forces raised are equal, the one who grieves wins.” This is a more exact claim, and a more modest one. It does not say that grief beats a larger army. It says that when numbers and weapons balance, something else decides, and that thing is not rage or the love of battle. Passage 68 has just said that the good fighter is not angry. This line says what the good fighter is.",
+      "src": [
+        "Wang Bi commentary on Laozi 69",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "ai": {
+      "kind": "gap",
+      "title": "哀: mourning, not pity",
+      "body": "哀 is the grief of a funeral. The Shuowen defines it with 閔, and defines 閔 as 弔者在門也, “the mourner who has come to the gate”. It is the word in the rites for the wailing of the bereaved. Translators often soften it. [[Legge|legge]] writes “he who deplores (the situation)”, as if the general regretted an unpleasant duty. Others write “compassion”. The text has already said what it means. In passage 31, when many have been killed, one weeps for them with 哀 and grief, and a victory is observed with the rites of a funeral. So 哀者 is the side that mourns before the battle, for its own dead and for the others. Wang Bi explains why it wins: such people 相惜, “spare and value one another”, and do not run after gain or away from harm.",
+      "src": [
+        "Shuowen Jiezi, 口部: 哀，閔也。从口衣聲。",
+        "Shuowen Jiezi, 門部: 閔，弔者在門也。从門文聲。",
+        "Laozi 31",
+        "Wang Bi commentary on Laozi 69"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s helpful brackets",
+      "body": "Legge turns “those who use arms” into one person: “A master of the art of war has said”. The proverb of the camp becomes a quotation from an author. He then explains host and guest inside the lines: “the host (to commence the war)”, “the guest (to act on the defensive)”. This is one of the [[two readings|zhuke]], fixed in brackets. In the four “without” phrases he changes the order and has the general prepare to fight “where there are no ranks”, “no arms to bare”: the ground is empty, where the Chinese empties the army. Near the end he adds the object that Wang Bi supplied: “(the gentleness) which is so precious”, with his own word for 慈 from passage 67. For 哀者 he has [[“he who deplores (the situation)”|ai]]. A Victorian officer deplored. A Zhou mourner wailed at the gate.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Enter as a guest",
+      "body": "Choose one conflict that is alive for you now: a dispute at work, an old argument at home. The next time it opens, try the two halves of the saying. First, be the guest. Do not set the terms, the place, or the first topic. Let the other person be host in their own matter, and answer what is said, not what you prepared. Second, when you feel the wish to press a small advantage, a point scored or a slip of theirs, give back a foot: say what is true in their case. Watch the four signs in yourself: the line you have drawn up, the sleeve that goes up, the hand that reaches, the weapon that you hold ready. Before all this, ask the last line’s question. If you won, what would be lost, and would you [[mourn|ai]] it?"
+    }
+  },
+  "lenses": {
+    "ground": "The passage has three parts. First a [[proverb of the camp|yongbing]], in a general’s voice: be [[guest and not host|zhuke]]; give [[a foot|cunchi]] sooner than take an inch. Then a gloss on it in four phrases of one shape, each a military act with its object removed: [[ranks|hang]], [[arm|rangbi]], [[enemy|reng]], [[weapon|zhibing]]. Then a warning and a verdict. The warning has two forms in the tradition: do not [[take the enemy lightly|qingdi]], or, in the older copies, fear to have [[no enemy at all|wudi]]. Either way [[the treasures|bao]] of passage 67 are at stake. The verdict is that when [[armies are raised on both sides|kangbing]], [[the side that grieves|ai]] wins. Passage 68 gave four portraits; this passage puts the same person in the field.",
+    "inner": "Take the war as the one inside. A person who works on the mind often plays host: sets the agenda, attacks the fault, advances on the goal. The proverb says: be [[the guest|zhuke]] in your own house. Let what arises be the host for a while, and do not gain an inch on it. Then the four phrases describe attention with no stance: it moves and has no [[fixed line|hang]]; it is ready and shows [[no arm|rangbi]]. The older reading of the warning is the deepest for this use. The disaster is to have [[no opponent|wudi]] left, a self so sure that nothing stands against it. And the close: the one who can [[grieve|ai]] for what is lost in each inner victory is the one who comes through.",
+    "leading": "Read 主 and 客 in a negotiation, a market, or a quarrel between teams. The host’s instinct is to set terms and move first. The proverb advises the [[guest’s place|zhuke]]: answer, and yield ground that costs little. The four “without” phrases describe a party that gives the other side nothing to push against: no drawn line, no show of strength, no named enemy, no weapon in the hand. The warning then turns on the strong. In the reported silk reading the great disaster is to be [[without a rival|wudi]]. A firm, a state, or a leader with no real opposition loses [[three things|bao]] in order: care for people, restraint, and the habit of not going first. Mencius says that such a state perishes. Who is still able to tell you no?",
+    "body": "The proverb is a rule of the soft fighting arts. Do not lead; receive. When the partner advances an inch, [[go back a foot|cunchi]], and their force falls into the space. Teachers of taijiquan describe a skilled body in the words of the four phrases: the stance is [[no stance|hang]], the arm does not announce itself, and the partner reaches for a centre and [[finds none|reng]]. The warning matters on the mat too: to [[take the other lightly|qingdi]] is how the stronger one gets hurt. And the last line is known to anyone who has trained for years. The dangerous partner is not the furious one. It is the calm one who would be sorry to hurt you. Stand, let the arms hang, and feel how much readiness needs no raised hand.",
+    "practice": "Try [[entering as a guest|practice]] in one live conflict. Then take the two versions of the warning as two questions for the evening. First, the received text: whom or what did I [[take lightly|qingdi]] today? A risk, a rival, a person’s feelings? Second, the older text: where am I [[without a match|wudi]]? In what room does no one oppose me, and what has that done to my tenderness, my restraint, my place in the line? The second question is harder. The passage calls its answer the greatest disaster, and it calls the feeling that guards against it [[哀|ai]]."
+  },
+  "glyph": "哀",
+  "plates": [
+    {
+      "c": "哀",
+      "title": "A mouth inside the robe",
+      "lesson": "Take the character 衣, a garment. The Shuowen calls it a picture and explains the word by its sound: 依也, “that which one leans on”; the upper part is the collar, and the lower strokes are the two sides of a robe that fold across each other. Now open the robe and put something inside. Chinese makes several characters in this way. With 中, “middle”, inside: 衷, an inner garment, and so one’s inmost feelings. With 果, “fruit”, inside: 裹, to wrap. With 口, a mouth, inside: 哀. The Shuowen says 从口衣聲: the mouth gives the meaning, and 衣 gives the sound. In the old language 衣 and 哀 were close in sound; both belong to one old rhyme group (the 微 group). But the picture is hard to resist: a mouth that cries out from inside the clothes. And the clothes of grief were a great matter. For a parent, a child wore a robe of coarse, unhemmed hemp, called 衰 (cuī), and that word too is written with the garment: the Shuowen explains 衰 as a rain cloak of straw. The Shuowen glosses 哀 as 閔, “the mourner at the gate”. So the character holds the sound of a wail and the dress of the one who wails. This is the word that the passage gives to [[the winning side|ai]].",
+      "brush": "Nine strokes. A dot at the top, then a long horizontal: the lid of the character and the collar of the robe. Then the mouth in three strokes: left side, top and right side with one corner, base. It sits close under the horizontal, small and square. Then the lower robe in four strokes: a stroke that falls far to the left; a vertical that ends in a hook to the right; a short stroke that falls to the left; and last a long stroke to the right that is pressed wide and then lifted. Watch the sixth and the ninth strokes. They open to the left and right like a robe that falls from the shoulders, and the mouth is held between them. If the mouth is too large, the character shouts. A good hand keeps it small and lets the two long strokes carry the feeling."
+    },
+    {
+      "c": "兵",
+      "title": "Two hands on an axe",
+      "lesson": "The Shuowen gives this character in one line: 械也。从廾持斤，并力之皃. “A weapon. From 廾, two hands, that hold 斤, an axe; the look of strength joined together.” The upper part of the modern form is the axe, reshaped; the two strokes at the foot are what is left of the two hands. 斤 is a woodman’s tool; the Shuowen says 斫木也, “to chop wood”. It is in 斧, an axe; 析, to split wood; 匠, a craftsman, of whom the Shuowen says that the axe is “that with which vessels are made”; and 新, “new”, which the Shuowen explains as the taking of wood. The two hands, 廾, are in 戒, “to be on guard”: two hands that hold a dagger-axe; and in 弄, “to play with”: two hands that hold jade. So a 兵 is at first a tool gripped hard. The word then moved outward in rings: a weapon; the man who carries it; an army; war itself. This passage uses three of the rings: 用兵, to make war; 執無兵, to grip no weapon; 抗兵, armies raised. In Chinese chess the humblest piece is the 兵. The [[saying|yongbing]] of the first line asks the user of arms to hold them as a guest holds a cup in another’s house.",
+      "brush": "Seven strokes. First a stroke that sweeps from right to left across the top, almost flat. Second a vertical that comes down from under its left end. Third a short horizontal that starts from the vertical. Fourth a short vertical at the right, which closes the upper shape. Fifth the long horizontal: the widest stroke, on which the upper part stands. Then the two hands: a stroke that falls to the left, and a stroke or long dot that falls to the right. Watch the long horizontal. It must be level and firm, like the shaft that the hands hold, and the last two strokes spread under it like feet set apart. In seal script the two hands are still clear, one at each side, with the fingers up. The clerical script of the Han cut them down to two short strokes."
+    },
+    {
+      "c": "客",
+      "title": "A foot arrives under a roof",
+      "lesson": "The top is 宀, a roof with its ridge and two eaves; it marks houses and what happens in them, as in 家, 室, 安, and 宿. Under the roof is 各. The Shuowen takes 各 as the sound and defines 客 as 寄也, “to lodge with another”. But look at 各 itself. Its lower part is 口, here an opening, the entrance of a dwelling. Its upper part, 夂, is commonly explained as a foot that points downward: a foot that comes toward the entrance. The Shuowen’s own note keeps the motion: 夊者，有行而止之, “a walking that is brought to a stop”. So 各 is an arrival, and scholars take it as the first way of writing a word for “to come, to arrive”. Put a roof over an arrival, and you have a guest. The foot is the part to remember. A guest is the one who has come from outside, who does not own the roof, and who will go. The same 各 gives its sound to 路, a road; 落, to fall; 格, a frame; and 洛, the river Luo. In passage 35 music and good food make the passing guest, 過客, stop. Here the general chooses to be [[the guest|zhuke]]: under another’s roof, and careful where the feet go.",
+      "brush": "Nine strokes. The roof first: a dot at the top centre; a short vertical dot at the left; then a long horizontal that turns down at its right end in a short hook. Under it, the foot: a stroke that falls to the left; then a short horizontal that turns and falls to the left in one movement; then a long stroke to the right, which crosses the second and is pressed wide at its end. Last the mouth, in three strokes: left side, top and right side, base. Watch the long stroke to the right, the sixth. It reaches out from under the eaves, wider than the roof, and it gives the character its ease. The roof must be broad but light, and the mouth small and firm at the foot. If the roof is heavy, the guest looks shut in."
+    }
+  ]
+}

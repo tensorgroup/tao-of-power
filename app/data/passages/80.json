@@ -1,0 +1,273 @@
+{
+  "n": 80,
+  "title": "The Neighbour’s Rooster",
+  "theme": "simplicity",
+  "zh": [
+    {
+      "text": "小國寡民，",
+      "gloss": {
+        "0": "small; perhaps a verb: to make small",
+        "1": "a state: walled land under arms",
+        "2": "few; perhaps a verb: to make few",
+        "3": "the people, the common folk"
+      }
+    },
+    {
+      "text": "使有什伯之器而不用，",
+      "gloss": {
+        "0": "to cause, to let; also “suppose that”",
+        "2": "shí: ten; a unit of ten households or ten soldiers",
+        "3": "bǎi: a hundred, a unit of a hundred (usually bó, elder)",
+        "5": "tools, implements; also arms"
+      }
+    },
+    {
+      "text": "使民重死而不遠徙。",
+      "gloss": {
+        "2": "zhòng: heavy; to treat as a weighty thing",
+        "7": "xǐ: to move one’s home, to migrate"
+      }
+    },
+    {
+      "text": "雖有舟輿，無所乘之；雖有甲兵，無所陳之。",
+      "gloss": {
+        "3": "yú: a carriage, a cart",
+        "7": "to ride, to mount",
+        "12": "armour",
+        "17": "zhèn: to draw up in battle order (usually chén, to set out)"
+      }
+    },
+    {
+      "text": "使人復結繩而用之，甘其食，美其服，安其居，樂其俗。鄰國相望，雞犬之聲相聞，民至老死，不相往來。",
+      "gloss": {
+        "3": "to knot",
+        "4": "a cord, a rope",
+        "9": "sweet; here a verb: to find sweet",
+        "13": "beautiful; here a verb: to find beautiful",
+        "17": "at rest; here a verb: to be at peace in",
+        "21": "lè: joy; to delight in (the same graph as yuè, music)",
+        "23": "customs, the ways of a place",
+        "28": "to gaze toward from far off",
+        "35": "to hear",
+        "44": "往來: to go and to come; visits, traffic, dealings"
+      }
+    }
+  ],
+  "rendering": [
+    "[[A small state, few people.|xiao-guo]]",
+    "[[Let there be|shi]] [[tools for ten and for a hundred|shi-bai]],",
+    "and let them go unused.",
+    "Let the people [[take death as a heavy thing|zhong-si]]",
+    "and not move far away.",
+    "",
+    "Though there are boats and carts,",
+    "there is no occasion to ride them.",
+    "Though there are armour and weapons,",
+    "there is no occasion to [[draw them up|chen]].",
+    "",
+    "Let people go back to [[knotted cords|jie-sheng]] and use them:",
+    "[[find their food sweet|gan]],",
+    "their clothes beautiful,",
+    "their homes [[at rest|an]],",
+    "their customs [[a joy|le-su]].",
+    "",
+    "Neighbouring states [[look across at each other|xiang-wang]];",
+    "[[the sound of chickens and dogs|ji-quan]] is heard from one to the other;",
+    "and the people reach old age and death",
+    "[[without going back and forth|wang-lai]]."
+  ],
+  "notes": {
+    "xiao-guo": {
+      "kind": "gap",
+      "title": "小國寡民: four characters, no verb",
+      "body": "The passage opens with four characters and no grammar: small, state, few, people. Chinese adjectives can act as verbs, so there are two ways to hear it. As a description: “a small state with few people”, the setting of what follows. As a programme: “make the state small; make the people few”. The second is a shock. It tells a ruler to shrink the two things that every ruler of the age tried to enlarge. [[Wang Bi|wb-example]] takes the first way. Many modern readers take the second. Our rendering keeps the four words as a bare phrase, without a verb, so that the choice stays open. English had to add “a” and a comma. Note also what 國 is: a wall and a weapon are in the graph, as the Shuowen reads it. The text takes the war-state of its time and imagines it small.",
+      "src": [
+        "Shuowen Jiezi, 囗部: 國，邦也。从囗从或。",
+        "Shuowen Jiezi, 戈部: 或，邦也。从囗从戈，以守一。一，地也。"
+      ]
+    },
+    "wb-example": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the small state is only the example",
+      "body": "Wang Bi does not read the opening as a plan to make states small. He writes: 國既小，民又寡，尚可使反古，況國大民眾乎？故舉小國而言也。 “When the state is small and the people, moreover, few, they can still be brought to return to the ancient way. How much more, then, when the state is large and the people many? So the text takes a small state as its example.” His logic is unexpected. One would think that the simple life is easier in a small place. Wang Bi says that a small, poor state has the least to work with, and that even there the return is possible; a great state has still more room for it. For him the passage does not describe a village that hides from the world. It is a demonstration, in the smallest case, of what any government could allow.",
+      "src": [
+        "Wang Bi commentary on Laozi 80"
+      ]
+    },
+    "gua-min": {
+      "kind": "geopolitics",
+      "title": "寡民: the one thing no king wanted",
+      "body": "寡 is “few”. The Shuowen builds it from a roof and a word for sharing out: what is divided becomes little. It was also the ruler’s own humble name, 寡人, “the deficient one”. Put the two uses side by side and you have the main anxiety of the Warring States. Population was power: more people meant more grain and more soldiers. King Hui of Liang complains to Mencius: I use my whole heart for my state, and yet 鄰國之民不加少，寡人之民不加多, “the people of neighbouring states do not grow fewer, and my people do not grow more. Why?” The state of Qin offered land and tax relief to draw settlers from its rivals. Households were registered and forbidden to leave. In this setting the two characters 寡民 reverse the whole policy of the age. The lonely one is asked to want a lonely state.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 寡，少也。从宀从頒。頒，分賦也，故爲少。",
+        "Mencius 1A3",
+        "Shangjun shu, “Lai min” (徠民)"
+      ]
+    },
+    "shi": {
+      "kind": "gap",
+      "title": "使: who is speaking, and in what mood?",
+      "body": "使 comes three times in the passage: 使有, 使民, 使人. It means “to cause, to make, to send”, and also “suppose that”. English must pick a mood. Legge wrote “I would so order it… I would make the people”: a ruler’s voice with a plan. That adds an “I” that the Chinese does not have. Others write “let there be”, which sounds like a wish or a blessing. Others take it as a thought: “suppose there were”. The tone of the whole passage hangs on this word. Is it a blueprint, a daydream, a memory, or a mirror held up to a violent age? Our “let” is the lightest option that English offers, and it still adds something. Read the passage three times, once in each mood, and notice which one you believe."
+    },
+    "shi-bai": {
+      "kind": "variant",
+      "title": "什伯之器: machines, or squad weapons?",
+      "body": "什 and 伯 are ten and a hundred, and 器 is any made tool. There are two old readings. One: implements that do the work of ten or a hundred men, labour-saving devices. A modern collated edition of the Mawangdui silk texts supports this, for it adds a word: 十百人之器, “tools of ten or a hundred people”. Legge heard a third sense, men with the ability of ten or a hundred. The other reading is military. The Shuowen defines 什 as 相什保也, households in tens that stand surety for each other, and in the armies of the age the squad of ten and the company of a hundred were the basic units. Then 什伯之器 are the arms and gear of the levy, and the line agrees with the later one about armour that is never drawn up. On both readings the tools exist. They are not destroyed. They are left where they lie.",
+      "src": [
+        "Mawangdui Laozi (modern collated edition)",
+        "Shuowen Jiezi, 人部: 什，相什保也。从人、十。"
+      ]
+    },
+    "zhong-si": {
+      "kind": "wangbi",
+      "title": "Death made heavy again",
+      "body": "重死 is “to hold death heavy”. It answers passage 75 exactly, where the people 輕死, hold death light, because those above them take too much. A people that holds death light will rebel or run. A people that holds it heavy stays, because life at home is worth keeping. Wang Bi explains: 使民不用，惟身是寶，不貪貨賂，故各安其居，重死而不遠徙也。 “Let the people have no use for such things; let them treasure only their own persons, and not covet goods. Then each is at peace in the home, holds death heavy, and does not move far.” Moving far was what desperate people did: they fled taxes, war, and famine. A modern collated edition of the Mawangdui silk texts has no 不 here: 使民重死而遠徙. Some editors read 遠 as a verb, “keep far from moving”, with the same sense; others think that a negative was lost. What makes a life heavy enough that death is heavy too?",
+      "src": [
+        "Wang Bi commentary on Laozi 80",
+        "Mawangdui Laozi (modern collated edition)",
+        "Laozi 75"
+      ]
+    },
+    "chen": {
+      "kind": "history",
+      "title": "陳: the battle line",
+      "body": "陳 is to set things out in rows, and in military use it is read zhèn: the array, troops drawn up for battle. Formation was the science of the age; an army that could hold its lines under drums and flags won. The Analects has a scene with this word. Duke Ling of Wei asked Confucius about 陳, battle formations. Confucius replied that he had learned about ritual vessels and had never studied the matters of armies, and he left Wei the next day. The Laozi’s sentence is gentler and stranger. It does not refuse the weapons, and it does not melt them down. The state keeps armour and blades, and there is 無所, “no place where, no occasion on which”, to draw them up. English “display” is too weak for the word, and “use” is too wide. A line is what never forms.",
+      "src": [
+        "Analects 15.1"
+      ]
+    },
+    "jie-sheng": {
+      "kind": "history",
+      "title": "結繩: before writing",
+      "body": "Knotted cords were the record-keeping of the time before script, as the Chinese remembered it. The Book of Changes says: 上古結繩而治，後世聖人易之以書契, “in high antiquity people knotted cords and so kept order; the sages of later ages replaced them with writing and tallies”. A large knot for a large matter, a small knot for a small one, later scholars said. The device is real: the Inca ran an empire on knotted cords, the quipu, with no writing. For the Laozi the cords stand for a world without documents: no registers of households, no tax rolls, no law codes, no contracts like the tally of the passage before this. They also create a problem that the text does not hide. This wish to return to a time before writing has come to us in writing. Is the book a tool that hopes to be left unused, like the boats?",
+      "src": [
+        "Yijing, “Xici” B.2",
+        "Laozi 79"
+      ]
+    },
+    "gan": {
+      "kind": "etymology",
+      "title": "甘 and 美: four verbs of feeling",
+      "body": "甘其食，美其服: literally “sweet their food, beautiful their clothes”. The adjectives stand first and act as verbs: the people find their food sweet. This matters. The text does not say that the food is plain and that they bear it, and it does not say that the food is rich. It says nothing about the food at all. It describes a relation between people and what they have. [[Legge|legge]] could not leave it so; he added “(coarse)” food, “(plain)” clothes, “(poor)” dwellings in brackets, and made them contented peasants. The two words explain each other in the Shuowen: 甘 is defined as 美, and 美 as 甘. 甘 is a mouth with something held in it. 美 is 羊 over 大, a sheep and “large”; the dictionary notes that the sheep is chief among animals for the table. Both began on the tongue.",
+      "src": [
+        "Shuowen Jiezi, 甘部: 甘，美也。从口含一。一，道也。",
+        "Shuowen Jiezi, 羊部: 美，甘也。从羊从大。羊在六畜主給膳也。"
+      ]
+    },
+    "an": {
+      "kind": "etymology",
+      "title": "安: a woman under a roof",
+      "body": "安 is a roof, 宀, with 女, a woman, beneath it, and the Shuowen defines it by one word: 靜也, stillness. It reads the graph as it looks: 从女在宀下, “a woman under a roof”. Peace, in this picture, is a house with someone at home in it. The word is the usual Chinese for safety and peace, and in the Laozi it has weight: passage 35 promises 安平太, rest, evenness, and greatness, to those who go toward the great image. Here it is a verb with 居, a dwelling: to be at rest in one’s home. A modern collated edition of the Mawangdui silk texts has the four phrases in another order, with joy in customs third and rest at home last. In that version the list ends indoors, in stillness, before the text turns to the neighbours.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 安，靜也。从女在宀下。",
+        "Mawangdui Laozi (modern collated edition)",
+        "Laozi 35"
+      ]
+    },
+    "le-su": {
+      "kind": "etymology",
+      "title": "樂其俗: music in the valley",
+      "body": "樂 is read lè, joy, and yuè, music; it is one graph, and for early China one thing. The Shuowen defines it as the name for all music, 五聲八音緫名, and sees in the graph drums on a wooden stand. So to 樂 one’s customs is to be glad in them, and it carries an echo of singing and drums at the village feast. 俗 is custom: the ways of a place. The Shuowen says 習也, “what is practised”, and the graph is a person beside 谷, a valley, which gives the sound. A learner may notice that each valley has its people and its ways. The Confucians wanted to reform local customs by ritual from the centre: 移風易俗, “shift the airs and change the customs”. The Laozi’s line asks for no change. The people are to take joy in the customs they have.",
+      "src": [
+        "Shuowen Jiezi, 木部: 樂，五聲八音緫名。象鼓鞞。木，虡也。",
+        "Shuowen Jiezi, 人部: 俗，習也。从人谷聲。"
+      ]
+    },
+    "xiang-wang": {
+      "kind": "etymology",
+      "title": "望: to look for one who is away",
+      "body": "鄰國相望: neighbouring states “gaze toward each other”. 望 is not plain seeing. It is a long look into the distance, at a hill, at the full moon, toward a hope. The Shuowen’s definition is a small story: 出亡在外，望其還也, “someone has gone away and is abroad; one looks out for their return”. So the word has longing in it. 鄰, a neighbour, is defined as 五家爲鄰, “five families make a 鄰”: the smallest unit of village life. The states of this line are close enough to be neighbours in that homely sense, and they look across at each other as people look toward someone they think of. The text gives the gaze, and it gives the hearing, and then it withholds the visit. The sentence is not cold. It may be the fullest picture in the book of being near without taking.",
+      "src": [
+        "Shuowen Jiezi, 亡部: 望，出亡在外，望其還也。",
+        "Shuowen Jiezi, 邑部: 鄰，五家爲鄰。"
+      ]
+    },
+    "ji-quan": {
+      "kind": "history",
+      "title": "Chickens and dogs, for two thousand years",
+      "body": "The chickens and dogs are the sound of a settled place. A village that has them has grain to spare, and nobody there is about to flee. The phrase became a fixed expression, 雞犬相聞, for neighbours who live within earshot. Its most famous return is in a short tale of about 421 CE by the poet Tao Yuanming. A fisherman follows a stream through peach blossom, squeezes through a cave, and finds a hidden valley: good fields, ponds, mulberry and bamboo, paths between the plots, and 雞犬相聞, chickens and dogs heard from one house to the next. The people there fled the wars of Qin about six hundred years before and have never heard of the dynasties since. He leaves, and no one can find the place again. Tao Yuanming answers the Laozi’s 使 with a story. The small state exists, and the road to it is lost.",
+      "src": [
+        "Tao Yuanming, “Taohua yuan ji” (桃花源記)"
+      ]
+    },
+    "wang-lai": {
+      "kind": "gap",
+      "title": "不相往來: what kind of traffic stops?",
+      "body": "往來 is “going and coming”. A modern reader hears isolation: no visits, no friendship, no curiosity. That may be too private a hearing. In the language of the time 往來 was also the traffic between states, and that traffic had a character. Envoys went and came to make alliances against a third party. Merchants went and came with goods that created wants. Armies went and came on the roads that the boats and carts used. Refugees went and came. When a peasant of the Warring States crossed a border, it was seldom for a holiday. Read so, the last line describes two communities that need nothing from each other and fear nothing from each other. They are within hearing, and that is company enough. The line still troubles many readers, and it should. What would you lose, and what would you be spared?"
+    },
+    "zhuangzi": {
+      "kind": "history",
+      "title": "The same village, in the Zhuangzi",
+      "body": "The second half of this passage stands almost word for word in the Zhuangzi, in a chapter called “Rifling Trunks”. But there it has a date. The writer lists twelve rulers of deepest antiquity and says: 當是時也，民結繩而用之, “in that time, the people knotted cords and used them”, found their food sweet, their clothes beautiful, their customs a joy, their homes at rest; neighbouring states looked across at each other, the sounds of chickens and dogs were heard, and the people grew old and died without going back and forth. 若此之時，則至治已, “a time like that was the height of good order”. Then he turns in anger on his own age, in which people crane their necks and run after any clever man. In the Zhuangzi the village is a lost golden age. Its order of phrases and its 雞狗 for 雞犬 agree with the collated Mawangdui wording. The Laozi’s version has no “in that time”. It has only [[使|shi]]. Which is the older form, no one knows.",
+      "src": [
+        "Zhuangzi, “Qu qie” (胠篋)"
+      ]
+    },
+    "sima-qian": {
+      "kind": "history",
+      "title": "A historian of commerce objects",
+      "body": "About 100 BCE the historian Sima Qian wrote a chapter on the men who had grown rich by trade. He opened it with this passage, quoted at length: neighbouring states in sight of each other, the people content with their food, clothes, customs, and work, no traffic until death. Then he gave his verdict: to make this one’s aim in recent times, one would have to stop up the eyes and ears of the people, and it could hardly be done. People’s ears and eyes want fine sounds and sights, and their mouths want the taste of meat, and no teaching will change it. The wise ruler, he says, goes along with these wants. This is the first great objection to the passage, and it comes from a serious man. He read 使 as a policy and judged that it would need force. Is he right about the policy, and wrong about the mood?",
+      "src": [
+        "Shiji 129, “Huozhi liezhuan”"
+      ]
+    },
+    "utopia": {
+      "kind": "gap",
+      "title": "Not quite a utopia",
+      "body": "Western readers file this passage under “utopia”, a word that Thomas More coined in 1516 from Greek: no-place. The word brings a tradition with it: Plato’s city, More’s island, the planned community with its laws and its founder. Those are designs, and they are full of institutions. The Laozi’s small state has almost none. It is defined by what is not used: tools, boats, armour, writing. A second Western frame is the “noble savage”, the happy primitive of the eighteenth century. That does not fit either. These people have boats, weapons, and machines, and they have known writing; the text says 復, “return”. They are not innocent. They have what a civilisation has and do not reach for it. The nearest thing in the book is the person of passage 28, who knows the male and keeps to the female. This is the same person, as a whole society.",
+      "src": [
+        "Thomas More, Utopia (1516)",
+        "Laozi 28"
+      ]
+    },
+    "silk-place": {
+      "kind": "variant",
+      "title": "Not at the end, in the oldest copies",
+      "body": "We meet this passage as the last but one, a quiet picture before the book closes. The Mawangdui silk texts, buried in 168 BCE, have it elsewhere. There our 80 and 81 follow our 66, and then the text goes on with 67. Passage 66 is the one on the rivers and the sea, which are kings of the hundred valleys because they lie low. In that order the small state comes straight after the sea’s lesson in lowness, and before the passages on care, war, and death. It is a picture in the middle of the argument, and not a farewell. A modern collated edition prints 邦 for 國 in this passage; 國 was put in later to avoid the name of the first Han emperor, Liu Bang. Someone, at some time, moved these two passages to the end. Whoever did it chose a village to close the book.",
+      "src": [
+        "Mawangdui Laozi A and B (order of chapters)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “I would”",
+      "body": "Legge puts the passage in the mouth of a planner: “I would so order it”, “I would make the people”. The Chinese has [[no “I”|shi]]. He reads 什伯之器 as “individuals with the abilities of ten or a hundred men” whom the state does not employ, one of the traditional readings. He explains the knotted cords in brackets: “(instead of the written characters)”. He cannot believe that the people simply find their food sweet, and adds “(coarse)”, “(plain)”, “(poor)”, and “(simple)”: four adjectives of pity from a man of the age of progress. And for 不相往來 he writes that they should not “have any intercourse with” the neighbour. Legge worked for thirty years in Hong Kong, a colony founded to open China to trade. He was a fair man, and praise of a life without traffic was hard for his age to hear.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "near": {
+      "kind": "practice",
+      "title": "One day within earshot",
+      "body": "Give the passage one day. Choose a day when you can stay within the distance that a rooster’s call would carry from your door: on foot, no vehicle. Leave some of your “tools for ten and for a hundred” where they lie; you know which machines do the work of a hundred people for you, and which of them you could rest. Write nothing down that day. Then do the four verbs, on purpose. Eat one plain meal and try to find it sweet. Put on ordinary clothes and find them good. Sit in your own room until it is restful. Do one thing that is a custom of your household or street, and enjoy it. In the evening, listen for the neighbours. You need not visit. Notice what you missed, and how strongly, and what you did not miss at all."
+    }
+  },
+  "lenses": {
+    "ground": "Four characters set the scene: [[small state, few people|xiao-guo]]. Then a series of wishes, each marked by [[使|shi]]. There are [[tools for ten and a hundred|shi-bai]], unused. The people [[hold death heavy|zhong-si]] and stay. Boats and carts stand idle; armour and weapons are [[never drawn up|chen]]. People return to [[knotted cords|jie-sheng]]. Then four short phrases, each a verb of feeling: they [[find sweet|gan]] their food, find beautiful their clothes, [[rest|an]] in their homes, [[rejoice|le-su]] in their customs. The close is a long shot across a border. Two states [[gaze at each other|xiang-wang]]; [[chickens and dogs|ji-quan]] are heard across the line; people grow old and die and [[do not go back and forth|wang-lai]]. Count what is present: tools, boats, carts, armour, weapons, cords, food, clothes, houses, customs, neighbours, animals. Everything is present, and the passage is about what is not done with it.",
+    "inner": "The passage can be read as a state of mind. The mind has its tools for ten and a hundred: plans, comparisons, the power to imagine every other life. It has boats and carts: the ability to leave any moment for another. It has armour and weapons, and it has script, the running record of who owes what. In the small state all of these remain and none is in use. What is left is the four verbs. The food is sweet, and the room is restful, because attention has stopped travelling. The far country is still there. One can see it, and even hear its roosters, and the old pull to go is quiet. This is [[not innocence|utopia]]. The text says 復, return: it is the peace of one who has been everywhere in thought and now stays.",
+    "leading": "No ruler of the Warring States wanted [[few people|gua-min]], and no modern institution wants to be small. The passage asks leaders to question growth as a goal, and it gives a different measure of success: do the people find their food sweet, their work and homes good, their own customs a joy? Do they hold life dear enough to stay? Capacity is not forbidden. The state has the machines and the arms. The art is to have them and find [[no occasion|chen]] for them, which is harder than not having them. [[Sima Qian’s objection|sima-qian]] should be heard: as a policy imposed from above, this needs force, and then it is a prison. Wang Bi’s answer is that it is [[a demonstration and not a decree|wb-example]]. A leader can remove the causes of flight. A leader cannot order contentment.",
+    "nature": "The scale of the passage is the scale of a valley. A rooster’s call carries perhaps a kilometre in still air, and a dog’s bark a little more. Within that radius a farming community can find water, fuel, soil, and seed, and it can know every tree. The graph for custom, [[俗|le-su]], puts a person beside a valley. Each valley shapes a way of living that fits it. Ecologists speak of a bioregion; the idea is close. When boats and carts are in constant use, the valley’s limits stop teaching, because whatever is short can be brought in and whatever is waste can be sent out. The two states that [[gaze at each other|xiang-wang]] are like two watersheds on either side of a ridge: near, visible, and each complete. The line does not despise the far side. It lets it be whole.",
+    "practice": "Try [[one day within earshot|near]], or a single hour of it if a day is not possible. If even that is hard, do only the four verbs at one meal: 甘其食. Take the food that is in the house, and before you eat, look at it; then find it sweet. The grammar is exact: the sweetness is something that you do. Afterwards ask the honest questions that the passage raises. Would you choose this life? [[Sima Qian|sima-qian]] thought that no one would. Was the hour restful, or did you feel shut in? Then read [[the Zhuangzi’s version|zhuangzi]], which places the village in the far past, and [[Tao Yuanming’s|ji-quan]], which hides it behind a cave. Three writers could not agree on where the small state is. Where did you find it?"
+  },
+  "glyph": "甘",
+  "plates": [
+    {
+      "c": "甘",
+      "title": "Something held in the mouth",
+      "lesson": "This is one of the simplest characters in the book and one of the oldest ideas. The Shuowen explains it in six characters: 从口含一, “from a mouth that holds a one”. The outer shape is 口, a mouth, drawn open at the top in the modern form. The short line inside is the thing in the mouth: a bit of food that is good enough to keep there and not swallow at once. That is sweetness, shown by what the mouth does with it. The definition is 美也, “fine, good to taste”. Then the Shuowen adds a line that a reader of the Laozi will not expect: 一，道也, “the one is Dao”. The dictionary’s author lived in a world where “the One” was a name for the Way, and he saw it even here, held in the mouth. Take that as his piety and not as the origin of the graph. Still, it suits this passage, which finds the Way in a meal. The family is about taste. 甜, the modern word for sweet, adds 舌, a tongue. 旨, fine flavour, is defined by the Shuowen as 美 and built from 甘. In old texts 甘 also means “willingly”: 甘心, a sweet heart, is to do a thing gladly. In the passage it is a verb: 甘其食, [[to find one’s food sweet|gan]]. The sweetness is in the mouth that holds, and not only in the food.",
+      "brush": "Five strokes. First a long level line across the upper half; it is wider than everything else and gives the character its span. Then two uprights, the left one first and the right one second. Each starts above the level line and crosses down through it, so the top stays open. The right upright starts a little higher and stands very straight. Fourth, the short level line inside, which touches both uprights: the thing in the mouth. Fifth, the base, which closes the vessel. Because the character is so plain, spacing is everything. The two inner spaces, above and below the short line, should be nearly equal, with the upper one a touch larger. The uprights lean very slightly toward each other at the foot, so that the shape narrows like a cup. In seal script the outline is a rounded mouth with a single dash inside, and you can see the picture at once."
+    },
+    {
+      "c": "國",
+      "title": "A wall, a weapon, a piece of ground",
+      "lesson": "Open the outer box and look inside. The inside is 或, and the Shuowen explains it part by part: 从囗从戈，以守一。一，地也, “from an enclosure and a dagger-axe, with which to guard the one; the one is the ground”. 戈 is the dagger-axe, the standard infantry weapon of the Bronze Age: a blade set crosswise on a long shaft. The small 口 is a walled town. The short stroke under it is land. So 或 already means a defended territory, and the Shuowen defines it as 邦, a state. Later this graph was borrowed for the word “perhaps, someone”, and so a second, larger wall was drawn around the whole to mark the old meaning: 國. The character now has two walls and a weapon. That is the Warring State in one sign: land, a fortified centre, arms, and a frontier. The same inner part, with earth added, is 域, a territory. The simplified form 国 put 玉, jade, inside the wall; an older popular form had 王, a king. Each age writes what it thinks a state holds. A modern collated edition of the Mawangdui silk texts does not print this character in the passage. It has [[邦|silk-place]], which has no weapon in it: 邑, a settlement, with a sound-part. And the passage itself goes through the graph piece by piece: a small enclosure, few people in it, and the 戈 [[never drawn up|chen]].",
+      "brush": "Eleven strokes, and the rule of the frame applies: the box is closed last. Stroke one is the left wall. Stroke two is the top and the right wall in one movement with a corner. Now the contents. A level line, the top of the inner part. The small mouth in three strokes: left side, top and right side, base. Under it a short stroke that rises to the right: the ground. Then the dagger-axe: its long slanting hook, which starts high, crosses the level line, sweeps down to the right, and flicks up; a slash that crosses the hook near its foot; and a dot at the upper right. Only now does stroke eleven shut the box along the bottom. The slanting hook is the life of the character. It must have room inside the walls and still look as if it could reach past them."
+    },
+    {
+      "c": "雞",
+      "title": "The bird that knows the hour",
+      "lesson": "The right side is 隹, a bird. The Shuowen says 鳥之短尾緫名也, “the general name for short-tailed birds”, and it is a picture: a head, a body, and wing feathers shown as level strokes. Its long-tailed partner is 鳥. You meet 隹 in 雀 (sparrow), 雁 (wild goose), 集 (to gather: a bird on a tree), 雙 (a pair: two birds in a hand), and 難 (difficult; first the name of a bird). The left side is 奚 (xī), which gives the sound. So the structure is plain: a bird, pronounced something like 奚. A variant form, 鷄, uses the long-tailed bird, and the simplified form is 鸡. The oldest forms of the word were simply drawings of a rooster with a comb, as far as scholars can tell; the sound-part was added later. What makes the entry worth learning is the definition: 知時畜也, “the domestic animal that knows the time”. Before clocks, the rooster was the timekeeper of the house. It called the hours before dawn, and a household rose by it. An old ode has a wife say “the cock has crowed” to get her husband up. So in this passage the sound heard across the border is not noise. It is the neighbours’ morning. The two states [[keep the same hours|ji-quan]] and know it by ear. They need no writing for that, and no envoy.",
+      "brush": "Eighteen strokes: ten on the left, eight on the right. The left part has three levels. At the top, four small strokes: a short flat slash, two dots, and a short slash that leans left; they sit like a comb. In the middle, the twisted thread 幺 in three strokes: two that fall left and turn back, and a dot. At the foot, 大 in three: a level line, a slash to the left, and a press that is shortened to a dot, because the bird needs the room. Then the bird, in eight: a slash; a long upright under it; a dot at the top; three level lines, one under the other; an upright that joins them; and a last level line at the foot, the longest. Keep the four level lines evenly spaced. The left side is small and busy, and the right side is tall and regular."
+    }
+  ]
+}

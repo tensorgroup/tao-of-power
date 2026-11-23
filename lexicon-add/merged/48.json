@@ -1,0 +1,50 @@
+{
+  "取": {
+    "senses": ["to take, to seize", "to capture, to win (a state, the world)", "to choose, to adopt (取此, “take this”)"],
+    "shuowen": "捕取也。从又从耳。",
+    "shuowenEn": "To capture and take. From 又 (hand) and 耳 (ear).",
+    "parts": [ { "c": "耳", "m": "ear" }, { "c": "又", "m": "right hand" } ],
+    "story": "The Shuowen explains the graph by the custom of cutting the left ear from a slain enemy as proof of the kill. In the Warring States, 取天下, “to take the world”, was the declared aim of the great states. The Laozi uses the phrase three times (29, 48, 57) and each time denies it to the one who strives. It also uses 取 in a quiet sense: the sage leaves that and takes this (12, 38, 72).",
+    "gap": "English “take” is mild. 取 began as a hand on a cut ear, and 取天下 is conquest."
+  },
+  "益": {
+    "senses": ["to add, to increase; more", "benefit, advantage", "hexagram 42 of the Changes"],
+    "shuowen": "饒也。从水、皿。皿，益之意也。",
+    "shuowenEn": "Abundance. From water and dish. The dish carries the idea of increase.",
+    "parts": [ { "c": "水", "m": "water, laid on its side (the top)" }, { "c": "皿", "m": "dish, vessel" } ],
+    "story": "Water above the rim of a dish: more than enough. With a second water at the side the graph became 溢, to overflow. In the Changes, Yi (increase) and Sun (decrease) are neighbouring hexagrams that turn into each other. The Laozi uses the pair in 42 and 48, and in 55 warns that 益生, to add to life, is ill-omened.",
+    "gap": "“Gain” and “benefit” are wholly good in English. 益 has the picture of a dish that is already running over."
+  },
+  "為": {
+    "senses": ["to do, to make, to work upon", "to act as, to serve as; to govern", "to be (as a copula)", "for the sake of (read wèi)"],
+    "story": "The commonest verb of the Laozi and the centre of its teaching. The Shuowen, writing 爲, explains it as a female monkey; inscriptions found later are commonly read as a hand that leads an elephant. 為 is purposeful work upon things. 無為, without that, is the book’s name for how the Way and the sage act (2, 3, 37, 43, 48, 57, 63). Passage 48 uses the verb six times in a few lines. With a person at the side it is 偽, the artificial.",
+    "gap": "English spreads this verb over “do”, “make”, “act”, “govern”, and “be”. Then “non-action” sounds like stillness; 無為 is the absence of forcing, not of movement."
+  },
+  "損": {
+    "senses": ["to reduce, to take away", "loss; to harm", "hexagram 41 of the Changes"],
+    "shuowen": "減也。从手員聲。",
+    "shuowenEn": "To reduce. From 手 (hand), with 員 for the sound.",
+    "parts": [ { "c": "扌", "m": "hand" }, { "c": "員", "m": "gives the sound" } ],
+    "story": "A hand that takes away. The Laozi makes 損 the direction of its practice: work at the Way, and each day there is less (48). It is also heaven’s method: heaven’s way reduces what has too much and adds to what has too little, and the human way does the reverse (77). In modern Chinese 損 is mostly “damage”; the classical word is neutral.",
+    "gap": "“Loss” in English is a misfortune. 損 here is chosen and daily, as a sculptor’s work is loss."
+  },
+  "學": {
+    "senses": ["to learn, to study", "learning as a programme; a school", "to imitate"],
+    "story": "The Shuowen lists the word under an older graph and glosses it “to awaken”. The modern form has a child, 子, at the bottom under a cover, and two hands at the top around crossed marks; the details of the early form are debated. For the school of Confucius 學 was the lifelong study of texts and rites. The Laozi stands outside it: cut off learning (20), learn to un-learn (64), and the one who works at learning adds each day (48).",
+    "gap": "“Learning” in English is neutral and good. In the Warring States 學 named one school’s programme, so a line against it is a line in a debate."
+  },
+  "事": {
+    "senses": ["an affair, a task, business", "to serve (a lord, a parent)", "an undertaking of state: a rite or a campaign"],
+    "shuowen": "職也。从史，之省聲。",
+    "shuowenEn": "An office, a duty. From 史 (scribe), with an abbreviated 之 for the sound.",
+    "story": "事 is what an official has to do, and so any business. 有事, “to have business”, could mean a military campaign. The Laozi sets 無事, no-business, beside 無為: the sage stays in the business of not-doing (2), serves no-business (63), and takes the world by it (48, 57). In 59 the same word is service: to govern people and 事 heaven.",
+    "gap": "“Busy” is praise in modern English. In this book a state or a person full of 事 is in trouble."
+  },
+  "至": {
+    "senses": ["to arrive, to reach", "the utmost; extremely", "the solstice"],
+    "shuowen": "鳥飛从高下至地也。从一，一猶地也。象形。",
+    "shuowenEn": "A bird flies down from a height and reaches the ground. From 一; the 一 is the ground. A picture.",
+    "story": "The Shuowen sees a bird that comes down to earth; many modern scholars see an arrow that has struck the ground. Either way it is arrival at a limit. So 至 also means “utmost”: 至柔, the softest thing in the world (43); 至虛, the utmost emptiness (16). In 48, daily loss arrives, 至, at not-doing.",
+    "gap": "English uses “very” and “most”. 至 keeps the sense of a journey that has reached its end."
+  }
+}

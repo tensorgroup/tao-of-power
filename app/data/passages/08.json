@@ -1,0 +1,218 @@
+{
+  "n": 8,
+  "title": "Water Takes the Low Place",
+  "theme": "yielding",
+  "zh": [
+    {
+      "text": "上善若水。水善利萬物而不爭，處眾人之所惡，",
+      "gloss": {
+        "0": "upper, highest, best grade",
+        "1": "good (a noun here: the good, goodness)",
+        "2": "to be like",
+        "6": "good at (a verb here: to be skilled in)",
+        "7": "to benefit, to be of use to",
+        "12": "to pull at one thing; to contend",
+        "14": "chǔ: to stay in, to settle in",
+        "15": "the many, the crowd",
+        "19": "wù: to hate, to shun (the same graph as è, ugly)"
+      }
+    },
+    {
+      "text": "故幾於道。",
+      "gloss": {
+        "1": "jī: nearly, almost; also minute, the first faint sign"
+      }
+    },
+    {
+      "text": "居善地，心善淵，與善仁，言善信，正善治，事善能，動善時。夫唯不爭，故無尤。",
+      "gloss": {
+        "0": "to dwell; a dwelling",
+        "2": "ground, earth; the low ground",
+        "6": "a deep pool; depth",
+        "8": "to give; to be with, to associate (Mawangdui Silk B is reported to write 予, to give)",
+        "10": "humaneness (Mawangdui Silk B is reported to read 天, heaven)",
+        "14": "to keep faith; true to one’s word",
+        "16": "straight, right; here commonly read as 政, to govern",
+        "18": "order, well-ordered",
+        "22": "ability, to be capable",
+        "24": "to move; movement",
+        "26": "season; the right time",
+        "35": "fault, blame; resentment"
+      }
+    }
+  ],
+  "rendering": [
+    "The [[highest good|shangshan]] is [[like water|ruoshui]].",
+    "Water is [[good at benefiting|shanli]] the ten thousand things, and [[does not contend|buzheng]].",
+    "It stays in [[the place the crowd hates|wu]],",
+    "and so it is [[near to Dao|ji]].",
+    "",
+    "[[For a dwelling, the good is ground.|seven]]",
+    "For the heart, the good is [[a deep pool|xin-yuan]].",
+    "For giving, the good is [[humaneness|yu-ren]].",
+    "For words, the good is [[keeping faith|xin]].",
+    "For [[rule|zheng]], the good is order.",
+    "For work, the good is ability.",
+    "For movement, the good is [[the right time|shi]].",
+    "",
+    "Only by not contending",
+    "is there [[no blame|you]]."
+  ],
+  "notes": {
+    "shangshan": {
+      "kind": "gap",
+      "title": "上善: nine times “good”",
+      "body": "善 appears nine times in fifty characters. It changes its part of speech as it goes. In 上善, “highest good”, it is a noun. In 水善利, “water is good at benefiting”, it is a verb of skill. In the seven short lines it stands in the middle of each, and readers [[do not agree|seven]] on what it does there. English keeps “the good” (ethics) apart from “good at” (skill). Chinese does not, and this passage depends on that. Its goodness is a competence, like that of a good carpenter. 上 is plain too: “upper, top grade”. It is not the “supreme Good” of Western philosophy, a single highest thing that all else is measured by. The line says only this: if you want to see the best kind of good, look at how water behaves."
+    },
+    "ruoshui": {
+      "kind": "history",
+      "title": "Every school looked at water",
+      "body": "Water was the shared image of Warring States thought, and each school used it differently. Confucius stood by a river and said: 逝者如斯夫，不舍晝夜, “What passes is like this; it does not stop day or night.” Mencius argued that human nature tends to good as water tends to go down. Sunzi wrote that an army’s form is like water: it avoids the high and hurries to the low; it avoids the strong and strikes the empty. The Guanzi calls water the blood and breath of the earth. And in the same tomb at Guodian that held the oldest Laozi slips, there was an unknown text that begins 太一生水, “the Great One gives birth to water”. So this passage enters an argument that was already loud. What does it see in water that the others did not stress? The low place, and the lack of a fight.",
+      "src": [
+        "Analects 9.17",
+        "Mencius 6A2",
+        "Sunzi 6, “Xu shi”",
+        "Guanzi, “Shui di”",
+        "Guodian, “Taiyi sheng shui”"
+      ]
+    },
+    "shanli": {
+      "kind": "geopolitics",
+      "title": "Water that benefits, water that drowns",
+      "body": "善利萬物: water is good at being of use to all things. The first readers knew this as state policy. The kingdoms of the time were built on water works. About 256 BCE the Qin governor Li Bing divided the Min River at Dujiangyan, with no dam, and made the Chengdu plain a granary. In 246 BCE the Zheng Guo canal watered the land north of the Wei River. These two works fed the armies that conquered the rest of China. The same age used water as a weapon. In 453 BCE the lord of Zhi turned a river onto the city of Jinyang, and in 225 BCE a Qin general broke the dykes and drowned Daliang, the capital of Wei. The passage speaks only of the first kind of water. Its readers had seen both.",
+      "src": [
+        "Shiji 29, “Hequ shu”",
+        "Shiji 43 and 44, on Jinyang and Daliang"
+      ]
+    },
+    "buzheng": {
+      "kind": "variant",
+      "title": "不爭 or 有靜: no contest, or stillness",
+      "body": "The pinned text says that water benefits all things 而不爭, “and does not contend”. The two Mawangdui silk copies are reported to differ. Silk A has 而有靜, “and has stillness”, and ends the passage with 夫唯不靜. Silk B has 而有爭 and ends with 夫唯不爭. So Silk A writes 靜 in both places where Silk B writes 爭. The two words sounded alike, and most scholars take the 靜 of Silk A as a loan for 爭. Both copies have 有, “has”, where the received text has 不, “not”, and that difference is not resolved. If 靜 is taken as written, the sentence changes its colour: water gives to all things, and it is quiet. 爭 is two hands on one object; the Shuowen defines it as 引也, “to pull”. Water has no hands. Pour it between two people who are pulling at a thing, and it goes round both. See the second plate.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Shuowen Jiezi, 𠬪部: 爭，引也。"
+      ]
+    },
+    "wu": {
+      "kind": "geopolitics",
+      "title": "The place the crowd hates",
+      "body": "眾人之所惡: “what the many hate”. 惡 is read wù here, the verb: to loathe. The place is the low one. [[Wang Bi|ji]] says it in three characters: 人惡卑也, “people hate what is low”. Low ground is where the dirty water goes: the ditch, the marsh, the foot of the wall. The social sense is exact, and a Confucian text states it with the same image and the opposite advice. The Analects records: 君子惡居下流，天下之惡皆歸焉, “the noble person hates to dwell downstream, for all the filth of the world collects there”. That is the voice of a class that lived by reputation and rank. This passage answers it directly. The downstream place, where everything unwanted arrives, is the place nearest to Dao. Whom do you see there, in your own city?",
+      "src": [
+        "Analects 19.20",
+        "Wang Bi commentary on Laozi 8"
+      ]
+    },
+    "ji": {
+      "kind": "wangbi",
+      "title": "Wang Bi: why only “near”",
+      "body": "故幾於道: “so it is near to Dao”. The text does not say that water is Dao. Wang Bi explains the gap in four characters: 道無水有，故曰幾也。 “Dao is not-having and water is having; so it says ‘near’.” Water is still a thing. It has a form, even if the form is borrowed from each vessel; Dao has none. The word 幾 is worth a look. The Shuowen gives it two senses, 微也 and 殆也: “minute” and “on the edge of danger”. It is the word for the first faint sign of a change, the point just before a thing happens. So 幾於道 is “at the very edge of Dao”. Water is the last visible thing before the invisible one. The passage is careful: it is praise that knows its limit.",
+      "src": [
+        "Wang Bi commentary on Laozi 8",
+        "Shuowen Jiezi, 𢆶部: 幾，微也。殆也。"
+      ]
+    },
+    "seven": {
+      "kind": "gap",
+      "title": "Seven lines with no subject",
+      "body": "居善地 is three words: “dwell, good, ground”. The other six lines have the same form. There is no subject and no connecting word. Three readings exist. One: water is still the subject, and the lines describe it: in its dwelling it is good at ground, in its heart it is good at depth. Two: the subject is a person, and the lines are a rule: for a dwelling, what is good is the ground. Three: a causative: the one who dwells makes the ground good. Our rendering takes the second and keeps it flat. English forces “for” and “is”; the Chinese has neither. Some modern versions make the lines a list of values for a successful life. Read them once with water as the subject of each. The list is then one picture: a thing that lies low, runs deep, gives, keeps its word, levels, does its work, and moves in season."
+    },
+    "xin-yuan": {
+      "kind": "gap",
+      "title": "心善淵: a heart like a pool",
+      "body": "淵 is the deep place in a river where the water turns slowly; the Shuowen calls it 回水, “water that turns back”. Passage 4 used it for Dao: “a deep pool, it seems the ancestor of the ten thousand things”. Here the heart is to be like that. A pool is not empty and it is not stormy. It is deep enough that what falls into it does not splash out again. [[Legge|legge]] wrote “abysmal stillness”, and the adjective now sounds like a mistake; the “abyss” behind it has a dread that 淵 lacks. Notice that the Chinese says 心, the heart, and gives it a water word. If the seven lines describe water, then this line gives water a heart. If they describe a person, it gives a person a riverbed. Which is the image, and which is the thing?",
+      "src": [
+        "Shuowen Jiezi, 水部: 淵，回水也。",
+        "Laozi 4"
+      ]
+    },
+    "yu-ren": {
+      "kind": "variant",
+      "title": "與善仁 or 予善天",
+      "body": "The pinned line is 與善仁. 與 can mean “to give” or “to be with, to associate”. So: “in giving, the good is 仁, humaneness”, or “in company, the good is the humane”. Legge took the second and wrote “with the virtuous”. The line is strange in this book. Passage 5 says that heaven and earth are not 仁, and passages 18 and 19 treat 仁 as a sign of decline. Mawangdui Silk B is reported to have a different line: 予善天, “in giving, the good is heaven”; Silk A is damaged at the last word. 予 is plainly “to give”. On this reading water gives as heaven gives: to all, with no choice of who receives. That fits passage 5 exactly. Many scholars think that a later hand changed 天 to 仁 and made the line more Confucian. We keep the pinned text, and we render 與 as “giving” because of the silk reading.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Laozi 5, 18, 19"
+      ]
+    },
+    "xin": {
+      "kind": "etymology",
+      "title": "信: a person and a word",
+      "body": "信 is 人, a person, beside 言, speech. The Shuowen defines it as 誠也, “sincere, real”, and marks it as a character made by joining two meanings. A person standing by a word: to be 信 is to be someone whose saying and doing are the same. It is more than “sincerity”, which is a feeling. It is closer to “reliable”, and it also means the trust that others then give. The Laozi values it and worries about it: “when trust is not enough, there is no trust in return” (17); “true words are not beautiful, beautiful words are not true” (81). Water has its own kind of 信. It always runs down. It always finds its level. It shows a face as it is. How many of your words today could a person lean on?",
+      "src": [
+        "Shuowen Jiezi, 言部: 信，誠也。从人从言。會意。",
+        "Laozi 17, 81"
+      ]
+    },
+    "zheng": {
+      "kind": "gap",
+      "title": "正善治: water as the level",
+      "body": "正 is “straight, upright”. Early texts often write it for 政, “to govern”, and most readers take the line so: in government, the good is order. Confucius made a famous pun on the pair: 政者，正也, “to govern is to set straight”. Now the Shuowen’s definition of water: 水，凖也, “water is the level”. Builders in China found the horizontal with a trough of water, and the modern word for “standard” is still 水準, “water level”. Water is the one thing that makes itself perfectly even with no command. And 治, “order”, is written with the water radical; passage 3 told the story of flood control behind it. So in this line three water ideas meet: the straight, the level, and the channelled. Order here is the evenness of a pond when the wind stops. No rule imposes it.",
+      "src": [
+        "Shuowen Jiezi, 水部: 水，凖也。",
+        "Analects 12.17"
+      ]
+    },
+    "shi": {
+      "kind": "etymology",
+      "title": "時: time as season",
+      "body": "時 has the sun, 日, on the left. The Shuowen defines it as 四時也, “the four seasons”. That is the first sense of “time” in Chinese: a time for a thing, as there is a time to plant. It is not first an empty line on which events are placed. From it came 時 as “the right moment”, a main virtue in every school. Mencius gave Confucius his highest title with this word: 聖之時者, “the sage who was timely”. Farmers, generals, and ministers all lived by it. 動善時 says: in moving, the good is the season. Water is the example again. It freezes in winter and runs in spring; it waits behind a stone and goes when the level rises. It is never early. See the third plate.",
+      "src": [
+        "Shuowen Jiezi, 日部: 時，四時也。从日寺聲。",
+        "Mencius 5B1"
+      ]
+    },
+    "rhyme": {
+      "kind": "wordplay",
+      "title": "The seven lines are a song",
+      "body": "Each of the seven lines has three characters, with 善 in the middle each time. The last words rhyme in two sets. 淵, 仁, and 信 belong to one old rhyme group (真); the silk reading 天 belongs to it also. Then 治, 能, and 時 belong to another group (之), and the last word of the passage, 尤, joins them. Only the first line, 地, stands outside. So the list was made for the ear: a drum beat of three, the same word in the centre seven times, and two runs of rhyme. In Mandarin the rhymes are mostly lost. Read the lines aloud all the same: jū shàn dì, xīn shàn yuān. The fixed middle word works like the water of the passage. It does not move, and everything else is arranged round it."
+    },
+    "you": {
+      "kind": "gap",
+      "title": "無尤: no blame",
+      "body": "尤 is “fault”, “blame”, and also “resentment”: the grudge that others hold against a person. 無尤 is close to phrases in the Book of Changes, where a line of a hexagram is judged “no blame”. So the close of the passage sounds like a verdict from divination. The logic is simple. Blame and grudge need a contest: a winner whom the loser can resent, a claim that can be called false. A thing that does not [[pull|buzheng]] against anyone leaves no loser. The text does not say that such a person is praised. It says there is no 尤. Compare the close of passage 2: only by not dwelling in the work does the work not leave. The form is the same: 夫唯不…, “only by not…”. The book states many of its results in this way, as an absence."
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “excellence”",
+      "body": "Legge writes “excellence” for 善 throughout: “The highest excellence is like (that of) water.” It is a fair choice, because it keeps skill and worth together. His brackets then show a problem with the seven lines. He must add nouns: “(the suitability of) the place”, “(the conduct of) affairs”, “(the initiation of) any movement”. The Chinese gives one bare word each time. For the heart he has “abysmal stillness”. For 與善仁 he has associations “with the virtuous”, a Victorian rule about the company one keeps. His list has six items for the seven lines; the line on words and faith has no clause of its own. At the close he adds a whole situation: one “does not wrangle (about his low position)”. The text says only [[不爭|buzheng]].",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Pour a glass of water",
+      "body": "Pour water slowly from a jug into a glass and watch it. It goes down. It takes the shape of the glass at once and keeps no shape of its own. It finds its level and becomes still. It does not argue with the glass. Then drink it; it benefits you and asks for nothing. Now carry one of the seven lines for the day. Choose 動善時: in moving, the right time. Before you speak in a meeting, send a message, or start a task, ask one question: is this the season for it? Wait if it is not. Water behind a stone is not weak. It is early, and it knows it."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has three parts. First a statement and its reason: the [[highest good|shangshan]] is like water, because water is [[good at benefiting|shanli]] all things, [[does not contend|buzheng]], and stays in [[the place people hate|wu]]. For this it is [[near to Dao|ji]], and only near. Second, [[seven lines|seven]] of three characters each, with 善 in the middle of every one: ground, depth, giving, faith, order, ability, season. They [[rhyme|rhyme]]. Third, a close that returns to the opening: only by not contending is there [[no blame|you]]. The word 善 is used nine times and never defined. The passage defines it by pointing at water.",
+    "inner": "Water has no shape of its own and no place that it insists on. For a contemplative reader this describes a mind that has stopped defending a position. Such a mind goes where it is needed. It can stay with [[what people avoid|wu]]: boredom, grief, the unlovely person, the low task. It does not need to rise above them. The second line of the seven is the centre: [[the heart is good when it is deep|xin-yuan]]. A shallow heart splashes at each thing that falls into it. A deep one receives the same thing and stays still. The passage says that water is only [[near|ji]] to Dao, because water is still something. That is honest about practice too. A calm, yielding mind is close to the matter. It is not the matter itself.",
+    "leading": "The passage reverses the usual map of an organization, where the good places are at the top. Water goes to [[the low place|wu]], the work that nobody wants, and the text calls that place nearest to Dao. A leader of this kind is useful to everyone and is in a contest with no one, and so has no enemies to manage. The seven lines are a short job description. Take a position on [[solid ground|seven]]. Keep a deep heart. Give [[as heaven gives|yu-ren]], with no favorites. Let your word be something that [[people can lean on|xin]]. Govern so that things find [[their own level|zheng]]. Be competent. Move [[at the right time|shi]]. Sunzi used the same water to teach how to win. This passage says nothing of winning. It says [[no blame|you]].",
+    "body": "Water is the master image of the soft arts. It sinks: the weight goes down to the feet and the low belly. It takes the shape of what it meets: the body does not set itself against a push but fits round it. It [[does not pull|buzheng]] against force, and yet nothing wears stone as it does (passage 78). The seven lines can be read as movement instruction. 居善地: know your ground and stand on it well. 心善淵: keep the centre deep and quiet. 動善時: [[move at the right moment|shi]], neither before the opening nor after it. Timing and not speed is what makes a throw or a strike work. Try one walk today as water would walk: weight low, no hurry, round each thing in the way.",
+    "nature": "Follow one raindrop. It falls on a ridge and at once starts down. It does not choose the clean path; it goes into the soil, the ditch, the swamp, the places that [[people avoid|wu]]. On the way it feeds each root that it passes and keeps nothing. Where it stops, it becomes [[level|zheng]]: the only truly flat thing in a landscape is the surface of still water. In a deep bend of the river it turns slowly as a [[pool|xin-yuan]], and fish live there. It freezes and thaws [[by season|shi]]. In time it reaches the sea, the lowest place of all, which for that reason receives every river. The whole passage is this journey, written as ethics. The text’s one reservation is exact: water is [[near|ji]] to Dao.",
+    "practice": "Begin with the [[glass of water|practice]]. Then take the hardest line of the passage into one day: stay in the place the crowd hates. Find one such place within your reach. It may be the dull task that everyone leaves, the seat next to the person others avoid, or the role with no credit. Go there on purpose and be useful, and do not mention it. Watch for the wish to be seen as humble; that is one more way to [[contend|buzheng]]. At night, ask what the low place gave you."
+  },
+  "glyph": "水",
+  "plates": [
+    {
+      "c": "水",
+      "title": "A current, and what it levels",
+      "lesson": "This is a picture, and you can still see it. The centre stroke is the main current. The strokes at the sides are smaller streams or the broken water at the edge of the flow. The Shuowen reads it so: 象眾水並流, “it shows many waters running side by side”. Compare 川, a river, which is three lines of current with no breaks. Before the picture, the Shuowen gives a one-word definition that every reader of this passage should know: 凖也, “the level”. Water is what makes things even; the Shuowen defines the related word 準 as 平也, “flat”. It then adds the cosmology of its own time: water is the phase of the north. When 水 stands at the left of another character it shrinks to three drops, 氵, and in that form it is the most common meaning part in the script. You have met it in 沖, 淵, and 湛 in passage 4, and in 治, “order”, in passage 3. At the bottom of a character it can take another form, as in 泰. Its cousins by picture are worth learning together: 冰, ice, is water with two extra dots, by its modern parts; 永, “long, lasting”, looks like water with a dot and a bend on top and is commonly explained as a picture of long flowing streams. [[上善若水|ruoshui]]: the best good is like this four-stroke current.",
+      "brush": "Four strokes. The first is the centre: a vertical that comes straight down and ends in a hook that flicks up to the left. Everything hangs on it, so it must be truly upright. The second stroke is on the left: a short line to the right that turns and falls away to the lower left. It does not touch the centre stroke. Then the right side, in two. The third stroke is a short one that falls to the left and meets the centre. The fourth is the 捺: it starts at the same meeting point and sweeps down to the right, pressing and then lifting. Watch the difference between the two sides: the left hangs free, the right is joined. In cursive script the four strokes become one line that swings left and right like a stream over stones. In seal script the whole form is a set of curves that still look like water."
+    },
+    {
+      "c": "爭",
+      "title": "Two hands and one thing",
+      "lesson": "The Shuowen’s whole definition is one word: 引也, “to pull”. The usual explanation of the graph is a tug-of-war. At the top is a hand that reaches down: the form 爫, a short version of 爪, a hand or claw seen from above. In the lower part is another hand, the form that is written 又 when it stands alone and that here has become a shape like 彐. Between the two hands, and through the lower one, runs a long hooked line: the thing that both are pulling. The Shuowen says the character comes from 𠬪, a graph of two hands, one above and one below, with an added stroke. So the idea of contention in Chinese is concrete and symmetrical: one object, two grips, opposite directions. It has no word in it for anger or for right and wrong. Its cousins, in which the Shuowen marks 爭 as the sound, keep the pull in other materials: 箏, the zither, whose strings are stretched tight; 諍, to remonstrate, a pull made with words; 淨, clean; 靜, stillness. The last is the surprise: the word for quiet contains the word for struggle, and [[Silk A|buzheng]] is reported to write 靜 for 爭 in this passage. The simplified form 争 has lost the upper hand’s fingers. Water does not contend, and water has no hands.",
+      "brush": "Eight strokes. The upper hand takes four: a flat stroke written from right to left, then two dots, then a short stroke that falls to the left. These are the fingers, and they should spread like a small fan. Then the lower hand: stroke five is a horizontal that turns the corner and comes down the right side. Stroke six is the long horizontal through the middle; it sticks out on both sides and is the widest line of the character. Stroke seven closes the bottom. Then the last stroke: a vertical that starts at the top of the lower hand, runs down through all three horizontals, and ends in a hook to the left. Watch it. It is the rope, and it is written last, after both hands are in place. If it leans, the whole contest falls over. The top is light and open, the middle is wide, and the hook at the foot is sharp."
+    },
+    {
+      "c": "時",
+      "title": "The sun’s seasons",
+      "lesson": "On the left is 日, the sun. In the oldest script it is a circle with a mark inside; brush and chisel made it a rectangle. As a meaning part it gives light and time: 明, bright; 早, early; 昏, dusk; 春, spring. On the right is 寺. In this character the Shuowen takes 寺 only as the sound: 从日寺聲. Alone, 寺 was a government office in the Han, and later it became the common word for a Buddhist temple. An old form of 時 is commonly cited that has no 寺 at all: 旹, with 之, “to go”, above the sun. That older form is a small sentence: the sun goes. The Shuowen’s definition is 四時也, “the four seasons”. So the first Chinese word for time is a word about the sky and the farm: the sun’s position decides what work is due. The sound part has a family, and each is marked as a sound-compound in the Shuowen: 詩, a poem, has speech; 持, to hold, has a hand; 恃, to lean on, has a heart, and you met it in passage 2. 持 opens passage 9. In modern Chinese 時間, “time-gap”, is clock time, a term fixed in the modern period. The line here needs the old sense: 動善時, move in season. The simplified form 时 keeps the sun and a hand.",
+      "brush": "Ten strokes. The sun first, in four: the left side, then the top and right side in one turn, then the short line in the middle, then the base. As a left part it is narrow and is set a little high. Then 寺 in six. A short horizontal, a vertical through it, and then stroke seven, a long horizontal. Watch it: it is the widest line of the right half, and it lies level with the middle of the sun. Below it comes one more horizontal, shorter. Stroke nine is the vertical with a hook at its foot; it stands to the right of centre. The last stroke is a dot in the angle of the hook. The left part is small and still. The right part is tall, with three level lines at different lengths and a hook at the foot."
+    }
+  ]
+}

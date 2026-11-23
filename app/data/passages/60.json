@@ -1,0 +1,224 @@
+{
+  "n": 60,
+  "title": "A Small Fish in the Pot",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "治大國，若烹小鮮。",
+      "gloss": {
+        "0": "to govern, to put in order",
+        "1": "great: one of the big powers",
+        "4": "to be like",
+        "5": "pēng: to cook in a pot, to boil",
+        "7": "xiān: fresh fish (also “fresh”; xiǎn: rare)"
+      }
+    },
+    {
+      "text": "以道莅天下，其鬼不神；",
+      "gloss": {
+        "2": "lì: to come to and oversee, to preside over",
+        "7": "ghosts: the human dead",
+        "9": "to be potent, to work wonders (a verb here)"
+      }
+    },
+    {
+      "text": "非其鬼不神，其神不傷人；",
+      "gloss": {
+        "0": "it is not that…",
+        "7": "spirit-force (now a noun)",
+        "9": "to wound, to harm"
+      }
+    },
+    {
+      "text": "非其神不傷人，聖人亦不傷人。",
+      "gloss": {
+        "9": "also, too"
+      }
+    },
+    {
+      "text": "夫兩不相傷，故德交歸焉。",
+      "gloss": {
+        "1": "the two, both sides",
+        "3": "each other",
+        "8": "crossing; from both sides",
+        "9": "to go home, to return",
+        "10": "yān: there, to it"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Ruling a great state|da-guo]]",
+    "is like the [[cooking|peng]] of [[a small fish|xiao-xian]].",
+    "",
+    "With the Dao [[presiding over|li]] all under heaven,",
+    "its [[ghosts|gui]] [[have no spirit-force|bu-shen]].",
+    "[[It is not that|fei]] its ghosts have no spirit-force:",
+    "their spirit-force [[does not harm|shang]] people.",
+    "It is not that their spirit-force does not harm people:",
+    "[[the sage|shengren]] also does not harm people.",
+    "",
+    "Now [[the two|liang]] do not harm each other,",
+    "so [[de|de]] [[crosses and comes home there|jiao-gui]]."
+  ],
+  "notes": {
+    "da-guo": {
+      "kind": "geopolitics",
+      "title": "大國: the big powers",
+      "body": "By the time this book took shape, seven large states had eaten the rest. Each had a million or more people, a paid bureaucracy, and a conscript army. A ruler of such a state had tools that no earlier king had: population registers, written law, grain taxes, and ministers who offered plans to make the state rich and its army strong. The plans had a name, 變法, “to change the laws”, and the great reformers, Li Kui in Wei, Wu Qi in Chu, Shang Yang in Qin, each turned a state upside down. So “how do you rule a great state?” was the question that every court asked, and the expected answer was a programme. The answer here is a kitchen image of seven characters. Wang Bi draws out the rule of scale in it: 其國彌大，而其主彌靜, “the larger the state, the stiller its lord”. More power calls for less handling.",
+      "src": [
+        "Wang Bi commentary on Laozi 60"
+      ]
+    },
+    "peng": {
+      "kind": "history",
+      "title": "烹: the cook and the cauldron",
+      "body": "烹 is to cook in a pot over fire: the four dots at the foot, 灬, are flames. Cooking was a serious image of rule. The bronze cauldron, 鼎, was the emblem of a dynasty; to “ask the weight of the cauldrons” was to threaten the throne. The model minister of legend, Yi Yin, was a cook, who is said to have won the first Shang king by a talk on how tastes are blended. To “blend the cauldron” stayed a phrase for a chief minister’s work. There was a dark side to the word. 烹 was also a punishment: a man could be boiled alive, and kings of the time did it to officials and envoys. Every reader knew both pots. The line picks the gentlest dish possible. The state is in the pot either way. How hot is the fire, and how often does the hand go in? See [[the fish|xiao-xian]].",
+      "src": [
+        "Shiji, “Yin benji” (Yi Yin)",
+        "Zuozhuan, Xuan 3 (the weight of the cauldrons)"
+      ]
+    },
+    "xiao-xian": {
+      "kind": "etymology",
+      "title": "小鮮: do not gut, do not scale, do not stir",
+      "body": "鮮 is 魚, fish, beside 羊, sheep. It means fresh fish, and then “fresh” in general. The Shuowen treats it as the name of one kind of fish from the far northeast, and says that the sheep side only gives the sound. A small fresh fish goes into the pot whole. The Han commentary of Heshang Gong gives the cook’s rule: 烹小魚不去腸，不去鱗，不敢撓，恐其糜也. “When you cook small fish you do not take out the gut, you do not take off the scales, and you do not dare to stir, for fear that they turn to mush.” The skill is all in restraint: low heat, and patience. A cook who turns the fish again and again to check it serves a plate of flakes. Note what the image does not say. The fish is still cooked. The fire is lit, and someone watches the pot. [[Han Feizi|hanfei]] gave the first political reading.",
+      "src": [
+        "Shuowen Jiezi, 魚部: 鮮，魚名。出貉國。从魚，羴省聲。",
+        "Heshang Gong commentary on Laozi 60"
+      ]
+    },
+    "hanfei": {
+      "kind": "geopolitics",
+      "title": "Han Feizi: do not keep changing the law",
+      "body": "The oldest comment on the line is by the Legalist Han Feizi, and it is exact: 烹小鮮而數撓之，則賊其澤；治大國而數變法，則民苦之. “Cook a small fish and stir it often, and you ruin its gloss. Rule a great state and change the laws often, and the people suffer for it.” His point is about the cost of change. Each time a craftsman changes trade, he says, work is lost; a state of many people that shifts its rules loses that much on a vast scale. So the ruler who has the Way values stillness and does not alter the law lightly. This is a narrower lesson than the passage gives. Han Feizi wants firm law that is left alone; the Laozi is not sure that the law should be there. But the two meet on one thing: the urge to adjust is itself the damage. How often do you stir? The line has had [[a modern career|president]] too.",
+      "src": [
+        "Han Feizi, “Jie Lao” (解老)"
+      ]
+    },
+    "president": {
+      "kind": "history",
+      "title": "The fish in a modern speech",
+      "body": "The first line has had a second life in the West as a maxim of small government. In January 1988 President Ronald Reagan quoted it to Congress in his yearly address, and added the lesson that one should not overdo it. It was perhaps the largest audience that a line of the Laozi has had in one evening. The use was fair to Han Feizi’s reading and to the kitchen. It left out the rest of the passage. The Chinese text goes straight from the pot to ghosts, spirits, and a sage who is counted among the things that can hurt people. A line about restraint in budgets was, in its own setting, the opening of a line of thought about religion, fear, and the state. What happens to a saying when only its first seven characters travel?",
+      "src": [
+        "Ronald Reagan, State of the Union address, 25 January 1988"
+      ]
+    },
+    "li": {
+      "kind": "variant",
+      "title": "莅: to preside; the silk texts say “stand”",
+      "body": "莅 (also written 蒞) is a formal verb: to arrive at a place and look over it from above, as a lord comes to court or an official to a post. 以道莅天下 is, word for word, “by-Dao-preside-all-under-heaven”. No subject is given. We wrote “with the Dao presiding”, which makes the Dao the one in the high seat; a version with “when a ruler uses the Dao to oversee the world” is equally possible and adds a ruler. The silk texts are reported to read 立: 以道立天下. 立 is a person who stands on the ground, 从大立一之上, and it means “to set up, to establish”; it was also an early way to write 位, a position at court, and so “to take one’s place”. Either way the picture is of where one stands in relation to the realm. The pot of the first line had a cook. This line asks who, or what, stands over the pot.",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported): 以道立天下",
+        "Shuowen Jiezi, 立部: 立，住也。从大立一之上。"
+      ]
+    },
+    "gui": {
+      "kind": "history",
+      "title": "鬼: the dead who need a home",
+      "body": "鬼 are ghosts, and in early China that means the human dead. The Shuowen defines the word by a pun: 人所歸爲鬼, “that which a person goes home to be is a 鬼”. The two words sounded alike: 鬼 and 歸, “to return”. A ghost with descendants was fed at [[the sacrifices|shang]] and was at peace. A ghost with no one, or one who died by violence or injustice, was hungry and came back to haunt. In 535 BCE the capital of Zheng was in terror of the ghost of a murdered noble. The minister Zichan gave the man’s son an office, so that the offerings could start again, and the hauntings stopped. He explained: 鬼有所歸，乃不為厲, “when a ghost has a place to go home to, it does not become a demon”. So ghosts were a political fact. A realm with many wronged dead is a haunted realm. Now look at the last line of the passage: its verb is 歸.",
+      "src": [
+        "Shuowen Jiezi, 鬼部: 鬼，人所歸爲鬼。从人，象鬼頭。鬼陰气賊害，从厶。",
+        "Zuozhuan, Zhao 7"
+      ]
+    },
+    "bu-shen": {
+      "kind": "gap",
+      "title": "不神: “spirit” as a verb",
+      "body": "其鬼不神 is four words: “its ghosts do not 神”. 神 is usually a noun: a spirit, a god, the higher powers of sky and mountain, as against 鬼, the dead. Here it is a verb or an adjective: to be potent, to act with uncanny force, to work wonders. English has no such verb, and [[Legge|legge]] reached for Latin. “Its ghosts are not spiritual” is wrong, and “do not manifest” is thin. We wrote “have no spirit-force”. In the next line the same word is a noun: 其神, “their spirit-force”. English also divides the unseen into ghosts, spirits, gods, and God, with walls between. The Chinese pair 鬼神 covers the whole range in two syllables, and a dead human can rise along it. The text does not ask if they exist. It says what they do under a certain kind of rule. The Shuowen defines 神 as 天神，引出萬物者也, “the spirits of heaven, which draw out the ten thousand things”; its right side, 申, is commonly explained as lightning."
+    },
+    "fei": {
+      "kind": "wordplay",
+      "title": "非…: a staircase of corrections",
+      "body": "The middle of the passage moves by taking back what it has just said. A: the ghosts have no force. No, not A; rather B: their force does not harm people. No, not just B; rather C: the sage, too, does not harm people. 非 is “it is not that”. Each step repeats the last clause in order to push off from it. The figure is a kind of chain, like the one in the passage before, but here every link is a correction. Why write this way? It lets the text say a thing and decline to stand on it. The crude claim, “good rule makes ghosts powerless”, is the folk belief. The text touches it and moves on, twice, until it arrives where it wants to be: at the sage, and at harm. The ghosts were the door. By the third step the subject is what a ruler does to people."
+    },
+    "shang": {
+      "kind": "gap",
+      "title": "傷人: how spirits hurt, how rulers hurt",
+      "body": "傷 is a wound; the Shuowen says 創也, “a cut”. How do spirits wound people? In the belief of the time: by sickness, madness, bad harvests, floods, and deaths that have no clear cause. The cure was to find which spirit was offended and pay it with offerings, and a great part of the wealth of households and states went that way, until [[a later religion|church]] refused to pay. How does a sage, which here means a ruler, wound people? By punishments, wars, labour service, and taxes. The line puts the two in one list with the small word 亦, “also”. That is a bold step. The ruler stands beside the angry dead as a source of harm that falls on people from above. A state can be a haunting. In the same century the Mohists argued the reverse: that belief in sharp-eyed ghosts who punish is good for order, and should be taught. Which side would a ruler prefer?",
+      "src": [
+        "Shuowen Jiezi, 人部: 傷，創也。",
+        "Mozi, “Ming gui” (明鬼)"
+      ]
+    },
+    "shengren": {
+      "kind": "wangbi",
+      "title": "聖人: a sage nobody notices",
+      "body": "聖人, “the sage”, is not a saint or a wise old man. In this book it is the ruler as the ruler should be: one who is tuned to how things go and governs by that. Wang Bi’s comment here shows what the title is worth: 神不傷人則不知神之為神…聖人不傷人則不知聖人之為聖也. “When the spirits do not harm people, people do not know that the spirits are spirits. When the sage does not harm people, people do not know that the sage is a sage.” Power is noticed when it hurts. He goes on: 夫恃威網以使物者，治之衰也。使不知神聖之為神聖，道之極也. “To rely on a net of awe in order to drive things is rule in its decline. To bring it about that people do not know the spirits and the sages to be spirits and sages is the height of the Way.” The best ghost is one that you never hear of. So is the best government.",
+      "src": [
+        "Wang Bi commentary on Laozi 60"
+      ]
+    },
+    "liang": {
+      "kind": "variant",
+      "title": "兩: which two?",
+      "body": "夫兩不相傷: “now the two do not harm each other”. The text does not say which two, and readers have three answers. One: the spirits and the sage; neither harms people, and neither works against the other. That is Wang Bi’s. Two: the spirits and the people; the dead and the living leave each other in peace. Three: the ruler and the people; Han Feizi reads it so and says that the people then do not offend the law, and those above do not punish. The silk texts add fuel. They are reported to read 聖人亦弗傷也: “the sage also does not harm them”, with no 人, “people”, and the object left open. “Them” could be the spirits. Then the line says that the sage does not hurt the ghosts, and the ghosts do not hurt the sage’s people: a peace treaty between the visible and the unseen. 相 is “each other”, so the harm that stops goes both ways.",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported): 聖人亦弗傷也",
+        "Han Feizi, “Jie Lao”"
+      ]
+    },
+    "de": {
+      "kind": "gap",
+      "title": "德: the last word is not “productivity”",
+      "body": "德 is left as “de”: the power and good that a thing has by being what it is. “Virtue” makes it moral, and “power” makes it force. Here it is close to “benefit” or “well-being”, but with its source kept: it is the good that flows where nothing blocks it. The passage does not say that the sage gives 德 to the people. No giver is named. It says that when harm stops on both sides, 德 comes. Modern versions for managers write “energy” or “productivity” at this point. The word in the Chinese is the one in the title of the book, and it arrives by itself, as the next note shows. Han Feizi glosses it from the people’s side: when those above and those below do not hurt each other, their 德 is heaped up together and all of it goes home to the people."
+    },
+    "jiao-gui": {
+      "kind": "etymology",
+      "title": "交歸: crossing, and going home",
+      "body": "交 is two things that cross. The Shuowen’s entry is a small drawing in words: 交脛也。从大，象交形, “crossed shins; a person, 大, with the legs crossed”. From there: to meet, to exchange, on both sides, mutually. 歸 is to go home. The Shuowen’s first sense is a wedding: 女嫁也, “a woman marries”: she goes to the house where she will belong. It is the verb for rivers that go to the sea, for the dead who go to the earth, and for people who give their loyalty to a ruler who deserves it. So 德交歸焉 is: “de, from both sides, comes home there”. 焉 is “there, to that place”. Where? To the people, to the two that do not harm each other, or to the realm. And hear the pun from [[the note on ghosts|gui]]: 鬼 was defined as 歸. The passage begins its second part with ghosts that have nowhere to go and ends with 德 that comes home.",
+      "src": [
+        "Shuowen Jiezi, 交部: 交，交脛也。从大，象交形。",
+        "Shuowen Jiezi, 止部: 歸，女嫁也。从止，从婦省，𠂤聲。"
+      ]
+    },
+    "church": {
+      "kind": "history",
+      "title": "When Daoists made it a rule",
+      "body": "Four hundred years later a new religion took this passage at its word. The Way of the Celestial Masters began in Sichuan in the second century CE. It held Laozi to be a god, and it recited this book. Its “pure covenant” with the unseen world, as a Daoist of the fifth century sets it out, had two famous clauses: the gods do not eat or drink, and the master takes no money. That meant an end to the bloody and costly sacrifices by which villagers bought off dangerous spirits of the dead. The old ghosts were declared “stale”, without force. In their place were written petitions to an orderly heaven, and confession of faults. It is 其鬼不神 as church policy. Later, the Tang emperors, whose family name Li was that of Laozi, claimed him as an ancestor and wrote their own commentary on the book. So the passage about quiet ghosts became the charter of a church, and then the family scripture of a throne.",
+      "src": [
+        "Lu Xiujing, Daomen kelüe (陸先生道門科略): 神不飲食，師不受錢"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “manes”",
+      "body": "For 鬼 Legge writes “the manes of the departed”. Manes is a Latin word, the spirits of the dead in Roman religion. A Victorian scholar could say in Latin, at a safe distance, a thing that in plain English, “ghosts”, would sound like superstition or like the Holy Ghost. For 神 he writes “spiritual energy”, a phrase of his century; and the ghosts do not “manifest” it, which is the language of the séance, then in fashion. He makes the sage “the ruling sage”, which is right, and has the 德 of both “converge in the virtue (of the Tao)”, with the Tao added in a bracket. His first line is plain and good, and it is the form in which the saying entered English. The missionary’s unease shows only where the dead come in. He translated the kitchen with ease and the religion with care.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Cook the fish",
+      "body": "Do it for real once. Buy a few small whole fish, or take any food that breaks easily: a soft egg, a ripe pear in syrup, a fillet. Put it on low heat and cook it without touching it more than once. Watch what your hand wants to do. It wants to lift, to check, to turn, to press. Each of those is care, and each one harms. Notice the difference between attention, which stays with the pot, and handling. Then carry the two words into one thing that you are in charge of this week: a child’s homework, a colleague’s draft, a plant, your own mood. Give it attention, and count your handlings. The cook of small fish is not absent. The cook stands at the stove the whole time."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has a famous first line and a strange remainder. Line one is a likeness: [[a great state|da-guo]] is ruled as [[a small fish|xiao-xian]] is [[cooked|peng]]. Then the scene widens to all under heaven and to the unseen. With the Dao [[over|li]] the realm, the [[ghosts|gui]] [[lose their force|bu-shen]]; the text [[corrects itself twice|fei]], and comes to rest on harm: the spirits do not hurt people, and [[the sage|shengren]] “also” does not. The close says that [[the two|liang]] do not harm each other, and so [[德|de]] [[comes home from both sides|jiao-gui]]. The verb 傷, to wound, comes four times in forty-eight characters. That is the real subject. The fish, the ghosts, and the sage are three cases of one thing: a delicate body in the hands of a power that can ruin it by handling.",
+    "inner": "Read the realm as yourself, and the ghosts as your own dead: old fears, old griefs, wrongs that you did and that were done to you. They do not go away. The text is careful here. [[非其鬼不神|fei]]: it is not that they have no force. What changes is that the force does not wound. A memory can be present and not be a haunting. How? The passage gives one instruction, and it is the first line: do not keep turning it over. A mind that handles its ghosts, that checks them, argues with them, tries to drive them out, feeds them. A mind that the Dao [[presides over|li]], which is to say a mind that is not being run by a nervous manager, gives them [[a place to go home to|gui]]. Then the inner ruler, too, stops being a source of harm, and 德 has room to return.",
+    "leading": "Three lessons for one who runs anything large. First, [[the cook’s|xiao-xian]]: the bigger and more delicate the thing, the less you may handle it. Reorganizations, new rules, and constant checks are stirring; [[Han Feizi|hanfei]] counted their cost, and the people pay it. Attention is not the same as handling. Second, the ghosts. Every institution has its unquiet dead: people who were wronged, old injuries that nobody names, fears that govern behaviour from the dark. A leader cannot abolish them by decree. Where rule is fair and light, they lose their grip, and nobody needs to speak of them. Third, [[Wang Bi’s|shengren]]: authority that is felt as authority is already in decline. Count yourself, as the text does, among the things that can hurt people. That one word, 亦, “also”, is the best check on a ruler in the book.",
+    "nature": "Things that are small and whole are damaged by handling: a seedling that is dug up to see if the roots have grown, a nest that is visited too often, a pond that is stirred. Ecologists have a hard-won rule that the first act of care is to stop the disturbance and wait. The passage then says a thing about fear in a landscape. Where people live at war with a place, it is full of dangerous spirits: every forest and river has one that must be bought off. Where they live well with it, the same forest is only a forest. Its powers are still there, as [[the text insists|fei]], and they do not strike. Both sides stop harming, and the good of each [[flows to the other|jiao-gui]].",
+    "practice": "[[Cook the fish|practice]], in the kitchen and then in one piece of work. And once this week, when an old [[ghost|gui]] visits, a shame, a grudge, a dread, do not stir it. Do not argue with it or push it out. Give it a place: say what it is, let it sit, and turn back to what is in front of you. See if its force, which may remain, still wounds."
+  },
+  "glyph": "鮮",
+  "plates": [
+    {
+      "c": "鮮",
+      "title": "Fish and sheep",
+      "lesson": "Two animals side by side: 魚, a fish, and 羊, a sheep. Start with the fish, since it is one of the clearest pictures left in the script. The Shuowen says 水蟲也。象形, “a creature of the water; a picture”, and adds a detail that only a careful eye would give: 魚尾與燕尾相似, “the tail of the fish looks like the tail of the swallow”. Read 魚 from the top: the head, then the body with its scales, drawn like 田, then the tail. The four dots at the bottom are that tail. They look like 灬, fire, and they are fire in 烹, [[the cooking word|peng]] beside it in the passage, but here they are fins. 羊 is also a picture, and the Shuowen quotes Confucius on it: 牛羊之字以形舉也, “the characters for ox and sheep are raised from their shapes”: two horns on top, a face, a body line. The sheep is in many good words: 美 (beautiful), 善 (good), 義 (right), 養 (to feed), 祥 (a good sign). Fish and mutton together make people think of a full table, and many readers explain 鮮, “fresh, delicious”, that way. The Shuowen is cooler: 鮮 is the name of a certain fish, and the sheep half, short for 羴, three sheep, only marks the sound. Hold the feast as a memory aid. Read as xiǎn the same character means “rare, few”.",
+      "brush": "Seventeen strokes: eleven for the fish, six for the sheep. The fish: a short stroke that falls to the left; a horizontal that turns and falls back to the left, which makes the head; then the body as a box with a cross (a left vertical; the top and right side in one stroke; a horizontal inside; a vertical inside; the closing base); then four dots in a row, the first leaning left and the other three leaning right. As a left-hand part the fish is tall and narrow, and its dots climb a little to the right to make room. The sheep: two small strokes at the top that lean toward each other, the horns; three horizontals, of which the third is the longest; and last a vertical through all three, straight down, ending in a point. Watch that final vertical. It is the longest line in the character and hangs below the fish’s tail."
+    },
+    {
+      "c": "鬼",
+      "title": "A person with a strange head",
+      "lesson": "The Shuowen’s entry is one of its best, since it gives a pun, a picture, and a warning in one line. The pun: 人所歸爲鬼, “what a person goes home to be is a 鬼”; 鬼 and 歸, “to return”, sounded alike. The picture: 从人，象鬼頭, “from 人, a person, and it shows a ghost’s head”. The top of the character, a large square head with a stroke above it, is a head that is not a living human’s: commonly explained as a mask, or the oversized head of a figure seen in fear. Under it are the two legs of a person. The warning: 鬼陰气賊害，从厶, “the dark breath of ghosts harms by stealth, so it has 厶”. 厶 is the small hooked part at the lower right, the sign of what is private and crooked. A ghost, then, is a person, changed at the head, with a hidden hook. The character is a radical, and its family is the unseen side of a human being: 魂, the soul that rises like cloud (the Shuowen: 陽气也); 魄, the soul that stays with the bones (陰神也); 魅, a spirit that charms; 魔, a demon, a character made much later for a Buddhist word. Beside them stand 醜, “ugly”, and 畏, “to fear”, which the Shuowen explains as a ghost’s head with a tiger’s claws. The passage does not deny any of it. It says [[when the hook does not catch|bu-shen]].",
+      "brush": "Nine strokes. A short stroke that falls to the left sits on top. Then the head: a vertical on the left; a horizontal that turns down on the right; a horizontal inside; a horizontal that closes the box. The sixth stroke starts inside the head at the centre, comes down through the base, and curves away to the left: the first leg. The seventh starts under the head, goes down, bends to the right, runs along the floor, and hooks up: the second leg, and the longest stroke. Then the hook of stealth, two strokes tucked above that long floor-line: a stroke that falls left and turns back right, and a dot. Watch the seventh stroke. It must sweep far to the right to carry the 厶 on its back. In running script the head is closed in one turning stroke, and the hook of stealth becomes a single flick."
+    },
+    {
+      "c": "烹",
+      "title": "An offering over the fire",
+      "lesson": "The bottom is fire: 灬, the four-dot form that 火 takes under another part, as in 煮 (to boil), 熟 (cooked, ripe), 熱 (hot), and 然 (to burn; then “so”). The top is 亨. That part has a history of its own. The Shuowen has no 烹 and no 亨; it has an older character, 亯, which it defines as 獻也, “to offer up”, and describes as 象進孰物形, “the shape of cooked things being presented”. It quotes the Classic of Filial Piety: 祭則鬼亯之, “at the sacrifice, the ghosts enjoy it”. From that one old graph three modern ones came, by small changes of the brush: 享, to offer and to enjoy; 亨, the success that follows an offering that is accepted, a key word of the Book of Changes; and, with fire added, 烹, to cook. So the cooking word in the first line has an altar in its past. Food was first cooked for the dead. That makes a bridge that the English reader cannot see: the pot of line one and the [[ghosts|gui]] of line two belong to one scene, a sacrifice. The quotation in the dictionary even names them together. The same root has a cruel branch, since 烹 was also [[a way to execute|peng]]. All of this is in the kitchen where the fish is cooking.",
+      "brush": "Eleven strokes. A dot on top, then a horizontal: the lid. Then a small mouth in three strokes: a vertical; a horizontal that turns down; a closing horizontal. Then the lower part of 亨 in two strokes: a horizontal that turns and falls to the left in a short hook, and a vertical that curves and ends in a hook to the left. Then the fire, four dots from left to right: the first leans to the left, and the other three lean to the right, each a little larger than the one before. Watch the dots. They must sit on one level line and be spread wider than everything above, so that the pot stands on its flames. Keep the upper part narrow and tall. In running and cursive hands the four dots are often drawn as one wavy line, a single low flame, which is the right heat for a small fish."
+    }
+  ]
+}

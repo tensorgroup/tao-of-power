@@ -1,0 +1,108 @@
+{
+  "哀": {
+    "senses": [
+      "to grieve, to mourn; grief",
+      "the wailing of the bereaved in the funeral rites",
+      "to pity, to feel sorrow for",
+      "alas"
+    ],
+    "shuowen": "閔也。从口衣聲。",
+    "shuowenEn": "To mourn (閔: the mourner at the gate). From 口 (mouth), with 衣 (garment) for the sound.",
+    "parts": [
+      { "c": "衣", "m": "garment; gives the sound" },
+      { "c": "口", "m": "mouth" }
+    ],
+    "story": "哀 is the grief of the funeral: a mouth set inside the graph for a robe. The rites gave it a form, with set times for wailing and set clothes of coarse hemp. The Laozi uses the word twice, and both times in war. When many have been killed, weep for them with 哀 and sorrow; observe a victory with the rites of mourning (31). When raised weapons meet, the one who grieves wins (69). From the second line came a later proverb, 哀兵必勝: an army in mourning is sure to win.",
+    "gap": "“Sorrow” and “compassion” are feelings one may have at a distance. 哀 is ritual mourning, done aloud and in public, as for one’s own dead."
+  },
+  "兵": {
+    "senses": [
+      "a weapon; arms",
+      "a soldier; troops",
+      "war, military affairs",
+      "to strike with a weapon"
+    ],
+    "shuowen": "械也。从廾持斤，并力之皃。",
+    "shuowenEn": "A weapon. From 廾 (two hands) that hold 斤 (an axe); the look of strength joined together.",
+    "parts": [
+      { "c": "斤", "m": "axe (upper part, reshaped)" },
+      { "c": "廾", "m": "two hands (the two lower strokes)" }
+    ],
+    "story": "Two hands on an axe. The word spread from the weapon to the man, the army, and war. The Laozi speaks of 兵 often and never with pleasure. One who helps a ruler with the Dao does not force the world with 兵 (30). Fine weapons are tools of ill omen (31). The state’s sharp tools are not to be shown (36). A strong army does not win, as a stiff tree breaks (76). In passage 69 a saying of those who use 兵 is quoted, and its speaker grips a weapon that is not there. In the ideal small state there are arms and armour, and no occasion to display them (80).",
+    "gap": "English keeps “weapon”, “soldier”, “army”, and “war” apart. 兵 is one word, so a line about holding a tool is also a line about a state at war."
+  },
+  "客": {
+    "senses": [
+      "a guest, a visitor",
+      "a traveller; one who lodges away from home",
+      "a retainer at a lord’s court",
+      "(military) the army on foreign ground; the side that responds"
+    ],
+    "shuowen": "寄也。从宀各聲。",
+    "shuowenEn": "To lodge with another. From 宀 (roof), with 各 for the sound.",
+    "parts": [
+      { "c": "宀", "m": "roof" },
+      { "c": "各", "m": "gives the sound; commonly explained as a foot arriving at an entrance" }
+    ],
+    "story": "A guest is one who has arrived under another’s roof. In the Warring States the word also named the thousands of retainers and wandering experts who lived at the courts of great lords. Military writers used 客 for the army that operates in another’s territory, and 主, host, for the defender. The Laozi has the word twice. Music and fine food make the passing guest stop (35). The user of arms says: I do not dare to be host, and I am the guest (69). Some editions also have it in passage 15, where the masters of old are grave, like a guest.",
+    "gap": "“Guest” in English is a welcome friend. 客 stresses the outside: one who does not own the place, who waits on the host’s lead, and who will leave."
+  },
+  "主": {
+    "senses": [
+      "a master, a lord, a ruler",
+      "a host (against 客, guest)",
+      "the owner; the one in charge",
+      "to preside over, to take as the main thing"
+    ],
+    "shuowen": "鐙中火主也。",
+    "shuowenEn": "The flame in the middle of a lamp.",
+    "story": "The Shuowen explains 主 as the flame of a lamp: the bright point at the centre, on a stand. From it comes the sense of the one at the centre: lord, owner, host. The Laozi is cool toward the role. The Dao clothes and feeds the ten thousand things and does not act as their 主 (34). How can the 主 of ten thousand chariots treat his own body more lightly than the world? (26). One who takes on the state’s dirt is called 主 of the altars of soil and grain (78). In passage 69 the soldier’s saying refuses the place of 主, the host who begins.",
+    "gap": "“Master” and “lord” are ranks. 主 is also simply the host at a meal, the one who arranges things for others; the military sense grows from that."
+  },
+  "敵": {
+    "senses": [
+      "an enemy, an opponent",
+      "a match, an equal",
+      "to oppose, to be a match for"
+    ],
+    "shuowen": "仇也。从攴啻聲。",
+    "shuowenEn": "A counterpart, a foe. From 攴 (to strike), with 啻 for the sound.",
+    "parts": [
+      { "c": "啻", "m": "gives the sound" },
+      { "c": "攵", "m": "a hand with a stick; to strike" }
+    ],
+    "story": "敵 is the one who stands opposite and is equal to you: an enemy, and also a match. 無敵, “without a match”, is the old boast of the strongest. The Laozi uses the word in its two military passages. One good at beating an enemy does not engage (68). In passage 69 the received text warns against 輕敵, taking the enemy lightly; the Mawangdui silk texts, and Wang Bi’s own comment, have 無敵: no disaster is greater than to have no match. The silk texts write the word with the graph 適.",
+    "gap": "“Enemy” in English is a person one hates. 敵 is about balance: the party of equal weight on the other side. To have no 敵 is to have no counterweight."
+  },
+  "輕": {
+    "senses": [
+      "light (in weight)",
+      "to take lightly, to think little of",
+      "rash, quick, careless",
+      "a light, fast chariot"
+    ],
+    "shuowen": "輕車也。从車坙聲。",
+    "shuowenEn": "A light chariot. From 車 (cart), with 坙 for the sound.",
+    "parts": [
+      { "c": "車", "m": "cart, chariot" },
+      { "c": "坙", "m": "gives the sound" }
+    ],
+    "story": "The Shuowen’s first sense is a kind of vehicle: the light chariot that moves fast and carries little. From it come lightness and haste. The Laozi sets 輕 against 重, heavy. The heavy is the root of the light; the sage travels all day and does not leave the heavy baggage wagons; to be light is to lose the root (26). One who promises lightly is little trusted (63). People take death lightly because those above seek life too richly (75). In passage 69, to take the enemy lightly is nearly to lose the treasures.",
+    "gap": "English “light” is often praise: light-hearted, light on the feet. In the Laozi 輕 is nearly always loss of ballast."
+  },
+  "喪": {
+    "senses": [
+      "(sāng) a funeral; mourning; the rites for the dead",
+      "(sàng) to lose, as by death; to be bereft of",
+      "to destroy, to ruin"
+    ],
+    "shuowen": "亾也。从哭从亾。會意。亾亦聲。",
+    "shuowenEn": "To lose, to be gone. From 哭 (to wail) and 亾 (gone); a joined meaning. 亾 also gives the sound.",
+    "parts": [
+      { "c": "哭", "m": "to wail (upper part, reshaped)" },
+      { "c": "亡", "m": "gone, lost" }
+    ],
+    "story": "The Shuowen reads the graph as wailing over what is gone. As a noun it is the funeral and the period of mourning; as a verb it is to lose something as one loses the dead. The Laozi has it in two places, both about war. A victory in battle is to be observed with the rites of 喪 (31). To take the enemy lightly is nearly to 喪 my treasures (69). Wang Bi’s comment quotes the second line with the plainer verb 亡.",
+    "gap": "English “lose” is light: one loses a game or a pen. 喪 is bereavement. A thing that is 喪 is wept for."
+  }
+}

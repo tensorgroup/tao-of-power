@@ -1,0 +1,204 @@
+{
+  "n": 47,
+  "title": "Without Leaving the Door",
+  "theme": "seeing",
+  "zh": [
+    {
+      "text": "不出戶，知天下；不闚牖，見天道。",
+      "gloss": {
+        "1": "to go out",
+        "2": "hù: a door of one leaf; the door of the house",
+        "4": "to know; to recognise",
+        "9": "kuī: to peep, to look through a gap",
+        "10": "yǒu: a window cut in a wall",
+        "14": "way, course: here the course of heaven"
+      }
+    },
+    {
+      "text": "其出彌遠，其知彌少。",
+      "gloss": {
+        "2": "mí: the more …, the more … (in a pair)",
+        "6": "knowing, here a noun"
+      }
+    },
+    {
+      "text": "是以聖人不行而知，不見而名，",
+      "gloss": {
+        "5": "to walk, to travel",
+        "12": "to name; many read 明, to be clear, to understand"
+      }
+    },
+    {
+      "text": "不為而成。",
+      "gloss": {
+        "1": "to do, to act on, to make",
+        "3": "to complete; to come to completion"
+      }
+    }
+  ],
+  "rendering": [
+    "Without [[going out of the door|hu]],",
+    "[[know|zhi]] the world.",
+    "Without [[peeping through the window|kui]],",
+    "see [[heaven’s way|tiandao]].",
+    "[[The farther the going out|mi]],",
+    "the less the knowing.",
+    "",
+    "So [[the sage|sheng]]",
+    "[[does not travel, and knows|xing]];",
+    "does not see, and [[names|ming]];",
+    "[[does not act, and completes|wuwei]]."
+  ],
+  "notes": {
+    "hu": {
+      "kind": "etymology",
+      "title": "戶 and 牖: the room of passage 11",
+      "body": "The door and the window have been in the book before. In passage 11 a room was made by cutting them: 鑿戶牖以為室, and the use of the room was where it had nothing. Now someone is inside that room. 戶 is a door of one leaf; the Shuowen says 半門曰戶, “half a 門 is called 戶”, and you can see one half of 門 in it. 牖 is a window in a wall. The Shuowen entry for 牖 ends with a remark from an older scholar: 牖，所以見日, “the window is that through which one sees the sun”. So the second line is exact. People looked out of the 牖 to see the sky and to tell the hour and the season. The passage says that this too can be left. Nothing in it calls the house a prison. It is the most ordinary room in the world.",
+      "src": [
+        "Shuowen Jiezi, 戶部: 戶，護也。半門曰戶。象形。",
+        "Shuowen Jiezi, 片部: 牖，穿壁以木爲交窻也。… 牖，所以見日。",
+        "Laozi 11"
+      ]
+    },
+    "zhi": {
+      "kind": "gap",
+      "title": "知: what kind of knowing?",
+      "body": "If 知 means “to have information”, the first line is false. No one learns the price of grain in Qi by sitting at home. So the word must mean something else here, and English “know” does not help, because it covers facts, skills, and acquaintance alike. 知 in the Laozi is most often recognition: to know enough (44), to know the constant (16), to know the male and keep to the female (28). It is knowing how a thing goes. The world, 天下, is then not a list of events. It is a pattern of rise and fall, want and war, mother and child, and the pattern is complete in a single house and a single body. Passage 54 gives the method in two words. How do I know that the world is so? 以此, “by this”.",
+      "src": [
+        "Laozi 54"
+      ]
+    },
+    "kui": {
+      "kind": "etymology",
+      "title": "闚: a small look through a gap",
+      "body": "The verb in the third line is not “to look”. It is 闚, to peep. The graph has 門, a gate, around 規; the Shuowen defines it as 閃也, and it defines 閃 in turn as a person glimpsed in a gateway. Many editions write the word with a different top, 窺: 穴, a hole, over the same 規, and that graph the Shuowen glosses as 小視也, “a small look”. Gate or hole, the sense is one: a narrow, partial, slightly furtive view. The word was also used for spying on a neighbour state. So the line carries a quiet judgment. A look out of the window at the sky is a look through a slit. The one who studies heaven by peeping gets a slit of heaven. What is your window? How wide is the view from a screen?",
+      "src": [
+        "Shuowen Jiezi, 門部: 闚，閃也。从門規聲。",
+        "Shuowen Jiezi, 穴部: 窺，小視也。从穴規聲。"
+      ]
+    },
+    "tiandao": {
+      "kind": "gap",
+      "title": "天道: the course of the sky",
+      "body": "天道 is “the way of heaven”, and in this period the first meaning was concrete: the paths of sun, moon, and planets, the turn of the seasons. Court astronomers watched the sky each night, because the calendar and the omens of the state came from it. A statesman in the Zuo zhuan answers such an expert with a famous line: 天道遠，人道邇, “heaven’s way is far, the human way is near”. The Laozi uses it, as 天道 or 天之道, for a pattern that is seen above and holds below. It retires when the work is done (9). It does not contend and yet wins (73). It takes from what has surplus, like the bending of a bow (77). It has no favourites (79). It benefits and does not harm (81). “Nature” is too green a word for this, and “Heaven” with a capital is too near to a god.",
+      "src": [
+        "Zuo zhuan, Duke Zhao year 18",
+        "Laozi 9, 73, 77, 79, 81"
+      ]
+    },
+    "mi": {
+      "kind": "geopolitics",
+      "title": "彌遠: an age of travellers",
+      "body": "其出彌遠，其知彌少: eight characters in two halves that mirror each other, with 彌 … 彌, “the more … the more”. Hear it in its century. Learning then meant travel. A man of the shi class left home to find a teacher and then went from court to court to find a ruler. Confucius spent some fourteen years on the roads between the states. Mencius moved with a train of carts and followers. The strategists who sold alliances crossed the whole Zhou world. To have gone far was a credential. Against that whole economy of talent the line states an inverse law, [[strange to Western ears|west]], with no exception clause. It also turns on the word 出: the “going out” of the first line was through a door, and now it has a distance. [[Wang Bi|wangbi]] gives a reason; the Han Feizi gives [[another|body]]."
+    },
+    "sheng": {
+      "kind": "gap",
+      "title": "聖人: the sage is an ear",
+      "body": "We write “the sage” and must say what the word is not. 聖 is not “saint” or “holy”: no god stands behind it. It is not merely a wise old man. The Shuowen defines 聖 in one word, 通也, “to pass through, to be open all the way”, and places it under 耳, the ear; the old forms are commonly explained as a person with a large ear, with a mouth beside it. A 聖人 is first a listener: a person whose hearing is so open that things reach them without a journey. In the texts of the time the word also means the ideal ruler, the one fit to hold the world. This passage shows why the ear matters. The eye must go to its object or peep through a gap. Sound comes in through walls.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"
+      ]
+    },
+    "xing": {
+      "kind": "history",
+      "title": "Three old ways to read it",
+      "body": "Readers before the modern age understood these lines in three ways, and none of them is “intuition”. The first is the ruler’s reading. The Lüshi Chunqiu, a book made for the court of Qin about 239 BCE, quotes the passage in a chapter on what a ruler should keep to: the lord stays still, and the ministers bring the realm to him. See [[the palace|ruler]]. The second is the reading of the body: the door and window are the senses. See [[the Han Feizi’s line|body]]. The third is [[Wang Bi’s|wangbi]]: things have a source, and whoever holds the source knows the many. The three differ on what the house is: a palace, a body, a principle. They agree that 行, travel, adds nothing essential. Which house do you read it in?",
+      "src": [
+        "Lüshi Chunqiu, “Jun shou” (君守)"
+      ]
+    },
+    "ruler": {
+      "kind": "geopolitics",
+      "title": "The ruler who does not come out",
+      "body": "For the theorists of the state, a ruler who went to look for himself had already failed. He should sit at the centre and know through a system: reports, tallies, and officials who are checked against their words. The Lüshi Chunqiu says that the one who has the Way does not go out of the door and knows the world. In this reading the passage is a design for administration, and also for spying. The First Emperor took it to an end that the text does not ask for. On the advice of a magician, the Shiji tells, he joined his palaces with covered and walled roads so that no one knew where he was, and he put to death those who revealed it. He did not leave the door, and he came to know less and less. The line on distance has a second edge.",
+      "src": [
+        "Lüshi Chunqiu, “Jun shou” (君守)",
+        "Shiji 6 (Annals of the First Emperor)"
+      ]
+    },
+    "body": {
+      "kind": "history",
+      "title": "The doors and windows of the spirit",
+      "body": "The Han Feizi explains this passage with a sentence that later Daoists made their own: 空竅者，神明之戶牖也. “The openings of the body are the doors and windows of the spirit.” Eyes and ears are spent on colours and sounds, it goes on, and the spirit is spent on outward show, until there is no master within. Then even if fortune and ruin were as large as hills, one would not recognise them. So the 戶 and 牖 are the senses, and “not going out” is keeping the spirit at home in its house. Passage 52 uses the same picture as an instruction: block the openings, shut the gates. Read in this way, the line on distance describes attention. The farther attention runs from the body, the less there is at home to know anything.",
+      "src": [
+        "Han Feizi, “Yu Lao” (喻老)",
+        "Laozi 52"
+      ]
+    },
+    "ming": {
+      "kind": "variant",
+      "title": "名 or 明: to name, or to be clear",
+      "body": "Our text says 不見而名: does not see, and names. The [[Mawangdui silk texts|silk]] are reported to have 名 too. But the Han Feizi quotes the line with 明, “bright, clear, to understand”, and many editors prefer it: does not see, and is clear. The two words sounded alike and were often written for each other. 明 makes a simple series: know, understand, complete. 名 is the harder and richer word. To name a thing is to give it its place among things, and rulers and sages were those who fixed names. The book begins with the limits of the name (1) and says that when cutting begins there are names (32). Here the sage can give the right name to a thing that is not in front of the eyes, because the name comes from the thing’s place in the pattern and not from its look.",
+      "src": [
+        "Han Feizi, “Yu Lao” (喻老)",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "wuwei": {
+      "kind": "gap",
+      "title": "不為而成: who completes what?",
+      "body": "The last line is four characters: not, do, and, complete. 成 can be transitive, “completes things”, or intransitive, “things come to completion”. Chinese does not mark the difference, and the line means both: the sage brings things to completion and things complete themselves. English “accomplishes” puts an achiever at the centre. The phrase is close kin to 無為, wu wei, “not-forcing”, which the next passage takes up in its most famous form: 無為而無不為. The silk texts are reported to write 弗為, a stronger negative that points at an object: does not work on it. Note the order of the three lines. Walking, then seeing, then doing: feet, eyes, hands. One by one the organs of effort are set down, and one by one the result is still there. [[Wang Bi|wangbi]] explains the last in six words.",
+      "src": [
+        "Laozi 48",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: many roads, one home",
+      "body": "Wang Bi begins: 事有宗，而物有主，途雖殊而同歸也，慮雖百而其致一也. “Affairs have an ancestor and things have a master. The roads differ, and they come home to one place; the thoughts are a hundred, and their end is one.” He borrows the image from the Book of Changes. If all roads come home, the one who stands at home has the end of every road. On the line about distance: 無在於一，而求之於眾也, “the nothing is in the one, and people seek it among the many”; 若其不知，出愈遠愈迷也, “if one does not know it, the farther out, the more lost”. And on the last line: 明物之性，因之而已, “be clear about the nature of things and simply follow it”. His knowing is not mystical. It is knowledge of a root, as one knows a family from its ancestor.",
+      "src": [
+        "Wang Bi commentary on Laozi 47",
+        "Yijing, “Xici” B"
+      ]
+    },
+    "west": {
+      "kind": "gap",
+      "title": "Against the grain of “go and see”",
+      "body": "Western thought has given this passage a hard hearing, and it is useful to know why. The Greek word that gave us “history” means inquiry by one who has gone and asked. Modern science began with instruments and voyages: the telescope is a better window, and the ship takes the observer farther out. In that frame, 其出彌遠，其知彌少 sounds like a refusal to learn. But the passage does not rank the same kind of knowledge by another method. It separates two kinds. Travel gives more items. It does not, by itself, give [[知|zhi]] of how things go, and a mind that is full of items can lose that. The two meet in an odd way: the great travellers often report that the main thing that they learned on the road was about home. [[Legge|legge]] may be a case."
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge, who went far out",
+      "body": "Legge adds four things in brackets, and each shows a worry. He writes that one understands “(all that takes place)” under the sky: he has taken 知 as information, and the claim becomes larger than the Chinese. He writes “the farther that one goes out (from himself)”: here he has chosen the inward reading and put it into the text. The sages “got their knowledge”, in the past tense, as figures of old; the Chinese has no tense. And they gave “their (right) names to things”. His last line, “without any purpose of doing so”, turns 不為 into absence of intention, a Christian and Kantian interest. There is some irony in the case. Legge, a Scot, sailed from Britain in 1839, spent three decades based in Malacca and Hong Kong, and knew more of the Chinese classics than any European of his time.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "The silk texts: “so as to know”",
+      "body": "The Mawangdui silk texts are reported to read: 不出於戶 以知天下 不窺於牖 以知天道. Two things differ. First, each line has 以, “so as to, and by that”: not going out of the door is the means of knowing, and not only a condition under which one knows. Second, the verb is 知 both times. Our text has 見, “to see”, for heaven’s way; the silk has “know”. The received 見 makes a fine paradox, to see without looking, but it may be a later polish. In the third line the silk adds a particle, 其出也彌遠, which slows the phrase: “as for the going out: the farther …”. The quotations in the Han Feizi and the Lüshi Chunqiu also have 於 and “know”. This passage is not among the Guodian slips.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "One room, ten minutes",
+      "body": "Sit in a room with the door shut and no screen. For ten minutes, take the room as the whole world, and look for the world’s patterns in it. Something here is rising and something is wearing out. Something was fought for; something was given. There is want in the room, yours, and there is enough. There is a thing that works because of what it lacks. When the ten minutes end, ask what you would have learned about how things go by reading the day’s news in the same time. Do not conclude that news is useless. Only weigh the two kinds of knowing. Then, the next time you travel, notice what you carry with you that makes the new place look like every other place."
+    }
+  },
+  "lenses": {
+    "ground": "A person in a house. The first four lines are two matched pairs: not out of [[the door|hu]], [[know|zhi]] the world; not [[peeping|kui]] from the window, see [[heaven’s way|tiandao]]. The door leads to the human world and the window opens on the sky, so the pairs cover earth and heaven. Then a general law in eight characters: [[the farther out, the less known|mi]]. Then 是以, “for this reason”, and [[the sage|sheng]] with three lines of one frame, 不 A 而 B, “not A, and yet B”: no travel and knowing, no seeing and [[naming|ming]], [[no doing and completion|wuwei]]. The passage is short and has no images after the house. It does not explain how. Its neighbours in the book supply that: passage 48 on the practice of loss, and 54 on knowing the world “by this”.",
+    "inner": "The usual picture of knowing has an inside that lacks and an outside that has, and a trip between them. The passage reverses the direction and then removes the distance. What is to be known, the way things go, is fully at work at the place where you sit: in breath, in want, in the rise and fall of a mood. To go far for it is like searching the house for the glasses that are on your face. The [[Han Feizi’s reading|body]] is practical here. The senses are doors, and attention leaves by them all day. “Not going out” does not mean that the eyes are shut. It means that someone is at home while they are open. Then the last three lines are plain reports: the knowing is already present before the search begins.",
+    "leading": "The first great readers were [[men of the state|ruler]], and they heard a design: the centre stays at the centre. A leader who runs to every site and inspects every detail knows many things and loses the view of the whole; and the staff learn to wait for the visit. There is truth in that, and a danger in it, which the First Emperor’s walled roads show. To stay in is not to wall oneself in. The passage praises [[the sage, who is an ear|sheng]]. A leader who does not travel must be a person to whom things can come: one who can hear bad news without punishing it. And the test of [[不為而成|wuwei]] is concrete. When you were away, or silent, did the work complete itself?",
+    "body": "Movement arts teach this passage in the first year. The beginner looks at the hands and the feet to know where they are, and the teacher says: do not look. Feel. The body knows its own position without sight; the attention only has to stay in. When the eyes chase the opponent’s hand, the centre is lost and the response is late: 其出彌遠，其知彌少. When the attention rests low and wide, the other’s movement is felt as it starts. Try it standing. Close the eyes, and know where both hands are. Know the room behind you by its sound. That is [[knowing without going|xing]]. Then open the eyes and keep the same knowing. The window is open now, and no one has leaned out of it.",
+    "practice": "Do the exercise of [[one room|practice]] today, ten minutes with the door shut. Then try the third line of the sage’s three in one small thing. Choose a matter that you want to check on, push, or fix, a person’s work, a plant, a plan that is already under way, and for one day do not act on it. Stay attentive to it; do not turn away. See whether it [[comes to completion|wuwei]] and what your doing would have added. Some things will need your hand. The practice is to find out which, by the test and not by the itch."
+  },
+  "glyph": "戶",
+  "plates": [
+    {
+      "c": "戶",
+      "title": "Half a gate",
+      "lesson": "Put 門 beside 戶. 門 is a gate with two leaves, each hung on its post; you can see the pair, left and right. The Shuowen defines 門 as 从二戶, “made of two 戶”, and 戶 as 半門, “half a gate”. So 戶 is one leaf on one post: the door of a room or a small house, where 門 is the gate of a compound, a city, or a palace. The dictionary also gives a pun on the sound: 戶，護也, “a door is that which protects”. From the door came the household behind it. 戶 is still the unit by which China counts families, and in the Warring States the new bureaucratic states registered their people by 戶 to tax them and to draft them. As a part, 戶 covers rooms and openings: 房, a side room; 扉, a door leaf; 啟 (to open) has it at the upper left. And 所, “place”, is 戶 with 斤, an axe; the Shuowen says that 戶 only gives the sound there, and that the word first meant the sound of chopping wood. In this passage [[戶|hu]] stands for the smallest boundary there is between a person and the world: one leaf of wood. The text does not say to bar it. It says that there is no need to pass it.",
+      "brush": "Four strokes, the fewest of any plate in these passages. First a short stroke at the top, written from upper left down to the right like a heavy dot: the top of the post. Second, a horizontal that turns the corner and comes down a short way: the top and right edge of the leaf. Third, a horizontal that closes the box below. Watch the fourth stroke. It starts at the upper left corner of the box and falls in a long curve to the lower left, far below the rest, thin at the end. It is the post on which the leaf hangs, and it gives the character its lean. The small box sits high on the right, the long stroke sweeps low on the left, and the lower right is left empty. In 門 this same shape appears twice, face to face."
+    },
+    {
+      "c": "知",
+      "title": "An arrow and a mouth",
+      "lesson": "Left: 矢, an arrow. Right: 口, a mouth. The Shuowen says that 矢 is a picture of the arrow of bow and crossbow, with its point, its notch, and its feathers. It then defines 知 in a way that surprises a beginner: 詞也。从口从矢, “a word of speech; from mouth and arrow”. The dictionary gives no story for the pair. The one that is now commonly repeated is credited to the tenth-century scholar Xu Kai, and the Qing scholar Duan Yucai gave it its familiar wording: the one who knows a thing says it at once, and the word leaves the mouth as fast as an arrow. Hold that as a later teaching aid; some scholars think that the arrow only gives the sound. The same graph also wrote the noun “wisdom, cleverness”, read zhì. Later a 日 was added below for that sense, and the result is 智. The Laozi is hard on 智 (passage 19 would discard it) and makes 知 its central verb, so the eye must watch which is meant. Compare other characters where 口 stands beside a second part: 名, a mouth under the evening, a name called in the dark; 如, “to be like”. Now look again at the passage. Its knowing is the opposite of the fast arrow. The arrow goes out, far and straight. This [[知|zhi]] does not leave the house.",
+      "brush": "Eight strokes: five for the arrow and three for the mouth. The arrow begins with a short stroke that falls to the left, then a short horizontal beneath it, then a longer horizontal. The fourth stroke starts at the first horizontal, crosses the lower one, and falls away to the lower left. The fifth should be a long stroke to the lower right, but here it is held back to a dot, because the mouth is waiting on that side: a part yields when it has a neighbour. Then 口: the left side, the top and right side in one stroke, and the base. Watch where the mouth sits. It is not level with the top of the arrow; it hangs a little below the middle, small and square, so that the tall, leaning arrow and the low, still box balance each other."
+    }
+  ]
+}

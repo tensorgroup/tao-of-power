@@ -1,0 +1,214 @@
+{
+  "n": 37,
+  "title": "Weighed Down with Plain Wood",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "道常無為",
+      "gloss": {
+        "1": "constant, always (the silk texts are reported to write 恆)",
+        "3": "wéi: to do, to act, to make"
+      }
+    },
+    {
+      "text": "而無不為。",
+      "gloss": {
+        "0": "and, and yet (the joint of the paradox)",
+        "3": "wéi: done; “nothing is not done”"
+      }
+    },
+    {
+      "text": "侯王若能守之，萬物將自化。化而欲作，吾將鎮之以無名之樸。",
+      "gloss": {
+        "0": "hóu: a lord of a state; first, an archery target",
+        "4": "to guard, to keep to (as one keeps an office)",
+        "10": "of itself, by itself; first, a nose",
+        "11": "huà: to change form, to transform",
+        "15": "wanting, desire (here a noun or a verb)",
+        "16": "to rise, to stir, to start up",
+        "18": "wú: I (the speaker enters)",
+        "20": "zhèn: to press down with a weight; to garrison",
+        "26": "pǔ: wood not yet carved"
+      }
+    },
+    {
+      "text": "無名之樸，夫亦將無欲。",
+      "gloss": {
+        "5": "fú: “now, that…” (a word that points)",
+        "6": "also, too"
+      }
+    },
+    {
+      "text": "不欲以靜，天下將自定。",
+      "gloss": {
+        "2": "and so, by which",
+        "3": "jìng: still, quiet",
+        "9": "dìng: to settle, to come to rest"
+      }
+    }
+  ],
+  "rendering": [
+    "The Dao is constant in [[not-doing|wuwei]],",
+    "[[and nothing is left undone|wubuwei]].",
+    "",
+    "If [[lords and kings|houwang]] can [[keep to it|shou]],",
+    "the ten thousand things will [[change of themselves|zihua]].",
+    "Changed, and [[wanting stirs|yuzuo]]:",
+    "[[I|wu-i]] will [[weigh it down|zhen]]",
+    "with the [[nameless uncarved wood|pu]].",
+    "",
+    "The nameless uncarved wood:",
+    "[[that too will be without wanting|yiwuyu]].",
+    "Not wanting, [[and so still|jing]]:",
+    "all under heaven will [[settle of itself|ziding]]."
+  ],
+  "notes": {
+    "wuwei": {
+      "kind": "gap",
+      "title": "無為: not “doing nothing”",
+      "body": "無為 is “without 為”, and 為 is a wide verb: to do, to make, to act as, to act for a purpose. The phrase does not mean idleness. A river does much and does not 為. The sense is: no action that is forced on things from outside, by a will with a plan. “Non-action” sounds like a withdrawal; “inaction” sounds like a fault. We write “not-doing” and ask you to hear “not-forcing”. The line does not tell anyone to practice it. It says that the Dao is so, 常, constantly. [[Wang Bi|wangbi]] glosses the four characters with three: 順自然也, “it follows that which is so of itself”. Notice that the pinned text divides the sentence after 為, in the middle of the paradox, as a breath divides it when it is read aloud."
+    },
+    "wubuwei": {
+      "kind": "variant",
+      "title": "The famous line may be late",
+      "body": "無為而無不為, “not-doing, and nothing is not done”, is one of the best-known sentences of the book. It also stands in passage 48. But the oldest copies do not have it here. The Mawangdui silk texts are reported to open this passage with 道恆无名, “the Dao is constantly nameless”, which is also the first line of passage 32, and they have no second clause. The Guodian bamboo slips, a century or more older, are reported to read 道恆亡為也, “the Dao constantly does not do”, and to stop there. So the oldest form of the line had not-doing and no promise that all will be done. The second clause adds a result, and a result can be taken as a method: do nothing in order to achieve all. Read the passage once with the short line. Is it poorer, or cleaner?",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)",
+        "Guodian Laozi A (reported reading)"
+      ]
+    },
+    "houwang": {
+      "kind": "geopolitics",
+      "title": "侯王: when every lord became a king",
+      "body": "侯 was a rank of the Zhou order, a lord who held a state from the king; the word’s first meaning is an archery target, and the lords shot at one in the royal rite. 王 was the one king, the Son of Heaven. The Shuowen defines it as 天下所歸往也, “the one to whom all under heaven goes home”, and quotes a Han explanation of the graph: 三者，天、地、人也，而參通之者，王也, three lines for heaven, earth, and humankind, and the one who joins them is the king; many modern scholars see an axe blade, the tool of punishment. In the Warring States the difference between the two ranks collapsed. In 344 BCE the lord of Wei took the royal title; in 334 Wei and Qi recognized each other as kings; in 323 five states, Wei, Han, Zhao, Yan, and Zhongshan, recognized one another as kings. The phrase 侯王, “lords-and-kings”, belongs to this time: it addresses each man who has a state and an army. It occurs in passages 32, 37, and 39, and always with advice to hold still.",
+      "src": [
+        "Shuowen Jiezi, 王部: 王，天下所歸往也。董仲舒曰：「古之造文者，三畫而連其中謂之王。三者，天、地、人也，而參通之者，王也。」",
+        "Shuowen Jiezi, 矢部: 矦，春饗所䠶矦也。",
+        "Shiji, “Wei shijia” and “Liuguo nianbiao”"
+      ]
+    },
+    "shou": {
+      "kind": "etymology",
+      "title": "守: to keep a post",
+      "body": "守 is a roof, 宀, over 寸, a hand. The Shuowen defines it as 守官也, “to keep an office”, and says that the 寸 stands for rule and measure. It is the word for a guard at a gate, a commander who holds a city, an official at his post. It is a military and administrative word, and passive only in appearance: the one who 守 does not attack, and does not leave. The Laozi tells its reader to 守 several things: the center (5), stillness (16), the female, the black, the disgrace (28), the mother (52), the soft (52). Here the object is 之, “it”: the Dao, or its not-doing. The lord is asked to treat not-doing as a post. English “hold to” is close. “Maintain”, which [[Legge|legge]] used, makes it a matter of upkeep.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 守，守官也。从宀从寸。"
+      ]
+    },
+    "zihua": {
+      "kind": "wordplay",
+      "title": "自: the family of “by itself”",
+      "body": "自化 is “self-change”: to transform of one’s own accord. 自 is the word for “self” used as an adverb, and it marks the central idea of the book, 自然, “so of itself”. The passage begins and ends with it: the things will 自化, the world will 自定. Passage 57 gives a list in the voice of a sage: I do not act, and the people 自化, change of themselves; I love stillness, and the people 自正, come right of themselves; I have no business, and they 自富, grow rich of themselves; I have no wants, and they 自樸, become plain wood of themselves. Passage 32 adds 自賓, “make themselves guests”, and 自均, “share evenly of themselves”. In each case the ruler’s part is a negative and the people’s part has 自. Versions that write “are transformed” or “are influenced” move the cause back to the ruler. The Chinese gives the verb to the things."
+    },
+    "yuzuo": {
+      "kind": "gap",
+      "title": "化而欲作: wanting stirs, or they want to act",
+      "body": "Four characters, two readings. 欲 is “to want” and also the noun “desire”. 作 is “to rise, to start up”; the Shuowen says 起也, “to get up”. So: “they change, and desire arises”. Or: “they change, and want to act”, to make things, to start projects. The first reading sees a feeling. The second sees ambition: the things have grown, and now they wish to 為. [[Wang Bi|wangbi]] says 作欲成也, “to stir is to want to achieve”. In both readings the trouble comes out of the success. The things were left alone, they flourished, and that which flourishes begins to want. The text does not treat this as a failure of the method. It expects it. Who or what is it that stirs? 之, “it”, in the next line does not say: the things, the desire, or the heart of the lord himself.",
+      "src": [
+        "Shuowen Jiezi, 人部: 作，起也。从人从乍。"
+      ]
+    },
+    "wu-i": {
+      "kind": "gap",
+      "title": "吾: someone says “I”",
+      "body": "Most of the Laozi has no speaker. Here one appears: 吾, “I”. The Shuowen: 我，自稱也, “I: what one calls oneself”. The sentence began with lords and kings in the third person, and now a first person will do the pressing. Who is it? Perhaps the ruler, in a line that he is to speak for himself. Perhaps the teacher, who shows the ruler what he would do. Perhaps the voice of the book, which speaks at times as one who has done the work: 吾以觀復, “by this I watch the return” (16). The change of person has a result that a reader of English can miss. The whole method depends on 自, things by themselves, and at the one point of difficulty an “I” comes in and acts. The passage sees the problem; see [[the next line|yiwuyu]].",
+      "src": [
+        "Shuowen Jiezi, 口部: 吾，我，自稱也。从口五聲。"
+      ]
+    },
+    "zhen": {
+      "kind": "etymology",
+      "title": "鎮: a weight of metal",
+      "body": "鎮 has 金, metal, at the left. The Shuowen defines it as 博壓也, “to press down broadly”. A 鎮 was a weight. People sat on mats, and bronze weights in the shapes of animals held the corners down; many have been found in Han tombs. The king’s own jade tablet was the 鎮圭, and the Zhouli names for each province a great mountain as its 鎮, the weight that holds the region in place. From this came the military sense, “to garrison, to hold down a district”, and the modern word for a market town. So the verb is not “to calm”. It is to put a heavy thing on something that lifts. Now look at the weight that the speaker chooses: not bronze, not jade, not troops. A piece of [[plain wood with no name|pu]]. Can the lightest thing in the state hold the mat down? The Mawangdui texts are reported to write a different graph here, which editors read as the same word.",
+      "src": [
+        "Shuowen Jiezi, 金部: 鎭，博壓也。从金眞聲。",
+        "Zhouli, “Chun guan” and “Xia guan” (職方氏)"
+      ]
+    },
+    "pu": {
+      "kind": "etymology",
+      "title": "樸: wood before the knife",
+      "body": "樸 has 木, tree, at the left. The Shuowen: 木素也, “wood in its plain state”; 素 is undyed silk, so the gloss says: wood as silk is before the dye. It is timber that has not been cut into a vessel or a tool. It has no use yet, and so no name, because names in this book come with cutting: 始制有名, “when the cutting begins, there are names” (32), and 樸散則為器, “when the plain wood is split, it becomes vessels” (28). The phrase 無名之樸 joins the two ideas of passage 32, where the Dao is “constantly nameless, plain wood”. English “simplicity” makes it a virtue or a lifestyle. The Chinese is a block in a workshop that no one has yet marked. Every finished thing was once this. It is not empty, as the hub is; it is full of that which it has not yet become.",
+      "src": [
+        "Shuowen Jiezi, 木部: 樸，木素也。从木菐聲。"
+      ]
+    },
+    "yiwuyu": {
+      "kind": "gap",
+      "title": "夫亦將無欲: the cure must not be wanted",
+      "body": "The phrase 無名之樸 is said two times, the second time alone, as a topic. Then: 夫亦將無欲, “now that, too, will be without wanting”. What is “that”? One reading: the things, once pressed by plain wood, will also come to have no wants. A second and sharper reading: the plain wood itself must also not be wanted. The speaker has just used simplicity as a weight, and a ruler who wants simplicity, who makes it a policy and enforces it, has only a new desire with a good name. So the tool is put down in the next breath. The silk texts are reported to support a turn of this kind, though with other words: 夫將不辱，不辱以靜, “then there will be no disgrace; no disgrace, and so stillness”. Have you ever wanted very much to be a person who wants little?",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "jing": {
+      "kind": "etymology",
+      "title": "靜: stillness, with “contend” inside",
+      "body": "靜 is “still, quiet”. Look at its right side: 爭, “to contend, to fight over”, the thing that the Laozi most often says not to do. The Shuowen says that 爭 is only the sound of the character and 青, the color of living plants and of clear sky, gives the sense; it defines 靜 as 審也, “to see exactly”. So the dictionary’s stillness is first a clearness, like water that lets you see the bottom when it stops moving. Passage 15 asks: who can make the muddy water clear by stillness? Passage 16 names the return to the root 靜. Passage 45: 清靜為天下正, “clear and still is the standard of the world”. The grammar here is 不欲以靜: not-wanting, and by that, still. Stillness is not made by an effort. It is that which remains when wanting stops. The struggle stays in the written character, held in place by the clear color beside it.",
+      "src": [
+        "Shuowen Jiezi, 青部: 靜，審也。从青爭聲。"
+      ]
+    },
+    "ziding": {
+      "kind": "variant",
+      "title": "自定 or 自正; the world or heaven and earth",
+      "body": "The pinned text ends 天下將自定, “all under heaven will settle of itself”. 定 is a roof over 正: the Shuowen says 安也, “to be at rest”. The Mawangdui silk texts are reported to end 天地將自正: “heaven and earth will come right of themselves”. 正 is “straight, correct, a standard”. Two changes, then. The verb goes from “come right” to “come to rest”, and these differ: a pendulum that stops has settled, and it need not be correct by any person’s rule. And the subject goes from the cosmos, 天地, to the political world, 天下. The silk ending is larger and stranger: the stillness of one who wants nothing puts heaven and earth in order. The Guodian slips are reported to read 萬物將自定, “the ten thousand things will settle of themselves”, and, before it, 知足以靜, “to know what is enough, and so be still”.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 定，安也。从宀从正。",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)",
+        "Guodian Laozi A (reported reading)"
+      ]
+    },
+    "end": {
+      "kind": "history",
+      "title": "The last line of the Dao book",
+      "body": "The received Laozi has two parts. Passages 1 to 37 are the 道經, the Dao book; 38 to 81 are the 德經, the De book; and from the two comes the title 道德經. This passage is the last of the first part. Its end answers the first passage: there, name and wanting appeared together (無名, 有名; 無欲, 有欲). Here the two return together, as the nameless wood and the end of wanting, and the world is still. In the Mawangdui silk manuscripts the order of the two parts is the reverse: the De part is first, and this passage is the last of the whole work. In the second silk manuscript each part ends with its own count: 3,041 characters after the 德 part, and 2,426 after the 道 part, that is, after this passage. If these were the final words of the book that you held, how would they sound?",
+      "src": [
+        "Mawangdui Laozi B, end notes: 德三千卌一, 道二千四百廿六"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: “not acting the lord”",
+      "body": "Wang Bi’s notes here are very short. On 道常無為: 順自然也, “it follows that which is so of itself”. On 而無不為: 萬物無不由為以治以成之也, “of the ten thousand things, none is not governed and completed by way of this”; the copies read 由為, “by way of doing”, and editors take it as a slip for 由無為 or 由之. On the weight: 化而欲作，作欲成也。吾將鎮之無名之樸，不為主也. “They change and wanting stirs: to stir is to want to achieve. ‘I will weigh it down with the nameless uncarved wood’: that is, not to act the lord.” The last four characters are his whole account of the pressing. To press with plain wood is not a different kind of rule. It is the refusal to be the master of the result, the 不為主 of passage 34. On the absence of wanting he writes three characters: 無欲競也, “no wish to compete”.",
+      "src": [
+        "Wang Bi commentary on Laozi 37"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: a bracket and a rhyme",
+      "body": "Legge writes that the Dao “does nothing (for the sake of doing it)”. The bracket is his own, and it is a fair gloss of 無為; it also shows that he could not leave the bare words alone. For the middle of the passage he takes 欲 as the speaker’s own desire: “If this transformation became to me an object of desire, I would express the desire by the nameless simplicity.” This agrees with the sharper reading of [[the line on the cure|yiwuyu]], but the weight is gone: for 鎮, to press down, he has “express”. Then he ends in verse, with rhymes on “name” and “aim”, “still” and “will”. The Chinese of the close is not a song. It is two flat statements. A Victorian reader expected scripture to rise at the end of a chapter. The Laozi goes quiet.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "A weight that is not a rule",
+      "body": "The next time a want rises strongly today, to buy, to answer at once, to fix a person, do not obey it and do not fight it. Put one plain thing on it. A plain thing has no name and no argument: the feeling of your feet on the floor, one slow breath out, a look at the grain of the table. Stay for the time of three breaths. This is a small 鎮, a weight on the corner of the mat. Then notice the second step of the passage. If you become proud of the method, or want to be good at it, put that down too."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has four moves. One: a statement about the Dao, that it is constant in [[not-doing|wuwei]], with [[a second clause|wubuwei]] that the oldest copies lack. Two: a condition. If [[lords and kings|houwang]] can [[keep to|shou]] this, the things will [[change by themselves|zihua]]. Three: a difficulty. After the change, [[wanting stirs|yuzuo]], and a speaker says [[“I”|wu-i]] and [[presses it|zhen]] with [[plain wood|pu]]. Four: a correction. [[The plain wood too must not be wanted|yiwuyu]]; then [[stillness|jing]], and the world [[settles|ziding]]. 將, “will”, comes five times: the passage is a forecast, each step out of the last. And 自, “of itself”, stands at both ends. This is [[the last passage of the Dao book|end]], and it closes on a verb of rest.",
+    "inner": "Leave the mind alone and it changes of itself: it clears, it becomes inventive, it grows. Then, out of that ease, [[wanting stirs|yuzuo]]: the wish to use the clarity, to keep it, to become someone who has it. Each person who has sat quietly knows this moment. The passage does not say to cut the wanting off. It says to [[weigh it down|zhen]] with the thing that has no name, attention before it is shaped into a thought of “I want”. And then it adds the most exact line: [[do not want that either|yiwuyu]]. A person who clings to plainness has a new possession. The stillness at the end is not produced. 不欲以靜: where wanting is absent, [[still|jing]] is what is there.",
+    "leading": "The addressees are [[rulers in a century of new kings|houwang]], and the promise is large: [[keep to|shou]] not-doing and things order themselves. The honest part is the middle. A leader gives a team room, the team flourishes, and with success come appetites: for growth, for projects, for status. The usual answers are new rules, new incentives, a reorganization: more 為. The passage answers with a [[weight|zhen]] that is not a rule: the leader’s own plainness, placed on the matter, with [[no name on it|pu]]. And then the warning that makes this more than a technique: a leader who needs the team to be simple, who is attached to the result “they are calm”, has brought wanting back in at the top. [[Wang Bi|wangbi]] says it in four characters: not to act the lord.",
+    "nature": "A field left alone [[changes of itself|zihua]]. Weeds come, then shrubs, then trees; no one directs the order. Growth then makes its own pressure: each plant wants the light, and the stand becomes crowded. The forest does not answer with a law. The canopy closes, the floor becomes dim and cool, and the rush slows. The weight is only shade, a thing with no name. A pond does the same: stirred, it is brown; left, the silt goes down by its own weight and the water is [[clear and still|jing]]. Nothing has to make it settle. 自定 is exact for this: the mud [[settles of itself|ziding]], and the stillness of the water is not a second thing added after.",
+    "practice": "Use the [[three-breath weight|practice]] once today. In the evening, look for one place where you are trying to make a thing settle by more doing: a child’s mood, a discussion at work, your own sleep. Ask what the muddy water would do if you stopped stirring. Then, as the passage does, check the checker: is there a want inside your wish for calm? You do not have to remove it. See it, and let that too be [[plain wood|pu]]."
+  },
+  "glyph": "化",
+  "plates": [
+    {
+      "c": "化",
+      "title": "One person upright, one turned over",
+      "lesson": "Four strokes, two people. The left part, 亻, is 人, a person who stands, in the narrow form that it takes at the side of a character. The right part, written 匕 today, is not the spoon that it looks like. The Shuowen lists it as a graph of its own, 𠤎, and says: 變也。从到人, “to change; from 人 turned upside down”. In the oracle-bone forms you can see it: two human figures, one head up and one head down. That is the whole idea: a thing becomes its other. The Shuowen defines the full character as 教行也, “teaching takes effect”, the change that a good ruler works in the people. The Laozi’s 自化, [[change of itself|zihua]], takes the teacher out. Chinese built a small family from two persons side by side, and the Shuowen explains each: 从, one behind the other, “to follow”; 比, two close together, “to be close, to compare”; 北, 从二人相背, two back to back, which first meant “to turn the back” and then “north”, the side that one’s back is to when one faces the sun; and 化, one of the two overturned. 化 also gives its sound to 貨, goods, things that change hands. In the Zhuangzi, 化 is the great word for death and birth: the 物化, the “change of things”, in which a man dreams that he is a butterfly.",
+      "brush": "Four strokes. First a stroke that falls to the left: the head and arm of the standing person. Second a vertical under it: the body. Third, on the right, a short stroke that falls to the left; it starts high and comes in toward the vertical. Fourth, the long stroke: it goes down, turns at the bottom into a level run to the right, and ends in a hook that points up. Watch the fourth stroke. It is the turned person, and it does all the movement in the character; the left side only stands and waits. The turn must be round and the hook quick. The third stroke crosses or touches the fourth near its top, and the point where they meet sets the balance. With so few strokes there is no place to hide a weak line."
+    },
+    {
+      "c": "自",
+      "title": "The nose that means “self”",
+      "lesson": "The Shuowen is direct: 自，鼻也。象鼻形, “自 is the nose; it shows the shape of a nose”. The early forms are a nose seen from the front: the bridge, the two wings, the lines across. How did a nose come to mean “self”? The common explanation is a gesture: people in China point to their own nose, not to their chest, when they say “I”. When the graph was taken over by the words “self” and “from”, the nose got a new character, 鼻, with a sound part added below. The old nose still works inside other characters. 息, “breath, to rest”, is 自 over 心, the heart: the Shuowen says 从心从自. 臭, “smell”, is 自 over 犬, a dog: the Shuowen explains that the dog is the animal that follows a trail by its nose. The second meaning, “from”, is the nose again: the point from which one starts. Now read 自化 and 自定 in this passage, and the great word 自然, “so of itself”. Each has in it a face that points at itself. In Chinese, the self of “by itself” is not a soul and not an ego. It is the place where the breath comes in. See [[the family of 自|zihua]].",
+      "brush": "Six strokes. First a short stroke at the top that falls to the left. Second, the left side, a vertical. Third, the top and right side in one stroke, with a firm corner. Fourth and fifth, two short horizontals inside, which touch the left side and do not reach the right. Sixth, the base that closes the box. Watch the first stroke: it is the only difference between this character and 目, the eye. It is small and it must be alive, set a little left of center, like the bridge of the nose above the face. The three inner spaces should be equal. The form has hardly changed since the seal script. The Han clerks only made the round nose square."
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "n": 58,
+  "title": "Where Disaster Crouches",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "其政悶悶，其民淳淳；",
+      "gloss": {
+        "1": "government, rule; the silk texts are reported to write 正",
+        "2": "mèn: shut in, muffled, dull",
+        "7": "chún: thick, not thinned; honest"
+      }
+    },
+    {
+      "text": "其政察察，其民缺缺。",
+      "gloss": {
+        "2": "to examine, to pry into",
+        "7": "chipped, broken; lacking"
+      }
+    },
+    {
+      "text": "禍兮福之所倚，福兮禍之所伏。孰知其極？其無正。",
+      "gloss": {
+        "0": "disaster, calamity",
+        "1": "xī: a sung pause, “ah”",
+        "2": "good fortune, blessing",
+        "5": "yǐ: to lean on",
+        "12": "to crouch, to lie hidden",
+        "14": "who?",
+        "17": "ridgepole; the utmost point, the end",
+        "21": "the straight; a fixed norm; (Wang Bi) government"
+      }
+    },
+    {
+      "text": "正復為奇，",
+      "gloss": {
+        "1": "to turn back; again",
+        "3": "the strange, the irregular"
+      }
+    },
+    {
+      "text": "善復為妖。",
+      "gloss": {
+        "3": "yāo: uncanny; an ill portent"
+      }
+    },
+    {
+      "text": "人之迷，其日固久。",
+      "gloss": {
+        "2": "lost on the road, bewildered",
+        "6": "surely, indeed"
+      }
+    },
+    {
+      "text": "是以聖人方而不割，",
+      "gloss": {
+        "4": "square",
+        "7": "to cut, to slice off"
+      }
+    },
+    {
+      "text": "廉而不劌，",
+      "gloss": {
+        "0": "a corner, an edge; then upright, incorrupt",
+        "3": "guì: to gash, to wound"
+      }
+    },
+    {
+      "text": "直而不肆，",
+      "gloss": {
+        "0": "straight",
+        "3": "sì: to let loose, to push to the limit"
+      }
+    },
+    {
+      "text": "光而不燿。",
+      "gloss": {
+        "0": "light, bright",
+        "3": "yào: to dazzle, to blaze"
+      }
+    }
+  ],
+  "rendering": [
+    "Where the rule is [[muffled and dull|men-men]],",
+    "the people are [[thick and whole|sound]].",
+    "Where the rule is [[sharp-eyed|cha-cha]],",
+    "the people are [[chipped and lacking|que-que]].",
+    "",
+    "[[Disaster|huo-fu]], ah: good fortune leans on it.",
+    "Good fortune, ah: disaster [[crouches in it|yi-fu]].",
+    "Who knows [[where it ends|ji]]?",
+    "[[There is no straight.|wu-zheng]]",
+    "The straight [[turns back|fu-return]] into the strange.",
+    "The good turns back into the [[uncanny|yao]].",
+    "The people’s [[bewilderment|mi]]:",
+    "its days are long indeed.",
+    "",
+    "So the [[sage|shengren]] is",
+    "[[square, and does not cut|fang]];",
+    "[[cornered, and does not wound|lian]];",
+    "straight, and does not [[push to the limit|si]];",
+    "[[bright, and does not dazzle|guang]]."
+  ],
+  "notes": {
+    "men-men": {
+      "kind": "wordplay",
+      "title": "悶悶: a heart behind a gate",
+      "body": "悶 is 心, a heart, inside 門, a gate. The Shuowen says 懣也, “stifled, pent up”; today it is the word for a stuffy room and a low mood. Said twice, 悶悶, it is a rule that seems shut in and slow: no bright policy, no clear voice. A reader of the time would call such a government stupid. The text takes the insult and wears it. It has done this before. In passage 20 the speaker says of the self: 俗人察察，我獨悶悶, “the common people are 察察, sharp-eyed; I alone am 悶悶”. The two doubled words of that line are the two doubled words of this passage. What passage 20 said of a person, this one says of a state. The dull ruler is the sage of passage 20 on a throne. [[Wang Bi|wu-zheng]] describes it: no form, no name, no business, no policy that one can point to.",
+      "src": [
+        "Shuowen Jiezi, 心部: 悶，懣也。从心門聲。",
+        "Laozi 20"
+      ]
+    },
+    "sound": {
+      "kind": "wordplay",
+      "title": "Four doubled words",
+      "body": "The first stanza is made of four doubled syllables: 悶悶, 淳淳, 察察, 缺缺. Classical Chinese doubles a word to describe a look or a mood, as English says “hush-hush” or “so-so”. The sound does half the work. In the old pronunciation 悶 and 淳 rhymed (both are in the 文 rhyme group): a low, closed, humming pair. 察 and 缺 also rhymed (the 月 group), and both ended in a stopped consonant: clipped and hard. So the calm state hums, and the watched state clicks. 淳 has the water radical; it is used of a liquid that is thick and not thinned, like the related word 醇, strong unmixed wine, and then of people who are honest and whole. Flat English adjectives lose all of this, and [[Legge|legge]] tried rhyme in their place. Our pairs, “muffled and dull”, “thick and whole”, are only a rough stand-in for one word said twice. The silk texts are reported to write the first two as 閔閔 and 屯屯: other graphs for like sounds.",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "cha-cha": {
+      "kind": "geopolitics",
+      "title": "察察: the state that sees everything",
+      "body": "察 is to look into, to inspect. The Shuowen explains it as 覆也。从宀、祭: “to go over a thing; a roof above 祭, sacrifice”: the close check of an offering under the temple roof. Doubled, it is a gaze that misses nothing. This was a policy with a name and a date. In Qin, from 356 BCE, Lord Shang put all households into groups of five and ten that answered for one another. One who did not report a crime in the group was cut in two at the waist. One who reported it got the same reward as a soldier who took an enemy’s head. Wang Bi sums up the method in three phrases: 立刑名，明賞罰，以檢姦偽, “set up punishments and titles, make rewards and penalties clear, and so check the false and the wicked”. The result, he says, is that the people 懷爭競, “carry rivalry in their hearts”. What does it do to you to be watched well?",
+      "src": [
+        "Shuowen Jiezi, 宀部: 察，覆也。从宀、祭。",
+        "Shiji, “Shang jun liezhuan”",
+        "Wang Bi commentary on Laozi 58"
+      ]
+    },
+    "que-que": {
+      "kind": "variant",
+      "title": "缺缺: chipped pots",
+      "body": "缺 has 缶, an earthenware jar, at its left. The Shuowen: 器破也, “a vessel is broken”: a chip in the rim, a piece gone. Doubled, it is said of the people under a sharp-eyed rule. They are not whole. Something has been knocked out of each one. Other readers take the word as “wanting, needy” or as “cunning”: people who learn to slip through gaps. All three follow from the picture. The silk texts are reported to differ here in a way that matters: 亓正察察，亓邦夬夬 (so manuscript A; B has 國 for 邦), “where the rule is sharp-eyed, the state is 夬夬”. 夬 is “to split open, to breach”, the root of 缺 and of 決, a dyke that bursts. So in the older text the thing that breaks is the state. It is the same thought as passage 57: the state goes dark. The received text moved the damage to the people. Both are true. Which breaks first?",
+      "src": [
+        "Shuowen Jiezi, 缶部: 缺，器破也。从缶，決省聲。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "huo-fu": {
+      "kind": "etymology",
+      "title": "禍 and 福: both from the altar",
+      "body": "Look at the left side of both words: 礻, the short form of 示, the altar sign that marks things of the spirits. In early China good and bad fortune were not chance. They were sent: by ancestors who were fed or neglected, by Heaven that was pleased or angry. 福 was the blessing asked for at the sacrifice; the meat from the altar, sent to kin after the rite, could itself be called 福. 禍 was what the spirits sent down in displeasure; the Shuowen defines the one by the lack of the other: 害也，神不福也, “harm: the spirits do not bless”. So the common belief was moral and simple: do right, feed the dead, and get 福. The two lines here break that link without a word against the spirits. They only observe that the two are found in each other. 兮 is a breath in the line, the “ah” of a song; it marks this as verse and slows it. English “luck” is too light, and “blessing” and “curse” too churchly. See also [[the two verbs|yi-fu]].",
+      "src": [
+        "Guoyu, “Jin yu” 2 (the meat of the offering sent home as 福)"
+      ]
+    },
+    "yi-fu": {
+      "kind": "etymology",
+      "title": "倚 and 伏: to lean, to crouch",
+      "body": "The two verbs are body positions. 倚 is a person, 亻, who leans on a thing; the Shuowen says 依也, “to rest against”. Good fortune leans on disaster as on a door-post: take the post away and it falls. 伏 is a person beside 犬, a dog. The Shuowen: 司也。从人从犬, “to keep watch; from person and dog”. It is the dog that lies low and waits, and the word for an ambush is still 埋伏. So disaster is not after good fortune, like a later stage. It is inside it now, flat on the ground and patient. There is a small thing for the eye as well: the sound-part of 倚 is 奇, the “strange” that the straight turns into three lines later. The grammar is exact: 福之所倚 is “that on which fortune leans”. Each one is the place where the other is to be found.",
+      "src": [
+        "Shuowen Jiezi, 人部: 倚，依也。从人奇聲。",
+        "Shuowen Jiezi, 人部: 伏，司也。从人从犬。"
+      ]
+    },
+    "saiweng": {
+      "kind": "history",
+      "title": "The old man who lost his horse",
+      "body": "The best-known comment on these lines is a story in the Huainanzi, a Han book of the second century BCE. An old man who lived near the northern frontier lost his horse; it ran off into the land of the nomads. People came to console him. The old man said: how do you know that this is not good fortune? Months later the horse came back with a fine nomad horse beside it. People came to congratulate. The old man said: how do you know that this is not disaster? The son rode the new horse, fell, and broke his thigh. People came to console. The old man said the same. A year later the nomads invaded; every able man took up the bow, and nine in ten died. The lame son lived. Every Chinese child knows the four-character form: 塞翁失馬, “the old man of the frontier loses a horse”. Notice that the old man never says “this is good”. He only asks how they know.",
+      "src": [
+        "Huainanzi, “Renjian xun” (人間訓)"
+      ]
+    },
+    "ji": {
+      "kind": "gap",
+      "title": "極: the ridgepole",
+      "body": "極 has 木, wood, and the Shuowen defines it as 棟也: “the ridgepole”, the highest beam of a house, where the two slopes of the roof meet. From “the top beam” the word came to mean the highest point, the farthest limit, the end of a road, and the pole of the sky. 孰知其極 is “who knows its 極?”: who knows the last turn, the point where disaster and fortune stop changing places and one of them is final? English “end” has only time in it and “limit” only space. 極 keeps the picture of a ridge: the line at which one slope becomes the other. The passage’s answer is that nobody stands there. The same phrase comes in the next passage in a good sense: of one who stores up 德, nobody knows the 極. Have you ever been sure that a thing was the worst, or the best, and been wrong?",
+      "src": [
+        "Shuowen Jiezi, 木部: 極，棟也。从木亟聲。"
+      ]
+    },
+    "wu-zheng": {
+      "kind": "wangbi",
+      "title": "其無正: three readings, and Wang Bi’s",
+      "body": "Three characters, and no agreement. One: a statement. “There is no straight”: no fixed standard holds, since the next line says that the straight turns strange. We render this. Two: a question, as some editions mark with a final particle: “is there then no standard?” Three, Wang Bi’s. He takes 正 as 政, rule, which the silk texts are reported to write as 正 in line one, and he joins the phrase to the question before it: 言誰知善治之極乎！唯無可正舉，無可形名，悶悶然而天下大化，是其極也. “This says: who knows the utmost point of good government? Only where there is no correcting that one can hold up, no form and name that one can give, where all is muffled and dull and yet the whole realm is transformed: that is its utmost point.” For him the line is not about fate at all. It names the best government: one with no 正 to show. Which reading does the stanza before it support? And the stanza after?",
+      "src": [
+        "Wang Bi commentary on Laozi 58",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported): 亓无正也"
+      ]
+    },
+    "fu-return": {
+      "kind": "gap",
+      "title": "復: turning, not poles",
+      "body": "復 is “to go back along the road”; the Shuowen says 往來也, “to go and come”. It is one of the verbs that carry the thought of this book: all things rise, and I watch them 復 (16); return to the infant, to the uncut wood (28). Here the turn is unwelcome. 正復為奇: the straight goes round and is the strange. This takes up the first lines of passage 57, where 正 was for the state and 奇 for the army; [[Wang Bi|wu-zheng]] makes the link himself. Western readers reach for “opposites” or “polarity”. Those words draw two fixed ends with a line between. The Chinese picture has no ends. It is a path that bends until it faces the other way, and the walker does not feel the bend. A reform hardens into a creed, and a cure into a habit. Where on the curve are you now?",
+      "src": [
+        "Shuowen Jiezi, 彳部: 復，往來也。从彳复聲。",
+        "Wang Bi commentary on Laozi 58: 以正治國，則便復以奇用兵矣。"
+      ]
+    },
+    "yao": {
+      "kind": "history",
+      "title": "妖: a word from the omen books",
+      "body": "善, “good”, turns into 妖. English versions say “evil”, and that makes a moral pair that the Chinese does not have here. 妖 is a term of omen lore. The Zuozhuan defines it: 天反時為災，地反物為妖, “when heaven goes against the seasons, that is calamity; when earth goes against the nature of things, that is 妖”: a tree that flowers in winter, a hen that crows, a birth that is wrong. It is the uncanny, the thing out of its kind. Later, with its woman radical 女, it named the bewitching spirits of popular tales, the fox that takes a girl’s shape; the silk texts are reported to write the word with no woman sign, as 訞. So the line says more than “good becomes bad”. Goodness that is set up as a standard turns into a thing against nature. Wang Bi: 立善以和萬物，則便復有妖之患也, “set up the good in order to harmonize all things, and at once you have the trouble of 妖 again”. Think of a virtue that you have seen go strange.",
+      "src": [
+        "Zuozhuan, Xuan 15",
+        "Wang Bi commentary on Laozi 58"
+      ]
+    },
+    "mi": {
+      "kind": "etymology",
+      "title": "迷: lost on the road",
+      "body": "迷 has 辶, the sign of walking, the same that is in 道. Its other part, 米, gives the sound. The Shuowen glosses it 或也, where 或 stands for 惑, “to be in doubt, deluded”. The first sense is concrete: to lose the way, as a traveller does at a fork with no sign. So 人之迷 is not “the sin of man” and not “ignorance”. It is people who have lost the road, and since the road is the 道, the pun is built in. 其日固久, “its days are long indeed”: this did not start with us. The tone is odd for the book, almost a sigh. Wang Bi draws a mild rule from it: people have been lost for so long that you cannot hold them to account with “correct” and “good”. One who is lost needs a direction, not a verdict.",
+      "src": [
+        "Shuowen Jiezi, 辵部: 迷，或也。从辵米聲。",
+        "Wang Bi commentary on Laozi 58: 言人之迷惑失道，固久矣。不可便正善治以責。"
+      ]
+    },
+    "shengren": {
+      "kind": "variant",
+      "title": "聖人: a sage the silk texts lack",
+      "body": "聖人 is “the sage”: not a saint and not a scholar, but one whose ear 耳 and mouth 口 are tuned to how things go, and in this book usually the ideal ruler. Here the words may be a later guest. The silk texts are reported to read only 是以方而不割: “so: square and not cutting”, with no subject. Then the four lines are not a portrait of a rare person. They are four rules of form that anyone may take up, or a description of the muffled government of line one. The received text gave the lines an owner. They are reported to differ in the four pairs too: 兼而不刺 (“not stabbing”) for [[廉而不劌|lian]], and 直而不紲 for [[直而不肆|si]].",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported): 是以方而不割 兼而不刺 直而不紲"
+      ]
+    },
+    "fang": {
+      "kind": "gap",
+      "title": "Four words from the workshop",
+      "body": "方, 廉, 直, 光: square, corner, straight line, light. English versions turn them at once into morals: “upright”, “honest”, “principled”. In Chinese they are first the terms of a carpenter and a jade-cutter, and each is paired with the harm that its shape can do. A square thing has edges that slice: 割, which the Shuowen glosses 剥也, “to flay”. A corner can gash. A straight line can run on past its place. A light can blind. So each line says: have the form, and do not let the form injure. The moral sense is there, since 方 is also “correct” and 直 “honest”. But the picture comes first, and it is exact about the danger of each virtue. Wang Bi quotes passage 41: 大方無隅, “the great square has no corners”. How can a thing be square and have no corner that cuts?",
+      "src": [
+        "Shuowen Jiezi, 刀部: 割，剥也。从刀害聲。",
+        "Wang Bi commentary on Laozi 58"
+      ]
+    },
+    "lian": {
+      "kind": "etymology",
+      "title": "廉而不劌: said of jade",
+      "body": "廉 is first a place in a building: the sharp edge of the raised platform on which a hall stands. The Shuowen files it under 广, a building open at the front, and glosses it with a rare word for “side, edge”. From “edge” it became a quality of people: one with clean edges, who takes nothing that is not due; then “incorrupt”, the standard praise for an official. (Today 廉 is also “low-priced”.) 劌 is to wound with a blade: 利傷也, “to hurt with sharpness”. The four characters 廉而不劌 are not found only here. In the Record of Rites, Confucius explains why the noble person values jade, and lists its virtues. One is this: jade has edges, and they do not cut the hand, and that is its rightness. The Shuowen says of jade, in like words, 銳廉而不技: its edge is keen and does not cut. So the line may be a saying of jade-workers that both schools used. Pick up a stone that is worked and polished. The corner is exact, and it is safe.",
+      "src": [
+        "Shuowen Jiezi, 广部: 廉，庂也。从广兼聲。",
+        "Shuowen Jiezi, 刀部: 劌，利傷也。从刀歲聲。",
+        "Liji, “Pin yi” (聘義): 廉而不劌，義也。"
+      ]
+    },
+    "si": {
+      "kind": "gap",
+      "title": "肆: straight, and then too far",
+      "body": "肆 is to let a thing go out to its full length: to spread goods on a stall (it also means “a shop”), to lay out a body, to give free rein. Of a person it is “unrestrained, reckless”. 直而不肆 is “straight, and not let loose”. Straightness has a typical vice: it keeps going. An honest person says the true thing and then the next true thing, past the point of use, into the other’s wound. Wang Bi’s image is of water at the boil: one leads with straightness and does not 激沸, “stir to boiling”. He cites passage 45: 大直若屈, “great straightness seems bent”. The silk texts are reported to read 紲, a tether; the Shuowen glosses that 系也, “to tie”. If that is the old reading, the sense may be “straight, yet not a leash on others”. English “straight” has lost the edge. Is your honesty a line or a ray?",
+      "src": [
+        "Wang Bi commentary on Laozi 58: 以直導物，令去其僻，而不以直激沸於物也。",
+        "Shuowen Jiezi, 糸部: 紲，系也。"
+      ]
+    },
+    "guang": {
+      "kind": "wangbi",
+      "title": "光而不燿: Wang Bi’s two lamps",
+      "body": "光 is light: the Shuowen sees fire above a person, 从火在人上. 燿 is to blaze, to dazzle; 照也, “to shine on”. The line recalls 和其光, “temper the light”, of passages 4 and 56. Wang Bi’s comment here is among his best: 以光鑑其所以迷，不以光照求其隱慝也. “Use the light to mirror that by which they went astray; do not use the light to shine into them and hunt out their hidden faults.” There are two ways to hold a lamp. One lights the road, so that a person who is [[lost|mi]] can see where the wrong turn was. The other is turned on the person’s face. The second is the [[察察|cha-cha]] of the first stanza: inspection. So the last line of the passage answers its third. He ends with his motto: all this honours the root and lets the branch-tips rest; 不攻而使復之也, “without attack, it brings them back”.",
+      "src": [
+        "Shuowen Jiezi, 火部: 光，明也。从火在人上，光明意也。",
+        "Wang Bi commentary on Laozi 58"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s couplets",
+      "body": "Legge turns the first stanza into four lines of rhymed English, in the manner of an 18th-century moral poem. 悶悶 becomes a government “that seems the most unwise”: the “seems” is his, and it saves the ruler’s honour at once. 察察 becomes “meddling, touching everything”: hands, where the Chinese has eyes. The people’s two states are gone; in their place are “goodness” and “disappointment”. The doubled sounds, which carry the feeling, could not survive verse of this kind. For [[其無正|wu-zheng]] he writes a full question with a “we”: “Shall we then dispense with correction?” That follows Wang Bi’s sense of 正 as government, and it adds an anxious Victorian voice that fears disorder. At the end he says the sage “allows himself no license” for 不肆. The line is now about self-control and private morals. The Chinese is about not harming others with one’s straightness.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "The old man’s question",
+      "body": "For one day, use the question of the [[old man at the frontier|saiweng]]. When a thing happens that you call bad, a delay, a refusal, a loss, do not correct the judgment. Add a question after it: how do I know? Do the same when a thing happens that you call good. The point is not to pretend that pain is pleasant or to stop caring about results. It is to notice how fast the verdict comes, and how little the verdict knows. Then try one of the four last lines in a conversation where you are right. Be [[square|fang]]: hold your shape. And watch the edge: does it cut? If you see the other person flinch, you have found your 割."
+    }
+  },
+  "lenses": {
+    "ground": "Three parts that seem at first to be three subjects. Part one is politics, in four [[doubled words|sound]]: a [[muffled|men-men]] rule and a whole people; a [[sharp-eyed|cha-cha]] rule and a [[chipped|que-que]] people. Part two is fortune: [[disaster and blessing|huo-fu]] each [[hold the other|yi-fu]]; nobody knows the [[last turn|ji]]; the straight turns strange and the good turns [[uncanny|yao]]; people have long been [[lost|mi]]. Part three is four lines on form: [[square|fang]], [[cornered|lian]], straight, bright, each with a “but does not”. The link is the short line in the middle, [[其無正|wu-zheng]]. Since no fixed “correct” holds, a rule that enforces the correct breaks its people, and a person who has a shape must take care that the shape does not cut. The passage is the second half of passage 57, and shares its key words: 正, 奇, 民.",
+    "inner": "The two lines on fortune are often read as comfort: bad luck holds good luck. They are that. They are also a caution of the same weight: your good fortune has something [[crouched in it|yi-fu]]. Taken together, they loosen the habit that runs most of a day, the instant sorting of each event into “for me” and “against me”. The text does not say that the sorting is wrong. It asks who knows the [[end|ji]]. The mind that stops insisting on the verdict becomes a little [[悶悶|men-men]], less sharp, less sure, and in the terms of the first stanza, more whole. The same holds for the idea of oneself as good. 善復為妖: goodness that is held up and watched goes strange. The four last lines describe a character without that self-watching: it has form, and it does not use the form on anyone.",
+    "leading": "The first stanza is a finding about measurement. A leader who inspects everything, who sets a metric for every act, gets people who are 缺缺: each one reduced to what is checked, and skilled at the gaps between the checks. A leader whose rule looks vague from outside may be the one whose people are 淳淳. This is not a defence of neglect. [[Wang Bi|wu-zheng]] says the muffled rule ends in “great order”; the test is the people and not the look of the office. The middle lines warn reformers. Each [[correction|fu-return]] becomes the next abuse, and each published virtue the next [[freak|yao]]. Do not give up on standards for that reason. Hold them as the last four lines say: [[square and not cutting|fang]]. And [[hold the lamp|guang]] so that a lost person can see the road. Do not point it into the person’s face.",
+    "body": "The four last lines are good instructions for posture and for touch. Square: the frame is aligned, hips and shoulders level, and yet nothing in it is rigid enough to hurt on contact. Cornered: the angles of the joints are exact, and their edges are padded with softness. Straight: the spine is long, and it does not strain upward past ease; that is 不肆. Bright: the eyes are awake, and they do not stare. In partner work the same four hold. A teacher’s correcting hand should have a clear shape and no cut in it. Timing belongs to the middle lines: strength at its fullest is where the fall [[lies in wait|yi-fu]], and the low point of a movement is where the rise leans. A fighter who loves the winning position is already in the next one.",
+    "nature": "A river in flood is disaster to this year’s field and the source of next year’s soil; the Yellow River built the plain that it drowns. A fire clears a wood and opens the seeds that only heat can open. A fat year breeds the many mouths of a hungry one. Living systems do not have a “correct” state that stays. They have turning, 復, and what is called health is an ability to keep turning. The last four lines read well as a description of a mature landscape: old mountains are still [[mountains|fang]], and their edges are worn so that things can live on them. Light at noon in the desert kills, and under leaves it feeds. 光而不燿 is the light of a forest floor.",
+    "practice": "Use [[the old man’s question|practice]] for one day: how do I know? Then look at one place where you are in charge of others, even slightly, and ask which of the two governments you run there. Count your acts of checking in a day. Remove one. Do not announce the change, and give it a week before you judge it. See if the people there become, by a small degree, less [[chipped|que-que]]. Then ask the old man’s question about that result as well."
+  },
+  "glyph": "伏",
+  "plates": [
+    {
+      "c": "伏",
+      "title": "A person and a dog",
+      "lesson": "Six strokes, two parts, and no sound element: this is a character made only of meaning. On the left, 亻, a person standing, the side-form of 人. On the right, 犬, a dog. The Shuowen says of 犬 that it is a picture, and quotes Confucius: 視犬之字如畫狗也, “look at the character 犬: it is like a drawing of a dog”. In the modern form the dog has become 大, a person with arms out, plus one dot; the dot is what remains of the animal’s ear or tail. Person plus dog gives 伏, and the Shuowen’s definition is 司也, “to keep watch”. A person with a dog lies low and waits: a hunter in the grass, a guard at a door. The body posture is face down, flat, hidden. From it come all the later senses: to lie prostrate, to submit, to hide, to ambush (埋伏), and the hottest weeks of summer, the 三伏 or “three crouchings”, when the cool is said to lie hidden under the heat. In this passage disaster [[does the crouching|yi-fu]]. The script gives it a dog’s patience. There is a cousin with the same parts in another order of thought: 器, four mouths and a dog that guards vessels (passage 11). Dogs in the script are mostly on watch.",
+      "brush": "Six strokes. The person: a stroke that falls to the left, then a vertical that starts under its middle. The dog: a horizontal; a long stroke that starts above the horizontal, crosses it, and falls away to the left; a long stroke that starts at the crossing and sweeps down to the right; and last the dot, high on the right, above the horizontal. Watch the last three. The left-falling and right-falling strokes open like the two sides of a tent, and the right one must be the longer and heavier, pressed down at its end and then lifted. The dot goes in the empty space at the upper right and balances the tall person on the left. Left side narrow and upright, right side wide and open: a still thing beside a thing ready to spring."
+    },
+    {
+      "c": "福",
+      "title": "An altar and a full jar",
+      "lesson": "This is among the most written characters in the Chinese world. At the New Year it hangs on doors in gold on red paper, and many households hang it upside down. On the left is 礻, the short form of 示, the sign for things of the spirits, commonly explained as an altar or a spirit tablet. The Shuowen: 祐也。从示，畐聲, “help from above; from 示, with 畐 for the sound”. That 畐 on the right is, from top to bottom, a line, a mouth 口, a field 田. That modern look misleads. The part is commonly explained as a picture of a jar with a neck and a round, full belly: a vessel of wine. The same part is in 富, “rich”, a full jar under a roof 宀, which the Shuowen glosses 備也, “fully supplied”, and in 幅, the width of a bolt of cloth. So 福 is a full vessel before the altar: the blessing that comes back from the spirits to those who feed them, or the wine that is offered. Its partner [[禍|huo-fu]] has the same altar. Two games are played with this character. It is hung head-down because 倒, “upside down”, sounds like 到, “has arrived”, in modern Chinese: a homophone only. And the bat, 蝠, is painted as a sign of luck for the same kind of reason. The passage is less sure. Under the full jar, it says, [[a dog is lying|yi-fu]].",
+      "brush": "Thirteen strokes. The altar side, four: a dot; a horizontal that turns and falls to the left; a vertical; and a small dot on the right of the vertical. Keep this side narrow, with the dot at the top well above the rest. The jar side, nine: a short horizontal, the lid; then the mouth in three strokes (a vertical, a horizontal that turns down, a closing horizontal); then the field in five (a vertical; a horizontal that turns down; a horizontal across the middle; a vertical down the middle; the closing base). Watch the proportions of the right side. The mouth is small and the field is wide and square, so the jar has a neck and a belly. Folk calligraphers write “a hundred 福”, one sheet with a hundred different forms of this one character, from seal script to wild cursive."
+    },
+    {
+      "c": "廉",
+      "title": "The edge of the hall",
+      "lesson": "The cover of this character is 广 (yǎn), a building seen from the side with one wall open; it marks halls and sheds, as in 庫 (armoury), 府 (office, treasury), 廟 (ancestral temple), and 庭 (courtyard). Under it is 兼, which gives the sound. 兼 is worth a look in itself: the Shuowen says 从又持秝, “a hand that holds two stalks of grain”, and so “to hold two at once, to combine” (it has a plate in passage 61). The Shuowen puts 廉 among the buildings and explains it as the side or edge. In the ritual books it is the sharp border of the platform on which a hall stands, the line where the floor ends and the drop begins. Guests of different rank stood nearer to it or farther from it. The meaning then moved from stone to character, as English moved “upright” and “square” from carpentry to persons. A 廉 person has a clean edge: takes nothing over the line. In the Han, men were recommended for office as 孝廉, “filial and incorrupt”. The passage adds the craftsman’s warning: an edge that is exact [[need not cut|lian]]. Its phrase is also said of jade.",
+      "brush": "Thirteen strokes. The building, three: a dot on top; a horizontal; a long stroke that falls away to the left and makes the open wall. Then 兼 beneath, ten: two short strokes at the top that lean toward each other; a horizontal; a horizontal that turns down at the right; two more horizontals, the upper one longer, across the whole of 兼; then two verticals that pass down through all the horizontals; and last a stroke that falls to the left and one that falls to the right, like two feet. Watch the two long verticals, strokes ten and eleven. They are the two stalks of grain, and they must be parallel and evenly spaced, with the horizontals tied across them like a hand. The left-falling wall of 广 must be long enough to shelter the whole of 兼 and must not touch it."
+    }
+  ]
+}

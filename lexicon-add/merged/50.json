@@ -1,0 +1,52 @@
+{
+  "刃": {
+    "senses": ["the edge of a blade", "a blade, a sword", "to kill with a blade"],
+    "shuowen": "刀堅也。象刀有刃之形。",
+    "shuowenEn": "The hard part of a knife. It shows a knife that has an edge.",
+    "parts": [ { "c": "刀", "m": "knife" }, { "c": "丶", "m": "a mark that points at the edge" } ],
+    "story": "A knife with one added stroke that points at the place that cuts: a character of the “pointing” kind, like 本 (a tree marked at the root) and 末 (a tree marked at the tip). It gives its sound to 忍, to endure, and 認, to recognise. In the Laozi it occurs once: the weapon finds no place to lodge its 刃 in the one who holds life well (50).",
+    "gap": "English “blade” is the whole flat of the knife. 刃 is only the line that cuts."
+  },
+  "死": {
+    "senses": ["to die; death", "dead", "to the death; fixed, rigid"],
+    "shuowen": "澌也，人所離也。从歺从人。",
+    "shuowenEn": "To run dry; that which people part from. From 歺 (bare bones) and 人 (a person).",
+    "parts": [ { "c": "歹", "m": "bare, broken bone" }, { "c": "匕", "m": "here a person, not a spoon" } ],
+    "story": "A person beside bones: the character shows the one who remains. The Laozi speaks of death without dread and without promise. The hard and strong are death’s followers (76); the people take death lightly when rulers live richly (75); to die and not be lost is long life (33). In 50 it gives the term 死地, death-ground, and a person who has none.",
+    "gap": "English “death” is often a figure or a state. 死 in this book is mostly a direction in which stiff things move."
+  },
+  "虎": {
+    "senses": ["tiger", "fierce, brave (in compounds)"],
+    "shuowen": "山獸之君。从虍，虎足象人足。象形。",
+    "shuowenEn": "Lord of the beasts of the mountains. From 虍 (tiger stripes); the tiger’s feet are like human feet. A picture.",
+    "parts": [ { "c": "虍", "m": "the tiger’s stripes" }, { "c": "儿", "m": "legs; the Shuowen says they are like a person’s" } ],
+    "story": "Tigers lived across China in the Warring States period and were a real danger on mountain roads. The early forms draw the whole animal on its side; the script later stood it upright. In the Laozi the tiger comes once, with the 兕: the one who holds life well walks the land and the tiger finds no place for its claw (50).",
+    "gap": "For a modern reader the tiger is rare and far away. For this text it is what waits in the hills beside the road."
+  },
+  "徒": {
+    "senses": ["to go on foot", "foot soldiers; followers, disciples", "a kind, a class of people", "merely, in vain"],
+    "parts": [ { "c": "彳", "m": "a step, a road" }, { "c": "土", "m": "gives the sound" }, { "c": "止", "m": "foot (lower right)" } ],
+    "story": "The Shuowen lists the word under an older graph and defines it as “to go on foot”. Those on foot behind the chariots were the infantry and the retinue; so 徒 came to mean followers and then a kind of people. The Laozi speaks of the 徒 of life and the 徒 of death (50, 76): two companies, and each person walks in one.",
+    "gap": "“Follower” or “disciple” suggests a choice of teacher. 徒 is simply the crowd on foot behind something."
+  },
+  "攝": {
+    "senses": ["to draw in and hold; to gather up", "to hold an office for another; to assist", "to take care of (life, health)"],
+    "shuowen": "引持也。从手聶聲。",
+    "shuowenEn": "To draw in and hold. From 手 (hand), with 聶 for the sound.",
+    "parts": [ { "c": "扌", "m": "hand" }, { "c": "聶", "m": "three ears: to whisper; gives the sound" } ],
+    "story": "攝 is the gesture of gathering: the skirts of a robe, the reins, a post held in trust. 攝生, to hold life, appears in passage 50 and became a standing term for the care of health in later China, beside 養生, to nourish life. The Laozi’s sense is to keep life collected, as against feeding it thick.",
+    "gap": "English “preserve” or “manage” life sounds like storage or control. 攝 is a light, gathering hold."
+  },
+  "兕": {
+    "senses": ["a rhinoceros, or a great wild ox (the identity is debated)"],
+    "story": "The Shuowen lists the animal under an old picture-graph and describes it as like a wild ox and dark in colour, apart from 犀, the rhinoceros of the far south. Shang kings hunted it. Its horn made drinking cups and its hide made armour. In passage 50 it is the first danger of the road: it finds no place to thrust its horn.",
+    "gap": "“Rhinoceros” puts the scene in Africa or India for an English reader. The 兕 belonged to the plains and marshes of ancient China."
+  },
+  "厚": {
+    "senses": ["thick", "rich, generous, heavy", "to value, to treat richly"],
+    "shuowen": "山陵之厚也。从𣆪从厂。",
+    "shuowenEn": "The thickness of hills and mountains. From 𣆪 and 厂 (a cliff).",
+    "story": "厚 is thickness as mass, measured by mountains. In people it is usually praise: generous, solid. The Laozi uses it both ways. The great person stays in the thick and not the thin (38); one who holds de in fullness, 含德之厚, is like an infant (55). But much stored is heavily, 厚, lost (44), and to live life 厚 leads to the death-ground (50, 75).",
+    "gap": "English “thick” is not a moral word. 厚 is one, and the book warns only against a thick hold on life."
+  }
+}

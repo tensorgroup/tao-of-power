@@ -1,0 +1,256 @@
+{
+  "n": 14,
+  "title": "The Lead Thread",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "視之不見名曰夷，聽之不聞名曰希，搏之不得名曰微。此三者，不可致詰，故混而為一。",
+      "gloss": {
+        "0": "to look at: the act (見, four characters on, is the result)",
+        "3": "to see: the result",
+        "6": "yí: level, flat, smooth",
+        "14": "sparse, thin, rare",
+        "16": "bó: to grope for and seize",
+        "22": "minute; hidden",
+        "31": "jié: to question, to cross-examine",
+        "34": "hùn: to flow together, to blend"
+      }
+    },
+    {
+      "text": "其上不皦，其下不昧。繩繩不可名，復歸於無物。是謂無狀之狀，無物之象，",
+      "gloss": {
+        "3": "jiǎo: white-bright, like polished jade",
+        "8": "mèi: dim, dark; the half-light before day",
+        "10": "a cord; doubled: on and on without a break",
+        "25": "shape, outward form",
+        "32": "image, likeness"
+      }
+    },
+    {
+      "text": "是謂惚恍。",
+      "gloss": {
+        "2": "hū: dim, absent (half of a two-syllable sound word)",
+        "3": "huǎng: flickering, unfixed (the other half)"
+      }
+    },
+    {
+      "text": "迎之不見其首，隨之不見其後。執古之道，以御今之有。",
+      "gloss": {
+        "0": "to go out to meet",
+        "5": "head; the front end",
+        "14": "to hold fast, to grip",
+        "20": "to drive a chariot team",
+        "23": "what there is; Wang Bi: the affairs at hand"
+      }
+    },
+    {
+      "text": "能知古始，是謂道紀。",
+      "gloss": {
+        "3": "beginning",
+        "8": "jì: the lead end of a silk thread; the guiding thread"
+      }
+    }
+  ],
+  "rendering": [
+    "Looked at, not seen: its name is [[Level|yi]].",
+    "Listened to, not heard: its name is [[Sparse|xi]].",
+    "[[Grasped at|bo]], not got: its name is [[Minute|wei]].",
+    "These three cannot be [[questioned to the end|jie]],",
+    "so they [[blend and are one|hun]].",
+    "",
+    "[[Above, it is not bright;|jiao-mei]]",
+    "below, it is not dark.",
+    "[[A cord, on and on|sheng]], it cannot be named;",
+    "it goes back to [[where there is no thing|wu-wu]].",
+    "This is called the shape of no shape,",
+    "[[the image of no thing|xiang]].",
+    "This is called [[dim and flickering|huhuang]].",
+    "",
+    "Go to meet it: its head is not seen.",
+    "Follow it: its back is not seen.",
+    "[[Hold the way of old|zhigu]]",
+    "to [[drive|yu]] [[what there is now|you]].",
+    "To be able to know the old beginning:",
+    "this is called [[the lead thread of Dao|ji]]."
+  ],
+  "notes": {
+    "yi": {
+      "kind": "gap",
+      "title": "Three names that are not “invisible, inaudible, intangible”",
+      "body": "Most English versions give the three names as the three failures: invisible, inaudible, intangible. The Chinese words say something else. 夷 is level, flat: ground with no feature for the eye to catch. The Shuowen defines it 平也, “level”. 希 is sparse: sound so thin that the ear finds no pattern. 微 is minute. So the text does not name what the senses lack. It names a quality on the other side: too even to see, too thin to hear, too fine to hold. Wang Bi says where the names come from: 更以我耳目體不知為名, “it is named from the not-knowing of my ear, eye, and body”. The capitals in our rendering are an English habit; Chinese has none. The Mawangdui silk texts are reported to [[exchange two of the names|silk]]. The same three sounds also started [[a strange European theory|remusat]].",
+      "src": [
+        "Shuowen Jiezi, 大部: 夷，平也。从大从弓。東方之人也。",
+        "Wang Bi commentary on Laozi 14"
+      ]
+    },
+    "xi": {
+      "kind": "wordplay",
+      "title": "希: the thin word that returns",
+      "body": "希 is “sparse, far apart”: the sense now written 稀, with the grain sign added, which the Shuowen defines as 䟽也, “thinly spaced”, like seedlings set wide. The Shuowen has no entry of its own for 希. The Laozi likes this word for sound. Passage 41 says 大音希聲, “the great note has sparse sound”. Passage 23 opens 希言自然, “sparse speech is natural”. So when the text says here that what the ear cannot hear is called 希, a reader of the whole book hears an echo: the thinnest sound is the greatest one. The three names also chime. In the old rhyme groups 希 and 微 are in one group (微), and 夷 is in the group next to it (脂). Mandarin still keeps a shadow of it: yí, xī, wēi."
+    },
+    "bo": {
+      "kind": "etymology",
+      "title": "搏: the hand that hunts",
+      "body": "搏 has the hand sign, 扌, at the left. The Shuowen defines it 索持也: “to search for and seize”. It is the word for a hawk that strikes, or for a fighter who grapples. It is not a gentle touch. So the third line is stronger than “touch it and do not feel it”. The hand goes out to catch, and closes on nothing. The Mawangdui silk texts are reported to have a softer verb, 捪, which the Shuowen glosses 撫也, “to stroke”: a palm that passes over a surface and finds none. Try both now. Close your hand fast on the air. Then pass your palm slowly through it. Which failure teaches more?",
+      "src": [
+        "Shuowen Jiezi, 手部: 搏，索持也。一曰至也。从手尃聲。",
+        "Shuowen Jiezi, 手部: 捪，撫也。从手昏聲。一曰摹也。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "wei": {
+      "kind": "etymology",
+      "title": "微: to walk unseen",
+      "body": "The Shuowen defines 微 as 隱行也, “to go in concealment”. Its left part is 彳, the sign for a road or a step. The first sense is movement that no one notices: to travel in disguise, to slip past a guard. From this come “hidden”, “slight”, “minute”, and today the prefix “micro-”. The Shuowen’s example is from an age of coups: 白公其徒微之, “the followers of the Lord of Bai hid him”. So the third name, like [[the verb before it|bo]], comes from a world of pursuit and escape. The hand hunts; the thing walks past unseen. This word opened the book’s account of fineness in passage 1, where Wang Bi explains 妙 as “the far limit of 微”. It returns in the next passage as the first word for the masters of old.",
+      "src": [
+        "Shuowen Jiezi, 彳部: 微，隱行也。从彳𢼸聲。春秋傳曰：白公其徒微之。"
+      ]
+    },
+    "jie": {
+      "kind": "geopolitics",
+      "title": "詰: the interrogation fails",
+      "body": "詰 is a word from the law court. The Shuowen says only 問也, “to question”, but in the texts of the period it means to press, to cross-examine, to demand an account: an officer questions a suspect, a ruler calls a minister to answer. Warring States courts were full of this. The debaters pressed each term until it broke, and the Legalist state matched each name against the result. The line says that this method stops here: 不可致詰, the three “cannot be brought to full questioning”. They give no further answers. English “cannot be analyzed” makes it a matter of logic. The Chinese picture is a witness who cannot be made to speak. The Mawangdui silk texts are reported to write 至計, “reckoned to the end”: there the failed tool is the count, and not the question.",
+      "src": [
+        "Shuowen Jiezi, 言部: 詰，問也。从言吉聲。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "hun": {
+      "kind": "gap",
+      "title": "Who blends them?",
+      "body": "故混而為一: “so, blended, they are (or: are made) one”. The line has no subject. Legge supplies “we blend them together and obtain The One”, as if unity were a result of our thinking. But the grammar allows the plainer sense: the three were never apart. Eye, ear, and hand each made a separate report of failure, and the three reports are about one thing. 混 is a water word. The Shuowen defines it 豐流也, “an abundant flow”: streams that run together until you cannot tell them apart. It is not “confusion”. Passage 25 uses the same word for the origin: 有物混成, “there is a thing, blended and complete”. Note 為一, “to be one” or “to make one”. Chinese does not force the choice. English does, and we chose “are”.",
+      "src": [
+        "Shuowen Jiezi, 水部: 混，豐流也。从水昆聲。"
+      ]
+    },
+    "jiao-mei": {
+      "kind": "gap",
+      "title": "A thing with no bright side",
+      "body": "Each visible thing has a lit side and a shadow. The top of a hill is bright and its foot is dim; the sun rises bright and sets dark. The line denies both: 其上不皦，其下不昧. 皦 is the white of polished stone; the Shuowen says 玉石之白也. 昧 is the dark, or the grey before dawn. So this is not a light above the world, as heaven is in much Western religion, and not a depth below it. It gives no direction in which to look up. The Mawangdui silk texts are reported to begin the line with two more characters: 一者, “as for the One”. There the sentence is plainly about the unity of the line before, and the passage becomes a portrait of one single thing. Some English versions turn above and below into rising and setting. The Chinese has only the two space words: 上, 下.",
+      "src": [
+        "Shuowen Jiezi, 白部: 皦，玉石之白也。从白敫聲。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "sheng": {
+      "kind": "wordplay",
+      "title": "繩繩: cord, cord",
+      "body": "繩 is a cord or rope; the Shuowen says 索也. Doubled, 繩繩 is a sound-picture of what continues without a break, as a rope is paid out hand over hand. The Book of Odes uses it for a line of descendants that does not end. Commentators also heard a second sense, “without edge or measure”. The carpenter’s inked cord, 繩, was the standard tool for a straight line, and from it came the verb “to correct, to measure”; here the measuring cord itself cannot be measured or named. Keep the cord in mind. The passage ends with another thread, [[紀|ji]]. The Mawangdui silk texts are reported to read 尋尋呵. 尋 is the span of two arms held out; so there the image is fathom after fathom. In both versions, something is measured by the body and has no end. English “endless” keeps the idea and loses the hands.",
+      "src": [
+        "Shuowen Jiezi, 糸部: 繩，索也。从糸，蠅省聲。",
+        "Shijing, Zhou nan, “Zhong si” (螽斯)",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "wu-wu": {
+      "kind": "gap",
+      "title": "無物 is “no thing”, not “Nothingness”",
+      "body": "復歸於無物: it “again returns to no-thing”. 物 is a thing among things: a creature, an object, an event, each with a shape and a name. 無物 is the state in which there is not yet any such item. English “nothingness” makes this an abyss, and the Western ear then hears either despair or a mystic void. The Chinese is modest. It says only that the cord, if you follow it back, leads to a place with no separate things in it. Then the text refuses to stop there, and adds [[a shape and an image|xiang]]. Note 復歸, “to return again”. This verb pair is one of the book’s signatures; in passage 16 each thing 復歸其根, “returns to its root”, and in passage 28 the return is to the infant and to the uncarved wood."
+    },
+    "xiang": {
+      "kind": "wangbi",
+      "title": "Wang Bi: say it is not there? Say it is there?",
+      "body": "無狀之狀，無物之象: “the shape of no shape, the image of no thing”. The phrase does not cancel itself. It holds two facts together. Wang Bi sets them out as two questions: 欲言無邪，而物由以成。欲言有邪，而不見其形。 “Do you wish to say it is not there? But things come to completion through it. Do you wish to say it is there? But its form is not seen.” This is the logic of the whole passage. It is easy to compare it with the “negative theology” of the West, which says only what God is not. Use care with that. Here nothing stands outside the world. The text does not deny that the Way is present; it denies that the Way is an item. 狀 is outer shape (the Shuowen: 犬形也, “the form of a dog”). 象 is the likeness that the mind holds.",
+      "src": [
+        "Wang Bi commentary on Laozi 14",
+        "Shuowen Jiezi, 犬部: 狀，犬形也。从犬爿聲。"
+      ]
+    },
+    "huhuang": {
+      "kind": "wordplay",
+      "title": "惚恍: a word made of sound",
+      "body": "惚恍 (hū huǎng) is not two ideas joined. It is one two-syllable word of a kind that Chinese has many of: both halves begin with the same sound, and the meaning is in the pair, as in English “shilly-shally” or “flicker”. Such words were written with any graphs of the right sound; other editions write this one with other graphs, such as 忽 and 怳, and the heart sign 忄 in both received characters only tells you it is a state of mind. The sense is: there and not there, as a thing seen at dusk. Wang Bi glosses it in six characters: 不可得而定也, “it cannot be got hold of and fixed”. Passage 21 turns the word around, 恍惚, and looks inside it: “within it there is an image”. It is a word of experience. Sitters know this state. Do you?",
+      "src": [
+        "Wang Bi commentary on Laozi 14"
+      ]
+    },
+    "zhigu": {
+      "kind": "variant",
+      "title": "The way of old, or the way of now?",
+      "body": "The received text says 執古之道，以御今之有: hold the way of old to drive what there is now. Both Mawangdui silk texts are reported to read 執今之道: “hold the way of now to drive what there is now”. One character is different and the politics are reversed. The received line fits the common belief of the age that the old kings had the pattern, a belief the Confucians taught and that the Laozi shares in other places (passages 15 and 65 both begin “those of old who were good at…”). The reported silk line is nearer to the Legalists, who said that a ruler must fit the present and not copy the past. Both versions agree on the next line: by this, the old beginning can be known. So even the reported silk line reaches the origin, but it reaches it from here. Which direction do you trust more: from the past to now, or from now to the root?",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Han Feizi, “Wu du” (五蠹)"
+      ]
+    },
+    "yu": {
+      "kind": "gap",
+      "title": "御 is to drive, not to control",
+      "body": "御 is the charioteer’s verb. The Shuowen defines it in three characters: 使馬也, “to make the horses go”. Modern versions say “manage”, “master”, or “control” the present, and the picture becomes an office. The Chinese reader sees a driver who stands in a light car behind two or four horses, with the reins gathered in the hands. A driver does not push the horses and cannot overpower them. The reins carry the feel of each mouth to the hands, and small movements go back. The Odes praise a driver whose reins are “like silk bands”. Charioteering was one of the six arts that a gentleman learned, beside archery, writing, and music. And see the verb before it: 執, to grip. “I shall take up driving,” says Confucius, 吾執御矣, with the same two words. What you hold is the way. What you drive is [[what is there|you]].",
+      "src": [
+        "Shuowen Jiezi, 彳部: 御，使馬也。从彳从卸。",
+        "Analects 9.2",
+        "Shijing, Bei feng, “Jian xi” (簡兮)"
+      ]
+    },
+    "you": {
+      "kind": "wangbi",
+      "title": "今之有: “the there-is of now”",
+      "body": "今之有 is three small words: “now’s having”, the there-is of the present. Wang Bi gives it one of his shortest glosses: 有，有其事, “有 means: there are its affairs”. So the phrase is concrete. It is the business in front of you, the things that exist today and need a response. English versions say “the realities of the present” or “the present reality”; that makes one large abstract object, where the Chinese has only the plain verb “to have” used as a noun. Wang Bi then explains the hold on the old way: 雖今古不同，時移俗易，故莫不由乎此以成其治者也. “Though present and past differ, though times move and customs change, none has brought about order except through this.” Times change, he says. The thing that is formless and nameless does not.",
+      "src": [
+        "Wang Bi commentary on Laozi 14"
+      ]
+    },
+    "ji": {
+      "kind": "etymology",
+      "title": "紀: find the end of the thread",
+      "body": "紀 has the silk sign, 糸, at the left. The Shuowen defines it 絲別也: “to sort silk threads apart”. Old commentators explain the craft. A cocoon or a tangled skein is useless until you find the head of the thread; that lead end is the 紀, and when you have it, the whole skein follows. From this the word came to mean a guiding rule, a record in order (the “annals” of a king are his 紀), and a cycle of years. So 道紀 is not “the essence of Dao”, a thing inside it. It is the end of the thread: the place where a hand can take hold of what [[no hand can seize|bo]]. The passage that began with a hand that closed on nothing ends with a thread to hold. It is the second cord in the passage; the first was [[繩繩|sheng]]. Legge, to his credit, [[found an English word for it|legge]].",
+      "src": [
+        "Shuowen Jiezi, 糸部: 紀，絲別也。从糸己聲。"
+      ]
+    },
+    "remusat": {
+      "kind": "geopolitics",
+      "title": "The Paris professor who heard “Jehovah”",
+      "body": "In 1823 Jean-Pierre Abel-Rémusat, the first professor of Chinese in Europe, published a study of Laozi in Paris. He looked at the three names, which he read I, Hi, Wei, and proposed that together they wrote the Hebrew name of God, IHV: Jehovah. Laozi, he thought, must have learned it from the West. The idea was not new: Jesuit “Figurists” of the century before, Prémare and Foucquet among them, had looked for the Trinity and the name of God in this passage, as they looked for Noah in the Chinese classics. His student Stanislas Julien rejected it in 1842, and Legge rejected it again in 1891; it is wrong on the sounds, the grammar, and the history. But it shows the first frame through which the West read this book: as a lost fragment of the Bible. The three words mean [[level, sparse, and minute|yi]].",
+      "src": [
+        "Abel-Rémusat, Mémoire sur la vie et les opinions de Lao-tseu (1823)",
+        "Stanislas Julien, Le livre de la voie et de la vertu (1842)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s capitals, and his one fine word",
+      "body": "Legge’s frame shows in his capitals: “The One”, “the Semblance of the Invisible”, “its Front”, “its Back”. A capital letter makes a title, and a title suggests a person. He adds “we” again and again in a passage that has no subject at all, and gives 夷 as “the Equable”, a word for a calm temper. But see his last phrase: “(unwinding) the clue of Tao”. “Clue” is the old English “clew”, a ball of thread; the Greek hero Theseus used one to find his way out of the labyrinth, and from that story the word got its modern sense. Legge knew this. For [[紀|ji]], the lead thread of the silk, he found the one English word that is also a thread. Most later versions say “essence” and lose it.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "The silk texts and the order of the senses",
+      "body": "The Mawangdui silk texts are reported to give the three names in another order: looked at and not seen, 名之曰微, “name it minute”; stroked and not got, 名之曰夷, “name it level”. That fits the senses well. A thing too small escapes the eye, and a surface with no grain escapes the palm. The received text has the two the other way around: level for the eye, minute for the hand. That also works: the eye needs contrast, and the fingers cannot hold a thing that is too fine. They are also reported to write 名之曰, “name it, saying…”, with an object: an act of naming is done, three times, and the next lines then say that it cannot be named. They put the last two lines in the reverse order too: follow it first, then meet it. This passage is not among the Guodian bamboo slips.",
+      "src": [
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Let three senses fail",
+      "body": "Sit where it is quiet. First the eyes: look at a plain wall or the open sky, with no point to rest on. Stay until the looking has no object. That evenness is 夷. Then the ears: listen for the faintest sound in the room, and then for what is between the sounds. That thinness is 希. Then the hand: rub thumb and finger together more and more lightly, until you cannot say if they touch. That fineness is 微. Do not look for a result. The passage says the three [[are one|hun]], and that they do not answer [[questions|jie]]. Give it two minutes. Then stand up and take hold of the first thing you must do today, in the way that a driver takes up [[the reins|yu]]."
+    }
+  },
+  "lenses": {
+    "ground": "Three tries and three names. The eye looks and does not see; the ear listens and does not hear; the hand [[hunts|bo]] and does not get. The names are not “invisible, inaudible, intangible”. They are [[level, sparse, minute|yi]]. The three cannot be [[cross-examined|jie]], so they are [[one|hun]]. Then the one is described by what it lacks: no bright top, no dark underside, no name, no head, no back. In the middle is a [[cord|sheng]] that runs on and on, back to where there is [[no thing|wu-wu]]. Then the turn. With no warning the passage gives an instruction from the stable yard: grip the old way and [[drive|yu]] what is here now. It ends with a [[thread|ji]] from the silk room. So the pictures are a law court, a rope, a chariot, and a skein of silk. The [[silk manuscripts|silk]] are reported to differ in some details.",
+    "inner": "The passage reads like a report from sitting practice. Attention goes out through each sense and comes back with nothing. Do not treat that as a defeat. The three blanks turn out to be one blank, and it has a quality: even, thin, fine. Wang Bi says the names are taken from [[“the not-knowing of my ear, eye, and body”|yi]]. Then comes [[惚恍|huhuang]], the state in which a thing is neither there nor absent. The text says you cannot [[meet it or follow it|xiang]]: it has no front, so it is not ahead of you as a goal, and no back, so it is not behind you as a loss. A thing that is not in front and not behind is here. The last lines keep the mind from floating away. They put reins in the hands.",
+    "leading": "The final couplet is the part that rulers read. Hold the way of old; [[drive|yu]] what is here now. The verb is a driver’s verb. A driver feels the team through the reins, looks far down the road, and corrects early and lightly; one who fights the horses turns the car over. That is different from “control of the present situation”, and the difference is practical. The object, [[今之有|you]], is plain: the affairs that exist today. What is held is not a plan. It is something that [[cannot be named|sheng]] and that you learned from long before your own case. The [[silk texts|zhigu]] make this sharper, or reverse it: they are reported to say “the way of now”. A leader may ask each morning which one is in the hands: a habit copied from the past, or a hold on that which does not change when times change.",
+    "body": "The body knows the three failures as skills. A good archer does not stare at the target; the gaze goes [[level|yi]] and wide. A good listener in a fight or a dance does not wait for a loud signal; the attention goes thin, to the [[sparse|xi]] sound. In push-hands, the Taiji partner exercise, the hand that [[grabs|bo]] gets nothing, because the other person is no longer there; the hand that stays light feels the smallest shift. Then the charioteer: stand as if you hold [[reins|yu]]. The elbows are down, the wrists are alive, and the hands are closed but not tight. The grip, 執, is firm at the centre and soft at the edge. You can try it on a steering wheel or the handles of a bicycle. Where do you hold harder than the road needs?",
+    "nature": "Look for [[繩繩|sheng]] outside: a river seen from a bridge, with no first water and no last. A year, in which no day is the day when spring starts. Morning twilight, when you cannot say at which moment it stopped being [[dark|jiao-mei]]. The largest processes have no bright top and no dark underside, no front edge to meet and no rear to follow. You are in them. But the passage does not leave you with a blur. A weaver can find the [[lead end|ji]] of a tangled skein, and then the whole of it comes free without a knot. Each continuous thing has such a place where a hand can begin. In a watershed it is the spring. In a tree it is the root. Passage 16 goes there next.",
+    "practice": "Do the [[three-sense sitting|practice]] once: eyes level, ears thin, hand fine. Then use the last lines on one real matter today. Before you act on it, ask the weaver’s question: where is the head of this thread? Most tangles get worse because we pull at the middle, where the knot is most visible. Trace the matter back one step, and one step more, to the [[old beginning|zhigu]] of it. Then take hold there, lightly, as one holds [[reins|yu]]. If you want a reward afterwards, read how a missionary found a ball of thread in the last line: [[Legge’s “clue”|legge]]. And if you want a warning about what readers bring to a text, read [[what a Paris professor heard|remusat]] in the three names."
+  },
+  "glyph": "紀",
+  "plates": [
+    {
+      "c": "紀",
+      "title": "The head of the thread",
+      "lesson": "Begin at the left. 糸 is silk; the Shuowen says 細絲也。象束絲之形, “fine silk; it pictures a bound skein”. You can still see it: two twists, one on the other, and three short ends below. Each character that carries it has to do with thread: 線 (thread), 紙 (paper, first made of silk waste), 經 (the warp of a loom, and so a classic text: the 經 in 道德經), 繩 (the [[cord|sheng]] of this passage), 終 (the end, at first of a thread), 絕 (to cut off), 繼 (to join on). On the right is 己, which gives the sound jǐ. Alone 己 means “oneself”. Many scholars think its early form was itself a picture of a cord used to bind or to keep things in order, so that 紀 is the old word with silk added to make it clear; the Shuowen has a different account, and reads 己 as a sign of the calendar. So take the cord as “commonly explained”. The Shuowen’s definition of 紀 is 絲別也: to sort silk, to find each thread’s end. See its cousins. 統, which the Shuowen defines with this very word (紀也), is the thread-head that gathers a whole cocoon, and so “to unite, to command”. 綱 is the head-rope of a net. Together, 綱紀 means the order of a state. And 記, with 言 (speech) in place of silk, is to put things in order in words: to record. [[道紀|ji]] is the end of the Way that a hand can find.",
+      "brush": "Nine strokes: six for the silk, three for 己. The silk begins with two strokes of one kind: each goes down to the left, then turns and returns to the right. They make the two twists; the second is a little larger than the first. The third stroke is a dot that closes the lower twist. Strokes four, five, and six are three more dots in a row beneath: the loose ends. On the left side of a character they are written small and rise toward the right, to hand the eye on. Then 己. The seventh stroke goes right and turns down. The eighth is a short level line that closes the top. Watch the ninth: it goes down, bends, runs along the base, and ends in a hook that turns up. It is the longest stroke in the character, and it is drawn like a thread laid out on a table."
+    },
+    {
+      "c": "御",
+      "title": "The driver’s hands",
+      "lesson": "Three parts, set side by side. At the left is 彳, a step or a road; it is the left half of 行, which first pictured a crossroads. You saw it in [[微|wei]], “to walk unseen”, and it is in 往 (to go), 徐 (to walk slowly), 復 (to return), and 德, the inner power of this book’s title. The middle and the right, taken together, are 卸. The Shuowen defines 卸 as 舍車解馬也: “to leave the car and loose the horses”, to unharness. It still means “to unload”. So for the Shuowen, 御 is the whole work of the road: to harness, to drive, to unharness; its definition is 使馬也, “to make the horses go”. The oracle-bone form is debated; some see a kneeling person, the 卩 at the right, with a rope or a whip. Another old way to write the word needs no debate: 馭, a horse 馬 and a hand 又. Now see how the word rose. The one who drove the king’s car stood beside the king. So 御 came to mean “to attend the ruler”, then “of the ruler”: an imperial thing was 御. Japanese still puts it before a word as a mark of respect. The Zhuangzi gave it wings: the sage Liezi 御風而行, “drove the wind and went”. In this passage the team is [[what there is now|you]].",
+      "brush": "Twelve strokes, in three columns: three, seven, two. The road first: a short stroke that falls to the left, a longer one under it, then a vertical. The middle column is the busy one. A falling stroke, two level strokes, and a vertical through them: this top looks like 午. Below it come a short level tick, a short vertical, and a base line that rises to the right, toward the last part. Then 卩: one stroke that goes right, turns down, and hooks back; and the twelfth stroke, a long vertical, the tallest line in the character. Watch that last one. A good hand lets it fall well below the rest, like a whip held down, or a driver who stands. The middle must stay narrow, or the three columns pull apart; calligraphers say that such a character must “give way” inside, each part with less room than it would take alone."
+    }
+  ]
+}

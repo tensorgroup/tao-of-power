@@ -1,0 +1,70 @@
+{
+  "嗇": {
+    "senses": ["to store the harvest; to hold back, to not spend", "sparing, thrifty", "(later) stingy", "嗇夫: a farmer; a village granary officer"],
+    "shuowen": "愛瀒也。从來从㐭。來者，㐭而藏之。故田夫謂之嗇夫。",
+    "shuowenEn": "To be sparing. From 來 (wheat) and 㐭 (granary). The wheat is put into the granary and stored. So men of the fields are called 嗇夫.",
+    "parts": [
+      { "c": "來", "m": "wheat (later: to come)" },
+      { "c": "回", "m": "here: the granary 㐭" }
+    ],
+    "story": "Wheat over a granary: a farmer shuts away part of the harvest, and above all the seed. The Laozi uses the word once, in passage 59, and makes it the best rule for ordering people and serving heaven. Han Feizi explains it as not spending one’s spirit; Wang Bi takes it as the farmer who weeds and does not force the crop. It differs from 儉, the plain living of passage 67.",
+    "gap": "“Frugality” and “moderation” are mild. “Stingy” is the modern sense and a vice. 嗇 is restraint now for the sake of life later."
+  },
+  "柢": {
+    "senses": ["the taproot of a tree", "root, base, foundation"],
+    "shuowen": "木根也。从木氐聲。",
+    "shuowenEn": "The root of a tree. From 木 (tree), with 氐 for the sound.",
+    "parts": [
+      { "c": "木", "m": "tree" },
+      { "c": "氐", "m": "to reach the ground; bottom; gives the sound" }
+    ],
+    "story": "The root that goes straight down. Han Feizi sets it apart from the spreading roots: the 柢 is that by which a tree sets up its life. The Laozi uses it once, in 深根固柢 (59), which became the idiom 根深柢固, “deep-rooted”. Its sound-part 氐 is in 低 (low), 底 (bottom), and 抵 (to reach, to resist).",
+    "gap": "English has one word, “root”. Chinese here has two, for the root that feeds and the root that anchors."
+  },
+  "母": {
+    "senses": ["mother", "the female of a pair; a source", "that which gives birth to and feeds a thing"],
+    "shuowen": "牧也。从女，象褱子形。一曰象乳子也。",
+    "shuowenEn": "To tend. From 女 (woman); it shows her with a child in her arms. Another view: it shows her suckling a child.",
+    "parts": [
+      { "c": "女", "m": "woman" }
+    ],
+    "story": "A woman with two dots, which most readers take as breasts. The Laozi uses 母 for the Dao as that which feeds: the mother of the ten thousand things (1), the mother of all under heaven (25, 52), the mother who feeds (20). In passage 59 a state has a mother too, and one who has her can last.",
+    "gap": "Translators write “source” or “principle”. Those words do not feed anyone. The Chinese is a body."
+  },
+  "積": {
+    "senses": ["to pile up, to heap (grain)", "to store, to accumulate", "a store, a stock"],
+    "shuowen": "聚也。从禾責聲。",
+    "shuowenEn": "To gather. From 禾 (grain on the stalk), with 責 for the sound.",
+    "parts": [
+      { "c": "禾", "m": "grain on the stalk" },
+      { "c": "責", "m": "to demand; a debt; gives the sound" }
+    ],
+    "story": "Sheaves in a stack. Passage 59 speaks of 德 piled up in layers, as a granary fills. Passage 81 turns the word round: the sage does not 積; the more is done for others, the more the sage has.",
+    "gap": "“Accumulate” sounds like capital. 積 is a harvest image: what is gathered in for the bad year."
+  },
+  "克": {
+    "senses": ["to bear on the shoulder; to be equal to", "to be able", "to overcome, to conquer"],
+    "shuowen": "肩也。象屋下刻木之形。",
+    "shuowenEn": "The shoulder; to shoulder. It shows the form of carved wood under a roof.",
+    "story": "The first sense is to be equal to a load. From there: to be able, to master, to win. In passage 59 one who has stored 德 in layers has “nothing not 克”: nothing that such a person is not equal to.",
+    "gap": "“Conquer” puts an enemy in the line. 克 needs only a weight."
+  },
+  "服": {
+    "senses": ["to wear; clothing", "to submit, to serve", "to take on (a task, a yoke); to take (medicine)", "a horse of the chariot team"],
+    "shuowen": "用也。一曰車右騑，所以舟旋。",
+    "shuowenEn": "To use. Another sense: the right outside horse of a chariot, by which it is turned.",
+    "story": "A word of many uses: to wear, to yield, to take on. In passage 59, 早服 is read as “to submit early” (to the Dao), as “to take on the task early”, or, with the reported Guodian graph 備, as “to be ready early”. Passage 53 uses it of rulers who 服 patterned silks while the fields are bare.",
+    "gap": "No one English verb covers wearing, yielding, and yoking."
+  },
+  "視": {
+    "senses": ["to look at, to see", "to regard as", "to keep the eyes open: to be alive (久視)"],
+    "shuowen": "瞻也。从見、示。",
+    "shuowenEn": "To look toward. From 見 (to see) and 示 (to show; an altar).",
+    "parts": [
+      { "c": "示", "m": "to show; altar" },
+      { "c": "見", "m": "to see" }
+    ],
+    "story": "To direct the eyes at a thing. Passage 14: look at it, and it is not seen. Passage 35: look, and there is not enough to see. In passage 59 久視, “to see for a long time”, means to stay alive, and with 長生 it became the motto of the arts of long life.",
+    "gap": "English “lasting sight” is odd; “longevity” loses the open eyes."
+  }
+}

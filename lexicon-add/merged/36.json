@@ -1,0 +1,56 @@
+{
+  "奪": {
+    "senses": ["to take by force, to snatch", "to deprive of", "(old sense) to lose from one’s grip; to slip away"],
+    "shuowen": "手持隹失之也。从又从奞。",
+    "shuowenEn": "A hand holds a bird and loses it. From 又 (a hand) and 奞 (a bird that spreads its wings).",
+    "parts": [{"c": "大", "m": "a figure with arms out; with 隹 it makes 奞, a bird that rouses itself"}, {"c": "隹", "m": "a short-tailed bird"}, {"c": "寸", "m": "a hand"}],
+    "story": "The dictionary’s first sense is a loss: the bird gets out of the hand. The Qing scholar Duan Yucai noted that this old sense is the word later written 脫, “to slip free”, and that the sense “to seize” at first had its own graph, 敓. In time 奪 took the meaning “to seize” and kept the picture of the loss. In passage 36 the two words stand near each other: that which is to be 奪 must first be given, and the fish must not 脫 from the deep. The short form is 夺.",
+    "gap": "“Seize” and “take away” have only the winner’s view. The graph shows the moment from the side of the open hand."
+  },
+  "魚": {
+    "senses": ["fish"],
+    "shuowen": "水蟲也。象形。魚尾與燕尾相似。",
+    "shuowenEn": "A water creature. A picture. The tail of 魚 is like the tail of 燕 (the swallow).",
+    "story": "A picture of a fish, upright: head, scaled body, forked tail. The four dots of the modern form are the tail and not fire. The Laozi has two fish. One must not slip out of the deep (36). The other is small and in a pan: to govern a great state is like cooking small fish (60); stir too much and they break. In both lines the fish stands for that which is ruined by too much handling.",
+    "gap": "None in the word itself. The gap is in the image: English readers think of fishing; the line thinks of the fish."
+  },
+  "歙": {
+    "senses": ["(xī) to draw in breath; to shrink, to fold in, to close", "(shè) a place name in Anhui"],
+    "shuowen": "縮鼻也。从欠翕聲。",
+    "shuowenEn": "To draw in through the nose. From 欠 (an open mouth), with 翕 for the sound.",
+    "parts": [{"c": "翕", "m": "wings that fold: 合 (to close) over 羽 (feathers); also the sound part"}, {"c": "欠", "m": "a person with open mouth: breath"}],
+    "story": "A breath word. The silk texts write the simpler 翕, a bird that folds its wings. In passage 36 it is the first of four verbs of decrease, set against 張, to string a bow. In passage 49 the sage in the world is 歙歙, drawn in, and keeps the heart-mind undivided. The county of She in Anhui, written with this graph, gives its name to a famous inkstone.",
+    "gap": "“Shrink” and “contract” are words of physics. 歙 happens in a nose and a chest."
+  },
+  "張": {
+    "senses": ["to string a bow; to draw it", "to stretch, to spread, to open out", "to display, to make much of"],
+    "shuowen": "施弓弦也。从弓長聲。",
+    "shuowenEn": "To put the string on a bow. From 弓 (bow), with 長 for the sound.",
+    "parts": [{"c": "弓", "m": "bow"}, {"c": "長", "m": "long; the sound part"}],
+    "story": "The bow at the left gives the first sense: to load a bow with tension. In passage 36 it is the full stretch that comes before the drawing-in. In passage 77 heaven’s way is like the stringing of a bow: the high part is pressed down and the low part is lifted. The word later became the counter for flat, spread things, a sheet of paper, a table, and one of the most common family names.",
+    "gap": "“Expand” has no bow in it. A strung bow is a thing that waits to be released."
+  },
+  "柔": {
+    "senses": ["soft, pliant, supple (as green wood)", "gentle; to treat gently, to make pliant"],
+    "shuowen": "木曲直也。从木矛聲。",
+    "shuowenEn": "Wood that can be bent and straightened. From 木 (tree), with 矛 for the sound.",
+    "parts": [{"c": "矛", "m": "spear; the sound part"}, {"c": "木", "m": "tree, wood"}],
+    "story": "The softness of a living branch, which bends and comes back. In the Laozi it is the mark of life: the infant’s bones are weak and its sinews 柔, and its grip is firm (55); people are 柔 and weak at birth and hard at death (76); nothing under heaven is more 柔 than water (78). Three times the book says that the soft overcomes the hard (36, 43, 78).",
+    "gap": "English “soft” can mean without strength. 柔 has a spring in it. The sound part is a spear, by chance."
+  },
+  "弱": {
+    "senses": ["weak, pliant, yielding", "young (弱冠, the age of twenty)", "to weaken"],
+    "shuowen": "橈也。",
+    "shuowenEn": "Bent, curved.",
+    "story": "The Shuowen defines weakness as a bend and sees fine hairs in the graph; many modern scholars see two weak bows. The Laozi does not soften the word. “Weakness is the use of the Dao” (40). The sage weakens the ambitions of the people and strengthens their bones (3). The weak overcomes the strong, and everyone knows it, and no one can practice it (78).",
+    "gap": "Translators write “yielding” or “receptive” to spare the reader. The Chinese word is the plain opposite of strong, and the book praises it on purpose."
+  },
+  "微": {
+    "senses": ["minute, faint, subtle", "hidden; in secret", "humble, low; to decline"],
+    "shuowen": "隱行也。",
+    "shuowenEn": "To walk concealed.",
+    "parts": [{"c": "彳", "m": "a step on the road"}],
+    "story": "The step sign at the left: to go without being seen. From that, anything at the edge of perception. In passage 14 the thing that the hand reaches for and does not get is named 微. The old masters are 微妙玄通, minute, subtle, dark, and penetrating (15). That which is 微 is easy to scatter (64). In passage 36, 微明 is a light that is itself faint, or a light upon faint things.",
+    "gap": "“Subtle” in English praises the knower. 微 describes the thing: it is very small, and almost not there."
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "n": 51,
+  "title": "Rearing Without Owning",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "道生之，德畜之，物形之，勢成之。",
+      "gloss": {
+        "1": "to give birth to, to bring to life",
+        "5": "xù: to rear and feed, as a herdsman rears animals",
+        "12": "shì: the lie of the land, momentum, the force of circumstance"
+      }
+    },
+    {
+      "text": "是以萬物莫不尊道而貴德。",
+      "gloss": {
+        "6": "to honour; the graph is a wine vessel held up",
+        "9": "to prize, to hold dear; the graph has a cowrie in it"
+      }
+    },
+    {
+      "text": "道之尊，德之貴，夫莫之命而常自然。",
+      "gloss": {
+        "11": "to command; to confer by a charge (other texts: 爵, to give rank)",
+        "14": "self; 自然: “self-so”, so of itself"
+      }
+    },
+    {
+      "text": "故道生之，德畜之。長之育之，亭之毒之，蓋之覆之。",
+      "gloss": {
+        "9": "zhǎng: to make grow",
+        "14": "tíng: to settle, to bring to rest; some read 成, to complete",
+        "16": "dú: usually “poison”; here to make strong, to ripen (some read 熟)"
+      }
+    },
+    {
+      "text": "生而不有，為而不恃，",
+      "gloss": {
+        "8": "shì: to lean on, to presume on"
+      }
+    },
+    {
+      "text": "長而不宰。是謂玄德。",
+      "gloss": {
+        "0": "zhǎng: the same word, now “to be the elder, to head”",
+        "3": "zǎi: to carve up meat; to be master of, to rule"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Dao|dao]] gives them birth.",
+    "[[De|de]] [[rears them|chu]].",
+    "[[Things|wu]] give them shape.",
+    "[[Circumstance|shi]] completes them.",
+    "",
+    "So the ten thousand things, every one,",
+    "[[honour Dao and prize de|zun]].",
+    "The honour of Dao, the prizing of de:",
+    "[[no one commands it|ming]]; it is always [[so of itself|ziran]].",
+    "",
+    "So Dao gives them birth, de rears them:",
+    "[[grows them, raises them|six]],",
+    "[[settles them, ripens them|tingdu]],",
+    "shelters them, covers them.",
+    "",
+    "[[Gives birth and does not possess|buyou]].",
+    "Acts and does not lean on it.",
+    "Leads and [[does not carve|zai]].",
+    "This is called [[dark de|xuande]]."
+  ],
+  "notes": {
+    "dao": {
+      "kind": "gap",
+      "title": "道生之: birth, not creation",
+      "body": "Dao, 道, the Way, stays untranslated. Here it is the subject of 生, and the choice of English verb decides a theology. 生 is “to give birth, to grow, to live”; the Shuowen pictures it as a plant that comes up out of the soil. It is the verb of a mother and of a field. [[Legge|legge]] writes “produced”; others write “creates”, and a Western reader then hears Genesis: a maker who stands outside the work, plans it, speaks it into being, names it, and has dominion over it. Each of those ideas is denied in this passage. The Way has no plan or command, it [[does not possess|buyou]] what is born, and no one [[orders|ming]] the honour that it receives. The next passage says outright what the verb implies: the world has a mother.",
+      "src": [
+        "Shuowen Jiezi, 生部: 生，進也。象艸木生出土上。",
+        "Laozi 52"
+      ]
+    },
+    "de": {
+      "kind": "gap",
+      "title": "德: not “virtue”",
+      "body": "De, 德, is the second word of the book’s title, and we leave it as it is. “Virtue” is the usual English, and it misleads twice. The Latin root is “manliness”, and the Victorian sense is moral good conduct. 德 here is neither. It is the power that a thing has by being fully what it is: the share of the Way that has become this creature and keeps it alive. [[Wang Bi|wangbi]] defines the pair in one line: the Way is that from which things come, and de is that which they get. He plays on the sound, since 德 and 得, “to get”, were said alike. So the first two lines divide one work. The Way gives the birth, and de does the long feeding afterward. Every creature has a de; a ruler’s de was the force that drew people without commands."
+    },
+    "chu": {
+      "kind": "etymology",
+      "title": "畜: de as a herdsman",
+      "body": "畜 is the word for livestock, and as a verb, read xù, it means to keep and feed animals. The Shuowen says 田畜也, and quotes an older book for the picture: 玄田爲畜, “玄 and 田 make 畜”: a dark field. It is a farm word, with dung and fodder in it. English versions write “nourishes” or “nurtures”, which belong to the nursery. The Chinese has put de in a pen with cattle, to feed them morning and evening through the winter. The same word was used of a lord who “keeps” his people, and of supporting one’s wife and children. Note the thing that a herdsman does not do. He does not make the animal grow. He brings it to water and grass, and the growing is the animal’s own. See the plate.",
+      "src": [
+        "Shuowen Jiezi, 田部: 畜，田畜也。《淮南子》曰：“玄田爲畜。”"
+      ]
+    },
+    "wu": {
+      "kind": "etymology",
+      "title": "物: the ox in “thing”",
+      "body": "物 is “thing”, and the English word is too dead for it. The graph has 牛, an ox, at its left. The Shuowen explains: 萬物也。牛爲大物, “the ten thousand things; the ox is the great thing”, the largest creature that a farmer handles. So 物 are first of all creatures and kinds, the living variety of the world; 萬物, “the ten thousand things”, includes people. In the third line 物 is the subject: 物形之, “things give them shape”. How can things shape things? Each creature gets its form from others of its kind and from what surrounds it: a calf from a cow, a pot from clay and a potter’s hands, a child from a family. The Way gives life in general. The particular shape comes from the neighbours. With 畜 and [[宰|zai]], this makes three words from the cattle yard in one passage.",
+      "src": [
+        "Shuowen Jiezi, 牛部: 物，萬物也。牛爲大物；天地之𢿙，起於牽牛，故从牛。勿聲。"
+      ]
+    },
+    "shi": {
+      "kind": "geopolitics",
+      "title": "勢: the word of generals and kings",
+      "body": "勢 has 力, strength, at its foot; the Shuowen defines it as 盛力權也, “full force and weight of authority”. It was a technical term of the age. For the Sunzi, which gives it a chapter, 勢 is the energy of a situation: 激水之疾，至於漂石者，勢也, “the rush of pent water that tumbles boulders along, that is 勢”. A good general does not ask courage of his men; he places them where the slope does the work. For the Legalists, 勢 is the position of the throne: a dragon is strong because it rides the clouds, and a king because he sits where he sits. The Laozi uses the word only here, and for something gentler: the season, the soil, the setting that brings a creature to completion. The Mawangdui silk texts are reported to read 器, “vessel”, in its place: things shape them, and each is completed as a vessel.",
+      "src": [
+        "Shuowen Jiezi, 力部: 勢，盛力權也。从力埶聲。經典通用埶。",
+        "Sunzi, “Shi” (勢)",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "zun": {
+      "kind": "wordplay",
+      "title": "尊 and 貴: a wine jar and a cowrie",
+      "body": "The two verbs of honour are concrete objects. 尊 is a bronze wine vessel of the ancestral rites. The Shuowen records the word in an older graph and defines it 酒器也, “a vessel for wine”, raised by two hands in offering; the modern form keeps one hand, 寸, under the jar. To 尊 someone is to lift the wine to them. 貴 has 貝, the cowrie shell of early money, at its base, and the Shuowen’s gloss is 物不賤也, “a thing that is not cheap”. To 貴 is to hold at a high price. So the line says that all creatures offer wine to the Way and hold de dear as treasure. These are the two forms of honour that a Zhou noble knew: rite and wealth. And the next line says that in this case [[no one arranged the ceremony|ming]].",
+      "src": [
+        "Shuowen Jiezi, 酋部: 𢍜，酒器也。从酋，廾以奉之。",
+        "Shuowen Jiezi, 貝部: 貴，物不賤也。从貝臾聲。"
+      ]
+    },
+    "ming": {
+      "kind": "history",
+      "title": "莫之命: honour that no king conferred",
+      "body": "In the Zhou world honour came from above by a formal act. The king gave a lord his rank in a ceremony at the ancestral temple; a scribe read the 命, the charge, and the lord cast the words in bronze for his descendants. 命 is that word: a command, a charge of office, and by extension fate, what Heaven charges. The line says of the Way’s honour that 莫之命, “no one charged it”. An old note printed with Wang Bi’s commentary records that other texts had 爵 here, and the Mawangdui silk texts are reported to have it: 夫莫之爵也, “no one gave it rank”. 爵 is itself a wine vessel: the three-legged cup used at investiture, which the Shuowen calls 禮器, “a vessel of the rites”, and so the word for noble rank. After [[the jar of 尊|zun]], the cup: and no hand holds it out.",
+      "src": [
+        "Shuowen Jiezi, 鬯部: 爵，禮器也。象爵之形，中有鬯酒，又持之也。",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "ziran": {
+      "kind": "gap",
+      "title": "自然: “self-so”, not “Nature”",
+      "body": "自然 is two words. 自 is “self”, and “from”; the Shuowen says that the graph is a nose, 鼻也, and people in China still point to the nose to say “me”. 然 is “so, thus”; its first sense, says the Shuowen, was “to burn”, and the fire is still at its foot. 自然 is “so from itself”: what a thing is and does when nothing outside makes it so. In modern Chinese the word translates “nature”, and many English versions write “naturally” or “spontaneously” here. But the Laozi has no noun “Nature”, no green realm set apart from human affairs. It has a quality, and courts, rulers, and people can have it or lose it. The people say “we are so of ourselves” (17). The Way models itself on the self-so (25). Here the honour that creatures give is of that kind: no one ordered it.",
+      "src": [
+        "Shuowen Jiezi, 自部: 自，鼻也。象鼻形。",
+        "Shuowen Jiezi, 火部: 然，燒也。从火肰聲。",
+        "Laozi 17, 25"
+      ]
+    },
+    "six": {
+      "kind": "gap",
+      "title": "Six verbs, and whose they are",
+      "body": "After “gives them birth” and “rears them” come six more verbs, each followed by 之, “them”: 長, to make grow; 育, to raise a child; [[亭 and 毒|tingdu]]; 蓋, to shelter with a roof or lid; 覆, to cover over. The Heshang Gong text and the standard editions of Wang Bi have 養, “to feed”, where our text has 蓋, a reading of the Fu Yi “old text” line. All are verbs of a parent, a farmer, or a nurse, in the order of a life, from growth to shelter, and perhaps to the covering of the grave. Whose verbs are they? In our text the list follows 德畜之, so they read as the work of de. In the [[Mawangdui silk texts|silk]], as reported, the word 德 is absent at this point: 道生之畜之長之遂之亭之毒之養之覆之. There the Way itself does everything, in one breath of eight verbs. The rendering leaves the six without a subject, as the Chinese does.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "tingdu": {
+      "kind": "etymology",
+      "title": "亭之毒之: a rest-house and a poison",
+      "body": "Two strange verbs stand in the middle of the list. 亭 is a pavilion or a post-station on a road; the Shuowen says 民所安定也, “where people are made secure and settled”. 毒 is “poison”. To station them, to poison them? The old readers saw two ways through. One takes the words by sound: the Heshang Gong text writes 成之孰之, “completes them, ripens them”, and 亭毒 may be another spelling of that. The other keeps the graphs and their older senses: 亭 is to bring to rest, to give a fixed place; the Shuowen’s first gloss for 毒 is 厚也, “thick”, before it speaks of a plant that harms people; a medicine is strong in that way, and so 毒 is “to bring to full strength”. Both arrive near our “settles them, ripens them”. After this passage, 亭毒 became a literary word for the care that heaven gives to creatures. The poison in the list may be an accident of spelling, and it does make one think: what ripens a creature is strong stuff.",
+      "src": [
+        "Shuowen Jiezi, 高部: 亭，民所安定也。亭有樓，从高省，丁聲。",
+        "Shuowen Jiezi, 屮部: 毒，厚也。害人之艸，往往而生。从屮从毐。",
+        "Heshang Gong text of Laozi 51"
+      ]
+    },
+    "buyou": {
+      "kind": "wordplay",
+      "title": "Three lines that the book says three times",
+      "body": "生而不有，為而不恃，長而不宰. Each line is “A, and not B”, where B is what usually follows from A. To give birth, and not to have: 有 is to own. To act, and not to 恃: the Shuowen glosses 恃 as 賴也, to lean on, to count on, as one leans on a service done. To be the elder, and not to [[carve|zai]]. These lines are a refrain. Passage 2 has the first two, of the sage. Passage 10 has all three with the same closing words, 是謂玄德, at the end of a set of questions on practice. Here the subject is the Way and its de. The repetition is the point: the same grammar describes the source of the world, the sage, and the person who sits and breathes. Which of the three “and not” is hardest for you: not to own, not to count on thanks, or not to direct?",
+      "src": [
+        "Shuowen Jiezi, 心部: 恃，賴也。从心寺聲。",
+        "Laozi 2, 10"
+      ]
+    },
+    "zai": {
+      "kind": "history",
+      "title": "宰: the butcher who became prime minister",
+      "body": "宰 is the last verb, and it is a strong one. Its first sense is to slaughter and carve up an animal. The 宰 of a great house was the steward who cut the meat of the sacrifice and shared it out by rank, and from that office came the title of the chief minister of a state. A story in the Shiji shows the link. The young Chen Ping carved the meat at his village festival so evenly that the elders praised him. He sighed: let me 宰 the world, and it would be like this meat. He later became chancellor of Han. So 長而不宰 is exact: to be the head, and not to cut the thing into portions and hand them out. Passage 28 says the same: the great tailor does not cut. English “does not control” loses the knife. See the plate.",
+      "src": [
+        "Shiji 56 (House of Chancellor Chen)",
+        "Laozi 28"
+      ]
+    },
+    "xuande": {
+      "kind": "gap",
+      "title": "玄德: power that does not show",
+      "body": "玄 is a colour: the Shuowen says black with red in it, the dark of deep water or of the sky before dawn, and so “remote, hard to see into”. 玄德 is de of that colour. English versions write “mysterious virtue” or “profound power”, and the phrase begins to sound occult. The passage has just defined it in plain terms. It is the power that gives birth and does not own, acts and does not lean on the act, leads and does not carve. It is dark because it leaves no mark of ownership: [[Wang Bi|wangbi]] says that there is de and no one knows who is its master. The term returns in passages 10 and 65. It also had a life outside philosophy: the founder of the Shu-Han kingdom in the third century, Liu Bei, bore it as his courtesy name, Xuande.",
+      "src": [
+        "Shuowen Jiezi, 玄部: 玄，幽遠也。黑而有赤色者爲玄。",
+        "Laozi 10, 65"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: from which, and what is got",
+      "body": "Wang Bi turns the first four lines into four questions: 何由而生？道也；何得而畜？德也；何由而形？物也；何使而成？勢也. “From what are they born? The Way. By getting what are they reared? De. From what do they take shape? Things. What makes them complete? Circumstance.” Then his definitions: 道者，物之所由也。德者，物之所得也. “The Way is that from which things come. De is that which things get.” The pun on 德 and 得 carries the philosophy: de is not an addition to a creature; it is what the creature has received. On the last line: 有德而不知其主也，出乎幽冥，是以謂之玄德也. “There is de, and its master is not known; it comes out of the dark and hidden. For this reason it is called dark de.”",
+      "src": [
+        "Wang Bi commentary on Laozi 51"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: “outflowing operation”",
+      "body": "Legge could not write “virtue” for 德 in this passage, and what he wrote shows his frame: the Tao’s “outflowing operation”. This is the language of emanation, a divine source whose energy flows out into creatures, and it comes from Neoplatonic and Christian theology. The honour that creatures pay is “not the result of any ordination”, a word of church and decree, “but always a spontaneous tribute”. For 玄德 he gives “its mysterious operation”. He supplies “(all things)” as the object and makes the Tao the subject of every verb. The herdsman’s word [[畜|chu]] becomes “nourished”, and [[宰|zai]], the carver, becomes “exercises no control”. The translation is careful and reverent, and by its end a cattle yard has become a cathedral. He is right on one point of grammar: the subject of the last three lines is the Way, not “you”.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "What the silk texts change",
+      "body": "The Mawangdui silk texts are reported to differ from our text in four places that matter. For [[勢|shi]] they have 器: “things shape them and vessels complete them”. For [[命|ming]] they have 爵, rank. In the list of care they give all the verbs to the Way and include 遂, “to bring through”, and 養, “to feed”; see [[the six verbs|six]]. And the three closing lines use 弗 where we have 不: 生而弗有也，為而弗恃也，長而弗宰也. 弗 is a negative that includes its object: does not own them, does not lean on them, does not carve them. The received 不 is more general and can be read as advice on character. The silk form keeps the eye on the creatures. This passage is not among the Guodian slips.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Feed one thing, and take no credit",
+      "body": "Choose one living thing that depends on you: a child, a plant, an animal, a junior colleague, a piece of work that is still growing. Today, do one act of [[畜|chu]] for it, plain feeding: water, a meal, time, the tool that it needs. Then apply the three “and not”. Do not speak of it as yours. Do not mention what you did or wait for thanks. And do not decide for it what it should become. Notice which of the three you break first, and how soon. The passage says that creatures honour what rears them without being told to. See whether that is true of the thing that you tend when you stop asking for it."
+    }
+  },
+  "lenses": {
+    "ground": "The passage runs in four steps. First, four lines of three characters, each with a different subject and the same object, 之, “them”: [[the Way|dao]] gives birth, [[de|de]] [[rears|chu]], [[things|wu]] shape, [[circumstance|shi]] completes. Second, the response of the creatures: all of them [[honour and prize|zun]] the first two, and [[no one orders this|ming]]; it is [[so of itself|ziran]]. Third, the care is spelled out in [[six more verbs|six]], in pairs. Fourth, three lines of the form “A and not B”, a [[refrain|buyou]] of the book, and the name for all of it: [[dark de|xuande]]. The vocabulary is drawn from a farm and a great household: birth, livestock, the ox in “thing”, the wine jar of honour, the steward’s [[carving knife|zai]].",
+    "inner": "The passage describes how you were made, and it is worth reading it in the first person. Something gave me life, and I did not ask. Something fed that life, each day, before I could notice. Other creatures gave me my shape: parents, a language, a town. The time and place finished the work. At no point did the source send a bill. That is the meaning of [[dark|xuande]]: the giving left no signature. The usual self says the opposite, “my life, my work, my children”, and each “my” is a small act of [[有|buyou]], possession. The contemplative step is to feel how much is given without a claim on it, and then to try to give in the same way. The honour that the passage speaks of then arises of itself, and can be noticed: it is plain gratitude with no one in particular to thank.",
+    "leading": "The three closing lines are the best short guide to parenthood, teaching, and the founding of anything. Give it life and do not own it: the child, the student, the company is not yours. Do the work and do not lean on having done it: no ledger of sacrifices. Be the elder, 長, and do not [[carve|zai]]: do not cut the other into the portions that you planned. The [[four lines at the head|shi]] add realism. You are not the only maker. The thing that you lead is shaped by its peers and completed by its circumstances, and your part is the humble middle one, [[to feed it|chu]]. The passage also says what such a leader receives: honour that [[no one commanded|ming]]. Honour that must be commanded is of another kind.",
+    "nature": "This is one of the book’s most exact pictures of how living things come to be. A seed has life from its parent plant. The soil and rain feed it. Its neighbours give it its form: a tree in a forest grows tall and narrow, and the same tree in a field grows wide. The slope, the wind, and the season complete it; that is [[勢|shi]]. No part of this process owns the tree. The sun does not send for it, and the soil keeps no account. Ecology says the same in other words: an organism is born of its kind, fed by flows of energy, shaped by other organisms, and finished by its place. The [[herdsman’s word|chu]] is a reminder that people can take part in this as keepers and not as owners.",
+    "practice": "Do the exercise of [[feeding one thing|practice]] and taking no credit. Then, once today, trace the four lines backward for a single object in your hand, a cup of tea or a loaf of bread. What circumstance completed it? What things gave it shape? What fed it as it grew? What gave it life? Go as far back as you can. At the end of the chain there is no one to pay. That is where the passage says that honour comes [[of itself|ziran]]."
+  },
+  "glyph": "畜",
+  "plates": [
+    {
+      "c": "畜",
+      "title": "The dark field",
+      "lesson": "Two parts, one above the other. The lower part is 田, a field. The Shuowen says of it 樹穀曰田, “where grain is planted is called 田”, and reads the cross inside the square as the raised paths that divide the plots. You know it from 男, a man: 田 with 力, strength, the one who works the field. The upper part is 玄, “dark”, the same character that ends this passage in 玄德. The Shuowen’s entry for 畜 is short. It defines the word as 田畜也 and then quotes: 玄田爲畜, “玄 and 田 make 畜”. A dark field. Why dark? One old explanation is the black, rich soil of land that animals have grazed and dunged. Modern scholars doubt the story; some see in the early form a cord or a gut above the field, since 玄 is related to 幺, a fine thread, and take the whole as tethered animals or stored produce. Hold the dictionary’s reading as the traditional one. With the grass sign on top the same graph is 蓄, to store up. As a noun, read chù, it is livestock; the “six 畜” are horse, ox, sheep, pig, dog, and fowl. Here it is the verb of [[de|chu]]. The passage begins with de under a sign of darkness in a field and ends with [[dark de|xuande]]. The first character of the title, 玄, has been inside the herdsman’s word all along.",
+      "brush": "Ten strokes: five above and five below. The top is 玄, pressed flat. A dot; a long horizontal that reaches wider than the field below; then the thread in three strokes: one that falls to the left and turns back to the right, a second that does the same lower down, and a final dot. The two turns must be small and tight, like a twist of cord. Then 田: the left side; the top and right side in one stroke; the inner horizontal; the inner vertical; and the base that closes the square. Watch the second stroke, the long horizontal. It is the lid of the character. The field sits under its centre, a little narrower, so that the whole has the outline of a roofed granary. In seal script the upper part is written with rounded loops, like a twist of thread."
+    },
+    {
+      "c": "育",
+      "title": "A child, head down",
+      "lesson": "Compare the top of this character with 子, a child. The Shuowen says that the top is 子 turned upside down. It lists the inverted form as a graph of its own and defines it 不順忽出也。从到子, “to come out suddenly; an inverted 子”. The dictionary gives this a moral turn, an unruly son. Modern scholars commonly read the picture more simply: a baby at the moment of birth, which comes into the world head first. The lower part is 月, which here is the form that 肉, flesh, takes inside characters; the Shuowen treats it as the sound. The same inverted child is in 棄, to abandon: there the Shuowen sees two hands that push a newborn out in a basket. And it is in 流, to flow, at the upper right. The dictionary’s definition of 育 is 養子使作善也, “to raise a child so that it does good”, with a quotation from the Documents. So the word covers the whole span from the first minute to the grown person: to bear, to nurse, to bring up, to educate. In this passage it is the fourth thing done for the ten thousand creatures: [[長之育之|six]], grows them, raises them. Every creature in the count was once in the position that this character draws.",
+      "brush": "Eight strokes: four for the child and four for the flesh. A dot at the top centre, then a horizontal. The third stroke falls to the left from the middle of the horizontal and turns back to the right; the fourth is a dot that closes the small triangle. These four strokes are the head-down infant, and they should be compact, wider than tall. Then 月: a left stroke that comes down and curves slightly outward at the foot; the top and right side in one stroke that ends in a hook; and two short horizontals inside, which touch the left side and not the right. Watch the proportion. The lower part is narrow and tall and stands under the centre of the wide top, so the character has the shape of a mushroom, or of a mother’s arms above a standing child."
+    },
+    {
+      "c": "宰",
+      "title": "Under the roof, a knife",
+      "lesson": "The top is 宀, a roof, the sign of houses: 家, a household; 室, a room; 安, a woman under a roof, “at peace”. The bottom is 辛. The Shuowen explains 辛 in several ways; in this entry it says 辛，辠也, “辛 is crime”, and many modern scholars take the old form as a chisel or a short blade, the tool that marked the faces of convicts. With that the dictionary reads the whole: 辠人在屋下執事者, “a convicted person who does service under a roof”. A household slave. The work of such a servant in a great house was the kitchen and the slaughter of animals for the rites, and 宰 came to mean to butcher and to carve. The one who cut and shared the sacrificial meat held a place of trust, and so the same word rose through the house: steward, head of the household staff, and at last the chief minister of a state. The history of the word is a history of power in three steps: a bound servant, a man with a knife, a ruler. The passage uses it for what the Way does not do. It [[leads and does not 宰|zai]]. For 辛 in another role, see 辯 in passage 45, where two of them are parties in a lawsuit.",
+      "brush": "Ten strokes. The roof first: a dot at the top centre, a short stroke at the left edge, and a horizontal that ends in a hook down at the right. Then 辛 in seven strokes. A dot under the roof; a horizontal; then two small strokes that lean toward each other, a dot on the left and a short left-falling stroke on the right. Next come two horizontals, and the first of them is the longest line in the character; it reaches out past the roof on both sides. Watch the tenth stroke: a vertical that starts at the long horizontal and goes straight down through the last horizontal to a point. It is drawn last and it is the blade. It must hang plumb, with nothing beside it, and a good hand lets it thin toward the end like a needle."
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "n": 65,
+  "title": "The Great Going-Along",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "古之善為道者，非以明民，將以愚之。",
+      "gloss": {
+        "9": "to make bright, to make sharp-sighted (a verb here, and not praise)",
+        "12": "rather; were going to",
+        "14": "yú: to keep simple, unclever (a verb here); elsewhere “dull, foolish”"
+      }
+    },
+    {
+      "text": "民之難治，以其智多。",
+      "gloss": {
+        "7": "zhì: cleverness, know-how; the same word as 知, “to know”"
+      }
+    },
+    {
+      "text": "故以智治國，國之賊，",
+      "gloss": {
+        "8": "zéi: one who does violent harm; a robber, a traitor"
+      }
+    },
+    {
+      "text": "不以智治國，國之福。知此兩者亦稽式。常知稽式，是謂玄德。玄德深矣，遠矣，",
+      "gloss": {
+        "8": "good fortune, blessing",
+        "15": "jī: to check, to tally; Wang Bi: “the same”",
+        "16": "pattern, model, standard",
+        "25": "dark, deep in colour",
+        "26": "de: inner power, virtue"
+      }
+    },
+    {
+      "text": "與物反矣，",
+      "gloss": {
+        "0": "together with; or: compared with",
+        "2": "to turn back, to return; also: opposite"
+      }
+    },
+    {
+      "text": "然後乃至大順。",
+      "gloss": {
+        "5": "shùn: to go along with, to follow the flow"
+      }
+    }
+  ],
+  "rendering": [
+    "Those of old, [[good at working|shan]] the [[Dao|dao]],",
+    "did not use it to [[brighten the people|ming]].",
+    "Rather, they used it to [[make them simple|yu]].",
+    "",
+    "The people are [[hard to govern|legalist]]",
+    "because their [[cleverness|zhi]] is much.",
+    "So: to govern a state by cleverness",
+    "is the state’s [[ruin|zei]].",
+    "Not to govern a state by cleverness",
+    "is the state’s [[good fortune|fu]].",
+    "",
+    "To know these two is also the [[pattern to check by|jishi]].",
+    "To know the pattern always:",
+    "this is called [[dark de|xuande]].",
+    "Dark de is deep. It is far.",
+    "It [[turns back with things|fan]],",
+    "and only then arrives at the [[great going-along|dashun]]."
+  ],
+  "notes": {
+    "shan": {
+      "kind": "variant",
+      "title": "“Those of old”: a later frame",
+      "body": "The received text opens 古之善為道者, “those of old who were good at working the Dao”. Passage 15 opens with nearly the same words. The Mawangdui silk texts are reported to begin differently: 故曰：為道者非以明民也, “So it is said: those who work the Dao do not use it to brighten the people”. There is no “of old” and no “good at”. 故曰, “so it is said”, joins this passage to the end of passage 64, which stands before it in the silk texts too. The appeal to antiquity is then an editor’s frame. In the Warring States period each school claimed the ancient kings for its own programme, and “the ancients did it” was the strongest argument that a writer had. The older line is plainer and takes no shelter in the past. It says: this is what the work is.",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)",
+        "Laozi 15"
+      ]
+    },
+    "dao": {
+      "kind": "gap",
+      "title": "為道: the Dao as a thing one does",
+      "body": "We leave 道 as Dao. The word is first a road, then a way of doing something, then the way that all things go. English “the Way” with a capital suggests one fixed path and, to many ears, a religion. Here the grammar helps: 為道 is “to do Dao”, to work at it, as one works a craft. Passage 48 uses the same two words: 為道日損, “for the work of the Dao, each day take something away”. So the first line already tells you what kind of work this is. It is practice, and a practice that subtracts. The people of old in this line are not believers in a doctrine. They are skilled workers. What does a ruler look like whose skill is to take things away?"
+    },
+    "ming": {
+      "kind": "wangbi",
+      "title": "Wang Bi: what “bright” means here",
+      "body": "明 is sun and moon side by side: bright, clear, to see clearly. In this book it is nearly always praise. To know the constant is called 明 (16, 55); who knows the self is 明 (33). Here it is a thing that the old masters refused to do to the people. Wang Bi explains both hard words in one sentence each: 明謂多見巧詐，蔽其樸也。愚謂無知守真，順自然也。 “明 means to see much and be skilled in tricks, which covers over their uncarved state. 愚 means to be without such knowing and to keep what is genuine, which goes along with the self-so.” So for him the 明 of this line is sharpness: the bright eye that sees every angle and every advantage. It is not the light of passage 16. The same graph names both.",
+      "src": [
+        "Wang Bi commentary on Laozi 65",
+        "Laozi 16, 33, 55"
+      ]
+    },
+    "yu": {
+      "kind": "gap",
+      "title": "愚: the hard line",
+      "body": "將以愚之: “they used it to make them 愚”. No reading makes this line comfortable, and we should not hide it. 愚 is “dull, simple, foolish”; the Shuowen ties the graph to a monkey (see the plate). Rulers have quoted this line to defend keeping people ignorant. Two facts stand against that use. First, the speaker of the book claims the word for the self: 我愚人之心也哉, “mine is the heart of a 愚 person” (20). The people are to be as the sage already is. Second, the next lines turn on the ruler: it is the ruler’s cleverness that ruins the state. English “ignorant” assumes that knowledge is light and its lack is darkness, the frame of the Enlightenment. This text asks a question from outside that frame. Is there a knowing that makes people worse at living together?",
+      "src": [
+        "Laozi 20",
+        "Shuowen Jiezi, 心部: 愚，戇也。从心从禺。禺，猴屬，獸之愚者。"
+      ]
+    },
+    "legalist": {
+      "kind": "geopolitics",
+      "title": "Who used this line",
+      "body": "“The people are hard to govern” was a practical problem in the 4th and 3rd centuries BCE. The states were at war, and each needed farmers and soldiers who obeyed. The Legalist answer was direct. The Book of Lord Shang says 民弱國強，民強國弱: “when the people are weak the state is strong; when the people are strong the state is weak”. Han Fei, who wrote the first known comments on the Laozi, served the same programme. In 213 BCE the Qin court burned the books of the schools; a Han writer, Jia Yi, described the aim in this passage’s own word: 以愚黔首, “to make the black-haired people 愚”. The Laozi was thus read as a manual for that policy. But look at what it forbids. Shang Yang ruled by exactly the [[智|zhi]] that this passage calls the state’s ruin.",
+      "src": [
+        "Shangjunshu, “Ruo min” (弱民)",
+        "Jia Yi, “Guo Qin lun” (過秦論)",
+        "Han Feizi, “Jie Lao” and “Yu Lao”"
+      ]
+    },
+    "zhi": {
+      "kind": "variant",
+      "title": "智 or 知: to know a state",
+      "body": "The received text writes 智 (zhì), “cleverness”. Early manuscripts did not separate this graph from 知, “to know”; 智 is 知 with an added part. The Mawangdui silk texts are reported to read: 民之難治也，以亓知也。故以知知邦，邦之賊也；以不知知邦，邦之德也. Two things stand out. The verb “govern” is also written 知: “to know a state by knowing”. And the reward is 德 where we have 福. Silk A is reported to write the state as 邦; silk B and later copies have 國, because 邦 was the personal name of Liu Bang, the first Han emperor, and could not be written. In this passage, then, 知 is knowing as technique: to see through people, to calculate them. Passage 3 has the same target: 使夫智者不敢為也, “make the clever ones not dare to act”.",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)",
+        "Laozi 3"
+      ]
+    },
+    "zei": {
+      "kind": "etymology",
+      "title": "賊: harm with a weapon",
+      "body": "Modern 賊 means a thief. The classical word is stronger. The Shuowen defines it as 敗也, “to ruin”, and gives its parts as 戈, a dagger-axe, with 則 for the sound. In the modern form you can still see 貝, a cowrie shell, at the left, and 戈 at the right. A 賊 is one who injures: a murderer, a bandit, a rebel, a traitor inside the walls. Mencius used it for a king: 賊仁者謂之賊, “one who does violence to humaneness is called a 賊”, and such a man, he said, may be killed as a common fellow and not as a ruler. So 國之賊 is a hard charge. The ruler who governs by cleverness is not a poor manager. That ruler is the enemy inside the state. We write “ruin”; the Chinese noun is the person who ruins.",
+      "src": [
+        "Shuowen Jiezi, 戈部: 賊，敗也。从戈則聲。",
+        "Mencius 1B8"
+      ]
+    },
+    "fu": {
+      "kind": "wordplay",
+      "title": "賊 and 福: a rhyme you cannot hear",
+      "body": "The two verdicts rhymed. In the old sound system 賊 and 福 belong to one rhyme group (the 職 group), and the Mawangdui reading 德 is in the same group. Mandarin has moved them apart: zéi, fú, dé. A Warring States listener heard a couplet with a click at the end, like a proverb. 福 is the common word for good fortune; it is on red paper at every Chinese New Year. The Shuowen defines it 祐也, “help from above”. Its left part, 示, is the sign of an altar, so the fortune is first a thing received from ancestors and spirits and not a thing made. Passage 58 says that fortune and disaster lean on each other. Here the rule is simple for once: one way of rule harms, and one is a gift.",
+      "src": [
+        "Laozi 58"
+      ]
+    },
+    "jishi": {
+      "kind": "variant",
+      "title": "稽式 or 楷式",
+      "body": "式 is a model or standard; the Shuowen says 法也, “a rule to follow”. The graph before it differs between editions. Wang Bi’s text has 稽, a verb for checking one thing against another, as a tally is checked, and Wang Bi glosses it as 同, “the same”: that which is the same in the present and the past. The Heshang Gong edition has 楷, “a model”, the word that later named the regular script, 楷書, the model hand. The Shuowen knows 楷 only as a tree, said to grow on the grave of Confucius. With 稽 the phrase is “the pattern to check by”; with 楷, “the model pattern”. The Mawangdui silk texts are reported to support 稽. In both, the claim is modest in form and large in content: the two results of rule, ruin and fortune, are the standard. No other is needed.",
+      "src": [
+        "Shuowen Jiezi, 工部: 式，法也。从工弋聲。",
+        "Shuowen Jiezi, 木部: 楷，木也。孔子冢蓋樹之者。从木皆聲。",
+        "Wang Bi commentary on Laozi 65: 稽，同也。",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "xuande": {
+      "kind": "gap",
+      "title": "玄德: dark power",
+      "body": "德 is not “virtue” in the moral sense of the English word. It is the power that a thing or a person has from the Dao: the quality by which a person affects others with no force. 玄 is a dark colour; the Shuowen says 幽遠也, “hidden and far”, and adds: black with red in it. [[Legge|legge]] writes “mysterious excellence”, and the darkness turns into a puzzle to be solved. But 玄 is dark as deep water is dark: there is too much of it to see through. Passages 10 and 51 define 玄德: to give life and not own, to act and not lean on it, to lead and not rule. Here a fourth mark is added: to know the two patterns and not use cleverness. A later hero, Liu Bei, had 玄德 as his courtesy name.",
+      "src": [
+        "Shuowen Jiezi, 玄部: 玄，幽遠也。黑而有赤色者爲玄。象幽而入覆之也。",
+        "Laozi 10, 51"
+      ]
+    },
+    "fan": {
+      "kind": "gap",
+      "title": "與物反: against things, or back with them",
+      "body": "與物反矣 is four characters and two sentences. 反 means “to turn over, to turn back”. The Shuowen has 覆也, “to turn upside down”. Reading one: dark de is the reverse of things. It runs against what the world expects, as this whole passage does. Legge takes this line, and makes the sage “opposite to others”. Reading two: dark de returns, and 與物, “together with things”: it goes back and takes all things with it. Wang Bi takes this line in four characters: 反其真也, “it returns to their genuineness”. We render the second, because passage 40 makes 反 the movement of the Dao itself, and there it is return. A Chinese reader does not choose. The word that means “contrary” is the word that means “homeward”. In English these are two thoughts.",
+      "src": [
+        "Shuowen Jiezi, 又部: 反，覆也。从又，厂反形。",
+        "Wang Bi commentary on Laozi 65",
+        "Laozi 40"
+      ]
+    },
+    "dashun": {
+      "kind": "gap",
+      "title": "大順: not harmony, not obedience",
+      "body": "順 is a head beside a stream (see the plate): to go the way the water goes. English has no good word. “Harmony” is taken; it belongs to 和, the blend of different notes. “Obedience” and “conformity” make it submission to a master; Legge ends the passage with “a great conformity to him”, and the Chinese has no “him”. 順 is to move along the grain of a thing. Its opposite is 逆, “to go against the current”. 大順 comes once in the Laozi, as the last word of this passage. The Zhuangzi echoes it in a sentence that holds all three hard words of the passage: 若愚若昏，是謂玄德，同乎大順, “as if simple, as if dim: this is called dark de, one with the great going-along”. What moves in your day when you stop rowing?",
+      "src": [
+        "Zhuangzi, “Tiandi” (天地)",
+        "Shuowen Jiezi, 頁部: 順，理也。从頁从巛。"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the spiral of technique",
+      "body": "Wang Bi’s longest comment here describes a spiral. A ruler uses clever technique to move the people: 以智術動民. Then: 邪心既動，復以巧術防民之偽，民知其術，防隨而避之，思惟密巧，奸偽益滋。 “Once their crooked hearts are stirred, he uses more skilful technique to guard against their falseness. The people learn his technique, and they avoid each guard as it comes. Thought grows close and cunning, and deceit increases the more.” Read it as a description of any system of rules and incentives. Each new control teaches the controlled how the controller thinks. Wang Bi wrote in the 240s CE, at the court of Wei, in the age of the Three Kingdoms, and he died at twenty-three. He had seen such a court from inside.",
+      "src": [
+        "Wang Bi commentary on Laozi 65"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: “simple and ignorant”",
+      "body": "Legge renders 愚 with two words, “simple and ignorant”. The pair shows his difficulty. As a missionary and teacher he had given his life to the enlightenment of a people, in both senses of the English word, and his own version of the first line says that the ancients did not seek “to enlighten the people”. The sentence stands against his vocation. His notes to the passage try to limit the damage. He also adds “(of a governor)” after the “mysterious excellence”, which narrows [[玄德|xuande]] to an official’s merit, and he ends with [[“conformity to him”|dashun]]. The Victorian frame is a school: a master, pupils, a lesson that is learned. The Chinese last word has no master in it.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "One day without the angle",
+      "body": "Cleverness in this passage is a specific habit: to look at a person and see what can be got, and how. For one day, in one relation, put it down. Choose a person you often manage a little: a child, a colleague, a partner. Do not arrange the words to get the result. Do not hint. Do not praise in order to move. Say the plain thing, ask the plain question, and let the answer be what it is. Notice the moment when the angle appears in your mind; it is quick and it feels like intelligence. Notice also what the other person does when no technique is used on them. Wang Bi says that people [[learn the ruler’s method|wangbi]]. What have the people near you learned from yours?"
+    }
+  },
+  "lenses": {
+    "ground": "The passage is an argument in three steps. First a claim about the old masters of the [[Dao|dao]]: they did not sharpen the people; they kept them [[simple|yu]]. Then a reason and a verdict in rhyme: much [[cleverness|zhi]] makes people hard to govern, so rule by cleverness is the state’s [[ruin|zei]], and rule without it is the state’s [[fortune|fu]]. Then the passage climbs. To know these two results is a [[standard|jishi]]; to keep the standard in mind always is [[dark de|xuande]]; and dark de is deep, far, and [[turned back|fan]], until it comes to the [[great going-along|dashun]]. The last word, 順, answers the first verb, 為: the work of the Dao ends where nothing is worked against.",
+    "inner": "Take the state as the self, as many old readers did. Then the people are the many movements of body and mind, and the ruler is the part that plans. A mind governed by [[cleverness|zhi]] is hard to live in. It watches itself, calculates its own moods, and makes rules for its own improvement; the moods learn the rules and go around them, as in [[Wang Bi’s spiral|wangbi]]. The passage offers another way to keep house: [[愚|yu]], the plain attention that the speaker of passage 20 claims, with nothing bright about it. This is not stupidity, and it is not a pose of innocence. It is knowing that does not turn into strategy. From there the last lines read as an experience: things [[turn back|fan]], and one goes with them.",
+    "leading": "A system takes on the character of its head. When the person at the top is strategic with people, people become strategic in return, and soon each message has a second meaning. The passage calls that leader the state’s [[ruin|zei]], and the word fits: such a leader destroys trust, the common store. Its remedy is not to give people less information. The burden falls on the one who governs: do not rule by technique. Say what is the case, and make few rules. History is a warning here. The [[Legalists|legalist]] took the first lines and built a state on them, and that state lasted fifteen years. If you find that this passage approves of you, read the fifth line again.",
+    "nature": "順 is a water word: its left side is a river. A stream does not compute its course. It goes down by the nearest way, and the valley that results is exact, the fit of water to land. Things in nature also [[turn back|fan]]: sap goes down in autumn, rivers return to the sea, the year comes round. The passage sets this going-with against 智, the faculty that finds short cuts. A straightened river is a clever thing: it moves water fast and floods the town below. Engineers now put the bends back. The [[great going-along|dashun]] is not weakness before nature. It is what remains when the short cuts have been counted with all their costs.",
+    "practice": "Try [[one day without the angle|practice]]. Then, in the evening, apply the passage’s own [[standard|jishi]], which has only two marks. Think of one thing that you arranged cleverly this week and one that you left plain. In which did trust go down, as if something had been ruined? In which did something arrive that you did not plan, like a gift? The passage says that to know these two, always, is the whole pattern. You do not need a theory of it. You need to remember tomorrow what you saw today."
+  },
+  "glyph": "愚",
+  "plates": [
+    {
+      "c": "愚",
+      "title": "A monkey over a heart",
+      "lesson": "Two parts, one above the other. At the foot is 心, the heart, which for the Chinese is also the organ of thought; the Shuowen says 在身之中, it is “in the middle of the body”. The heart at the foot of a graph marks a state of mind: 思 to think, 忘 to forget, 怒 anger, 慈 a parent’s love. Above it is 禺. The Shuowen says of 禺: 母猴屬。頭似鬼, “of the macaque kind; the head is like a ghost’s”. Then, under 愚 itself: 戇也。从心从禺。禺，猴屬，獸之愚者, “simple-minded. From 心 and 禺. 禺 is of the monkey kind, the 愚 one among the animals”. So the dictionary reads the graph as a monkey’s mind. Many modern scholars think that 禺 is here mostly for the sound, as it is in 遇, to meet; 偶, a pair, an image; 寓, to lodge; and 隅, a corner. Hold both. The word’s history is kinder than its picture. Chinese writers used 愚 for themselves as a polite “I”: 愚見, “my simple view”. A famous story tells of 愚公, Old Mr. Simple, who began to dig away two mountains with baskets; the clever man who laughed at him has the name 智叟. In passage 20 the speaker of the Laozi [[takes the word|yu]] as a badge.",
+      "brush": "Thirteen strokes: nine for 禺, four for 心. First a small box, in three strokes: the left side; the top and right side with one corner; a horizontal inside. A fourth stroke closes it. Next the lower frame: a vertical at the left, then the top and right side in one stroke that ends in a hook. The seventh stroke is a long vertical that starts at the top of the box, goes down through it, and ends inside the frame; watch it, because it ties the head to the body. Then a short horizontal and a dot inside the frame. Last the heart: a dot at the left; a long hook that lies almost flat; a dot above the hook; and a dot at its right. The upper part must be compact, so that the heart can spread wide beneath and carry it. In running script the three dots of the heart join into one wave."
+    },
+    {
+      "c": "順",
+      "title": "A head beside a stream",
+      "lesson": "At the left are three lines that fall side by side: 川, a river. The Shuowen calls 川 water that 貫穿通流, “passes through and flows on”; the oldest forms are lines of current between two banks. At the right is 頁. The Shuowen says 頭也, “the head”; the graph is a large head with its hair above a small body, and it marks parts of the head in 頭 (head), 頂 (crown), 額 (forehead), 顏 (face), and 頸 (neck). The Shuowen lists 順 as a joint meaning, 从頁从巛, head and stream, and defines it 理也: to follow the lines in a thing, as a jade worker follows the veins of the stone. So the picture is a person who faces the way the water runs. Two cousins take 川 for the sound, and both keep the idea: 訓, “to instruct”, with 言, speech, which the Shuowen explains as 說教也; and 馴, “tame”, with 馬, a horse, of which the Shuowen says 馬順也, “a horse that goes along”. The opposite word is 逆, to meet head-on, to go upstream. In Confucian texts 順 often means a son’s or a subject’s obedience. This passage uses the same word with no superior in it: the [[great going-along|dashun]] has no one at the head of the stream.",
+      "brush": "Twelve strokes: three for the river, nine for the head. The river first: a stroke that curves down to the left, a short vertical, and a long vertical. They must not be parallel bars. The first leans, the second is short and waits, the third is the longest and straightest; together they should move like water. Then 頁: a horizontal across the top; a short stroke that falls to the left under it; then a tall box in five strokes: left side, top and right side with one corner, two horizontals inside, and the base. Last come two small strokes under the box, one to the left and one to the right, like feet. Watch the white channels between the three river strokes. In seal script the three were curved and equal. The clerical and regular scripts made them unequal, and so gave the stream a direction."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "笑": {
+    "senses": ["to laugh, to smile", "to laugh at, to mock"],
+    "shuowen": "此字本闕。",
+    "shuowenEn": "“This character was originally missing.” (The entry was lost; later editors restored it from other books.)",
+    "parts": [{"c": "⺮", "m": "bamboo"}, {"c": "夭", "m": "a person who bends; young, supple"}],
+    "story": "Bamboo over a bent figure, and no certain explanation: the Shuowen entry was lost early, and old sources give more than one form of the graph. A remembered picture is bamboo that bends in the wind like a person who laughs. The Laozi has the word in one passage only, three times in two lines: the lowest scholar hears the Dao and laughs loudly at it, and if he did not laugh, it would not be enough to be the Dao (41).",
+    "gap": "English separates “laugh” and “smile”. 笑 is both, and with an object it is “to laugh at”."
+  },
+  "晚": {
+    "senses": ["evening, dusk", "late; the later part", "junior, of a later generation"],
+    "shuowen": "莫也。从日免聲。",
+    "shuowenEn": "Dusk. From 日 (sun), with 免 for the sound.",
+    "parts": [{"c": "日", "m": "sun"}, {"c": "免", "m": "to escape, to be spared; the sound part"}],
+    "story": "The sun, with a sound part that means “to get away”. The word occurs once in the Laozi, in a line that became a proverb: 大器晚成, the great vessel is completed late (41). The Mawangdui silk text has only 免 there: the great vessel is spared completion. The difference is the sun radical.",
+    "gap": "None in the word. The proverb’s comfort, that slow people succeed in the end, may rest on one added part of a character."
+  },
+  "士": {
+    "senses": ["a man of the lowest noble rank; an officer", "a soldier, a knight", "an educated man who seeks office; a scholar", "a man of worth"],
+    "story": "At first a warrior of good family, then any trained man in a ruler’s service, then the scholar-official of all later Chinese history. In the Warring States the 士 were the mobile experts: advisers, debaters, students. The Laozi speaks of them three times: the good 士 of old were subtle and deep beyond knowing (15); the three grades of 士 hear the Dao and work, waver, or laugh (41); one who is good as a 士 is not warlike (68).",
+    "gap": "“Scholar” has no sword, “knight” has no books, “gentleman” has no job. 士 had all three."
+  },
+  "昧": {
+    "senses": ["the dim light before dawn", "dark, obscure, unclear", "ignorant, to be blind to; to hide"],
+    "shuowen": "爽，旦明也。从日未聲。一曰闇也。",
+    "shuowenEn": "(In 昧爽:) the light at daybreak. From 日 (sun), with 未 for the sound. Some say: dark.",
+    "parts": [{"c": "日", "m": "sun"}, {"c": "未", "m": "not yet; the sound part"}],
+    "story": "The sun and “not yet”: the grey before sunrise. The Shuowen takes 未 as sound only, but the parts tell the time of day well. In passage 14 the underside of the One is “not 昧”, not dark. In passage 41 the bright way seems 昧.",
+    "gap": "“Dark” is too black and “obscure” is too learned. 昧 is half-light."
+  },
+  "辱": {
+    "senses": ["disgrace, humiliation; to shame", "soiled, darkened (in the Laozi, against 白, white)", "(polite) to condescend to"],
+    "shuowen": "恥也。从寸在辰下。失耕時，於封畺上戮之也。",
+    "shuowenEn": "Shame. From 寸 (a hand) under 辰 (the season sign). One who missed the time of plowing was punished at the boundary mound.",
+    "parts": [{"c": "辰", "m": "the time for farm work; at root, commonly explained as a tool of shell"}, {"c": "寸", "m": "a hand"}],
+    "story": "The dictionary’s story is a farmer’s disgrace. In the Laozi the word is half of two pairs. Favor and 辱 both alarm (13). Know glory and keep to 辱; be the valley of the world (28). Great white seems 辱 (41). One who knows what is enough is not 辱 (44).",
+    "gap": "“Disgrace” is social only. In the Laozi 辱 is also a color: the dark, low, used side of things, which the book tells the reader to keep to."
+  },
+  "隅": {
+    "senses": ["a corner, an angle", "an edge, a remote part", "a side of a matter"],
+    "shuowen": "陬也。从𨸏禺聲。",
+    "shuowenEn": "A corner. From 𨸏 (hill, mound), with 禺 for the sound.",
+    "parts": [{"c": "阝", "m": "hill, mound (𨸏)"}, {"c": "禺", "m": "a kind of monkey; the sound part"}],
+    "story": "The angle of a wall or of a piece of land. Confucius used the word for teaching: if he holds up one corner and the student cannot come back with the other three, he does not repeat the lesson. The Laozi has it once: the great square has no 隅 (41). The sound part 禺 is the monkey that is also in 愚, foolish.",
+    "gap": "None in the word. The line needs the old moral sense of “square”, upright, which English has almost lost."
+  },
+  "貸": {
+    "senses": ["to lend; to give out, to bestow", "to borrow", "to pardon, to let off"],
+    "shuowen": "施也。从貝代聲。",
+    "shuowenEn": "To give out. From 貝 (cowrie, money), with 代 for the sound.",
+    "parts": [{"c": "代", "m": "to take the place of; the sound part"}, {"c": "貝", "m": "cowrie; money"}],
+    "story": "A money word. In the Laozi it comes once, in the last line of passage 41: only the Dao is good at 貸 and at completing. Life, form, and ability are loans. The silk text has 始, “to begin”, in its place.",
+    "gap": "“Bestow” and “provide” make it a gift. A loan is to be returned."
+  },
+  "纇": {
+    "senses": ["a knot or lump in silk thread", "a flaw, a blemish", "rough, uneven"],
+    "shuowen": "絲節也。从糸頪聲。",
+    "shuowenEn": "A knot in silk. From 糸 (silk thread), with 頪 for the sound.",
+    "parts": [{"c": "糸", "m": "silk thread"}, {"c": "頪", "m": "the sound part"}],
+    "story": "A weaver’s word for the place where a thread is not smooth. It occurs once in the Laozi: the level way seems 纇 (41). Wang Bi explains that the truly level way does not force one level on all things.",
+    "gap": "“Rough” and “uneven” lose the thread. The fingers know a 纇."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "精": {
+    "senses": ["picked, polished grain", "the fine part; essence", "vital essence; seed, semen", "refined, exact, skilled", "a sprite"],
+    "shuowen": "擇也。从米青聲。",
+    "shuowenEn": "To pick out. From 米 (husked grain), with 青 for the sound.",
+    "parts": [{"c": "米", "m": "husked rice or millet"}, {"c": "青", "m": "sound; blue-green, clear"}],
+    "story": "Grain sorted until only the best is left. The meditation texts of fourth-century Qi used it for the fine vital stuff that makes life, becomes grain below and stars above, and lodges in a still heart. The Laozi finds it at the third step into the dark of the Way: “within it there is 精; this 精 is very real” (21). In passage 55 the infant’s 精 is at its height: it knows nothing of sex, and yet its member stirs.",
+    "gap": "“Essence” is a philosopher’s word. 精 is first something on a threshing floor, and then something in the body."
+  },
+  "孔": {
+    "senses": ["a hole, an opening; to pass through", "very, greatly; great", "the surname Kong (Confucius)"],
+    "shuowen": "通也。从𠃉从子。𠃉，請子之候鳥也。𠃉至而得子，嘉美之也。古人名嘉字子孔。",
+    "shuowenEn": "To pass through. From 𠃉 (swallow) and 子 (child). The swallow is the bird of the season at which one prays for children. The swallow comes and a child is got; this is cause for joy and praise. Men of old named 嘉 had the formal name 子孔.",
+    "parts": [{"c": "子", "m": "a child"}, {"c": "𠃉", "m": "the Shuowen: a swallow"}],
+    "story": "For the Shuowen, a child and the swallow of spring; for modern scholars, commonly a child with a mark that shows a small opening. The word means “hole” and, in old texts, “very, great”. Passage 21 opens with 孔德, great De. Wang Bi reads “hollow De”.",
+    "gap": "English must choose “great” or “hollow”. A reader of Chinese sees an opening, and may think of both."
+  },
+  "容": {
+    "senses": ["to hold, to contain; capacity", "to have room for, to tolerate", "face, look, bearing; a likeness", "to allow"],
+    "shuowen": "盛也。从宀、谷。",
+    "shuowenEn": "To contain, as a vessel does. From 宀 (roof) and 谷 (valley).",
+    "parts": [{"c": "宀", "m": "a roof"}, {"c": "谷", "m": "a valley"}],
+    "story": "A roof over a valley: a sheltered hollow. From “to hold” come both “capacity” and “the face”, which holds and shows what is within. The Laozi uses the word at three key places in a row: a forced likeness of the old masters (15); the room for all that comes from knowledge of the constant (16); and the look of great De, which is only to follow the Way (21).",
+    "gap": "English has “contain”, “tolerate”, and “countenance” as three words. The last still keeps a trace of the link."
+  },
+  "冥": {
+    "senses": ["dark, dim", "deep, hidden", "the world of the dead"],
+    "shuowen": "幽也。从日从六，冖聲。日數十。十六日而月始虧幽也。",
+    "shuowenEn": "Hidden, dark. From 日 (sun) and 六 (six), with 冖 for the sound. The count of the sun is ten; on the sixteenth day the moon begins to wane toward darkness.",
+    "parts": [{"c": "冖", "m": "a cover"}, {"c": "日", "m": "the sun"}, {"c": "六", "m": "six"}],
+    "story": "The Shuowen reads the calendar in it: ten and six, the day after full moon, when the dark starts to come back. With 窈, the depth of a cave, it makes the passage’s second word for the unseen: 窈兮冥兮, and within it there is essence (21).",
+    "gap": "“Dark” in English leans toward evil or ignorance. 冥 is the dark of depth and of the moon’s return."
+  },
+  "閱": {
+    "senses": ["to count off at a gate; to inspect, to review", "to pass through, to experience", "to read (later)"],
+    "shuowen": "具數於門中也。从門，說省聲。",
+    "shuowenEn": "To count off the full number in the gateway. From 門 (gate); the sound is from 說, abbreviated.",
+    "parts": [{"c": "門", "m": "a gate with two leaves"}, {"c": "兌", "m": "sound part (from 說)"}],
+    "story": "Troops or goods counted as they file through a gate. In passage 21 the origins of all things are reviewed in this way, by means of the name that does not go away.",
+    "gap": "“See” and “observe” are still. 閱 has movement: things pass, one by one."
+  },
+  "甫": {
+    "senses": ["a term of honour for a man", "just now; to begin", "(for 父) father; origin"],
+    "shuowen": "男子美稱也。从用、父，父亦聲。",
+    "shuowenEn": "A term of honour for a man. From 用 and 父 (father); 父 is also the sound.",
+    "story": "A polite suffix in the names of gentlemen. In passage 21, 眾甫 is the “many fathers”, the beginnings of all kinds of things; the Mawangdui silk texts write 眾父 outright.",
+    "gap": "Legge took the Shuowen’s “beautiful term” as “the beauties of things”. The word means the forefathers."
+  },
+  "真": {
+    "senses": ["real, genuine, not a copy", "one’s true nature", "(Daoist) the perfected: 真人"],
+    "story": "A word that the Confucian classics do not use and that the Laozi and the Zhuangzi made central. It is said of things and persons, not of statements. The essence in the dark is very 真 (21); the 真 of substance seems to change (41); cultivate it in the self, and one’s De is 真 (54).",
+    "gap": "“True” belongs to sentences in English. 真 belongs to gold, pearls, and people."
+  },
+  "從": {
+    "senses": ["to walk behind, to follow", "to obey, to go along with", "from (a starting point)", "to engage in"],
+    "shuowen": "隨行也。从辵、从，从亦聲。",
+    "shuowenEn": "To walk after. From 辵 (walking) and 从 (two persons, one behind the other); 从 is also the sound.",
+    "parts": [{"c": "彳", "m": "a step, a road"}, {"c": "从", "m": "two persons in file"}, {"c": "止", "m": "a foot (lower right, altered)"}],
+    "story": "Two people in file on a road. Great De follows only the Way (21); one who 從事, “follows the work” of the Way, becomes one with the Way (23).",
+    "gap": "“Obey” has a command in it. 從 only says who walks in front."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "契": {
+    "senses": [
+      "a tally: a notched contract split in two halves",
+      "a contract, a bond",
+      "to fit together exactly; to be in accord",
+      "to carve, to notch"
+    ],
+    "shuowen": "大約也。从大从㓞。《易》曰：“後代聖人易之以書契。”",
+    "shuowenEn": "A major agreement. From 大 (great) and 㓞 (to carve). The Changes says: “The sages of later ages replaced them with writing and tallies.”",
+    "parts": [
+      { "c": "丰", "m": "a stick with notches" },
+      { "c": "刀", "m": "a knife" },
+      { "c": "大", "m": "great; a person" }
+    ],
+    "story": "A strip of wood or bamboo, written on, notched, and split; each party kept a half, and the halves were matched when the debt was due. In passage 79 the sage holds the left tally and makes no claim on anyone, and the one with 德 keeps the tally while the one without keeps the tithe. From the object comes the sense “to fit as two halves fit”: 默契, a silent understanding.",
+    "gap": "“Contract” is paper and law courts. A 契 is a thing in the hand, and half of it is in the hand of someone else."
+  },
+  "怨": {
+    "senses": [
+      "grievance, resentment, a grudge",
+      "to resent, to bear ill will",
+      "(of the people) discontent"
+    ],
+    "shuowen": "恚也。从心夗聲。",
+    "shuowenEn": "Hatred held in. From 心 (heart), with 夗 for the sound.",
+    "parts": [
+      { "c": "夗", "m": "sound yuàn; by itself: to turn over while lying down" },
+      { "c": "心", "m": "the heart" }
+    ],
+    "story": "The feeling of the wronged party, kept over time. For rulers it was a political measure: the 怨 of the people was the first sign of a failing state. The Laozi says: answer grievance with 德 (63), and: make peace in a great grievance and some grievance is left over (79).",
+    "gap": "“Resentment” is a private mood. 怨 is also a claim: it says that something is owed."
+  },
+  "責": {
+    "senses": [
+      "to demand payment, to press a claim",
+      "to blame, to reproach, to hold to account",
+      "a duty; a debt (later written 債)"
+    ],
+    "shuowen": "求也。从貝朿聲。",
+    "shuowenEn": "To demand. From 貝 (cowrie shell), with 朿 (thorn) for the sound.",
+    "parts": [
+      { "c": "朿", "m": "a thorn; the sound-part (now reduced to four strokes)" },
+      { "c": "貝", "m": "cowrie shell: money" }
+    ],
+    "story": "First the creditor’s act of asking for what is due; then blame of any kind; then the duty itself. In the Laozi the word comes once: the sage holds the left tally and does not 責 anyone (79).",
+    "gap": "English keeps “to bill” and “to blame” apart. 責 is one act: to present someone with what they owe."
+  },
+  "徹": {
+    "senses": [
+      "to go right through, to penetrate",
+      "to remove, to clear away",
+      "the land tax of the Zhou, about one part in ten"
+    ],
+    "shuowen": "通也。从彳从攴从育。",
+    "shuowenEn": "To pass through. From 彳 (a step), 攴 (a hand with a stick), and 育.",
+    "parts": [
+      { "c": "彳", "m": "a step, movement on a road" },
+      { "c": "育", "m": "the middle part in the modern form" },
+      { "c": "攵", "m": "a hand with a stick: to act on" }
+    ],
+    "story": "Mencius gives 徹 as the name of the Zhou tax on a hundred mu of land. In passage 79 the one without 德 “keeps the 徹”: on the usual reading, runs the tithe and takes a fixed share. Wang Bi reads the word as watching for people’s faults; others read it as 轍, wheel-tracks.",
+    "gap": "No English word joins “thorough” and “tithe”. The link is the idea of taking a clean cut through the whole."
+  },
+  "親": {
+    "senses": [
+      "parents; kin",
+      "close, intimate; to be close to",
+      "in person, oneself (親自)"
+    ],
+    "shuowen": "至也。从見亲聲。",
+    "shuowenEn": "To reach all the way. From 見 (to see), with 亲 for the sound.",
+    "parts": [
+      { "c": "亲", "m": "sound; now the simplified form of the whole word" },
+      { "c": "見", "m": "to see" }
+    ],
+    "story": "Those who are nearest. Zhou society ranked duties by nearness of kin, and the Laozi keeps its distance from the idea. The best ruler is barely known; the next is loved and praised, 親 (17). When the six relations are out of accord, there is talk of filial sons (18). The one who has the dark sameness cannot be made close and cannot be made distant (56). Heaven’s way has no kin (79).",
+    "gap": "“Favourites” is too light, and “relatives” too narrow. 親 is the whole order of closeness on which the old society stood."
+  },
+  "左": {
+    "senses": [
+      "left, the left side",
+      "to help, to assist (later written 佐)",
+      "the east side (facing south); in war, the place of honour"
+    ],
+    "shuowen": "手相左助也。从𠂇、工。",
+    "shuowenEn": "Hands that help each other. From 𠂇 (the left hand) and 工 (work).",
+    "parts": [
+      { "c": "𠂇", "m": "a left hand" },
+      { "c": "工", "m": "work; a tool" }
+    ],
+    "story": "A left hand with a tool: the hand that assists the right. The Laozi uses left and right for rank. At home the noble person honours the left; in war, the right (31). Great Dao floods to the left and to the right (34). The sage holds the left tally (79); the Mawangdui silk text says the right.",
+    "gap": "For an English reader left and right are directions. In early China each side had a rank, and the rank changed between peace and war."
+  }
+}

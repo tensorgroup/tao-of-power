@@ -1,0 +1,266 @@
+{
+  "n": 21,
+  "title": "Inside the Haze",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "孔德之容，惟道是從。",
+      "gloss": {
+        "0": "great, vast; Wang Bi: hollow; first, a hole, a passage",
+        "1": "de: inner power, the working of Dao in a thing",
+        "3": "the look, the bearing; also: what a thing holds",
+        "5": "only",
+        "8": "to walk behind, to follow"
+      }
+    },
+    {
+      "text": "道之為物，惟恍惟惚。",
+      "gloss": {
+        "2": "to be, taken as; also: to make",
+        "3": "a thing, a creature",
+        "6": "huǎng: flickering, unfixed",
+        "8": "hū: dim, absent"
+      }
+    },
+    {
+      "text": "惚兮恍兮，其中有象；恍兮惚兮，其中有物。",
+      "gloss": {
+        "6": "the inside, the middle",
+        "8": "an image, a likeness",
+        "18": "a thing"
+      }
+    },
+    {
+      "text": "窈兮冥兮，其中有精；",
+      "gloss": {
+        "0": "yǎo: deep and far, as the back of a cave",
+        "2": "dark; the dark of the waning moon",
+        "8": "fine essence; picked grain; seed"
+      }
+    },
+    {
+      "text": "其精甚真，其中有信。",
+      "gloss": {
+        "3": "real, genuine",
+        "8": "a proof, a token; what can be trusted"
+      }
+    },
+    {
+      "text": "自今及古，其名不去，",
+      "gloss": {
+        "8": "to leave, to go away"
+      }
+    },
+    {
+      "text": "以閱眾甫。",
+      "gloss": {
+        "1": "yuè: to count off at a gate; to review",
+        "3": "fǔ: an honoured man; read here as “father” or “beginning”"
+      }
+    },
+    {
+      "text": "吾何以知眾甫之狀哉？以此。",
+      "gloss": {
+        "7": "shape, condition",
+        "11": "this"
+      }
+    }
+  ],
+  "rendering": [
+    "The [[look|rong]] of [[great|kong]] [[De|de]]:",
+    "it is Dao alone that it [[walks behind|cong]].",
+    "Dao, [[as a thing|wei-wu]]:",
+    "only [[flickering, only dim|huanghu]].",
+    "",
+    "Dim! Flickering!",
+    "Within it there is an [[image|xiang]].",
+    "Flickering! Dim!",
+    "Within it there is a thing.",
+    "[[Deep! Dark!|yaoming]]",
+    "Within it there is [[essence|jing]].",
+    "This essence is very [[real|zhen]];",
+    "within it there is [[a proof|xin]].",
+    "",
+    "[[From now back to the old|zi-jin]],",
+    "its name has not gone away,",
+    "and by it [[the fathers of all|zhongfu]] [[pass in review|yue]].",
+    "How do I know the shape of the fathers of all?",
+    "[[By this.|yi-ci]]"
+  ],
+  "notes": {
+    "kong": {
+      "kind": "wangbi",
+      "title": "孔: great, or hollow?",
+      "body": "孔 is first a hole, an opening that goes through; the Shuowen says 通也, “to pass through”. From early times it was also used for “very, great”, and the old Heshang Gong commentary reads it so here: 孔，大也, great De. Wang Bi takes the first sense and builds his reading on it: 孔，空也，惟以空為德，然後乃能動作從道. “孔 is hollow. Only one who takes hollowness as De is then able, in each movement, to follow Dao.” So for him the line says that power is a kind of emptiness, as the hub and the pot of passage 11 work at their hollow. The grammar bears both. We render “great” and keep the hole here. There is an accident too. 孔 is the family name of Confucius, and for a reader of Chinese 孔德 looks, for a moment, like “the virtue of Kong”. Nothing suggests that the author meant it.",
+      "src": [
+        "Shuowen Jiezi, 𠃉部: 孔，通也。从𠃉从子。",
+        "Heshang Gong commentary on Laozi 21",
+        "Wang Bi commentary on Laozi 21"
+      ]
+    },
+    "de": {
+      "kind": "gap",
+      "title": "德 meets 道",
+      "body": "This is the first line, in the order that we now read, where the two words of the book’s title stand together, and it states their relation in four characters: 德 follows 道, and nothing else. 德 is the hardest word in the book to bring into English. “Virtue” was right in the old sense of “the virtue of a herb”, its power to act, from Latin virtus, strength. Today it means moral goodness, and that is what the Laozi says appears when the Way is lost (passage 38). 德 is what a thing has got from the Way: its own way of being effective, with no effort to be so. A person of 德 changes a room by entering it. The Shuowen glosses the word 升也, “to rise”. We leave De in Chinese, as we leave Dao. Legge writes “active force”, which is not bad.",
+      "src": [
+        "Shuowen Jiezi, 彳部: 德，升也。从彳㥁聲。",
+        "Laozi 38"
+      ]
+    },
+    "rong": {
+      "kind": "wordplay",
+      "title": "容, a third time",
+      "body": "The same character has now stood at an important place in three passages. In 15 the speaker was forced to draw a 容, a likeness, of the old masters, who were too deep to know. In 16, knowledge of the constant gave 容, room for all things. Here it is the 容 of De. Which sense? “The look, the outward bearing” fits passage 15: once more something inward shows a face. “The content, what it holds” fits the Shuowen’s definition, 盛也, and Wang Bi’s hollow. A third sense, “movement, behaviour”, is used by some commentators. Chinese readers feel no need to choose; a face is what holds and shows a person. The line says that all one can see of De, its whole expression, is a following. It has no look of its own. Think of someone’s face while they listen with full attention. What is its expression?",
+      "src": [
+        "Shuowen Jiezi, 宀部: 容，盛也。从宀、谷。"
+      ]
+    },
+    "cong": {
+      "kind": "etymology",
+      "title": "從: one person behind another",
+      "body": "The old way to write this word is 从: two persons, one after the other. The mainland short form has gone back to it. The full graph adds the signs for a road and a foot, and the Shuowen defines it 隨行也, “to walk after”. It is the verb for a servant behind a master, a soldier behind a flag, a river that keeps to its bed. The line’s grammar is emphatic. 惟道是從 puts the object first and marks it: “it is Dao, only that, which it follows”. The pattern is known from oaths and commands in the old documents. So De does not consult anything else: no rule, no model, no ruler’s wish, no idea of the good. Legge reverses the picture; in his verse the forces “from Tao come”, like water out of a source. The Chinese has two walkers on a road, and the one in front cannot be clearly seen.",
+      "src": [
+        "Shuowen Jiezi, 从部: 從，隨行也。从辵、从，从亦聲。"
+      ]
+    },
+    "wei-wu": {
+      "kind": "gap",
+      "title": "Is Dao a thing?",
+      "body": "道之為物 is a bold phrase. 物 is the ordinary word for a thing, a creature, an item in the world; the Shuowen even ties it to cattle: 牛爲大物, “the ox is a big thing”. The book has said that Dao returns to “no thing” (14). Now it says: Dao, 為物, “taken as a thing”. The usual reading is a kind of trial. Suppose you treat it as an object and look straight at it: what do you get? Haze. A second reading takes 為 as “to make”: “Dao, in its making of things”. Then the lines that follow are a cosmogony, the steps by which things come out of the blur. The Mawangdui silk texts are reported to have only 道之物, “Dao’s thing” or “the thing that is Dao”, which favours the first. Wang Bi gives the lines to both at once: 以無形始物，不繫成物, “with no form it begins things; with no tie it completes them”.",
+      "src": [
+        "Shuowen Jiezi, 牛部: 物，萬物也。牛爲大物；天地之𢿙，起於牽牛，故从牛。勿聲。",
+        "Mawangdui Laozi A and B",
+        "Wang Bi commentary on Laozi 21"
+      ]
+    },
+    "huanghu": {
+      "kind": "wordplay",
+      "title": "恍惚, turned and turned back",
+      "body": "Passage 14 called the Way 惚恍 and stopped there: it cannot be fixed. This passage takes the word and enters it. First it is split, 惟恍惟惚, “only 恍, only 惚”. Then it is said in both orders, 惚兮恍兮 and 恍兮惚兮, each with the sigh 兮. The turning is not ornament. It makes the rhymes. In the old rhyme groups 恍 ends like 象, image (the group 陽), and 惚 ends like 物, thing (the group 物). Further on, 冥 ends like 精 (耕), and 真 like 信 (真). So each thing that is found rhymes with the haze in which it is found. The ear learns, before the mind does, that the image is not hidden behind the dimness. It is the same sound. In later Chinese 恍惚 became a term for trance, and today it means “in a daze”. Wang Bi calls it 無形不繫之歎, “a sigh at the formless and untied”.",
+      "src": [
+        "Wang Bi commentary on Laozi 21",
+        "Laozi 14"
+      ]
+    },
+    "xiang": {
+      "kind": "history",
+      "title": "Image before thing",
+      "body": "The order is exact: first 象, then 物. In the thought of the time an image comes before a formed thing. A commentary attached to the Book of Changes says 在天成象，在地成形: “in heaven, images take shape; on earth, forms take shape”. A 象 is a pattern not yet solid: the figure of a constellation, the look of the sky before rain, the six lines of a hexagram. Passage 14 spoke of “the image of no thing”; passage 35 will call the Way “the great image”; passage 41 says that this great image is without shape. So the first thing that shows in the haze is a pattern, and after it a thing that can be pointed at. A person who waits for an idea knows this order. Something has a shape before it has any content. Legge’s things “crouch” in the Way, like animals in a thicket. That is his rhyme’s doing, and it is rather good.",
+      "src": [
+        "Yijing, “Xi ci shang” (繫辭上)",
+        "Laozi 14, 35, 41"
+      ]
+    },
+    "yaoming": {
+      "kind": "etymology",
+      "title": "窈 and 冥: a cave and a dying moon",
+      "body": "For the third step the passage changes its word for the dark, as if it had gone further in. 窈 has 穴, a cave, on top; the Shuowen says 深遠也, “deep and far”: the back of a cavern, where the light of the mouth does not reach. 冥 is “the dark”, and the Shuowen’s account of the graph is a small poem of the calendar: the sun counts ten, and 十六日而月始虧幽也, “on the sixteenth day the moon begins to wane toward darkness”. The same word names the world of the dead. Wang Bi: 窈、冥，深遠之歎，深遠不可得而見。然而萬物由之. “窈 and 冥 are sighs at the deep and far, too deep and far to see. And yet the ten thousand things come by way of it.” The dark here is like the 玄 of passage 1: depth, not evil. The Mawangdui silk texts are reported to write the first word 幽, “hidden”.",
+      "src": [
+        "Shuowen Jiezi, 穴部: 窈，深遠也。从穴幼聲。",
+        "Shuowen Jiezi, 冥部: 冥，幽也。从日从六，冖聲。日數十。十六日而月始虧幽也。",
+        "Wang Bi commentary on Laozi 21",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "jing": {
+      "kind": "history",
+      "title": "精: the finest grain",
+      "body": "精 has 米, husked rice, at the left. The Shuowen defines it 擇也, “to pick out”: grain that has been sorted and polished until only the best is left. From that it means the fine part of anything, its concentrated life: spirit, energy, and also seed, semen. The meditation teachers of Qi made it a technical term. The “Inward Training” opens: 凡物之精，此則為生，下生五穀，上為列星. “The 精 of all things: it is this that makes life. Below, it brings forth the five grains; above, it becomes the ranked stars.” Stored in a person’s breast, it goes on, this makes a sage, and a still heart is the lodging to which it comes. So when this passage finds 精 inside the dark, a reader of the time hears a claim about practice and the body, not only about the cosmos. The Mawangdui silk texts are reported to write 請, a loan graph for the same word. English “essence” is abstract; 精 can be eaten.",
+      "src": [
+        "Shuowen Jiezi, 米部: 精，擇也。从米青聲。",
+        "Guanzi, “Nei ye” (內業)",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "zhen": {
+      "kind": "gap",
+      "title": "真: real, and not “true”",
+      "body": "This is the first time the book says 真. English versions give “true”, “truth”, “reality”. In Western thought truth belongs first to statements: a sentence is true if it fits the facts. 真 is not about sentences. It is said of things: real gold, a real pearl, the genuine article and not a copy. So 其精甚真 is “this essence is very real”: not thinned, not faked. Scholars have long noted an odd fact: the graph 真 does not occur in the Confucian Five Classics. By the Han the word belonged to the adepts: the Shuowen defines it as 僊人變形而登天也, “an immortal who changes form and rises to heaven”. It is a word of this book and of the Zhuangzi, where the 真人, the “real person”, is the highest human type, and it later became the ordinary Daoist title for an adept. The passage has just compared the Way to haze. Now it uses its strongest word for the genuine about what is inside the haze. Which do you trust more: what is clear, or what is real?",
+      "src": [
+        "Zhuangzi, “Da zong shi” (大宗師)",
+        "Gu Yanwu, Rizhi lu",
+        "Shuowen Jiezi, 𠤎部: 眞，僊人變形而登天也。从𠤎从目从乚；八，所乘載也。"
+      ]
+    },
+    "xin": {
+      "kind": "wangbi",
+      "title": "信: something that can be tested",
+      "body": "The fourth and last thing found is 信, the word of passage 17: trust, good faith, words that hold. A 信 was also an object: a token or seal that proved a message was genuine. Wang Bi reads it in that sense: 信，信驗也, “信 means proof by trial”. And he says when the proof comes: 物反窈冥，則真精之極得，萬物之性定. “When things turn back to the deep dark, the utmost of the real essence is attained, and the natures of the ten thousand things are settled.” This is a strong claim, and it is not a call to faith. The text says that in the innermost part of what cannot be seen or named there is something that keeps its word: it can be relied on, and tried, like the return of the seasons. English “faith” would make it belief without evidence. 信 here is the evidence. What in your experience has never once failed to arrive?",
+      "src": [
+        "Wang Bi commentary on Laozi 21"
+      ]
+    },
+    "zi-jin": {
+      "kind": "variant",
+      "title": "From now back to the old",
+      "body": "Our text reads 自今及古, “from the present to antiquity”. Many printed editions read 自古及今, “from antiquity to the present”, the usual order of the phrase in Chinese, and Wang Bi’s own comment quotes it that way. The Mawangdui silk texts are reported to have “from now to the old”, and the rhyme proves that they are right: 古 must end the line to rhyme with 去 and 甫, all in the old group 魚. A copyist changed the strange order to the common one. The difference is one of method. “From antiquity to now” is the view of a historian who starts at the origin. “From now back” starts here: you take hold in the present and trace toward the beginning, as passage 14, in the silk version, held “the way of now”. Then 其名不去, “its name does not leave”. But it has no name! Wang Bi: 無名則是其名也, “namelessness is its name”.",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Wang Bi commentary on Laozi 21"
+      ]
+    },
+    "yue": {
+      "kind": "etymology",
+      "title": "閱: the count at the gate",
+      "body": "閱 has 門, a gate, around it. The Shuowen’s definition is a scene: 具數於門中也, “to count off the full number in the gateway”. Goods were checked at the gate of a storehouse, and troops were mustered and counted as they filed through the gate of a camp; 閱兵 is still the Chinese for a military review. So 以閱眾甫 has a picture in it. The speaker stands at a gate, and the origins of all things march through one at a time and are counted. Today 閱 is “to read”: the eye passes the characters in review. English “observe” or “see” loses the gate and the file. And the gate is not a chance image in this book. Passage 1 ended at “the gate of all fineness”, and passage 6 has the gate of the dark female. The Mawangdui silk texts are reported to read 順, “to go along with”, where we have 閱.",
+      "src": [
+        "Shuowen Jiezi, 門部: 閱，具數於門中也。从門，說省聲。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "zhongfu": {
+      "kind": "variant",
+      "title": "眾甫: the fathers of all",
+      "body": "甫 is rare as a plain word. The Shuowen calls it 男子美稱也, “a term of honour for a man”, and says the graph contains 父, father, which also gives its sound. Men of rank had it in their formal names. The Mawangdui silk texts are reported to write the simpler graph: 眾父, “the fathers of the many”. Wang Bi glosses 眾甫，物之始也, “the beginnings of things”. So the phrase means the origins from which each kind of thing comes, pictured as a line of ancestors. This is notable in a book whose word for the source is “mother” (1, 20, 25, 52). The mother is one, and feeds. The fathers are many, and are counted [[at a gate|yue]]. Legge took the dictionary’s “beautiful term” another way and wrote “all the beauties of existing things”, which is a mistake that produced a lovely phrase. Our “fathers of all” follows the reported silk reading.",
+      "src": [
+        "Shuowen Jiezi, 用部: 甫，男子美稱也。从用、父，父亦聲。",
+        "Mawangdui Laozi A and B",
+        "Wang Bi commentary on Laozi 21"
+      ]
+    },
+    "yi-ci": {
+      "kind": "gap",
+      "title": "以此: “by this”",
+      "body": "The passage ends with a question and a two-word answer. 吾何以知…? “How do I know…?” 以此: “by this”. The same exchange closes an argument in passage 54 and opens one in passage 57. What is “this”? Wang Bi says: 此上之所云也, “what was said above”: the account just given. Others say: this Way; or this present moment, since the line before began from “now”; or this body and heart, in which the haze, the image, and the essence can be found by anyone who is still. The word is a pointer with no noun, and the open hand is the answer. The knowledge claimed in this passage is not from a book or a teacher, and not “from antiquity”. Note the “I”, 吾, which enters only here. Legge fills the pointer with a bracket: “By this (nature of the Tao)”. When you say “this”, with nothing after it, where does your attention go?",
+      "src": [
+        "Wang Bi commentary on Laozi 21",
+        "Laozi 54, 57"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge in rhyme: “all right”",
+      "body": "Legge saw that this passage is a rhymed chant, and he was almost alone among early translators in trying to show it. He put it into sixteen lines of English verse with four beats. The attempt deserves respect, and the result shows what rhyme costs. To rhyme with “touch” the forms of things must “crouch”. To rhyme with “sight” he needs a filler: “There are their semblances, all right.” The haze becomes a matter of two senses, “Our sight it flies, our touch as well”, borrowed from passage 14; 恍惚 says nothing of sight or touch. [[精|jing]] is “essences”, plural, which makes it a set of Platonic kinds. And [[信|xin]], the token that can be tried, becomes “the truth… of what, when seen, shall then be told”. Read his poem aloud for its swing. Then read the Chinese line 其中有信 and count: four characters.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Stay in the haze one minute longer",
+      "body": "The passage describes a sequence, and you can test it on a small scale. Choose a question to which you do not know the answer: what to write, what a person meant, what you feel about a thing. Sit with it, and do not reach for the first clear thought. That first clear thought is usually an old one. Let the matter be [[dim and unfixed|huanghu]]. After a while there is often a vague shape, a leaning: an [[image|xiang]]. Do not grab it. Then something more definite, a thing you could name. Stay one minute longer than is comfortable, in [[the deep part|yaoming]], and see whether there is a sense that this is [[real|zhen]], and that it [[holds when you lean on it|xin]]. Then get up and act on it. The method of the passage is in its last two words: not by report, [[by this|yi-ci]]."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has a frame and a descent. The frame: [[great De|kong]] has one [[look|rong]], which is that it [[follows|cong]] [[Dao|de]]; and Dao, [[if you take it as a thing|wei-wu]], is only [[haze|huanghu]]. Then the descent, in four steps, each introduced by cries of 兮 and each with the same phrase, 其中有, “within it there is”. In the dim and flickering: an [[image|xiang]]. In the flickering and dim: a thing. In the [[deep dark|yaoming]]: [[essence|jing]]. In the essence, which is very [[real|zhen]]: [[a proof|xin]]. The close turns to time and knowledge. [[From now back to the old|zi-jin]] its name has stayed; by it the [[fathers of all things|zhongfu]] are [[reviewed, as at a gate|yue]]; and the speaker knows them [[by this|yi-ci]]. The rhymes tie each found thing to its haze. The pictures are two walkers, a cave, a waning moon, polished rice, a token, and a gate.",
+    "inner": "Passage 14 said what the Way is not: not seen, not heard, not held. This passage is its partner, and it says what is found if one does not turn away from the blur. That is the whole discipline: to remain in a state that the ordinary mind leaves at once, because it has no object. The text reports that the state is not empty. It has layers, and they come in an order: a pattern, something definite, a fine living essence, and at the centre a thing as plain as a kept promise. [[恍惚|huanghu]] and [[窈冥|yaoming]] later became names for stages of trance, and [[精|jing]] was what the still heart collects. But the passage does not ask you to believe a map. Its last words are a method: [[by this|yi-ci]]. And its first line says how the one who knows will look from outside: like [[a follower|cong]], with no face of their own.",
+    "body": "Chinese medicine and the arts of long life took their vocabulary from lines like these. [[精|jing]] is the body’s stored essence, the finest product of food and breath, and the seed; it is kept low in the belly, and guarded. In the later scheme, essence is refined into breath-energy and breath-energy into spirit. You need not hold that theory to feel the passage in the body. Sit and let the gaze go soft, neither fixed nor closed; that is 恍惚 for the eyes. Let attention drop down and back, as if into [[a cave behind the navel|yaoming]]. The belly is dark to the mind; we seldom visit it. Rest there, and notice whether there is something alive and warm that is not a thought. The old teachers said: that is real, and it can be [[relied on|xin]]. It was there before you looked.",
+    "nature": "At first light there is a quarter of an hour when the world is [[恍惚|huanghu]]: you cannot say if that dark mass is a hill or a cloud. Then come [[shapes|xiang]], then things, a tree, a wall. Morning repeats each day the order of this passage. So does the growth of an embryo, where pattern is laid down before any organ; so does a pond in spring, cloudy with what will be frogs. The source of things is not clear and bright, with a blueprint. It is turbid, and full. [[The moon in 冥|yaoming]] wanes toward the dark, and from the dark comes back; farmers planted by it. And [[精|jing]] is first of all seed-grain: the small, dense, picked part of last year’s harvest that holds next year’s. Inside the least showy thing in the barn is the most [[real|zhen]] one. It keeps its word each spring.",
+    "practice": "Use the [[one-minute-longer|practice]] exercise once today, on a real question. Then take the frame of the passage into an ordinary hour. [[De has no look except that it follows|rong]]. Choose one activity, to cook, to walk, to listen to someone, and for its length let yourself be only the follower: of the heat in the pan, of the slope of the path, of the other person’s words. Do not lead. Afterwards ask what was reliable in it, what was [[信|xin]]. If you like to see how a mind of another age met this chant, read [[Legge’s sixteen rhymed lines|legge]], and then go back to the four-character lines of the Chinese. For the question of [[whether Dao can be called a thing at all|wei-wu]], give yourself a quiet minute, and for the [[fathers that file through the gate|zhongfu]], another."
+  },
+  "glyph": "精",
+  "plates": [
+    {
+      "c": "精",
+      "title": "Rice, picked and polished",
+      "lesson": "The left side is 米. It is rice or millet with the husk off, and the Shuowen calls it a picture: 象禾實之形, “it shows the seeds of the grain”. The usual explanation of the drawing is a threshing stick or a sieve in the middle, with grains above and below. You find it in 粉 (flour, powder), 粥 (rice gruel), and in 氣, breath-energy, where steam rises over cooking rice. The right side is 青, the blue-green of growing things: a sprout, 生, over a pit of mineral colour, 丹. You met it in 靜, stillness, in passage 16. Here it gives the sound, and it also lends a sense; its whole family leans toward “clear, fine”. 清 is clear water. 晴 is a clear sky. 睛 is the clear part of the eye, the pupil. 情 is what the heart truly feels. 請 is a courteous request; the Mawangdui scribes are reported to have written that graph for 精 in this very line. And 精 is clear rice: the Shuowen defines it 擇也, “to pick out”, the best grain sorted from the rest and polished white. Then the word rose. The fine part of anything is its 精: the spirit of wine, the essence of a text, a skilled hand (精巧), a person’s vital force (精神, essence and spirit: “mind”, “vigour”), the seed of a man. A sprite or a goblin is a 精 too: a thing so concentrated that it has woken up. The passage finds [[精|jing]] in the dark and says it is very real.",
+      "brush": "Fourteen strokes: six for the rice, eight for 青. The rice: a dot at the upper left and a short stroke at the upper right, which lean in toward each other; a level stroke; a long vertical through it; then a stroke that falls to the left. The sixth stroke would be a long sweep to the right if 米 stood alone. As a left-hand part it shrinks to a dot, so that the grain does not push into the other half. Then 青: two level strokes; a vertical through them; a third, longer level stroke. Below, the form like 月: a vertical; a stroke that goes right, turns down, and hooks; and two small level strokes inside. Watch the two verticals, the one through the rice and the one in the top of 青. They are the two masts of the character, and they must be parallel."
+    },
+    {
+      "c": "孔",
+      "title": "The swallow that brings a child",
+      "lesson": "Only four strokes, and the Shuowen has a whole spring festival in them. The left side is 子, a child. The right side, a single bent line, is not a hook or a number. The Shuowen says it is 𠃉, a picture of a swallow in flight, and explains: 𠃉，請子之候鳥也。𠃉至而得子，嘉美之也。 “The swallow is the bird of the season at which one prays for children. The swallow comes and a child is got; this is cause for joy and praise.” Swallows return to north China at the spring equinox, and on that day the king offered sacrifice to the divine matchmaker and asked for sons. So the dictionary reads 孔 as swallow plus child: a happy passage, a thing that came through. Its definition is 通也, “to go through”, and it adds that men of old named 嘉, “Excellent”, took the formal name 子孔. Modern scholars read the bronze forms otherwise: a child with a mark at the head, perhaps the soft spot of an infant’s skull, or a child at the breast; either way a small opening. The word’s ordinary sense is “hole”: 鼻孔 is a nostril, 毛孔 a pore. Its old sense “very, great” is the one usually read [[in this passage|kong]]. And it is the surname of Confucius, 孔子, Master Kong, whose descendants still carry it. In this line, the look of De is 孔: great, and gone through.",
+      "brush": "Four strokes. The child takes three, as in 孩 of the passage before: a level stroke that turns back sharply to the left; a curved vertical with a hook at the foot; and the arms, written as a stroke that rises to the right. The fourth stroke is the whole right side, and you should watch it from start to end. The brush goes down, bends at the bottom in a round corner with no stop, runs to the right along the base, and then turns up into a tall hook. Calligraphers name it the “floating goose” stroke. It is one of the hardest in the script, because it must change direction twice and keep the same strength; the turn is made with the wrist, and the hook is pushed up, not flicked. In a good 孔 the space between the child and that curve is wide and clean: the hole in the character."
+    }
+  ]
+}

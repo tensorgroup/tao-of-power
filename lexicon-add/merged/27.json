@@ -1,0 +1,56 @@
+{
+  "師": {
+    "senses": ["a host, an army; a division of 2,500 men", "the capital (京師)", "a master, a teacher; a model", "to take as teacher (verb)"],
+    "shuowen": "二千五百人爲師。从帀从𠂤。𠂤，四帀，眾意也。",
+    "shuowenEn": "Two thousand five hundred men make a 師. From 帀 (all round) and 𠂤. 𠂤 with “round on four sides” gives the idea of a multitude.",
+    "parts": [{"c": "𠂤", "m": "a mound; in early writing, an army in the field"}, {"c": "帀", "m": "all round, encircling"}],
+    "story": "師 is a crowd before it is a person: the Shuowen defines it as an army unit. The one who commands and trains a host is its master, and from there the word came to mean the master of any skill, and a teacher. The Laozi uses both ends of the word within four passages. In 27 the good person is the 師 of the not-good. In 30, where a 師 has camped, thorns and brambles grow.",
+    "gap": "“Teacher” in English has no army behind it. 師 keeps a memory of command, which is why the Laozi’s teacher, who owes care to the pupil, is a quiet correction."
+  },
+  "善": {
+    "senses": ["good at, skilled in", "good; what turns out well", "to approve, to treat as good (verb)", "well (adverb)"],
+    "parts": [{"c": "羊", "m": "a sheep: a good omen"}, {"c": "言", "m": "speech (two of them in the old form 譱)"}],
+    "story": "The Shuowen lists this word in its old form 譱, a sheep between two “speeches”, glosses it “auspicious”, and says that it shares its idea with 義 (right) and 美 (fine), which also have the sheep. The word covers skill and virtue without a seam: good at swimming, a good person, a good outcome. The Laozi uses that width on purpose. Water is “highest good” because of what it is good at (8); passage 27 runs from good walking and good knots to the good person and the not-good person in one breath.",
+    "gap": "English keeps “good” for morals and “good at” for skill. 善 does not divide them, so Chinese goodness sounds more like a mastered craft and less like obedience."
+  },
+  "襲": {
+    "senses": ["a robe closed to the left: burial dress (Shuowen)", "to put one garment over another; layered, doubled", "to inherit, to continue, to follow", "to attack by surprise"],
+    "shuowen": "左衽袍。从衣，龖省聲。",
+    "shuowenEn": "A robe that closes to the left. From 衣 (garment); a short form of 龖 gives the sound.",
+    "parts": [{"c": "龍", "m": "sound part (short for two dragons, 龖)"}, {"c": "衣", "m": "a garment"}],
+    "story": "The first sense is a garment put on the dead, closed on the opposite side from the clothes of the living. From “dress over” came “to add a layer”, “to take on what came before” (to inherit a title), and “to come upon under cover” (a surprise attack). The Laozi has two rare phrases with it: 襲明 (27), light that is covered, handed on, or followed, and 襲常 (52), where the same choices arise with “the constant”.",
+    "gap": "No English word joins a robe, an inheritance, and an ambush. Each translation of 襲明 must drop two of the three."
+  },
+  "棄": {
+    "senses": ["to throw away, to abandon", "to renounce, to give up"],
+    "shuowen": "捐也。从廾推𠦒棄之，从𠫓。𠫓，逆子也。",
+    "shuowenEn": "To cast off. From two hands that push a winnowing basket to throw it out, and from 𠫓. 𠫓 is a child upside down.",
+    "parts": [{"c": "𠫓", "m": "a newborn child, head down"}, {"c": "廾", "m": "two hands"}],
+    "story": "棄 pictures an infant carried out in a basket by two hands: the exposure of a newborn. The ancestor of the Zhou kings, Lord Millet, was named 棄 because his mother abandoned him three times and he lived. The Laozi uses the word both ways. Passage 19 tells rulers to 棄 cleverness and profit. Passage 27 says that under the sage there is no 棄 person and no 棄 thing.",
+    "gap": "“Discard” is what one does with packaging. 棄 began as what was done to an unwanted child, and the old graph still shows it."
+  },
+  "救": {
+    "senses": ["to stop (a harm)", "to come to the aid of, to relieve, to rescue"],
+    "shuowen": "止也。从攴求聲。",
+    "shuowenEn": "To stop. From 攴 (a hand with a stick); 求 gives the sound.",
+    "parts": [{"c": "求", "m": "sound part; by itself: to seek"}, {"c": "攵", "m": "a hand with a stick: action"}],
+    "story": "To 救 is to halt a disaster in progress: a fire, a famine, a siege. States sent armies to 救 their allies. In Laozi 27 the sage is “always good at 救-ing people”, and the proof is that no one is thrown away. Passage 52 uses the word in the negative: one who opens the gates and adds to affairs is “to the end of life not to be rescued”, and passage 67 says that heaven guards with care those whom it would 救.",
+    "gap": "English “save” brings salvation of the soul. 救 is first aid: it stops a present harm in this world."
+  },
+  "資": {
+    "senses": ["goods, wealth, stock", "material to work with, a resource", "to draw on, to supply (verb)"],
+    "shuowen": "貨也。从貝次聲。",
+    "shuowenEn": "Goods. From 貝 (shell money); 次 gives the sound.",
+    "parts": [{"c": "次", "m": "sound part"}, {"c": "貝", "m": "a cowrie shell; money"}],
+    "story": "資 is what one has to work with: a merchant’s stock, a traveller’s funds, a craftsman’s material. Wang Bi glosses it “to take from”. In Laozi 27 the not-good person is the 資 of the good person, and the good person is told to hold that material dear. The later compound 師資, from the same two lines, came to mean a teacher.",
+    "gap": "“Resource” makes a person into a quantity. The Laozi adds the verb 愛, to care for, which a mere resource does not receive."
+  },
+  "迷": {
+    "senses": ["to lose the way", "bewildered, deluded", "to lead astray"],
+    "shuowen": "或也。从辵米聲。",
+    "shuowenEn": "To be in doubt, astray. From 辵 (walking); 米 gives the sound.",
+    "parts": [{"c": "辶", "m": "walk, movement"}, {"c": "米", "m": "sound part; by itself: rice"}],
+    "story": "迷 is the state of a traveller who no longer knows the road. The Shuowen glosses it with 或, the old way to write 惑, doubt. In the Laozi it is what people have long been in (58), and in 27 what the clever person falls into who neither prizes a teacher nor cares for the material: 雖智大迷, “however clever, greatly lost”. Buddhists later made it the standing opposite of 悟, to awaken.",
+    "gap": "“Deluded” is a state of mind. 迷 keeps its feet: it is being on the wrong path."
+  }
+}

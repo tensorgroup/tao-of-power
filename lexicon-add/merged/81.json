@@ -1,0 +1,120 @@
+{
+  "辯": {
+    "senses": [
+      "to argue a case, to dispute",
+      "eloquent; skill in argument",
+      "to distinguish (used for 辨)"
+    ],
+    "shuowen": "治也。从言在辡之閒。",
+    "shuowenEn": "To settle. From 言 (speech) placed between 辡 (two litigants).",
+    "parts": [
+      { "c": "辛", "m": "an accused person; a mark of offence (twice)" },
+      { "c": "言", "m": "speech" }
+    ],
+    "story": "Speech between two parties at law. In the Warring States 辯 was the art of the professional debaters and persuaders. The Laozi answers it twice: the greatest eloquence seems to stammer (45); the good do not argue, and those who argue are not good (81). The Mawangdui silk text of passage 81 has no line on arguing.",
+    "gap": "“Argue” and “debate” can be friendly in English. 辯 keeps the courtroom: two sides, and a judgment to win."
+  },
+  "信": {
+    "senses": [
+      "trustworthy, reliable; good faith",
+      "to trust, to believe",
+      "truly, indeed",
+      "(later) a letter, a message"
+    ],
+    "shuowen": "誠也。从人从言。會意。",
+    "shuowenEn": "Sincere. From 人 (a person) and 言 (speech). A joined-meaning graph.",
+    "parts": [
+      { "c": "亻", "m": "a person" },
+      { "c": "言", "m": "speech, words" }
+    ],
+    "story": "A person beside their word. In the Laozi 信 is what holds between ruler and people and between speech and act. Where faith is lacking, faith is not returned (17, 23). In speech the good is to be trustworthy (8). Inside Dao there is 信, something that can be relied on (21). The sage trusts the trustworthy and the untrustworthy alike (49). Words to trust are not beautiful (81).",
+    "gap": "English divides “truth” (of statements) from “trust” (of persons). 信 is the second, and the Laozi has no separate word for the first."
+  },
+  "爭": {
+    "senses": [
+      "to contend, to struggle for",
+      "to dispute, to quarrel",
+      "to compete"
+    ],
+    "shuowen": "引也。从𠬪、𠂆。",
+    "shuowenEn": "To pull. From 𠬪 (two hands) and 𠂆.",
+    "parts": [
+      { "c": "爫", "m": "a hand that reaches down" },
+      { "c": "彐", "m": "a hand from the side, with a long stroke through it" }
+    ],
+    "story": "Two hands that pull at one thing. 不爭, not contending, is one of the threads of the Laozi: in passages 3, 8, 22, 66, 68, 73, and 81. It is the quality of water, of heaven’s way, and of the good soldier. It is the last word of the received text: the way of the sage is to act and not contend.",
+    "gap": "“Compete” is a virtue in modern English, and “strive” was one for the Victorians. 爭 is a tug-of-war, and the book sees no good in it."
+  },
+  "博": {
+    "senses": [
+      "broad, wide, extensive",
+      "widely learned",
+      "to gamble; to win (later)"
+    ],
+    "shuowen": "大通也。从十从尃。尃，布也。",
+    "shuowenEn": "Great and thorough reach. From 十 (ten) and 尃. 尃 is to spread out.",
+    "parts": [
+      { "c": "十", "m": "ten: the complete number" },
+      { "c": "尃", "m": "to spread out" }
+    ],
+    "story": "Breadth, above all of learning. The Confucians prized it: learn broadly, and hold it together with ritual. The Laozi sets it against knowing: those who know are not broad, and the broad do not know (81). The word is used only there in the book.",
+    "gap": "“Erudite” and “well-read” are praise. The Laozi uses 博 for knowledge that has spread out and lost its depth."
+  },
+  "積": {
+    "senses": [
+      "to pile up, to store (grain, goods)",
+      "to accumulate over time",
+      "a store, a reserve"
+    ],
+    "shuowen": "聚也。从禾責聲。",
+    "shuowenEn": "To gather together. From 禾 (grain), with 責 for the sound.",
+    "parts": [
+      { "c": "禾", "m": "the grain plant" },
+      { "c": "責", "m": "sound; by itself: to demand, a debt" }
+    ],
+    "story": "Sheaves in a stack. Stores of grain were the strength of a state, and Xunzi made accumulation the method of moral learning. The Laozi uses the word for the store of 德 that is built early and makes all things possible (59), and then, in its last passage, takes the store away: the sage does not pile up (81).",
+    "gap": "“Accumulate” is neutral, and “save” is a virtue. 積 is the heap itself, and the last passage treats it as a weight."
+  },
+  "愈": {
+    "senses": [
+      "more and more; the more",
+      "to surpass; to be better",
+      "to heal, to recover (also written 癒)"
+    ],
+    "parts": [
+      { "c": "俞", "m": "sound yú" },
+      { "c": "心", "m": "the heart" }
+    ],
+    "story": "A word of increase. It comes in two places in the Laozi, and they answer each other. The space between heaven and earth is like a bellows: the more it moves, the more comes out (5). The sage, having used all for others, has more and more (81).",
+    "gap": "English needs a paired form, “the more… the more”. 愈 stands alone and can mark an increase with no stated cause."
+  },
+  "既": {
+    "senses": [
+      "already; done, finished",
+      "since, now that",
+      "entirely; to use up"
+    ],
+    "parts": [
+      { "c": "皀", "m": "the left side in the old form: a vessel of food" },
+      { "c": "旡", "m": "the right side: a figure that turns its head away" }
+    ],
+    "story": "The mark of a completed act. The early forms are commonly explained as a person who turns away from a food vessel: the meal is over. In the Laozi: use Dao and it is never used up, 不可既 (35); having found the mother, know the child (52); having used all for others, the sage has still more (81).",
+    "gap": "English tense is in the verb. 既 is a separate word that says “this is done”, and translators often leave it out."
+  },
+  "害": {
+    "senses": [
+      "to harm, to injure",
+      "harm, damage; a calamity",
+      "to find harmful, to resent"
+    ],
+    "shuowen": "傷也。从宀从口。宀、口，言从家起也。丯聲。",
+    "shuowenEn": "To wound. From 宀 (a roof) and 口 (a mouth): roof and mouth mean that the words begin at home. 丯 gives the sound.",
+    "parts": [
+      { "c": "宀", "m": "a roof, a house" },
+      { "c": "丰", "m": "the middle strokes; the sound-part" },
+      { "c": "口", "m": "a mouth" }
+    ],
+    "story": "The Shuowen sees harm as something that starts with words spoken under one’s own roof. The Laozi pairs the word with 利, benefit. Go toward the great image and meet no harm (35). The sage stands in front, and the people do not find it harmful (66). Of two kinds of courage, one benefits and one harms (73). Heaven’s way benefits and does not harm (81).",
+    "gap": "“Harm” is general. The old graph is specific: a mouth in a house."
+  }
+}

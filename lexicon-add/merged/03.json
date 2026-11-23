@@ -1,0 +1,70 @@
+{
+  "盜": {
+    "senses": ["to steal, to take by stealth", "a thief, a robber", "to take what is not one’s own (of office, of fame)"],
+    "shuowen": "私利物也。从㳄，㳄欲皿者。",
+    "shuowenEn": "To take private gain from things. From 㳄 (drool): one who drools and wants the dish.",
+    "parts": [ { "c": "㳄", "m": "drool: water beside an open mouth" }, { "c": "皿", "m": "a food dish" } ],
+    "story": "The Shuowen reads the graph as a scene: a mouth waters over a dish that belongs to another. In classical usage 盜 is the one who takes by stealth, and 賊 is the one who harms or kills; modern usage has moved the words. The Laozi names thieves four times, and each time it looks up, at the cause. Do not prize rare goods, and the people do not become 盜 (3). Cut off skill and profit, and there are no 盜 (19). Rulers with fine clothes and full stores while the fields lie waste are called 盜夸, “robber chiefs” (53). The more that laws are displayed, the more 盜 there are (57).",
+    "gap": "“Thief” names a type of person and a crime. The graph names a condition: wanting in front of a shown dish. The Laozi’s use is closer to the graph than to the law."
+  },
+  "賢": {
+    "senses": ["able, capable", "worthy, of moral worth", "a man of worth", "to surpass, to be better than"],
+    "shuowen": "多才也。从貝臤聲。",
+    "shuowenEn": "Much ability. From 貝 (shell, money), with 臤 for the sound.",
+    "parts": [ { "c": "臣", "m": "servant, minister" }, { "c": "又", "m": "hand" }, { "c": "貝", "m": "cowrie shell; money" } ],
+    "story": "The Shuowen says that the old script wrote this word 臤, hand and servant, glossed as “firm”; the shell was added. Some editions of the Shuowen define 賢 as “much wealth”. By the Warring States, 賢 was the key word of political reform: the Mohists asked rulers to 尚賢, to raise able men of any birth, and Confucians asked for the same. The Laozi answers “do not exalt the worthy” (3). In passage 77 the sage does not wish to 見賢, to show worth. In passage 75 the word is a plain comparative: “better than”.",
+    "gap": "“Worthy” is moral and “talented” is technical. 賢 is both, and it is also a job title: the kind of man a court hires."
+  },
+  "骨": {
+    "senses": ["bone", "frame, skeleton", "inner strength (of character, of brushwork)"],
+    "shuowen": "肉之覈也。从冎有肉。",
+    "shuowenEn": "The kernel of the flesh. From 冎 (bare bone) with 肉 (flesh).",
+    "parts": [ { "c": "冎", "m": "bare bone; the dome of the skull" }, { "c": "月", "m": "short form of 肉, flesh" } ],
+    "story": "The Shuowen compares bone to the stone of a fruit: the hard part inside the soft. The oldest Chinese writing is cut on bone and shell, 甲骨文. The Laozi has the word twice. The sage strengthens the bones (3). The infant’s bones are weak and its sinews soft, and yet its grip is firm (55). In later Chinese, 骨 is also a quality: 骨氣 is backbone in a person, and in calligraphy a stroke with inner strength is said to have bone.",
+    "gap": "English “bone” is dry and dead: bare bones, bone-tired. 骨 is the living frame, the part of a person that holds and does not scheme."
+  },
+  "亂": {
+    "senses": ["disorder, tangle, chaos", "to confuse, to throw into disorder", "rebellion", "to put in order (old sense)", "the closing section of a song"],
+    "shuowen": "治也。从乙，乙，治之也；从𤔔。",
+    "shuowenEn": "To put in order. From 乙; 乙 is that which orders it. From 𤔔.",
+    "story": "The Shuowen defines disorder as “to put in order”. The graph is commonly explained as two hands that work at a tangle of silk on a frame, and the oldest texts use the word in both directions: a tangle, and the untangling. The Analects quotes King Wu on his ten ministers who 亂, that is, who govern well. In the Laozi the word is the state to avoid: the people’s heart not in 亂 (3); loyal ministers appear when the state is in dark 亂 (18); ritual is the head of 亂 (38); order a thing before it is in 亂 (64).",
+    "gap": "English “chaos” is a Greek void and “disorder” is a mere absence. 亂 is a tangle of threads: a thing with structure that has gone wrong, and that hands can work on."
+  },
+  "治": {
+    "senses": ["to regulate water", "to put in order, to govern", "well ordered", "to treat (an illness)"],
+    "shuowen": "水。出東萊曲城陽丘山，南入海。从水台聲。",
+    "shuowenEn": "A river. It rises at Mount Yangqiu in Qucheng, Donglai, and runs south to the sea. From 水 (water), with 台 for the sound.",
+    "parts": [ { "c": "氵", "m": "water" }, { "c": "台", "m": "sound part" } ],
+    "story": "The Shuowen lists only a river of this name. The sense “to govern” is commonly explained from flood work: Yu the Great ordered the waters by giving them channels, and that became the model of rule. The same verb is used for healing. In the Laozi, 治 is the aim of the sage’s rule and also a thing done lightly: act by not-forcing and nothing is left unordered (3); govern a large state as you cook a small fish (60); order a thing before it is in disorder (64).",
+    "gap": "“Govern”, “rule”, and “manage” all put a hand on a thing. 治 keeps the picture of water: order as flow that has its channel."
+  },
+  "志": {
+    "senses": ["aim, purpose", "will, ambition", "to set the heart on", "a record (later, also 誌)"],
+    "shuowen": "意也。从心之聲。",
+    "shuowenEn": "Intention. From 心 (heart), with 之 for the sound.",
+    "parts": [ { "c": "士", "m": "top part as now written; the Shuowen takes it as 之, to go" }, { "c": "心", "m": "heart" } ],
+    "story": "A heart with a direction. For Confucius 志 is where a life starts: at fifteen he set his 志 on learning. The Warring States praised the man of 志. The Laozi is cool toward it. The sage weakens the 志 (3). To act with force is to have 志 (33). The one who wants to rule the world by killing cannot get his 志 in the world (31). Wang Bi’s reason: the will breeds affairs, and affairs breed disorder.",
+    "gap": "“Will” in the West is a faculty and a virtue: willpower, free will. 志 is simpler: where the heart is headed. To weaken it is to loosen an aim. It is not to break a person."
+  },
+  "腹": {
+    "senses": ["belly", "the inside, the middle part", "to hold close (rare)"],
+    "shuowen": "厚也。从肉复聲。",
+    "shuowenEn": "The thick part. From 肉 (flesh), with 复 for the sound.",
+    "parts": [ { "c": "月", "m": "short form of 肉, flesh" }, { "c": "复", "m": "sound part; to return" } ],
+    "story": "The belly stands in the Laozi for need that has a limit. The sage fills the belly (3) and acts “for the belly, not for the eye” (12). Wang Bi explains: the belly feeds a person with things, and the eye makes a person the servant of things. Later breath practice set the body’s center in the lower belly, and read these lines as a direction for attention. Both uses start from a plain fact: a belly gets full, and an eye does not.",
+    "gap": "Modern versions say “center” or “core”. Those are abstractions. 腹 is the soft front of the body, where food goes."
+  },
+  "心": {
+    "senses": ["the heart (organ)", "the seat of thought and feeling; mind", "intention, attention", "the center of a thing"],
+    "story": "A picture of the heart. Early Chinese thought gave thinking, feeling, and wanting to this one organ: Mencius says that its office is to think. So there is no “head against heart” in these texts. In the Laozi the 心 is a thing to quiet and to empty: empty the heart (3); the heart is good when it is deep like a pool (8); the hunt makes the heart go wild (12); the sage has no fixed 心 and takes the people’s 心 as the sage’s own (49).",
+    "gap": "“Mind” cuts off feeling and the body. “Heart” cuts off thought. Translators write “heart-mind”, which is exact and is not English."
+  },
+  "貨": {
+    "senses": ["goods, wares", "wealth, money", "to trade"],
+    "shuowen": "財也。从貝化聲。",
+    "shuowenEn": "Wealth. From 貝 (shell, money), with 化 for the sound.",
+    "parts": [ { "c": "化", "m": "sound part; to change" }, { "c": "貝", "m": "cowrie shell; money" } ],
+    "story": "Things that move from hand to hand. The shell at the bottom was early money. The Laozi uses the word mostly in one phrase, 難得之貨, “goods hard to get”: do not prize them and there are no thieves (3); they hinder a person’s walk (12); the sage does not prize them (64). Passage 44 asks the question outright: your person or your 貨, which counts for more?",
+    "gap": "“Goods” in English sounds good. 貨 is neutral: stuff that is traded, and that draws the eye for that reason."
+  }
+}

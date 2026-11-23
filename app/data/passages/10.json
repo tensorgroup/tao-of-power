@@ -1,0 +1,300 @@
+{
+  "n": 10,
+  "title": "Six Questions",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "載營魄抱一，能無離乎？",
+      "gloss": {
+        "0": "zài: to carry, to ride on; perhaps only an opening particle (the Mawangdui silk texts are reported to write 戴, to wear on the head)",
+        "1": "a camp; here read with 魄 as one term, or as a word for the cloud-soul",
+        "2": "pò: the bodily soul, the soul of the flesh and senses",
+        "3": "to hold in the arms, to embrace",
+        "4": "one; the One",
+        "6": "can? to be able (first: the name of a bear)",
+        "8": "to part, to separate",
+        "9": "a question particle"
+      }
+    },
+    {
+      "text": "專氣致柔，能嬰兒乎？",
+      "gloss": {
+        "0": "zhuān: to make single, to concentrate (the Mawangdui silk texts are reported to write 摶, tuán, to roll into one)",
+        "1": "breath; vapor; the fine stuff of life",
+        "2": "to bring to the utmost",
+        "3": "soft, pliant, like green wood",
+        "6": "an infant (first: a necklace)",
+        "7": "a small child"
+      }
+    },
+    {
+      "text": "滌除玄覽，能無疵乎？",
+      "gloss": {
+        "0": "to wash",
+        "1": "to clear away",
+        "2": "dark",
+        "3": "to look, to view; here commonly read as 鑒, a mirror (the Mawangdui silk texts are reported to write 監 or 藍, which editors read as 鑒)",
+        "7": "a flaw, a blemish; an illness"
+      }
+    },
+    {
+      "text": "愛國治民，能無知乎？",
+      "gloss": {
+        "0": "to care for, to cherish; to be sparing with",
+        "1": "a state: a walled capital and its lands",
+        "2": "to put in order, to govern",
+        "7": "knowing; cleverness (= 智)"
+      }
+    },
+    {
+      "text": "天門開闔，能為雌乎？",
+      "gloss": {
+        "1": "gate",
+        "2": "to open (the Mawangdui silk texts are reported to read 啓)",
+        "3": "hé: a door leaf; to shut",
+        "6": "wéi: to act as, to be",
+        "7": "cí: a hen bird; the female"
+      }
+    },
+    {
+      "text": "明白四達，能無為乎？",
+      "gloss": {
+        "0": "bright, clear-sighted",
+        "1": "white; plain, clear",
+        "3": "to reach through, to get everywhere",
+        "7": "wéi: doing, forcing (無為: not-forcing)"
+      }
+    },
+    {
+      "text": "生之，",
+      "gloss": {}
+    },
+    {
+      "text": "畜之。",
+      "gloss": {
+        "0": "xù: to rear, to feed and keep (as livestock)"
+      }
+    },
+    {
+      "text": "生而不有，為而不恃，長而不宰，是謂玄德。",
+      "gloss": {
+        "10": "zhǎng: to make grow; to be the elder or head of",
+        "13": "to carve up; to rule as master; a steward",
+        "17": "dark",
+        "18": "de: inner power, virtue"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Carrying|zai]] the [[bodily soul|yingpo]], [[holding the One|baoyi]] in the arms:",
+    "[[can|six]] there be no parting?",
+    "[[Gathering the breath|zhuanqi]] to the utmost [[softness|rou]]:",
+    "can one be [[as an infant|yinger]]?",
+    "Washing clean the [[dark mirror|xuanlan]]:",
+    "can it be without a flaw?",
+    "[[Caring for the state|aiguo]], ordering the people:",
+    "can it be [[without cleverness|wangbi]]?",
+    "[[Heaven’s gate|tianmen]] opens and shuts:",
+    "can one take [[the hen’s part|ci]]?",
+    "Bright and clear, reaching the four quarters:",
+    "can it be without forcing?",
+    "",
+    "[[Giving them life, rearing them.|sheng-xu]]",
+    "Giving life, not owning;",
+    "acting, not leaning on it;",
+    "[[raising, not ruling|zai-steward]]:",
+    "this is called [[the dark power|xuande]]."
+  ],
+  "notes": {
+    "six": {
+      "kind": "wordplay",
+      "title": "Six times 能 … 乎",
+      "body": "The first part is six questions on one frame: four characters that name a practice, then 能 … 乎, “can … ?”. The Chinese has no “you”. It does not say who is asked, and it does not say that the answer is yes. [[Legge|legge]] made the first three into statements about a “he”; many modern versions write “Can you…?”. Both are additions. We mostly write “can there be” and “can it be”, and twice English forces “one”. This is stiff, and it keeps the question open to anyone, the speaker too. The six run in an order: the soul, the breath, the mirror of the mind, then the state, the gate, and knowledge of the four quarters. The first three face inward and the last three outward. The word 能 has a surprise in it. The Shuowen says that it was first the name of an animal like a bear. See the second plate.",
+      "src": [
+        "Shuowen Jiezi, 能部: 能，熊屬。"
+      ]
+    },
+    "zai": {
+      "kind": "gap",
+      "title": "載: a hard first word",
+      "body": "The first character has troubled readers for two thousand years. 載 is “to load, to carry, to ride in a carriage”. [[Wang Bi|wangbi]] glosses it 猶處也, “like ‘to dwell in’”. The Mawangdui silk texts are reported to write 戴, “to wear on the head”. A poem in the Songs of Chu, the “Far Roaming”, has nearly the same words in a journey to the sky: 載營魄而登霞兮, “carrying the bodily soul, I climb the rose clouds”. So the phrase may come from the language of spirit-travel in the south. Others take 載 as an opening particle with no meaning. An old proposal even moves it to the end of passage 9 as an exclamation. We write “carrying”. The image that results is good: a person is something that carries a soul, as a cart carries a load, and the load can fall off.",
+      "src": [
+        "Chuci, “Yuan you”",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "yingpo": {
+      "kind": "history",
+      "title": "魄 and 魂: two souls",
+      "body": "Early China gave a person two souls. The Shuowen defines them as a pair: 魄，陰神也, “the 魄 is the yin spirit”; 魂，陽气也, “the 魂 is the yang breath”. A speech in the Zuozhuan, given to the statesman Zichan in 535 BCE, says that the 魄 comes first, with the first shaping of a human being, and the 魂 after it. The 魄 belongs to the body, the senses, and the bones. The 魂 is light, and it wanders in dreams. At death they part: the 魂 rises, and the 魄 goes into the ground with the corpse. Families climbed to the roof with the dead person’s robe and called the 魂 to come back. 營魄 is read by the Heshang Gong commentary as these two souls together. So the first question is exact: can the two be held as one, and not part? Parting is the definition of death. English “soul” is single and immortal, and it cannot carry this.",
+      "src": [
+        "Shuowen Jiezi, 鬼部: 魄，陰神也。从鬼白聲。",
+        "Shuowen Jiezi, 鬼部: 魂，陽气也。从鬼云聲。",
+        "Zuozhuan, Duke Zhao year 7"
+      ]
+    },
+    "baoyi": {
+      "kind": "gap",
+      "title": "抱一: to hold the One in the arms",
+      "body": "抱 is what the arms do: to hug, to hold a child against the chest. 一 is “one”. English versions write “embrace Oneness” or “cling to unity”, and the phrase turns into an idea. The Chinese is a posture. Something is held close to the body with both arms, and it is single. What is the One? The book leaves it open. Passage 42 says that Dao gives birth to One. Passage 39 lists what has “got the One”: heaven is clear by it, earth is at rest by it, the valley is full by it. Passage 22 says that the sage holds the One and becomes the pattern for the world. Here, in a line about two souls, it is also plainly “one thing, not two”. The image comes back in the next question, where the one who holds becomes the infant who is held."
+    },
+    "zhuanqi": {
+      "kind": "history",
+      "title": "專氣: the breath gathered",
+      "body": "This line is the clearest sign that the passage is about a trained practice. A text of the same period, the “Inward Training” (Neiye) in the Guanzi, has the phrase 摶氣如神，萬物備存, “gather the breath like a spirit, and the ten thousand things are all there”. The Mawangdui silk texts are reported to write our line with that same verb: 摶氣至柔. 摶 is to roll loose stuff into a ball with the hands. The received 專 means “single, undivided”, and the Shuowen notes that it was also the name of the whorl of a spindle, the weight that twists loose fibre into one thread. Both verbs say the same thing: scattered breath is made one. So there were teachers in the fourth century BCE who taught people to sit, to make [[the breath|qi]] whole, and to become [[soft|rou]]. The Laozi asks about that work. It does not explain it.",
+      "src": [
+        "Guanzi, “Neiye”",
+        "Shuowen Jiezi, 寸部: 專，六寸簿也。从寸叀聲。一曰專，紡專。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "qi": {
+      "kind": "gap",
+      "title": "氣: breath, not “energy”",
+      "body": "氣 is first what you can see on a cold morning: breath, steam, mist. The simple graph 气 is commonly explained as a picture of thin layers of vapor. The fuller graph has 米, rice, under it; the Shuowen says that this form was first a word for grain given to guests, with 气 as its sound. From breath the word grew: weather, the mood of a person, the fine stuff of which all things are made, thick in a stone and thin in a spirit. Mencius spoke of a 氣 like a flood that fills the space between heaven and earth. Modern English writes “energy”, a word from physics. 氣 is material; it can be gathered, spoiled, or lost, and you can feel it move. In this line the plain sense is enough. It is the breath in the nose and belly.",
+      "src": [
+        "Shuowen Jiezi, 米部: 氣，饋客芻米也。从米气聲。",
+        "Mencius 2A2"
+      ]
+    },
+    "rou": {
+      "kind": "etymology",
+      "title": "柔: wood that bends",
+      "body": "柔 has 木, a tree, at the bottom, and the Shuowen defines it by wood: 木曲直也, “wood that can be bent and made straight”. It is the quality of a green branch. A dry stick snaps. So “soft” here is not “weak” and not “mushy”. It is “alive and able to bend”. Passage 76 says so plainly: people at birth are 柔 and weak, and at death hard and stiff; plants alive are 柔 and tender, and dead are dry. “So the hard and stiff are companions of death, and the 柔 and weak are companions of life.” 致柔 is “to bring softness to its furthest point”. That is a strange aim in an age of iron, when every state wanted hardness. It is also a strange aim for a modern person, who is told to be strong. What in you is still green wood?",
+      "src": [
+        "Shuowen Jiezi, 木部: 柔，木曲直也。从木矛聲。",
+        "Laozi 76"
+      ]
+    },
+    "yinger": {
+      "kind": "etymology",
+      "title": "嬰兒: a necklace and an open skull",
+      "body": "The two characters for “infant” are both pictures of tenderness. The Shuowen defines 嬰 as 頸飾也, “an ornament for the neck”: a woman, 女, with two shells, 賏, above her, and it says the shells are a string. The usual explanation of the later sense is that a baby is what a mother wears at her neck and breast. 兒 is 孺子, “a small child”, and the Shuowen reads the top of the graph as the head 象小兒頭囟未合, “with the fontanelle not yet closed”: the soft gap in a newborn’s skull. The infant is the book’s image of full power. It has made no distinctions yet (20). Its bones are weak, and its grip is firm; it cries all day and is not hoarse (55). The grammar here is bold: 能嬰兒乎, “can (one) infant?”. The noun is used as a verb. See the first plate.",
+      "src": [
+        "Shuowen Jiezi, 女部: 嬰，頸飾也。从女、賏。賏，其連也。",
+        "Shuowen Jiezi, 儿部: 兒，孺子也。从儿，象小兒頭囟未合。",
+        "Laozi 20, 28, 55"
+      ]
+    },
+    "xuanlan": {
+      "kind": "variant",
+      "title": "玄覽 or 玄鑒: the dark mirror",
+      "body": "The pinned text has 玄覽, “dark looking”. The Mawangdui silk texts are reported to write 玄監 or 玄藍, which editors read as 玄鑒, “dark mirror”, and most scholars now read the line so. The two graphs are kin: both are built on 監, which the Shuowen defines as 臨下也, “to look down from above”, and which is commonly explained as a person who bends over a basin of water. The first mirror was that basin. The Shuowen still defines 鑑 as 大盆也, “a large basin”. Later mirrors were discs of polished bronze, and they needed constant cleaning. So: wash the dark mirror, and can it be without a spot? The mirror is the heart. The Zhuangzi says that the perfect person uses the heart like a mirror. A thousand years later the same image was at the centre of a famous Chan dispute: one monk wrote that the mind is a mirror to be wiped all the time, and Huineng answered that there is no mirror and nowhere for dust to land.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Shuowen Jiezi, 臥部: 監，臨下也。",
+        "Shuowen Jiezi, 金部: 鑑，大盆也。",
+        "Zhuangzi 7; Platform Sutra"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: what cleverness is",
+      "body": "The fourth question asks if the state can be cared for 無知, “without knowing”. Wang Bi shows which knowing is meant: 任術以求成，運數以求匿者，智也。 “To rely on technique in order to get results, to work calculations in order to find what is hidden: that is cleverness.” He names the two words that the Legalist advisers used for their craft, 術, technique, and 數, calculation. Then: 治國無以智，猶棄智也, “to order a state and not use cleverness is like the ‘discard cleverness’ of passage 19”. His wording, 無以智, agrees with Mawangdui Silk B, which is reported to read 能毋以知乎, “can it be without the use of cleverness?” (Silk A is damaged here). The silk text is reported to have that same question a second time, in the sixth place, where the pinned text has 無為. Other old editions exchange the two endings. The three versions agree on the pair: a ruler who can see everything, and who does not scheme and does not force.",
+      "src": [
+        "Wang Bi commentary on Laozi 10",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "aiguo": {
+      "kind": "geopolitics",
+      "title": "愛國: not yet “patriotism”",
+      "body": "In modern Chinese 愛國 is “to love one’s country”, patriotism, and a reader today cannot help hearing it. In this line it is a ruler’s task. 愛 is “to cherish, to be sparing with, to take care of”. 國 is a state of the time. The graph shows the idea: an outer wall, 囗, round 或, which is commonly explained as a weapon, 戈, guarding an enclosed place. A 國 was first the walled capital, then the lands it held. The Shuowen glosses it with the other word for a state: 邦也. That other word has a history. 邦 was the personal name of the first Han emperor, Liu Bang, and Han scribes replaced it with 國 in book after book. Mawangdui Silk B is reported to give this line in another order, with the people first: 愛民, “care for the people”, and then the state; Silk A is damaged here. Legge’s text had that order also.",
+      "src": [
+        "Shuowen Jiezi, 囗部: 國，邦也。从囗从或。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "tianmen": {
+      "kind": "gap",
+      "title": "天門: which gate of heaven?",
+      "body": "天門開闔: “heaven’s gate opens and shuts”. 闔 is a door leaf, and also “to shut”. Three readings are old. For [[Wang Bi|wangbi]] it is the gate that all the world passes through, and its opening and shutting are 治亂之際, “the turns between order and disorder”: the great changes of the times. For the Heshang Gong commentary, in the body, it is the nostrils, which open and shut with each breath. For the Zhuangzi, heaven’s gate is the place where things come out of nothing and go back. The line fits each. It also completes a set: the gate of all wonders (1), the gate of the dark female (6), and now this one, which moves. One detail of the text is political. The Mawangdui silk texts are reported to read 啓 for “open”. 啓 was the name of Emperor Jing of Han, and later copies changed it to 開.",
+      "src": [
+        "Wang Bi commentary on Laozi 10",
+        "Heshang Gong commentary on Laozi 10",
+        "Zhuangzi 23, “Gengsang Chu”",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "ci": {
+      "kind": "etymology",
+      "title": "雌: the hen",
+      "body": "雌 has a bird, 隹, on its right, and the Shuowen defines it as 鳥母也, “the mother bird”. Chinese has separate words for the sexes of birds, 雌 and 雄, and of beasts, 牝 and 牡; passage 6 used the beast word. The cock crows and struts, and the hen sits. [[Wang Bi|wangbi]] explains with a term from music: 雌應而不倡, “the hen answers and does not lead the song”, and 因而不為, “follows along and does not force”. So when the gate swings, in a crisis of the state or in a single breath, can one take the part that responds? Passage 28 says: know the cock, keep to the hen. Legge wrote “as a female bird”, which is exact. Some old copies read 無雌, “without the hen”, and that reverses the sense. Most scholars treat it as a slip, and the silk texts are reported to have 為雌.",
+      "src": [
+        "Shuowen Jiezi, 隹部: 雌，鳥母也。从隹此聲。",
+        "Wang Bi commentary on Laozi 10",
+        "Laozi 28",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "sheng-xu": {
+      "kind": "variant",
+      "title": "Lines that live in two places",
+      "body": "The last five lines come again in passage 51, and there they have a subject: Dao gives them life, and De rears them. Many scholars think that passage 51 is their home and that they were copied here; without them the passage ends on its sixth question. The Mawangdui silk texts are reported to have them in both places, and in this place to lack 為而不恃, “acting, not leaning on it”, which stands also in passage 2. 畜 is a farm word again: to feed and keep animals. The Shuowen quotes a saying about the graph: 玄田爲畜, “‘dark’ and ‘field’ make 畜”, and the top of the character is in fact 玄, the word that this passage uses twice. With no subject here, the lines can describe Dao, or the ruler of the fourth question, or a parent. Read after the six questions, they sound like an answer.",
+      "src": [
+        "Laozi 51",
+        "Shuowen Jiezi, 田部: 畜，田畜也。《淮南子》曰：“玄田爲畜。”",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "zai-steward": {
+      "kind": "etymology",
+      "title": "宰: the one who carves",
+      "body": "長而不宰. 長, read zhǎng, is “to make grow” and “to be the elder, the head”. 宰 is the hard word. The Shuowen defines it with a scene: 辠人在屋下執事者, “a convict who does service under a roof”, from 宀, a roof, and 辛, which it glosses as “crime”. A bound servant in a great house became the steward who ran the house. One of his duties was to cut up the meat of the sacrifice and share it out, and so 宰 means “to butcher”. A steward who shares out meat shares out power: 宰 became the title of the highest ministers, and later 宰相 is the chancellor of the empire. So 不宰 is “does not carve it up, does not dispose of it as master”. English “not ruling” is pale. See the third plate.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 宰，辠人在屋下執事者。从宀从辛。辛，辠也。"
+      ]
+    },
+    "xuande": {
+      "kind": "gap",
+      "title": "玄德: power in the dark",
+      "body": "德, de, is often translated “virtue”. That is right only in the old sense, as when one speaks of the virtue of a herb: the power by which a thing does what it does. In early China it was above all the quality of a good king, which drew people to him with no force. 玄 is “dark”. So 玄德 is a power that works and is not seen: no owner shows, and no credit is taken. Wang Bi says it best: 有德而不知其主，出乎幽冥, “there is the power, and no one knows its master; it comes out of the dark”. “Mysterious virtue” gives the wrong tone twice. The phrase returns in passages 51 and 65. It had an odd fame later: Liu Bei, the hero-king of the Three Kingdoms, had Xuande as his public name.",
+      "src": [
+        "Wang Bi commentary on Laozi 10",
+        "Laozi 51, 65"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge answers the questions",
+      "body": "Legge makes the first three questions into promises: “When the intelligent and animal souls are held together in one embrace, they can be kept from separating.” The 乎, the question mark, is gone, and the reader is told that the method works. His terms for the two souls are from European psychology, a rational part and an animal part; the Chinese [[魂 and 魄|yingpo]] are not ranked so. For the mirror he had the reading 覽 and wrote “the most mysterious sights (of his imagination)”, which makes the thing to be cleaned into bad visions. In the last three he keeps the questions, with a “he”. And at the end he adds a subject in brackets, “(The Tao) produces (all things)”, from passage 51. Each choice is defensible. Together they turn six open questions into a doctrine.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Sit with the first three",
+      "body": "Sit down for ten minutes with the first three questions, in order. First: feel the body as one weight on the seat, and let attention stay inside it. When it leaves, that is 離, parting. Come back, and do not scold. Second: let the breath become even and fine, and with each out-breath let one part soften: the jaw, the shoulders, the belly. Ask how an infant would lie here. Third: look at what passes through the mind as marks on a mirror. You do not need to scrub. See that the mirror itself is dark and clear behind them. Do not answer the questions. They are in the text as questions, and the practice is to keep asking."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has two parts. The first is [[six questions|six]], each a four-character practice followed by “can…?”. [[Carry|zai]] the [[bodily soul|yingpo]] and hold the One: can there be no parting? [[Gather the breath|zhuanqi]] to full softness: can there be an infant? Wash the [[dark mirror|xuanlan]]: can it be spotless? [[Care for the state|aiguo]]: can it be done with no cleverness? [[Heaven’s gate|tianmen]] swings: can it be met as [[the hen|ci]] meets things? See to the four quarters: can it be with no forcing? The second part is five lines that [[also stand in passage 51|sheng-xu]]: give life and rear, and do not own, do not lean, do not [[carve up|zai-steward]]. This is named [[the dark power|xuande]]. The order runs from the soul outward to the world.",
+    "inner": "These are the oldest instructions for inner practice in the Chinese record, and they are given as questions. That form is the teaching. A command would produce effort, and each of these states is lost by effort. The body-soul and the wandering soul [[come together|yingpo]] when attention rests in the body. The breath becomes whole, and the person [[soft|rou]] as a newborn, when the breath is no longer managed. The [[mirror|xuanlan]] is clean when wiping stops. Then the passage turns outward with no break: the same quality that sits on the mat is asked to govern a state and to meet the opening and shutting of [[the gate|tianmen]]. It allows no private calm that ends at the door. The final lines describe what such a person is to others: a source that does not sign its work.",
+    "leading": "The fourth and sixth questions are for anyone with authority. Can you care for the people in your charge [[without cleverness|wangbi]], that is, with no technique for managing them and no hidden calculation? Can you see the whole field clearly and still not force it? Wang Bi’s definition of cleverness is a fair description of much modern management. The fifth question is about crisis. When [[the gate swings|tianmen]], in a reorganization, a death, or a sudden opening, can you [[respond and not crow|ci]]? The closing lines set the standard: bring things to life, feed them, raise them, and do not treat them as yours to [[carve|zai-steward]]. The word for this kind of leader’s power is [[dark|xuande]]. Its sign is that people cannot say who did it.",
+    "body": "Read as body instruction, the first three lines are a complete session. One: collect yourself into the body; [[hold it as one thing|baoyi]], and do not leave. Two: [[gather the breath|zhuanqi]] low and whole and let softness spread to its limit. Internal martial arts repeat this line as a rule. An infant’s body is the model: no held tension, and for that reason a grip that surprises adults and a fall that does no harm. [[柔|rou]] is green wood, which bends and is not broken. Three: clear the attention until it reflects what comes and adds nothing. Then the fifth line becomes a skill of timing. A gate opens and shuts, in a partner’s guard or in one’s own breathing, and the body [[follows it and does not lead|ci]]. The six questions are a training plan.",
+    "nature": "Each image is taken from a living thing that is not yet hardened. An infant with the skull [[still open|yinger]]. A green branch that [[bends|rou]]. A [[hen|ci]] on her eggs, who does nothing that can be seen and gives the eggs the one thing they need. Animals [[reared|sheng-xu]] in a field. The mirror, too, was at first a basin of still water. Against these stand the words that the passage refuses: to part, to be flawed, to scheme, to force, to carve. Nature in this passage is not scenery. It is the early state of each thing, before stiffness, and the questions ask if a grown person, or a state, can live from that state again. The last lines add how the earth itself behaves: it brings forth, it feeds, and it does not hold title.",
+    "practice": "Use the [[ten-minute sitting|practice]] with the first three questions. Then take one outward question into the day. For a parent or a teacher: 長而不宰, raise and [[do not rule|zai-steward]]. Find one decision that you usually make for someone in your care, and let them make it. For anyone who leads: once today, when you see clearly what should be done, [[do not force it|wangbi]]. State what you see, and wait. At night, put the passage’s own form to yourself. Ask, and do not judge: can there be softness here?"
+  },
+  "glyph": "嬰",
+  "plates": [
+    {
+      "c": "嬰",
+      "title": "Shells at a woman’s neck",
+      "lesson": "The top is two of the same thing: 貝, a cowrie shell, twice. You met 貝 in passage 3, where it stood for money in 賢, 貴, and 貨. Two shells side by side make 賏, and the Shuowen defines that as 頸飾也, “an ornament for the neck”: shells on a string. Under them is 女, a woman. The early graph of 女 is commonly explained as a figure who kneels with the hands crossed in front. The Shuowen joins the parts, 从女、賏, and says 賏，其連也: the shells are the string. So 嬰 is first a necklace on a woman, and as a verb, “to wear round the neck, to wind round”. How did it come to mean a baby? The common explanation is the place where a baby is carried: at the neck and breast, with its arms round the mother like a string of shells. Some scholars say that the word for “infant” only borrowed this graph for its sound. The cousins keep the necklace as the sound (the Shuowen says so of 纓 and 鸚), and each has a clear meaning part: 櫻, the cherry, with a tree; 纓, a cap-string or tassel, with silk; 鸚, the parrot, with a bird. In this passage the word is a verb: 能嬰兒乎, [[“can one infant?”|yinger]]. Recall the line before it: 抱一, hold the One in the arms. The holder and the held change places.",
+      "brush": "Seventeen strokes, and the first fourteen are one shape written twice. Each shell is seven: the left side, the top and right side in one turn, two short lines inside, the base line, and then two small legs, one that falls left and one dot to the right. Write the left shell, then the right. They must stay small and a little narrow, and they must not be exact copies; the right one is often a touch larger. Then the woman, in three. Stroke fifteen falls to the left, turns, and runs down to the right. Sixteen falls from the right, crosses it, and sweeps left. Watch the last stroke: a long horizontal through the crossing of the two, the widest line of the character. It is the shoulders that carry the necklace. Many strokes on top and three below: the three must be strong and open, or the character falls forward."
+    },
+    {
+      "c": "能",
+      "title": "The bear behind “can”",
+      "lesson": "This common word, “can”, is a picture of an animal. The Shuowen’s entry begins 熊屬, “of the bear kind”, and adds 足似鹿, “its feet are like a deer’s”. Look at the modern form with that in mind. The two matching shapes on the right, each like 匕, are the paws. The lower left, which looks like 月, is 肉, flesh: the body. The small part at the upper left is commonly explained as the head, with its open mouth; the Shuowen takes it as the sound. Then the Shuowen explains how a bear came to mean ability: 能獸堅中，故稱賢能, “the 能 beast is solid inside, and so worthy people are called 能”. Strength gave the name to power in general: to be able. Later the word was used so much for “can” that the animal needed a new graph. Fire dots were added below, and the result is 熊, the bear of today; the Shuowen says of it 山居，冬蟄, “it lives in the hills and sleeps the winter away”. English has a like story: “can” once meant “to know how”. Now read the six questions again. Each asks 能, and under each one there is a large, quiet animal that is solid inside. [[The passage|six]] asks about that kind of ability. Cleverness is not meant.",
+      "brush": "Ten strokes, in four small blocks. Upper left, two strokes: one that falls to the left and turns back to the right, then a dot. Lower left, the body, in four: the left side, the top and right side with a hook at the foot, and two short lines inside. Then the paws on the right, two strokes each, and the upper paw comes first. Stroke seven is a short one that falls to the left. Stroke eight comes down, bends, and runs right with a flick upward. Nine and ten repeat the pair below. Watch the two paws: they must not be the same. The upper one is kept small and tight, and the lower one opens wider and ends with a longer hook, so that the character stands on it. The left half is closed and upright. The right half has two curves, one above the other."
+    },
+    {
+      "c": "宰",
+      "title": "A convict under a roof",
+      "lesson": "Two parts, one above the other. The top is 宀, a roof: a dot for the ridge and a line that comes down on each side. It marks buildings and what is inside them: 家, a household; 室, a room; 宮, a palace; 守, to keep a post, from passage 5. Below it is 辛. Today 辛 means “bitter, harsh”. The Shuowen glosses its core as 辠, “crime”, and modern scholars commonly explain the early form as a chisel or blade for marking the faces of convicts and slaves. Its family is dark, and the Shuowen is plain about it. 辠, the old graph for crime, is 辛 with a nose, and the First Emperor replaced it with 罪 because it looked too much like his title 皇. 童, now “child”, was once a male slave, and 妾 a female one; in both, the top is a short form of this blade. So 宰 is a marked person who serves under a roof: 辠人在屋下執事者. Such servants ran great houses. One of them cut and shared the sacrificial meat, and the word came to mean “to butcher”; another kept the accounts, and the word came to mean “steward”, then “minister”. Confucius’s student Zai Wo carried it as a family name. In 長而不宰 all the layers sound together: to be head of a house and not to [[carve it up|zai-steward]] as its master.",
+      "brush": "Ten strokes. The roof takes three: the dot at the top centre, a short stroke at the left end, and then a horizontal that runs right and ends in a hook. The roof must be wide, wider than most of what is below, because it has to cover. Then 辛 in seven. A dot, a horizontal, and two small strokes that lean toward each other: these four are the top of the blade and look like 立. Then stroke eight. Watch it: a long horizontal, as wide as the roof itself, and the main level line of the lower part. Under it comes a shorter horizontal, and last the vertical, which starts at the long line and comes straight down to a point. That last stroke is called a hanging needle. Three level lines of three lengths stand on one needle, and the needle must be exactly upright."
+    }
+  ]
+}

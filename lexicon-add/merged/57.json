@@ -1,0 +1,155 @@
+{
+  "盜": {
+    "senses": [
+      "to steal, to take by stealth",
+      "a thief, a robber"
+    ],
+    "shuowen": "私利物也。从㳄，㳄欲皿者。",
+    "shuowenEn": "To profit oneself in private from a thing. From 㳄 (to drool): one who drools with desire over a dish.",
+    "parts": [
+      {
+        "c": "氵",
+        "m": "water"
+      },
+      {
+        "c": "欠",
+        "m": "a person with the mouth wide open"
+      },
+      {
+        "c": "皿",
+        "m": "a dish"
+      }
+    ],
+    "story": "A mouth that waters over another person’s dish: the Shuowen explains theft as a look before it is an act. The Laozi agrees about the cause. Do not prize rare goods, and the people do not become thieves (3). Cut off cleverness and profit, and thieves are gone (19). The more laws are displayed, the more thieves there are (57). Passage 53 calls a court that feasts while the fields are bare 盜夸, “the boasting of robbers”.",
+    "gap": "English “thief” names a kind of person. The character names a condition: desire in front of a thing on show."
+  },
+  "兵": {
+    "senses": [
+      "a weapon",
+      "a soldier; troops",
+      "war, the military"
+    ],
+    "shuowen": "械也。从廾持斤，并力之皃。",
+    "shuowenEn": "An implement of war. From two hands (廾) that hold an axe (斤): the look of strength joined.",
+    "parts": [
+      {
+        "c": "斤",
+        "m": "an axe"
+      },
+      {
+        "c": "廾",
+        "m": "two hands"
+      }
+    ],
+    "story": "Two hands on an axe: a tool for wood that became a weapon, then the man who carries it, then war itself. Sunzi’s book is the 兵法, “the method of 兵”. The Laozi says that arms are tools of ill omen and not the tools of a noble person (31), that the best fighter is not warlike (68), and that an army which is too strong does not win (76). Passage 57 gives arms their own method, 奇, and keeps it away from the state.",
+    "gap": "English must choose “weapons”, “soldiers”, or “war”. 兵 is all three at once, so a line about tools is also a line about armies."
+  },
+  "法": {
+    "senses": [
+      "law, penal code",
+      "a model, a standard, a method",
+      "to take as one’s model",
+      "(later) the Buddhist dharma"
+    ],
+    "parts": [
+      {
+        "c": "氵",
+        "m": "water: level"
+      },
+      {
+        "c": "去",
+        "m": "to go away, to remove"
+      }
+    ],
+    "story": "The old full form is 灋: water, the one-horned beast 廌 that butts the dishonest party in a lawsuit, and 去, to drive away. The Shuowen explains each part; the beast was later dropped. 法 is the word of the Legalists, 法家, whose published codes built the Qin state. The Laozi uses the word in a different way: the human takes earth as model, earth takes heaven, heaven takes the Dao, and the Dao takes what is so of itself (25). In passage 57 displayed 法 and decrees breed thieves.",
+    "gap": "“Law” in the West carries rights and a lawgiver. 法 is first a pattern to copy, and in the state a list of punishments."
+  },
+  "正": {
+    "senses": [
+      "straight, upright",
+      "correct, proper; to correct",
+      "the regular (against 奇, the irregular)",
+      "a standard, a rule"
+    ],
+    "shuowen": "是也。从止，一以止。",
+    "shuowenEn": "Right. From 止 (to stop; a foot), with 一 as that at which it stops.",
+    "parts": [
+      {
+        "c": "一",
+        "m": "a line, a goal"
+      },
+      {
+        "c": "止",
+        "m": "a foot; to stop"
+      }
+    ],
+    "story": "A foot that stops at a line. Many modern scholars see a foot that marches on a walled town, the first form of 征, “to go on campaign”. 正 was the word for right rule: 政, government, is defined as 正. The Laozi doubts it. By 正 govern a state, and by 奇 use arms (57); then 正 turns back into 奇 (58). Yet clear stillness is the 正 of all under heaven (45), and the people come 正 of themselves.",
+    "gap": "“Correct” and “righteous” are moral. 正 is first a direction: straight on."
+  },
+  "奇": {
+    "senses": [
+      "qí: strange, rare, wonderful",
+      "qí: the irregular, surprise (in war)",
+      "jī: odd, not paired; a remainder"
+    ],
+    "shuowen": "異也。一曰不耦。从大从可。",
+    "shuowenEn": "Different. One view: not paired. From 大 (great) and 可 (can).",
+    "story": "奇 is what stands out of the row: the odd one, the surprise. Sunzi makes it half of the art of war, the irregular force that wins after the regular force engages. The Laozi gives it to war and to nothing else (57), and sees it grow where it is not wanted: strange things arise, the straight turns into the strange (58). Passage 74 speaks of those who do 奇, and means crime.",
+    "gap": "English “strange” is mild and “wonderful” is praise. 奇 is neutral and a little dangerous."
+  },
+  "自": {
+    "senses": [
+      "self, oneself",
+      "of itself, by itself (before a verb)",
+      "from"
+    ],
+    "shuowen": "鼻也。象鼻形。",
+    "shuowenEn": "The nose. It shows the shape of a nose.",
+    "story": "A picture of a nose: one points at the nose to say “me”. Before a verb, 自 says that the act starts from the doer. The Laozi builds its central idea on this grammar: 自然, “so of itself”; the ten thousand things 自化, change of themselves (37); the people 自正, 自富, 自樸 (57). It also uses 自 for the trap of self-regard: one who shows the self is not bright, one who praises the self has no merit (22, 24).",
+    "gap": "English needs “spontaneously”, “naturally”, “by themselves”. None is as plain as a nose."
+  },
+  "樸": {
+    "senses": [
+      "wood not yet cut or carved",
+      "plain, simple, whole",
+      "honest, without ornament"
+    ],
+    "shuowen": "木素也。从木菐聲。",
+    "shuowenEn": "Wood in its plain state. From 木 (tree), with 菐 for the sound.",
+    "parts": [
+      {
+        "c": "木",
+        "m": "tree, wood"
+      },
+      {
+        "c": "菐",
+        "m": "gives the sound"
+      }
+    ],
+    "story": "Timber that is felled and not yet made into anything. It is a main image of the Laozi: hold the 樸 in your arms (19); return to the 樸 (28); the Dao is nameless 樸 (32, 37). When it is split it becomes tools, and tools have one use each. In passage 57 it is the last word: when the ruler is without desire, the people are 樸 of themselves.",
+    "gap": "“Simplicity” is an abstract virtue. 樸 is a piece of wood with all its uses still in it."
+  },
+  "事": {
+    "senses": [
+      "to serve; service, a duty",
+      "an affair, a task, business",
+      "an undertaking of state: a campaign, a project",
+      "trouble (as in 有事, “something is up”)"
+    ],
+    "shuowen": "職也。从史，之省聲。",
+    "shuowenEn": "A duty, an office. From 史 (scribe, official), with a short form of 之 for the sound.",
+    "story": "事 is work done in service. A state’s great 事 were sacrifice and war, and its lesser ones were projects paid for with forced labour. The Laozi asks for 無事, to have none on one’s hands: by 無事 the realm is taken (48, 57), and the sage’s rule is to 事無事, “serve no-business” (63). It is also the verb in 事天, to serve heaven (59).",
+    "gap": "“Affairs” is pale. 事 has duty in it, and in a state it has soldiers and labour gangs in it."
+  },
+  "民": {
+    "senses": [
+      "the people, the governed; commoners",
+      "the mass of subjects as a ruler sees them",
+      "(modern) citizen, civil, folk"
+    ],
+    "shuowen": "眾萌也。从古文之象。",
+    "shuowenEn": "The many sprouts. The graph follows the shape of the ancient script.",
+    "story": "The Shuowen calls the people “the many sprouts”: small green things that come up in numbers. A widely repeated modern view, which is disputed, sees in the bronze form an eye pierced by a spike: a blinded captive. In the Laozi 民 is the test of every policy. The people grow poor under bans (57); they are hard to rule because those above act (75); when the ruler does not force, they change of themselves (57). The best ruler is one whose 民 barely know that there is a ruler (17).",
+    "gap": "“The people” in English can be sovereign, as in “we the people”. 民 are those below, who are ruled; the word has no politics of rights in it."
+  }
+}

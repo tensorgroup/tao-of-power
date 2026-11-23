@@ -1,0 +1,302 @@
+{
+  "n": 41,
+  "title": "If No One Laughed",
+  "theme": "seeing",
+  "zh": [
+    {
+      "text": "上士聞道，勤而行之；",
+      "gloss": {
+        "1": "shì: a man of the educated officer class; a student of a teaching",
+        "5": "qín: with effort, with toil (the silk texts are reported to write 堇)"
+      }
+    },
+    {
+      "text": "中士聞道，若存若亡；下士聞道，大笑之。不笑不足以為道。故建言有之﹕",
+      "gloss": {
+        "6": "cún: to be there, to keep",
+        "8": "wáng: to be gone, to lose; some read 忘, to forget",
+        "16": "xiào: to laugh, to laugh at",
+        "28": "jiàn: set up, established"
+      }
+    },
+    {
+      "text": "明道若昧，",
+      "gloss": {
+        "3": "mèi: dim, the half-light before dawn"
+      }
+    },
+    {
+      "text": "進道若退，",
+      "gloss": {
+        "3": "tuì: to step back, to retreat"
+      }
+    },
+    {
+      "text": "夷道若纇，",
+      "gloss": {
+        "0": "yí: level, smooth (of a road)",
+        "3": "lèi: a knot in silk thread; rough, uneven"
+      }
+    },
+    {
+      "text": "上德若谷，",
+      "gloss": {}
+    },
+    {
+      "text": "大白若辱，",
+      "gloss": {
+        "3": "rǔ: soiled, stained dark; disgraced"
+      }
+    },
+    {
+      "text": "廣德若不足，",
+      "gloss": {}
+    },
+    {
+      "text": "建德若偷，",
+      "gloss": {
+        "0": "jiàn: firm, well set up (some read 健, vigorous)",
+        "3": "tōu: slack, careless; furtive, as a thief"
+      }
+    },
+    {
+      "text": "質真若渝，",
+      "gloss": {
+        "0": "zhì: plain stuff, raw material",
+        "3": "yú: to change color, to fade or stain"
+      }
+    },
+    {
+      "text": "大方無隅，",
+      "gloss": {
+        "3": "yú: corner"
+      }
+    },
+    {
+      "text": "大器晚成，",
+      "gloss": {
+        "2": "wǎn: late, at evening (silk text, as reported: 免, to be spared)"
+      }
+    },
+    {
+      "text": "大音希聲，",
+      "gloss": {
+        "2": "xī: sparse, rare, hardly there"
+      }
+    },
+    {
+      "text": "大象無形，",
+      "gloss": {}
+    },
+    {
+      "text": "道隱無名。夫唯道，善貸且成。",
+      "gloss": {
+        "1": "yǐn: hidden, out of sight",
+        "10": "dài: to lend, to give out"
+      }
+    }
+  ],
+  "rendering": [
+    "The highest [[scholar|shi]] hears the Dao",
+    "and [[works hard|qin]] to walk it.",
+    "The middle scholar hears the Dao:",
+    "[[now it is there, now it is gone|cunwang]].",
+    "The lowest scholar hears the Dao",
+    "and [[laughs out loud|xiao]] at it.",
+    "No laughter: [[not enough to be the Dao|buzu]].",
+    "",
+    "So the [[Established Sayings|jianyan]] have it:",
+    "",
+    "The bright way [[seems|seems]] [[dim|mei]].",
+    "The way forward seems to go back.",
+    "The level way seems [[knotted|lei]].",
+    "Highest de seems a valley.",
+    "Great white seems [[soiled|ru]].",
+    "Broad de seems not enough.",
+    "Firm de seems [[slack|tou]].",
+    "Plain truth seems to fade.",
+    "",
+    "The great square has [[no corners|corner]].",
+    "The great vessel is [[late complete|wancheng]].",
+    "The great note is [[thin of sound|xisheng]].",
+    "The great image is without shape.",
+    "",
+    "The Dao is [[hidden, without name|silk]].",
+    "Yet only the Dao",
+    "is good at [[lending|dai]] and at completing."
+  ],
+  "notes": {
+    "shi": {
+      "kind": "geopolitics",
+      "title": "士: the men who went from court to court",
+      "body": "The Shuowen defines 士 by a pun, 事也, “one who serves, who does tasks”. 士 was the lowest rank of the old Zhou nobility: men of good family with no land of their own, trained in arms, writing, and ritual. When the old order broke, they became a class for hire. A 士 of the fourth century BCE could be a knight, a clerk, a strategist, or a traveling teacher; states competed for the best, and the king of Qi kept hundreds of them in an academy at the Jixia gate of his capital. They are the public of all the philosophers, and the first readers of this book. 上士, 中士, 下士 are also real titles: Mencius lists “upper, middle, and lower 士” as the three lowest grades of office. The passage takes the grades of the civil service and sorts them again, by one test: what a man does when he hears the Dao. English “scholar” gives the study and loses the sword and the job search.",
+      "src": [
+        "Shuowen Jiezi, 士部: 士，事也。數始於一，終於十。从一从十。",
+        "Mencius 5B2",
+        "Shiji, “Tian Jingzhong Wan shijia” (on Jixia)"
+      ]
+    },
+    "qin": {
+      "kind": "variant",
+      "title": "勤: with toil, or only just",
+      "body": "The received text says that the highest scholar 勤而行之, “toils and walks it”. The Shuowen defines 勤 as 勞也, “to labor”. This is a surprise in a book of not-forcing: the best student is the one who works at it. The line agrees with passage 70, where the speaker says that his words are very easy to practice and no one in the world can practice them. The Mawangdui silk texts are reported to write 堇, a graph that has no strength sign, and the Guodian bamboo slips are reported to read 堇能行於其中. Many editors take 堇 as 勤 and see no difference. Others read it as 僅, “barely”: the highest scholar hears the Dao and is only just able to walk in it. That reading is humbler and may be older. Even the best can hardly do it. Which of the two is more true of your own practice?",
+      "src": [
+        "Shuowen Jiezi, 力部: 勤，勞也。",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)",
+        "Guodian Laozi B (reported reading)"
+      ]
+    },
+    "cunwang": {
+      "kind": "gap",
+      "title": "若存若亡: the middle hearer",
+      "body": "Four characters: “as if / there / as if / gone”. 存 is to be present, to keep alive; 亡 is to be gone, to lose, to perish; the Shuowen defines 亡 as 逃也, “to run away”. What is it that seems there and seems gone? The grammar permits three answers. The Dao: to this hearer it seems now real and now not. The hearing: he seems to keep it and then to lose it; 亡 was also used to write 忘, to forget. The hearer himself: half present, half absent. The same words 若存 describe the Dao in passage 6: 綿綿若存, “fine as a thread, it seems to be there”. So the middle scholar’s wavering is an accurate report: the Dao is in fact a thing that seems there and seems not. The passage does not mock him. Most readers of this book are him, on most days."
+    },
+    "xiao": {
+      "kind": "etymology",
+      "title": "笑: the missing entry",
+      "body": "The character for laughter has a hole in its history. In the Shuowen Jiezi the entry for 笑 says only 此字本闕, “this character was originally missing”: the editors of the tenth century found a gap and said so. They added what they could gather from older books, and the explanations do not agree. The modern form has ⺮, bamboo, above 夭, a figure that bends. The Tang calligrapher Li Yangbing, in a note that the editors kept, explained it thus: bamboo in the wind bends like a person who laughs. Nobody knows. The word here is 大笑, “great laughter”, and with 之 it has an object: he laughs at it. The lowest scholar is not dull. He is quick; he knows at once that this talk of weakness and of things that seem their opposites is absurd. See the plate, and see [[why the laugh is needed|buzu]].",
+      "src": [
+        "Shuowen Jiezi, 竹部: 笑，此字本闕。"
+      ]
+    },
+    "buzu": {
+      "kind": "wordplay",
+      "title": "不笑不足以為道: the laugh is the proof",
+      "body": "不笑不足以為道: “not laughed at, not enough to count as the Dao”. Two negatives make a strict condition. The laughter of the lowest scholar is not a regrettable side effect. It is a mark of the real thing, as a hallmark is the mark of silver. If a teaching pleases everyone at first hearing, it has only told them what they already think. The line is also a joke at the expense of the book’s own audience, which was made of 士, and at the expense of the reader, who must now ask which of the three he is. The Zhuangzi opens with the same structure: the cicada and the little dove laugh at the great bird that flies ninety thousand li. The small laugh at the great because they measure by themselves. But the Laozi does not despise the one who laughs. It uses him. When did you last laugh at an idea that you later needed?",
+      "src": [
+        "Zhuangzi, “Xiao yao you” (逍遙遊)"
+      ]
+    },
+    "jianyan": {
+      "kind": "history",
+      "title": "建言: a book that is lost",
+      "body": "建言有之 is “the 建言 has it”, the phrase with which a writer cites a source. [[Wang Bi|wangbi]] glosses 建 as 立, “to set up”: “established sayings”, old maxims. Other readers take 建言 as the title of a book, and if so, the book is lost and these twelve lines are all that remain of it. In both cases the Laozi here shows what it is made of. It is not one author’s essay. It is a weave of proverbs, rhymed sayings, and comments on them, collected over a long time; the Guodian slips of about 300 BCE already have this passage, in a bundle with a few others. The twelve lines that follow have a different beat from the prose before them: four characters each, but for one of five, with rhyme. [[Legge|legge]] called their authors “the sentence-makers”. The voice of the book steps back and lets an older voice speak."
+    },
+    "seems": {
+      "kind": "wordplay",
+      "title": "若 eight times, then 無",
+      "body": "The twelve sayings fall into two groups by one small word. The first eight have 若, “seems like, is as if”: bright seems dim, forward seems back. These are statements about appearance. The way is in fact bright; it looks dim to the one who looks. The last four change the word. The great square has no (無) corners; the great vessel is late (晚) in completion; the great note is sparse (希) in sound; the great image is without (無) shape. These do not say “seems”. They say that the great form of a thing really lacks the mark by which we know the thing. So the list goes from “it will look wrong to you” to “it is not what you think it is”. Rhyme crosses the divide. By the old rhyme groups the end words fall into four sets: 昧, 退, 纇; 谷, 辱, 足 (group 屋); 偷, 渝, 隅 (group 侯); and 成, 聲, 形 (group 耕), with 名 of the next line as a fourth. The silk texts are reported to write 如 for 若."
+    },
+    "mei": {
+      "kind": "etymology",
+      "title": "昧: the grey before sunrise",
+      "body": "昧 has 日, the sun, at the left. The Shuowen gives two senses. The first is in the compound 昧爽, 旦明也, “the light at daybreak”: the grey time when the sun is not yet up. The second: 一曰闇也, “some say: dark”. So the word is not black night. It is the dimness in which things can just be made out. 明, “bright”, at the head of the line, is the book’s word for true sight. 明道若昧, “the bright way seems dim”: to an eye used to lamps, real light looks like dusk. [[Wang Bi|wangbi]] glosses the line with four words from passage 58: 光而不耀, “it has light and does not dazzle”. Compare the faint light, 微明, of passage 36. The silk text is reported to write the last word with another graph, 費, which editors read in the same sense.",
+      "src": [
+        "Shuowen Jiezi, 日部: 昧，爽，旦明也。从日未聲。一曰闇也。"
+      ]
+    },
+    "lei": {
+      "kind": "etymology",
+      "title": "夷 and 纇: a level road, a knot in the silk",
+      "body": "夷 is “level, flat”: the Shuowen says 平也. Passage 53 uses it of the highway: 大道甚夷, “the great road is very level”, and people love the bypaths. 纇 is a weaver’s word. It has 糸, silk thread, at the left, and the Shuowen defines it as 絲節也, “a knot in the silk”: the lump where a thread was joined or the raw silk was uneven. Run a silk thread through your fingers and it catches there. So: the level way feels knotty. A road that follows the land is not flat like a ruled line; a mind that follows things is not smooth like a rule. [[Wang Bi|wangbi]] explains: 大夷之道，因物之性，不執平以割物, “the greatly level way goes by the nature of things; it does not hold up a level and cut things to it”. A level that is forced on the ground is the true roughness.",
+      "src": [
+        "Shuowen Jiezi, 大部: 夷，平也。",
+        "Shuowen Jiezi, 糸部: 纇，絲節也。从糸頪聲。"
+      ]
+    },
+    "ru": {
+      "kind": "etymology",
+      "title": "辱: disgrace, and a dark stain",
+      "body": "大白若辱: “great white seems 辱”. The common meaning of 辱 is “disgrace, humiliation”. The Shuowen gives it a farmer’s origin: 恥也。从寸在辰下。失耕時，於封畺上戮之也, “shame; a hand under 辰, the season sign: one who missed the time of plowing was punished at the boundary mound”. Old commentators say that in this line the word means soiled, dark with dirt, the opposite of white; a shamed person is “blackened” in Chinese as in English. Both senses work together. The whitest thing looks stained; the purest person looks disgraced. Passage 28 has the pair: know the white, keep to the black; know glory, keep to 辱, and be the valley of the world. And here the line before is “highest de seems a valley”. White silk, in fact, shows each mark; cloth that has been used and washed many times has a different whiteness. Which would you trust?",
+      "src": [
+        "Shuowen Jiezi, 辰部: 辱，恥也。从寸在辰下。失耕時，於封畺上戮之也。"
+      ]
+    },
+    "tou": {
+      "kind": "gap",
+      "title": "偷 and 渝: slack, stolen, faded",
+      "body": "Two lines with hard last words. 建德若偷: 建 is “set up, firm”, and 偷 is “to steal”, and from that “furtive”, and also “careless, to take things easy”. So firm de looks like slackness, or like something done on the sly. The Qing scholar Yu Yue read 建 as 健, “vigorous”: vigorous de seems lazy. [[Wang Bi|wangbi]] writes 偷，匹也; commentators read 匹 as “ordinary, like a commoner”, and some suspect a copying error. English must choose one; we wrote “slack”, and “thief” is lost. A person of real power does not strain and does not announce the act; from outside this looks like idleness or stealth. 質真若渝: 質 is raw stuff, 真 is “true, genuine”, and 渝 is defined by the Shuowen as 變汙也, “to change and become dirty”, as dye fades or runs. The genuine thing seems to change color. Plastic flowers keep their red. Real ones fade.",
+      "src": [
+        "Shuowen Jiezi, 水部: 渝，變汙也。从水俞聲。",
+        "Yu Yue, Zhuzi pingyi"
+      ]
+    },
+    "corner": {
+      "kind": "gap",
+      "title": "大方無隅: a square with no corners",
+      "body": "方 is a square, and by extension a region, a direction, a method, and uprightness of character: a 方 person is “square” in the good old sense, straight and exact. 隅 is a corner, the angle where two walls meet; it has the hill sign 阝 at the left. The earth itself was 方: “heaven is round, earth is square” was the common picture of the cosmos. Now make the square great enough. You stand on a square earth and can find no corner; the edges are too far away to be edges for you. A person of the greatest uprightness is like that: no sharp angle on which others cut themselves. Passage 58 says it of the sage: 方而不割, “square, and does not cut”. English “square” has lost the moral sense, so the paradox sounds like geometry only. In Chinese it is also a remark about character: the truly straight person does not have an edge.",
+      "src": [
+        "Shuowen Jiezi, 𨸏部: 隅，陬也。从𨸏禺聲。"
+      ]
+    },
+    "wancheng": {
+      "kind": "variant",
+      "title": "大器晚成: late, or never",
+      "body": "This line is a living proverb in Chinese, Japanese, and Korean: the great vessel is completed late; great talent ripens slowly. Parents say it of slow children. The Mawangdui silk text is reported not to say it. It reads 大器免成: the great vessel is spared completion, or escapes it. 晚 is 日, the sun, beside 免; the silk is reported to have the bare 免. A scribe may have written the sound part for the whole word, as scribes often did, and then nothing changes. But look at the three lines beside it: no corners, sparse sound, no shape. Each one denies the defining mark. A vessel is defined by being finished, cut and fired to a form with one use; the greatest vessel is the one that is never closed into a final form. That agrees with the uncarved wood. The Guodian slips are reported to have a third graph, 曼. The reading “late” comforts. The reading “never” does not. Which do you want to be true of yourself?",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)",
+        "Guodian Laozi B (reported reading)"
+      ]
+    },
+    "xisheng": {
+      "kind": "history",
+      "title": "大音希聲: the note with almost no sound",
+      "body": "音 is a musical tone; 聲 is sound that the ear receives. 希 is “sparse, rare”: passage 14 says 聽之不聞名曰希, “listen for it and do not hear it: its name is 希”. [[Wang Bi|wangbi]] explains why the great note cannot sound: 有聲則有分，有分則不宮而商矣, “if there is sound there is division; with division, if it is not the note gong then it is the note shang”. Any note that sounds is one note and so shuts out the rest of the scale. The Zhuangzi says the same of a famous lute player: when Zhao Wen plays, something is completed and something is lost; when he does not play, nothing is lost. The idea shaped Chinese music. The qin, the scholar’s zither, is played softly, with long fading tones, for the player alone. The poet Tao Yuanming is said to have kept a qin with no strings, and to have laid his hands on it when he was happy.",
+      "src": [
+        "Zhuangzi, “Qi wu lun” (齊物論)",
+        "Song shu, biography of Tao Qian"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "The silk text: three small differences at the end",
+      "body": "In the Mawangdui manuscripts this passage comes before passage 40, and the text has small differences that matter. Where we have 大象無形, “the great image has no shape”, the silk is reported to have 天象无形, “the images of heaven have no shape”; 天 and 大 differ by one stroke, and the received reading agrees with passage 35. Where we have 道隱無名, “the Dao is hidden and without name”, the silk is reported to have a different second graph, which editors read as a word for “great” or “full”: the Dao is vast and has no name. The received 隱, “hidden”, turned an abundance into a concealment. The Shuowen defines 隱 as 蔽也, “to be screened”, as by a hill. And the last line has [[“begin” where we have “lend”|dai]]. A hidden Dao has to be searched for. A vast one is around you already and has no name, as water has none for a fish.",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)",
+        "Shuowen Jiezi, 𨸏部: 隱，蔽也。"
+      ]
+    },
+    "dai": {
+      "kind": "variant",
+      "title": "善貸且成: the Dao lends",
+      "body": "貸 has 貝, the cowrie, money, under 代, “to take the place of”. It is the word for a loan. The Shuowen defines it as 施也, “to give out”. So the last line says that the Dao alone is good at lending and at bringing to completion. The picture is exact. A thing does not own its life or its shape. These are on loan, and the lender asks for no interest and does not name itself; in the end all is returned, the 反 of passage 40. [[Wang Bi|wangbi]] writes: 貸之非唯供其乏而已，一貸之則足以永終其德. “Its lending does not merely supply what is lacking; one loan is enough to bring the thing’s de to its lasting end.” The Mawangdui silk text is reported to read 善始且善成, “good at beginning and good at completing”. That is smoother and loses the money. Editors still disagree about which is older. What do you hold that you treat as owned and that is in fact lent?",
+      "src": [
+        "Shuowen Jiezi, 貝部: 貸，施也。从貝代聲。",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: answers from other passages",
+      "body": "Wang Bi’s notes on the twelve sayings are short, and most of them answer one line of the book with another. On the highest scholar he writes two words: 有志也, “he has resolve”. On “the way forward seems to go back” he quotes passage 7: 後其身而身先，外其身而身存, “put the self behind and the self is in front; put the self outside and the self remains”. On “highest de seems a valley”: 不德其德，無所懷也, “it does not treat its de as de; it holds nothing to its breast”. On “great white”: 知其白，守其黑，大白然後乃得, “know the white, keep to the black: only then is great white reached”. This is his method as a reader: the book explains itself. On the great image he repeats his argument about notes: 有形則有分，有分者不溫則炎，不炎則寒, “with shape there is division; a divided thing, if not warm, is hot; if not hot, cold”.",
+      "src": [
+        "Wang Bi commentary on Laozi 41"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: twelve lines of Victorian verse",
+      "body": "Legge calls the three hearers “scholars of the highest class”, “the middle class”, and “the lowest class”, which in 1891 sounded like a society and not like a civil service. For 建言 he has “the sentence-makers”. He then turns the twelve sayings into four rhymed triplets, and rhyme forces the sense. “Great white seems soiled” becomes “its greatest beauty seems to offend the eyes”. “The great note is sparse in sound” becomes “loud is its sound, but never word it said”: a loud sound is the opposite of the Chinese. “The great image has no shape” becomes “a semblance great, the shadow of a shade”, a phrase that sounds like Shakespeare and brings in a world of illusions that the text does not have. The Chinese sayings are four characters each, with one of five, and as plain as proverbs about weather.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Three hearers in one day",
+      "body": "Take one line of the passage for the day; for example, “the way forward seems to go back”. Watch for the three hearers in yourself. In the morning you may be the first: you see where it applies and you act on it. By noon you are the second: you have forgotten the line, then remember it, then doubt it. At some point you will be the third: the line will seem naive, or useless in the real world, and you will smile at it. Note the exact moment of that smile and what you were protecting. Do not correct any of the three. Only see that all of them heard the same words."
+    }
+  },
+  "lenses": {
+    "ground": "Three parts. First a scene with three [[scholars|shi]] and three responses to one teaching: [[toil|qin]], [[wavering|cunwang]], [[loud laughter|xiao]], and the remark that [[the laughter is required|buzu]]. Second, a citation: twelve old sayings from the [[“Established Sayings”|jianyan]], eleven of four characters and one of five. Eight say that a good thing [[seems|seems]] its opposite: bright seems [[dim|mei]], level seems [[knotted|lei]], white seems [[soiled|ru]]. Four say that the great form of a thing lacks its mark: a square with [[no corners|corner]], a vessel [[not finished|wancheng]], a note with [[hardly a sound|xisheng]]. Third, a summary of two lines: the Dao is [[hidden and unnamed|silk]], and it alone [[lends and completes|dai]]. The twelve sayings explain the laughter. If the real thing always looks like its opposite, then a sensible man, who judges by looks, must laugh.",
+    "inner": "The three hearers are not three people. They are three moments of one mind, and they can come within an hour. There is the moment of plain recognition, when hearing and doing are one. There is [[the wavering|cunwang]], and it is honest: the thing in question does seem there and seem not there. And there is the laugh, the mind’s quick defense of what it already knows. The twelve sayings are a preparation for how the path will feel from inside. Clarity will feel like [[dimness|mei]], since the old certainty is gone. Progress will feel like retreat, since one has less to show. The even state will feel [[lumpy|lei]]. If your practice feels like a steady rise in brightness and attainment, the passage suggests a question. The last line gives comfort that is not sweet: what you need is [[lent|dai]], not earned.",
+    "leading": "A new and true idea in an organization gets the same three receptions, and a leader should expect all three and not count votes. A few people simply start to work in the new way. Most hold it and drop it, by turns. Some laugh in the meeting. [[The laugh is information|buzu]]: an idea at which no one laughs is probably the old idea in new words. The twelve sayings then describe how good leadership looks from outside, which is: not impressive. The clear direction [[looks vague|mei]]. The solid person [[looks slack|tou]], because there is no display of effort. The capable institution has [[no sharp corners|corner]], and its best work makes [[little noise|xisheng]]. Be careful with the proverb about [[the great vessel|wancheng]]. In its older form it does not promise a late success. It says that the greatest capacity stays unfinished.",
+    "nature": "The sayings are observations before they are paradoxes. The light by which all things live is not seen as light; in full daylight no one notices the sun, and one sees by it. The level path over real ground [[winds and bumps|lei]]; only a road forced through hills is straight. A [[valley|ru]] is where the greatest fullness of water and soil collects, and it is the low place. The horizon of the sea is the edge of a shape too large to have [[corners|corner]]. The deep background sounds of the world, wind and far water, are [[hardly sounds at all|xisheng]], and they contain all the others. And each living thing has its form [[on loan|dai]]: the carbon, the water, the warmth are borrowed for a season and returned. No tree is ever a finished vessel. It grows until it falls.",
+    "practice": "Try the [[three hearers|practice]] exercise with one line. A second exercise for the ears, from [[the great note|xisheng]]: tonight, sit for three minutes and listen for the quietest sound that you can find, then for the one behind it. Do not name them. Find the level at which you cannot tell hearing from not hearing. That edge is 希. The sayings claim that it is not the absence of music. It is the largest note, the one in which no single note has yet shut out the others."
+  },
+  "glyph": "笑",
+  "plates": [
+    {
+      "c": "笑",
+      "title": "The character with a gap in the dictionary",
+      "lesson": "Look at the two layers. On top is ⺮, the crown form of 竹, bamboo: two stalks, each with a pair of hanging leaves. The Shuowen calls bamboo 冬生艸也, “a grass that lives through winter”, and says that the hanging parts are its leaf sheaths. As a top part it marks things made of bamboo: 筆 (a brush) and 簡 (a writing slip, as in the Guodian slips). Below is 夭. The Shuowen says 屈也。从大，象形: “bent; from 大, a person; a picture”. It is 大, the figure with arms out, with the head tipped to one side. 夭 by itself means “young and supple”, and also “to die young”. So the modern character is: bamboo over a person who bends. Why should that be laughter? The honest answer is in [[the note on the missing entry|xiao]]: the Shuowen’s own explanation was lost, and the editors who restored the entry reported more than one form of the graph, one of them with 犬, a dog, below the bamboo. The explanation that people remember is a picture and not a proof: bamboo that bends and shakes in the wind looks like a person bent double. Compare how the script writes the other feelings. 喜, joy, is a drum over a mouth; the Shuowen says 樂也. 哭, to wail, is two mouths over a dog, 哀聲也, “the sound of grief”. Laughter got the lightest materials: a hollow grass and a body that gives way. In this passage the lowest scholar [[laughs out loud|buzu]].",
+      "brush": "Ten strokes. The bamboo crown has six: on the left a short stroke that falls left, a short horizontal, a dot; on the right the same three again. The two halves are twins, but the right one is written a little larger and its horizontal a little longer, so that the crown is not stiff. Then the bent figure, four strokes: a flat stroke written from right to left, the tilted head; a horizontal, the arms; then a long stroke that falls to the left, and last a long stroke that falls to the right. Watch stroke seven. It is the head that tips, and it must lean, or the figure stands straight and is only 天, heaven. The last two strokes open wide like legs set apart, and the whole character should feel a little unsteady on them, as a laughing person is. In cursive script the bamboo crown becomes two quick hooks, and the character looks like a face."
+    },
+    {
+      "c": "晚",
+      "title": "The sun, and one who gets away",
+      "lesson": "The left side is 日, the sun: a circle in the oldest writing, made square by the brush, with a mark in the middle. It measures time in many characters: 早 (early), 明 (bright), 昧, the [[dawn dimness|mei]] of this passage, 時 (season, time). The right side is 免, “to escape, to be let off, to avoid”. The Shuowen explains the whole as 莫也。从日免聲: “dusk; from the sun, with 免 for the sound”. Its word for dusk, 莫, is a beautiful picture that it explains too: 从日在茻中, “the sun in the middle of the grasses”: the sun has gone down into the plants at the horizon. So 晚 is the late part of the day, and then “late” in general: a late guest, a late harvest, the last years of a life, 晚年. Now the surprise. The right side, 免, has no entry of its own in the Shuowen, like 笑. And 免 alone is what [[the silk manuscript|wancheng]] has in this line: 大器免成, the great vessel is spared completion. Take the sun away from “late” and you have “escapes”. The whole question of the famous proverb is inside this one character: was a sun added, or was a sun left out? By their modern parts, two more characters keep 免 in view: 勉, to strive, is 免 with 力, strength; 娩, to give birth, is 免 with 女.",
+      "brush": "Eleven strokes. The sun takes four: the left side; the top and right side in one stroke; the short line inside; the base. At the left of a character the sun is made narrow and is set a little high. Then 免, seven strokes: a short stroke that falls left; a horizontal that turns and falls left; then a flat box in three strokes, left side, top with right side, and a line that closes it; then a long stroke that falls left from inside the box; and last the stroke that goes down, bends, runs to the right, and ends in a hook up. Watch the last stroke. It is the leg of someone who runs: long, low, with the hook like a heel. It needs room, so the sun must stay small and high to leave the lower left open. In running script the last two strokes are often joined in one movement, a turn of the wrist."
+    }
+  ]
+}

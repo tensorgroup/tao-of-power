@@ -1,0 +1,57 @@
+{
+  "盜": {
+    "senses": ["to rob, to steal", "a robber, a thief, a bandit"],
+    "shuowen": "私利物也。从㳄，㳄欲皿者。",
+    "shuowenEn": "To take a thing for private gain. From 㳄 (saliva of desire): one who drools with desire for the dish.",
+    "parts": [ { "c": "㳄", "m": "water beside an open mouth: saliva, craving" }, { "c": "皿", "m": "dish" } ],
+    "story": "A person who drools over another’s dish. In the Laozi, 盜 marks what bad government produces: do not prize rare goods, and the people will not rob (3); cut off cleverness and profit, and robbers vanish (19); the more laws are displayed, the more robbers there are (57). In 53 the name is turned on the court itself: 盜夸, the robbers’ boast.",
+    "gap": "English “thief” works in secret and “robber” by force. 盜 covers both, and its picture is neither: it is appetite for what is in another’s bowl."
+  },
+  "蕪": {
+    "senses": ["overgrown with weeds", "waste, derelict (of land)", "disordered, cluttered (of writing)"],
+    "shuowen": "薉也。从艸無聲。",
+    "shuowenEn": "Choked with weeds. From 艸 (grass), with 無 for the sound.",
+    "parts": [ { "c": "艹", "m": "grass, plants" }, { "c": "無", "m": "not-having; gives the sound" } ],
+    "story": "Grass over 無. Farmland in north China goes back to weeds in one season when no one works it, and in the Warring States the usual reason was that the men had been taken for war or labour. The Laozi uses the word once: the court is very fine and the fields are very 蕪 (53). 荒蕪 is still the common word for abandoned land.",
+    "gap": "“Weedy” sounds like a careless gardener. 蕪 is the mark of a countryside whose people have been called away."
+  },
+  "夷": {
+    "senses": ["level, flat, smooth", "to level, to raze; to wipe out", "the non-Zhou peoples of the east; later, foreigners", "calm, at ease"],
+    "shuowen": "平也。从大从弓。東方之人也。",
+    "shuowenEn": "Level. From 大 (a person) and 弓 (a bow). The people of the east.",
+    "parts": [ { "c": "大", "m": "a person with arms spread" }, { "c": "弓", "m": "a bow" } ],
+    "story": "One graph for “level” and for the eastern peoples whom the Zhou drew as archers; how the two came together is not settled. In the Laozi it is always the first. What is looked at and not seen is called 夷 (14). The level Way seems rough (41). The great Way is very 夷, and people love the shortcuts (53).",
+    "gap": "English “level” is neutral and “easy” is too kind. 夷 is a road with nothing on it to climb or to admire."
+  },
+  "徑": {
+    "senses": ["a footpath, a track", "a shortcut; a private or crooked way", "direct, straight; diameter"],
+    "shuowen": "步道也。从彳巠聲。",
+    "shuowenEn": "A path for walking. From 彳 (step, road), with 巠 for the sound.",
+    "parts": [ { "c": "彳", "m": "a step, a road" }, { "c": "巠", "m": "gives the sound" } ],
+    "story": "A track too narrow for a cart, which cuts across the fields and saves time. It became a figure for the clever private way: an honest man “does not go by the 徑” (Analects 6.14). In passage 53 the great road is level and people love the 徑. Modern 捷徑, “shortcut”, keeps the sense.",
+    "gap": "“By-way” or “side path” sounds like a pleasant detour. The point of 徑 is that it is quicker."
+  },
+  "夸": {
+    "senses": ["extravagant, lavish", "to boast, to show off", "big, broad"],
+    "shuowen": "奢也。从大于聲。",
+    "shuowenEn": "Extravagance. From 大 (big), with 于 for the sound.",
+    "parts": [ { "c": "大", "m": "big; a person with arms spread" }, { "c": "于", "m": "gives the sound" } ],
+    "story": "夷 has 大 with a bow; 夸 has 大 with a sound-part below. It is display: spending and talking large. Later the word was written 誇 with a speech sign for “to boast”. In passage 53 it closes the verdict 盜夸. The silk text and the Han Feizi read 竽, a reed pipe, in its place: the lead instrument of a band of thieves.",
+    "gap": "“Boast” is only talk. 夸 is also lavish living, so 盜夸 is theft worn as a costume."
+  },
+  "倉": {
+    "senses": ["a granary, a storehouse for grain", "hurried (in 倉卒, 倉黃)"],
+    "shuowen": "榖藏也。倉黃取而藏之，故謂之倉。从食省，口象倉形。",
+    "shuowenEn": "A store for grain. One gathers it in haste and stores it, hence the name. From an abbreviated 食 (food); the 口 pictures the shape of the granary.",
+    "story": "The granary was the heart of a farming state: tax grain went in after the harvest and came out to feed the army, the court, and, in a good state, the hungry in a bad year. An empty 倉 in spring meant famine. The Laozi names it once: the granaries are very empty (53).",
+    "gap": "A modern reader has no granary and does not fear the spring. For this text an empty store is the plainest sign of misrule."
+  },
+  "餘": {
+    "senses": ["what is left over, the remainder", "surplus, more than enough", "other, the rest"],
+    "shuowen": "饒也。从食余聲。",
+    "shuowenEn": "Abundance. From 食 (food), with 余 for the sound.",
+    "parts": [ { "c": "飠", "m": "food" }, { "c": "余", "m": "gives the sound" } ],
+    "story": "Food beyond what is eaten. 有餘, “to have surplus”, is a set term in the Laozi. The crowd all have surplus, and I alone seem to have lost everything (20). Goods in surplus mark the robber court (53). Heaven’s way takes from surplus to fill what lacks; the human way does the opposite (77).",
+    "gap": "In the language of business a surplus is a success. In this book it is a question: from whom was it taken?"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "n": 59,
+  "title": "The Farmer’s Store",
+  "theme": "simplicity",
+  "zh": [
+    {
+      "text": "治人事天，莫若嗇。",
+      "gloss": {
+        "0": "to put in order, to govern",
+        "2": "to serve",
+        "3": "heaven; (Han Feizi) what is inborn in a person",
+        "6": "to be like, to equal",
+        "7": "sè: to store and not spend; the farmer’s thrift"
+      }
+    },
+    {
+      "text": "夫唯嗇，是謂早服；",
+      "gloss": {
+        "6": "early, ahead of time",
+        "7": "to submit; to take on (as a yoke); to make ready"
+      }
+    },
+    {
+      "text": "早服謂之重積德；",
+      "gloss": {
+        "4": "chóng: again, in layers (or zhòng: heavy, to value)",
+        "5": "to pile up (as grain)"
+      }
+    },
+    {
+      "text": "重積德則無不克，無不克則莫知其極；",
+      "gloss": {
+        "6": "to overcome; first, to bear on the shoulder",
+        "12": "none, nobody",
+        "15": "ridgepole; utmost point, limit"
+      }
+    },
+    {
+      "text": "莫知其極，可以有國；",
+      "gloss": {
+        "7": "to have, to hold",
+        "8": "a state"
+      }
+    },
+    {
+      "text": "有國之母，可以長久；",
+      "gloss": {
+        "3": "mother",
+        "7": "cháng: long",
+        "8": "lasting, for a long time"
+      }
+    },
+    {
+      "text": "是謂深根固柢，長生久視之道。",
+      "gloss": {
+        "3": "root: the roots that spread",
+        "4": "to make firm",
+        "5": "dǐ: the taproot",
+        "10": "to see, to keep the eyes open: to stay alive"
+      }
+    }
+  ],
+  "rendering": [
+    "To [[order people|zhi-ren]] and [[serve heaven|shi-tian]],",
+    "nothing equals [[the farmer’s sparing|se]].",
+    "",
+    "Only sparing:",
+    "this is called [[being ready early|zao-fu]].",
+    "Being ready early is called [[storing de in layers|chong-ji]].",
+    "With de stored in layers, there is nothing that is not [[overcome|ke]].",
+    "With nothing not overcome, nobody knows [[the limit|ji]].",
+    "When nobody knows the limit, [[a state can be held|you-guo]].",
+    "With [[the mother of the state|mu]], it can last long.",
+    "",
+    "This is called [[deep roots and a firm taproot|gen-di]]:",
+    "the way of [[long life and lasting sight|jiu-shi]]."
+  ],
+  "notes": {
+    "zhi-ren": {
+      "kind": "gap",
+      "title": "治人: rule others, or order the person?",
+      "body": "治 is to put in order: first of water, as the hero Yu did with the great flood, then of a state, then of an illness. 人 is “person, people”. So 治人 is “to govern people”, and that is how Wang Bi reads it: the line is advice to a ruler. The oldest comment on this passage, in the Han Feizi, splits the line another way. For it, 人 and 天 are two sides of one human being: 聰明睿智，天也；動靜思慮，人也, “keen hearing, clear sight, and wisdom are heaven; movement, rest, thought, and worry are the human”. Then 治人事天 is: put your own activity in order and serve what you were born with. The classical language does not choose; one sentence holds a manual of rule and a manual of self-care. English must add an object for 治, and so must pick. [[Legge|legge]] picked the inner reading. We kept “people”, which can still be yourself.",
+      "src": [
+        "Han Feizi, “Jie Lao” (解老)"
+      ]
+    },
+    "shi-tian": {
+      "kind": "history",
+      "title": "事天: what it was to serve heaven",
+      "body": "事 is to serve, as a son serves a father or a minister a lord. 天 is the sky, and from the Zhou conquest it was also the highest power, which gave the right to rule and took it away. Only the king, the “Son of Heaven”, could offer the great sacrifice to it, on an open altar outside the capital. So 事天 was first a royal duty with a calendar. By the fourth century BCE thinkers had turned it inward. Mencius: to keep one’s heart and feed one’s nature is 所以事天也, “the way to serve heaven”. Han Feizi, as [[his reading of the line|zhi-ren]] shows, takes heaven as the eyes, ears, and mind that a person receives at birth; to serve them is to not wear them out. The passage gives one answer for the altar and the body: 嗇. The Christian phrase “serve God” brings in love and obedience to a person. Neither is in 事天.",
+      "src": [
+        "Mencius 7A1",
+        "Han Feizi, “Jie Lao”"
+      ]
+    },
+    "se": {
+      "kind": "etymology",
+      "title": "嗇: wheat into the granary",
+      "body": "This is the key word, and English has no good one for it. The Shuowen takes the character apart: 从來从㐭。來者，㐭而藏之。故田夫謂之嗇夫. “From 來 and 㐭. The 來 is put into the 㐭 and stored. So men of the fields are called 嗇夫.” 來 was first the word for wheat, and 㐭 is a granary. A farmer does not eat the seed grain. However hungry the winter, a part of the harvest is shut away, since next year is in it. That is 嗇: to not spend. Our “the farmer’s” is added from this picture; the line has the one word. Today the word means “stingy”, a vice. “Frugality” and “moderation” make it a mild virtue of the middle class. The old sense is harder and more hopeful: restraint now, for the sake of life later. Passage 67 has a different word, 儉, for the plain living that its speaker holds dear; do not confuse them. [[Wang Bi|wangbi]] and [[Han Feizi|hanfei]] each explain 嗇 in their own way.",
+      "src": [
+        "Shuowen Jiezi, 嗇部: 嗇，愛瀒也。从來从㐭。來者，㐭而藏之。故田夫謂之嗇夫。"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the farmer weeds",
+      "body": "Wang Bi reads 嗇 as the farmer himself: 嗇，農夫. He then describes the work: 農人之治田，務去其殊類，歸於齊一也。全其自然，不急其荒病，除其所以荒病. “When a farmer puts a field in order, he works to remove what is of another kind and bring it back to one even kind. He keeps whole what it is of itself. He does not rush at its blight; he removes that by which it is blighted.” The picture is weeding, not storing. A good farmer does not pull at the crop to make it grow, and does not treat each sick leaf. He takes away the cause and leaves the plant to its nature. On 有國 he adds a hard line: 以有窮而莅國，非能有國也, “to preside over a state with what has a limit is not to be able to hold a state”. And the mother, for him, is what makes a state secure: root first, branches after.",
+      "src": [
+        "Wang Bi commentary on Laozi 59"
+      ]
+    },
+    "hanfei": {
+      "kind": "history",
+      "title": "Han Feizi: do not spend the spirit",
+      "body": "The chapters “Explaining Laozi” in the Han Feizi, from the third century BCE, are the oldest commentary on this book that we have, and this passage is one that they treat at length. Their reading is about the body’s budget. 眾人之用神也躁，躁則多費，多費之謂侈。聖人之用神也靜，靜則少費，少費之謂嗇. “The many use their spirit in a restless way. Restlessness spends much, and to spend much is called waste. The sage uses the spirit in a still way. Stillness spends little, and to spend little is called 嗇.” Eyes that look too hard go dim; ears that strain go dull; a mind that plans without end is confused. So one saves sight, hearing, and thought as a farmer saves grain. It is strange to find this in the book of the arch-Legalist. It shows that before the Laozi was a religion or a philosophy, it was read as a guide to care of the self and to rule, both at once.",
+      "src": [
+        "Han Feizi, “Jie Lao”"
+      ]
+    },
+    "zao-fu": {
+      "kind": "variant",
+      "title": "早服: three readings of one word",
+      "body": "早 is “early”. 服 is the trouble. The Shuowen gives 用也, “to use”, and a second sense, a horse in a chariot team. The word’s common senses are to wear, to submit to, to take on a task. So 早服 may be “to submit early” (to the Dao), or “to take on the yoke early”. Han Feizi reads it as action before trouble shows: the sage complies with the pattern while the signs are still small. Many scholars read 服 as 備, “ready, prepared”, the first transcription of the graph on the Guodian slips (some palaeographers now read that graph as 服 itself); we follow that sense, which fits a farmer. Others, with [[Legge|legge]], change it to 復, “return”. The silk texts are reported to write 蚤服: 蚤 is “flea”, a common loan in old manuscripts for the like-sounding “early”. Wang Bi says only 早服，常也, “early 服 is the constant”. All agree on 早: the work is done before it is needed.",
+      "src": [
+        "Shuowen Jiezi, 舟部: 服，用也。一曰車右騑，所以舟旋。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported): 是以蚤服",
+        "Wang Bi commentary on Laozi 59"
+      ]
+    },
+    "chong-ji": {
+      "kind": "etymology",
+      "title": "重積德: de as a harvest",
+      "body": "積 keeps the farmer’s image going. Its left side is 禾, grain on the stalk, and the Shuowen says 聚也, “to gather”: sheaves in a stack, grain in a heap. 重 is read chóng here, “again, layer on layer”; read zhòng it would be “heavily” or “to treat as weighty”. So 重積德 is to heap up 德 in layers, as a granary fills year after year. 德 is the power that a thing or person has from being what it is; we leave it as “de”. This passage treats it as a stock. It can be stored, and by implication it can be spent, on display, on quick results, on being admired. Wang Bi stresses the tempo: 不欲銳速, “one does not want it sharp and fast”. The Confucian Xunzi has a like phrase, 積善成德, “pile up good and 德 is formed”. There the stock is good deeds. Here it is what is saved by not acting.",
+      "src": [
+        "Shuowen Jiezi, 禾部: 積，聚也。从禾責聲。",
+        "Xunzi, “Quan xue” (勸學)",
+        "Wang Bi commentary on Laozi 59"
+      ]
+    },
+    "chain": {
+      "kind": "wordplay",
+      "title": "A chain of hooks",
+      "body": "Read the middle of the passage aloud in Chinese and you hear a chain. Each clause begins with the words that ended the one before: …早服；早服…重積德；重積德…無不克；無不克…莫知其極；莫知其極…有國；有國之母… Chinese rhetoric calls the figure 頂真, “thimble”, or linked pearls. It is not decoration. It makes an argument in which no step can be skipped: thrift, readiness, a store of 德, nothing that defeats you, no visible limit, a state, the mother, long life. The form is the same as that of the famous chain in the “Great Learning”, which runs from the person to the realm. But notice what kind of chain this one is. Nothing in it is an act upon others. Each link is only a result of the link before, and the first link is a refusal to spend. What is the first link in your own chain?"
+    },
+    "ke": {
+      "kind": "etymology",
+      "title": "克: to carry on the shoulder",
+      "body": "無不克 is “nothing not 克”, and versions say “nothing he cannot overcome”, “nothing is impossible”. That is the tone of a slogan, and the word is quieter. The Shuowen defines 克 by one word: 肩也, “the shoulder”, to shoulder a load. The first sense is to be equal to a weight: to bear it, to be able. The sense “to conquer” comes from that: one who can carry the thing has mastered it. So the line says that a person with deep reserves is equal to whatever comes, as a full granary is equal to a bad year. It does not say that such a person goes out and wins. The double negative matters too. Chinese says “nothing not borne”. It lists no victories. The next clause turns the same form on knowledge: [[nobody knows the limit|ji]].",
+      "src": [
+        "Shuowen Jiezi, 克部: 克，肩也。象屋下刻木之形。"
+      ]
+    },
+    "ji": {
+      "kind": "wordplay",
+      "title": "莫知其極: the same phrase, turned",
+      "body": "In the passage before this one, 孰知其極, “who knows its 極?”, was a question about disaster and good fortune: nobody can see where the turning ends. Here the same words are praise: of one whose store is deep, 莫知其極, “nobody knows the limit”. 極 is the ridgepole of a house and so the highest point of anything. Two senses work at once. Others cannot find the bottom of this one’s reserves, and that is a real strength in a world of rivals; a state whose granaries are known to be empty is attacked. And the person does not reach the bottom either. Wang Bi comments in three words: 道無窮也, “the Dao has no end”. A store that is drawn from the Dao has no floor. Compare a person whose limit everyone knows: how long they can listen, what makes them angry, the price. What does it do to you to deal with one whose limit you cannot find?",
+      "src": [
+        "Laozi 58",
+        "Wang Bi commentary on Laozi 59"
+      ]
+    },
+    "you-guo": {
+      "kind": "geopolitics",
+      "title": "有國: holding a state in an age of famine and war",
+      "body": "有國, “to have a state”, was a set phrase; 有國者 are “those who hold states”, the rulers. In the Warring States period to hold one was not a matter of course. States died. Dozens were swallowed between 500 and 221 BCE. What killed them was often not the lost battle. It was the lack of anything left after it. The Record of Rites states a rule of thumb: a state without nine years of stored grain is “not sufficient”; without six, it is “in danger”; without three, 國非其國也, “the state is not its state”. So the farmer’s word 嗇 at the top of the passage is exact for politics. The ruler who spends the people’s strength each year on wars and works has no depth. This passage sets the condition for holding a state: reserves so deep that nobody, enemy or friend, can find their end.",
+      "src": [
+        "Liji, “Wang zhi” (王制)",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "mu": {
+      "kind": "gap",
+      "title": "國之母: a state has a mother",
+      "body": "After a chain of dry terms comes a body: 母, mother. The Shuowen gives the picture two ways: 从女，象褱子形。一曰象乳子也, “from 女, woman; it shows her with a child in her arms. Another view: it shows her giving suck.” The book uses this word for the Dao itself. Passage 1 calls the named the mother of the ten thousand things. There is a thing that may be taken as mother of all under heaven (25). Passage 52 says: when you have the mother, you know the children; hold to the mother, and to the end of life you are not in danger. Passage 20 ends: I alone prize the mother who feeds. Translators write “the root principle” or “the foundation”, and the breast is gone. Western political thought has founding fathers and a fatherland. Here the thing that lets a state last is the thing that fed it. What fed the thing that you lead?",
+      "src": [
+        "Shuowen Jiezi, 女部: 母，牧也。从女，象褱子形。一曰象乳子也。"
+      ]
+    },
+    "gen-di": {
+      "kind": "etymology",
+      "title": "根 and 柢: two kinds of root",
+      "body": "English has “root”, and the line seems to say it twice. Chinese has two words. The Shuowen glosses them almost alike: 根 is 木株也, “the stock of a tree”, and 柢 is 木根也, “the root of a tree”. Han Feizi, who knew his trees, tells them apart. A tree has spreading roots and a straight root. 柢 is the straight one: 木之所以建生也, “that by which the tree sets up its life”. The spreading roots are 木之所以持生也, “that by which the tree keeps up its life”. One anchors, and the others feed. So 深根固柢 is: let the feeding roots go deep and the anchor root hold firm. He applies it at once: 德 is the anchor, and income is the spreading root. The phrase became a common idiom, 根深柢固, and today it is mostly said of bad habits: “deep-rooted”. Look at a tree in wind. What you see move is held by a part that you do not see.",
+      "src": [
+        "Shuowen Jiezi, 木部: 根，木株也。从木艮聲。",
+        "Shuowen Jiezi, 木部: 柢，木根也。从木氐聲。",
+        "Han Feizi, “Jie Lao”"
+      ]
+    },
+    "jiu-shi": {
+      "kind": "history",
+      "title": "長生久視: a phrase with a long future",
+      "body": "長生 is “long life”. 久視 is “to see for a long time”: to keep the eyes open, and so to stay alive. The four characters were probably a current phrase; a text of the third century BCE says that every lord, wise or foolish, wants 長生久視. Here the phrase is given a way, a 道, and the way is thrift and depth. Later history took the phrase and ran. From the Han, seekers of immortality made 長生 their goal: elixirs, breath arts, diets. 久視 was read as the clear eyesight of one who does not age, and in 700 CE the Empress Wu, who was old and ill, named a year of her reign 久視. The passage itself promises less and more. It does not say “not to die”. It says that a life or a state with roots lasts as long as its nature allows, and is not cut short by its own spending. Is that enough?",
+      "src": [
+        "Lüshi chunqiu, “Zhong ji” (重己)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “moderation”",
+      "body": "Legge renders 嗇 as “moderation”, the favourite virtue of his own century and class, and the farmer and the granary are gone. He follows the inner reading of the first line and makes it explicit with a bracket: “regulating the human (in our constitution)”. That is the Han Feizi’s reading in the dress of Victorian physiology. For 早服 he reads 復 and writes “an early return (to man’s normal state)”: a small story of fall and recovery, which the Chinese does not tell. 重積德 becomes “the repeated accumulation of the attributes (of the Tao)”, and 無不克 “the subjugation (of every obstacle…)”: an empire’s word. At the end he gives 柢 as “flower stalks”, which no commentator supports; the old glosses all say root. His closing words keep the two verbs of the last phrase: enduring life is “long seen”. Where his English is long, count the Chinese: 治人事天莫若嗇 is seven characters.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Find the seed grain",
+      "body": "A farmer knows which sacks are for eating and which are seed. Most of us do not know this about our own stores. Take three: attention, strength, and good will. For each, ask: what part of this is seed grain, which I must not spend however great the need looks today? For attention it may be the first hour of the morning. For strength, the sleep before midnight. For good will with a person, the one thing that you do not say in anger. Then look at yesterday. Where did you eat seed? Do not make a plan to be more productive with what you save. That would be to plant in order to spend more. 嗇 only asks that the store exists, and that you [[are ready early|zao-fu]], before the bad year."
+    }
+  },
+  "lenses": {
+    "ground": "One sentence of advice, a [[chain|chain]], and an image. The advice: for [[putting people in order|zhi-ren]] and [[serving heaven|shi-tian]], nothing is as good as [[嗇|se]], the farmer’s habit of storing and not spending. The chain: 嗇 is [[early readiness|zao-fu]]; that is 德 [[piled in layers|chong-ji]]; then nothing is [[too heavy|ke]]; then nobody knows [[the limit|ji]]; then [[a state can be held|you-guo]]; and with the state’s [[mother|mu]], it lasts. The image: [[two kinds of root|gen-di]], deep and firm. The last phrase names the whole thing as a way of [[long life and lasting sight|jiu-shi]]. The vocabulary is of the farm from end to end: the granary in 嗇, the grain stack in 積, the roots, and 長生, where 生 is at first a plant that comes up out of the soil. The passage never says what the person does. It says only what is kept.",
+    "inner": "The Dao is not named until the last word, and no sage appears. What is described is a quality of reserve. A person can meet each day at the edge of their strength, with all attention out on things, and seem very alive. Or a person can live some distance back from the edge. [[Han Feizi|hanfei]] says the second is stillness, and that it spends little. This is not withdrawal from life and not a cold heart. It is that there is more in the person than is in use. Others feel it as depth: [[nobody finds the limit|ji]]. From inside it is felt as time, as not being pressed. The [[mother|mu]] in the chain suggests where the store comes from. A person does not make it. It is what feeds a person when the leaks are closed. Passage 56 named the leaks: the mouth, the gates.",
+    "leading": "Read it as a rule for anything that you want to outlast you. The measure of an institution is not this year’s output. It is the depth of what it does not need to spend: money, yes, and also trust, trained people, goodwill, and unused capacity. A leader who runs at full stretch and uses each quarter all that the quarter gave has a known [[limit|ji]], and rivals and bad luck find it. [[The state without three years of grain is not a state|you-guo]]. Note the order of the chain: the store comes before the holding of the state. And note the last link. To “have the state” is not enough to last; one must have its [[mother|mu]], the thing that fed it at the start: a purpose, a people, a piece of land. [[Wang Bi’s farmer|wangbi]] adds the method: remove the cause of blight, and do not pull at the crop.",
+    "body": "This passage is the root text for an old idea of health: a person is born with a store, and how fast it is spent is the main thing under one’s control. [[Han Feizi|hanfei]] lists the leaks: eyes that strain, ears that strain, thought that never rests. The body lens is simple, then. End a practice session with something left. Stop eating before full. Sleep before you are wrecked. In the arts of movement the image of the last lines is used directly: sink the weight, let the [[root|gen-di]] go down through the feet, and the upper body can be soft and free, as a crown moves in wind because the taproot holds. Power that comes from the root is not felt as effort. And 久視: rest the eyes. Look far and softly for a minute, as a farmer looks at weather.",
+    "nature": "A tree grows down before it grows up; in a dry land the seedling’s root is many times longer than its shoot. Animals that live long, the tortoise, the elephant, the whale, have slow hearts. Seeds are the pure form of [[嗇|se]]: a whole life held in store, spent only when the conditions are right, sometimes after centuries. A field that is cropped every year without rest gives less and less; one that lies fallow in turn can be farmed for a thousand years, and the fields of north China were. The passage sees no conflict between long life and full life. It observes that the things which last are the ones that keep more than they show: [[the taproot, and the roots that spread|gen-di]].",
+    "practice": "Do the exercise of [[the seed grain|practice]]: name what you must not spend, in attention, in strength, and in one relationship. Then choose one small act of [[early readiness|zao-fu]] for today: a thing done before it is needed, when it is still easy. Mend the small tear. Fill the tank at half. Go to bed with one task undone and the strength for it saved."
+  },
+  "glyph": "嗇",
+  "plates": [
+    {
+      "c": "嗇",
+      "title": "Wheat in the granary",
+      "lesson": "The character is a small diagram of a farm at the end of harvest: grain above, a storehouse below. The Shuowen names both parts. The top is 來. Today 來 means “to come”, but the dictionary says it was first a plant: 周所受瑞麥來麰, “the auspicious wheat and barley that the Zhou received”, a picture of a stalk with its awns. Wheat was a gift that “came” from heaven, 天所來也, and so, it says, the word for wheat was used for “to come”. (The plant then got a new character, 麥.) The bottom of 嗇 is 㐭 (lǐn), a granary: 穀所振入, “where the grain is brought in”. The dictionary adds that its box shows a building with a door and a window. In the modern form the granary has become 回, a box in a box. Put together: 來者，㐭而藏之, “the wheat: one puts it in the granary and stores it”. Hence 嗇夫, “granary men”, for farmers, and later for the village officers who kept the stores. Add 禾, grain, and you have 穡, the harvest. Add a sign for planks, and you have 牆, a wall: at first, it seems, the wall of the store. The word went from “store” to “sparing” to today’s “stingy”. The passage uses [[the old sense|se]]: the seed that is not eaten.",
+      "brush": "Thirteen strokes. Watch the app draw the top: first the two small pairs, left and right, each a short stroke that falls leftward and a dot; then a short horizontal above them; then a vertical that comes down from the top through the middle; then the long horizontal that carries it all. These seven strokes are the wheat, and the long line under them is like the edge of the granary roof. Then the store, six strokes: the left wall; the top and right wall in one stroke with a corner; then the inner box (a short vertical; a horizontal that turns down; a closing horizontal); and last the floor of the outer box. The inner box must sit in the centre with even white on all four sides. That white is the room for the grain. A crowded 回 makes the character look choked, and a wide one makes it look rich."
+    },
+    {
+      "c": "柢",
+      "title": "The root that touches bottom",
+      "lesson": "Left side: 木, a tree. The Shuowen’s entry for 木 already speaks of roots: 从屮，下象其根, “from a sprout, and the lower part shows its roots”. The middle line is the trunk; the two strokes that spread at the bottom are roots, not branches. Two famous characters are made by a single mark on this tree. A mark at the foot gives 本, “root, origin”: 木下曰本. A mark at the top gives 末, “tip, end”: 木上曰末. Wang Bi’s whole philosophy uses that pair: honour the 本, let the 末 rest. Right side: 氐 (dǐ), which gives the sound and more than the sound. The Shuowen explains it as 至也。从氏下箸一。一，地也: “to reach; a line set under 氏, and the line is the ground”. To reach the ground: bottom. Every character with 氐 goes down: 低, “low” (下也); 底, “the bottom” of a well or a cup; 抵, “to push against, to arrive at”. So 柢 is the part of a tree that goes straight down until it touches bottom: the taproot. Han Feizi says that it is the root by which a tree “sets up its life”, and the passage asks that it be made [[固, firm|gen-di]]. The common word for root, 根, is beside it in the line: the roots that spread.",
+      "brush": "Nine strokes. The tree, four: a short horizontal; a vertical through it, tall, with no hook; a stroke that falls to the left from the crossing; and a dot on the right, short because it must make room. Then 氐, five: a flat stroke at the top that is drawn from right to left; a vertical that goes down and flicks up to the right at its foot; a horizontal that starts from that vertical and goes right; then the long hook that leans down to the right and ends with a point upward; and last a dot at the very bottom. Watch the final dot. It is the “ground line” of the old form, now only a touch of the brush under the hook, and it is the lowest point of the character. The long hook, stroke eight, gives the right side its force; the tree stands straight and lets it lean."
+    },
+    {
+      "c": "母",
+      "title": "A woman with two dots",
+      "lesson": "Begin with 女, woman. The Shuowen calls it a picture, and the usual explanation of the early form is a figure that kneels with the arms crossed in front. Three strokes are left of it today. Now add two dots inside the frame of the body. The Shuowen reads them plainly: 从女，象褱子形。一曰象乳子也, “from 女; it shows her with a child in her arms. Another view: it shows her suckling a child.” The second view is the one that most people hold: the two dots are the breasts. In the modern form the figure has been turned and squared, so that 母 looks like a box, but the dots are still there, and the line through the middle is the old arms. The dictionary’s one-word definition is 牧也, “to tend, to pasture”: a pun on the sound, and also a thought. A mother is one who feeds and herds. Compare 毋, “do not”, which the Shuowen derives from 女 with one line across: a mark of stopping. The mother is a sound-part in 每, “each”, and through it in 海, the sea, which the Shuowen calls 天池也，以納百川者, “heaven’s pool, which takes in the hundred rivers”. In this book the mother is the Dao as that which feeds. Here she is [[the mother of the state|mu]].",
+      "brush": "Five strokes. First a stroke that goes down, leaning a little to the left, and then turns sharply to run rightward: the left side and the floor. Second, a stroke that starts at the top, goes right, turns down, and ends in a hook to the left: the roof and the right side. The two make a leaning frame, a parallelogram and not a square. Third, a dot in the upper half. Fourth, the long horizontal, which crosses the whole frame and comes out on both sides. Fifth, a dot in the lower half. Watch the fourth stroke. It is the arms, and it must be long, level, and exactly between the dots. The lean of the frame gives the character life; written upright it is stiff. In cursive the two dots run together into one vertical line, and that form is close to how 毋 is written."
+    }
+  ]
+}

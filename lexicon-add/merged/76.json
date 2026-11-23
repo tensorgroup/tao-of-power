@@ -1,0 +1,118 @@
+{
+  "弱": {
+    "senses": [
+      "weak, without force",
+      "young, tender (弱冠: a youth of twenty)",
+      "to weaken"
+    ],
+    "shuowen": "橈也。上象橈曲，彡象毛氂橈弱也。弱物并，故从二𢎥。",
+    "shuowenEn": "Bent. The upper part pictures a thing bent and curved; 彡 pictures fine hair, bent and weak. Weak things go side by side, so the graph is doubled.",
+    "parts": [
+      { "c": "弓", "m": "now the graph for a bow; for the Shuowen, a bent shape" },
+      { "c": "冫", "m": "two short strokes; for the Shuowen, fine hair" }
+    ],
+    "story": "The Laozi takes the word that every state and every man of the age feared, and makes it a mark of Dao. Weaken the will and strengthen the bones (3). The soft and weak overcome the hard and strong (36). Weakness is how Dao works (40). The infant’s bones are weak (55). A person alive is soft and weak (76). Nothing in the world is softer and weaker than water (78).",
+    "gap": "Translators like “yielding” or “flexible”. The Chinese word is plain “weak”, with its shame intact, and the teaching depends on that."
+  },
+  "柔": {
+    "senses": [
+      "soft, pliant, supple",
+      "gentle, mild",
+      "to make gentle, to win over by mildness"
+    ],
+    "shuowen": "木曲直也。从木矛聲。",
+    "shuowenEn": "Wood that can be made crooked and straight. From 木 (tree), with 矛 (spear) for the sound.",
+    "parts": [
+      { "c": "矛", "m": "a spear; here for the sound" },
+      { "c": "木", "m": "a tree, wood" }
+    ],
+    "story": "The softness of green wood, which bends and returns. In the Laozi it is the quality of the infant, whose breath is gathered to the utmost softness (10), and of water (78). The softest thing in the world rides over the hardest (43). To keep to the soft is called strength (52). Later ages named arts of the body after it: 柔術 and 柔道.",
+    "gap": "“Soft” in English suggests a thing that gives and stays dented. 柔 gives and comes back."
+  },
+  "強": {
+    "senses": [
+      "strong, forceful, stiff",
+      "to force, to compel (read qiǎng)",
+      "strength; the strong"
+    ],
+    "shuowen": "蚚也。从虫弘聲。",
+    "shuowenEn": "The insect 蚚. From 虫 (insect), with 弘 for the sound. (The Shuowen’s own graph for “strong” is 彊: a bow that has force.)",
+    "parts": [
+      { "c": "弓", "m": "a bow" },
+      { "c": "厶", "m": "with 弓, the remains of the sound-part 弘" },
+      { "c": "虫", "m": "insect, worm, snake" }
+    ],
+    "story": "The graph first named an insect and was borrowed for “strong”, which was properly written 彊. The Laozi uses the word in two ways. Outward strength is on the side of death: the strong army does not win and the strong tree is felled (76), and the violent do not die their own death (42). Inward strength is praised: to overcome oneself is strong (33). The text also uses the verb “to force”: pressed for a name, the speaker says “great” (25).",
+    "gap": "English “strong” is nearly always praise. In the Laozi 強 is more often a warning, close to “rigid” or “forcing”."
+  },
+  "堅": {
+    "senses": [
+      "hard, solid, firm",
+      "to make firm; armour, the strong point of a line"
+    ],
+    "shuowen": "剛也。从臤从土。",
+    "shuowenEn": "Hard. From 臤 (firm) and 土 (earth).",
+    "parts": [
+      { "c": "臤", "m": "firm" },
+      { "c": "土", "m": "earth" }
+    ],
+    "story": "Hardness as of rammed earth, the material of city walls. The softest thing in the world gallops through the hardest, 至堅 (43). Dead, a person is 堅強 (76). Nothing beats water for attacking the 堅強 (78). In modern Chinese 堅強 is a word of praise, “resilient”.",
+    "gap": "“Firm” is a virtue in English. Here 堅 is the hardness of a thing that has stopped changing."
+  },
+  "脆": {
+    "senses": [
+      "tender and easily broken",
+      "crisp (of food); fragile"
+    ],
+    "shuowen": "小耎易斷也。从肉，从絕省。",
+    "shuowenEn": "Small, soft, and easily broken. From 肉 (flesh) and a reduced 絕 (to cut off). (The Shuowen writes the graph 脃.)",
+    "parts": [
+      { "c": "月", "m": "flesh (the form of 肉 at the left of a graph)" },
+      { "c": "危", "m": "the right side in the later form; by itself, danger" }
+    ],
+    "story": "The quality of a fresh shoot: full of water and easy to snap. The Laozi uses it twice. While a thing is tender it is easy to break up (64). Grasses and trees, alive, are soft and tender (76).",
+    "gap": "English “brittle” belongs to hard, dry things. 脆 belongs to soft, wet ones."
+  },
+  "枯": {
+    "senses": [
+      "dried up, withered (of plants)",
+      "dry (of a well, a river, bones)"
+    ],
+    "shuowen": "槀也。从木古聲。",
+    "shuowenEn": "Withered. From 木 (tree), with 古 (old) for the sound.",
+    "parts": [
+      { "c": "木", "m": "a tree, wood" },
+      { "c": "古", "m": "sound gǔ; by itself, old, ancient" }
+    ],
+    "story": "Wood from which the water has gone. With 槁 it makes the pair 枯槁, the state of dead grasses and trees in passage 76. The Zhuangzi uses “withered wood” for the body of a person in deep stillness.",
+    "gap": "English says “dead wood” for what is useless. 枯 is only dry: the life went out with the water."
+  },
+  "徒": {
+    "senses": [
+      "to go on foot; foot soldiers",
+      "a follower, a disciple; people of a kind",
+      "only, merely; in vain"
+    ],
+    "parts": [
+      { "c": "彳", "m": "a step, movement on a road" },
+      { "c": "走", "m": "the right side in the modern form: 土 over a foot" }
+    ],
+    "story": "From walking on foot the word came to mean those who walk behind a leader. Confucius called his students his 徒. The Laozi uses it for two companies: the followers of life and the followers of death, three in ten each (50); the hard and strong are of death’s company, the soft and weak of life’s (76).",
+    "gap": "“Disciple” is too holy and “companion” too equal. A 徒 is one of the people on foot behind someone."
+  },
+  "死": {
+    "senses": [
+      "to die; death",
+      "dead; deadly",
+      "to die for (a cause, a lord)"
+    ],
+    "shuowen": "澌也，人所離也。从歺从人。",
+    "shuowenEn": "To run dry; that from which the person departs. From 歺 (broken bone) and 人 (a person).",
+    "parts": [
+      { "c": "歹", "m": "broken bone (the old 歺)" },
+      { "c": "匕", "m": "a person, turned (the old 人)" }
+    ],
+    "story": "The Shuowen explains death by a water word of like sound: the moisture runs out and the person leaves the bones. The Laozi speaks of death without fear and without a next world. To die and not perish is long life (33). People walk toward the place of death by living too thickly (50). The people do not fear death (74) and take it lightly (75). Dead, a person is hard and stiff (76).",
+    "gap": "English can say “passed away” or “departed this life”. 死 has no soft form in this book and no heaven after it."
+  }
+}

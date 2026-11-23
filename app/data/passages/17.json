@@ -1,0 +1,241 @@
+{
+  "n": 17,
+  "title": "We Did It Ourselves",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "太上，下知有之，",
+      "gloss": {
+        "0": "greatest, utmost",
+        "1": "above; the one above: the ruler; also “the best”",
+        "3": "those below: the people",
+        "5": "there is"
+      }
+    },
+    {
+      "text": "其次，親而譽之，",
+      "gloss": {
+        "1": "next in rank or in time",
+        "3": "to hold close, as kin",
+        "5": "yù: to praise aloud"
+      }
+    },
+    {
+      "text": "其次，畏之，",
+      "gloss": {
+        "3": "to fear, to dread"
+      }
+    },
+    {
+      "text": "其次，侮之。",
+      "gloss": {
+        "3": "wǔ: to insult, to treat with scorn"
+      }
+    },
+    {
+      "text": "信不足焉，有不信焉。",
+      "gloss": {
+        "0": "trust; good faith; words that hold",
+        "3": "in this, there (a particle that points)",
+        "7": "the same graph: trust given back"
+      }
+    },
+    {
+      "text": "悠兮其貴言，功成事遂，百姓皆謂：我自然。",
+      "gloss": {
+        "0": "far off, long; unhurried (the silk texts are reported to read 猶, watchful)",
+        "3": "to treat as costly, to prize",
+        "4": "words, speech",
+        "6": "work that earns credit; merit",
+        "9": "to go through to the end, to succeed",
+        "12": "clan name; 百姓: the hundred families, the people",
+        "14": "to say; to say of",
+        "17": "self; from",
+        "18": "so, thus"
+      }
+    }
+  ],
+  "rendering": [
+    "[[The highest|taishang]]: those below [[know there is one|zhi-you]].",
+    "Next: one they [[hold dear and praise|qin]].",
+    "Next: one they [[fear|wei]].",
+    "Next: one they [[scorn|wu]].",
+    "",
+    "[[Trust|xin]] not enough, there:",
+    "[[no trust, there|xin-echo]].",
+    "",
+    "[[Far off|you]]: how [[costly the words|guiyan]]!",
+    "[[The work done, the task carried through|gong]],",
+    "the [[hundred families|baixing]] all say:",
+    "“[[We are so of ourselves.|ziran]]”"
+  ],
+  "notes": {
+    "taishang": {
+      "kind": "gap",
+      "title": "太上: the best, the oldest, and later a god",
+      "body": "太上 is “greatest” and “above”. It can be a rank: the best kind of ruler, with three worse kinds after it. Wang Bi reads it so: 太上，謂大人也。大人在上，故曰太上, “太上 means the great person. The great person is above, so the text says ‘the greatest above’.” It can also be a time: “in highest antiquity”, with 其次 as “the next age”. Legge chose that, and then the four lines are a history of decline, which the next passage continues. The Chinese does not need to choose, because in the thought of the age the oldest was the best. English must choose; our “the highest” leans to rank. The phrase had a third life. When Laozi was made a god in the Han and after, his title was 太上老君, “the Old Lord, Most High”. A phrase for a ruler whom nobody notices became the name of a deity on an altar.",
+      "src": [
+        "Wang Bi commentary on Laozi 17"
+      ]
+    },
+    "zhi-you": {
+      "kind": "variant",
+      "title": "“Know there is one”, or “do not know”?",
+      "body": "下知有之: “those below know that there is one”, and no more. Wang Bi adds two words, 而已, “and that is all”. Many later editions change one graph, 下 to 不: 不知有之, “they do not know that there is one”. Legge used such a text. The sense is more extreme and has pleased many readers: the best government is one that people cannot even find. But the old copies agree against it. Both Mawangdui silk texts are reported to read 下知有之, and the Guodian bamboo slips are reported to read the same. The older line is also the more exact. The people are not fooled, and the ruler does not hide. They know that someone is there, as you know that a house has a foundation. They have no reason to think about it. Note 之, “it, him, her, them”: the Chinese gives the ruler no gender and no number. Our “one” is as near as English allows.",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Guodian Laozi C",
+        "Wang Bi commentary on Laozi 17"
+      ]
+    },
+    "qin": {
+      "kind": "geopolitics",
+      "title": "Loved and praised: only second place",
+      "body": "親 is the word for kin, and as a verb “to hold close as family”; the Shuowen glosses it 至也, “to come right up to”. 譽 is praise spoken aloud. A ruler whom the people love as a parent and praise in songs was the Confucian ideal. Mencius told kings that their task was to be “father and mother to the people”. The Laozi puts this ruler second. Wang Bi explains what has been lost: 不能以無為居事，不言為教，立善行施，使下得親而譽之也. “Unable to manage affairs by not-forcing and to teach without words, this one sets up the good and hands out favours, and so gives those below something to love and praise.” The fault is small, and it is visible: the people now look up. Their attention has moved from their own lives to the person at the top. The Mawangdui silk texts are reported to read 親譽之, with no “and”.",
+      "src": [
+        "Shuowen Jiezi, 見部: 親，至也。从見亲聲。",
+        "Wang Bi commentary on Laozi 17",
+        "Mencius 1A4"
+      ]
+    },
+    "wei": {
+      "kind": "geopolitics",
+      "title": "Feared: the Legalist state",
+      "body": "The third ruler is the one that the age was building. In Qin and elsewhere, ministers such as Shang Yang ruled by published law, heavy penalties, and rewards for informers. Han Fei gave the theory: the ruler holds “two handles”, punishment and favour, and people must dread the first. Wang Bi describes the step down: 不復能以恩仁令物，而賴威權也, “no longer able to move creatures by kindness and humaneness, this one leans on awe and power”. European readers will think of Machiavelli, who asked in 1513 whether it is better for a prince to be loved or feared, and chose fear as the safer of the two. The Laozi has the same pair and the opposite order: loved is second, feared is third. And it puts both below a kind of ruler that Machiavelli’s question does not allow for.",
+      "src": [
+        "Wang Bi commentary on Laozi 17",
+        "Han Feizi, “Er bing” (二柄)",
+        "Machiavelli, Il Principe, ch. 17"
+      ]
+    },
+    "wu": {
+      "kind": "etymology",
+      "title": "侮: the last rung",
+      "body": "侮 is a person, 亻, beside a sound part. The Shuowen glosses it with one hard word: 傷也, “to wound”. It is contempt that is shown: to insult, to bully, to make sport of. So at the bottom the direction turns around. Three lines told what those below feel about the one above: they know, they love, they fear. Now those below do the wounding. Wang Bi says how a state arrives here: 不能法以正齊民，而以智治國，下知避之，其令不從. “Unable to keep the people level by law and uprightness, this one rules the state by cleverness. Those below know how to slip past it, and the orders are not followed.” Rule by cleverness teaches the people to be clever. Fear lasts while the police are efficient. After that it turns to jokes, and then to open scorn. Where the Mawangdui silk texts are reported to read 其下, “the lowest”, the received text has a third “next”.",
+      "src": [
+        "Shuowen Jiezi, 人部: 侮，傷也。从人𣫭聲。",
+        "Wang Bi commentary on Laozi 17",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "xin": {
+      "kind": "etymology",
+      "title": "信: a person beside their word",
+      "body": "信 is 亻, a person, and 言, speech. The Shuowen calls it a joined-meaning graph, 會意, and defines it 誠也: “true, sincere”. It is the state in which what a person says and what is so are one thing. English must divide it. “Trust” is what I give you. “Trustworthiness” is what you have. “Good faith” is how we deal. “Truth” is a quality of a statement. “Faith” in English also means religious belief, which 信 does not mean in this period. All of them are 信. The word was a political tool. A commander proved a border treaty with a 信, a tally split in two halves; a letter is still a 信 in modern Chinese. Shang Yang, it is told, began his reforms by paying a man a great sum to carry a pole across the market, only to show that the state’s word would be kept.",
+      "src": [
+        "Shuowen Jiezi, 言部: 信，誠也。从人从言。會意。",
+        "Shiji, “Shang jun liezhuan”"
+      ]
+    },
+    "xin-echo": {
+      "kind": "gap",
+      "title": "Whose trust is short?",
+      "body": "信不足焉，有不信焉. Eight characters, and 信 twice, with no person named. Word for word: “trust not enough in it; there is not-trust in it”. Who lacks, and who answers? One reading: the ruler is not worthy of trust, and so the people do not trust. Another: the ruler does not trust the people enough, with laws for each case and a watcher at each door, and so the people become untrustworthy. The grammar permits both, and they are two halves of one circle. Legge fills the gaps with three brackets, “(in the Tao)”, “(in the rulers)”, “(in the people)”, and so decides each question that the Chinese left open. The first 焉 can also be read as “then”, at the head of the second half; the Mawangdui silk texts are reported to write 案 there, with that sense. The whole line returns, word for word, in passage 23. In your own house or work: where did the lack of trust start?",
+      "src": [
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "you": {
+      "kind": "variant",
+      "title": "悠 or 猶: far off, or wary",
+      "body": "The received text opens the last part with 悠兮: “far, long, unhurried”, the word for a distant view or a slow river. The Shuowen’s gloss for 悠 is 憂也, “care, sorrow”; the sense “far” is from old songs such as 悠悠蒼天, “far, far, the blue heaven”. The Mawangdui silk texts are reported to write 猶呵. That is the 猶 of passage 15, where the masters were “watchful, as if in fear of neighbours on four sides”, half of the word for hesitation. Legge’s base text had it too; he writes “How irresolute did those (earliest rulers) appear”. So there are two portraits of the best ruler at the moment of speech. In one, the ruler is far away and at ease. In the other, the ruler weighs each word like a person on thin ice. Both lead to the same act: few words. Which of the two do you see when you think of someone whose rare words carry weight?",
+      "src": [
+        "Shuowen Jiezi, 心部: 悠，憂也。从心攸聲。",
+        "Mawangdui Laozi A and B",
+        "Shijing, Wang feng, “Shu li” (黍離)"
+      ]
+    },
+    "guiyan": {
+      "kind": "wordplay",
+      "title": "貴言: words priced high",
+      "body": "貴 has 貝, a cowrie shell, at its foot. Cowries were early money, and the Shuowen defines the word 物不賤也, “of goods: not cheap”. So 貴言 is “to treat words as costly”. You do not spend a costly thing often. The phrase is a merchant’s way to say “speaks little”. It belongs to a line of sayings on speech that runs through the book: the sage practises 不言之教, “the teaching without words” (2); 多言數窮, “many words are soon used up” (5); 希言自然, “sparse words are natural” (23); 知者不言, “one who knows does not speak” (56). Remember the setting. A Warring States government spoke all the time: edicts, law codes, proclamations read out in each district, slogans for war. The best ruler in this passage issues almost none. What would your own words be worth if you priced them as high?",
+      "src": [
+        "Shuowen Jiezi, 貝部: 貴，物不賤也。从貝臾聲。"
+      ]
+    },
+    "gong": {
+      "kind": "gap",
+      "title": "功: the credit that nobody claims",
+      "body": "功成事遂: “the 功 is complete, the task has gone through”. 功 is 工, work, with 力, strength, and the Shuowen’s definition is political: 以勞定國也, “to settle the state by toil”. It is achievement that earns a name, a rank, a reward; armies kept ledgers of 功 by heads taken. English “success” or “work” loses the question that the word always carries: to whom is it credited? The book answers the same way each time. 功成而弗居, “the work is done and one does not dwell in it” (2). 功遂身退, “the work goes through, the person steps back” (9). Here the sentence has no subject at all. The grammar itself does what the ruler does: the doer is absent from the sentence about the deed. The Mawangdui silk texts are reported to reverse the pairs, 成功遂事, with no change of sense.",
+      "src": [
+        "Shuowen Jiezi, 力部: 功，以勞定國也。从力从工，工亦聲。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "baixing": {
+      "kind": "history",
+      "title": "百姓: who had a name",
+      "body": "百姓 is “the hundred clan-names”. In early Zhou texts the phrase means the great families: only nobles had a 姓, and commoners had none. By the Warring States the old nobility had lost its hold, family names spread downward, and 百姓 came to mean the common people, as it does today. The Laozi stands at the turn; in passage 5 heaven and the sage treat the 百姓 as straw dogs, and in passage 49 the heart of the 百姓 is the sage’s heart. The word 姓 has a story of its own. It is written 女, woman, and 生, to be born, and the Shuowen says 人所生也: “that from which a person is born”. It adds a legend: the holy mothers of old conceived by the touch of heaven. Several of the oldest clan names are written with 女: 姬, 姜, 姚. A name, in this graph, comes from the mother.",
+      "src": [
+        "Shuowen Jiezi, 女部: 姓，人所生也。古之神聖母，感天而生子，故稱天子。从女从生，生亦聲。"
+      ]
+    },
+    "ziran": {
+      "kind": "gap",
+      "title": "自然: “self-so”, and not yet “Nature”",
+      "body": "This is the first time the book says 自然, and it puts the word in the mouths of farmers. 自 is “self” or “from itself”. 然 is “so, thus”. Together: “so of itself”, “self-so”. It is a description of how a thing happened, and you could say it of a river or of a habit. In modern Chinese 自然 is the noun “Nature”, and English versions often carry that back: “we are natural”, “it happened naturally”. The noun came later. Here nothing called Nature exists as a realm apart from people. There is one more open point. 謂我自然 can be “say: we are so of ourselves”, the usual reading, or “say of me: self-so”, where “me” is the ruler. We follow the first; Wang Bi’s comment [[supports it|wangbi]]. The word returns in passages 23, 25, 51, and 64, and in 25 it is the last thing that even Dao follows."
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: they do not know how it came to be so",
+      "body": "Wang Bi describes the best ruler in words from passage 2: 居無為之事，行不言之教，不以形立物，故功成事遂，而百姓不知其所以然也。 “This one manages affairs by not-forcing and practises the teaching without words, and does not use outward forms to set things up. So the work is done and the task goes through, and the hundred families do not know that by which it came to be so.” His last four characters, 其所以然, “that by which it is so”, play on 自然. The people say “self-so” because the cause is not visible to them. Is that a deception? Wang Bi thinks not, and gives a reason from the body in his comment on [[the trust line|xin-echo]]: 御體失性，則疾病生, “drive the body against its nature and sickness is born”. A body in health does not notice its own organs. The people are right about what they did.",
+      "src": [
+        "Wang Bi commentary on Laozi 17"
+      ]
+    },
+    "song": {
+      "kind": "history",
+      "title": "The old man who beat the ground",
+      "body": "Chinese tradition has a small story that could stand as a picture for this passage. In the time of the sage-king Yao, the land was at peace. An old man by the road “struck the ground”, 擊壤 (some old sources say this was a game played with two pieces of wood), and sang: 日出而作，日入而息，鑿井而飲，耕田而食，帝力於我何有哉. “Sun comes up, I work. Sun goes down, I rest. I dig a well and drink. I plough a field and eat. The emperor’s power: what is that to me?” The story is told as the highest praise of Yao. He ruled so well that a subject could think he owed him nothing. The song is preserved in Han and later books, and nobody knows its real age. The old man is not ungrateful, and he is not wrong. He is the evidence. How would you measure a leader, if the best result is that no one thinks to thank them?",
+      "src": [
+        "Huangfu Mi, Diwang shiji (3rd century CE)",
+        "Wang Chong, Lunheng, “Yi zeng” (藝增), an earlier form"
+      ]
+    },
+    "decline": {
+      "kind": "history",
+      "title": "One poem cut in two",
+      "body": "We read 17 and 18 as two passages. The oldest copy does not. On the Guodian bamboo slips, of about 300 BCE, the text of this passage runs on with no break into the next, joined by 故, “and so”: …the hundred families say, we are so of ourselves; and so, when the great Dao falls to ruin, there are humaneness and right conduct. The Mawangdui silk texts are reported to keep that 故 at the head of passage 18. Read together, the four rulers are four ages. First no one notices rule. Then rulers are loved, and the teachers of virtue appear. Then they are feared, and the law-makers appear. Then they are scorned. The chapter division was added in the Han. Passage 38 tells the same decline at full length, as a ladder of five rungs.",
+      "src": [
+        "Guodian Laozi C",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: seven brackets in a short passage",
+      "body": "Count Legge’s brackets: “(the people)”, “(their rulers)”, “(in the Tao)”, “(in the rulers)”, “(in the people)”, “(earliest rulers)”, “(by their reticence)”. Seven of them, for a Chinese text of forty-odd characters. Each one is honest; he marks what he adds. Together they show how much an English sentence needs that the Chinese does not give: a subject, an object, an owner for each feeling. Two of his choices came from his base text: “did not know” ([[不知|zhi-you]]) and “irresolute” ([[猶|you]]). One came from his calling: 信 becomes “faith (in the Tao)”, a word from the pulpit, and the breakdown of trust between ruler and people becomes a failure of belief. But his last line is good: “We are as we are, of ourselves!” He kept 自然 as a plain phrase. He did not make it “Nature”.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Help so that they say “we did it”",
+      "body": "Choose one thing today in which you have some power over another person: a child with homework, a colleague with a problem, a friend who asks for advice. Before you act, place yourself on the ladder. Do you want to be thanked? That is the second rung. Do you want to be obeyed? That is the third. Then try the first. Do the smallest thing that removes the obstacle, a question in place of an answer, or a tool left within reach, and say little. Afterwards listen to how they tell it. If they say “I worked it out”, do not correct them. Notice the small ache of not being credited. That ache is the exact price of the first rung, and the passage says the price is worth paying."
+    }
+  },
+  "lenses": {
+    "ground": "A ladder of four rungs, told from below. Of the [[highest|taishang]], the people [[know only that someone is there|zhi-you]]. The next is [[loved and praised|qin]]. The next is [[feared|wei]]. The last is [[scorned|wu]]. Then one line that explains the fall, with the same word twice: where [[trust|xin]] is short, [[there is no trust|xin-echo]]. Then a portrait of the first ruler in three strokes: far off, or wary ([[the copies differ|you]]); [[sparing with words|guiyan]]; and absent from the sentence that reports the [[success|gong]]. The last line is spoken by the [[hundred families|baixing]], and it is the first place in the book where the people speak: “[[We are so of ourselves.|ziran]]” The passage has no sage and no Dao in it. It is a short theory of government in forty-four characters, and in the oldest copy it is [[the first half of a longer piece|decline]].",
+    "inner": "Read the four rulers as four ways in which the mind governs itself. In the last, you scorn your own resolutions: you make rules and break them and think less of yourself each time. In the third, you rule yourself by fear: of failure, of shame, of the voice that scolds. In the second, you rule by self-praise and the pleasure of being good; it works, and it needs an audience. In the first, there is direction and almost no ruler: you eat when hungry and work when it is time, and the day gets done. Contemplative practice often gets stuck on the second rung, in love with its own virtue. The [[trust line|xin-echo]] applies inside as well. A mind that does not trust the body sets a guard on it, and the body learns to cheat. What in you already runs [[of itself|ziran]], if you let it?",
+    "leading": "This is the passage that leaders quote, and it is easy to quote wrongly. It does not say: hide your power so that it works better. That is the reading of Han Fei, who took much from this book and made the ruler’s invisibility a method of control. In the text, the people’s last sentence is true. They did do it. The ruler’s work was of another kind: to keep [[trust|xin]] whole, to speak [[rarely|guiyan]] so that words kept their value, and to stay out of the account of [[the success|gong]]. Note where the popular leader stands: [[second|qin]]. To be loved and praised is good, and it moves the people’s eyes upward and away from their own work. [[Wang Bi’s test|wangbi]] is the health of a body: the organ that works well is not felt. Which rung does your team’s talk about you put you on?",
+    "body": "A good teacher of movement shows this passage with the hands. The worst kind of correction pushes a student’s limb into place; the student resists, or [[learns nothing|wu]]. Better is the firm instruction that the student obeys from [[fear of doing wrong|wei]]. Better again is warm praise. Best is a touch so light, or a change in the task so small, that the student’s body finds the line and the student says: I felt it myself. The same holds for your own body. You can force the breath to slow, and it will fight you; you can coax it; or you can make room and let it settle [[of itself|ziran]]. The first way is tiring, and it also breaks [[trust|xin-echo]] between you and the animal that you are. Sit for a minute and do not manage the breath at all.",
+    "nature": "No one governs a forest, and yet it is in order. A wolf pack or a herd has leaders, but mostly they lead by where they walk and when they stop, without display. The sun does the largest work on earth and issues no instruction; an [[old man in a story|song]] could sing that he owed it nothing. The word that the people use in the last line, [[自然|ziran]], later became the Chinese word for Nature, and this passage shows why: nature is the great case of work done with no credit claimed. A gardener knows the first rung. You do not make a plant grow. You see to the soil, the water, and the light, and stand back; and the plant, if it could speak, would say that it grew by itself. It would be right.",
+    "practice": "Do the [[one act of help with no credit|practice]] today, and listen for “I did it myself”. Then try the passage on your speech. For one meeting or one family meal, [[price your words high|guiyan]]: say half as much as usual, and see whether the others say more. If you lead anything, write down the last three things your group did well, and ask of each one: could they tell that story without my name in it? If you want to see how hard this passage is for a language like English, read [[Legge’s seven brackets|legge]]. And if you want the oldest and shortest form of the ideal, read [[the song of the old man who beat the ground|song]]."
+  },
+  "glyph": "信",
+  "plates": [
+    {
+      "c": "信",
+      "title": "A person stands by their word",
+      "lesson": "Two parts, and both are easy to read. On the left is 亻, the side form of 人, a person. 人 began as a figure in profile, bent a little forward, with one arm down; as a side part it stands up straight in two strokes. On the right is 言, speech. Look at its foot: 口, a mouth. Above the mouth are four strokes. The Shuowen treats the top as a sound part, and it gives a fine distinction in its definition: 直言曰言，論難曰語, “to speak straight out is 言; to argue a matter is 語”. The oracle-bone form of 言 is variously explained: older accounts see a tongue or a flute that rises from the mouth, and many scholars now see 辛, a chisel-like blade, set over 口. Put them together: a person, and words. The Shuowen calls 信 a joined-meaning graph, 會意, and it is one of the dictionary’s own model cases of that class. Its sense is that the person and the word do not come apart. See what else 言 makes: 語 (talk), 誠 (sincere: words made complete, 成), 記 (a record), 譽 (the [[praise|qin]] of this passage), and 謂, “to say”, in the last line. See 亻 at work too: 仁 (humane: a person and two), 伐 (to attack: a person and a halberd), 侮 ([[to scorn|wu]]), 休 (to rest: a person by a tree). The passage uses [[信|xin]] twice in eight characters, and the second use is the echo of the first: your word, and then what comes back.",
+      "brush": "Nine strokes: two for the person, seven for the words. The person is a stroke that falls to the left, and a vertical that starts under its middle. The vertical must be plumb; a 信 with a leaning person does not persuade. Then 言. A dot on top, like a first breath. Then a long level stroke. This is the widest line in the character, and it reaches left over the person’s shoulder. Then two shorter level strokes. Watch these three lines and the gaps between them: they are a stack of spoken lines, and a good hand makes each a different length, with even space between, so that they do not look like a ladder. Last, the mouth: left side; top and right side in one stroke with a square corner; and the base, which closes it. In running script the three level strokes often become a dot and a wave, and the mouth one loop."
+    },
+    {
+      "c": "姓",
+      "title": "Born of a woman",
+      "lesson": "女 on the left, 生 on the right. 女 is a woman. The Shuowen says only 象形, “a picture”, and the old forms are commonly described as a figure who kneels with the arms crossed in front. 生 is a picture too, and the Shuowen reads it so: 象艸木生出土上, “it shows a plant that comes up out of the soil”. The level line at the foot is the ground and the rest is the shoot. It means to be born, to grow, to be alive, and it is raw, fresh, a student (學生), a lifetime (一生). Set a woman beside a birth and you have 姓: the name that tells from whom you were born. The Shuowen defines it 人所生也 and says that 生 gives both sense and sound. Some of the oldest clan names keep the woman in the graph itself: 姬, the name of the Zhou royal house; 姜, the house of Qi; 姚 and 姒, the names given to the lines of the sage-kings Shun and Yu. Scholars have long seen in this a memory of descent traced through mothers; that is a theory, and the graphs are the fact. A second word for a family name, 氏, marked a branch, a fief, or an office, and was held by men. In time the two merged. So the [[hundred families|baixing]] who speak at the end of the passage carry, in the word for them, a woman and a sprout. The Laozi’s own word for the source is 母, mother.",
+      "brush": "Eight strokes: three and five. 女 has an order that surprises learners. The first stroke goes down to the left, turns, and runs down to the right: one bent line. The second falls to the left across it. The third is the level stroke, written last, and as a left-hand part it is short and rises a little toward 生. Then 生: a short falling stroke at the upper left; a level stroke; a second level stroke; the vertical through the centre; and the long base line, the ground. Watch the three level lines of 生. The second is a little shorter than the first, and the last is the widest stroke in the character; the shoot stands on it. The woman must give room: her right side stays narrow, and 生 does not touch her. In clerical script, the script of the Han stone inscriptions, the base of 生 ends in a flared tail."
+    }
+  ]
+}

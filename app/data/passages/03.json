@@ -1,0 +1,259 @@
+{
+  "n": 3,
+  "title": "Empty Heart, Full Belly",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使民心不亂。",
+      "gloss": {
+        "1": "to exalt, to set above (the Mawangdui silk texts are reported to write 上)",
+        "2": "worthy, able; a man of worth",
+        "4": "to cause, to make; to keep (someone) in a state",
+        "7": "to pull at one thing; to contend",
+        "10": "to prize, to hold dear; costly",
+        "14": "goods, wares; things that change hands",
+        "20": "to steal; a thief",
+        "23": "xiàn: to show, to display. Read jiàn: to look at",
+        "25": "to want; desire",
+        "29": "heart, the organ of thought and feeling",
+        "31": "disorder, tangle; in old texts also “to put in order”"
+      }
+    },
+    {
+      "text": "是以聖人之治，虛其心，實其腹，",
+      "gloss": {
+        "5": "to put in order, to govern; to treat an illness",
+        "7": "empty; to empty",
+        "8": "their; its; one’s own",
+        "11": "full, solid; to fill",
+        "13": "belly"
+      }
+    },
+    {
+      "text": "弱其志，強其骨。",
+      "gloss": {
+        "0": "weak, pliant; to weaken",
+        "2": "aim, will, ambition",
+        "6": "bone, frame"
+      }
+    },
+    {
+      "text": "常使民無知無欲。",
+      "gloss": {
+        "0": "always, as a constant rule",
+        "4": "knowing; also cleverness (the word later written 智)"
+      }
+    },
+    {
+      "text": "使夫智者不敢為也。",
+      "gloss": {
+        "1": "fú: those (a pointing word)",
+        "2": "clever, knowing",
+        "5": "to dare"
+      }
+    },
+    {
+      "text": "為無為，則無不治。",
+      "gloss": {
+        "0": "wéi: to do, to act",
+        "2": "wéi: doing, forcing (the object of the first 為)",
+        "7": "in order, well governed"
+      }
+    }
+  ],
+  "rendering": [
+    "Not [[exalting the worthy|shangxian]]",
+    "keeps the people from [[contending|zheng]].",
+    "Not prizing [[goods hard to get|huo]]",
+    "keeps the people from [[turning thief|dao]].",
+    "Not [[showing|xian]] what can be desired",
+    "keeps the people’s [[heart|xin]] from [[disorder|luan]].",
+    "",
+    "For this reason, the sage’s [[way of ordering|zhi]]:",
+    "[[empty the heart|xu-xin]], fill the [[belly|fu]],",
+    "weaken the [[will|zhi-will]], strengthen the [[bones|gu]].",
+    "Always keep the people [[without knowing, without wanting|wuzhi]].",
+    "Keep [[the clever ones|zhizhe]] from daring to act.",
+    "",
+    "[[Act by not-forcing|wei-wuwei]],",
+    "and nothing is left unordered."
+  ],
+  "notes": {
+    "shangxian": {
+      "kind": "geopolitics",
+      "title": "尚賢: a slogan of the Mohists",
+      "body": "尚賢, “exalt the worthy”, was a party slogan. Three chapters of the Mozi have it as their title. Mozi (fifth century BCE) attacked rule by noble birth and asked rulers to raise able men from any class: 有能則舉之, “if a man has ability, raise him”. Confucians asked for nearly the same; the Analects says 舉賢才, “raise the worthy and able”. Rulers listened, because states that hired talent won wars. Courts competed for advisers, and able men went from state to state and sold their plans. So the first three characters of this passage reject the main reform idea of the age. [[Wang Bi|wangbi]] softens the point: use the able, he says, but why glorify them? The first plate shows what was inside the word 賢.",
+      "src": [
+        "Mozi, “Shang xian” (chapters 8–10)",
+        "Analects 13.2"
+      ]
+    },
+    "zheng": {
+      "kind": "etymology",
+      "title": "爭: two hands, one thing",
+      "body": "The Shuowen defines 爭 in one word: 引也, “to pull”. The graph is commonly explained as two hands that pull at one object from opposite sides. That is the whole idea of contention in this book: one prize, two hands. The sentence gives the cause. A court sets one kind of person above the rest, the prize now exists, and hands reach for it. Passage 2 said the same of beauty and the good: to name the high thing is to make the low one. The word returns often. Water does not 爭 (passage 8). The sage does not 爭, and so no one under heaven can 爭 with the sage (passages 22 and 66). The last line of the whole book ends on it: 為而不爭, to act and not contend.",
+      "src": [
+        "Shuowen Jiezi, 𠬪部: 爭，引也。"
+      ]
+    },
+    "huo": {
+      "kind": "history",
+      "title": "Goods hard to get",
+      "body": "難得之貨: goods that are hard to obtain. In the Warring States these were jade, pearls, rhinoceros horn, fine bronzes, and horses from the steppe: things from far away that courts used to show rank. The best-known case is the jade disc of Mr He. About 283 BCE the king of Qin offered fifteen walled cities for it to the weaker state of Zhao, and both courts expected a trick. A stone had become worth more than cities because kings prized it. The phrase returns in passage 12, where such goods “hinder a person’s walk”, and in passage 64, where the sage does not prize them. The text does not blame the thief first. It looks at the 貴, the prizing, and prizing starts at the top. What makes a thing “hard to get” in your world: the thing, or the wanting?",
+      "src": [
+        "Shiji 81, biography of Lin Xiangru",
+        "Laozi 12, 64"
+      ]
+    },
+    "dao": {
+      "kind": "etymology",
+      "title": "盜: one who drools at a dish",
+      "body": "The Shuowen explains 盜 as a small scene. The definition: 私利物也, “to take private gain from things”. Then the parts: 从㳄，㳄欲皿者, “from 㳄: one who drools and wants the dish”. 㳄 is water beside a person with an open mouth, and the Shuowen calls it 慕欲口液也, “the mouth-water of longing”. Below is 皿, a food dish. So a thief, in the script, is a mouth that waters in front of another’s bowl. That fits the sentence well. The line does not treat theft as a kind of person. It treats theft as a result: goods are prized and shown, and mouths water. In classical usage 盜 is the one who takes by stealth; the violent bandit is 賊. The second plate takes the character apart.",
+      "src": [
+        "Shuowen Jiezi, 㳄部: 盜，私利物也。从㳄，㳄欲皿者。",
+        "Shuowen Jiezi, 㳄部: 㳄，慕欲口液也。从欠从水。"
+      ]
+    },
+    "xian": {
+      "kind": "gap",
+      "title": "見: to see, or to show",
+      "body": "見 is “to see”, read jiàn. The same graph, read xiàn, is “to appear, to show”; later writers used 現 for that sense. So 不見可欲 has two readings. One: do not display the things that can be desired. This is advice to those who own such things, and first to the court. Two: do not look at what can be desired. This is advice for one’s own eyes. Legge chose the first and added an object: “not to show them”. Our “showing” follows the same reading, because the first two lines are also about what a ruler does in public. But keep the second one in mind. It turns the sentence from policy to practice, and [[the next lines|xu-xin]] can turn the same way. 可欲 is exact too: “what can be wanted”. The desire is not yet there."
+    },
+    "xin": {
+      "kind": "gap",
+      "title": "心: heart, not “mind”",
+      "body": "心 is a picture of the heart, the organ in the chest. Early China did not put thought in the head and feeling in the breast. One organ did both. Mencius says: 心之官則思, “the office of the heart is to think”. So translators write “mind”, or “heart-mind”. “Mind” alone brings a Western split: a thinking part above, a body below. This passage does not have that split. It sets the heart beside the belly, the will beside the bones, as four parts of one body. Note a detail of the text: Mawangdui Silk B is reported to have no 心 in the third sentence (Silk A is damaged here). It reads 使民不亂, “keeps the people from disorder”. The received text moved the disorder inside. Which is first, do you think: disorder in the heart or disorder in the streets?",
+      "src": [
+        "Mencius 6A15",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "luan": {
+      "kind": "wordplay",
+      "title": "亂 and 治: one word defines the other",
+      "body": "The passage runs from 亂, disorder, to 治, order, in its last word. Now read the Shuowen on 亂. The definition is one character: 治也, “to put in order”. The dictionary defines disorder by its opposite. The graph is commonly explained as two hands at work on tangled silk on a frame. The tangle and the untangling are one picture. The oldest texts use 亂 in both senses. King Wu of Zhou says in a line that the Analects quotes: 予有亂臣十人, “I have ten ministers who 亂”, and it means ten ministers who govern well. So the two poles of this passage were once one word. Passage 2 said that opposites give birth to each other. Here the script agrees. Is the act of ordering already a kind of disorder?",
+      "src": [
+        "Shuowen Jiezi, 乙部: 亂，治也。从乙，乙，治之也；从𤔔。",
+        "Analects 8.20"
+      ]
+    },
+    "zhi": {
+      "kind": "etymology",
+      "title": "治: order, written with water",
+      "body": "治 has 氵, water, on the left. The Shuowen lists it only as the name of a river. The sense “to govern” is commonly explained from the control of water: to dredge channels and guide a flood. The founding story of Chinese rule is such a story. Yu the Great did not dam the flood, as his father did and failed. He cut channels and led the water to the sea. The same word means to treat an illness. So 聖人之治 is “the sage’s ordering”, and the word carries a method inside it: order comes when you give things their channel. English “govern” comes from a Greek word for steering a ship; “rule” comes from a straight stick. Note the aim also. The passage wants 治, a state of order. It does not speak of progress.",
+      "src": [
+        "Shuowen Jiezi, 水部: 治，水。出東萊曲城陽丘山，南入海。从水台聲。"
+      ]
+    },
+    "xu-xin": {
+      "kind": "gap",
+      "title": "Whose heart, whose belly?",
+      "body": "虛其心，實其腹，弱其志，強其骨. Each line has 其: “their”, “its”, or “one’s own”. English must choose, and the choice decides the passage. If 其 is the people, as [[Legge|legge]] takes it, the lines are a policy: keep subjects simple, fed, without ambition, and strong for work. Rulers did read it so, and the Legalists built harder versions; the reader should feel that edge and not explain it away. If 其 is the sage, the lines are self-cultivation. The old Heshang Gong commentary says that the sage orders the state as the sage orders the body, and reads the four lines as care of the self: remove cravings, hold to the One, be soft and yielding, guard the essence so that the bones are firm. We write “the heart”, “the belly”, to leave 其 open. Read the stanza twice, once each way.",
+      "src": [
+        "Heshang Gong commentary on Laozi 3"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: what knows and what does not",
+      "body": "Wang Bi comments: 心懷智而腹懷食，虛有智而實無知也。 “The heart holds cleverness and the belly holds food. Empty the part that has cleverness; fill the part that has no knowing.” And: 骨無知以幹，志生事以亂。 “Bones know nothing, and so they serve as the trunk. The will breeds affairs, and so it makes disorder.” He sorts the four body words into two kinds. Heart and will scheme. Belly and bones only hold a person up. On the first line he is careful: 賢，猶能也, “worthy means able”, and 唯能是任，尚也曷為, “give the task to the able, and that is all; why exalt them?” He does not ask a ruler to refuse talent. He objects to the glory, 榮過其任, “honor that is larger than the office”.",
+      "src": [
+        "Wang Bi commentary on Laozi 3"
+      ]
+    },
+    "fu": {
+      "kind": "gap",
+      "title": "腹: a real belly",
+      "body": "Modern versions often make the belly a symbol: a “center”, a “core”. First it is a belly, and the line is about grain. The Shuowen defines 腹 as 厚也, “the thick part”. Every school knew that order depends on food. The Guanzi says: 倉廩實則知禮節, “when the granaries are full, the people know ritual and restraint”. It uses the verb of our line, 實, to fill. The belly has a second quality: it knows “enough”. The eye can always want one more thing; a belly gets full and stops. Passage 12 makes this the sage’s rule: 為腹不為目, “for the belly, not for the eye”. Later breath practice placed the body’s center below the navel and read this line as a direction for attention. Both readings need a real body. When did you last feel plainly, in the body, that you had enough?",
+      "src": [
+        "Shuowen Jiezi, 肉部: 腹，厚也。从肉复聲。",
+        "Guanzi, “Mumin”",
+        "Laozi 12"
+      ]
+    },
+    "zhi-will": {
+      "kind": "gap",
+      "title": "志: why weaken the will?",
+      "body": "志 is the heart, 心, under a part that the Shuowen takes as 之, “to go”: a heart on its way to something. The Shuowen defines it as 意也, “intention”. It is aim, purpose, ambition. For Confucius it is a good word: 吾十有五而志于學, “at fifteen I set my 志 on learning”. A man of the 士 class was praised for having 志. The modern West agrees: a strong will is a virtue, and a weak will is a failure of character. So 弱其志 sounds wrong to almost every reader, then and now. [[Wang Bi’s|wangbi]] answer is short: the will breeds affairs. An aim makes a person bend each day toward one point, and it makes rivals. 弱 here is “to make pliant”; the Shuowen pictures it as a thing that bends. What would you keep, if your strongest aim became a little softer?",
+      "src": [
+        "Shuowen Jiezi, 心部: 志，意也。从心之聲。",
+        "Analects 2.4"
+      ]
+    },
+    "gu": {
+      "kind": "etymology",
+      "title": "骨: the pit of the fruit",
+      "body": "The Shuowen defines bone with a picture from fruit: 肉之覈也, “the kernel of the flesh”. 覈 is the hard stone inside a peach or a plum. Flesh is the soft part that the world sees and that spoils; bone is the pit that holds the form. The four lines of the stanza go inward in this way. Heart and will are the parts that reach out and plan. Belly and bones are the parts that stay. [[Wang Bi|wangbi]] says bones “know nothing” and for that reason can be the trunk of a person. In the reading as policy, strong bones are strong farmers and soldiers. In the reading as practice, they are a frame that carries you with less effort from the will. The third plate shows the character, which has a skull and flesh in it.",
+      "src": [
+        "Shuowen Jiezi, 骨部: 骨，肉之覈也。从冎有肉。"
+      ]
+    },
+    "wuzhi": {
+      "kind": "gap",
+      "title": "無知無欲: “ignorance”?",
+      "body": "常使民無知無欲: “always keep the people without knowing, without wanting”. This is the hardest line in the passage, and it has a dark history. Passage 65 says that the old masters of Dao did not make the people bright; they kept them 愚, simple. In 213 BCE the Qin state burned books to keep the people from using the past against the present. A reader may fairly ask if this line helped. There is another side. 知 in early texts is also the word for cleverness and scheming, later written 智; the next line uses that graph. The knowing that the passage fears is the kind that passage 2 showed: to know beauty as beauty and so make the ugly. And the speaker claims the same simplicity: 我愚人之心也哉, “mine is the heart of a fool” (passage 20). Do not settle this too quickly.",
+      "src": [
+        "Laozi 20, 65",
+        "Shiji 6, on the Qin burning of books"
+      ]
+    },
+    "zhizhe": {
+      "kind": "variant",
+      "title": "Those who know do not dare",
+      "body": "使夫智者不敢為也: “keep those clever ones from daring to act”. 夫 here is a pointing word, “those”, and it has a cold sound. The first readers could name such men: the travelling persuaders who sold plans for alliance and war to any court that paid. The Mawangdui silk texts are reported to read the end of the passage differently: 使夫知不敢，弗為而已，則无不治矣. This is commonly divided as: “keep those who know from daring; simply do not act, and then nothing is left unordered”. There the last sentence is plain, 弗為, “do not do it”. The received text has the paradox 為無為, [[“do the not-doing”|wei-wuwei]]. The silk copies are older than any copy of the received text. The received reading gave the tradition one of its best-known phrases.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "wei-wuwei": {
+      "kind": "wordplay",
+      "title": "為無為: a verb that eats itself",
+      "body": "Three characters, and the first and third are the same: 為無為. The first 為 is a verb, “do”. Its object is 無為, “not-doing”, the term that passage 2 introduced. So the phrase is “do not-doing”, or “act without acting”. It is not a statement that nothing happens. The grammar keeps an act and removes the forcing from it. Passage 63 extends the pattern: 為無為，事無事，味無味, “do not-doing, work at no-work, taste the tasteless”. The result clause has a double negative: 無不治, “nothing is not in order”. Chinese likes this form; it is stronger than a plain “all”. English wants to resolve the paradox with an adverb such as “effortlessly”. The Chinese gives no adverb. It gives the same word twice with a “without” between.",
+      "src": [
+        "Laozi 63"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: “(tries to)”",
+      "body": "Legge translates the hard reading and then softens it with a bracket. His sage “empties their minds, fills their bellies, weakens their wills, and strengthens their bones”: “their” each time, so the lines are policy on the people. Then: “He constantly (tries to) keep them without knowledge and without desire”. The words in brackets are his. The Chinese has 常使, “always causes”. A Victorian scholar who believed in schools and missions could not easily praise a ruler who keeps people without knowledge, and the bracket shows that. He also writes “minds” for [[心|xin]] and “men of superior ability” for 賢, which removes the moral side of that word. His plain “their” has one merit. It does not hide the reading that rulers in China in fact used.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "One day for the belly",
+      "body": "For one day, take the four lines as directions for your own body. Empty the heart: at three set times, stop and drop the plan that you are turning over; it will come back by itself. Fill the belly: eat one plain meal slowly and stop at the point of enough. Weaken the will: choose one thing that you are pushing, and for today only, do not push it. Strengthen the bones: walk, carry something, stand well. In the evening, ask two questions. Did anything fall into disorder because you pushed less? And what did you not look at today, because you did not go where it was shown?"
+    }
+  },
+  "lenses": {
+    "ground": "Three causes come first, each with the same shape: a thing not done above, and a trouble that does not arise below. No [[exalting of the worthy|shangxian]], and no [[contending|zheng]]. No prizing of [[rare goods|huo]], and no [[thieves|dao]]. No [[showing|xian]] of the desirable, and no [[disorder|luan]] in the heart. Then the sage’s way of [[ordering|zhi]], in four body words: heart, belly, will, bones. Two are emptied or weakened, and two are filled or made strong. Then two hard lines about [[knowing|wuzhi]] and about [[those who know|zhizhe]]. The close is three characters, [[為無為|wei-wuwei]], and a double negative. The verb 使, “to cause, to keep”, appears five times. The passage is about what causes what in a state.",
+    "inner": "Read with [[其 as one’s own|xu-xin]], the passage is a map of attention. The first stanza names three movements that pull a person out of place: comparing oneself with those who are ranked higher, wanting what is rare, and looking at what stirs desire. The second stanza gives the correction as a shift of weight inside the body. Attention leaves the planning [[heart|xin]] and the reaching [[will|zhi-will]], and settles in the [[belly|fu]] and the [[bones|gu]], which do not scheme. This is not a rejection of thought. It is a change of the place from which a person lives. “Without knowing, without wanting” then describes a moment that everyone has had: full, quiet, and with no opinion. The [[clever one|zhizhe]] inside does not dare to start. Order is what remains.",
+    "leading": "What the top prizes, the whole house fights for. A leader who makes heroes makes rivals in the same act. A leader who displays rewards also teaches people to watch the rewards and not the work. The passage puts the cause of [[contention|zheng]] and [[theft|dao]] at the top; it does not put it in bad character below. [[Wang Bi|wangbi]] keeps this practical: give the task to the able person, and do not add glory larger than the task. The second half is harder, and a leader should read it with care. “Keep them without knowing” was used by states to keep people small, and [[that history|wuzhi]] is real. The better test is to apply the four lines [[to oneself first|xu-xin]]. A leader with a quiet heart and a soft will stirs less. That may be the whole method.",
+    "body": "The stanza is a posture. Every internal art in China teaches some form of it: the chest empty, the belly full; intention light, structure strong. If the upper body is full of effort and the [[will|zhi-will]] is tight, the breath is high and the stance is easy to topple. Let the [[heart|xin]] area soften and the breath drop, and the [[belly|fu]] fills by itself. Then the [[bones|gu]] carry the weight, and the muscles do less. Try it now, seated: release the chest, breathe low, feel the sitting bones and the spine hold you. The Shuowen calls bone the kernel of the flesh. A body that rests on its kernel has no need for a tense will. That is a small case of [[acting by not-forcing|wei-wuwei]].",
+    "nature": "A forest has no prizes. No tree is set above the others by an authority, and so there is no race that all must run; each grows toward the light that it has. Animals take what the belly needs, and the belly has a limit. Stores of rare goods are a human thing, and where they pile up, guards and thieves appear together. The word for [[order|zhi]] in this passage is written with water, and the old model for order was a river given its channel. Water in a good channel needs no command. The first stanza says: do not build the dams of rank, rarity, and display. The last says: then things settle, as silt settles in still water. [[亂|luan]], the tangle, and the untangling were once one word.",
+    "practice": "Try the [[one-day practice|practice]] with the four body lines. Or work with the first stanza for a week. Notice each time you rank a person as above or below you in worth: that is 尚賢 in small form. Notice each time you want a thing mostly because it is hard to get. Notice what you [[put on show|xian]], and for whom. Do not correct anything. At the end of the week, ask what in your life has the structure of this passage: a prize set up, hands that pull, and a heart in a tangle."
+  },
+  "glyph": "盜",
+  "plates": [
+    {
+      "c": "盜",
+      "title": "A mouth that waters",
+      "lesson": "This character is a short story in two floors. Upstairs, on the left, three drops: 氵, water. Beside them is 欠. The Shuowen describes 欠 as 張口气悟也, an open mouth with breath that goes out, and says the graph shows breath rising from a person: a yawn. A person with a wide-open mouth, and water beside it: together they make 㳄, which the Shuowen defines as 慕欲口液也, “the mouth-water of longing”. Drool. Downstairs is 皿, a dish; the Shuowen calls it 飯食之用器也, “a vessel used for food”, and says it is a picture. Now put the floors together, as the Shuowen does: 㳄欲皿者, “one who drools and wants the dish”. That is a thief. The open mouth 欠 has a family, and in each member the Shuowen takes it as the meaning: 欲, to desire, which stands in this same sentence; 歌, to sing; 吹, to blow. The drool has one more cousin: 羨, envy, defined as 貪欲也, “greedy wanting”. In the simplified form 盗 the water has lost a drop, and the top reads as 次, “next”. The picture is gone. [[The passage|dao]] makes the same point as the old graph: the dish is shown first, and then the mouth waters.",
+      "brush": "Twelve strokes. The water comes first: a dot, a second dot below it, and a third stroke that flicks up to the right, toward the open mouth. Then 欠 in four strokes: a short stroke that falls left, a horizontal that hooks back, and then the two legs of a person, one that falls left and one, the 捺, that sweeps right. The whole upper floor must stay shallow and wide; it is a lid. Then the dish: a short vertical on the left, the top and right side in one turning stroke, two short verticals inside. Watch the last stroke. It is the base line of the dish, and it runs the full width of the character, far past the walls of the dish on both sides. It is the longest stroke of the twelve. The drooling mouth above is light and busy; the dish below is calm and wide."
+    },
+    {
+      "c": "賢",
+      "title": "A servant, a hand, a shell",
+      "lesson": "Three parts. At the bottom is 貝, a cowrie shell. The Shuowen tells its history: 古者貨貝而寶龜, “the ancients used shells as money and treasured tortoise shell”, and adds that Qin ended shell money. So 貝 in a character means value. Count the shells in the first sentence of this passage: 賢, worth; 貴, to prize; 貨, goods. Three of its key words carry money inside them. At the top left is 臣, a servant or minister. The Shuowen says it shows 屈服之形, “the form of one who bends and submits”; modern scholars commonly explain the early graph as an eye turned on end, the eye of one who looks up at a lord. At the top right is 又, a hand. Hand and servant together make 臤, which the Shuowen defines as 堅也, “firm”, and of which it says: 古文以爲賢字, “the old script used this for 賢”. So the older word was a firm, capable servant, and the shell was added later. The Shuowen’s definition of 賢 is 多才也, “much ability”; some editions read 多財, “much wealth”, and the shell fits that. The English “worthy” happens to carry the same double sense: worth as merit, and worth as price. [[The passage|shangxian]] distrusts a court that sets such men high. The character itself is an able servant with pay.",
+      "brush": "Fifteen strokes, in three blocks: 臣, then 又, then 貝. 臣 has an order that surprises students. The top horizontal comes first, then a short vertical, the small box in the middle with its turning stroke, a horizontal, another short vertical. The long left side comes last, as stroke six: it falls the whole height and turns along the bottom, and closes the servant in. 又 is two strokes: a horizontal that turns and falls left, then a 捺 that crosses it. Now the top is finished, and it must sit level, two blocks side by side. Below, 貝 is tall and narrow: left side, top and right side, two short lines inside, the bottom line, and then two small legs, one that falls left and a last dot to the right. The shell stands on those two legs, and the two blocks above rest on the shell."
+    },
+    {
+      "c": "骨",
+      "title": "The kernel of the flesh",
+      "lesson": "The lower half is easy: it is the shape that looks like 月, “moon”. When this shape stands at the bottom or the side of a body word, it is nearly always 肉, flesh, in its short form. The Shuowen calls 肉 a picture of a cut of meat. You know it from 腹, belly, in this passage, and from 肝, liver, and 胃, stomach. The upper half is 冎. The Shuowen’s entry is grim: 剔人肉置其骨也, “to strip off a person’s flesh and leave the bone”, and it adds 頭隆骨也, “the domed bone of the head”. So the top is bare bone, and the bottom is flesh. The Shuowen joins them, 从冎有肉, “bone that has flesh”, and gives a definition from the fruit bowl: 肉之覈也, “the kernel of the flesh”. Bone is to the body what the stone is to a peach. Cousins: 體, the body as a whole, is 骨 with a sound part; the Shuowen counts it as “the twelve parts together”. 滑, slippery, is water beside 骨, where the Shuowen takes 骨 as the sound. And this character names the oldest Chinese writing that we have. The Shang kings cut their questions into ox shoulder blades and turtle shells: 甲骨文, “shell and bone script”. [[強其骨|gu]]: the passage asks for strength in the part that lasts and knows nothing.",
+      "brush": "Nine strokes. The bare bone on top takes three: a short vertical on the left, then the top and the right side in one turning stroke, and a small inner corner. Keep this part narrow. Strokes four and five make a cover: a short dot on the left, then a wide horizontal that ends in a hook at the right. Watch that fifth stroke. It is the widest line of the character, like shoulders, and the head sits in the middle of it. Then the flesh below, four strokes: the left side, the top and right side with a hook at the foot, and two short horizontals inside that touch the left wall and do not reach the right. The form is a tall column: narrow head, broad shoulders, straight trunk. Calligraphers use this same word for good writing. Strokes with firm inner strength have 骨, and soft, fat strokes have only flesh."
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "n": 31,
+  "title": "Victory as a Funeral",
+  "theme": "conflict",
+  "zh": [
+    {
+      "text": "夫佳兵者，不祥之器，物或惡之，故有道者不處。君子居則貴左，用兵則貴右。兵者不祥之器，非君子之器，不得已而用之，恬淡為上。勝而不美，而美之者，是樂殺人。夫樂殺人者，則不可以得志於天下矣。吉事尚左，凶事尚右。偏將軍居左，上將軍居右，言以喪禮處之。殺人之眾，以哀悲泣之，戰勝，以喪禮處之。",
+      "gloss": {
+        "1": "fine, handsome (many editors think the word does not belong here)",
+        "6": "a good omen; 不祥: of ill omen",
+        "12": "wù: to loathe (not è, bad)",
+        "27": "the left: the side of honour in peace",
+        "55": "calm, at rest",
+        "56": "thin in taste, plain",
+        "63": "to find beautiful (verb)",
+        "71": "yào or lè: to delight in (the graph is “music”, yuè)",
+        "86": "what the heart is set on; aim",
+        "97": "ill-omened: here, matters of death and mourning",
+        "116": "sāng: mourning, a funeral (not sàng, to lose)",
+        "129": "to weep without sound"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Fine weapons|jia-bing]] are [[tools of ill omen|bu-xiang]].",
+    "[[Creatures, it seems, loathe them|wu-e]],",
+    "so one who has the Dao does not stay with them.",
+    "",
+    "[[The gentleman|junzi]] at home [[honours the left|zuo-you]];",
+    "when weapons are used, honours the right.",
+    "",
+    "Weapons are tools of ill omen,",
+    "[[not a gentleman’s tools|qi-vessel]].",
+    "They are used when there is no choice,",
+    "and then [[calm and plain|tian-dan]] is best.",
+    "",
+    "[[Win, and do not find it beautiful|mei]].",
+    "One who finds it beautiful",
+    "[[delights in killing people|le-sha]].",
+    "One who delights in killing people",
+    "cannot [[get what the heart is set on|de-zhi]] in all under heaven.",
+    "",
+    "Glad occasions favour the left;",
+    "occasions of death favour the right.",
+    "The second general stands on the left,",
+    "[[the chief general on the right|shang-jiang]]:",
+    "which says, they are placed as at a [[funeral|sang-li]].",
+    "",
+    "When many people have been killed,",
+    "[[weep for them|weep]] in grief and sorrow.",
+    "A battle won:",
+    "observe it with [[the rites of mourning|wb-absent]]."
+  ],
+  "notes": {
+    "jia-bing": {
+      "kind": "variant",
+      "title": "“Fine” weapons?",
+      "body": "The received text begins 夫佳兵者. 佳 is “good, fine, handsome”; the Shuowen says 善也. So: “fine weapons”, and readers have long found it odd, since the next lines condemn all weapons, not the good ones. The Qing scholar Wang Niansun proposed that 佳 is a slip for a similar graph, 隹, an old way to write the particle 唯; the line then begins “Now, weapons are…”. The Mawangdui silk texts are reported to support the simpler text: 夫兵者，不祥之器也, with no word in that place at all. We kept “fine”, because the pinned text has it, and because the mistake, if it is one, is a telling one. The weapons of the age were beautiful: see [[the king’s sword|goujian]]. And the passage goes on to forbid exactly this, to find war [[美|mei]]. Did a copyist’s eye put the beauty in?",
+      "src": [
+        "Shuowen Jiezi, 人部: 佳，善也。从人圭聲。",
+        "Wang Niansun, Dushu zazhi",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "bu-xiang": {
+      "kind": "gap",
+      "title": "不祥: ill omen, not “evil”",
+      "body": "祥 is written with the altar sign and 羊, a sheep, the animal of offering; the Shuowen glosses the sheep itself as 祥也, a good sign, and 祥 as 福也, “a blessing”. 祥 is what the spirits send to show that things stand well. 不祥 is its absence: unlucky, unblessed, a thing that should not be near the altar. The phrase is from the world of divination and taboo. It was used of an owl’s cry, of a comet, of a corpse. English “evil”, [[Legge’s word|legge]], moves the phrase into morals and makes the weapon wicked. The Chinese says something colder and more physical: a weapon is contaminated. It is the kind of object that one washes after touching. That is why the rest of the passage is about ritual: where to stand, how to weep. Morals tell you whom to blame. Ritual tells you what to do with a thing that cannot be made clean.",
+      "src": [
+        "Shuowen Jiezi, 羊部: 羊，祥也。",
+        "Shuowen Jiezi, 示部: 祥，福也。从示，羊聲。一云善。"
+      ]
+    },
+    "wu-e": {
+      "kind": "wordplay",
+      "title": "The same sentence as passage 24",
+      "body": "物或惡之，故有道者不處: “creatures, it seems, loathe them; so one who has the Dao does not stay there.” These ten characters closed passage 24, word for word. There the loathed things were tiptoe, display, and boasting, called leftover food and warts. Here they are weapons. The book files the brag and the blade under one sentence. The link is not forced. Passage 24’s words for boasting were 伐, a person with a halberd, and 矜, a spear shaft; passage 30 forbade both to a commander. The Mawangdui copies are reported to repeat the sentence in both places in their own form, 故有欲者弗居 (here in text B; text A is damaged). For the word 物 see passage 24: it is living things, and it cannot mean “law”. The honest small word is again 或, “perhaps, some”. Not every creature turns from a weapon. Some are drawn to it, and the next lines speak to them.",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "junzi": {
+      "kind": "gap",
+      "title": "君子: a Confucian in the Laozi",
+      "body": "君子 is “the lord’s son”: first a man of noble birth, then, in the school of Confucius, a man of noble conduct whatever his birth. English has used “gentleman” and “superior man”. It is the central figure of the Analects and almost a stranger in this book, whose own figure is the sage. In the received text the word comes only in this passage, twice; the Mawangdui copies are reported to have it in passage 26 as well, the other passage about a march. Some scholars take that as a sign that this passage came from another hand or another circle. Or the text here speaks to a class in its own terms: the officers were 君子 by birth and training, and the argument turns their code, with its fine sense of rank and ritual place, against their profession. The gentleman is known by where he sits. So: where does he sit in war?"
+    },
+    "zuo-you": {
+      "kind": "history",
+      "title": "Left and right",
+      "body": "The two graphs are two hands. 左 is a left hand over 工, a tool; 右 is a right hand over 口, a mouth; the Shuowen glosses both with the idea of help. The right hand eats and strikes. In Chinese ritual order, though, the left is the higher side. The ruler faced south; his left was the east, where the sun rises, the side of spring, growth, and what later thought called yang. His right was the west: sunset, autumn, killing frost, yin. So in peace the place of honour was on the left. Death reversed the order, and the text says so: 吉事尚左，凶事尚右. Even the clothes turned round: the Shuowen records a robe for the dead that closes on the left, where the living close theirs to the right. The passage then makes its one observation. An army already uses the order of death. The commander stands on the right.",
+      "src": [
+        "Shuowen Jiezi, 左部: 左，手相左助也。从𠂇、工。",
+        "Shuowen Jiezi, 又部: 右，手口相助也。从又从口。",
+        "Shuowen Jiezi, 衣部: 襲，左衽袍。"
+      ]
+    },
+    "qi-vessel": {
+      "kind": "wordplay",
+      "title": "器, three times",
+      "body": "器 is a vessel, a tool, any made thing with a use (see passage 28). The passage says it three times. Weapons are 不祥之器, tools of ill omen; again, 不祥之器; and 非君子之器, not a gentleman’s tools. A reader who knew the Analects heard a famous sentence under the third: 君子不器, “the gentleman is not a vessel”, not a thing with one function. The Laozi’s line goes further. There is a kind of tool the gentleman should not even own as his. And a person who takes up a tool whose one function is killing becomes that tool. Two passages back, the world itself was a 神器, a vessel of the spirits, which cannot be worked on. So the three passages set vessel against vessel: the unlucky tool of bronze, and the sacred one that it is used to seize.",
+      "src": [
+        "Analects 2.12"
+      ]
+    },
+    "tian-dan": {
+      "kind": "gap",
+      "title": "恬淡: calm, and thin in taste",
+      "body": "不得已而用之，恬淡為上. First the condition, 不得已, “no choice” (see passage 30). Then the manner. 恬 is in the Shuowen 安也, “at rest”. 淡 is 薄味也, “thin flavour”: water with very little in it. The pair names a temper without heat or relish. One does what must be done and tastes nothing in it. English “calm restraint” keeps the first word and loses the second, and the second is the Laozi’s own: the Dao when spoken is “thin, without taste” (35), and one should “taste what has no taste” (63). Mawangdui silk text B is reported to have two other graphs here. The first is 銛, “sharp”; the second is hard to read, and editors have transcribed it as 龐 and as 襲. Some take the pair as a loan for 恬淡, though only the first graph fits by sound; others read it literally, as a remark about sharp weapons. The matter is open. The received phrase fits what follows: a person who finds flavour in this work is [[the one the text fears|le-sha]].",
+      "src": [
+        "Shuowen Jiezi, 心部: 恬，安也。从心，甛省聲。",
+        "Shuowen Jiezi, 水部: 淡，薄味也。从水炎聲。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "mei": {
+      "kind": "gap",
+      "title": "The word is “beautiful”",
+      "body": "勝而不美: “win, and do not find it beautiful”. 美 is a sheep, 羊, over 大, a person; the Shuowen says 甘也, “sweet”, and that it shares its idea with 善, good (see the plate in passage 27). It is the word for a handsome face, fine food, a splendid thing. Translators often soften it to “do not rejoice” or “do not glorify”. The Chinese is about the eye and the palate. War is beautiful: the ranks, the banners, the bronze, the clean arc of a campaign on a map. The line does not deny it. It forbids one to take it so, because of what the taste is a taste for. The Mawangdui text is reported to make it a flat command: 勿美也, “do not find it beautiful”. When did you last admire something that was made to kill?",
+      "src": [
+        "Shuowen Jiezi, 羊部: 美，甘也。从羊从大。羊在六畜主給膳也。美與善同意。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "goujian": {
+      "kind": "history",
+      "title": "The king’s sword",
+      "body": "In 1965 archaeologists opened a Chu tomb at Wangshan in Hubei and found a bronze sword in a lacquered scabbard. The blade is covered with a dark diamond pattern. The guard is inlaid with blue glass and turquoise. Eight characters in the ornamental “bird script” say that Goujian, King of Yue, made it for his own use; he ruled from 496 to 465 BCE. After twenty-four centuries the edge still cut. This is what 佳兵, “fine weapons”, were: the highest art of the bronze casters, objects that kings named, gave as state gifts, and took to the grave. Halberd blades carried gold inlay; chariot fittings were works of sculpture. The Laozi’s warning against the beauty of war was written among people who owned such things. It is addressed to connoisseurs.",
+      "src": [
+        "Hubei Provincial Museum, sword of Goujian (excavated 1965, Wangshan tomb 1)"
+      ]
+    },
+    "le-sha": {
+      "kind": "etymology",
+      "title": "樂: to make music of it",
+      "body": "The graph in 樂殺人 is the graph for music. The Shuowen defines 樂 as 五聲八音緫名, “the general name for the five notes and the eight kinds of instrument”, and says it pictures drums on a wooden stand. Read yuè, it is music. Read lè, it is joy, the feeling that music is. Read as a verb, it is “to take delight in”. So “one who delights in killing people” is, in the eye, one who makes music of killing people. The two things were close in fact: armies advanced to drums and withdrew to bells, and a victory was reported with music in the ancestral temple. The text also uses the bluntest object it has. It does not say “war” or “the enemy”. It says 殺人, “to kill people”. A mourner, the Analects says, 聞樂不樂: hears music and feels no joy. The passage will end there.",
+      "src": [
+        "Shuowen Jiezi, 木部: 樂，五聲八音緫名。象鼓鞞。木，虡也。",
+        "Analects 17.21"
+      ]
+    },
+    "de-zhi": {
+      "kind": "geopolitics",
+      "title": "Who can unite the world?",
+      "body": "不可以得志於天下: “cannot get the heart’s aim in all under heaven”. 志 is a heart, 心, with a sign for going on top: where the heart is headed. 得志於天下 was the set phrase for the great prize of the age, to bring the whole world under one rule. Everyone knew that it would be done by someone, and soon. Mencius was asked about it by King Xiang of Liang, about 318 BCE: how can the world be settled? “By being made one.” Who can make it one? 不嗜殺人者能一之: “one who has no taste for killing people can unite it.” The Laozi says the same from the other side. Both were wrong in the short run. In 221 BCE the world was united by Qin, the state that counted heads for promotion. Qin held it for fifteen years. Which run counts?",
+      "src": [
+        "Shuowen Jiezi, 心部: 志，意也。从心之聲。",
+        "Mencius 1A6"
+      ]
+    },
+    "shang-jiang": {
+      "kind": "history",
+      "title": "Where the generals stand",
+      "body": "偏將軍 is the general “to the side”, the second in command. 上將軍 is the “upper general”, the commander. In any peacetime gathering the senior man would take the left. On campaign, the text reports, the order is turned: the junior on the left, the senior on the right. Then it reads the custom: 言以喪禮處之, “this says that they are placed as at a funeral”. The top commander stands where the chief mourner stands. It is an observation about what armies already do, with a meaning drawn from it; the text does not invent a new rite. These lines were once doubted as a later note, partly because the titles sound like those of the late Warring States and Han. But the Guodian bamboo slips, from about 300 BCE, are reported to contain them, and the Mawangdui silk texts are reported to have them too.",
+      "src": [
+        "Guodian Laozi C (as reported)",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "sang-li": {
+      "kind": "history",
+      "title": "What a funeral asked",
+      "body": "喪禮, the rites of mourning, were the heaviest duty in Zhou life. The mourners put on coarse undyed hemp. They wailed at fixed times. They ate thin gruel and gave up meat and wine. They left their offices. There was no music: on a day when he had wailed, the Analects says, Confucius did not sing. The chief mourner did not speak of his own affairs. To receive a victory this way means all of that. No feast, no songs, no report of merit at the temple; the commander in hemp, in the place of the son of the dead. Elsewhere this book is hard on ritual: passage 38 calls 禮 the thin husk of loyalty and the start of disorder. There is no conflict. That passage attacks ritual used to rank and to compel. Here ritual does its first work. It gives grief a form that a whole army can enter.",
+      "src": [
+        "Liji, “Tan gong” and “Sang da ji”",
+        "Analects 7.10",
+        "Laozi 38"
+      ]
+    },
+    "weep": {
+      "kind": "variant",
+      "title": "To weep, or to attend?",
+      "body": "以哀悲泣之. The three words of feeling are distinct in the Shuowen. 哀 is 閔也, pity. 悲 is 痛也, pain. 泣 is 無聲出涕, “tears that come without sound”: silent weeping, as against 哭, the loud wail of the rite. The Mawangdui silk texts are reported to read differently: 殺人眾，以悲依立之. 依 is taken as a sound-loan for 哀, grief, and 立 as 莅, “to be present at, to preside over”, and many scholars think that the received 泣 is an old slip for it, since the two graphs are alike. Then the line says: when many have been killed, attend them with grief; stand over the dead as one stands at a funeral. One version asks for tears. The other asks for presence. Note who is mourned. The text says 殺人之眾, “the multitude of people killed”. It does not say “our dead”. In which version are you asked for more?",
+      "src": [
+        "Shuowen Jiezi, 水部: 泣，無聲出涕曰泣。从水立聲。",
+        "Shuowen Jiezi, 口部: 哀，閔也。 心部: 悲，痛也。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "wb-absent": {
+      "kind": "history",
+      "title": "Why Wang Bi is silent here",
+      "body": "Almost every passage of the received book carries Wang Bi’s commentary. This one has none. A Song dynasty scholar, Chao Yuezhi, noted in 1115 that Wang Bi’s copy had no commentary here; from this it was inferred that Wang Bi doubted the passage. Wang Bi left no verdict of his own. Later editors built on the inference. They noticed the doublets (“tools of ill omen” twice, “the rites of mourning” twice) and the explaining phrase 言, “this says”, and concluded that an old commentary had been copied into the text. Some modern versions therefore cut the second half and print it as a note. The excavated texts have settled the main point. The Mawangdui silk copies, buried in 168 BCE, are reported to contain the passage with its funeral lines, and the Guodian slips of about 300 BCE to contain those lines too. The lines are four centuries older than Wang Bi. Whatever their first source, they were in the Laozi as early as we can see it, and they stay in our main text.",
+      "src": [
+        "Chao Yuezhi, colophon to Wang Bi’s Laozi (1115)",
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Guodian Laozi C (as reported)"
+      ]
+    },
+    "trophy": {
+      "kind": "history",
+      "title": "The king who refused a monument",
+      "body": "There is a recorded case of the last lines. In 597 BCE King Zhuang of Chu beat the army of Jin at Bi. An officer urged him to pile the enemy dead into a great mound, a 京觀, as victors did, “to show your descendants and keep the martial merit in memory”. The king refused. He said that the graph 武, “martial”, is made of 止 and 戈, “to stop the halberds”, and that true martial power forbids violence, puts away weapons, and gives the people rest. The men of Jin, he said, had died loyal to their ruler’s orders; how could they be made a trophy? He sacrificed to the River, built a shrine to his ancestors to report the event, and went home. The Shuowen quotes his words under 武. The same king had once [[asked the weight of the tripods|tripods-link]].",
+      "src": [
+        "Zuozhuan, Duke Xuan, year 12",
+        "Shuowen Jiezi, 戈部: 武，楚莊王曰：“夫武，定功戢兵。故止戈爲武。”"
+      ]
+    },
+    "tripods-link": {
+      "kind": "history",
+      "title": "One king, two stories",
+      "body": "King Zhuang of Chu (ruled 613–591 BCE) appears twice in the background of these passages. In 606 BCE, young and rising, he marched to the Zhou border and asked how heavy the nine tripods were: an open hint that he could carry off the sacred vessels of the realm (see passage 29). Nine years later, after his greatest victory, he declined to raise a mound of enemy dead and spoke of stopping the halberds. The histories do not explain the change. They only record both. He is counted among the five great lords of the age. It is tempting to see in him the man whom passages 29 to 31 address: someone with the strength to take the world, who learned somewhere between the first story and the second what [[果而已|fruit-link]] means.",
+      "src": [
+        "Zuozhuan, Duke Xuan, years 3 and 12",
+        "Shiji 40, “Hereditary House of Chu”"
+      ]
+    },
+    "fruit-link": {
+      "kind": "wordplay",
+      "title": "Three passages, one argument",
+      "body": "Passages 29, 30, and 31 stand together and share their words. 29: the world is a spirit vessel, 神器; who works on it ruins it. 30: do not force the world with 兵; get the fruit and stop, 果而已; no pride, no boast. 31: 兵 are unlucky vessels, 不祥之器; victory is not beautiful; mourn. The phrase 不得已, “no choice”, comes in all three. So does 天下, “all under heaven”, as the thing that cannot be had this way: it cannot be taken (29), cannot be forced (30), and the killer cannot get his aim in it (31). Read in order they move from the wish to conquer, to conduct in war, to conduct after war. In the Mawangdui silk texts the three are reported to stand in this order too. Read them once as a single piece. Where does the argument turn from policy to grief?",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “superior man” at war",
+      "body": "Legge writes “the superior man” for 君子, the phrase he used through all his Confucian volumes, and so marks the word as foreign to this book. His weapons are “instruments of evil omen”: “evil” where the Chinese says unlucky. He softens the centre. For 勝而不美 he gives “victory (by force of arms) is to him undesirable”, and the question of beauty is gone; to find it beautiful becomes “to consider this desirable”. But he does not flinch at the object: “to delight in the slaughter of men”. In the last sentence he adds one word in brackets: the victor has his place “(rightly)” according to the mourning rites. The Chinese has no “rightly”. It does not argue that the rite is correct. It tells the victor where to stand. Why might a Victorian reader have needed the bracket?",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "The passage has one long segment in the source, and it moves in five steps. A judgement: weapons are [[things of ill omen|bu-xiang]], [[loathed|wu-e]]. A fact of etiquette: [[the gentleman|junzi]] honours [[the left|zuo-you]] at home and the right in war. A rule of use: only with no choice, and [[without relish|tian-dan]]. A warning about taste: victory must not be found [[beautiful|mei]], because that is to [[make music of killing|le-sha]], and such a person [[will not get the world|de-zhi]]. Then the etiquette is explained: left is for glad things and right for death, and [[the generals stand in funeral order|shang-jiang]]. Last, two commands: [[weep|weep]], and [[keep the mourning rites|sang-li]] for a victory. The source carries [[no Wang Bi commentary|wb-absent]] here. With 29 and 30 it makes [[one argument|fruit-link]].",
+    "inner": "The passage is about the inner posture of someone who must do harm. It does not pretend that such moments can always be avoided. It says what to guard in oneself when they come. First, [[no flavour|tian-dan]]: the act is done flat, with no savour of righteousness or skill. Second, no aesthetics: one does not step back and [[admire it|mei]]. Third, grief, and grief for [[the other side|weep]]. The text’s psychology is exact. The danger of force is not only what it does to the one struck. It is the pleasure, which grows, until a person [[needs the music|le-sha]]. Ritual mourning is the antidote the text knows: a set form that keeps the heart on what was lost, when the heart would like to celebrate. Any win over another person, in a quarrel or a contest, can be met the same way.",
+    "leading": "Those who lead have weapons: the power to dismiss, to sue, to out-compete, to end a thing that people built. The passage grants that these are sometimes used and gives a strict code for it. They are not the leader’s proper tools, [[非君子之器|qi-vessel]], and a leader known mainly for them has become one. They come out only when [[the alternatives have run out|tian-dan]]. They are used without heat. And afterwards there is no victory party. When a rival fails, when a restructuring “succeeds” and a hundred people have lost their work, the leader’s place is [[where the chief mourner stands|shang-jiang]]. This is more than tact. The passage says that a leader who enjoys winning in this way [[will not gain the allegiance of the world|de-zhi]], and history has a recorded case of [[a king who understood|trophy]].",
+    "body": "Left and right are in the body before they are in ritual. [[Two hands|zuo-you]]: for most people the right is the hand that strikes, cuts, and writes, and the left is the hand that holds and steadies. The peaceful order honours the holding hand. War honours the striking hand, and the text calls that the order of death. The feeling it asks for is also bodily. 恬淡 is a state of the breath and the tongue: slow, [[with no taste in the mouth|tian-dan]]. A martial artist will recognise the instruction. Train the strike fully; when it must be used, use it without anger, because anger makes the body stiff and the judgement poor; and feel no thrill afterwards, because the thrill is what brings a person back to fight again. The last lines put the body in [[hemp, wailing|sang-li]].",
+    "practice": "Think of the last time you won against someone: an argument, a negotiation, a game played hard, a decision that went your way and not theirs. Recall the moment just after. Was there a taste? That is [[美|mei]]. The practice has three parts. Next time, before you use whatever weapon you have (rank, a sharp tongue, a better lawyer), ask the question from passage 30: is there truly no choice? If you go ahead, do it [[plain|tian-dan]], with no flourish. And when you have won, take one minute alone for the other person’s loss. Do not perform it for them. [[Stand in it.|weep]] A minute is not three years in hemp; it is the same rite in small. Then notice whether you still want to tell someone about your victory."
+  },
+  "glyph": "喪",
+  "plates": [
+    {
+      "c": "喪",
+      "title": "Weeping, and one who is gone",
+      "lesson": "The Shuowen reads this graph as two parts and one sentence: 亾也。从哭从亾, “to lose; from 哭, to wail, and 亾, gone”. 哭 it defines as 哀聲也, “the sound of grief”, and it has two mouths, 吅, at the top. 亾, now written 亡, is 逃也, “to flee”: in the Shuowen’s account a person who goes into a hidden corner. Mouths that cry out, and someone who is no longer there. You can still see the two mouths in the modern form, side by side under the cross at the top; the strokes below them are what remains of the rest. The oldest history is different and odder. Oracle-bone forms, as scholars commonly describe them, show a tree with several mouths among its branches, and the tree is read as the mulberry, 桑, whose name sounded the same. So the first scribes wrote “loss” with a mulberry and added mouths, perhaps only to mark the word as something spoken or wailed; no one is certain. By the time of the Shuowen the tree had been reshaped into weeping. The word has two readings. Read sàng, it is to lose: a state, an office, a life. Read sāng, it is the rites for the dead. [[The passage uses the second|sang-li]], twice, and means the first as well. A victory is a loss, and is to be given the rites of one.",
+      "brush": "Twelve strokes. Stroke one is a short horizontal at the top. Stroke two is a vertical that crosses it and comes down between the two mouths. Strokes three, four, and five make the left mouth: its left side, then top and right side in one turn, then the base. Strokes six, seven, and eight make the right mouth in the same way. Keep the mouths small and level, like two eyes. Stroke nine is the long horizontal under them, the widest line of the character. Stroke ten is a vertical below it that ends with a flick up to the right. Stroke eleven is a short stroke that falls to the left. Stroke twelve is the long last stroke that falls to the right. The top half is square and still. The bottom half opens and leans, like a robe in movement. A good hand lets the final stroke run out slowly."
+    },
+    {
+      "c": "左",
+      "title": "The hand that holds the work",
+      "lesson": "Two parts. The upper part, the horizontal and the long falling stroke, is what is left of a picture of a hand: the left hand, 𠂇, drawn with its fingers pointing right. The lower part is 工. 工 is a tool, most often explained as the carpenter’s square; it is the sign of skilled work, as in 巧, skill, and 式, pattern (passage 28). The Shuowen’s gloss for 左 is not a direction at all: 手相左助也, “hands that help each other”. The left hand holds the square against the timber while the right hand marks and cuts. So “left” was first “to assist”, and when the graph was needed for the direction, the word “assist” was given a person at its side and written 佐: the verb of passage 30’s first line. Now compare the twin. 右, right, is the other hand, 又, over 口, a mouth; the Shuowen says 手口相助也, “hand and mouth help each other”. The right hand feeds. With a person added it is 佑, to protect. Two hands, one with a tool and one with a mouth, and the script says that both of them help. Chinese ritual gave the higher honour to the hand that steadies, and [[the passage builds on that|zuo-you]]: honour passes to the right hand only when there is killing to do.",
+      "brush": "Five strokes. The first is a horizontal, short, set high. The second begins above the horizontal, crosses it left of centre, and sweeps down to the lower left in one long curve; this stroke gives the character its lean. The third is the top horizontal of 工, short, tucked under the right half of the first stroke. The fourth is a short vertical. The fifth is the base horizontal, longer than the third, and it must reach far enough right to balance the sweep on the left. The stroke data used here writes 右 in the same order, horizontal first. Many teachers of the older tradition, and the schools of Japan, begin 右 with the falling stroke instead, and explain that the two hands faced opposite ways in the old script. Write both and feel which hand each one is."
+    },
+    {
+      "c": "兵",
+      "title": "Both hands on the axe",
+      "lesson": "The Shuowen reads 兵 as 从廾持斤: two hands, 廾, that hold 斤. 斤 is an axe or adze; the Shuowen says 斫木也, “for hewing wood”, and calls it a picture. In the modern graph the axe is the upper part and the two hands have become the long horizontal with the two short legs below it. The Shuowen adds a phrase that is almost a comment on armies: 并力之皃, “the look of strength put together”. One sees the same two hands in 共, together; in 具, to make ready, hands that lift a vessel; in 戒, to stand guard, hands on a halberd; and in 弄, to handle, hands on a piece of jade. The axe is in 折, to break; in 新, new, first “to cut firewood”; and in 斧, the big axe. So the picture of 兵 is a workman’s grip. The word went from the tool to the man who carries it, and then to the whole business: weapon, soldier, army, war. English needs four words, and each time must decide whether a sentence is about objects or about people. The passage opens with the objects, [[“tools of ill omen”|bu-xiang]], and ends with the people. Passage 30 said that where they camp, thorns grow. The graph does not show an enemy. It shows only the hands.",
+      "brush": "Seven strokes. The first is a flat stroke at the top that falls to the left, almost level. The second starts from its left end and comes down as a vertical. The third is a short horizontal that goes right from the middle of the second. The fourth is a short vertical that drops from the middle of the third. These four are the axe. The fifth is the long horizontal, the widest line: it touches the feet of both verticals. The sixth is a short stroke below it that falls to the left. The seventh is a firm dot or short stroke that falls to the right. The two legs do not touch each other or the line above; the gap is the open space between two wrists. In clerical script of the Han the long horizontal is given the great flaring tail that marks that style."
+    }
+  ]
+}

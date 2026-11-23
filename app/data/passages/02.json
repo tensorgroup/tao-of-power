@@ -1,0 +1,257 @@
+{
+  "n": 2,
+  "title": "Each Makes the Other",
+  "theme": "seeing",
+  "zh": [
+    {
+      "text": "天下皆知美之為美，斯惡已。皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。",
+      "gloss": {
+        "3": "to know; here, to know a thing as something",
+        "4": "beautiful; first, good to taste",
+        "6": "wéi: to be, to count as",
+        "9": "this; then, at that point",
+        "10": "è: ugly, foul. Read wù it is a verb, to hate",
+        "11": "already; and that is all",
+        "15": "good; also good at",
+        "26": "to have; what is there",
+        "27": "to not have; what is not there",
+        "28": "each other, in turn",
+        "39": "to compare, to measure against (the Mawangdui silk texts are reported to read 形, to give shape)",
+        "44": "to lean, to tilt (the Mawangdui silk texts are reported to read 盈, to fill)",
+        "46": "patterned sound: a tune, a note",
+        "47": "sound; the voice",
+        "49": "hè: to answer in song, to sing along"
+      }
+    },
+    {
+      "text": "是以聖人處無為之事，",
+      "gloss": {
+        "4": "chǔ: to stay in, to take one’s place in",
+        "6": "wéi: to do, to make, to force",
+        "8": "work, affairs, service"
+      }
+    },
+    {
+      "text": "行不言之教；萬物作焉而不辭，生而不有，為而不恃，",
+      "gloss": {
+        "0": "to walk; to put into practice",
+        "4": "teaching: what those below copy",
+        "8": "to rise, to stir, to start up",
+        "12": "to decline, to refuse; also words, to speak",
+        "22": "to lean on, to rely on"
+      }
+    },
+    {
+      "text": "功成而弗居。",
+      "gloss": {
+        "0": "merit: work that a court counts and rewards",
+        "3": "not … it (a negative with the object inside it)",
+        "4": "to sit down in, to dwell in"
+      }
+    },
+    {
+      "text": "夫唯弗居，是以不去。",
+      "gloss": {
+        "8": "to leave, to go away"
+      }
+    }
+  ],
+  "rendering": [
+    "[[All under heaven|tianxia]] [[know|zhi]] the beautiful as [[beautiful|mei]]:",
+    "there, already, is [[the ugly|e]].",
+    "All know the good as [[good|shan]]:",
+    "there, already, is the not-good.",
+    "",
+    "So [[having and not-having|you-wu]] give birth to each other,",
+    "hard and easy [[complete each other|six]],",
+    "long and short [[measure each other|jiao]],",
+    "high and low [[lean toward each other|qing]],",
+    "[[tune and sound|yin-sheng]] answer each other,",
+    "before and after follow each other.",
+    "",
+    "For this reason [[the sage|shengren]]",
+    "stays in the work of [[not-forcing|wuwei]]",
+    "and walks the [[teaching without words|buyan]].",
+    "The ten thousand things rise, and [[are not refused|buci]].",
+    "Giving life, not owning;",
+    "acting, [[not leaning on it|shi]];",
+    "the [[work|gong]] done, [[not dwelling in it|buqu]].",
+    "",
+    "Only by not dwelling in it",
+    "does it not leave."
+  ],
+  "notes": {
+    "tianxia": {
+      "kind": "geopolitics",
+      "title": "天下: all under heaven",
+      "body": "天下 is “under heaven”. It is not “the world” as a globe, and it is not “the universe”. It is a political word: the whole civilized realm that the Zhou king once held under Heaven’s mandate. By the fourth century BCE that realm was in pieces. Seven large states fought for it, and each court had its own experts who told the ruler what was fine and what was right. So the first line is not a remark about private taste. It describes a public event: a whole realm agrees on a standard. Standards of this kind came from courts, in dress, in music, in conduct, and people were ranked by them. Read the line again with a court in mind. Who gains when all under heaven know what beauty is?"
+    },
+    "zhi": {
+      "kind": "gap",
+      "title": "To know a thing “as”",
+      "body": "The grammar is 知美之為美: “know the beautiful’s being-beautiful”. The weight is on 知, to know, and on 為, to count as. The line does not say that beauty causes ugliness, as one pole of a magnet needs the other. It says that an act of mind does it: when everyone knows beauty as beauty, the ugly is already there. 斯 means “at that point”. 已 means “done, already”, and some read it as only a final particle. English must give the sentence a verb, and each choice is a theory: “is”, “arises”, “becomes”. We write “there, already, is”, and add nothing more. Legge put “(the idea of)” in brackets [[four times|legge]]. Is the ugly thing made at that moment, or only its name?"
+    },
+    "mei": {
+      "kind": "etymology",
+      "title": "美: a fat sheep",
+      "body": "美 is 羊, a sheep, over 大, big. The Shuowen defines it with a word of the mouth: 甘也, “sweet, good to taste”. It explains: 羊在六畜主給膳也, “among the six farm animals the sheep is the chief one for the table”. So the first Chinese “beautiful” was a taste before it was a sight. Greek and Latin words for beauty mostly belong to the eye and to form. This one belongs to the offering table and the feast. The Shuowen then adds a sentence that fits this passage: 美與善同意, “美 and 善 share one idea”. The [[good|shan]] also has a sheep in it. The two words that open the passage are a pair in the script itself. See the first plate for the brushwork.",
+      "src": [
+        "Shuowen Jiezi, 羊部: 美，甘也。从羊从大。羊在六畜主給膳也。美與善同意。"
+      ]
+    },
+    "e": {
+      "kind": "gap",
+      "title": "惡: ugly, not “evil”",
+      "body": "惡 has two readings. As è it is the opposite of 美: ugly, foul, coarse, bad in quality. As wù it is a verb: to hate, to find repulsive. The Shuowen says only 過也, “a fault, a going too far”, from 心, the heart. English “evil” brings a different world: a force against God, a stain on the soul. Nothing in this line has that weight. The pair is closer to “fine and foul”. Note also that the two readings are one thought. The ugly is what people hate. [[Wang Bi|wangbi]] uses the character both ways in a single sentence. The second pair is plainer still: 善 and 不善, “good” and “not good”. The text does not use a separate word for the bad. Why might that be?",
+      "src": [
+        "Shuowen Jiezi, 心部: 惡，過也。从心亞聲。"
+      ]
+    },
+    "shan": {
+      "kind": "etymology",
+      "title": "善: the sheep again",
+      "body": "The old form of 善 is 譱: a sheep, 羊, between two 言, “speech”. The Shuowen defines it as 吉也, “lucky, auspicious”, and says: 此與義美同意, “this shares one idea with 義 and 美”. All three carry the sheep: 美 beauty, 善 the good, 義 right conduct. The sheep was the animal of the offering, and the Shuowen glosses 羊 itself as 祥, “good omen”. 善 is not only moral. It also means “good at”: skilled, fit for the task. Passage 8 uses it nine times in that way. Legge took the skill sense here and wrote “the skill of the skilful”. Most readers take the moral sense, as a partner to beauty. English must choose. The Chinese holds worth, luck, and skill in one word.",
+      "src": [
+        "Shuowen Jiezi, 誩部: 譱，吉也。从誩从羊。此與義美同意。",
+        "Shuowen Jiezi, 羊部: 羊，祥也。"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: one root, one gate",
+      "body": "Wang Bi comments: 美者，人心之所進樂也；惡者，人心之所惡疾也。 “The beautiful is what the human heart moves toward and enjoys. The ugly is what the human heart hates and is sick of.” He does not put beauty in the object. He puts it in the heart’s movement. Then: 喜怒同根，是非同門，故不可得偏舉也。 “Delight and anger have one root. Right and wrong have one gate. So you cannot lift up one side alone.” The picture is physical: two branches on one root, two leaves of one gate. Pull at one and the other moves. On the [[sage’s work|wuwei]] he adds five characters: 自然已足，為則敗也, “what is so of itself is already enough; work at it and you ruin it.”",
+      "src": [
+        "Wang Bi commentary on Laozi 2"
+      ]
+    },
+    "you-wu": {
+      "kind": "gap",
+      "title": "有無: having and not-having",
+      "body": "有無 is a set pair in this book: what is there and what is not there. Passage 11 shows it with a wheel, a pot, and a room. Philosophy in English says “being and non-being”, words from Greek ontology that sound like two great abstract realms. 有 is first “to have”, and 無 “to not have”. A poor family 無; a full barn 有. Here the two 相生, “give birth to each other”. Passage 40 seems to disagree: 有生於無, “having is born from not-having”, one direction only. The two lines do different work. Passage 40 tells an order of origin. This line stands in a list about how people know things in pairs. In that list, neither comes first: a person learns “there is” and “there is not” together."
+    },
+    "six": {
+      "kind": "wordplay",
+      "title": "Six pairs, six different verbs",
+      "body": "The six lines are often read as one law of “opposites”. Look at the verbs. Having and not-having 生, give birth. Hard and easy 成, complete, as a task is hard only beside an easy one. Long and short [[measure or shape|jiao]]. High and low [[lean|qing]]. Tune and sound 和, [[answer in song|yin-sheng]]. Before and after 隨, follow, like people on a road. Birth, craft, measure, slope, music, walking: six relations from six parts of life. The lines also rhyme. In the old rhyme groups, 生, 成, and 傾 belong to one group (耕), and 和 and 隨 to another (歌). So the list was made to be said aloud and remembered. One word breaks the first rhyme, and the silk texts are reported to [[repair it|jiao]]."
+    },
+    "jiao": {
+      "kind": "variant",
+      "title": "較 or 形: measure or shape",
+      "body": "The pinned text has 長短相較, “long and short compare with each other”. The Mawangdui silk texts are reported to read 長短之相形也, “long and short give each other shape”; the graph on the silk is 刑, a loan for 形. Many scholars think that 形 is the older word, for two reasons. It rhymes with 生 and 成 (the 耕 rhyme group), and 較 does not. And [[Legge’s|legge]] English fits it: his line says that the two “fashion out the one the figure of the other”. 形 is a strong word. It says that “long” has no outline until something short stands beside it. They are also reported to end the list with two characters that the received text lacks: 恆也, “this is constant”. The six pairs are then called a lasting pattern, with the word that passage 1 uses for the lasting Dao.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "qing": {
+      "kind": "variant",
+      "title": "傾 or 盈: lean or fill",
+      "body": "高下相傾: high and low “lean” toward each other, as a slope is one thing with a top and a foot. The Shuowen defines 傾 as 仄也, “slanted”. The Mawangdui silk texts are reported to read 盈, “to fill”: high and low fill each other, as water runs from the high place and fills the low one. A common explanation of the change is a taboo. The personal name of the second Han emperor was Liu Ying, 劉盈, and scribes of the Han avoided his character. The same custom removed 恆 (the name of Emperor Wen) from many texts and put 常 in its place. So a ruler’s name may have changed a line about high and low. We keep 傾, the pinned text. Both pictures are of one hillside.",
+      "src": [
+        "Shuowen Jiezi, 人部: 傾，仄也。从人从頃，頃亦聲。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "yin-sheng": {
+      "kind": "etymology",
+      "title": "音 and 聲: two kinds of sound",
+      "body": "English has one pair here with no clear line between its halves: “sound and voice”, “note and tone”. The Chinese pair is exact. 聲 is sound as it comes: a cry, a struck stone, a voice. 音 is sound with order in it. The Shuowen says of 音: 生於心，有節於外，謂之音, “born in the heart, given measure outside: this is called 音”. The Record of Music in the Liji says the same in four words: 聲成文謂之音, “sound that forms a pattern is called 音”. The verb is 和, read hè: to answer a singer, to join in. So the line pictures raw sound and shaped music in a call and response. Neither is the better one. A tune is made of sounds, and a sound is heard as high or low only inside a tune.",
+      "src": [
+        "Shuowen Jiezi, 音部: 音，聲也。生於心，有節於外，謂之音。",
+        "Liji, “Yueji” (Record of Music)"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "聖人: the one who hears",
+      "body": "This is the first 聖人 in the book. We write “the sage”, and the word needs a warning. It is not a saint: no church, no miracles, no life after death. It is not only a wise person with good sayings. The character 聖 has an ear, 耳, and a mouth, 口; the part below them is commonly explained as a standing person. The Shuowen defines it as 通也: “to pass through, to be open all the way”. A 聖人 is a person through whom things pass with no block: one who hears well, and whose speech and conduct then fit. In this period the word also had a political sense. The 聖人 were the ancient kings who set the world in order. So the sentence is partly about rule. The Chinese has no “he” and no “she”.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"
+      ]
+    },
+    "wuwei": {
+      "kind": "gap",
+      "title": "無為: the first not-forcing",
+      "body": "無為 appears here for the first time. Word for word it is “without doing”. It is not laziness, and it is not a rule to sit still. The line itself blocks that reading: the sage 處…事, “takes a place in work”. There is work, 事, and the sage stays in it. What is absent is 為 in the strong sense: to make a thing be what it is not, to push a result, to act for show. [[Wang Bi|wangbi]] gives the reason: things are already enough as they are. English has no single verb for this. “Non-action” sounds like a strike. “Effortless action” sounds like a sales promise. We write “not-forcing” and leave the question open. Think of a task you do best when you stop pushing it. What stops, and what goes on?"
+    },
+    "buyan": {
+      "kind": "history",
+      "title": "A teaching with no words",
+      "body": "不言之教 comes again in passage 43, where the text says that few under heaven reach it. The age was full of talk. Persuaders went from court to court and lived by argument. Against that noise, more than one school pointed to silence. Confucius says in the Analects: 天何言哉, “Does Heaven speak? The four seasons run, the hundred things are born. Does Heaven speak?” The word 教 helps too. The Shuowen defines it: 上所施下所效也, “what those above give out and those below copy”. Teaching in early China was first a model that people copied. It was not first a lecture. So a teaching without words is not a riddle. It is the common case: children copy what parents do. What do the people near you learn from what you do not say?",
+      "src": [
+        "Shuowen Jiezi, 教部: 教，上所施下所效也。从攴从孝。",
+        "Analects 17.19",
+        "Laozi 43"
+      ]
+    },
+    "buci": {
+      "kind": "variant",
+      "title": "不辭 or 弗始: refuse, speak, or begin",
+      "body": "萬物作焉而不辭. 作 is “to rise, to stir”: the Shuowen says 起也, “to get up”. 辭 has two common senses. One is “to decline, to turn away”. Then the line says that the sage refuses none of the things that rise; our rendering takes this sense, and our English passive hides who does the refusing. The other sense is “words”: things rise and the sage makes no speech about it, which fits the wordless teaching one line before. The Mawangdui silk texts are reported to have a third reading: 萬物作而弗始, “the ten thousand things rise, and (the sage) does not begin them”. 辭 and 始 were near in sound, in one old rhyme group (之). They are also reported to lack the clause 生而不有 at this place. Silk A is damaged here, and the reading rests on Silk B. All three readings agree on one point. The things rise by themselves.",
+      "src": [
+        "Shuowen Jiezi, 人部: 作，起也。从人从乍。",
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "shi": {
+      "kind": "etymology",
+      "title": "恃: a heart that leans",
+      "body": "恃 is 忄, the heart, beside 寺, which gives the sound. The Shuowen defines it in one word: 賴也, “to depend on, to lean on”. Some translations make this a line about hope: to act and expect nothing back. The Chinese has a different picture. To 恃 a thing is to put your weight on it: a general 恃 his walls, a minister 恃 the ruler’s favor, and a person 恃 a past success. The line says: do the work, and do not then stand on it. Do not use the finished act as a prop, a claim, or a right. The danger in 恃 is not hope for a reward later. It is the weight you put now on what you did before. On what past act do you lean most?",
+      "src": [
+        "Shuowen Jiezi, 心部: 恃，賴也。从心寺聲。"
+      ]
+    },
+    "gong": {
+      "kind": "geopolitics",
+      "title": "功: merit that a court counts",
+      "body": "功 is not any work. The Shuowen defines it: 以勞定國也, “to settle the state by toil”. It is merit: service that a ruler records and pays for. In the Warring States this was a new and sharp system. Old noble families lost ground, and men rose by counted merit. The state of Qin, under Shang Yang, gave ranks for enemy heads taken in battle. A minister with great 功 was also a danger to his lord, and many such ministers were killed after their success. So 功成而弗居 had a plain sense for its first readers: when the merit is complete, do not settle in it. Passage 9 says it again: the work is done, the person steps back. The text does not say that modesty will be rewarded.",
+      "src": [
+        "Shuowen Jiezi, 力部: 功，以勞定國也。从力从工，工亦聲。"
+      ]
+    },
+    "buqu": {
+      "kind": "wordplay",
+      "title": "居 and 去: stay and leave",
+      "body": "夫唯弗居，是以不去. The last two lines end on 居 and 去. 居 now means “to dwell”. The Shuowen gives an older and plainer sense: 蹲也, “to squat”, to get down on the heels and stay. 去 is “to leave”. The two words are opposites, and they rhyme: both belong to the old 魚 rhyme group, and in Mandarin they are still jū and qù. The negatives differ too. 弗 is commonly explained as 不 with an object inside it: “does not dwell in it”. Then 不去: “it does not leave”. What is the “it”? Most readers say the [[功|gong]], the merit. A thing you never sat down in cannot be taken from you. [[Wang Bi|wangbi]] says: 使功在己，則功不可久也, “make the merit sit in yourself, and the merit cannot last”. Some modern readers make this a method to keep credit. The text states a fact about holding. It makes no promise.",
+      "src": [
+        "Shuowen Jiezi, 尸部: 居，蹲也。",
+        "Wang Bi commentary on Laozi 2"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s brackets",
+      "body": "Legge read the first half as a theory of ideas, and he showed his hand honestly. He put “(the idea of)” in brackets four times: people have “(the idea of) what ugliness is”; existence and non-existence give birth to “(the idea of)” each other. The brackets are his own words, and he marks them. His reading is fair to 知, [[to know|zhi]]. But it makes the passage safe. If only ideas are at stake, the world stays in order and only the mind is confused. The Chinese does not separate the two so cleanly. Legge also gave the sage a “his”, made the wordless teaching “his instructions”, and turned the last two lines into a rhymed English couplet about “power”. The Chinese has no word for power there.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Catch one “as”",
+      "body": "Today, catch one moment when you know a thing as good or as fine: a face, a piece of work, a plan, your own conduct. Do not stop the judgment. Look to its other side. What did that judgment just make less fine? Who became plain when one person became beautiful? Then try the second half of the passage with one small job. Do it well. When it is done, say nothing about it and do not check who saw. Later in the day, ask if the work has left you. The passage says that it does not."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has two halves joined by 是以, “for this reason”. The first half is about knowing. When a whole realm [[knows|zhi]] the beautiful as beautiful, the ugly is there already; the same holds for good and not-good. Then come six pairs, each with [[its own verb|six]]: having and not-having give birth, hard and easy complete, long and short measure, high and low lean, tune and sound answer, before and after follow. The second half is about conduct. The [[sage|shengren]] stays in work that is [[not forced|wuwei]] and practices a [[teaching without words|buyan]]. Things rise and are not refused. Then three short refusals: not owning, [[not leaning|shi]], not dwelling. The close is a rhyme of [[stay and leave|buqu]].",
+    "inner": "The first half describes how the mind makes a world. Before a judgment there is a face, a sound, a day. With “beautiful”, a line is drawn, and the other side of the line appears at the same instant. [[Wang Bi|wangbi]] says the two sides have one root. A contemplative reader can test this directly. Watch a liking arise, and see that a disliking came with it, as the back of a hand comes with the palm. The passage does not tell you to stop judging. That would be one more judgment: “judging is bad”. It shows a person who works among the pairs and does not [[move into|buqu]] either side. Things rise and are [[not refused|buci]]. This is non-preference, and it is not cold. It is the condition for meeting each thing as it is.",
+    "leading": "What a leader names as excellent, the group learns to see as a ladder, and each ladder has a bottom. Praise one kind of person in public and you have also made a second kind. The passage does not say to have no standards. It asks you to see what your standards make. The second half is a way to work. Stay in the work and do not force it. Teach by conduct, since people [[copy what you do|buyan]]. Let people and projects rise, and do not claim that you [[began them|buci]]. Do the job and do not [[lean on|shi]] it afterwards as a debt that others owe you. The first readers knew [[the risk of merit|gong]] at a court. The text gives a fact, and it does not give a tactic: what you do not occupy does not leave.",
+    "body": "A body knows the six pairs without thought. A step forward needs a foot that stays back. A breath in is the shape of the breath out. In push-hands and in dance, hard and soft [[complete each other|six]]: a partner feels heavy only against your lightness. Try the last lines in a movement you know well: a lift, a stroke, a stretch. Do it, and at the end do not hold the finish. The habit is to [[sit down|buqu]] in the end position, to show it or to feel it. Let it pass into the next movement. Teachers of movement know the [[wordless teaching|buyan]] well. A student takes the teacher’s rhythm from the teacher’s body long before the explanation is understood.",
+    "nature": "A hillside is one thing. People stand on it and say “high” and “low”, and the two words [[lean toward each other|qing]], as the slope does. A valley is the low part of a mountain, and the mountain is the high part of a valley. Nothing in the land takes a side. Spring does not announce its work, and the passage borrows that manner: the ten thousand things [[rise|buci]], and no one makes a speech. A tree gives life to fruit and does not own it. A river carves a canyon and does not stay to look. Heaven, said Confucius, does not talk; the seasons run. The sage of this passage acts as that pattern acts: work goes on, and no owner stands beside it.",
+    "practice": "Try the [[one “as”|practice]] exercise today. Or take the last lines alone. Choose one piece of work that you will finish this week. Decide before you start that you will not mention it afterwards and will not look for who noticed. Then do it as well as you can. This is harder than it sounds, and the difficulty is the lesson: you will feel the wish to [[lean on|shi]] the finished thing. You do not need to fight that wish. Watch it rise, and let it be [[not refused|buci]] and not obeyed. After a week, ask the passage’s question. Did the work leave?"
+  },
+  "glyph": "美",
+  "plates": [
+    {
+      "c": "美",
+      "title": "The big sheep",
+      "lesson": "Cover the lower half with a finger. What remains is 羊, a sheep, with its tail cut short. The Shuowen calls 羊 a picture: 象頭角足尾之形, “it shows head, horns, feet, and tail”. The two small strokes at the top are the horns. Now cover the top half. The lower part is 大, “big”, and 大 is a person seen from the front with arms and legs spread; the Shuowen says 大象人形, “大 shows the human form”. The Shuowen joins the parts in a cook’s way: a big sheep is 甘, sweet in the mouth, because the sheep is the first animal for the table. Many modern scholars explain the oldest forms in another way, as a person who wears a headdress of horns or plumes; the question is open. Both explanations keep beauty close to the feast and the rite. Now look for the sheep’s cousins. [[善|shan]], the good, was once written 譱, a sheep between two words. 義, right conduct, is a sheep over 我. 祥, good omen, is a sheep beside an altar, and 養, to feed and raise, is a sheep over food; in 養 the Shuowen takes the sheep as the sound (从食羊聲), and it says the same of 祥 (从示，羊聲). In a culture of herds and offerings, the sheep carried what was good. English “beautiful” goes to the eye. [[美|mei]] goes first to the tongue, and passage 12 will warn about the five flavors.",
+      "brush": "Nine strokes. First the horns: a dot that falls to the right, then a short stroke that falls to the left; they lean toward each other. Then a horizontal, a second horizontal, and the vertical that runs down through both. Then a third horizontal. Watch this sixth stroke: it is the longest line in the character, and the others are measured against it. Then the top line of 大, a little shorter. Stroke eight sweeps down to the left and thins to a point. Stroke nine, the 捺, travels down to the right, presses, and lifts. These last two strokes open like a robe and carry the four level lines above them. Four horizontals in a stack are a test: the white bands between them must be even, and no two lines the same length. In clerical script only one stroke in a character may have the flared “goose tail”."
+    },
+    {
+      "c": "教",
+      "title": "Teaching has no mouth",
+      "lesson": "Look for a mouth in this character. There is none: no 口, no 言. On the right is 攵, the side form of 攴. The Shuowen defines 攴 as 小擊也, “to strike lightly”, and its old form is a hand, 又, that holds a rod. On the left, the modern shape is the same as 孝, “care for parents”, an old person carried on a child, 子, and the Shuowen reads it so: 从攴从孝. Many modern scholars read the early forms in another way: crossed marks, 爻, above a child, the same parts that stand inside 學, “to learn”. Then the whole is a child, something to copy, and a hand with a rod. The Shuowen’s definition says nothing of talk: 上所施下所效也, “what those above give out and those below copy”. Now look at the family of the rod-hand. 牧, to herd: an ox and the rod; the Shuowen says 養牛人也, “one who raises cattle”. 政, to govern: 正, “straight”, and the rod. 攻, to attack. 效, to copy. Herding, ruling, attacking, and teaching share one hand. That is the usual teaching of the age, and this passage asks for another kind: [[不言之教|buyan]], a teaching with no words. Read the character once more. Words were not in it. The sage also puts down the rod.",
+      "brush": "Eleven strokes, left part first. A short horizontal, a vertical through it, and a longer horizontal below: the same start as 土. Stroke four is the surprise: a long diagonal that falls from the upper right, crosses the vertical, and runs far to the lower left. It ties the top to the child below. Then 子 in three strokes: a short horizontal that turns back, the curved vertical with its hook, and a last stroke that rises to the right. A horizontal would stop the eye; a rising stroke hands the eye to the right part. Then 攵: a falling stroke, a short horizontal, a long stroke that falls to the left, and last the 捺 to the lower right. Watch that last stroke cross the one before it. The right part must not push the left; the writer makes the left narrow and tall, so that the rod-hand has room to swing."
+    }
+  ]
+}

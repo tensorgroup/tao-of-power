@@ -1,0 +1,240 @@
+{
+  "n": 45,
+  "title": "The Clumsy Master",
+  "theme": "seeing",
+  "zh": [
+    {
+      "text": "大成若缺，其用不弊。",
+      "gloss": {
+        "2": "to be like, to seem",
+        "3": "chipped, incomplete; at first, a broken pot",
+        "8": "bì: to wear out, as cloth wears"
+      }
+    },
+    {
+      "text": "大盈若沖，其用不窮。",
+      "gloss": {
+        "3": "chōng: empty, hollow; also to surge, to well up"
+      }
+    },
+    {
+      "text": "大直若屈，其用不居。",
+      "gloss": {
+        "3": "qū: bent; also wronged, made to give way",
+        "8": "to stay, to settle in one place"
+      }
+    },
+    {
+      "text": "大巧若拙，其用不輟。",
+      "gloss": {
+        "3": "zhuō: clumsy, unskilled",
+        "8": "chuò: to break off, to stop midway"
+      }
+    },
+    {
+      "text": "大辯若訥，其用不差。",
+      "gloss": {
+        "3": "nè: slow of speech, tongue-tied"
+      }
+    },
+    {
+      "text": "躁勝寒，靜勝熱。清靜為天下正。",
+      "gloss": {
+        "0": "zào: restless movement, haste",
+        "8": "clear, as still water is clear",
+        "13": "the upright; the standard; that which sets right"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Great completion|dacheng]] [[seems|ruo]] [[chipped|que]];",
+    "[[its use|yong]] does not wear out.",
+    "Great fullness seems [[empty|chong]];",
+    "its use does not run dry.",
+    "Great straightness seems [[bent|qu]];",
+    "[[its use does not settle|three]].",
+    "Great skill seems [[clumsy|zhuo]];",
+    "its use does not break off.",
+    "Great [[eloquence|bian]] seems [[tongue-tied|ne]];",
+    "its use does not miss.",
+    "",
+    "[[Restlessness beats cold|zao]];",
+    "stillness beats heat.",
+    "[[Clear and still|qingjing]]:",
+    "[[the measure of the world|zheng]]."
+  ],
+  "notes": {
+    "dacheng": {
+      "kind": "gap",
+      "title": "大: “great” is not “very”",
+      "body": "Each of the five lines begins with 大, and English “great” makes it sound like praise or like size. In the Laozi 大 is nearer to “whole, at full scale”. Passage 25 uses it as a forced name for Dao itself: 強為之名曰大, “if I must name it, I say ‘great’”. So 大成 is not a very big achievement. It is completion that has gone all the way, and the claim is that completion at that scale does not look like completion at ours. A small finished thing shows its finish: the edges are closed, the surface is polished. Passage 41 has the same family of lines: 大器晚成, the great vessel is completed late; 大音希聲, the great tone is rarely heard. What would you have to change in yourself to see a great thing as great?",
+      "src": [
+        "Laozi 25, 41"
+      ]
+    },
+    "ruo": {
+      "kind": "gap",
+      "title": "若: seems, or is like?",
+      "body": "若 is the hinge of every line, and it has two edges. It can mean “to seem”: the great completion only appears chipped, and the fault is in the eye of the viewer. It can also mean “to be like”: great completion is in fact like a chipped thing; it shares some real quality with it. English must choose “seems” or “resembles”, and the choice decides the teaching. With “seems”, the passage is about perception and about those who misjudge. With “is like”, it is about the nature of the great thing: it does keep a gap, and it does not seal itself. [[Wang Bi|wangbi]] reads it the second way. The Mawangdui silk texts are reported to write 若 in the first two lines and then 如, a near synonym. We render “seems” and ask you to hear the other word under it."
+    },
+    "que": {
+      "kind": "etymology",
+      "title": "缺: the pot with a piece gone",
+      "body": "The Shuowen defines 缺 in three characters: 器破也, “a vessel is broken”. The left part is 缶, an earthenware crock; the dictionary says that it held wine and that the people of Qin beat it to keep time for their songs. The right part gives the sound and is shared with 決, to breach, and 玦, a jade ring made with a slot in it. From the chipped pot the word spread to any gap: a missing tooth, a vacant post, the dark part of the moon. So the first line holds a picture that English “imperfect” does not have: the most complete thing looks like a bowl with a chip in its rim. Remember passage 11: a vessel is of use where it has nothing. The chip is one more opening.",
+      "src": [
+        "Shuowen Jiezi, 缶部: 缺，器破也。从缶，決省聲。",
+        "Shuowen Jiezi, 缶部: 缶，瓦器。所以盛酒𤖅。秦人鼓之以節謌。象形。"
+      ]
+    },
+    "yong": {
+      "kind": "wordplay",
+      "title": "其用不…: five ways not to end",
+      "body": "In this text each of the five “greats” is followed by 其用不 and one verb: its use does not 弊, wear out like old cloth; does not 窮, come to the end of the road; does not 居, stay in one place; does not 輟, break off; does not 差, miss. The grammar is the same each time and the verb changes, so the refrain turns one idea in the light. The subject is 用, the working of a thing, the word that closed passage 11. The first refrain answers a fear. A chipped thing should be near its end. The line says that this one is not: the things that look complete are the things that wear out. Only [[the first two refrains|three]] are in every old copy.",
+      "src": [
+        "Laozi 11"
+      ]
+    },
+    "chong": {
+      "kind": "wordplay",
+      "title": "沖: empty, and welling up",
+      "body": "This line repeats the vocabulary of passage 4: 道沖而用之或不盈, “Dao is 沖; use it, and it does not fill”. The same three words are here: 沖, 用, 盈. The graph 沖 is water beside 中, the centre, and the Shuowen defines it as 涌搖, “to well up and rock”: a moving, surging thing. The sense “empty” belongs to another graph, 盅, which the dictionary explains as 器虛也, “the vessel is empty”, and under that entry it quotes the Laozi itself: 道盅而用之. The Mawangdui silk texts are reported to write 盅 in this line. If so, the Han dictionary and the Han manuscript agree: the word is the hollow of a bowl. The later graph adds water, and a reader of the received text sees both, an emptiness that moves. A spring looks like this. It is a hole in the ground, and it does not run dry.",
+      "src": [
+        "Shuowen Jiezi, 皿部: 盅，器虛也。从皿中聲。《老子》曰：“道盅而用之。”",
+        "Shuowen Jiezi, 水部: 沖，涌搖也。从水、中。",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "qu": {
+      "kind": "etymology",
+      "title": "屈: the animal with no tail",
+      "body": "The Shuowen entry for 屈 is a surprise: 無尾也, “to be without a tail”. The dictionary places it under 尾, tail, with 出 as the sound; the tail part was later worn down to the 尸 that we see. From “short-tailed, cut short” the word came to mean bent, curled up, and then made to yield: 屈服 is to submit, and 冤屈 is a wrong that one has had to swallow. So the line has a moral edge that “bent” does not show. Great uprightness can look like giving way, even like accepting a wrong. Passage 22 opens with the same thought, 曲則全, “bent, then whole”. Commenting on passage 58, Wang Bi cites this line: the sage guides things with straightness and does not use straightness to make them boil.",
+      "src": [
+        "Shuowen Jiezi, 尾部: 屈，無尾也。从尾出聲。",
+        "Wang Bi commentary on Laozi 58"
+      ]
+    },
+    "three": {
+      "kind": "variant",
+      "title": "Three refrains that most copies lack",
+      "body": "The Chinese text pinned for this app gives all five lines a refrain. Most editions do not. In the common received text, and in the copies of the Wang Bi text that most scholars print, only the first two lines have one; then come three bare lines: 大直若屈，大巧若拙，大辯若訥. The [[Mawangdui silk texts|silk]] are reported to have refrains for the first two only, and the Guodian slips are reported to be the same. The three extra refrains, 其用不居, 其用不輟, 其用不差, are in no standard edition, and Wang Bi’s own commentary passes over them in silence. They are best held as a later expansion: a reader or editor completed the pattern. We render them because they are in our base text, and we mark them here. It is a small lesson in the passage’s own terms. Someone found the text [[chipped|que]] and filled it in.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "zhuo": {
+      "kind": "history",
+      "title": "拙: clumsiness as an ideal",
+      "body": "拙 is the plain word for “not skilful”; the Shuowen says 不巧也. This line gave it a second life. The Zhuangzi quotes it, 故曰大巧若拙, after a call to break the compass and square and to break the fingers of the master craftsman. In the fifth century the poet Tao Yuanming left office and wrote that he would 守拙, “keep to clumsiness”, and go home to his fields. In the arts the word became praise. Painters and potters looked for the awkward line that hides nothing. The calligrapher Fu Shan, in the seventeenth century, set it as a rule: 寧拙毋巧, “better clumsy than clever”. The target in each case is 巧, skill that shows itself and pleases at once. Think of a thing that you own and have used for years. Is it the clever one?",
+      "src": [
+        "Shuowen Jiezi, 手部: 拙，不巧也。从手出聲。",
+        "Zhuangzi, “Qu qie” (胠篋)",
+        "Tao Yuanming, “Returning to Live in Garden and Field”"
+      ]
+    },
+    "bian": {
+      "kind": "geopolitics",
+      "title": "辯: the age of the disputers",
+      "body": "辯 is to argue a case. The graph shows the setting: 言, speech, between two 辛. The Shuowen analyses its base, 辡, as two accused persons who bring suit against each other. The fourth and third centuries BCE were the great age of this art. Rulers kept halls of scholars, and men travelled from court to court to sell plans in set speeches. A group known as the 辯者, “disputers”, made paradox a profession: Hui Shi, and Gongsun Long with his white horse that is not a horse. Even Mencius had to defend himself: “Do I love disputation? I cannot avoid it.” The last passage of the Laozi answers them all: 善者不辯，辯者不善, “the good do not dispute; the disputers are not good”. A book of paradoxes here declines the contest.",
+      "src": [
+        "Shuowen Jiezi, 辡部: 辯，治也。从言在辡之閒。",
+        "Mencius 3B9",
+        "Laozi 81"
+      ]
+    },
+    "ne": {
+      "kind": "etymology",
+      "title": "訥: speech that stays inside",
+      "body": "訥 is 言, speech, beside 內, inside. The Shuowen reads the two parts together: 言難也, “speech is hard”. The words are there, and they do not come out easily. This is one of the few virtues on which the Laozi and Confucius agree. The Analects says that the noble person wishes to be 訥 in word and quick in deed, and that the firm, the resolute, the plain, and the 訥 are near to humaneness. English has no kind word for it. “Stammering”, “inarticulate”, and “tongue-tied” all name a defect, and Greek and Roman culture made the orator a model of the complete man. Here the model speaker is the one whose words come slowly. Whom do you trust more: the one who answers at once, or the one who pauses?",
+      "src": [
+        "Shuowen Jiezi, 言部: 訥，言難也。从言从内。",
+        "Analects 4.24, 13.27"
+      ]
+    },
+    "zao": {
+      "kind": "gap",
+      "title": "Cold and heat: plain sense, and a puzzle",
+      "body": "躁勝寒，靜勝熱. The plain reading is knowledge of the body. Move about, stamp your feet, and you overcome cold. Sit still, and you overcome heat. 躁 has 足, the foot, at its left: restless feet. But readers have long felt a difficulty. The first line gives 躁 a victory, and the next line gives rule to stillness; and passage 26 says 靜為躁君, “stillness is the lord of restlessness”. Some modern editors therefore change the order of the words to 靜勝躁，寒勝熱: “stillness beats restlessness, cold beats heat”. No old copy has that order. The text can stand as it is. Each of the two has its season, and the one who is clear and still can tell which season it is. [[Wang Bi|wangbi]] reads it so, with one sharp addition.",
+      "src": [
+        "Laozi 26"
+      ]
+    },
+    "qingjing": {
+      "kind": "history",
+      "title": "清靜: two words that ruled an empire",
+      "body": "清 is water that has become clear; the Shuowen says 澂水之皃, “the look of settled water”. 靜 is stillness. Together they became the motto of a way to govern. In the first decades of the Han, after the wars that ended Qin, the minister Cao Can learned from a teacher of the Laozi that 治道貴清靜而民自定: “the way of rule values clearness and stillness, and the people settle themselves”. He kept the laws of his predecessor and did little else, and the land recovered. The historian Sima Qian ends his life of Laozi with the same pair: 清靜自正. Later the words passed to religion. A short scripture of the Tang period, the Qingjing jing, is still chanted each day in Daoist temples. English “purity” for 清, [[Legge’s choice|legge]], is a moral word. The Chinese is a pond when the mud has gone down.",
+      "src": [
+        "Shuowen Jiezi, 水部: 清，朖也。澂水之皃。从水青聲。",
+        "Shiji 54 (House of Chancellor Cao)",
+        "Shiji 63"
+      ]
+    },
+    "zheng": {
+      "kind": "gap",
+      "title": "為天下正: a standard, or a ruler?",
+      "body": "正 is “upright, correct”. The Shuowen analyses it as 止, a foot, with a line that stops it. It is also the root of 政, government: “to govern is to set right”, Confucius says, 政者正也. So the last line has a range. It can say that clearness and stillness are the world’s standard, the level by which things are judged. It can say that they set the world right. And it can say that the clear and still person becomes the head of the world, since 正 was also a word for a chief. The Mawangdui silk texts are reported to read 可以為天下正, “can serve as”: there it is a person who qualifies. The Guodian slips are reported to end with 定, “settled”. Passage 57 opens with the word: 以正治國. We write “measure” and leave the ruler in this note.",
+      "src": [
+        "Shuowen Jiezi, 正部: 正，是也。从止，一以止。",
+        "Analects 12.17",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: no single shape",
+      "body": "Wang Bi explains each “great” with the same two words, 隨物, “in step with things”. On the first line: 隨物而成，不為一象，故若缺也. “It completes in step with things and does not make one single shape; so it is like a thing that lacks.” Completion that fits each thing has no form of its own to show. On fullness: 隨物而與，無所愛矜, “it gives in step with things and grudges and vaunts nothing”. On skill: 因自然以成器，不造為異端, “it follows what is so of itself to complete the vessel and contrives nothing strange”. On the close he adds a limit to movement: 躁罷然後勝寒, “only when restlessness is spent does it overcome cold”, and a judgment: 靜則全物之真，躁則犯物之性, “stillness keeps whole what is genuine in things; restlessness violates their nature.”",
+      "src": [
+        "Wang Bi commentary on Laozi 45"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge turns it into modesty",
+      "body": "Legge again writes rhymed verse, and the rhyme leads him. His first line speaks of one “who thinks his great achievements poor”. The Chinese has no person and no thinking: 大成若缺 is four words about how a great thing looks. Legge has made it a rule of humble self-opinion, a virtue of his own church and century. The next lines become commands: “Do thou what’s straight still crooked deem”. For 訥 he writes “a stammering scream”, and the scream is there only to rhyme with “seem”. At the close 清靜 becomes “purity and stillness”, and 正 becomes “the correct law”. Purity and law are large words in a missionary’s English. The Chinese has clear water, and a line that is straight.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "The silk texts: great gain seems loss",
+      "body": "The Mawangdui silk texts are reported to have a different fifth “great”. After straightness and skill the collated text reads 大贏如㶧. 贏 is surplus, profit, the winnings of a merchant. The last graph is rare; editors read it as 絀, “to fall short, deficit”. The line is then: “great surplus is like shortfall”. It speaks of wealth, and it follows passage 44 well. The line on eloquence is absent there. The Guodian slips are reported to have yet another set and order, with no line on eloquence. So the oldest copies do not agree on what the “greats” are; the pattern mattered more than the list. A reader could add one. What is yours? Great kindness seems cold? Great courage seems afraid?",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Leave one chip",
+      "body": "Take one piece of work today, a message, a plan, a drawing, a meal, and stop before the last round of polish. Leave the join visible. Then watch what the gap does. Often the other person steps into it: they add the missing part, ask the question, finish the thought. A sealed thing can only be admired. In a conversation, try the same with [[訥|ne]]: when you know the clever reply, wait for three breaths, and say the plain one, or nothing. This is not a method to look humble. It is a test of the first line: does the use wear out sooner when the thing is left a little open?"
+    }
+  },
+  "lenses": {
+    "ground": "Five lines on one frame: 大 A 若 B, “great A [[seems|ruo]] B”, where B is the common opposite of A. Completion and [[the chip|que]]; fullness and [[the hollow|chong]]; straight and [[bent|qu]]; skilled and [[clumsy|zhuo]]; [[eloquent|bian]] and [[tongue-tied|ne]]. The order moves from things to a person: first two vessels, then a line, then a hand, then a mouth. After each comes a [[refrain on use|yong]]. Then the passage changes voice: two short facts about [[cold and heat|zao]], and a final line of six characters that names the [[measure of the world|zheng]]: [[clear and still|qingjing]]. There is no “therefore” between the parts. The reader must find the link. One way: only a still, clear eye can see the five greats as great.",
+    "inner": "We judge by finish. The complete thing should look complete, the full one full, the skilled one smooth. The five lines take this habit apart. They do not say that defects are good. They say that the largest form of a quality gives up the signs of that quality, because the signs are for an audience. Skill that must look like skill is still partly display. Straightness that must look straight is partly pride. Turn this on the self. A person tries to appear whole, and guards the appearance. The passage suggests that wholeness is easier than that: it has room for [[a chip|que]], and it does not need to be seen. [[Clear and still|qingjing]] is then the state of one who has stopped managing how they look.",
+    "leading": "At a court of the time, men were chosen by their speeches. The passage warns the one who chooses. The smooth [[disputer|bian]], the plan with no visible weakness, the minister who is always seen to be upright: these are small completions. The great ones look worse at the interview. A leader also meets the lines from the other side. The work that lasts is often the work that does not advertise its skill, and a team can use an [[unfinished|que]] proposal more than a sealed one. The close, [[清靜為天下正|zheng]], was read as a policy: the still ruler sets the standard, and [[the early Han tried it|qingjing]]. Do not make clumsiness a style. A staged stammer is one more kind of 巧.",
+    "body": "[[躁勝寒，靜勝熱|zao]] is true in the skin. When you are cold, move: the large muscles make heat in a minute. When you are hot or angry, stop: sit, let the breath go long, and the heat leaves. The body already knows both medicines and when each applies. In movement arts the five lines are daily experience. The master’s form looks plain, even [[awkward|zhuo]], because nothing is added for show. The power that looks [[bent|qu]], with knees and elbows unlocked, is the power that does not break. The hand that seems [[empty|chong]] can receive. Beginners straighten, tighten, and finish each gesture. Watch an old teacher walk across a room. What is missing from the walk?",
+    "nature": "Nothing in nature is finished in the way that a polished object is finished. A tree is always part dead wood. A river bank is always breaking. Yet the forest and the river do not wear out, and a sealed, complete machine does. The spring is the plain case of [[great fullness|chong]]: a hollow in the ground that gives water all year. The seasons give the closing lines. Animals move in the cold and lie still in the heat of noon. Muddy water becomes clear when nothing stirs it; this is the root picture of [[清|qingjing]], and passage 15 asks who can make the muddy clear by stillness.",
+    "practice": "Do the exercise of [[one chip|practice]]: leave one piece of work a little open, and see whether its use ends sooner or later. And use the two medicines once each today. When you are dull and cold, move for two minutes. When you are heated, in body or in an argument, be still for two minutes before the next word. Notice which of the two you reach for by habit, and whether it is the right one for the weather."
+  },
+  "glyph": "拙",
+  "plates": [
+    {
+      "c": "拙",
+      "title": "A hand, and “out”",
+      "lesson": "Two parts side by side. On the left is 扌, the form that 手, hand, takes when it stands at the side of a character. It marks hundreds of actions of the hand: 打 (to strike), 持 (to hold), 推 (to push), 技 (craft). On the right is 出, “to go out”. The Shuowen says that 出 only gives the sound here: 拙，不巧也。从手出聲, “not skilful; from hand, with 出 for the sound”. So we must not read a story into the pair. But look at what else is in this passage. 屈, “bent”, two lines above, has the same 出 for its sound, according to the same dictionary. The Mawangdui silk text is reported to write that word as 詘, with 出 again. To the eye, [[bent|qu]] and clumsy are relatives, and the two old words shared that sound-part and a final consonant. 出 itself is explained in two ways. The Shuowen sees plants that push up and out. Many modern scholars see a foot that steps out of a hollow; this is the common explanation today. And the opposite word, 巧, is 工, the carpenter’s square, with a sound part. The square is the tool of exact work. The skilled character has an instrument in it. The [[clumsy|zhuo]] one has only a hand.",
+      "brush": "Eight strokes. The hand takes three: a short horizontal, a long vertical that ends in a small hook to the left, and a stroke that rises from lower left to upper right and cuts through the vertical. Keep this side narrow. Then 出, in five strokes. The fourth stroke goes down and turns to the right in one movement. The fifth is a short vertical that closes the right side. Watch the sixth: one long vertical from the top through the middle to the lower level, and it must stand straight, because the whole right side hangs on it. The seventh is a second down-and-right turn, wider than the first, and the eighth closes it on the right. The lower tier is broader than the upper, like a tree with wide low branches. Calligraphers prized this character’s meaning: a line with visible effort and no charm."
+    },
+    {
+      "c": "寒",
+      "title": "A person in straw, on ice",
+      "lesson": "This character is a small winter scene, and the Shuowen describes it part by part: 从人在宀下，以茻薦覆之，下有仌. “A person is under a roof; grass is laid as bedding and cover; below there is ice.” Take the parts in turn. 宀 at the top is the roof, as in 家 (roof over pig: a household) and 室 (room). In the seal form, a person stands in the middle, with four tufts of grass, 茻, around: the straw in which a poor household passed the winter. The regular script has pressed the person and the straw together into the middle section of level and upright lines, with two legs that spread below. At the bottom are two dots. They are 仌, which the Shuowen defines as 凍也, “to freeze”, the shape of water that has set hard. The same two dots are in 冬, winter, and at the side of 冷 (cold), 冰 (ice), and 凍 (to freeze). So the dictionary’s entry for [[cold|zao]] is one word, 凍, and the picture is a person who is doing what can be done about it. The passage gives the other remedy: 躁勝寒, move, and the cold gives way.",
+      "brush": "Twelve strokes. The roof is three: a dot at the top centre, a small stroke at the left edge, and a horizontal that ends in a hook down at the right. Under it come two horizontals, then two verticals that cross them, then a longer horizontal that closes the frame below. Space these evenly; this is the tight, warm middle of the character. Then the form opens: the ninth stroke falls far to the left and the tenth far to the right, like the two sides of a thatched roof or a spread cloak. Watch the last two strokes, the two dots under them. They are the ice. They sit in the open space at the bottom, one above the other, and each is pressed and lifted quickly. A heavy upper part, wide arms, and two small cold points below."
+    },
+    {
+      "c": "訥",
+      "title": "Words kept inside",
+      "lesson": "Left: 言, speech. Right: 內, inside. The Shuowen takes both parts as meaning: 言難也。从言从内, “speech is difficult; from 言 and from 內”. Look first at 言. At its base is 口, a mouth; the lines above it are explained in different ways, and the Shuowen calls the upper part a sound element. It defines the word with a distinction: 直言曰言，論難曰語, “to speak straight out is 言; to discuss and dispute is 語”. As a side part, 言 marks acts of speech: 語, 說, 論, 誠 (sincere: speech made complete), 信 with a person beside it (trust), and 辯, the [[disputation|bian]] of this same line, where 言 stands between two litigants. Now 內. The Shuowen defines it as 入也, “to enter”, and adds 自外而入也, “from outside, to come in”: the part 入, enter, under a cover. Add a mouth to it and you have 吶; add silk and you have 納, to take in. So [[訥|ne]] is speech that has gone in, or has not yet come out. The line pairs it with 辯 on purpose. Both have 言. In one, speech stands in the middle of a quarrel. In the other, it stays at home.",
+      "brush": "Eleven strokes. 言 takes seven: a dot, a long horizontal, two shorter horizontals, and then the mouth in three strokes: left side, top with right side, base. As a left-hand part it is written narrow, and its long horizontal reaches out only to the left, so that it does not strike the neighbour. 內 takes four. First the left vertical, then the top and right side in one stroke that ends in a hook. Watch the tenth stroke: it starts above the frame, comes in through the top, and falls to the left; the last stroke leans to the right from its middle. The brush enters the box from outside. Written so, with the left-falling stroke the higher one, the inner part is 人, a person. The Shuowen explains the older 入, “to enter”, in which the right-falling stroke is the higher."
+    }
+  ]
+}

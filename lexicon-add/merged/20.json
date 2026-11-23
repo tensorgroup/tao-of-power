@@ -1,0 +1,73 @@
+{
+  "孩": {
+    "senses": ["of a baby: to laugh, to smile (classical)", "a small child (later and modern)"],
+    "shuowen": "小兒笑也。从口亥聲。",
+    "shuowenEn": "A small child laughs. From 口 (mouth), with 亥 for the sound. (This is the entry for 咳; the Shuowen gives 孩, with 子, as its old-script form.)",
+    "parts": [{"c": "子", "m": "a child"}, {"c": "亥", "m": "sound"}],
+    "story": "First a verb: the laugh of an infant. By the old rite a father named his child at three months, when he took its hand and made it laugh. In passage 20 the speaker is “like an infant that has not yet laughed”. In passage 49 the sage treats all the people as children who laugh: 聖人皆孩之. Later the graph with the mouth, 咳, went to “cough”, and 孩 became the noun “child”.",
+    "gap": "English versions say “not yet smiled” or “not yet a child”. The first is right; the second reads a modern noun into an old verb."
+  },
+  "獨": {
+    "senses": ["alone, single, the only one", "solitary by nature", "only, merely"],
+    "shuowen": "犬相得而鬬也。从犬蜀聲。羊爲羣，犬爲獨也。",
+    "shuowenEn": "Dogs, when they come together, fight. From 犬 (dog), with 蜀 for the sound. Sheep make a flock; a dog makes one alone.",
+    "parts": [{"c": "犭", "m": "a dog"}, {"c": "蜀", "m": "sound; alone: a grub; old name of Sichuan"}],
+    "story": "The dictionary’s proverb says it: sheep flock, dogs go singly. To be 獨 is to be the kind that does not herd. In passage 20 the speaker says 我獨, “I alone”, six times, against the merry crowd. In passage 25 the Way itself “stands alone and does not change”.",
+    "gap": "“Lonely” is a feeling of lack. 獨 is a fact of number, and sometimes a point of honour."
+  },
+  "愚": {
+    "senses": ["simple, slow, foolish", "to keep simple (as a verb)", "“my humble…” (polite, of oneself)"],
+    "shuowen": "戇也。从心从禺。禺，猴屬，獸之愚者。",
+    "shuowenEn": "Simple, thick. From 心 (heart) and 禺. 禺 is of the monkey kind, the simple one among beasts.",
+    "parts": [{"c": "禺", "m": "a kind of monkey"}, {"c": "心", "m": "heart"}],
+    "story": "A monkey’s heart: it does not calculate. The speaker of passage 20 claims it: “mine is the heart of a fool”. Passage 38 calls foreknowledge “the flower of the Way and the beginning of 愚”. Passage 65 says the rulers of old did not make the people sharp but kept them 愚, a line that later autocrats used for their own ends.",
+    "gap": "“Stupid” is an insult about ability. 愚 in passage 20 is a mind that has stopped sorting things into better and worse."
+  },
+  "牢": {
+    "senses": ["a pen for cattle or horses", "a beast kept for sacrifice (太牢: ox, sheep, pig)", "a prison", "firm, secure"],
+    "shuowen": "閑，養牛馬圈也。从牛，冬省。取其四周帀也。",
+    "shuowenEn": "An enclosure: a pen for raising cattle and horses. From 牛 (ox) and an abbreviated 冬; it takes the sense of “closed on all four sides”.",
+    "parts": [{"c": "宀", "m": "a cover, an enclosure"}, {"c": "牛", "m": "an ox"}],
+    "story": "An ox under a cover. The beasts for the state sacrifices were kept in such pens, and the offerings took the name: the “great pen”, 太牢, was ox, sheep, and pig together. The crowd of passage 20 is as merry as guests at that feast. Later the pen held people: 牢 is the common word for a jail.",
+    "gap": "“Sacrifice” in English suggests loss. A 太牢 was the best meal of the year."
+  },
+  "學": {
+    "senses": ["to learn; study", "to imitate", "a school; a branch of learning"],
+    "shuowen": "覺悟也。从教从冂。冂，尚矇也。臼聲。",
+    "shuowenEn": "To awaken. From 教 (to teach) and 冂. 冂 is “still in the dark”. 臼 gives the sound. (The Shuowen enters the word under the fuller graph 斆.)",
+    "parts": [{"c": "𦥯", "m": "top: two hands around 爻, and a cover"}, {"c": "子", "m": "a child"}],
+    "story": "Two hands, a cover, and a child beneath. In the age of the Laozi 學 meant training in the rites and the texts, with a career as its goal. The book treats it with reserve: cut off learning, no worry (20); in learning one adds each day, in the Way one takes away (48); the sage “learns to unlearn” (64).",
+    "gap": "“Knowledge” is what one has. 學 is the institution and the effort: school."
+  },
+  "唯": {
+    "senses": ["wěi: “yes!” (a prompt, respectful answer)", "wéi: only; it is just that"],
+    "shuowen": "諾也。从口隹聲。",
+    "shuowenEn": "To assent. From 口 (mouth), with 隹 for the sound.",
+    "parts": [{"c": "口", "m": "mouth"}, {"c": "隹", "m": "sound; alone: a short-tailed bird"}],
+    "story": "The quick “yes” that a junior owed a senior. Passage 20 sets it against 阿, a slacker sound, and asks how far apart they are. As a grammar word it means “only”: 夫唯不爭, “just because one does not contend”.",
+    "gap": "English has “yes, sir”, “yes”, “yeah”, “uh-huh”. Chinese ritual made a rule of the difference."
+  },
+  "嬰": {
+    "senses": ["an infant at the breast", "to wear round the neck; to encircle", "a neck ornament (Shuowen)"],
+    "shuowen": "頸飾也。从女、賏。賏，其連也。",
+    "shuowenEn": "A neck ornament. From 女 (woman) and 賏. 賏 is its string (of shells).",
+    "parts": [{"c": "賏", "m": "two cowries: a string of shells"}, {"c": "女", "m": "a woman"}],
+    "story": "For the Shuowen this is a necklace of shells on a woman. The sense “infant” is commonly explained from the same picture: the child that hangs at the neck and breast. The 嬰兒 is the Laozi’s chief human image. Can you gather the breath and be soft like an infant? (10) Like an infant that has not yet laughed (20). Return to the state of the infant (28).",
+    "gap": "“Baby” is sentimental in English. In the Laozi the infant is a model of strength without effort."
+  },
+  "食": {
+    "senses": ["shí: to eat; food", "sì: to feed, to give food to", "an eclipse (the sun is “eaten”)"],
+    "shuowen": "一米也。从皀亼聲。或說亼皀也。",
+    "shuowenEn": "Grain gathered together. From 皀 (fragrant grain), with 亼 for the sound. Some say: 亼 (to gather) and 皀.",
+    "story": "The early graph is commonly explained as a vessel of food with a lid. Read sì, the same graph means “to feed”. Passage 20 ends with 食母, the mother who feeds; passage 53 scolds those who are glutted with drink and 食 while the fields are bare; passage 80 wishes the people to find their food sweet.",
+    "gap": "English keeps “eat” and “feed” apart. One graph does both, and 食母 leans on that."
+  },
+  "鄙": {
+    "senses": ["a border district of five hundred households", "rustic, rude, low", "to look down on; “my humble…”"],
+    "shuowen": "五酇爲鄙。从邑啚聲。",
+    "shuowenEn": "Five 酇 (of a hundred households each) make a 鄙. From 邑 (settlement), with 啚 for the sound.",
+    "parts": [{"c": "啚", "m": "sound; alone: a granary, the outlands"}, {"c": "阝", "m": "邑: a settlement"}],
+    "story": "A word of the map that became a word of contempt: the outer lands, and so everything that was not of the capital. The speaker of passage 20 is “a block, like a man of the 鄙”.",
+    "gap": "“Rustic” is mild. 鄙 is what the court called people whose accent it laughed at."
+  }
+}

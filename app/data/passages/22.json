@@ -1,0 +1,257 @@
+{
+  "n": 22,
+  "title": "Bent, Then Whole",
+  "theme": "yielding",
+  "zh": [
+    {
+      "text": "曲則全，",
+      "gloss": {
+        "0": "bent, curved; a bend, a corner",
+        "1": "then; and so (the hinge of each saying)",
+        "2": "whole, intact; to keep whole"
+      }
+    },
+    {
+      "text": "枉則直，",
+      "gloss": {
+        "0": "wǎng: of wood, warped; crooked; wronged",
+        "2": "straight"
+      }
+    },
+    {
+      "text": "窪則盈，",
+      "gloss": {
+        "0": "wā: a hollow in the ground",
+        "2": "full to the brim"
+      }
+    },
+    {
+      "text": "敝則新，",
+      "gloss": {
+        "0": "worn out, tattered",
+        "2": "new"
+      }
+    },
+    {
+      "text": "少則得，多則惑。",
+      "gloss": {
+        "0": "few, little",
+        "2": "to get, to gain",
+        "6": "bewildered, led astray"
+      }
+    },
+    {
+      "text": "是以聖人抱一為天下式。",
+      "gloss": {
+        "4": "to hold in the arms",
+        "5": "one; the One",
+        "9": "a pattern, a standard measure"
+      }
+    },
+    {
+      "text": "不自見故明，不自是故彰，不自伐故有功，不自矜故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。",
+      "gloss": {
+        "2": "xiàn: to show (with 自: to show oneself)",
+        "4": "bright; clearly seen",
+        "8": "to hold as right (with 自: to think oneself right)",
+        "10": "zhāng: plain to see, displayed",
+        "14": "to attack; to cut down; here: to boast",
+        "17": "merit, credit for work",
+        "21": "jīn: proud of oneself",
+        "23": "cháng: to last (or zhǎng: to lead)",
+        "28": "to pull against; to contend",
+        "49": "empty",
+        "53": "truly, in fact",
+        "56": "to go home; to give back"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Bent, then whole.|qu]]",
+    "[[Crooked, then straight.|wang]]",
+    "[[Hollow, then full.|wa]]",
+    "[[Worn, then new.|xin]]",
+    "[[Few, then gain.|de]]",
+    "Many, then bewildered.",
+    "",
+    "So [[the sage|shengren]] [[holds the One in the arms|bao-yi]]",
+    "and is [[the measure|shi]] for all under heaven.",
+    "[[Not self-showing|zi]], and so bright.",
+    "Not self-approving, and so plain to see.",
+    "[[Not self-praising|fa]], and so there is merit.",
+    "Not self-proud, and so lasting.",
+    "Just because of [[no contending|buzheng]],",
+    "no one under heaven can contend with such a one.",
+    "",
+    "[[What the ancients called|proverb]] “bent, then whole”:",
+    "how could it be empty words?",
+    "Truly whole, [[and all comes home|gui]]."
+  ],
+  "notes": {
+    "qu": {
+      "kind": "etymology",
+      "title": "曲: the curve that receives",
+      "body": "曲 is a bend: a curved line, a river’s turn, a corner of a room, and later a tune, since a melody bends. The Shuowen calls it a picture: 象器曲受物之形, “it shows a vessel, curved, that takes things in”. So the first word already has the logic of the line in it. A curve is a form that can receive. 全 is “whole, intact”, and in the fourth century BCE the word had a hard edge. To 全 one’s body or one’s life, in an age of conscription and mutilating punishments, was to reach old age with all one’s limbs. The followers of Yang Zhu made 全生, “keeping life whole”, a teaching. The image most readers supply is a tree: the bent one is not cut for timber and lives. The Zhuangzi tells that story at length. English “yield and overcome” adds a victory. The Chinese says only: bent, and so, whole.",
+      "src": [
+        "Shuowen Jiezi, 曲部: 曲，象器曲受物之形。或說曲，蠶薄也。",
+        "Zhuangzi, “Ren jian shi” (人間世)",
+        "Lüshi chunqiu, “Gui sheng” (貴生)"
+      ]
+    },
+    "proverb": {
+      "kind": "history",
+      "title": "A commentary on an old saying",
+      "body": "The last lines say what the passage is: 古之所謂曲則全者, “that which the ancients called ‘bent, then whole’”. The first line is a quotation. It was a proverb before it was scripture, and the passage is an early commentary on it, perhaps the oldest we have on any line of this book. The form is that of folk wisdom the world over: A, 則, B, three syllables, easy to remember. The first six lines may all be old sayings, strung together. Three of them rhyme in the old language: 直, 得, and 惑 all end in the group 職. Then 是以, “for this reason”, opens the commentary. The Mawangdui silk texts are reported to quote the saying without its middle word, 曲全, as a title, and end with a plain question, 幾語才, read as “how could it be mere talk?” This passage is not on the Guodian slips.",
+      "src": [
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "wang": {
+      "kind": "geopolitics",
+      "title": "枉: “bend a foot to straighten eight”",
+      "body": "枉 is a carpenter’s word; the Shuowen says 衺曲也, “slanting and bent”, of wood. Of people it means crooked, or wronged by a crooked judge. Its opposite, 直, the Shuowen explains as 正見, “to see straight on”: ten, 十, and an eye, 目. The pair was moral currency. Confucius said: raise the straight and set them over the crooked, and the people will follow. And a proverb of the diplomats ran 枉尺而直尋, “bend one foot to make eight feet straight”: give way a little, flatter a bad king, and you may do great good. A disciple put it to Mencius, who refused with scorn: no one who bent himself ever made another straight. The Laozi’s line sounds like the diplomats’ proverb, but it makes no bargain. It does not say “bend in order to”. A commentary on the Changes has the natural form of the same thought: the inchworm draws itself in, and so stretches out.",
+      "src": [
+        "Shuowen Jiezi, 木部: 枉，衺曲也。从木㞷聲。",
+        "Shuowen Jiezi, 乚部: 直，正見也。从乚从十从目。",
+        "Analects 2.19",
+        "Mencius 3B1",
+        "Yijing, “Xi ci xia” (繫辭下)"
+      ]
+    },
+    "wa": {
+      "kind": "etymology",
+      "title": "窪: the dip in the ground",
+      "body": "窪 is a low place in the land. Its top is 穴, a cave or pit, and under it is the water word 洼, which the Shuowen defines 深池也, “a deep pool”. After rain, every dip in a field has water in it and every rise is dry. The line is a fact of drainage before it is a moral. 盈 is the brim-fullness of passage 15, where the one who keeps the Way does not wish for it. Here it comes unasked, to the place that is lowest. The book returns to this ground often. Water is good because it stays in the places that people dislike (8). The great state should be like the low reach of a river (61). Rivers and seas are kings of the hundred valleys because they are good at being below them (66). In a meeting or a family, who is the low place where things collect?",
+      "src": [
+        "Shuowen Jiezi, 水部: 洼，深池也。从水圭聲。"
+      ]
+    },
+    "xin": {
+      "kind": "etymology",
+      "title": "新: “new” began with an axe",
+      "body": "敝 is a garment worn to rags; the Shuowen gives 敗衣, “ruined clothing”, as one of its senses. 新 is “new”, and its history is a surprise. The right side is 斤, an axe. The Shuowen defines the word 取木也: “to get wood”, to fell and split it. It is the first way to write 薪, firewood. The sense “new” was attached to the graph early: fresh-cut wood is white and wet, and it is the opposite of a thing worn dark with use. So the line holds a rag and a fresh log. Passage 15 ended on this pair, in a line that no edition settles: “able to be worn, and not made new”. Here the saying is plain: what is worn out is what gets renewed. Nobody replaces a coat that still looks good. What in your life is kept from renewal because it is not yet shabby enough?",
+      "src": [
+        "Shuowen Jiezi, 斤部: 新，取木也。从斤新聲。",
+        "Shuowen Jiezi, 㡀部: 敝，帗也。一曰敗衣。从攴从㡀，㡀亦聲。"
+      ]
+    },
+    "de": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the tree and its root",
+      "body": "少則得，多則惑. 得 is “to get”; the Shuowen says 行有所得也, “to walk and come upon something”. 惑 is a heart, 心, under 或, “perhaps, either”: a mind among too many maybes. The line gives no object. Few what? Legge supplies “(desires)”. Wang Bi leaves it open and gives an image: 自然之道亦猶樹也，轉多轉遠其根，轉少轉得其本。 “The way of what is so of itself is like a tree. The more there is, the farther from the root; the less, the nearer one gets to the trunk.” Twigs are many and the trunk is one. 多則遠其真，故曰惑也: “with much, one is far from what is real, and so the text says ‘bewildered’.” He then defines the One of the next line as 少之極也, “the limit of few”. The mathematics is simple. If you keep on making few fewer, you arrive at one.",
+      "src": [
+        "Shuowen Jiezi, 彳部: 得，行有所得也。从彳㝵聲。",
+        "Shuowen Jiezi, 心部: 惑，亂也。从心或聲。",
+        "Wang Bi commentary on Laozi 22"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "聖人: not a saint",
+      "body": "We write “the sage” for 聖人, and the word needs a warning each time. It is not a saint: no holiness, no miracles, no reward in another world. It is not only a wise man: the Chinese has no “man” in it, and no gender; 人 is “person”. The graph 聖 has an ear, 耳, and a mouth, 口: one who hears well and so speaks to the point; the Shuowen glosses it 通, “to pass through”. In this book the 聖人 is most often a ruler, or what a ruler should be: a person who governs by being in tune and not by force. Passage 19 said to cut off 聖 as a title. Here the figure returns, and is defined by four things that such a person does not do. English forces a pronoun on the lines that follow. We wrote “such a one”; Legge writes “he”.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"
+      ]
+    },
+    "bao-yi": {
+      "kind": "variant",
+      "title": "抱一 or 執一: embrace it, or grip it",
+      "body": "抱 is to hold in both arms against the chest, as one carries a child; passage 19 used it for the uncarved wood, and passage 10 asks, “can you hold the One and not let it go?” 一 is “one”: the unity before things are told apart, which passage 39 says heaven got and so is clear, and earth got and so is settled. Legge narrows it in a bracket, “the one thing (of humility)”, which makes a cosmic term into a Christian virtue. The Mawangdui silk texts are reported to have another verb: 執一, “grips the One”. 執 is the firm hold of a hand on a tool or a rein; it was used in passage 14 for the hold on the way of old. “Grip the One” was a slogan of rulership in other texts of the time: the lord holds one principle, and the many affairs sort themselves. The received text has made the hold softer. Which do you do with what matters most to you?",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Laozi 10, 39"
+      ]
+    },
+    "shi": {
+      "kind": "variant",
+      "title": "式 or 牧: a measure, or a herdsman",
+      "body": "In the received text the sage is 天下式, “the 式 of all under heaven”. 式 has 工, the carpenter’s square, in it, and the Shuowen says 法也, “a standard”: the pattern piece that other pieces are cut from. Wang Bi: 式，猶則之也, “式 is, so to speak, to take as one’s rule”. The same word named the diviner’s cosmic board of the Han, a square earth-plate with a round heaven-plate that turned on a pivot; some readers think of that here, though it cannot be shown. The Mawangdui silk texts are reported to have a different picture: 天下牧, “the herdsman of all under heaven”. 牧 is a hand with a stick beside an ox; the Shuowen says 養牛人也, “one who tends cattle”. It was a title of regional governors. A measure does nothing, and others match themselves to it. A herdsman walks behind the herd. Both are quiet ways to lead. They are not the same.",
+      "src": [
+        "Shuowen Jiezi, 工部: 式，法也。从工弋聲。",
+        "Shuowen Jiezi, 攴部: 牧，養牛人也。从攴从牛。",
+        "Wang Bi commentary on Laozi 22",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "zi": {
+      "kind": "wordplay",
+      "title": "Four times “self”",
+      "body": "Four lines, each of the form 不自 X 故 Y: “not self-X, so Y”. 自見 (read xiàn): to show oneself. 自是: to “this” oneself, to hold oneself right. 自伐: to boast. 自矜: to be proud. The play is that each result is what the self-act was after. One who shows off wants to be 明, clearly seen; it is the one who does not who is. The first line is a pun on light: 見 is “to be seen” and 明 is “bright”. English must turn each 自 phrase into a noun, “self-display”, or add a person. The Chinese has only the small word 自, which was first a picture of a nose: the place people point to when they mean “me”. Passage 24 has the same four in the positive: “one who shows himself is not bright…”. In the Mawangdui silk texts, that passage is reported to come just before this one. The last result, 長, has two readings: cháng, “to last”, as we render it, or zhǎng, “to grow, to be chief”, which Wang Bi and Legge prefer.",
+      "src": [
+        "Laozi 24",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "fa": {
+      "kind": "etymology",
+      "title": "伐 and 矜: the boaster’s weapons",
+      "body": "The two words for bragging in these lines are both arms. 伐 is 亻, a person, and 戈, a dagger-axe; the Shuowen says 擊也。从人持戈, “to strike; a person who holds a halberd”. Old forms are commonly described with the blade across the person’s neck. It means to attack a state, to fell a tree, and, as here, to trumpet one’s own deeds: self-praise as a military campaign. 矜 has 矛, a spear, at its left, and the Shuowen defines it in three words: 矛柄也, “the shaft of a spear”. From something held stiffly upright came “to hold oneself high”; the same graph also means “to pity”. So a reader of Chinese sees a halberd and a spear in the two lines about pride, and then, two lines on, 不爭, [[no contending|buzheng]]. A war-word hides in the English too: we “blow our own trumpet”.",
+      "src": [
+        "Shuowen Jiezi, 人部: 伐，擊也。从人持戈。一曰敗也。",
+        "Shuowen Jiezi, 矛部: 矜，矛柄也。从矛今聲。"
+      ]
+    },
+    "buzheng": {
+      "kind": "gap",
+      "title": "不爭 is not passivity",
+      "body": "爭 is two hands that pull at one thing; the Shuowen says 引也, “to pull”. 不爭 is “not to pull against”. English versions say “does not compete”, “does not strive”, “does not quarrel”, and the Victorian ear hears a meek person who lets others win. The line that follows is not meek: 天下莫能與之爭, “no one under heaven is able to contend with such a one”. The same sentence closes passage 66. The logic is that of a tug-of-war: it takes two to pull a rope. A person with no self to show, justify, praise, or admire has left nothing at the other end to pull on. The phrase is one of the book’s signatures. Water benefits all things and does not contend (8). The good warrior is not warlike; this is called the power of not-contending (68). The Way of the sage is to act and not contend (81): the last words of the book.",
+      "src": [
+        "Shuowen Jiezi, 𠬪部: 爭，引也。从𠬪、𠂆。",
+        "Laozi 8, 66, 68, 81"
+      ]
+    },
+    "quan": {
+      "kind": "geopolitics",
+      "title": "全 in the war manuals",
+      "body": "全 was a term of strategy. Sunzi’s chapter on attack by plan opens: 凡用兵之法，全國為上，破國次之, “in the method of war, to take a state whole is best; to break it is second”. And so down the scale: an army whole is better than an army broken, a company, a squad. The best general wins with nothing destroyed on either side. The Laozi and the Sunzi come from one world, and the proverb “bent, then whole” would be at home in either: the commander who gives ground keeps the force intact. But notice the difference of aim. In Sunzi wholeness is the best way to win. In this passage winning is not mentioned. The whole thing is one’s own life and person, and the last line does not say “and so conquers”. It says [[歸|gui]], “comes home”.",
+      "src": [
+        "Sunzi bingfa, “Mou gong” (謀攻)"
+      ]
+    },
+    "gui": {
+      "kind": "gap",
+      "title": "誠全而歸之: three ways home",
+      "body": "The last six characters are open. 誠 is “truly, in fact”; the Shuowen glosses it 信也. 全 is whole. 歸 is to go home, or to give back. 之 is “it” or “to it”. One reading: “truly, wholeness goes home to such a one”: all things come to the person who bends. A second: “truly whole, one returns to it”, to the Way, or to the root, as in passage 16. A third hears an echo that a reader of the time could not miss. A saying kept in the ritual books runs: 父母全而生之，子全而歸之，可謂孝矣, “father and mother bore you whole; to give yourself back whole may be called devotion”. That is 全而歸之, word for word. Then the line says: keep whole what you were given, body and nature, and hand it back unbroken at the end. Our “all comes home” leans to the first and leaves the door open.",
+      "src": [
+        "Shuowen Jiezi, 言部: 誠，信也。从言成聲。",
+        "Liji, “Ji yi” (祭義)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: “the partial becomes complete”",
+      "body": "Legge renders 曲 as “the partial”: a corner, a fragment. That is a real sense of the word, and with it the first line becomes a statement about parts and wholes that sounds like the philosophy of his century. He loses the bent tree. In the fifth line he supplies an object twice, “(desires)”, where the Chinese has none. He glosses the One as “(of humility)”. And the four 自 lines become a list of a gentleman’s faults: “self-display”, “self-assertion”, “self-boasting”, “self-complacency”. These are good Victorian words, and each one has a moral frown in it that the Chinese lacks. The Chinese lines give effects. They do not say that boasting is wicked; they say that it does not work. Read the four English words again as plain mechanics, with no sermon in them. Which of them costs you the most effort in a day?",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Bend once on purpose",
+      "body": "Today, in one exchange where you are sure that you are right, bend. Do not pretend to agree. Only decline to pull: do not [[show|zi]], justify, list what you have done, or wait to be admired. Say what you see once, plainly, and stop. Then watch what the other person does when there is nothing to pull against. Often their own position, with no opponent, straightens or falls of itself. Feel also what it costs in the body: a heat in the chest, a wish to add one more sentence. That wish is the 自 of the four lines. In the evening, ask whether you came out of the exchange more [[whole|quan]] or less. The saying is a claim that can be tested. It was a proverb long before it was scripture, and proverbs are kept because they work."
+    }
+  },
+  "lenses": {
+    "ground": "Six sayings of three characters each, with 則, “then”, as the hinge: [[bent, whole|qu]]; [[crooked, straight|wang]]; [[hollow, full|wa]]; [[worn, new|xin]]; [[few, gain; many, bewildered|de]]. The pictures are a tree or a bow, a warped board, a dip in a field, a rag and fresh-cut wood. Then 是以, “so”, and a portrait: [[the sage|shengren]] [[holds the One|bao-yi]] and is [[a measure|shi]] for the world. Four lines say what such a person does not do, each with [[自, “self”|zi]]: show, approve, [[praise, be proud|fa]]. Each not-doing gets the very thing that the doing wanted. Then the book’s great phrase, [[不爭|buzheng]]. The end comes back to the first line and names it as [[a saying of the ancients|proverb]]; so the passage is a small sermon on a proverb, and it closes with [[one word for going home|gui]].",
+    "inner": "The four 自 lines are a precise list of what the self does all day: it shows itself, it holds itself right, it praises itself, it admires itself. Contemplatives of every tradition have made such lists. The Laozi’s point is less moral than most. It does not say that the self is bad. It says that these four acts take what is whole and make it [[many|de]], and that with many comes bewilderment. To [[hold the One|bao-yi]] is the same instruction from the other side: arms that are full of one thing cannot pick up four others. Note the first saying again in this light. To be [[bent|qu]] is to have given up the straight line of one’s own will, and what follows is not loss. It is [[全|quan]], nothing missing. When you stop holding yourself right, what is it that is suddenly intact?",
+    "leading": "This is leadership by standing as [[a measure|shi]] and not by pushing. The four lines are practical. A leader who displays is watched less closely than one who does not, since people look hardest for what is not shown to them. One who is always right teaches others to stop reporting facts. One who [[claims the credit|fa]] finds that there is less of it each year; in passage 17 the people said, “we did it ourselves”. One who is proud does not last. The strategists knew [[the military form of the first line|quan]]: give ground, keep the force whole. And [[不爭|buzheng]] is not weakness in a negotiator. The person with no position to defend for its own sake cannot be cornered. A caution from [[Mencius|wang]] belongs here too: to bend oneself for advantage is a trade, and the text does not offer a trade.",
+    "body": "Every martial art of China teaches the first line with the spine and the knees. A straight, locked limb breaks; a bent one stores force, like a drawn bow. In push-hands, when a partner pushes, you do not push back and you do not collapse: you curve, the force goes past, and you are still on your feet, [[whole|qu]]. The teachers call it 捨己從人, “give up yourself and follow the other”, which is [[不爭|buzheng]] as a skill of the joints. The [[hollow|wa]] is the chest that sinks so that the breath can fill the belly. And [[to hold the One|bao-yi]] is a posture known to every student of standing practice: the arms rounded in front of the chest as if around a tree or a large ball. Stand like that for two minutes. What do the arms learn that a list of four virtues cannot teach?",
+    "nature": "Grass bends in a gale and the oak comes down. A river keeps no straight course and so arrives at the sea. The [[dip in the field|wa]] holds the pond, and the pond holds the frogs. A forest burns, and the [[worn-out|xin]] wood becomes ash for seedlings; the graph for “new” has an axe in it. The [[inchworm|wang]] draws itself into a hoop in order to go forward. None of these is a strategy. The grass does not bend to win. That is the difference between the old proverb and a clever reading of it: in nature the bending and the wholeness are one event, and not a price and a reward. Even the first word says so. [[曲|qu]], in the dictionary’s picture, is a vessel that is curved so that it can hold. A straight line holds nothing.",
+    "practice": "Try the [[one deliberate bend|practice]] today. Then take the saying that fits your season. If you are being forced to give way, [[曲則全|qu]]: ask what stays whole if you do. If you have been wronged, [[枉則直|wang]]: ask whether you need to be straightened today. If you feel empty, [[窪則盈|wa]]: a low place is where things collect. If you are worn out, [[敝則新|xin]]. If you are bewildered, count how [[many|de]] things you are holding, and put down all but one. The ancients, the text says, did not speak empty words. For the close of the passage and its three ways home, read [[the note on the last six characters|gui]]. For a Victorian sermon made out of four mechanical facts, read [[Legge|legge]]."
+  },
+  "glyph": "曲",
+  "plates": [
+    {
+      "c": "曲",
+      "title": "A vessel made to hold",
+      "lesson": "Most characters are built from two or three parts. This one is a single picture, and the Shuowen gives it its own section of the dictionary. Its account: 象器曲受物之形, “it shows the form of a vessel, curved, that receives things”. Then a second opinion: 或說曲，蠶薄也, “some say 曲 is a silkworm tray”, the shallow frame of woven bamboo on which the worms were fed mulberry leaves. Either way, it is a made thing with bent sides and compartments. The early forms are commonly described as a bent line, or a bent object with marks inside it, like a carpenter’s curved rule. From “bent” the word spread in every direction. A bend in a river: 河曲. A corner, a secluded place. What is not straight in a moral sense: 曲解 is to twist someone’s meaning; 委曲 is a wrong one swallows. The inner turns of the heart: 心曲. And music: a 曲 is a tune, a song, since a melody goes up and down; 歌曲 is “a song”, and a whole kind of Chinese opera is 曲. In the short script it also writes the word for wine leaven. Its family by sound and shape is small. 典, the classic books on a stand, and 農, farming, have a top that looks like 曲 in print, but they come from other pictures: similar shape only. Read the first line with the dictionary’s picture: [[the bent thing is the one that can take something in|qu]].",
+      "brush": "Six strokes. The left wall first: a vertical. Then the top and the right wall in one stroke, which goes across, turns, and comes down. So far it is an open box, like 冂. The third stroke is the level line across the middle. Then the two inner verticals, left one first: watch them. They start above the top of the box and go down through it, so that two small horns stand up from the roof; these are what make 曲 different from 田, a field, and 由, “from”. The sixth stroke closes the bottom. The frame should be a little wider than it is tall, and the two inner verticals must be evenly spaced between the walls, with the six small cells equal. A character whose name means “bent” is made entirely of straight lines and right angles. The curve is only in what it means."
+    },
+    {
+      "c": "伐",
+      "title": "A man with a halberd",
+      "lesson": "Left: 亻, a person. Right: 戈, the dagger-axe, the standard weapon of the Bronze Age in China. It was a blade set at a right angle on a long shaft, used to hook and slash from a chariot. The character still shows it: the long slanted stroke is the shaft, the level stroke is the blade, and the small strokes are the tassel and the butt. The Shuowen reads the pair simply: 从人持戈, “a person who holds a halberd”, and defines it 擊也, “to strike”. In many oracle-bone forms, as scholars commonly describe them, the blade lies across the person’s neck: a beheading. The word’s first use is war: 征伐, a punitive campaign; a lord 伐 a neighbour state with drums. Then to cut down: 伐木 is to fell trees, and the Book of Odes has a song of that name with the sound of the axe in it. Then, by a turn that tells you something about boasting, “to brag of one’s deeds”: [[自伐|fa]], to make a campaign of oneself. See 戈 in other graphs: 戰 (battle), 戒 (to guard: two hands on a halberd), 武 (martial), 我 (I: at first a toothed axe), and 國, a state, which has a halberd inside its wall. The passage says: not self-praising, and so there is merit. In the graph the merit and the weapon are still one thing. The line asks you to put the second down.",
+      "brush": "Six strokes: two and four. The person: a stroke that falls to the left, and a vertical from under its middle. Then the halberd. A level stroke that rises a little to the right: the blade. Then the fourth stroke, which you should watch: the long slanted hook. It starts high, above the blade, crosses it, sweeps down to the lower right in a slow curve, and ends in a hook that flicks straight up. It is the longest stroke and it gives the character its lean; calligraphers say it must be like a bow at full draw, bent and strong. The fifth stroke falls to the left across the lower shaft. The sixth is a dot at the upper right, placed high, which balances the hook below. The person stands close and upright, a little short, so that the weapon reaches over the head."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "姓": {
+    "senses": ["a clan name, a surname", "a clan; 百姓: the hundred clans, the people"],
+    "shuowen": "人所生也。古之神聖母，感天而生子，故稱天子。从女从生，生亦聲。",
+    "shuowenEn": "That from which a person is born. The divine sage-mothers of antiquity were stirred by Heaven and bore sons; hence the title “Son of Heaven”. From 女 (woman) and 生 (birth); 生 also gives the sound.",
+    "parts": [ { "c": "女", "m": "woman" }, { "c": "生", "m": "to be born; a shoot from the soil" } ],
+    "story": "The oldest clan names, 姬, 姜, 嬴, 姒, are all written with 女. In early Zhou only nobles had a 姓, and 百姓 meant the great families; by the Warring States it meant the common people. The Laozi uses 百姓 for those whom heaven and earth treat as straw dogs (5), who say “we did it ourselves” (17), and whose heart the sage takes as heart (49).",
+    "gap": "“The people” is an abstract mass. 百姓 is a count of families, each with a name and a mother."
+  },
+  "孩": {
+    "senses": ["an infant’s laugh or smile", "an infant, a small child", "to treat as an infant; to make like an infant"],
+    "parts": [ { "c": "子", "m": "child" }, { "c": "亥", "m": "gives the sound; the Shuowen links it to a baby’s laugh" } ],
+    "story": "The Shuowen has 咳, “a small child’s laugh”, and 孩 is traditionally taken as another way to write that word. The Laozi uses 孩 twice: the infant before its first smile (20), and the sage who 孩s all the people (49). The infant is the book’s model of full power: soft bones and a firm grip (55).",
+    "gap": "“Child” in English can be a put-down. 孩 is the newborn’s chuckle, and to be like it is the highest praise in this book."
+  },
+  "信": {
+    "senses": ["true to one’s word, trustworthy", "to trust, to believe", "truly, indeed", "a token, a pledge; later a letter"],
+    "shuowen": "誠也。从人从言。會意。",
+    "shuowenEn": "Real, sincere. From 人 (person) and 言 (speech). A joined-meaning graph.",
+    "parts": [ { "c": "亻", "m": "person" }, { "c": "言", "m": "speech, word" } ],
+    "story": "A person beside their word. 信 is both the quality of being reliable and the act of relying. The Laozi says that where trust is not enough, there is no trust in return (17, 23), that the Way has 信 in it (21), that light promises bring little 信 (63), and that true words are not beautiful (81). In 49 the sage trusts the untrue too.",
+    "gap": "English divides “sincerity”, “trust”, “faith”, and “belief”. 信 is one word for the reliable person and for what others give them."
+  },
+  "歙": {
+    "senses": ["to draw in the breath", "to contract, to draw together", "a place name (read shè)"],
+    "shuowen": "縮鼻也。从欠翕聲。",
+    "shuowenEn": "To draw in at the nose. From 欠 (open mouth, breath), with 翕 for the sound.",
+    "parts": [ { "c": "翕", "m": "to close, to fold together; gives the sound" }, { "c": "欠", "m": "a person with open mouth; breath" } ],
+    "story": "歙 is the in-breath and, by extension, any drawing together. Passage 36 sets it against 張, to stretch: what is to be contracted must first be stretched. In 49 the doubled 歙歙 describes the sage’s manner in the world: drawn in, receiving. Editions vary at this place, and some write words for “anxious”.",
+    "gap": "English has no single word for a bearing that is like inhaling. “Cautious” and “reserved” are close, and both are colder."
+  },
+  "渾": {
+    "senses": ["muddy, turbid", "mingled, undivided, whole", "the sound of mixed waters"],
+    "shuowen": "混流聲也。从水軍聲。一曰洿下皃。",
+    "shuowenEn": "The sound of a mingled current. From 水 (water), with 軍 for the sound. Another sense: the look of low, pooled water.",
+    "parts": [ { "c": "氵", "m": "water" }, { "c": "軍", "m": "army; gives the sound" } ],
+    "story": "渾 is water in which nothing has settled out, and so anything not yet divided. The old masters are 渾, like muddy water (15); the sage muddies the heart for the world’s sake (49). The Zhuangzi’s Hundun, 渾沌, is the same word as a person: the one with no openings, who dies when he is given them.",
+    "gap": "“Muddled” is an insult in English. 渾 is the wholeness before sorting, and the book treats it as a strength."
+  },
+  "心": {
+    "senses": ["the heart (the organ)", "the heart-mind: seat of thought, feeling, and will", "the centre, the core"],
+    "shuowen": "人心，土藏，在身之中。象形。",
+    "shuowenEn": "The human heart, the organ of earth, in the middle of the body. A picture.",
+    "story": "A picture of the organ. Early Chinese thought placed thinking as well as feeling in it, so 心 is “heart-mind”. The Laozi wants it empty (3), deep (8), and not driven wild by the hunt (12); the 心 that commands the breath is called forcing (55). In 49 the sage has no constant 心 and takes the people’s as their own.",
+    "gap": "European languages split head from heart. 心 does not, and each English choice, “mind” or “heart”, drops half."
+  },
+  "善": {
+    "senses": ["good", "good at, skilled", "to treat as good; to approve"],
+    "parts": [ { "c": "羊", "m": "sheep (top)" }, { "c": "口", "m": "mouth; reduced from a doubled 言 in the older form" } ],
+    "story": "The Shuowen lists the word in an older form with a sheep above two 言 and glosses it “auspicious”, noting that 義 and 美 share the sheep. 善 joins moral goodness and skill: the highest 善 is like water (8), the 善 walker leaves no track (27), and the 善 person is the teacher of the one who is not (27). In 49 it is a verb: to good someone.",
+    "gap": "English “good” moralises. 善 is as often “good at”, so a 善 person is capable as well as kind."
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "n": 34,
+  "title": "The Flood Goes Both Ways",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "大道氾兮，其可左右。",
+      "gloss": {
+        "2": "fàn: to flood, to overflow the banks; to drift on water",
+        "3": "xī: a sung breath, “oh”; the particle of the old southern songs",
+        "7": "left; also “to help” (later written 佐)",
+        "8": "right; also “to help” (later written 佑)"
+      }
+    },
+    {
+      "text": "萬物恃之而生而不辭，功成不名有。衣養萬物而不為主，常無欲，可名於小；",
+      "gloss": {
+        "2": "shì: to lean on, to rely on",
+        "8": "cí: to decline, to refuse; also words, a plea",
+        "10": "merit, work that earns a rank",
+        "13": "to name, to claim by name (a verb here)",
+        "14": "having, possession: “mine”",
+        "16": "yì (classical reading as a verb): to clothe",
+        "23": "lord, master, host",
+        "30": "can be named, can be classed (a verb again)"
+      }
+    },
+    {
+      "text": "萬物歸焉而不為主，可名為大。",
+      "gloss": {
+        "2": "guī: to go home; of a bride, to go to her new house",
+        "3": "yān: “to it, in it” (one word for 於之)"
+      }
+    },
+    {
+      "text": "以其終不自為大，故能成其大。",
+      "gloss": {
+        "5": "wéi: to act as, to make itself into",
+        "10": "to complete, to bring to full form"
+      }
+    }
+  ],
+  "rendering": [
+    "The great [[Dao|dao]] [[floods|fan]], oh:",
+    "it can go [[left and right|zuoyou]].",
+    "",
+    "The ten thousand things [[lean on it|shi]] and live,",
+    "and it [[does not turn them away|buci]].",
+    "The [[work is complete|gong]];",
+    "it does not [[name it “mine”|mingyou]].",
+    "",
+    "It [[clothes and feeds|yiyang]] the ten thousand things",
+    "and does not [[act the lord|zhu]].",
+    "[[Always without wanting|wuyu]]:",
+    "it can be named among the [[small|xiao]].",
+    "",
+    "The ten thousand things [[come home to it|gui]]",
+    "and it does not act the lord:",
+    "it can be named [[great|xiao]].",
+    "",
+    "Because to the end it does not make itself great,",
+    "it can [[complete its greatness|silk]]."
+  ],
+  "notes": {
+    "dao": {
+      "kind": "gap",
+      "title": "大道: a great road under water",
+      "body": "道 is first a road, and 大道 is the main road, the highway. Passage 53 uses the phrase in that plain sense: 大道甚夷, “the great road is very level”, and people still prefer the side paths. We leave Dao in Chinese because “the Way” with a capital sounds like a doctrine or a path to salvation. Here the passage does a strange thing with the road. A road has edges and one direction. In the first line the road becomes a flood, and a flood has no edges and no direction. The picture cancels itself as you read it. What kind of road can you not step off?"
+    },
+    "fan": {
+      "kind": "etymology",
+      "title": "氾: water over the banks",
+      "body": "氾 has 氵, water, at the left. The Shuowen defines it with one word, 濫也, “to overflow”, and defines 濫 in turn as 氾也. The two make the compound 氾濫, a flood that leaves its bed. The word also means “to float, to drift” (also written 泛). So the line can be heard two ways: the Dao spreads like flood water, or the Dao drifts like a boat with no mooring. For the people of the Yellow River plain, a flood was the great fear. Mencius uses this exact word for the chaos before the sage-kings: 洪水橫流，氾濫於天下, “the great waters ran wild and flooded all under heaven”, until Yu cut channels. The Confucian hero puts water into channels. The Laozi makes the unchanneled water its picture of the highest thing.",
+      "src": [
+        "Shuowen Jiezi, 水部: 氾，濫也。从水㔾聲。",
+        "Shuowen Jiezi, 水部: 濫，氾也。从水監聲。",
+        "Mencius 3A4"
+      ]
+    },
+    "zuoyou": {
+      "kind": "wordplay",
+      "title": "左右: both sides, and both helping hands",
+      "body": "其可左右 says, word for word, “it can left-right”. Chinese nouns become verbs without a change of form, so the line is “it can go to the left and to the right”: flood water does not choose a side. A second sense is near. 左 and 右 were the first way to write two words for “help”, later written 佐 and 佑. The Shuowen defines 左 as 手相左助也, “the hands help each other”, and 右 as 助也, “to help”. As a compound, 左右 also means the attendants who stand at each side of a ruler, and as a verb, “to steer, to have at one’s command”. The grammar permits a passive reading: “it can be turned left or right”, as water accepts each channel. Which did the first hearers take: water that goes where it wants, or water that goes where it is led?",
+      "src": [
+        "Shuowen Jiezi, 左部: 左，手相左助也。从𠂇、工。",
+        "Shuowen Jiezi, 口部: 右，助也。从口从又。"
+      ]
+    },
+    "shi": {
+      "kind": "etymology",
+      "title": "恃: the heart that leans",
+      "body": "恃 has 忄, the heart, at the left, and 寺 at the right for the sound. The Shuowen says 賴也: to depend on, to lean on. It is a word with a moral risk. In most of its uses in early texts, to 恃 a thing is to presume on it: a state that leans on its walls, a minister who leans on favor. The Laozi uses the word for the opposite virtue four times: 為而不恃, “to act and not lean on it” (2, 10, 51, 77). There the Dao and the sage do not lean on their own work. Here the direction turns. All things lean on the Dao, and the Dao permits it. The one that leans on nothing is the one that all can lean on. Whom do you permit to lean?",
+      "src": [
+        "Shuowen Jiezi, 心部: 恃，賴也。从心寺聲。"
+      ]
+    },
+    "buci": {
+      "kind": "gap",
+      "title": "不辭: does not refuse, or does not speak",
+      "body": "辭 has two families of meaning, and the line uses both. One is “words”: a speech, a statement, a plea in court. The Shuowen starts there: 訟也, “to plead in a lawsuit”. The other is “to decline”: to refuse a gift or an office with polite words, and so to take one’s leave. With the second sense, the Dao does not turn the things away; we render that. With the first, the Dao gives life and says nothing about it: no speech, no claim, no instruction. Passage 2 has almost the same line about the sage: 萬物作焉而不辭. A third reading is possible in the grammar: the things live and do not decline the gift. English must choose one. The Chinese hearer gets a host who refuses no guest and makes no speech of welcome. [[Legge|legge]] chose the third reading and added a word.",
+      "src": [
+        "Shuowen Jiezi, 辛部: 辭，訟也。"
+      ]
+    },
+    "gong": {
+      "kind": "geopolitics",
+      "title": "功: merit was a currency",
+      "body": "功 is 工, work, with 力, strength. The Shuowen gives it a political meaning: 以勞定國也, “to settle the state by one’s toil”. In the Warring States this was not a soft word. The reforming states broke the old nobility of birth and paid for service. In Qin, after the reforms of Shang Yang in the fourth century BCE, a soldier rose through a ladder of ranks by counted achievements in battle, and land and servants came with each rank. 功 was written down, measured, and exchanged for a name and a holding. Read 功成不名有 against that system: the work is complete, and no name is entered, and nothing is held. The line refuses the central transaction of its age. Where is your work entered in a book?",
+      "src": [
+        "Shuowen Jiezi, 力部: 功，以勞定國也。从力从工，工亦聲。",
+        "Shangjunshu (Book of Lord Shang), “Jing nei”"
+      ]
+    },
+    "mingyou": {
+      "kind": "gap",
+      "title": "不名有: three words that English must unpack",
+      "body": "不名有 is “not / name / have”. 名 is a verb, “to give a name, to claim by name”, and 有 is “having, possession”. The sense is: it does not call the result its property. Some editors think that the line is damaged and should end with 不有, “and does not possess”, as in passages 2 and 51; the Mawangdui silk texts are reported to have 弗名有 (see [[the silk version|silk]]), so the odd phrase is old. A point about our English: the Chinese has no “it” in these lines. From 萬物恃之 to the end no subject is written; 之 and 其 point back to the Dao. English grammar forces a pronoun each time, and each “it” makes the Dao more of a thing that stands apart and acts. Read the lines again without the pronouns: “clothes, feeds, does not act the lord”. The verbs are there, and no one is there."
+    },
+    "yiyang": {
+      "kind": "variant",
+      "title": "衣養: clothe, cover, or love",
+      "body": "衣 is a garment, and as a verb (read yì) “to put clothes on someone”. 養 has 食, food, in it: the Shuowen says 供養也, “to provide for”. So 衣養 is to clothe and feed, the two daily acts of a parent. The word for “mother” does not occur in this passage, but these are the mother’s verbs; compare 貴食母, “to value the mother who feeds”, in passage 20. Other old editions differ here. The Heshang Gong text reads 愛養, “loves and feeds”; the Fu Yi edition reads 衣被, “clothes and covers”. The Mawangdui silk texts are reported to have no such line at all. We keep the pinned text. Notice what the plain version does: it makes the highest thing in the book do housework.",
+      "src": [
+        "Shuowen Jiezi, 食部: 養，供養也。从食羊聲。",
+        "Heshang Gong and Fu Yi editions of Laozi 34"
+      ]
+    },
+    "zhu": {
+      "kind": "etymology",
+      "title": "主: the flame in the lamp",
+      "body": "主 is “lord, master, owner”, and also “host”, the opposite of 客, guest. The Shuowen explains the graph as a picture of a small thing: 鐙中火主也, “the flame in a lamp”. The dot at the top is the fire; the rest is commonly explained as the lamp and its stand. The character 炷, a wick, keeps that first sense. From the one point of light in a dark room came the head of the house, and from that the lord of a state. 不為主 is then “does not make itself the flame at the center”. The line comes two times. All things are fed, and no master appears; all things come home, and no host stands at the door to receive them. Have you ever been given much by a person who did not make you a guest?",
+      "src": [
+        "Shuowen Jiezi, 丶部: 主，鐙中火主也。"
+      ]
+    },
+    "wuyu": {
+      "kind": "gap",
+      "title": "常無欲: who is without wanting?",
+      "body": "Three characters stand between two commas: “constant / without / desire”. They have no subject. Most readers take the Dao as the subject: it feeds all things and wants nothing back, so it can be classed with small things, which ask for little. [[Wang Bi|wangbi]] takes the things as the subject: when the world has no wants, each thing is in its place and no giver is noticed. The same three characters open a line of passage 1: 常無欲，以觀其妙, “always without wanting, to see its subtlety”. Some editors think that the words came into this passage from there. The silk texts are reported to read here: 則恆无欲也, “then it is constantly without wanting”, with 恆 for 常, because 恆 was the personal name of Emperor Wen of Han and later copies avoided it."
+    },
+    "xiao": {
+      "kind": "wordplay",
+      "title": "小 and 大: two names for one thing",
+      "body": "The passage gives the Dao two names, and they are opposites. It asks for nothing and is not noticed: name it with the small. All things return to it and it does not rule them: name it great. The two clauses are built alike, 可名於小 and 可名為大, and each begins with 可, “can”; the small word after 名 differs, 於小, “classed among the small”, against 為大, “named as great”. Both are names that are permitted, not names that are true. Passage 25 said it directly: 強為之名曰大, “forced to name it, I say ‘great’”. Passage 32 said 樸雖小, “the uncarved wood, though small”, and no one in the world can make it a subject. The Shuowen entry for 大 reads 天大，地大，人亦大, “heaven is great, earth is great, the human is also great”; the graph is a person with arms out. 小 is commonly explained as three small grains. A thing that is correctly called by two opposite names has, in fact, no name.",
+      "src": [
+        "Shuowen Jiezi, 大部: 大，天大，地大，人亦大。故大象人形。",
+        "Shuowen Jiezi, 小部: 小，物之微也。"
+      ]
+    },
+    "gui": {
+      "kind": "etymology",
+      "title": "歸: the bride goes home",
+      "body": "歸 is “to return”, but the Shuowen defines it with a wedding: 女嫁也, “a woman marries”. A bride was said to 歸 when she went to the house of her husband: the Book of Songs sings 之子于歸，宜其室家, “this girl goes to her home; she will order well her house and family”. In the old view that house was her true home, and her arrival was a return. So the word is not “go back” in the sense of retreat. It is “to arrive where one belongs”. The dead also 歸: the Shuowen defines a ghost, 鬼, as 人所歸爲鬼, “that which a person goes home as”. English “return” gives the direction and loses the house. “Merge” loses both. The things in this line go home as a person does, and they find that the house has no master. See [[主|zhu]], the lord who is absent.",
+      "src": [
+        "Shuowen Jiezi, 止部: 歸，女嫁也。从止，从婦省，𠂤聲。",
+        "Book of Songs, Mao 6 (桃夭)",
+        "Shuowen Jiezi, 鬼部: 鬼，人所歸爲鬼。"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "The silk texts: home two times, and a sage",
+      "body": "The Mawangdui silk texts are reported to give a shorter and different passage. It opens 道渢呵, without 大, and with a different water word. The lines on leaning and on clothing are absent. After 成功遂事而弗名有也, “it completes the work and follows the task through and does not name it ‘mine’”, the silk is reported to have 萬物歸焉而弗為主 two times: all things come home and it does not act the lord, so it can be named with the small; all things come home and it does not act the lord, so it can be named great. One fact, two names. Then: 是以聖人之能成大也，以亓不為大也，故能成大, “thus the sage can complete greatness: because the sage does not act great, the sage can complete greatness”. Our pinned text has no sage, and the last line is about the Dao. Many received editions have the sage. Passage 63 says the same of the sage in almost the same words.",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: they do not know where it came from",
+      "body": "On the first line Wang Bi writes: 言道氾濫，無所不適，可左右上下周旋而用，則無所不至也. “This says that the Dao floods over; there is no place that it does not reach. It can be used left and right, up and down, round and about; so there is no place where it does not arrive.” He adds up and down to left and right. On the small name: 萬物皆由道而生，既生而不知所由. “The ten thousand things all are born by way of the Dao, and once born, they do not know by way of what.” For Wang Bi the smallness is this ignorance: the giver is so little felt that the gift seems to have no source. On the last line he only quotes passage 63: 為大於其細，圖難於其易, “do the great in its fine detail; plan the hard in its easy part”.",
+      "src": [
+        "Wang Bi commentary on Laozi 34"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: obedience and a presiding lord",
+      "body": "Legge was a missionary, and his sentence for 不辭 shows it: all things depend on the Dao, “not one refusing obedience to it”. The Chinese has no word for obedience; he moved the refusal from the Dao to the creatures and made it a matter of submission. For 歸 he adds a bracket: the things “return (to their root and disappear)”, a reading from passage 16, and death comes into a line that only speaks of home. For the second 不為主 he writes that the things “do not know that it is it which presides over their doing so”. The Chinese says that it does not act the lord. Legge’s English says that it does preside, in secret. A God who rules and is not seen is a Christian idea. The line is harder than that: no one presides.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "One thing done, no name entered",
+      "body": "Today, do one useful thing for a person or a place and leave no mark of the giver. Fill the kettle. Fix the shared document. Pay for the next person. Then watch the mind for the next hour. It will want to mention the thing, or to be seen near it, or at least to tell itself a story about a generous person. This is 名有, to name it “mine”. Do not fight the wish. Only see how fast it comes. Then think about what feeds you every day without a signature: the water system, the soil, the people who wrote the words you think with."
+    }
+  },
+  "lenses": {
+    "ground": "A river leaves its bed. The first line is that picture: the great [[Dao|dao]] [[floods|fan]] and goes [[to both sides|zuoyou]]. Then come seven short statements about how it behaves with the ten thousand things. They [[lean on it|shi]]; it [[refuses none|buci]]. The [[work|gong]] is complete; it [[claims nothing|mingyou]]. It [[clothes and feeds|yiyang]]; it is no [[lord|zhu]]. Then two names, small and great, [[for the same conduct|xiao]]. The verbs are verbs of a household: feed, clothe, come home. Six times the passage says 不, “not”, and each 不 removes a mark of ownership: not refuse, not name, not lord, not lord again, not make itself great. The greatness of the last line is that which remains when each claim is taken away.",
+    "inner": "Look for the one who owns your attention. Sights and sounds [[lean on|shi]] awareness and appear in it; it [[turns none away|buci]], the pleasant and the unpleasant alike. It holds each one and puts [[no name of “mine”|mingyou]] on it. Thoughts [[come home|gui]] to it when they end, and no [[master|zhu]] is found there to receive them. It is so little a thing that you can pass a whole life without notice of it: name it small. Nothing that you have known was outside it: name it great. The passage does not ask you to become like this. It describes that which is the case before you do anything. The only error it names is 自為大, to make oneself great.",
+    "leading": "The passage was read by men who wanted to be [[lords|zhu]], in an age that paid for [[merit|gong]] with rank and land. It tells them that the thing on which all depend keeps no accounts. A good parent, a good teacher, the person who maintains the system that no one sees: people [[lean|shi]] on them and live, and the work has no signature. This is not modesty as a style. A leader who must be the [[host|zhu]] of each success makes all others into guests, and guests do not build the house. Notice also the [[silk version|silk]], where the sage is named: greatness is completed by the one who does not act great. Do not use the passage as a method to become great by a quiet road. The text says 終, “to the end”.",
+    "nature": "On a flood plain the river is not the enemy of the field. It is the origin of the field. Each flood leaves silt, and the silt is the soil that feeds the villages; the Yellow River built the north China plain in this way and also drowned it many times. Water goes [[left and right|zuoyou]] with no plan and [[feeds|yiyang]] that which it touches. Then all water [[goes home|gui]]: the streams to the river, the river to the sea, the sea to cloud and rain. Passage 32 gave the same picture: the Dao in the world is like rivers and valleys that run to the sea. No part of the cycle is its [[lord|zhu]]. Sunlight has the same manners. It lands on the leaf, the leaf lives, and no bill comes.",
+    "practice": "Try the [[unsigned act|practice]] today. Then, in the evening, do the reverse and count what came to you unsigned: who cooked, who built the road, whose patience held a meeting together. The passage has two movements and you can feel both in one day. In the first, things [[lean and are fed|shi]]. In the second, things [[come home|gui]]. Note where in your day you were the one that leaned, and where you were the place to which a person returned, and if in that hour you needed to be the [[lord|zhu]] of it."
+  },
+  "glyph": "歸",
+  "plates": [
+    {
+      "c": "歸",
+      "title": "A bride, a broom, a foot",
+      "lesson": "This character has three parts, and the Shuowen names each one: 从止，从婦省，𠂤聲, “from 止; from 婦, abbreviated; 𠂤 gives the sound”. Start at the right. 帚 is a broom: a hand shape at the top and hanging cloth or bristles below. Put 女, a woman, beside the broom and you have 婦, a wife; the Shuowen says 从女持帚灑掃也, “a woman who holds a broom to sprinkle and sweep”. In 歸 the woman is left out and the broom stands for her: that is what 婦省, “婦 abbreviated”, means. At the lower left is 止. Today it means “to stop”, but its early form is a footprint, and as a part of characters it means movement on foot: 步 (a step) is two of them. At the upper left is 𠂤, which the Shuowen calls a small mound; here it is only the sound. So: a foot goes, and a wife is in it. The Shuowen’s definition is 女嫁也, [[a woman marries|gui]]. The oldest forms have only the mound and the broom, with no foot, and scholars do not agree on what they picture; hold the wedding as the dictionary’s reading. The short form 归 comes from quick handwriting; the foot is gone from it. In this passage the ten thousand things are the bride. They go to the house where they belong, and the text says twice that the house has [[no lord|zhu]].",
+      "brush": "Eighteen strokes. The mound first: a short stroke that falls to the left, a vertical, a horizontal with a corner, a horizontal, a second horizontal with a corner, a horizontal. Then the foot beneath it: a vertical, a short horizontal to its right, a second vertical at the left, and a base stroke that rises to the right, toward the broom. Then the broom: a horizontal with a corner, a horizontal, a second horizontal; a dot, a horizontal with a hook that covers; a vertical, a horizontal with a corner and a hook, and last a long vertical through the cloth. Watch stroke ten, the base of the foot. It lifts toward the right half and joins two columns into one character. The left side is narrow and stacked; the right is wider and hangs from the last vertical like cloth from a pole. In the cursive hands the whole left side becomes two quick strokes, and the short form 归 was made from that."
+    },
+    {
+      "c": "衣",
+      "title": "A robe with its collar",
+      "lesson": "衣 is a picture, and you can still see it. The dot and the line at the top are the collar. Below, the strokes cross as the two sides of a robe cross over the chest; a Chinese robe closed left side over right, and to close it the other way was the mark of a foreigner. The Shuowen explains the word by a pun, 衣，依也: “a garment is that which one leans on”, and 依 (to lean on, to depend) is 人, a person, beside 衣. It adds 上曰衣，下曰裳: “the upper piece is called 衣, the lower is called 裳”. Its reading of the picture, 象覆二人之形, “it shows two people covered”, is not followed by most modern scholars, who see collar, sleeves, and crossed lapels. As a left-side part the character is written 衤, as in 被 (a cover) and 補 (to mend). Look also at 初, “beginning”: 衣 with 刀, a knife. The Shuowen says 裁衣之始也, “the start of the cutting of a garment”. To begin is to make the first cut in the cloth. In this passage 衣 is a verb: the Dao [[clothes|yiyang]] the ten thousand things. The pun of the dictionary agrees with the line before: the things [[lean|shi]], and that on which they lean is their coat.",
+      "brush": "Six strokes. A dot at the top. A horizontal under it, long, the shoulder line. Third, from the middle of that line, a stroke that falls far to the left. Fourth, a vertical that starts on the third stroke, goes down, and ends in a lift to the right; this small lift is the center of gravity. Fifth, a short stroke that falls left, placed high on the right. Sixth, the long stroke that falls to the right; it begins thin, swells, and ends in a flat tail. Watch strokes three and six: they are the two hems of the robe and must open at the same angle, or the figure leans. In seal script the form is nearly symmetrical, a collar over two curved lapels. The clerical script broke the curves into these six separate strokes."
+    }
+  ]
+}

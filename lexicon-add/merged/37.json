@@ -1,0 +1,65 @@
+{
+  "化": {
+    "senses": ["to change form, to transform", "to change others by teaching or example (教化)", "to melt, to dissolve; to die (to “change”)"],
+    "shuowen": "教行也。从𠤎从人，𠤎亦聲。",
+    "shuowenEn": "Teaching takes effect. From 𠤎 (a person turned upside down: “to change”) and 人 (a person); 𠤎 also gives the sound.",
+    "parts": [{"c": "亻", "m": "a person, upright"}, {"c": "匕", "m": "here 𠤎, a person turned over"}],
+    "story": "Two human figures, one upright and one overturned: a thing becomes its other. Confucians used the word for the moral change that a ruler’s teaching works in the people. The Laozi adds 自: the ten thousand things will 自化, change of themselves, if lords and kings keep to not-doing (37), and “I do not act, and the people change of themselves” (57). The Zhuangzi makes 化 its word for the endless turning of one form of life into the next.",
+    "gap": "“Transform” and “reform” suggest an agent and a goal. 化 can be a process with no agent and no better or worse: ice to water, a living thing to earth."
+  },
+  "自": {
+    "senses": ["self; oneself", "of itself, by itself, naturally", "from (a place or time)"],
+    "shuowen": "鼻也。象鼻形。",
+    "shuowenEn": "The nose. It shows the shape of a nose.",
+    "story": "A picture of a nose, borrowed for “self”; it is commonly explained by the gesture of pointing at one’s own nose. The nose got the new graph 鼻. In the Laozi 自 has two opposite uses. As an object of pride it is a fault: one who shows oneself, 自見, is not seen clearly; one who praises oneself, 自伐, has no merit (22, 24). As an adverb it is the highest good: 自然, so of itself (17, 23, 25, 51, 64), and 自化, 自正, 自定, change, come right, settle of themselves (37, 57).",
+    "gap": "English “self” is a noun with a long history of soul and psychology. 自 is mostly an adverb. 自然 does not say that a self does something. It says that no one else does."
+  },
+  "鎮": {
+    "senses": ["to press down with a weight", "a weight (for a mat, for paper)", "to garrison, to hold a district; a market town", "to calm, to settle"],
+    "shuowen": "博壓也。",
+    "shuowenEn": "To press down broadly. (The Shuowen enters the character in the form 鎭.)",
+    "parts": [{"c": "金", "m": "metal"}, {"c": "真", "m": "true; the sound part"}],
+    "story": "A metal weight. Bronze weights held down the corners of sitting mats; the king’s jade tablet was the 鎮圭; the chief mountain of a region was its 鎮. From the weight came the garrison and the town. The Laozi uses the word once: when wanting stirs among things that have changed of themselves, “I will 鎮 it with the nameless uncarved wood” (37). The weight in that line is plain wood.",
+    "gap": "“Calm” and “restrain” lose the object. 鎮 is a heavy thing set on a light thing."
+  },
+  "樸": {
+    "senses": ["wood not yet carved; raw timber", "plain, unworked, simple", "honest, without ornament"],
+    "shuowen": "木素也。从木菐聲。",
+    "shuowenEn": "Wood in its plain state. From 木 (tree), with 菐 for the sound.",
+    "parts": [{"c": "木", "m": "tree, wood"}, {"c": "菐", "m": "the sound part"}],
+    "story": "Timber before the carpenter. The Shuowen compares it to undyed silk, 素, and the Laozi joins the two words: 見素抱樸, “show the undyed silk, hold the uncarved wood” (19). The old masters were “solid, like uncarved wood” (15). The Dao is nameless 樸, small, and no one can make it a subject (32). When 樸 is split it becomes vessels (28). In passage 37 it is the weight that is set on rising desire, and in 57 the people, left alone, become 樸 of themselves. The short form 朴 is an old variant.",
+    "gap": "“Simplicity” is a quality or a lifestyle. 樸 is a material: a block that has not yet been told what to be."
+  },
+  "守": {
+    "senses": ["to guard, to defend", "to keep to, to hold (a post, a rule, a state of mind)", "a governor, a keeper"],
+    "shuowen": "守官也。从宀从寸。",
+    "shuowenEn": "To keep an office. From a roof and 寸 (a hand; measure).",
+    "parts": [{"c": "宀", "m": "roof: an office, a house"}, {"c": "寸", "m": "a hand; rule and measure"}],
+    "story": "A hand under a roof: an official at his post, a guard on a wall. The Laozi gives the word unusual objects. Keep to the center (5). Keep to deep stillness (16). Know the male and keep to the female; know the white and keep to the black (28). Keep to the mother; to keep to the soft is called strength (52). Lords and kings are to keep to the Dao (32, 37).",
+    "gap": "“Hold” and “maintain” miss the duty in it. To 守 is to stay at a post that one may not leave."
+  },
+  "靜": {
+    "senses": ["still, quiet, at rest", "calm, clear", "silent"],
+    "shuowen": "審也。从青爭聲。",
+    "shuowenEn": "To see exactly. From 青 (the color of living things, clear), with 爭 for the sound.",
+    "parts": [{"c": "青", "m": "blue-green; clear, fresh"}, {"c": "爭", "m": "to contend; here the sound part"}],
+    "story": "The dictionary defines stillness as exact sight, as still water is clear. In the Laozi, stillness is the lord of restlessness (26); the return to the root is called 靜 (16); the female overcomes the male by 靜 (61); “I love stillness, and the people come right of themselves” (57). In passage 37 stillness follows from not-wanting, and the world settles.",
+    "gap": "“Quiet” is the absence of noise and “calm” is a mood. 靜 is also clearness, the state in which a thing can be seen."
+  },
+  "作": {
+    "senses": ["to rise, to get up, to stir", "to make, to do, to begin work", "to act as"],
+    "shuowen": "起也。从人从乍。",
+    "shuowenEn": "To get up. From 人 (person) and 乍.",
+    "parts": [{"c": "亻", "m": "person"}, {"c": "乍", "m": "suddenly, to start; also the sound"}],
+    "story": "First a body that gets up, then a work that is started. The ten thousand things 作, arise, and the sage does not refuse them (2); they arise together and “I watch their return” (16); the difficult things of the world must 作 from the easy (63). In passage 37, after things have changed of themselves, wanting 作: it stirs, or the things want to act.",
+    "gap": "English separates “arise” (it happens) from “make” (someone does it). 作 does not."
+  },
+  "定": {
+    "senses": ["to settle, to come to rest", "to fix, to decide", "stable, calm"],
+    "shuowen": "安也。从宀从正。",
+    "shuowenEn": "To be at rest. From a roof and 正 (straight, correct).",
+    "parts": [{"c": "宀", "m": "roof"}, {"c": "正", "m": "straight, correct; a foot that goes to a goal"}],
+    "story": "正 under a roof: that which has come home and stopped. The Laozi uses it once, as its last word of the Dao book: all under heaven will 自定, settle of itself (37). The silk texts read 自正, “come right of itself”. Later the word became the usual Chinese translation for the Buddhist term samādhi, settled concentration.",
+    "gap": "“Stabilize” is a verb of management. 定 is what a pendulum does."
+  }
+}

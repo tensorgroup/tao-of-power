@@ -1,0 +1,233 @@
+{
+  "n": 72,
+  "title": "When Fear Runs Out",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "民不畏威，則大威至。無狎其所居，無厭其所生。",
+      "gloss": {
+        "2": "wèi: to fear, to hold in awe",
+        "3": "wēi: that which is feared; awe, dread; a ruler’s power to punish",
+        "7": "the great dread: revolt, ruin, or heaven’s punishment",
+        "10": "do not (a prohibition here, like 毋)",
+        "11": "xiá: to treat with easy contempt; many read 狹, “to make narrow”",
+        "14": "dwelling; the place where one lives",
+        "17": "yā: to press down on (later written 壓)",
+        "20": "life; livelihood, that by which one lives"
+      }
+    },
+    {
+      "text": "夫唯不厭，",
+      "gloss": {
+        "3": "yā: to press down"
+      }
+    },
+    {
+      "text": "是以不厭。",
+      "gloss": {
+        "3": "yàn: to be sick of, to loathe (the same graph, a second word)"
+      }
+    },
+    {
+      "text": "是以聖人自知不自見，",
+      "gloss": {
+        "8": "xiàn: to show, to make seen; also jiàn, “to see”"
+      }
+    },
+    {
+      "text": "自愛不自貴；",
+      "gloss": {
+        "1": "to care for, to be sparing of; to love",
+        "4": "to set a high price on; to hold as noble"
+      }
+    },
+    {
+      "text": "故去彼取此。",
+      "gloss": {
+        "2": "that, the one over there",
+        "4": "this, the one here"
+      }
+    }
+  ],
+  "rendering": [
+    "When the people [[do not fear|wei]] [[what is to be feared|weiwei]],",
+    "[[the great dread|dawei]] arrives.",
+    "",
+    "[[Do not cramp|xia]] [[the place where they dwell|jusheng]].",
+    "[[Do not press down|ya]] on that by which they live.",
+    "Only because there is no pressing,",
+    "there is [[no loathing|yan]].",
+    "",
+    "So the [[sage|shengren]]",
+    "[[knows the self|zizhi]] and does not [[show the self|zixian]];",
+    "[[cares for the self|ziai]] and does not [[set a high price on the self|zigui]];",
+    "and so [[leaves that, takes this|qubi]]."
+  ],
+  "notes": {
+    "wei": {
+      "kind": "etymology",
+      "title": "畏: a ghost’s head and a tiger’s claws",
+      "body": "畏 is fear of something greater than oneself: awe, dread, deep respect. The Shuowen builds it from two terrors: 从甶，虎省。鬼頭而虎爪，可畏也. “From 甶, a ghost’s head, and a reduced 虎, tiger. A ghost’s head and a tiger’s claws: this is to be feared.” Modern scholars commonly read the oldest forms as a figure with a great mask-like head that holds a stick. In both readings the fear is of a power that is not quite human. The book uses the word with care. The masters of old were wary, as if they 畏 their neighbours on all sides (15). The second-best ruler is one whom the people 畏 (17). And passage 74 asks: when the people do not 畏 death, why threaten them with death? Fear is a store that a ruler can spend, and it has a bottom.",
+      "src": [
+        "Shuowen Jiezi, 甶部: 畏，惡也。从甶，虎省。鬼頭而虎爪，可畏也。",
+        "Laozi 15, 17, 74"
+      ]
+    },
+    "weiwei": {
+      "kind": "wordplay",
+      "title": "畏 and 威: fear and the fearsome",
+      "body": "The first line has two words that are one. 畏 (wèi) is “to fear”. 威 (wēi) is “that which makes one fear”: awe, majesty, the power to punish. They differ only in tone in modern speech, and scholars take them as two forms of one old root, the feeling and its cause. The Mawangdui silk texts are reported to write a single graph for all of them: 民之不畏畏，則大畏將至矣, “when the people do not fear the fearsome, the great fearsome is about to arrive”. The received text gave the noun its own character. So the line is tighter in Chinese than any English can be: wèi, wēi, wēi. The ruler’s 威 exists only as the people’s 畏. It is not a thing that the ruler has. When the fear stops, the majesty is gone at the same moment, and something else comes in the gap.",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "dawei": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the great dread is collapse",
+      "body": "What is 大威, “the great dread”? The line has been read as a moral for the people: if they do not fear what they should, disaster comes; [[Legge|legge]] takes it so. Most Chinese commentators read it as a warning to the ruler, and the next lines, which are prohibitions addressed to the one with power, support them. Wang Bi describes the sequence: 威不能復制民，民不能堪其威，則上下大潰矣，天誅將至. “The power can no longer control the people, and the people can no longer bear the power; then above and below break apart completely, and heaven’s punishment is about to arrive.” His verb 潰 is used of a dike that bursts. Some modern readers make the line a promise: when people lose their fear, true authority arrives. The lines that follow do not support them. See [[how it happened in 209 BCE|chensheng]].",
+      "src": [
+        "Wang Bi commentary on Laozi 72"
+      ]
+    },
+    "chensheng": {
+      "kind": "geopolitics",
+      "title": "209 BCE: equally death",
+      "body": "The Legalist state ruled by 威. Its theorists held that a ruler has two handles, reward and punishment, and that penalties must be so heavy that no one dares to offend. Qin united China on this plan in 221 BCE. Twelve years later, a party of nine hundred conscripts on their way to a frontier post was stopped by rain. Under Qin law the penalty for late arrival was death. One of them, Chen Sheng, a hired farmhand, put the case to the others in words that Sima Qian records: 今亡亦死，舉大計亦死，等死，死國可乎. “Now if we run we die, and if we rise we die. It is equally death. Shall we die for a state?” They rose. Within three years the empire was gone. The law had spent all the fear there was. Passage 74 states the principle; this passage names the result.",
+      "src": [
+        "Sima Qian, Shiji 48 (“Chen She shijia”)",
+        "Han Feizi, “Er bing” (二柄)",
+        "Laozi 74"
+      ]
+    },
+    "xia": {
+      "kind": "variant",
+      "title": "狎, 狹, 閘: three graphs for one squeeze",
+      "body": "The received text has 狎. The Shuowen explains that graph through a dog: 犬可習也, “a dog that can be made familiar”. From it comes the sense “to be too familiar with, to treat with easy contempt”. So one reading is: do not treat their homes with contempt. The Heshang Gong edition writes 狹, “narrow”: do not make their dwellings narrow, and most readers think that this is the word meant. The Mawangdui silk texts are reported to have a third graph: 毋閘亓所居. The Shuowen says of 閘: 開閉門也, “to open and shut a gate”; here it is read as shutting in. The three share a sound and an idea, which is to crowd people where they live. The readings differ in the picture: a ruler who walks through homes as he likes, walls that close in, or a gate shut from outside.",
+      "src": [
+        "Shuowen Jiezi, 犬部: 狎，犬可習也。从犬甲聲。",
+        "Shuowen Jiezi, 門部: 閘，開閉門也。从門甲聲。",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "jusheng": {
+      "kind": "gap",
+      "title": "其所居, 其所生: whose house, whose life?",
+      "body": "其 is “their” or “its” or “one’s”, and the Chinese does not say whose. The political reading, which we render, takes it as the people’s: their dwellings, and their living, which means their fields, grain, and labour. A state presses on these with taxes, forced work, and war, and passage 75 says so plainly. Two old commentators read the line inwardly. Wang Bi: 清靜無為謂之居，謙後不盈謂之生, “clear stillness and not-forcing are what is called the dwelling; modesty, the rear place, and not being full are what is called the life”. For him these belong to the ruler, who leaves them at his peril. The Heshang Gong commentary takes the dwelling as the heart, where the spirit lives, and the life as the vital essence. So the same eight characters are a law for a state and a rule for a body. Both squeeze the same way.",
+      "src": [
+        "Wang Bi commentary on Laozi 72",
+        "Heshang Gong commentary on Laozi 72",
+        "Laozi 75"
+      ]
+    },
+    "ya": {
+      "kind": "wordplay",
+      "title": "不厭 … 不厭: the same four characters",
+      "body": "夫唯不厭，是以不厭. The two halves end in the same two characters, and the sense depends on hearing two different words in them. The graph 厭 wrote two words. One is “to press down”, later written 壓; the Shuowen defines 厭 as 笮也, “to press”. The other is “to be full of, to be sick of, to loathe”; the silk texts are reported to write that one 猒, which the Shuowen defines as “to have eaten one’s fill”. Most readers take the line so: only because the ruler does not press (yā), the people do not loathe (yàn). The Mawangdui silk texts are reported to keep one graph for all three places: 毋猒亓所生。夫唯弗猒，是以不猒. English cannot do it. We write “pressing” and “loathing” and lose the echo. In Chinese the weight above and the disgust below are one word seen from two sides.",
+      "src": [
+        "Shuowen Jiezi, 厂部: 厭，笮也。从厂猒聲。一曰合也。",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "yan": {
+      "kind": "wangbi",
+      "title": "Wang Bi: do not loathe yourself",
+      "body": "Wang Bi reads the pair in another way, and it is worth setting beside the usual one. On the first 不厭 he writes: 不自厭也, “it is not to 厭 oneself”. On the second: 不自厭，是以天下莫之厭, “one does not 厭 oneself, and so no one in the world 厭 one”. He adds 自, “self”, to the first half. For him the line is about the ruler’s relation to the ruler’s own dwelling and life, the stillness and modesty named [[in his earlier comment|jusheng]]. A ruler who is not weary of these, who does not press and crowd them out of himself, is a ruler of whom the world does not weary. The outer result follows the inner habit. This reading prepares the last lines, which have 自 four times. Are you weary of your own quiet?",
+      "src": [
+        "Wang Bi commentary on Laozi 72"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "聖人: the ruler with no display",
+      "body": "We write “the sage” for 聖人. The word does not mean a saint or a holy man, and it means more than a wise one. The Shuowen defines 聖 as 通也, “open all the way through”; the graph has an ear in it. In this passage the sage is the answer to a political problem. The first lines describe rule by dread and its end. Then 是以, “for this reason”, the sage does two things and refuses two things, and all four concern the self. The claim is that the state’s pressure on the people begins in the ruler’s view of the ruler: display and high self-price above become weight below. Chinese has no pronoun here. We write “the self” four times, where a smoother English would say “himself”, and the stiffness is the cost of adding no “he”.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"
+      ]
+    },
+    "zizhi": {
+      "kind": "gap",
+      "title": "自知: not the Greek “know thyself”",
+      "body": "自知 is “self-know”, and a Western reader hears the motto of the temple at Delphi. The Greek command told a mortal to know his limits before the gods, and later philosophy made it a call to examine the soul by reason. The Laozi’s 自知 is neither a humbling nor an inquiry. Passage 33 gives the contrast: 知人者智，自知者明, “to know others is cleverness; to know oneself is light”. Knowing others is a skill that one uses on them. Knowing oneself is a clarity, the word 明, and it has no object to work on. Here it is set against 自見, self-display. The same light either stays in and makes things clear or is turned outward to be looked at. The sage has the first and so has no need of the second. 自 is, in the Shuowen, a picture of the nose.",
+      "src": [
+        "Laozi 33",
+        "Shuowen Jiezi, 自部: 自，鼻也。象鼻形。"
+      ]
+    },
+    "zixian": {
+      "kind": "wordplay",
+      "title": "見: to see, to be seen",
+      "body": "見 is an eye on a pair of legs; the Shuowen says 視也。从儿从目, “to look. From a person and an eye”. Read jiàn, it is “to see”. Read xiàn, it is “to appear, to show”, the sense later written 現. Chinese uses one graph for the act and for its reverse. 自見 is then “to show oneself”, and inside it is “to see oneself”: the person who displays is the one who is always looking at the self as others might. Passage 22 says that one who does not show the self is bright; passage 24 says that one who shows the self is not bright. Wang Bi ties it to the first line: the sage does not display what the sage knows 以光耀行威, “so as to dazzle and to work 威”. Display is a small form of [[dread|weiwei]].",
+      "src": [
+        "Shuowen Jiezi, 見部: 見，視也。从儿从目。",
+        "Wang Bi commentary on Laozi 72",
+        "Laozi 22, 24"
+      ]
+    },
+    "ziai": {
+      "kind": "gap",
+      "title": "自愛: care, not self-esteem",
+      "body": "自愛 looks like the modern phrase “self-love”, and modern psychology would hear self-esteem. Christian moral writing, on the other side, made self-love the root of sin. Neither fits. 愛 in early Chinese is to care for a thing and so to be sparing of it, to be unwilling to waste it; it can mean “to grudge”. Passage 44 uses it so: 甚愛必大費, “great attachment is sure to cost dear”. To 自愛 is to take care of one’s life as a careful person takes care of a tool or a field: not to spend it on show. Passage 13 says that the world can be entrusted to one who cares for the body as for the world. The second half then makes sense: this care does not raise one’s [[price|zigui]]. One looks after the self and does not admire it.",
+      "src": [
+        "Laozi 13, 44"
+      ]
+    },
+    "zigui": {
+      "kind": "geopolitics",
+      "title": "自貴: an age of rising titles",
+      "body": "貴 is “costly” and “of high rank”. 自貴 is to set one’s own price high, to make oneself grand. The period gave clear cases. The Zhou house had one king, and the heads of states were dukes and marquises. In the 4th century BCE they began, one after another, to call themselves 王, king. In 288 BCE the rulers of Qin and Qi went a step further and took the title 帝, a word for a high god, as Emperor of the West and Emperor of the East; Qin kept it for about two months, and Qi for two days. Each rise in title came with larger palaces, tombs, and armies, and the cost fell on [[the dwellings and livelihoods|jusheng]] of the people. Wang Bi sums it up: 自貴則物狎厭居生, “when one sets oneself high, the dwelling and the life are crowded and pressed”. Self-price above is paid for below.",
+      "src": [
+        "Wang Bi commentary on Laozi 72",
+        "Sima Qian, Shiji 5, 15, and 46"
+      ]
+    },
+    "qubi": {
+      "kind": "wordplay",
+      "title": "去彼取此: that, and this",
+      "body": "去彼取此, “leave that, take this”, closes three passages of the book in the same four characters: 12, 38, and 72. 彼 is “that”, the thing over there; 此 is “this”, the thing at hand. In passage 12, “that” is the eye and its colours, and “this” is the belly. In passage 38, “that” is the thin flower of ritual and foresight, and “this” is the thick fruit. Here “that” is self-display and self-price, and “this” is self-knowing and self-care. Each time the choice is for the near, the inner, and the plain over the far, the shown, and the fine. The formula is nearly a gesture: a hand that points away and then at the chest. In modern Mandarin 去 and 取 are near-homophones, qù and qǔ. This is a modern likeness only; the old sounds were not close.",
+      "src": [
+        "Laozi 12, 38"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge turns it on the people",
+      "body": "Legge reads the whole first half as advice to the people about their own conduct. “When the people do not fear what they ought to fear, that which is their great dread will come on them.” The words “ought to” are his. Then the two prohibitions become: “Let them not thoughtlessly indulge themselves in their ordinary life; let them not act as if weary of what that life depends on.” The ruler who cramps and presses has left the passage, and a careless populace has taken his place. This is a preacher’s reading, a sermon on reverence and sober living for a congregation. It could be defended from the grammar, since 其 names no owner. But most Chinese readers, [[Wang Bi|dawei]] among them, heard a warning addressed upward. A Victorian missionary did not expect a sacred book to threaten the governing class.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Where do I press?",
+      "body": "Each person has some small realm: a household, a team, a class, a child. Today, look for the two acts that the passage forbids. To cramp the dwelling: do I enter another person’s space, time, or attention as I please? A child’s room, a colleague’s evening, a partner’s silence? To press on the living: do I load people with more than their means, in work, in demands, in my moods? Look for the sign that the passage names, which is 厭, the loathing that answers pressure. It is quiet at first: a slow reply, eyes that go down. Then turn to the last lines. When I press, is it because I am [[showing myself|zixian]] to someone? Choose one pressure and take it off for a day. Tell no one that you did."
+    }
+  },
+  "lenses": {
+    "ground": "The passage moves from a state to a self. It begins with a law of politics in eight characters: when the people no longer [[fear|wei]] [[the fearsome|weiwei]], [[the great dread|dawei]] comes. Two prohibitions follow, in the form of orders to a ruler: do not [[cramp|xia]] [[where they live|jusheng]], and do not [[press on|ya]] what they live by. A hinge sentence [[turns on one graph|ya]]: no pressing, and so no loathing. Then 是以, “for this reason”, the passage names the sage, and the subject changes to four small phrases about 自, the self: [[know it|zizhi]], do not [[show it|zixian]]; [[care for it|ziai]], do not [[price it high|zigui]]. It ends with the book’s [[formula of choice|qubi]]. The claim is in the order: public oppression has a private root.",
+    "inner": "Read the people as the body and its plain needs, as the [[Heshang Gong commentary|jusheng]] does, and the ruler as the will. A hard will governs the body by threat: work or be ashamed, perform or be nothing. For a time the body fears and obeys. Then one day it does not fear, and [[the great dread|dawei]] arrives as collapse, illness, or a sudden refusal to go on. The middle lines are the remedy. Do not crowd the heart; leave it room. Do not press on the life; let it have sleep, food, and slow hours. [[Wang Bi|yan]] says: do not be weary of your own stillness. The last lines name the cause of the tyranny: a self that must be [[seen|zixian]] and [[priced|zigui]] drives its own body like a conscript.",
+    "leading": "Authority that rests on fear is a loan against a limited account. Each threat that is carried out, each rule with a penalty, draws on it. When people have nothing more to lose, or simply stop caring, the fear is spent, and what follows is not calm. It is [[the event of 209 BCE|chensheng]] on some scale: the resignation, the strike, the quiet sabotage. The passage gives two plain tests of a leader, and both can be checked: housing and livelihood, or in modern terms the space and time that people have, and their pay and load. Then it looks for the root in the leader’s own self-regard. [[Rising titles|zigui]] and visible importance at the top are paid for lower down. The sage’s way is cheap for everyone: [[self-knowledge|zizhi]] costs the people nothing.",
+    "body": "Pressure and disgust are bodily facts, and the passage uses [[one word|ya]] for both. Something that presses on the chest makes the breath short, and the body turns away from it. A person who has been crowded for a long time, at a desk, in a house, or in a marriage, shows it in the shoulders. The two orders of the passage can be given to one’s own body. Give the [[dwelling|jusheng]] room: let the chest open and the belly be soft, so that the breath has a wide house. Do not press on the life: stop a little before the limit, in work and in exercise. Movement teachers say seventy parts in a hundred. What is not pressed does not come to hate the practice, and it will come back tomorrow.",
+    "practice": "Ask [[“where do I press?”|practice]] and lift one pressure for a day, with no announcement. Then try the four phrases of the close as a short review in the evening. [[Self-knowing|zizhi]]: name one true thing that you noticed about yourself today. Self-showing: recall one moment in which you arranged how you looked to others. [[Self-care|ziai]]: name one thing that you did to keep your life in good order. Self-price: recall one moment in which you needed to count for more than the person beside you. Two of the four are “this”, and two are “that”. The passage says which to [[leave and which to take|qubi]]."
+  },
+  "glyph": "威",
+  "plates": [
+    {
+      "c": "威",
+      "title": "The mother-in-law",
+      "lesson": "The word for awe and majesty, for the dread power of kings and armies, has a woman in the middle of it. Look inside the frame: 女, a woman. The frame around and over her is 戌, which is at first a weapon, a broad axe on a shaft; the long slanting stroke with its hook is the same one that you see in 戈, the dagger-axe. The Shuowen’s definition is a surprise: 姑也。从女从戌。漢律曰：“婦告威姑。” “The husband’s mother. From 女 and 戌. The Han statutes say: ‘a wife reports to the 威姑.’” So for Xu Shen the first meaning of 威 is a person: the mother-in-law, the 威姑 or “awesome mother” of the legal phrase. A bride in early China left her own family and entered her husband’s house, and there she was under the daily command of his mother. The dictionary takes that as the home of the word. Modern scholars read the picture more simply: a woman under a weapon, and so fear, and that which causes it. Other characters keep the weapon 戌: 滅, to put out, to destroy, which is the Shuowen’s own gloss for 戌; and 咸, “all”. Do not confuse 戌 with 戍, to guard a frontier, or 戊, a heavenly stem. The passage uses 威 for the state’s terror. The character remembers that awe is first learned at home. Who was the first person that you [[feared|weiwei]]?",
+      "brush": "Nine strokes. First a horizontal across the top. Second a long stroke that starts under its left end and falls in a curve to the lower left: the outer wall. Third a short horizontal inside. Then the woman in three strokes: one that goes down to the left and turns back to the right; one that falls to the left across it; and a short horizontal that rises a little. The seventh stroke is the great slanting hook: it starts above the top line, comes down through it to the lower right, and turns up. The eighth is a stroke that falls to the left across the hook. The ninth is a dot at the upper right. Watch the woman. She must be written small and a little low, so that the long hook can pass over her. The two long strokes, the second and the seventh, lean apart and hold her between them."
+    },
+    {
+      "c": "畏",
+      "title": "A ghost’s head, a tiger’s claws",
+      "lesson": "The top looks like 田, a field. It is not a field. The Shuowen names it 甶 and says 鬼頭也。象形, “a ghost’s head; a picture”. Compare 鬼, a ghost: the same square head on a kneeling body. The Shuowen explains 鬼 with a pun: 人所歸爲鬼, “that to which a person returns (歸) is a ghost (鬼)”. The dead were not gone. They had gone home, and they could send illness or blessing. Under the head in 畏 the Shuowen sees the claws of a tiger, and it gives the whole in one phrase: 鬼頭而虎爪，可畏也, “a ghost’s head and a tiger’s claws: to be feared”. The ghost was the worst thing unseen and the tiger the worst thing seen. The oldest forms are commonly explained otherwise, as a great-headed figure that holds a stick or weapon: perhaps a masked exorcist. Both give fear a face. 畏 is not fright at a noise. It is the steady dread of a power, and it shades into respect: 敬畏 is reverence, and the Analects says that the noble person has three things that he 畏. As a sound part it is in 喂, to feed, to call out; 偎, to nestle against; and 猥, low, vulgar. In the first line of this passage, the [[fear|wei]] of the people is the ruler’s whole stock of power.",
+      "brush": "Nine strokes. The head first, in five: the left side; the top and right side in one stroke with a corner; a horizontal inside; a vertical inside; and the base that closes the box. Then a long horizontal under the head, wider than the head on both sides. Then the claws: a vertical that ends in a hook rising to the right; a short stroke that falls to the left; and last a long stroke to the right, pressed wide and lifted. Watch the long horizontal, the sixth stroke. It divides the character like a shoulder line, with the square head above and the open limbs below. The head must be small and firm. The last stroke reaches far out to the right and gives the figure its movement. In seal script the lower part is curved like a hooked hand."
+    },
+    {
+      "c": "厭",
+      "title": "Dog meat under a cliff",
+      "lesson": "This character is a stack of four small pictures. Take the inside first: 猒. Its right side is 犬, a dog. Its lower left, written like 月, is 肉, meat. The Shuowen joins these two as 肰 and defines it: 犬肉也, “dog meat”, a common food of the time. The same pair, with fire beneath, is 然, “to burn”, the second half of 自然. The upper left of 猒 the Shuowen gives as 甘, “sweet, good to eat”, a mouth with something in it. Together: 猒，飽也, “to have eaten one’s fill”. The first idea is a pleasant one, a full stomach after good meat. But fullness turns. One who has had enough has soon had too much, and so the word came to mean “to be sick of, to loathe”. Now put 厂 over it. The Shuowen says 厂 is a cliff with an overhang, under which people can live. With the cliff on top, the Shuowen defines 厭 as 笮也, “to press down”. Later writers divided the senses among new graphs: 壓, with earth, to press; 饜, with food, to be sated; and 魘, with a ghost, a nightmare, the ghost that presses on a sleeper. In this passage one graph does [[two jobs in four characters|ya]]: the weight that comes down, and the disgust that comes up.",
+      "brush": "Fourteen strokes. The cliff first: a horizontal across the top, then a long stroke that falls from its left end to the lower left. Under this roof, the left column: a small box in four strokes (left side; top and right side; a short line inside; the base), and under it the meat in four strokes (a left side that curves out a little; the top and right side with a hook; a short line inside; a second short line under it). Then the dog at the right: a horizontal; a long stroke that falls to the left through it; a long stroke to the right; and last the dot at the upper right. Watch the proportions. The long left stroke of the cliff must lean well out, so that all three inner parts fit under it. The dog’s last sweep runs out from under the cliff to the right, and the character is open on that side."
+    }
+  ]
+}

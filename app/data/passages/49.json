@@ -1,0 +1,235 @@
+{
+  "n": 49,
+  "title": "The Hundred Clans’ Heart",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "聖人無常心，以百姓心為心。",
+      "gloss": {
+        "3": "constant, fixed",
+        "4": "heart-mind: one organ for thought and feeling",
+        "8": "clan name; 百姓, “the hundred clans”: the people"
+      }
+    },
+    {
+      "text": "善者，吾善之；不善者，吾亦善之，",
+      "gloss": {
+        "0": "good; also able, good at",
+        "4": "a verb here: to be good to, to treat as good"
+      }
+    },
+    {
+      "text": "德善。",
+      "gloss": {
+        "0": "de, inner power; many read 得, “to get”"
+      }
+    },
+    {
+      "text": "信者，吾信之；不信者，吾亦信之，德信。聖人在天下歙歙，為天下渾其心，",
+      "gloss": {
+        "0": "true to one’s word, trustworthy",
+        "4": "a verb here: to trust, to hold as true",
+        "24": "xī: to draw in the breath; to contract",
+        "30": "hún: muddy, mingled, whole"
+      }
+    },
+    {
+      "text": "百姓皆注其耳目,",
+      "gloss": {
+        "3": "to pour; to fix on"
+      }
+    },
+    {
+      "text": "聖人皆孩之。",
+      "gloss": {
+        "3": "hái: an infant; an infant’s laugh; here a verb"
+      }
+    }
+  ],
+  "rendering": [
+    "[[The sage|sheng]] has [[no constant heart|wuchang]]:",
+    "the heart of the [[hundred clans|baixing]] is taken as [[heart|xin]].",
+    "",
+    "The [[good|shan]], [[I|wu]] am good to them.",
+    "The not good, I am good to them too.",
+    "[[De is good|deshan]].",
+    "The [[true|trust]], I trust them.",
+    "The untrue, I trust them too.",
+    "De is trust.",
+    "",
+    "The sage, in the world, [[draws breath in|xixi]],",
+    "and for the world [[muddies the heart|hun]].",
+    "The hundred clans all [[fix ears and eyes|zhu]].",
+    "The sage [[treats them all as infants|hai]]."
+  ],
+  "notes": {
+    "sheng": {
+      "kind": "gap",
+      "title": "聖人: the one who rules by listening",
+      "body": "“The sage” is our word for 聖人, and it needs a warning. A 聖人 is not a saint, and not only a wise person. The Shuowen defines 聖 as 通也, “open all the way through”, and places it under 耳, the ear. In the political writing of this age the word names the ideal ruler: the one whose hearing is so open that the realm orders itself around them. This passage is the clearest portrait of such a person in the book, and it is drawn with negatives. No fixed heart. No list of the good and the bad. No sharp gaze. The sage here is defined by a relation to the 百姓, the people, and has no content apart from it.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"
+      ]
+    },
+    "wuchang": {
+      "kind": "variant",
+      "title": "無常心 or 恆無心",
+      "body": "Our text reads 無常心: “has no constant heart”: the mind is not fixed. The Mawangdui silk text is reported to have two characters in a different order, with a different word for “constant”: 恆无心, “is constantly without heart”. The difference is real. In the received line, the sage has a heart, and it is not fixed; it moves with the people’s. In the silk line, the sage has no heart of their own at all, as a lasting state, and the people’s heart is the only one there. The received reading may come from the scribes’ change of 恆 to 常 (see passage 46) and a later shift of word order. The silk is also reported to say 百姓之心, with a particle that makes the phrase firmer: the heart that belongs to the hundred clans. Which is harder to live: a mind that can change, or no mind of one’s own?",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "baixing": {
+      "kind": "history",
+      "title": "百姓: from the nobles to everyone",
+      "body": "百姓 is “the hundred clan names”. In early Zhou only the nobility had a 姓, a clan name received from an ancestor, so the “hundred clans” were the great families who held office under the king. Common people had no surname. During the Warring States the old order broke down. States registered every household for tax and for the army, and surnames spread downward with the registers. By the time this text was fixed, 百姓 meant what it means in Chinese today: ordinary people, everyone. So the phrase has a history of levelling inside it. The line says that the sage’s heart is taken from them. In a world where rulers consulted ministers, diviners, and ancestors, that is a strong claim. See the plate for 姓."
+    },
+    "xin": {
+      "kind": "gap",
+      "title": "心: heart and mind are one organ",
+      "body": "心 is the heart, a picture of the organ; the Shuowen says 在身之中, “it is in the middle of the body”. Chinese thought placed thinking there too. 心 feels, wants, considers, and decides, so translators write “heart-mind”, or choose one half. English “mind” is too cool for this passage and “heart” is too soft. The split between a head that reasons and a heart that feels comes from Greek and later European thought, and the Chinese word does not have it. To take the people’s 心 as one’s own is then not to study their opinions, as a poll does, and not only to feel for them. It is to want and to think from where they are. Mencius, of the same period, makes the 心 that cannot bear the suffering of others the root of all good rule.",
+      "src": [
+        "Shuowen Jiezi, 心部: 心，人心，土藏，在身之中。象形。",
+        "Mencius 2A6"
+      ]
+    },
+    "shan": {
+      "kind": "gap",
+      "title": "善: good, and good at",
+      "body": "善 is “good”, and English hears a moral verdict. The Chinese word is wider. It also means “good at”, skilled, fit for the purpose: passage 8 lists seven things that water is 善 at, and passage 27 speaks of the one who is 善 at walking and leaves no track. The Shuowen writes the word in an older form with 羊, a sheep, in it and glosses it 吉也, “auspicious”; it notes that 義 and 美, right and beautiful, are made with the same sheep. So 善者 are the capable and decent, and 不善者 are those who are no good, at life or toward others. The verb use is the key. 善之 is “to good them”: to treat them as good and to be good to them. Passage 27 gives the reason: the not-good person is the good person’s material.",
+      "src": [
+        "Shuowen Jiezi, 誩部: 譱，吉也。从誩从羊。此與義美同意。",
+        "Laozi 8, 27"
+      ]
+    },
+    "wu": {
+      "kind": "variant",
+      "title": "吾: who says “I”?",
+      "body": "The middle section says 吾, “I”, four times. This is rare in the book, which mostly speaks of “the sage” at a distance, and readers have asked who the “I” is: the author, the sage, the ruler who recites the text? The Mawangdui silk text is reported to have no “I” at all. The collated text reads 善者善之，不善者亦善之: “the good are treated as good; the not good are also treated as good”. There the lines continue the description of the sage. The pronoun seems to be a later addition, and it changed the passage. With 吾, a description became a vow, and each reader who says the line aloud takes the vow. The rendering keeps the “I” of our base text. Try the lines both ways. Which one asks more of you?",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "deshan": {
+      "kind": "wordplay",
+      "title": "德善: “de is good”, or “gets goodness”",
+      "body": "Two characters close each triplet: 德善, 德信. De, 德, is the “inner power” of the book’s title: the force of a person or thing that is true to its nature, which acts on others without pressure. Read so, the lines say: de is good, de is trust; or, this is the goodness of de. But 德 was a homophone of 得, “to get”, and several old editions write 得 here: “and so goodness is got”, “and so trust is got”. Then the lines state a result. The bad become good because someone treated them as good. [[Legge|legge]] translated that reading. The silk texts are reported to write 德善也. The two readings do not conflict as much as it seems. Power of this kind is the capacity to get a result without forcing it. One word names the cause and the other the effect.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "trust": {
+      "kind": "etymology",
+      "title": "信: a person and their word",
+      "body": "信 is 亻, a person, beside 言, speech. The Shuowen calls it a joined-meaning graph and glosses it 誠也, “real, sincere”. A 信 person is one whose word holds. As a verb it means to hold someone’s word as true: to trust, to believe. English divides these among “sincere”, “faithful”, “trust”, and “believe”; Chinese has one word for the quality and the response to it. The hard line is the second. To trust the trustworthy is prudence. To trust the one who does not keep their word looks like folly. The book has prepared it. Passages 17 and 23 say twice: 信不足焉，有不信焉, “where trust is not enough, there is no trust in return”. Distrust is a thing that the one above gives first. See [[Wang Bi|wangbi]] on what follows.",
+      "src": [
+        "Shuowen Jiezi, 言部: 信，誠也。从人从言。會意。",
+        "Laozi 17, 23"
+      ]
+    },
+    "debate": {
+      "kind": "history",
+      "title": "Confucius heard this and said no",
+      "body": "The idea of these lines was in the air, and the Analects records an objection to it. Someone asks Confucius: 以德報怨，何如, “to repay injury with de, how is that?” The same phrase stands in passage 63 of the Laozi. Confucius replies: “Then with what will you repay de? Repay injury with uprightness, and repay de with de.” His point is justice. If the bad get the same as the good, the good are cheated and the measure is lost. The Laozi’s sage has given up the measure on purpose: there is [[no fixed heart|wuchang]] to keep the list. The question between them is still open in every school, court, and family. Is equal goodness to the good and the bad a failure of justice, or the only thing that changes the bad?",
+      "src": [
+        "Analects 14.34",
+        "Laozi 63"
+      ]
+    },
+    "xixi": {
+      "kind": "etymology",
+      "title": "歙歙: the breath drawn in",
+      "body": "歙 is a rare word. The Shuowen defines it as 縮鼻也, “to draw in at the nose”: to inhale, to sniff in. The right side is 欠, which the dictionary explains as a person with breath rising from an open mouth, a yawn. Passage 36 uses the word as the opposite of “to stretch out”: 將欲歙之，必固張之. Doubled, 歙歙 describes a manner, and the sense must be found from the picture: breath held in, the self drawn together, nothing pushed out at the world. Some read it as wary; some as without preference, taking all in alike. Editions disagree on the graph here and several write words that mean “anxious”. The image of the received text is of the body. The sage’s way of being in the world is the in-breath: receiving, not issuing.",
+      "src": [
+        "Shuowen Jiezi, 欠部: 歙，縮鼻也。从欠翕聲。",
+        "Shuowen Jiezi, 欠部: 欠，張口气悟也。象气从人上出之形。",
+        "Laozi 36"
+      ]
+    },
+    "hun": {
+      "kind": "history",
+      "title": "渾: the muddy heart, and Hundun",
+      "body": "渾 is water that runs mingled; the Shuowen gives 混流聲也, “the sound of a mixed current”. It means muddy, and also whole, not yet separated. Passage 15 praises the old masters as 渾, like turbid water. 渾其心 is “to make the heart muddy”: to blur the sharp lines by which a mind sorts the world into good and bad, true and false. The Zhuangzi tells a story about the word. The emperors of the north and south seas often met in the land of Hundun, 渾沌, who treated them well. They saw that Hundun lacked the seven openings by which people see, hear, eat, and breathe, and to repay the kindness they bored one opening each day. On the seventh day Hundun died. Put that beside the next line: the people [[fix ears and eyes|zhu]].",
+      "src": [
+        "Shuowen Jiezi, 水部: 渾，混流聲也。从水軍聲。",
+        "Zhuangzi, “Ying di wang” (應帝王)",
+        "Laozi 15"
+      ]
+    },
+    "zhu": {
+      "kind": "gap",
+      "title": "注其耳目: at what do they look?",
+      "body": "注 is to pour; the Shuowen says 灌也. The people “pour their ears and eyes”. The line does not say at what. One reading: at the sage. The people watch and listen to the one above, as subjects study a ruler for signs. The silk texts are reported to have 屬, “to fasten on”, which would support this. The other reading is [[Wang Bi’s|wangbi]]: each of them uses their own hearing and sight, 各用聰明, sharply and busily, on their own affairs. In the first reading the sage is the calm centre of attention and does not use it. In the second the people are keen and the sage, alone, is not. The Heshang Gong text has this line; some old copies of the Wang Bi text lacked it. Either way a contrast is drawn: focused senses below, and a [[muddied heart|hun]] above.",
+      "src": [
+        "Shuowen Jiezi, 水部: 注，灌也。从水主聲。",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "hai": {
+      "kind": "gap",
+      "title": "孩之: three readings of the last word",
+      "body": "聖人皆孩之: “the sage 孩s them all”. 孩 is a noun made into a verb, and there are three ways to take it. First: treats them as infants, cares for them as a parent cares, without judging. Second: makes infants of them, brings them back to the state of the newborn, which the book prizes (10, 28, 55); [[Wang Bi|wangbi]] reads it so. Third: 孩 has an older sense. The Shuowen has the word 咳, defined as 小兒笑也, “a small child’s laugh”, and the received Shuowen lists 孩 under it as the old-script form of the same word. Passage 20 uses it so: an infant before its first smile. Then the line can say that the sage smiles on them all, or is to them all as a laughing child. English “treats them as children” sounds like condescension. The Chinese is warmer and stranger.",
+      "src": [
+        "Shuowen Jiezi, 口部: 咳，小兒笑也。从口亥聲。",
+        "Laozi 20"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: one against ten thousand",
+      "body": "At the last line Wang Bi writes one of the longest notes of his commentary, an essay against rule by surveillance. Its core: 夫以明察物，物亦競以其明應之；以不信察物，物亦競以其不信應之. “If one examines people with sharp sight, they will compete to answer with their own sharpness. If one examines them with distrust, they will compete to answer with their distrust.” The ruler who relies on cleverness sets everyone’s cleverness against him: 己以一敵人，而人以千萬敵己也, “he is one against the others, and the others are thousands and tens of thousands against him”. Multiply the nets of law and the punishments, he says, block the paths and raid the hidden dwellings, and 鳥亂於上，魚亂於下, “birds are in turmoil above and fish below”. His conclusion: 無所察焉，百姓何避, “where nothing is spied on, what would the people evade?” He also points to [[the ruler’s crown|crown]].",
+      "src": [
+        "Wang Bi commentary on Laozi 49"
+      ]
+    },
+    "crown": {
+      "kind": "history",
+      "title": "The crown that covered the eyes",
+      "body": "In the same note [[Wang Bi|wangbi]] points to the ruler’s ceremonial dress. If each thing has its source and each affair its master, he says, then 冕旒充目而不懼於欺，黈纊塞耳而無戚於慢: “the strings of the crown may fill the eyes with no fear of being deceived, and the yellow floss may stop the ears with no grief at being slighted”. The crown of a Zhou or Han ruler was a flat board with rows of jade beads that hung before and behind, in front of the face, and pads of yellow silk hung beside the ears. Ritual writers explained them as a sign: the ruler should not see every fault or hear every word. So the highest person in the state wore, as regalia, a screen over the eyes and stoppers at the ears. What would it be to lead with such a crown on?",
+      "src": [
+        "Wang Bi commentary on Laozi 49"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge adds “(to me)”",
+      "body": "Legge writes: “To those who are good (to me), I am good; and to those who are not good (to me), I am also good”. The bracket narrows the line. 善者 are simply the good, and the not good; Legge makes them people who treat the speaker well or badly, and the saying comes to resemble a text that he knew by heart: do good to them that hate you. The Chinese is less personal and wider. For 信 he writes “sincere”, a virtue of the inner life, where the word is about whether a person’s word can be relied on. He follows the reading [[得|deshan]]: “and thus (all) get to be good”. The sage has “an appearance of indecision”. And at the end the sage “deals with them all as his children”: a father, and a “his”, for [[孩|hai]], which has neither.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Trust first, once",
+      "body": "Choose one person today whom you have filed as 不信, not to be relied on, or 不善, no good. It may be a colleague, a relative, a stranger at a counter. For one meeting, set the file down. Do not pretend that the past did not happen and do not hand over anything that you cannot afford to lose. Only give them, for this hour, the same plain good treatment and the same assumption of honesty that you give to those whom you like. Watch two things. Watch them: [[Wang Bi|wangbi]] says that people answer in the coin that they are offered. And watch yourself: notice how much effort the file took to carry, and what the [[in-breath|xixi]] feels like without it."
+    }
+  },
+  "lenses": {
+    "ground": "Three parts. First, a definition in eleven characters: [[the sage|sheng]] has [[no constant heart|wuchang]] and takes the heart of the [[hundred clans|baixing]] as [[heart|xin]]. Second, two matched triplets in the first person. The [[good|shan]] and the not good receive the same goodness; the [[true|trust]] and the untrue receive the same trust; each triplet closes with two characters, [[德善, 德信|deshan]]. Third, a portrait. In the world the sage [[draws the breath in|xixi]] and [[muddies the heart|hun]]. The people [[fix their ears and eyes|zhu]]. The sage [[is to them all as to infants|hai]]. The key grammatical fact is that 善 and 信 are used as verbs: “I good them”, “I trust them”. Goodness in this passage is not a rank that people hold. It is something done to them.",
+    "inner": "A constant heart is a set of standing judgments: these people are good, those are not; this one can be believed, that one cannot. It feels like character. The passage calls its absence the mark of the sage. Without the standing list, each person is met as they come, and the goodness that is given does not wait for a reason. This is possible only if goodness is not a payment. If I am good to you because you are good, your badness can stop me, and you control my heart. The lines 德善, [[德信|deshan]], say where it comes from instead: from [[de|deshan]], from what one is. The [[muddied heart|hun]] is the same thing seen from inside. The sharp line between the worthy and the unworthy has gone soft, and nothing has been lost with it.",
+    "leading": "Read it as a text on government, as [[Wang Bi|wangbi]] did. The usual ruler has a strong mind of his own and brings the people to it. He rewards the good, punishes the bad, trusts the proven, and watches the rest; and for that he needs eyes everywhere. Wang Bi describes the result exactly: the watched learn to watch back, the distrusted become skilled in deceit, and one mind is set against ten thousand. The sage’s way removes the contest. Where nothing is spied on, nothing needs to hide. This does not mean that a leader has no judgment. It means that the judgment does not harden into a file on each person, and that trust is given first, because [[trust withheld is returned as distrust|trust]]. The [[debate with Confucius|debate]] marks the risk: someone must still be fair to the good.",
+    "body": "[[歙歙|xixi]] is an instruction for the breath. Sit, and take a slow breath in through the nose. On the in-breath the chest and belly receive; nothing is sent out; the face softens and the eyes stop reaching. Stay a moment at the top. That is the sage’s posture in the world. Most of the day is spent on the out-breath: speaking, pushing, declaring, judging. Then try the next line. Let the gaze go wide and a little unfocused, so that no one object is picked out. This is a [[muddied|hun]] seeing, and with it you take in a whole room at once. Meet the next person who comes in with that breath and that gaze, before the mind has said who they are.",
+    "practice": "Do the exercise of [[trust first|practice]] with one person today. And for a morning, notice your [[constant heart|wuchang]] at work: each time the mind says of someone “that is how they are”, note it, and add one word, “today”. See whether [[the heart of the people in front of you|xin]] becomes easier to hear when your own verdict is less loud."
+  },
+  "glyph": "姓",
+  "plates": [
+    {
+      "c": "姓",
+      "title": "Born of a woman",
+      "lesson": "Left: 女, a woman. Right: 生, to be born. The Shuowen takes both as meaning, and adds that 生 also gives the sound: 从女从生，生亦聲. Its definition is direct: 姓，人所生也, “a clan name is that from which a person is born”. It then tells a myth: 古之神聖母，感天而生子，故稱天子. “The divine sage-mothers of antiquity were stirred by Heaven and bore sons; hence the title Son of Heaven.” Why should a family name, which passed from the father in historical China, be written with a woman? Look at the oldest clan names themselves. 姬, the clan of the Zhou kings. 姜, the clan of the lords of Qi. 嬴, the clan of Qin. 姒, the clan of the Xia. Each has 女 in it, and the Shuowen ties the first two to the rivers where the founding ancestors lived. Many scholars take this as a trace of a time when descent was counted through the mother; that is a common explanation and not a proven fact. 生 itself is a plant that comes up out of the soil: 象艸木生出土上, says the dictionary. So the word in [[百姓|baixing]], the people, is “woman” and “a shoot from the ground”. In a book that calls the Way the mother of the world, it is the right word for those whose heart the sage takes.",
+      "brush": "Eight strokes: three for the woman, five for the shoot. 女 begins with a stroke that falls to the left, turns, and runs down to the right as a long dot. The second stroke falls to the left across it. The third is a horizontal; when 女 stands at the left of a character this last stroke rises toward the right and stops short, to leave room. Then 生. A short stroke that falls to the left; a horizontal from it; a second horizontal below. Watch the seventh stroke: the vertical, drawn from above the first horizontal down through both. It is the stem of the plant, and it must be straight. The eighth is the long base line, the ground, the widest stroke in the character. The woman leans a little toward the plant, and the plant stands upright."
+    },
+    {
+      "c": "孩",
+      "title": "The child who laughs",
+      "lesson": "Left: 子, a child. Right: 亥, which here gives the sound. 子 is a picture; the common explanation of the old form is an infant with a large head and arms held out, the legs wrapped in one line. It is in 好 (woman with child: good, to love), 字 (a child under a roof: to nurse, and later a written character), 學 (to learn), and 孫 (grandchild). 亥 is today the last of the twelve branches, the sign of the pig. The Shuowen’s entry for it is odd and worth reading for this passage. It sees in the graph a man, a woman, and a curved line, and says of the curve: 象褢子咳咳之形, “it shows a child carried at the breast, going hai-hai”: the sound of a baby’s laugh. And the dictionary’s word for that laugh is 咳, 小兒笑也, written with a mouth; the received Shuowen lists 孩, with a child in place of the mouth, as its old-script form. So the first sense of 孩 is not “a child”. It is the chuckle of a baby who has begun to know a face, at two or three months. Passage 20 speaks of the infant 未孩, before its first smile. From the laugh came the one who laughs. Read [[the last line|hai]] again with the sound in it: 聖人皆孩之.",
+      "brush": "Nine strokes: three for the child, six for the right side. 子 is written first: a short horizontal that turns and falls to the left; then a vertical that curves slightly and ends in a hook; then the arms. In the full character 子 the arms are a level line. Here, at the left side, the third stroke rises from lower left to upper right, so that it points to its neighbour. Then 亥: a dot on top, a horizontal under it, and four strokes below. The sixth stroke falls left and turns back to the right. The seventh and eighth fall to the lower left, one under the other, like two steps. Watch the ninth: a firm stroke to the lower right that ends the character and balances the three left-falling strokes before it. The child is narrow and upright; the right side is all movement."
+    },
+    {
+      "c": "信",
+      "title": "A person stands by a word",
+      "lesson": "Left: 亻, the form that 人, a person, takes at the side of a character. Right: 言, speech. The Shuowen names this as a model case of the kind of character that joins two meanings to make a third: 信，誠也。从人从言。會意, “real, true; from person and speech; joined meaning”. A person, and what they said: 信 is the state in which the two agree. The pieces are familiar. 亻 marks human matters: 仁 (humane: a person and two), 位 (a place to stand), 伐 (to attack: a person and a dagger-axe). 言 has 口, a mouth, at its base. From “true to one’s word” came “to trust”, then a pledge or token that proves a message, and at last the modern sense “a letter”. For Confucius 信 is one of the load-bearing words: a person without it, he says, is like a cart without the pin that joins the yoke to the pole. The Laozi values it too, and distrusts fine speech: 信言不美，美言不信, “true words are not beautiful; beautiful words are not true” (81). This passage does something else with it. It makes 信 a gift that goes first, to the one who has not earned it. See [[the note on 信|trust]].",
+      "brush": "Nine strokes. The person takes two: a stroke that falls to the left, and a vertical that starts from the middle of it. Keep it slim. Then 言 in seven. A dot at the top. A long horizontal: the widest line of the character, and it reaches left almost to the person. Two shorter horizontals below it, even and parallel. Then the mouth in three strokes: left side, top with right side, base. Watch the stack of three horizontals. If they are equal the character goes dead, so the first is long, the next two are short, and the spaces between them are the same. The mouth at the bottom is a little wider than the two short lines above it, and so the speech has a base to rest on."
+    }
+  ]
+}

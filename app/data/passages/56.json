@@ -1,0 +1,263 @@
+{
+  "n": 56,
+  "title": "One With the Dust",
+  "theme": "seeing",
+  "zh": [
+    {
+      "text": "知者不言，",
+      "gloss": {
+        "0": "to know (the Guodian slips write it 智)",
+        "3": "to speak, to put into words"
+      }
+    },
+    {
+      "text": "言者不知。",
+      "gloss": {}
+    },
+    {
+      "text": "塞其兌，閉其門，挫其銳，",
+      "gloss": {
+        "0": "sè: to stop up, to plug",
+        "2": "duì: an opening; the mouth",
+        "4": "to shut and bar",
+        "6": "gate: of the senses, of the house",
+        "8": "to file down, to blunt",
+        "10": "a sharp point; the tip of an army"
+      }
+    },
+    {
+      "text": "解其分，",
+      "gloss": {
+        "0": "to untie; to cut apart at the joints",
+        "2": "division, share, lot; other editions have 紛, a tangle"
+      }
+    },
+    {
+      "text": "和其光，",
+      "gloss": {
+        "0": "to tune, to blend"
+      }
+    },
+    {
+      "text": "同其塵，",
+      "gloss": {
+        "0": "to be the same as, to join",
+        "2": "dust"
+      }
+    },
+    {
+      "text": "是謂玄同。故不可得而親，不可得而疏；",
+      "gloss": {
+        "2": "dark, deep",
+        "3": "sameness (now a noun)",
+        "8": "to get, to get hold of",
+        "10": "to treat as close kin, to be intimate with",
+        "16": "to keep at a distance"
+      }
+    },
+    {
+      "text": "不可得而利，不可得而害；",
+      "gloss": {
+        "4": "to benefit, to give gain to",
+        "10": "to harm"
+      }
+    },
+    {
+      "text": "不可得而貴，不可得而賤。",
+      "gloss": {
+        "4": "to make noble; to price high",
+        "10": "to make base; to price low"
+      }
+    },
+    {
+      "text": "故為天下貴。",
+      "gloss": {
+        "1": "to be; to be held as",
+        "4": "the thing prized (the same word as “noble” above)"
+      }
+    }
+  ],
+  "rendering": [
+    "[[One who knows|zhi]] [[does not speak|bu-yan]].",
+    "One who speaks does not know.",
+    "",
+    "[[Stopping the openings|dui]],",
+    "[[shutting the gate|men]],",
+    "[[blunting what is sharp|rui]],",
+    "[[untying what is divided|fen]],",
+    "[[tempering the light|he-guang]],",
+    "[[joining the dust|tong-chen]]:",
+    "this is called [[the dark sameness|xuan-tong]].",
+    "",
+    "So: [[not to be got hold of|bu-ke-de]] and drawn close,",
+    "not to be got hold of and [[kept far|qin-shu]];",
+    "not to be got hold of and given gain,",
+    "not to be got hold of and harmed;",
+    "not to be got hold of and [[raised high|gui-jian]],",
+    "not to be got hold of and brought low.",
+    "So it is [[what all under heaven prizes|tianxia-gui]]."
+  ],
+  "notes": {
+    "zhi": {
+      "kind": "etymology",
+      "title": "知: a mouth in the word for knowing",
+      "body": "Look at the character that says “know” in a line about not speaking. 知 is 矢, an arrow, beside 口, a mouth. The Shuowen says 詞也。从口从矢: “a word of speech; from mouth and from arrow”. A common explanation of the pair is that one who knows a thing can say it as fast and as straight as an arrow flies. So the script itself holds that knowing shows in the mouth, and the line denies it in four characters. The oldest copy, the Guodian bamboo slips, writes 智 here (in the script of Chu that was the usual graph for the verb “to know”; 知 and 智 were kept apart only later), and adds an object: the one who knows it does not speak of it. 者 makes “the one who”. English must say “he”, “those”, or “one”; the Chinese gives no number and no sex. Is there a thing that you know and cannot say straight?",
+      "src": [
+        "Shuowen Jiezi, 矢部: 知，詞也。从口从矢。"
+      ]
+    },
+    "bu-yan": {
+      "kind": "wordplay",
+      "title": "A book that says speakers do not know",
+      "body": "The passage is made of words, and its first line says that the one who speaks does not know. The Tang poet Bai Juyi made the joke that every reader makes: 言者不如知者默，此語吾聞於老君；若道老君是知者，緣何自著五千文. “‘One who speaks is not equal to one who knows and is silent’: I heard this from Lord Lao. If you say Lord Lao was one who knew, why did he himself write five thousand words?” There are old answers. One: 言 is talk that explains and argues, and the book does neither; it points. Two: the line is about a moment, not a rule. While you are in the knowing, there is no speaker apart from it. Three: the book admits the charge. Its first line already said that the Dao that can be told is not the constant Dao. The text is not confused about its own position. It writes from inside the paradox and expects you to see it.",
+      "src": [
+        "Bai Juyi, “Du Laozi” (讀老子)"
+      ]
+    },
+    "wheelwright": {
+      "kind": "history",
+      "title": "The wheelwright and the duke’s book",
+      "body": "The Zhuangzi quotes these two lines, and then tells a story to show what they mean. Duke Huan sits in his hall and reads. Below the steps the wheelwright Bian is at work on a wheel. He puts down his chisel and asks what the duke reads. “The words of the sages.” Are they alive? “Dead.” Then what you read, says Bian, is only the dregs of the men of old. The duke demands an explanation or his life. Bian answers from his craft. If I cut the wheel too slowly, the chisel slides and does not hold. Too fast, and it sticks. Not slow, not fast: I get it in the hand and feel it in the heart. The mouth cannot say it. I cannot teach it to my own son, so at seventy I still make wheels. The knowing in the line is of this kind. It is not secret. It simply does not fit in a sentence.",
+      "src": [
+        "Zhuangzi, “Tian dao” (天道)"
+      ]
+    },
+    "dui": {
+      "kind": "etymology",
+      "title": "兌: the opening",
+      "body": "兌 is an old and odd word. The Shuowen defines it as 說也, and 說 here is both “to speak” and “to be pleased”; both words were written with that one graph. The character is commonly explained as a person, 儿, with a mouth, 口, and two strokes above the mouth: breath or words that come out. In the Book of Changes 兌 is one of the eight trigrams: the lake, joy, the youngest daughter, and, in the old list of body parts, 兌為口: “兌 is the mouth”. So 塞其兌 is first “stop the mouth”, which fits the lines before it. Commentators widen it to all the openings through which a person leaks outward: mouth, eyes, ears, nose. The same two lines stand in passage 52, with a promise: do this, and to the end of your life you are not worn out. See [[the gate|men]].",
+      "src": [
+        "Shuowen Jiezi, 儿部: 兌，說也。从儿㕣聲。",
+        "Yijing, “Shuo gua” (說卦): 兌為口。"
+      ]
+    },
+    "men": {
+      "kind": "practice",
+      "title": "The gate: a sitting instruction",
+      "body": "Read as practice, the six lines are steps for sitting still, and their order makes sense. Stop the openings: the mouth is shut, and the eyes and ears no longer go out to fetch things. Shut the gate: 門 is the two-leaf gate of a house, and here the commentators take it as the gate of the senses and of desire. Then the inside work. What is sharp in you, the wish to be right and to win, is filed down. What is knotted comes loose. The glare of self goes soft, and what is left is as plain as dust. Note what the lines do not ask for. No visions, no special breath, no effort to feel one with all things. Each verb removes or softens; none adds. Try the first two for ten minutes: sit, close the mouth, lower the eyes, and let sounds come without going out to them.",
+      "src": [
+        "Shuowen Jiezi, 門部: 門，聞也。从二戶。象形。"
+      ]
+    },
+    "rui": {
+      "kind": "wordplay",
+      "title": "兌 inside 銳: the mouth has a point",
+      "body": "Look at the last character of 塞其兌 and the last character of 挫其銳. The second is the first with 金, metal, added at its side: 銳 is a point of metal. The Shuowen defines it as 芒也, “the awn”, the sharp beard on an ear of grain, and then any fine point: a blade tip, a quick mind, the front rank of an army (精銳, “picked and sharp”, is still the word for crack troops). 兌 gives the sound. But to the eye the opening and the edge are one graph in two forms, three lines apart. Is that an accident? We cannot say that the author planned it. Still, the reader sees a mouth turn into a weapon, and both are closed. Sharp speech is the edge that most people carry. 挫 is to file or press down. It does not break the blade. It takes off the point.",
+      "src": [
+        "Shuowen Jiezi, 金部: 銳，芒也。从金兌聲。",
+        "Shuowen Jiezi, 手部: 挫，摧也。"
+      ]
+    },
+    "fen": {
+      "kind": "variant",
+      "title": "分 or 紛: divisions or a tangle",
+      "body": "Our pinned text, Wang Bi’s, reads 解其分. 分 is a knife, 刀, that parts a thing in two, 八: to divide; and, read fèn, a share, a lot, one’s allotted place. Wang Bi comments 除爭原也, “this removes the source of contention”: people fight over shares and ranks, so the divisions are untied. Passage 4 and most other editions, and by report the silk texts, have 紛, with the silk radical: a snarl of thread, confusion. The two readings give two pictures, a cut and a knot, and 解 fits both. The Shuowen explains 解 as 判也。从刀判牛角, “to part; a knife that parts the horn from an ox”. It is the verb for the cook in the Zhuangzi who takes an ox apart at its joints and never dulls the blade. The silk texts and the Guodian slips are reported to give the six lines in another order: light and dust come before sharpness and tangle.",
+      "src": [
+        "Wang Bi commentary on Laozi 56",
+        "Shuowen Jiezi, 角部: 解，判也。从刀判牛角。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported): 和亓光 同亓塵 挫亓銳 解亓紛"
+      ]
+    },
+    "he-guang": {
+      "kind": "wangbi",
+      "title": "Wang Bi on light and dust",
+      "body": "Wang Bi glosses the first two lines of the passage in four characters each. The knower does not speak: 因自然也, “this follows what is so of itself”. The speaker does not know: 造事端也, “this makes the first threads of trouble”. Then light and dust. On 和其光: 無所特顯，則物無所偏爭也. “Where nothing is made to stand out, things have nothing to fight over on one side.” On 同其塵: 無所特賤，則物無所偏恥也. “Where nothing is held especially low, things have nothing to be ashamed of on one side.” His reading is social and exact. Brightness that is shown starts a contest. Lowness that is marked starts shame. The sage does neither: does not shine above, does not look down. Passage 4 has more on the two verbs, 和 and 同, and on the dust that deer kick up. Whom does your light put in the shade?",
+      "src": [
+        "Wang Bi commentary on Laozi 56"
+      ]
+    },
+    "tong-chen": {
+      "kind": "geopolitics",
+      "title": "同: a fighting word",
+      "body": "同, “same”, was a word that the schools fought over. Confucius used it for the yes-man: the noble person harmonizes and does not make the same, 和而不同; the small person makes the same and does not harmonize. The Mohists used it for the state. One of their core doctrines is 尚同, “to conform upward”: each rank takes its idea of right from the rank above, up to the Son of Heaven, so that the realm has one standard and no disputes. That is sameness by command, and the centralizing states of the age liked it. The Laozi takes the same word and turns it down, not up: 同其塵, to be the same as the dust. This sameness has no standard, and nobody enforces it. Nothing is made equal. A person stops holding the self apart. The Shuowen defines 同 as 合會也, “to come together”. See [[玄同|xuan-tong]].",
+      "src": [
+        "Analects 13.23",
+        "Mozi, “Shang tong” (尚同)",
+        "Shuowen Jiezi, 𠔼部: 同，合會也。"
+      ]
+    },
+    "xuan-tong": {
+      "kind": "gap",
+      "title": "玄同: not “mystical union”",
+      "body": "玄同 is two words: 玄, the dark colour of depth, and 同, same. English versions give “mysterious agreement” (that one is [[Legge’s|legge]]), “deep identity”, “mystic unity”. Each brings in a Western frame: a soul that unites with God, or a subject that identifies with an object. In those frames two things first exist apart and then join, and the joining is a high event. The Chinese is plainer. 同 is a state that is left when the separating stops: the mouth is closed, the edge is off, the glare is gone. Nothing is added. And 玄 says that this sameness cannot be seen from outside. A person in it looks like anyone else, and in that sense it is “dark”. The word 同 was a verb two lines before, “to be the same as the dust”, and is now a noun. What was an act has become a condition.",
+      "src": [
+        "Shuowen Jiezi, 玄部: 玄，幽遠也。"
+      ]
+    },
+    "bu-ke-de": {
+      "kind": "gap",
+      "title": "不可得而…: no handle",
+      "body": "The same five characters come six times: 不可得而, and then a verb. Word for word: “not-can-get-and”. 得 is to get, to get hold of; 而 joins it to the next act. So 不可得而親 is “cannot be got hold of and made close”. The pattern says more than “cannot be befriended”. It says that there is no place to take hold. You cannot get a grip on this one in order to do the next thing, whether the next thing is kind or cruel. Two more points. The lines have no subject: it may be the person, or the dark sameness itself. Our English keeps those six lines without a subject; only the closing line needs “it”. And the silk texts are reported to add 亦, “also”, to each second half: cannot be drawn close, and also cannot be kept far. [[Wang Bi|wangbi-pairs]] explains why the two go together.",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "wangbi-pairs": {
+      "kind": "wangbi",
+      "title": "Wang Bi: what can be favoured can be dropped",
+      "body": "On each pair Wang Bi writes one sentence of the same form. 可得而親，則可得而疏也: “if one can be got hold of and drawn close, then one can be got hold of and kept far”. If one can be benefited, one can be harmed. If one can be raised, one can be brought low. The logic is that of a handle. The same handle serves for both directions. A person who can be won by praise can be broken by blame; a person who needs the favour of the court is in the power of the court. This is not coldness. It is the end of being for sale. On the last line he writes 無物可以加之也, “there is nothing that can be put above this”, and also “nothing that can be added to it”: 加 means both.",
+      "src": [
+        "Wang Bi commentary on Laozi 56"
+      ]
+    },
+    "qin-shu": {
+      "kind": "geopolitics",
+      "title": "Three ways a court holds a man",
+      "body": "The three pairs are a full list of the means by which a Warring States ruler controlled people. 親 and 疏 are near and far: who is admitted to the inner circle and who is kept out. 親 is also “kin”, and courts ran on kinship. 利 and 害 are gain and harm. The Legalists built a science on this pair: Han Feizi calls reward and punishment the “two handles”, 二柄, by which a ruler moves ministers as a driver moves a horse. 貴 and 賤 are high and low rank, with the salary and the dress that go with each. The men who read this book were mostly of the 士 class, educated men without land who lived by finding a patron. Every one of them was held by these three ropes. The passage describes a person on whom none of the three works. To a ruler such a person is useless as a tool, and also the only adviser who is safe.",
+      "src": [
+        "Han Feizi, “Er bing” (二柄)"
+      ]
+    },
+    "gui-jian": {
+      "kind": "etymology",
+      "title": "貴 and 賤: rank is a price",
+      "body": "Both characters stand on 貝, a cowrie shell. The Shuowen records why: 古者貨貝而寶龜, “in antiquity shells were money and tortoise-shells were treasure”, until the Qin replaced shells with coins. Almost every character about wealth keeps the shell: 財 (wealth), 貨 (goods), 買 (buy), 賣 (sell), 貧 (poor). So 貴 and 賤 are first words of the market. The Shuowen defines 賤 as 賈少也, “the price is low”, and 貴 as 物不賤也, “a thing that is not cheap”. Only then are they “noble” and “base”, the ranks of people. Chinese does not hide that honour is a price that others set on you. In English “dear” still has both senses and “cheap” has both. The lines say: on this one, no price can be set, high or low. What would it be to live outside the valuation, and not above it?",
+      "src": [
+        "Shuowen Jiezi, 貝部: 貴，物不賤也。从貝臾聲。",
+        "Shuowen Jiezi, 貝部: 賤，賈少也。从貝戔聲。",
+        "Shuowen Jiezi, 貝部: 貝，海介蟲也。…古者貨貝而寶龜，周而有泉，至秦廢貝行錢。"
+      ]
+    },
+    "tianxia-gui": {
+      "kind": "wordplay",
+      "title": "貴 twice: the turn in the last line",
+      "body": "The line before the last says 不可得而貴: it cannot be made 貴. The last line says 故為天下貴: so it is 天下貴, the 貴 of all under heaven. The same word, one line apart, with the opposite result. This is how the book often closes: the thing refused comes back at a larger size. The one who cannot be priced high by anyone is prized by everyone. The first 貴 is an act done to a person: to raise in rank. The second is a state that nobody granted. English needs two words (“raised high”, “prizes”) and so the echo is lost. Passage 62 ends with the same five characters, 故為天下貴, said there of the Dao. That supports the reading that the hidden subject here is not only a person. Do not read the last line as a reward. A person who did the six things in order to be prized would have a handle again.",
+      "src": [
+        "Laozi 62"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s nostrils",
+      "body": "Legge’s version shows a Victorian reader at work with a text that leaves things out. The Chinese of the first line is four characters. He adds “(the Tao)”, “(care to)”, “(about it)”, and “(ever ready to)”: the knower now has a mood, and the speaker has a fault of character. For 塞其兌，閉其門 he writes that the sage will keep the mouth shut and close “the portals (of his nostrils)”. The nostrils come from later Daoist breath lore, and they turn a general line about the senses into a breathing technique. 玄同 is “the Mysterious Agreement”, with capitals and in quotation marks, like the name of a treaty. And each line gets a subject, “He”, “(Such an one)”. The effect is a portrait of a rare male adept. The Chinese has six verbs with no owner, which any reader may try on."
+    }
+  },
+  "lenses": {
+    "ground": "Three movements. First a pair of mirror lines, four characters each, built from only four different words: 知者不言，言者不知. Then six lines of three characters, all of one form: a verb, 其, a noun. [[Stop the openings|dui]], [[shut the gate|men]], [[blunt the point|rui]], [[untie the divisions|fen]], [[tune the light|he-guang]], [[be the same as the dust|tong-chen]]. They get a name, [[玄同|xuan-tong]]. Then six more lines, again of one form: [[不可得而|bu-ke-de]] and a verb, in three pairs of opposites: near and far, gain and harm, high and low. Then one line of result. Four of the six verb lines also stand in passage 4, where they have no person near them. The grammar never says who does any of this. We kept that: our English has “-ing” forms and no “he”.",
+    "inner": "Why does the knower not speak? Not from a rule of secrecy. Speech needs a speaker who stands apart from the thing and points at it, and this knowing has no such distance in it; see the [[wheelwright|wheelwright]]. The six lines then describe how the distance closes. Each takes away a way of standing apart: the mouth that comments, the senses that go out to fetch, the edge that needs to be right, the knots of mine and yours, the glare of being someone. What is left is called [[the dark sameness|xuan-tong]]. It is not a union of two things, since the second thing is what was removed. The result is given only by negatives, and that is honest. From inside, nothing special is felt. From outside, a person [[cannot be got hold of|bu-ke-de]]. Praise finds no one to inflate. Blame finds no one to wound.",
+    "leading": "The second half is a study of leverage. A court, a firm, or a family holds people by [[three ropes|qin-shu]]: closeness, reward and penalty, rank. [[Wang Bi|wangbi-pairs]] gives the mechanism: whoever can be drawn in can be shut out. A leader who needs to be liked can be steered by anyone who withholds liking. An adviser who wants the next title cannot say the true thing. The passage does not tell you to be aloof; 不可得而疏 says that this one cannot be pushed away either. It describes a person who is fully present and is not for sale. The first half says how such a person looks in a meeting: [[the light is tuned|he-guang]] to the room, and the point is off the blade. The loud ones are usually still learning. Beware one misuse. A show of mystery in order to gain value is only a subtler price.",
+    "body": "In the body the six lines are familiar to anyone who has sat in stillness or stood in a martial stance. The mouth closes and the tongue rests. The eyes soften and the hearing widens: the [[gate|men]] is shut, and yet sound still comes in. Then tension that has an [[edge|rui]], in the jaw, the hands, the brow, is let down. Then the [[knots|fen]]: the places where the breath does not pass. A body with no edge and no knot gives an opponent nothing to hold; in push-hands the skilled partner seems to be nowhere, and that is [[不可得|bu-ke-de]] in the flesh. The last two lines are about bearing. A trained person tends to shine. The better teachers look like nobody in particular: ordinary clothes, ordinary walk, [[one with the dust|tong-chen]].",
+    "practice": "Choose one conversation today and take [[the first line|bu-yan]] into it as a test. When you notice the wish to show that you know, a correction, a better story, the right term, let one such moment pass in silence. Watch what the wish does when it is not fed. Does the knowing become less? Then, afterwards, one of the three pairs: recall a recent word of praise and a recent word of blame, and find the place in the body where each took hold. That place is the [[handle|wangbi-pairs]]. You need not remove it. Only see that it is one handle, and that both pulled on it."
+  },
+  "glyph": "兌",
+  "plates": [
+    {
+      "c": "兌",
+      "title": "A person who opens the mouth",
+      "lesson": "Three layers, from the bottom up. At the foot, two strokes: 儿, a pair of legs, the form that “person” takes at the bottom of a character (as in 兄, elder brother, and 見, to see). In the middle, 口, a mouth. On top, two short strokes that part like breath in cold air. The common explanation is a person whose mouth opens in speech or in a smile. The Shuowen files it under 儿 and says 說也: that single word covers “to speak” and “to be glad”, and it calls the top part a sound element. Now watch the family that grows from this root. Add 言, words: 說, to speak, to explain, to persuade. Add 忄, heart: 悅, to be glad. Add 月, flesh: 脫, to shed, to slip off (it is in passage 54). Add 禾, grain: 稅, the tax taken out of the harvest. Add 金, metal: 銳, a sharp point, which stands [[three lines later|rui]] in this passage. In all of them a thing comes out or comes off. In the Book of Changes 兌 is the trigram of the lake and of joy, and of the mouth. The passage says to stop it up. See [[the note on the opening|dui]]: it is the mouth first, and then every place where a person leaks.",
+      "brush": "Seven strokes. First the two on top: a dot that leans down to the right, then a short stroke that falls to the left. They lean toward each other and do not touch. Then the mouth, three strokes: a short vertical; a horizontal that turns down at the corner; a horizontal that closes the box. Then the legs: a stroke that falls away to the left, and the last stroke, which goes down, bends to the right along the floor, and ends in a hook that flicks up. Watch the seventh stroke. It is the longest and the only one with a curve, and it must reach out wider than the mouth so that the figure does not fall. This top is the 丷 form, as in 兑. Older printed fonts open the two strokes outward like 八: 兌. Both forms are old."
+    },
+    {
+      "c": "閉",
+      "title": "A gate and its bar",
+      "lesson": "The outside is 門, a gate. The Shuowen calls it a picture, 从二戶，象形: “from two 戶”, two door-leaves that hang side by side, and you can still see them, each with its panel at the top. Inside the gate stands 才. As a word 才 means “talent” or “just now”, but the Shuowen says that here it is a thing: 才，所以歫門也, “才 is that with which the gate is held against entry”. It is the bar and its post: one line across, one down, one brace. So 閉 is a gate with the bar in place: 闔門也, “to shut the gate”. The gate is a small theatre in the script, and each thing set in it makes a scene. A mouth in the gate, 問: to ask. An ear, 聞: to hear. The sun seen through the crack, 間: a gap, between. A piece of wood, 閑: a barrier, and then leisure. A heart, 悶: stifled, dull (it comes twice in passage 58). And 開, to open: commonly explained as two hands that lift the bar. The book speaks of gates often: the gate of all subtleties (1), the gate of the dark female (6), the gates of heaven that open and shut (10). Here [[the gate|men]] is yours.",
+      "brush": "Eleven strokes. The left leaf first, four strokes: a vertical; a horizontal that turns down; and two short horizontals inside. Then the right leaf, four strokes: a vertical; a horizontal that turns and goes all the way down to end in a hook; two short horizontals inside. The two leaves must not be twins: the left is a little shorter, and the right has the long hooked side that carries the weight. Then the bar, three strokes: a horizontal; a vertical with a hook to the left; a stroke that falls to the left from the crossing. Watch where the bar is set. It hangs in the open space under the two panels, clear of both sides, so the white around it is even. The cursive hand wrote the whole gate as one hooked line and a dot, and that shorthand became the simplified 门."
+    },
+    {
+      "c": "貴",
+      "title": "A shell under a basket",
+      "lesson": "The lower part is 貝, a cowrie, the small glossy sea-shell that was used as money in the Shang and early Zhou. The Shuowen calls it a picture and tells its history: shells were the currency, then came bronze coins, and 至秦廢貝行錢, “when the Qin came, shells were ended and coins were used”. The currency changed and the script did not: the shell is still in 買 (to buy), 賣 (to sell), 財 (wealth), 貨 (goods), 賞 (to reward), 貧 (poor), 賤 (cheap, base), and 寶 (treasure). The upper part of 貴 is harder. The Shuowen says that it gives the sound and that it is an old form of 蕢, a carrying basket. Some modern scholars see two hands in the early form. We cannot settle it; what the modern eye sees is a small load above a shell. The meaning is clear in any case: 物不賤也, “a thing that is not cheap”. From a high price the word went to high rank, and then to the act of esteem: to 貴 a thing is to hold it dear. All three senses are [[at work in this passage|gui-jian]], and the [[last line|tianxia-gui]] plays the first against the third. The noble are, in the script, the expensive.",
+      "brush": "Twelve strokes. The top takes five: a short vertical; a horizontal that turns down; a horizontal that closes the small box; a vertical that goes through the box from above; then a long horizontal below. That long fifth stroke is the beam of the character. Watch it: all the upper part rests on it, and it reaches past the shell on both sides. Then the shell, seven strokes: a vertical; a horizontal that turns down; two short horizontals inside; a horizontal that closes the box; and two small legs, one that falls to the left and one dot to the right. The shell is tall and narrow, with even white bands inside. The legs are short; they are the last trace of the shell’s opening. In running script the inner lines of the shell join into a single zigzag."
+    }
+  ]
+}

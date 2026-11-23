@@ -1,0 +1,205 @@
+{
+  "n": 75,
+  "title": "Those Above Eat",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "民之饑，以其上食稅之多，是以饑。民之難治，以其上之有為，是以難治。民之輕死，以其上求生之厚，是以輕死。夫唯無以生為者，是賢於貴生。",
+      "gloss": {
+        "2": "jī: famine; the Shuowen says: when the grain does not ripen",
+        "6": "those above (a direction, not a title)",
+        "7": "to eat",
+        "8": "tax in grain",
+        "10": "much; too much",
+        "19": "zhì: to put in order, to govern",
+        "25": "有為: “having doing”, the named opposite of 無為",
+        "35": "light; to treat as a light thing",
+        "41": "to seek, to go after",
+        "44": "thick, rich, heavy",
+        "53": "無以生為: to have no doing for the sake of life",
+        "60": "worthy; with 於, “worthier than”",
+        "62": "to hold dear, to price high"
+      }
+    }
+  ],
+  "rendering": [
+    "The people [[starve|ji]].",
+    "[[Those above them|shang]] [[eat|shi]] too much in [[grain tax|shui]]:",
+    "[[that is why|pattern]] they starve.",
+    "",
+    "The people are [[hard to govern|nan-zhi]].",
+    "Those above them [[have their doings|you-wei]]:",
+    "that is why they are hard to govern.",
+    "",
+    "The people [[take death lightly|qing-si]].",
+    "[[Those above them|qiu-sheng]] seek life’s [[thickness|hou]]:",
+    "that is why they take death lightly.",
+    "",
+    "Only the one who [[does nothing for the sake of life|wu-yi-sheng]]",
+    "is [[worthier|xian]] than [[prizing life|gui-sheng]]."
+  ],
+  "notes": {
+    "ji": {
+      "kind": "etymology",
+      "title": "饑: when the grain does not ripen",
+      "body": "Chinese has two old words that English gives as “hunger”, and they sound the same. 飢 is the hunger of a body; the Shuowen defines it as 餓, to starve. 饑, the word in our text, is larger. The Shuowen says 穀不孰爲饑, “when the grain does not ripen, that is called 饑”. It is a failed harvest, a famine year; the dictionary has a second word, 饉, for a year when the vegetables fail. Famine in this sense comes from heaven: drought, flood, locusts. The line takes this word and gives it a human cause. The grain ripened, and the people starve. A modern collated edition of the Mawangdui silk texts writes the famine word in the opening clause and the body word in the conclusion: 是以飢. So the event of the first clause becomes the empty belly of the last.",
+      "src": [
+        "Shuowen Jiezi, 食部: 饑，穀不孰爲饑。 飢，餓也。 饉，蔬不孰爲饉。",
+        "Mawangdui Laozi (modern collated edition)"
+      ]
+    },
+    "shang": {
+      "kind": "wangbi",
+      "title": "Wang Bi: it comes from above",
+      "body": "The text does not say “the ruler”, “the lords”, or “the government”. It says 其上, “their above”: whoever stands over them. The word is a direction, and it covers the king, the minister, the tax officer, and the landlord in one stroke. Wang Bi sums up the whole passage in a sentence: 言民之所以僻，治之所以亂，皆由上不由其下也，民從上也。 “It says: the reason why the people go crooked, and the reason why order turns to disorder, both come from above and do not come from those below. The people follow those above.” This is a hard rule for anyone who leads. It removes the usual excuse, that the people are lazy or lawless by nature. Wang Bi served at a court. He knew who would read the sentence.",
+      "src": [
+        "Wang Bi commentary on Laozi 75"
+      ]
+    },
+    "shi": {
+      "kind": "wordplay",
+      "title": "食稅: to eat the tax",
+      "body": "The verb is 食, to eat. Tax was paid in grain, so the phrase is nearly literal: those above eat the tax. The people and their superiors eat from one harvest, and the text counts only one thing, 多, how much goes up. The picture was common in the age. An old song in the Book of Odes speaks to a tax-taker as to a rat: 碩鼠碩鼠，無食我黍, “big rat, big rat, do not eat my millet”. Mencius told a king to his face: there is fat meat in your kitchen and there are fat horses in your stable, and the people have the look of hunger; 此率獸而食人也, “this is to lead on beasts to eat people”. English “consume” or “levy” makes the act clean. The Chinese keeps the mouth in it.",
+      "src": [
+        "Shijing, Wei feng, “Shuo shu” (碩鼠)",
+        "Mencius 1A4"
+      ]
+    },
+    "shui": {
+      "kind": "history",
+      "title": "稅: grain, measured out",
+      "body": "稅 has 禾, the grain plant, on the left; the Shuowen defines it as 租, rent on a field. The word marks a change in how states lived. Under the old Zhou system, as later writers describe it, farmers worked a lord’s plot beside their own. In 594 BCE the chronicle of Lu records three words: 初稅畝, “for the first time, a tax by the acre”. From then on a state measured each field and took a share of what grew. The fair share in Confucian memory was one part in ten. A lord of Lu complained that two parts in ten were not enough for him, and a disciple of Confucius answered: 百姓足，君孰與不足, “if the hundred families have enough, with whom will the ruler lack?” Armies of the Warring States ate from this tax.",
+      "src": [
+        "Shuowen Jiezi, 禾部: 稅，租也。从禾兌聲。",
+        "Chunqiu, Duke Xuan year 15",
+        "Analects 12.9"
+      ]
+    },
+    "accounts": {
+      "kind": "geopolitics",
+      "title": "A farmer’s accounts, about 400 BCE",
+      "body": "Li Kui, a minister of the state of Wei, worked out the budget of an ordinary farm, and the Han history preserves his sum. One man with a family of five works a hundred mu of land. In a normal year it yields 150 measures of grain. The tithe takes 15. The family eats 90. The 45 that remain are sold; after the costs of the village rites and of clothing, the year ends 450 coins short. Sickness, funerals, and extra levies are not yet counted. This is the tax at its fair rate, in a good year, by a government’s own figures. Li Kui wanted the state to buy and sell grain so that such families would survive. Now add a war, a new palace, or a bad harvest, and read the first line of the passage again.",
+      "src": [
+        "Hanshu 24A, “Shihuo zhi” (食貨志)"
+      ]
+    },
+    "pattern": {
+      "kind": "wordplay",
+      "title": "A proof that closes like a trap",
+      "body": "The first three sentences have one frame. 民之 X: the people’s X. 以其上…: because of their above. 是以 X: for this reason, X. Each sentence ends with the two characters that it began with: 饑…饑, 難治…難治, 輕死…輕死. The form is that of a court argument, and it leaves no gap for a second cause. In each sentence 民 comes first and 上 comes in the middle, so the eye moves from the people up to their rulers and back down to the people. Three times the result lands where it started. The frame also hides a climb: hunger, then disorder, then contempt for death. That last step is the opening of the passage before this one: 民不畏死. So this passage gives the cause of that one, after the fact. What, in the fourth sentence, breaks the frame?",
+      "src": [
+        "Laozi 74"
+      ]
+    },
+    "nan-zhi": {
+      "kind": "variant",
+      "title": "Hard to govern, or simply not in order",
+      "body": "治 has water on its left. The Shuowen records it only as the name of a river; it is commonly explained as the work of managing water, with dikes and channels, and from that the work of putting a state in order. A well-governed state is one where things flow in their beds. 難治, “hard to govern”, appears also in passage 65, and there the cause is the people’s cleverness. Here the cause is above. A modern collated edition of the Mawangdui silk texts reads differently in this sentence: 百姓之不治也, “the hundred families are not in order”. In that version the people are not “hard” for someone. They are in disorder, a plain state of affairs. The received wording looks at them from the ruler’s chair. Which sentence would a farmer have said?",
+      "src": [
+        "Shuowen Jiezi, 水部: 治，水。出東萊曲城陽丘山，南入海。",
+        "Mawangdui Laozi (modern collated edition)",
+        "Laozi 65"
+      ]
+    },
+    "you-wei": {
+      "kind": "gap",
+      "title": "有為: the opposite of wu wei",
+      "body": "有為 is “to have doing”. It is the exact opposite of the book’s most famous term, 無為, “to be without doing”: to act without force, and without a project laid over things. So the second sentence is a technical one. The people are hard to govern because their rulers govern: plan, order, reform, build, mobilise. English versions say “interfere” or “meddle”, which makes the fault a bad habit. The Chinese is neutral and wider. It includes the well-meant programme. A modern collated edition of the Mawangdui silk texts has one more word: 有以為, “have something that they act for”, a purpose behind the doing. Passage 38 uses the same phrase to mark the line between the highest 德 and the lower kinds. Passage 57 gives the other side: 我無為而民自化, “I am without doing, and the people change of themselves”.",
+      "src": [
+        "Mawangdui Laozi (modern collated edition)",
+        "Laozi 38, 57"
+      ]
+    },
+    "qing-si": {
+      "kind": "etymology",
+      "title": "輕: a light chariot",
+      "body": "輕 has 車, a cart, on its left, and the Shuowen defines it as 輕車也, “a light chariot”: the fast war vehicle with little armour. From that came “light” in every sense, and “to treat lightly”. 輕死 is to hold death as a light thing. The phrase sounds brave, and soldiers were praised for it. The text uses it as a symptom. A people that takes death lightly will rebel, rob, or enlist; it has nothing heavy to hold it down. The book likes this pair of weights. 重為輕根, “the heavy is the root of the light” (26). The good small state of passage 80 is one where the people 重死, “take death heavily”, and so do not move far away. Light death and thick life stand in one line here. What makes a life heavy enough to keep?",
+      "src": [
+        "Shuowen Jiezi, 車部: 輕，輕車也。从車坙聲。",
+        "Laozi 26, 80"
+      ]
+    },
+    "qiu-sheng": {
+      "kind": "variant",
+      "title": "Who seeks the thick life?",
+      "body": "Our pinned text reads 以其上求生之厚: because those above them seek life’s thickness. The third sentence then matches the first two, and the rulers’ luxury is the cause. A modern collated edition of the Mawangdui silk texts has no 上 here: 以亓求生之厚也, “because of their seeking life’s thickness”. The standard Wang Bi and Heshang Gong editions also lack it. The 上 of our pinned text is reported from the Fu Yi edition, and Wang Bi’s own comment, “it comes from above”, supports it. Then “their” points back to the people. They themselves strain after a rich living, take risks for it, and so hold death cheap. Legge translated a text of this kind. Scholars are divided. Some think that a later editor added 上 to make three matched sentences. Others think that an early scribe dropped it. Both versions lead to the same last line, because the last line is not addressed to a class. Whoever makes life into a thing to be piled up, above or below, is the one it speaks of.",
+      "src": [
+        "Mawangdui Laozi (modern collated edition)"
+      ]
+    },
+    "hou": {
+      "kind": "etymology",
+      "title": "厚: thick as a mountain",
+      "body": "厚 is thickness. The Shuowen defines it by the largest thick thing it knows: 山陵之厚也, “the thickness of mountains and hills”. The cliff sign 厂 is at its upper left. From this come the senses rich, generous, heavy, lavish. 生之厚 is “the thickness of life”: layers of food, cloth, servants, and tonics. The same phrase is in passage 50, in a darker place. Three people in ten, it says there, move from life toward the place of death. Why? 以其生生之厚, “because they live life so thickly”. The word is not always blame. Passage 55 praises one who holds 德 thickly, 含德之厚, and compares that person to a newborn child. So thickness is good in what you are and dangerous in what you add. Modern versions that write “security” or “survival” miss the point: the fault is excess, and fear is not mentioned.",
+      "src": [
+        "Shuowen Jiezi, 㫗部: 厚，山陵之厚也。",
+        "Laozi 50, 55"
+      ]
+    },
+    "wu-yi-sheng": {
+      "kind": "gap",
+      "title": "無以生為: six ways to fail in English",
+      "body": "The phrase has four characters: 無 (without), 以 (taking, by means of), 生 (life), 為 (doing, making). Word for word: “without taking life as a doing”. One reading: the person who does not act for the sake of life, who has no project called “my life”. A second: the person who does not make something of life, does not work it up. A third, closer to the ruler: one who does not use the living of others as material. All three are in the Chinese. English must add a subject, “the one who”, because the Chinese has only 者, a marker that turns the phrase into “such a one”. Note what the phrase does not say. It does not say “despise life” or “give life up”. The person still lives. Only the 為, the forced doing on top of life, is absent."
+    },
+    "gui-sheng": {
+      "kind": "history",
+      "title": "貴生: a slogan of the age",
+      "body": "貴生, “to prize life”, was the name of a teaching. Its best-known voice was Yang Zhu, of the fourth century BCE. Mencius attacked him in a famous line: he would not pull out one hair to benefit the whole world. Yang Zhu’s own writings are lost. The teaching survives in a compendium made in Qin about 239 BCE, which has a chapter with this title; it says that a wise person will not harm the body for a throne. That was a serious position in an age that spent lives freely, and it is close to parts of the Laozi (13, 44). So the last line makes a fine distinction inside its own camp. To prize life is good. To have no need to prize it is better, because the one who prizes a thing begins to guard it, feed it, and fear for it. Is that distinction real in your experience?",
+      "src": [
+        "Mencius 7A26",
+        "Lüshi chunqiu, “Gui sheng” (貴生)",
+        "Laozi 13, 44"
+      ]
+    },
+    "xian": {
+      "kind": "etymology",
+      "title": "賢 and 貴: two words with money in them",
+      "body": "Look at the bottom of 賢 and of 貴. Both stand on 貝, the cowrie shell, which the early Chinese used as money; the Shuowen says 古者貨貝, “the ancients used shells as goods”. 貴 is defined as 物不賤也, “a thing that is not cheap”: dear, costly, and so honoured. 賢 is defined as 多才, “with much ability”; many scholars think that the first sense was “with much wealth”, and that the word then moved from rich to able to good. With 於 after it, 賢 makes a comparison: “worth more than”. So the closing line can be heard in the language of a market: the one who does nothing for life’s sake is worth more than pricing life high. The passage began with grain that was taken. It ends by asking what a life is worth, and it uses the words of the people who did the taking.",
+      "src": [
+        "Shuowen Jiezi, 貝部: 貴，物不賤也。 賢，多才也。从貝臤聲。 貝，海介蟲也…古者貨貝而寶龜。"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “superiors” and their “agency”",
+      "body": "Legge’s first sentence is strong: the people starve “because of the multitude of taxes consumed by their superiors”. “Consumed” keeps part of the eating. His second sentence shows a scholar who is uneasy. 有為 becomes “the (excessive) agency of their superiors (in governing them)”, with two sets of brackets. A Victorian who believed in good government could not write that government as such was the cause; he added “excessive”. In the third sentence he follows the editions that have no 上, and he makes the people the ones who labour “in seeking for the means of living”. That turns [[thick living|hou]] into bare survival, and the rulers leave the sentence. His last line advises us “to leave the subject of living altogether out of view”. It is the calm of a study. The Chinese is nearer to the field.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "upstream": {
+      "kind": "practice",
+      "title": "Look one level up",
+      "body": "Take one complaint that you have about people in your care or under your direction: children, a team, students, tenants. Write it in the frame of the passage. “They are …” on the first line. Then, before any other cause, try the second line as the text gives it: “because the one above them …”, and put yourself there. What do you eat that they have grown? Time, attention, credit, the pleasant tasks? What do you do, 有為, that makes them hard to lead? Fill in the line even if you do not believe it. Then read the three lines aloud. The passage does not claim that this is always the whole truth. It claims that it is the first place to look, and the last place where those above usually look."
+    }
+  },
+  "lenses": {
+    "ground": "Three sentences with one frame, then a fourth that breaks it. The people [[starve|ji]]: those above them [[eat|shi]] too much [[grain tax|shui]]. The people are in disorder: those above them [[have their doings|you-wei]]. The people hold death light: those above them pile life [[thick|hou]]. Each sentence [[returns to its first words|pattern]], like a door that shuts. The last sentence changes the subject from classes to a kind of person: the one with no doing for life’s sake is worth more than [[prizing life|gui-sheng]]. The things in the passage are a failed harvest, a mouth, a measure of grain, a light chariot, a mountain, and a cowrie shell. The passage ends the group that began at 72, and it answers the first line of 74: this is why the people do not fear death.",
+    "inner": "Read the three sentences as a map of one person. There is a part that rules: the planner, the one with ambitions for this life. There is a part that is ruled: the body, the plain energies of the day. When the planner takes too much, the body starves: of sleep, of unclaimed time. When the planner has many projects, the body becomes hard to govern: it stalls, it falls ill, it does the opposite. When the planner reaches for a [[thicker|hou]] life, something below begins to hold life cheap, and takes risks or goes numb. The last line points past the usual cure. The usual cure is to prize life more: more care, better habits. The text says that there is something better, [[a living that is not a project at all|wu-yi-sheng]]. It does not explain how. It only says that such a one is worth more.",
+    "leading": "The passage is the plainest statement of responsibility in the book. Wang Bi’s summary is [[“it comes from above”|shang]]. When a group is poor in something, ask first what the top takes: salary is the obvious thing, and time, credit, and attention are the larger ones. When a group is hard to lead, count the initiatives; [[有為|you-wei]] includes good ideas. When people stop caring whether they stay or go, look at how richly the leaders live in comparison. The figures of [[one farm in Wei|accounts]] show how small the margin below can be while those above see only a fair tithe. The frame of the sentences gives the discipline: start with the people, go up to yourself for the cause, and come back down to check the result. Try [[the exercise|upstream]] once with a real complaint.",
+    "body": "A body can be over-governed. The person who diets by rule, trains by plan, tracks sleep, and takes ten supplements is “seeking life’s thickness”. The early Daoists knew this type well, and so does passage 50, where those who [[live life too thickly|hou]] walk toward the place of death. The practices that later grew from this book go the other way. The breath is not driven; it is left to become fine by itself. The posture is not held up by will; the weight is given to the ground. In such practice the body becomes easy to “govern” at the moment when the governor stops having plans for it. Sit for five minutes and do nothing for the sake of your health. Do not improve the breath. Notice whether the body takes this as neglect or as relief.",
+    "nature": "A field has a simple law: it can give only what grew. A tax in grain is a claim on a living system, and the system has a floor. The seed for next year, the food of the people who work the land, the fodder of the ox: when the claim goes below that floor, the yield of every later year falls. [[Li Kui’s sum|accounts]] is an early piece of ecology in this sense; it finds the floor by counting. The first line of the passage sees the same thing from below. The Shuowen’s [[饑|ji]] is a year when the grain does not ripen. The passage adds a second kind of failed harvest: the grain ripens, and it does not reach the mouths of the growers. Any system where the top feeds on the base has this limit. A forest shows the other pattern: the canopy drops its leaves to feed the roots.",
+    "practice": "At one meal today, trace the food upward and downward. Downward: who grew it, carried it, cooked it? Upward: who takes a share of the price on the way, and are you, in other parts of your life, one of those who take a share of the work of others? Do not turn this into guilt; the passage is a diagnosis and gives no sentence. Then make one small change in the direction of the last line. Find one thing that you do purely “for the sake of life”, to thicken it: an upgrade, a precaution, an extra. Leave it out for one day and watch what the day is like. If you like, compare the three versions of the third sentence: ours, [[the collated silk text|qiu-sheng]], and [[Legge|legge]]."
+  },
+  "glyph": "食",
+  "plates": [
+    {
+      "c": "食",
+      "title": "A lid over the grain",
+      "lesson": "食 is the noun “food” and the verb “to eat”, and in this passage it is what rulers do to the tax. The Shuowen takes the character apart as 亼 over 皀. 皀 is its word for 穀之馨香, “the fragrance of grain”: a vessel with good grain inside, and at the foot a spoon to take it up. 亼, the roof shape at the top, means “to bring together”; the Shuowen says it gives the sound, and adds that some read the two parts together as one meaning. Modern scholars commonly explain the whole graph as one picture: a food vessel on a stand, heaped with cooked grain, with its lid above. Both accounts agree that the character shows grain that is ready to eat. That matters in this passage, where food and tax are the same substance. As the left side of other characters it becomes 飠, and the family is large: 飯 (cooked grain; a meal), 飽 (full; the Shuowen says 猒, satisfied), 養 (to feed and so to rear, with 羊, sheep, for the sound), 餘 (plenty; what is left over), 飢 and 餓 (hunger). And 饑, [[the famine of the first line|ji]], is 食 with 幾 beside it for the sound; 幾 by itself means “how much?” or “almost”. The passage puts 饑 and 食 a few characters apart: the people’s famine, and the eating above. They share the same vessel. Who lifts the lid?",
+      "brush": "Nine strokes. The first two are the lid: a long stroke that falls to the left and a long one that presses out to the right, meeting at the peak. Make them wide; everything else sits under this roof. Stroke three is a small dot under the peak. Stroke four makes the top and the right side of the vessel in one movement with a corner. Strokes five and six are the two short level lines inside. Stroke seven comes down the left side and, at the foot, flicks up to the right; this lift joins the vessel to its base. Stroke eight is a short slash to the left, and stroke nine is a last press to the lower right. In clerical script the two roof strokes spread like wings. When 食 stands at the left as 飠, the final press shrinks to a dot, to make room for its neighbour."
+    },
+    {
+      "c": "稅",
+      "title": "Grain handed over",
+      "lesson": "On the left is 禾, the grain plant. The Shuowen calls it 嘉穀, “the fine grain”, and notes that it sprouts in the second month and ripens in the eighth; the top stroke of the graph, bent to the left, is the heavy ear that hangs down. In north China this was millet. You meet 禾 in 秋 (autumn; in its modern shape, grain and fire), 種 (seed), 私 (private; the Shuowen says it first named a kind of grain), 利 (gain; in its modern shape, grain and a knife), 和 (harmony, where 禾 gives the sound), and 租 (rent on a field). On the right is 兌 (duì), which gives the sound. The Shuowen defines 兌 as 說, and it carries a group of senses: to loosen, to exchange, to be pleased. It is the sound-part of 說 (to explain; in old texts also “to be glad”), 脫 (to shed, to take off), 銳 (sharp), and 悅 (glad). So 稅 is grain plus a word that sounds like “take off”. Scholars do not all agree that the sense of 兌 plays a part here, and the safe statement is that it marks the sound. Still, an early reader saw grain and a shedding. Tax was the part of the harvest that came off the top. The Shuowen’s definition is one word, 租. The passage’s definition is one verb: it is [[what those above eat|shi]]. The first Chinese record of such a tax is [[three characters long|shui]].",
+      "brush": "Twelve strokes: five for the grain, seven for the right side. 禾 begins with the ear, a short stroke that falls from right to left, almost flat. Then a level line; then the upright stalk through it; then a slash to the lower left and a dot to the lower right, the leaves. On the left side of a character the last stroke of 禾 is always a dot and never a long press, so that the plant does not push into its neighbour. Now 兌: two short strokes at the top that lean toward each other; the mouth 口 in three strokes; and below it two legs, a slash to the left and then a stroke that goes down, bends, runs right, and ends in an upward hook. That final hook is the longest line in the character and balances the tall stalk on the other side."
+    },
+    {
+      "c": "賢",
+      "title": "The shell under “worthy”",
+      "lesson": "The lower half is 貝, a cowrie. The Shuowen says it is 海介蟲, “a shelled creature of the sea”, and tells its history in a line: the ancients used shells as money and treasured the tortoise; the Zhou had coins; the Qin abolished shells and used cash. The script kept what the market dropped. Almost every word about value stands on this shell. 財 is wealth, 人所寶也, “what people treasure”. 貨 is goods. 買 is to buy and 賣 is to sell. 賤 is cheap, and the Shuowen says 賈少也, “the price is low”. 貧, poor, is 分 over 貝, and the Shuowen reads it as it looks: 財分少也, “wealth, divided, is little”. 賞 is a reward. [[貴|xian]] is dear. The upper half of 賢 is 臤, which the Shuowen defines as 堅, firm, and it adds: 古文以爲賢字, “the old script used this as the character 賢”. So the first way to write “worthy” was “firm”: a hand, 又, beside 臣, a servant. The shell came later. You can see 臤 again in 堅 (hard: firm earth) and 緊 (tight: firm thread). 賢 is then a firm servant with a shell: able, and also rich in means. The Laozi distrusts the word: 不尚賢, “do not exalt the worthy” (3). Here it uses it only to compare, and the thing that it rates higher has no price.",
+      "brush": "Fifteen strokes. First 臣, in six: a level line at the top; a short upright under it; a level stroke that turns down at a corner; a short level line inside; a second short upright; and last the long stroke that goes down the left side and turns along the bottom, as in a box that is shut after it is filled. Keep it narrow. Then 又, in two: a level stroke that turns and falls left, and a long press to the right that crosses it. These two parts share the upper half and must leave each other room; 又 sits a little lower and reaches out. Then the shell, in seven: the left side; the top and right side with a corner; a level line inside; a second; a third that closes the box; a slash to the left; and a dot to the right. The feet should spread just wider than the box."
+    }
+  ]
+}

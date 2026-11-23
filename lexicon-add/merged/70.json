@@ -1,0 +1,98 @@
+{
+  "懷": {
+    "senses": [
+      "the bosom; the fold of the robe at the chest",
+      "to hold in the bosom, to carry against the body",
+      "to cherish; to long for, to think of",
+      "to be with child"
+    ],
+    "shuowen": "念思也。从心褱聲。",
+    "shuowenEn": "To think of with longing. From 心 (heart), with 褱 for the sound.",
+    "parts": [
+      { "c": "忄", "m": "heart" },
+      { "c": "褱", "m": "to hold against the body: a robe (衣) around a weeping eye; also the sound" }
+    ],
+    "story": "The right side is a robe opened around an eye with drops beneath it, commonly explained as tears held inside the clothes; the heart was added at the left. The first, physical sense is the pouch that a belted robe forms at the chest, where people carried what they valued. From it come cherishing, longing, and pregnancy. The Laozi uses the word once, in the last line of passage 70: the sage wears coarse cloth and 懷玉, holds jade in the bosom. Wang Bi reads it as treasuring what is genuine.",
+    "gap": "“Cherish” is all feeling and “carry” is all body. 懷 is both at once: a thing kept warm against the chest, where no one else can see it."
+  },
+  "玉": {
+    "senses": [
+      "jade",
+      "precious, fine, pure (as praise)",
+      "to treat as precious; to perfect"
+    ],
+    "parts": [
+      { "c": "王", "m": "three pieces on a cord (the early form; not “king”)" },
+      { "c": "丶", "m": "a later dot, added to tell jade from king" }
+    ],
+    "story": "The early graph is commonly explained as pieces of jade on a cord. Jade was the highest material of ancient China: ground into discs and blades for ritual, buried with the dead, and worn at the belt as a sign of character. The Laozi names it three times, each time with reserve. A hall full of gold and jade cannot be kept (9). Do not wish to be glossy like jade; be rough like stone (39). The sage wears coarse cloth and holds jade in the bosom (70). The book allows the jade and removes the display.",
+    "gap": "“Jewel” and “gem” mean sparkle and price. Jade is valued for qualities that are quiet: weight, coolness, a soft inner light. As an image it means worth that does not shine outward."
+  },
+  "褐": {
+    "senses": [
+      "coarse cloth of hemp or hair; a garment of it",
+      "the dress of the poor; a commoner",
+      "(later) brown"
+    ],
+    "shuowen": "編枲韤。一曰粗衣。从衣曷聲。",
+    "shuowenEn": "Socks plaited of hemp. Also: coarse clothing. From 衣 (garment), with 曷 for the sound.",
+    "parts": [
+      { "c": "衤", "m": "garment" },
+      { "c": "曷", "m": "gives the sound" }
+    ],
+    "story": "褐 was the rough, undyed cloth of farmers and labourers, against the silk and fur of the rich. To “wear 褐” was to be a commoner, and Mencius uses the phrase for the followers of a teacher who lived by farming. The Laozi has the word once: 聖人被褐懷玉, the sage wears coarse cloth and holds jade in the bosom (70). The line gave Chinese a lasting phrase for hidden worth. The modern sense, the colour brown, comes from the look of the cloth.",
+    "gap": "“Hair cloth” and “sackcloth” suggest Christian penance. 褐 is not a sign of repentance. It is ordinary poor clothing, worn with no message."
+  },
+  "君": {
+    "senses": [
+      "a lord, a ruler",
+      "the master, that which governs",
+      "a term of respect: sir, you",
+      "君子: a lord’s son; a noble person"
+    ],
+    "shuowen": "尊也。从尹。發號，故从口。",
+    "shuowenEn": "The honoured one. From 尹 (to govern); he gives out commands, and so the graph has 口 (mouth).",
+    "parts": [
+      { "c": "尹", "m": "to govern; commonly explained as a hand holding a staff" },
+      { "c": "口", "m": "mouth: commands" }
+    ],
+    "story": "A hand with a staff over a mouth: the one who governs by speaking. The Laozi uses 君 for a ruling principle more than for a king. Stillness is the 君 of restlessness; to be restless is to lose the 君 (26). Words have an ancestor, and deeds have a 君 (70). The 君子, the man of rank, does not leave his baggage wagons (26) and takes weapons as tools of ill omen (31). The book’s usual words for an actual ruler are 侯王, lords and kings, and 上, the one above.",
+    "gap": "“Lord” and “ruler” are persons. In 事有君 the 君 is a thing inside one’s deeds: the single aim that the others obey."
+  },
+  "希": {
+    "senses": [
+      "rare, few, sparse",
+      "faint, thin (of sound)",
+      "to hope for, to look toward (later)"
+    ],
+    "story": "希 is “thin on the ground”. The Laozi makes it a term for what lies at the edge of hearing. Listened for and not heard, it is named 希 (14). To speak rarely is self-so (23). The great tone has a 希 sound (41). Few in the world reach the teaching without words (43). Those who know me are 希 (70). One who chops in place of the master carpenter 希, seldom, escapes a cut hand (74). The fuller graph 稀, with grain, was later used for “sparse”, and 希 came to write “to hope”.",
+    "gap": "“Rare” in English can sound like praise and “few” like a count. 希 is nearer to “faint”: present, and below the level that most attention reaches."
+  },
+  "貴": {
+    "senses": [
+      "costly, of high price",
+      "noble, of high rank",
+      "to value, to hold dear",
+      "precious"
+    ],
+    "shuowen": "物不賤也。从貝臾聲。",
+    "shuowenEn": "A thing that is not cheap. From 貝 (cowrie shell), with 臾 for the sound.",
+    "parts": [
+      { "c": "貝", "m": "cowrie shell, early money" }
+    ],
+    "story": "貴 is first a market word: dear, not cheap. It then names high rank, and the act of valuing. The Laozi uses all three and often against the grain. Do not value rare goods (3, 64). To be rich, of high rank, and proud brings one’s own ruin (9). The noble has the humble as its root (39). The Dao is honoured and de is valued with no one’s order (51). Those who know me are few, and so I am 貴 (70). The sage loves the self and does not hold the self 貴 (72).",
+    "gap": "English separates “expensive”, “noble”, and “to value”. 貴 keeps the price in every use, so that a line about honour is also a line about what things cost."
+  },
+  "行": {
+    "senses": [
+      "(xíng) to walk, to go, to travel",
+      "to carry out, to practise; conduct",
+      "(háng) a row, a rank; a battle line",
+      "a road (in old use)"
+    ],
+    "shuowen": "人之步趨也。从彳从亍。",
+    "shuowenEn": "The stepping and hurrying of a person. From 彳 and 亍.",
+    "story": "The early graph is commonly explained as a crossroads seen from above; the Shuowen gives the sense of walking. Because the Dao is a road, 行 is the natural verb for living by it. The best officer hears the Dao and works to 行 it (41). A journey of a thousand li begins under the foot (64). My words are very easy to 行, and no one can 行 them (70, 78). Read háng, the same graph is a rank of soldiers: passage 69 plays on both in 行無行, to march in ranks that are not there.",
+    "gap": "English “practise” and “carry out” are abstract. 行 never loses the legs: to practise a teaching is to walk it, step by step, on the ground."
+  }
+}

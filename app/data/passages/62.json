@@ -1,0 +1,255 @@
+{
+  "n": 62,
+  "title": "The Inmost Corner",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "道者萬物之奧。",
+      "gloss": {
+        "1": "(marks the topic: “as for…”)",
+        "5": "ào: the inmost corner of a house; a sheltered place"
+      }
+    },
+    {
+      "text": "善人之寶，",
+      "gloss": {
+        "0": "good; good at",
+        "3": "bǎo: treasure"
+      }
+    },
+    {
+      "text": "不善人之所保。",
+      "gloss": {
+        "5": "bǎo: to keep safe; a refuge (the same sound as 寶)"
+      }
+    },
+    {
+      "text": "美言可以市，尊行可以加人。",
+      "gloss": {
+        "0": "fine, beautiful",
+        "4": "market; to buy and sell",
+        "6": "honoured, noble",
+        "7": "conduct, deeds",
+        "10": "to add to; to place above"
+      }
+    },
+    {
+      "text": "人之不善，何棄之有？",
+      "gloss": {
+        "6": "to throw away, to abandon",
+        "8": "is there? (何…之有: “what … is there?”)"
+      }
+    },
+    {
+      "text": "故立天子，置三公，",
+      "gloss": {
+        "1": "to set up, to enthrone",
+        "5": "to install",
+        "7": "duke; 三公: the three highest ministers"
+      }
+    },
+    {
+      "text": "雖有拱璧以先駟馬，不如坐進此道。",
+      "gloss": {
+        "2": "gǒng: to hold with both arms",
+        "3": "bì: a flat disc of jade with a hole",
+        "5": "to go before",
+        "6": "sì: a team of four horses",
+        "11": "to sit: to kneel on a mat",
+        "12": "to present upward; to advance"
+      }
+    },
+    {
+      "text": "古之所以貴此道者何？不曰以求得，有罪以免邪？故為天下貴。",
+      "gloss": {
+        "4": "to prize",
+        "13": "to seek",
+        "14": "to get",
+        "17": "offence, guilt, crime",
+        "19": "to be let off, to escape",
+        "20": "yé: a question particle (not xié, “crooked”)"
+      }
+    }
+  ],
+  "rendering": [
+    "Dao is the [[inmost corner|ao]] of the ten thousand things:",
+    "the good person’s [[treasure|bao]],",
+    "and what [[the person who is not good|bu-shan]] is kept safe by.",
+    "",
+    "[[Fine words can be traded|mei-yan]];",
+    "honoured conduct can [[raise a person over others|jia-ren]].",
+    "What is not good in a person:",
+    "[[what is there to throw away?|qi]]",
+    "",
+    "So when [[the Son of Heaven is set up|tianzi]]",
+    "and the three dukes are installed,",
+    "though there be [[a disc of jade that fills both arms|gong-bi]]",
+    "sent ahead of a team of four horses,",
+    "it is not equal to [[sitting and offering this Dao|zuo-jin]].",
+    "",
+    "Why did the ancients prize this Dao?",
+    "Did they not say: [[by it the one who seeks, gets|qiu-de]],",
+    "and [[the one who has guilt goes free|zui-mian]]?",
+    "So it is [[what all under heaven prizes|tianxia-gui]]."
+  ],
+  "notes": {
+    "ao": {
+      "kind": "etymology",
+      "title": "奧: the south-west corner",
+      "body": "奧 is a place in a house. The Shuowen: 宛也。室之西南隅, “a recess; the south-west corner of the room”. An old Chinese house faced south, with its door off-centre to the east, so the south-west corner was the deepest and darkest point, farthest from the door. That was the place of honour. The head of the family had his mat there, and the household sacrifices were set out there. The Analects quotes a proverb about it: better to pay court to the stove than to the 奧, that is, to the one with real power in the kitchen than to the honoured one in the corner. From “inner corner” came the senses “deep, hidden, hard to fathom”; in Japanese the same character is still “the interior” of a house. Translators write “the mysterious” or “the storehouse”. The Chinese is homelier: Dao is the back corner of the house of all things, where the elders sit and where a child runs to hide. See [[Wang Bi|wangbi]] and [[the other reading|zhu]].",
+      "src": [
+        "Shuowen Jiezi, 宀部: 奧，宛也。室之西南隅。从宀𢍏聲。",
+        "Analects 3.13"
+      ]
+    },
+    "zhu": {
+      "kind": "variant",
+      "title": "The silk texts: 注, where things pour",
+      "body": "The silk texts are reported not to have 奧. They read 道者萬物之注也. 注 has the water radical, and the Shuowen defines it as 灌也, “to pour into”: water that is led to one place. Then the line says that Dao is that toward which the ten thousand things pour, the low place where they collect. That is the picture of the passage before this one, where a great state is the low reach of a river. Some scholars take 注 as a way to write 主, “lord, host”. Which is the older image, the corner of the house or the gathering of waters? We cannot tell; the two graphs do not look alike, so this is not a slip of the brush. Both images say “the place where things end up and are safe”. One is a room and the other is a sea. The received text chose the room, and with it a household, an altar, and a seat of honour.",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)",
+        "Shuowen Jiezi, 水部: 注，灌也。从水主聲。"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: a word for shelter",
+      "body": "Wang Bi glosses the key word in two short phrases: 奧，猶曖也。可得庇蔭之辭. “奧 is like ‘dim, shaded’. It is a term for a place where one can get cover and shade.” 庇蔭 is the shade of a roof or a tree over a person. So for him the first line is about protection: Dao is that under which all things shelter. He then splits the two kinds of people by two verbs. For the good, it is a treasure: 寶以為用也, “they treasure it and so put it to use”. For the not-good, a refuge: 保以全也, “they are kept by it and so stay whole”. One uses it; the other is kept alive by it. On the close he writes that with it one who seeks gets and one who would be let off is let off: 無所而不施, “there is no place where it does not reach”. The shade falls on every head under the roof.",
+      "src": [
+        "Wang Bi commentary on Laozi 62"
+      ]
+    },
+    "bao": {
+      "kind": "wordplay",
+      "title": "寶 and 保: one sound, two needs",
+      "body": "The second and third lines end on the same syllable: 寶, treasure, and 保, to keep safe. They sounded alike in the old language too (both are in the 幽 rhyme group), and the lines rhyme on a pun. For the good person Dao is a 寶: a thing of value that one has and uses. For the not-good person it is 所保: “that by which one is kept”. 保 is a person, 亻, beside a child; the Shuowen says 養也, “to rear”, and the early form is commonly explained as an adult with an infant on the back. So the second word is not a possession at all. It is being carried. The silk texts are reported to write both lines with one graph, 葆, an old loan for 寶 and for 保 alike, which makes the pun an identity: what is the one’s treasure is the other’s keeper. English “treasure” and “refuge” share no sound. Which of the two do you need today?",
+      "src": [
+        "Shuowen Jiezi, 人部: 保，養也。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "bu-shan": {
+      "kind": "gap",
+      "title": "不善人: not “the wicked”",
+      "body": "The text says 不善人, “not-good person”. English versions say “bad men”, “the wicked”, “sinners”. Each adds a thing. Chinese has strong words for evil, 惡 and 凶, and does not use them here. 不善 is only the lack of 善, and 善 in this book is as much “good at” as “morally good”: the one who is not good is the one who has not got it right, the unskilled. No Devil stands behind such a person, and no fallen nature. Passage 27 gives the relation between the two kinds: the good person teaches the not-good, and the not-good is the good person’s material; so the sage is always good at saving people, and nobody is thrown away. Passage 49: to the not-good I am also good. This passage adds the ground for it. Both live in one house, and its [[inner corner|ao]] holds both."
+    },
+    "mei-yan": {
+      "kind": "variant",
+      "title": "美言可以市: where does the sentence end?",
+      "body": "The text had no punctuation, and this line can be cut in two places. Our pinned text cuts after 市: “fine words can be traded; honoured conduct can add to a person”. 市 is the market; the Shuowen says 買賣所之也, “where buying and selling go”. The Huainanzi, a Han book, quotes the line with a different cut and one more word: 美言可以市尊，美行可以加人, “fine words can buy honour; fine conduct can raise one over others”. Then 尊 belongs to the first half. Either way the tone is debated. Is this praise of the Dao’s words, which outbid all goods, as Wang Bi says? Or a cool remark on the world: speech is for sale, and good behaviour is a way to climb? Passage 81 says that fine words are not trustworthy. We keep the cool reading. It makes the next line turn: if even words and deeds are currency, why would a person be thrown away?",
+      "src": [
+        "Shuowen Jiezi, 冂部: 市，買賣所之也。",
+        "Huainanzi, “Dao ying” (道應訓)"
+      ]
+    },
+    "jia-ren": {
+      "kind": "variant",
+      "title": "加人 or 賀人",
+      "body": "加 is “to add”, and from that “to put on top of, to be above”. The Shuowen gives the root sense as speech: 語相增加也, “to pile words on one another”; the character is 力, strength, beside 口, a mouth. 加人 is then “to be placed above others”, or “to add something to others”, to benefit them. The silk texts are reported to read 賀: 尊行可以賀人. 賀 is 加 with a cowrie shell, 貝, beneath, and the Shuowen defines it as 以禮相奉慶也, “to present gifts to one another in ritual congratulation”. On that reading the line stays in the world of gifts and prepares the jade and horses that follow: fine words can be sold, and noble conduct can be given as a present. The received 加 is a simpler graph for a word of the same sound. The reader of the silk text hears, twice in one line, the sound of money changing hands.",
+      "src": [
+        "Shuowen Jiezi, 力部: 加，語相增加也。从力从口。",
+        "Shuowen Jiezi, 貝部: 賀，以禮相奉慶也。从貝加聲。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "qi": {
+      "kind": "history",
+      "title": "何棄之有: a child named Abandoned",
+      "body": "棄 is to throw away, and the plate for this passage shows what the Shuowen saw in the character: two hands that push out a basket with a newborn in it. That was no figure of speech. Unwanted infants were exposed in early China, as in Greece and Rome. The Zhou people told that their own first ancestor, the lord of millet, was put out three times by his mother: in a lane, where oxen stepped around him; in a wood; and on ice, where birds covered him with their wings. He lived, and his name was 棄, Abandoned. Every Zhou noble descended from a thrown-away child. So the question 何棄之有, “what throwing away is there?”, had weight. The grammar is a rhetorical form: 何 X 之有, “what X is there?”, meaning none. We render the open form. It leaves two readings: why throw the person away, and what is there in a person that could be thrown away?",
+      "src": [
+        "Shijing, “Sheng min” (生民)",
+        "Shiji, “Zhou benji”"
+      ]
+    },
+    "tianzi": {
+      "kind": "history",
+      "title": "立天子，置三公: an enthronement",
+      "body": "The scene is the greatest day of the political year: a new king is set on the throne. 天子, “Son of Heaven”, was the title of the Zhou king, who alone could sacrifice to Heaven. 三公, “the three dukes”, are the three highest ministers; tradition names them Grand Tutor, Grand Preceptor, and Grand Protector. The silk texts are reported to read 三卿, “three ministers”. On such a day the lords of the states came or sent envoys, and every envoy brought gifts in a fixed order. By the time of this book the Zhou king was a shadow, and seven rulers called themselves kings and planned to be the next Son of Heaven. A reader would see in this line the court that each of them hoped to hold. The text walks into that hall, among the jade and the horses, and names a better gift. Wang Bi takes the offices themselves as made for one purpose: to honour the practice of the Dao.",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)",
+        "Wang Bi commentary on Laozi 62"
+      ]
+    },
+    "gong-bi": {
+      "kind": "history",
+      "title": "拱璧 and 駟馬: jade first, then horses",
+      "body": "A 璧 is a flat disc of jade with a round hole at its centre, the most solemn object in Zhou gift-giving; the Shuowen says 瑞玉圜也, “a round jade token”. 拱 is to bring the two arms round in front; a 拱璧 is a disc so large that it takes both arms to carry it. Jade of that size was beyond price: in 283 BCE the king of Qin offered fifteen walled towns for one famous disc. 駟馬 is a team of four horses for a chariot; the Shuowen defines 駟 as 一乘也, “one chariot’s team”. The word 先, “to go before”, is a term of protocol. Gifts were presented in stages, and the lighter and finer one went in first, carried by hand, while the heavy one waited in the courtyard. So jade “precedes” horses. The line is exact about the ceremony, like a note in a court diary. Then it says: 不如, “not as good as”.",
+      "src": [
+        "Shuowen Jiezi, 馬部: 駟，一乘也。从馬四聲。",
+        "Shuowen Jiezi, 手部: 拱，斂手也。从手共聲。",
+        "Shiji, “Lian Po Lin Xiangru liezhuan”"
+      ]
+    },
+    "zuo-jin": {
+      "kind": "gap",
+      "title": "坐進此道: two words with two readings",
+      "body": "坐 is “to sit”, and in a world with no chairs that is to kneel on a mat with the body upright. 進 is “to go forward”, and at court “to send up, to present” to a superior. So 坐進此道 has two readings. One: the envoy kneels in his place and offers, in place of jade, this Dao: a word of counsel as the gift. We follow this; Legge has “present on his knees”. Two: 坐 as “without stirring, simply sitting”, and 進 as “to advance”: better than all gifts is to sit still and go forward in this Dao. The first is a court scene. The second is the earliest hint of sitting practice as an offering, and later Daoists read it so. The silk texts are reported to lack the last word: 不若坐而進此, “not as good as to sit and present this”. “This” may be the Dao, or the very words that we are reading.",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "qiu-de": {
+      "kind": "gap",
+      "title": "以求得: “seek and find”?",
+      "body": "求 is to seek, and 得 is to get. 以求得 is “by it, seek-get”: the one who seeks by means of it gets. Wang Bi: 以求則得求, “seek with it, and you get what is sought”. An English reader hears the Gospel at once: seek, and ye shall find. [[Legge|legge]] heard it too, and wrote that the Dao “could be got by seeking for it”, which turns the Dao from the means into the prize. The likeness is real, and so is the difference. In the Gospel a Father gives to the one who asks. Here nobody gives. The getting is an effect of where one stands, as one who goes into the [[inner corner|ao]] of a house is out of the wind. Mencius has a line in the same form about what is within a person: seek and you get it, let go and you lose it. The silk texts are reported to have 不謂 for 不曰, and 求以得 for 以求得: “is it not said…?” The saying was already old.",
+      "src": [
+        "Wang Bi commentary on Laozi 62",
+        "Mencius 7A3"
+      ]
+    },
+    "zui-mian": {
+      "kind": "gap",
+      "title": "有罪以免: guilt, not sin",
+      "body": "罪 is an offence against the law or against a superior, and the state of one who has done it: guilt, liability to punishment. 免 is to get off, to be released, as a prisoner is let go or a tax is waived. 有罪以免: “those who have guilt, by it, go free”. When Christian missionaries put the Bible into Chinese they chose 罪 for “sin”, and since then a Western reader sees “sinners are forgiven” in this line. Take the later sense away. In the Warring States 罪 meant mutilation, forced labour, or death under codes that grew harsher each decade; the fear in the word was of the executioner. The line says that the Dao is where the condemned are let off. It names no judge who pardons, no repentance, and no price paid. How does a person “go free” by the Dao? The text does not explain. Perhaps as in passage 27: nobody is thrown away. See the plate for the odd history of the character."
+    },
+    "tianxia-gui": {
+      "kind": "wordplay",
+      "title": "故為天下貴: the second time",
+      "body": "The last five characters are also the last five of passage 56. There they followed a list of six things that cannot be done to a person: cannot be drawn close or kept far, helped or hurt, raised or lowered. Here they follow two things that the Dao does for anyone: the seeker gets, the guilty go free. The two endings explain each other. What cannot be priced is what all prize; and what all prize is what is open to all, the good and the not-good alike. 貴 comes twice in this last section. First as a verb with a history: “why did the ancients 貴 this Dao?” Then as the closing noun. Between the two a jade worth fifteen towns has been set aside. The word 貴 has a cowrie shell in it, the old money. The passage has gone through the whole market, fine words for sale, honour, jade, horses, and ends on the one thing whose price is everyone’s regard.",
+      "src": [
+        "Laozi 56"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge and the stain of guilt",
+      "body": "Legge puts the first three lines into a rhymed triplet, and the third reads like a hymn: bad men it guards, and “doth their ill efface”. The Chinese says only that they are kept; nothing is effaced. In the last section he writes that the guilty could escape “(from the stain of their guilt)” by it. The stain is his, in a bracket. It is the language of the Christian doctrine of atonement, in which sin marks the soul and must be washed away. Legge was a missionary for thirty years before he was a professor, and he spent his life looking in the Chinese classics for signs of a knowledge of God. Here he found a text that seemed to promise pardon, and his English leaned toward what he hoped to see. For 奧 he has “the most honoured place”, which is one true sense of the corner and loses the shelter.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Whom have you thrown away?",
+      "body": "Sit for a few minutes with the question of the middle line: 何棄之有? First the people. Bring to mind one person whom you have written off: a relative, a former friend, someone at work, a public figure. You need not like them or let them back in. Only look for the act of throwing away, the moment when you put them in the basket and pushed. Is the person in fact gone from the house of things? Then turn it inward. What in yourself have you put out: a failure, a trait, a year of your life? The passage says that the Dao is the corner of the house where this, too, is kept. Nothing is asked of you there but to stop pushing the basket."
+    }
+  },
+  "lenses": {
+    "ground": "The passage opens with a house and ends in a court. Dao is the [[south-west corner|ao]], the innermost place, of all things. Two kinds of people relate to it by [[two words of one sound|bao]]: the good have it as treasure; [[the not-good|bu-shan]] are kept by it. Then two dry remarks on the world’s currency, [[words that sell|mei-yan]] and [[conduct that lifts|jia-ren]], and a question: [[what is there to throw away?|qi]] The court scene follows: at the [[enthronement|tianzi]], better than [[jade and horses|gong-bi]] is to [[kneel and offer this Dao|zuo-jin]]. The close asks why the ancients prized it and answers with a saying: [[the seeker gets|qiu-de]], [[the guilty go free|zui-mian]]. The vocabulary of value runs through all of it: 寶, 市, 尊, 璧, 貴. The passage sets each kind of worth beside the Dao and finds it smaller.",
+    "inner": "The contemplative centre is the question in the middle. A mind sorts without rest: this in me is good, that is not; this person is in, that one is out. The sorting feels like virtue. The passage says that the Dao is the [[inner corner|ao]] of all things, of the unsorted whole, and that the part you call not-good is not outside it. It is kept there. This does not mean that harm is good or that nothing should change. It means that change does not begin with [[throwing away|qi]]. A fault that is pushed out comes back by the window. A fault that is given a place in the house can be seen, and what is seen can turn. The last lines name the two fruits. One who seeks, finds, since nothing was far. And one who carries [[guilt|zui-mian]] is let go, since the one place that could condemn did not.",
+    "leading": "Every group decides whom it keeps. A court of the time kept the [[well-spoken and the well-behaved|mei-yan]], and the text says with some dryness that both are forms of money. A leader who keeps only the useful gets a market, not a household. The harder standard is in the first lines: a good house has a corner where those who have failed are still [[kept|bao]]. That is not softness. The person who knows that they will not be thrown away can afford to tell the truth, and the one who expects the basket hides everything. Then the gift. At the great occasions people bring the leader [[jade and horses|gong-bi]]: praise, results, presents. The rarest thing that an adviser can bring is none of these. It is plain counsel, [[offered from a low seat|zuo-jin]]. And the rarest ruler is one who knows which gift is worth more.",
+    "nature": "A forest keeps everything. The fallen tree, the dead leaf, the dung, the carcass: each has its place and its eaters, and the soil is made of what was dropped. Nothing in a living system is [[thrown away|qi]], and the word “waste” has no meaning there. The oldest part of the wood is not the tall trees. It is the dark floor where all of it is taken back in, the [[奧|ao]] of the place. Or follow [[the silk reading|zhu]]: a watershed, in which every drop that falls, clean or foul, runs to the same low water and is received. The good seed and the bad both lie in one ground. The ground does not sort them. It keeps them, and what can grow, grows.",
+    "practice": "Ask the question of [[the thrown-away|practice]] once, about one person and one part of yourself. Then, the next time that you are about to bring someone a gift, of praise, of help, of a finished piece of work, consider [[the other gift|zuo-jin]]: to sit down, be still, and offer the plain thing that you see. It costs less than jade, and it is given less often."
+  },
+  "glyph": "棄",
+  "plates": [
+    {
+      "c": "棄",
+      "title": "Two hands, a basket, a child",
+      "lesson": "This character is a scene, and the Shuowen describes it stroke by stroke: 捐也。从廾推𠦒棄之，从𠫓。𠫓，逆子也. “To cast off. Two hands push a winnowing-basket to throw it out; and it has 𠫓. 𠫓 is a child that goes against.” Read the modern form from the top. The top part, a dot, a line, a fold, and a dot, is 𠫓. The Shuowen explains that graph in its own entry as 从到子, “an upside-down 子”: the character for child, turned head down. That is how a baby comes into the world, and the same inverted child is in 育, “to rear”, and in 流, “to flow”. The middle part, with its crossed lines, is the basket, of the kind used to toss grain and carry rubbish. At the bottom, where the modern form has what looks like 木, were two hands, 廾, raised to push. A newborn, in a basket, in two hands, on its way out of the house. The dictionary’s gloss says the child is 逆, “contrary”: born wrong, or unfilial. The script kept the memory of a real practice; see [[the note on the child named Abandoned|qi]]. The simplified form 弃 shows it more clearly than the full one: the child on top, and two hands. The passage asks its question with this picture: 何棄之有?",
+      "brush": "Twelve strokes, in three tiers. The child, four strokes: a dot; a horizontal; a stroke that falls to the left and folds back to the right; and a dot that closes the fold. The basket, four strokes: a long horizontal, the widest line in the character; a short vertical on the left; a short vertical on the right; and a short horizontal that joins them below. The hands, now in the shape of a tree, four strokes: a long horizontal; a vertical that starts up inside the basket and comes down through it; a stroke that falls to the left; a stroke that falls to the right. Watch the two long horizontals, strokes five and nine. The upper one carries the child and the lower one is the arms; they must be parallel, and the vertical between them ties basket to hands. The last two strokes spread wide, like arms at full stretch."
+    },
+    {
+      "c": "寶",
+      "title": "Under one roof: jade, a jar, and shells",
+      "lesson": "Twenty strokes and four parts: this character is a strongroom, and you can list what is in it. The roof is 宀, a house. Under it on the left is 王, which is jade here, the old form of 玉, which the Shuowen reads as 象三玉之連，丨其貫也, three jades joined, with the cord that goes through them; the dot that now marks 玉 was added later to keep it apart from 王, “king”. Under the roof on the right is 缶, an earthenware jar. The Shuowen says of it: 瓦器，所以盛酒, “a pottery vessel, for holding wine”, and adds that the people of Qin beat on it to keep time when they sang. At the bottom is 貝, a cowrie shell: money. The Shuowen lists them: 珍也。从宀从王从貝，缶聲, “precious things; from roof, jade, and shell, and 缶 gives the sound”. So the jar is there for its sound, but the eye counts it with the rest: jade for ritual, shells for trade, wine for the feast, all indoors. The simplified form 宝 keeps only the roof and the jade. Now look at what the passage does with the word. It calls Dao the [[treasure|bao]] of the good, and a few lines later sets a great [[jade disc|gong-bi]] aside as the lesser gift. The character’s own first item is outbid. Passage 67 uses the same word for the speaker’s three most valued things, and none of them is jade.",
+      "brush": "Twenty strokes: plan the space before the first one. The roof, three strokes: a dot at the top centre; a small stroke at the left end; a horizontal that ends in a hook at the right. Make it wide; everything hangs under it. The jade, four strokes, on the left: horizontal, horizontal, a vertical through them, and a last horizontal that tilts up to the right. The jar, six strokes, on the right: a short stroke that falls left; two horizontals; a vertical through them; then the open box below, in two strokes. The shell, seven strokes, across the bottom: a vertical; a horizontal that turns down; two lines inside; the closing line; and two small feet. Watch the middle tier. Jade and jar must be the same height and stand close, so that the shell below can centre under both. In small regular script, writers treat this character as a test of even spacing."
+    },
+    {
+      "c": "罪",
+      "title": "A fish-net, by order of the emperor",
+      "lesson": "Top: 罒, a net, the flat form of 网. The Shuowen says that Fuxi knotted the first one of cord, to fish with. Bottom: 非, “is not, wrong”, which the dictionary derives from the two wings of a bird, spread back to back. A net over wrongdoing: the modern reader takes it as a picture of the law, and it is a good one. But the Shuowen says that this is an accident of politics. Its entry for 罪 reads: 捕魚竹网, “a bamboo net for catching fish”. That is all the character meant. The word “guilt, crime” had a character of its own, 辠: 自, a nose, above 辛, the sign of harsh punishment. The dictionary explains it as the offender who wrinkles the nose in bitter pain; many scholars think of the penalty of cutting off the nose. Then: 秦以辠似皇字，改爲罪. “Qin, since 辠 looked like the character 皇, changed it to 罪.” 皇 is “august”, the word that the First Emperor had just taken for his new title. He did not want “crime” to look like “emperor”, so crime was moved to the fish-net. The passage was written before that decree, with the nose and the knife. Its promise is that the one who has [[罪 goes free|zui-mian]]. In the form that we read now, a fish gets out of a net.",
+      "brush": "Thirteen strokes. The net, five: a short vertical on the left; a horizontal that turns down on the right; two short verticals inside; and the closing horizontal. It is a wide, flat box with three even cells. Then 非, eight, in two halves. The left half: a vertical that curves away to the left at its foot; two short horizontals drawn from the left into it; and a third that rises to the right. The right half: a straight vertical; then three short horizontals that go rightward from it. Watch the two verticals. They stand back to back with a clear strip of white between, and the six short strokes stick out from them like the barbs of two feathers. The left vertical bends and the right one is straight. Keep the net wider than the wings, so that it covers them."
+    }
+  ]
+}

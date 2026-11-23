@@ -1,0 +1,62 @@
+{
+  "德": {
+    "senses": ["inner power, potency; the hold of character on others", "virtue, moral excellence (the Confucian sense)", "kindness received, a favor; to be grateful", "(as a verb) to act the de, to treat as de"],
+    "shuowen": "升也。从彳㥁聲。",
+    "shuowenEn": "To rise. From 彳 (a step on the road), with 㥁 for the sound. (Of the older graph 悳 the Shuowen says: to get from others outside, to get in oneself inside.)",
+    "parts": [{"c": "彳", "m": "a step on the road"}, {"c": "直", "m": "straight: an eye that looks straight (written 十 over 罒 over 一)"}, {"c": "心", "m": "heart"}],
+    "story": "A road, a straight eye, a heart. In Zhou bronzes 德 is the power by which a king holds heaven’s mandate. Confucius made it moral force: rule by 德 and you are like the North Star. The Laozi keeps the power and removes the ownership. 玄德, dark de, gives life and does not possess (10, 51). One who holds de in fullness is like an infant (55). Highest de does not “de”, and so has de (38). Early writers explain the word by 得, to get: de is that which a thing gets from the Dao and so is itself.",
+    "gap": "“Virtue” now means good behavior by a code, which passage 38 ranks low. “Power” suggests force over others. 德 is closer to the old sense in “the virtue of a medicine”: what a thing can do because of what it is."
+  },
+  "禮": {
+    "senses": ["rites of sacrifice", "ritual; the correct forms of court, family, and rank", "courtesy, manners; a gift"],
+    "parts": [{"c": "礻", "m": "altar, spirit tablet (示)"}, {"c": "豊", "m": "a ritual vessel with its offering; the older graph of the word"}],
+    "story": "An altar and a vessel. Of the right side alone the Shuowen says 行禮之器也, “a vessel for the performance of rites”. From sacrifice the word spread to all formal conduct, and for the Confucians it was the frame of a good society. The Laozi names it in two passages. In 31 the victory in war is to be marked with the rites of a funeral. In 38 it is the last step down: after the Dao, de, humaneness, and rightness are lost, ritual is left, the thin part of loyalty and trust.",
+    "gap": "“Propriety” and “etiquette” are small words. 禮 was religion, law, and manners in one."
+  },
+  "仁": {
+    "senses": ["humaneness; the feeling between persons", "kind, to treat as kin", "the kernel of a fruit stone"],
+    "shuowen": "親也。从人从二。",
+    "shuowenEn": "To be close. From person and two.",
+    "parts": [{"c": "亻", "m": "person"}, {"c": "二", "m": "two"}],
+    "story": "A person and “two”: what is between people. It is the first virtue of the Confucians. The Laozi treats it with reserve. Heaven and earth are not 仁; they treat the ten thousand things as straw dogs (5). When the great Dao is abandoned there are 仁 and rightness (18). Highest 仁 acts and has nothing that it acts for (38). In giving, the good is 仁 (8). The word also means the kernel inside a stone, as in 杏仁, an apricot kernel: the living center.",
+    "gap": "“Benevolence” looks down from above. “Love” is too warm and too wide. 仁 is being human together."
+  },
+  "義": {
+    "senses": ["rightness; what is fitting", "duty, justice", "meaning (of a word)"],
+    "shuowen": "己之威儀也。從我、羊。",
+    "shuowenEn": "One’s own dignified bearing. From 我 (I) and 羊 (sheep).",
+    "parts": [{"c": "羊", "m": "sheep: the offering, the good"}, {"c": "我", "m": "I; at root a toothed weapon"}],
+    "story": "A sheep above “I”. The first sense is correct bearing in a rite; from that, what is fitting, and duty. Mencius set it beside 仁 and placed it above life. In the Laozi it is always the junior partner of 仁 and always a sign of loss (18, 19, 38). Highest 義 acts, and has something that it acts for (38): it is the first virtue with a reason.",
+    "gap": "“Righteousness” has a church tone. “Justice” is a matter for courts. 義 is the fitting act of this person in this place."
+  },
+  "華": {
+    "senses": ["flower, blossom (later 花)", "splendor, brilliance; showy", "China, Chinese (華夏)"],
+    "shuowen": "榮也。",
+    "shuowenEn": "A blossom, to flower.",
+    "story": "A picture of a plant in bloom. The plain sense went to the later character 花, and 華 kept the high ones: glory, the capital’s splendor, the name of the Chinese world. In passage 38 it is one of a pair with 實, fruit: foreknowledge is the 華 of the Dao, and the full-grown person stays in the fruit and does not dwell in the flower.",
+    "gap": "English “flower” is praise (“the flower of youth”). Here the flower is that which is early, bright, and soon gone."
+  },
+  "實": {
+    "senses": ["fruit, kernel, seed", "full, solid; to fill", "real, true; in fact"],
+    "shuowen": "富也。从宀从貫。貫，貨貝也。",
+    "shuowenEn": "Wealth. From a roof and 貫; 貫 is strings of cowrie money.",
+    "parts": [{"c": "宀", "m": "roof"}, {"c": "貫", "m": "cowries on a string"}],
+    "story": "A house with strings of cowries in it: full. In plants it is the fruit that follows the flower. The Laozi uses it for the belly that the sage fills, 實其腹 (3), and for the fruit in which the full-grown person stays (38). Chinese thought later set 實, the actual, against 名, the name: does the title fit the fact?",
+    "gap": "“Substance” and “reality” are abstract. 實 is something that you can bite."
+  },
+  "愚": {
+    "senses": ["stupid, foolish", "simple, without cunning (in the Laozi, at times as praise)", "to make simple; to fool"],
+    "shuowen": "戇也。从心从禺。禺，猴屬，獸之愚者。",
+    "shuowenEn": "Dull. From heart and 禺; 禺 is a kind of monkey, the dull one among the beasts.",
+    "parts": [{"c": "禺", "m": "a kind of monkey"}, {"c": "心", "m": "heart"}],
+    "story": "A monkey over a heart. In passage 38 the word is blame: foreknowledge is the beginning of 愚. In passage 20 the speaker takes it as a name, “mine is the heart of a fool”, and in 65 the old rulers keep the people 愚, simple. The Laozi has two follies: the confusion at the end of cleverness, and the wholeness before it.",
+    "gap": "English “stupid” is only an insult. 愚 can also be the honest simplicity of one who does not calculate."
+  },
+  "厚": {
+    "senses": ["thick; deep", "generous, rich; to treat well"],
+    "shuowen": "山陵之厚也。",
+    "shuowenEn": "The thickness of hills.",
+    "story": "Thickness as of a mountain. Applied to people it is generosity and depth of feeling; its opposite is 薄, thin. The full-grown person stays in the thick (38). One who holds de in fullness, 含德之厚, is like an infant (55). But thick living can kill: people die early because they feed life too thickly (50, 75).",
+    "gap": "English “thick” is not praise for a person. 厚 is: solid, kind, deep."
+  }
+}

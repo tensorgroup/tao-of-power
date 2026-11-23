@@ -1,0 +1,210 @@
+{
+  "n": 24,
+  "title": "On Tiptoe",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "企者不立，",
+      "gloss": {
+        "0": "to lift the heels; to stand on tiptoe"
+      }
+    },
+    {
+      "text": "跨者不行，自見者不明，自是者不彰，自伐者無功，自矜者不長。其在道也，曰餘食贅行。",
+      "gloss": {
+        "0": "to step across; to straddle",
+        "6": "xiàn: to show, to make seen (not jiàn, to see)",
+        "12": "to call right; “this is it”",
+        "18": "to boast of one’s merit; first: to strike with a weapon",
+        "24": "to hold oneself stiff with pride",
+        "27": "cháng: to last long; or zhǎng: to grow, to be chief",
+        "37": "a wart, a growth; first: a thing left in pawn",
+        "38": "conduct, a walk (noun); many read it as 形, body"
+      }
+    },
+    {
+      "text": "物或惡之，故有道者不處。",
+      "gloss": {
+        "1": "some; perhaps; it may be",
+        "2": "wù: to hate, to loathe (not è, bad)",
+        "10": "chǔ: to stay, to make one’s home in"
+      }
+    }
+  ],
+  "rendering": [
+    "One [[on tiptoe|qi]] does not stand.",
+    "One [[at full stride|kua]] does not walk.",
+    "",
+    "One who [[shows the self|zi-xian]] is not bright.",
+    "One who [[calls the self right|zi-shi]] is not plain to see.",
+    "One who [[boasts|zi-fa]] has no merit.",
+    "One who is [[stiff with pride|zi-jin]] does not [[last|chang-zhang]].",
+    "",
+    "[[In the Dao|zai-dao]] these are called",
+    "[[leftover food|yu-shi]], [[a wart on the walk|zhui-xing]].",
+    "",
+    "[[Creatures, it seems, loathe them|wu-e]].",
+    "So one who has the Dao [[does not stay there|bu-chu]]."
+  ],
+  "notes": {
+    "qi": {
+      "kind": "etymology",
+      "title": "企: a person above a foot",
+      "body": "The Shuowen defines 企 in three characters: 舉踵也, “to lift the heels”. The graph sets 人, a person, on top of 止, a foot. The Shuowen calls 止 the sound part; many modern scholars also see a picture, a person drawn with the foot made large. Read the picture lightly. The word is clear without it: you go up on the toes to see farther or to be seen. From that came the later sense “to long for, to look out for”. A modern word carries the picture into every office: 企業, “enterprise”, a compound made in Japan in the nineteenth century and taken back into Chinese. The first line of the passage is a joke that the body understands. You are taller on tiptoe. Are you standing?",
+      "src": [
+        "Shuowen Jiezi, 人部: 企，舉踵也。从人止聲。"
+      ]
+    },
+    "kua": {
+      "kind": "etymology",
+      "title": "跨: the foot that wants too much",
+      "body": "跨 has 足, the foot, on the left. On the right is 夸, which gives the sound. The Shuowen defines 跨 as 渡也, “to cross over”: the long step over a ditch. It defines 夸 by itself as 奢也, “extravagant”, and the same 夸 later means “to brag”. So the character puts a foot beside a boast. The word covers a long stride and also a straddle, with one leg on each side of a thing. In both positions the legs are as far apart as they can go, and the next step is not possible. Some English versions turn the line into a moral fault. The Chinese only shows a body that has taken up too much ground. This line is [[reported absent from the silk copies|chui]].",
+      "src": [
+        "Shuowen Jiezi, 足部: 跨，渡也。从足夸聲。",
+        "Shuowen Jiezi, 大部: 夸，奢也。从大于聲。"
+      ]
+    },
+    "chui": {
+      "kind": "variant",
+      "title": "The silk texts: a cook, or a breath",
+      "body": "Mawangdui silk text A is reported to open the passage with a different word: 炊者不立; text B is damaged at this point. The silk version is reported to have no line about the stride at all. 炊 is “to cook with fire”; the Shuowen says its sound part is a short form of 吹, “to blow”. Scholars disagree about what the copyist meant. Some take 炊 as a loan graph for 企, so the sense stays “tiptoe”. Others read it as 吹: one who puffs, who blows the breath out hard, does not stand firm. In that reading the first image is about breath, and it fits the breath exercises that other Warring States texts describe. We cannot settle it. Notice only that the oldest copy we have of this line, as reported, gives one image where the received text gives two. Did a later hand add the stride to make a pair?",
+      "src": [
+        "Mawangdui Laozi, silk text A (as reported)",
+        "Shuowen Jiezi, 火部: 炊，爨也。从火，吹省聲。"
+      ]
+    },
+    "zi-xian": {
+      "kind": "wordplay",
+      "title": "Four times 自",
+      "body": "Four lines begin with 自, “self”. The Shuowen says that 自 is a picture of a nose: 鼻也，象鼻形. The usual explanation is that a person points at the nose to say “me”. In each line the self is both the one who acts and the thing acted on: self-shown, self-approved, self-praised, self-admired. The first verb, 見, is read xiàn here, “to make seen”; the same graph read jiàn is “to see”. So the line has a quiet turn: the person who works to be seen does not see well, and is not 明, bright. Three of the four end-words (明, 彰, 長) belong to one old rhyme group, the one the tradition calls 陽. So does 行, the end-word of the stride line and of the last image. Passage 22 has the same four lines [[the other way round|order]].",
+      "src": [
+        "Shuowen Jiezi, 自部: 自，鼻也。象鼻形。"
+      ]
+    },
+    "zi-shi": {
+      "kind": "gap",
+      "title": "是: “this is it”",
+      "body": "是 is the common word for “this”. From “this” came “this is so”, “right”, and much later the verb “to be”. 自是 is to say “this is it” about oneself: my view, my side, my way is the right one. The opposite word is 非, “not this, wrong”, and the debaters of the Warring States filled whole books with 是 and 非. The result that the line promises is 不彰. The Shuowen explains 彰 as 文彰, a pattern that shows up clearly, like the figure on a cloth. English “self-righteous” carries a religious tone that the Chinese lacks. The line does not say that the person is a sinner. It says that the person’s true pattern cannot be seen, because the person stands in front of it.",
+      "src": [
+        "Shuowen Jiezi, 彡部: 彰，文彰也。从彡从章，章亦聲。"
+      ]
+    },
+    "zi-fa": {
+      "kind": "wordplay",
+      "title": "伐: to boast is to attack",
+      "body": "The Shuowen defines 伐 as 擊也, “to strike”, and reads the graph as 从人持戈, “a person who holds a halberd”. It is the usual word for a military campaign against a state. The same word means “to boast of one’s merit”. In the Analects, Yan Hui wishes 無伐善, “not to boast of what I am good at”, and Confucius praises a general who covered the retreat and did not boast: 孟之反不伐. So 自伐 can be heard two ways. The plain sense is “to praise oneself”. The picture says “to attack oneself”. The line then finishes the joke: 無功, “no merit”. 功 is the word for an achievement in war or in public work. The boast is a campaign, and the campaign wins nothing.",
+      "src": [
+        "Shuowen Jiezi, 人部: 伐，擊也。从人持戈。一曰敗也。",
+        "Analects 5.26, 6.15"
+      ]
+    },
+    "zi-jin": {
+      "kind": "etymology",
+      "title": "矜: the spear shaft",
+      "body": "The Shuowen gives 矜 a hard first meaning: 矛柄也, “the shaft of a spear”. Its left part is 矛, the spear; 今 gives the sound. How the word came to mean “proud” is not certain. Some early readers link the senses through stiffness: the person who holds the self upright and rigid, like a pole. Treat that link as a memory aid, not as proven history. The same graph also means “to pity” and “to be careful”, so the old language heard pride and pity as neighbours: both look down from a height. Note the weapons in two lines that follow each other. 伐 holds a halberd. 矜 holds a spear. The passage does not speak of war, yet its words for self-praise come armed. Passage 30 uses both words again, about real armies.",
+      "src": [
+        "Shuowen Jiezi, 矛部: 矜，矛柄也。从矛今聲。"
+      ]
+    },
+    "chang-zhang": {
+      "kind": "gap",
+      "title": "長: to last, to grow, to lead",
+      "body": "One graph, two readings. Read cháng, 長 is “long” in space or time: the proud one does not last. Read zhǎng, it is “to grow”, “the elder”, “the chief”: the proud one does not grow, or does not become the head of others. The Shuowen’s gloss is 久遠也, “long-lasting and far”. Passage 22 says the reverse in the same words: 不自矜故長. English must take one sense. We chose “last”, because the passage began with two positions that cannot be held for long. The other sense stays true to the picture: a plant that stands on tiptoe has stopped growing at the root. Which reading fits the proud people you have known?",
+      "src": [
+        "Shuowen Jiezi, 長部: 長，久遠也。"
+      ]
+    },
+    "order": {
+      "kind": "variant",
+      "title": "Half of a pair",
+      "body": "In the received book this passage stands two places after passage 22, which gives the same four lines in the positive: not self-shown, so bright; not self-approved, so plain to see; no boast, so there is merit; no pride, so it lasts. In the Mawangdui silk texts, as reported, the order is different. This passage comes directly before passage 22. Read in that order, the two are one lesson: first the four ways that fail, then the four that work, with the words 明, 彰, 功, 長 as the hinge. The silk texts are also reported to set the lines in another order: the line on 自視, “looking at oneself” (with 章 written for 彰), comes first, then 自見者不明. Someone later moved the passages apart. Read 22 after this one and see if the two halves close.",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "zai-dao": {
+      "kind": "gap",
+      "title": "“In the Dao”: where is the speaker?",
+      "body": "其在道也 is four plain words and a pause mark: “these, in Dao”. English wants more: “from the point of view of the Way”, “for those who follow the Way”, “judged by the Way”. Each of these adds a judge or a follower. The Chinese adds neither. 在 means “to be located in”. The line puts tiptoe, stride, display, and boast inside the Dao for a moment and asks what they are there. The answer is two things from a kitchen and a body. Note that the text does not say these things are outside the Dao, or against it. They have a place in it: the place of scraps and warts. For the untranslated word, see passage 1."
+    },
+    "yu-shi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the end of a feast",
+      "body": "Wang Bi explains the two images with a man from history: 若郤至之行，盛饌之餘也。本雖美，更可薉也。本雖有功而自伐之，故更為肬贅者也。 “It is like the conduct of Xi Zhi, or like what is left of a rich feast. The dish was fine at first; now it is only filth. There was real merit at first; he boasted of it himself, and so it turned into a wart and a growth.” Xi Zhi was a noble of the state of Jin. In 575 BCE he fought well at Yanling, where Jin beat Chu. Then he went to the Zhou court and praised his own part in the victory. A Zhou minister said that he would not live long. The next year the Duke of Jin had him killed. Wang Bi’s point is exact: the merit was real. The boast is what spoiled it.",
+      "src": [
+        "Wang Bi commentary on Laozi 24",
+        "Zuozhuan, Duke Cheng, years 16–17",
+        "Guoyu, “Zhou yu”"
+      ]
+    },
+    "zhui-xing": {
+      "kind": "etymology",
+      "title": "贅: a pawned thing, a wart",
+      "body": "贅 has 貝, the cowrie shell that was early money, at the bottom. The Shuowen says: 以物質錢, “to give a thing in pledge for coins”, and adds that the shell shows it must be bought back. A pawned thing is yours and not yours; it hangs on. From this came “a thing attached that has no use”, and the word for a growth on the skin: the Shuowen glosses 肬, wart, as 贅也. The second word, 行, is “conduct” or “a walk”. Many commentators read it as 形, “the body”: “a wart on the body”; [[Legge|legge]] does the same. We kept 行, because the passage began with one who 不行, cannot walk, and so it ends with a walk that has a growth on it. The two images are chosen to disgust. Why does the text want the reader to feel it in the stomach?",
+      "src": [
+        "Shuowen Jiezi, 貝部: 贅，以物質錢。从敖、貝。敖者，猶放；貝，當復取之也。",
+        "Shuowen Jiezi, 肉部: 肬，贅也。从肉尤聲。"
+      ]
+    },
+    "wu-e": {
+      "kind": "gap",
+      "title": "Who loathes?",
+      "body": "物或惡之. 物 is any being or creature. 或 is “some” or “perhaps”. 惡, read wù, is “to hate, to find foul”; the Shuowen’s first sense for the graph is 過也, “a fault”. So: “beings, some of them, hate these.” This is a statement about feeling. It is not a law of nature and not a command from heaven, and 物 cannot mean “law”. The small word 或 is honest: perhaps not every creature turns away. The text points to something you can test. A dog moves off from a person who pushes at it. A room goes quiet around a boaster. The same sentence returns in passage 31, where the things that creatures loathe are weapons. What does it mean that the book uses one sentence for bragging and for war?",
+      "src": [
+        "Shuowen Jiezi, 心部: 惡，過也。从心亞聲。"
+      ]
+    },
+    "bu-chu": {
+      "kind": "variant",
+      "title": "Not a place to live",
+      "body": "處 (chǔ) is to stop and stay in a place. The old form 処 shows this in the Shuowen: 止也。得几而止, “to stop: to find a stool and stop”. The one who has the Dao may pass through pride and display like anyone else. The text says only that such a person does not settle there. The book likes this verb: the sage “stays in” the work of not-forcing (passage 2), and water “stays in” the places that people hate (passage 8). The Mawangdui silk texts are reported to end the line differently: 故有欲者弗居, “so one who has wants does not dwell there”. Readers have not agreed on 欲. Some take it as a loan for 裕, “one who has plenty”; some read it as it stands, “even one with wants”; some think it a copyist’s slip. The same closing sentence, in both versions, ends the first part of passage 31.",
+      "src": [
+        "Shuowen Jiezi, 几部: 処，止也。得几而止。从几从夂。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "persuaders": {
+      "kind": "geopolitics",
+      "title": "An age of self-recommendation",
+      "body": "The passage is not about vanity in general. It was written into a job market. In the Warring States period the old noble houses were falling, and a new class of trained men without land, the 士, travelled from court to court to sell advice. A man had to make himself seen. The most famous case is Mao Sui: in 257 BCE, with Handan under siege, this unknown retainer put himself forward for an embassy to Chu and compared himself to an awl in a bag whose point would show. The phrase 毛遂自薦, “Mao Sui recommends himself”, is still used. In such a world, 自見, 自是, 自伐, and 自矜 were career skills. The Laozi tells the same men that the skill defeats itself. Was that advice naive, or did it describe what the rulers had already learned to distrust?",
+      "src": [
+        "Shiji 76, “Biography of the Lord of Pingyuan”"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: merit that others must allow",
+      "body": "Legge keeps the bodily images. He has the tiptoes, and for 贅 he writes “a tumour on the body”, so he reads 行 as 形. His frame shows in the four middle lines. For 無功 he writes that the boaster “does not find his merit acknowledged”, and for 不長 that the proud one “has no superiority allowed to him”. Both verbs put the loss in the opinion of other people. That is the moral world of a Victorian gentleman, where reputation is the court. The Chinese is shorter and harder: 無功, “there is no merit”. The boast does not hide the merit from others. It undoes it. Compare the two. Is merit a thing that others grant, or a thing that display can spoil at the source?",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "tiptoe-practice": {
+      "kind": "practice",
+      "title": "One minute on the toes",
+      "body": "Do what the first line says. Stand with bare feet and rise onto the toes. Stay there for one minute. Notice the calves, the small corrections at the ankle, the breath that goes shallow, the eyes that fix on a point. You are taller, and all your attention is spent on not falling. Now come down. Let the heels take the weight. Notice how much of the room comes back. Then take three steps as long as your legs allow, and feel how each one stops you. The passage asks you to remember these two states in the body. Later in the day, when you speak about your own work, ask which of the two states you are in."
+    }
+  },
+  "lenses": {
+    "ground": "The passage is a list with a verdict. Two lines show a body that overreaches: heels up, and it does not stand; legs wide, and it does not walk. Four lines then show a self that overreaches, each one with [[自|zi-xian]] at the front: shown, approved, praised, admired. Each gets the result opposite to its aim. Then the verdict, [[in the Dao|zai-dao]]: these are scraps of a meal and [[a growth that hangs on|zhui-xing]]. The last line reports a feeling, [[creatures loathe them|wu-e]], and a choice: the one with the Dao does not [[live there|bu-chu]]. The vocabulary is physical throughout: a heel, a foot, a nose, a halberd, a spear shaft, cold food, a wart. The silk copies are reported to [[start with a different word|chui]] and to place the passage [[next to its twin|order]].",
+    "inner": "Each of the four middle lines names an extra movement of the mind. Something is done, and then a second motion turns back to look at the doer: see me, I am right, I did that, how fine I am. The text calls this second motion [[leftover food|yu-shi]]. The meal was good. The scraps are what stay on the table when the meal is over and no one clears it. So the teaching here is not “have no self” and not “think less of yourself”. It is narrower: do not add the extra. Wang Bi notes that the merit was real before the boast. Notice also that the text gives the overreaching self a place [[inside the Dao|zai-dao]]. It is not cast out. It is only seen as what it is, and then one [[does not make a home there|bu-chu]].",
+    "leading": "The text speaks of one person and the Way; it has no group in it. Yet it was heard by men who [[had to sell themselves|persuaders]] to rulers, and it applies wherever people are chosen and promoted. The four 自 lines describe what display costs the one who displays. The person who works at being seen has less attention left to see with. The person who must be right cannot be read by others, because the position covers the person. Credit that is claimed by its owner [[stops being credit|zi-fa]]. Authority that is held stiffly [[does not grow|chang-zhang]]. A leader can use this as a test of the self, not of others: when I describe my part in a result, does the room move toward me or away? [[Creatures notice|wu-e]] before they have words for it.",
+    "body": "The first two lines are instruction in balance. On the toes, the base of support shrinks to a few square inches and the whole body must work to hold it. At full stride, the weight is caught between two feet and neither can lift. Every art of movement that came out of China teaches the opposite of both: the heel down, the step no longer than lets the back foot leave the ground freely, the weight complete on one leg before the other moves. A fighter on the toes can be pushed over. A fighter in too wide a stance cannot turn. If the [[silk texts’ word|chui]] is read as breath, the same rule applies inside: breath pushed out by force does not settle. Height and reach are bought with stability. [[Try it for one minute.|tiptoe-practice]]",
+    "practice": "Take one conversation today in which you would normally mention something you did well. Do the work of the conversation and leave the mention out. Do not replace it with a hint, and do not be modest in a way that asks for a reply; that is [[the same campaign|zi-fa]] with a different weapon. Afterwards, notice what happened to the wish to be seen. Did it press, like heels that want to rise? Did it pass? Notice also whether the thing you did well is any smaller because you did not name it. Wang Bi’s reading of [[the leftover food|yu-shi]] says that it is not. If the body helps, [[stand on tiptoe first|tiptoe-practice]] and remember the feeling."
+  },
+  "glyph": "企",
+  "plates": [
+    {
+      "c": "企",
+      "title": "Heels off the ground",
+      "lesson": "Two parts, one above the other. On top is 人, a person. The Shuowen says that 人 shows 臂脛之形, “the shape of arm and leg”: a figure seen from the side, bent a little forward. Below is 止. Today 止 means “to stop”. In the oldest writing it is a foot; its early forms are commonly read as a footprint with the toes spread. The Shuowen defines 企 as 舉踵也, “to lift the heels”, and calls 止 the sound part; many scholars see the picture too. A person, and under the person nothing except a foot: [[that is tiptoe|qi]]. Now meet the family of 止. Two feet, one above the other, make 步, a pace; the Shuowen says 从止𣥂相背, a foot and its mirror image. A foot under a line makes 正, “straight, correct”; the Shuowen reads it as 一以止, a line at which one stops, and a common modern explanation is a foot that marches at a target. A foot with a round shape above it makes 足, the whole foot and lower leg; the Shuowen says 从止、口. And a foot beside a halberd makes 武, “martial”; the Shuowen quotes King Zhuang of Chu: 止戈爲武, “to stop the halberds is 武”. Many scholars think the king made a pun. One small graph can say “go” and “stop”. A foot does both. Which one does it do in 企?",
+      "brush": "Six strokes. The first is a long stroke that falls to the left from the top centre. The second starts just under the tip of the first and falls to the right; the brush presses as it travels and lifts at the end. These two make the person, spread wide like a roof. The third stroke is a vertical line under the peak. The fourth is a short horizontal that leaves the vertical to the right. The fifth is a short vertical on the left. The sixth is the long horizontal that closes the base; all the weight of the character comes down on it. Watch the proportion as it is written: the two falling strokes must end lower than the top of the foot, or the person floats off. In seal script the person stands whole on top of the foot. The regular script opened the legs into a canopy."
+    },
+    {
+      "c": "伐",
+      "title": "A person with a halberd",
+      "lesson": "Here the person stands at the left, in the narrow form 亻 that 人 takes when it shares a square. At the right is 戈, the dagger-axe: a bronze blade tied across the top of a long shaft, the common weapon of Shang and Zhou foot soldiers. The Shuowen calls it 平頭𢧢, “the flat-headed halberd”, and says the graph is a picture. For 伐 it gives 擊也。从人持戈, “to strike; a person who holds a halberd”. In the oracle-bone forms, as they are commonly described, the blade lies across the person’s neck, so the first sense may have been “to behead”; take this as the usual account and not as certain. From “strike” came “to send an army against a state”, “to cut down a tree”, and [[“to boast of one’s merit”|zi-fa]]. Look at the halberd’s family. The Shuowen reads 戒, “to guard”, as two hands that hold a halberd: 从廾持戈. 或, the old graph for a state or domain, is a halberd that guards a walled place; the Shuowen says 邦也, and this passage uses the same graph as the small word “some”. 我, “I”, has a halberd in it too; the Shuowen includes 从戈 in its account, and modern scholars commonly explain the graph as a toothed weapon borrowed for the sound. The word for “I” and the word for “boast” both carry a blade. The passage puts 自 in front of 伐 and lets the reader look.",
+      "brush": "Six strokes. First a short stroke that falls to the left. Second a vertical that starts from the middle of the first: together they are the standing person, and they stay narrow. The third stroke is a horizontal that rises a little as it goes right; it is the cross-blade. Now watch the fourth stroke, because the character lives in it: a long slanting line that begins at the upper left of the halberd, cuts down across the horizontal to the lower right, and ends in a hook that flicks upward. It must be one confident movement; a slow hand makes it tremble. The fifth stroke falls to the left through the lower part of the slanting line. The sixth is a dot at the upper right, set last, like the tassel on the weapon. The person is upright and still. The halberd leans and moves. Good writing keeps a clear gap between them."
+    }
+  ]
+}

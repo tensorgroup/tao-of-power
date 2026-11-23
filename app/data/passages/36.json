@@ -1,0 +1,224 @@
+{
+  "n": 36,
+  "title": "Fish Stay in the Deep",
+  "theme": "yielding",
+  "zh": [
+    {
+      "text": "將欲歙之，必固張之；將欲弱之，必固強之；將欲廢之，必固興之；將欲奪之，必固與之。是謂微明。",
+      "gloss": {
+        "0": "jiāng: about to, going to",
+        "2": "xī: to draw in (breath through the nose); to shrink, to fold",
+        "6": "gù: firmly, surely; some read 姑, “for a time”",
+        "7": "to stretch; first, to string a bow",
+        "22": "to pull down, to abolish; first, a house that falls",
+        "27": "xīng: to raise up, to make flourish",
+        "32": "duó: to take by force; in the Shuowen, to lose a bird from the hand",
+        "37": "yǔ: to give (the same graph is “and, with, ally”)",
+        "42": "wēi: faint, minute, hidden",
+        "43": "light; clear sight"
+      }
+    },
+    {
+      "text": "柔弱勝剛強。魚不可脫於淵，國之利器不可以示人。",
+      "gloss": {
+        "0": "róu: soft, pliant, as green wood",
+        "2": "shèng: to overcome, to be more than a match for",
+        "9": "tuō: to slip out of, to get free of",
+        "11": "yuān: deep pool, the deep",
+        "15": "sharp (the knife in the grain)",
+        "16": "tool, instrument, weapon; a vessel",
+        "20": "shì: to show, to display"
+      }
+    }
+  ],
+  "rendering": [
+    "What is to be [[drawn in|xi]]",
+    "must [[first|gu]] be [[stretched|zhang]].",
+    "What is to be weakened",
+    "must first be made strong.",
+    "What is to be [[pulled down|fei]]",
+    "must first be raised up.",
+    "What is to be [[taken|duo]]",
+    "must first be [[given|plot]].",
+    "",
+    "This is called [[the faint light|weiming]].",
+    "[[Soft and weak|rouruo]] overcome [[hard and strong|gangqiang]].",
+    "",
+    "[[Fish|fish]] must not [[slip out of|tuo]] the deep.",
+    "The [[state’s|guo]] [[sharp tools|liqi]]",
+    "must not be [[shown to people|shi]]."
+  ],
+  "notes": {
+    "xi": {
+      "kind": "etymology",
+      "title": "歙: a breath drawn in",
+      "body": "The first verb of the passage is a breath. The Shuowen defines 歙 as 縮鼻也, “to draw in through the nose”. Its right side, 欠, is a person with the mouth open; it marks 吹 (to blow) and 飲 (to drink). Its left side is 翕, which is 合, “to close”, over 羽, “feathers”: a bird that folds its wings. The Mawangdui silk texts are reported to write this simpler graph, 翕, in the line. So before any talk of states, the first pair is bodily: draw in, [[stretch out|zhang]]. Lungs must be full before they can empty, and wings must be open before they can fold. No one plots this. [[Legge|legge]] saw the breath and built his whole first sentence on it. If you read the four pairs as breathing, does the passage still sound like a scheme?",
+      "src": [
+        "Shuowen Jiezi, 欠部: 歙，縮鼻也。从欠翕聲。",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "zhang": {
+      "kind": "etymology",
+      "title": "張: to string the bow",
+      "body": "張 has 弓, a bow, at the left. The Shuowen: 施弓弦也, “to put the string on a bow”. A bow of the time was kept unstrung, bent the wrong way, and it was strung only for use; to 張 it was to load it with force. From there the word went to each kind of stretching: to open a net, to spread a sheet, to make a show of strength. Passage 77 uses the same picture for heaven’s way: 天之道，其猶張弓與, “the way of heaven is like the stringing of a bow”: the high end is pressed down and the low end is lifted. A bowyer knows that a bow kept strung grows weak. Full stretch is the moment before the release. So the first pair has two pictures in it, a lung and a bow, and both say that the extreme is the turn.",
+      "src": [
+        "Shuowen Jiezi, 弓部: 張，施弓弦也。从弓長聲。"
+      ]
+    },
+    "gu": {
+      "kind": "variant",
+      "title": "固 or 姑: surely, or for a while",
+      "body": "固 is “firm, solid”; the Shuowen says 四塞也, “closed on all four sides”. As an adverb it means “firmly, certainly”, and also “originally, already”. So 必固張之 can be “it must surely be stretched” or “it must already have been stretched”. The second is a remark about how things are and has no plotter in it. A third reading takes 固 as a loan for 姑, “for the time being”. This has an old witness. The Han Feizi and the Zhanguoce both tell how a minister quoted the “Documents of Zhou” in the crisis before 453 BCE; the wording here is that of the Zhanguoce, and the Han Feizi has 予 for the last verb: 將欲敗之，必姑輔之；將欲取之，必姑與之. “To defeat him, first help him for a while; to take from him, first give to him for a while.” So a saying of this form was in circulation before the Laozi, as statecraft. See [[the story|hanfei]]. Our “first” is a compromise between the three.",
+      "src": [
+        "Shuowen Jiezi, 囗部: 固，四塞也。从囗古聲。",
+        "Han Feizi, “Shuo lin, shang”",
+        "Zhanguoce, “Wei ce 1”"
+      ]
+    },
+    "plot": {
+      "kind": "gap",
+      "title": "Who does this? A plotter, or no one",
+      "body": "The Chinese lines are active and have no subject: “about to wish to shrink it, must firmly stretch it”. English needs a doer or a passive; we chose the passive, to leave the question open. The question is the oldest quarrel about this passage. One reading: a strategist speaks. To ruin an enemy, feed the enemy’s growth until it breaks. This is how [[the Han Feizi|hanfei]] read it, and for that reading later Confucians called the passage a craft of scheming and blamed the Laozi for the cold statecraft of the Legalists. The other reading: no one speaks of a method. The lines describe the course of things. That which shrinks has been at full stretch; the moon is full before it wanes; a power is at its peak just before it falls. Passage 40 gives the law in five words: 反者道之動, “return is the movement of the Dao”. On that reading the passage is a way of seeing, and its name is [[the faint light|weiming]]."
+    },
+    "hanfei": {
+      "kind": "geopolitics",
+      "title": "Han Feizi’s examples: jade, horses, and a bell",
+      "body": "The Han Feizi, a Legalist book of the third century BCE, has the oldest surviving commentary on this passage, and it explains by cases. Duke Xian of Jin wished to take the small state of Yu, so he sent its ruler a jade disc and a team of fine horses; with the road thus opened he destroyed Yu’s neighbor and then Yu. Zhi Bo wished to take a hill state, so he sent it a wide cart as a gift (a second chapter of the book, “Shuo lin”, tells the story with a great bell as the gift); the hill people cut a road to receive it, and his army came up the road. The text concludes: 故曰：將欲取之，必固與之, “so it is said: to take it, first give to it”. Then Zhi Bo was himself destroyed in 453 BCE by lords who had given him land. These were not parables. The readers of the early Laozi knew the cases by name. Does the passage teach the trick, or warn the one who receives the gift?",
+      "src": [
+        "Han Feizi, “Yu Lao” (喻老)"
+      ]
+    },
+    "fei": {
+      "kind": "etymology",
+      "title": "廢 and 興: a house falls, hands lift",
+      "body": "The third pair is from building. 廢 has 广, a roof against a cliff, a building; the Shuowen defines it as 屋頓也, “a house collapses”. From that came “to abolish” a law, “to depose” a ruler, “to waste” a field. 興 is defined 起也, “to rise”, and the Shuowen reads the graph as 同力也, “strength joined”: hands on all sides that lift one thing together. It is the word for the rise of a dynasty. Historians wrote of the 興 and 廢 of states as of a breath. Passage 18 uses the first word without pity: 大道廢，有仁義, “the great Dao is pulled down, and there are humaneness and rightness”. The Mawangdui silk texts are reported to have a different third pair; see [[the note on the state|guo]]. A house must stand before it can fall. This is not policy. It is grammar.",
+      "src": [
+        "Shuowen Jiezi, 广部: 廢，屋頓也。从广發聲。",
+        "Shuowen Jiezi, 舁部: 興，起也。从舁从同。同力也。"
+      ]
+    },
+    "duo": {
+      "kind": "wordplay",
+      "title": "奪 and 脫: one old word, used twice",
+      "body": "奪 is “to take by force”. The Shuowen gives it a surprising first meaning: 手持隹失之也, “a hand holds a bird and loses it”. The word was at first “to lose from one’s grip”; a different graph, 敓, was “to seize by force”, 彊取也. The Qing scholar Duan Yucai noted that the old sense of 奪 is the word later written 脫, “to slip free”. Now read the passage again. In the fourth pair something is to be 奪, taken. Three lines later the fish must not 脫, slip out. They are two branches of one word, and the sounds were close in old Chinese; scholars put both in one rhyme group. The hand that seizes and the bird that gets away are in one syllable. Whoever takes by force holds a thing that is already on the way out of the hand. See the plate for the bird.",
+      "src": [
+        "Shuowen Jiezi, 奞部: 奪，手持隹失之也。从又从奞。",
+        "Shuowen Jiezi, 攴部: 敓，彊取也。",
+        "Duan Yucai, Shuowen jiezi zhu, on 奪"
+      ]
+    },
+    "weiming": {
+      "kind": "gap",
+      "title": "微明: a light that is hardly there",
+      "body": "微 is “minute, faint, hidden”; the Shuowen says 隱行也, “to walk concealed”. 明 is light, and in the Laozi it is the word for true sight: 知常曰明, “to know the constant is called light” (16); 見小曰明, “to see the small is called light” (52). The two words pull against each other: a hidden brightness. Three senses are possible. It is light on a faint thing: the sight that reads the turn while the bow is still at full stretch. Or it is a faint light: an understanding that is dim, hard to state, easy to miss. Or, for the strategist, it is a concealed insight: one sees and does not show that one sees. English versions that write “insight” make it a talent that a clever person has. The Chinese is closer to the first grey before dawn. It is weak, and it is the only true information about the day.",
+      "src": [
+        "Shuowen Jiezi, 彳部: 微，隱行也。"
+      ]
+    },
+    "rouruo": {
+      "kind": "etymology",
+      "title": "柔弱: green wood, a bent bow",
+      "body": "Both words are pictures of bending. 柔 has 木, a tree, at the bottom; the Shuowen says 木曲直也, “wood that can be bent and made straight”: green wood, a sapling. 弱 is defined as 橈也, “bent, curved”, and the Shuowen sees in it two bent things with fine hairs; many now see two weak bows. Neither word means “defeated”. They name that which gives under force and is not broken. Passage 76 makes it a law of life: people and plants are 柔弱 at birth and stiff at death. English “weak” is a word for failure, and “soft” can be an insult. The Laozi wants the offense. It does not say “flexible”, a word that a strong man can accept. It says weak. The silk texts are reported to have the short form 柔弱勝強, “soft and weak overcome the strong”. See also [[the other pair|gangqiang]].",
+      "src": [
+        "Shuowen Jiezi, 木部: 柔，木曲直也。从木矛聲。",
+        "Shuowen Jiezi, 彡部: 弱，橈也。"
+      ]
+    },
+    "gangqiang": {
+      "kind": "etymology",
+      "title": "剛強: a knife and an insect",
+      "body": "剛 has 刂, a knife, at the right. The Shuowen: 彊斷也, “to cut with force”. It is the hardness of an edge. It breaks other things, and at the end it chips. 強 has a stranger history. Look at the 虫 in it: the Shuowen defines 強 as 蚚也, a kind of insect, most likely a grain weevil. The true graph for “strong” was 彊, defined as 弓有力也, “a bow that has force”, and scribes borrowed the simpler insect graph for it. So the hard and strong of this line are a blade and a bow; these are weapons. The line is a military claim, and the military writers of the time agreed with it in part. Sunzi: 兵者，詭道也…能而示之不能. “War is the way of deception: when able, show them that you are unable.” Note his verb, 示, to show. It returns in [[the last line|shi]].",
+      "src": [
+        "Shuowen Jiezi, 刀部: 剛，彊斷也。从刀岡聲。",
+        "Shuowen Jiezi, 虫部: 強，蚚也。从虫弘聲。",
+        "Shuowen Jiezi, 弓部: 彊，弓有力也。",
+        "Sunzi, “Ji” (計)"
+      ]
+    },
+    "fish": {
+      "kind": "history",
+      "title": "The Zhuangzi quotes the fish",
+      "body": "The last two lines were famous early. The Zhuangzi quotes them exactly, with 故曰, “so it is said”, and adds an explanation that few expect: 彼聖人者，天下之利器也，非所以明天下也. “Those sages are the sharp tools of the world; they are not things to light up the world with.” In that chapter the sage’s wisdom is a tool that great thieves steal together with the state, so wisdom itself must stay in the deep. [[The Han Feizi|liqi]] quotes the same lines and names a different tool. So within a century or so, two schools used one sentence for opposite ends: one to disarm the state, one to arm the ruler. Each took the fish for itself. The fish is a plain fact: out of deep water it dies. What is the deep for a person? For a state? For an idea?",
+      "src": [
+        "Zhuangzi, “Qu qie” (胠篋)"
+      ]
+    },
+    "tuo": {
+      "kind": "gap",
+      "title": "不可: cannot, or must not",
+      "body": "不可 is “not / possible, permitted”. It covers “cannot” and “must not”, and the two lines use the range. Of the fish it is close to a fact of nature: a fish cannot leave the deep and live. Of the state’s tools it is a rule: they must not be shown. The grammar is the same, so the rule borrows the force of the fact. The words do not say who takes the fish out. 脫 is “to slip off, to come away from”, as flesh from a bone or a hand from a sleeve; the fish may leap out itself, or be lifted. Legge wrote “fishes should not be taken from the deep” and so made it a rule for fishermen. The Chinese puts the fish first and gives it the verb. A line with a fish as subject is a warning to the fish. See [[奪 and 脫|duo]]."
+    },
+    "guo": {
+      "kind": "variant",
+      "title": "國 was 邦: a banned name, and other changes",
+      "body": "The Mawangdui silk texts are reported to read 邦利器不可以示人: 邦, where our text has 國之. Both words mean “state”; the Shuowen defines each by the other. 邦 was the old word for a ruler’s domain. It was also the personal name of Liu Bang, founder of the Han in 202 BCE, and the name of an emperor could not be written. Copyists changed 邦 to 國 through the whole book. The older of the two silk manuscripts is reported to write 邦 still, which is one sign that it was copied before or near the start of his reign. The silk texts are reported to differ in the pairs too. The third is 將欲去之，必固與之 and the fourth 將欲奪之，必固予之: “to remove it, first 與 it; to take from it, first give to it”. 與 can be “to give” or “to side with”, and some read it here as 舉, “to raise”; 予 is plain “give”. The editors of the received text made the pairs clearer.",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)",
+        "Shuowen Jiezi, 邑部: 邦，國也。",
+        "Shuowen Jiezi, 囗部: 國，邦也。"
+      ]
+    },
+    "liqi": {
+      "kind": "geopolitics",
+      "title": "利器: which tools?",
+      "body": "利器 is “sharp instruments”: 利 is a blade in the grain and 器 is any tool or weapon. The phrase means the best weapons, and then each decisive means of power. What are the state’s sharp tools? The Han Feizi answers: 賞罰者，邦之利器也，在君則制臣，在臣則勝君. “Reward and punishment are the sharp tools of the state. In the ruler’s hands they control the ministers; in the ministers’ hands they overcome the ruler.” The ruler must not let others see how he decides, or they will use it. The deep, he says, is the ruler’s position of power. [[Wang Bi|wangbi]] turns this over: for him, to rely on punishments is itself “to show”. Passage 57 uses the phrase with open distrust: 民多利器，國家滋昬, “the more sharp tools the people have, the more the state is in the dark”. A third answer is in [[the Zhuangzi|fish]].",
+      "src": [
+        "Han Feizi, “Yu Lao” (喻老)"
+      ]
+    },
+    "shi": {
+      "kind": "etymology",
+      "title": "示: an altar, and a display",
+      "body": "示 means “to show, to make known”. The graph is commonly explained as an altar or spirit tablet, and the Shuowen defines it: 天垂象，見吉凶，所以示人也, “heaven hangs down its images and shows good and ill fortune: that by which it shows to people”. The dictionary’s last two words are the last two words of this passage, 示人. As a part of characters (written 礻 at the left) it marks sacred things: 神 (spirit), 祭 (sacrifice), 福 (blessing), 禮 (ritual). So “to show” is at root what the powers do when they reveal an omen. Rulers showed too. A state displayed its bronze vessels and its chariots to envoys, and proclaimed its laws. In 536 BCE the state of Zheng cast its penal code on bronze tripods for all to read. A noble of Jin wrote a famous letter of protest: if the people know the code, they will argue from the text and will not fear their superiors. That was a real dispute about tools shown to people. The line also asks a smaller question. What do you display, and what does display do to it?",
+      "src": [
+        "Shuowen Jiezi, 示部: 示，天垂象，見吉凶，所以示人也。",
+        "Zuozhuan, Duke Zhao year 6"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: punishment is the display",
+      "body": "Wang Bi accepts that the first half is a method, and limits it: 將欲除强梁，去暴亂，當以此四者。因物之性，令其自戮. “To remove the violent and end disorder, use these four. Follow the nature of the thing and let it destroy itself.” On the tools he writes: 利器，利國之器也。唯因物之性，不假刑以理物，器不可覩，而物各得其所，則國之利器也。示人者，任刑也. “Sharp tools are tools that profit the state. Only follow the nature of things and do not borrow punishments to order them; the tool cannot be seen, and each thing gets its place: that is the state’s sharp tool. To show it to people is to rely on punishments.” This is a direct answer to [[Han Feizi|liqi]]. For the Legalist the hidden tool is punishment. For Wang Bi, punishment is the fish on the bank.",
+      "src": [
+        "Wang Bi commentary on Laozi 36"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: an inspiration and an expiration",
+      "body": "Legge begins: “When one is about to take an inspiration, he is sure to make a (previous) expiration.” He heard [[the breath in 歙|xi]], and this is to his credit; most translators write only “shrink”. He keeps the order of the Chinese, aim first and prior step second. But he gives 張, “to stretch”, as the breath out, and the lungs do not stretch when they empty. In the next pairs his “one” and “he” become a schemer who will “weaken another” and “despoil another”: the persons are his additions. For the last line he writes “instruments for the profit of a state”. He took 利 as “profit”, as Wang Bi did, and so the blade is gone from 利器. His “should not be shown to the people” makes 人 the common people; the word is only “others, persons”, and may as well be rival states.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Find the top of the breath",
+      "body": "Sit and breathe in slowly until the lungs are full. Do not hold. At the top there is a point where the in-breath is complete and the out-breath has not started. Notice that you do not decide the turn. Fullness itself is the turn. Do this five times. Then look at one thing in your life that is now at full stretch: a workload, an argument, a success, a market. Do not predict. Only ask what the first small sign of the turn would be, and whether it is already there. That small sign is the [[faint light|weiming]]."
+    }
+  },
+  "lenses": {
+    "ground": "Four pairs with one frame: 將欲…之，必固…之. Each pair sets a verb against its opposite: [[draw in|xi]] and [[stretch|zhang]], weaken and strengthen, [[pull down and raise|fei]], [[take|duo]] and give. Then a name for the knowledge of this: [[the faint light|weiming]]. Then a statement with five characters and no particles: [[soft, weak|rouruo]] overcome [[hard, strong|gangqiang]]. Then two prohibitions, a fish and a state. The pictures are a lung, a bow, a house, a bird in the hand, green wood, a blade, deep water. Nothing in the Chinese says [[who acts|plot]]. That silence is why the passage has two histories, one as a manual and one as a description of how the world turns. The text can carry both, and a careful reader keeps both open for as long as possible.",
+    "inner": "Watch a strong emotion. Anger must reach its full stretch before it draws in; a craving is strongest in the moment before it lets go. To push against it at the top only strings the bow tighter. To know this, while the emotion is still loud, is [[a faint light|weiming]]. It does not feel like power. It is a small, quiet seeing that the peak is already a turn. The [[fish|fish]] is the same lesson from the other side. Attention lives in a depth that has no name. When it leaps out to be seen, to be a meditator, to be a person with insight, it is a fish in air. The sharp tool of the inner life is the one that you have no need to display, even to yourself.",
+    "leading": "The readers were rulers and their advisers, and they knew [[the cases|hanfei]]: gifts that opened roads for armies, allies who were fed until they burst. It is right to read the passage as a warning before reading it as a tool. When a rival gives you land, praise, or room to grow, ask what is being stretched. When an organization is at its largest and most admired, it is strung like a bow. The last line has two old readings and they still divide people who lead. [[Han Feizi|liqi]]: keep reward and punishment in your own hand and do not show how you decide. [[Wang Bi|wangbi]]: the true tool is that no one feels a tool; a leader who must show the whip has lost. The debate over [[the code cast on bronze|shi]] asks which secrecy serves the people.",
+    "body": "This passage can be read as an instruction in movement. To coil, first extend. A throw starts with the arm drawn back; a jump starts with a bend of the knees. Chinese martial arts made a rule of the fourth pair: to take the opponent’s balance, first give the direction that the opponent wants. Push, and the partner is not there; the force that was strong travels past its base and falls. This is [[soft and weak|rouruo]] in the exact sense of the characters: wood that bends and returns. It is not limp. And the fish: power in the body lives low and deep, in the legs and the centre. Shown early, in tense shoulders and a hard face, it is already out of the water.",
+    "nature": "The four pairs are a description of each wave. Water draws back from the beach before the breaker; the trough is the stored wave. The moon is full on the night that it begins to wane. A forest grows dense, and the fuel for the fire is laid; a population of deer rises, and the grass that will starve it is eaten. Ecologists draw this as a loop of growth, peak, release, and renewal. None of it is a plot. The [[soft|rouruo]] things win by time: roots split rock, water cuts a gorge, grass comes back after the hard frost has broken the hard ground. And each creature has its [[deep|tuo]]. Take it from its element and admire it, and you have a specimen.",
+    "practice": "Do the [[breath exercise|practice]] once today. Then choose one of the two prohibitions for the day. The fish: find one good thing that lives in your depth, a plan not yet ripe, a kindness, a skill, and for today do not take it out to show. Or the tools: notice each time you display a strength in order to control someone, a title, a fact, a sharp word. No rule against it. Only see what the display did to the tool, and to the other person."
+  },
+  "glyph": "奪",
+  "plates": [
+    {
+      "c": "奪",
+      "title": "The bird that leaves the hand",
+      "lesson": "Three parts, from the top: 大, 隹, 寸. Begin in the middle. 隹 is a bird; the Shuowen calls it 鳥之短尾緫名也, “the general name for short-tailed birds”, and says it is a picture. You know it from 集 (to gather: a bird on a tree) and 雙 (a pair: two birds on a hand). On top is 大, a figure with arms out. The Shuowen joins the two as 奞: 鳥張毛羽自奮也, “a bird spreads its feathers and rouses itself”, a bird at the moment of take-off. Put that bird over 田, a field, and you have 奮, “to rise with force, to exert oneself”. At the bottom is 寸, “an inch”, which in compounds is a hand: 又, a hand, with a mark at the wrist. So the whole character is a hand under a bird that has opened its wings. The Shuowen reads it: 手持隹失之也, “a hand holds a bird and loses it”. The first meaning was [[to lose one’s hold|duo]]. Later the graph was used for the opposite side of the same event: to snatch. Both are true to the picture. Something is taken away, and the character does not say if you are the hand or the one who takes the bird. In this passage, that which is to be 奪 must first be given. The short form is 夺: the bird is gone.",
+      "brush": "Fourteen strokes. First 大: a horizontal, a stroke that falls to the left, a stroke that falls to the right. These two open like a roof, or like wings, over all the rest. Then the bird, eight strokes: a short stroke that falls left, a vertical, a dot, then three horizontals, then a vertical that goes down through them, and a last horizontal that closes the foot. Then the hand: a long horizontal, a vertical with a hook at its end, and a dot. Watch the two long horizontals, the first stroke and the twelfth. The top one is short and the lower one is the widest line of the character, a floor on which the bird stands. The right-falling stroke of 大 must not come down too far, or it presses the bird. In running script the bird’s horizontals join into one quick zigzag, as if it had begun to move."
+    },
+    {
+      "c": "魚",
+      "title": "Head, scales, and a tail of dots",
+      "lesson": "This is one of the pictures that a child can read. The Shuowen says 水蟲也。象形: “a water creature; a picture”. In the oracle-bone and bronze forms it is a whole fish, drawn upright with the mouth at the top: head, a body crossed with lines for scales, fins, and a forked tail. In the modern character the three zones are still there. The two strokes at the top are the head. The box with a cross, which looks like 田, a field, is the scaled body; it is not a field. The four dots at the bottom look like 灬, fire, as in 煮 (to boil); they are not fire. They are what the brush made of the forked tail. The Shuowen adds a careful note: 魚尾與燕尾相似, “the tail of 魚 is like the tail of 燕, the swallow”. Look at 燕: the same four dots, for the same reason. The short form 鱼 makes the tail a single line. As a part, 魚 marks water life: 鮮 (fresh: fish beside sheep), 鯉 (carp), 漁 (to fish: water added). The fish swims through early Chinese thought. In the Zhuangzi, fish forget each other in the rivers and lakes, as people forget each other in the Dao. Here it has one line: it must not [[leave the deep|tuo]]. On the page it stands upright in white paper, already out of the water, which the character does not draw.",
+      "brush": "Eleven strokes. The head: a short stroke that falls left, then a horizontal that turns and falls left. The body: the left side; the top and right side in one stroke; the horizontal inside; the vertical inside; then the base that closes the box. Then the tail: four dots, written from left to right. Watch the dots. The first leans to the left and is a little apart; the next three lean right, and the last is the heaviest. They must look like one motion of a tail and not like four stones. Keep the body narrow and tall: a wide box makes a field, a tall one makes a fish. In seal script the tail is still a fork of two lines, and you can see the animal; the clerical script of the Han cut it into dots."
+    }
+  ]
+}

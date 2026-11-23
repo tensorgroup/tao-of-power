@@ -1,0 +1,61 @@
+{
+  "然": {
+    "senses": ["so, thus; to be so", "yes; to hold as right", "a suffix: “-ly”, in the manner of", "(first sense) to burn: later 燃"],
+    "shuowen": "燒也。从火肰聲。",
+    "shuowenEn": "To burn. From 火 (fire), with 肰 (dog meat) for the sound.",
+    "parts": [{"c": "肰", "m": "dog meat: 肉 meat and 犬 dog"}, {"c": "灬", "m": "fire"}],
+    "story": "Dog meat over a fire: the graph wrote “to burn, to roast”. It was borrowed for the spoken word “so”, and the first sense was later written 燃, with a second fire. In the Laozi it is half of 自然, “so of itself”: the people say “we are so of ourselves” (17); sparse words are so of themselves (23); the Way models itself on what is so of itself (25); no one commands it, it is always so of itself (51); the sage helps the self-so of the ten thousand things and does not dare to act (64).",
+    "gap": "English needs “so”, “thus”, “yes”, “natural”, and “-ly” for the uses of this one word."
+  },
+  "自": {
+    "senses": ["self, oneself", "of itself, by its own nature", "from (a starting point)", "(first sense) the nose: later 鼻"],
+    "shuowen": "鼻也。象鼻形。",
+    "shuowenEn": "The nose. It shows the shape of a nose.",
+    "story": "A picture of a nose, taken for “self” because a person who means “me” points at the nose. The nose itself was then written 鼻. The Laozi uses 自 in two directions. With suspicion, for the self that shows, approves, praises, and admires itself (22, 24). And with trust, for what happens of itself when no one forces it: the people transform of themselves, right themselves, grow rich of themselves (57); and 自然, “so of itself”.",
+    "gap": "English “self” is a noun, a thing one has. 自 is mostly an adverb: a direction that an action takes, back to its own starting point."
+  },
+  "風": {
+    "senses": ["wind", "the air of a place: customs, manners", "a style; a rumour", "a folk song (國風)"],
+    "shuowen": "八風也。東方曰明庶風，東南曰清明風，南方曰景風，西南曰涼風，西方曰閶闔風，西北曰不周風，北方曰廣莫風，東北曰融風。風動蟲生。故蟲八日而化。从虫凡聲。",
+    "shuowenEn": "The eight winds. [It names one for each of eight directions.] When the wind stirs, insects are born; so insects take eight days to transform. From 虫 (a creeping creature), with 凡 for the sound.",
+    "parts": [{"c": "凡", "m": "frame: the sound; a trace of the phoenix 鳳"}, {"c": "虫", "m": "an insect, a creeping creature"}],
+    "story": "The oracle bones wrote “wind” with the graph of the phoenix. The later character keeps the bird’s frame and puts an insect inside; the Shuowen says that wind wakes the insects. In passage 23 a whirlwind, 飄風, does not last the morning.",
+    "gap": "English “wind” is only moving air. 風 is also the mood and manners of a people, which blow from the ruler down."
+  },
+  "驟": {
+    "senses": ["of a horse: a fast pace", "sudden, abrupt", "often, repeatedly"],
+    "shuowen": "馬疾步也。从馬聚聲。",
+    "shuowenEn": "A horse’s fast pace. From 馬 (horse), with 聚 for the sound.",
+    "parts": [{"c": "馬", "m": "a horse"}, {"c": "聚", "m": "sound; alone: to gather"}],
+    "story": "A horse that breaks into speed. Of weather: 驟雨, rain that comes at a gallop, and, says passage 23, is gone within the day.",
+    "gap": "“Sudden” has no animal in it."
+  },
+  "同": {
+    "senses": ["the same; alike", "together, in company with", "to share; to be at one with"],
+    "shuowen": "合會也。从𠔼从口。",
+    "shuowenEn": "To join, to meet. From 𠔼 (a cover) and 口 (mouth).",
+    "story": "Many mouths under one cover: an assembly, agreement. In the Laozi it is the word for unity that is not mystical fusion. The two come out together, and together are called dark (1); it shares the dust of the world (4, 56); one who works at the Way is the same as the Way (23); and passage 56 names the result 玄同, the dark sameness.",
+    "gap": "“Become one with” sounds like rapture. 同 is plainer: of the same kind, in the same company."
+  },
+  "失": {
+    "senses": ["to let slip, to lose", "loss; a lapse, a fault", "to miss, to fail to keep"],
+    "shuowen": "縱也。从手乙聲。",
+    "shuowenEn": "To let go. From 手 (hand), with 乙 for the sound.",
+    "story": "A thing that leaves the hand. In the Laozi it is the price of grasping: one who grips loses it (29, 64). It is the verb of the great decline: the Way is lost and then comes De, and so on down to ritual (38). And it is a place where a person can settle: the one of loss is at one with loss (23).",
+    "gap": "“Failure” is a verdict on a person. 失 is an event: it slipped."
+  },
+  "樂": {
+    "senses": ["yuè: music", "lè: joy; glad; to delight in", "yào: to be fond of (old reading)"],
+    "shuowen": "五聲八音緫名。象鼓鞞。木，虡也。",
+    "shuowenEn": "The general name for the five notes and the eight kinds of instrument. It pictures drums; 木 is the stand.",
+    "story": "Drums on a wooden frame; then music, and the gladness that music is. In the received text of passage 23 the Way is “glad to get” those who are at one with it; the Mawangdui silk texts lack the word. Passage 35 says that music and fine food make the passing guest stop, while the Way has no taste. Passage 66 says the world is glad to push the sage forward and does not tire of it.",
+    "gap": "English keeps “music” and “joy” apart. One graph, two readings."
+  },
+  "事": {
+    "senses": ["work, service, a task; an office", "an affair, a matter, an event", "to serve"],
+    "shuowen": "職也。从史，之省聲。",
+    "shuowenEn": "An office, a duty. From 史 (a scribe, an officer); the sound is from 之, abbreviated.",
+    "story": "At first one word with 史, the officer who holds a record, and 吏, the clerk: a hand that carries out a charge. In the Laozi the sage manages affairs by not-forcing (2); the task goes through and the people say it happened of itself (17); one makes the Way one’s work (23); and the world is won by having no business, 無事 (48, 57).",
+    "gap": "“Thing” and “matter” are too slack. 事 is something that has to be done by someone."
+  }
+}

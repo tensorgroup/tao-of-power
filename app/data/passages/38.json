@@ -1,0 +1,244 @@
+{
+  "n": 38,
+  "title": "The Fruit, Not the Flower",
+  "theme": "simplicity",
+  "zh": [
+    {
+      "text": "上德不德，是以有德；下德不失德，是以無德。上德無為而無以為，下德為之而有以為。上仁為之而無以為，上義為之而有以為。上禮為之而莫之應， 則攘臂而扔之。故失道而後德，失德而後仁，失仁而後義，失義而後禮。夫禮者，忠信之薄，而亂之首。前識者，道之華，而愚之始。是以大丈夫處其厚，不居其薄；處其實，不居其華。故去彼取此。",
+      "gloss": {
+        "1": "dé: inner power, potency; “virtue” in the old sense",
+        "3": "dé as a verb: to act the de, to hold to de; a pun on 得, to get",
+        "13": "to lose, to let slip",
+        "27": "無以: to have nothing by which, nothing for the sake of which",
+        "40": "rén: humaneness, the feeling between persons",
+        "49": "yì: rightness, duty",
+        "58": "lǐ: ritual, the rites, correct form",
+        "64": "yìng: to answer, to respond",
+        "68": "rǎng: to push up (the sleeves)",
+        "71": "rēng: to pull, to drag (not the modern “throw”)",
+        "106": "bó: thin; the thin part",
+        "111": "head, the first of",
+        "119": "huā: flower, blossom (later written 花)",
+        "142": "fruit, kernel; full, solid"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Highest de|de]] [[is not “de”|bude]]:",
+    "and so it has de.",
+    "Lower de [[does not let go of de|bude]]:",
+    "and so it has no de.",
+    "",
+    "Highest de does not act,",
+    "and has [[nothing it acts for|wuyiwei]].",
+    "[[Lower de acts|xiade]],",
+    "and has something it acts for.",
+    "Highest [[humaneness|ren]] acts,",
+    "and has nothing it acts for.",
+    "Highest [[rightness|yi]] acts,",
+    "and has something it acts for.",
+    "Highest [[ritual|li]] acts, and when no one answers",
+    "it [[bares its arms and drags them|rangbi]].",
+    "",
+    "So: [[lose the Dao, and after that, de|ladder]].",
+    "Lose de, and after that, humaneness.",
+    "Lose humaneness, and after that, rightness.",
+    "Lose rightness, and after that, ritual.",
+    "",
+    "Now ritual is the [[thin part|bo]] of loyalty and trust,",
+    "and the [[head of disorder|luan]].",
+    "[[Foreknowledge|qianshi]] is the [[flower|hua]] of the Dao,",
+    "and the [[beginning of folly|yu]].",
+    "",
+    "So the [[full-grown one|dazhangfu]] stays in the thick",
+    "and does not dwell in the thin;",
+    "stays in the fruit",
+    "and does not dwell in the flower.",
+    "So: leave that, [[take this|first]]."
+  ],
+  "notes": {
+    "de": {
+      "kind": "gap",
+      "title": "德: not “virtue” as a rule of conduct",
+      "body": "德 is the second great word of the book, and English has no good match. It is the power that a thing has from the Dao to be what it is: the potency of a seed, the hold that a person of character has on others without force. The old English “virtue” had this sense once, as in “the virtue of a herb”, and lost it; now “virtue” means good conduct by a moral code, and that is nearer to what this passage attacks. In early Zhou bronzes, 德 is the charisma by which a king holds the mandate of heaven. The Confucians made it moral excellence. The Laozi takes it back toward power that is not owned. We leave it as de. The graph has a step, an eye that looks straight, and a heart; see the plate. Legge chose [[“attributes of the Tao”|legge]]."
+    },
+    "bude": {
+      "kind": "wordplay",
+      "title": "上德不德: de that does not “de”",
+      "body": "Four characters: “high / de / not / de”. The second 德 is a verb, and Chinese lets a noun do this without a change of form. Highest de does not “de”: it does not act the part, does not treat itself as de, does not hold on to de. Then the turn: 是以有德, “for this reason it has de”. A second word sounds under the first. 德 and 得, “to get”, were close in sound and are in one old rhyme group, and early writers used them to explain each other. The Shuowen defines the older graph 悳 as 外得於人，內得於己也, “to get it from others outside, to get it in oneself inside”. So a hearer also takes the line as: highest de does not get, and so it has. Lower de does not let go, 不失, a grip that never opens, and so has none. Which part of your goodness do you watch over?",
+      "src": [
+        "Shuowen Jiezi, 心部: 悳，外得於人，内得於己也。从直从心。",
+        "Liji, “Yue ji”: 德者得也。"
+      ]
+    },
+    "wuyiwei": {
+      "kind": "gap",
+      "title": "無以為: nothing to act for",
+      "body": "The test in these lines is two small words, 以為. 以 is “by means of, for the sake of, with which”. 無以為 is “to have nothing by which, or for which, one acts”; 有以為 is “to have something”. Most readers take it as purpose: an act with no end in view, against an act with an aim, a reason, an account to settle. A modern translator writes “motive”, and the reading is fair, but the word brings psychology in: hidden motives, an inner self to be examined. The Chinese is plainer and is about the act. Does this act lean on anything outside itself? Another reading takes 以 as “means”: highest de has nothing with which to act, no tool and no program. The grades that follow use the test. Humaneness acts and has no “for”. Rightness acts and has one. Ritual acts and gets no answer."
+    },
+    "xiade": {
+      "kind": "variant",
+      "title": "A line that the silk texts lack",
+      "body": "下德為之而有以為, “lower de acts and has something it acts for”, is in the pinned text. The Mawangdui silk texts are reported not to have it. They go from highest de to highest humaneness with no line between. The Han Feizi, which comments on this passage in the third century BCE, also does not quote it. The line is likely a later addition, made to give “lower de” a description to match its entry in the first stanza. It creates a small problem that readers have long noticed: its description is word for word the same as that of highest rightness, two lines below. Without it, the list is a clean descent of four: de, humaneness, rightness, ritual; no-act and no-for, act and no-for, act and for, act and force. Some received editions read 無以為 in this line, which only moves the duplication from rightness to humaneness. Read the stanza once without the line.",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)",
+        "Han Feizi, “Jie Lao” (解老)"
+      ]
+    },
+    "ren": {
+      "kind": "etymology",
+      "title": "仁: a person and two",
+      "body": "仁 is 人, a person, with 二, two. The Shuowen: 親也。从人从二, “to be close; from person and two”. It is the feeling between one person and another, what makes a person human in company. Confucius made it the center of his teaching and would not define it; he gave a new answer each time that a student asked. Mencius said that it starts in the heart that cannot bear to see a child fall into a well. “Benevolence” makes it the kindness of a superior; “philanthropy” makes it a gift of money. We write “humaneness”. Note where the Laozi puts it: one step below de, and still with [[no “for”|wuyiwei]]. The passage does not mock humaneness. It says only that it comes when something older has been lost, as a family starts to speak of love when it is in trouble (18).",
+      "src": [
+        "Shuowen Jiezi, 人部: 仁，親也。从人从二。",
+        "Mencius 2A6"
+      ]
+    },
+    "yi": {
+      "kind": "etymology",
+      "title": "義: a sheep above “I”",
+      "body": "義 is 羊, a sheep, above 我, “I”; and 我 is at root a picture of a weapon with a toothed blade, borrowed for the pronoun. The Shuowen defines the whole as 己之威儀也, “one’s own dignified bearing”: at first the correct look of a person in a rite, where the sheep is commonly explained as the offering or as a sign of the good, as it is in 善 and 美. From correct bearing came “what is fitting”, duty, justice. Mencius paired it with 仁 as the two roots of the moral life, and for him one must choose 義 above life itself. In the Laozi’s list it is the first grade that has [[a “for”|wuyiwei]]. Rightness judges; it divides right from wrong, and it acts because of something. “Righteousness”, the usual English, adds a church tone that the word does not have. Notice the “I” in the graph.",
+      "src": [
+        "Shuowen Jiezi, 我部: 義，己之威儀也。從我、羊。",
+        "Mencius 6A10"
+      ]
+    },
+    "li": {
+      "kind": "geopolitics",
+      "title": "禮: the rites were the constitution",
+      "body": "禮 is first the rites of sacrifice; see the plate. By the time of the Laozi it meant far more: the whole graded order of Zhou society. Who bows to whom, how many tripods a lord may use, how long one mourns a father, how an envoy is received. 禮 was the unwritten constitution of the old world, and the Confucians were its experts. Confucius said that to master oneself and return to ritual is humaneness. By the fourth century BCE the forms were still performed while the lords broke each rule of rank; rulers who had no right to the title of king held royal rites. So the attack here has a target that was in plain view. “Propriety” and “etiquette” make it a matter of manners. For the first readers it was the system that claimed to hold the world together, and the passage calls it the last thing left when the rest is gone.",
+      "src": [
+        "Analects 12.1",
+        "Analects 3.1"
+      ]
+    },
+    "rangbi": {
+      "kind": "etymology",
+      "title": "攘臂而扔之: sleeves up",
+      "body": "The one comic picture in the passage. 攘 has the hand at the left; the Shuowen says 推也, “to push”. 攘臂 is to push the long sleeves of a robe up the arms, as a person does before a fight or hard work. 扔 today means “to throw away”. Its old sense is different: the Shuowen says 因也, here “to pull along, to drag”. So: ritual performs its bow, no one bows back, and it pushes up its sleeves and pulls people into line by the arm. A ceremony of respect ends as a scuffle. Both verbs return together in passage 69: 攘無臂，扔無敵, “bare an arm that is not there, drag an enemy that is not there”. The joke is exact about how codes behave. A rule of courtesy that is not returned does not stay courteous. Behind 禮 the next thing is punishment. When did you last enforce a politeness?",
+      "src": [
+        "Shuowen Jiezi, 手部: 攘，推也。从手襄聲。",
+        "Shuowen Jiezi, 手部: 扔，因也。从手乃聲。"
+      ]
+    },
+    "ladder": {
+      "kind": "history",
+      "title": "The ladder down, and who quoted it",
+      "body": "Four lines with one frame: 失 A 而後 B, “lose A, and after that, B”. Dao, de, humaneness, rightness, ritual. The three lower steps are the Confucian virtues in their standard order, so the list says to that school: your goods are real, and they are a record of loss. The grammar gives no subject and no tense. It can be a history, the decline of the world from an early age. It can be the course of one life, one marriage, one institution. The Zhuangzi quotes the ladder word for word, introduced by 故曰, “so it is said”, and adds: 禮者，道之華而亂之首也, “ritual is the flower of the Dao and the head of disorder”, with the two halves of our next stanza joined in one line. The Mawangdui texts are reported to end each step with 而后, the same words. Is the ladder a fall, or only an order of appearance?",
+      "src": [
+        "Zhuangzi, “Zhi bei you” (知北遊)"
+      ]
+    },
+    "bo": {
+      "kind": "etymology",
+      "title": "薄 and 厚: thin and thick",
+      "body": "The passage ends on two pairs of pictures, and the first is of thickness. 薄 is “thin”: a thin sheet, thin soup, thin feeling. 厚 is “thick”: the Shuowen defines it by mountains, 山陵之厚也, “the thickness of hills”. To treat a person 厚 is to be generous to them; a 薄 person is mean and shallow. So 忠信之薄 is “the thin of loyalty and trust”: the place where the trust between people has worn thin, and a form is put there to cover the wear. 忠 is a heart, 心, with 中, “center”: a centered heart. 信 is a person beside 言, speech: the Shuowen says 誠也, “sincere”, a person who stands by their word. Where these are thick, no ceremony is needed; old friends do not bow. The silk texts are reported to write 泊 for the thin, a water word. Legge has “attenuated form”. The Chinese picture is nearer to thin soup.",
+      "src": [
+        "Shuowen Jiezi, 㫗部: 厚，山陵之厚也。",
+        "Shuowen Jiezi, 言部: 信，誠也。从人从言。"
+      ]
+    },
+    "luan": {
+      "kind": "wordplay",
+      "title": "亂: disorder, and to put in order",
+      "body": "亂 is “chaos, revolt, confusion”. The Shuowen defines it with its opposite: 治也, “to put in order”. This is not a mistake. The left side of the graph is commonly explained as two hands at work on a tangle of silk thread on a frame, and the one picture gives both senses: the tangle, and the work of setting it right. Classical texts use 亂 in both ways; a minister who “亂s” the state may be its destroyer or, in the oldest books, its able manager. So when the line calls ritual 亂之首, “the head of 亂”, the first meaning is clear: disorder begins here. A reader may hear the second for a moment: the first act of ordering. The two are one event. The hands go into the silk because it is tangled, and the handling is the sign that the natural order of the threads has been lost.",
+      "src": [
+        "Shuowen Jiezi, 乙部: 亂，治也。"
+      ]
+    },
+    "qianshi": {
+      "kind": "history",
+      "title": "前識: the man who guessed the ox",
+      "body": "前識 is “knowledge ahead”: to know a thing before it shows. It was a prized skill, in diviners and in clever advisers. The Han Feizi explains the phrase with a story. Zhan He sat with a student and an ox lowed outside the gate. The student said: a black ox with a white forehead. Zhan He said: black, yes, but the white is on the horns. They sent to look. It was a black ox with its horns wrapped in white cloth. The Han Feizi’s comment: he wore out his spirit to reach what a simple child could learn by a walk to the gate. That is “the flower of the Dao, the beginning of folly”. [[Wang Bi|wangbi]] reads it as cleverness that runs ahead of others. The Laozi praises a different early sight, the faint light of passage 36, which sees a thing while it is small. The difference is display: Zhan He guesses in order to be right. See [[flower and fruit|hua]].",
+      "src": [
+        "Han Feizi, “Jie Lao” (解老)"
+      ]
+    },
+    "hua": {
+      "kind": "etymology",
+      "title": "華 and 實: flower and fruit",
+      "body": "華 is a flower. The Shuowen: 榮也, “a blossom”, and the graph is commonly explained as a picture of a plant in full bloom. The character 花 was made later for the plain sense, and 華 kept the grand ones: splendor, brilliance, and 華夏, the old name for the Chinese cultural world, “the flowering”. 實 is fruit. The Shuowen says 富也, “wealth”, a roof over strings of cowries; in plants it is the kernel, and from that come “solid, real, true”. The pair is from the orchard. The flower is early, bright, visible from the road, and falls in a week. The fruit is late, plain, and feeds. The passage does not say that flowers are false. A flower is a true part of the tree. It says where to stay. The faint light of passage 36 is a different thing from the “flower” of [[foreknowledge|qianshi]]; it shows nothing. Versions that write “luster” or “veneer” change an orchard into a furniture shop.",
+      "src": [
+        "Shuowen Jiezi, 華部: 華，榮也。",
+        "Shuowen Jiezi, 宀部: 實，富也。从宀从貫。貫，貨貝也。"
+      ]
+    },
+    "yu": {
+      "kind": "etymology",
+      "title": "愚: a heart and a monkey",
+      "body": "愚 is “stupid, foolish”. Its parts are 心, the heart, under 禺, and the Shuowen explains: 禺，猴屬，獸之愚者, “禺 is a kind of monkey, the dull one among the beasts”. A monkey-heart. Here the word is a plain insult: clever foresight is where folly starts. But a reader of the whole book must settle an apparent conflict, because elsewhere 愚 is praise. The speaker of passage 20 says 我愚人之心也哉, “mine is the heart of a fool”. Passage 65 says that the ancients did not make the people bright; they kept them 愚. Those lines use the word for a mind that is whole and not sharp, the uncarved wood. This line uses it for the confusion that comes from too much sharpness. The two meet: the brilliant person ends in the bad kind of folly, and the person of the Dao begins in the good kind.",
+      "src": [
+        "Shuowen Jiezi, 心部: 愚，戇也。从心从禺。禺，猴屬，獸之愚者。"
+      ]
+    },
+    "dazhangfu": {
+      "kind": "gap",
+      "title": "大丈夫: the one who has come of age",
+      "body": "The usual hero of the book is the 聖人, the sage. Here, only here, it is the 大丈夫. 丈 is a measure of ten feet; 夫 is, in the Shuowen, a person with a pin through the hair, 从大，一以象簪也: a male who has come of age and put his hair up. The Shuowen adds that by Zhou measure a man is eight feet tall, 故曰丈夫. So 丈夫 is a grown man, and 大丈夫 a “great grown man”, a person of full stature. The word is male, and it is the one place in this passage where we have turned from the Chinese: “full-grown one” keeps the growth and drops the sex. Mencius used the same term in a famous definition: wealth cannot corrupt him, poverty cannot move him, force cannot bend him. The Laozi’s measure is quieter. Maturity is a choice of where to live: in the thick, in the fruit.",
+      "src": [
+        "Shuowen Jiezi, 夫部: 夫，丈夫也。从大，一以象簪也。",
+        "Mencius 3B2"
+      ]
+    },
+    "first": {
+      "kind": "history",
+      "title": "The first page of the oldest book",
+      "body": "This passage opens the second half of the received text, the 德經 or De book, named from its first line as the Dao book is named from the first line of passage 1. In the Mawangdui silk manuscripts, buried in 168 BCE, the order of the halves is the reverse: De first, Dao second. In those copies this was the first passage of the whole work, and a reader began with “highest de is not de”, not with “the Dao that can be spoken”. The Han Feizi’s commentary also starts with this passage, and the Peking University bamboo copy from the Han is reported to call the De half the “upper” book. So for many early readers the Laozi was first a book about power and its decay, and the dark sayings on the Dao came after. The closing phrase 去彼取此, “leave that, take this”, also ends passages 12 and 72. Which door would you choose to enter by?",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Han Feizi, “Jie Lao” (解老)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: “de is to get”",
+      "body": "Wang Bi’s note on this passage is the longest in his commentary, a small essay. It begins with [[the pun|bude]]: 德者，得也。常得而無喪，利而無害，故以德為名焉。何以得德？由乎道也。何以盡德？以無為用. “De is to get. To get constantly and not lose, to gain and not harm: so ‘de’ is its name. By what does one get de? By way of the Dao. By what does one bring de to the full? By taking nothing as its function.” Of the person of highest de he says 不德其德, “does not de his de”, does not treat his power as power, and so 不求而得，不為而成, “gets without seeking, completes without doing”. Of [[foreknowledge|qianshi]] he says 前人而識也, “to know ahead of other people”: a contest. He follows a text that had the line on lower de and explains it at length. See also [[his image of mother and child|mother]].",
+      "src": [
+        "Wang Bi commentary on Laozi 38"
+      ]
+    },
+    "mother": {
+      "kind": "wangbi",
+      "title": "Wang Bi: keep the mother to keep the child",
+      "body": "At the end of his essay Wang Bi saves the Confucian virtues from the ladder. He does not say that humaneness and rightness are bad. He says that they cannot be made by aiming at them: 仁德之厚，非用仁之所能也, “the thickness of humane de is not something that the use of humaneness can achieve”. His rule: 守母以存其子，崇本以舉其末, “keep the mother to preserve her child; honor the root to lift up the branch-tips”. And two exact sentences: 仁義，母之所生，非可以為母。形器，匠之所成，非可以為匠也. “Humaneness and rightness are what the mother gives birth to; they cannot be made the mother. Shaped vessels are what the craftsman completes; they cannot be made the craftsman.” Wang Bi was a young official at a Confucian court, and this is his peace between the two schools. Does it keep the edge of the passage, or blunt it?",
+      "src": [
+        "Wang Bi commentary on Laozi 38"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: brackets, past tense, and attributes",
+      "body": "Legge’s version of the first stanza has more words in brackets than out of them: “(Those who) possessed in highest degree the attributes (of the Tao) did not (seek) to show them”. Three choices are in this. He adds persons, “those who”, where the Chinese speaks of de itself. He puts it all in the past, so that the passage becomes a history of a lost golden age; the Chinese has no tense. And he renders 德 as “attributes”, a word from Christian theology, where God has attributes. For 仁, 義, 禮 he gives “benevolence, righteousness, propriety”, the set that became standard in English for a century. For 忠 he found “leal-heartedness”, an old Scots word, and for [[前識|qianshi]] “swift apprehension”. His ritual “bared the arm and marched up to them”: he kept the sleeve and softened [[the drag|rangbi]].",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Find the “for”",
+      "body": "Choose three good acts from yesterday: a kind word, a duty done, a courtesy. For each, ask the question of the passage: was there a “for”? For thanks, for my picture of myself, for the rule, to be in the right? Do not judge the answer. Most human goodness has a “for”, and the passage ranks it and does not forbid it. Then look for one act that had none, that was done before any reason appeared, as a hand goes out to steady a person who trips. Notice how little you remember of it. That is how 上德 feels from inside: like nothing in particular."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has three parts. First a test. [[Highest de|de]] [[does not act as de|bude]] and has it; lower de holds on and has none. Then a scale of grades by two questions: is there action, and is there [[a “for”|wuyiwei]]? De: no action, no “for”. [[Humaneness|ren]]: action, no “for”. [[Rightness|yi]]: action and a “for”. [[Ritual|li]]: action, no answer, and then [[force|rangbi]]. Second, the same four as [[a ladder of loss|ladder]]. Third, two judgments and a choice. Ritual is [[thin|bo]] trust and [[first disorder|luan]]; [[foreknowledge|qianshi]] is [[flower|hua]] and [[first folly|yu]]. The [[grown person|dazhangfu]] lives in the thick and the fruit. It is the longest passage so far, the most argued, and [[for early readers it was the first|first]].",
+    "inner": "The first line describes a fact of attention. The moment that you notice your own patience, it is a little less patience and a little more a picture of a patient person. [[Highest de does not “de”|bude]]: it does not turn and look at itself. [[Lower de|xiade]] never lets go, and the grip is the loss. This cannot be made into a method, since to try not to notice one’s virtue is one more way of noticing it. The passage offers a direction and no technique: toward the [[thick|bo]], the [[fruit|hua]]. In practice this is a preference for that which has no shine. The plain fact of a feeling, before the fine thought about it. The kind act, before the story of the kind self. The ladder is also a map of one moment: ease, then warmth, then “should”, then form, then force.",
+    "leading": "Each institution knows the [[ladder|ladder]]. A group begins with a shared sense that needs no words. When that weakens, it relies on good will between persons. When that weakens, on principles and fairness, with their accounts of who owes what. When that weakens, on [[procedure|li]]: the form to fill in, the code of conduct. And when the form gets no answer, on [[enforcement|rangbi]]. The passage does not say that codes are useless. It says what they are evidence of. A leader who meets a loss of trust with more ceremony treats [[the thin place|bo]] with paint. [[Wang Bi|mother]] gives the working rule: one cannot produce good will by a demand for it; keep the mother and the child lives. Note the warning on [[forecasting|qianshi]]: the adviser who is paid to be right before the others is a flower.",
+    "nature": "An orchard explains the end of the passage. Blossom comes first, and it is the tree’s advertisement: color and scent for the bees, seen from far away. Almost all of it falls. The [[fruit|hua]] sets in the place where a flower was, grows slowly, hides in the leaves, and is dull green for most of its life. A grower who loves only the blossom gets a bad harvest; some trees are forced to flower so heavily that they break. The [[thick|bo]] is here too: thick soil, a thick trunk, the thick rind that carries a fruit through the winter. Nature does not despise the flower. It passes through it. The passage asks the reader to stay with the part of each process that feeds, and to look at the bright part as the tree does, as a stage.",
+    "practice": "Do the [[search for the “for”|practice]] this evening. Tomorrow, try one day of thick over thin in small things. In talk: say the plain fact and drop the phrase that would make you look good. At work: do the part that carries weight and will not be seen before the part that will be praised. With a friend: skip one form of politeness that has become a wall, and offer the thing behind it. If someone does not return a courtesy, notice the arm that begins to [[push up its sleeve|rangbi]]."
+  },
+  "glyph": "德",
+  "plates": [
+    {
+      "c": "德",
+      "title": "A straight heart on the road",
+      "lesson": "Fifteen strokes, three ideas. At the left is 彳, the “step” sign, half of the crossroads picture 行; it marks movement on a road, as in 往 (to go) and 得 (to get). At the lower right is 心, the heart. Between them, under a cross, is an eye turned on its side: 罒 is here a form of 目. The cross and the eye and the line below them are a slanted writing of 直, “straight”, which the Shuowen explains as 正見也, “to see correctly”, with ten (十) and eye (目) in it. So the right side is 直 over 心, a straight heart, and that is an older character by itself: 悳. The Shuowen defines 悳 as [[getting from others outside and getting in oneself inside|bude]]. The left side adds the road. The Shuowen defines the full character 德 with one word, 升也, “to rise, to go up”, and says that the right side is its sound. Scholars of the bronze inscriptions find the graph first without the heart, an eye that looks straight ahead on a road; the heart was added in the Western Zhou. Put it together as a teacher would: to walk with the eye straight and the heart in it. The line 上德不德 uses this character three times in eight characters. The short form 徳, common in Japan, leaves out the one horizontal above the heart.",
+      "brush": "Fifteen strokes. The step sign: a short stroke that falls left, a longer one under it that falls left, then a vertical. On the right, the cross: a horizontal, then a short vertical through it. The eye on its side: a short vertical at the left, the top and right side in one stroke, two short verticals inside, and the base. Then one horizontal, alone. Then the heart: a dot at the left, the long hook that lies down and turns up at its end, a dot inside the curve, and a last dot at the right. Watch stroke eleven, the single horizontal between eye and heart. It is the floor of the eye and the roof of the heart. Then watch stroke thirteen, the lying hook: it must be wide and open, like a bowl, so that the upper parts can rest in it. Look for it in Zhao Mengfu’s small-regular Daodejing of 1316, where it returns many times in the second half of the scroll."
+    },
+    {
+      "c": "禮",
+      "title": "An altar and a full vessel",
+      "lesson": "The left side, 礻, is the narrow form of 示. It is commonly explained as an altar stone or a spirit tablet, and it marks what belongs to the gods and ancestors: 神 (spirit), 祖 (ancestor), 祭 (sacrifice), 福 (blessing), 祝 (to pray). The right side, 豊, is the older way to write the whole word; the Shuowen says of it 行禮之器也, “a vessel for the performance of rites”, and 讀與禮同, “it is read like 禮”. Look at its two layers. Below is 豆, a food bowl on a high stem, with its lid: a real ritual vessel of bronze or pottery, later borrowed for the word “bean”. Above, the part that now looks like 曲 is the offering in the bowl; many scholars see two strings of jade in the early forms. The near twin 豐, “abundant”, is the same bowl heaped full; the Shuowen calls it 豆之豐滿者也. The Shuowen defines the full character: 履也，所以事神致福也, “to tread a path; that by which one serves the spirits and brings blessing”. So 禮 is: at the altar, a bowl with precious things in it. The rite came first, and all the later meanings grew from it: the correct forms of court and family, courtesy, a gift (禮物). In this passage the full bowl is called [[the thin part of trust|bo]]. The character stays generous: it shows only an offering. It does not show [[the arm that drags|rangbi]]; the Laozi adds that.",
+      "brush": "Seventeen strokes. The altar side takes four: a dot, a horizontal that turns and falls left, a vertical, and a small dot at the right of the vertical. Then the offering, six strokes: the left side of the box, the top and right side, a horizontal inside, two verticals that rise through the top of the box like stalks, and the base. Then the bowl, seven strokes: a horizontal lid, the small mouth in three strokes, a dot and a short left-falling stroke for the stem, and a long horizontal foot. Watch the last stroke. It is the widest line on the right side, and it reaches left under the altar a little, so that the two halves stand on one floor. The right side has many horizontals, and they must not be of equal length or the vessel looks like a ladder. The Song master Mi Fu wrote that a character needs a frame of bone, and flesh that wraps the sinew."
+    }
+  ]
+}

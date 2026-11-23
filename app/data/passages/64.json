@@ -1,0 +1,292 @@
+{
+  "n": 64,
+  "title": "Under the Foot",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "其安易持，其未兆易謀。",
+      "gloss": {
+        "1": "at rest, settled, not yet moving",
+        "3": "to hold in the hand; to keep",
+        "7": "zhào: omen crack; here a verb, “to show a sign”",
+        "9": "to plan for, to take counsel about"
+      }
+    },
+    {
+      "text": "其脆易泮，其微易散。",
+      "gloss": {
+        "1": "brittle, crisp",
+        "3": "pàn: to break up, as ice does; a loan for 判, “to split”",
+        "6": "fine, slight, hard to see"
+      }
+    },
+    {
+      "text": "為之於未有，",
+      "gloss": {
+        "0": "to act on, to work at (a good word in this line)"
+      }
+    },
+    {
+      "text": "治之於未亂。",
+      "gloss": {
+        "0": "to put in order; to govern; to treat an illness"
+      }
+    },
+    {
+      "text": "合抱之木，生於毫末；九層之臺，起於累土；千里之行，始於足下。為者敗之，執者失之。",
+      "gloss": {
+        "7": "háo: the fine hair of an animal’s coat",
+        "8": "tip; the very end",
+        "13": "terrace, raised platform of rammed earth",
+        "17": "lěi: to pile up, load on load",
+        "27": "foot",
+        "30": "to act on, to force (now a bad word)",
+        "35": "to grip, to seize"
+      }
+    },
+    {
+      "text": "是以聖人無為故無敗，無執故無失。民之從事，常於幾成而敗之。",
+      "gloss": {
+        "23": "jī: nearly, on the verge of"
+      }
+    },
+    {
+      "text": "慎終如始，則無敗事。是以聖人欲不欲，不貴難得之貨；",
+      "gloss": {
+        "0": "careful, heedful",
+        "14": "to desire (verb)",
+        "16": "desire (the object of the verb): “to desire no-desire”"
+      }
+    },
+    {
+      "text": "學不學，復眾人之所過。",
+      "gloss": {
+        "4": "to go back to; to restore",
+        "9": "to pass by; also: a fault, an excess"
+      }
+    },
+    {
+      "text": "以輔萬物之自然，而不敢為。",
+      "gloss": {
+        "1": "fǔ: to assist, to prop from the side",
+        "5": "self",
+        "6": "so, thus: 自然 is “self-so”, a noun here"
+      }
+    }
+  ],
+  "rendering": [
+    "What lies still is easy to hold.",
+    "What shows [[no sign yet|zhao]] is easy to plan for.",
+    "What is brittle is easy to [[break apart|pan]].",
+    "What is fine is easy to scatter.",
+    "",
+    "[[Act on it|weizhi]] while it is not yet there.",
+    "Order it while it is not yet in disorder.",
+    "",
+    "A tree that fills the arms’ embrace",
+    "is born from [[the tip of a hair|haomo]].",
+    "A terrace of nine tiers",
+    "rises from [[heaped earth|leitu]].",
+    "A journey of a thousand li",
+    "begins [[under the foot|zuxia]].",
+    "",
+    "[[Who acts on it ruins it.|weizhe]]",
+    "Who grips it loses it.",
+    "So the [[sage|shengren]] [[does not force|wuwei]], and so ruins nothing;",
+    "does not grip, and so loses nothing.",
+    "",
+    "People at their work",
+    "constantly ruin it [[when it is nearly done|jicheng]].",
+    "Be as careful of the end as of the start:",
+    "then no work is ruined.",
+    "",
+    "So the sage [[desires not to desire|yubuyu]]",
+    "and does not prize hard-to-get goods;",
+    "[[learns not to learn|xuebuxue]]",
+    "and [[goes back to what the many pass by|guo]],",
+    "to [[assist|fu]] the [[self-so|ziran]] of the ten thousand things,",
+    "and [[does not dare to act|bugan]]."
+  ],
+  "notes": {
+    "zhao": {
+      "kind": "etymology",
+      "title": "兆: the crack on the shell",
+      "body": "未兆 is “not yet 兆”. The word comes from divination. A diviner of the Shang and Zhou courts put a hot point to a turtle shell or an ox bone. The shell cracked, and the diviner read the cracks as the answer. Those cracks are 兆. The Shuowen enters the word under a fuller graph, 𠧞, with the part 卜, and says 灼龜坼也: “the splits of a scorched turtle shell”. So the line does not say “before it begins”. It says: before the shell has cracked, while no sign can be read at all. The sage of this passage works earlier than the diviner. A diviner waits for the crack. What do you wait for before you act?",
+      "src": [
+        "Shuowen Jiezi, 卜部: 𠧞，灼龜坼也。从卜；兆，象形。"
+      ]
+    },
+    "pan": {
+      "kind": "variant",
+      "title": "泮: ice that breaks up",
+      "body": "The received text writes 泮. The Shuowen knows this graph only as the name of a lords’ ceremonial hall with water on one side. Here it writes a different word of the same sound: to break up, to come apart. The Book of Songs uses it for river ice in spring: 迨冰未泮, “while the ice has not yet broken up”. The Mawangdui silk texts are reported to read 判, “to split with a blade”, and add a particle to each phrase: 亓脆也，易判也. Both words share the part 半, “half”. So the brittle thing in this line is perhaps thin ice. It also gives the passage a season: early spring, when one warm day decides. English must choose “break”, “melt”, or “split”. The Chinese holds all three.",
+      "src": [
+        "Shuowen Jiezi, 水部: 泮，諸矦鄉射之宮，西南爲水，東北爲牆。从水从半，半亦聲。",
+        "Shijing, “Pao you ku ye” (Odes of Bei)",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "weizhi": {
+      "kind": "wordplay",
+      "title": "為, twice, in two senses",
+      "body": "為之於未有: “act on it at the not-yet-there”. Eight lines later: 為者敗之, “who acts on it ruins it”. The verb is the same, 為. The first use is advice. The second is a warning. This is not a slip. The passage puts the two side by side on purpose. To 為 a thing that is already large and hard is to force it, and force meets force. To 為 a thing that has no form yet takes almost no force at all; a touch is enough. At the limit, the earliest action and no action are the same act. That limit is [[無為|wuwei]]. The rendering keeps “act” for both lines so that you can feel the turn. Which of your present labours were once a thing that a touch could have settled?"
+    },
+    "haomo": {
+      "kind": "etymology",
+      "title": "毫末: the tip of an autumn hair",
+      "body": "毫 is the fine hair of an animal’s coat; the lower part of the graph is 毛, hair. 末 is the tip (see the plate). The set phrase is older than this passage. Animals grow a new, very fine coat in autumn, and “the tip of an autumn hair”, 秋毫之末, was the standard example of the smallest thing that an eye can see. Mencius uses it at a king’s court: a man whose sight can examine the tip of an autumn hair, and who does not see a cartload of firewood. A brush is also a 毫: its hairs are tied so that their tips meet in one point. The image of the line is exact. A tree too wide for two arms was once thinner than the thing you write with.",
+      "src": [
+        "Mencius 1A7: 明足以察秋毫之末，而不見輿薪。"
+      ]
+    },
+    "leitu": {
+      "kind": "history",
+      "title": "臺: how a terrace was made",
+      "body": "A 臺 was a high platform of rammed earth with a hall or tower on it. The Shuowen says 觀，四方而高者: “a lookout, four-sided and high”. In the Warring States period, rulers competed in terraces as they competed in chariots. The method was slow. Workers carried loose earth in baskets, tipped it between wooden boards, and beat it hard, one thin layer after another. 累 is “to pile, to add one on one”. The Mawangdui silk texts are reported to read 九成之臺，作於羸土; some scholars read their 羸 as a word for an earth basket, so that the terrace rises from one basketload. Either way, the line names the labour of the many. A reader then knew who had carried the earth. The text praises no ruler for the height. It looks at the first load.",
+      "src": [
+        "Shuowen Jiezi, 至部: 臺，觀，四方而高者。从至从之，从高省。與室屋同意。",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "zuxia": {
+      "kind": "variant",
+      "title": "足下: not “a single step”",
+      "body": "English knows this line as a proverb about a thousand miles and one step. The Chinese has no step in it. 始於足下 is “begins at under-the-foot”: the ground on which you stand now, before any movement. A li was about four hundred metres, so the journey is some four hundred kilometres. The Mawangdui silk texts are reported to have a different third image: 百仞之高，始於足下, “a height of a hundred 仞 begins under the foot”. A 仞 was a measure taken from the human body, about the height of a person. That older line continues the upward direction of the tree and the terrace. The received text turns it level, into a road. Both keep the last two characters. The beginning is not in front of you. Where are your feet?",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "weizhe": {
+      "kind": "geopolitics",
+      "title": "為者敗之: a line that comes twice",
+      "body": "為者敗之，執者失之 also stands in passage 29, where the object is 天下, the world: a spirit vessel that no one can handle. Here the object is any affair. The pair of verbs had a clear target in the 4th and 3rd centuries BCE. The reforming states governed by written law and quotas, and by a method called 形名, “forms and names”, linked first with Shen Buhai of Han and later with Han Fei: each office has a title, and each result is measured against it. Wang Bi names this method in his comment here: 形名執之, to “grip it with forms and names”, and he says the result is 巧辟滋作, “clever evasions multiply”. The more tightly a state grips, the more skill its people put into escape. The line is a remark on government and not only on character.",
+      "src": [
+        "Wang Bi commentary on Laozi 64",
+        "Laozi 29"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "聖人: the one who hears",
+      "body": "“Sage” is the usual English, and it misleads in two ways. A 聖人 is not a saint: there is no holiness, no god who chooses, and no life after this one in the word. A 聖人 is also more than a wise old man. The Shuowen defines 聖 as 通也, “open all the way through”, and files it under 耳, the ear; the graph also holds 口, a mouth: a person who hears well and whose speech fits what was heard. In the Laozi the 聖人 is most often a ruler, or the pattern that a ruler should follow. In this passage the sage is defined by negatives: no forcing, no gripping, no prized goods, no daring. The ear comes before the mouth. Notice how much of the passage is listening for things that make no sound yet."
+    },
+    "wuwei": {
+      "kind": "gap",
+      "title": "無為: not “doing nothing”",
+      "body": "無為 is “without 為”. 為 is to make, to act on a thing, to work it into a shape that you have chosen. English “inaction” and “doing nothing” are wrong, because this passage has just ordered an action: [[為之於未有|weizhi]]. We write “does not force”. The sense is nearer to a carpenter who cuts with the grain, or a doctor who treats a fever on the first day. Such work looks like little. The passage gives the reason in one small word, 故, “and so”: no forcing, and so no ruin. It is a claim about results and not a vow of passivity. The Western habit is to honour the hero who saves a thing that is nearly lost. This text honours the person in whose care nothing was ever nearly lost. No one tells stories about that person."
+    },
+    "jicheng": {
+      "kind": "wordplay",
+      "title": "幾: the edge of done",
+      "body": "幾成 is “nearly complete”. 幾 (jī) means “close to, on the verge”. It is also a noun: the first, smallest movement of a thing, the point at which it can still go either way. The Appended Statements of the Book of Changes say 幾者，動之微: “the 幾 is the slightness of a movement”. So this one character links the two halves of the passage. The first half looks at the 幾 of a beginning. The second half looks at the 幾 of an end, and says that people fail there. The Mawangdui silk texts are reported not to have the word: 恆於亓成而敗之, “they always ruin it at its completion”. In both versions the cause is the same. Attention arrives late and it leaves early. The cure is four characters: 慎終如始.",
+      "src": [
+        "Yijing, “Xici” II",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "yubuyu": {
+      "kind": "wordplay",
+      "title": "欲不欲: three words, two readings",
+      "body": "欲不欲 is verb, negative, verb or noun. Reading one: “desires not-desiring”. The one desire that the sage keeps is to be free of desire. It is a small joke, and it is honest: the sage has not stopped wanting. Reading two: “desires what is not desired”: the sage wants the things that other people leave. Legge takes the second and adds “(other men)” in brackets. The next clause can support both: 不貴難得之貨, “does not hold dear the goods that are difficult to obtain”. That phrase is a refrain of the book. Passage 3 says that it keeps the people from theft; passage 12 says that such goods make a person’s conduct go wrong. Jade, pearls, rhinoceros horn: their value is their distance. English must fill the empty place after “not”. The Chinese leaves it empty."
+    },
+    "xuebuxue": {
+      "kind": "wangbi",
+      "title": "Wang Bi: what needs no learning",
+      "body": "學不學 has the same form as [[欲不欲|yubuyu]]: “learns not-learning”, or “learns what is not learned”. Wang Bi reads it through 自然: 不學而能者，自然也，喻於不學者，過也. “What one can do without learning is the self-so. To go beyond what needs no learning is the fault.” His 喻 is usually read as 踰, “to overstep”. For him the [[過|guo]] of the next line is this excess: the many have gone past the place where they could already walk, breathe, and care for a child, and they have added to it. The sage’s study is then a strange one. Its course runs back. Passage 48 gives the same rule in numbers: for learning, add each day; for the Dao, take away each day.",
+      "src": [
+        "Wang Bi commentary on Laozi 64",
+        "Laozi 48"
+      ]
+    },
+    "guo": {
+      "kind": "wordplay",
+      "title": "過: to walk past, to go wrong",
+      "body": "過 has 辶, the sign of walking, and the Shuowen defines it as 度也, “to cross, to pass”. From “to go past” the word grew a second sense: to go too far, and so a fault, an excess. 復 also has two senses: “to go back to” and “to restore, to make good”. So 復眾人之所過 has two full readings. One: the sage goes back to the place that the crowd walked past. The plain thing was beside the road, and everyone was in a hurry. Two: the sage makes good the excesses of the crowd. We render the first, because 復 as “return” is the great verb of this book (16, 28). The second is [[Wang Bi’s|xuebuxue]]. In Chinese a mistake is a kind of overshoot. What did you pass today?",
+      "src": [
+        "Shuowen Jiezi, 辵部: 過，度也。从辵咼聲。"
+      ]
+    },
+    "fu": {
+      "kind": "etymology",
+      "title": "輔: the helper at the side",
+      "body": "輔 has 車, a cart, at the left. The old use of the word is for a pair of side pieces that were tied to a cart to strengthen it under a heavy load. A poem in the Book of Songs warns a ruler with the image: 其車既載，乃棄爾輔, “your cart is loaded, and now you throw away your props”. From the cart the word passed to people: a 輔 is a minister who supports a ruler and does not sit on the throne. The Shuowen records another old sense, the jaw (see the plate). The choice of verb is the point of the line. The sage does not lead the ten thousand things, or improve them, or manage them. The sage is tied on at the side, takes some of the load, and the cart goes where it was going.",
+      "src": [
+        "Shijing, “Zheng yue” (Minor Odes)",
+        "Shuowen Jiezi, 車部: 輔，人頰車也。从車甫聲。"
+      ]
+    },
+    "ziran": {
+      "kind": "gap",
+      "title": "自然: self-so, not “nature”",
+      "body": "In modern Chinese 自然 is the word for “nature”, and translators often write “natural” here. In this text it is two words: 自, “self”, and 然, “so, thus”. A thing is 自然 when it is so of itself, with no one who makes it so. The Shuowen gives each graph a first sense that surprises: 自 is 鼻也, the nose (people point at the nose to say “I”), and 然 is 燒也, “to burn”, borrowed for the word “thus”. “Nature” in English is a place, or a system outside the human being. 自然 is not a place. It is a way of happening, and a person or a state can have it or lose it. Here it is a noun with an owner: the self-so of the ten thousand things. See passages 17, 23, 25, and 51.",
+      "src": [
+        "Shuowen Jiezi, 自部: 自，鼻也。象鼻形。",
+        "Shuowen Jiezi, 火部: 然，燒也。从火肰聲。"
+      ]
+    },
+    "bugan": {
+      "kind": "gap",
+      "title": "不敢: a sage who does not dare",
+      "body": "The last three characters are 不敢為, “does not dare to act”. Western ethics from the Greeks on counts daring as a virtue, and a translator is tempted to soften the phrase. [[Legge adds a bracket|legge]]: the sage does not dare to act “with an ulterior purpose of his own”. The Chinese has no such limit. 不敢 is a phrase of the book: in passage 3 the clever do not dare to act; in passage 67 the third treasure is not daring to stand ahead of the world; passage 73 says that courage in daring kills and courage in not-daring keeps alive. It is the language of a junior before a senior. The senior here is the [[self-so|ziran]] of things. The sage stands before a growing tree as a careful guest stands in another person’s house."
+    },
+    "guodian": {
+      "kind": "variant",
+      "title": "Two texts, later joined",
+      "body": "This passage reads as two parts, and the oldest evidence agrees. In the bamboo slips from Guodian, buried about 300 BCE, the part that ends at “begins under the foot” is reported as one unit, and the part from 為者敗之 to the end as another, in a different place. The second part is reported twice, in two bundles, with small differences of wording. The Guodian copies are also reported to read 教不教, “teaches not-teaching”, for 學不學, and 弗能為, “cannot act”, for 不敢為. So in the oldest copies that we have, these were separate sayings. A later editor joined them, and the join is good: one saying about beginnings, one about endings. The Mawangdui silk texts, about a century later, already have them as one. The book was not written in one sitting. It was gathered, as a terrace is, load by load.",
+      "src": [
+        "Guodian Laozi A and C (as reported)",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: a nothing that is not held",
+      "body": "Wang Bi does not let the first lines become advice to relax. He writes: 不可以無之故而不持，不可以微之故而弗散也。無而弗持則生有焉，微而不散則生大焉。 “One may not, because it is nothing yet, fail to hold it; one may not, because it is slight, fail to scatter it. A nothing that is not held gives birth to a something. A slight thing that is not scattered gives birth to a great thing.” On the people who fail near the end he writes three characters: 不慎終也, “they are not careful of the end”. His reading is strict. Things are easy at the start, and for that reason the start asks for full attention. Ease is the reason for care and not a release from it.",
+      "src": [
+        "Wang Bi commentary on Laozi 64"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “ulterior purpose”",
+      "body": "Legge was a Scottish missionary in Hong Kong, and later the first professor of Chinese at Oxford. A sacred book that warned against action troubled a Victorian reader. So he repairs it with brackets. 為者敗之 becomes “He who acts (with an ulterior purpose) does harm”, and the last line ends “does not dare to act (with an ulterior purpose of his own)”. The brackets turn a claim about action into a claim about motive: action is good if the heart is pure. The Chinese says nothing of motive. He also gives the tree a “sprout” where the text has a hair, and the journey “a single step” where the text has [[the ground under the foot|zuxia]]. His version of 自然 is “natural development”, a word of his own century, the century of Darwin.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "The last tenth",
+      "body": "Choose one thing that you will finish today: a message, a meal, a repair, a talk with a child. Notice the moment when you judge that it is nearly done. This is the 幾成 of the passage. Watch what your attention does at that moment. It usually leaves and goes to the next thing. Today, do the last tenth as you did the first: the same pace, the same care for small parts. Wash the last dish as you washed the first. Read the last line before you send. Then try the other half. Find one thing that has shown [[no sign yet|zhao]]: a tiredness in a friend’s voice, a small wrong sound in a machine. Hold it now, while a hand is enough."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has two movements, and the oldest copies keep them [[apart|guodian]]. The first is about beginnings. Four things are easy: to hold what is still, to plan for what shows [[no crack of a sign|zhao]], to [[break|pan]] the brittle, to scatter the fine. Three pictures follow, and each sets a great thing beside its first state: tree and [[hair-tip|haomo]], terrace and [[load of earth|leitu]], journey and [[the ground under the foot|zuxia]]. The second movement is about endings and about the hand: do not force, do not grip, give the end the care of the start. The close turns to the sage, who wants and studies in reverse, [[assists|fu]] the [[self-so|ziran]] of all things, and [[dares|bugan]] no more than that.",
+    "inner": "Read the first lines as a description of the mind. A mood is easy to hold while it is at rest. An anger that has shown no sign yet is easy to meet; a breath is enough. Later it is a tree, and two arms do not go around it. The contemplative skill here is not control. It is early seeing: to know the [[幾|jicheng]], the first slight movement, as it rises. [[Wang Bi|wangbi]] warns that a slight thing left alone gives birth to a great one. Then the passage turns the same light on the one who watches. [[Who acts on it ruins it|weizhe]]: the hand that reaches in to fix the mind is one more movement of the mind. So the sage [[learns not to learn|xuebuxue]], and goes back to what was [[passed by|guo]]. What in you is already so, with no help?",
+    "leading": "A good leader in this passage is hard to see. Problems are met when they are small enough to have no name, so no one records a rescue. This goes against the way that states and companies reward people: the one who puts out the fire is promoted, and the one in whose care no fire began is not noticed. The second half is a warning about grip. [[Forms and names|weizhe]], targets and audits, produce skilled evasion. The last line gives the leader’s true work in one verb, [[輔|fu]]: to stand at the side of what people and things are already becoming, and to carry part of the load. Do not make a method of it, a quiet way to keep control. The text says the helper [[does not dare|bugan]].",
+    "body": "In the movement arts this passage is a rule of timing. A push is easy to turn at the moment it starts, when the partner’s weight has only begun to shift; a finger on the elbow is enough. The same push at full force needs strength against strength, and [[who grips loses|weizhe]]. Teachers of taijiquan quote this kind of line: the opponent has not moved, I do not move; the opponent moves slightly, and I have already moved. Feel [[足下|zuxia]] now. Stand, and let the weight go down through the soles. Each step begins from that pressure, before the leg lifts. Then watch the end of a movement. Most injuries and most spilled tea come in the last moment, when the mind has gone ahead and left the hand alone.",
+    "nature": "An oak that two people cannot circle with their arms was a root tip finer than a hair, and at that stage a dry week could end it. Growth in the passage runs upward and outward from almost nothing: [[hair-tip|haomo]] to trunk, basket to terrace, sole to road. The same law runs the other way. Erosion begins as a line that a child’s finger could smooth; a flood begins as [[ice that starts to break|pan]] upstream. Gardeners know the first half of the passage: weed when the weed has two leaves. They also know the last line. No gardener makes a plant grow. The gardener [[assists|fu]] a growth that is [[of itself|ziran]]: water, a stake at the side, and then hands off.",
+    "practice": "Do [[the last tenth|practice]] today. Then choose one of the three pictures and stay with it for a minute. For the tree: find the smallest living shoot near you and look at its tip. For the terrace: recall one large thing in your life and name its first load of earth. For the journey: stand still, feel the floor under both feet, and say where you are. Do not start anything. The passage puts the beginning under the foot, and you are already standing on it."
+  },
+  "glyph": "末",
+  "plates": [
+    {
+      "c": "末",
+      "title": "A mark on the treetop",
+      "lesson": "Begin with 木, a tree: a trunk, a line for the branches, and two strokes that spread at the foot like roots. The script then makes new words by adding one mark to the tree, and the Shuowen lists them almost as a set. Put the mark at the top: 末, 木上曰末, “the top of a tree is called 末”: the tip, the end, the last and least part. Put the mark at the foot: 本, 木下曰本, “the base of a tree is called 本”: the root, the origin, the thing that matters most. Put it through the middle: 朱, which the Shuowen calls 赤心木, “a tree with a red heart”: the colour vermilion. These are not pictures of things. The Chinese name for such a graph is 指事, “to point at the matter”: the stroke is a finger that points. A fourth cousin looks almost the same: 未, “not yet”, the word that comes three times in the first lines of this passage. The Shuowen explains it as a tree with a second layer of branches and leaves. In 末 the upper line is long. In 未 the upper line is short. The pair 本末, “root and tip”, became a common term of Chinese thought for the main thing and the minor thing. This passage turns the pair over: the [[tip of a hair|haomo]] is where the great tree is born.",
+      "brush": "Five strokes. First a long horizontal, which is the pointing mark; press at the start, travel, and press again to close. Second a shorter horizontal beneath it: the branches. Watch these two, because their lengths are the whole identity of the character. If the first is shorter than the second, you have written 未. Third the vertical, from above the top line down to the foot; it must stand straight, since everything hangs on it. Fourth a stroke that falls to the left from the crossing, with the brush lifting as it goes, so that the end is a point. Fifth a stroke that falls to the right, thin at first and then pressed wide before the final lift. The two falling strokes are the oldest part of the picture. In seal script they are curved roots. The clerical script of the Han straightened them and gave the right one its heavy foot."
+    },
+    {
+      "c": "兆",
+      "title": "Cracks read as an answer",
+      "lesson": "This character is a picture of something that happened by heat. In the divination of the Shang kings, more than three thousand years ago, a hollow was cut in the back of a turtle shell or an ox shoulder blade. A hot point was put to the hollow. The front face split with a sharp sound, usually into a long crack and a short crack that branched from it. That branched shape is the character 卜 (bǔ), “to divine”, and its sound is perhaps the sound of the shell. The pattern of cracks as a whole was the 兆: the thing to be read. The Shuowen calls 兆 a picture, 象形, and enters it under a fuller graph with 卜 beside it. The early forms are debated; the modern shape is commonly seen as two sets of cracks, back to back. The meaning grew from “crack” to “sign, omen” and then to “first trace of a thing to come”, as in 兆頭 or 預兆. Much later it became a number, a million in one system and a million million in another, and on the mainland it is now the “mega” of megabytes: a count too large to see, written with the smallest sign. Cousins that keep it for the sound: 跳, to jump; 逃, to flee; 桃, a peach. In this passage it is a verb with 未 before it: [[not yet cracked|zhao]]. The earliest Chinese writing that we have is on those shells.",
+      "brush": "Six strokes, three on each side. On the left: a long stroke that curves down and to the left, then a dot, then a short stroke that rises to the right. On the right: a stroke that goes down, bends to the right, and ends in a hook that turns up; then a short stroke to the left, and last a dot. Watch the two long strokes, the first and the fourth. They start close and lean apart, like a split that runs both ways from one point. The four small strokes branch from them, as the side cracks did. The writer should keep the middle open. On the bone itself, the questions and answers were cut with a knife beside the cracks: thin, straight lines, with no thick and thin. The brush gave the same graph its swelling curves a thousand years later."
+    },
+    {
+      "c": "輔",
+      "title": "Cart and cheek",
+      "lesson": "Two parts. At the left, 車: a cart seen from above, with a body, two wheels, and an axle. At the right, 甫, which gives the sound (the Shuowen: 从車甫聲). The cart tells you the class of thing. A 輔 was a side piece lashed to a cart so that it could bear a heavy load; a [[poem|fu]] warns the man who throws his props away when the cart is full. Yet the Shuowen defines the word with a part of the face: 人頰車也, “the cheek-frame of a person”, the jaw. The two senses meet in a proverb from the Zuozhuan. In 655 BCE the great state of Jin asked the small state of Yu for passage to attack its neighbour Guo. A minister of Yu objected: 輔車相依，脣亡齒寒, “prop and cart lean on each other; when the lips are gone, the teeth are cold”. Readers have taken 輔車 there as cheek and jawbone and also as prop and cart. Yu gave passage. Jin destroyed Guo, and on the way home it destroyed Yu. So the word holds a whole idea of support: a thing at the side that carries load and does not steer. Later it named the ministers at a ruler’s side. The right-hand part 甫 lends its sound to other words: 補, to mend; 捕, to catch; 浦, a riverbank. In the last line of this passage the sage is the [[輔|fu]] of the ten thousand things.",
+      "brush": "Fourteen strokes: seven for 車, then seven for 甫. In 車: a horizontal; the left side of the box; the top and right side in one stroke with a corner; a short line inside; a line that closes the box; a long horizontal; and last the vertical through the centre. As a left-hand part the cart is made narrow, and its long horizontal slants up to the right to give way to its neighbour. In 甫: a horizontal; the left vertical of the frame; the top and right side in one stroke that ends in a hook; a short horizontal inside; a second short horizontal under it; a tall vertical through the middle; and at the end a dot at the upper right. Watch the two central verticals, strokes seven and thirteen. They stand side by side like two poles. Neither part leans on the other, and each helps the other stand."
+    }
+  ]
+}

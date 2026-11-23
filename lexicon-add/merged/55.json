@@ -1,0 +1,88 @@
+{
+  "赤": {
+    "senses": ["red, the red of fire", "bare, naked (赤手, bare-handed)", "sincere, loyal (a red heart)", "赤子: a newborn"],
+    "shuowen": "南方色也。从大从火。",
+    "shuowenEn": "The colour of the south. From 大 (a person; great) and 火 (fire).",
+    "parts": [
+      { "c": "大", "m": "a person with arms out; great" },
+      { "c": "火", "m": "fire" }
+    ],
+    "story": "赤 is the oldest and plainest of the Chinese reds: a person, or a great blaze, over 火. In the scheme of five phases it belongs to the south, summer, and fire. It also means bare and with nothing added. Both senses meet in 赤子, the “red child”: the newborn, red-skinned and naked. Passage 55 takes the 赤子 as the likeness of a person full of 德. Mencius speaks of “the heart of the red child”, and rulers called the people their 赤子.",
+    "gap": "“Infant” and “baby” have no colour. 赤子 keeps the raw fact of the first days: red, and bare."
+  },
+  "氣": {
+    "senses": ["breath", "vapour, air, weather", "the energy that moves in a living body", "mood, temper, spirit of a person or a time"],
+    "shuowen": "饋客芻米也。从米气聲。",
+    "shuowenEn": "Fodder and grain that are presented to a guest. From 米 (grain), with 气 for the sound.",
+    "parts": [
+      { "c": "气", "m": "vapour, cloud layers; the first way to write “breath”" },
+      { "c": "米", "m": "husked grain" }
+    ],
+    "story": "The plain graph 气 was the first way to write “vapour, breath”. 氣, with grain inside, was made for a different word, a gift of provisions (now 餼), and was then borrowed for breath. The Laozi uses the word only three times. Passage 10: gather the 氣 and be soft like an infant. Passage 42: the breaths blend and make harmony. Passage 55: the heart-mind that drives the 氣 is forcing. Later thought made 氣 the stuff of the whole world; the Laozi keeps it close to the body.",
+    "gap": "“Energy” sounds like physics, “breath” is only air, and “spirit” is too holy. 氣 is one word for the air that you breathe, the life that it carries, and the mood of a room."
+  },
+  "號": {
+    "senses": ["háo: to howl, to wail, to cry out", "hào: to proclaim; an order, a signal", "hào: a title, a name; (modern) a number"],
+    "shuowen": "呼也。从号从虎。",
+    "shuowenEn": "To call out. From 号 (a cry of pain) and 虎 (tiger).",
+    "parts": [
+      { "c": "号", "m": "a cry: a mouth over blocked breath" },
+      { "c": "虎", "m": "tiger" }
+    ],
+    "story": "A cry of pain with a tiger beside it: a full-throated howl. In passage 55 the infant 號 all day and is not hoarse, and the text calls that the peak of harmony. From “cry out” the word grew to “proclaim”, then “title”, “name”, and in modern use “number”.",
+    "gap": "English “cry” can be quiet tears. 號 is loud; it is the word for wailing at a funeral and for a roar."
+  },
+  "精": {
+    "senses": ["picked, polished grain; the finest part", "essence, the life-stuff of the body; semen", "fine, exact, skilled", "a spirit, a sprite"],
+    "shuowen": "擇也。从米青聲。",
+    "shuowenEn": "To select. From 米 (grain), with 青 for the sound.",
+    "parts": [
+      { "c": "米", "m": "husked grain" },
+      { "c": "青", "m": "green-blue, fresh; gives the sound" }
+    ],
+    "story": "精 is grain that has been picked over: the best part. From there it means the finest part of anything, and in the body the dense stuff of life, which a person has in a certain amount and can store or spend. Passage 21 says that within the Dao there is 精, and that it is very real. Passage 55 finds 精 at its peak in a newborn. Later Daoism made it the first of three treasures, with 氣 and 神.",
+    "gap": "“Essence” has lost the body, and “vitality” has no substance. 精 is physical: seed."
+  },
+  "含": {
+    "senses": ["to hold in the mouth", "to contain, to hold within, to keep unsaid", "the jade put in the mouth of the dead"],
+    "shuowen": "嗛也。从口今聲。",
+    "shuowenEn": "To hold in the mouth. From 口 (mouth), with 今 for the sound.",
+    "parts": [
+      { "c": "今", "m": "now; gives the sound" },
+      { "c": "口", "m": "mouth" }
+    ],
+    "story": "含 is to keep a thing behind closed lips: not swallowed, not spoken. Passage 55 opens with 含德, “to hold de in the mouth”: power kept in and not shown, as a baby’s strength is all inside. The opposite is in passage 38, where lower 德 is the kind that is held on to and shown.",
+    "gap": "“To have” or “to possess” makes 德 a property. 含 is nearer to holding the breath."
+  },
+  "祥": {
+    "senses": ["an omen, a sign (good or bad)", "a good omen; auspicious", "in passage 55: an ill omen"],
+    "parts": [
+      { "c": "示", "m": "altar; things of the spirits" },
+      { "c": "羊", "m": "sheep; gives the sound" }
+    ],
+    "story": "祥 is first any sign from heaven or earth; early texts ask of a 祥 whether it means good or ill. Later the good sense won. Passage 55 uses the older, open sense with a sting: 益生曰祥, to add to life is called an omen, and the commentators read it as a bad one. Passage 78 has 不祥, “the ill-omened things” of a state, which the true ruler takes on.",
+    "gap": "“Auspicious” is only good. 祥 can still turn."
+  },
+  "強": {
+    "senses": ["strong, strength", "to force; violent, stiff", "qiǎng: to compel; with effort"],
+    "shuowen": "蚚也。从虫弘聲。",
+    "shuowenEn": "A grain weevil. From 虫 (insect), with 弘 for the sound.",
+    "parts": [
+      { "c": "弓", "m": "bow" },
+      { "c": "虫", "m": "insect" }
+    ],
+    "story": "The graph 強 first named an insect; scribes borrowed it for “strong”, a word properly written 彊, a bow with power. The Laozi uses 強 both ways. One who overcomes the self is 強 (33); to keep to the soft is called 強 (52). But the hard and 強 are companions of death (76), and the heart-mind that drives the breath is called 強 (55). The reader must weigh each case.",
+    "gap": "English splits it into “strong” (good) and “forced” (bad). Chinese has one word and lets it turn."
+  },
+  "固": {
+    "senses": ["firm, solid, secure", "shut tight on all sides", "surely, certainly; from the first"],
+    "shuowen": "四塞也。从囗古聲。",
+    "shuowenEn": "Blocked on four sides. From 囗 (an enclosure), with 古 for the sound.",
+    "parts": [
+      { "c": "囗", "m": "an enclosure, a wall" },
+      { "c": "古", "m": "old; gives the sound" }
+    ],
+    "story": "A wall on four sides: 固 is what cannot be got into or pulled open. Passage 55 uses it for a newborn’s fist: bones weak, sinews soft, and the grip 固. Passage 59 uses it for the deep root. Later breathing manuals call a fist with the thumb folded inside 握固, “the firm grip”.",
+    "gap": "“Firm” suggests hardness. The passage’s point is that this firmness comes from softness."
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "n": 43,
+  "title": "No Gap, and It Enters",
+  "theme": "yielding",
+  "zh": [
+    {
+      "text": "天下之至柔，馳騁天下之至堅。",
+      "gloss": {
+        "3": "zhì: the utmost, the most; first, to arrive",
+        "4": "róu: soft, pliant",
+        "6": "chí: to drive horses hard, to race",
+        "7": "chěng: to gallop straight ahead",
+        "12": "jiān: hard, solid, firm"
+      }
+    },
+    {
+      "text": "無有入無間，吾是以知無為之有益。",
+      "gloss": {
+        "0": "無有: one word, “that which has nothing, is nothing”",
+        "2": "to enter, to go in",
+        "4": "jiān: a gap, a crack, a space between",
+        "6": "I (the speaker)",
+        "9": "to know (by this)",
+        "13": "there is; it has (now the plain verb)",
+        "14": "yì: increase, gain, benefit"
+      }
+    },
+    {
+      "text": "不言之教，無為之益，天下希及之。",
+      "gloss": {
+        "1": "to speak; words",
+        "3": "jiào: teaching",
+        "12": "xī: rarely, few",
+        "13": "jí: to reach, to catch up with"
+      }
+    }
+  ],
+  "rendering": [
+    "The [[softest|zhirou]] thing under heaven",
+    "[[gallops over|chicheng]] the [[hardest|jian]] thing under heaven.",
+    "[[What has no substance|wuyou]] enters [[where there is no gap|wujian]].",
+    "[[By this I know|know]] that not-doing [[has its gain|yi]].",
+    "",
+    "The [[teaching without words|buyan]],",
+    "the gain of [[not-doing|wuwei]]:",
+    "few under heaven [[reach them|ji]]."
+  ],
+  "notes": {
+    "zhirou": {
+      "kind": "gap",
+      "title": "至柔: the softest what?",
+      "body": "天下之至柔 is “the utmost-soft of all under heaven”. 至 is “to arrive”, and so “the furthest point, the most”. The Chinese names no thing: it is the softest, whatever that is. English needs a noun, and “thing” is our addition. What did the first readers supply? Most say water, from passage 78: 天下莫柔弱於水, “nothing under heaven is softer and weaker than water”, and nothing is better against the hard. [[Wang Bi|wangbi]] says water and also breath. Others say the Dao itself. The text leaves the place open on purpose. A riddle that says “the softest” makes the reader search the whole world for it, and each answer, water, air, a root tip, patience, a mother’s voice, is tested against the second line. The word 柔 is green wood that bends: see passage 36. Before you read on: what is the softest thing that you know, and what has it worn down?"
+    },
+    "chicheng": {
+      "kind": "etymology",
+      "title": "馳騁: a full gallop",
+      "body": "Both characters have 馬, a horse, at the left. The Shuowen defines 馳 as 大驅也, “to drive hard”, and 騁 as 直馳也, “to race straight ahead”. Together they are a set phrase for horses at full speed, in a chase or a charge. It is one of the most violent verbs in the book, and it is given to the softest thing. The other place where it occurs is passage 12: 馳騁畋獵，令人心發狂, “the gallop and the hunt make the human heart go mad”. There the gallop is a vice of nobles. Here the same word is taken from them and given to water. With an object, as here, 馳騁 can mean to ride a horse hard, and so to master; the hard thing is the horse, and the soft thing rides it. The [[silk texts|silk]] add 於, “in, through”: the softest races through the hardest. English versions that write “overcomes” keep the result and lose the horse.",
+      "src": [
+        "Shuowen Jiezi, 馬部: 馳，大驅也。从馬也聲。",
+        "Shuowen Jiezi, 馬部: 騁，直馳也。从馬甹聲。"
+      ]
+    },
+    "jian": {
+      "kind": "geopolitics",
+      "title": "堅: armor, walls, and the horse",
+      "body": "堅 is “hard, solid”; the Shuowen says 剛也, and the graph has 土, earth, at its base: ground that is packed hard, like the rammed-earth walls of every city of the time. In the language of war the word is fixed in a phrase: 堅甲利兵, “hard armor and sharp weapons”; Mencius uses it for the armies of Qin and Chu. The hardest things under heaven, for a reader of 300 BCE, were things that states made with great labor: walls, armor, bronze and iron. And the gallop was the newest power. In 307 BCE King Wuling of Zhao ordered his army to wear the trousers of the steppe peoples and to shoot from horseback, and cavalry began to replace the chariot. So the line takes the two proudest pictures of the arms race, hardness and speed, and gives the victory to something with neither. Sunzi had said that an army’s form should be like water. The Laozi leaves the army out.",
+      "src": [
+        "Shuowen Jiezi, 臤部: 堅，剛也。从臤从土。",
+        "Mencius 1A5",
+        "Shiji, “Zhao shijia” (King Wuling)",
+        "Sunzi, “Xu shi” (虛實)"
+      ]
+    },
+    "wuyou": {
+      "kind": "gap",
+      "title": "無有: that which is nothing",
+      "body": "無有 is two characters, “not-have / have”, and here they make one word: “that which has no having”, what has no substance, no bulk, no edge. It is not the 無 and 有 of passage 40 set side by side. Passage 11 has a line where the same pair can be read as one word or as two, and the comma moves; here the grammar is clear, because 無有 is the subject of 入, “enters”. English must choose a noun: “the insubstantial”, “non-being”, “nothing”. Each is heavier than the Chinese. The line makes a claim that the first line did not. Water is soft, but it is a thing; it needs a crack. Now the text goes one step further than water. That which is no thing at all goes in where there is no crack at all. What is in the stone already, with no way in? Space is. So is stillness."
+    },
+    "wujian": {
+      "kind": "etymology",
+      "title": "間: moonlight in the gate",
+      "body": "間 is a gap, a space between. The older graph is 閒, and the Shuowen explains it: 隟也。从門从月, “a crack; from gate and moon”. The two leaves of a gate are shut at night, and the moon is seen between them: so there is a crack. Later the moon was changed to a sun, 間, and the moon form was kept for the word “leisure”, a gap in time. 無間 is then “no crack”: a gate so well made that no light shows. The Zhuangzi has a famous use of the pair. Cook Ding explains why his knife is still sharp after nineteen years: the joints of the ox have gaps, and the blade has no thickness; 以無厚入有間, “with that which has no thickness, enter that which has a gap”. The Laozi’s line asks for more. Cook Ding still needs a gap. Here there is none, and that which has nothing goes in.",
+      "src": [
+        "Shuowen Jiezi, 門部: 閒，隟也。从門从月。",
+        "Zhuangzi, “Yang sheng zhu” (養生主)"
+      ]
+    },
+    "water": {
+      "kind": "history",
+      "title": "The drip that goes through stone",
+      "body": "The idea that soft wears hard was common knowledge, and the Han writers gave it its best-known pictures. Mei Cheng, in a letter of advice to a prince in the second century BCE, wrote: 泰山之霤穿石, “the drip from Mount Tai goes through stone”, and the well rope cuts the wooden rim: water is no drill and rope is no saw; the slow rubbing does it. From this comes the later proverb 水滴石穿, “water drips, the stone is pierced”. Those sayings are about time: the soft wins by patience. The passage itself does not mention time, and its verb is not “to drip”. It is [[“to gallop”|chicheng]]. That is the strange part. It does not say that the soft slowly outlasts the hard. It says that the soft rides the hard at speed, now, as a rider on a horse. What soft thing moves you in that way: at once and with no force?",
+      "src": [
+        "Han shu, biography of Mei Cheng (枚乘)"
+      ]
+    },
+    "know": {
+      "kind": "gap",
+      "title": "吾是以知: “by this I know”",
+      "body": "吾是以知 is “I / this / by / know”. The speaker says “I”, which is rare in the book, and gives the ground of a conviction: I looked at this, and from it I know. The same formula ends several passages as a question and answer: 吾何以知…以此, “how do I know? By this” (21, 54, 57). It is the manner of someone who reasons from what can be seen, and not of a prophet. No revelation is claimed and no ancient authority is cited. One watches water and stone and draws a conclusion about conduct. English versions often make the tone grander than it is. In Chinese it is close to a remark at the riverside: look at that; so that is how it is. The conclusion is modest in form too: not “not-doing is supreme”, only that it 有益, has some gain in it."
+    },
+    "yi": {
+      "kind": "gap",
+      "title": "益: increase, not “advantage”",
+      "body": "益 is a dish with water above the rim: more, increase, and so benefit. [[Legge|legge]] and others write “advantage”. But an advantage is a gain over someone, a word of contests, and with it the passage becomes a tip for winning: use the least effort and beat the rigid. 益 names no opponent. It says only that something is added, to all. Passage 42 has just shown how the book thinks about the word: a thing may be lessened and so grow, or grow and so be lessened; and passage 48 sets 益 on the side of learning and its opposite, 損, on the side of the Dao. So 無為之有益 has a turn in it: the practice of taking away, of not adding action, is the one that adds. A reader who takes the line as a method for profit has read the last word and missed the first two."
+    },
+    "wuwei": {
+      "kind": "gap",
+      "title": "無為: not “the lightest touch”",
+      "body": "無為 is “without doing”: no action that is pressed on things from a private plan. This passage is often used to turn it into a principle of economy: when you must act, use the smallest force, as a small rudder turns a great ship. That is good advice, and it is not what the line says. A rudder is a tool of control in the hand of a pilot. The passage’s example has no pilot. That which enters where there is no gap does not push a little. It does not push. The benefit comes from the absence of the doer, not from the doer’s skill at being light. This is hard for a practical mind to hold, and the passage knows it: [[few reach it|ji]]. See how passage 37 says it: the Dao is constant in not-doing."
+    },
+    "buyan": {
+      "kind": "history",
+      "title": "不言之教: the wordless teaching",
+      "body": "The phrase comes two times in the Laozi: here, and in passage 2, where the sage 行不言之教, “carries out the teaching that does not speak”. The Shuowen defines 教 as what those above give out and those below copy, and what is copied is conduct, so the best teaching was always an example. But the Laozi means more than “set a good example”. It distrusts the names themselves. A teaching in words divides the world into right and wrong before the student has looked at it. The idea ran through all later Chinese thought. The Zhuangzi repeats the phrase, and tells of Wang Tai, a man with one foot, who taught nothing and whose students went home full. Confucius himself once said, 予欲無言, “I wish to say nothing: does heaven speak? The four seasons run and the hundred things are born.” The Chan school of Buddhism, a thousand years later, described itself as “a transmission outside the scriptures, not set up on written words”. And the book that says this is five thousand characters long.",
+      "src": [
+        "Analects 17.19",
+        "Zhuangzi, “Zhi bei you” (知北遊)",
+        "Zhuangzi, “De chong fu” (德充符)"
+      ]
+    },
+    "ji": {
+      "kind": "etymology",
+      "title": "希及: a hand that just catches up",
+      "body": "及 is “to reach, to come up with”. The Shuowen: 逮也。从又从人, “to catch up with; from a hand and a person”. In the early forms a hand comes from behind and takes hold of a figure that walks ahead: caught. So 及之 is to come level with these two things, the teaching and the gain, as with someone on the road in front. 希 is “sparse, rare”, the word of the great note in passage 41. 天下希及之: under all of heaven, few catch up with them. The line is not a complaint, and it does not say “none”. It measures the distance. The wordless teaching and the gain of not-doing are close at hand and plain, and people walk past them toward something harder. The silk texts are reported to add 能, “are able”, and a final particle: few in the world are able to reach it.",
+      "src": [
+        "Shuowen Jiezi, 又部: 及，逮也。从又从人。"
+      ]
+    },
+    "silk": {
+      "kind": "variant",
+      "title": "The silk texts: small words of place",
+      "body": "The Mawangdui silk texts are reported to agree closely with the received passage and add three small words. They read 馳騁於天下之致堅, with 於, “in, through, upon”, after the gallop, and 致 for 至. They read 无有入於无間, again with 於: “that which has nothing enters into that which has no gap”. And the last line is 天下希能及之矣. The two 於 make the pictures a little more spatial: the soft moves in the hard, and the no-thing goes into the no-gap. Without 於, as in our text, the first verb takes the hard thing as its direct object, and the sense leans toward “drives” or “rides”. This passage is not among the Guodian slips. A related sentence is in the Huainanzi, which praises water at length and then quotes these lines; so by the second century BCE they were read as lines about water.",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)",
+        "Huainanzi, “Yuan dao xun”"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: breath and water",
+      "body": "Wang Bi names two things for the softest: 氣無所不入，水無所不出於經. The second half of his sentence is damaged in the copies; textual critics think that 出於 strayed in from the line 出於無有，入於無間, as the Huainanzi quotes it. The sense is: “breath: there is no place that it does not enter; water: there is no place that it does not pass through”. Breath comes first. It is softer than water and it needs no channel. Then, on the next line: 虛無柔弱，無所不通，無有不可窮，至柔不可折，以此推之，故知無為之有益也. “The empty, the not-having, the soft and weak: there is nothing that they do not go through. That which has nothing cannot be exhausted; the softest cannot be snapped. Reason out from this, and so one knows that not-doing has gain.” A hard thing can be snapped and a full thing used up. What has no hardness and no content offers nothing to break and nothing to spend.",
+      "src": [
+        "Wang Bi commentary on Laozi 43"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: “dashes against and overcomes”",
+      "body": "For the one verb 馳騁 Legge gives two: the softest thing “dashes against and overcomes the hardest”. The first is his picture of waves on rock; the second is the result, which the Chinese does not state. The gallop itself is gone. For 無有 he writes “that which has no (substantial) existence”, and the bracket shows his care: he will not say that nothing enters, only that something thin does. For 無間 he has “no crevice”, which is exact. His 無為 is “doing nothing (with a purpose)”, the same bracket as in passage 37. And 益 is twice “advantage”; see [[the note on that word|yi]]. His version is honest prose. What it cannot carry is the shock of the first line, where the softest thing does the most violent act in the vocabulary of a horse-riding nobility.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Teach one thing without a word",
+      "body": "Today, pick one thing that you would normally explain or correct in someone: a child, a colleague, a friend. Do not say it. Do the thing yourself, plainly, where it can be seen, and add no look that means “notice this”. Then leave it. The hard part is not the silence. It is the wish for a result that stays in the silence and pushes through it. See if you can let that go too, so that nothing presses on the other person, not even your hope. Check in a week. You may find that what entered was something for which you had no words."
+    }
+  },
+  "lenses": {
+    "ground": "Three sentences. One: [[the softest|zhirou]] [[gallops over|chicheng]] [[the hardest|jian]]. Two: [[the no-thing|wuyou]] enters [[the no-gap|wujian]], and from this [[the speaker knows|know]] that not-doing [[adds something|yi]]. Three: the [[wordless teaching|buyan]] and the gain of [[not-doing|wuwei]] are things that [[few reach|ji]]. The passage climbs by degrees of softness. First something soft, like water, which still has body and still needs a way in. Then something with no body at all, which needs no way in. Then the human forms of that: a teaching with no words in it, a benefit with no deed in it. Each step removes more, and the reach grows wider at each step. The pictures are a horse, a wall, and a shut gate. The passage does not name water.",
+    "inner": "Thoughts and feelings can be very hard: a fixed resentment, a belief about oneself, a fear with walls like a fortress. One can attack such a thing with a harder thing, an argument or an act of will, and then two hard things grind. Attention is of a different kind. It has [[no substance|wuyou]]; it does not push; it has no edge to catch on. And it goes into the hardest state [[where there is no gap|wujian]], because it was never outside. To attend to anger from within the anger changes it more than any effort made against it. This is the [[gain of not-doing|yi]] in its nearest form, and the passage is right that few reach it: the mind does not believe that something with no force can do anything.",
+    "leading": "The hardest things in an organization are not its buildings. They are positions: a refusal, a rule that no one will bend, a person who has dug in. The usual reply is a harder position, and then the matter becomes a siege. The passage points to what in fact goes through hard things: trust, time, a question that is asked without an agenda, the example of how the leader behaves when no one is looking. None of these has an edge, so none meets resistance. That is the [[teaching without words|buyan]] at work. Read the warning in the note on [[not-doing|wuwei]] as well: this is no technique of light pressure. People feel a light hand that still steers. The gain comes when the hand is not there, and for that reason [[few reach it|ji]].",
+    "body": "Breath is the plainest case of the first two lines. It is soft beyond any other thing in the body, and it goes everywhere in it; [[Wang Bi|wangbi]] names it before water. In the movement arts the same law is a daily experience. A stiff partner can be moved; a truly soft one gives you nothing to push on, and your own force carries you past. The hands of a good bodyworker do not dig into a tight muscle. They rest on it and wait, and the hardness lets go from inside, as if something had gone in [[where there was no gap|wujian]]. Try it on your own shoulder: do not press and do not rub. Lay the hand there, let it be heavy and warm, breathe, and count to sixty.",
+    "nature": "Water finds each crack in a rock, and when it freezes it opens the crack: mountains come down in this way. A root tip is one of the softest tissues that there is, and it enters stone. Wind has shaped whole deserts. These are the old examples and they all work through gaps and time; see [[the drip and the stone|water]]. The second line asks for an example that is stranger, something that needs no gap. Warmth is one. It passes into the densest iron with no opening. Gravity is one: it reaches the center of the earth through all that lies between. The softest influences in nature are the ones that nothing keeps out, and for the same reason no one notices them at work.",
+    "practice": "Do the [[wordless teaching|practice]] once this week. A second exercise, for a hard thing of your own: choose one fixed difficulty, a tight place in the body or a matter that you have attacked many times. For today, add no force. Bring to it only what is softest: attention, breath, time. Do not look for a gap; the passage says that none is needed. In the evening, do not judge by whether the hard thing moved. Ask whether something entered."
+  },
+  "glyph": "間",
+  "plates": [
+    {
+      "c": "間",
+      "title": "Light between two doors",
+      "lesson": "The frame is 門, a gate: two door leaves that hang on posts, each with its panels. The Shuowen calls it 从二戶。象形, “from two 戶, single doors; a picture”; the single door is in passage 11. Inside the gate is 日, the sun. Sunlight between the leaves of a gate: there is a crack. That is a gap, 間. The older form has a different light. It is 閒, with 月, the moon, in the gate, and the Shuowen defines it as 隟也, “a crack”. Xu Kai, a commentator of the tenth century, explains the picture: a gate is shut at night, and if moonlight is seen through it, there is a gap. From a crack in a door the meaning spread to each kind of between: the space between two things, a room (one “between” of pillars), an interval of time, a spy (one who gets into the gap), and with a change of tone, “to separate”. The same gate holds other things too. 開, to open, is commonly explained as two hands that lift the bar; 閉, to shut, has the bar set. By their parts, 問, to ask, is a mouth at the gate, and 聞, to hear, is an ear at the gate; the Shuowen takes the gate in both as the sound. This passage says [[無間|wujian]], no gap: a gate so well shut that neither sun nor moon shows. Something enters in any case. Now look at the character once more. The light is already inside it.",
+      "brush": "Twelve strokes. The left leaf of the gate: a vertical; then a horizontal with a corner that comes down a short way; then two short horizontals inside. The right leaf: a short vertical; then the great stroke, a horizontal with a corner that drops the full height of the character and ends in a hook to the left; then two short horizontals inside. Then the sun, in the lower middle: left side, top with right side, the line inside, the base. Watch the two long verticals, the first stroke and the sixth. They are the door posts and must be parallel and strong; the left one may stop a little short, and the right one, with its hook, goes lowest. The sun must hang free and touch neither post. That white space around it is the gap of the character. The cursive form reduced the gate to a dot and one sweeping line, and the short form 间 comes from it."
+    },
+    {
+      "c": "至",
+      "title": "Something comes down and lands",
+      "lesson": "The bottom line is the ground; the Shuowen says so: 从一，一猶地也, “from 一, and the 一 is like the earth”. What comes down to it? The Shuowen sees a bird: 鳥飛从高下至地也, “a bird flies from on high down to the ground”. It then sets 至 beside 不, which it reads as a bird that flies up and does not come down: 不，上去；而至，下來也. Many modern scholars read the early forms differently, as an arrow, point down, that has struck the earth. Bird or arrow, the idea is one: arrival, the end of a flight. From “to arrive” comes “the furthest point”, and so the word that makes a superlative: 至柔, soft to the limit; 至堅, hard to the limit. The summer and winter solstices are 夏至 and 冬至, the “arrivals” of the sun at its extremes. As a part, 至 marks places where one comes to a stop. 到, to reach, adds 刀 for the sound. 室, a room, is a roof over 至, and 屋, a house, has it too; the Shuowen remarks 室、屋皆从至: one arrives and stays. In this passage the word stands in both halves of the first line. The [[softest|zhirou]] and the hardest are both arrivals at a limit, and the passage says which limit the other cannot keep out.",
+      "brush": "Six strokes. A horizontal at the top. Second, one stroke with a sharp turn: it falls to the lower left, then bends and runs right, rising a little. Third, a dot at the right, which closes the upper shape. Fourth, a short horizontal. Fifth, a vertical down through it. Sixth, the long base line, the ground. Watch the second stroke. It is the dive: the brush comes down, stops, and turns without lifting, and the angle must be clean. The lower part is 土, earth, and should be steady and wide; the top is narrower. Do not let the base line be flat: it rises a little to the right and presses down at its end."
+    },
+    {
+      "c": "馳",
+      "title": "A horse at speed",
+      "lesson": "The left part is 馬, a horse, and the Shuowen describes the picture: 象馬頭髦尾四足之形, “it shows the head, mane, tail, and four legs of a horse”. Turn it a quarter in your mind. The three horizontal lines at the upper right are the mane that streams back from the neck. The long stroke that wraps around the bottom is the back and the tail. The four dots are the four legs. In the oracle-bone script the animal stands upright on its tail, with a great eye and a brush of mane; no two are drawn alike. The Shuowen’s definition is two words of sound and character: 怒也。武也, “fierce; martial”. As a left-hand part, the horse marks its own world: 騎 (to ride), 駕 (to yoke), 驅 (to drive), 驚 (to startle: a horse that shies), 驕 (proud: a tall horse), and the two words of this passage, 馳 and [[騁|chicheng]]. The right part of 馳 is 也, which is here only the sound. The Shuowen defines the whole as 大驅也, to drive hard. The short form 马 kept the outline and took out the mane and the legs; the four legs became one line. In this passage the rider of the horse is the softest thing under heaven. In the character, look at the legs: four dots that do not touch the ground.",
+      "brush": "Thirteen strokes. The horse takes ten. A horizontal at the top; a vertical at the left; two more horizontals, the mane; a second vertical through the mane; then the long stroke that runs right, turns down, and hooks: the back and tail. Then the four dots inside the hook, written from left to right; the first leans left and the other three lean right. Then 也, three strokes: a horizontal that rises, turns, and hooks; a tall vertical through it; and the long last stroke that goes down, bends, runs right under everything, and flicks up. Watch the dots and the last stroke together. The dots are quick and light, hooves in the air; the last stroke of 也 is long and low, like the ground that goes past under them. As a left side, the horse is made narrow, and its dots are small and close."
+    }
+  ]
+}

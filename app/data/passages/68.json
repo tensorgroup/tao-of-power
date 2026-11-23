@@ -1,0 +1,207 @@
+{
+  "n": 68,
+  "title": "The Fighter Without Anger",
+  "theme": "conflict",
+  "zh": [
+    {
+      "text": "善為士者不武，",
+      "gloss": {
+        "0": "good at, skilled in (a word of skill here, not of morals)",
+        "2": "shì: officer, man-at-arms; later “scholar, gentleman”",
+        "5": "martial; warlike in manner"
+      }
+    },
+    {
+      "text": "善戰者不怒，",
+      "gloss": {
+        "1": "to fight, to give battle",
+        "4": "nù: anger, fury"
+      }
+    },
+    {
+      "text": "善勝敵者不與，",
+      "gloss": {
+        "2": "dí: the enemy; one’s match",
+        "5": "to join, to engage with; elsewhere “with” and “to give”"
+      }
+    },
+    {
+      "text": "善用人者為之下，是謂不爭之德，是謂用人之力，",
+      "gloss": {
+        "1": "to use, to employ, to put to work",
+        "6": "below; 為之下: “acts as their below”",
+        "13": "de: inner power, virtue",
+        "20": "strength, force"
+      }
+    },
+    {
+      "text": "是謂配天古之極。",
+      "gloss": {
+        "2": "pèi: to pair with, to be the match of",
+        "6": "jí: ridgepole; the highest point, the utmost"
+      }
+    }
+  ],
+  "rendering": [
+    "One [[good at|shan]] being an [[officer|shi]] is [[not martial|wu]].",
+    "One good at fighting is [[not angry|nu]].",
+    "One good at beating an enemy [[does not engage|yu]].",
+    "One good at [[using people|yongren]] [[goes below them|xia]].",
+    "",
+    "This is called the [[de of not contending|de]].",
+    "This is called [[the strength of using people|li]].",
+    "This is called [[pairing with heaven|peitian]]:",
+    "the [[ridgepole|ji]] of the ancients."
+  ],
+  "notes": {
+    "shan": {
+      "kind": "gap",
+      "title": "善: good, or good at",
+      "body": "Four lines begin with 善. In English “good” is first a moral word: a good man keeps the commandments. 善 has that sense, but when it stands before a verb it means “good at”, skilled, as a good swimmer is good. The four people in this passage are experts. The text does not say that a kind soldier refuses to fight. It says that the best soldier has a quality that the second-best does not expect. Chinese thought does not separate the two senses as sharply as English does: goodness is a kind of skill, and real skill has something good in it. Passage 27 uses the same form for a traveller, a speaker, and a locksmith: the one who is good at walking leaves no tracks. In each case mastery is shown by a thing that is absent. English “one” stands for 者, “the one who”.",
+      "src": [
+        "Laozi 27"
+      ]
+    },
+    "shi": {
+      "kind": "history",
+      "title": "士: from chariot to study",
+      "body": "士 is a hard word to render because the class changed under it. In the early Zhou the 士 were the lowest rank of the nobility: trained men who fought from chariots for their lords. By the Warring States, armies were huge and made of drafted farmers, the old houses had fallen, and the 士 had become men of skill with no fixed master: officers, clerks, strategists, travelling persuaders, and swordsmen. Confucius and his pupils were 士. For the next two thousand years the word meant the scholar-official. The Shuowen glosses 士 as 事也, “one who serves”. Here it is still military, and Wang Bi glosses it so: 士，卒之帥也, “a 士 is a leader of foot soldiers”. Legge’s verse hides the rank. The first line is then about the whole class that read this book: how should a man of arms and service carry himself?",
+      "src": [
+        "Wang Bi commentary on Laozi 68",
+        "Laozi 15, 41"
+      ]
+    },
+    "wu": {
+      "kind": "etymology",
+      "title": "武: stop the dagger-axe",
+      "body": "The Shuowen does not define 武 in its own words. It quotes a king: 楚莊王曰：“夫武，定功戢兵。故止戈爲武。” “King Zhuang of Chu said: the martial settles the victory and puts weapons away. So 止, ‘to stop’, and 戈, ‘dagger-axe’, make 武.” The story is in the Zuozhuan. In 597 BCE Chu had beaten Jin, and an officer urged the king to pile up the enemy dead as a monument. The king refused, and gave this reading of the character. Modern scholars read the old graph in another way: 止 is a foot, and the picture is a man who marches with a weapon (see the plate). Wang Bi explains 武 here as a fault of manner: 尚先陵人也, “to prize being first and to bully others”. The passage and the king agree: the summit of the martial is that no weapon moves.",
+      "src": [
+        "Shuowen Jiezi, 戈部: 武，楚莊王曰：“夫武，定功戢兵。故止戈爲武。”",
+        "Zuozhuan, Duke Xuan year 12",
+        "Wang Bi commentary on Laozi 68"
+      ]
+    },
+    "nu": {
+      "kind": "geopolitics",
+      "title": "怒: the general’s anger",
+      "body": "不怒, “not angry”, was the hard-won lesson of the age’s strategists. The Sunzi warns: 主不可以怒而興師，將不可以慍而致戰, “a ruler may not raise an army from anger; a general may not give battle from resentment”. The reason follows: anger can turn back to joy, but a destroyed state cannot be restored, and the dead cannot be brought to life. The same book lists anger as a weakness to use in the enemy: if he is quick to anger, provoke him. An angry commander can be led. Wang Bi gives the Laozi’s reason: 後而不先，應而不唱，故不在怒, “behind and not ahead, answering and not calling the tune; so anger has no place”. The graph is 心, heart, under 奴, a slave. The Shuowen says 奴 gives only the sound. Readers have always seen more.",
+      "src": [
+        "Sunzi, “Huo gong” (火攻) and “Ji” (計)",
+        "Wang Bi commentary on Laozi 68",
+        "Shuowen Jiezi, 心部: 怒，恚也。从心奴聲。"
+      ]
+    },
+    "yu": {
+      "kind": "gap",
+      "title": "不與: two words, no object",
+      "body": "善勝敵者不與 ends on 與, which most often means “with” or “to give”. As a verb it is “to be with, to join, to take part”. So the line says only: “does not with”. With what? The Chinese leaves the place empty, and that is the meaning: there is no point of contact. Wang Bi fills it in: 不與爭也, “does not contend with them”. Others understand “does not join battle”. English must supply an object, and “engage” is our choice. The thought was at home among the military writers. The Sunzi says that to win a hundred battles is not the highest skill; to make the enemy’s army yield with no battle is the highest. The Laozi’s line is shorter and stranger. It does not describe a clever victory. It describes someone who cannot be found to fight.",
+      "src": [
+        "Wang Bi commentary on Laozi 68",
+        "Sunzi, “Mou gong” (謀攻)"
+      ]
+    },
+    "yongren": {
+      "kind": "gap",
+      "title": "用人: “using people”",
+      "body": "In English, to use a person is an offence; the philosopher Kant made it the mark of wrong action. 用人 has no such sound. It is the plain Chinese term for appointing, employing, and directing people, and it was the first art of a ruler: to know whom to put where. 用 is “function”, the word of passage 11, where the use of a pot is at its hollow. To 用 a person is to bring that person’s function into play. We keep “using” so that the surprise of the line can be felt. The one who is best at it is under the people used. Legge’s verse says that men’s “wills he bends”. The Chinese says nothing of wills, and nothing bends. The strength stays where it was, in the people, and is given.",
+      "src": [
+        "Laozi 11"
+      ]
+    },
+    "xia": {
+      "kind": "history",
+      "title": "為之下: the peasant who won",
+      "body": "為之下 is “acts as their below”: takes the lower place toward them, as the sea does toward the rivers in passage 66. Chinese history has a famous case. Liu Bang was a minor local officer with no great skill in war. In 202 BCE he defeated Xiang Yu, the best fighter of the age, and founded the Han dynasty. Sima Qian reports his own account of it at a banquet. In planning, he said, I am not the equal of Zhang Liang; in supply, I am not the equal of Xiao He; in battle, I am not the equal of Han Xin. These three are great men, and I was able to use them: 吾能用之. Xiang Yu had one adviser and could not use him. Under the early Han, the Laozi became a book of the court.",
+      "src": [
+        "Sima Qian, Shiji, “Gaozu benji”",
+        "Laozi 66"
+      ]
+    },
+    "de": {
+      "kind": "gap",
+      "title": "不爭之德: a power, not a virtue",
+      "body": "德 is rendered “virtue” by Legge and many after him, and then 不爭之德 becomes the virtue of not striving: a good habit, like patience. 德 is larger. It is the power that a person has by being in line with the Dao, the quality that moves others with no push. So the phrase names a force: the power of not contending. 爭 is, in the Shuowen, 引也, “to pull”: two hands on one thing. The four masters of the first lines each refuse a pull: the show of force, the heat of anger, the clash, the high place. Because they do not pull, nothing pulls against them. The phrase is one of a family in the book: water does not contend (8); heaven’s way does not contend and is good at winning (73). We leave de in Chinese.",
+      "src": [
+        "Shuowen Jiezi, 𠬪部: 爭，引也。从𠬪、𠂆。",
+        "Laozi 8, 73"
+      ]
+    },
+    "li": {
+      "kind": "variant",
+      "title": "德, 力, 極: three rhymes",
+      "body": "The last three lines each begin 是謂, “this is called”, and in the received text each ends on a rhyme: 德, 力, 極. In the old sound system the three belong to one group (the 職 group), with a short, stopped ending. Mandarin has lost it: dé, lì, jí. Heard in the old way, the close is three quick beats, like a drum. The Mawangdui silk texts are reported to differ in the middle line. They read 是謂用人, “this is called using people”, with no 之力, “the strength of”. Their line is shorter, and the claim is plainer: going below is what the use of people is. The received text adds 力, strength, the word that a military reader wanted to hear, and it tells him where strength comes from. [[Legge|legge]] heard the rhymes and put the whole passage into English verse.",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "peitian": {
+      "kind": "history",
+      "title": "配天: a seat beside heaven",
+      "body": "配 is “to pair, to be the mate of”. 配天 is a term of the state religion of Zhou. When the king sacrificed to heaven, a founding ancestor was set beside heaven to receive the offering with it; he was “paired with heaven”. A hymn of the Book of Songs praises the first ancestor of Zhou in these words: 思文后稷，克配彼天, “accomplished Lord Millet, able to be the pair of that heaven”. Another says that the house of Shang, before it lost the people, 克配上帝, “could be the pair of the Lord on high”. So the phrase gives the highest rank that the ritual had. The passage gives it to a person defined by four refusals, the last of which is to go below others. English “matching heaven” or “like heaven” makes it a comparison. It is a seat.",
+      "src": [
+        "Shijing, “Si wen” (Hymns of Zhou)",
+        "Shijing, “Wen wang” (Greater Odes)"
+      ]
+    },
+    "ji": {
+      "kind": "etymology",
+      "title": "極: the ridgepole",
+      "body": "極 has 木, wood, at the left, and the Shuowen defines it with a builder’s word: 棟也, “the ridgepole”, the highest beam of a house, on which the roof rests. From there it means the highest point of anything, the limit, the pole: 北極 is the North Pole, and 太極, the “great ridgepole”, became the name of the first principle in later thought. 古之極 is “the ridgepole of antiquity”: the utmost that the ancients reached. The line can be cut in two ways. One: “this is called pairing with heaven; it is the utmost of the ancients”. Two, with no pause: “this is called matching the utmost of heaven and of antiquity”. We take the first. Other passages use the word for a limit that no one knows (58, 59). What holds up the roof of your house?",
+      "src": [
+        "Shuowen Jiezi, 木部: 極，棟也。从木亟聲。",
+        "Laozi 58, 59"
+      ]
+    },
+    "bingjia": {
+      "kind": "geopolitics",
+      "title": "A military saying, turned",
+      "body": "Passages 68 and 69 are a pair, and both speak the language of the camp. The period had a class of military experts, later called 兵家, the school of arms. Their books, the Sunzi first among them, taught rulers how to win at least cost. They and the Laozi share words and a world: deception of form, the weak that beats the strong, the victory with no battle. Some later readers took the Laozi itself as a book of war; a Tang officer, Wang Zhen, wrote a commentary to present it so to his emperor. The passage is better read the other way. It takes the soldier’s own measure, which is skill, and shows that the highest skill has no warlike sign. Then it leaves the camp and ends at the altar of [[heaven|peitian]].",
+      "src": [
+        "Wang Zhen, Daodejing lunbing yaoyi shu (809 CE)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: strength that will not serve",
+      "body": "Wang Bi’s comments on this passage are short, like the lines. The longest is on the fourth: 用人而不為之下，則力不為用也. “Use people and do not go below them, and their strength will not be of use to you.” Read the grammar: 力不為用, “the strength does not act as use”. The people still have their strength. It does not turn into function for the one above. This is exact. A person who is commanded gives obedience, which is the least that a person has. A person who is met from below gives judgment, invention, and care, which cannot be ordered. Wang Bi sees the line as a law of energy and adds no praise of humility. Where in your work is strength present and not in use?",
+      "src": [
+        "Wang Bi commentary on Laozi 68"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge in ballad metre",
+      "body": "Here Legge does something rare for him: he translates in rhymed verse, because the Chinese rhymes. The cost is high. His first line is “He who in (Tao’s) wars has skill”. The bracket makes the war a spiritual one, the Christian soldier’s fight; the Chinese has a real officer. 不武 becomes “Assumes no martial port”, and “port” is an old word for bearing that was needed for the rhyme. 不與 becomes “Keeps from his foes apart”. The last three lines are given as sayings in quotation marks. For 配天古之極 he has “Like Heaven’s his ends, / No sage of old more bright”, and neither the ritual seat nor the ridgepole is left. It is a Victorian hymn on the passage. Read it for its sound, and then count the Chinese: forty-three characters.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Find the first heat",
+      "body": "Anger has a first sign in the body, and it comes before any thought of being wronged: heat in the face or chest, a tight jaw, a breath that stops high. Today, in one disagreement, look for that sign. You do not have to stop the anger. Note only where the sign is, and let one full breath go out before you speak. See what the delay changes. The second experiment is for a moment when you need something from another person. Before you ask, put yourself below: ask what they see, what they would do, what they need for the work. Then say what you need. Wang Bi says that strength [[will not serve|wangbi]] the one who stays above. Find out if he is right."
+    }
+  },
+  "lenses": {
+    "ground": "Four sentences have one frame: 善…者不…, “the one good at … does not …”. An [[officer|shi]] with no [[martial show|wu]]; a fighter with no [[anger|nu]]; a victor who [[does not close|yu]] with the enemy; and, with a change at the end, a user of people who [[goes below|xia]] them. The fourth breaks the pattern of “not” and gives a positive act, and so it carries the weight. Then three names for all four: the [[de of not contending|de]], the [[strength of using people|li]], and [[pairing with heaven|peitian]], the [[ridgepole|ji]] of the ancients. The passage has forty-three characters, three end rhymes, no image from nature, and no sage. It is a military saying that has been [[turned|bingjia]].",
+    "inner": "Read the enemy as that which you fight in yourself: a habit, a fear, a thought that returns. The usual method is martial. You make a show of resolve, you grow angry at the fault, you wrestle with it, and you stand above it as a judge. The passage reverses each step. No show: a quiet intention is enough. No [[anger|nu]]: rage at oneself is still rage, and it feeds what it attacks. No [[engaging|yu]]: a thought that is not fought has nothing to push against. And go below: ask the habit what it is for, as one asks a person. This is not surrender. It is the [[power of not pulling|de]], and it works on the inside as it does on the field.",
+    "leading": "The fourth line is the centre of the passage for anyone who directs others. English hears [[“using people”|yongren]] as a fault; the Chinese means the art of bringing each person’s ability into play, and it says that the art has one condition: be under them. In practice: ask before you tell; give credit away; let the expert be more expert than you in the room. [[Liu Bang|xia]] is the model. He named three men who were better than he was, and he won an empire. The first three lines apply as well. A leader who needs to look strong, who decides in anger, or who must win each argument is not yet skilled. [[Wang Bi|wangbi]] gives the price: their strength stays with them.",
+    "body": "Every fighting art of East Asia teaches these four lines with the body. A tense, fierce stance is slow; the master stands as if nothing were about to happen. [[Anger|nu]] lifts the breath into the chest and narrows the eyes, and the angry one can be led by the nose. To [[not engage|yu]] is the principle of the soft arts: do not meet force with force; be absent from the place where the blow lands. And go below: sink the centre under the partner’s centre, and their strength becomes yours to turn. The old reading of [[武|wu]] as “stop the weapon” is the motto of many schools. Try one thing: when someone pushes, in word or with a hand, breathe out and let the weight drop before you answer.",
+    "practice": "Do the two experiments of [[the practice note|practice]]: find the first heat of anger, and ask from below. Then look back over one conflict of the past month and test it against the four lines. Did you make a show? Was there heat? Did you close with the other person, point against point? Did you stand above? Mark each with yes or no. Then imagine the same hour with one “yes” removed, only one, and see how the rest would have gone. The passage calls this skill, 善, and skill comes from repetition."
+  },
+  "glyph": "武",
+  "plates": [
+    {
+      "c": "武",
+      "title": "A foot and a dagger-axe",
+      "lesson": "Two parts are joined in this character. The long slanting stroke with its hook and dot, and the horizontal at the top, are 戈, the dagger-axe: a blade set crosswise on a long shaft, the common weapon of Bronze Age China. The Shuowen calls 戈 a level-headed halberd and says it is a picture. The lower left is 止. The Shuowen explains 止 as a base, and adds 故以止爲足, “so 止 is used for the foot”; the early graph is commonly explained as a footprint. A foot that is planted is a foot that has stopped, so 止 came to mean “to stop”. Now the character can be read in two ways. Read 止 as “stop”: stop the dagger-axe. That is [[King Zhuang’s reading|wu]], and Xu Shen liked it so much that he made 武 one of his two examples of 會意, “joined meanings”: 比類合誼，以見指撝，“武、信”是也. His other example is 信, a person beside a word: trust. Read 止 as “foot”: a foot beside a weapon, a man on the march. Most modern scholars think that this was the first sense. The character has held both for two and a half thousand years. Kings took it as a title, like King Wu, who conquered Shang; the partner word is 文, pattern and culture. Later 武術, 武士, and 武俠 all carry it. The first line of this passage sides with the king of Chu.",
+      "brush": "Eight strokes. First a short horizontal at the upper left. Second a long horizontal that rises to the right: the cross of the weapon. Then the foot, in four strokes: a vertical, a short horizontal to its right, a shorter vertical at the left, and a base stroke that rises to the right. The seventh stroke is the great one: it starts high, comes down in a long slant to the lower right, and ends in a hook that turns up. Watch it. It is the shaft of the dagger-axe and the spine of the character; all the rest leans on it. The eighth stroke is the dot at the upper right. Teachers warn pupils here: 戈 alone has a stroke that falls to the left across the shaft, and in 武 that stroke is absent. If you add it, the character is wrong. The weapon in 武 is a stroke short."
+    },
+    {
+      "c": "配",
+      "title": "Beside the wine jar",
+      "lesson": "The left side is 酉, and it is a picture of a jar: a narrow neck, a wide body, and lines for the liquid or the bands. The Shuowen ties it to the season: 八月黍成，可爲酎酒, “in the eighth month the millet is ripe and can be made into strong wine”. 酉 marks the words of fermenting and drinking: 酒, wine, with water added at the left; 醉, drunk; 醒, to become sober, to wake; 酬, to pour in return, to repay; and 醫, a doctor, since wine was a medicine. It is also the tenth of the twelve branches, the hour of the evening. The right side of 配 is now written 己, and the Shuowen takes it as the sound and defines the whole as 酒色也, “the colour of wine”. The early forms are commonly explained differently: a person who kneels beside the jar. From that scene, it is thought, comes the main sense: to stand by, to be the partner of, to match. 配 is to mate, to blend, to fit one thing to another; 妃, a consort, is defined in the Shuowen as 匹也, “a mate”, and has the same right-hand part. In the ancestral rite, wine was the offering, and the ancestor who was [[paired with heaven|peitian]] received it at heaven’s side. The character keeps the jar.",
+      "brush": "Ten strokes: seven for the jar, three for its partner. The jar: a horizontal across the top; the left side; the top and right side in one stroke with a corner; then, inside, a short stroke that falls to the left and a short vertical that bends at its foot; then a horizontal inside, and the base. Keep the jar tall and narrow, because it must give room to its neighbour. Then the right side: a horizontal that turns down at a corner; a short horizontal that closes it; and last a long stroke that goes down, bends, runs to the right along the base, and ends in a hook that turns up. Watch the last stroke: it reaches under the right half like a mat. The two halves should stand level, like two persons at one table. Neither is the larger."
+    }
+  ]
+}

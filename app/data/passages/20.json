@@ -1,0 +1,356 @@
+{
+  "n": 20,
+  "title": "Not Yet Laughed",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "絕學無憂，唯之與阿，相去幾何？善之與惡，相去若何？人之所畏，不可不畏。",
+      "gloss": {
+        "1": "learning: study of the rites and the books, the road to office",
+        "5": "wěi: “yes!”, the prompt answer of a junior",
+        "8": "ē: a drawled “yeah”; also to flatter",
+        "12": "how much?",
+        "18": "è: foul, ugly, bad",
+        "28": "to fear, to dread"
+      }
+    },
+    {
+      "text": "荒兮其未央哉﹗",
+      "gloss": {
+        "0": "land gone to weeds; waste, vast",
+        "4": "the centre; also: an end"
+      }
+    },
+    {
+      "text": "眾人熙熙，如享太牢，如春登臺。",
+      "gloss": {
+        "2": "xī: bright, warm, merry",
+        "6": "to feast; to make an offering",
+        "8": "a pen for cattle; a beast kept for sacrifice",
+        "13": "a terrace, a high platform"
+      }
+    },
+    {
+      "text": "我獨泊兮其未兆，如嬰兒之未孩；",
+      "gloss": {
+        "1": "alone, the only one",
+        "2": "bó: still, unrippled, bland (later also: to moor)",
+        "6": "the crack on a heated oracle bone; an omen, a first sign",
+        "9": "infant, babe at the breast",
+        "13": "of a baby: to laugh"
+      }
+    },
+    {
+      "text": "儽儽兮若無所歸。",
+      "gloss": {
+        "0": "léi: drooping, worn out",
+        "6": "to go home"
+      }
+    },
+    {
+      "text": "眾人皆有餘，而我獨若遺。",
+      "gloss": {
+        "4": "more than enough, surplus",
+        "10": "left behind; lost"
+      }
+    },
+    {
+      "text": "我愚人之心也哉﹗",
+      "gloss": {
+        "1": "simple, a fool"
+      }
+    },
+    {
+      "text": "沌沌兮，",
+      "gloss": {
+        "0": "dùn: murky, not yet sorted"
+      }
+    },
+    {
+      "text": "俗人昭昭，",
+      "gloss": {
+        "0": "custom; common, ordinary",
+        "2": "bright as day, evident"
+      }
+    },
+    {
+      "text": "我獨昏昏。俗人察察，",
+      "gloss": {
+        "2": "dusk, dim",
+        "7": "to examine; sharp-eyed"
+      }
+    },
+    {
+      "text": "我獨悶悶。澹兮其若海，",
+      "gloss": {
+        "2": "mèn: shut in, dull",
+        "5": "dàn: of water, to sway; calm"
+      }
+    },
+    {
+      "text": "飂兮若無止。",
+      "gloss": {
+        "0": "liù: a wind high up"
+      }
+    },
+    {
+      "text": "眾人皆有以，",
+      "gloss": {
+        "4": "a means, a use (Wang Bi: 用)"
+      }
+    },
+    {
+      "text": "而我獨頑似鄙。",
+      "gloss": {
+        "3": "an unsplit block; thick, stubborn",
+        "5": "a border district; rustic"
+      }
+    },
+    {
+      "text": "我獨異於人，而貴食母。",
+      "gloss": {
+        "7": "to prize",
+        "8": "sì: to feed (as a verb with this sense; shí: to eat)",
+        "9": "mother"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Cut off learning|xue]]: no worry.",
+    "[[“Yes, sir” and “yeah”|wei-e]]:",
+    "how far apart are they?",
+    "[[Good and foul|shan-e]]:",
+    "how far apart are they?",
+    "[[What people fear|ren-wei]]",
+    "cannot be left unfeared.",
+    "[[Waste land, and no end to it yet!|huang]]",
+    "",
+    "The crowd is merry, merry,",
+    "as at the feast of [[the great sacrifice|tailao]],",
+    "as on a terrace climbed in spring.",
+    "[[I alone|du]] am still, no sign yet,",
+    "like an infant that has [[not yet laughed|hai]];",
+    "[[drooping, drooping|leilei]], as with no home to go to.",
+    "The crowd all have more than enough;",
+    "I alone seem to have [[lost it|yi]].",
+    "Mine is [[the heart of a fool|yu]]!",
+    "Murky, murky.",
+    "",
+    "Common people are [[bright, bright|zhaozhao]];",
+    "I alone am dusk, dusk.",
+    "Common people are sharp, sharp;",
+    "I alone am shut, shut.",
+    "[[Swaying, like the sea|hai-sea]];",
+    "a high wind, as with no place to stop.",
+    "The crowd all have [[their use|yi-use]];",
+    "I alone am a block, [[like a borderer|bi]].",
+    "I alone differ from the others,",
+    "and prize [[the mother who feeds|shimu]]."
+  ],
+  "notes": {
+    "xue": {
+      "kind": "gap",
+      "title": "學 is not “knowledge”",
+      "body": "學 in this age was a definite thing: a young man’s training in the rites, the Odes, the documents, and correct speech, under a master, with a post at court as its aim. The Analects begins with it: “to learn, and at due times to practise it: is that not a pleasure?” The Shuowen, under the fuller graph 斆, defines it 覺悟也, “to awaken”, and reads one part as a cover over a child who is 尚矇, “still in the dark”. So learning is the removal of a cover. This line says: cut it, and worry ends. Passage 48 gives the reason: in learning one adds each day, in the Way one takes away each day. It is not praise of ignorance. It is a question about a system that makes people anxious to be correct, and the next lines test that system’s first lessons: the right word for “yes”, and the line between good and bad. Many scholars place this line [[at the end of passage 19|placement]].",
+      "src": [
+        "Analects 1.1",
+        "Shuowen Jiezi, 教部: 斆，覺悟也。从教从冂。冂，尚矇也。臼聲。",
+        "Laozi 48"
+      ]
+    },
+    "placement": {
+      "kind": "variant",
+      "title": "A line between two passages",
+      "body": "絕學無憂 has the verb of the three bans in passage 19: cut off sagehood, cut off humaneness, cut off skill. Many editors move the line there, as a fourth 絕 or as a partner to 少私寡欲, and the Mawangdui silk texts, which have no chapter breaks, are reported to run the two together. The older Guodian slips are reported to decide for the place it has here. They have the first lines of this passage as a separate piece, in a different bundle from passage 19, and that piece opens with 絕學亡憂. Both places make sense. As the end of 19 the line is the last of the public bans. As the start of 20 it is the door to the most private passage in the book: after the programme, the cost. A person who does cut off the learning of the age no longer shares its “yes”, its good and bad, its feasts. What follows is how that feels. Read the line once as a slogan, and once as the first words of a confession.",
+      "src": [
+        "Guodian Laozi B",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "wei-e": {
+      "kind": "wordplay",
+      "title": "唯 and 阿: two ways to say yes",
+      "body": "Both words are sounds, written with borrowed graphs. 唯 (wěi) is the quick, respectful “yes!”; the Shuowen defines it 諾也, “assent”. The ritual books lay down that when a father or a teacher calls, one answers 唯 and rises at once; the slower 諾 is not respectful enough. 阿 (ē) is a lazier sound, a drawled “yeah” or “uh-huh”; as a verb the word came to mean “to fawn, to go along with”. A boy was beaten for the wrong one. Learning, 學, began here: with the exact syllable owed to each rank. The line asks how far apart the two really are. The Mawangdui silk texts and the Guodian slips are reported to write 訶 for the second word. Many scholars take that as one more way to write 阿. Read by its own sense it is an angry shout; the Shuowen says 大言而怒也. Then the question is larger: between a superior’s roar and an inferior’s “yes, sir”, how much distance is there? How many kinds do you have, and who taught them to you?",
+      "src": [
+        "Shuowen Jiezi, 口部: 唯，諾也。从口隹聲。",
+        "Shuowen Jiezi, 言部: 訶，大言而怒也。从言可聲。",
+        "Liji, “Qu li shang” (曲禮上)",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "shan-e": {
+      "kind": "variant",
+      "title": "Good and foul, or fair and foul",
+      "body": "The received text asks about 善 and 惡: good and bad. The Mawangdui silk texts are reported to read 美與惡: the beautiful and the ugly. Wang Bi’s own comment has 美惡 too, so his text may once have read like the reported silk text. 惡 (è here) covers both: it is what one turns away from, and read wù the same graph is the verb “to hate”. That reading joins this line to passage 2, where the world knows the beautiful as beautiful and so there is ugliness; the pair there is 美 and 惡. Note that the line is a question and not an answer. It does not say that good and bad are the same. It asks 相去若何, “how far from each other?”, of a society that was quite sure of the distance. English “evil” would make the question a scandal. The Chinese word is nearer to “foul”.",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Wang Bi commentary on Laozi 20",
+        "Laozi 2"
+      ]
+    },
+    "ren-wei": {
+      "kind": "gap",
+      "title": "A line that can be read three ways",
+      "body": "人之所畏，不可不畏: “what people fear cannot be not-feared”. Is it meant? One reading is plain: I am no hero; what others dread, I must dread too. Wang Bi takes it so: 人之所畏，吾亦畏焉, “what people fear, I fear also”. A second reading hears a sigh: the fears of the crowd cannot be escaped, however small the differences that they guard. The third is the reported reading of the Mawangdui silk texts and the Guodian slips, with two more words: 人之所畏，亦不可以不畏人. “One whom people fear must, for that reason, fear people.” That is a warning to a ruler, of a kind found all through the book: the feared lord of passage 17 lives in fear. The received line may be this one with its last word lost. We render the received words and keep the tone open. Our “left unfeared” adds nothing, but English cannot keep the bare double “not”.",
+      "src": [
+        "Wang Bi commentary on Laozi 20",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "huang": {
+      "kind": "etymology",
+      "title": "荒 and 未央: a waste with no centre",
+      "body": "荒 has grass, 艹, on top. The Shuowen says 蕪也, “overgrown”, and adds: “some say, grass that drowns the land”. It is a field that nobody tills: wild, wide, a famine year. 央 is the middle; the Shuowen shows a person, 大, inside a frame, and gives a second sense, 久也, “long-lasting”. 未央 is “not yet at the middle”, and so “far from over”. The Han emperors liked the phrase and named their great palace at Chang’an 未央宮, the Palace of No Ending. The line is an outcry, and readers have disagreed about its object for two thousand years. Is it the Way that is so vast? The folly of the crowd? The distance between the speaker and the others? Wang Bi chose the last: 歎與俗相返之遠也, “a sigh at how far he has turned from the common way”. The Mawangdui silk texts are reported to write 朢, to gaze into the distance.",
+      "src": [
+        "Shuowen Jiezi, 艸部: 荒，蕪也。从艸㠩聲。一曰艸淹地也。",
+        "Shuowen Jiezi, 冂部: 央，中央也。从大在冂之内。大，人也。央㫄同意。一曰久也。",
+        "Wang Bi commentary on Laozi 20",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "tailao": {
+      "kind": "history",
+      "title": "The great sacrifice and the spring terrace",
+      "body": "太牢 is the highest grade of offering in the state cult: an ox, a sheep, and a pig together. 牢 is the pen where the beasts were kept and fattened; the Shuowen says 養牛馬圈也, and the graph is an ox, 牛, under a cover. After the rite the meat was shared out, so a 太牢 was the best feast that a person could attend, by invitation of a lord. The terrace is the other great pleasure. Rulers of the age competed to build 臺, high platforms of rammed earth with halls on top; the Shuowen defines 臺 as a lookout, “four-square and high”. In spring people climbed up to see the new green, and spring outings were the time of courtship. So the crowd’s happiness is public, seasonal, and paid for by the court. Wang Bi is sour about it: they are 惑於榮利, “dazed by glory and profit”. The speaker has no place at the table.",
+      "src": [
+        "Shuowen Jiezi, 牛部: 牢，閑，養牛馬圈也。从牛，冬省。取其四周帀也。",
+        "Shuowen Jiezi, 至部: 臺，觀，四方而高者。从至从之，从高省。與室屋同意。",
+        "Wang Bi commentary on Laozi 20"
+      ]
+    },
+    "du": {
+      "kind": "history",
+      "title": "我獨: “I alone”, six times",
+      "body": "The book has no proper names, no places, and no dates, and for the most part no speaker. Here a voice says 我, “I”, and says 我獨, “I alone”, six times. Nobody knows whose voice it is, and the lines were made to be spoken by anyone who has stood outside a feast. A reader of the time would hear a second voice behind it. The poet Qu Yuan, a minister of Chu who was slandered and sent away, has the most famous “I alone” in Chinese: 舉世皆濁我獨清，眾人皆醉我獨醒, “the whole world is muddy and I alone am clear; all are drunk and I alone am sober”. He drowned himself. The speaker of this passage says the reverse: all are bright, I alone am dim. It is the same loneliness with the pride taken out. The Shuowen’s gloss for 獨 is odd and exact: sheep make a flock, and a dog goes alone.",
+      "src": [
+        "Chuci, “Yu fu” (漁父)",
+        "Shuowen Jiezi, 犬部: 獨，犬相得而鬬也。从犬蜀聲。羊爲羣，犬爲獨也。"
+      ]
+    },
+    "hai": {
+      "kind": "etymology",
+      "title": "孩: the first laugh, and the name",
+      "body": "In modern Chinese 孩 is “a child”. Here it is a verb: of a baby, to laugh. The Shuowen enters it as the old-script form of 咳 and defines that as 小兒笑也, “an infant’s laugh”. 嬰兒 is the child still at the breast. So 嬰兒之未孩 is a baby in its first weeks, before the first social smile, when its face has no answer for a face. Wang Bi: 如嬰兒之未能孩也, “like an infant not yet able to laugh”. There is a second layer. The ritual books describe how a child received its name: at the end of the third month the mother brought it to the father, who took its right hand and named it with a laugh; the text uses this same word, and the old commentators take it as the father’s fond chuckle to the child. So a child that has “not yet laughed” is, perhaps, one that has no name yet. The speaker compares the self to a thing before its name: the 無名 of passage 1, as a face.",
+      "src": [
+        "Shuowen Jiezi, 口部: 咳，小兒笑也。从口亥聲。",
+        "Liji, “Nei ze” (內則)",
+        "Wang Bi commentary on Laozi 20"
+      ]
+    },
+    "leilei": {
+      "kind": "history",
+      "title": "A stray dog: the same was said of Confucius",
+      "body": "儽儽 is a sound-picture of a thing that hangs down: the Shuowen says 垂皃, “the look of drooping”, and adds “some say: slack, weary”. The Mawangdui silk texts are reported to write the word 纍. With that graph the phrase has a famous twin. The historian Sima Qian tells that Confucius once lost his disciples at the gate of a foreign city and stood there by himself. A local man described him to them: a tall stranger, 纍纍若喪家之狗, “forlorn as the dog of a house in mourning”, a dog that nobody feeds. When they told Confucius, he laughed and said: that is right, that is right! So the two great teachers of China share one image of themselves: worn out, at a gate, with nowhere to 歸. In passage 16 each thing 歸, goes home, to its root. Here the one who knows it looks like one who has no home.",
+      "src": [
+        "Shuowen Jiezi, 人部: 儽，垂皃。从人纍聲。一曰嬾解。",
+        "Shiji, “Kongzi shijia”",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "yi": {
+      "kind": "gap",
+      "title": "餘 and 遺: surplus and loss",
+      "body": "眾人皆有餘: the crowd all 有餘, “have a surplus”. 餘 has the food sign, 飠, and the Shuowen glosses it 饒也, “plenty”: more on the table than can be eaten. Wang Bi takes it inwardly: 眾人無不有懷有志，盈溢胸心, “each of the crowd has aims and ambitions that fill the breast and spill over”. Against this, 我獨若遺. 遺 is to leave a thing behind or to be left behind; the Shuowen says “to lose”. English must choose: “I alone seem to have lost everything”, “seem left out”, “seem forgotten”, “seem in want”. The Chinese keeps all four. Note 若, “seem”. The speaker reports how it looks, and perhaps how it feels, and does not say that it is so. Passage 77 gives the other side: heaven’s way takes from those with surplus. Have you ever been the one person at a table with nothing to show?",
+      "src": [
+        "Shuowen Jiezi, 食部: 餘，饒也。从食余聲。",
+        "Shuowen Jiezi, 辵部: 遺，亾也。从辵䝿聲。",
+        "Wang Bi commentary on Laozi 20"
+      ]
+    },
+    "yu": {
+      "kind": "etymology",
+      "title": "愚: a monkey’s heart",
+      "body": "愚 is 禺 over 心, the heart. The Shuowen defines 愚 as 戇也, “simple, thick”, and explains the upper part: 禺，猴屬，獸之愚者, “禺 is of the monkey kind, the simple one among beasts”. So the fool’s heart is an ape’s heart: it follows what is in front of it and keeps no accounts. The speaker claims it with an exclamation. Wang Bi describes this heart: 心無所別析，意無所好欲, “the heart makes no distinctions and divisions; the mind has no likes and wants”. That is the point of the word here. It is not a low score on a test. It is a mind that has stopped sorting. The book uses 愚 once more, in passage 65, where rulers of old did not make the people clever but kept them 愚. That line has a harsh history. Here the word is applied to nobody but “me”.",
+      "src": [
+        "Shuowen Jiezi, 心部: 愚，戇也。从心从禺。禺，猴屬，獸之愚者。",
+        "Wang Bi commentary on Laozi 20"
+      ]
+    },
+    "zhaozhao": {
+      "kind": "wordplay",
+      "title": "Doubled words: the music of the middle",
+      "body": "The centre of the passage is built of doubled syllables: 熙熙, 儽儽, 沌沌, 昭昭, 昏昏, 察察, 悶悶. Chinese uses such pairs as English uses “pitter-patter”: they paint a state by sound, and they cannot be translated word for word. Our “bright, bright… dusk, dusk” keeps the form at some cost to natural English. 昭 is full daylight; the Shuowen says 日明也. 昏 is the sun gone down. 察 is to look into each corner, as an inspector does. 悶 is a heart, 心, inside a gate, 門: shut in, close, dull. The two sets return in passage 58 as a theory of government: 其政悶悶，其民淳淳；其政察察，其民缺缺. “When the government is shut and dull, the people are whole. When the government is sharp-eyed, the people are broken.” So the speaker’s private dimness is the same quality that the book asks of a state.",
+      "src": [
+        "Shuowen Jiezi, 日部: 昭，日明也。从日召聲。",
+        "Shuowen Jiezi, 心部: 悶，懣也。从心門聲。",
+        "Laozi 58"
+      ]
+    },
+    "hai-sea": {
+      "kind": "etymology",
+      "title": "The sea: heaven’s pool",
+      "body": "After the long list of lacks, two images of size. 澹 is what water does in a wide basin; the Shuowen says 水搖也, “water that sways”. 飂 is 高風也, “wind high up”, the kind that moves clouds and is not felt on the ground. The sea, for people of the inland plain, was a thing heard of more than seen. The Shuowen defines 海 with awe: 天池也，以納百川者, “heaven’s pool, that which takes in the hundred rivers”. It is the lowest place, and so the greatest; passage 66 says rivers and seas are kings of the valleys because they are good at being below. The grammar leaves open who is like the sea: no subject is given. Many versions say “they” or “it”. Wang Bi and most readers give the lines to the speaker, and so do we. The Mawangdui silk texts are reported to write 忽呵 for the sea and 朢呵 for the wind.",
+      "src": [
+        "Shuowen Jiezi, 水部: 澹，水搖也。从水詹聲。",
+        "Shuowen Jiezi, 風部: 飂，高風也。从風翏聲。",
+        "Shuowen Jiezi, 水部: 海，天池也。以納百川者。从水每聲。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "yi-use": {
+      "kind": "wangbi",
+      "title": "Wang Bi: everyone has a use",
+      "body": "眾人皆有以. 以 is one of the commonest small words in Chinese: “by means of, in order to”. Here it stands as a noun, and Wang Bi explains: 以，用也。皆欲有所施用也. “以 means use. All of them want to have something to which they can be applied.” Each person in the crowd has a function, a career, a reason. It is the 用 of passage 11 turned on people: a person as a vessel with a purpose. His long comment on the first line makes the same point with birds: 燕雀有匹，鳩鴿有仇…自然已足，益之則憂. “Swallows and sparrows have their mates, doves and pigeons their partners… what is so of itself is already enough; add to it and there is worry.” Then: 續鳧之足，何異截鶴之脛, “to lengthen a duck’s legs: how is that different from cutting short a crane’s?” The image is from the Zhuangzi. Learning, for him, is leg-lengthening.",
+      "src": [
+        "Wang Bi commentary on Laozi 20",
+        "Zhuangzi, “Pian mu” (駢拇)"
+      ]
+    },
+    "bi": {
+      "kind": "geopolitics",
+      "title": "頑 and 鄙: a block from the border",
+      "body": "頑 has 頁, a head, in it, and the Shuowen’s gloss is a carpenter’s word: a thick, whole block of wood that has not been split. A 頑 person is a blockhead: nothing goes in. It is close kin to 樸, the uncarved wood of passages 15 and 19. 鄙 is a unit of the map; the Shuowen says 五酇爲鄙, five hundred households in the outer lands of a state. People of the capital used it for all that was rustic: bad accent, plain food, no knowledge of the rites. “Border” was a charged word. The states of the centre looked down on Chu in the south and Qin in the west as half-barbarian, and tradition says that Laozi was a man of Chu. The speaker takes the insult as a title. Legge writes “a rude borderer”. The Mawangdui silk texts are reported to read 頑以悝, with a different last word.",
+      "src": [
+        "Shuowen Jiezi, 頁部: 頑，㮯頭也。从頁元聲。",
+        "Shuowen Jiezi, 邑部: 鄙，五酇爲鄙。从邑啚聲。",
+        "Shiji, “Laozi Han Fei liezhuan”",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "shimu": {
+      "kind": "gap",
+      "title": "食母: fed by the mother",
+      "body": "The last two characters are a puzzle. 食 read shí is “to eat, food”; read sì it is “to feed”. So 食母 can be “the mother who feeds”, “to feed on the mother”, or “to be fed by the mother”. It was also a set term: the ritual books say that the son of a great officer has a 食母, a wet nurse. Each reading keeps the body: milk, a breast, a mouth. Wang Bi: 食母，生之本也, “the feeding mother is the root of life”. Legge adds “(the Tao)” in a bracket, which is right and is not in the text. The passage has been about an infant since its middle: one that has not yet laughed and has nowhere to go home to. Now the infant says what it has that the feasters lack. They eat the sacrifice. It is at the breast. The mother appears in passages 1, 25, 52, and 59. The Mawangdui silk texts are reported to say 吾欲: “I wish to be different”.",
+      "src": [
+        "Wang Bi commentary on Laozi 20",
+        "Liji, “Nei ze” (內則)",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge and the “stupid man”",
+      "body": "Legge turns the opening into a rhymed riddle and decides its sense with two brackets: “The (ready) ‘yes,’ and (flattering) ‘yea’”. Then he does well with the lament, because Victorian English had a register for melancholy: “listless and still”, “dejected and forlorn”, “as if I had no home to go to”. But the fool troubles him. “My mind is that of a stupid man; I am in a state of chaos” is a diagnosis. The Chinese is a cry of recognition with two particles of feeling, 也哉. And for the infant he reaches for theory: “my desires having as yet given no indication of their presence”. The text says 未兆, “no sign yet”, and says nothing of desires. He hears a moral psychology where the Chinese has a baby’s blank face. His “nursing-mother” for [[食母|shimu]] is exact and warm.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Be dim at the feast",
+      "body": "The next time you are in a bright room, a party, a meeting, a feed on a screen where each person shines, try the speaker’s place for ten minutes. Do not perform, and do not withdraw in pride either; the passage has no pride in it. Let the face rest, like [[a face before its first smile|hai]]. Have no opinion ready. If someone asks what you do, try an answer with no [[use|yi-use]] in it. Notice the fear that comes: of being taken for a fool, a block, a person from nowhere. The passage names each of those fears and puts “I” in front of it. Then find the last line in your own body. Under the wish to shine there is something that is fed without effort: breath comes in, and you did not earn it. Stay there for three breaths."
+    }
+  },
+  "lenses": {
+    "ground": "A slogan, three sharp questions, and then the longest “I” in the book. The slogan: [[cut off learning|xue]], no worry. The questions: how far is [[“yes, sir” from “yeah”|wei-e]]? [[Good from foul|shan-e]]? And must one fear [[what people fear|ren-wei]]? Then an outcry at a [[waste with no end|huang]]. The rest is a set of contrasts between the crowd and “[[I alone|du]]”. They are at [[the sacrifice feast and on the spring terrace|tailao]]; I am an infant that has [[not yet laughed|hai]], a [[stray|leilei]]. They have [[surplus|yi]]; I have lost it. They are [[bright and sharp|zhaozhao]]; I am dusk and shut. They have [[a use|yi-use]]; I am a [[block from the border|bi]]. Two lines break the list with size: [[the sea, the high wind|hai-sea]]. The last line gives the one thing that the speaker has: [[the mother who feeds|shimu]].",
+    "inner": "Books on the contemplative life seldom admit this passage’s subject: the path can feel like loss. The others have plans, tastes, opinions, a place at the table; the one who has let the sorting stop has, for a time, a blank where the personality was. The text does not hurry to console. It lets the speaker be [[listless|leilei]], [[left behind|yi]], a [[fool|yu]]. Yet look at the images chosen. An infant [[before its first laugh|hai]] is not sad; it is prior to the social face. The [[sea|hai-sea]] is the lowest and the largest thing. Dusk is when the eyes rest. Each lack is also a description of the Way from passage 14: no sign, no shape, no name. The final line is not a reward that comes later. The infant is at the breast the whole time. What feeds you when you produce nothing?",
+    "leading": "Read it first as a mirror of group life, which has changed little. Careers are made of [[the correct yes|wei-e]], given in the correct tone to the correct rank. A group’s good and bad are often [[its likes and dislikes|shan-e]] with a moral name. Fears are caught from others. And everyone must [[have a use|yi-use]], a role that can be stated in a line. A leader should know how much of an organisation’s energy goes into this theatre, and that the people who decline to shine in it look, from the stage, like [[blockheads from the border|bi]]. Some of them are the only ones in touch with what feeds the place. [[Passage 58 applies the same words to government|zhaozhao]]: a sharp-eyed administration makes a broken people. There is a warning for the leader’s own person too, in the reported silk version of one line: [[whoever is feared must fear|ren-wei]].",
+    "nature": "The crowd in the passage is seasonal: it feasts in spring and climbs up to look at the green. The speaker’s images are older than seasons. The [[sea|hai-sea]] does not have a spring; it sways. The wind high up has no place to stop and needs none. [[Waste land|huang]], which a farmer hates, is where everything that is not a crop lives. An infant is the nearest thing in human life to an animal’s way of being: fed, and without a plan. Much of nature is [[murky and unsorted|yu]] by a clerk’s standard, a swamp, a thicket, a tidal flat, and those are the places with the most life in them. The passage’s last word is 母. Each wild thing is at that breast, and has no surplus stored. Where in you is there still some land that nobody tills?",
+    "practice": "Try [[ten minutes of being dim at the feast|practice]]. Then, in private, take the three questions as real ones. Write down two answers that you give with different degrees of [[“yes”|wei-e]], and ask what the difference protects. Write one thing that you call bad, and ask [[how far it is|shan-e]] from its opposite on a day when you are tired. Write one fear that you hold because those around you hold it. Do not resolve anything. Then read the passage aloud, slowly, with weight on each “I alone”, and see which line you would rather not say. That line is yours. For company on the road, there is [[the story of Confucius at the city gate|leilei]], and [[the poet who said “I alone” the other way round|du]]. For the Victorian view of a fool, see [[Legge|legge]]."
+  },
+  "glyph": "孩",
+  "plates": [
+    {
+      "c": "孩",
+      "title": "A baby’s first laugh",
+      "lesson": "Left side: 子, a child. It is a picture, and one of the easiest to see once you are told: a large head, two arms out, and one line for body and legs: a wrapped baby, it is commonly said. The Shuowen says 象形. As a word 子 is son, child, seed, and a title of respect: the 子 in 老子 and 孔子 is “master”. Right side: 亥. It gives the sound; as a word it is the last of the twelve calendar branches, the pig of the animal cycle. The surprise is the meaning of the whole. Today 孩子 is the everyday word for “child”, and 孩 alone feels like a noun. In the Shuowen it is a verb, the old-script way to write 咳: 小兒笑也, “a small child laughs”. In that other form the laugh is written with 口, a mouth; in ours it is written with the child. The two graphs went two ways. 咳 kept the mouth and came to mean “to cough”. 孩 kept the child and became the child: the name of the one who laughs took the place of the laugh. The passage uses it in the first sense: an infant that has [[not yet laughed|hai]], and so, by the old rite, has not yet been named. Cousins with 子: 好 (a woman and a child: good, to love), 字 (a child under a roof: to give a name, a written character), 孫 (grandchild: a child and a thread), 學 (learning: [[a child under a cover|xue]]), 孝 (the child who carries the old).",
+      "brush": "Nine strokes: three and six. 子 as a left-hand part: a level stroke that turns sharply down to the left; then a curved vertical with a hook at its foot; then the arms. When 子 stands alone the arms are a level line. Here they are written as a stroke that rises to the right, and it stops short, so as not to enter the other half. Then 亥: a dot on top; a level stroke under it; then a stroke that goes down to the left, turns, and comes back; then two strokes that fall to the left, the first long and the second shorter, under it; and a last stroke that presses down to the right. Watch strokes six to nine. They hang from the level line one below the other like a child’s mobile, and the final stroke, low on the right, is the counterweight that keeps the whole character from tipping toward the child."
+    },
+    {
+      "c": "獨",
+      "title": "The dog that walks alone",
+      "lesson": "On the left is 犭, the side form of 犬, a dog. 犬 is 大 with a dot; the old forms are a dog drawn on end, with a lean body and a curled tail. As a side part it marks animals, mostly the wild and wilful ones: 狗 (dog), 狼 (wolf), 狐 (fox), 猴 (monkey), 猶 (the ape of passage 15), 獵 (to hunt), 狂 (mad), and 狀, “shape”, which the Shuowen defines as “the form of a dog”. On the right is 蜀. Alone it is the old name of Sichuan; the Shuowen explains it as a grub in the mallow plant, with 目 for its head and 虫, a creature, below. Here it gives the sound. Now the definition, one of the dictionary’s best: 犬相得而鬬也, “dogs, when they come together, fight”, and then a proverb: 羊爲羣，犬爲獨也, “sheep make a flock; a dog makes one alone”. The graph for a flock, 羣, has 羊, a sheep, in it; the graph for alone has the dog. So to be 獨 is not to be abandoned. It is to be the kind of animal that does not herd. The word has an honoured place in Chinese ethics. The Confucian classics ask a person to be watchful when 獨, alone and unobserved, and passage 25 of this book says that the Way 獨立, “stands alone”, and does not change. The speaker of this passage says [[我獨|du]] six times. The short form is 独: the dog, and only the 虫.",
+      "brush": "Sixteen strokes: three for the dog, thirteen for 蜀. The dog: a short stroke that falls to the left; a long curved stroke that bends outward and ends in a hook; and a second falling stroke across its lower part. Keep it lean, with the curve like a back. Then the flat eye on top of the right side: a short vertical; a stroke that goes right and turns down; two short verticals inside; and the line that closes it. Under the eye, a falling stroke, and then a long stroke that goes right, turns, comes down, and hooks inward: it wraps the last part like an arm. Inside the wrap is 虫: a small box of three strokes, a vertical through it, a rising stroke at the foot, and a final dot. Watch the wrapping stroke. It decides the width of the whole right side, and the small creature must sit inside it with room to spare."
+    }
+  ]
+}

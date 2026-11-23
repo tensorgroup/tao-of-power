@@ -1,0 +1,117 @@
+{
+  "張": {
+    "senses": [
+      "to put the string on a bow",
+      "to stretch, to spread, to open wide",
+      "a counting word for flat or stretched things; a family name"
+    ],
+    "shuowen": "施弓弦也。从弓長聲。",
+    "shuowenEn": "To put the string on a bow. From 弓 (bow), with 長 for the sound.",
+    "parts": [
+      { "c": "弓", "m": "a bow" },
+      { "c": "長", "m": "sound; by itself: long, elder, to grow" }
+    ],
+    "story": "The first sense is the archer’s act of stringing. A strung bow is under tension, so the word came to mean stretching and opening of every kind. The Laozi uses it twice. What is to be closed must first be opened wide (36). The way of heaven is like the stringing of a bow: the high is pressed down and the low is lifted (77).",
+    "gap": "“To draw a bow” is the shot. 張 is the step before: the bow is made ready and both ends are brought level."
+  },
+  "補": {
+    "senses": [
+      "to mend a garment, to patch",
+      "to repair; to make up a lack; to fill a vacant post",
+      "to nourish (a weak body)"
+    ],
+    "shuowen": "完衣也。从衣甫聲。",
+    "shuowenEn": "To make a garment whole. From 衣 (clothing), with 甫 for the sound.",
+    "parts": [
+      { "c": "衤", "m": "clothing (the form of 衣 at the left of a graph)" },
+      { "c": "甫", "m": "sound fǔ" }
+    ],
+    "story": "A word from the sewing basket. In the Laozi it appears only in passage 77: the way of heaven takes from what has more than enough and mends what has not enough. The Mawangdui silk text writes 益, to add, in the summary line; the received text keeps the image of the patch.",
+    "gap": "“Supplement” is a quantity. 補 is repair: a piece cut to fit a tear."
+  },
+  "奉": {
+    "senses": [
+      "to hold up with both hands, to offer to a superior",
+      "to receive (an order) with respect",
+      "to serve, to wait on; tribute, salary (later 俸)"
+    ],
+    "shuowen": "承也。从手从廾，𡴀聲。",
+    "shuowenEn": "To bear up. From 手 (hand) and 廾 (a pair of hands), with 𡴀 for the sound.",
+    "parts": [
+      { "c": "廾", "m": "two hands held up (hidden in the modern form)" },
+      { "c": "手", "m": "a hand (the lower strokes)" }
+    ],
+    "story": "The gesture of lifting a thing to someone above. In passage 77 the way of people takes from those who lack and 奉 it to those with a surplus: tribute goes up. Then the same verb is turned: who can offer a surplus to all under heaven?",
+    "gap": "“To give” and “to serve” have no direction. 奉 always goes upward, from the lower to the higher."
+  },
+  "弓": {
+    "senses": [
+      "a bow",
+      "bow-shaped, curved",
+      "a measure of length (in archery and land survey)"
+    ],
+    "shuowen": "以近窮遠。象形。古者揮作弓。",
+    "shuowenEn": "From near at hand, to reach the far. A picture. In antiquity Hui made the bow.",
+    "story": "A picture of the bow stave. The war bow of the age was a composite of wood, horn, and sinew that curved forward when unstrung. Many words of tension are written with it: 張 (to string), 引 (to draw), 弛 (to unstring), 弦 (the string), 彊 (strong), and 弱 (weak). In the Laozi the bow appears once, as the image of heaven’s way (77).",
+    "gap": "For an English reader the bow is sport or legend. For the first readers it was the main weapon of war and the measure of a gentleman’s training."
+  },
+  "損": {
+    "senses": [
+      "to lessen, to take away from",
+      "loss, harm",
+      "the hexagram Decrease (Yijing 41), partner of 益"
+    ],
+    "shuowen": "減也。从手員聲。",
+    "shuowenEn": "To reduce. From 手 (hand), with 員 for the sound.",
+    "parts": [
+      { "c": "扌", "m": "hand" },
+      { "c": "員", "m": "sound; by itself: a count of things, a member" }
+    ],
+    "story": "損 and 益, decrease and increase, are a fixed pair. The Laozi turns them over: things are sometimes increased by being reduced (42); in learning one adds each day, and in Dao one takes away each day, and takes away again (48). In passage 77 heaven reduces the surplus, and people reduce those who already lack.",
+    "gap": "“Loss” is bad in English. In the Laozi 損 is often the direction of health: the removal of an excess."
+  },
+  "餘": {
+    "senses": [
+      "what is left over; surplus",
+      "plenty, more than enough",
+      "the rest, the remainder"
+    ],
+    "shuowen": "饒也。从食余聲。",
+    "shuowenEn": "Plenty. From 食 (food), with 余 for the sound.",
+    "parts": [
+      { "c": "飠", "m": "food" },
+      { "c": "余", "m": "sound yú" }
+    ],
+    "story": "Food that remains after the meal. In the Laozi 有餘, to have extra, is seldom good. The crowd all have extra, and the speaker alone seems to have lost everything (20). Leftover food and useless growths are what Dao rejects (24). The court has goods to spare while the fields are full of weeds (53). Heaven takes from what has extra (77). After a great grievance is settled, some grievance is left over (79).",
+    "gap": "“Surplus” and “abundance” sound like success. 餘 is nearer to “leftovers”: more than the meal needed."
+  },
+  "功": {
+    "senses": [
+      "work accomplished; an achievement",
+      "merit, service that earns reward",
+      "effect, result"
+    ],
+    "shuowen": "以勞定國也。从力从工，工亦聲。",
+    "shuowenEn": "By toil to make the state secure. From 力 (strength) and 工 (work); 工 also gives the sound.",
+    "parts": [
+      { "c": "工", "m": "work; a craftsman’s tool" },
+      { "c": "力", "m": "strength" }
+    ],
+    "story": "In the Warring States 功 was a legal quantity: service, above all in war, entered in a register and paid in rank and land. The Laozi asks for the work without the account. When the work is done, withdraw: that is heaven’s way (9). The work is finished, and the hundred families say that it came of itself (17). One who boasts has no 功 (24). The sage finishes and does not stay (2, 77).",
+    "gap": "“Merit” is a moral word in English. 功 is closer to “credit” in the accounting sense."
+  },
+  "恃": {
+    "senses": [
+      "to lean on, to rely on",
+      "to presume on (one’s strength, one’s deeds)"
+    ],
+    "shuowen": "賴也。从心寺聲。",
+    "shuowenEn": "To depend on. From 心 (heart), with 寺 for the sound.",
+    "parts": [
+      { "c": "忄", "m": "heart, mind" },
+      { "c": "寺", "m": "sound; by itself: an office, later a temple" }
+    ],
+    "story": "The heart’s act of resting its weight on something. The refrain 為而不恃, to act and not lean on the act, comes four times in the Laozi (2, 10, 51, 77). The ten thousand things lean on Dao for life, and it does not refuse them (34).",
+    "gap": "English versions say “expects no reward” or “claims no credit”. 恃 is simpler and more physical: to put one’s weight on a thing."
+  }
+}

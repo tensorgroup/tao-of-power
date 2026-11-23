@@ -1,0 +1,240 @@
+{
+  "n": 23,
+  "title": "A Squall Before Noon",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "希言自然。",
+      "gloss": {
+        "0": "sparse, rare, thin (the “Sparse” of passage 14)",
+        "1": "words, speech; to speak",
+        "2": "self; of itself",
+        "3": "so, thus"
+      }
+    },
+    {
+      "text": "故飄風不終朝，驟雨不終日。孰為此者？天地。天地尚不能久，而況於人乎？",
+      "gloss": {
+        "1": "piāo: whirling, of wind",
+        "2": "wind",
+        "4": "to last to the end of",
+        "5": "zhāo: morning (cháo: a court)",
+        "7": "zhòu: sudden, at a gallop",
+        "13": "who? which?",
+        "23": "even; still",
+        "26": "to last long",
+        "29": "how much more (or less)"
+      }
+    },
+    {
+      "text": "故從事於道者，道者同於道，",
+      "gloss": {
+        "1": "to follow behind",
+        "2": "work, service, one’s business",
+        "9": "the same as; at one with"
+      }
+    },
+    {
+      "text": "德者同於德，",
+      "gloss": {
+        "0": "de: inner power (it sounds like 得, to get)"
+      }
+    },
+    {
+      "text": "失者同於失。",
+      "gloss": {
+        "0": "to let slip; loss"
+      }
+    },
+    {
+      "text": "同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。",
+      "gloss": {
+        "7": "lè: glad (yuè: music)",
+        "8": "to get, to receive"
+      }
+    },
+    {
+      "text": "信不足焉，有不信焉。",
+      "gloss": {
+        "0": "trust; good faith",
+        "3": "in this, there"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Sparse words|xiyan]]: [[so of itself|ziran]].",
+    "So a [[whirlwind|piaofeng]] does not last the morning;",
+    "a [[sudden rain|zhouyu]] does not last the day.",
+    "Who makes these? [[Heaven and earth.|tiandi]]",
+    "Heaven and earth, even they, cannot keep it up;",
+    "[[how much less, then, people?|qin]]",
+    "",
+    "So, of those who [[make Dao their work|congshi]]:",
+    "the one of Dao is [[at one with|tong]] Dao,",
+    "the one of [[De|de-de]] is at one with De,",
+    "the one of [[loss|shi]] is at one with loss.",
+    "At one with Dao: Dao too is [[glad to get them|le]].",
+    "At one with De: De too is glad to get them.",
+    "At one with loss: loss too is glad to get them.",
+    "",
+    "[[Trust not enough, there:|xin]]",
+    "no trust, there."
+  ],
+  "notes": {
+    "xiyan": {
+      "kind": "wangbi",
+      "title": "Wang Bi: words with no taste",
+      "body": "Four characters, with no subject and no verb between the halves: 希言, 自然. 希 is the word of passage 14: “listened to, not heard: its name is Sparse”. Wang Bi starts there: 聽之不聞名曰希. Then he quotes passage 35, where the Way, put into words, is 淡兮其無味, “flat, with no taste”, and concludes: 然則無味不足聽之言，乃是自然之至言也. “So then: words that have no taste and are not enough for the ear, these are the utmost words of the self-so.” For him the line is about the kind of speech that the Way has. The usual reading is about quantity: to speak seldom is natural. The book has said it before. The best ruler holds words dear (17). Many words are soon used up (5). The sage teaches without words (2). The weather lines that follow give the proof. Nature has loud speeches, and they are short.",
+      "src": [
+        "Wang Bi commentary on Laozi 23",
+        "Laozi 14, 35"
+      ]
+    },
+    "ziran": {
+      "kind": "gap",
+      "title": "自然, the second time",
+      "body": "In passage 17 the people said 我自然, “we are so of ourselves”. Here the word stands with no speaker. 自 is “self, of itself”; 然 is “so”. It is still a description and not yet a noun: English “Nature” with a capital, a realm of trees and weather set against the human world, is a later meaning, and the modern Chinese word for nature was made from this phrase. So “Nature says few words” reads a later idea into the line. And yet the text goes at once to wind and rain, and one can see how the later meaning grew: weather is the plainest case of what is “so of itself”, since nobody commands it. Legge writes of one “obeying the spontaneity of his nature”, which turns two syllables into a Victorian theory of character. Try the plain sense on your own speech. Which of today’s words came of themselves, and which were pushed?"
+    },
+    "piaofeng": {
+      "kind": "etymology",
+      "title": "飄風: the wind that turns",
+      "body": "飄 is not any wind. The Shuowen defines it 回風也, “a wind that turns back on itself”: a whirlwind, a squall. In the Book of Odes it is the wind of bad times: 飄風發發, “the whirlwind roars”, sings a man who cannot go home to bury his parents. For the plain word 風 the Shuowen has one of its long entries. It names eight winds, one for each direction, each with its season, and then says 風動蟲生, “when the wind stirs, insects are born”; that, it explains, is why the graph for wind has 虫, a creeping creature, inside it. Wind, for the Han, is what wakes living things. A steady seasonal wind does that work all year. The whirlwind is the opposite kind: it has great force, turns in a circle, and is gone before noon. 終朝 is “to the end of the morning”.",
+      "src": [
+        "Shuowen Jiezi, 風部: 飄，回風也。从風㶾聲。",
+        "Shuowen Jiezi, 風部: 風，八風也。…風動蟲生。故蟲八日而化。从虫凡聲。",
+        "Shijing, Xiao ya, “Lu e” (蓼莪)"
+      ]
+    },
+    "zhouyu": {
+      "kind": "etymology",
+      "title": "驟雨: rain at a gallop",
+      "body": "驟 has 馬, a horse, at its left, and the Shuowen defines it 馬疾步也: “a horse’s fast pace”. Rain that 驟 is rain that arrives at a gallop: a cloudburst. So the couplet has a turning wind and a running horse in it. The Mawangdui silk texts are reported to read 暴雨, “violent rain”, with a word that is also used of a cruel ruler, as English says “a violent man”. Wang Bi sums up the two images in six characters: 言暴疾美興不長也, “this says that what rises violent, fast, and splendid does not last long”. His word 美, “fine, splendid”, is worth a second look. A cloudburst is impressive. People stop to watch it, and talk about it afterwards. The slow rain that fills the wells gets no comment at all. Which kind of effort do you admire more in yourself?",
+      "src": [
+        "Shuowen Jiezi, 馬部: 驟，馬疾步也。从馬聚聲。",
+        "Wang Bi commentary on Laozi 23",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "tiandi": {
+      "kind": "gap",
+      "title": "Heaven and earth are not almighty",
+      "body": "孰為此者？天地. “Who makes these? Heaven and earth.” A reader formed by the Bible expects the answer “God”, and expects that what God does can last as long as God wills. The text says: even heaven and earth 不能久, “are not able to make it last”. They are the largest things there are, and they have limits. No will stands behind the storm, and no anger. This seems to conflict with passage 7, which says 天長地久, “heaven is long-lived and earth lasting”. The two fit. Heaven and earth themselves endure, says passage 7, because they do not live for themselves. What does not endure is their violence. A storm is the one thing they do by force, and it is the one thing they cannot keep up. The last clause then turns to us: 而況於人乎, “and how much less, then, people?”",
+      "src": [
+        "Laozi 7"
+      ]
+    },
+    "omen": {
+      "kind": "history",
+      "title": "When storms were messages",
+      "body": "In the old Zhou religion a great storm was speech. Heaven, 天, watched the king, and showed its displeasure by signs. One of the old documents tells that when the young King Cheng doubted his loyal uncle, the Duke of Zhou, heaven sent thunder and a wind that flattened the ripe grain and tore up great trees; the king opened a sealed coffer, found proof of the duke’s loyalty, and wept, and the wind turned and the grain stood up again. Court experts read such signs all through the Warring States and the Han. This passage uses the same pair, wind and rain, and takes the message out. The storm is short because storms are short. If it teaches anything, it teaches by being what it is. That is one of the quiet revolutions of this book. Heaven still does things here. It no longer scolds.",
+      "src": [
+        "Shangshu, “Jin teng” (金縢)"
+      ]
+    },
+    "qin": {
+      "kind": "geopolitics",
+      "title": "The state that ruled like a storm",
+      "body": "For the first readers, “people” who try to make violence last meant rulers above all. The states of the time were driven hard: mass levies, forced labour on walls and canals, new laws each season, campaigns each year. The state that drove hardest was Qin. In 221 BCE it conquered all the others, and its king took the title First Emperor and announced that his house would rule for ten thousand generations. It ruled for fifteen years. The Han thinkers who came after, Lu Jia and Jia Yi among them, wrote essays on why Qin fell so fast, and their answer was this passage’s answer: it never ceased to use force. The early Han court then governed for some decades by a policy of rest that it took from this book. The first line applies too. Qin’s government spoke without end, in edicts carved on stone.",
+      "src": [
+        "Jia Yi, “Guo Qin lun” (過秦論)",
+        "Shiji, “Qin Shihuang benji”"
+      ]
+    },
+    "congshi": {
+      "kind": "gap",
+      "title": "從事: on the job, not “believing”",
+      "body": "從事於道者 is “one who 從事 in Dao”. 從 is to follow, the verb that passage 21 used for De behind Dao. 事 is work, service, a post; the Shuowen says 職也, “an office, a duty”. The compound is ordinary Chinese, then and now, for being occupied with something: a person 從事 farming, or trade, or teaching. Modern popular versions often turn the next lines into a law of belief: you become what you think. The text says nothing of thought or belief. It speaks of what a person does all day, as a craft is done, and says that a person comes to be the same as that. One knot remains. The received line says 道者 twice, and so seems to make all three kinds, even the one of loss, workers at the Way. Many scholars take the second 道者 as a copyist’s repeat; the Mawangdui silk texts are reported to lack it. Then there are three parallel cases, and the worker at the Way is only the first. What is your work, in fact?",
+      "src": [
+        "Shuowen Jiezi, 史部: 事，職也。从史，之省聲。"
+      ]
+    },
+    "tong": {
+      "kind": "gap",
+      "title": "同: the same as, together with",
+      "body": "同 is “same” and “together”. The Shuowen defines it 合會也: “to join, to meet”. Chinese has no separate phrase for “to become one with”, which in English has a mystical ring. 同於道 is only “same-with Dao”: of one kind with it, in its company, not to be told apart from it. The word was used in passage 1 for the two that “come out together”, 同出, and it will be used in passage 56 for 玄同, “the dark sameness”, when the edges are blunted and the dust is shared. Here the surprise is that the pattern does not stop at the good cases. There is sameness with the Way, sameness with De, and, by the very same grammar, sameness with [[loss|shi]]. The text does not threaten. It reports that a person is in the company of what that person practises. Wang Bi’s phrase for it is 與道同體, “of one body with the Way”.",
+      "src": [
+        "Shuowen Jiezi, 𠔼部: 同，合會也。从𠔼从口。",
+        "Wang Bi commentary on Laozi 23"
+      ]
+    },
+    "de-de": {
+      "kind": "wordplay",
+      "title": "德 and 得: power and getting",
+      "body": "德, inner power, and 得, “to get”, were near-homophones, and early writers defined one by the other: 德 is what a thing has got from the Way. The passage plays on the pair. After “the one of 德” it sets “the one of 失”, loss, and the true opposite of loss is not virtue. It is gain. Wang Bi’s copy seems to have had 得 outright, since his comment reads: 得，少也，少則得，故曰得也, “得 is fewness; ‘few, then gain’; so the text says 得”. He quotes passage 22. And he glosses 失 as 累多, “to pile up much”: the “many, then bewildered” of the same passage. So for him the three kinds of people are: those of the Way, those who get by having little, and those who lose by having much. English cannot keep the echo. Our rendering keeps De and trusts this note.",
+      "src": [
+        "Wang Bi commentary on Laozi 23",
+        "Laozi 22"
+      ]
+    },
+    "shi": {
+      "kind": "etymology",
+      "title": "失: what slips from the hand",
+      "body": "失 is often given as “failure” here, a word from the language of careers. The Chinese is “loss”. The Shuowen files 失 under 手, the hand, and defines it 縱也, “to let go”: a thing that slips out of the grip. It is the verb of passage 38’s ladder: 失道而後德, “the Way is lost, and after that comes De”; lose De, and then humaneness; and so on down. So “the one of loss” is a person whose daily business is that ladder: more and more means, and less and less of the thing. The cool justice of the line is that such a person is not cast out. They too arrive at sameness, and have company. Loss is a place where one can live, and many do. The sentence has no pity and no blame in it. Is there a loss that you have made your work?",
+      "src": [
+        "Shuowen Jiezi, 手部: 失，縱也。从手乙聲。",
+        "Laozi 38"
+      ]
+    },
+    "le": {
+      "kind": "variant",
+      "title": "Is the Way “glad”?",
+      "body": "The received text says three times 樂得之, “is glad to get them”. 樂 (lè) is joy; read yuè the same graph is music, and the Shuowen explains it as drums on a wooden stand. A Way that is glad looks like a person, and readers who want a loving God in this book have used the line. The Mawangdui silk texts are reported not to have it. Their reported reading is: 同於德者，道亦德之；同於失者，道亦失之. “Those at one with De, the Way also ‘De’s them (or: gets them); those at one with loss, the Way also loses them.” There is no gladness there, and the subject in both halves is the Way. That older form is harder and more exact: what you practise toward the Way, the Way does to you. The warm verb of the received text is a later hand. We render the received words; read them with the silk in mind.",
+      "src": [
+        "Shuowen Jiezi, 木部: 樂，五聲八音緫名。象鼓鞞。木，虡也。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "xin": {
+      "kind": "variant",
+      "title": "The trust line, again",
+      "body": "信不足焉，有不信焉 stood in passage 17, where it explained how rulers fall from being unnoticed to being scorned. Here it comes back word for word, and it does not fit so well. The Mawangdui silk texts are reported not to have it in this passage, and many editors think a copyist added it from memory. Wang Bi had it and gave it a sense: 忠信不足於下，焉有不信焉, “when loyalty and trust toward those below are not enough, then there is distrust”. He reads the first 焉 as “then”, at the head of the second clause. If the line belongs, it gives the rule of the passage in the smallest space. Trust is like the three samenesses: what you bring is what meets you. One who works at distrust finds that distrust, too, is glad to get them. Is that a law of nature, or of people? The passage does not separate the two.",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Wang Bi commentary on Laozi 23",
+        "Laozi 17"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge makes it a matter of agreement",
+      "body": "Legge’s first sentence needs thirteen words for four characters: “Abstaining from speech marks him who is obeying the spontaneity of his nature.” It has a “him”, a duty (“abstaining”), and a master to obey. For the storm he adds a judgment in a bracket: heaven and earth’s “(spasmodic) actings”. The middle of the passage he reads as social life. For him 同 is “agree with”: those who pursue the Way “agree with him in it”, and even those who fail “agree with him where they fail”. The picture is of a teacher and three sorts of company, and it ends in “the happiness of attaining”. That is a possible reading of 同, and a kind one. But the Chinese has no “him” at the centre. It says that each person comes to be the same as that person’s own work. In the last line he again makes 信 “faith”.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Let the squall pass",
+      "body": "The next time a strong feeling rises, anger, panic, a flood of certainty, treat it as weather. Say to yourself: a whirlwind does not last the morning. Do not act and do not speak for the length of the squall; in the body it is often no more than a minute or two, if you do not feed it with words. Watch it turn and thin. Then say the one sentence that is still true when it has gone; that is your [[sparse word|xiyan]]. For the second half of the passage, ask at the end of the day: what did I 從事, [[work at|congshi]], today, hour by hour? Not what I believe or intend. Whatever the answer, you are a little more [[the same as|tong]] that thing tonight than you were this morning. The passage adds, with no unkindness, that it is glad to have you."
+    }
+  },
+  "lenses": {
+    "ground": "One line of four characters, then weather, then a table of three rows. The line: [[sparse words|xiyan]], [[so of itself|ziran]]. The weather: a [[whirlwind|piaofeng]] is over before noon and a [[cloudburst|zhouyu]] before night; [[heaven and earth|tiandi]] make them and cannot make them last; so how could people? Then the table. Those who [[make the Way their work|congshi]] are of three kinds, the one of Dao, the one of [[De|de-de]], and the one of [[loss|shi]], and each becomes [[the same as|tong]] its object. A second table repeats the three and adds that each object is [[glad to get them|le]]. A line about trust, [[borrowed from passage 17|xin]], ends it. The [[silk texts|le]] are reported to be shorter. The pictures are few and strong: a turning wind, a horse at a gallop, drums on a stand, a hand that lets go.",
+    "inner": "The passage makes two observations about the inner life. First, intensity does not last. The mind has its [[whirlwinds|piaofeng]]: bursts of resolve, of rage, of rapture in meditation. They feel like the real thing because they are loud. The text points out that even heaven cannot keep a storm up until noon, and asks how you could. What lasts is of the other kind: thin, even, [[with almost no taste|xiyan]]. Second, you become what you do. This is not a doctrine of positive thought. It is closer to the fact that a hand takes the shape of its tool. Give your hours to the Way and you grow [[like it|tong]]; give them to [[loss|shi]], to grievance, to counting what is gone, and that also takes you in, and gladly. No one judges. There is only the question of what you are practising now.",
+    "leading": "The first lesson is about the style of rule. Government by [[storm|qin]], the campaign, the purge, the hundred-day push, the daily announcement, has the force of heaven and earth behind it for a morning. The passage was read, after the fall of Qin, as an exact forecast. A leader’s words follow the same law: [[few|xiyan]], and they are heard; a flood, and people take shelter and wait. The second lesson is about culture. A group becomes [[the same as|tong]] what it works at. If its hours go to the craft, it comes to resemble the craft. If they go to covering losses, assigning blame, and explaining, it becomes a company of [[loss|shi]], and loss is glad to have it. The [[trust line|xin]] at the end is the feedback loop in one sentence. Which weather do you make: the kind people talk about, or the kind that fills wells?",
+    "body": "Strong emotion is [[weather in the body|practice]], and the body cannot sustain it: the surge of a rage or a fright is spent in a minute or two, unless thought stirs it up again. Athletes know the same law from the other side. A sprint is a [[cloudburst|zhouyu]]: it is splendid, and over. The work that builds a body is the long, easy, repeated kind that nobody watches. Breath shows both. A forced deep breath is a small squall. The ordinary breath, thin and even, [[sparse|xiyan]] as the first line says, has gone on since you were born. In your next hard effort, find the pace that you could keep up all day. That pace is [[自然|ziran]].",
+    "nature": "The passage is good meteorology. The energy of a thunderstorm is spent in an hour, because it uses up the difference in heat that made it. A drizzle can go on for days. Floods carve a valley in one afternoon, and the valley is then shaped for ten thousand years by water that hardly seems to move. It is good ecology too: the fast-growing weed is the first to die, and the slow oak stands. Even [[heaven and earth|tiandi]] obey this, the text says: there is no power in the world that can do the violent thing for long. The old belief read [[storms as heaven’s anger|omen]]. This passage reads them as heaven’s brief exception. For the Han dictionary, steady wind was the breath that [[wakes the insects|piaofeng]] in spring. What in the land around you was made by the slow water?",
+    "practice": "Two exercises. First, [[let one squall pass|practice]] today without a word, and then say the single sentence that remains. Second, keep a rough account of one day by the hour. At night, read it as the passage would: this is what I [[worked at|congshi]]. Do not judge the list. Ask only what you are becoming [[the same as|tong]]. If the answer includes some hours of [[loss|shi]], note that the text says so calmly, and that the older copies say it [[more plainly still|le]]. For the long view, read how [[an empire that governed like a storm|qin]] lasted fifteen years. And if you would like to see four characters grow into thirteen words, read [[Legge’s first sentence|legge]], and then say the Chinese aloud: xī yán zì rán."
+  },
+  "glyph": "然",
+  "plates": [
+    {
+      "c": "然",
+      "title": "Dog meat over a fire",
+      "lesson": "The plainest word in the book’s most famous phrase has a kitchen in it. Take the character apart from the bottom. The four dots, 灬, are fire: this is the form that 火 takes at the foot of a character, as in 熱 (hot), 煮 (to boil), 烈 (fierce), 照 (to shine on). The upper part is 肰, and the Shuowen defines that with no fuss: 犬肉也, “dog meat”. It is itself two pictures: at the left a slanted form of 肉, meat (the same form that is written 月 at the side of 肌, muscle, and 肥, fat), and at the right 犬, a dog. Dog was ordinary food in early China, and a sacrificial animal. So: meat of a dog, over a fire. The Shuowen’s definition of the whole is one word, 燒也, “to burn, to roast”. How did “to burn” come to mean “so, thus, yes”? By loan. The spoken word for “so” sounded the same and had no picture, as is usual for grammar words, and scribes borrowed this graph for it. The borrowed sense took the character over, and the first meaning was given a second fire at the side to mark it: 燃, to burn, which is still the word. Now the graph is in a great part of the language: 然後 (after that), 雖然 (although), 當然 (of course), 忽然 (suddenly), and [[自然|ziran]], “self-so”. As with 無, the dancer, in passage 11, we do not claim that the roast is in the meaning. It is in the picture.",
+      "brush": "Twelve strokes: four for the meat, four for the dog, four for the fire. The meat: a stroke that falls to the left; a level stroke that turns and falls to the left under it; then two dots inside. It leans, as if hung up. The dog: a level stroke; a long stroke that falls to the left through it; a stroke that presses out to the right, kept short here, because the fire is beneath; and the dot at the upper right. Then the four dots, from left to right. Watch them: the first leans to the left, the next two are small and nearly upright, and the fourth leans to the right and is the heaviest. A good hand makes them flicker and keeps them on one line. The whole upper part must sit close over them, so that the flames reach it. In cursive script the four dots become one level wave."
+    },
+    {
+      "c": "自",
+      "title": "The nose you point to",
+      "lesson": "The Shuowen’s entry is four characters long: 鼻也。象鼻形。 “The nose. It shows the shape of a nose.” The oracle-bone forms are commonly described so too: a nose seen from the front, with the bridge and the two wings, and lines for the creases. This graph was first the word for “nose”. It came to mean “self” by a gesture: in China a person who says “me” points a finger at the nose, where a European points at the chest. The pointing became the meaning, and the borrowed sense took the character over. The nose was then given a new graph with a sound part added below: 鼻, in which you can still see 自 on top. The pattern is that of 然 and 燃. Two senses grew from “self”. One is reflexive: 自知 is to know oneself, 自勝 to overcome oneself, and the four faults of passage 22 are all 自: 自見, 自是, 自伐, 自矜. The other is “from”, the point where a thing starts: 自古, “from of old”; passage 21 had 自今及古. Put the two together and you have the sense in [[自然|ziran]]: so from itself, with its own nose as the starting point and no other cause to point at. A near look-alike is 目, the eye, with one stroke fewer; 白, white, is close too. Similar shapes only: the pictures are different. And 息, the breath, is 自 over 心: nose and heart.",
+      "brush": "Six strokes. First a short stroke that falls to the left, at the top: small, and set a little left of centre. It is the one stroke that makes this character 自 and not 目. Then the left wall, a vertical. Then the top and right wall in one stroke, with a square shoulder at the turn. Then two short level strokes inside, which touch the left wall and stop just short of the right. Last, the base, which closes the frame. The frame is tall and narrow, and its two long sides should lean very slightly toward each other at the bottom, as a face does. The art is in the three white spaces inside: they must be equal. The seal-script form is rounder and shows the nose more plainly. Watch the order: the walls are built, the inside is filled, and only then is the door shut."
+    },
+    {
+      "c": "風",
+      "title": "The insect in the wind",
+      "lesson": "Wind cannot be drawn, so the script had to borrow. The oracle bones use the graph of a great bird, the phoenix, 鳳, for the word “wind”; the two words sounded alike, and perhaps the bird’s wings were felt to make the wind. That bird is the ancestor of our character, and the outer frame of 風 is its last trace: the same frame, 凡, stands around 鳳. Inside, where the phoenix has 鳥, a bird, the wind has 虫, a creeping creature. The Shuowen explains: 風動蟲生。故蟲八日而化. “When the wind stirs, insects are born; and so insects take eight days to transform.” It then says the frame, 凡, gives the sound. So the Han saw in this graph the spring wind and the first insects that wake in it. The eight days answer to the eight winds of the eight directions, which the dictionary lists by name. The word spread far. 風 is the air of a place and so its customs: 風俗. It is a style: 風格. It is news that travels: 風聞. The first part of the Book of Odes is the 國風, “the airs of the states”, folk songs by which a ruler could feel how the wind blew among the people. With 水 it is 風水, wind and water: the art of siting a house. The passage sets the [[turning wind|piaofeng]] against all of that. The squall wakes nothing, and is gone by noon.",
+      "brush": "Nine strokes: frame, then inside. The first stroke falls from the top to the lower left in a long, slow curve. The second is the one to watch. It goes across the top, turns, comes down the right side with a slight inward bow, and ends in a hook that kicks up and out. It is like the great hook of 孔 in passage 21, but it leans, and the frame it makes must be wide at the foot, like a sail. Then the inside: a short falling stroke under the roof; then 虫: a small vertical, a stroke for the top and side of its box, a level stroke that closes it, a vertical through the box, a stroke that rises at its foot, and a last dot. The creature sits in the middle, with air on each side. In cursive script the inside is often one twist and the frame one sweep: the character looks blown."
+    }
+  ]
+}

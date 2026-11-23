@@ -1,0 +1,63 @@
+{
+  "盲": {
+    "senses": ["blind", "blindly, with no light or guide", "dim, dark"],
+    "shuowen": "目無牟子。从目亡聲。",
+    "shuowenEn": "An eye with no pupil. From 目 (eye), with 亡 for the sound.",
+    "parts": [ { "c": "亡", "m": "sound part; gone, lost, fled" }, { "c": "目", "m": "the eye" } ],
+    "story": "“Gone” above an eye. The sound part also gives the sense, as it does in 忘, to forget (gone, with a heart). In early China the blind had an honored trade: court musicians were blind men, and the music master of the Analects is led in by the hand. The Laozi uses the word once, and not of the born blind: the five colors make a person’s eye 盲 (12). It is a blindness that is produced, by too much to see.",
+    "gap": "The English word is flat: no sight. 盲 says that something has left: the pupil, the seeing part."
+  },
+  "聾": {
+    "senses": ["deaf", "hard of hearing", "not to listen, dull of understanding"],
+    "shuowen": "無聞也。从耳龍聲。",
+    "shuowenEn": "To hear nothing. From 耳 (ear), with 龍 for the sound.",
+    "parts": [ { "c": "龍", "m": "sound part; a dragon" }, { "c": "耳", "m": "the ear" } ],
+    "story": "A dragon over an ear. The Shuowen takes the dragon as the sound only, and readers have long enjoyed the picture of a great roar that ends hearing. The Laozi uses the word once: the five notes make a person’s ear 聾 (12). The notes are the scale of court music, played on bronze bells and stone chimes. The Zhuangzi has the same thought: the five sounds confuse the ear until it does not hear well.",
+    "gap": "“Deaf” in English is a condition. In this line 聾 is a result: the ear worn out by fine sound."
+  },
+  "取": {
+    "senses": ["to take, to seize", "to take a trophy (first sense: the left ear)", "to choose, to adopt", "to take a wife (later 娶)"],
+    "shuowen": "捕取也。从又从耳。《周禮》：“獲者取左耳。”",
+    "shuowenEn": "To capture and take. From 又 (hand) and 耳 (ear). The Rites of Zhou: “The one who makes a capture takes the left ear.”",
+    "parts": [ { "c": "耳", "m": "an ear" }, { "c": "又", "m": "a right hand" } ],
+    "story": "A hand on an ear: the count of enemy dead was made in left ears, and rewards followed the count. From that the word became the general verb “to take”. The Laozi uses it in two ways. One is the formula of choice: leave that, 取 this (12, 38, 72). The other is the taking of the realm: the one who wants to 取 all under heaven and work on it will not succeed (29); 取 all under heaven by having no business (48, 57); a large state that puts itself below a small one 取 it (61).",
+    "gap": "“Take” is a mild word. 取 began as an act of war, and the Laozi’s phrase “take all under heaven” keeps some of that."
+  },
+  "爽": {
+    "senses": ["bright, clear (of dawn, of weather)", "brisk, frank, refreshing", "to err, to miss, to go wrong", "(of the palate) spoiled, dulled"],
+    "shuowen": "明也。从㸚从大。",
+    "shuowenEn": "Bright. From 㸚 and 大.",
+    "story": "A word with two opposite faces. The usual sense is brightness and freshness: 爽 is the clear morning and the cool wind, and in modern speech it is anything that feels great. The other sense is to miss the mark: 爽約 is to break an appointment. The Laozi uses the second: the five flavors make a person’s mouth 爽 (12). Wang Bi glosses it as “to go wrong, to lose the mouth’s function”. The Zhuangzi and the Songs of Chu use it in the same way for a spoiled palate.",
+    "gap": "No English word means both “fresh” and “ruined”. The line plays on the instant in which a reader hears the first sense before the second."
+  },
+  "狂": {
+    "senses": ["a mad dog (first sense)", "mad, frenzied", "wild, unrestrained; bold beyond rule", "violent (of wind, of water)"],
+    "shuowen": "狾犬也。从犬㞷聲。",
+    "shuowenEn": "A mad dog. From 犬 (dog), with 㞷 for the sound.",
+    "parts": [ { "c": "犭", "m": "side form of 犬, a dog" }, { "c": "王", "m": "sound part as now written (older 㞷)" } ],
+    "story": "First a rabid dog, then any creature out of its mind. The word is not always blame. Confucius said that if he could not find people of the middle way, he would take the 狂, the wildly ambitious, as students. The “madman of Chu” who sings past Confucius’s carriage is a 狂. The Laozi uses it once, and with no admiration: the gallop and the hunt make a person’s heart break out in 狂 (12).",
+    "gap": "“Mad” in English is illness or anger. 狂 is an animal state: the bolting, snapping wildness of a dog."
+  },
+  "色": {
+    "senses": ["the look of the face, complexion, expression", "color", "beauty; sexual desire", "appearance, kind"],
+    "shuowen": "顔气也。",
+    "shuowenEn": "The air of the face.",
+    "story": "The first sense is the color that comes and goes in a face: a look. From it come “color” in general and “beauty”, and then desire for beauty; Mencius has a speaker say that appetite for food and for 色 is human nature. Chinese Buddhists later chose the word for form, the visible world: “form is emptiness”. The Laozi uses it once, in the phrase for the five ritual colors that make the eye blind (12).",
+    "gap": "English “color” is a property of surfaces. 色 began on the human face and keeps a link with desire."
+  },
+  "目": {
+    "senses": ["the eye", "to look at, to regard", "an item, a heading, a mesh of a net"],
+    "shuowen": "人眼。象形。重童子也。",
+    "shuowenEn": "The human eye. A picture. The inner lines are the pupil.",
+    "story": "A picture of an eye, turned upright when writing moved to narrow strips. As a part of other characters it marks looking: 見, 相, 看, 眼, 盲. In the Laozi the eye is the organ of reaching outward. The five colors blind it (12). The sage is for the belly and not for the 目 (12). The people all fix their ears and 目 on the sage, and the sage treats them all as children (49).",
+    "gap": "In the West the eye is the noble sense, the model for knowing: “I see”. This book is wary of it. The eye wants, and it has no measure."
+  },
+  "此": {
+    "senses": ["this, these", "here", "thus, in this way"],
+    "shuowen": "止也。从止从匕。",
+    "shuowenEn": "To stop. From 止 (a foot at rest) and 匕.",
+    "parts": [ { "c": "止", "m": "a foot; to stop" }, { "c": "匕", "m": "a person turned round" } ],
+    "story": "The Shuowen explains “this” as the place where the foot has stopped. Its partner 彼, “that”, has the road sign and is glossed “to go toward”. So the two pointing words are a foot at rest and a road. The Laozi uses the pair as a formula of choice, three times: leave that, take 此 (12, 38, 72). It also uses 以此, “by this”, as a full answer: “By what do I know that it is so? By 此.” (21, 54, 57).",
+    "gap": "“This” in English is only a pointer. 此 has a body in it: here, where I stand."
+  }
+}

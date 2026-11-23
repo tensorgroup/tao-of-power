@@ -1,0 +1,63 @@
+{
+  "紀": {
+    "senses": ["the lead end of a silk thread", "to sort threads; to put in order", "guiding rule, discipline (綱紀)", "a record in order; annals", "a cycle of years"],
+    "shuowen": "絲別也。从糸己聲。",
+    "shuowenEn": "To sort silk threads apart. From 糸 (silk), with 己 for the sound.",
+    "parts": [{"c": "糸", "m": "silk; a bound skein"}, {"c": "己", "m": "sound jǐ; commonly explained as an old picture of a cord"}],
+    "story": "A skein of silk is useless until someone finds the head of the thread. That lead end is the 紀; when you hold it, the rest follows without a knot. From the silk room the word went to the state (綱紀, the head-rope of a net and the thread-end: the order that holds a country), to history (a king’s annals are his 紀), and to time (a 紀 was a cycle of twelve years; 世紀 is now “century”). Passage 14 ends with 道紀: the place where the Way, which no hand can seize, gives a hand something to hold.",
+    "gap": "“Essence” and “principle” make it a thing inside Dao. 紀 is a thread: you do not know it, you follow it. Legge’s “clue” (old English “clew”, a ball of thread) is the nearest English."
+  },
+  "御": {
+    "senses": ["to drive a chariot team", "a charioteer", "to guide, to steer; to ride (the wind)", "to attend the ruler; imperial"],
+    "shuowen": "使馬也。从彳从卸。",
+    "shuowenEn": "To make the horses go. From 彳 (a step, a road) and 卸 (to unharness).",
+    "parts": [{"c": "彳", "m": "a step; half of the crossroads 行"}, {"c": "卸", "m": "to leave the car and loose the horses"}],
+    "story": "Driving was one of the six arts of a Zhou gentleman, with rites, music, archery, writing, and reckoning. The driver stands behind two or four horses and holds all the reins; he feels each mouth and cannot use force. Because the king’s driver stood beside the king, 御 later meant “to attend the ruler” and then “imperial”. The word is also written 馭, a horse and a hand. In passage 14 the object is 今之有, what there is now.",
+    "gap": "“Control” and “manage” make an office of it. A driver does not control horses; he keeps contact with them. The word is about feel, timing, and a light hand."
+  },
+  "夷": {
+    "senses": ["level, flat, smooth", "to level; at ease", "the peoples of the east (Zhou usage)"],
+    "shuowen": "平也。从大从弓。東方之人也。",
+    "shuowenEn": "Level. From 大 (a person) and 弓 (a bow). The people of the east.",
+    "parts": [{"c": "大", "m": "a person, front view"}, {"c": "弓", "m": "a bow"}],
+    "story": "The Shuowen gives two senses at once: “level”, and the name that the Zhou gave to the peoples east of them, whom it pictures as a person with a bow. The Laozi uses only the first. In passage 14 it is the name of that which the eye cannot see: a surface so even that sight finds no hold. Passage 41 says 夷道若纇, “the level way seems rough”, and passage 53 says 大道甚夷, “the great way is very level”, and people still prefer the side paths.",
+    "gap": "English versions of passage 14 often say “invisible”. The word does not say that nothing is there. It says there is no feature."
+  },
+  "希": {
+    "senses": ["sparse, thin, far apart (later written 稀)", "rare, seldom", "to hope for (later sense)"],
+    "story": "The Shuowen has no entry for 希 itself; it has 稀, with the grain sign, defined as “thinly spaced”. In the Laozi, 希 is the word for sound at its thinnest. What the ear cannot hear is named 希 (14); sparse speech is natural (23); the great note has sparse sound (41); few in the world attain the teaching without words (43). The modern sense “to hope” (希望) is later.",
+    "gap": "“Inaudible” says the sound is absent. 希 says it is thin: the notes are far apart, and most of what is there is the interval."
+  },
+  "微": {
+    "senses": ["to go unseen, in concealment", "hidden, obscure", "minute, slight, fine", "to decline, to fade"],
+    "shuowen": "隱行也。从彳𢼸聲。",
+    "shuowenEn": "To go in concealment. From 彳 (a step), with 𢼸 for the sound.",
+    "parts": [{"c": "彳", "m": "a step, a road"}, {"c": "𢼸", "m": "sound; itself glossed “fine, subtle”"}],
+    "story": "The first sense is movement that no one notices: to travel in disguise. From it come “hidden” and “minute”. The Laozi uses the word for the grain of things below the level of the senses. Wang Bi explains 妙 in passage 1 as “the far limit of 微”. In passage 14 it names that which the hand cannot get; passage 15 opens its portrait of the old masters with it; passage 36 has 微明, “the fine light”; and passage 64 says a thing is easy to scatter while it is still 微.",
+    "gap": "“Subtle” is close, but in English it praises a mind. 微 describes the thing: small, and on the move, and not seen."
+  },
+  "繩": {
+    "senses": ["cord, rope", "the carpenter’s inked line; a standard", "to measure, to correct", "doubled: on and on without a break"],
+    "shuowen": "索也。从糸，蠅省聲。",
+    "shuowenEn": "A rope. From 糸 (silk); the sound is from 蠅, abbreviated.",
+    "parts": [{"c": "糸", "m": "silk, thread"}, {"c": "黽", "m": "sound part (from 蠅)"}],
+    "story": "A cord of twisted fibre. Carpenters snapped an inked cord against wood to mark a straight line, so 繩 became “a standard” and “to correct”. Passage 80 remembers a time before writing, when people kept records with knotted cords: 結繩. In passage 14 the doubled word 繩繩 pictures a thing that goes on like a rope paid out, and that cannot be named.",
+    "gap": "“Endless” or “ceaseless” keeps the idea and loses the rope and the hands on it."
+  },
+  "混": {
+    "senses": ["to flow together, to blend", "whole, undivided", "turbid, mixed (later, also “muddled”)"],
+    "shuowen": "豐流也。从水昆聲。",
+    "shuowenEn": "An abundant flow. From 水 (water), with 昆 for the sound.",
+    "parts": [{"c": "氵", "m": "water"}, {"c": "昆", "m": "sound; alone: together, a multitude"}],
+    "story": "A water word: streams that run into one flow. The Laozi uses it for the state before things are told apart. The three that the senses cannot reach “blend and are one” (14); the old masters are “blended, like muddy water” (15); and the origin is “a thing blended and complete”, born before heaven and earth (25). Later cosmology called that first state 混沌.",
+    "gap": "“Confused” and “chaos” hear disorder. 混 is not disorder. It is the whole before it is sorted."
+  },
+  "詰": {
+    "senses": ["to question closely, to cross-examine", "to call to account, to punish"],
+    "shuowen": "問也。从言吉聲。",
+    "shuowenEn": "To question. From 言 (speech), with 吉 for the sound.",
+    "parts": [{"c": "言", "m": "speech"}, {"c": "吉", "m": "sound"}],
+    "story": "A word of the court and the law office: to press a person for an answer. In passage 14 the three names “cannot be brought to full questioning”. They do not hide an answer. They are not the kind of thing that a question can open.",
+    "gap": "“Cannot be analyzed” makes it a limit of logic. The Chinese picture is an interrogation that gets no reply."
+  }
+}

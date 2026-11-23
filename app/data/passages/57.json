@@ -1,0 +1,268 @@
+{
+  "n": 57,
+  "title": "More Laws, More Thieves",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "以正治國，以奇用兵，以無事取天下。",
+      "gloss": {
+        "1": "the straight, the regular, the correct",
+        "2": "to govern, to put in order",
+        "6": "qí: the irregular, surprise",
+        "8": "weapons; troops; war",
+        "12": "business, undertakings, state service",
+        "13": "to take, to win"
+      }
+    },
+    {
+      "text": "吾何以知其然哉？以此。天下多忌諱，而民彌貧；民多利器，國家滋昬；",
+      "gloss": {
+        "14": "what is dreaded and forbidden",
+        "15": "huì: what must not be named",
+        "19": "mí: all the more",
+        "24": "sharp; also profitable",
+        "25": "tool, device, weapon",
+        "29": "more and more",
+        "30": "hūn: dusk, darkened (also written 昏)"
+      }
+    },
+    {
+      "text": "人多伎巧，奇物滋起；",
+      "gloss": {
+        "2": "jì: skill, craft (also written 技)",
+        "5": "strange, novel (the same word as “surprise” above)"
+      }
+    },
+    {
+      "text": "法令滋彰，盜賊多有。",
+      "gloss": {
+        "0": "law; model",
+        "1": "order, decree",
+        "3": "displayed, made plain to see",
+        "5": "thief",
+        "6": "bandit; one who does violence"
+      }
+    },
+    {
+      "text": "故聖人云﹕「我無為而民自化，我好靜而民自正，我無事而民自富，我無欲而民自樸。」",
+      "gloss": {
+        "11": "of itself, by itself",
+        "12": "to change, to be transformed",
+        "20": "to come straight (the first word of the passage)",
+        "36": "pǔ: wood not yet cut"
+      }
+    }
+  ],
+  "rendering": [
+    "By [[the straight|zheng]], govern a state.",
+    "By [[surprise|qi]], use arms.",
+    "By [[having no business|wu-shi]], [[take all under heaven|qu-tianxia]].",
+    "",
+    "How do I know that it is so? [[By this.|yi-ci]]",
+    "",
+    "The more [[bans and taboos|jihui]] under heaven,",
+    "the poorer the people.",
+    "The more [[sharp tools|li-qi]] the people have,",
+    "the more the state and its house [[go dark|hun]].",
+    "The more craft and skill people have,",
+    "the more [[strange things|qi-wu]] arise.",
+    "The more [[laws and orders|fa-ling]] are displayed,",
+    "the more [[thieves and bandits|dao-zei]] there are.",
+    "",
+    "So the [[sage|shengren]] says:",
+    "I [[do not force|wu-wei]], and the people [[change of themselves|zi]].",
+    "I love stillness, and the people come straight of themselves.",
+    "I have no business, and the people grow rich of themselves.",
+    "I [[have no desire|wu-yu]], and the people are of themselves [[uncut wood|pu]]."
+  ],
+  "notes": {
+    "zheng": {
+      "kind": "wordplay",
+      "title": "正: the first word comes back",
+      "body": "正 is “straight, upright, correct, regular”. It was the word for good rule: 政, “government”, is 正 with a hand that holds a rod, and the Shuowen defines the one by the other: 政，正也. Confucius said the same to a minister: 政者，正也, “to govern is to make straight; if you lead by being straight, who will dare not to be?” So the first line sounds like common wisdom: rule by the correct. Then the passage undoes it. The four proofs show what correction by decree produces. And at the end the people 自正, come straight of themselves, when the ruler loves stillness. The straightness that opened the passage as a tool returns as a result that nobody applied. [[Wang Bi|wangbi]] heard the first line as a warning from the start, and [[Legge|legge]] half agreed. The next passage finishes the thought: 正復為奇, “the straight turns back into the strange”.",
+      "src": [
+        "Shuowen Jiezi, 攴部: 政，正也。从攴从正，正亦聲。",
+        "Analects 12.17"
+      ]
+    },
+    "qi": {
+      "kind": "geopolitics",
+      "title": "奇 and 正: terms of the generals",
+      "body": "正 and 奇 are a pair from the art of war. In Sunzi’s chapter on force, 正 is the regular body of troops that meets the enemy head-on, and 奇 (qí) is the irregular force that strikes where nobody looks. 凡戰者，以正合，以奇勝: “in every battle, engage with the regular and win with the irregular.” He adds that the two give birth to each other, like a ring with no end. The same book says that war is 詭道, a way of deception. So the first two lines share out the pair: 正 for the state, 奇 for the army. A general or minister of the time would nod. The third line then steps outside the pair. The realm is taken by neither. Note that the passage does not say “never use arms”. It says what arms are: the field of the crooked. The silk texts are reported to write 畸, an odd-shaped leftover field, and to open with 以正之邦 (manuscript A; 之 stands for 治).",
+      "src": [
+        "Sunzi, “Shi” (勢): 凡戰者，以正合，以奇勝。",
+        "Shuowen Jiezi, 田部: 畸，殘田也。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "wu-shi": {
+      "kind": "gap",
+      "title": "無事: not “doing nothing”",
+      "body": "事 is work done in service: a task, an office, an affair of state. The Shuowen says 職也, “a duty”. A state’s 事 were its undertakings, and an old saying names the greatest: 國之大事，在祀與戎, “the great affairs of a state are sacrifice and war”. To “have 事” with a neighbour was to be at war with it. Add the palaces, walls, canals, and royal tours, each paid for with the forced labour of farmers. 無事 is a state with none of that on its hands: no campaigns, no projects. English “non-interference” makes it a theory, and “inaction” makes it laziness. It differs from [[無為|wu-wei]], which is about how one acts; 無事 is about how much is set going. Passage 48 says it flatly: the realm is always taken by 無事, and one who 有事 is not fit to take it. Passage 63 makes it a verb: 事無事, “serve no-business”.",
+      "src": [
+        "Shuowen Jiezi, 史部: 事，職也。",
+        "Zuozhuan, Cheng 13: 國之大事，在祀與戎。"
+      ]
+    },
+    "qu-tianxia": {
+      "kind": "geopolitics",
+      "title": "取天下: the prize of the age",
+      "body": "取 is “to take”: its picture is a hand on an ear, a trophy of war (see the plate in passage 48). 取天下, “to take all under heaven”, is not a soft phrase. It was the open aim of every large state: to end the wars by being the last one left. Soft translations, “win the world”, “gain the empire’s trust”, hide that. The Laozi keeps the word of the conquerors and gives it an impossible method. History then ran a test. Qin took all under heaven in 221 BCE by the opposite way, with law, armies, and endless 事, and its dynasty fell in fifteen years. The Han that followed began with rulers who admired this book. See [[what they did|huanglao]]. Is “take” still the right verb for what the third line describes? Or does the method change the meaning of the prize?"
+    },
+    "huanglao": {
+      "kind": "history",
+      "title": "When a government tried it",
+      "body": "For about sixty years after 200 BCE the Han court favoured the teaching called Huang-Lao, “the Yellow Emperor and Laozi”. The land was ruined by war. The chancellor Cao Can, a former general, took office and changed nothing that his predecessor had set up; when officials came with proposals he poured them wine until they forgot. The historian Sima Qian records the song that the people made: he kept it pure and still, and the people were at peace as one. Under the emperors Wen and Jing taxes on land fell to a thirtieth, mutilating punishments were ended, and the granaries filled. Sima Qian also opens his chapter on harsh officials with lines from this book, among them 法令滋章，盜賊多有 (he writes 章 for 彰). It did not last; Emperor Wu chose war and state monopolies. But for two generations the last four lines were policy. Did it work because of the teaching, or because the country was too tired for anything else?",
+      "src": [
+        "Shiji, “Cao xiangguo shijia”",
+        "Shiji, “Kuli liezhuan” (酷吏列傳)"
+      ]
+    },
+    "yi-ci": {
+      "kind": "variant",
+      "title": "以此: here “this” is a list",
+      "body": "The question and its two-word answer also stand in passages 21 and 54. There 以此, “by this”, is left open. Here it is followed at once by four observations, so “this” reads as “what follows”: look at the realm as it is. The speaker does not argue from a principle. The proof is four things that anyone at the time could see. The silk texts are reported to have the question and no 以此 at all: 吾何以知亓然也, and then 夫, “now,…”, and the list. So the answer may have been added here later, to match the other passages. The first-person 吾 is rare in the book. It marks the places where the text stops to say how it knows.",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "jihui": {
+      "kind": "history",
+      "title": "忌諱: the forbidden and the unsayable",
+      "body": "Two words for two kinds of “do not”. 忌 has 心, heart, below: the Shuowen says 憎惡也, “to hate and shun”. It was used for things and days that brought bad luck: do not dig on this day, do not travel in that direction. 諱 has 言, speech: it is a word that must not be said, above all the personal name of a ruler or a father. A taboo on a name could change the text of books; this very book lost its word 邦 to the name of the first Han emperor. Together 忌諱 covers all that a state and its customs forbid. Why would bans make people poor? A farmer who may not cut wood on the lord’s hill, fish his marsh, work on unlucky days, or speak of what goes wrong has fewer ways to live. Count the things in your working day that are forbidden for reasons nobody can give.",
+      "src": [
+        "Shuowen Jiezi, 心部: 忌，憎惡也。从心己聲。",
+        "Shuowen Jiezi, 言部: 諱，誋也。从言韋聲。"
+      ]
+    },
+    "li-qi": {
+      "kind": "gap",
+      "title": "利器: weapons, tools, or tricks?",
+      "body": "利 is “sharp” and also “profit” (a blade in the grain; see passage 11). 器 is any made tool. So 利器 is “sharp implements”, and readers differ on what they are. One: weapons. When the people are armed, the state is in the dark. Two: clever devices, the new machines of an inventive age. Three, Wang Bi’s: 凡所以利己之器也, “all means by which one profits oneself”. He then adds a hard line: 民强則國家弱, “when the people are strong, the state is weak”. That sounds like the Legalist Book of Lord Shang, which says the same and draws the opposite lesson: so weaken the people. Passage 36 uses the phrase of the ruler: the 利器 of the state must not be shown to people. English must choose one reading. We kept “sharp tools”, which can still cut three ways. Which did you hear first?",
+      "src": [
+        "Wang Bi commentary on Laozi 57",
+        "Shangjunshu, “Ruo min” (弱民)"
+      ]
+    },
+    "hun": {
+      "kind": "etymology",
+      "title": "昬: the people inside the dark",
+      "body": "昬 is dusk: the hour when the sun has gone under. The usual form is 昏. The Shuowen explains that form as the sun, 日, below a short form of 氐, “down”: 日冥也, “the sun grows dark”. Then it adds four words: 一曰民聲, “one view: 民 gives the sound”. That second view is the form in our text: 民, “the people”, over 日. Read the line again with that in the eye: 民多利器，國家滋昬. The word for the people stands at the head of the line and again inside its last character. The form with 民 was avoided in the Tang, since 民 was in the personal name of the emperor Taizong, Li Shimin; the Qing scholar Duan Yucai held that the four words on 民 were added to the dictionary later. 國家 is two things, the ruler’s state and the great houses, and not yet the modern word “country”. The darkness is that of a mind as well as an evening: 昏 is also “confused, dazed”. The speaker of passage 20 uses it for the self: I alone am 昏.",
+      "src": [
+        "Shuowen Jiezi, 日部: 昏，日冥也。从日氐省。氐者，下也。一曰民聲。"
+      ]
+    },
+    "qi-wu": {
+      "kind": "wordplay",
+      "title": "奇 again: from tactic to gadget",
+      "body": "The second line gave 奇 to the army: surprise. Seven lines on it is back: 奇物, “strange things”. The age had many. Iron was cast in moulds. The crossbow had a bronze trigger of several fitted parts. The Mozi tells of an engineer who built a “cloud ladder” to storm a city wall. 伎巧 is the skill behind such things; the Shuowen defines 巧 as 技也, “craft”, and its left side 工 is a carpenter’s square. The text does not say that skill is evil. It says what grows with it: novelties, and after them the wish for novelties. The silk texts are reported to read 人多知, “people have much knowledge”, in place of “craft and skill”. That widens the target from the workshop to the clever mind. The same word 奇 serves the general and the inventor: both make the thing that you did not expect.",
+      "src": [
+        "Shuowen Jiezi, 工部: 巧，技也。从工丂聲。",
+        "Mozi, “Gongshu” (公輸)",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "fa-ling": {
+      "kind": "geopolitics",
+      "title": "法令滋彰: law put on show",
+      "body": "彰 is “bright, displayed, made plain”. In 536 BCE the minister Zichan of Zheng had a penal code cast in bronze for all to see. The statesman Shuxiang wrote to him in dismay: once the people know the written rule, they lose awe of their superiors and will argue over every point “down to the tip of an awl and a knife”. That quarrel ran through the next three centuries. The Legalists won it in practice: Shang Yang’s laws in Qin were published, exact, and merciless, and they made Qin the strongest state. The line takes Shuxiang’s side in eight characters, and adds a result: more thieves. A law creates its crime, and a displayed law teaches how to stand just outside it. There is a variant. The Heshang Gong edition reads 法物, and the silk texts are reported to agree; that commentary takes it as “fine things”: the more fine goods are shown, the more thieves. Both readings share the verb: display.",
+      "src": [
+        "Zuozhuan, Zhao 6",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported): 法物滋彰 而盜賊多有",
+        "Heshang Gong commentary on Laozi 57"
+      ]
+    },
+    "dao-zei": {
+      "kind": "etymology",
+      "title": "盜 and 賊: the mouth that waters, the spear",
+      "body": "The two words are not the same crime. 盜 is the thief who takes by stealth. The Shuowen takes the character apart with humour: 从㳄，㳄欲皿者, “from 㳄, to drool: one who drools with desire over a dish”. The top is water beside an open mouth, and the bottom is 皿, a dish that belongs to another. Theft begins as a look at a plate. 賊 has 戈, a dagger-axe, on its right, and the Shuowen says 敗也, “to ruin”: this is the one who harms with force, a bandit or a rebel, and it is also a verb, to injure. (Its left part still shows the shell 貝.) Legal texts of the time kept the two apart: 盜 for property, 賊 for violence. So the line names the full range, from the hungry eye to the armed band, and puts the published law at the start of both.",
+      "src": [
+        "Shuowen Jiezi, 㳄部: 盜，私利物也。从㳄，㳄欲皿者。",
+        "Shuowen Jiezi, 戈部: 賊，敗也。从戈則聲。"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "聖人 says “I”",
+      "body": "聖人 is “the sage”, and the English word misleads. It is not a saint: no holiness or moral purity is meant. It is not a philosopher. The character 聖 has an ear, 耳, and a mouth, 口; the Shuowen defines it as 通也, “to get through, to be open”: one who hears what is there and speaks in tune with it. In this book the 聖人 is usually a ruler, the ideal one. Here the sage speaks, and that is rare. 我, “I”, comes four times. Chinese does not need the pronoun, so its use is a stress: I, for my part. All four sentences have the same shape. The first half is a thing that the ruler does not do. The second half is a thing that the people do. The ruler does not take credit for the second half; 而 is only “and”. The silk texts are reported to introduce the lines as “the words of the sage”: a saying already old.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported): 是以聖人之言曰"
+      ]
+    },
+    "wu-wei": {
+      "kind": "gap",
+      "title": "無為: without the forcing",
+      "body": "無為 is “not doing” by the characters: 無, to be without, and 為, to do, to make, to act as. The usual explanation of the early form of 為 is a hand that leads an elephant: work done on a large thing by will. So 無為 is not idleness. It is action without that hand: with no forcing, no scheme laid on top of how things go. We write “do not force”. “Non-action” suggests a ruler asleep, and that reading has been used to mock the book for two thousand years. Here 無為 is the first of four, and the other three explain it: love of stillness, [[no business|wu-shi]], [[no desire|wu-yu]]. Each one removes a pressure that comes from the top. The claim is an observation about cause: the people’s disorder was a response."
+    },
+    "zi": {
+      "kind": "etymology",
+      "title": "自: a nose that points at itself",
+      "body": "Four times the people do a thing 自: 自化, 自正, 自富, 自樸. 自 is “self” and “from”. The Shuowen gives the picture: 鼻也。象鼻形, “the nose; it shows the shape of a nose”. A person in China points at the nose to say “me”, and the word for self took the picture. (The nose then needed a new character, 鼻, which keeps 自 on top.) Put before a verb, 自 means that the act starts from the one who does it, with no push from outside. This is the grammar of the book’s great word 自然, “so of itself”, which English turns into “nature”. Passage 17 gives the same scene from the people’s side: the work is done, and the hundred families all say: we are like this of ourselves. English “spontaneously” sounds sudden, and “naturally” sounds weak. The Chinese is plain: from themselves.",
+      "src": [
+        "Shuowen Jiezi, 自部: 自，鼻也。象鼻形。"
+      ]
+    },
+    "wu-yu": {
+      "kind": "variant",
+      "title": "無欲, or 欲不欲",
+      "body": "The received text says 我無欲, “I am without desire”. The silk texts are reported to read 我欲不欲: “I desire not to desire”, or “I desire what is not desired”. The same phrase is in passage 64, where the sage 欲不欲 and does not prize rare goods. The silk reading is the more honest of the two. A ruler with no desire at all is hard to picture; a ruler whose one wish is to be free of the usual wishes is a person. [[Wang Bi|wangbi]] explains why this line matters most: what the one above wants, the people run after. 欲 is want of every kind. The Shuowen says 貪欲也, “greed”; the graph has 欠, a mouth wide open, beside 谷, valley, which gives the sound. A court that wants pearls sends divers down. A court that wants land sends farmers to die. What does the top of your house want, and who runs to get it?",
+      "src": [
+        "Mawangdui silk texts, as printed in a modern collated edition (reported): 我欲不欲而民自樸",
+        "Shuowen Jiezi, 欠部: 欲，貪欲也。从欠谷聲。"
+      ]
+    },
+    "pu": {
+      "kind": "etymology",
+      "title": "樸: wood before the knife",
+      "body": "樸 has 木, a tree, at the left. The Shuowen defines it in two words: 木素也, “wood in its plain state”: timber that is felled and not yet cut into anything. It is a main image of the book, and “simplicity” loses it. In passage 15 the masters of old are solid like 樸. Passage 19 says: show the undyed silk, hold the 樸 in your arms. In 28 the 樸 is split up and becomes tools, and the sage, who uses it whole, becomes chief of the officials. In 32 the Dao is called nameless 樸, small, and nobody under heaven can make it a subject. In 37 it is what calms desire. So when the people “are 樸 of themselves”, it does not mean that they are simple-minded or poor. It means that they are not yet carved into the tools of a state: soldiers, taxpayers, informers. The last word of the passage is a piece of wood.",
+      "src": [
+        "Shuowen Jiezi, 木部: 樸，木素也。从木菐聲。"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the first line is a trap",
+      "body": "Most readers take line one as advice. Wang Bi does not. 以道治國則國平，以正治國則奇正起也: “Govern the state by the Dao and the state is level. Govern the state by correctness and the irregular and the regular both arise.” To rule by 正 is to set up a standard and attack what departs from it, and that already is the logic of war. He goes on: 夫以道治國，崇本以息末；以正治國，立辟以攻末. “To govern by the Dao is to honour the root and so let the branch-tips rest. To govern by correctness is to set up penalties and so attack the branch-tips.” The root is not established, the people have nowhere to turn, and so it must end in “surprise and arms”. On the last lines: 上之所欲，民從之速也, “what the one above desires, the people follow fast”. His summary of all four is his own motto: 崇本以息末.",
+      "src": [
+        "Wang Bi commentary on Laozi 57"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “crafty dexterity”",
+      "body": "Legge gives 正 as “(measures of) correction”, which is close to Wang Bi’s sense. For 奇 he writes “crafty dexterity”, and he uses the same two words again for 伎巧, the people’s skills. So in his English the general’s surprise and the craftsman’s cleverness are one moral fault; the Chinese has two different words, and neither is plainly a fault. For the third line he has the kingdom “made one’s own (only) by freedom from action and purpose”. “Purpose” is his addition: a Protestant conscience has entered, in which the will is the thing to examine. In the sage’s speech he writes “I will do nothing (of purpose)” and “I will manifest no ambition”. The Chinese verbs have no future tense and no “will”. The sage does not make a resolution. The sage reports what is the case.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "Three lines of one pattern: by X, do Y. By [[the straight|zheng]], govern a state. By [[surprise|qi]], use arms. By [[no business|wu-shi]], take the realm. Then a question, how do I know, and four pieces of evidence, each of the form “the more A, the more B”: [[bans|jihui]] and poverty, [[sharp tools|li-qi]] and [[darkness|hun]], skill and [[strange things|qi-wu]], [[displayed law|fa-ling]] and [[thieves|dao-zei]]. Then a speech of four lines, each of the form “I not-X, and the people of themselves Y”. The count is 3, 4, 4. The four results answer the four troubles, though not one to one. Two words tie the ends together: 正 opens the passage as a method and returns in the speech as an outcome, and 無事 is in line three and again in the sage’s third sentence, where its fruit is that the people grow rich.",
+    "inner": "Read the state as a person and the ruler as the part of you that manages. The four proofs then describe a managed mind. Many inner [[bans|jihui]], and less life. Many sharp tools of analysis, and less light. Much technique, and a stream of [[strange products|qi-wu]]. Many rules set up for yourself, and a growing habit of small theft from them. The speech of the sage is then an inner instruction, and it is in the first person for that reason. I [[do not force|wu-wei]], and things change. I love stillness, and what was crooked comes straight. The hard part is the claim about cause: that much of the disorder you fight in yourself is a response to the fight. This cannot be believed in advance. It can be tested for an hour. The last word says what is found when the carving stops: [[wood|pu]].",
+    "leading": "This is among the most political passages in the book, and it is easy to misuse. It has been read as a charter for small government, and as an argument against all rules. Look at what it names: taboos, arms, published penalties, and above all the ruler’s own [[want|wu-yu]] and [[undertakings|wu-shi]]. Its target is the restless top. The test for a leader is in the four “the more…” lines. When you add a rule, do you get the behaviour, or a new skill at evasion? When you launch one more initiative, who pays for it in hours? [[One government tried this|huanglao]] and the granaries filled. Note also the grammar of credit: “I do not… and the people of themselves…”. The sage claims the restraint and gives the result away. [[Wang Bi|wangbi]] warns that even “being correct” is a way to start a war.",
+    "nature": "A gardener who is always at work in the bed, staking, spraying, moving plants, gets weak plants and more pests. Systems that live have their own ways to come level, and a constant push from outside sets off a constant push back. Foresters learned that a wood where every small fire is put out builds up the fuel for a great one. Farmers learned that each new poison breeds an insect that survives it: 奇物滋起. The four lines of the sage are how a good keeper of land talks. Not “I leave it alone” as neglect, but: I do not force it, I disturb it little, I want little from it, and it grows rich [[of itself|zi]]. The image at the end is the tree that was not cut: [[樸|pu]].",
+    "practice": "Pick one small domain that you run: a team’s routine, a child’s evening, your own morning. Find one rule in it that you have had to tighten more than once. For one week take the rule away, and take away your wish for the result as well, which is harder; that is [[無欲|wu-yu]]. Do not announce it. Watch what the people, or you, do [[of themselves|zi]]. If things get worse, put the rule back; the passage is an observation, and you are checking it. Then ask the question of the first line about your usual method: am I governing here, or [[using arms|qi]]?"
+  },
+  "glyph": "兵",
+  "plates": [
+    {
+      "c": "兵",
+      "title": "Two hands on an axe",
+      "lesson": "The word means “weapon”, then “soldier”, then “war”, in that order of age. The Shuowen sees the first sense in the shape: 械也。从廾持斤，并力之皃, “an implement; from two hands that hold an axe: the look of strength joined”. The top of the character is 斤, an axe. The dictionary calls 斤 a picture and says what it is for: 斫木也, “to chop wood”. It was a tool before it was a weapon, and it is in 析 (to split wood), 匠 (a carpenter: an axe in a box), and 新 (new; the Shuowen says “to take wood”). It also became a unit of weight, the “catty”. The bottom of 兵 is what the brush made of 廾, two hands that reach up; the same two hands hold a dagger-axe in 戒, “to be on guard”, 从廾持戈. So a weapon, for the script, is a tool for wood in a tight grip. That is the history of weapons in one sign, and it is the worry of this passage: the people have many [[sharp tools|li-qi]], and a tool is a weapon when two hands decide so. Sunzi’s book opens with this character: 兵者，國之大事, “war is the great affair of the state”. The second line here gives it [[its method|qi]]. The book’s own verdict is in passage 31: arms are tools of ill omen.",
+      "brush": "Seven strokes. First a stroke at the top that falls from right to left, short and flat. Then a vertical down the left side. Then a short horizontal from that vertical to the right. Then a second vertical, on the right. These four are the axe. The fifth stroke is a long horizontal under them all: the widest line, and the place where axe and hands meet. Then the hands, now only two short strokes: one that falls to the left and one dot that falls to the right. Watch the fifth stroke. If it is level and long, the character stands like a table on two feet. If it is short, the top falls over. In seal script two full hands are drawn under the axe. In clerical script the long horizontal ends in a heavy flare."
+    },
+    {
+      "c": "民",
+      "title": "The many sprouts, or a blinded eye",
+      "lesson": "民 comes six times in this passage, more than any other word: “the people”, those who are ruled. The Shuowen defines it in two characters: 眾萌也, “the many sprouts”. 萌 is a shoot of grass that has just come up, and the dictionary says so in its own entry: 艸芽也. The people are the countless small green things that come up of themselves, and that fits the end of the passage, where they change, come straight, and grow rich [[of themselves|zi]]. Then the Shuowen adds that the graph follows the shape of the ancient script, and stops; it cannot explain the picture. Modern scholars have looked at the bronze forms, and a view that is widely repeated, and disputed, is dark: an eye with a spike driven into it, a captive blinded in one eye and put to work. If that is right, 民 began as a word for slaves and widened to all subjects. The reader may hold both: the grass and the wound. 民 is not 人. 人 is any human being; 民 is the governed mass as a ruler sees it. Watch the passage change from 民 to 人 in the line on craft and skill. The character gives its sound to 氓, a commoner, and in this passage it sits inside [[昬|hun]], the word for dusk. In the Tang it was an emperor’s name, and copyists wrote 人 in its place.",
+      "brush": "Five strokes, and each one is different. First a horizontal that turns down at the right: the top and right side of a small box. Second, a short horizontal that closes the box below. Third, a vertical on the left that runs down the whole height and ends in a flick up to the right. Fourth, a longer horizontal that starts from that vertical, below the box, and reaches right. Fifth, the long hook: it starts at the middle of the box’s base, slants down to the lower right across the fourth stroke, and ends with a hook that points up. Watch the fifth stroke. It is the spine of the character, a bow drawn from corner to corner, and the brush must keep pressure through the whole curve and release only at the hook. The box at the top is small; if it is large the character looks like 尸."
+    },
+    {
+      "c": "正",
+      "title": "A foot that stops at the line",
+      "lesson": "Five plain strokes. The lower four are 止, and the Shuowen says of 止 that it came to be used for the foot: 故以止爲足. The stroke on top is 一, a line. The dictionary reads the two together: 正，是也。从止，一以止, “正 is ‘right’; from 止, with 一 as that at which it stops”. A foot that goes to the mark and stops there: on target, straight, correct. Many modern scholars read the oldest forms in a harder way: the top was a small square, a walled town, and the foot marches on it. That is the first form of 征, “to go on a punitive campaign”, to correct a neighbour by force. We cannot settle the early form here. But both readings are in this passage. [[Wang Bi|wangbi]] says that to rule by 正 is already to prepare for war. The family is large. 政, government, is 正 with a hand that holds a rod, and the Shuowen defines the one by the other. 定, “settled”, is 正 under a roof: 从宀从正. 是, “this is so”, is 正 under the sun: 从日、正. 整 is “to put in order”. And since the character has exactly five strokes, Chinese uses it to keep count: one stroke for each item, a full 正 for each five. The [[first word|zheng]] of the passage is a tally mark and a march.",
+      "brush": "Five strokes. A horizontal across the top. A vertical down from its middle. A short horizontal that goes right from the middle of that vertical. A short vertical on the left, which stands a little apart and does not touch the top line. Then the long horizontal at the bottom, the widest stroke, which joins the feet of both verticals. Watch the top and bottom lines. They are parallel, and the bottom one is longer; the whole character hangs between them like a frame. Nothing in it leans, and for that reason a writer shows a slow, even hand here or shows nothing. Beginners in regular script practise this character for its right angles. In running script the third and fourth strokes join in one small loop, and the foot begins to walk again."
+    }
+  ]
+}

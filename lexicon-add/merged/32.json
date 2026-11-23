@@ -1,0 +1,66 @@
+{
+  "臣": {
+    "senses": ["a male slave, a captive (earliest use)", "a subject, a minister, an officer", "“your servant”: I (to a ruler)", "to make a subject of; to serve as subject (verb)"],
+    "shuowen": "牽也。事君也。象屈服之形。",
+    "shuowenEn": "To be led. One who serves a lord. It shows the form of bending and submitting.",
+    "parts": [{"c": "臣", "m": "commonly explained as an eye turned on end: a bowed head"}],
+    "story": "The Shuowen sees a bent, submitting body. Scholars who work from the oracle-bone forms commonly see an eye stood on its side, the eye of someone with the head lowered. The word rose with the fortunes of those it named: from captive, to royal servant, to minister of state. In Laozi 32 it is a verb. The uncarved wood is small, and no one in the world can 臣 it. Passage 18 notes that “loyal ministers” appear when the state is in disorder.",
+    "gap": "“Minister” in English is a title of honour. 臣 keeps the bowed head; every minister was the ruler’s servant and said so."
+  },
+  "甘": {
+    "senses": ["sweet; good to taste", "pleasant, willing", "to find sweet, to enjoy (verb)"],
+    "shuowen": "美也。从口含一。一，道也。",
+    "shuowenEn": "Fine. From a mouth that holds 一. The 一 is the way (of taste).",
+    "parts": [{"c": "口", "m": "a mouth"}, {"c": "一", "m": "a thing held in the mouth"}],
+    "story": "A mouth with something in it that one does not want to swallow yet: the graph of sweetness. In the scheme of five flavours, sweet is the middle one and goes with earth. The Laozi uses the word twice. Heaven and earth join and send down 甘露, sweet dew, which falls evenly with no command (32). And in the small state of passage 80 the people “find their food sweet”, where 甘 is a verb: they are content with it.",
+    "gap": "English “sweet” means sugar. 甘 is any taste that is good and mild, the opposite of bitter; fresh water can be 甘."
+  },
+  "賓": {
+    "senses": ["a guest, a visitor of rank", "to treat as a guest; to honour", "to come as a guest: to submit, to offer allegiance"],
+    "shuowen": "所敬也。从貝𡧍聲。",
+    "shuowenEn": "One who is treated with respect. From 貝 (shell, a gift); 𡧍 gives the sound.",
+    "parts": [{"c": "宀", "m": "a roof, a house"}, {"c": "貝", "m": "a shell: a gift"}],
+    "story": "賓 is the honoured guest: a person under one’s roof, with gifts given or brought. In the Zhou order, states and peoples that acknowledged the king “came as guests”, so the word also means to give allegiance. Laozi 32 sets it against 臣, a subject: the uncarved cannot be made a servant, and if rulers kept to it, the ten thousand things would 自賓, come as guests of themselves.",
+    "gap": "“Submit” loses the honour, and “guest” loses the politics. 賓 is allegiance that keeps its dignity."
+  },
+  "均": {
+    "senses": ["level, even", "equal, in equal shares; fair", "all alike; a potter’s wheel (also written 鈞)"],
+    "shuowen": "平徧也。从土从勻，勻亦聲。",
+    "shuowenEn": "Level and reaching everywhere. From 土 (earth) and 勻 (evenly spread), which also gives the sound.",
+    "parts": [{"c": "土", "m": "earth, ground"}, {"c": "勻", "m": "evenly spread; sound part"}],
+    "story": "均 is ground made level, and by extension any fair division: of land, of tax, of labour. It was a live political word; Confucius says that a ruler should worry less about scarcity than about uneven shares. In Laozi 32 the dew falls and the people, with no one’s order, 自均, become even of themselves.",
+    "gap": "“Harmony” is a feeling. 均 is arithmetic: the same amount to each."
+  },
+  "露": {
+    "senses": ["dew", "to be exposed, to show; in the open"],
+    "shuowen": "潤澤也。从雨路聲。",
+    "shuowenEn": "That which moistens. From 雨 (rain); 路 gives the sound.",
+    "parts": [{"c": "雨", "m": "rain: things that fall from the sky"}, {"c": "路", "m": "sound part; by itself: a road"}],
+    "story": "Dew is written under the rain sign because it was thought to fall from heaven in the night. It wets every surface alike and is gone by mid-morning. 甘露, sweet dew, became a standing omen of good government under the Han and later the Chinese Buddhist word for the nectar of deathlessness. In Laozi 32 it is the picture of a gift that needs no one to hand it out.",
+    "gap": "English dew is only weather. 露 in Chinese letters is also grace: what comes down unasked."
+  },
+  "樸": {
+    "senses": ["timber as it is, not yet worked", "plain, whole, unadorned", "the undivided state before names (Laozi)"],
+    "shuowen": "木素也。从木菐聲。",
+    "shuowenEn": "Wood in its plain state. From 木 (tree); 菐 gives the sound.",
+    "parts": [{"c": "木", "m": "a tree, wood"}, {"c": "菐", "m": "sound part"}],
+    "story": "樸 is wood with the bark off and no tool mark on it, defined by the Shuowen through 素, undyed silk. It can still become anything. The Laozi makes it the image of wholeness before cutting: the old masters were “solid, like uncarved wood” (15); “show the plain, hold the uncarved” (19); return to it (28); it is small, and no one can make it a servant (32); the nameless uncarved wood settles desire (37); “I have no wants, and the people are of themselves uncarved” (57). The short form 朴 is in the Shuowen a different word, “bark”.",
+    "gap": "“Simplicity” is a style one can choose. 樸 is the stuff itself before any style."
+  },
+  "民": {
+    "senses": ["the people, the governed; commoners"],
+    "shuowen": "眾萌也。从古文之象。",
+    "shuowenEn": "The multitude of sprouts. It follows the shape of the ancient graph.",
+    "parts": [{"c": "民", "m": "disputed: the Shuowen reads it through the word for sprouts; some modern scholars see a pierced eye"}],
+    "story": "民 are those who are ruled: the farmers and workers with no office. The Shuowen explains the word by a near-homophone, 萌, a sprout: the people are the many shoots. The oldest forms are debated. In the Laozi the people are mostly what bad government harms: they starve because those above eat too much tax (75), and they order themselves when left alone (32, 57).",
+    "gap": "“The people” in English can be sovereign, as in a constitution. 民 never rule; they are always the ones below."
+  },
+  "海": {
+    "senses": ["the sea", "a great expanse; vast"],
+    "shuowen": "天池也。以納百川者。从水每聲。",
+    "shuowenEn": "The pool of heaven: that which takes in the hundred rivers. From 水 (water); 每 gives the sound.",
+    "parts": [{"c": "氵", "m": "water"}, {"c": "每", "m": "sound part"}],
+    "story": "For a people of the inland plain the sea was the far edge of the world and the place where all rivers end. The Shuowen calls it heaven’s pool and defines it by what it receives. The Laozi uses it as the image of the low thing that gathers all: the Dao in the world is like streams and valleys running to River and sea (32), and these are kings of the hundred valleys because they lie below them (66).",
+    "gap": "The English sea is for crossing. 海 in this book does not move and is not crossed; it receives."
+  }
+}

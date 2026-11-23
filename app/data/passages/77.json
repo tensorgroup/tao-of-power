@@ -1,0 +1,251 @@
+{
+  "n": 77,
+  "title": "Stringing the Bow",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "天之道，其猶張弓與？高者抑之，下者舉之；有餘者損之，不足者補之。天之道，損有餘而補不足。",
+      "gloss": {
+        "5": "to be like",
+        "6": "to put the string on (a bow); to stretch",
+        "8": "yú: a question mark in sound (usually yǔ, “with, to give”)",
+        "12": "to press down",
+        "17": "to lift up",
+        "21": "surplus; first, food left over",
+        "23": "to reduce, to take from",
+        "27": "enough; first, a foot",
+        "29": "to mend, to patch, to make whole"
+      }
+    },
+    {
+      "text": "人之道則不然，",
+      "gloss": {
+        "0": "people, humans (not “man”)",
+        "5": "so, like this"
+      }
+    },
+    {
+      "text": "損不足以奉有餘。",
+      "gloss": {
+        "4": "to offer up with both hands, as tribute to a superior"
+      }
+    },
+    {
+      "text": "孰能有餘以奉天下？唯有道者。",
+      "gloss": {
+        "2": "to have (extra)",
+        "10": "to have (Dao): the same verb"
+      }
+    },
+    {
+      "text": "是以聖人為而不恃，功成而不處，其不欲見賢。",
+      "gloss": {
+        "7": "to lean on, to rely on",
+        "9": "work done; merit earned",
+        "13": "chǔ: to dwell in, to stay",
+        "18": "xiàn: to show, to let be seen (not jiàn, “to see”)",
+        "19": "worth, ability"
+      }
+    }
+  ],
+  "rendering": [
+    "[[The way of heaven|tian-dao]]:",
+    "is it not like [[the stringing of a bow|zhang-gong]]?",
+    "[[The high is pressed down,|recurve]]",
+    "the low is lifted.",
+    "What has [[more than enough|you-yu]] is [[reduced|sun]];",
+    "what has not enough is [[mended|bu]].",
+    "",
+    "The way of heaven",
+    "takes from what has more than enough",
+    "and mends what has not enough.",
+    "[[The way of people|ren-dao]] is not so.",
+    "It takes from those who have not enough",
+    "[[to offer up|feng]] to those who have more than enough.",
+    "",
+    "[[Who can have more than enough|shu-neng]]",
+    "and offer it to all under heaven?",
+    "Only one who [[has Dao|you-dao]].",
+    "",
+    "So [[the sage|sheng]] [[acts and does not lean on it|bu-shi]],",
+    "[[finishes the work|gong]] and does not stay in it:",
+    "has no wish to [[show worth|xian]]."
+  ],
+  "notes": {
+    "sheng": {
+      "kind": "gap",
+      "title": "聖人: not a saint",
+      "body": "聖人 is “the sage” by custom, and the English word misleads. This is not a saint: there is no holiness here and no reward after death. It is not only a wise man either. The graph has 耳, an ear, and the Shuowen defines the word as 通, “to pass through, to reach”: a person whose hearing is open, and who leads by that attunement. In this passage the attunement has a plain form: the sage hears where there is too much and where too little, and moves the surplus.",
+      "src": ["Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"]
+    },
+    "tian-dao": {
+      "kind": "history",
+      "title": "天之道: the book’s closing theme",
+      "body": "The phrase 天之道, “the way of heaven”, is rare in the first seventy passages. It closes passage 9, and passage 47 says that one can see it without looking out of the window. Then, in the book’s last pages, it comes in four of the last nine passages: heaven’s way does not contend and wins (73); it is like a bow being strung (77); it has no favourites (79); it benefits and does not harm (81, the last line but one of the whole book). Only here is it set against 人之道, [[the way of people|ren-dao]], as its opposite. The Mawangdui silk texts place passages 80 and 81 earlier, and their book begins with the part on 德; so there this group, up to passage 79, ends the first half. In both orders, a reader who has followed many passages on rule, war, and hunger is given this measure at the close: look at what heaven does with a surplus."
+    },
+    "zhang-gong": {
+      "kind": "etymology",
+      "title": "張弓: to string, not to shoot",
+      "body": "English versions often say “bending a bow” or “drawing a bow”, and the reader sees an archer who takes aim. The Shuowen is exact about bow words, and it gives another picture. 張 is 施弓弦也, “to put the string on a bow”. To draw the bow for a shot is a different word, 引, 開弓也, “to open the bow”. To take the string off is 弛, 弓解也, “the bow released”. So 張弓 is the act before any arrow: the bow is made ready. The old phrase 一張一弛, “now strung, now unstrung”, used of the rule of the sage kings, keeps the pair. Some commentators do read our line as aiming: aim too high, lower it. The stringing reading explains the next two lines better, [[as the shape of the bow shows|recurve]].",
+      "src": [
+        "Shuowen Jiezi, 弓部: 張，施弓弦也。 引，開弓也。 弛，弓解也。",
+        "Liji, “Za ji” B (一張一弛，文武之道也)"
+      ]
+    },
+    "recurve": {
+      "kind": "history",
+      "title": "A bow that curves the wrong way",
+      "body": "The bow of the Warring States was not a bent stick. It was a composite: the manual of the royal workshops lists six materials, 幹、角、筋、膠、絲、漆, a wooden core, horn, sinew, glue, silk, and lacquer, each to be gathered in its own season, and a good bow took years to finish. Unstrung, such a bow curls forward, away from the archer; its tips point the wrong way. To string it, the archer braces it against the body and bends the whole thing back through itself. The tip that stands high is pressed down, the tip that hangs low is brought up, and the string is slipped on. In one movement the two ends are brought level. 高者抑之，下者舉之 describes that movement. Nothing is cut off the bow, and nothing is added. Its own tension is redistributed until it can work.",
+      "src": [
+        "Zhouli, “Kaogongji”, section on the bow-maker (弓人)"
+      ]
+    },
+    "you-yu": {
+      "kind": "etymology",
+      "title": "餘 and 足: leftovers and a foot",
+      "body": "The two measures of the passage are homely words. 有餘 is “to have 餘”. 餘 has 食, food, on its left, and the Shuowen defines it as 饒, plenty: it is the food that is left after everyone has eaten. 不足 is “not 足”. 足 is a foot; the Shuowen says 人之足也。在下, “a person’s foot; it is at the bottom”. How a foot came to mean “enough” is not certain, and the word may simply have been borrowed for its sound. The book has made much of it already: 知足者富, “one who knows what is enough is rich” (33); 知足不辱, “know what is enough and meet no disgrace” (44). So the passage does not speak of rich and poor as classes or as sums of money. It speaks of the table after the meal, and of whether there was enough to stand on.",
+      "src": [
+        "Shuowen Jiezi, 食部: 餘，饒也。从食余聲。",
+        "Shuowen Jiezi, 足部: 足，人之足也。在下。从止、口。",
+        "Laozi 33, 44"
+      ]
+    },
+    "sun": {
+      "kind": "wordplay",
+      "title": "損 and its lost partner 益",
+      "body": "損 is to lessen; the Shuowen says 減也. Its fixed partner in old Chinese is 益, to add. The two are a pair of hexagrams in the Book of Changes, numbers 41 and 42, and the old commentary on them is political: 損下益上, “take from below and add above”, is the figure of loss, and 損上益下，民說无疆, “take from above and add below, and the people’s joy has no limit”, is the figure of gain. The Laozi uses the pair twice: things are sometimes increased by being reduced (42); learning adds each day, and Dao takes away each day (48). In our passage the received text puts 補, to mend, where a reader expects 益. A modern collated edition of the Mawangdui silk texts has the expected word in the summary line: 損有餘而益不足. An educated reader heard the two hexagrams either way.",
+      "src": [
+        "Shuowen Jiezi, 手部: 損，減也。从手員聲。",
+        "Yijing, hexagrams 41 (損) and 42 (益), “Tuan” commentary",
+        "Mawangdui Laozi (modern collated edition)",
+        "Laozi 42, 48"
+      ]
+    },
+    "bu": {
+      "kind": "etymology",
+      "title": "補: to mend a robe",
+      "body": "補 has 衤, the sign for clothing, on its left. The Shuowen defines it 完衣也, “to make a garment whole”: to put a patch on. So heaven’s way with those who lack is described in a word from the sewing basket. The choice is worth a moment. To add, 益, is neutral: one pours more in. To mend supposes that the thing was whole once and has a tear. It also supposes close work, a hand that goes to the exact place of the damage with a piece cut to fit. The surplus is “reduced”, an act of quantity; the lack is “mended”, an act of care. Our rendering keeps “mend” for this reason, though “supplement” is the usual English. What in your reach has a tear and not a shortage?",
+      "src": [
+        "Shuowen Jiezi, 衣部: 補，完衣也。从衣甫聲。"
+      ]
+    },
+    "ren-dao": {
+      "kind": "geopolitics",
+      "title": "The way of people: fields without end",
+      "body": "人之道則不然: “the way of people, however, is not so.” What follows is the sharpest social sentence in the book: people take from those who lack and offer it up to those who have extra. The age gave the evidence. Once land could be bought and sold and taxed by the acre, it gathered in few hands. A Han scholar described the result under Qin: 富者田連阡陌，貧者亡立錐之地, “the fields of the rich run on from path to path, and the poor have no ground in which to stand an awl”. The landless then paid half their crop as rent. A note on our English: 者 in these lines can be “what” or “who”. We write “what” for heaven’s lines and “those who” for the human lines. The Chinese does not change the word. It is the same mark for a bow tip and for a hungry family.",
+      "src": [
+        "Hanshu 24A, “Shihuo zhi”, memorial of Dong Zhongshu"
+      ]
+    },
+    "matthew": {
+      "kind": "gap",
+      "title": "“To him that hath”",
+      "body": "A Western reader knows the human way from another book. The Gospel of Matthew says: to everyone who has, more will be given, and from the one who has not, even what he has will be taken away. In 1968 the sociologist Robert Merton named the pattern after that verse, the “Matthew effect”: fame brings more fame, capital brings more capital. Modern economics often describes this as a law of nature, like compound interest. The Laozi sorts things the other way around. Gathering to the top is 人之道, the way that people make. The levelling is 天之道, what heaven does: water runs down, the full moon wanes, the high tip of the bow comes down. So the text denies that concentration is natural. Which of the two ways do you take, without thinking, to be the way things are?",
+      "src": [
+        "Matthew 13:12, 25:29",
+        "R. K. Merton, “The Matthew Effect in Science”, Science 159 (1968)"
+      ]
+    },
+    "feng": {
+      "kind": "etymology",
+      "title": "奉: hands that lift upward",
+      "body": "奉 is not “to give”. The Shuowen defines it 承也, “to hold up, to receive from above”, and builds it from hands: 从手从廾, one hand and then a pair of hands, with a sound-part on top. It is the gesture of a servant who lifts a tray to a lord, with both hands and a lowered head. The word was used for tribute, for an order received from a king, and, with 亻 added, for an official’s salary: 俸. So the direction is fixed: 奉 goes up. In the human way, the poor hold up their little to the rich, as a tenant brings rent to the hall. Then the text asks its question with the same verb and a new direction: who can 奉 a surplus to 天下, to all under heaven? The one with extra is asked to stand in the servant’s posture, and the whole world sits in the lord’s seat.",
+      "src": [
+        "Shuowen Jiezi, 𠬞部: 奉，承也。从手从廾，𡴀聲。"
+      ]
+    },
+    "shu-neng": {
+      "kind": "variant",
+      "title": "Offered to the world, or to heaven?",
+      "body": "The received text asks: 孰能有餘以奉天下, who can have a surplus and offer it to all under heaven? A modern collated edition of the Mawangdui silk texts has a longer question with a different receiver: 孰能有餘而有以取奉於天者, “who can have a surplus and have the means to take from it and offer it up to heaven?” In that version the surplus is not handed to the people directly. It is given back to 天, to the power whose way is to level, as one returns a loan. The practical result may be the same. The posture differs. In the received text the one with Dao is a giver, and can be thanked. In the collated silk text that person only passes back what was never owned, and no one is in debt. The collated silk text also ends the answer with 乎, a particle of doubt: “only one who has Dao, perhaps?”",
+      "src": [
+        "Mawangdui Laozi (modern collated edition)"
+      ]
+    },
+    "you-dao": {
+      "kind": "wordplay",
+      "title": "有餘, 有道: two kinds of having",
+      "body": "The verb 有, to have, comes five times in the passage. Four times its object is 餘, surplus. The fifth time, in the answer to the question, its object is 道: 唯有道者, “only one who has Dao”. The line sets the two havings side by side. One kind of having can be counted, stored, taken, and offered. Can Dao be had in that way? The first passage of the book said that it cannot even be named. So 有道 must mean something else: to be in the way, to have it as one has a habit or a native language. Such a having does not grow less when it is used. That may be why its owner can let the other kind go. The phrase 有道者 comes also in passages 24 and 31, both times for one who refuses to stay with excess.",
+      "src": [
+        "Laozi 24, 31"
+      ]
+    },
+    "wb-self": {
+      "kind": "wangbi",
+      "title": "Wang Bi: each one has a self",
+      "body": "Why is the human way the reverse of heaven’s? Wang Bi’s answer is not greed. He writes: 如人之量，則各有其身，不得相均。如惟無身無私乎，自然然後乃能與天地合德。 “By the human measure, each one has a self of their own, and so they cannot be made level with each other. Only one who is without self and without private interest, and is so of itself, can then join in 德 with heaven and earth.” 身 is the body and the self that goes with it. Heaven can level because it has no body to feed first. A person looks out from one place, and from that place “mine” weighs more. Wang Bi does not call this a sin. He calls it a measure, 量, a limit of capacity. The passage’s sage is one in whom that measure has widened. Is levelling possible for a being with a body?",
+      "src": [
+        "Wang Bi commentary on Laozi 77"
+      ]
+    },
+    "bu-shi": {
+      "kind": "wordplay",
+      "title": "A refrain comes back",
+      "body": "為而不恃, “acts and does not lean on it”, is a refrain of the book. It stands in passage 2 of the sage, in passage 10 of the dark 德, and in passage 51 of Dao itself, which gives life to the ten thousand things and does not own them. 功成而不處 is close to a line in passage 2 as well. 恃 is to lean on something as a support; the Shuowen says 賴也, to depend on. So the phrase does not mean “acts without hope of reward”. It means that the sage does not rest any weight on what was done: no claim, no standing derived from it. Here the refrain has a new task. It follows a passage on surplus, and it shows what a surplus of merit would be. A person who leans on past deeds holds a store of credit. The sage keeps none.",
+      "src": [
+        "Shuowen Jiezi, 心部: 恃，賴也。从心寺聲。",
+        "Laozi 2, 10, 51"
+      ]
+    },
+    "gong": {
+      "kind": "geopolitics",
+      "title": "功: merit, counted in heads",
+      "body": "功 joins 工, work, and 力, strength, and the Shuowen gives it a public sense: 以勞定國也, “by toil to make the state secure”. It is the word for service that earns a reward. In the Warring States the reward became a system. The state of Qin had a ladder of some twenty ranks, and a soldier climbed it by 軍功, merit in war, which the law measured in the heads of enemy soldiers. One head brought one rank, with land and servants attached. Other states had similar schemes. A man’s 功 was thus his capital, entered in a register and paid out for life. Against this background 功成而不處, “the work is finished and one does not stay in it”, is not mild advice about modesty. It asks a person to walk away from the one account that the age honoured.",
+      "src": [
+        "Shuowen Jiezi, 力部: 功，以勞定國也。从力从工，工亦聲。",
+        "Shangjun shu, “Jing nei” (境內)"
+      ]
+    },
+    "xian": {
+      "kind": "wangbi",
+      "title": "Wang Bi: unseen, in order to level",
+      "body": "The last clause is 其不欲見賢. 其 is a particle of mood here, close to “surely”. 見 is read xiàn, “to show”, and not jiàn, “to see”: the sage does not wish to let worth be seen. Wang Bi connects this to the whole passage: 是以聖人不欲示其賢以均天下, “so the sage does not wish to display their worth, in order to make the world level”. His point is fine. Visible excellence is itself a height. If the sage stood out, people would look up, rank themselves, and strive; the sage would have “more than enough” of regard. So the sage presses that high tip down. Wang Bi describes the result with a phrase from passages 4 and 56: 和光同塵, softening the glare and becoming one with the dust. 賢 is a money word by origin, with a shell in it (see passage 75). Not to show it is to keep one’s wealth out of the market.",
+      "src": [
+        "Wang Bi commentary on Laozi 77",
+        "Laozi 4, 56"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “superabundance”",
+      "body": "Legge gives 有餘 as “superabundance” four times. The Latin word has six syllables and no table in it; the Chinese is “having leftovers”. For the bow he writes that what was high “is brought low”, and what was low “is raised up”. These are the cadences of the English Bible, where valleys are exalted and the mighty are put down, and they turn a craftsman’s movement into a judgment. His brackets are honest: “(the method of)”, “(part of the bow)”, “(So Heaven)”. The sharpest change is in the human way. Legge makes it one man’s sin: “He takes away from those who have not enough to add to his own superabundance”. The Chinese has no “he” and no “his own”. It describes an order of things in which everyone takes part, including those who 奉, who [[hold up the tribute|feng]] with their own hands.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "level": {
+      "kind": "practice",
+      "title": "Find one high tip",
+      "body": "Take stock as the archer does, by looking for what stands too high and what hangs too low. Money is one case, and often not the first. Where do you have 有餘 today? Perhaps time on one day of the week, or attention, or knowledge that a younger colleague lacks, or simply room in the house. And who near you is at 不足 in the same thing? Choose one pair. Then move a little from the high to the low, and do it in the manner of the last lines: do not announce it, do not keep a count, and do not return to see how grateful the person is. Notice what the giving feels like when no credit is stored. The text’s word for that kind of giving is [[奉|feng]]: both hands, from below."
+    }
+  },
+  "lenses": {
+    "ground": "The passage opens with a question about a tool: is [[the way of heaven|tian-dao]] not like [[the stringing of a bow|zhang-gong]]? Four short clauses describe the act. The [[high tip is pressed down|recurve]] and the low one lifted; the part with too much is [[reduced|sun]] and the part with too little is [[mended|bu]]. Then the rule is stated twice, once for heaven and once, reversed, for [[people|ren-dao]], who take from the poor and [[lift it up|feng]] to the rich. A question follows: who can hold a surplus and offer it to the world? The answer is short: one who [[has Dao|you-dao]]. The close describes that person with [[an old refrain|bu-shi]]: acts without leaning on the act, finishes and leaves, shows no worth. The things in the passage are a bow, leftover food, a foot, a patched robe, and three hands that hold up a tray.",
+    "inner": "The bow can be read as one person. Each of us has parts that stand too high: the skill we are known for, the opinion we repeat, the story of what we have done. And each has parts that hang low, unfed: a talent that was dropped, a grief that was not given time. The human way, inside, is to keep serving the high tip. We give more hours to what already has our regard and take them from what is already poor. Heaven’s way would press the first down a little and lift the second. The last lines name the hardest piece of this. [[Not to show worth|xian]] means that even the inner audience is dismissed. Wang Bi says why it is hard: [[each of us has a self|wb-self]], and from inside that self, “mine” weighs more.",
+    "leading": "Every organisation has a bow in it, and by default it is strung the human way: the best-funded unit gets the next budget, the person with the most credit gets the next opportunity, the customer who pays most gets the most care. The sociologists call this [[the Matthew effect|matthew]]. The passage asks a leader to see it as a choice and to do the archer’s work: press down what stands high, starting with the leader’s own share, and lift what hangs low. Note the word for the low side: [[mend|bu]], not “add”. It means close attention to the place of the tear. The last lines then guard against the usual failure of generous leaders, which is to keep an account of their generosity. In an age that [[paid for merit by the head|gong]], the text asks for work that leaves no claim.",
+    "body": "Stringing a composite bow is a whole-body act. The archer steps through the bow, sets one tip against the foot or the thigh, and bends the limbs back with the hips. Strength in the arms alone will not do it, and force at one point will twist the limb and ruin years of work. The ends must come level together. A body is strung in the same way. Where the shoulders ride high, press them down; where the chest has sunk, lift it; where one leg takes all the weight, share it. No part is removed. The tension that was badly spread is spread well, and the body that was a curled stick becomes something that can send an arrow. Stand, and find your own high tip and low tip. Then note: [[張 is stringing, and the shot is another word|zhang-gong]].",
+    "nature": "Heaven’s way of levelling can be watched in an afternoon. Water leaves the high ground and gathers in the low. Heat moves from the warm stone to the cool air until they match. A hill is worn down grain by grain and the valley fills. The moon that is full begins to wane on the next night. No judge does this, and nothing is punished; the high place only has more to give off. Living systems add a second movement, and it is the one that the passage calls [[mending|bu]]: a forest closes a gap where a tree fell, and skin closes a cut. Against these stands the pattern that [[people make|ren-dao]], in which what is large draws more to itself. The text does not say that this is unnatural in every sense. It says that it is ours, and so it can be done differently.",
+    "practice": "Do [[the archer’s check|level]] today with one real thing: find a place where you have more than enough and a person or a part of your life that has too little of the same thing, and move some across. Keep the three rules of the last lines. Do not lean on it: make no claim from it later. Do not stay in it: leave when it is done. Do not show it: tell no one. If that seems easy, try the same with praise. The next time credit comes to you that also belongs to others, press that high tip down at once and lift theirs. Then read [[Legge’s sentence|legge]] on the human way, with its “he” and “his own”, and ask why he needed a single guilty man."
+  },
+  "glyph": "張",
+  "plates": [
+    {
+      "c": "張",
+      "title": "The bow made ready",
+      "lesson": "On the left is 弓, a bow, and it is still a picture: the bent stave with its grip, seen from the side. The Shuowen sums up the weapon in four words, 以近窮遠, “from near at hand, to reach the far”. On the right is 長, which gives the sound; alone it means long (cháng) or elder, to grow (zhǎng). The early forms of 長 are commonly explained as a person with long hair, and long hair meant long years. The Shuowen’s definition of 張 is exact: 施弓弦也, “to put the string on the bow”. Everything else that the word means comes from that moment. A strung bow is stretched, so 張 is to stretch and to spread: a net, a sail, a banner. It is to open wide: the eyes, the mouth. Passage 36 uses it so: 將欲歙之，必固張之, “what is to be closed must first be opened wide”. It became the counting word for flat things that are spread out, a sheet of paper, a table, a bed, and for bows themselves. It is one of the most common family names in China, and tradition explains the name by an ancestor who made bows. The sound-part has its own family: the Shuowen defines 帳, a tent, by this very word, 張也, a thing stretched; and 漲 is water that swells. In all of them something is pulled out to its working size. The passage chooses the first sense: [[a bow made ready, and not yet a shot|zhang-gong]].",
+      "brush": "Eleven strokes: three for the bow, eight for 長. The bow is the same on every page: a level stroke with a corner, a second level stroke, then the long line that goes down, turns twice, and ends in a hook to the left. Keep it narrow, on the left third. Now 長. A short level stroke at the top; an upright that hangs from its left end; two more short level strokes to the right of the upright; then a long level line under all of them, the widest in the character. From that line the brush goes down and flicks up to the right; then a short slash to the left; then the final press to the lower right, long and open. Watch that last stroke. The bow on the left is coiled, and this stroke on the right is released, like a string that has been let go."
+    },
+    {
+      "c": "補",
+      "title": "A patch on a robe",
+      "lesson": "The left side is 衤, the form that 衣 takes beside another part. 衣 is clothing, and the Shuowen says of it 上曰衣，下曰裳, “the upper garment is 衣, the lower is 裳”. The early graph is commonly explained as a robe seen from the front, with its collar and its two crossed lapels. The right side, 甫 (fǔ), gives the sound; the same part gives the sound in 捕 (to catch) and 鋪 (to spread out). The Shuowen’s definition of 補 is 完衣也, “to make a garment whole”. So this is the plain verb for sewing a patch on a worn place. From there it widened: to repair a wall, to fill a vacant post, to make up a shortage, to nourish a weak body; Chinese medicine still calls a tonic a 補 medicine. Look at the clothing family, because cloth words hide in unexpected places. 初, “beginning”, is 衣 and 刀, a knife, and the Shuowen explains it: 裁衣之始也, “the start of cutting out a garment”. Every beginning, in Chinese, is the first cut into whole cloth. 裁, to cut cloth, also means to decide. 裏, the lining, means “inside”, and 表, the outer garment, means “surface”. A language that thinks with cloth knows that things are cut, sewn, worn through, and mended. The passage says that heaven [[mends|bu]]. It began the world with a cut, 初, and it keeps the needle.",
+      "brush": "Twelve strokes: five for the clothing sign, seven for 甫. Begin with a dot at the top left. The second stroke goes right, turns, and falls away to the left. The third is an upright from the turning point. The fourth is a short slash to the left and the fifth a small dot to the right, tucked close; these two are the lapels. Note that the clothing sign has two small strokes here; the sign for spirits and altars, 礻, has only one, and learners often confuse the pair. Now the right side: a level line; the left upright of the frame; the top-and-right stroke with its corner and a hook at the foot; two short level lines inside; then a long upright through the centre, from above the first line to the base. Last, a dot at the upper right. The centre upright must be truly vertical. It is the needle of the character."
+    },
+    {
+      "c": "奉",
+      "title": "Three hands under a gift",
+      "lesson": "The modern shape hides its parts, so begin with the Shuowen: 从手从廾，𡴀聲, “from a hand, and from a pair of hands, with 𡴀 for the sound”. 廾 is two hands held up side by side. You can see it at the foot of 兵, where two hands hold an axe, and of 弄, to play with, where they hold a piece of jade. In 奉 the writers were not content with two. They added a third hand below, the 手 that is now the three strokes at the bottom. The top three level strokes and the two great sweeping strokes are what regular script made of the sound-part and the pair of hands. The definition is 承也: to bear up, to receive respectfully. And 承 itself is defined by 奉; its old form is commonly explained as hands that lift a kneeling figure. So the picture is of a thing held up from below, by more hands than are needed, toward someone higher. The family keeps the gesture. 捧 adds yet another hand: to carry in both palms. 俸 adds a person: a salary, the grain that the state hands to its officers. 棒 adds wood: a staff. The top of 奉 looks like the top of 春 (spring), 泰 (peace), and 奏 (to present); regular script merged several different old forms into this one shape, so the likeness proves nothing about meaning. In the passage [[the gift goes up from the poor|feng]]. Then the text turns the same hands toward the world.",
+      "brush": "Eight strokes. Three level lines first, from the top down. They are not equal: the first is of middle length, the second slightly shorter, the third the longest, and each rises slightly to the right. Then the two sweeping strokes. The fourth stroke starts above the first line, passes down through all three, and falls far out to the lower left. The fifth starts at the third line and presses out to the lower right, thin at first and broad at the end. These two make a roof, and it must be wide enough to shelter what is below. Under it: two short level lines, the lower one longer, and a final upright through both that runs down to a point. In clerical script the right-hand sweep ends in a heavy flared tail, and the character looks like a figure with its arms raised."
+    }
+  ]
+}

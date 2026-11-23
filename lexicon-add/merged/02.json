@@ -1,0 +1,65 @@
+{
+  "美": {
+    "senses": ["good to taste, fine", "beautiful", "to praise, to find beautiful", "excellence"],
+    "shuowen": "甘也。从羊从大。羊在六畜主給膳也。美與善同意。",
+    "shuowenEn": "Sweet to the taste. From 羊 (sheep) and 大 (big). Among the six farm animals the sheep is the chief one for the table. 美 shares one idea with 善.",
+    "parts": [ { "c": "羊", "m": "a sheep" }, { "c": "大", "m": "big; a person with arms spread" } ],
+    "story": "The Shuowen explains the word from the kitchen: a big sheep is good to eat. Many modern scholars explain the oldest forms as a person who wears a headdress of horns or plumes; the question is open. In both explanations beauty starts near the feast and the rite. The Laozi does not trust the word. When all know 美 as 美, the ugly is already there (2). Fine words, 美言, can buy honor (62), and words that are true are not 美 (81). The sheep also stands in 善, the good, and 義, right conduct.",
+    "gap": "English “beautiful” belongs to the eye and to art. 美 began on the tongue and covers the fine, the good in quality, and the praised. Its opposite, 惡, is the foul and the hated. It is not “evil”."
+  },
+  "惡": {
+    "senses": ["è: ugly, foul, bad in quality", "wù: to hate, to find repulsive", "wū: how? where? (a question word)"],
+    "shuowen": "過也。从心亞聲。",
+    "shuowenEn": "A fault, a going too far. From 心 (heart), with 亞 for the sound.",
+    "parts": [ { "c": "亞", "m": "sound part; second, lesser" }, { "c": "心", "m": "heart" } ],
+    "story": "One graph holds a quality and a feeling. Read è, it is the opposite of 美: the ugly and the bad. Read wù, it is what the heart does to such things: to hate. The Laozi uses both. The ugly appears when beauty is known (2). Water stays in the place that the crowd hates, 眾人之所惡 (8). Weapons are things that people hate (31). Passage 20 asks how far apart 善 and 惡 really are. The character has a heart in it: the bad is first what a heart turns from.",
+    "gap": "“Evil” is too heavy. It brings sin and a cosmic enemy. 惡 is the foul, the coarse, the disliked. The Chinese also does not divide “bad” from “hated”, as English does."
+  },
+  "善": {
+    "senses": ["good, of worth", "good at, skilled in", "to approve, to treat as good", "lucky, auspicious"],
+    "shuowen": "吉也。从誩从羊。此與義美同意。",
+    "shuowenEn": "Lucky, auspicious. From 誩 (two “speech”) and 羊 (sheep). This shares one idea with 義 and 美. (The Shuowen enters the word under the older graph 譱.)",
+    "parts": [ { "c": "羊", "m": "a sheep" }, { "c": "言", "m": "speech (two of them in the old form)" } ],
+    "story": "The old graph 譱 is a sheep between two words. The modern form keeps the sheep on top and has pressed the two 言 into the strokes below it. The Shuowen ties it to 美 and 義 through the sheep, the animal of offerings and good omens. The word is moral and practical together: good, and good at. The Laozi plays on both. The highest 善 is like water, and then seven lines say what each thing is good at (8). The one who is good at walking leaves no track (27). The sage is good to the good and good to the not-good also (49).",
+    "gap": "English keeps “good” (moral) apart from “good at” (skill). 善 does not. A reader must hear both each time."
+  },
+  "聖": {
+    "senses": ["open all the way through; wise", "a sage; the sage kings of old", "sacred (a later sense)"],
+    "shuowen": "通也。从耳呈聲。",
+    "shuowenEn": "To pass through, to be open. From 耳 (ear), with 呈 for the sound.",
+    "parts": [ { "c": "耳", "m": "ear" }, { "c": "口", "m": "mouth" }, { "c": "壬", "m": "lower part; commonly explained as a standing person" } ],
+    "story": "The Shuowen takes the ear as the meaning and the rest as the sound. Early forms are commonly explained as a person with a large ear beside a mouth: one who listens and then speaks. The word is close to 聽, to listen, and 聲, sound. In the Warring States, 聖人 meant above all the ancient kings who set the world in order, and each school claimed them. The Laozi uses 聖人 about thirty times for a ruler who governs by attunement and not by force. Yet passage 19 says: cut off 聖, throw away wisdom, and the people gain a hundred times.",
+    "gap": "“Saint” brings a church and miracles. “Sage” brings a wise old man with sayings. 聖 is a quality of hearing: nothing blocks what comes in. In this book it is also a word about how to rule."
+  },
+  "教": {
+    "senses": ["to teach; a teaching", "to instruct by model", "to cause, to let (jiāo)", "a doctrine, a religion (later)"],
+    "shuowen": "上所施下所效也。从攴从孝。",
+    "shuowenEn": "What those above give out and those below copy. From 攴 (a hand with a rod) and 孝.",
+    "parts": [ { "c": "孝", "m": "left part as now written; early forms are commonly explained as 爻 over 子, a child" }, { "c": "攵", "m": "a hand that holds a rod" } ],
+    "story": "The character has a child and a hand with a rod. It has no mouth and no word in it. The Shuowen’s definition also leaves speech out: teaching is what the high give out and the low copy. The rod-hand, 攴, stands in 牧 (to herd), 政 (to govern), and 攻 (to attack). The Laozi asks for 不言之教, a teaching without words (2, 43). Much later, 教 became the word for a whole tradition: 道教, the Daoist religion; 佛教, Buddhism; 儒教, the Confucian teaching.",
+    "gap": "“Teach” in English suggests a speaker and a subject. 教 is first a model set from above and copied below. It reaches from a parent’s example to a state’s moral policy."
+  },
+  "居": {
+    "senses": ["to squat, to sit", "to dwell, to stay in", "to occupy a position, to claim", "a dwelling"],
+    "shuowen": "蹲也。",
+    "shuowenEn": "To squat.",
+    "story": "The Shuowen gives the body sense: to get down on the heels and stay. From there the word came to mean to live in a place and to hold a position. The Laozi uses it for both a posture and a claim. When the work is done the sage does not 居 it, and so it does not leave (2). Water is good at 居 on low ground (8). The person of Dao does not 居 where the crowd wants to be (24, 31). To 居 is to settle your weight on a thing. The book asks again and again where a person settles.",
+    "gap": "“Dwell” or “claim” each gives half. 居 is one act of the body: to sit down in a place, or in an achievement."
+  },
+  "恃": {
+    "senses": ["to lean on, to rely on", "to presume upon", "a support"],
+    "shuowen": "賴也。从心寺聲。",
+    "shuowenEn": "To depend on. From 心 (heart), with 寺 for the sound.",
+    "parts": [ { "c": "忄", "m": "heart" }, { "c": "寺", "m": "sound part; a court office, later a temple" } ],
+    "story": "To 恃 is to put your weight on a thing: walls, allies, a ruler’s favor, your own past success. Military writers warn against it: do not 恃 that the enemy will not come. The Laozi uses the word in one fixed phrase, 為而不恃, “to act and not lean on it”. The phrase stands in passages 2, 10, 51, and 77. Passage 34 turns it round: the ten thousand things lean on Dao for life, and Dao does not refuse them.",
+    "gap": "Translations often make this a word about hope for a return. Hope looks ahead. 恃 looks back and down: it is weight placed on a thing you have or did."
+  },
+  "功": {
+    "senses": ["merit, counted service", "achievement, result", "effect, effort"],
+    "shuowen": "以勞定國也。从力从工，工亦聲。",
+    "shuowenEn": "To settle the state by toil. From 力 (strength) and 工 (work); 工 also gives the sound.",
+    "parts": [ { "c": "工", "m": "work; a craftsman’s tool" }, { "c": "力", "m": "strength; commonly explained as a plow" } ],
+    "story": "功 is work that a state counts. In the Warring States, rank and land went more and more to recorded merit and less to birth, and 功 became the unit of a career. The Laozi speaks of it always at the moment of completion, and always with a step away: the work done and not dwelt in (2), the work done and the person withdraws (9), the work done and the people say “we are so of ourselves” (17). The one who boasts has no 功 (24).",
+    "gap": "“Work” is too plain and “achievement” too private. 功 is public credit: what others owe you for what you did."
+  }
+}

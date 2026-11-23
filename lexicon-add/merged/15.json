@@ -1,0 +1,71 @@
+{
+  "豫": {
+    "senses": ["wary, to hesitate (as in 猶豫)", "to prepare beforehand", "at ease, glad", "a large elephant (Shuowen)", "hexagram 16; old name of Henan"],
+    "shuowen": "象之大者。賈侍中說：不害於物。从象予聲。",
+    "shuowenEn": "A large kind of elephant. The palace attendant Jia says: it does no harm to other creatures. From 象 (elephant), with 予 for the sound.",
+    "parts": [{"c": "予", "m": "to give; here the sound"}, {"c": "象", "m": "elephant; image"}],
+    "story": "For the Shuowen this is an animal name: a great elephant that harms nothing. Old tradition made the elephant a careful beast that tests the ground, and so explained the sense “to hesitate”. Modern linguists treat 猶豫 as one two-syllable word and the animals as borrowed graphs. In passage 15 it opens the portrait of the old masters: wary, as if crossing a river in winter.",
+    "gap": "English “hesitant” or “irresolute” sounds like a weakness of will. 豫 also means prepared and at ease: the care of a large body that has no need to hurry."
+  },
+  "涉": {
+    "senses": ["to wade across water", "to cross, to pass through", "to experience; to be involved in"],
+    "shuowen": "徒行厲水也。从沝从步。",
+    "shuowenEn": "To cross water on foot. From doubled water and 步 (a step). (The Shuowen enters the word under the fuller graph 𣻣.)",
+    "parts": [{"c": "氵", "m": "water"}, {"c": "步", "m": "a step: two feet"}],
+    "story": "Water and two feet. To wade is to cross with no boat and no bridge, with the body in the river. The Book of Changes uses 涉大川, “to cross the great river”, again and again as its phrase for a serious undertaking. Passage 15 chooses the hardest case: 冬涉川, a river in winter.",
+    "gap": "“Cross” is dry. 涉 is wet to the knee or the chest."
+  },
+  "猶": {
+    "senses": ["like, as if; still, yet", "watchful, in two minds (as in 猶豫)", "a kind of ape (Shuowen)"],
+    "shuowen": "玃屬。从犬酋聲。一曰隴西謂犬子爲猷。",
+    "shuowenEn": "Of the ape kind. From 犬 (dog), with 酋 for the sound. Another account: west of Long, a puppy is called 猷.",
+    "parts": [{"c": "犭", "m": "dog; marks an animal"}, {"c": "酋", "m": "sound"}],
+    "story": "Most often a grammar word: “like”, “still”. In passage 15 it is the second half of the split word 猶豫, hesitation, and the old dictionaries make it an animal: a timid ape that climbs a tree at each sound, or a dog that runs ahead and back. In passage 17 the same word describes the best ruler, who is sparing with words.",
+    "gap": "No English word is both an ape, a doubt, and the word “as if”."
+  },
+  "樸": {
+    "senses": ["wood not yet carved; a log, a block", "plain, in its first state", "honest, unadorned"],
+    "shuowen": "木素也。从木菐聲。",
+    "shuowenEn": "Wood in its plain state. From 木 (tree), with 菐 for the sound.",
+    "parts": [{"c": "木", "m": "tree, wood"}, {"c": "菐", "m": "sound"}],
+    "story": "A block that no tool has shaped. It is one of the book’s chief images: the masters are solid like 樸 (15); embrace the 樸 (19); return to the 樸, and when it is split it becomes vessels (28); the Way is a nameless 樸 (32, 37); “I have no desires and the people are 樸 of themselves” (57). The short form 朴 is now standard on the mainland.",
+    "gap": "“Simplicity” is a quality. 樸 is a thing: wood with all its possible shapes still in it."
+  },
+  "濁": {
+    "senses": ["muddy, turbid", "a corrupt age; impure", "name of a river (Shuowen)"],
+    "shuowen": "水。出齊郡厲嬀山，東北入鉅定。从水蜀聲。",
+    "shuowenEn": "A river. It rises at Mount Ligui in Qi commandery and flows north-east into Juding. From 水 (water), with 蜀 for the sound.",
+    "parts": [{"c": "氵", "m": "water"}, {"c": "蜀", "m": "sound"}],
+    "story": "The opposite of 清, clear. In the moral language of the time, 清 was the pure man and 濁 the foul age. Passage 15 turns this around: the masters look like muddy water, and the mud, left still, clears by itself.",
+    "gap": "“Dull” or “murky” hears a fault. Here it is water and earth not yet separated."
+  },
+  "徐": {
+    "senses": ["to walk at ease", "slowly, gently, without hurry"],
+    "shuowen": "安行也。从彳余聲。",
+    "shuowenEn": "To walk at ease. From 彳 (a step), with 余 for the sound.",
+    "parts": [{"c": "彳", "m": "a step"}, {"c": "余", "m": "sound"}],
+    "story": "Slowness measured by the legs. In passage 15 it is the pace at which mud settles and at which life starts again: 徐清, 徐生. Wang Bi glosses it “careful and attentive”.",
+    "gap": "“Gradually” is about a rate. 徐 is about a way of moving."
+  },
+  "盈": {
+    "senses": ["to fill a vessel; full to the brim", "to overflow; surplus", "the full moon"],
+    "shuowen": "滿器也。从皿、夃。",
+    "shuowenEn": "To fill a vessel. From 皿 (dish) and 夃.",
+    "parts": [{"c": "皿", "m": "a dish, a vessel"}, {"c": "夃", "m": "upper part; the Shuowen glosses it as gain"}],
+    "story": "Fullness at the point just before the spill. The book distrusts it: the Way is used and is not filled (4); better to stop than to hold and fill (9); who keeps this way does not want to be full (15); the hollow is filled (22); great fullness seems empty (45).",
+    "gap": "English “fulfilled” is a good state. 盈 is a cup that can take no more."
+  },
+  "畏": {
+    "senses": ["to fear, to dread", "to hold in awe"],
+    "shuowen": "惡也。从甶，虎省。鬼頭而虎爪，可畏也。",
+    "shuowenEn": "To dread. From 甶 (a ghost’s head) and an abbreviated 虎 (tiger). A ghost’s head and a tiger’s claws: fearsome.",
+    "parts": [{"c": "田", "m": "here 甶: a ghost’s head"}, {"c": "𧘇", "m": "lower part; the Shuowen: tiger’s claws"}],
+    "story": "The Shuowen draws a monster: a ghost’s head on a tiger’s claws. The word covers both fear and awe. The masters are watchful as if they feared neighbours on four sides (15); the ruler one step down from the best is feared (17); “what others fear, I must fear” (20); when the people do not fear the dreadful, the great dread comes (72).",
+    "gap": "English separates “fear” (bad) from “awe” (noble). 畏 is one word."
+  },
+  "士": {
+    "senses": ["a man of service: knight, officer", "a man of learning; an adviser", "a soldier"],
+    "story": "The lowest rank of the Zhou nobility, trained in arms and rites. In the Warring States the 士 became a mobile class of experts who sold advice and service to the courts. The Laozi names them in passage 15 (good at being 士), passage 41 (the highest 士 hears the Way and practises it; the lowest laughs), and passage 68 (one good at being a 士 is not warlike).",
+    "gap": "“Knight”, “scholar”, “officer”, and “gentleman” each give one side."
+  }
+}

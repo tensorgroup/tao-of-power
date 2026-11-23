@@ -1,0 +1,252 @@
+{
+  "n": 39,
+  "title": "Common as Stone",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "昔之得一者，",
+      "gloss": {
+        "0": "xī: formerly, of old; from the beginning",
+        "2": "dé: to get, to obtain (the sound of 德, de)",
+        "3": "one; the One"
+      }
+    },
+    {
+      "text": "天得一以清，地得一以寧，神得一以靈，谷得一以盈，萬物得一以生，侯王得一以為天下貞。其致之，",
+      "gloss": {
+        "4": "clear, as still water or a bright sky",
+        "10": "níng: at rest, settled, safe",
+        "12": "spirits, gods (plural; not “Mind”)",
+        "16": "líng: numinous power; a spirit’s power to answer",
+        "22": "yíng: full, as a vessel",
+        "39": "zhēn: true, firm; a standard (the silk texts are reported to write 正)",
+        "42": "zhì: to bring about, to bring to an end point"
+      }
+    },
+    {
+      "text": "天無以清將恐裂，",
+      "gloss": {
+        "2": "無以: without that by which",
+        "5": "kǒng: “it is to be feared”, probably",
+        "6": "liè: to split, to tear (as cloth)"
+      }
+    },
+    {
+      "text": "地無以寧將恐發，神無以靈將恐歇，谷無以盈將恐竭，萬物無以生將恐滅，侯王無以貴高將恐蹶。故貴以賤為本，高以下為基。是以侯王自稱孤﹑寡﹑不穀。此非以賤為本邪？非乎？故致數輿無輿，不欲琭琭如玉，珞珞如石。",
+      "gloss": {
+        "6": "fā: to shoot off, to break out",
+        "14": "xiē: to stop, to give out, as breath that leaks away",
+        "41": "jué: to stumble and fall flat",
+        "46": "jiàn: cheap, low in rank",
+        "48": "root (the foot of a tree)",
+        "54": "jī: the footing of a wall",
+        "62": "gū: fatherless; “the orphan”",
+        "64": "guǎ: few, lacking; “the lone one”",
+        "67": "gǔ: grain; 不穀, “not fed” or “not good”",
+        "82": "shǔ: to count, to list one by one",
+        "83": "yú: the box of a cart; a cart (other texts read 譽, praise)",
+        "89": "lù: (doubled) the look or the ring of fine jade",
+        "94": "luò: (doubled) the look or the rattle of common stone"
+      }
+    }
+  ],
+  "rendering": [
+    "Of old, these [[got the One|deyi]]:",
+    "",
+    "Heaven got the One, and so is [[clear|qing]].",
+    "Earth got the One, and so is at rest.",
+    "[[Spirits|shen]] got the One, and so have [[power|ling]].",
+    "[[Valleys|gu]] got the One, and so are full.",
+    "The ten thousand things got the One, [[and so live|wanwu]].",
+    "Lords and kings got the One,",
+    "and so became [[the true measure|zhen]] of all under heaven.",
+    "[[That is what brings them to it.|zhizhi]]",
+    "",
+    "Heaven, with nothing to make it clear, [[might well split|lie]].",
+    "Earth, with nothing to keep it at rest, might well burst.",
+    "Spirits, with nothing to give them power, might well give out.",
+    "Valleys, with nothing to fill them, might well run dry.",
+    "The ten thousand things, with nothing to make them live, might well die out.",
+    "Lords and kings, with nothing to keep them noble and high, might well fall.",
+    "",
+    "So the noble has the lowly [[as its root|ben]];",
+    "the high has the low as its footing.",
+    "For this reason lords and kings name themselves",
+    "[[“the orphan”, “the lone one”, “the unfed”|gugua]].",
+    "Is this not to take the lowly as root? Is it not?",
+    "",
+    "So: [[count out the cart, and there is no cart|yu]].",
+    "No wish to be [[rare, rare as jade|lulu]]:",
+    "[[common, common as stone|jade]]."
+  ],
+  "notes": {
+    "deyi": {
+      "kind": "gap",
+      "title": "得一: to get the One",
+      "body": "得 is “to get, to obtain”, a plain verb of possession, and 一 is the numeral one, a single stroke. 得一 is “got one”, “got the One”. The passage before this one played on 德, de, and 得, to get, words of nearly one sound; now the De book’s second passage says 得 seven times. To have de is to have got the One. What is the One? The book does not define it. The Shuowen opens its whole dictionary with this character and a Daoist sentence: 惟初太始，道立於一, “at the very first, the Dao was set up in the One”. It is held, 抱一, in passages 10 and 22; the three things that cannot be seen, heard, or touched merge into it (14); the Dao gives birth to it (42). It is the state of being whole and undivided, before two. Versions that write “harmony with the One” keep two things, a self and a One, in a relation. The Chinese says that heaven has it, as one has a thing. See [[Wang Bi on the number|wangbi]].",
+      "src": [
+        "Shuowen Jiezi, 一部: 一，惟初太始，道立於一，造分天地，化成萬物。"
+      ]
+    },
+    "qing": {
+      "kind": "etymology",
+      "title": "清 and 寧: clear water, a bowl under a roof",
+      "body": "Each line of the litany gives a thing its proper virtue in one word. Heaven is 清. The Shuowen: 朖也。澂水之皃, “bright; the look of water that has settled”. The word has water at the left: heaven’s clearness is described by a pond with the mud gone down. Earth is 寧, “at rest”. The older graph for this word is 寍, and the Shuowen reads it part by part: 安也。从宀，心在皿上。人之飲食器，所以安人. “Peace. A roof, with a heart above a bowl. The vessels of people’s food and drink are that by which people are at peace.” Peace is a heart with a full bowl under a roof. The pair became a formula. Later imperial names used it: in the Forbidden City of Beijing the emperor’s residence is the Palace of Heavenly Clarity, 乾清宮, and the empress’s is the Palace of Earthly Rest, 坤寧宮.",
+      "src": [
+        "Shuowen Jiezi, 水部: 清，朖也。澂水之皃。从水青聲。",
+        "Shuowen Jiezi, 宀部: 寍，安也。从宀，心在皿上。人之飲食器，所以安人。"
+      ]
+    },
+    "shen": {
+      "kind": "gap",
+      "title": "神: the spirits are in the list",
+      "body": "神 are spirits: the gods of mountains and rivers, the powers of the soil and grain, the ancestors who receive offerings. The list goes heaven, earth, spirits, valleys, living things, rulers, and the spirits stand third, as real as the valleys. A modern version turns the word into “Mind” and makes the passage a psychology. For the first readers the question was practical. A spirit that is 靈 answers: the rain comes, the oracle is correct, the sick person recovers. A spirit that has lost its power is a wooden tablet. The Laozi is not a devout book; passage 60 says that when the Dao is present in the world, 其鬼不神, “its ghosts have no spirit-power”. But it does not deny the spirits. It puts them inside the order of the One, with the same need as a valley. What gives a holy place its power, and where does it go?"
+    },
+    "ling": {
+      "kind": "etymology",
+      "title": "靈: rain, mouths, and a dancer",
+      "body": "靈 is the power of a spirit to respond, and the word for a person or place through which it comes. The graph is a scene. At the top is 雨, rain. Under it are three 口; the Shuowen says of the upper part, 霝, 雨零也, “rain falls”, and takes the three shapes as large drops. At the bottom is 巫, the spirit-medium, of whom the Shuowen says 以舞降神者也, “one who by dance brings the spirits down”. The Mawangdui silk texts are reported to write only the top part, 霝. So the character holds its own test: a medium is 靈 when the rain comes. In the south, in the songs of Chu, the possessed medium is herself called 靈. English has to choose “divine”, “numinous”, “efficacious”, or “soul”; a modern version says “inspired”. The Chinese word is a power that is proved by an answer. See the plate.",
+      "src": [
+        "Shuowen Jiezi, 雨部: 霝，雨零也。",
+        "Shuowen Jiezi, 巫部: 巫，祝也。女能事無形，以舞降神者也。象人兩褎舞形。",
+        "Chuci, “Jiu ge” (九歌)"
+      ]
+    },
+    "gu": {
+      "kind": "etymology",
+      "title": "谷: where the spring comes out",
+      "body": "The Shuowen defines 谷 as 泉出通川爲谷, “where a spring comes out and goes through to a river: that is a valley”, and it reads the graph as water half seen, 从水半見, that comes out of an opening, 口. A valley is first a watercourse. The valley is the Laozi’s favorite land form: the valley spirit that does not die (6), “wide open, like a valley” (15), “be the valley of the world” (28), highest de is like a valley (41). Each time it is praised for being empty and low. Here, for once, it is 盈, full. The two do not conflict. A valley can be filled because it is hollow, and it is filled from above with no effort: all water comes down to it. The silk texts are reported to write the word as 浴, “to bathe”, the same graph with water added.",
+      "src": [
+        "Shuowen Jiezi, 谷部: 谷，泉出通川爲谷。从水半見，出於口。"
+      ]
+    },
+    "wanwu": {
+      "kind": "variant",
+      "title": "Five lines or six",
+      "body": "The pinned text has six that got the One: heaven, earth, spirits, valleys, the ten thousand things, lords and kings. The Mawangdui silk texts are reported to have five. They have no line 萬物得一以生, and in the second list no line about the ten thousand things that die out. This is probably the older form. The five are great, particular powers, each with its own excellence. “The ten thousand things” is a different kind of member: it is the sum of all that there is, and it breaks the climb from heaven down to the ruler. A later editor likely added it for completeness, and to bring in the great word 生, “to live”. Notice what the addition does to the lords and kings. In the list of five they are the last of the cosmic powers. In the list of six they come after everything."
+    },
+    "zhen": {
+      "kind": "etymology",
+      "title": "貞: the word of the oracle bones",
+      "body": "The ruler’s excellence is to be 天下貞, the 貞 of the world. The Shuowen keeps the first meaning: 卜問也, “to ask by divination”. On the Shang oracle bones this is the word that begins each question to the ancestors: the diviner “tests” a statement by fire on bone. From the true answer came the senses “firm, constant, correct”; it is one of the four first words of the Book of Changes. A ruler who is the world’s 貞 is that by which the world checks itself, a fixed point, like the crack that gives the answer. The Mawangdui silk texts are reported to write 正, “straight, a standard”, a plainer word with the same use. Later 貞 was narrowed to the “chastity” of widows, and a reader must put that sense aside. The claim here is large: by the One, a king becomes a measure. Without it, the passage says, he will fall.",
+      "src": [
+        "Shuowen Jiezi, 卜部: 貞，卜問也。从卜，貝以爲贄。",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "zhizhi": {
+      "kind": "variant",
+      "title": "其致之, and a second way to read the warnings",
+      "body": "其致之 is three characters: “that / brings about / it”. Some editions add 一也: “what brings them to this is the One”. We keep the short form. The silk texts then open a different door. The received warnings say 天無以清將恐裂, “heaven, without that by which it is clear, might well split”. The Mawangdui texts are reported to read 謂天毋已清將恐裂. The two small words 毋已 can be read as 無以, and then the sense is the same. But as written they say “without stopping”: “this means: if heaven were clear without end, it would split”. On that reading the second list does not describe a loss of the One. It describes excess: clearness that is pushed to its limit, a valley that must be full for ever, a king who must be noble and high without pause. Then the turn to lowliness follows at once. Scholars are divided, and both readings are old.",
+      "src": [
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "lie": {
+      "kind": "wordplay",
+      "title": "Six ways to come apart",
+      "body": "The second list has one frame and six verbs of ruin, and each verb fits its subject. Heaven would 裂: the Shuowen ties the word to cloth, 繒餘也, a torn remnant of silk; the sky rips like a sheet. Earth would 發: the first sense is the release of an arrow, 䠶發也; the ground lets go, in a quake or a flood. Spirits would 歇: the Shuowen has 气越泄, “the breath leaks away”; a spirit runs out like air. Valleys would 竭, run dry. Living things would 滅; the graph has water and fire, and the Shuowen says 盡也, “to be used up”. Kings would 蹶: 僵也, “to fall stiff”, as a runner trips. All six verbs belong to one old rhyme group, which scholars name 月, and the frame 將恐, “will, one fears”, is repeated like a drum. This was written to be recited. Read the six English lines aloud, quickly, and you have a little of it.",
+      "src": [
+        "Shuowen Jiezi, 衣部: 裂，繒餘也。",
+        "Shuowen Jiezi, 弓部: 發，䠶發也。",
+        "Shuowen Jiezi, 欠部: 歇，息也。一曰气越泄。",
+        "Shuowen Jiezi, 足部: 蹶，僵也。"
+      ]
+    },
+    "ben": {
+      "kind": "etymology",
+      "title": "本 and 基: a root and a wall footing",
+      "body": "The passage turns here from the cosmos to rank. The turn is prepared one line earlier: the kings’ excellence was 貞 in the first list, and in the mirror list it is 貴高, “noble and high”. Now come two pictures from below ground. 本 is a tree, 木, with a mark at its foot; the Shuowen says 木下曰本, “the lower part of a tree is called 本”. The same tree with a mark at the top is 末, the branch-tip. 基 has 土, earth: the Shuowen says 牆始也, “the beginning of a wall”, the rammed footing on which the wall is raised. So 貴以賤為本 is not a moral remark that the great ought to be modest. It is a statement about structure. The noble stands on the lowly as a tree stands on its root: 貴 is “costly” and 賤 is “cheap”, and both have 貝, the cowrie, in them; rank is a price. A wall has no choice about its footing. The lords of the time lived on the grain, labor, and soldiers of people whom they did not see.",
+      "src": [
+        "Shuowen Jiezi, 木部: 本，木下曰本。从木，一在其下。",
+        "Shuowen Jiezi, 土部: 基，牆始也。从土其聲。"
+      ]
+    },
+    "gugua": {
+      "kind": "history",
+      "title": "孤, 寡, 不穀: how kings said “I”",
+      "body": "This is court history. A Zhou ruler did not use the common words for “I” in formal speech. He said 寡人, “the person who lacks”, usually explained as “of little de”. In mourning or after a defeat he said 孤, “the orphan”; the Shuowen defines it as 無父也, “without a father”, and a ruler normally came to his seat when his father died. 不穀 is frequent in the Zuozhuan, most of all in the mouths of the kings of Chu and of the Zhou king. 穀 is grain, and by extension “good, well provided”, so the phrase is “the unfed” or “the not-good”. The histories are full of these words. They were formulas of ritual modesty, said by men with armies. The Laozi takes the formula as evidence: at the top of the state, the language already admits what holds it up. The same three names return in passage 42 as “what people hate”. [[Legge|legge]] read the third one very differently.",
+      "src": [
+        "Shuowen Jiezi, 子部: 孤，無父也。从子瓜聲。",
+        "Shuowen Jiezi, 宀部: 寡，少也。",
+        "Liji, “Qu li, xia”",
+        "Zuozhuan, Duke Zhuang year 11: 列國有凶稱孤，禮也。"
+      ]
+    },
+    "yu": {
+      "kind": "variant",
+      "title": "數輿無輿: a cart, or praise",
+      "body": "This line is one of the hard places of the book. The pinned text reads 致數輿無輿: “carry to the end the count of the cart: no cart”. 輿 is the box of a cart, and so a cart. List the parts, wheel, axle, box, pole, and no part is “cart”; the cart is the one thing that the count does not find. That fits the passage: take the One away and you have a heap. [[Wang Bi|wangbi]] has this text. A Buddhist book of later centuries, the Questions of King Milinda, makes the same point about a chariot and the self. Other old editions read 譽, “praise”, a word of the same sound: 致數譽無譽, “the highest renown is to have no renown”, or “count up your praises and none is left”. The Zhuangzi has 至譽無譽, “the utmost praise is no praise”. The silk texts are reported to write 與, which can stand for 輿 or 譽 and so does not decide.",
+      "src": [
+        "Zhuangzi, “Zhi le” (至樂)",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "lulu": {
+      "kind": "wordplay",
+      "title": "琭琭, 珞珞: doubled words",
+      "body": "Classical Chinese makes vivid words by saying a syllable two times. They work like “glitter” or “clatter”: they give the look, the sound, and the feel of a thing together, and they are hard to define. 琭琭 goes with jade and 珞珞 with stone, and old readers do not agree about what they say. The Heshang Gong commentary takes them as number: 琭琭 is “few”, as jade is rare and so is prized; 珞珞 (other texts write 落落) is “many”, as stones lie about and are cheap. Others hear the materials: the fine ring of jade pieces, the dull knock of rocks. The silk texts are reported to write 祿祿 and 硌硌, different graphs for like sounds, which shows that scribes wrote these words by ear. Our “rare, rare” and “common, common” keep the doubling and follow Heshang Gong. What would you call the sound of a person who has no need to be valued?",
+      "src": [
+        "Heshang Gong commentary on Laozi 39",
+        "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"
+      ]
+    },
+    "jade": {
+      "kind": "geopolitics",
+      "title": "Jade was rank that one could hear",
+      "body": "Jade was the most prized substance of early China. A noble wore jade pendants at the belt, and the ritual books say that their chime as he walked kept his pace correct. Lords held jade tablets at court as tokens of their rank. A single disc could move states: in 283 BCE the king of Qin offered fifteen cities for the jade of Mr. He, which belonged to Zhao, and a minister of Zhao became famous because he brought it home whole. So “not to wish to be like jade” is said against the main sign of nobility. The grammar leaves a question. 不欲 may govern both halves: no wish to be jade, and no wish to be stone, since both are poses. Most readers supply “rather”: not jade, but stone. The Chinese has no “rather”. Passage 70 gives one more turn: the sage wears rough cloth and carries jade inside.",
+      "src": [
+        "Liji, “Yu zao” (玉藻)",
+        "Shiji, “Lian Po Lin Xiangru liezhuan”"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: use the One, not the clearness",
+      "body": "On the first line Wang Bi writes: 昔，始也。一，數之始而物之極也. “‘Of old’ is ‘at the beginning’. One is the beginning of number and the limit of things.” Each thing got this One and so became itself; then 既成而舍以居成，居成則失其母, “once complete, it leaves the One and settles in its completeness; settled in completeness, it loses its mother”. That is the cause of the six disasters. His sharpest sentence is on heaven: 用一以致清耳，非用清以清也。守一則清不失，用清則恐裂也. “It uses the One to arrive at clearness; it does not use clearness to be clear. Keep the One and clearness is not lost; use clearness and the split is to be feared.” A sky that tried to be clear would crack. On the end: 貴在其母，而母無貴形, “the worth is in the mother, and the mother has no form of worth”.",
+      "src": [
+        "Wang Bi commentary on Laozi 39"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: rhymes, and a carriage with no nave",
+      "body": "Legge puts both lists into rhymed couplets: heaven is “bright and pure”, earth “firm and sure”. The Chinese gives each thing one word; the rhyme needs two, so each virtue is doubled. He adds “(the Tao)” after “the One”, an equation that the text does not make; passage 42 says that the Dao gives birth to the One. His oddest choice is in the royal names. For 不穀 he writes “Carriages without a nave”. This is not his own slip. He followed the Heshang Gong commentary, which reads 轂, the hub of a wheel, a graph that differs from 穀, grain, by one part: the king says that he cannot be the hub on which the spokes meet. Modern scholars take that reading as a folk explanation. It is a suggestive one, since [[a cart|yu]] comes two lines later and the hub is the empty center of passage 11. His kings rule by “moral sway”, a Victorian phrase with no Chinese behind it. He follows the cart reading of the hard line, with a long paraphrase.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "chant": {
+      "kind": "wordplay",
+      "title": "A litany and its dark mirror",
+      "body": "The form is the content here. Six lines with one mould, X 得一以 Y: only two characters change in each. Then six lines that mirror them, X 無以 Y 將恐 Z. The first list goes down like steps, from the sky to one man on a throne. The second goes down the same steps and knocks each one away. The six end words of the first list, 清, 寧, 靈, 盈, 生, 貞, are all in one old rhyme group, which scholars name 耕. A hearer who knows the first list can predict the second, and that is the point: the mind feels the dependence before it is argued. This is the method of ritual chant and of the old court odes, and it is rare in the Laozi, which more often speaks in couplets. After the twelve lines the prose changes to questions: “is it not? is it not so?” The teacher turns from the cosmos and looks at the king. Count how many times the English must say “the One”. The Chinese says 一, one stroke."
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Count out the cart",
+      "body": "Choose a thing that you are proud of or depend on: a team, a family, a skill, your own name. List its parts on paper, as many as you can. Then ask where in the list the thing itself is. The team is not any member, the skill is not any single movement. What makes the parts one? You will not find it as an item, and without it the items are a heap. Then do the second half of the passage. Ask what low thing this high thing stands on: who cooks, who cleans, which dull routine, which people that no one names. Write those down too. They are the 本, the root."
+    }
+  },
+  "lenses": {
+    "ground": "The passage is built as a [[chant|chant]]. Six things [[got the One|deyi]] and each has its excellence: heaven [[clear|qing]], earth at rest, [[spirits|shen]] [[potent|ling]], [[valleys|gu]] full, [[all things|wanwu]] alive, rulers [[true|zhen]]. Six mirror lines say what each [[would suffer|lie]] without it. Then the argument: the noble has the lowly [[as its root|ben]], and the proof is in the mouths of kings, who [[call themselves orphans|gugua]]. Last come [[a riddle about a cart|yu]] and a choice between [[jade and stone|jade]]. The movement is from the highest thing to the lowest: it begins with heaven and ends with a common rock. The One is never described. It is known only by what holds together when it is present.",
+    "inner": "What makes an experience one? This moment has a sound, a color, a thought, a feeling in the chest. [[List them|yu]], and the list does not contain the fact that they are one moment, known together. That unity is not a seventh item. A mind that has it is [[clear|qing]] and at rest with no effort toward clearness; [[Wang Bi|wangbi]] says that heaven does not use clearness to be clear. A mind that works at being clear, at being calm, at being spiritual, is the sky that splits. The second half moves to the person. The part of you that wishes to be jade, noticed, rare, and fine, stands on something that has no rank at all: plain presence, as common as stone. That base is not a humiliation. It is the root.",
+    "leading": "The passage speaks to rulers by title two times. First it flatters: they are in the list with heaven and earth. Then it shows them the footing. A king is high, and [[high stands on low|ben]] as a wall stands on rammed earth. This is engineering, and the ritual language of the court [[already confessed it|gugua]]. Each organization can read the line directly: the executive floor stands on the people who answer the telephone, and when that footing is treated with contempt the wall cracks. The [[cart|yu]] warns against rule by inventory: a leader can count the departments and miss the one thing that makes them a company. And [[jade|jade]]: a leader who needs to chime as he walks, who needs the tokens of rank, has moved from the root to the branch-tips.",
+    "nature": "An ecologist could have written the six lines. A clear sky, stable ground, valleys with water, the living things: each condition seems to stand by itself, and each one lasts only inside a whole. Break the whole and the passage’s verbs become exact: the ground [[lets go|lie]], the springs run dry, species die out. The [[valley|gu]] line is the purest case. A valley does not make its water. It is full because it is low and joined to all the slopes. In the same way, the tall tree stands on the mat of roots and fungi that no one sees. The passage’s last image goes to the commonest thing on the planet. Soil is ground [[stone|jade]]. Jade is admired and inert. Stone, broken and common, becomes the ground that things grow in.",
+    "practice": "Do the exercise of [[the cart|practice]] with one thing today. Then try the last line for an afternoon: no wish to be jade. In one meeting or one conversation, drop the small moves that are made to be found rare: the reference that shows what you know, the story in which you did well. Be a stone among stones: useful, ordinary, part of the ground. Notice if anything real was lost. Notice also the opposite pose, the pride of the humble. The grammar of the line may [[refuse that one too|jade]]."
+  },
+  "glyph": "靈",
+  "plates": [
+    {
+      "c": "靈",
+      "title": "Rain, three drops, a dancer",
+      "lesson": "This is one of the great pictures in the script. Read it from the top down, in three floors. The top floor is 雨, rain: a sky line, a cloud that hangs from it, and four drops. You know it from 雲 (cloud), 雪 (snow), 電 (lightning), 雷 (thunder). The middle floor is three 口 in a row. They are not mouths here; the Shuowen, in its entry for the two upper floors together, 霝, says 雨零也, “rain falls”, and takes them as big drops. Others see three mouths that chant for rain. The bottom floor is 巫, a spirit-medium. The Shuowen defines her: 女能事無形，以舞降神者也。象人兩褎舞形. “A woman who can serve the formless, and by dance brings the spirits down. It shows a person with two sleeves, dancing.” In the modern form you can see two small 人 at each side of a post, between a line above and a line below: heaven, earth, and the dancers between. So the whole character is a rain rite. The medium dances below; the drops come down above. If the rain comes, she is 靈, [[potent|ling]]. The Shuowen lists the character under jade, in an older form with 玉 at the bottom, 以玉事神, “one who serves the spirits with jade”, and gives 靈 as the variant with 巫. The short form 灵 is an old popular variant. In this passage the [[spirits|shen]] got the One and so are 靈. The character says how people knew: it rained.",
+      "brush": "Twenty-four strokes. Rain takes eight: a horizontal; a short stroke down at the left; a horizontal that hooks down at the right; a vertical in the middle; then four dots, two at each side of the vertical. Then three small boxes from left to right, three strokes each: left side, top with right side, base. Then the medium, seven strokes: a horizontal; a vertical post; a left-falling stroke and a dot for the person at the left; a left-falling stroke and a dot for the person at the right; and a long horizontal floor. Watch the three boxes. They are the hardest part: equal in size, level, with equal gaps, and small enough that the character does not grow fat in the middle. The rain cover must be wide and flat and the last stroke the widest of all. A writer who gives each floor the same height makes a tower. The good hands press the top two floors and let the dancer have room."
+    },
+    {
+      "c": "玉",
+      "title": "The king with a dot",
+      "lesson": "Three horizontal lines and one vertical through them: that was the whole character for jade in the old scripts, and the Shuowen explains it: 象三玉之連，丨其貫也, “it shows three pieces of jade joined; the 丨 is the cord through them”. The trouble was that the character for king, 王, had come to look the same: three lines and a post. The Tang editor Li Yangbing, quoted in the Shuowen text, tells them apart by spacing: of 王 he says 中畫近上, “the middle line is near the top”, and of 玉, 三畫正均, “the three lines are exactly even”. Later writers solved the problem with a dot at the lower right, and jade became 玉. But when jade is a part at the left of a character, it is still written with no dot, and looks like a king: 理 (to work jade along its veins, and so “pattern, reason”), 現 (to appear), 珍 (a treasure), 玩 (to play, first to turn jade in the hand). The two rare words of this passage, 琭 and 珞, have this side: they are jade words, though they seem to say “king”. That is a good accident for a passage that speaks to [[lords and kings|gugua]] and ends by refusing [[jade|jade]]. The king, 王, is jade with the dot taken away. Stone, 石, by contrast, is a rock under a cliff: the Shuowen calls it 山石也, “mountain stone”.",
+      "brush": "Five strokes. A horizontal at the top. A second horizontal under it, shorter. Then the vertical, from the middle of the first line down through the second. Then the long base line, the widest stroke. Last the dot, at the right, in the space between the second line and the base. Watch the dot. It is one touch of the brush and it turns a king into a stone; it should lean and have a tail, like a seed, and it must not touch the vertical. Keep the two spaces between the three lines equal: that evenness was the old sign of jade. In clerical script the base line has the long “silkworm head and goose tail” wave, and the character sits on it like a pendant on a cord."
+    }
+  ]
+}

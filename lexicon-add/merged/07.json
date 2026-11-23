@@ -1,0 +1,62 @@
+{
+  "私": {
+    "senses": ["private; one’s own share", "personal interest, partiality", "secret, in private", "to favor, to treat as one’s own"],
+    "shuowen": "禾也。从禾厶聲。北道名禾主人曰私主人。",
+    "shuowenEn": "Grain. From 禾 (grain plant), with 厶 for the sound. In the north the owner of the grain is called 私主人.",
+    "parts": [ { "c": "禾", "m": "a grain plant with a hanging ear" }, { "c": "厶", "m": "sound part; Han Fei: “to circle round oneself”" } ],
+    "story": "The Shuowen’s 私 is grain, and its 厶 is the older word for “private”: Han Fei said that the maker of the script drew “a circle round oneself” for 厶 and “a back turned on 厶” for 公, the public. In the old picture of the fields, each family had its 私 plot beside the lord’s 公 plot. By the Warring States 私 was a word of politics: private interest against the state. The Laozi uses it in two places. The sage is without 私, and so the sage’s 私 is completed (7). Show the plain, hold the uncarved; less 私, few desires (19).",
+    "gap": "English “private” is neutral or even good: private life, privacy. “Selfish” is a moral fault. 私 is between them: one’s own share, fenced off."
+  },
+  "久": {
+    "senses": ["for a long time", "lasting; to last", "to stay, to keep in place (old sense)"],
+    "shuowen": "以後灸之，象人兩脛後有距也。",
+    "shuowenEn": "To apply heat from behind; it shows a person’s two shins with something set against them from behind.",
+    "story": "Many scholars take this graph as the first way of writing 灸, to burn moxa on the skin: a slow treatment in which the herb stays in place. It was then used for “a long time”. In the Laozi, 久 is what Dao and its followers have and what force lacks. Heaven is long and earth is lasting (7). A storm wind does not last a morning; if heaven and earth cannot make things last, how can people? (23). Know what is enough and you can be long and lasting (44). With the mother of the state one can be long and lasting (59). Dao itself is 久 (16).",
+    "gap": "“Eternal” and “forever” are outside time. 久 is inside time: a thing that stays put for a long while."
+  },
+  "外": {
+    "senses": ["outside, outer", "foreign, distant", "to put outside, to leave out of account", "relatives on the mother’s side"],
+    "shuowen": "遠也。卜尚平旦，今夕卜，於事外矣。",
+    "shuowenEn": "Far. Divination values the early morning; now to divine in the evening is to be outside the matter.",
+    "parts": [ { "c": "夕", "m": "evening; the moon half seen" }, { "c": "卜", "m": "to divine; a crack in a heated shell" } ],
+    "story": "The Shuowen explains the graph as a divination made at the wrong hour, and so off the point. Modern scholars doubt this and often take one part as the sound. The word is the partner of 內, inside. In the Laozi it is used as a verb: the sage puts the body outside, and the body remains (7). The Zhuangzi makes this a ladder of practice: to put the world outside, then things, then life itself.",
+    "gap": "English cannot say “to outside a thing”. The classical verb means to treat as not one’s concern, with no hostility in it."
+  },
+  "長": {
+    "senses": ["cháng: long (of space and time)", "cháng: to last; lasting", "zhǎng: to grow; to raise", "zhǎng: an elder, a chief; to be head of"],
+    "shuowen": "久遠也。",
+    "shuowenEn": "Lasting and far.",
+    "story": "Early forms are commonly explained as a person with long hair, perhaps an elder with a staff. The two readings are two sides of that picture: cháng, long, and zhǎng, to grow old, to be senior, to lead. The Laozi uses both. Long and short shape each other (2). Heaven is long (7). What is hammered sharp cannot be kept long (9). To raise things and not rule them, 長而不宰, is the dark power (10, 51). The one who shows off does not last or lead (22, 24).",
+    "gap": "English keeps “long”, “grow”, and “leader” in three words. In Chinese they are one word: the one who has lasted is the one in front."
+  },
+  "身": {
+    "senses": ["the body; the trunk", "one’s own person; oneself", "one’s life, lifetime", "in person; pregnant (有身)"],
+    "shuowen": "躳也。象人之身。",
+    "shuowenEn": "The body. It shows a person’s body.",
+    "story": "Early forms are commonly explained as a person in side view with a round belly. The word runs from the physical body to the whole person and the span of a life. It is central in the Laozi. The sage puts the 身 behind and it is in front (7). The work done, the 身 withdraws (9). “I have great trouble because I have a 身” (13). Name or 身, which is nearer? (44). Cultivate it in the 身, and its power is real (54). To the end of the 身, that is, all one’s life, there is no danger (16, 52).",
+    "gap": "“Self” brings in an inner owner of the body. “Body” alone can sound like mere flesh. 身 is the living person, body and life together."
+  },
+  "先": {
+    "senses": ["to go ahead; in front", "first, before", "former; those who went before, the dead", "to put first"],
+    "shuowen": "前進也。",
+    "shuowenEn": "To go forward.",
+    "parts": [ { "c": "儿", "m": "lower part: a person" }, { "c": "之", "m": "upper part in the Shuowen’s analysis: to go; commonly explained as a foot" } ],
+    "story": "A foot above a person: one who has stepped ahead. From there come “first”, “earlier”, and the dead who went before, 先人. The Laozi distrusts the front place. Dao looks like the forebear of the high god (4). The sage puts the body behind, and it is 先 (7). To stand before the people, put the body behind them (66). One of the speaker’s three guarded things is not daring to go ahead of all under heaven (67).",
+    "gap": "English “first” is a rank and a prize. 先 is a position on a road, with others behind."
+  },
+  "後": {
+    "senses": ["behind, the rear", "after, later", "to put behind; to come after", "descendants"],
+    "shuowen": "遲也。",
+    "shuowenEn": "Slow, late.",
+    "parts": [ { "c": "彳", "m": "a step, a road" }, { "c": "幺", "m": "a fine thread" }, { "c": "夊", "m": "a trailing foot" } ],
+    "story": "The parts are commonly explained as a foot held back by a cord on a road: one who lags. The word covers the rear in space, the later in time, and those who come after, one’s descendants. In the Laozi it is the chosen place. Before and after follow each other (2). The sage puts the body behind (7). Meet Dao and you do not see its head; follow it and you do not see its 後, its back (14). To give up the rear and take the front is death (67).",
+    "gap": "“Last” in English is a defeat. 後 is only the place behind, and in this book it is the safer and the stronger one."
+  },
+  "存": {
+    "senses": ["to be there, to remain", "to survive (opposite of 亡, to perish)", "to keep, to preserve", "to ask after, to care for (old sense)"],
+    "shuowen": "恤問也。",
+    "shuowenEn": "To ask after with care.",
+    "story": "The Shuowen gives the old social sense: to visit and ask how someone is. The common classical sense is “to survive”, the partner of 亡 in 存亡, survival or ruin, the constant question for states and families. The Laozi uses it for a presence that is hard to fix. Dao seems, perhaps, to 存 (4). The valley spirit is fine as floss, as if it were 存 (6). The sage puts the body outside, and the body 存 (7). The middling student hears of Dao: it seems to 存, it seems to be lost (41).",
+    "gap": "“Exist” is a flat, philosophical word. 存 is to be still here, to have come through."
+  }
+}

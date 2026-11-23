@@ -1,0 +1,72 @@
+{
+  "亡": {
+    "senses": ["to flee, to be missing", "to lose; lost, gone", "to perish; to destroy (a state)", "wú: not to have (early writing for 無)"],
+    "shuowen": "逃也。从人从乚。",
+    "shuowenEn": "To flee. From a person and 乚 (a nook, a hiding place).",
+    "parts": [{"c": "亠", "m": "what is left of a person (in the Shuowen’s reading)"}, {"c": "乚", "m": "a corner, a hiding place"}],
+    "story": "In the Shuowen’s account 亡 is a person who has gone into a corner and cannot be found; the early forms are read in other ways too. The word runs from “absent” through “lost” to “dead” and “destroyed”. It is the core of 忘 (to forget), 盲 (blind), 望 (to look out for one who is away), and 喪 (mourning). The last line of Laozi 33 turns on it: one who dies and is not 亡 has long life. The Mawangdui silk texts read 忘 there: “is not forgotten”.",
+    "gap": "English “perish” is final and grand. 亡 is first only “not here”, which is why a dead person may be said not to be it."
+  },
+  "知": {
+    "senses": ["to know, to be aware of", "to understand; to recognise", "to have charge of, to master", "zhì: knowing, clever (later written 智)"],
+    "shuowen": "詞也。从口从矢。",
+    "shuowenEn": "A word, an utterance. From 口 (mouth) and 矢 (arrow).",
+    "parts": [{"c": "矢", "m": "an arrow"}, {"c": "口", "m": "a mouth"}],
+    "story": "An arrow and a mouth. Later scholars explain that what is known is spoken as fast and straight as an arrow flies. 知 and 智 were one word, and early manuscripts write both as 知. The Laozi is wary of knowing that aims outward and collects: “one who knows does not speak” (56), “to know that one does not know is best” (71). It values three knowings: to know the constant (16), to know enough and to know when to stop (32, 44), and to know oneself (33).",
+    "gap": "English separates “know”, “knowledge”, and “wisdom” and ranks wisdom highest. In this book the highest word is not built on 知 at all; it is 明."
+  },
+  "富": {
+    "senses": ["fully provided, complete (Shuowen)", "rich, wealthy; wealth", "abundant"],
+    "shuowen": "備也。一曰厚也。从宀畐聲。",
+    "shuowenEn": "Provided, complete. Another sense: thick. From 宀 (roof); 畐 gives the sound.",
+    "parts": [{"c": "宀", "m": "a roof, a house"}, {"c": "畐", "m": "commonly explained as a full jar; sound part"}],
+    "story": "A roof over a full jar: to be rich is to have what is needed in store at home. The same jar with the altar sign is 福, blessing. In the Warring States, 富 was a goal of state, paired with 強, a strong army. The Laozi moves it inside the person: “one who knows enough is rich” (33). It warns that a hall full of gold and jade cannot be guarded, and that wealth with pride invites ruin (9).",
+    "gap": "English “rich” compares one person with others. 富 is about fullness: whether the jar has what the house needs."
+  },
+  "明": {
+    "senses": ["bright, light; to shine", "clear, evident; to make clear", "clear-sighted; inner clarity (Laozi)"],
+    "parts": [{"c": "日", "m": "the sun (in the common form)"}, {"c": "月", "m": "the moon"}],
+    "story": "The common graph joins sun and moon. The Shuowen’s main entry is the variant 朙, a moon beside a latticed window: moonlight coming into a room. In the Laozi 明 is the name for the highest kind of seeing, and it is usually quiet: to know the constant is 明 (16, 55); to see the small is 明 (52); one who knows the self is 明 (33); one who shows the self is not (24). Passage 41 says that the bright Dao seems dark.",
+    "gap": "“Enlightenment” carries the European eighteenth century or a Buddhist awakening. 明 is plainer: the ability to see in the light that there is."
+  },
+  "勝": {
+    "senses": ["to bear, to be equal to (a load, a task)", "to overcome, to win; victory", "to surpass; all, completely (不可勝: more than can be…)"],
+    "shuowen": "任也。从力朕聲。",
+    "shuowenEn": "To bear, to be equal to. From 力 (strength); 朕 gives the sound.",
+    "parts": [{"c": "朕", "m": "sound part"}, {"c": "力", "m": "strength; a sinew"}],
+    "story": "勝 began as the ability to carry: to be equal to a weight. To overcome an opponent is to be more than equal to him. The Laozi uses the word for its reversals: the soft overcomes the hard (36, 78), stillness overcomes heat (45), the female overcomes the male by stillness (61). In 31 a victory is to be mourned. In 33 the one who overcomes others has force, and the one who overcomes the self is strong.",
+    "gap": "“Conquer” and “defeat” need an enemy. 勝 can mean only that one is equal to what one carries, which is how the self is “overcome”."
+  },
+  "壽": {
+    "senses": ["long life, a great age", "lifespan; to live long", "a birthday (of an elder); to wish long life"],
+    "shuowen": "久也。从老省，𠷎聲。",
+    "shuowenEn": "Long-lasting. From a short form of 老 (old); 𠷎 gives the sound.",
+    "parts": [{"c": "耂", "m": "old (short form of 老)"}, {"c": "𠷎", "m": "sound part"}],
+    "story": "壽 is long life in the body, the first thing that Zhou bronzes ask of the ancestors and the first of the “five blessings” in the Book of Documents. It became the centre of a whole art of living, and its graph, in a hundred decorative forms, is the commonest emblem on Chinese gifts. The Laozi uses the word once, in the last line of passage 33, and gives it to one who has died and is not lost.",
+    "gap": "“Immortality” and “eternal life” are about another world. 壽 is years in this one, which is what makes the Laozi’s use of it strange."
+  },
+  "所": {
+    "senses": ["the sound of chopping wood (Shuowen)", "a place, a location; one’s proper place", "that which (grammatical particle)"],
+    "shuowen": "伐木聲也。从斤戶聲。《詩》曰：“伐木所所。”",
+    "shuowenEn": "The sound of wood being felled. From 斤 (axe); 戶 gives the sound. The Odes say: “They fell the trees, suo, suo.”",
+    "parts": [{"c": "戶", "m": "a door leaf; sound part"}, {"c": "斤", "m": "an axe"}],
+    "story": "The Shuowen records 所 as the noise of an axe, and the graph was borrowed for the word “place” and for the particle “that which”. As a noun it is where a thing is or belongs. Laozi 33 says that one who does not lose 其所, the place that is one’s own, lasts. The text does not say what the place is; readers have taken it as one’s role, one’s measure, or the centre of the body.",
+    "gap": "English “position” suggests rank among competitors. 所 is only where a thing belongs."
+  },
+  "足": {
+    "senses": ["the foot; the leg", "enough, sufficient; to suffice", "to be worth (不足: not worth…)"],
+    "shuowen": "人之足也。在下。从止、口。",
+    "shuowenEn": "A person’s foot. It is below. From 止 (foot) and 口.",
+    "parts": [{"c": "口", "m": "a round shape above (knee or leg)"}, {"c": "止", "m": "a foot"}],
+    "story": "足 is the foot with something of the leg above it. The same graph writes “enough”, commonly explained as a loan for a like-sounding word. 知足, “to know enough”, is one of the Laozi’s fixed phrases: the one who knows it is rich (33), is not disgraced (44), and has the lasting kind of enough (46). It makes a pair with 知止, to know when to stop, whose 止 is also a foot. Passage 64 has the literal sense: a journey of a thousand li starts under the foot.",
+    "gap": "“Contentment” is a mood. 知足 is a piece of knowledge: knowing the amount."
+  },
+  "志": {
+    "senses": ["the heart’s aim; intention, will, ambition", "to set the heart on", "a record (later 誌)"],
+    "shuowen": "意也。从心之聲。",
+    "shuowenEn": "Intention. From 心 (heart); 之 gives the sound.",
+    "parts": [{"c": "士", "m": "in the old form 之: to go, to head for"}, {"c": "心", "m": "the heart"}],
+    "story": "The top of 志 was once 之, a sprout that pushes out and goes somewhere; under it is the heart. So 志 is where the heart is headed. Confucians prized it: “at fifteen I set my heart on learning”. The Laozi is cooler. The sage “weakens their 志 and strengthens their bones” (3); the killer cannot “get his 志” in the world (31); and one who walks on by force “has 志” (33), which may be praise or only a description.",
+    "gap": "“Will” in English is a faculty one admires. 志 is a direction of the heart, and the Laozi asks where it points before it praises."
+  }
+}

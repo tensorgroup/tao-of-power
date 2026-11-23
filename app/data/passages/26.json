@@ -1,0 +1,216 @@
+{
+  "n": 26,
+  "title": "The Baggage Wagons",
+  "theme": "leading",
+  "zh": [
+    {
+      "text": "重為輕根，靜為躁君。",
+      "gloss": {
+        "0": "heavy; weighty, grave",
+        "2": "light; first: a light, fast chariot",
+        "7": "restless, hasty",
+        "8": "lord; the one who gives the orders"
+      }
+    },
+    {
+      "text": "是以聖人終日行不離輜重。",
+      "gloss": {
+        "9": "a covered supply wagon",
+        "10": "the heavy things: baggage (the same graph as “heavy” in line 1)"
+      }
+    },
+    {
+      "text": "雖有榮觀，燕處超然。",
+      "gloss": {
+        "2": "splendid; also the upturned ends of the eaves",
+        "3": "guàn: a watchtower, a terrace; or guān: a sight",
+        "5": "yàn: at ease, at rest (the graph is the swallow)"
+      }
+    },
+    {
+      "text": "奈何萬乘之主，而以身輕天下？輕則失本，躁則失君。",
+      "gloss": {
+        "3": "shèng: a war chariot with its team (not chéng, to ride)",
+        "10": "to treat as light, to make light (verb)",
+        "22": "lord: here, the lord’s own seat"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Heavy|zhong]] is the [[root|gen]] of light.",
+    "[[Still|jing]] is the [[lord|jun]] of restless.",
+    "",
+    "So [[the sage|shengren]] travels the whole day",
+    "and does not leave the [[baggage wagons|zizhong]].",
+    "Though there are [[splendid towers|rong-guan]],",
+    "[[rests at ease|yan-chu]], [[clear of them|chao-ran]].",
+    "",
+    "How can the [[lord of ten thousand chariots|wan-sheng]]",
+    "[[take the body lightly before all under heaven|yi-shen]]?",
+    "Light: [[the root is lost|shi-ben]].",
+    "Restless: [[the lord is lost|jun]]."
+  ],
+  "notes": {
+    "zhong": {
+      "kind": "wordplay",
+      "title": "A passage on wheels",
+      "body": "The passage plays on two words, and both run on wheels. 重 is “heavy”, and so “weighty, serious, important”. It comes twice: as the idea in line 1, and four lines later inside 輜重, the army’s word for its baggage, which is just “the heavy things”. 輕 is “light”, and so “quick, careless, cheap”. It comes three times. The Shuowen gives its first meaning: 輕車也, “a light chariot”, the fast vehicle of an attack. The graph has 車, a chariot, at its left. So does 輜, the supply wagon. The lord at the end is counted in 乘, chariots. English must use “gravity”, “baggage”, “frivolous”, and “light”, four words with no visible link. In Chinese the reader watches a light chariot leave the heavy wagons. What in your day is the wagon, and what is the fast chariot?",
+      "src": [
+        "Shuowen Jiezi, 車部: 輕，輕車也。从車坙聲。",
+        "Shuowen Jiezi, 重部: 重，厚也。从壬東聲。"
+      ]
+    },
+    "gen": {
+      "kind": "etymology",
+      "title": "根 and 本: two words for root",
+      "body": "The first line says 根. The last lines say 本. Both are written with 木, a tree. The Shuowen glosses 根 as 木株也, the stock of a tree. For 本 it says 木下曰本。从木，一在其下: “what is below the tree is called 本; a tree with a line at its foot”. You can still see the mark: 本 is 木 with one short stroke across the base of the trunk. English versions often say “foundation”. That is a mason’s word: a thing that men lay, dead and flat. A root is alive, out of sight, and it feeds what stands on it. The claim of line 1 is therefore a claim about plants. The light parts of a tree, leaf and blossom, hold on only because of the heavy, dark part. The root returns in passages 6, 16, and 59.",
+      "src": [
+        "Shuowen Jiezi, 木部: 根，木株也。从木艮聲。",
+        "Shuowen Jiezi, 木部: 本，木下曰本。从木，一在其下。"
+      ]
+    },
+    "jing": {
+      "kind": "gap",
+      "title": "Still is not passive",
+      "body": "靜 is usually “still, quiet”. The Shuowen’s gloss is a surprise: 審也, “to examine closely”. In that old sense the word is not a blank. It is the steadiness of someone who looks with care. Its opposite here is 躁. The left part of 躁 is 足, a foot; the Shuowen lists the word in an older form, 趮, with the running sign 走, and glosses it 疾也, “hasty”. So the pair is not rest against motion. The sage of the next lines travels all day. The pair is the settled against the hurried: feet that go because there is somewhere to go, and feet that cannot stop. English “stillness” suggests a pond, or a person who does nothing, and [[Legge’s version|legge]] makes the other side simply “movement”. Can you move for a whole day and be 靜?",
+      "src": [
+        "Shuowen Jiezi, 青部: 靜，審也。从青爭聲。",
+        "Shuowen Jiezi, 走部: 趮，疾也。从走喿聲。"
+      ]
+    },
+    "jun": {
+      "kind": "wordplay",
+      "title": "君: the same lord, twice",
+      "body": "The Shuowen explains 君 as 尊也。从尹。發號，故从口: “the honoured one. From 尹; he issues commands, so it has a mouth.” 尹 is a hand that holds a staff, “one who has the business in his grip”. A lord is a hand of office and a mouth that gives orders. The word opens and closes the passage. In line 1 it is a figure of speech: stillness is the lord of restlessness, as a mind is lord of its limbs. In the last line it is a fact: 失君, “the lord is lost”. Wang Bi reads it as the throne: 失君，為失君位也, “to lose the lord is to lose the lord’s seat”. The grammar allows a second sense too: the restless man loses his own inner ruler. The two losses are stated in one phrase. Which comes first?",
+      "src": [
+        "Shuowen Jiezi, 口部: 君，尊也。从尹。發號，故从口。",
+        "Shuowen Jiezi, 又部: 尹，治也。从又、丿，握事者也。",
+        "Wang Bi commentary on Laozi 26"
+      ]
+    },
+    "wb-unmoved": {
+      "kind": "wangbi",
+      "title": "Wang Bi: what does not move",
+      "body": "Wang Bi gives the first line a short physics: 凡物輕不能載重，小不能鎮大。不行者使行，不動者制動。 “In all things the light cannot carry the heavy, and the small cannot hold down the great. What does not travel makes things travel; what does not move governs movement.” A reader who knows Aristotle will think of the unmoved mover, the first cause that stands outside the world and starts it. That is not the picture here. Wang Bi’s still thing is inside the moving one, as a root is in a tree, an axle in a wheel, a keel under a sail. It does not start the motion from far off. It is what lets the motion be motion and not a fall. For his last phrase the plain examples are the best: a door turns on a hinge that stays in its place.",
+      "src": [
+        "Wang Bi commentary on Laozi 26"
+      ]
+    },
+    "shengren": {
+      "kind": "variant",
+      "title": "The sage, or the gentleman?",
+      "body": "The received text says 聖人, the sage. The Shuowen glosses 聖 as 通也, “to get through, to be open”; the graph has an ear, 耳, and the common form adds a mouth, 口. The sage of this book is not a saint and not only a wise man. It is a person whose hearing is open and who rules by that attunement. The Mawangdui silk texts are reported not to have the word here. They read 是以君子眾日行，不離亓甾重 (眾 is a sound-loan for 終): “so the gentleman travels all day and does not leave his baggage wagons”. The Han Feizi, in the third century BCE, quotes the line with 君子 too. 君子, “the lord’s son”, is the Confucian term for a man of rank and conduct. In the Laozi of the silk copies, as reported, it comes only here and in passage 31, the two passages about a march. So the older wording, if the reports hold, is social and plain: an officer on a road.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。",
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Han Feizi, “Yu Lao”"
+      ]
+    },
+    "zizhong": {
+      "kind": "geopolitics",
+      "title": "輜重: what an army eats",
+      "body": "輜重 is a soldier’s term. 輜 is a covered wagon; the Shuowen describes its body, closed in front and behind. With 重, “the heavy”, it names the supply train: grain, tents, spare weapons, tools. Warring States armies were mass armies of conscript farmers, and they lived or died by these slow carts. Sunzi puts it in three short clauses: 軍無輜重則亡，無糧食則亡，無委積則亡, “an army without its baggage train is lost; without grain it is lost; without stores it is lost”. His chapter is about the temptation to race ahead for an advantage with light troops and leave the wagons. The men who first heard the Laozi knew what that had cost. So the image is not “keep your possessions”. It is a commander who rides with the carts through a long day, and is not drawn off by anything faster. One famous king [[did leave them|han-fei]].",
+      "src": [
+        "Shuowen Jiezi, 車部: 輜，軿車前，衣車後也。从車甾聲。",
+        "Sunzi, “Jun zheng” (Manoeuvre)"
+      ]
+    },
+    "han-fei": {
+      "kind": "history",
+      "title": "The king who left his wagons",
+      "body": "The oldest reading of this passage that we have is a case from politics. The Han Feizi says: 邦者，人君之輜重也, “the state is the baggage train of a ruler”. Its example is King Wuling of Zhao, the man who put his army into trousers and on horseback. In 299 BCE, at the height of his success, he gave the throne to a young son, took the title “Lord Father”, and went off to campaign and to travel. Four years later a struggle between his sons broke out. He was shut in his palace at Shaqiu by the winning party and starved to death. Han Fei’s verdict uses the words of the passage: he was lord of ten thousand chariots and made his own person light before the world. “To be without position is called light; to leave one’s seat is called restless.” This reading is narrow. It is also what the lines meant to the first people who quoted them.",
+      "src": [
+        "Han Feizi, “Yu Lao”",
+        "Shiji 43, “Hereditary House of Zhao”"
+      ]
+    },
+    "rong-guan": {
+      "kind": "variant",
+      "title": "Fine sights, towers, or a camp?",
+      "body": "榮觀 can be read three ways. Read guān, 觀 is “a sight”: glorious views that tempt the traveller to stop and look. Read guàn, it is a watchtower or a high terrace, the showpiece of a palace. The Shuowen supports the building: one of its senses for 榮 is 屋梠之兩頭起者, “the two ends of the eaves that turn up”. We chose towers, since Warring States rulers competed in such terraces. The third reading comes from the Mawangdui silk texts, which are reported to write 唯有環官 (text A has 又 for 有; 唯 is the usual early loan for 雖, “although”). Some scholars take 環官 as a sound-loan for 榮觀 itself. Others take it as 環館, a walled lodging, a guarded stop on the road; then the couplet is about the traveller’s nights, and has no splendour in it. This is not settled. In every reading the sage is near something that could hold the attention, and it does not.",
+      "src": [
+        "Shuowen Jiezi, 木部: 榮，桐木也。从木，熒省聲。一曰屋梠之兩頭起者爲榮。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "yan-chu": {
+      "kind": "etymology",
+      "title": "燕: at ease like a swallow",
+      "body": "The graph 燕 is a swallow. The Shuowen calls it 玄鳥, “the dark bird”, and says the graph is a picture. Early writers also used it for a word of the same sound that means “at ease, at leisure”, later written 宴; the Analects describes Confucius 燕居, “when he was at home and at ease”. 處 is to stay in a place. So 燕處 is to rest in private, off duty. English “at ease” cannot show the bird, and we did not add it to the rendering, because the sense here is the borrowed one. Yet the reader of Chinese sees a swallow on the page, one line after [[the upturned eaves|rong-guan]] where swallows build. The bird makes its nest of mud in great halls and takes no interest in the hall. The text may not intend the picture. It is there on the page.",
+      "src": [
+        "Shuowen Jiezi, 燕部: 燕，玄鳥也。籋口，布翄，枝尾。象形。",
+        "Analects 7.4"
+      ]
+    },
+    "chao-ran": {
+      "kind": "gap",
+      "title": "超然: a leap, not another world",
+      "body": "超 is “to leap over”; the Shuowen says 跳也, and the graph has 走, to run. 然 makes it a manner: “leapingly”, in the way of one who is over and past. Later Chinese uses 超然 for a detached person. Western languages reach for “transcendent”, and that word carries a second, higher realm, as in Plato or in Christian teaching. Nothing here leaves the road. The sage is beside the towers, in the same dust, with the wagons. Wang Bi’s gloss is the most exact: 不以經心也, “does not let them pass through the heart”. The sights are seen, and they do not pass through. The Mawangdui texts are reported to write 昭若, “clear and bright”, a different quality: not above the sights, but unclouded by them. Which describes your best hours better: above, or clear?",
+      "src": [
+        "Shuowen Jiezi, 走部: 超，跳也。从走召聲。",
+        "Wang Bi commentary on Laozi 26",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "wan-sheng": {
+      "kind": "geopolitics",
+      "title": "Ten thousand chariots",
+      "body": "乘, read shèng, is the unit that counted a state’s power: one war chariot with four horses, its crew, and the foot soldiers who went with it. In the old Zhou order, ten thousand chariots was the nominal force of the Son of Heaven alone; a great lord had a thousand. By the fourth century BCE the seven large states were each called 萬乘之國, and Mencius opens his book with the phrase. So 萬乘之主 names the handful of men who could destroy a country, in the language of an arms count. The Mawangdui texts are reported to say 萬乘之王, “king”. Note the humble word in our text. 主 is “master”; the Shuowen says the graph is first 鐙中火主, the flame in the middle of a lamp. One small steady flame, and around it ten thousand chariots. What happens to the room when the flame jumps about?",
+      "src": [
+        "Mencius 1A1",
+        "Shuowen Jiezi, 丶部: 主，鐙中火主也。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "yi-shen": {
+      "kind": "gap",
+      "title": "以身輕天下: three readings",
+      "body": "Five characters: “by-means-of body, light, all-under-heaven”. 身 is the body and the person as one thing; the Shuowen says it pictures the human trunk. First reading: the lord behaves lightly, in his own person, in front of the world. Second: he treats the world lightly for the sake of his own pleasures. Third: he holds his own person to be lighter than the world, and so spends it. The Mawangdui texts are reported to add one word, 以身巠於天下, which favours the first and third. The third fits passage 13, where only one who values the body as the world can be trusted with the world. Our line keeps the first and third. It says “the body” with no owner, as the Chinese does. Is your body part of your work, or the cost of it?",
+      "src": [
+        "Shuowen Jiezi, 身部: 身，躳也。象人之身。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "shi-ben": {
+      "kind": "variant",
+      "title": "Lose the root, or lose the ministers?",
+      "body": "Our text ends 輕則失本, “light, and the root is lost”. Wang Bi explains: 失本，為喪身也, “to lose the root is to lose one’s own person”. So for him the root is the body of [[the line before|yi-shen]]. Other old copies close the couplet differently. The Heshang Gong text and the quotation in the Han Feizi read 失臣, “loses the ministers”: a light ruler is deserted by his officers, a restless one loses the throne. That version is pure statecraft, and it makes a neat social pair, 臣 below and 君 above. Some editions read 失根, which repeats the “root” of line 1 exactly. The Mawangdui silk texts are reported to read 失本, as ours does. The three variants show three ages asking what a ruler stands on: his body, his men, or his roots.",
+      "src": [
+        "Wang Bi commentary on Laozi 26",
+        "Heshang Gong text of Laozi 26",
+        "Han Feizi, “Yu Lao”",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “Gravity”",
+      "body": "Legge begins “Gravity is the root of lightness”. In 1891 “gravity” was a word of character as much as of physics: the sober bearing expected of a Victorian man in office. His version follows that sense. The sage is “a wise prince”. The towers are “brilliant prospects”, a phrase that can mean a career as well as a view. The question becomes how a lord should “carry himself” before the kingdom, and 躁, the restless feet, becomes “active movement”, as if any action were the fault. He adds “(in his proper place)” in brackets. He does keep the “baggage waggons”. But the English reader receives a lesson in deportment. What the Chinese puts in a root, a cart, and a body, he puts in manners. Where in the Chinese is a “proper place”?",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "Two axioms, one picture, one question, two verdicts. The axioms pair [[heavy with light|zhong]] and still with restless, and give the first of each pair a title: [[root|gen]] and [[lord|jun]]. The picture is a march: someone travels all day and stays with the [[supply wagons|zizhong]]; there are [[towers or sights|rong-guan]] on the way, and the traveller [[rests in private|yan-chu]], [[over and past them|chao-ran]]. The question turns to the top of the Warring States world, the [[lord of ten thousand chariots|wan-sheng]], and asks how such a man can [[make his own person light|yi-shen]]. The verdicts repeat the opening words as losses. The silk copies are reported to call the traveller [[a gentleman, not a sage|shengren]], and the first reader on record applied it to [[a king who abdicated|han-fei]]. Nearly every key word has a chariot or a tree in it.",
+    "inner": "Read the lord as the mind and the passage is about attention. There is a part of experience that is quick and bright: plans, alarms, news, the next thing. There is a part that is slow and has weight: the breath, the seat, the felt sense of being here. The text does not tell the quick part to stop. The traveller travels all day. It says where the quick part gets its life. [[Stillness, in the old sense, is close looking|jing]], and what looks closely is not carried off by [[each fine tower|rong-guan]]. Wang Bi’s phrase is the instruction: the sights [[do not pass through the heart|chao-ran]]. They are seen. Notice the order in the last couplet. Lightness loses the root first. Restlessness loses [[the lord|jun]] second. One forgets the body, and then no one is in charge.",
+    "leading": "The first known commentator took this as a rule for kings, and he had [[a body in the case|han-fei]]. His reading still works for anyone who holds a seat that others depend on. The 輜重 of a leader is what is slow and unglamorous and feeds everyone: the cash, the people who keep the records, the promises already made, the leader’s own health and presence. The light chariot is the exciting side venture, the conference, the war of words. The passage does not forbid travel. It says: go with the wagons. [[Its last question|yi-shen]] is about the leader’s own person. A founder who treats sleep, family, and attention as things to burn is, in these terms, 輕: the weight has gone out of the centre. And [[the variants of the last couplet|shi-ben]] list what goes next: the body, the best people, the seat.",
+    "body": "Every art of balance knows the first line. A potter centres the clay before raising a wall. A rider sits heavy and has light hands. In the internal martial arts the teaching is nearly a quotation: sink the weight to the feet and the lower belly, and then the arms can be quick; if the weight rises to the chest, the hands are fast and have nothing behind them. Even the script agrees: the Shuowen makes 動, “to move”, from 力, strength, and 重, the heavy, which gives the sound. The second line is about the nervous system. 躁 has [[a foot in it|jing]]: the leg that jigs under the table, the urge to get up. Stillness “lords” it not by force. It is simply what is there when the feet stop. [[What does not move lets the rest move.|wb-unmoved]]",
+    "practice": "Today, name your baggage wagons. Write down three slow, heavy things that everything else in your life eats from: perhaps sleep, one relationship, one piece of long work, the state of your accounts. Then look at the day’s plan and mark each item W, for wagon, or C, for light chariot. No blame goes with C; the text allows a full day of travel. Only check one thing at evening: did you leave the wagons out of sight at any point? If a [[splendid tower|rong-guan]] comes up in the day (an offer, a quarrel, a bright piece of news), try Wang Bi’s test. See it fully, and notice whether it [[passes through the heart|chao-ran]] or stays outside. Then go back to the carts."
+  },
+  "glyph": "重",
+  "plates": [
+    {
+      "c": "重",
+      "title": "A person under a load",
+      "lesson": "The modern graph looks like a stack of lines on a pole, and it hides a picture. The Shuowen’s gloss is 厚也, “thick”, and its analysis is 从壬東聲: the part 壬 with 東 for the sound. Bronze inscriptions, as they are commonly described, show more: a standing person fused with a bundle, 東, which may also give the sound. Many modern scholars explain 東 as a sack tied at both ends; the Shuowen records another view, the sun, 日, seen in a tree, 木. Either way, 東 was borrowed for the word “east”. So read the strokes of 重 as person plus pack, with the ground at the bottom. Heavy is what a carrier feels. See what the script built on it. 動, “to move”: the Shuowen says 从力重聲, strength beside the heavy. 量, “to measure”: 稱輕重也, “to weigh light and heavy”, with a short form of 重 below. 種, “seed”, puts grain beside it. The same graph read chóng means “again, in layers”, one load on another. And in this passage the army’s word for its baggage is [[just this character|zhong]] after the word for wagon. The text says that the heavy is a root. The graph says that the heavy is a thing a person carries all day. Which do you know better?",
+      "brush": "Nine strokes. The first is a short, flat stroke at the top that falls to the left. The second is a long horizontal under it. The third is a short vertical on the left, the side of the box. The fourth is a horizontal that turns down to make the top and right side of the box. The fifth is a short horizontal inside the box. The sixth is a short horizontal that closes it. The seventh is the spine: one long vertical from above the box, down through it, to the lower lines. The eighth is a short horizontal that crosses the spine. The ninth is the long base. So six horizontals are stacked on one upright. The task is spacing: the gaps between the lines must look even, and the second and ninth strokes must be the two widest, like a carrying pole and the ground. A crooked spine makes the load slide."
+    },
+    {
+      "c": "燕",
+      "title": "The dark bird in four pieces",
+      "lesson": "The Shuowen draws this bird in eleven characters: 玄鳥也。籋口，布翄，枝尾。象形. “The dark bird. A mouth like pincers, wings spread, a forked tail. A picture.” You can find each piece. The top, 廿, is the open beak. The 口 in the middle is the body. The two halves of 北, split to the left and the right of the body, are the wings. The four dots at the bottom are the tail. Those dots look like the fire sign 灬 in 然 or 熱, and they are not fire. The Shuowen says so in its entry for the fish: 魚尾與燕尾相似, “the fish’s tail and the swallow’s tail are alike”. Regular script uses the same four dots for the legs of 馬, a horse, and the feet of 鳥, a bird. The dark bird has old duties. An ode says that heaven sent the dark bird down to give birth to the house of Shang. The northern state of Yan, one of the seven powers of the Warring States, was written with this graph, read Yān; its capital stood where Beijing is now. And by sound-loan the swallow wrote the word for [[ease and leisure|yan-chu]], which the Shuowen lists as 宴 and glosses 安也, “at peace”. A swallow nests under the eaves of the hall and is at home there, while the business of the hall goes on below. The passage asks a ruler for the same.",
+      "brush": "Sixteen strokes, built from the top down and from the centre out. The first is the long horizontal of the beak. The second and third are two short verticals that cross it. The fourth is a short horizontal that joins their feet. Then the body: the fifth stroke is its left side, the sixth is the top and right side in one turn, the seventh closes it. Then the left wing: the eighth is a vertical, the ninth a short horizontal that touches it, the tenth a stroke that rises to the right. Then the right wing: the eleventh is a short stroke that falls to the left, the twelfth a vertical that bends to the right and ends in an upward hook. Last, the four dots of the tail, from left to right: the thirteenth leans left, and the fourteenth, fifteenth, and sixteenth lean right. The wings must stay level with each other, or the bird banks. In cursive script the whole tail is one wavy line."
+    }
+  ]
+}

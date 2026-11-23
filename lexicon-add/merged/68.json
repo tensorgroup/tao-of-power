@@ -1,0 +1,90 @@
+{
+  "武": {
+    "senses": [
+      "martial, military; warlike",
+      "force of arms; valour",
+      "a footstep (in old use)",
+      "Wu: a royal title (King Wu of Zhou)"
+    ],
+    "shuowen": "楚莊王曰：“夫武，定功戢兵。故止戈爲武。”",
+    "shuowenEn": "King Zhuang of Chu said: “The martial settles the victory and puts weapons away. So 止 (to stop) and 戈 (dagger-axe) make 武.”",
+    "parts": [
+      { "c": "止", "m": "foot; to stop" },
+      { "c": "戈", "m": "dagger-axe" }
+    ],
+    "story": "The Shuowen gives no definition of its own and quotes a king of Chu from the Zuozhuan: to stop the dagger-axe is 武. Xu Shen uses the graph as a model of the joined-meaning class. Modern scholars commonly read the early form as a foot beside a weapon: a man marching to war. The partner word is 文, pattern and civil culture, and Zhou’s two founders are King Wen and King Wu. The Laozi uses 武 once: 善為士者不武, one good at being an officer is not martial (68). The line agrees with the king of Chu: the height of the art is that no weapon moves.",
+    "gap": "“Martial” and “military” describe a trade. 武 is also a bearing, the look and manner of force, and that is what passage 68 denies to the good officer."
+  },
+  "配": {
+    "senses": [
+      "to pair, to mate, to be the partner of",
+      "to match, to be equal to",
+      "to set beside (heaven) in sacrifice",
+      "to blend, to mix in proportion"
+    ],
+    "shuowen": "酒色也。从酉己聲。",
+    "shuowenEn": "The colour of wine. From 酉 (wine jar), with 己 for the sound.",
+    "parts": [
+      { "c": "酉", "m": "wine jar" },
+      { "c": "己", "m": "now the sound; commonly explained as a reshaped kneeling person" }
+    ],
+    "story": "The early graph is commonly explained as a person kneeling beside a wine jar. The lasting sense is “to be the partner of”: a spouse, a match, a fit. In Zhou ritual the word had a special use. When the king sacrificed to heaven, a founding ancestor was 配天, set as heaven’s pair to share the offering. The Laozi borrows the term once. The one who does not contend and goes below others is said to 配天, at the ridgepole of the ancients (68). The highest seat in the old religion is given to the lowest posture.",
+    "gap": "“Match” and “equal” suggest a contest or a measure. 配 is a pairing, as of husband and wife or host and guest: two that belong at one table."
+  },
+  "怒": {
+    "senses": [
+      "anger, rage",
+      "to be angry; to rouse to fury",
+      "vigorous, bursting (of growth, of a wave)"
+    ],
+    "shuowen": "恚也。从心奴聲。",
+    "shuowenEn": "To be angry. From 心 (heart), with 奴 for the sound.",
+    "parts": [
+      { "c": "奴", "m": "slave; gives the sound" },
+      { "c": "心", "m": "heart" }
+    ],
+    "story": "A heart under the graph for a slave. The Shuowen says that 奴 is here for the sound, but readers have long taken the picture as a comment: in anger the heart is not free. Early writers also use 怒 for any bursting energy, such as a bird that rises or a plant that shoots up. The strategists treated anger as a danger in a commander and a weakness to use in an enemy. The Laozi has the word once: 善戰者不怒, one good at fighting is not angry (68).",
+    "gap": "English “anger” can be righteous, and modern culture often praises it as energy. In the military texts 怒 is simply a loss of command over oneself."
+  },
+  "極": {
+    "senses": [
+      "the ridgepole of a roof",
+      "the highest point; the utmost; a limit",
+      "a pole (north, south); the centre on which things turn",
+      "to reach the end of; extremely"
+    ],
+    "shuowen": "棟也。从木亟聲。",
+    "shuowenEn": "The ridgepole. From 木 (wood), with 亟 for the sound.",
+    "parts": [
+      { "c": "木", "m": "wood, tree" },
+      { "c": "亟", "m": "gives the sound" }
+    ],
+    "story": "極 is first the highest beam of a house. From it come the senses of utmost point and limit, and the pole of the sky around which the stars turn. The Laozi uses it for limits that are reached or cannot be known. Bring emptiness to its 極 (16). Return to what has no 極 (28). Who knows its 極? (58). When nothing is not overcome, no one knows the 極 (59). The one who does not contend is at 古之極, the ridgepole of the ancients (68). Later thinkers named the first principle 太極, the great ridgepole.",
+    "gap": "“Extreme” in English is a warning; “ultimate” is abstract. 極 is a beam: the top of a structure, which also holds it together."
+  },
+  "士": {
+    "senses": [
+      "a man-at-arms; an officer",
+      "the lowest rank of the Zhou nobility",
+      "a man of training and service; later, a scholar-official",
+      "a soldier (in later use)"
+    ],
+    "story": "In early Zhou the 士 were the lowest nobles, trained to fight from chariots and to serve in ritual and office. In the Warring States they became a free class of skilled men who sought employment at courts: officers, advisers, and teachers. Confucius and Mencius were 士, and so, probably, were the first readers of this book. The Laozi speaks of them three times. The 士 of old who were good at it were subtle and deep beyond knowing (15). The highest 士 hears the Dao and works to practise it; the lowest laughs out loud (41). One good at being a 士 is not martial (68).",
+    "gap": "“Knight”, “officer”, “scholar”, and “gentleman” each fit one century. No English word covers a class that began with the sword and ended with the brush."
+  },
+  "戰": {
+    "senses": [
+      "to fight, to give battle",
+      "a battle; war",
+      "to tremble, to shudder"
+    ],
+    "shuowen": "鬬也。从戈單聲。",
+    "shuowenEn": "To fight. From 戈 (dagger-axe), with 單 for the sound.",
+    "parts": [
+      { "c": "單", "m": "gives the sound" },
+      { "c": "戈", "m": "dagger-axe" }
+    ],
+    "story": "戰 gave its name to the age in which the Laozi took form: 戰國, the Warring States. The word means a pitched battle, and it is also used for the shaking of a body in fear or cold. The Laozi does not avoid it. Victory in battle is to be observed with the rites of mourning (31). Tenderness, in battle, wins (67). One good at battle is not angry (68). Those who are good at keeping alive, it is said, are not touched by weapons when they go among armies (50).",
+    "gap": "“War” in English is often abstract: a policy or a cause. 戰 is the day of battle itself, with the dagger-axe in the graph and trembling in the word."
+  }
+}

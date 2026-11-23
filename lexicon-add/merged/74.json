@@ -1,0 +1,114 @@
+{
+  "匠": {
+    "senses": [
+      "a carpenter, a worker in wood",
+      "a master craftsman of any trade",
+      "skill in making (匠心, a craftsman’s mind)"
+    ],
+    "shuowen": "木工也。从匚从斤。斤，所以作器也。",
+    "shuowenEn": "A worker in wood. From 匚 (a box) and 斤 (an axe). The axe is that with which vessels are made.",
+    "parts": [
+      { "c": "匚", "m": "a box, a vessel that receives things" },
+      { "c": "斤", "m": "an axe or adze" }
+    ],
+    "story": "An axe in its box. The word first meant the carpenter and then any master of a craft. The Zhuangzi tells of Carpenter Shi, who whirled his axe and hewed a speck of plaster from a friend’s nose without a scratch. In the Laozi the word appears only in passage 74: a ruler who kills in the place of the one in charge of killing is like a person who hews in the place of the great carpenter, and seldom is the hand not hurt.",
+    "gap": "“Carpenter” is a trade in English. 大匠 is also a rank: the master whose stroke has no waste. The image is of mastery that cannot be borrowed."
+  },
+  "畏": {
+    "senses": [
+      "to dread, to stand in awe of",
+      "to respect deeply",
+      "a thing to fear"
+    ],
+    "shuowen": "惡也。从甶，虎省。鬼頭而虎爪，可畏也。",
+    "shuowenEn": "To find hateful. From 甶 (a ghost’s head) and a reduced 虎 (tiger). A ghost’s head and a tiger’s claws: a thing to dread.",
+    "parts": [
+      { "c": "田", "m": "now written like “field”; in the old form 甶, a ghost’s head" },
+      { "c": "𧘇", "m": "the lower strokes; for the Shuowen, a tiger’s claws" }
+    ],
+    "story": "畏 is fear before a power beyond the human: ghosts, heaven, a great lord. The Laozi uses it with care. The crowd’s fears must be feared (20). The second-best ruler is the one whom people fear (17). When authority no longer awes the people, a greater dread comes (72). When they do not fear death, the threat of death is useless (74).",
+    "gap": "English “fear” covers a start at a noise and reverence before a god. 畏 is only the second kind: dread with respect in it."
+  },
+  "司": {
+    "senses": [
+      "to have charge of, to manage",
+      "an officer; an office (司馬, 司寇, 司空)",
+      "to watch over (later written 伺)"
+    ],
+    "shuowen": "臣司事於外者。从反后。",
+    "shuowenEn": "A minister who manages affairs outside (the court). From 后 (sovereign) written in reverse.",
+    "parts": [
+      { "c": "口", "m": "a mouth: the word of command" }
+    ],
+    "story": "The Shuowen reads 司 as the mirror image of 后, the sovereign who issues orders. The officer faces the other way and carries the orders out. In early writing the two were probably one graph that could face either side. The word filled the lists of government posts. In the Laozi it names two offices: 司殺者, the one in charge of killing (74), and in passage 79 司契 and 司徹, the keeper of the tally and the keeper of the tithe.",
+    "gap": "“To preside” sounds grand. 司 is the daily work of a post: a desk, a duty, and a limit."
+  },
+  "斲": {
+    "senses": [
+      "to hew, to chop into shape with an axe or adze",
+      "to carve away; to damage by cutting"
+    ],
+    "shuowen": "斫也。从斤、𠁁。",
+    "shuowenEn": "To chop. From 斤 (an axe) and 𠁁.",
+    "parts": [
+      { "c": "斤", "m": "an axe or adze" }
+    ],
+    "story": "The verb of the carpenter’s heavy work: to square a log with blows. The axe stands at the right of the graph. The Zhuangzi uses the word for the wheelwright who cannot teach his son the feel of the chisel, and for Carpenter Shi’s stroke at the plaster on a nose. In the Laozi it comes only in passage 74.",
+    "gap": "“Carve” is too light. 斲 is done with the whole arm, toward one’s own body."
+  },
+  "殺": {
+    "senses": [
+      "to kill, to put to death",
+      "to be killed (no passive form is marked)",
+      "to reduce, to pare down (read shài)"
+    ],
+    "shuowen": "戮也。从殳杀聲。",
+    "shuowenEn": "To slay. From 殳 (a striking weapon), with 杀 for the sound.",
+    "parts": [
+      { "c": "杀", "m": "the sound-part; now the simplified form of the whole word" },
+      { "c": "殳", "m": "a hand with a striking weapon" }
+    ],
+    "story": "The plain word for killing. The Laozi does not hide it. Those who delight in killing people cannot have their will in the world, and a victory in war is to be met with the rites of mourning (31). Courage in daring ends in 殺 (73). Passage 74 says the word five times and asks who has the office of killing.",
+    "gap": "English separates “kill”, “execute”, and “murder” by law and motive. 殺 is all three; the text does not let the state’s killing have a softer name."
+  },
+  "懼": {
+    "senses": [
+      "to be afraid, to take fright",
+      "to frighten, to make afraid"
+    ],
+    "shuowen": "恐也。从心瞿聲。",
+    "shuowenEn": "To fear. From 心 (heart), with 瞿 for the sound.",
+    "parts": [
+      { "c": "忄", "m": "heart" },
+      { "c": "瞿", "m": "sound; by itself, the stare of a hawk: two eyes 䀠 over a bird 隹" }
+    ],
+    "story": "懼 is fright: the start of a creature that sees danger. The same graph serves for “to be afraid” and “to make afraid”. In passage 74 a ruler wishes to 懼 the people with death, and the text answers that they no longer hold death in awe (畏).",
+    "gap": "English needs two verbs, “fear” and “frighten”. The Chinese has one, and the reader decides who does it to whom."
+  },
+  "奇": {
+    "senses": [
+      "odd, strange, out of the ordinary",
+      "irregular, by surprise (of tactics; the opposite of 正)",
+      "an odd number (read jī)"
+    ],
+    "shuowen": "異也。一曰不耦。从大从可。",
+    "shuowenEn": "Different. Another explanation: not paired. From 大 (great) and 可 (can).",
+    "parts": [
+      { "c": "大", "m": "great; a person with arms out" },
+      { "c": "可", "m": "can, may" }
+    ],
+    "story": "奇 is that which does not match the pattern. In war it is the surprise move, the partner of the regular formation, 正; the Sunzi builds a theory on the pair. The Laozi says: govern the state by the regular, use weapons by the irregular (57), and it warns that the regular turns into the irregular (58). In passage 74 a ruler wants to kill those who do 奇.",
+    "gap": "“Strange” and “deviant” are judgments. 奇 is first a number word: the one left over when the others are in pairs."
+  },
+  "執": {
+    "senses": [
+      "to arrest, to seize (an offender)",
+      "to hold, to grasp",
+      "to hold to, to keep (a principle, an office)"
+    ],
+    "shuowen": "捕罪人也。从丮从幸，幸亦聲。",
+    "shuowenEn": "To arrest an offender. From 丮 (to hold with the hands) and 㚔 (written 幸 here); 㚔 also gives the sound.",
+    "story": "The early forms are commonly explained as a kneeling person with the hands in shackles. From “arrest” the word widened to any firm hold. The Laozi distrusts the grip: the one who grasps loses (29, 64), and the sage does not grasp and so does not lose. It also allows a good hold: hold the great image, and the world comes (35); the sage holds the left tally and makes no claim (79). In passage 74 the word has its first, legal sense.",
+    "gap": "“Hold” is neutral in English. 執 keeps a trace of force: the thing held did not choose it."
+  }
+}

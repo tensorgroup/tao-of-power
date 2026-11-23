@@ -1,0 +1,65 @@
+{
+  "氣": {
+    "senses": ["vapor, mist, steam", "breath; air", "the vital stuff of a body; vigor, temper", "the fine matter-and-force of which all things are made"],
+    "shuowen": "饋客芻米也。从米气聲。",
+    "shuowenEn": "To present fodder and grain to guests. From 米 (grain), with 气 for the sound. (The vapor word was first written 气 alone; 氣 was borrowed for it.)",
+    "parts": [{"c": "气", "m": "vapor: three drifting lines; in the Shuowen’s account, the sound part"}, {"c": "米", "m": "rice, grain"}],
+    "story": "Vapor that rises, breath that one can see. The graph with the grain in it first wrote a word for a gift of provisions and was borrowed for “breath”; a popular explanation sees steam over cooking rice. The Laozi uses the word three times, always of a living body: gather the 氣 and reach softness, like an infant (10); the surging 氣 makes the accord of shade and sun (42); for the heart to force the 氣 is called violence (55). Later Daoism and Chinese medicine built whole sciences on it. The short form is 气.",
+    "gap": "“Energy” is dry and abstract; “spirit” is too holy; “air” is too thin. 氣 is damp, warm, and moving, and it is never fully apart from the act of breathing."
+  },
+  "陽": {
+    "senses": ["sunlight; the sunny side: south of a hill, north of a river", "bright, open, outward", "yang, the partner of 陰 in later cosmology"],
+    "shuowen": "高、明也。从𨸏昜聲。",
+    "shuowenEn": "High and bright. From 𨸏 (hill), with 昜 for the sound.",
+    "parts": [{"c": "阝", "m": "hill, slope (𨸏)"}, {"c": "昜", "m": "the sun above, with rays: to open, bright; also the sound"}],
+    "story": "A hill with the sun on it. Place names keep the first sense: a town named with 陽 lies on the sunlit side of a hill or river. The Laozi uses the word once: the ten thousand things carry shade on the back and hold 陽 in the arms (42). The great system of yin and yang, with its lists of pairs, is later than that line. The short form 阳 is hill plus sun.",
+    "gap": "“The male principle”, “positive”, “active” are late and abstract. 陽 is first a warm slope at midday."
+  },
+  "陰": {
+    "senses": ["shade; the shaded side: north of a hill, south of a river", "dark, hidden, inward, cool", "yin, the partner of 陽 in later cosmology"],
+    "shuowen": "闇也。水之南、山之北也。从𨸏侌聲。",
+    "shuowenEn": "Dark. The south side of a river, the north side of a mountain. From 𨸏 (hill), with 侌 for the sound.",
+    "parts": [{"c": "阝", "m": "hill, slope (𨸏)"}, {"c": "侌", "m": "今 over 云 (cloud): overcast; also the sound"}],
+    "story": "A hill under cloud, or the slope that the sun does not reach. The Laozi names it once, with 陽 (42). The book’s liking for the dark, the low, the female, and the valley made later readers call it a yin book, but it does not itself use the word so. The short form 阴 is hill plus moon.",
+    "gap": "“Negative” and “passive” make it a lack. Shade is a place: cool, moist, where seeds start."
+  },
+  "負": {
+    "senses": ["to carry on the back", "to turn the back on; to betray", "to owe; to lose (a contest)", "to rely on"],
+    "shuowen": "恃也。从人守貝，有所恃也。一曰受貸不償。",
+    "shuowenEn": "To rely on. From a person who guards cowries: he has something to rely on. Some say: to take a loan and not repay it.",
+    "parts": [{"c": "⺈", "m": "a person (人), bent over"}, {"c": "貝", "m": "cowrie; money"}],
+    "story": "A person above a cowrie shell. The dictionary begins from “rely on” and “owe”; the usual sense in texts is to bear a load on the back, and so to have one’s back to something. In passage 42 the ten thousand things 負 shade: they carry it behind them. The Shuowen’s second sense, a loan not repaid, sits oddly well beside passage 41, where the Dao is a lender.",
+    "gap": "English “bear” or “carry” does not say where. 負 is on the back, out of sight."
+  },
+  "損": {
+    "senses": ["to lessen, to reduce, to take away", "to harm, to lose", "hexagram 41 of the Book of Changes"],
+    "shuowen": "減也。从手員聲。",
+    "shuowenEn": "To reduce. From the hand, with 員 for the sound.",
+    "parts": [{"c": "扌", "m": "hand"}, {"c": "員", "m": "the sound part"}],
+    "story": "A hand takes something away. In most books this is a misfortune. In the Laozi it is the practice: for the Dao, lessen each day; lessen and lessen again, until there is no forcing (48). A thing may be lessened and so grow (42). Heaven’s way takes from what has too much; the human way takes from those who have too little (77).",
+    "gap": "“Decrease” and “loss” are bad news in English. The Laozi uses 損 as a discipline, like pruning."
+  },
+  "益": {
+    "senses": ["to add, to increase; more", "benefit, gain, good", "hexagram 42 of the Book of Changes"],
+    "shuowen": "饒也。从水、皿。皿，益之意也。",
+    "shuowenEn": "Abundance. From water and a dish; the dish shows the sense of “more”.",
+    "parts": [{"c": "水", "m": "water (written on its side, at the top)"}, {"c": "皿", "m": "a dish"}],
+    "story": "Water that stands above the rim of a dish: more than full. It is the first form of 溢, to overflow. The Laozi is wary of it. To add to life is called ill-omened (55). In learning, add each day (48). Few in the world reach the 益, the benefit, of not-doing (43). A thing may be added to and so lessened (42).",
+    "gap": "“Benefit” has no picture. 益 is a surplus, and a surplus spills."
+  },
+  "父": {
+    "senses": ["father", "an elder, a senior man", "the head or origin of something"],
+    "shuowen": "矩也。家長率教者。从又舉杖。",
+    "shuowenEn": "The rule. The head of the house, who leads and teaches. From a hand that raises a rod.",
+    "story": "A hand with a rod or a stone axe: authority in the house. The Laozi, a book of mothers, uses the word in two places. The Dao is the 眾父 of passage 21 in some editions, “the father of the many”. And in passage 42 a proverb is taken as 教父, father of the teaching.",
+    "gap": "None in the word. The surprise is in the book: the origin is elsewhere a mother."
+  },
+  "教": {
+    "senses": ["to teach, to instruct", "a teaching, a doctrine", "(later) a religion"],
+    "shuowen": "上所施下所效也。从攴从孝。",
+    "shuowenEn": "What those above give out and those below copy. From 攴 (a hand with a rod) and 孝.",
+    "parts": [{"c": "孝", "m": "here from 爻 over 子: a child at its counting or its lessons"}, {"c": "攵", "m": "a hand with a rod (攴)"}],
+    "story": "A child, the marks of a lesson, and a hand with a stick. The dictionary’s definition is a model of Confucian schooling: above gives, below copies. The Laozi turns it over with the phrase 不言之教, the teaching without words (2, 43), and in passage 42 the speaker teaches only what people already teach.",
+    "gap": "“Teaching” is neutral. 教 has the rod in it, and later it became the word for a religion: 道教, 佛教."
+  }
+}

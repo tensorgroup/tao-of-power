@@ -1,0 +1,224 @@
+{
+  "n": 70,
+  "title": "Jade Under Coarse Cloth",
+  "theme": "seeing",
+  "zh": [
+    {
+      "text": "吾言甚易知，甚易行。天下莫能知，莫能行。",
+      "gloss": {
+        "0": "I, my (the speaker)",
+        "3": "yì: easy",
+        "4": "to know, to understand",
+        "8": "to walk; to carry out, to practise"
+      }
+    },
+    {
+      "text": "言有宗，事有君。",
+      "gloss": {
+        "2": "ancestor; the ancestral line and its shrine",
+        "4": "deeds, affairs, the things one does",
+        "6": "lord, ruler"
+      }
+    },
+    {
+      "text": "夫唯無知，是以不我知。",
+      "gloss": {
+        "3": "knowing; 無知: “there is no knowing (of this)”, or “being without knowledge”",
+        "8": "me (the object, set before the verb)"
+      }
+    },
+    {
+      "text": "知我者希，則我者貴。",
+      "gloss": {
+        "3": "rare, few; faint",
+        "5": "then, and so; or a verb: to take as a model",
+        "8": "of high price; precious; honoured"
+      }
+    },
+    {
+      "text": "是以聖人被褐懷玉。",
+      "gloss": {
+        "4": "pī: to wear over the shoulders",
+        "5": "hè: coarse cloth of hemp or hair",
+        "6": "huái: to hold in the bosom, inside the robe",
+        "7": "jade"
+      }
+    }
+  ],
+  "rendering": [
+    "[[My words|wuyan]] are [[very easy|wangbi]] to know,",
+    "very easy to [[walk|xing]].",
+    "Under heaven no one can know them,",
+    "no one can walk them.",
+    "",
+    "Words have [[an ancestor|zong]].",
+    "Deeds have [[a lord|jun]].",
+    "Just because [[this is not known|wuzhi]],",
+    "I am not known.",
+    "",
+    "Those who know me are [[few|xi]];",
+    "[[and so I am precious|zegui]].",
+    "So the [[sage|shengren]] wears [[coarse cloth|he]]",
+    "and holds [[jade|yu]] [[in the bosom|huai]]."
+  ],
+  "notes": {
+    "wuyan": {
+      "kind": "history",
+      "title": "吾言: a voice that hides",
+      "body": "This is one of the few passages with an “I”. Chinese has two common words for it, and both are here: 吾 for “I, my” at the head of a clause, and 我 for “me” as an object and for stress. Who speaks? The Han historian Sima Qian wrote the first life of Laozi, about 100 BCE, and he already had little to go on. He says of him: 以自隱無名為務, “he made it his task to hide himself and be without a name”. In his story an old archivist leaves the declining court of Zhou, writes five thousand characters at the request of a border guard, and is not seen again. Modern scholars doubt most of this. Yet it fits the voice of this passage: a speaker who expects not to be known, and who does not raise the voice.",
+      "src": [
+        "Sima Qian, Shiji 63"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: why easy, why impossible",
+      "body": "Wang Bi gives four short reasons, one for each clause. 可不出戶窺牖而知，故曰甚易知也。無為而成，故曰甚易行也。 “It can be known with no going out of the door and no looking through the window; so it says ‘very easy to know’. It is done by not-forcing; so it says ‘very easy to walk’.” Then: 惑於躁欲，故曰莫之能知也。迷於榮利，故曰莫之能行也。 “They are confused by restless desire; so it says ‘no one can know it’. They are lost in glory and profit; so it says ‘no one can walk it’.” His first reason quotes passage 47. For Wang Bi the difficulty is not in the teaching. Nothing is hidden and nothing is hard. It is easy as stopping is easy, and a person who is running finds stopping the hardest thing.",
+      "src": [
+        "Wang Bi commentary on Laozi 70",
+        "Laozi 47"
+      ]
+    },
+    "xing": {
+      "kind": "wordplay",
+      "title": "行: to walk is to practise",
+      "body": "行 is “to walk”, and by extension “to carry out, to practise”. English splits these and so loses an image that runs through the whole book: 道 is a road, and a road is for walking. We keep “walk”. The pair 知 and 行, knowing and doing, became one of the long debates of Chinese thought; this passage is an early place where they stand side by side. Other passages answer it. The best officer hears of the Dao and works hard to walk it (41). The great road is very level, and people love the side paths (53). And passage 78 repeats the complaint in almost the same words: no one under heaven does not know it, and no one can walk it. There the trouble is only in the doing. Here even the knowing fails. Which is your case?",
+      "src": [
+        "Laozi 41, 53, 78"
+      ]
+    },
+    "zong": {
+      "kind": "etymology",
+      "title": "宗: words have a family shrine",
+      "body": "宗 is a roof, 宀, over 示, an altar. The Shuowen says 尊祖廟也, “the temple where the ancestors are honoured”. From the temple the word means the ancestor, the main line of descent, and the head of a clan. So 言有宗 does not say that the words have a “principle” or a “system”. It says that they have an ancestor: they descend from one source, as the members of a clan descend from one founder, and they can be traced back. Passage 4 uses the word for the Dao: deep, like the 宗 of the ten thousand things. A reader of the time lived inside a lineage and knew its shrine. To such a reader the claim is plain. These sayings are not loose remarks. They are kin. Know the ancestor, and you will know each of them by the family face.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 宗，尊祖廟也。从宀从示。",
+        "Laozi 4"
+      ]
+    },
+    "jun": {
+      "kind": "variant",
+      "title": "君: deeds have a lord",
+      "body": "君 is a ruler. The Shuowen: 尊也。从尹。發號，故从口, “the honoured one. From 尹, to govern; he gives out commands, and so the graph has 口, a mouth”. The upper part, 尹, is commonly explained as a hand that holds a staff. 事有君: deeds have a lord, one thing that directs all the rest. With 宗, the pair covers the two orders of Zhou life, the family and the court. Wang Bi makes both cosmic: 宗，萬物之宗也。君，萬物之主也, “the ancestor is the ancestor of the ten thousand things; the lord is the master of the ten thousand things”. The Mawangdui silk texts are reported to have the two words in the other places: 言有君，事有宗, “words have a lord; deeds have an ancestor”. The exchange is easy because the two images do one job. What rules your acts, and what do your words come from?",
+      "src": [
+        "Shuowen Jiezi, 口部: 君，尊也。从尹。發號，故从口。",
+        "Wang Bi commentary on Laozi 70",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "wuzhi": {
+      "kind": "gap",
+      "title": "夫唯無知: whose not-knowing?",
+      "body": "夫唯無知，是以不我知 has no subject in its first half, and English must choose one. Reading one, which we render: because people have no knowledge of this, the ancestor and the lord, they do not know me. Wang Bi and Legge take it so. Reading two: because I am 無知, “without knowledge”, I am not known. 無知 is a state that the book praises: the sage keeps the people 無知 and without desire (3), and asks whether one can care for the state, govern the people, and be 無知 (10). On that reading the speaker is not known because there is nothing clever to notice. The second half has a point of grammar: in a negative sentence a pronoun object goes before the verb, so “not know me” is 不我知, “not-me-know”. In Chinese the 我 sits inside the not-knowing, surrounded by it.",
+      "src": [
+        "Laozi 3, 10"
+      ]
+    },
+    "xi": {
+      "kind": "wordplay",
+      "title": "希: rare, and hard to hear",
+      "body": "希 means “few, rare, thin”. In this book it is first a word of sound. That which is listened for and not heard is named 希 (14). To speak rarely is self-so (23). The great tone has a 希 sound (41). Few in the world reach the teaching without words (43). So when the speaker says 知我者希, “those who know me are 希”, a reader of the whole book hears more than a number. The speaker is faint, as the Dao is faint: at the edge of what the ear can catch. The line is not quite a complaint. It names the reason. A thing that is like the Dao will be as hard to hear as the Dao. The later graph 稀, with grain at the left, is used for “sparse”; the Shuowen has that graph, defined as “thin”.",
+      "src": [
+        "Laozi 14, 23, 41, 43",
+        "Shuowen Jiezi, 禾部: 稀，䟽也。从禾希聲。"
+      ]
+    },
+    "zegui": {
+      "kind": "variant",
+      "title": "則我者貴: two readings and a price",
+      "body": "The received line is 則我者貴, and 則 can be two words. As “then”: “then I am one who is precious”. As a verb, “to take as a model”: “those who model themselves on me are honoured”, or “are rare”. With 者, strict grammar favours this reading, parallel to 知我者. The Mawangdui silk texts are reported to settle it with a shorter line: 則我貴矣, “then I am precious indeed”. Wang Bi reads the same way: 知我益希，我亦無匹, “the fewer who know me, the more I am without a match”. Look at 貴. The Shuowen defines it by the market: 物不賤也, “a thing that is not cheap”, and the graph has 貝, a cowrie, at its foot. It is the logic of price: what is rare is dear. There is dry humour in it. This book tells rulers not to prize rare goods (3, 64). Now the speaker is one.",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)",
+        "Wang Bi commentary on Laozi 70",
+        "Shuowen Jiezi, 貝部: 貴，物不賤也。从貝臾聲。"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "聖人: from “I” to “the sage”",
+      "body": "In the last line the “I” is gone and 聖人 takes its place, as if the speaker stepped back to describe a type. “Sage” needs a warning. A 聖人 is not a saint with a halo, and not only a wise man. The Shuowen defines 聖 as 通也, “open all the way through”, and the graph has an ear in it: a person whose hearing reaches. Elsewhere in the book the 聖人 is the model ruler. Here the picture is a person of no rank at all, dressed as a labourer. This is the tension of the word in the Laozi: the one most fit to be at the centre is the one whom no one notices. Chinese has no “he” here. We keep “the sage” and do not add a pronoun.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"
+      ]
+    },
+    "he": {
+      "kind": "etymology",
+      "title": "褐: what the poor wore",
+      "body": "褐 has 衣, a garment, at the left. The Shuowen gives two senses: 編枲韤, “socks plaited of hemp”, and 一曰粗衣, “also: coarse clothing”. It was cloth of rough hemp or animal hair, undyed and brownish, and in modern Chinese the word is the name of the colour brown. In the Warring States it was a mark of class. The rich wore silk and fur. Mencius describes the followers of a teacher who held that all should farm: several dozen men, 皆衣褐, “all dressed in 褐”. And a “man in loose 褐” is his phrase for a nobody whom a brave man does not fear to face. 被, “to wear”, is to have a thing thrown over the shoulders. So the sage looks like a field hand. [[Legge|legge]] adds “(a poor garb of)”. The Chinese reader needed no bracket.",
+      "src": [
+        "Shuowen Jiezi, 衣部: 褐，編枲韤。一曰粗衣。从衣曷聲。",
+        "Mencius 3A4, 2A2"
+      ]
+    },
+    "yu": {
+      "kind": "history",
+      "title": "玉: the jade that Confucius would sell",
+      "body": "Jade was the most valued substance in ancient China, above gold. It is hard, cool, and faintly bright, and it cannot be cast or forged, only ground slowly with sand. The Confucian classics made it the image of a gentleman’s character and say that he does not put it off without cause. He wore it in strings at the belt, where it could be seen and heard as he walked. This passage puts the jade inside the clothes. The Analects has the other side. A pupil asks: here is a fine piece of jade; do you lock it in a box, or look for a good price and sell it? Confucius answers: 沽之哉！沽之哉！我待賈者也. “Sell it! Sell it! I am one who waits for a buyer.” For a man who offered his jade and paid for it, see [[the story of Mr. He|heshi]]. The two teachers agree that they hold jade. What do you do with yours?",
+      "src": [
+        "Analects 9.13",
+        "Liji, “Yu zao” (玉藻) and “Pin yi” (聘義)"
+      ]
+    },
+    "huai": {
+      "kind": "gap",
+      "title": "懷: against the skin",
+      "body": "懷 is the bosom, and in early dress it is an exact place. A robe was wrapped across the chest and tied with a belt, so that a pouch formed above the belt, between cloth and body. People carried letters, food, and money there; a mother carried a small child. To 懷 a thing is to keep it in that fold. From this the word means to cherish, to long for, and to carry a child in the womb. English “carries in his heart” makes the jade a feeling. “At the centre” makes it an idea. The Chinese is physical: stone against skin, kept warm by the body, with nothing to show outside. Wang Bi reads the two halves so: 被褐者，同其塵，懷玉者，寶其真也, “wearing coarse cloth: to be one with the dust; holding jade: to treasure what is genuine”.",
+      "src": [
+        "Wang Bi commentary on Laozi 70",
+        "Shuowen Jiezi, 心部: 懷，念思也。从心褱聲。"
+      ]
+    },
+    "market": {
+      "kind": "geopolitics",
+      "title": "To be known: the market for men",
+      "body": "知, “to know”, had a special weight for the class that read this book. The 士 of the Warring States lived by being known. A man of ability travelled from court to court and tried to make a ruler see his worth; if he was “known”, he was employed and fed, and his family rose. Great lords kept guests by the thousand. The loyalty went both ways. A famous retainer of the time said: 士為知己者死, “a man of service dies for the one who knows him”. So 不我知, “I am not known”, was the worst report that a 士 could make of his life, and Confucius had to tell his pupils not to grieve over it. The speaker here states it calmly and draws a different sum: few know me, [[so the price is high|zegui]]. The jade is not for sale.",
+      "src": [
+        "Zhanguoce, Zhao 1 (the story of Yu Rang)",
+        "Analects 1.1, 1.16"
+      ]
+    },
+    "heshi": {
+      "kind": "history",
+      "title": "The jade that no one saw",
+      "body": "Raw jade is found inside a rough stone, and from outside the two look the same. Han Fei tells the best-known story about it. A man of Chu named He found such a stone and offered it to his king. The king’s jade worker said: it is a stone. The king had He’s left foot cut off for fraud. He offered it to the next king, and lost the right foot. Under a third king he sat at the foot of the mountain and wept for three days, and said that he did not weep for his feet. He wept because a treasure was called a stone and an honest man a liar. The king had the stone cut, and it was the finest jade in the world. The story is about [[not being known|market]]. The sage of this passage is the stone that does not go to court.",
+      "src": [
+        "Han Feizi, “He shi” (和氏)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s signet",
+      "body": "Legge’s last line reads: the sage “wears (a poor garb of) hair cloth, while he carries his (signet of) jade in his bosom”. The first bracket explains; the second invents. A signet is a seal of office, the sign of a rank that could be shown at need. With it the sage becomes a prince in disguise, like a king in a European tale who walks among the poor. The Chinese has only 玉, jade, with no shape and no office. For [[宗|zong]] and [[君|jun]] he writes “an originating and all-comprehending (principle)” and “an authoritative law”: two metaphors from family and court become two abstractions of his century’s philosophy. And “hair cloth” brings in the hair shirt of the Christian penitent. The sage’s cloth is not a penance. It is what was on the peg.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "One thing unshown",
+      "body": "Today, do one good thing or have one good thought, and show it to no one. Do not mention it, do not hint, and do not post it. Keep it as the sage keeps the jade: [[inside the robe|huai]]. Then watch the mind for the rest of the day. It will look for a way to be known: a casual remark, a tone of voice. Notice how strong the pull is, and what you believe would be added if someone knew. Tomorrow, try the other half. Wear the coarse cloth: in one meeting, let a point of yours go without your name on it, or let someone else explain what you know well. Ask afterward what was lost. The passage says that the price went up."
+    }
+  },
+  "lenses": {
+    "ground": "The passage is short and has three movements. A complaint: [[my words|wuyan]] are [[very easy|wangbi]] to know and to [[walk|xing]], and no one can do either. A reason: words have [[an ancestor|zong]] and deeds [[a lord|jun]], and [[because that is not known|wuzhi]], the speaker is not known. A turn: the knowers are [[few|xi]], [[so the value is high|zegui]]. Then a picture that closes it: the sage in [[coarse cloth|he]] with [[jade|yu]] [[inside the robe|huai]]. The verbs 知 and 行 carry the first half; 知 comes five times in forty-seven characters. The tone is the lonely one of passage 20, where the speaker is dull and alone among bright people. Here there is no sadness in the last line. It ends on jade.",
+    "inner": "The teaching is easy because it asks for nothing new. One does not need to go out of the door, as [[Wang Bi|wangbi]] says. That which knows these words is already here, before any effort, and it is nearer than the thoughts about it. That is also why no one can find it: the mind looks for something to grasp and admire, and this has no outside. It wears [[coarse cloth|he]]. The plain fact of being aware does not look like a treasure, so attention passes over it for brighter things. The jade is [[against the skin|huai]] and cannot be seen by the one who carries it, only felt. The practice is small: stop looking outward for a moment and feel what is already held.",
+    "leading": "Two lessons, and they pull in different ways. The first is about speech. [[Words have an ancestor|zong]]: a leader’s sayings should descend from one source, so that people can predict the tenth from the first nine. If each statement is made for its occasion, people know the words and cannot know the person. The second is about display. The age of this text was [[a market for talent|market]], as ours is, and the rule of a market is to be seen. The sage does not advertise. Worth is carried inside, and the outside is plain enough that anyone can come near. Do not make this a strategy of hidden advantage. The jade is not a card held back for the right moment. It is what the person is made of.",
+    "body": "The picture in the last line is a posture. [[Coarse cloth|he]] on the outside: the surface of the body is ordinary and relaxed, the face is not arranged, and nothing is held up for others to see. [[Jade in the bosom|huai]]: at the centre of the chest something is quiet, cool, and dense. The movement arts say the same in their own terms: soft outside, firm inside; the appearance of an old farmer, the root of a tree. Try it while you walk. Let the shoulders and face be common, and put attention on a small, smooth weight behind the breastbone. Then notice the first line again. To [[walk|xing]] this is very easy. You were walking already.",
+    "practice": "Keep [[one thing unshown|practice]] today. Then test the passage’s claim that [[words have an ancestor|zong]]. Write down three things that you often say: to your children, to your team, to yourself. Under each, write the saying that it comes from, and under that one, its parent, until you reach a sentence that has nothing behind it. That sentence is your 宗. See if you would be willing for people to know it. Then look at the [[lord|jun]] of your deeds in the same way: for three things you did today, ask who gave the order."
+  },
+  "glyph": "懷",
+  "plates": [
+    {
+      "c": "懷",
+      "title": "Tears kept in the robe",
+      "lesson": "At the left stands 忄, the form that 心, the heart, takes at the side of a character. It marks feelings: 情, 性, 恨, 悅. The right side is 褱, and it is a small scene. Its outer frame is 衣, a robe, which has been opened: the collar is at the top and the skirts are at the foot. Between them are two things. The flat box with two short lines inside is 目, an eye, turned on its side. Under the eye are a short vertical and four dots. The eye with these drops is the old graph 眔, and it is commonly explained as an eye that sheds tears. The Shuowen takes it as the sound part of 褱 and defines 褱 with a word for holding a thing against the body. So the whole of the right side is: weeping, held inside the robe. Then the heart was added at the left to make 懷, which the Shuowen defines as 念思也, “to think of with longing”. The meaning has a clear line: to hold against the chest, to hold in the feelings, to cherish, to miss someone; and of a mother, to carry a child. The same right side gives the sound to 壞, “to fall into ruin”, with 土, earth. The mainland short form 怀 keeps the heart and replaces all the rest with 不, “not”. In this passage the thing in the [[bosom|huai]] is jade.",
+      "brush": "Nineteen strokes. The heart at the side: a dot at the left, a dot at the right, then a long vertical between them. Then the right side from the top: a dot and a horizontal, which are the collar. The eye in five strokes: the left side; the top and right side with one corner; two short verticals inside; the base. Then the tears: a short vertical, a dot at the left, a small rising stroke under it, a short stroke that falls to the left, and a dot, both at the right. Then the skirts of the robe in four strokes: a long stroke that falls to the left; a vertical with a hook to the right; a short stroke to the left; and the final long stroke to the right. The eye and its drops must stay small. The Tang monk Huaisu, 懷素, the master of wild cursive, had this character as the first of his name."
+    },
+    {
+      "c": "玉",
+      "title": "Three stones on a cord",
+      "lesson": "Three horizontal lines and one vertical through them: the Shuowen says 象三玉之連，丨其貫也, “it shows three pieces of jade joined; the vertical is the cord through them”. Jade was drilled and threaded, and it was worn and given in strings. That early graph looks almost the same as 王, “king”, and for centuries scribes told the two apart only by the spacing of the lines. The dot was added later to mark the jade. The side form never took the dot, so wherever you see 王 at the left of a character, it is jade and no king: 珍, precious; 理, to work jade along its veins, and so “pattern, reason”; 玩, to handle and enjoy; 環, a ring. The Shuowen says that 寶, treasure, has it under a roof, and that 弄, “to play with”, is two hands that hold it: 从廾持玉. The simplified 国, “state”, even puts jade inside the border. Jade is not a jewel in the Western sense. It does not sparkle. It is valued for a dense, soft light, a cool touch, and a clear note when struck, and writers found in it the qualities of a person: warm and firm, and with flaws that are not hidden. Here the sage [[holds it where no one sees|yu]]. The king has four strokes. The jade has five: the king, and one small thing kept at the side.",
+      "brush": "Five strokes. The first horizontal, short. The second horizontal, shorter or equal, set a little nearer the first than the last. Then the vertical, straight through the centre from the first line to where the base will be. Then the long base horizontal, which is the widest stroke and carries the others. Last the dot. It sits at the right, in the space between the second line and the base, and it falls to the right. Watch the dot. It is written last and is the lightest stroke, and it changes the character’s whole meaning. If it is too large, it crowds the lower room; if too far out, it leaves the character. In seal script there is no dot, and the three lines are evenly spaced, like three discs on a string."
+    }
+  ]
+}

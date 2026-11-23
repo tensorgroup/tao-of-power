@@ -1,0 +1,235 @@
+{
+  "n": 13,
+  "title": "Favor Startles Like Disgrace",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "寵辱若驚，貴大患若身。何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。",
+      "gloss": {
+        "0": "favor from one above; to favor",
+        "1": "disgrace, shame; to shame",
+        "2": "like, as; some read it here as “then” or as the old pronoun “you”",
+        "3": "to start in fear, as a horse shies",
+        "5": "to value, to treat as weighty (Heshang Gong: to fear)",
+        "7": "trouble, calamity; worry",
+        "9": "the body; one’s own person",
+        "12": "to call, to mean (何謂: what is meant by)",
+        "19": "wéi: to be, to make",
+        "20": "below; the lower one",
+        "22": "to get",
+        "27": "to lose, to let slip"
+      }
+    },
+    {
+      "text": "何謂貴大患若身？",
+      "gloss": {}
+    },
+    {
+      "text": "吾所以有大患者，為吾有身，",
+      "gloss": {
+        "0": "I (the word one uses of oneself)",
+        "8": "wèi: because",
+        "11": "the body"
+      }
+    },
+    {
+      "text": "及吾無身，",
+      "gloss": {
+        "0": "to reach, to come to; when it comes to"
+      }
+    },
+    {
+      "text": "吾有何患？故貴以身為天下，若可寄天下；",
+      "gloss": {
+        "3": "trouble",
+        "6": "to value, to honor",
+        "9": "wéi (to treat as) or wèi (for the sake of): the readings divide here",
+        "13": "then (like 乃, as Wang Bi takes it)",
+        "15": "to lodge with, to leave in someone’s keeping"
+      }
+    },
+    {
+      "text": "愛以身為天下，若可託天下。",
+      "gloss": {
+        "0": "to cherish, to be sparing with",
+        "9": "to entrust, to commit to someone’s care"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Favor and disgrace: like a start of fear.|saying]]",
+    "[[Honor great trouble as the body.|gui-huan]]",
+    "",
+    "What is meant by “favor and disgrace: like a start of fear”?",
+    "[[Favor|chong]] [[makes the lower one|wei-xia]].",
+    "Getting it: [[like a start of fear|jing]].",
+    "Losing it: like a start of fear.",
+    "This is meant by “favor and [[disgrace|ru]]: like a start of fear”.",
+    "",
+    "What is meant by “honor great [[trouble|huan]] as the body”?",
+    "The reason [[I|wu]] have great trouble",
+    "is that I have a body.",
+    "If I came to [[have no body|wu-shen]],",
+    "what trouble would I have?",
+    "",
+    "So: [[the body honored as all under heaven|gui-shen]]:",
+    "with such a one all under heaven can be [[lodged|ji-tuo]].",
+    "The body [[cherished|wangbi]] as all under heaven:",
+    "to such a one all under heaven can be entrusted."
+  ],
+  "notes": {
+    "saying": {
+      "kind": "history",
+      "title": "A commentary inside the text",
+      "body": "This passage has a form that the reader has not met before. It opens with two short sayings. Then it asks 何謂, “what is meant by…?”, quotes the first saying again, explains it, and closes with 是謂, “this is what is meant”. Then it does the same for the second. That is the form of a teacher who explains an old text to students. So the two opening lines were most likely proverbs older than the passage, and what follows is an early commentary that became part of the book. The Guodian bamboo slips (about 300 BCE) are reported to hold this passage already in this form. The Daodejing is thus a book that had begun to explain itself before it was complete. It also means that the explanation is one reader’s view of the sayings. The sayings are older, and they are [[harder|gui-huan]]."
+    },
+    "chong": {
+      "kind": "etymology",
+      "title": "寵: a dragon under the roof",
+      "body": "寵 is a roof, 宀, over a dragon, 龍. The Shuowen takes the dragon as the sound and defines the word as 尊居也, “to dwell in honor”. The usual sense is favor that comes down from a superior: a ruler’s 寵 for a minister, a lord’s for a concubine, and today an owner’s for a pet, 寵物. The word is never used between equals. That is the key to the passage. English “favor” and “honor” can be earned and owned. 寵 cannot. It lives in the one who gives it, and it can be withdrawn in an hour. The opposite, 辱, is disgrace done to a person from above. The pair names the two things that a court can do to a man. The saying then puts one verdict on both: 若驚, [[like a start of fear|jing]]. See the second plate.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 寵，尊居也。从宀龍聲。"
+      ]
+    },
+    "peach": {
+      "kind": "geopolitics",
+      "title": "The half-eaten peach",
+      "body": "The Han Feizi tells the story that every Chinese reader connects with 寵. Mi Zixia was the favorite of the lord of Wei. Once he walked with the lord in an orchard, bit into a peach, found it sweet, and gave the lord the rest. “How he loves me,” said the lord; “he forgets his own mouth and thinks of mine.” Years later Mi Zixia’s looks had faded and the favor with them. He gave some offence, and the lord said: “This is the man who once fed me his leftover peach.” Han Fei’s comment is cold: the act had not changed; love had turned to hate. Under 寵 a thing is a virtue, and when 寵 is gone the same thing is a crime. Courts of the Warring States were made of such changes. Who decides, in your world, if your peach is sweet?",
+      "src": [
+        "Han Feizi, “Shui nan”"
+      ]
+    },
+    "wei-xia": {
+      "kind": "variant",
+      "title": "寵為下: three texts",
+      "body": "The explanation begins 寵為下, “favor is (or makes) the lower”. The Mawangdui silk texts are reported to read the line with one more particle, 之, and to write 寵 with the graph 弄. The thought is compressed. Favor is a thing that only a superior can give, so to receive it is to be confirmed as the one below. This is why getting it is as alarming as losing it: the person who is given favor now has something to lose, and a master to watch. Some later editions tried to mend the line. They read 寵為上，辱為下, “favor is the high thing, disgrace the low”, which is flat common sense and ruins the point. [[Legge’s|legge]] edition had a form of this, and he wrote: “Disgrace is being in a low position (after the enjoyment of favour).” The older text is the stranger one. It calls favor itself the low position.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
+      ]
+    },
+    "jing": {
+      "kind": "etymology",
+      "title": "驚: a horse takes fright",
+      "body": "驚 has a horse, 馬, at the bottom, and the Shuowen defines it by the animal: 馬駭也, “a horse takes fright”. A horse that shies does not think. The whole body jumps before any thought, the head goes up, the eyes show white. That is the word chosen for what favor and disgrace do to a person. English “alarm” and “anxiety” are states of mind. This is a jolt in the body. The grammar leaves one thing open. 若 is usually “like”: favor and disgrace are like a fright. Some read it as “then” or as the old pronoun “you”: “with favor or disgrace, you start”. Our rendering keeps “like”. Note the horse family in these passages: the tall horse of pride in passage 9, the gallop of the hunt in 12, and now the horse that shies. The age thought with its horses.",
+      "src": [
+        "Shuowen Jiezi, 馬部: 驚，馬駭也。从馬敬聲。"
+      ]
+    },
+    "ru": {
+      "kind": "etymology",
+      "title": "辱: to miss the plowing",
+      "body": "The Shuowen explains 辱, disgrace, with a law of the fields. The graph is 寸, a hand, under 辰. And 辰者，農之時也: “辰 is the farmers’ season”, the star and the month that mark the time to plow. Then: 失耕時，於封畺上戮之也, “one who missed the time of plowing was punished at the boundary mound”. The punishment was public, at the edge of the fields, where all could see. So disgrace in Chinese is at root an exposure before the community for failing the season. English “disgrace” is the loss of grace, a word from court and church. “Shame” is nearer. Modern scholars read the old graph differently, as a hand with a farm tool, and doubt the story of the law. The Shuowen’s story is still the one that readers knew. See the first plate.",
+      "src": [
+        "Shuowen Jiezi, 辰部: 辱，恥也。从寸在辰下。失耕時，於封畺上戮之也。辰者，農之時也。"
+      ]
+    },
+    "gui-huan": {
+      "kind": "gap",
+      "title": "貴大患若身: a line that will not parse",
+      "body": "The second saying is five characters: 貴 value, 大患 great trouble, 若 like, 身 body. Read straight, it says “value great trouble as you value the body”, and no one finds that easy. There are at least three ways out. One: the words are in an unusual order, and the sense is “value the body as you would take a great trouble seriously”. Two: the Heshang Gong commentary glosses 貴 as “to fear” and 若 as “to reach”: fear the great trouble that reaches the body. Three: 若身 is “is like the body”, and the saying is an equation: what people prize and their great trouble are both the body. The explanation in the text goes with the third: I have great trouble because I have a body. We keep the bare order and write “honor”. A proverb is allowed to be dark. Which reading does your own life support?"
+    },
+    "huan": {
+      "kind": "etymology",
+      "title": "患: a heart on a skewer",
+      "body": "患 is 心, the heart, with 串 above it: two objects run through by one line, as meat is strung on a stick. The Shuowen says the heart has something that “pierces” it from above, 从心上貫吅, and defines the word as 憂也, “worry, grief”. The word covers both the outer event and the inner state: a calamity, an illness, and the worry about them. 大患, “great trouble”, is the kind that threatens a life: disaster, punishment, death. [[Wang Bi|wangbi]] says that here it means glory and favor themselves, because “where life is made thick, one enters the ground of death”. The text’s own answer is simpler and goes deeper: the great trouble is the fact of having something that can be hurt. See the third plate.",
+      "src": [
+        "Shuowen Jiezi, 心部: 患，憂也。从心上貫吅，吅亦聲。"
+      ]
+    },
+    "wu": {
+      "kind": "gap",
+      "title": "吾: the speaker says “I”",
+      "body": "Four times in three short lines the text says 吾, “I”. The Shuowen defines the word plainly: 我，自稱也, “‘I’: what one calls oneself”. The speaker of the Daodejing seldom appears. When this voice says “I”, it is to confess a limit: “I do not know whose child it is” (4); “I alone am dull” (20). Here it says: I have great trouble, because I have a body. The line is not addressed to “you”. It makes no accusation, and it does not say that people in general are too attached. English versions that write “we” or “you” lose the tone. A teacher is explaining a proverb, and at the hard point the teacher stops quoting and speaks in the first person. Read the three lines aloud as your own words. Are they true?",
+      "src": [
+        "Shuowen Jiezi, 口部: 吾，我，自稱也。"
+      ]
+    },
+    "wu-shen": {
+      "kind": "gap",
+      "title": "無身: to have no body",
+      "body": "及吾無身，吾有何患: “if it came to my having no body, what trouble would I have?” 身 is [[the body|gui-shen]], the living person, as in passage 7. The line can be a dry remark: no body, no pain; the dead have no worries. It can be a state reached in practice. The Zhuangzi describes “sitting and forgetting”: 墮肢體，黜聰明, “let the limbs and body drop away, dismiss hearing and sight”. Chinese Buddhists later heard their own teaching of no-self in the line and quoted it often. And it can mean what passage 7 meant: not to hold the body as a private possession. English versions write “selfless”, a moral word about generous people. The Chinese is stranger and more physical. It says “no body”. It does not say that this is good, and it does not say how. It asks a question.",
+      "src": [
+        "Zhuangzi 6, “Da zongshi”",
+        "Laozi 7"
+      ]
+    },
+    "gui-shen": {
+      "kind": "history",
+      "title": "Yang Zhu and the worth of a body",
+      "body": "The last lines belong to a debate. Yang Zhu, a thinker of the fourth century BCE, taught 貴生, “value life”: one’s own living body is worth more than any thing outside it, a throne included. Mencius attacked him: Yang would not pull out one hair to benefit the world. But the school had a serious political point, and stories carried it. Prince Sou of Yue fled to a cave because three kings before him had been murdered; the people smoked him out and made him king, and the comment is that they wanted exactly him, because a man who will not harm his life for a state will not waste lives. On this reading the lines say: only a person who values the body above the empire is safe to be given the empire. [[Wang Bi|wangbi]] reads them so, and so do [[the oldest copies|yu]].",
+      "src": [
+        "Mencius 7A26",
+        "Lüshi chunqiu, “Gui sheng”",
+        "Zhuangzi 28, “Rang wang”"
+      ]
+    },
+    "yu": {
+      "kind": "variant",
+      "title": "One small word: 於",
+      "body": "The pinned text has 貴以身為天下, which can be read in two opposite ways, because 為 can be “to treat as” (wéi) or “for the sake of” (wèi). Reading A: “who values the body as the world”: the person who holds the body as dear as the whole realm. Reading B: “who values giving the body for the world”: the person who devotes the self to all. B is the reading of public service, and many versions prefer it; Legge’s “honouring it as he honours his own person” is close to it. The Mawangdui silk texts are reported to settle the question for their own time. In the first of the two lines they read 貴為身於為天下, with the comparative 於: “who values acting for the body more than acting for the world”. The Zhuangzi quotes both lines with 於. So the early text says A, and strongly. Our rendering keeps the open form of the pinned text.",
+      "src": [
+        "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)",
+        "Zhuangzi 11, “Zai you”"
+      ]
+    },
+    "ji-tuo": {
+      "kind": "wordplay",
+      "title": "寄 and 託: each defines the other",
+      "body": "The two closing lines differ in two places only: 貴 and 愛 at the head, 寄 and 託 at the end. Look up the last pair in the Shuowen. 寄，託也. 託，寄也. Each is defined by the other; the dictionary treats them as one idea. 寄 has a roof: to lodge, as a traveller lodges for the night. 託 has speech, 言: to commit a thing to someone by word. Some versions make the two lines into two different outcomes. They are a pair, and their order was not fixed: Wang Bi’s own comment has 託 under the first line and 寄 under the second. The choice of verbs matters more than the difference between them. The text does not say that such a person can “rule” or “own” all under heaven. The realm is lodged with a person, as a guest is, or left in trust. Passage 29 says why: the world is a sacred vessel, and it cannot be held.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 寄，託也。从宀奇聲。",
+        "Shuowen Jiezi, 言部: 託，寄也。从言乇聲。",
+        "Laozi 29"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: nothing to trade the body for",
+      "body": "Wang Bi begins with a law of courts: 寵必有辱，榮必有患。 “Favor always has disgrace in it; glory always has trouble in it.” The two are one coin. On the closing lines he explains the two verbs. 貴: 無以易其身，故曰貴也, “there is nothing for which this person would exchange the body; so it says ‘honor’”. 愛: 無物可以損其身，故曰愛也, “no thing can be allowed to diminish the body; so it says ‘cherish’”. Then his conclusion: 不以寵辱榮患損易其身，然後乃可以天下付之也。 “One who does not let favor and disgrace, glory and trouble, diminish or change the person: only then can the world be handed to such a one.” For Wang Bi the body here is a person’s integrity. A ruler who can be bought with favor or frightened by disgrace will sell the realm.",
+      "src": [
+        "Wang Bi commentary on Laozi 13"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge on “the body (which I call myself)”",
+      "body": "Legge’s first line smooths the saying: “Favour and disgrace would seem equally to be feared.” The horse is gone; 驚 has become a reasonable fear. In the middle he does something of interest. For 為吾有身 he writes “my having the body (which I call myself)”. The bracket is a small piece of Western philosophy: there is a body, and there is a “myself”, and the speaker is said to confuse them. The Chinese has one word, 身, and does not divide it. For the close he takes [[the public-service reading|yu]]: “he who would administer the kingdom, honouring it as he honours his own person, may be employed to govern it”. The realm is the thing honored. In the oldest texts the body is the thing honored, and more than the realm.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Watch the jolt",
+      "body": "For one day, watch for the start of fear. It comes when you are praised: a message of thanks, a number that went up, a warm word from someone above you. It comes when you are slighted. Both arrive first in the body: a lift or a drop in the chest, heat in the face, a quick breath. That is 驚, the horse’s shy. Do not correct it. Mark it only: “favor”, or “disgrace”, and notice that the jolt is the same animal each time. Then ask the passage’s question at that moment: what in me can be raised and lowered by this? At night, count. Was it praise or blame that made the horse jump more often?"
+    }
+  },
+  "lenses": {
+    "ground": "The passage quotes [[two old sayings|saying]] and explains each. First: favor and disgrace are both like [[a start of fear|jing]]. The reason: [[favor|chong]] [[makes one the lower|wei-xia]]; to get it is a fright and to lose it is a fright. Second: [[honor great trouble as the body|gui-huan]]. The reason is given in the first person: [[I|wu]] have great trouble because I have a body, and with [[no body|wu-shen]] there would be none. Then a conclusion in two matched lines: the person who honors and cherishes the body as all under heaven is the one with whom all under heaven can be [[lodged|ji-tuo]]. The key word is 身, the body, six times. The last lines can be read in [[two opposite ways|yu]], and the oldest copies choose one.",
+    "inner": "Praise and blame feel like opposites. The passage says that they are one movement: a jolt in a creature that is watching its position. Any honest observer can confirm this. The lift at praise and the drop at blame have the same root, and the one who enjoys the first has agreed to suffer the second. The text names the root as “having a body”, a [[thing that can be raised and lowered|wu-shen]]. It does not tell anyone to hate the body or to leave it. Its last lines speak of [[cherishing|wangbi]] the body more than the world. The two fit. When what a person is no longer depends on the court’s opinion, the body is simply cared for, as one cares for a guest. That person is hard to frighten and hard to buy.",
+    "leading": "The first half is a warning about any system that runs on favor: promotions, rankings, the regard of the powerful. Such favor [[makes the receiver the lower one|wei-xia]], and people who live by it stop telling the truth. The story of [[the peach|peach]] is the classic case. A leader should ask what the people below must do to keep favor, and how much of their attention it takes. The second half is a test for those who are given power, and the oldest text makes it sharper than later ethics liked. Do not hand the realm to the one who is eager to give everything for it. Hand it to the one who [[will not trade a living body for any prize|gui-shen]]. Such a person will not spend other people’s bodies either. The realm is then [[lodged|ji-tuo]]. It is not owned.",
+    "body": "驚 is a body event: [[a horse’s shy|jing]]. Notice where praise and blame land in you: the stomach, the throat, the skin of the face. A trained body learns to receive that jolt and let it pass through, as a rider sits a nervous horse; the centre stays low and the breath goes on. The last lines are a principle of training as well. The one who [[cherishes the body|wangbi]] does not sacrifice it to a result: no victory is worth the injury, and no title is worth the joint. Athletes who last are the ones who refuse to trade the body for the prize. Teachers of the old arts said the same about students: give the art to the one who will not hurt himself or others to get it.",
+    "practice": "Use the [[day of watching the jolt|practice]]. Then try a harder version for a week. Each time you receive [[favor|chong]], ask who is above you at that moment, and what you now have to lose. Each time you give praise, notice that you have taken the higher seat. And once in the week, take the closing lines literally: do one thing that honors the body over the world’s demand. Sleep when the work says stay. Eat when the meeting says wait. See if you are less fit to be trusted afterwards, or more."
+  },
+  "glyph": "辱",
+  "plates": [
+    {
+      "c": "辱",
+      "title": "A hand under the plowing star",
+      "lesson": "Two parts, upper and lower. The lower part is 寸. It is a hand, 又, with one small mark at the wrist; the Shuowen says the mark shows the place one inch from the hand where the pulse beats, and so 寸 means an inch. In other characters it often stands for a hand that acts by rule: 守, to keep a post; 寺, an office; 封, to mark a boundary. The upper part is 辰. Today it is the fifth of the twelve time signs, and the “dragon” of the animal years. The Shuowen ties it to spring: 三月，陽气動，靁電振，民農時也, “the third month: the yang breath stirs, thunder and lightning shake, it is the people’s time to farm”. Modern scholars commonly explain the early graph as a farm tool, a blade of clam shell for cutting and weeding, and its family supports the farm sense. 農, farming, has 辰 at the bottom. 晨, early morning, is the sun over 辰. 震, thunder, is rain over 辰, and the Shuowen defines 辰 itself by that word. So the Shuowen reads 辱 as a judgment at the season: a hand of law under the farming star, on the one who missed the plowing. Passage 8 said that the good in movement is 時, the right time. Here is the old word for the person who failed it, shown at the field’s edge. [[The passage|ru]] says that favor is as much a fright as this.",
+      "brush": "Ten strokes. 辰 takes seven. A short horizontal at the top; then a stroke that starts under its left end and falls far down to the left, like the wall of a cliff. Inside the angle come two more horizontals, the second longer. Stroke five is a vertical that turns at the foot and flicks up to the right. Six is a short stroke that falls to the left, and seven is the 捺, which runs to the lower right. These last two open like a small skirt. Then 寸 in three. Stroke eight is the long horizontal. Watch it: it is the widest line of the character, and the whole of 辰 rests on it. Stroke nine is the vertical with a hook at the foot, and it stands right of centre. The last is a dot in the angle. The upper part leans left and spreads; the hand below stands straight, and its dot is small."
+    },
+    {
+      "c": "寵",
+      "title": "The dragon indoors",
+      "lesson": "You met the dragon, 龍, in the last passage, on top of an ear. Here it is under a roof. 宀 is the roof: a ridge dot and two eaves. It shelters people and their goods in dozens of characters: 家, a household, with a pig under it; 安, peace, with a woman; 定, to settle; 宿, to lodge for a night; and 寄, to lodge, in the last lines of this passage. The Shuowen says of 寵 that the roof is the meaning and the dragon is the sound, and it defines the word as 尊居也, “to dwell in honor”. Readers have long seen more in it. The dragon is the greatest of creatures; the Shuowen says it can be dark or bright, small or vast, and that it climbs the sky in spring. Put it under a roof and it is kept: honored, fed, and no longer free. The word is used for a ruler’s favorite minister, for a favorite consort, and in modern Chinese for a pet. That fits what the passage says about favor: it [[makes the lower one|wei-xia]]. The simplified form 宠 keeps the roof and writes the dragon in five strokes. Set 寵 beside 聾 from passage 12: the same dragon makes an ear deaf and makes a house proud. In both, the Shuowen says, it is only a sound. [[The first saying|chong]] treats the honored dwelling as a place of alarm.",
+      "brush": "Nineteen strokes: three for the roof and sixteen for the dragon. The roof comes first: a dot at the top centre, a short stroke at the left end, and a horizontal that runs to the right and hooks down. It must be wide enough to cover everything below. Then the dragon, in two columns, as in 聾. Left column: a dot, a horizontal, two small strokes, a longer horizontal, and under them the shape like 月 in four strokes. Right column: a short horizontal, a stroke that comes down, steps to the right, and turns down again, another short horizontal, and then stroke sixteen. Watch it: the long body of the dragon, which falls, bends, runs to the right, and flicks up. Three short horizontals go inside its curve. The roof is one broad sweep, and the dragon is many small moves packed close. The writer keeps the dragon’s strokes thin, so that the animal fits under the eaves."
+    },
+    {
+      "c": "患",
+      "title": "Strung through the heart",
+      "lesson": "The lower part is 心, the heart. It is a picture of the organ; the old script is commonly explained as showing its chambers, and in the modern form there are three dots and one curved stroke that holds them like a bowl. As a meaning part it marks every movement of feeling and thought: 志, aim; 忘, to forget; 恃, to lean on; 惡, to hate; 慈, a mother’s love. The upper part is 串. It is two small boxes with one line through both, and it means things strung on a cord or a stick: a string of coins, meat on a skewer. Street stalls today sell skewered food under this same name. The Shuowen describes the upper part of 患 as two mouths, 吅, pierced through, and says the heart has this above it: 从心上貫吅. Its definition is 憂也, “worry”. So the character is a heart with something run through it. The same word names the outer disaster and the inner grief: 患 is a calamity, an illness (a patient is a 患者), and the fear of both. The passage speaks of 大患, [[great trouble|huan]], and gives its cause in four characters: 為吾有身, “because I have a body”. A thing that can be strung can be hurt. The speaker does not complain about this. The speaker reports it.",
+      "brush": "Eleven strokes. The skewer first, in seven. The upper box takes three: left side, top and right side in one turn, and the base. The lower box takes three in the same way, and it is made a little wider than the upper one. Then stroke seven: one vertical that starts above the upper box and runs down through both. Watch it. It must pass through the exact middle of each box, and it stops before it reaches the heart. Then the heart in four. A dot at the left that leans outward. Then the long curved stroke: it starts low on the left, sweeps along the bottom, and ends in a hook that points up and back. Then two dots, one above the curve and one at the far right. The three dots must look at each other, like three people in a talk. The top is straight and stiff, and the heart below is round and open."
+    }
+  ]
+}

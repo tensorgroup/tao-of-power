@@ -1,0 +1,74 @@
+{
+  "兌": {
+    "senses": ["an opening; the mouth", "glad, pleased (later 悅); to speak (later 說)", "the lake trigram ☱ of the Changes", "(modern) to exchange"],
+    "shuowen": "說也。从儿㕣聲。",
+    "shuowenEn": "To speak; to be glad. From 儿 (a person’s legs), with 㕣 for the sound.",
+    "parts": [
+      { "c": "口", "m": "mouth" },
+      { "c": "儿", "m": "a person (legs)" }
+    ],
+    "story": "兌 is commonly explained as a person whose mouth opens, in speech or in a smile. In the Changes it is the trigram of the lake, of joy, and of the mouth. The Laozi uses it twice, in the same line: 塞其兌, “stop the opening” (52 and 56). Commentators take it as the mouth first, and then as every opening by which a person goes out after things. It is the root of 說, 悅, 脫, 稅, and 銳.",
+    "gap": "English has no single word for “a place where things come out of a person”. “Aperture” is too optical, “mouth” too narrow."
+  },
+  "閉": {
+    "senses": ["to shut and bar (a gate)", "to close off, to stop", "to keep in"],
+    "shuowen": "闔門也。从門；才，所以歫門也。",
+    "shuowenEn": "To shut the gate. From 門 (gate); 才 is that with which the gate is held against entry.",
+    "parts": [
+      { "c": "門", "m": "a two-leaf gate" },
+      { "c": "才", "m": "here: the bar across the gate" }
+    ],
+    "story": "A gate with its bar in place. In passages 52 and 56 the line 閉其門 asks a person to shut the gate of the senses. Passage 27 says that a skilled closer needs neither bar nor bolt, and still nobody can open what is closed. So the best closing in this book is not locked: it holds because nothing pulls outward.",
+    "gap": "“Close” can be gentle and “lock” needs a key. 閉 is the bar dropped across from inside."
+  },
+  "貴": {
+    "senses": ["costly, dear", "of high rank, noble", "to prize, to hold dear", "the thing most valued"],
+    "shuowen": "物不賤也。从貝臾聲。臾，古文蕢。",
+    "shuowenEn": "A thing that is not cheap. From 貝 (cowrie shell), with 臾 for the sound. 臾 is the ancient form of 蕢 (basket).",
+    "parts": [
+      { "c": "貝", "m": "cowrie shell: money" }
+    ],
+    "story": "貴 is first a price, then a rank, then an act of esteem. The Laozi uses all three. Rulers are 貴 and should take the low as their root (39). The sage does not 貴 rare goods (3, 64). And two passages end with 故為天下貴, “so it is what all under heaven prizes”: 56, of the one who cannot be raised or lowered, and 62, of the Dao.",
+    "gap": "English keeps “noble”, “expensive”, and “to value” apart. Chinese hears one word, so honour never loses the sound of price."
+  },
+  "賤": {
+    "senses": ["cheap, low in price", "of low rank, base", "to hold cheap, to look down on"],
+    "shuowen": "賈少也。从貝戔聲。",
+    "shuowenEn": "The price is low. From 貝 (cowrie shell), with 戔 for the sound.",
+    "parts": [
+      { "c": "貝", "m": "cowrie shell: money" },
+      { "c": "戔", "m": "small, slight; gives the sound" }
+    ],
+    "story": "The partner of 貴. Passage 39 says that the high takes the low, 賤, as its root, and that kings call themselves orphaned and unworthy for that reason. Passage 56 says of the one in the dark sameness: cannot be raised high, cannot be brought low.",
+    "gap": "“Base” and “humble” are moral in English. 賤 is a rank and a price; a good person can be 賤."
+  },
+  "知": {
+    "senses": ["to know, to be aware of", "knowledge", "zhì: wisdom; cleverness (later written 智)", "to manage, to be in charge of"],
+    "shuowen": "詞也。从口从矢。",
+    "shuowenEn": "A word of speech. From 口 (mouth) and 矢 (arrow).",
+    "parts": [
+      { "c": "矢", "m": "arrow" },
+      { "c": "口", "m": "mouth" }
+    ],
+    "story": "An arrow and a mouth: a common explanation is that one who knows can say a thing as straight as an arrow flies. The Laozi distrusts that link. The knower does not speak (56). Passage 71 ranks highest the knowing that sees its own not-knowing. To know others is cleverness; to know yourself is clear sight (33). And 知, read as 智, is the cunning that a ruler should not rule by (65).",
+    "gap": "English “know” covers facts, skills, and people. 知 also slides into “cleverness”, which the book treats as a danger."
+  },
+  "同": {
+    "senses": ["same, alike", "together, to share", "to be the same as, to join", "to conform"],
+    "shuowen": "合會也。从𠔼从口。",
+    "shuowenEn": "To come together. From 𠔼 (a cover) and 口 (mouth).",
+    "story": "同 was a word that the schools argued over. Confucius used it for the yes-man who agrees and does not harmonize. The Mohists used it for a state in which each rank conforms to the one above. The Laozi uses it for the dust: 同其塵 (4, 56), and names the result 玄同, the dark sameness. In passage 1 the nameless and the named 同出, “come out together”, and that together-ness is called dark.",
+    "gap": "“Identity” and “union” assume two things that become one. 同 is nearer to “not apart”."
+  },
+  "銳": {
+    "senses": ["a sharp point", "keen, quick (of mind)", "the picked front troops of an army"],
+    "shuowen": "芒也。从金兌聲。",
+    "shuowenEn": "An awn, a fine point. From 金 (metal), with 兌 for the sound.",
+    "parts": [
+      { "c": "金", "m": "metal" },
+      { "c": "兌", "m": "opening, mouth; gives the sound" }
+    ],
+    "story": "The beard of an ear of grain, then any point: of a blade, of a mind, of an army. The Laozi says twice 挫其銳, “blunt the point” (4, 56), and warns in passage 9 that a blade which is hammered to a fine edge cannot be kept long.",
+    "gap": "“Sharp” is praise in English when said of a mind. The Laozi counts it as a risk to its owner."
+  }
+}

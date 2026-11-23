@@ -1,0 +1,278 @@
+{
+  "n": 73,
+  "title": "Heaven’s Wide Net",
+  "theme": "yielding",
+  "zh": [
+    {
+      "text": "勇於敢則殺，",
+      "gloss": {
+        "0": "courage; the Shuowen says: breath",
+        "2": "to dare, to venture",
+        "4": "to kill; or to be killed (the Chinese marks no voice)"
+      }
+    },
+    {
+      "text": "勇於不敢則活。",
+      "gloss": {
+        "5": "to live; to keep alive. First, the sound of running water"
+      }
+    },
+    {
+      "text": "此兩者，或利或害。",
+      "gloss": {
+        "4": "one of them; also: sometimes, perhaps"
+      }
+    },
+    {
+      "text": "天之所惡，孰知其故？是以聖人猶難之。",
+      "gloss": {
+        "3": "wù: to hate, to dislike (not è, “evil”)",
+        "5": "who?",
+        "8": "the cause, the reason",
+        "15": "to find hard; to treat as hard"
+      }
+    },
+    {
+      "text": "天之道，不爭而善勝，",
+      "gloss": {
+        "5": "to contend, to pull against",
+        "7": "to be good at (a verb here, not “goodness”)"
+      }
+    },
+    {
+      "text": "不言而善應，",
+      "gloss": {
+        "4": "yìng: to answer, to respond, to match"
+      }
+    },
+    {
+      "text": "不召而自來，",
+      "gloss": {
+        "1": "to summon, as a ruler summons",
+        "4": "to come; first, a picture of wheat"
+      }
+    },
+    {
+      "text": "繟然而善謀。",
+      "gloss": {
+        "0": "chǎn: slack, like a loosened belt",
+        "4": "to plan, to think ahead of trouble"
+      }
+    },
+    {
+      "text": "天網恢恢，疏而不失。",
+      "gloss": {
+        "1": "a net, for fish or game",
+        "2": "wide, roomy",
+        "5": "loose, open, with space to pass",
+        "8": "to lose, to let slip from the hand"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Courage|yong]] in [[daring|gan]]: [[killing|sha]].",
+    "Courage in not daring: [[life|huo]].",
+    "Of these two,",
+    "[[one benefits, one harms|huo-li]].",
+    "",
+    "[[What heaven hates|tian-wu]]:",
+    "who knows the reason?",
+    "[[So even the sage finds it hard.|you-nan]]",
+    "",
+    "The way of heaven:",
+    "it [[does not contend|zhan]], and is good at winning;",
+    "does not speak, and is good at [[answering|ying]];",
+    "does not summon, and things [[come of themselves|zi-lai]];",
+    "[[slack|chan]], and good at planning.",
+    "",
+    "[[Heaven’s net|wang]] is [[wide, wide|huihui]].",
+    "Its mesh is [[loose|shu]],",
+    "and it [[loses nothing|bu-shi]]."
+  ],
+  "notes": {
+    "yong": {
+      "kind": "etymology",
+      "title": "勇: courage is breath",
+      "body": "The Shuowen gives 勇 a definition of one word: 气也, “it is breath”. 气 is the old way to write 氣: the breath, the vapour that rises, the force that moves a body. So courage is not first a moral quality. It is a surge in the chest. The graph has 力, strength, below, and 甬 above for the sound. The line does not praise this surge and does not blame it. It asks where the surge goes: into 敢, daring, or into 不敢, not daring. The second is still 勇. Passage 67 gives the source that the Laozi trusts: 慈故能勇, “from care comes the ability to be brave”. Where in your body do you feel the breath rise before a bold act?",
+      "src": [
+        "Shuowen Jiezi, 力部: 勇，气也。从力甬聲。",
+        "Laozi 67"
+      ]
+    },
+    "gan": {
+      "kind": "gap",
+      "title": "不敢 is not fear",
+      "body": "English hears “not daring” as weakness. The Chinese phrase 不敢 has a different history. It was the polite word of a person who knows the limits of a position: “I would not presume”. The Laozi makes it a discipline. The sage helps the ten thousand things to be as they are 而不敢為, “and does not dare to act on them” (64). One of the three things that the speaker holds dear is 不敢為天下先, “not daring to go ahead of all under heaven” (67). The soldier says 不敢為主, “I do not dare to be the host”, the one who starts the fight (69). In each place the speaker has the power to act and holds it back. That takes 勇. The line says so in plain words: courage in not daring. What English word would you use for a restraint that needs more nerve than the act?",
+      "src": [
+        "Laozi 3, 64, 67, 69"
+      ]
+    },
+    "sha": {
+      "kind": "gap",
+      "title": "Killed, or killing?",
+      "body": "則殺 is two characters: “then, kill”. Chinese verbs have no passive form, and the line names no victim. Most readers, [[Wang Bi|wb-death]] among them, hear the passive: the person who is brave in daring gets killed, and the careful person lives. But 殺 and 活 can also be active. Then the line is about a person who holds power over others, a judge or a ruler: the one who is brave in daring kills; the one who is brave in not daring lets live. This second reading leads straight into the next passage, with its [[executioner|bronze-laws]] and its question about who may kill. Our rendering uses the bare nouns “killing” and “life”, so that both readings stay open. English had to drop the verb to do it.",
+      "src": [
+        "Laozi 74"
+      ]
+    },
+    "wb-death": {
+      "kind": "wangbi",
+      "title": "Wang Bi: a death that is one’s own",
+      "body": "Wang Bi’s notes on the first two lines are short. On the first: 必不得其死也, “such a one will surely not get their own death”. On the second: 必齊命也, “such a one will surely complete the allotted span”. The phrase 不得其死 comes from passage 42: 強梁者不得其死, “the violent and strong do not get their own death”. The idea behind it is old and strange to us. Each life has a death that belongs to it, at the end of its 命, its allotted time. To die by the sword or the law is to lose that death. So for Wang Bi the first line is not about a reward for caution. It is about whether a person arrives at the end that was theirs. What would it mean to you to “get your own death”?",
+      "src": [
+        "Wang Bi commentary on Laozi 73",
+        "Laozi 42"
+      ]
+    },
+    "huo": {
+      "kind": "etymology",
+      "title": "活: the sound of running water",
+      "body": "The word for “to live” in this line is not the usual 生, to be born and grow. It is 活, and the Shuowen does not define it as life at all. It says 水流聲, “the sound of water that flows”. The left side is 氵, water. To be 活 is to move like a stream: the modern word 活潑, lively, keeps the sense. A modern collated edition of the Mawangdui silk texts prints 栝 here, a graph with the same sound-part and a tree in place of the water; such loans by sound are common in early manuscripts. Set the two verbs of the opening lines side by side. 殺 has a weapon in it. 活 has water in it. Five passages later, water becomes the open subject (78). Did the text choose this word for life by accident?",
+      "src": [
+        "Shuowen Jiezi, 水部: 活，水流聲。",
+        "Mawangdui Laozi (modern collated edition)"
+      ]
+    },
+    "huo-li": {
+      "kind": "gap",
+      "title": "或…或…: which one gains?",
+      "body": "或利或害 is four characters: “some gain, some harm”. 或 means “one of them, someone”, and also “sometimes, perhaps”. The first reading sorts the two kinds of courage: one of the two benefits, and the other harms. Wang Bi reads it so: 俱勇而所施者異, “both are courage, but where it is applied differs”. Our rendering follows him. The second reading is less tidy: of these two, each sometimes gains and sometimes harms. The bold person sometimes wins. The careful person sometimes dies. That reading fits the next line better, because the next line is a question with no answer: who knows why heaven hates what it hates? The text may give a rule in line two and take the certainty back in line four.",
+      "src": [
+        "Wang Bi commentary on Laozi 73"
+      ]
+    },
+    "tian-wu": {
+      "kind": "gap",
+      "title": "A heaven with dislikes",
+      "body": "惡 is read wù here: to hate, to find foul. Read è, the same graph means “bad”. So 天之所惡 is “that which heaven hates”. 天 is hard to carry into English. It is the sky over the fields. For the early Zhou kings it was also the power that gave and removed the right to rule. Modern versions often write “Nature” and make the line a statement about physical law. The missionaries wrote “Heaven” and heard their God. The Chinese word is neither a mechanism nor a person. It has no voice, no face, and no book of rules, and still it has a grain: some things go against it. Then comes the honest part. 孰知其故: who knows the cause? The text claims that heaven has dislikes and admits that no one can read them. Can you act well without the reason?"
+    },
+    "you-nan": {
+      "kind": "variant",
+      "title": "A line that came from elsewhere",
+      "body": "是以聖人猶難之, “so even the sage finds it hard”, stands also in passage 63, word for word. There it ends a teaching on doing hard things while they are still easy. Here it sits between a question about heaven and a description of heaven’s way. The line is reported to be absent from both Mawangdui silk texts; a modern collated edition of them goes from 孰知其故 straight to 天之道. Most scholars think that a later copyist added it, perhaps from a note in a margin. We keep it because our pinned text has it, and because the addition is not foolish. Some reader, long ago, came to “who knows the reason?” and wanted to say: no one, not even the sage, and so the sage is careful. 聖人 is not a saint. It is a person whose hearing is attuned, and here, one who knows the limit of that hearing.",
+      "src": [
+        "Mawangdui Laozi (modern collated edition)",
+        "Laozi 63"
+      ]
+    },
+    "zhan": {
+      "kind": "variant",
+      "title": "One graph for battle and for ease",
+      "body": "The received text says 不爭, “does not contend”, a favourite phrase of the book (8, 22, 66, 68, 81). A modern collated edition of the Mawangdui silk texts prints a different graph: 不彈而善勝. Most editors read 彈 here as a loan for 戰, battle: “does not fight, and is good at winning”. That is the language of the generals. The Sunzi says that the highest skill is 不戰而屈人之兵, “to bend the other side’s army without battle”. Three lines later the collated text prints the same graph again: 彈而善謀, where our text has [[繟然|chan]], “slack”. Look at the three characters: 戰, 彈, 繟. All contain 單, which gave the sound. A scribe who wrote by ear used one graph for two words: for the thing that heaven does not do, and for the manner in which it does everything.",
+      "src": [
+        "Mawangdui Laozi (modern collated edition)",
+        "Sunzi, “Mou gong” (謀攻)"
+      ]
+    },
+    "ying": {
+      "kind": "gap",
+      "title": "應: an answer without words",
+      "body": "應 (yìng) is to answer, as an echo answers a shout. The Shuowen defines it with one word, 當: to match, to meet exactly. So the line does not say that heaven replies in some secret language. It says that heaven does not speak and the fit still comes: seed and season, act and result. Wang Bi explains: 順則吉，逆則凶, “go with it and things turn out well; go against it and they turn out badly”. Confucius said nearly the same thing, in one of the places where the two traditions touch: 天何言哉, “what does heaven ever say? The four seasons run, the hundred things are born.” English “answer” suggests a message. 應 is nearer to the way a valley returns a sound, or a body returns to balance.",
+      "src": [
+        "Shuowen Jiezi, 心部: 應，當也。",
+        "Wang Bi commentary on Laozi 73",
+        "Analects 17.19"
+      ]
+    },
+    "zi-lai": {
+      "kind": "wangbi",
+      "title": "Wang Bi: stay low, and things come home",
+      "body": "召 is a court word: to summon. A ruler summons a minister; a lord summons troops. The Shuowen builds it from 口, a mouth. Heaven does not do this, and still everything arrives. Wang Bi’s comment is six characters: 處下則物自歸, “keep to the low place and things return of themselves”. He reads the line through passage 66, where the rivers and the sea are kings of a hundred valleys because they lie below them. 歸 is a warm word: to go home, as a bride goes to her new house. So the picture is not of a force that pulls. It is of a place that is low and open enough to be a home. English needs a subject for “come”; our “things” is Wang Bi’s 物. The word for “come” has [[its own story|lai]].",
+      "src": [
+        "Wang Bi commentary on Laozi 73",
+        "Laozi 66"
+      ]
+    },
+    "lai": {
+      "kind": "etymology",
+      "title": "來: wheat that heaven sent",
+      "body": "來, “to come”, began as a picture of a wheat plant. The Shuowen tells the story: the Zhou people received a fine wheat as a gift; the graph shows its awns; and 天所來也，故爲行來之來, “it is what heaven made come, so the graph serves for the ‘come’ of coming and going”. Modern scholars say more simply that the picture of wheat was borrowed for a word with the same sound. The plant itself got a new graph, 麥, which is 來 with a foot below it. Either way, an early reader of 不召而自來 saw a stalk of grain in the last word. Nobody summons wheat. A farmer prepares the ground and waits, and it comes.",
+      "src": [
+        "Shuowen Jiezi, 來部: 來，周所受瑞麥來麰。一來二縫，象芒朿之形。天所來也，故爲行來之來。"
+      ]
+    },
+    "chan": {
+      "kind": "etymology",
+      "title": "繟: a belt let out",
+      "body": "繟 (chǎn) is a rare word, and the Shuowen defines it by an object: 帶緩也, “a belt that is slack”. The left part is 糸, silk thread; the right part, 單, gives the sound. So the way of heaven, at the moment when the text calls it a good planner, is pictured as a sash that hangs loose. Other old editions write other words in this place: 坦, level and at ease, or 默, silent. The [[collated silk text|zhan]] has a loan graph. The body sense of 繟 is the most exact. A person who plans from fear pulls the belt tight: jaw, shoulders, belly. Wang Bi describes heaven’s kind of planning as 安而不忘危, “at rest, and not forgetful of danger”. Loosen your own belt one notch, in fact or in thought. Does your next plan change?",
+      "src": [
+        "Shuowen Jiezi, 糸部: 繟，帶緩也。从糸單聲。",
+        "Wang Bi commentary on Laozi 73"
+      ]
+    },
+    "wang": {
+      "kind": "etymology",
+      "title": "網: knotted cord, for fishing",
+      "body": "The oldest form of this word is 网, a picture: a frame with crossed cords inside. The Shuowen gives its origin: 庖犧所結繩以漁, “what Paoxi knotted from cord, to fish with”. Paoxi, or Fuxi, is the first culture hero; in the Book of Changes he looks at the patterns of heaven and earth and then makes nets for hunting and fishing. So the net is the first tool, older than the plow. It is a tool for catching. Modern versions that write “network” turn it into a web of links, which is a twentieth-century picture. The line keeps the hunter’s sense and then changes it in two ways: this net is [[very wide|huihui]], and its mesh is [[open|shu]]. Who, or what, is the catch?",
+      "src": [
+        "Shuowen Jiezi, 网部: 网，庖犧所結繩以漁。从冂，下象网交文。",
+        "Yijing, “Xici” B.2"
+      ]
+    },
+    "huihui": {
+      "kind": "wordplay",
+      "title": "恢恢: a word said twice",
+      "body": "恢 means large, with room in it; the Shuowen says simply 大也, “great”. Said twice, 恢恢 is not “very large”. Doubled words in old Chinese are sound-pictures. They give the feel of a thing, as English does with “far, far away”. The best-known use outside this line is in the Zhuangzi. Cook Ding explains how his knife stays sharp after nineteen years: the joints of the ox have gaps, the blade has no thickness, and so 恢恢乎其於遊刃必有餘地矣, “how roomy! there is surely space to spare for the blade to play”. So 恢恢 is the roominess that lets a thing move without a cut. Heaven’s net is roomy in that way. Say huī huī aloud, slowly. The sound has the breadth that it names.",
+      "src": [
+        "Shuowen Jiezi, 心部: 恢，大也。从心灰聲。",
+        "Zhuangzi, “Yang sheng zhu” (養生主)"
+      ]
+    },
+    "shu": {
+      "kind": "etymology",
+      "title": "疏: to let through",
+      "body": "疏 is “sparse, wide apart”: the holes of this net are large. The Shuowen gives the root sense: 通也, “to let pass, to go through”. The word is used for the work of clearing a blocked river so that it runs. In later Chinese it also means “distant” (of kin) and “careless”. So the text says a hard thing about heaven’s net: it is made mostly of openings. A tight net is what a nervous ruler wants, with a rule for every case. This one lets almost everything through, and the next three characters say that it loses nothing. How can both be true? One answer: it does not need to stop a thing to hold it. The fish is still in the sea.",
+      "src": [
+        "Shuowen Jiezi, 𠫓部: 疏，通也。"
+      ]
+    },
+    "bu-shi": {
+      "kind": "history",
+      "title": "A proverb for the guilty",
+      "body": "天網恢恢，疏而不失 became one of the best-known sayings in Chinese. In everyday use the last word changed to 漏, “to leak”: 疏而不漏. People say it when a criminal is caught after many years: heaven’s net is wide, but nothing leaks through. It is a proverb about justice, and it has comforted the wronged for two thousand years. The older word is quieter. 失 is to lose, to let slip; the Shuowen defines it as 縱, “to let go”, and files it under 手, the hand. 不失 is “does not let slip”. This can be the grip of a judge. It can also be the hold of a net under a fall, or of a mother’s hand. The passage began with killing and with what heaven hates, so the hard sense is present. Which sense do you hear at the end?",
+      "src": [
+        "Shuowen Jiezi, 手部: 失，縱也。从手乙聲。"
+      ]
+    },
+    "bronze-laws": {
+      "kind": "geopolitics",
+      "title": "Laws cast in bronze",
+      "body": "The first lines enter a debate of the age: how much should a state kill? In 536 BCE the minister Zichan of Zheng had a penal code cast in bronze, the first written law that the Chinese record names. A statesman of Jin wrote to protest: when people know the written rules, they will lose respect and contend over every point. In 513 BCE Jin cast its own code on an iron vessel, and Confucius is said to have objected. Over the next centuries the states built finer and tighter nets of law, with death for many offences; the Legalists made this a theory. Against that background, heaven’s net with its [[loose mesh|shu]] is an argument. The next passage continues it: a ruler who kills in place of the great executioner cuts their own hand.",
+      "src": [
+        "Zuozhuan, Duke Zhao year 6 and year 29",
+        "Laozi 74"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge fills in the crime",
+      "body": "Legge’s first sentence has two sets of brackets. The daring is “(to do wrong, in defiance of the laws)”, and the not-daring is “(to do so)”. The Chinese has none of this. He turned an open line about two directions of courage into a line about criminals and law-abiding subjects, the reading that a Victorian magistrate would expect. Then he gives the heaven line as a rhymed couplet: “When Heaven’s anger smites a man”. 惡 is dislike. It became anger, and it gained a verb, “smites”, from the English Bible. The wonder in the Chinese is that heaven hates and no one knows why. In Legge the wonder is why a certain man was struck. He also makes the sage unsure “(as to what to do in the former case)”. Read his version beside the characters and count the brackets.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "The passage has three parts. First, a pair of lines as short as a law: [[courage|yong]] that goes into daring ends in 殺; courage that goes into not daring ends in 活, a word with [[water in it|huo]]. The text does not say who kills or who lives; see [[the two readings|sha]]. Second, a question: heaven has dislikes, and who knows the reason? Third, four matched lines on the way of heaven, each built as “not this, and yet good at that”: no contest and it wins, no speech and it answers, no summons and things come, a [[slack belt|chan]] and good plans. The close is a picture from fishing: a [[net|wang]] that is wide, with an open mesh, that lets nothing slip. The objects are a weapon, a stream, a mouth that calls, a sash, and knotted cord.",
+    "inner": "The courage that the passage prefers is hard to see from outside, because nothing happens. A sharp reply is not sent. A decision that would feel strong is left for a day. The text calls this [[不敢|gan]] and insists that it is 勇: the same rise of breath, turned the other way. It then removes the comfort of a rule. The careful do not always gain; [[the line allows that|huo-li]], and the next line says that nobody knows heaven’s reasons. So the restraint cannot be a strategy to get a safe result. It rests on something else: a trust that the net is [[roomy|huihui]], and that one does not have to seize each thing to keep it. The slack belt comes before the good plan in the sentence. It may also come first in the body.",
+    "leading": "Read with the active sense of [[殺|sha]], the first lines speak to anyone who can end things: a post, a project, a person’s place in a group. To be brave in daring is to cut fast and call it strength. To be brave in not daring is harder, because the leader then carries the open problem and the doubt of others. The four lines on heaven describe an authority that most leaders do not trust: it does not contend, does not announce, does not summon. Wang Bi’s key is [[position|zi-lai]]: stay low, and people bring you what you need to know. The net gives the measure for rules. The states of that age drew their [[nets of law|bronze-laws]] tighter each generation. A wide mesh is not neglect if the leader in fact loses no one.",
+    "body": "Three words here are body words. [[勇|yong]] is breath, by the Shuowen’s own definition. [[活|huo]] is the sound of water that runs. [[繟|chan]] is a belt let out. Together they describe a state that a martial artist will know: the breath is full, the joints are not locked, the waist is loose. A fighter who is brave in daring commits the whole weight and can be led past the centre. One who is brave in not daring keeps the root and lets the other come: 不召而自來. The good response, [[應|ying]], is a match in timing and not a second attack. Stand with the knees soft. Let the belly out against the belt. Feel how much wider the field of attention becomes when the middle of the body is not held.",
+    "nature": "A river does not argue with a rock and is past it. Spring does not announce a date and the buds [[answer|ying]]. No one summons the swallows or the [[wheat|lai]]. These are the four lines on heaven, seen in a year. The last image needs a longer look. A fishing net with a wide mesh lets the small fish go and the water pass; that is why it can be drawn through the sea at all, and why there are fish next year. A net that held everything could not be lifted. The text says that heaven’s net is of the [[open|shu]] kind, and still nothing is outside it. An ecologist might say the same in other words: no act leaves the system. The result may arrive late and far from the place where the act was done.",
+    "practice": "Find one moment today when you feel the surge to act boldly: to send the message, to correct someone, to close a question. Notice the breath; that is [[勇|yong]]. Do not hold the surge down. Give it the other direction for one hour: be brave enough to not do the thing yet. While you wait, loosen something at your waist, the belt or only the muscles, and breathe into the space. After the hour, look at the matter again. Sometimes you will act, and the act will be cleaner. Sometimes the matter will have [[come to you|zi-lai]] in a new form. Do not expect a reward each time; the passage does not promise one. Afterwards, read how [[Legge|legge]] turned the first line into a rule for criminals, and ask what he was afraid of."
+  },
+  "glyph": "網",
+  "plates": [
+    {
+      "c": "網",
+      "title": "Three layers of a net",
+      "lesson": "This character was built in three steps, and you can still see each one. Step one is the picture 网: a frame with crossed cords inside. The Shuowen says 下象网交文, “the lower part shows the crossed pattern of a net”, and credits the tool to [[the first sage, Paoxi|wang]]. Step two: writers added 亡 inside the frame to mark the sound, and got 罔. But 罔 was soon borrowed for other words of the same sound: “to have none”, “to deceive”. Step three: to make the net a net again, they added 糸, silk thread, on the left: 網. So the full character says “thread”, then “net”, then how to pronounce it. In 1956 the simplified script went back to step one, 网. Now meet the family. As the top part of a character the net is flattened to 罒. The Shuowen explains 羅 as a net of silk for birds. It explains 買, to buy, as a net over 貝, a cowrie shell: to net a profit at the market. And it says that 罪 was first a bamboo fish trap; the Qin chose it for “crime”, because the old graph 辠 looked too much like 皇; commentators add that 皇 was the First Emperor’s new title. Since then, crime has been written with the net. The proverb about [[heaven’s net and the guilty|bu-shi]] was waiting in the script.",
+      "brush": "Fourteen strokes. The silk comes first, in six: a stroke that falls left and turns back; a second one below it; a dot that ties the twist; then three small dots in a row at the foot. Keep this side narrow; it is the cord, and the net needs the room. Stroke seven is the left wall of the frame. Stroke eight makes the top and the right wall in one movement and ends in a hook. Watch that corner: the brush stops, sets its shoulder, and comes down. Inside, a dot and a short slash lean together; then a level line; then the three strokes of 亡, a dot, a level line, and an angle that closes the bottom. In seal script the inside was a true mesh of crossed lines. Clerical script made it an abbreviation, and the eye still reads “net”."
+    },
+    {
+      "c": "勇",
+      "title": "Breath over sinew",
+      "lesson": "Two parts, one above the other. Below is 力, strength. The Shuowen calls it 筋也, sinew, and says the graph shows a sinew’s form; many modern scholars see in the oldest forms a digging tool like a plow, though this is debated. Either way it is the force of a body at work. You know it from 男, a man: 田 field over 力, and the Shuowen says 言男用力於田也, “it means that a man uses strength in the field”. Above is 甬 (yǒng), which gives the sound. It is commonly explained as a picture of a bell with its handle; the Shuowen gives a different account, of plants that burst into flower. The same part carries the same sound into 通 (to pass through), 桶 (a bucket), 踊 (to leap), and 涌 (to well up, of water). Look at that list: things that rise or push through. Sound-parts were often chosen with an ear for sense. Now the surprise. The Shuowen defines 勇 as [[气, breath|yong]]. And the dictionaries record an old variant that sets 心, the heart, in place of 力. So the tradition wrote courage two ways: as a rising over muscle, and as a rising over the heart. The Laozi asks only which way it goes: into daring, or into [[not daring|gan]].",
+      "brush": "Nine strokes. The top begins with a short level stroke that turns and falls left, then a dot under it: a small cap. Then the box: the left side down; the top and right side in one stroke with a corner; two short level lines; and an upright through the middle. Seven strokes so far, and they should sit compact and a little narrow. Now 力, in two strokes that decide the character. Stroke eight goes right, turns the corner, falls with a slight lean, and ends in a hook to the left. Stroke nine is the long sweep down to the lower left; it starts above the horizontal and passes through it. Let it run out to a point. The box stays still, and the last stroke moves. A good writer makes the whole character lean forward a little, like a person about to step."
+    }
+  ]
+}

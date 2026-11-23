@@ -1,0 +1,73 @@
+{
+  "棄": {
+    "senses": ["to throw away, to cast off", "to abandon (a person, a child, a post)", "to give up, to renounce"],
+    "shuowen": "捐也。从廾推𠦒棄之，从𠫓。𠫓，逆子也。",
+    "shuowenEn": "To cast off. Two hands (廾) push a winnowing-basket (𠦒) to throw it out; and it has 𠫓. 𠫓 is a child that goes against.",
+    "parts": [
+      { "c": "𠫓", "m": "an upside-down child: a newborn" },
+      { "c": "廾", "m": "two hands (now written like 木)" }
+    ],
+    "story": "Two hands push out a basket with a newborn in it: the character keeps the memory of exposed infants. The first ancestor of the Zhou was such a child, and his name was 棄. The Laozi uses the word for what the sage does not do to people: the sage is good at saving people, so nobody is 棄 (27); what is not good in a person, why 棄 it? (62). It also uses it for what should be let go: sageliness, cleverness, profit (19).",
+    "gap": "“Reject” and “abandon” are abstract. 棄 is physical: to carry a living thing out of the house and leave it."
+  },
+  "寶": {
+    "senses": ["a treasure, a precious thing", "to treasure, to hold precious", "(of a ruler) the throne, the seal"],
+    "shuowen": "珍也。从宀从王从貝，缶聲。",
+    "shuowenEn": "Precious things. From 宀 (roof), 王 (jade), and 貝 (shell), with 缶 (jar) for the sound.",
+    "parts": [
+      { "c": "宀", "m": "roof, house" },
+      { "c": "玉", "m": "jade (written 王)" },
+      { "c": "缶", "m": "an earthenware jar; gives the sound" },
+      { "c": "貝", "m": "cowrie shell: money" }
+    ],
+    "story": "Jade, shells, and a jar under one roof. The Laozi uses the word to move value away from such things. The Dao is the good person’s 寶 (62). The speaker has three 寶 and keeps them: care, plain living, and not daring to be first (67). And there is no greater disaster than to take an enemy lightly, which nearly loses “my 寶” (69).",
+    "gap": "“Treasure” is close. What English loses is the inventory inside the character: ritual jade, money, and wine."
+  },
+  "罪": {
+    "senses": ["an offence, a crime", "guilt; liability to punishment", "to blame, to punish", "(since the 19th century) sin"],
+    "shuowen": "捕魚竹网。从网、非。秦以罪爲辠字。",
+    "shuowenEn": "A bamboo net for catching fish. From 网 (net) and 非. Qin used 罪 as the character for 辠 (guilt).",
+    "parts": [
+      { "c": "罒", "m": "a net" },
+      { "c": "非", "m": "is not, wrong; two wings back to back" }
+    ],
+    "story": "The character first meant a fish-net. “Guilt” was written 辠, a nose over the sign of punishment; the Shuowen says that the Qin changed it because 辠 looked like 皇, the First Emperor’s new title. The Laozi uses the word twice. No 罪 is greater than to approve of desire (46, in most editions). By the Dao, one who has 罪 goes free (62).",
+    "gap": "Missionaries chose 罪 for “sin”, and Western readers now hear that. The old word is legal: an offence, and the punishment that waits for it."
+  },
+  "奧": {
+    "senses": ["the south-west corner of a house: the innermost, honoured place", "a recess, a sheltered spot", "deep, hidden, hard to fathom"],
+    "shuowen": "宛也。室之西南隅。从宀𢍏聲。",
+    "shuowenEn": "A recess. The south-west corner of the room. From 宀 (roof), with 𢍏 for the sound.",
+    "story": "In an old house the south-west corner was farthest from the door: the darkest and most sheltered place, where the elder sat and the household offerings were set. The Analects has a proverb about paying court to the 奧 or to the stove. The Laozi says that the Dao is the 奧 of the ten thousand things (62); Wang Bi explains it as a place of shade and cover. The Mawangdui silk texts read 注, “where things pour”.",
+    "gap": "“Mystery” and “sanctuary” are church words. 奧 is a corner of an ordinary room."
+  },
+  "保": {
+    "senses": ["to rear, to protect, to keep safe", "to guarantee, to stand surety", "a guardian; a refuge"],
+    "shuowen": "養也。从人，从𤓽省。𤓽，古文孚。",
+    "shuowenEn": "To rear. From 人 (person) and a short form of 𤓽, the ancient form of 孚.",
+    "parts": [
+      { "c": "亻", "m": "a person" },
+      { "c": "呆", "m": "here: what remains of a child and the hand that holds it" }
+    ],
+    "story": "The early form is commonly explained as an adult who carries a child on the back. In passage 62 the Dao is the good person’s treasure, 寶, and that by which the not-good person is 保, kept: the two words have one sound. Passage 15 says that one who 保 this Dao does not wish to be full.",
+    "gap": "“Protect” suggests a guard and a threat. 保 is nearer to being carried."
+  },
+  "市": {
+    "senses": ["a market", "to buy, to sell, to trade", "(modern) a city"],
+    "shuowen": "買賣所之也。",
+    "shuowenEn": "Where buying and selling go.",
+    "story": "The market-place, and the acts done in it. Passage 62 says that fine words can 市: they can be traded, or can buy honour, according to where the sentence is cut. The same book ends by saying that words which can be trusted are not fine (81).",
+    "gap": "English keeps “market” and “to sell” apart. 市 is the place and the deal in one word."
+  },
+  "坐": {
+    "senses": ["to sit: to kneel on a mat, upright", "a seat", "without stirring; for no effort", "to be held liable (in law)"],
+    "shuowen": "止也。从土，从畱省。土，所止也。",
+    "shuowenEn": "To stop, to rest. From 土 (earth) and a short form of 畱 (to stay). Earth is where one stops.",
+    "parts": [
+      { "c": "人", "m": "a person (twice)" },
+      { "c": "土", "m": "earth, the ground" }
+    ],
+    "story": "The modern form shows two people on the earth. Before chairs, to sit was to kneel on a mat with the body upright. In passage 62 it is better to 坐 and present the Dao than to bring jade and horses. Later Daoists gave the word a full practice: 坐忘, “to sit and forget”, from the Zhuangzi.",
+    "gap": "“Sit” suggests a chair and ease. 坐 is a formal, grounded posture."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "信": {
+    "senses": ["true to one’s word; good faith", "to trust, to believe", "trustworthy; reliable", "a token, a tally; (later) a letter"],
+    "shuowen": "誠也。从人从言。會意。",
+    "shuowenEn": "True, sincere. From 人 (person) and 言 (speech). A joined-meaning graph.",
+    "parts": [{"c": "亻", "m": "a person"}, {"c": "言", "m": "speech, words"}],
+    "story": "A person and their word, side by side. 信 covers the one who keeps faith and the one who gives it. In the Laozi it is the bond between ruler and people: where trust is not enough, there is no trust (17, 23). The good and the not-good are both met with trust (49). Inside the dim Way there is 信, something that can be relied on (21). And the last passage opens: 信言不美, “true words are not fine-sounding” (81).",
+    "gap": "English needs five words: trust, trustworthiness, good faith, truth, belief. “Faith” adds religion, which is not in the word."
+  },
+  "姓": {
+    "senses": ["clan name; family name", "百姓: the hundred families; the people"],
+    "shuowen": "人所生也。古之神聖母，感天而生子，故稱天子。从女从生，生亦聲。",
+    "shuowenEn": "That from which a person is born. The holy mothers of old were moved by heaven and bore sons, so one speaks of “sons of heaven”. From 女 (woman) and 生 (to be born); 生 is also the sound.",
+    "parts": [{"c": "女", "m": "woman"}, {"c": "生", "m": "to be born; a sprout from the ground"}],
+    "story": "At first only noble clans had a 姓, and 百姓 meant the great families. By the Warring States it meant the common people. Several of the oldest clan names are written with 女. In the Laozi the hundred families are treated as straw dogs by the sage (5), say “we are so of ourselves” (17), and have their heart taken by the sage as the sage’s own (49).",
+    "gap": "“The people” is a mass. 百姓 is a count of families, each with a name."
+  },
+  "侮": {
+    "senses": ["to insult, to treat with scorn", "to bully, to humiliate"],
+    "shuowen": "傷也。从人𣫭聲。",
+    "shuowenEn": "To wound. From 人 (person), with 𣫭 for the sound.",
+    "parts": [{"c": "亻", "m": "a person"}, {"c": "每", "m": "sound part"}],
+    "story": "Contempt that is acted out. It is the last rung of passage 17: the ruler whom the people scorn. The debater Song Xing, of the same century, made a doctrine of it: 見侮不辱, “to be insulted is no disgrace”.",
+    "gap": "“Despise” is a feeling held inside. 侮 is shown, and it hurts: the Shuowen says “to wound”."
+  },
+  "親": {
+    "senses": ["kin; parents", "close, intimate; to hold close", "in person"],
+    "shuowen": "至也。从見亲聲。",
+    "shuowenEn": "To come right up to. From 見 (to see), with 亲 for the sound.",
+    "parts": [{"c": "亲", "m": "sound part"}, {"c": "見", "m": "to see, to meet"}],
+    "story": "The word for one’s own family, and for the nearness that family has. Passage 17 uses it for the second-best ruler, whom the people hold dear. Passage 18 has the six 親, the close relations; passage 56 says the one who has reached “dark sameness” can be neither held close nor kept far; passage 79 says the Way of heaven has no kin: 天道無親.",
+    "gap": "“Love” is too wide. 親 is the closeness of people who see each other every day."
+  },
+  "譽": {
+    "senses": ["to praise aloud", "fame, good name"],
+    "shuowen": "稱也。从言與聲。",
+    "shuowenEn": "To speak well of. From 言 (speech), with 與 for the sound.",
+    "parts": [{"c": "與", "m": "sound part; alone: to give, with"}, {"c": "言", "m": "speech"}],
+    "story": "Praise that is spoken, and so reputation. The second-best ruler of passage 17 receives it. Passage 39 warns in one edition: 至譽無譽, “the highest praise is no praise”.",
+    "gap": "It is public and audible: nearer to “acclaim” than to private esteem."
+  },
+  "功": {
+    "senses": ["work that earns credit; merit", "achievement, result", "effect, efficacy"],
+    "shuowen": "以勞定國也。从力从工，工亦聲。",
+    "shuowenEn": "To settle the state by toil. From 力 (strength) and 工 (work); 工 is also the sound.",
+    "parts": [{"c": "工", "m": "work; a carpenter’s square"}, {"c": "力", "m": "strength; a plough or an arm"}],
+    "story": "Work with a name attached to it. States kept records of 功 and paid for it in rank. The Laozi takes the name off: the work is done and one does not dwell in it (2); the work goes through and the person withdraws (9); the work is done and the families call it their own (17); one who boasts has no 功 (22, 24); the Way completes its work and does not take the name (34).",
+    "gap": "“Success” is a result. 功 is a result plus the question of who gets the credit."
+  },
+  "貴": {
+    "senses": ["costly, not cheap", "noble, of high rank", "to prize, to value"],
+    "shuowen": "物不賤也。从貝臾聲。",
+    "shuowenEn": "Of goods: not cheap. From 貝 (cowrie), with 臾 for the sound.",
+    "parts": [{"c": "臾", "m": "upper part: sound"}, {"c": "貝", "m": "a cowrie shell: money"}],
+    "story": "A market word that became a word of rank: the 貴 are the nobles, the 賤 the base. As a verb it is “to treat as precious”. The Laozi uses the verb with care: do not prize rare goods (3, 12, 64); prize the self as one prizes great trouble (13); prize words, that is, use few (17); “I alone prize the mother who feeds” (20).",
+    "gap": "“Value” has lost the price tag in English. 貴 still has the shell in it."
+  },
+  "悠": {
+    "senses": ["far, long, distant", "unhurried, at ease", "care, sorrow (Shuowen)"],
+    "shuowen": "憂也。从心攸聲。",
+    "shuowenEn": "Care, sorrow. From 心 (heart), with 攸 for the sound.",
+    "parts": [{"c": "攸", "m": "sound part; alone: to flow on"}, {"c": "心", "m": "heart"}],
+    "story": "In the old songs 悠悠 is the far sky and the long road, and the long thoughts of one who looks at them. In the received text of passage 17 it describes the best ruler: far off, unhurried. The Mawangdui silk texts write 猶, “watchful”.",
+    "gap": "“Remote” is cold. 悠 has distance and ease, and a little sadness."
+  }
+}

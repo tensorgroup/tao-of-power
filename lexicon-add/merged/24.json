@@ -1,0 +1,42 @@
+{
+  "企": {
+    "senses": ["to lift the heels, to stand on tiptoe", "to look out for, to long for", "modern: to plan (企圖), enterprise (企業)"],
+    "shuowen": "舉踵也。从人止聲。",
+    "shuowenEn": "To lift the heels. From 人 (person); 止 gives the sound.",
+    "parts": [{"c": "人", "m": "a person"}, {"c": "止", "m": "a foot; later: to stop"}],
+    "story": "企 puts a person on top of a foot, and the Shuowen’s gloss is “to lift the heels”. A person rises on the toes to see over a wall or to be seen over a crowd, so the word grew toward hope and ambition: to look out for a thing that is still far away. The modern compound 企業, “enterprise”, was made in Japan in the nineteenth century and came back into Chinese. Laozi 24 uses the first, bodily sense for its opening joke: the one on tiptoe is taller and does not stand. The Mawangdui silk texts write 炊 in this place.",
+    "gap": "English “tiptoe” suggests quiet or stealth. 企 is about height and reach: the heels leave the ground so that the eyes can go farther."
+  },
+  "伐": {
+    "senses": ["to strike, to attack; to send an army against", "to cut down (a tree)", "to boast of one’s own merit"],
+    "shuowen": "擊也。从人持戈。一曰敗也。",
+    "shuowenEn": "To strike. From a person who holds a halberd. Another sense: to ruin.",
+    "parts": [{"c": "亻", "m": "a person"}, {"c": "戈", "m": "a dagger-axe, a halberd"}],
+    "story": "A person and a halberd. 伐 is the standard word for a punitive campaign: one state “strikes” another. The same word serves for felling trees and for praising one’s own achievements; the Analects uses it so twice. The Laozi joins the senses in 自伐: the boaster campaigns for the self, and the result is 無功, no merit (passages 22, 24). In passage 30 the same word is forbidden to a real army after a real victory: 果而勿伐.",
+    "gap": "English keeps “boast” and “attack” in separate rooms. In Chinese they are one word, so self-praise always sounds a little like an assault."
+  },
+  "贅": {
+    "senses": ["to give in pawn, a pledge", "an attached thing with no use", "a wart, a growth on the skin", "later: superfluous, wordy"],
+    "shuowen": "以物質錢。从敖、貝。敖者，猶放；貝，當復取之也。",
+    "shuowenEn": "To give a thing in pledge for coins. From 敖 and 貝. 敖 is like “to let go”; the shell shows that one must take it back again.",
+    "parts": [{"c": "敖", "m": "to roam, to let go"}, {"c": "貝", "m": "a cowrie shell; money"}],
+    "story": "The Shuowen starts 贅 in a pawnshop: a thing let go for money, with a shell below to show that it must be redeemed. What is pawned hangs between two owners, and from that the word came to mean anything attached and useless. The Shuowen glosses the word for wart, 肬, as 贅. A man who married into his wife’s family was a 贅婿, a “pledged son-in-law”. Laozi 24 sets 贅 beside leftover food as the two pictures of self-display.",
+    "gap": "English “superfluous” is clean and abstract. 贅 is a growth on the skin that you would like to be rid of."
+  },
+  "矜": {
+    "senses": ["a spear shaft (Shuowen)", "to hold oneself high; proud, self-important", "to pity", "careful, reserved"],
+    "shuowen": "矛柄也。从矛今聲。",
+    "shuowenEn": "The shaft of a spear. From 矛 (spear); 今 gives the sound.",
+    "parts": [{"c": "矛", "m": "a spear"}, {"c": "今", "m": "sound part"}],
+    "story": "The Shuowen knows 矜 as a spear shaft. In the classics it is mostly a word of attitude: to think much of oneself, to feel pity, or to hold back with care. How the senses connect is not certain; stiffness and height are the usual bridge. In the Laozi 自矜 is the last of four kinds of self-regard (22, 24), and passage 30 says of a commander: 果而勿矜, get the result and do not be proud of it.",
+    "gap": "One word covers “proud” and “to pity”. English separates them; the Chinese hears that both look down from above."
+  },
+  "跨": {
+    "senses": ["to step across, to stride over", "to straddle, to sit astride"],
+    "shuowen": "渡也。从足夸聲。",
+    "shuowenEn": "To cross over. From 足 (foot); 夸 gives the sound.",
+    "parts": [{"c": "足", "m": "the foot"}, {"c": "夸", "m": "sound part; by itself: extravagant, to brag"}],
+    "story": "跨 is the long step that takes a person over a ditch or onto a horse. Its sound part, 夸, means “extravagant” in the Shuowen and later “to brag”, so the graph happens to set a foot beside a boast. Laozi 24 says that one who strides, or straddles, does not walk: the legs have taken all the ground they can and the next step will not come. The line is missing from the Mawangdui silk texts.",
+    "gap": "English must pick “stride” or “straddle”. 跨 is the one position of the legs that both words describe."
+  }
+}

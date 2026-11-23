@@ -1,0 +1,93 @@
+{
+  "網": {
+    "senses": [
+      "a net for fish, birds, or game",
+      "to catch with a net",
+      "the net of law; a system that holds"
+    ],
+    "shuowen": "庖犧所結繩以漁。从冂，下象网交文。",
+    "shuowenEn": "What Paoxi knotted from cord, to fish with. From 冂 (a cover); the lower part shows the crossed pattern of a net. (The Shuowen enters the word under the older graph 网.)",
+    "parts": [
+      { "c": "糸", "m": "silk thread, cord" },
+      { "c": "罔", "m": "net (网) with 亡 added for the sound" }
+    ],
+    "story": "The word was first written 网, a picture of crossed cords in a frame. Writers added 亡 for the sound and got 罔; when 罔 was borrowed for “have none” and “deceive”, they added 糸, thread, to mark the tool again. As the top part of other characters the net is written 罒: 羅 (a bird net), 買 (to buy), 罪 (crime; first a fish trap). In the Laozi the net appears once, in passage 73: 天網恢恢，疏而不失, heaven’s net is wide, its mesh is loose, and it loses nothing. The line became a proverb about justice.",
+    "gap": "“Network” makes it a system of links. The Chinese word is a hunter’s and fisher’s tool: it catches and holds. The line then makes this net strange, with a mesh that lets things pass."
+  },
+  "勇": {
+    "senses": [
+      "courage, boldness",
+      "brave; a brave man, a soldier"
+    ],
+    "shuowen": "气也。从力甬聲。",
+    "shuowenEn": "It is breath (氣). From 力 (strength), with 甬 for the sound.",
+    "parts": [
+      { "c": "甬", "m": "sound yǒng; commonly explained as a bell with its handle" },
+      { "c": "力", "m": "strength, sinew" }
+    ],
+    "story": "The Shuowen defines courage as breath: a surge of 氣 in the body. An old variant form writes the word with 心, heart, in place of 力. For the Confucians 勇 was one of the three great virtues, with knowledge and humaneness, and it needed the guidance of rightness. The Laozi treats it as a force with no fixed direction. In passage 67 it comes from care: 慈故能勇. In passage 73 it can go into daring, which ends in killing, or into not daring, which ends in life.",
+    "gap": "English “courage” comes from the Latin word for heart and is always praise. 勇 is nearer to “nerve” or “drive”: it can be turned to harm."
+  },
+  "敢": {
+    "senses": [
+      "to dare, to venture",
+      "to presume (in polite speech: 不敢, “I would not presume”)"
+    ],
+    "story": "敢 is the verb of the step past a limit. In court speech 不敢 was a formula of respect. The Laozi makes it a method: the sage does not dare to act on the ten thousand things (64), does not dare to go ahead of all under heaven (67), and does not dare to be the host in war (69). Passage 73 calls this restraint a form of courage. The early forms of the graph are disputed, so we give no picture for it.",
+    "gap": "“Not daring” sounds like fear in English. 不敢 in the Laozi is the choice of a person who could act and holds back."
+  },
+  "活": {
+    "senses": [
+      "to live, to stay alive",
+      "to keep alive, to save a life",
+      "lively, moving"
+    ],
+    "shuowen": "水流聲。从水𠯑聲。",
+    "shuowenEn": "The sound of water that flows. From 水 (water), with 𠯑 for the sound.",
+    "parts": [
+      { "c": "氵", "m": "water" },
+      { "c": "舌", "m": "now written like “tongue”; in the old form a different sound-part" }
+    ],
+    "story": "The usual word for life in the Laozi is 生, to be born and grow. 活 appears only in passage 73, as the opposite of 殺, to kill. The Shuowen defines it by a sound: water that runs. To live, in this word, is to keep moving like a stream. The Mawangdui silk text writes the word with a tree, 栝, a loan by sound.",
+    "gap": "English “live” has no picture in it. 活 has running water."
+  },
+  "繟": {
+    "senses": [
+      "slack, loose (of a belt or cord)",
+      "at ease, unhurried"
+    ],
+    "shuowen": "帶緩也。从糸單聲。",
+    "shuowenEn": "A belt that is slack. From 糸 (silk thread), with 單 for the sound.",
+    "parts": [
+      { "c": "糸", "m": "silk thread" },
+      { "c": "單", "m": "sound; the same sound-part as in 戰 (battle) and 彈 (to pluck, to shoot)" }
+    ],
+    "story": "A rare word. In passage 73 it describes the way of heaven: 繟然而善謀, slack, and good at planning. Other old editions write 坦 (level, at ease) or 默 (silent) in its place, and the Mawangdui silk text has a loan graph. The picture is of the body: a sash that hangs loose at the waist.",
+    "gap": "“Relaxed” is close, but it is a state of mind. 繟 is a thing you can see: a cord with no pull on it."
+  },
+  "恢": {
+    "senses": [
+      "great, wide, roomy",
+      "to enlarge; (later) to restore"
+    ],
+    "shuowen": "大也。从心灰聲。",
+    "shuowenEn": "Great. From 心 (heart), with 灰 (ash) for the sound.",
+    "parts": [
+      { "c": "忄", "m": "heart, mind" },
+      { "c": "灰", "m": "sound huī; by itself, ash" }
+    ],
+    "story": "The heart at the left suggests that the word first described a large mind. Doubled, 恢恢 gives the feel of roominess: the Zhuangzi uses it for the space in an ox’s joints where the cook’s blade can play. In passage 73 it describes heaven’s net.",
+    "gap": "“Vast” is only size. 恢恢 is room to move in."
+  },
+  "疏": {
+    "senses": [
+      "to clear a passage, to let through",
+      "sparse, wide apart, coarse",
+      "distant (of kin); careless"
+    ],
+    "shuowen": "通也。从𡿮从疋，疋亦聲。",
+    "shuowenEn": "To pass through. From 𡿮 and 疋 (a foot); 疋 also gives the sound.",
+    "story": "The root sense is to open a way, as when a blocked river is cleared. From that come “with gaps”, “sparse”, and “not close”. In passage 73 the mesh of heaven’s net is 疏: it is mostly openings. In passage 79 a different word is used for closeness of kin (親); 疏 is its usual opposite.",
+    "gap": "“Coarse” and “loose” sound like faults in English. In 疏 the openness is the working part."
+  }
+}

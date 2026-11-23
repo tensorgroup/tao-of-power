@@ -1,0 +1,53 @@
+{
+  "水": {
+    "senses": ["water", "a river, a body of water; a flood", "the level", "one of the five phases (north, winter, black)"],
+    "shuowen": "凖也。北方之行。象眾水並流，中有微陽之气也。",
+    "shuowenEn": "The level. The phase of the north. It shows many waters running side by side, with a faint yang breath in the middle.",
+    "story": "A picture of a current. The Shuowen’s first word for it is “the level”: water is the thing that makes itself even, and builders found the horizontal with it. In the Laozi, water is the nearest visible thing to Dao. The highest good is like water: it benefits all things, does not contend, and stays in the low place that people hate (8). Nothing under heaven is softer or weaker than water, and nothing is better at attacking the hard and strong (78). The words written with water carry much of the book’s thought: 沖, 淵, 湛, 治, 江海, the rivers and seas that are kings of the valleys (66).",
+    "gap": "For English, water is a substance, H2O. In this book it is a way of acting: to go down, to give, to take any shape, to wear away stone."
+  },
+  "爭": {
+    "senses": ["to pull at one thing from two sides", "to contend, to compete, to fight for", "to dispute; to remonstrate (zhèng)"],
+    "shuowen": "引也。",
+    "shuowenEn": "To pull.",
+    "parts": [ { "c": "爫", "m": "a hand that reaches down" }, { "c": "彐", "m": "a second hand (the form of 又), with the pulled thing as the hooked vertical" } ],
+    "story": "Two hands and one object: the Shuowen defines the word as pulling. It is the Laozi’s word for what goes wrong among people, and 不爭, “not contending”, is close to a summary of the book. Do not exalt the worthy, and the people do not 爭 (3). Water benefits all things and does not 爭 (8). The sage does not 爭, and so no one under heaven can 爭 with the sage (22, 66). The good fighter is not angry; this is the power of not 爭 (68). The way of heaven wins and does not 爭 (73). The last words of the book: the way of the sage is to act and not 爭 (81).",
+    "gap": "“Compete” is a virtue in modern English and “strive” is noble. 爭 has no good sense in this book. It is the tug itself."
+  },
+  "時": {
+    "senses": ["a season; the four seasons", "the right time, timely", "time; an age, the times", "at times; to wait for the moment"],
+    "shuowen": "四時也。从日寺聲。",
+    "shuowenEn": "The four seasons. From 日 (sun), with 寺 for the sound.",
+    "parts": [ { "c": "日", "m": "the sun" }, { "c": "寺", "m": "sound part; an office, later a temple" } ],
+    "story": "Time in early China is first the season: the sun’s place in the year and the work that is due. From it comes the idea of the right moment, prized by every school. Mencius called Confucius “the timely sage”; military writers and farmers’ calendars taught the same. The Laozi names it once, in the list of what is good: in movement, the good is 時 (8). The idea is in many other lines: act on a thing before it exists (64); a storm does not last the morning (23).",
+    "gap": "English “time” is a neutral line that a clock measures. 時 has quality: this is the time for something, or it is not."
+  },
+  "幾": {
+    "senses": ["jī: minute; the first faint sign of a thing", "jī: nearly, almost; near to", "jī: on the edge of danger", "jǐ: how many? a few"],
+    "shuowen": "微也。殆也。从𢆶从戍。戍，兵守也。𢆶而兵守者，危也。",
+    "shuowenEn": "Minute. Perilous. From 𢆶 (fine threads) and 戍 (to guard); 戍 is a guard with weapons. Fine, and guarded with weapons: that is danger.",
+    "story": "The Shuowen reads the graph as tiny threads and an armed guard: something very small that still needs watching. The word names the first faint stirring of an event, the point where a change can still be seen and turned; the Book of Changes says that the noble person acts on seeing the 幾. From “the edge of” comes “almost”. In the Laozi: water is 幾 to Dao, at its very edge (8); people at their work often fail when they are 幾 at completion (64); how far apart are yes and a sneer, 相去幾何? (20).",
+    "gap": "“Almost” in English is a shortfall. 幾 is a place: the fine edge where one thing is about to become another."
+  },
+  "信": {
+    "senses": ["to keep faith; true to one’s word", "trust; to trust, to believe", "truly, indeed", "a token, a message (later: a letter)"],
+    "shuowen": "誠也。从人从言。會意。",
+    "shuowenEn": "Sincere, real. From 人 (person) and 言 (speech). A joined-meaning character.",
+    "parts": [ { "c": "亻", "m": "a person" }, { "c": "言", "m": "speech, a word" } ],
+    "story": "A person beside a word. To be 信 is to be someone whose word holds, and the same graph names the trust that others then give. The Laozi uses it in both directions. In words, the good is 信 (8). When trust is not enough, there is no trust in return (17). Within Dao there is something real, and within that there is 信, a token that can be tested (21). The sage trusts the trustworthy and trusts the untrustworthy also (49). Light promises mean little 信 (63). True words are not beautiful (81).",
+    "gap": "“Faith” has become religious, “sincerity” is a feeling, and “trust” is the other person’s response. 信 is all three as one fact: word and deed agree."
+  },
+  "尤": {
+    "senses": ["fault, error", "blame; to blame, to resent", "outstanding, especially (later common sense)"],
+    "story": "In classical texts 尤 is a fault and the blame or grudge that follows it. The Analects speaks of a man whose words give few occasions for 尤. The Laozi uses it once, as the last word of the water passage: only by not contending is there no 尤 (8). The phrase is near to the “no blame” of the Book of Changes. In later Chinese the common sense is “especially”: what stands out, for good or ill.",
+    "gap": "English separates the fault (mine) from the blame (yours). 尤 is the whole event: a wrong and the resentment that it draws."
+  },
+  "正": {
+    "senses": ["straight, upright, correct", "to set straight, to correct", "to govern (for 政)", "the norm; regular, standard", "the first month (zhēng)"],
+    "shuowen": "是也。从止，一以止。",
+    "shuowenEn": "Right. From 止 (a foot, to stop), with 一 as the place to stop.",
+    "parts": [ { "c": "一", "m": "a line; a goal" }, { "c": "止", "m": "a foot; to stop" } ],
+    "story": "A foot and a line: to go straight to the mark and stop there. Early forms are commonly explained as a foot that marches toward a walled town, the first way of writing 征, to go on campaign. The word was used for 政, government, and Confucius joined the two: to govern is to set straight. The Laozi both uses and unsettles it. In rule, the good is order (8). Stillness is the 正 of the world (45). Govern a state by 正; use an army by surprise (57). The 正 turns again into the odd (58). Straight words seem to say the opposite (78).",
+    "gap": "“Correct” and “righteous” are moral in English. 正 is first a direction: straight, on the mark."
+  }
+}

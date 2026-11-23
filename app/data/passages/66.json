@@ -1,0 +1,190 @@
+{
+  "n": 66,
+  "title": "King of a Hundred Valleys",
+  "theme": "yielding",
+  "zh": [
+    {
+      "text": "江海所以能為百谷王者，以其善下之，故能為百谷王。是以欲上民，必以言下之。欲先民，必以身後之。是以聖人處上而民不重，處前而民不害。是以天下樂推而不厭，以其不爭，故天下莫能與之爭。",
+      "gloss": {
+        "0": "Jiāng: the great river of the south (the Yangzi); then any large river",
+        "7": "valley; here the streams that the valleys send down",
+        "8": "king",
+        "14": "to be below, to go under (a verb here)",
+        "27": "to be above (a verb)",
+        "33": "to put oneself below (a verb again)",
+        "42": "body; one’s own person",
+        "43": "to put behind (a verb)",
+        "55": "heavy; here: to feel as a weight",
+        "69": "to push; to push forward",
+        "72": "yàn: to be sated with, to have had enough of",
+        "77": "to contend, to pull against"
+      }
+    }
+  ],
+  "rendering": [
+    "[[The River and the sea|jianghai]] can be [[kings|wang]] of the [[hundred valleys|gu]]",
+    "because they are [[good at being below them|shanxia]].",
+    "So they can be kings of the hundred valleys.",
+    "",
+    "So: [[to wish to be above the people|yushang]]",
+    "is to have to go below them [[in words|words]].",
+    "To wish to be ahead of the people",
+    "is to have to put [[the body|shen]] behind them.",
+    "",
+    "So the [[sage|shengren]] stays above, and the people [[feel no weight|zhong]];",
+    "stays in front, and the people take no harm.",
+    "So all under heaven are glad to [[push the sage forward|tui]]",
+    "and [[do not tire|yan]].",
+    "",
+    "Because the sage [[does not contend|buzheng]],",
+    "no one under heaven can contend with the sage."
+  ],
+  "notes": {
+    "jianghai": {
+      "kind": "geopolitics",
+      "title": "江: one river, in the south",
+      "body": "In early Chinese 江 is a proper name. It is the Yangzi, the great river of the south, as 河 is the Yellow River of the north. The Shuowen defines it as a place on a map: 水。出蜀湔氐徼外崏山，入海, “a river; it comes out of the Min mountains beyond the border of Jiandi in Shu, and enters the sea”. So the first word puts the passage in the wet south, the country of the state of Chu, where tradition places Laozi’s home. The Yellow River of the northern plain was a danger held back by dikes. The Yangzi was a wide, low gatherer of lakes and tributaries. Passage 32 uses the same pair: the Dao is to the world as 江海 are to the streams and valleys. English “rivers and seas” makes a general plural of it.",
+      "src": [
+        "Shuowen Jiezi, 水部: 江，水。出蜀湔氐徼外崏山，入海。从水工聲。",
+        "Laozi 32"
+      ]
+    },
+    "wang": {
+      "kind": "wordplay",
+      "title": "王: the one to whom all go",
+      "body": "王 is a king, and early Chinese explained the word with a pun. 王 (wáng) sounded like 往 (wǎng), “to go toward”. The Shuowen makes it the definition: 王，天下所歸往也, “a king is the one to whom all under heaven turn and go”. The Baihu tong says the same: 王者，往也. This is a theory of rule in one sound. A king is not the one who commands. A king is the place where people arrive of themselves. The passage is built on this pun and never states it. The streams of a hundred valleys go (往) to the River and the sea, so the River and the sea are their 王. Water votes with its weight. In passage 35 the same verb returns: hold the great image, and 天下往, the world comes. See also what [[Wang Bi|wangbi]] says of it.",
+      "src": [
+        "Baihu tong, “Hao” (號)",
+        "Laozi 35"
+      ]
+    },
+    "gu": {
+      "kind": "etymology",
+      "title": "谷: water half seen",
+      "body": "谷 is a valley with a stream in it. The Shuowen: 泉出通川爲谷。从水半見，出於口. “Where a spring comes out and goes through to a river, that is a 谷. From water half seen, as it comes out of an opening.” The upper strokes are the “half-seen water”; the 口 at the foot is the mouth of the valley. Here 百谷 are the hundred valley streams, and “hundred” means all. The valley is one of the great images of the book: the valley spirit that does not die (6), wide like a valley (15), be the valley of the world (28), the highest de is like a valley (41). A valley is low and empty, and for that reason it receives. This passage goes one step down. Below every valley there is a lower place still, and that place is king.",
+      "src": [
+        "Shuowen Jiezi, 谷部: 谷，泉出通川爲谷。从水半見，出於口。"
+      ]
+    },
+    "shanxia": {
+      "kind": "gap",
+      "title": "下 as a verb",
+      "body": "English “below” is a preposition; it cannot do anything. In classical Chinese a word of place becomes a verb when it stands in a verb’s position. 下之 is “to below them”: to take the lower place toward them. The passage does this four times in two lines: 上民, to above the people; 下之, to below them; 先民, to ahead the people; 後之, to behind them. Position is treated as an act that one performs toward others. And 善, “good at”, makes the low place a skill, as one is good at swimming. Other passages use the same verb: the great state is like the low reach of a river (61); one who is good at using people goes below them (68). In English, being under someone is a fact about rank. Here it is something that one does well or badly."
+    },
+    "yushang": {
+      "kind": "variant",
+      "title": "欲: is the low place a trick?",
+      "body": "The received line has no subject and one troubling word: 欲上民, “wishing to be above the people”. English must supply a subject, and our rendering avoids one with “to wish”. Read coldly, the line is a technique: act low in order to rise. The manuscripts differ on this point. The Mawangdui silk texts are reported to name the sage and keep the wish: 是以聖人之欲上民也，必以亓言下之. The Guodian bamboo text, the oldest, is reported to have 在, “to be at”, where the others have 欲: the sage is in front of the people, and puts the body behind them. In that version nothing is wished for. It describes how a person who is already in front behaves. The River does not go low in order to be king. Which version do you find in yourself?",
+      "src": [
+        "Mawangdui Laozi A and B (as reported)",
+        "Guodian Laozi A (as reported)"
+      ]
+    },
+    "words": {
+      "kind": "history",
+      "title": "以言下之: how kings spoke",
+      "body": "“Go below them in words” was a real custom of Zhou rulers. A lord did not say “I” in public. He used a self-name that made him the lowest person present. Passages 39 and 42 list the three: 孤, “the orphan”; 寡, “the bereft one”, the one with little; and 不穀, “the one without grain”, or “the unworthy”. These were the words that people most hated to be called, and the kings and lords took them as their titles. The custom is older than the Laozi. The Laozi takes it seriously, as something more than etiquette: the high has the low as its root (39). By the Warring States the formulas were often empty; a king could say “this orphan” and then order a city destroyed. The passage asks for speech that goes down in fact. How do you speak to those you direct?",
+      "src": [
+        "Laozi 39, 42"
+      ]
+    },
+    "shen": {
+      "kind": "gap",
+      "title": "身: the body is the self",
+      "body": "以身後之 is “with the 身, to put oneself behind them”. 身 is first the body; the Shuowen says 躳也。象人之身, “the torso; it pictures a person’s body”. The same graph means “oneself, in person”. Chinese does not divide these. English “self” has become an inner thing, a mind that owns a body. In 身 the self is the body that stands in a place and can be put in front or behind. So the line is concrete: where do you stand when the group walks, eats, is paid, is in danger? Passage 7 has the same move: the sage 後其身而身先, puts the body last and the body comes first. The pair in this passage is exact. Words go low. The body goes behind. One without the other is a performance.",
+      "src": [
+        "Shuowen Jiezi, 身部: 身，躳也。象人之身。从人𠂆聲。",
+        "Laozi 7"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "聖人: here, plainly a ruler",
+      "body": "We write “the sage”, and the word needs care. A 聖人 is not a saint and not a hermit. The Shuowen defines 聖 as 通也, “to pass through, to be open all the way”, and the graph has an ear, 耳, in it: one whose hearing reaches everything. In this passage the sage is a ruler with no disguise: 處上, “stays above”, 處前, “stays in front”. The text does not say that there should be no one above. It asks what kind of weight the one above puts on those below. Chinese has no “he” or “she” in these lines, and we repeat “the sage” to avoid adding one. The final word of the rendering is therefore long in English. In Chinese it is 之, a single syllable, “it” or “them”.",
+      "src": [
+        "Shuowen Jiezi, 耳部: 聖，通也。从耳呈聲。"
+      ]
+    },
+    "zhong": {
+      "kind": "wordplay",
+      "title": "重: the weight of a ruler",
+      "body": "民不重: “the people do not 重”. 重 is “heavy”, and here it is a verb of feeling: they do not find the ruler heavy. The word is physical. A ruler sat above the people in fact: on a platform, in a carriage, on a litter that men carried. And a ruler was heavy in grain. Passage 75 says it without ornament: the people starve since their rulers eat up too much in taxes. The usual phrase for harsh taxation was 重斂, “heavy collection”. So “above” and “weight” are one image, and the line is a test that can be measured: what does it cost those below to have you above them? The parallel line says 不害, “take no harm”, of the one in front. A leader in front can block the road and the view.",
+      "src": [
+        "Laozi 75"
+      ]
+    },
+    "tui": {
+      "kind": "gap",
+      "title": "推: pushed forward, not elected",
+      "body": "推 is “to push”; the Shuowen says 排也, “to push aside, to push along”, and the graph has a hand at the left. 樂推 is “glad to push forward”. Modern translators are tempted to make it a word of voting, and the passage a foretaste of democracy; [[Legge|legge]] chose “exalt”. It is neither a ballot nor a divine right. It is the old Chinese idea of how a true king is known: people move toward him. Mencius tells it of Shun. After the death of Yao, the lords who came to court went to Shun and not to Yao’s son; people with lawsuits went to Shun; singers sang of Shun. No one chose. People pushed, as water goes, and the direction of the pushing was the mandate. Notice the body in the image: hands on a back.",
+      "src": [
+        "Shuowen Jiezi, 手部: 推，排也。从手隹聲。",
+        "Mencius 5A5"
+      ]
+    },
+    "yan": {
+      "kind": "wordplay",
+      "title": "厭: full, pressed, weary",
+      "body": "不厭 is “do not tire of”. The word has a root in the stomach. The Mawangdui silk texts are reported to write it as 猒, and the Shuowen defines 猒 as 飽也, “to have eaten one’s fill”. From “full” comes “to have had enough of, to be sick of”. The fuller graph 厭 adds 厂, a cliff, and the Shuowen gives it a second word: 笮也, “to press down”. So the one graph holds weight and weariness together, and passage 72 will play on both: do not press, and they will not be weary. Here the two senses are already near each other. The people do not feel the ruler as [[a weight|zhong]], and they do not grow sick of the ruler. English “tire” loses the picture of a meal that goes on too long. How long is your welcome?",
+      "src": [
+        "Shuowen Jiezi, 甘部: 猒，飽也。从甘从肰。",
+        "Shuowen Jiezi, 厂部: 厭，笮也。从厂猒聲。一曰合也。",
+        "Mawangdui Laozi A and B (as reported)"
+      ]
+    },
+    "buzheng": {
+      "kind": "gap",
+      "title": "不爭: no pull on the rope",
+      "body": "爭 is usually “strive” or “compete”. The Shuowen defines it with one word, 引也, “to pull”, and explains the graph as two hands on one object. To 爭 is a tug of war. Then the last sentence is a fact of mechanics and not a moral: if one side does not pull, the other cannot pull against it. The sentence also stands in passage 22, word for word, and 不爭 runs through the book: water benefits all things and does not contend (8); heaven’s way does not contend and is good at winning (73); the book’s last words are 為而不爭 (81). The Mawangdui silk texts are reported to make it a question: 非以亓无諍與, “is it not because there is no contention in them?” “Non-competitive” in English suggests a weak player. Here it names the one whom no one can play against.",
+      "src": [
+        "Shuowen Jiezi, 𠬪部: 爭，引也。从𠬪、𠂆。",
+        "Mawangdui Laozi A and B (as reported)",
+        "Laozi 8, 22, 73, 81"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “homage and tribute”",
+      "body": "For 百谷王, three characters, Legge writes that the rivers and seas “receive the homage and tribute of all the valley streams”. He explains the image before the reader can see it, and the explanation comes from a court: homage, tribute. The word “kings” appears only at the end of his sentence. He writes “the sage (ruler)” with a bracket, which is fair, and gives the sage “his words” and “his person”; the Chinese has no pronoun. For [[推|tui]] he has “delight to exalt him”, a verb from the English Psalms. His version is not wrong. It is a British reading of monarchy: a sovereign who is gracious downward and is lifted up in return. The Chinese picture is lower and wetter. Water does not exalt the sea.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi says nothing",
+      "body": "Wang Bi left no comment on this passage. In the received edition of his commentary the text stands alone, as it does for passage 31. We do not know the reason: he may have thought it plain, or a comment may have been lost. His view can be found one passage later, where he explains why the one who does not dare to be first can lead: 唯後外其身，為物所歸, “only by putting the body behind and outside does one become that to which things turn”. His word 歸, “to turn toward, to come home to”, is the word of the [[king pun|wang]]: a king is the one to whom all 歸往. So the silence here is not a disagreement. Sometimes a commentator, too, takes the lower place.",
+      "src": [
+        "Wang Bi commentary on Laozi 67"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Go through the door last",
+      "body": "Take the two halves of the passage as two small experiments. Words: in one meeting or one family talk today, speak after the others have spoken, and when you speak, say first what you heard. Do not use the low voice as a method to win. Only find out what you learn from that place. Body: once today, put the body behind. Go through the door last. Serve yourself last. Take the seat that no one wanted. These acts are small, and the body will tell you at once whether it holds a claim to the front. Then ask the question of the passage about your own position, wherever you are above someone: do they [[feel the weight|zhong]]? You may have to ask them."
+    }
+  },
+  "lenses": {
+    "ground": "The passage is one long sentence of cause. It starts with a map: [[the River and the sea|jianghai]] lie lowest, so the streams of a [[hundred valleys|gu]] run to them, and so they are [[kings|wang]]. Then it turns to people with the same logic: [[above by going below|shanxia]] in [[speech|words]], ahead by putting [[the body|shen]] behind. Then two results. The people do not [[feel the weight|zhong]] of the one above or take harm from the one in front, and the world is glad to [[push that person forward|tui]] and does [[not tire|yan]]. The last line gives the root: [[no contending|buzheng]]. Count the “so” and “because”: 所以, 以其, 故, 是以, 是以, 是以, 以其, 故. The grammar runs downhill, like the water.",
+    "inner": "Where is the sea in a person? It is the part that lies lower than each feeling and receives it. A thought comes down like a stream, loud in its own valley. If attention stands above it and judges, the thought finds a wall. If attention lies below, the thought arrives, is received, and is quiet. This is not humility as a virtue to be proud of. The sea makes no effort to be low; it is low, and so it is large. The [[question of the manuscripts|yushang]] matters here. If you go low in order to become great, you are a stream that is acting. The passage, in its oldest form, has no wish in it. It only says where the water goes.",
+    "leading": "This is the book’s clearest picture of legitimate power, and it rests on [[a pun|wang]]: the king is the one to whom people go. Authority here is a measurement of flow. You can hold a title and have nothing run to you. The tests are concrete. [[Words|words]]: who speaks first and longest, and who is heard. [[Body|shen]]: who eats first, who is paid first, who is safe first. [[Weight|zhong]]: what your position costs the people under it. Be careful with the line about wishing. A leader can learn humble speech as a tool, and people feel it within a week. The Zhou kings called themselves orphans and went on with their wars. The body has to go behind as well.",
+    "body": "Low is strong: every teacher of the fighting and moving arts says so. Sink the weight, and a push has nothing high to catch; the one whose centre is lower takes the other’s balance. In pushing hands, the partner who [[does not pull or push back|buzheng]] cannot be pulled or pushed, since force needs something to lean on. Try it standing. Soften the knees and let the breath go down to the belly. Feel how the upper body becomes light when the lower body takes the weight; this is 處上而不重 in one’s own frame. Then walk behind someone for a minute, at their pace, with no wish to pass. Notice what the body does with the wish.",
+    "nature": "Water goes to the lowest place and keeps nothing back on the way. A watershed is a kingdom of this kind: each drop that falls on the slopes moves, by the nearest path, to one low line. The river does not send for it. The sea is the largest thing on the earth’s surface because it is the lowest; the Shuowen calls 海 “heaven’s pool, that which takes in the hundred rivers”. And it gives back: the sea is where the rain comes from. The [[hundred valleys|gu]] are fed by the king they feed. The passage asks us to read the human world as hydrology. Where in your life do things arrive with no call from you? You are low there.",
+    "practice": "[[Go through the door last|practice]] today, and speak after the others. In the evening, draw a small map. Put yourself in the middle and mark the people around you. Draw an arrow for each thing that came to you today with no demand from you: a question, a confidence, a child who sat down beside you. These are your valley streams. Then mark the things that you had to pull toward yourself. The passage has a name for the pulling: [[爭|buzheng]]. Do not correct anything yet. Look at where the land slopes."
+  },
+  "glyph": "下",
+  "plates": [
+    {
+      "c": "下",
+      "title": "A line, and a mark under it",
+      "lesson": "Some things cannot be drawn. You can draw a tree or a horse; you cannot draw “below”. The early scribes solved this with a sign. They drew one long line as a base of reference and a short mark under it. That was 下; the Shuowen’s entry reads 底也。指事, “the bottom; a pointing graph”. The same line with the mark over it was 上, “above”. Xu Shen, who wrote the Shuowen around 100 CE, sorted all characters into six kinds, and for the kind called 指事, “pointing at the matter”, he gave exactly these two as his examples: 指事者，視而可識，察而見意，“上、下”是也. “A pointing graph: look, and it can be recognized; examine it, and the meaning shows. 上 and 下 are such.” Later hands added the vertical stroke that joins the mark to the line. The pair still builds other graphs. A heart with 上 over it and a heart with 下 over it make the word 忐忑, “to be nervous”: the heart goes up and down. 卡, 上 set on 下, is a later graph for “stuck”, a thing that can go neither up nor down. In Chinese grammar 下 is also an act: to descend, to dismount, to go under. This passage uses it so, twice: the River and the sea are [[good at 下|shanxia]]. It is one of the simplest graphs in the script, and the passage makes it a king’s whole skill.",
+      "brush": "Three strokes. First the horizontal: the reference line, written left to right, with a firm start and a firm stop. In this character it is the roof, so it is the longest stroke. Second the vertical, which starts at the middle of the horizontal and goes straight down; the brush lifts slowly, and the end may be a point, like a hanging needle. Third the dot. It leaves the vertical on the right side, below the horizontal and close to it, and it falls to the right. Watch this last stroke. It is the old mark, the one that means “under”; the vertical was added later to carry it. A master makes the dot touch the vertical or nearly touch, pressed down and then lifted off. With so few strokes there is no place to hide: the three must balance with the paper around them."
+    },
+    {
+      "c": "江",
+      "title": "Water and a carpenter’s tool",
+      "lesson": "The left side is 氵, “three dots of water”, the short form of 水 that marks nearly every word for a liquid or a river. The right side is 工. The Shuowen says of 工: 巧飾也。象人有規榘也, “skilled work; it shows a person with compass and square”. Modern scholars commonly see a single tool, perhaps a square or a rammer. In 江 the tool has no meaning. It is there for its sound, and Xu Shen chose this very character, with 河, as his example of the most common kind of graph, 形聲, “form and sound”: one part gives the class, one part gives the pronunciation. “江、河”是也, he wrote. Today 工 is gōng and 江 is jiāng, and the match is hard to hear. In the old language they were close; both belong to one old rhyme group (the 東 group). The same family includes 紅, red; 空, empty; 功, merit; 攻, to attack; and 項, the neck, which changed as 江 did. Note what kind of word this is: [[a proper name|jianghai]]. 江 was the one great river of the south. Some linguists propose that the word itself came from a language of the southern peoples; that is a hypothesis. From this one graph and its northern partner 河, Chinese built its general words for rivers.",
+      "brush": "Six strokes. The water first: a dot that falls to the right; a second dot under it, a little to the left; then a stroke that begins low and flicks up to the right. Watch the third stroke: its tip points at the start of the next part, and so hands the movement across. Then 工: a short horizontal, a vertical from its centre, and a long horizontal at the base. The lower horizontal is the longest line in the character. It runs under the water dots like a riverbed and holds both halves. The three dots must not stand in a straight column; they form a shallow curve that opens to the right. In running script the three become one continuous line with two turns, and in cursive the whole left side can be a single vertical flick."
+    }
+  ]
+}

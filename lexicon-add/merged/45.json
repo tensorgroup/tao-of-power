@@ -1,0 +1,58 @@
+{
+  "拙": {
+    "senses": ["clumsy, unskilled", "plain, artless (as praise in the arts)", "a humble word for one’s own work (拙作)"],
+    "shuowen": "不巧也。从手出聲。",
+    "shuowenEn": "Not skilful. From 手 (hand), with 出 for the sound.",
+    "parts": [ { "c": "扌", "m": "hand" }, { "c": "出", "m": "to go out; gives the sound" } ],
+    "story": "拙 occurs once in the Laozi, in 大巧若拙 (45), and that one line changed the word. The Zhuangzi quotes it against the craftsman’s compass and square. Tao Yuanming made 守拙, “to keep to clumsiness”, the motto of his return to the farm. Calligraphers and painters came to rank the awkward, honest line above the clever one; Fu Shan’s rule was 寧拙毋巧, “better clumsy than clever”.",
+    "gap": "English “clumsy” is only a fault. After the Laozi, 拙 is also a virtue: the absence of display."
+  },
+  "寒": {
+    "senses": ["cold, to freeze", "winter cold", "poor, humble (寒士)"],
+    "shuowen": "凍也。从人在宀下，以茻薦覆之，下有仌。",
+    "shuowenEn": "To freeze. A person under a roof, with grass laid as bedding and cover; below there is ice.",
+    "parts": [ { "c": "宀", "m": "roof" }, { "c": "茻", "m": "grass, straw (in the seal form)" }, { "c": "仌", "m": "ice: the two dots at the base" } ],
+    "story": "The Shuowen reads the graph as a scene: someone in a house, packed in straw, with ice below. From the cold of that house came the sense “poor”: a 寒士 is a scholar without means. The Laozi uses the word once: 躁勝寒, movement overcomes cold (45). 寒 and 熱, cold and heat, are also a basic pair of Chinese medicine.",
+    "gap": "English “cold” is a temperature. 寒 is the cold that a person suffers; the graph has a person in it."
+  },
+  "訥": {
+    "senses": ["slow of speech", "to speak with difficulty; reticent"],
+    "shuowen": "言難也。从言从内。",
+    "shuowenEn": "Speech is difficult. From 言 (speech) and 內 (inside).",
+    "parts": [ { "c": "言", "m": "speech" }, { "c": "內", "m": "inside; to enter" } ],
+    "story": "訥 is speech that stays inside. Confucius praised it: the noble person wishes to be 訥 in word and quick in deed (Analects 4.24), and the plain and 訥 are near to humaneness (13.27). The Laozi says that great eloquence is like it (45). The two schools disagreed on much and agreed on this: fluent talk is a reason for doubt.",
+    "gap": "“Stammering” and “inarticulate” are defects in English, whose tradition honours the orator. 訥 can be said with respect."
+  },
+  "缺": {
+    "senses": ["broken, chipped (of a vessel)", "a gap; lacking, incomplete", "a vacant post"],
+    "shuowen": "器破也。从缶，決省聲。",
+    "shuowenEn": "A vessel is broken. From 缶 (earthen crock), with an abbreviated 決 for the sound.",
+    "parts": [ { "c": "缶", "m": "earthenware crock" }, { "c": "夬", "m": "gives the sound; shared with 決, to breach" } ],
+    "story": "The word begins with a pot that has lost a piece and widens to every kind of gap: a missing tooth, the dark of the moon, an empty office. In the Laozi the great completion is like it (45), and in 58 a government that looks sharply into everything leaves the people 缺缺, broken and wanting.",
+    "gap": "“Imperfect” and “deficient” are abstract. 缺 keeps the chipped rim of a bowl in view."
+  },
+  "屈": {
+    "senses": ["bent, crooked; to bend", "to yield, to submit; wronged", "to run out, to be exhausted (passage 5)"],
+    "shuowen": "無尾也。从尾出聲。",
+    "shuowenEn": "To be without a tail. From 尾 (tail), with 出 for the sound.",
+    "parts": [ { "c": "尸", "m": "what is left of 尾, tail" }, { "c": "出", "m": "gives the sound" } ],
+    "story": "The Shuowen’s first sense is “tailless, cut short”; from it come “curled up, bent”, and then “made to give way”. In passage 5 the bellows is 虛而不屈, empty and not exhausted. In 45 great straightness is like 屈. The name of the poet Qu Yuan, the upright minister who was slandered and drowned himself, is written with it.",
+    "gap": "“Bent” is a shape. 屈 is also what happens to a person who is forced to yield or to bear a wrong."
+  },
+  "辯": {
+    "senses": ["to argue, to dispute", "eloquent; eloquence", "to distinguish (close to 辨)"],
+    "shuowen": "治也。从言在辡之閒。",
+    "shuowenEn": "To set in order. From 言 (speech) between the two parts of 辡.",
+    "parts": [ { "c": "辛", "m": "one party to a suit (twice)" }, { "c": "言", "m": "speech, in the middle" } ],
+    "story": "The graph is a court scene: speech between two litigants. In the Warring States, 辯 was a profession. Travelling advisers lived by set speeches, and the “disputers”, 辯者, such as Hui Shi and Gongsun Long, argued paradoxes for their own sake. The Laozi keeps its distance: great 辯 is like slow speech (45), and the good do not 辯 (81).",
+    "gap": "“Eloquence” sounds like a gift. 辯 has a contest in it, and someone must lose."
+  },
+  "正": {
+    "senses": ["upright, straight, correct", "to set right; a standard", "a chief, a head", "regular (as against 奇, the irregular, in war)"],
+    "shuowen": "是也。从止，一以止。",
+    "shuowenEn": "Right. From 止 (foot), with 一 to stop it.",
+    "parts": [ { "c": "一", "m": "a line: the mark or goal" }, { "c": "止", "m": "foot" } ],
+    "story": "正 is a foot at a line. Many modern scholars explain the old form as a foot that marches on a walled town, the first form of 征, a campaign. From it comes 政, government: 政者正也, “to govern is to set right” (Analects 12.17). The Laozi uses it for the standard of the world (45), for the regular way to rule a state (57), and in 78 says that 正言若反, straight words seem to be turned round.",
+    "gap": "English separates “correct”, “upright”, and “to govern”. In Chinese they are one word, so rule and rightness are hard to pull apart."
+  }
+}

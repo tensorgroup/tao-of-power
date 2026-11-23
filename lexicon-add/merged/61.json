@@ -1,0 +1,58 @@
+{
+  "兼": {
+    "senses": ["to hold two at once; both, together", "to combine, to join under one hand", "to annex (兼并)", "all-inclusive (兼愛)"],
+    "shuowen": "并也。从又持秝。兼持二禾，秉持一禾。",
+    "shuowenEn": "To join. From a hand (又) that holds 秝 (two grain plants). 兼 holds two stalks; 秉 holds one.",
+    "parts": [
+      { "c": "又", "m": "a hand" },
+      { "c": "秝", "m": "two grain plants in a row" }
+    ],
+    "story": "One hand around two stalks of grain. The Warring States used the word for the swallowing of states, and the Mohists for care that takes in everyone. The Laozi uses it once: a great state wants no more than to 兼畜人, to gather people in and feed them (61). The character is the sound-part of 謙, “modest”, and 廉, “a clean edge”.",
+    "gap": "“Unite” is too noble and “annex” too harsh. 兼 is neutral: two things in one grip."
+  },
+  "畜": {
+    "senses": ["chù: livestock, domestic animals", "xù: to rear, to feed, to keep", "xù: to tame, to hold in; to store up"],
+    "shuowen": "田畜也。《淮南子》曰：“玄田爲畜。”",
+    "shuowenEn": "Livestock of the fields. The Huainanzi says: “dark (玄) and field (田) make 畜.”",
+    "parts": [
+      { "c": "玄", "m": "dark; commonly explained as a twisted cord" },
+      { "c": "田", "m": "a field" }
+    ],
+    "story": "The animals that people keep, and the act of keeping them. The Laozi uses the verb for the most generous act that it knows: the Dao gives life to the ten thousand things and 德 rears them (51); to give life and rear, and not to own (10). In passage 61 a great state wants to rear people. The word is honest that the people are a herd, and the book does not hold that against the herdsman who feeds well.",
+    "gap": "“Nourish” hides the pen and the tether. “Domesticate” hides the care."
+  },
+  "交": {
+    "senses": ["to cross; a crossing, a meeting point", "to exchange, to hand over; mutual", "relations, dealings, friendship", "to mate"],
+    "shuowen": "交脛也。从大，象交形。",
+    "shuowenEn": "Crossed shins. From 大 (a person); it shows the form of crossing.",
+    "story": "A person with crossed legs, and then everything that crosses or is exchanged. In the Changes, heaven and earth 交 and all things go through. In the Laozi a great state is the 交 of all under heaven, the place where it meets (61), and when ghosts and sage do not harm each other, 德 comes home 交, from both sides (60).",
+    "gap": "English needs “confluence”, “exchange”, “relations”, and “intercourse”. The one Chinese word keeps them joined."
+  },
+  "牡": {
+    "senses": ["the male animal", "male; (of a lock) the bolt"],
+    "shuowen": "畜父也。从牛土聲。",
+    "shuowenEn": "The father among livestock. From 牛 (ox), with 土 for the sound.",
+    "parts": [
+      { "c": "牛", "m": "ox" },
+      { "c": "土", "m": "earth; gives the sound" }
+    ],
+    "story": "Bull, stallion, ram: the partner of 牝. The Laozi names it twice. The infant does not yet know the joining of 牝 and 牡 (55). The female always overcomes the 牡 by stillness (61). In both places the book speaks of sex in the plain words of the stable.",
+    "gap": "“The masculine” is a theory. 牡 is an animal."
+  },
+  "流": {
+    "senses": ["to flow; a current", "a reach or course of a river", "to drift, to spread; a class or school"],
+    "parts": [
+      { "c": "氵", "m": "water" },
+      { "c": "㐬", "m": "commonly explained as a child born head down, with fluid" }
+    ],
+    "story": "Water that moves. 下流 is the lower course of a river, where all the streams of a basin arrive. Confucius’s school used the phrase for a place of disgrace; the Laozi makes it the definition of a great state (61). Later 流 also meant a school of thought: the “nine currents” of the old philosophers.",
+    "gap": "English “downstream” is only a direction. 下流 is a place, and it has both the filth and the fullness."
+  },
+  "入": {
+    "senses": ["to enter, to go in", "to bring in; income", "to join, to come under"],
+    "shuowen": "内也。象从上俱下也。",
+    "shuowenEn": "To go inside. It shows a going down from above.",
+    "story": "Two strokes that meet at a point, like a wedge. The Laozi pairs it with 出: we come out into life and go into death (50). That which has no substance enters where there is no gap (43). In passage 61 a small state wants to 入事人, to enter and serve.",
+    "gap": "“Enter” is neutral in English. In 入事 it means to come inside another’s order and accept a place there."
+  }
+}

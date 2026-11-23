@@ -1,0 +1,81 @@
+{
+  "圖": {
+    "senses": ["to plan, to map out, to think ahead about", "a map, a chart, a picture", "to scheme for, to covet"],
+    "shuowen": "畫計難也。从囗从啚。啚，難意也。",
+    "shuowenEn": "To draw up plans for a difficulty. From 囗 (an enclosure) and 啚; 啚 gives the idea of difficulty.",
+    "parts": [
+      { "c": "囗", "m": "an enclosure, a border" },
+      { "c": "啚", "m": "a granary district; hard to get" }
+    ],
+    "story": "A border drawn round the granaries of a district: a map, and then the act of planning. The Shuowen’s gloss joins 圖 to 難, “difficulty”, and so does passage 63: 圖難於其易, plan for the hard while it is easy. A map was the standard gift of surrender between states, and the famous attempt on the life of the king of Qin was made with a dagger rolled in one.",
+    "gap": "“Plan” is dry in English. 圖 keeps the drawn line: to plan is to see the thing laid out before it happens."
+  },
+  "易": {
+    "senses": ["easy; to treat as easy", "to change, to exchange, to trade", "the Changes (易經)"],
+    "shuowen": "蜥易，蝘蜓，守宮也。象形。",
+    "shuowenEn": "The lizard, the gecko, the “palace guard”. A picture.",
+    "parts": [
+      { "c": "日", "m": "sun (or the lizard’s head)" },
+      { "c": "勿", "m": "here: legs and tail, or the moon" }
+    ],
+    "story": "The Shuowen gives two origins: a house lizard, and the sun and moon that take turns. The word means both “change” and “easy”, and the Laozi lets the two senses lean on each other. The hard and the easy complete each other (2). Plan for the hard at its easy stage; much “easy” brings much hard (63). A thing that lies still is simple to keep hold of (64). My words are very easy to understand, and nobody can (70).",
+    "gap": "English keeps “easy” and “change” far apart. In Chinese the easy is what can still be changed."
+  },
+  "味": {
+    "senses": ["flavour, taste", "to taste, to savour", "interest, meaning (意味)"],
+    "shuowen": "滋味也。从口未聲。",
+    "shuowenEn": "Rich flavour. From 口 (mouth), with 未 for the sound.",
+    "parts": [
+      { "c": "口", "m": "mouth" },
+      { "c": "未", "m": "a tree in full leaf; “flavour”; gives the sound" }
+    ],
+    "story": "A mouth beside a tree at its ripest. The Laozi distrusts strong flavour: the five tastes dull the mouth (12). It praises the flat: the Dao, when it comes out of the mouth, is thin and has no 味 (35), and the task is to 味無味, to taste what has no taste (63).",
+    "gap": "“Taste” in English is also judgment, as in “good taste”. 味 stays on the tongue, and then becomes slow, bodily attention."
+  },
+  "難": {
+    "senses": ["hard, difficult", "to find hard, to treat as hard", "nàn: trouble, disaster; to reproach"],
+    "parts": [
+      { "c": "隹", "m": "a short-tailed bird" }
+    ],
+    "story": "The character has a bird, 隹, at its right, and was at first the name of a bird; it was borrowed for “difficult”. In the Laozi 難 is the partner of 易: the two complete each other (2). Goods that are 難 to get make people thieves (3). In passage 63 the word comes five times, as adjective, noun, and verb: the sage treats things as 難 and so has no 難.",
+    "gap": "English needs “hard”, “difficulty”, and “to find difficult”. One Chinese word moves through all three."
+  },
+  "怨": {
+    "senses": ["resentment, a grievance", "to bear a grudge against", "enmity between persons or houses"],
+    "shuowen": "恚也。从心夗聲。",
+    "shuowenEn": "Anger, rancour. From 心 (heart), with 夗 for the sound.",
+    "parts": [
+      { "c": "夗", "m": "to turn in sleep; gives the sound" },
+      { "c": "心", "m": "heart" }
+    ],
+    "story": "The bitterness of one who has been wronged. In early China it was a public fact: grievances between houses called for repayment. The Laozi says to answer 怨 with 德 (63), a saying that Confucius is on record as refusing, and adds that when a great 怨 is settled, some of it is sure to remain (79).",
+    "gap": "“Injury” names the act and “hatred” is too hot. 怨 is the cold residue that stays in the wronged party."
+  },
+  "報": {
+    "senses": ["to repay, to requite, to answer in kind", "to report, to announce", "(in law) to sentence"],
+    "shuowen": "當罪人也。从幸从𠬝。𠬝，服罪也。",
+    "shuowenEn": "To sentence an offender. From 幸 (a sign of fetters) and 𠬝; 𠬝 is to submit to punishment.",
+    "story": "The Shuowen starts from the law court: to give an offender what is due. The wider sense is any paying back, of kindness or of wrong, and the ethics of the time rested on it. Passage 63 keeps the verb and changes the coin: 報怨以德, repay grievance with 德.",
+    "gap": "“Repay” in English is mostly about money. 報 covers gratitude, vengeance, and a judge’s sentence."
+  },
+  "細": {
+    "senses": ["thin, fine (as thread)", "minute, detailed", "small matters"],
+    "shuowen": "微也。从糸囟聲。",
+    "shuowenEn": "Minute. From 糸 (silk thread), with 囟 for the sound.",
+    "parts": [
+      { "c": "糸", "m": "silk thread" },
+      { "c": "田", "m": "here a changed form of 囟, which gives the sound" }
+    ],
+    "story": "Thin as a filament of silk. Passage 63 says that the great affairs of the world start from the 細, and that the sage works on the great at that stage. Passage 67 uses the word of the Dao itself: if it resembled anything, it would long since have become 細, a small thing.",
+    "gap": "“Small” is about size. 細 is about thinness: a line that can still be followed or cut."
+  },
+  "諾": {
+    "senses": ["yes, I will (the word of assent)", "a promise; to promise"],
+    "parts": [
+      { "c": "言", "m": "speech" },
+      { "c": "若", "m": "to accord with; gives the sound" }
+    ],
+    "story": "The word that one says to accept a request. Passage 63 warns that a light 諾 is short on trust; the phrase 輕諾寡信 is still in use. A Han saying about the swordsman Ji Bu held that one 諾 of his was worth more than a hundred measures of gold.",
+    "gap": "“Promise” is a noun and a contract. 諾 is the spoken syllable itself, the moment of saying yes."
+  }
+}

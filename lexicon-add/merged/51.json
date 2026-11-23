@@ -1,0 +1,53 @@
+{
+  "畜": {
+    "senses": ["to rear, to keep and feed (read xù)", "livestock, domestic animals (read chù)", "to support (a family, a people); to store up"],
+    "shuowen": "田畜也。《淮南子》曰：“玄田爲畜。”",
+    "shuowenEn": "To keep animals on the land. The Huainanzi says: “玄 (dark) and 田 (field) make 畜.”",
+    "parts": [ { "c": "玄", "m": "dark; related to a fine thread" }, { "c": "田", "m": "field" } ],
+    "story": "The farm word for keeping animals. The Laozi gives it to de: the Way gives birth and de rears, 畜 (51). Passage 10 uses it of the practitioner, 生之畜之, and 61 of a great state that wishes to gather and keep people. With grass on top it is 蓄, to store. The reading xù for the verb and chù for the noun is traditional.",
+    "gap": "“Nourish” and “nurture” are nursery words. 畜 is what a herdsman does: daily feeding with no control over the growth."
+  },
+  "育": {
+    "senses": ["to give birth to", "to raise, to bring up", "to educate"],
+    "shuowen": "養子使作善也。从𠫓肉聲。",
+    "shuowenEn": "To raise a child so that it does good. From 𠫓 (an inverted child), with 肉 for the sound.",
+    "parts": [ { "c": "𠫓", "m": "a child turned head down" }, { "c": "月", "m": "flesh (肉); gives the sound" } ],
+    "story": "The top is 子 upside down, commonly read today as a baby at birth, head first. The word runs from bearing to bringing up to teaching; modern 教育, education, keeps it. In the Laozi it occurs once, in the list of what is done for all creatures: 長之育之 (51).",
+    "gap": "English splits “bear”, “rear”, and “educate”. 育 is one continuous act that begins at the birth."
+  },
+  "宰": {
+    "senses": ["to slaughter, to carve meat", "a steward; a chief minister", "to be master of, to rule"],
+    "shuowen": "辠人在屋下執事者。从宀从辛。辛，辠也。",
+    "shuowenEn": "A convicted person who does service under a roof. From 宀 (roof) and 辛. 辛 is crime.",
+    "parts": [ { "c": "宀", "m": "roof, house" }, { "c": "辛", "m": "a blade for marking; crime; bitter" } ],
+    "story": "From household slave to the carver of sacrificial meat to prime minister: the word climbed the whole house. 宰相 is still “chancellor”. The Laozi uses it twice, in the same line: 長而不宰, to lead and not to carve (10, 51). Chen Ping of Han said that he would 宰 the world as fairly as he carved the village meat.",
+    "gap": "“Control” or “dominate” loses the knife. 宰 is to cut a whole thing into portions and decide who gets which."
+  },
+  "勢": {
+    "senses": ["force, power, weight of authority", "momentum; the lie of the land; a situation’s tendency", "position, standing"],
+    "shuowen": "盛力權也。从力埶聲。經典通用埶。",
+    "shuowenEn": "Full force and weight of authority. From 力 (strength), with 埶 for the sound. The classics generally write 埶.",
+    "parts": [ { "c": "埶", "m": "to plant; gives the sound" }, { "c": "力", "m": "strength" } ],
+    "story": "A key term of Warring States thought. For the Sunzi it is the energy of a formation, like pent water or round stones on a slope. For Shen Dao and Han Fei it is the power of position that makes a ruler obeyed. The Laozi uses it once, mildly: circumstance completes what the Way has born (51). The silk texts read 器 there.",
+    "gap": "No one English word covers it: “momentum”, “circumstance”, “position”, and “power” each give a part."
+  },
+  "尊": {
+    "senses": ["a wine vessel of the rites", "to honour, to revere", "honoured, high in rank"],
+    "parts": [ { "c": "酋", "m": "a wine jar with vapour or a cover above" }, { "c": "寸", "m": "a hand" } ],
+    "story": "First a bronze jar for sacrificial wine; the Shuowen lists it in an older form with two hands that raise the jar. To honour is to lift the wine to someone. In the Laozi all creatures 尊 the Way (51), and fine words can buy 尊 (62). The vessel sense later got its own graphs, 樽 and 罇.",
+    "gap": "“Honour” in English is abstract. 尊 is a gesture: both hands, a full jar, raised."
+  },
+  "貴": {
+    "senses": ["costly, valuable", "noble, of high rank", "to value, to prize"],
+    "shuowen": "物不賤也。从貝臾聲。",
+    "shuowenEn": "A thing that is not cheap. From 貝 (cowrie), with 臾 for the sound.",
+    "parts": [ { "c": "貝", "m": "cowrie shell, money" } ],
+    "story": "A market word that became a word of rank: 貴 and 賤, dear and cheap, are also noble and base. The Laozi keeps the price in view. Do not 貴 rare goods (3). The noble takes the base as its root (39). The sage knows the self and does not 貴 the self (72). All creatures 貴 de (51).",
+    "gap": "English separates “expensive” from “noble”. In Chinese a high-born person is literally a costly one."
+  },
+  "毒": {
+    "senses": ["poison; poisonous", "strong, potent; harsh", "passage 51: to bring to full strength, to ripen"],
+    "story": "Usually “poison”. In passage 51 it stands in a list of nurturing verbs, 亭之毒之. Some read it by sound as 熟, to ripen (the Heshang Gong text writes 成之孰之); others keep an old sense “thick, strong”. The pair 亭毒 later became a literary word for heaven’s care of creatures. In 55 the plain sense appears: poisonous insects do not sting the infant.",
+    "gap": "A reader of English, or of modern Chinese, sees “poisons them” in a list of acts of care. The classical word could also mean to make strong."
+  }
+}

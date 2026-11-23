@@ -1,0 +1,56 @@
+{
+  "間": {
+    "senses": ["a gap, a crack, a space between", "between, among; an interval of time", "(jiàn) to separate, to come between; a spy", "a room (as a unit)"],
+    "shuowen": "隟也。从門从月。",
+    "shuowenEn": "A crack. From gate and moon. (The Shuowen enters the older form 閒, with the moon; 間, with the sun, is the later graph.)",
+    "parts": [{"c": "門", "m": "a gate with two leaves"}, {"c": "日", "m": "sun (in the older form 月, moon)"}],
+    "story": "Light seen between the leaves of a shut gate: moonlight in the older form, sunlight in the later one. From the crack came each kind of between, in space and in time. In passage 5 the space 間 heaven and earth is like a bellows. In passage 43, that which has no substance enters 無間, where there is no gap. The moon form 閒 was kept for “leisure”.",
+    "gap": "English uses many words: gap, interval, room, between. 間 holds them as one idea, an opening with something at each side."
+  },
+  "至": {
+    "senses": ["to arrive, to reach", "the utmost, the furthest point; most", "solstice (the sun’s arrival at its limit)"],
+    "shuowen": "鳥飛从高下至地也。从一，一猶地也。象形。",
+    "shuowenEn": "A bird flies from on high down to the ground. From 一, and the 一 is like the earth. A picture.",
+    "story": "The Shuowen sees a bird that lands; many modern scholars see an arrow that has struck the ground. From arrival comes the limit, and 至 before a word makes it “the most”: the softest and the hardest under heaven (43), the height of harmony in the infant (55). As a verb: push emptiness to its limit, 致虛極, uses the related 致 (16).",
+    "gap": "“Most” and “utmost” are only grammar in English. 至 still has a flight and a landing in it."
+  },
+  "馳": {
+    "senses": ["to drive horses hard; to gallop, to race", "to spread fast (of fame, of thought)"],
+    "shuowen": "大驅也。从馬也聲。",
+    "shuowenEn": "To drive hard. From 馬 (horse), with 也 for the sound.",
+    "parts": [{"c": "馬", "m": "horse"}, {"c": "也", "m": "the sound part"}],
+    "story": "A horse at speed. With 騁 it makes the set phrase 馳騁, a full gallop in the hunt or in war. The Laozi uses the phrase two times, with opposite values: the gallop and the hunt drive the heart mad (12); the softest thing under heaven gallops over the hardest (43). The short form is 驰.",
+    "gap": "“Overcomes” and “penetrates”, common in English versions, lose the animal."
+  },
+  "騁": {
+    "senses": ["to gallop straight ahead", "to give free rein to (the eye, the mind)"],
+    "shuowen": "直馳也。从馬甹聲。",
+    "shuowenEn": "To race straight ahead. From 馬 (horse), with 甹 for the sound.",
+    "parts": [{"c": "馬", "m": "horse"}, {"c": "甹", "m": "the sound part"}],
+    "story": "The partner of 馳: a run at full stretch with no turn. Later writers use it for the eye that ranges over a view and the mind that runs free. In the Laozi it occurs only in the pair 馳騁 (12, 43).",
+    "gap": "None in the word. English has “gallop” for both 馳 and 騁 and so cannot double the verb as the Chinese does."
+  },
+  "堅": {
+    "senses": ["hard, solid, firm", "strong (of armor, walls); to make firm", "resolute"],
+    "shuowen": "剛也。从臤从土。",
+    "shuowenEn": "Hard. From 臤 and 土 (earth).",
+    "parts": [{"c": "臤", "m": "firm, tight; the Shuowen glosses it with 堅 itself"}, {"c": "土", "m": "earth"}],
+    "story": "Hardness as of packed earth. In the Laozi it is the mark of death and of that which loses. People are soft and weak at birth and 堅 and stiff at death; the hard and strong are followers of death (76). Nothing is better than water at attacking the 堅 (78). The softest gallops over the most 堅 (43).",
+    "gap": "“Firm” is praise in English. In the Laozi 堅 is a warning."
+  },
+  "及": {
+    "senses": ["to reach, to catch up with", "to come to, to extend to", "and, together with"],
+    "shuowen": "逮也。从又从人。",
+    "shuowenEn": "To catch up with. From a hand and a person.",
+    "parts": [{"c": "人", "m": "a person who walks ahead"}, {"c": "又", "m": "a hand that reaches from behind"}],
+    "story": "A hand takes hold of a person from behind. The wordless teaching and the gain of not-doing are things that few in the world 及 (43). The great trouble that I have is that I have a self; if I had none, what trouble would 及, reach, me (13)?",
+    "gap": "“Attain” sounds like an achievement. 及 is plainer: to come level with someone on the road."
+  },
+  "入": {
+    "senses": ["to enter, to go in", "to bring in; income"],
+    "shuowen": "内也。象从上俱下也。",
+    "shuowenEn": "To go inside. It shows things that come down together from above.",
+    "story": "Two strokes that lean together and point up, like a wedge or a root tip. Its partner is 出, to come out. The Laozi pairs them for birth and death: 出生入死, “to come out is life, to go in is death” (50). In passage 43, that which has no substance 入, enters, where there is no gap.",
+    "gap": "None in the word."
+  }
+}

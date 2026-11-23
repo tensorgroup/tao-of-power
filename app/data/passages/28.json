@@ -1,0 +1,266 @@
+{
+  "n": 28,
+  "title": "Keep to the Hen",
+  "theme": "yielding",
+  "zh": [
+    {
+      "text": "知其雄，守其雌，為天下谿。為天下谿，常德不離，復歸於嬰兒。",
+      "gloss": {
+        "2": "the male bird, the cock; the male of any animal",
+        "6": "the female bird, the hen",
+        "11": "a mountain ravine; a stream bed with no way through",
+        "19": "de: inner power, the working of Dao in a thing",
+        "21": "to leave, to part from (the graph is first an oriole)"
+      }
+    },
+    {
+      "text": "知其白，守其黑，為天下式。",
+      "gloss": {
+        "11": "a model, a standard; later also the diviner’s board"
+      }
+    },
+    {
+      "text": "為天下式，常德不忒，",
+      "gloss": {
+        "8": "tè: to deviate, to go wrong"
+      }
+    },
+    {
+      "text": "復歸於無極。"
+    },
+    {
+      "text": "知其榮，守其辱，為天下谷，常德乃足，復歸於樸。",
+      "gloss": {
+        "6": "disgrace; also: soiled, dark",
+        "21": "wood as it is, not yet worked"
+      }
+    },
+    {
+      "text": "樸散則為器，聖人用之，則為官長，",
+      "gloss": {
+        "4": "a vessel, a tool; a thing made for one use"
+      }
+    },
+    {
+      "text": "故大制不割。",
+      "gloss": {
+        "2": "to cut to a pattern; to regulate, an institution",
+        "4": "to cut apart, to sever"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Know|zhi-shou]] [[the cock|xiong-ci]], keep to the hen:",
+    "be [[the ravine|xi]] of all under heaven.",
+    "Be the ravine of all under heaven,",
+    "and the [[constant de|de]] [[does not leave|birds]].",
+    "[[Go back again|fu-gui]] to [[the infant|ying-er]].",
+    "",
+    "Know the white, keep to [[the black|bai-hei]]:",
+    "be [[the pattern|shi]] of all under heaven.",
+    "Be the pattern of all under heaven,",
+    "and the constant de does not go wrong.",
+    "Go back again to [[what has no limit|wu-ji]].",
+    "",
+    "Know honour, keep to [[disgrace|ru]]:",
+    "be the valley of all under heaven,",
+    "and the constant de is then enough.",
+    "Go back again to [[the uncarved wood|pu]].",
+    "",
+    "Uncarved wood, split up, becomes [[vessels|qi]].",
+    "The sage [[uses them|yong-zhi]] and becomes [[chief of the officers|guan-zhang]].",
+    "So [[the great cutting|da-zhi]] does not sever."
+  ],
+  "notes": {
+    "zhi-shou": {
+      "kind": "gap",
+      "title": "Know one, keep to the other",
+      "body": "Three stanzas use one frame: 知其 X，守其 Y. 知 is to know, and in old usage also to be in charge of, to have mastery of. 守 is to guard a post; the Shuowen glosses it 守官也, “to keep an office”, a hand of duty under a roof. So the frame does not say “choose Y, reject X”. The person in these lines has the cock’s strength, the white, and the honour, and knows them from inside. Then that person takes up a post at the other pole. A dualist reading wants a good side and a bad side. The text wants both in one person, with the weight set low. Our verbs are commands, “know, keep”, because English needs a form; the Chinese has no subject and no mood, and can as well be read “one who knows the cock and keeps to the hen is the ravine”.",
+      "src": [
+        "Shuowen Jiezi, 宀部: 守，守官也。从宀从寸。"
+      ]
+    },
+    "xiong-ci": {
+      "kind": "etymology",
+      "title": "雄 and 雌: father bird, mother bird",
+      "body": "The text does not say “male and female” in the human words 男 and 女. It does not use 陰 and 陽, the later cosmic pair, which the book names only in passage 42. It uses farmyard words. Both have 隹 at the right, the Shuowen’s “general name for short-tailed birds”. The Shuowen defines 雄 as 鳥父也, “the father of birds”, and 雌 as 鳥母也, “the mother of birds”: cock and hen. The same pair serves for any animal, and for “victor” and “loser” in war. So the line is not about the nature of men and women. It is about two ways an animal behaves: the cock who struts, crows, and fights on the wall, and the hen who sits low and still on the eggs. Wang Bi takes it more plainly yet: [[first and behind|wb-ravine]]. Which do you watch, in a yard, to learn where the next generation is?",
+      "src": [
+        "Shuowen Jiezi, 隹部: 雄，鳥父也。从隹厷聲。 雌，鳥母也。从隹此聲。"
+      ]
+    },
+    "xi": {
+      "kind": "etymology",
+      "title": "谿 and 谷: ravine and valley",
+      "body": "The first stanza ends in 谿 and the third in 谷. The Shuowen separates them. 谷 is where a spring comes out and joins a river: 泉出通川爲谷, and the graph is “water half seen, coming out of a mouth”. 谿, which contains 谷, is 山瀆無所通者: “a mountain watercourse that leads through to nowhere”, a closed gully. Both are low places, and low places receive: rain, soil, leaves, streams, without effort. The passage moves from the narrow, closed gully to the open valley, as water does when it goes downhill. The valley is one of the book’s standing images: the valley spirit that does not die (6), wide like a valley (15), the valleys that fill (39), the sea that is king of a hundred valleys because it lies below them (66). The lowest point of a landscape is the one place all its water has been.",
+      "src": [
+        "Shuowen Jiezi, 谷部: 谷，泉出通川爲谷。从水半見，出於口。 谿，山瀆無所通者。从谷奚聲。"
+      ]
+    },
+    "wb-ravine": {
+      "kind": "wangbi",
+      "title": "Wang Bi: first and behind",
+      "body": "Wang Bi removes sex from the first line: 雄，先之屬；雌，後之屬也。 “The cock is of the kind that goes first; the hen is of the kind that goes behind.” He then quotes passage 7: the sage puts the self behind and so is in front. On the two images he writes: 谿不求物而物自歸之，嬰兒不用智而合自然之智。 “The ravine does not seek things, and things come to it of themselves. The infant does not use cleverness, and fits the intelligence of what is so of itself.” The key word is 自, “of themselves”. Nothing in the stanza is a technique for getting people to come. A ravine has no plan. If you lower yourself in order to gather others, you are, in Wang Bi’s terms, still using cleverness, and the cock is still in charge. Is there a way to be low that is not a strategy?",
+      "src": [
+        "Wang Bi commentary on Laozi 28"
+      ]
+    },
+    "de": {
+      "kind": "gap",
+      "title": "德 is not “virtue”",
+      "body": "We leave 德 as de. The usual English is “virtue”, which now means moral goodness, and to the Victorians often meant chastity. The Shuowen has two graphs for the word. For the older one, 悳, a heart under 直, “straight”, it says 外得於人，内得於己也: “outwardly, to get it with others; inwardly, to get it in oneself”. It plays on the sound of 得, “to get”: de is what a thing has got from the Dao that makes it itself, and the hold it therefore has on others. The power of a herb to heal is its 德. So is the pull of a person whom others trust without knowing why. Here it is called 常, constant, and the Mawangdui copies are reported to write the older 恆 (see passage 1). Three things are said of it: it does not leave, it does not go wrong, it is enough.",
+      "src": [
+        "Shuowen Jiezi, 心部: 悳，外得於人，内得於己也。从直从心。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "birds": {
+      "kind": "wordplay",
+      "title": "A third bird",
+      "body": "常德不離: the constant de “does not leave”. The graph for “leave”, 離, has the same bird sign, 隹, as the cock and the hen two lines above. The Shuowen says that 離 was first a bird’s name: 黃倉庚也, the yellow oriole, whose song tells that the silkworms are hatching. The word “to depart” had no graph of its own and borrowed the oriole’s. So a reader of the first stanza sees three birds on the page: 雄, 雌, 離. The author did not plan this; the borrowing is far older than the book. But the eye takes it in. A cock, a hen, and a power that does not fly off. English can give the sense of each word and none of the flock. In passage 10 the same graph asks if body and spirit can hold to the One 無離, without parting.",
+      "src": [
+        "Shuowen Jiezi, 隹部: 離，黃倉庚也。鳴則蠶生。从隹离聲。"
+      ]
+    },
+    "fu-gui": {
+      "kind": "etymology",
+      "title": "復歸: to go home again",
+      "body": "Each stanza ends 復歸於, “again return to”. Both words mean return. 復 is the Shuowen’s 往來也, “to go and come”: the round trip. 歸 has a warmer first sense. The Shuowen defines it 女嫁也, “a woman marries”: she goes to the house that will be hers. From that it means to go where one belongs, to come home; the dead are said to 歸. So the phrase is not “regress”. English “return to infancy” sounds like a loss of what was gained. In Chinese, the infant, the limitless, and the uncarved wood are the home, and the adult years of display are the time away. Wang Bi links it to the motion of passage 40: 反者道之動, “turning back is how Dao moves”. Three returns, to three places. Are they three homes or one?",
+      "src": [
+        "Shuowen Jiezi, 彳部: 復，往來也。从彳复聲。",
+        "Shuowen Jiezi, 止部: 歸，女嫁也。从止，从婦省，𠂤聲。",
+        "Wang Bi commentary on Laozi 28"
+      ]
+    },
+    "ying-er": {
+      "kind": "etymology",
+      "title": "嬰兒: a necklace, an open skull",
+      "body": "Two graphs, two pictures. 嬰 is 女, a woman, under two cowrie shells. The Shuowen says 頸飾也, “a neck ornament”: shells strung round the neck. The word for a baby at the breast is commonly explained from this: the child hangs at the mother’s neck and chest like the necklace. 兒 is the child itself. The Shuowen says the top of the graph shows 小兒頭囟未合, “a small child’s skull, the fontanelle not yet closed”. The infant in this book is a body before it is a symbol: soft bones and a firm grip, a cry all day without a hoarse throat (55), breath gathered until it is supple (10), no smile yet (20). The top of the head is still open. Nothing has set. To “go back” there cannot mean to become ignorant; the one who returns [[knows the cock|zhi-shou]]. What in you has not yet closed?",
+      "src": [
+        "Shuowen Jiezi, 女部: 嬰，頸飾也。从女、賏。賏，其連也。",
+        "Shuowen Jiezi, 儿部: 兒，孺子也。从儿，象小兒頭囟未合。"
+      ]
+    },
+    "bai-hei": {
+      "kind": "gap",
+      "title": "White and black are not good and evil",
+      "body": "In English, white is innocence and black is sin; the pair comes loaded from the pulpit. None of that is in 白 and 黑. The Shuowen defines 黑 as 火所熏之色也, “the colour that fire smokes on”: soot. White is the colour of plain silk and of daylight. So 白 is the clear, the evident, the seen; 黑 is the dim and unnoticed. To know the white and keep to the black is to see clearly and stay out of the glare. This black is kin to 玄, the dye-vat dark of passage 1, which is the book’s word for depth. Painters and calligraphers quoted the line as 知白守黑, and it was later paired with a rule of their own art, 計白當黑, “reckon the white as black”: the blank paper is part of the character. The page you read now is the same. Which carries the meaning, the ink or the space it leaves?",
+      "src": [
+        "Shuowen Jiezi, 黑部: 黑，火所熏之色也。从炎，上出𡆧。𡆧，古窻字。",
+        "Bao Shichen, Yizhou shuangji (on Deng Shiru)"
+      ]
+    },
+    "order": {
+      "kind": "variant",
+      "title": "Two stanzas, or three?",
+      "body": "The oldest quotation of this passage has only two pairs. The last chapter of the Zhuangzi cites Lao Dan: 知其雄，守其雌，為天下谿；知其白，守其辱，為天下谷. Cock with hen, and then white with 辱, which can mean “soiled” as well as “disgraced”; passage 41 says 大白若辱, “great white seems soiled”. There is no black, no pattern, no limitless. Some Qing and modern scholars therefore judged the middle stanza a later insertion that split the old pair of white and soiled. The Mawangdui silk texts complicate this. Text B, the better preserved here, is reported to have all three stanzas, in another order: cock and hen; then 知亓白，守亓辱, with the valley and the uncarved wood; then 知亓白，守亓黑, with the pattern and the limitless. So if a stanza was added, it was added before 168 BCE, and the silk copy still keeps “white” opposite “soiled”. Our text’s “honour”, 榮, opposite “disgrace” looks like the last step in the tidying.",
+      "src": [
+        "Zhuangzi 33, “All Under Heaven”",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "shi": {
+      "kind": "gap",
+      "title": "式: a pattern, perhaps a board",
+      "body": "The Shuowen glosses 式 with one word: 法也, the “model” of passage 25’s last lines; Wang Bi says 模則也, “a mould, a rule”. The graph has 工, the carpenter’s square. So the one who keeps to the dim becomes what others take their measure from, which is a paradox: the standard for the world is the one who stays out of sight. Some scholars hear a more exact object. 式 is also the name of the diviner’s board, a square earth-plate with a round heaven-plate that turns on it, marked with the stars and the calendar signs; boards of this kind have been found in early Han tombs. A person who is such an instrument does not decide. The heavens turn through it and the reading is true: 不忒, “it does not go wrong”. This second sense is possible and not proven for our line.",
+      "src": [
+        "Shuowen Jiezi, 工部: 式，法也。从工弋聲。",
+        "Wang Bi commentary on Laozi 28"
+      ]
+    },
+    "wu-ji": {
+      "kind": "history",
+      "title": "無極: no ridgepole",
+      "body": "極 is first a piece of a house. The Shuowen says 棟也, “the ridgepole”: the highest beam, where the roof stops. From that it means the utmost point, a limit, a pole. 無極 is “without a limit”, and Wang Bi glosses it in three words: 不可窮也, “it cannot be exhausted”. In this passage the phrase is modest, one of three names for the place one returns to. Thirteen centuries later it became one of the largest terms in Chinese thought. The Song philosopher Zhou Dunyi began his “Explanation of the Diagram of the Supreme Ultimate” with five characters, 無極而太極, “without limit, and yet the supreme limit”, and Zhu Xi built the cosmology of Neo-Confucianism on the phrase. His critics said that the first two words were Daoist, and they pointed here. English versions that write “the Infinite”, with a capital, bring in a term of theology. The Chinese says that the roof has no top beam.",
+      "src": [
+        "Shuowen Jiezi, 木部: 極，棟也。从木亟聲。",
+        "Wang Bi commentary on Laozi 28",
+        "Zhou Dunyi, Taijitu shuo (11th century)"
+      ]
+    },
+    "ru": {
+      "kind": "etymology",
+      "title": "辱: shame at the edge of the field",
+      "body": "The Shuowen gives 辱 a farm story. The graph is 寸, a hand, under 辰, and 辰者，農之時也: “辰 is the farmers’ season”. Then: 失耕時，於封畺上戮之也, “one who missed the time for ploughing was punished on the boundary mound of the fields”. Disgrace, in this account, is public and exact: to be shamed in front of the village, at the border, for failing the season. Modern scholars doubt the story and read 辰 as an old farm tool; either way the graph ties shame to the soil. The word also means “soiled, dark”, as in passage 41, and the [[oldest version of this line|order]] used it in that sense, opposite “white”. To 守其辱 is then to hold the place of the person on the mound: looked at and counted low. Passage 13 says that favour and disgrace both make people start. Who can stand there and not start?",
+      "src": [
+        "Shuowen Jiezi, 辰部: 辱，恥也。从寸在辰下。失耕時，於封畺上戮之也。辰者，農之時也。"
+      ]
+    },
+    "pu": {
+      "kind": "etymology",
+      "title": "樸: wood as it is",
+      "body": "The Shuowen defines 樸 as 木素也. 素 is plain silk before the dye; so, “wood in its plain state”: timber with the bark off and no tool mark on it. It is not a “block” waiting for a sculptor, and it is not “simplicity” as a style. It is material that could still become anything: a bowl, a wheel, a coffin, a god. Each cut makes it one thing and ends the others. The image comes in passages 15, 19, 32, 37, and 57. Wang Bi glosses it 真也, “the real, the true”. The surprise of this passage is the next line: the wood is split, and the text does not mourn. A different graph, 朴, “tree bark” in the Shuowen, is now used as the short form of 樸; the two are separate entries there. Look at something made of wood near you. What else could it have been?",
+      "src": [
+        "Shuowen Jiezi, 木部: 樸，木素也。从木菐聲。",
+        "Shuowen Jiezi, 木部: 朴，木皮也。从木卜聲。",
+        "Wang Bi commentary on Laozi 28"
+      ]
+    },
+    "qi": {
+      "kind": "gap",
+      "title": "器: a vessel is one thing only",
+      "body": "樸散則為器: “the plain wood, dispersed, becomes vessels”. 散 is to scatter, to come apart. 器 is any made object with a use: a cup, a tool, a ritual bronze. The Shuowen says 皿也, “a dish”, and describes the graph as the mouths of vessels with a dog to guard them. A vessel is good for one thing. That is its worth and its limit, and the age knew the word as a judgement on people. Confucius said 君子不器, “the gentleman is not a vessel”: not a specialist, not a tool for another’s hand. A man could also be praised as a “great vessel”. Here the word describes what happens when a whole society is cut up into trades, ranks, and offices. Passage 29 will call the realm itself a 神器, a vessel of the spirits. What vessel have you been made into?",
+      "src": [
+        "Shuowen Jiezi, 㗊部: 器，皿也。象器之口，犬所以守之。",
+        "Analects 2.12"
+      ]
+    },
+    "yong-zhi": {
+      "kind": "gap",
+      "title": "Who uses whom?",
+      "body": "聖人用之則為官長 can be read three ways. First: the sage uses them, the vessels, and so becomes head of the officers: the one who is not a vessel directs those who are. Second, with 之 as the plain wood: the sage uses the uncarved state and by that becomes the chief. Third, with the sage as the one used: “when the sage is employed, he becomes chief of officers”; [[Legge|legge]] reads it so, and the Mawangdui copies, which are reported to have no 之 (聖人用則為官長), allow it. Wang Bi takes a fourth path: 聖人因其分散，故為之立官長, “the sage follows their dispersal and so sets up officers and heads for them”. Our line follows the first reading. For 聖人, “the sage”, see the note in passage 27: not a saint, and here plainly a ruler. The line turns the passage. What began as a teaching for one person at the low place is now about government.",
+      "src": [
+        "Wang Bi commentary on Laozi 28",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "guan-zhang": {
+      "kind": "geopolitics",
+      "title": "The age that invented the office",
+      "body": "官 is an office and its holder; the Shuowen says 史，事君也, a clerk who serves the ruler, and reads the graph as “the many” under a roof. 官長 is the head of such men. The term belongs to the great change of the Warring States period. In the old Zhou order, a state was run by noble kin who inherited their posts. From the fifth century BCE, rulers replaced them with appointed, salaried men who could be moved and dismissed: clerks, magistrates, generals, each with a defined task. Shen Buhai in Han and Shang Yang in Qin made systems of it. The whole plain wood of a clan society was being split into 器, parts with functions. The Laozi does not ask for the old nobles back. It accepts that there will be vessels and a chief, and it puts its condition in the last line: [[the cut that makes them must not sever|da-zhi]].",
+      "src": [
+        "Shuowen Jiezi, 𠂤部: 官，史，事君也。从宀从𠂤。𠂤猶眾也。此與師同意。",
+        "Shiji 63 (Shen Buhai), 68 (Shang Yang)"
+      ]
+    },
+    "da-zhi": {
+      "kind": "wordplay",
+      "title": "大制不割: a cut that does not cut",
+      "body": "Both words have 刀, a knife. 制 is the Shuowen’s 裁也, “to cut out”, as a tailor cuts cloth for a robe; hence to shape, to regulate, and the noun “institution, system”. 割 is 剥也, “to strip, to hack apart”, as a butcher divides a carcass; states “cut” land from each other with this word. So the line plays knife against knife: the great tailoring does not butcher. After the plain wood has been split into vessels, this is the one thing asked of the ruler’s cutting: that the pieces stay one cloth. Wang Bi: 大制者，以天下之心為心，故無割也, “the great cutting takes the heart of all under heaven as its heart, and so nothing is severed”. The Mawangdui copies are reported to read 夫大制无割. Passage 32 takes up the same word: 始制有名, “when the cutting starts, there are names”. What have you organised that came apart at the seams you made?",
+      "src": [
+        "Shuowen Jiezi, 刀部: 制，裁也。从刀从未。 割，剥也。从刀害聲。",
+        "Wang Bi commentary on Laozi 28",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge in rhyme: strength, feebleness, stains",
+      "body": "Legge put the three stanzas into rhymed verse, and the rhymes needed words that the Chinese does not have. The cock and hen become “his manhood’s strength” and “his female feebleness”: a Victorian doctrine of the sexes in six words, where the text has two farm birds and no “feeble”. The infant is “free from all stains”, which brings in the nursery of the saved soul. The limitless becomes “man’s first state”, a phrase with Eden behind it. The black is “the pattern of humility”, a Christian virtue. And 大制不割 becomes a promise that the sage in office “employs no violent measures”, which is mild good sense and loses the knife. Read his first stanza beside the characters 雄 and 雌. Where is the feebleness?",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "Three stanzas on one frame, then a turn. Frame: [[know X, keep to Y|zhi-shou]]; become a low or dim place for the whole world; the [[constant de|de]] behaves in a certain way; go home to something whole. First: [[cock and hen|xiong-ci]], the [[ravine|xi]], de that does not leave, [[the infant|ying-er]]. Second: [[white and black|bai-hei]], [[the pattern|shi]], de that does not err, [[what has no limit|wu-ji]]. Third: honour and [[disgrace|ru]], the valley, de that suffices, [[the plain wood|pu]]. Then the wood is split into [[vessels|qi]], the sage appears among [[officers|guan-zhang]], and a last line of four characters sets [[one knife against another|da-zhi]]. The pictures are a farmyard, a gully, a baby, soot, a roof beam, a field boundary, a log. The oldest witnesses [[order and count the stanzas differently|order]].",
+    "inner": "The three “keeps” describe where attention rests. One can be fully capable of assertion, clarity, and standing in the world, and let the centre of gravity stay with the receptive, the unlit, the unpraised. This is not self-denial. The text says [[知|zhi-shou]]: the strong pole is known, owned, available. But the one who lives at the bright pole must keep it bright, and that is work without end. The low place needs no upkeep. Things come to it [[of themselves|wb-ravine]]. Each stanza then names what is found there, and the three names point one way: the infant before habits, the limitless before boundaries, the wood before the tool. It is the mind before it was cut into roles. The word for getting there is [[歸|fu-gui]], the word for going home. One does not build that state. One stops leaving it.",
+    "leading": "The last three lines are about organisations, and they are realistic. Wholeness [[gets divided|qi]]; work needs roles, and a role makes a person into a vessel for one function. The text does not forbid it. It asks who is fit to stand over the vessels, and answers with the first three stanzas: the one who knows command and keeps to listening, who can stand in full view and keeps out of the glare, who has honours and is at ease when looked down on. Such a person can divide work without dividing people, because that person is not defending a pole. [[The great cutting does not sever|da-zhi]]: departments that remain one cloth, a reorganisation that leaves no one outside. Wang Bi’s test is to take the heart of everyone under heaven as one’s own heart. The age that wrote this was [[inventing bureaucracy|guan-zhang]], and knew the cost.",
+    "body": "The infant is the body’s lesson here, and the book returns to it often. A baby is weak in every muscle and yet holds a finger with a grip that surprises, breathes with the whole belly, and falls without bracing. Its skull [[has not closed|ying-er]]. Adult strength is mostly held tension: a body that has taken a fixed shape, a vessel. The internal arts of China read 知其雄，守其雌 as a rule of practice: have the strike, and stay in the yielding; know how to be hard, and remain soft enough to feel. The [[ravine|xi]] is felt as a sinking: weight and breath go down and collect low, as water does. Try to stand so that nothing in you is held up on purpose. What in the body still knows how to be [[unworked wood|pu]]?",
+    "practice": "Take the third stanza, since it is the hardest. Today there will be some small chance to be seen in a good light: to correct someone, to mention a success, to take the better seat. Know it fully. Notice that you could. Then keep to the other place, once, without comment, and without the private glow of having been humble (that is [[the cock again|wb-ravine]]). Watch what the body does when no credit comes: the heat in the face, the wish to explain. That is [[辱|ru]], felt at the edge of the field. Stay one breath longer than is comfortable. The text makes a claim about that position: 常德乃足, the de is then enough. Find out for yourself whether “enough” is the right word. If you want a gentler exercise, look at a page of writing and [[read the white|bai-hei]]."
+  },
+  "glyph": "黑",
+  "plates": [
+    {
+      "c": "黑",
+      "title": "Soot at the smoke hole",
+      "lesson": "The Shuowen defines black by how it is made: 火所熏之色也, “the colour that fire smokes on”. Its analysis: 从炎，上出𡆧。𡆧，古窻字, “from 炎, flames, which go up and out through 𡆧; 𡆧 is the old graph for a window”. So the picture is a hearth and the smoke hole above it, caked with soot. The four dots at the bottom of the modern graph are the fire, the same 灬 as in 然 and 熱 (and unlike the swallow’s tail of passage 26, which only looks the same). The box at the top with its two small marks is the sooty opening. Modern scholars read the earliest forms in other ways, some as a person with a marked face, and the question is open; the Shuowen’s chimney is the picture that Chinese readers have learned for two thousand years. See what the script made from soot. 墨, ink: black over 土, earth; the Shuowen says 書墨也, “ink for writing”. Chinese ink is in fact lampblack or pine soot bound with glue and dried into a stick, so every character ever brushed is written in 黑. 點, a dot: 小黑也, “a small black”. 默, silent: a dog beside black; the Shuowen says it is a dog that suddenly goes for a person, and later readers add: with no bark. 黨, a faction: 不鮮也, “not fresh, dim”. Black in this family is quiet, hidden, and useful. It is [[what the passage says to keep|bai-hei]].",
+      "brush": "Twelve strokes. The first is the left side of the box, a vertical. The second is the top and right side in one turn. The third and fourth are two small marks inside the box, a dot on the left and a short stroke that leans the other way on the right. The fifth is a horizontal that closes the box. The sixth is a vertical from inside the box down through its floor. The seventh is a short horizontal that crosses it. The eighth is a long horizontal, the widest line. Then four dots from left to right: the ninth leans to the left, and the tenth, eleventh, and twelfth lean to the right, the last one the largest. The Qing calligrapher Deng Shiru is quoted for a rule that was later linked with this passage: 計白當黑, “reckon the white as black”. Look at the two small windows of white inside the box as it forms. If they are choked with ink, the character is dead."
+    },
+    {
+      "c": "辱",
+      "title": "A hand under the farming season",
+      "lesson": "The top part is 辰. The Shuowen explains 辰 by the calendar: the third month, when the yang breath stirs, thunder shakes, and it is 民農時也, “the people’s time for farm work”; it is also the name of a group of stars that farmers watched. Many modern scholars see in the early forms a tool, a blade of shell or stone for cutting weeds and grain; this is the common account and not a certainty. The signs agree in one thing: 辰 means work on the land at the right time. It is in 農, farming; 晨, early morning; 震, thunder; and it is the fifth of the twelve calendar signs, the one that later got the dragon. The bottom part is 寸, a hand with a mark at the wrist. The Shuowen says the mark shows the pulse point, one inch from the hand, and 寸 is the word “inch”; in compound graphs it often stands for measure and rule, as in 守, to guard a post. Now the Shuowen’s story of the whole: 失耕時，於封畺上戮之也, “one who missed the time for ploughing was punished on the boundary mound”. The hand of the law, under the season. [[Disgrace|ru]] in this graph is not private guilt, the feeling of having sinned. It is a public fact about a farmer and a field. The passage asks the reader to know honour and to stand, by choice, on that mound.",
+      "brush": "Ten strokes. The first is a short horizontal at the top. The second starts under its left end and sweeps down to the left in a long curve; it is the wall of the character. The third is a short horizontal inside. The fourth is a longer horizontal under it. The fifth is a vertical that ends with a flick up to the right. The sixth is a short stroke that falls to the left. The seventh is a long stroke that falls to the right and ends in a level tail. These seven are 辰. Now the hand. The eighth is a long horizontal that carries everything above it. The ninth is a vertical through its right part, ending in a hook to the left. The tenth is a dot in the angle on the left. The right-falling seventh stroke and the long eighth stroke compete for width; a good hand lets one be wide and holds the other back."
+    }
+  ]
+}

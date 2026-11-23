@@ -1,0 +1,223 @@
+{
+  "n": 32,
+  "title": "Sweet Dew",
+  "theme": "simplicity",
+  "zh": [
+    {
+      "text": "道常無名，樸雖小，天下莫能臣也。侯王若能守之，萬物將自賓。",
+      "gloss": {
+        "1": "constant; or “always”",
+        "5": "wood as it is, not yet worked",
+        "13": "to make a subject of, to treat as a servant (verb)",
+        "27": "to come as a guest; to offer allegiance (verb)"
+      }
+    },
+    {
+      "text": "天地相合，以降甘露，民莫之令而自均。",
+      "gloss": {
+        "6": "jiàng: to send down, to come down",
+        "13": "to give an order",
+        "16": "level and reaching all; in equal shares"
+      }
+    },
+    {
+      "text": "始制有名，名亦既有，夫亦將知止，知止所以不殆。",
+      "gloss": {
+        "1": "to cut to a pattern; to institute",
+        "14": "to stop; a place to stop (the graph is a foot)"
+      }
+    },
+    {
+      "text": "譬道之在天下，猶川谷之於江海。",
+      "gloss": {
+        "0": "pì: to give a likeness, to compare",
+        "12": "the River: the Yangtze; then any great river"
+      }
+    }
+  ],
+  "rendering": [
+    "Dao is [[constant, without name|wu-ming]].",
+    "The [[uncarved wood|pu]], though small:",
+    "no one under heaven [[can make it a servant|chen]].",
+    "If [[lords and kings|hou-wang]] could keep to it,",
+    "the ten thousand things would [[come of themselves as guests|bin]].",
+    "",
+    "Heaven and earth join",
+    "and send down [[sweet dew|gan-lu]].",
+    "[[The people|min]], with no one’s order,",
+    "[[are evened of themselves|jun]].",
+    "",
+    "When [[the cutting begins|shi-zhi]], there are [[names|ming]].",
+    "Once the names are there,",
+    "it is time to [[know where to stop|zhi-zhi]].",
+    "Know where to stop, and so be out of danger.",
+    "",
+    "[[A likeness|pi]] for Dao in all under heaven:",
+    "streams and valleys, and [[the River and the sea|jiang-hai]]."
+  ],
+  "notes": {
+    "wu-ming": {
+      "kind": "gap",
+      "title": "Where does the first sentence end?",
+      "body": "The first seven characters are 道常無名樸雖小, and old books had no punctuation. Our source cuts after 名: “Dao is constant, without name. The uncarved wood, though small…”. A second cut is after 樸: 道常無名樸, “Dao is constantly the nameless uncarved wood; though small…”. Test the units against the rest of the book. Passage 37 has the phrase 無名之樸, “the uncarved wood of the nameless”, so 無名 and 樸 do belong together in this author’s mind. Wang Bi keeps the first cut and joins them by sense: the uncarved 亦無名, “is also without name”. Then there is 常. It may be the predicate, “Dao is constant”, or the adverb, “Dao is always nameless”. The Mawangdui texts and the older Guodian slips are reported to write the older word, 道恆无名. For Dao left in Chinese, and for the taboo that changed 恆 to 常, see passage 1. Our line keeps the comma and both senses.",
+      "src": [
+        "Wang Bi commentary on Laozi 32",
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Laozi 37"
+      ]
+    },
+    "pu": {
+      "kind": "gap",
+      "title": "Why “small”?",
+      "body": "樸 is plain timber before the tool; the Shuowen says 木素也 (see passage 28). Here it gets a surprising word: 小, “small”. One expects the source of all things to be called great, as in passage 25. The Shuowen defines 小 as 物之微也, “the minute in things”. The uncarved is small because it has no features: nothing sticks out of it that the eye can catch, no size that a ruler can measure, no use that a buyer can price. Wang Bi says it is 近於無有, “near to not-having”. Passage 34 will say outright that the Dao “can be named among the small”. The same thing is the largest and the least. English “simplicity” makes it a quality one can admire and so removes the point. This is a piece of wood that no one looks at twice. What near you is like that?",
+      "src": [
+        "Shuowen Jiezi, 木部: 樸，木素也。从木菐聲。",
+        "Shuowen Jiezi, 小部: 小，物之微也。",
+        "Wang Bi commentary on Laozi 32"
+      ]
+    },
+    "chen": {
+      "kind": "etymology",
+      "title": "臣: the one who is led",
+      "body": "臣 is the subject of a ruler: a minister, a servant, in the oldest texts a male slave. The Shuowen’s first gloss is 牽也, “to be led”, as an ox is led on a rope, and then 事君也, “one who serves a lord”; the graph, it says, shows 屈服之形, “the form of one who bends and submits”. In the text 臣 is a verb: to make a subject of. Nothing in the world can do that to the uncarved wood. The Mawangdui silk texts and the Guodian slips are reported to say 弗敢臣, “does not dare”; ours says 莫能臣, “is not able”. The first is awe. The second is plain fact: there is nothing on it to tie the rope to. For a reader at a Warring States court the word had weight. Every man there was some lord’s 臣 and said so when he spoke: “your servant”. Here is one thing in the realm that is not.",
+      "src": [
+        "Shuowen Jiezi, 臣部: 臣，牽也。事君也。象屈服之形。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "wb-handle": {
+      "kind": "wangbi",
+      "title": "Wang Bi: every talent is a handle",
+      "body": "Why can no one make a servant of the uncarved? Wang Bi answers with a list: 夫智者可以能臣也，勇者可以武使也，巧者可以事役也，力者可以重任也。 “The clever can be made servants through their ability. The brave can be used for war. The skilled can be set to tasks. The strong can be given heavy loads.” Each gift is the place where a master takes hold. Then: 樸之為物，憒然不偏，近於無有, “the uncarved, as a thing, is blank and leans no way; it is near to not-having”. It has no special excellence, so it cannot be employed. This is the vessel of passage 28 seen from the other side: to be carved into something useful is to get a handle. Wang Bi wrote as a young official in years when talented men at court were used and then killed. He knew what a handle was. By which of your talents are you held?",
+      "src": [
+        "Wang Bi commentary on Laozi 32"
+      ]
+    },
+    "hou-wang": {
+      "kind": "geopolitics",
+      "title": "侯王: lords and kings",
+      "body": "侯 was a rank of the Zhou nobility, a lord who held land from the king. 王 was the king, and for centuries there was one. The compound 侯王 belongs to a later world, in which the lords of the great states had taken the royal title themselves (see passage 25) and “lords and kings” had become a general word for those who rule. It comes in passages 32, 37, and 39, and in 32 and 37 in the same conditional: if they could keep to this. The sentence is a promise shaped like an offer. Such men wanted 賓, the free allegiance of others, more than anything, and tried to get it by armies and covenants. The text says that it comes to the one who holds a small, plain thing that cannot be owned. It does not say that any of them had done so. 若, “if”, is the most political word in the line."
+    },
+    "bin": {
+      "kind": "wordplay",
+      "title": "Servant and guest",
+      "body": "Two court words answer each other. In line 3: 臣, a subject, one who is led. In line 5: 賓, a guest. The Shuowen defines 賓 as 所敬也, “one who is treated with respect”, and the graph has 貝, the shell of a gift, under a roof. A guest comes freely, is honoured, and may leave. As a verb 賓 also meant to submit: the old texts call the distant peoples who sent envoys and gifts to the Zhou court the zone of 賓服, “guest service”. So the line carries a political sense, “all things will offer allegiance”, in the language of hospitality. The contrast is the point. The uncarved cannot be made a 臣. The ruler who keeps to it receives the world as 賓. Rule of this kind has guests and no servants. Note also 自, “of themselves”: it comes here and again with the dew. No one sends for a guest of this kind.",
+      "src": [
+        "Shuowen Jiezi, 貝部: 賓，所敬也。从貝𡧍聲。",
+        "Guoyu, “Zhou yu”"
+      ]
+    },
+    "gan-lu": {
+      "kind": "history",
+      "title": "Sweet dew",
+      "body": "Dew was thought to come down from heaven in the night. 甘露, “sweet dew”, is the image of a blessing that needs no channel: heaven and earth 相合, “join with each other”, and it falls. The verb can also be heard as a union of male and female, which is how later Daoists took it. The phrase had a long career. Under the Han, sweet dew on the palace trees was reported to the throne as an omen that heaven approved the reign, and Emperor Xuan named a reign period 甘露 (53–50 BCE). So the image that this passage uses against rule by command became a tool of court ceremony. Buddhist translators then chose 甘露 for the Sanskrit amṛta, the drink of deathlessness. The Mawangdui texts are reported to write 以俞甘洛: 洛 is a sound-loan for 露, and 俞 is read as 輸, “to convey”, a different verb from our 降. In the passage it is still only dew: the one water that no dike or ditch directs.",
+      "src": [
+        "Hanshu 8, “Annals of Emperor Xuan”",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "min": {
+      "kind": "etymology",
+      "title": "民 and 令: sprouts, and a command",
+      "body": "民, “the people”, are the governed, those with no office. The Shuowen gives the word a gentle gloss: 眾萌也, “the multitude of sprouts”. Modern scholars read the earliest forms far more harshly, some as an eye that has been pierced, the mark of a slave; that is disputed. In the Shuowen’s picture, the line needs no comment: dew, and sprouts. 令 is “to command”. The Shuowen says 發號也, “to issue an order”, and the lower part of the graph is a person on the knees. The same definition, “issues orders”, was its account of 君, a lord (passage 26). So the line removes the central act of rule. 民莫之令: the people, and no one who commands them. It was the Legalist claim that order exists only where 令 are issued and enforced. This line says that the most even order known falls every night with no decree.",
+      "src": [
+        "Shuowen Jiezi, 民部: 民，眾萌也。",
+        "Shuowen Jiezi, 卩部: 令，發號也。从亼、卪。"
+      ]
+    },
+    "jun": {
+      "kind": "gap",
+      "title": "均: even, to everyone",
+      "body": "The Shuowen defines 均 as 平徧也: “level, and reaching everywhere”. The graph has 土, earth: ground made flat. It is the word for equal shares of land or tax, and, written with metal, for the potter’s wheel, which makes clay even as it turns. So 自均 is “become even of themselves”. English versions that say “harmony” or “cooperation” turn a claim about fair shares into one about good feeling. The grammar leaves one thing open. What is evened? Perhaps the dew: it falls on rich and poor fields alike. Perhaps the people: with no orders, they level out among themselves. Our line takes the second and lets you hear the first. Passage 77 states the principle: the way of heaven takes from what has too much and adds to what has too little; the way of people does the reverse. Dew does not look at the deed to the field.",
+      "src": [
+        "Shuowen Jiezi, 土部: 均，平徧也。从土从勻，勻亦聲。",
+        "Laozi 77"
+      ]
+    },
+    "shi-zhi": {
+      "kind": "wordplay",
+      "title": "始制: the first cut",
+      "body": "制 is the tailor’s and carpenter’s cut that makes a thing to pattern, and so “to institute” (see passage 28, which ended 大制不割, “the great cutting does not sever”). This line follows straight from it. The uncarved wood of line 2 now meets the knife: 始制有名, “at the first cutting, there are names”. A log has no name except “wood”. Split it, and there is a bowl, a ladle, a wheel spoke, and each must be called something. Wang Bi reads the cut as the founding of government: 始制，謂樸散始為官長之時也, “‘the first cut’ means the time when the uncarved was dispersed and officers and heads first came to be”. The text does not say that this is a fall. 名亦既有, “the names are there now”: a fact. English “institutions” is correct and bloodless. The Chinese word still has a blade in it.",
+      "src": [
+        "Wang Bi commentary on Laozi 32",
+        "Shuowen Jiezi, 刀部: 制，裁也。从刀从未。"
+      ]
+    },
+    "ming": {
+      "kind": "geopolitics",
+      "title": "Names on bronze",
+      "body": "名 in this line is more than words. It is titles, ranks, and the written terms of law: what Wang Bi calls 名分, “names and portions”, which fix who is high and who is low. The age had a famous quarrel about it. In 536 BCE Zichan, chief minister of Zheng, had the penal laws cast in bronze for all to read. Shuxiang of Jin wrote to protest: once the people know the text, they will stop looking to their betters and start arguing from the wording; 錐刀之末，將盡爭之, “they will contend over every tip of awl and knife”. Wang Bi uses that very phrase here: go past the needed names, and people 將爭錐刀之末. The Laozi takes neither side of the old quarrel. It accepts the bronze and asks one thing of those who write on it: [[to know where to stop|zhi-zhi]].",
+      "src": [
+        "Zuozhuan, Duke Zhao, year 6",
+        "Wang Bi commentary on Laozi 32"
+      ]
+    },
+    "zhi-zhi": {
+      "kind": "etymology",
+      "title": "知止: to know the foot’s place",
+      "body": "止 is a foot. The Shuowen calls it a base and says it was used for “foot”; its early forms are commonly read as a footprint (see the plate in passage 24, where a person on tiptoe is 企, a figure over this foot). A foot planted is a stop, so 止 is “to halt” and “the place where one halts”. 知止 is then to know where the foot goes down: how far the cutting, the naming, and the ranking should run, and no farther. The reward is 不殆, “no danger”, the phrase that passage 25 used of the Dao as it goes round. Passage 44 repeats the pair, and a Confucian classic, the Great Learning, begins its account of the mind with the same two words: 知止而后有定, “know where to stop, and then there is steadiness”. The schools quarrelled over much and shared this. Where today did you go one step past enough?",
+      "src": [
+        "Shuowen Jiezi, 止部: 止，下基也。象艸木出有址，故以止爲足。",
+        "Laozi 44",
+        "Daxue (Great Learning)"
+      ]
+    },
+    "pi": {
+      "kind": "gap",
+      "title": "Which side of the likeness is Dao?",
+      "body": "The last sentence is an open comparison, marked by 譬, “to liken”, and 猶, “is like”. Its two halves are built alike: 道之在天下, “Dao’s being in the world”, and 川谷之於江海, “streams and valleys in relation to River and sea”. Most readers match Dao with the sea: all things run to it as streams run down. Wang Bi reads it so, and thinks of the ruler who holds the Dao. But the word order matches Dao with the streams and the world with the sea: Dao is in the world as the small waters are in the great, everywhere, feeding it, going toward it. Then the Dao is the small thing again, like the uncarved wood of line 2. The grammar does not decide, and perhaps the likeness is meant to run both ways, as water does in fact: the sea comes back as rain. [[Legge|legge]] decides, and adds “great”.",
+      "src": [
+        "Wang Bi commentary on Laozi 32"
+      ]
+    },
+    "jiang-hai": {
+      "kind": "etymology",
+      "title": "江 and 海: the River and heaven’s pool",
+      "body": "In old Chinese 江 is a proper name. It is the Yangtze, as 河 is the Yellow River; the Shuowen describes its course from the mountains of Shu to the sea. Only later did the word mean any large river. So the picture is from the south, the country of Chu, where every stream and marsh drains to one great water. 海, the sea, has one of the Shuowen’s finest glosses: 天池也。以納百川者, “the pool of heaven: that which takes in the hundred rivers”. 川 is a stream in its channel, and 谷 the valley of passage 28. The Mawangdui silk texts are reported to say 小浴, and the Guodian slips 小谷, “small valleys”, for 川谷. The image returns in passage 66 with its reason given: River and sea are kings of the hundred valleys because they are good at lying below them. Water does not obey the sea. It goes down.",
+      "src": [
+        "Shuowen Jiezi, 水部: 江，水。出蜀湔氐徼外崏山，入海。从水工聲。",
+        "Shuowen Jiezi, 水部: 海，天池也。以納百川者。从水每聲。",
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Laozi 66"
+      ]
+    },
+    "wb-sea": {
+      "kind": "wangbi",
+      "title": "Wang Bi: no summons, no seeking",
+      "body": "On the last line Wang Bi writes: 川谷之求江與海，非江海召之，不召不求而自歸者。 “When streams and valleys make for the River and the sea, it is not that River and sea summon them. Without summons and without seeking, they come home of themselves.” Two negatives carry it. 不召: the sea sends no call. 不求: and in the end the streams are not seeking either. What looks like a pull from one side and a striving from the other is neither. It is the lie of the land. His verb is 歸, to go home (see passage 28). He then ties the three images of the passage together with the same word, 自: guests of themselves, evened of themselves, home of themselves. A ruler who sends out a summons has, by that act, shown that he is not the sea. Who comes to you without being called?",
+      "src": [
+        "Wang Bi commentary on Laozi 32"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s brackets",
+      "body": "Legge opens with the Dao “considered as unchanging”, a hedge of his own. Then count his brackets; there are three. The world dares not deal with “(one embodying)” it as a minister: a person has been put in where the Chinese has only the wood. Heaven and earth unite “(under its guidance)”: a guide has been added to a line whose point is that no one directs. And “(men)” can know to rest in it. Each bracket supplies an agent or an authority. His frame needs someone in charge, as a sermon does. He reads 始制有名 as “as soon as it proceeds to action, it has a name”, which loses the cut, and 知止 as “to rest in it”, which turns a limit into a refuge. He also makes the rivers and seas “great” and all things “submit themselves to him”. The guests have become subjects again.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "Four movements, each with its own image. First, wood: the Dao has [[no name|wu-ming]]; the uncarved is [[small|pu]], and nothing can [[make a servant of it|chen]]; if [[rulers|hou-wang]] kept to it, all things would come [[as guests|bin]]. Second, dew: sky and ground meet, [[sweet dew|gan-lu]] falls, and [[the people|min]] are [[even|jun]] without a command. Third, a knife: [[the first cut|shi-zhi]] brings [[names|ming]], and with names comes the need to [[know where to stop|zhi-zhi]]. Fourth, water: [[a likeness|pi]] of streams and valleys and [[the River and the sea|jiang-hai]]. One small word runs through the first two and into Wang Bi’s reading of the last: 自, “of themselves”. The passage continues the carving image of 28 and answers the three war passages before it: this is how things are won without arms.",
+    "inner": "Before thought divides experience there is something plain and featureless in awareness, and it is [[small|pu]]: easy to miss, with nothing in it to grasp. The passage says that nothing can enlist it. Fear cannot use it, and ambition cannot either, because it has [[no handle|wb-handle]]. When attention rests there, the many contents of the mind stop being enemies or tools and arrive [[as guests|bin]]. Then naming begins, as it must: this is anger, that is my plan, I am this kind of person. [[The cut makes names.|shi-zhi]] The instruction is not to refuse names. It is to [[know where to stop|zhi-zhi]]: to name as far as is useful and not take the names for the wood. The last image is the direction of the whole practice. Nothing is forced down to the sea. [[It was already going.|wb-sea]]",
+    "leading": "The passage holds a complete theory of organisation in its third movement, and it is not against structure. When work is divided there must be [[titles, roles, and written rules|ming]]. The skill it asks for is rare: to know where that should stop. Past the stopping point, every new title makes a boundary to defend, and every new rule makes a wording to argue about, “the tip of an awl”. The first two movements say what the structure is for and what it cannot replace. People give real allegiance [[as guests, not as servants|bin]], to a centre that does not use them. And the fair share, the thing that most rules are written to secure, is pictured as [[dew|jun]]: it falls evenly when nothing is in the way. A leader might ask of each rule: is this a channel, or an obstacle to the dew?",
+    "nature": "Read the images in their order and you have the water cycle. Dew condenses out of the night air where sky and ground meet, and settles on every leaf [[without preference|jun]]; the Shuowen even calls the people [[“sprouts”|min]]. It gathers into [[streams in the valleys|jiang-hai]]. The streams reach the River, the River reaches the sea, the “pool of heaven”, and from the sea the water goes up to come down again as dew. No part of this is commanded, and no part can be [[made a servant|chen]]; people dam rivers, and the sea is not impressed. The passage sets one human act inside the cycle, [[the cut|shi-zhi]], and asks only that it know its limit: fields, ditches, and names, as far as needed. The uncarved wood is the forest that is still standing.",
+    "practice": "Take the third movement as an experiment in [[stopping|zhi-zhi]]. Pick one thing today that you organise: your notes, a plan for the week, the rules in your house, the labels you put on a person you find difficult. You have already made cuts and given names. Ask where the next cut would be one too many, and stop one short of it. Leave one thing unsorted, one person undescribed. Then try the first movement for a few minutes. Sit, and look for what in your experience is plain and [[small|pu]] and has no name yet. Do not improve it. See if the thoughts that arrive can be received [[as guests|bin]]: respected, and free to go. And tomorrow, early, go out and look at the dew before the sun takes it. See who got more."
+  },
+  "glyph": "臣",
+  "plates": [
+    {
+      "c": "臣",
+      "title": "The eye that looks down",
+      "lesson": "The Shuowen explains 臣 in three steps: 牽也, “to be led”; 事君也, “one who serves a lord”; 象屈服之形, “it shows the form of bending and submitting”. Modern scholars, with the oracle-bone forms before them, commonly explain the graph as an eye, the same picture as 目, turned on its end. Look at the two: 目 is an upright eye with two lines inside; 臣 has the same frame, opened at the right, with the inner strokes pushed sideways. An eye stood on its side is commonly taken as the eye of a person whose head is bowed: someone who looks up from below, or down at the ground. In the oldest texts 臣 is a male slave or captive; then a servant of the king; then any minister; then the humble word for “I” in front of a ruler. The Shuowen’s own cousins fit the downcast eye. 臥, to lie down: 从人、臣，取其伏也, “a person and 臣; it takes the sense of lying prostrate”. 監, to look down on, to inspect: commonly explained as a person who bends over a basin of water, the first mirror. 臨, to look down from above, to preside. 宦, an official: 臣 under a roof. So Chinese wrote “minister” with the eye of a prisoner. This passage says of the uncarved wood: [[nothing under heaven can 臣 it|chen]]. It has no eye to lower.",
+      "brush": "Six strokes, and the order is a surprise. Stroke one is the top horizontal. Stroke two is a short vertical that hangs from it in the middle. Stroke three is a horizontal that turns down: the top and right side of the small inner box. Stroke four is a horizontal that closes that box below. Stroke five is another short vertical, from the box down to the base. Only then comes stroke six, the frame: one long line down the whole left side that turns at the foot and runs right along the bottom. The enclosing stroke is written last, although it stands at the left, so that the brush can fit it to what is already inside. The right side stays open. In seal script the eye is still a curve; the brush made it a set of shelves. Keep the three horizontals of the interior evenly spaced, or the eye squints."
+    },
+    {
+      "c": "甘",
+      "title": "A mouth that holds one thing",
+      "lesson": "甘 is one of the simplest and oldest signs of feeling in the script. The Shuowen says: 美也。从口含一, “fine; from a mouth that holds 一”. The outer shape is 口, a mouth, drawn open with its top line run wide. The short stroke inside is a thing held on the tongue: not chewed, not swallowed, kept there because it is good. Xu Shen then adds three characters that a reader of this book will notice: 一，道也, “the one is 道”. Commentators take him to mean the true taste, the “way” of flavour; he is not making a claim about the Dao. Still, the dictionary’s picture of sweetness is a mouth with the One in it. The family is small and pleasant. 甛, sweet (now written 甜): 甘 beside 舌, the tongue, “which knows sweetness”. 旨, fine flavour, and so the fine point of a text. 香, fragrant: the Shuowen has millet over 甘. And 甚, “extreme”, one of the three things the sage puts away in passage 29: 甘 with a mate. Sweet was the centre of the five flavours and belonged to earth and the middle. In this passage it describes [[dew|gan-lu]]: what heaven and earth give when they meet, with nothing added. Passage 80 uses the word once more, as a verb, for people who “find their food sweet”. What do you hold in the mouth without wanting more?",
+      "brush": "Five strokes. The first is the long horizontal, written before anything hangs from it; it is the widest line. The second is the left vertical, which starts above the horizontal and crosses it. The third is the right vertical, the same on the other side. The fourth is the short horizontal inside: the thing in the mouth. It runs between the two walls. The fifth is the base that closes the mouth. Two small points make the character. The verticals rise above the top line like the corners of a basket. And the inner stroke sits a little above the middle, so that the lower chamber is the larger: there is room in this mouth. In seal script the outline is one smooth curve, like a bowl seen from the side."
+    }
+  ]
+}

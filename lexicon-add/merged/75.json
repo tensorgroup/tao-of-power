@@ -1,0 +1,104 @@
+{
+  "食": {
+    "senses": [
+      "food, cooked grain",
+      "to eat",
+      "to feed (read sì)",
+      "to live on (a salary, a tax, a fief)"
+    ],
+    "shuowen": "一米也。从皀亼聲。或說亼皀也。",
+    "shuowenEn": "Gathered grain. From 皀 (fragrant grain in a vessel), with 亼 for the sound. Some say: 亼 (to bring together) and 皀 joined in meaning.",
+    "parts": [
+      { "c": "亼", "m": "to bring together; commonly explained as a lid" },
+      { "c": "皀", "m": "a vessel of fragrant grain" }
+    ],
+    "story": "The graph is commonly explained as a food vessel heaped with grain, with a lid above. The Laozi uses the word for the plain good of a full belly: the people of the small state find their food sweet (80). It also uses it for what the powerful do: those above eat too much tax, and so the people starve (75). In passage 20 the speaker prizes “being fed by the mother”, 食母.",
+    "gap": "English keeps “food”, “eat”, and “feed” apart. 食 is all three, so “those above eat the tax” and “the people have no food” are said with one word."
+  },
+  "稅": {
+    "senses": [
+      "tax paid in grain",
+      "to tax; to levy a share of the harvest"
+    ],
+    "shuowen": "租也。从禾兌聲。",
+    "shuowenEn": "Rent on land. From 禾 (grain), with 兌 for the sound.",
+    "parts": [
+      { "c": "禾", "m": "the grain plant, with a hanging ear" },
+      { "c": "兌", "m": "sound; by itself: to exchange, to be pleased" }
+    ],
+    "story": "The Spring and Autumn chronicle records for 594 BCE that the state of Lu “for the first time taxed by the acre”. From then on the word named the share of each field that went to the state. The ideal rate was one part in ten. In the Laozi the word appears once, in passage 75, as the thing that those above eat.",
+    "gap": "“Tax” is money and paperwork. 稅 is grain: the same substance that the taxed family eats."
+  },
+  "賢": {
+    "senses": [
+      "able and good; a person of worth",
+      "to surpass; with 於, “better than, worth more than”",
+      "(early) having much wealth"
+    ],
+    "shuowen": "多才也。从貝臤聲。",
+    "shuowenEn": "Having much ability. From 貝 (cowrie shell), with 臤 for the sound.",
+    "parts": [
+      { "c": "臤", "m": "firm; the old way to write 賢" },
+      { "c": "貝", "m": "cowrie shell: money, value" }
+    ],
+    "story": "賢 was a key word of the age. The Mohists made 尚賢, “exalt the worthy”, a programme: give office to ability and not to birth. The Laozi answers in passage 3: do not exalt the worthy, and the people will not contend. In passage 75 the word only compares: one thing is “worthier than” another. In passage 77 the sage does not wish to show 賢.",
+    "gap": "“Worthy” is moral in English. 賢 is nearer to “able” or “of high value”, and the shell in the graph shows that value was first counted."
+  },
+  "饑": {
+    "senses": [
+      "famine; a year when the grain fails",
+      "to starve"
+    ],
+    "shuowen": "穀不孰爲饑。从食幾聲。",
+    "shuowenEn": "When the grain does not ripen, that is called 饑. From 食 (food), with 幾 for the sound.",
+    "parts": [
+      { "c": "飠", "m": "food" },
+      { "c": "幾", "m": "sound jī; by itself: how much? almost" }
+    ],
+    "story": "The Shuowen keeps 饑, a failed harvest, apart from 飢, the hunger of a body. Early manuscripts often mix the two. Passage 75 uses the harvest word and then gives it a cause that is not the weather: those above eat too much of the tax.",
+    "gap": "“Hunger” is a feeling. 饑 is an event that happens to a whole region."
+  },
+  "輕": {
+    "senses": [
+      "light (not heavy)",
+      "to treat lightly, to hold cheap",
+      "quick, rash, frivolous"
+    ],
+    "shuowen": "輕車也。从車坙聲。",
+    "shuowenEn": "A light chariot. From 車 (cart), with 坙 for the sound.",
+    "parts": [
+      { "c": "車", "m": "cart, chariot" },
+      { "c": "巠", "m": "sound; the same part as in 經 (warp thread)" }
+    ],
+    "story": "First a fast, light war chariot; then lightness of every kind. The Laozi sets it against 重, heavy: the heavy is the root of the light, and a ruler who is light loses the root (26). To promise lightly is to be little trusted (63). No disaster is greater than to take the enemy lightly (69). In passage 75 the people take death lightly, and the text counts this as a sign of ruin.",
+    "gap": "In English “to take lightly” is only a figure of speech. In 輕 the weight is physical, and its partner 重 is always near."
+  },
+  "厚": {
+    "senses": [
+      "thick",
+      "rich, lavish, generous",
+      "to treat generously; to make much of"
+    ],
+    "shuowen": "山陵之厚也。从𣆪从厂。",
+    "shuowenEn": "The thickness of mountains and hills. From 𣆪 and 厂 (a cliff).",
+    "parts": [
+      { "c": "厂", "m": "a cliff" }
+    ],
+    "story": "Thickness, measured by a mountain. The Laozi uses the word on both sides. The great person stays in the thick and not in the thin (38). One who holds 德 thickly is like a newborn child (55). But those who live life too thickly walk toward death (50), and seeking life’s thickness makes death cheap (75).",
+    "gap": "“Rich” and “generous” are two words in English. 厚 is one, so the same quality is a virtue in the heart and a danger at the table."
+  },
+  "貴": {
+    "senses": [
+      "costly, dear",
+      "of high rank, noble",
+      "to value, to prize"
+    ],
+    "shuowen": "物不賤也。从貝臾聲。臾，古文蕢。",
+    "shuowenEn": "A thing that is not cheap. From 貝 (cowrie shell), with 臾 for the sound; 臾 is the old form of 蕢.",
+    "parts": [
+      { "c": "貝", "m": "cowrie shell: money, value" }
+    ],
+    "story": "A price word that became a rank word. In the Laozi it is both. The sage sets no high price on rare goods (3, 64). The high takes the low as its root (39). Dao is what the world prizes (62). The speaker says: those who know me are few, so I am 貴 (70). Passage 75 turns it on life itself: to prize life, 貴生, was a slogan of the age, and the text puts something above it.",
+    "gap": "English separates “expensive”, “noble”, and “to cherish”. 貴 joins them, and the shell in the graph keeps the market in view."
+  }
+}

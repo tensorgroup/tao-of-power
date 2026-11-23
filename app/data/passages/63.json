@@ -1,0 +1,227 @@
+{
+  "n": 63,
+  "title": "Hard Things Begin Easy",
+  "theme": "simplicity",
+  "zh": [
+    {
+      "text": "為無為，事無事，味無味。",
+      "gloss": {
+        "0": "to do, to act (verb)",
+        "2": "doing (now the object of the verb)",
+        "4": "to serve, to work at (verb)",
+        "6": "business, undertakings (noun)",
+        "8": "to taste (verb)",
+        "10": "flavour (noun)"
+      }
+    },
+    {
+      "text": "大小多少，報怨以德。",
+      "gloss": {
+        "0": "great; to treat as great",
+        "5": "to repay, to answer",
+        "6": "resentment, a grievance",
+        "8": "de: inner power; goodness"
+      }
+    },
+    {
+      "text": "圖難於其易，為大於其細；天下難事必作於易，天下大事必作於細。是以聖人終不為大，故能成其大。夫輕諾必寡信，多易必多難。是以聖人猶難之，",
+      "gloss": {
+        "0": "to plan, to map out",
+        "1": "the hard, the difficult",
+        "4": "the easy (the same graph is “change”)",
+        "10": "fine, thin as a thread",
+        "17": "to arise, to start",
+        "34": "to the end, all the way",
+        "41": "to complete",
+        "47": "nuò: a “yes”, a promise",
+        "50": "trust, good faith",
+        "53": "to treat as easy (a verb here)",
+        "62": "still; even (the sage)",
+        "63": "to treat as hard (a verb here)"
+      }
+    },
+    {
+      "text": "故終無難矣",
+      "gloss": {
+        "3": "difficulty (a noun again)"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Do the not-doing.|wei-wu-wei]]",
+    "[[Serve the no-business.|shi-wu-shi]]",
+    "[[Taste what has no taste.|wu-wei-taste]]",
+    "",
+    "[[Great, small, many, few.|da-xiao]]",
+    "[[Answer resentment with de.|bao-yuan]]",
+    "",
+    "[[Plan|tu]] for the hard [[while it is easy|yi]].",
+    "Work on the great while it is [[fine as a thread|xi]].",
+    "The hard affairs under heaven must start from the easy.",
+    "The great affairs under heaven must start from the fine.",
+    "So the [[sage|shengren]], to the end, does not do the great,",
+    "and so can complete what is great.",
+    "",
+    "[[A light “yes”|qing-nuo]] must be short on trust.",
+    "Much that is called easy must bring much that is hard.",
+    "So even the sage [[treats it as hard|you-nan]],",
+    "and so, to the end, has nothing hard."
+  ],
+  "notes": {
+    "wei-wu-wei": {
+      "kind": "wordplay",
+      "title": "為無為: a verb that eats its own negation",
+      "body": "Three phrases of three characters, all of one mould: a verb, then 無, then the same word as a noun. 為無為: “do not-doing”. 事無事: “serve no-service”. 味無味: “taste no-taste”. English wants to smooth this into “act without acting”, which makes 無為 an adverb, a manner. The Chinese is odder. 無為 is the object: the thing that one does is not-doing. It is as if not-doing were a craft with its own work to be done, like a cook’s or a potter’s. The form also blocks a lazy reading. One who only stops has not done 為無為; the first 為 is still there, a real verb, in the place of command. We write “do the not-doing”. 無為 itself is “without forcing”: action that adds no scheme of its own to how things go. Passage 3 ends with the same three characters and a result: then nothing is out of order.",
+      "src": [
+        "Laozi 3"
+      ]
+    },
+    "shi-wu-shi": {
+      "kind": "gap",
+      "title": "事無事: work at having no work",
+      "body": "事 is service: a duty, a task, a state’s campaigns and projects. As a verb it is “to serve, to attend to”. 事無事 is “to make it your business to have no business”. Passages 48 and 57 say that the realm is taken by 無事, and that the people grow rich when the ruler has none. Here the phrase is turned into a job description. It answers a real objection. A minister who started nothing would be thought idle, and in fact it is hard, daily work to keep a calendar empty: to refuse the project that would win praise, to let the small trouble settle and not call a meeting. English “non-interference” names a policy. The Chinese names a task, and its verb is the verb for serving a lord. Whom, or what, does one serve in serving no-business?"
+    },
+    "wu-wei-taste": {
+      "kind": "etymology",
+      "title": "味無味: the taste of water",
+      "body": "味 is a mouth, 口, beside 未. The Shuowen defines it as 滋味也, “rich flavour”, and it explains the sound-part 未 by the same idea: 未，味也, the sixth month, when things have come to full flavour; 象木重枝葉也, “it shows a tree heavy with branches and leaves”. So the character for taste holds a tree at its ripest. The third phrase asks for the opposite: to taste 無味, that which has none. This is a real sense act. Water, plain rice, clear broth have a taste, and a tongue that is used to salt and sugar cannot find it. Passage 35 says of the Dao: when it comes out of the mouth it is 淡, thin and flat, 無味. Chinese painters, poets, and tea drinkers later made 淡 a high ideal. Wang Bi: 以恬淡為味, “take the calm and thin as your flavour”. Drink a cup of plain water slowly today. What is there?",
+      "src": [
+        "Shuowen Jiezi, 口部: 味，滋味也。从口未聲。",
+        "Shuowen Jiezi, 未部: 未，味也。六月，滋味也。…象木重枝葉也。",
+        "Laozi 35"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: where to live, how to teach, what to taste",
+      "body": "On the first line Wang Bi writes: 以無為為居，以不言為教，以恬淡為味，治之極也. “To take not-forcing as one’s dwelling, wordlessness as one’s teaching, and the calm and thin as one’s flavour: this is the utmost of good order.” He turns three verbs into three places to stand: a home, a teaching, a diet. On “answer resentment with 德” he is cooler than most readers expect: 小怨則不足以報，大怨則天下之所欲誅，順天下之所同者，德也. “A small grievance is not worth an answer. A great one is what all under heaven wishes to see punished. To go along with that in which all under heaven is at one: this is 德.” He does not hear “love your enemy”. He hears: do not answer small wrongs at all, and in great ones do not act from private anger. On the end: if even one with a sage’s gifts treats the small and easy as hard, how much more should the rest of us.",
+      "src": [
+        "Wang Bi commentary on Laozi 63"
+      ]
+    },
+    "da-xiao": {
+      "kind": "gap",
+      "title": "大小多少: four words, no grammar",
+      "body": "Great, small, many, few. The four characters stand with no verb and no link, and nobody is sure how to read them. One: as verbs with objects. “Treat the small as great and the few as many”: give small things the care that others keep for great ones. This fits the lines that follow, and [[Legge|legge]] took it. Two: as a frame for the next line. “Great or small, many or few”, whatever the size and number of the wrongs, answer with 德. Three: as a bare observation. Great comes from small, many from few. Some scholars think that words have fallen out. The [[oldest copy|guodian]] has only 大小之, which supports the first reading, and a quite different continuation. We print them as they stand, and the reader must do what a Chinese reader does: hold all three until the passage has been read to the end. Which did your mind supply first?"
+    },
+    "guodian": {
+      "kind": "variant",
+      "title": "The bamboo text: a passage half as long",
+      "body": "This passage is among the Guodian bamboo slips, buried about 300 BCE, and it is much shorter there. After the three opening phrases the slips read 大小之 and then at once 多易必多難, “much easy, surely much hard”, and then to the sage who treats things as hard. All of the middle is missing: “answer resentment with 德”, the lines on planning the hard while it is easy, the sage who does not do great things, and the light promise. So either a scribe’s eye jumped from one 多 to another and dropped fifty characters, or the passage grew. In the second case, the famous line about resentment and the practical advice about small beginnings were added later, perhaps as an early comment on the four dark words. The silk texts, a century younger, are reported to have the long form already.",
+      "src": [
+        "Guodian Laozi A, slips 14–15",
+        "Mawangdui silk texts, as printed in a modern collated edition (reported)"
+      ]
+    },
+    "bao-yuan": {
+      "kind": "geopolitics",
+      "title": "報怨以德: the line that Confucius refused",
+      "body": "報 is to pay back in kind. 怨 is the bitterness of one who has been wronged, and it was a public matter. In the code of the time a son did not live under the same sky as his father’s killer, and feuds ran for generations between houses and between states. Into that world the line says: pay back the grievance with 德. Someone put this saying to Confucius. His answer is on record: 何以報德？以直報怨，以德報德. “Then with what will you repay 德? Repay grievance with straightness, and repay 德 with 德.” He means justice: each gets what is due. The two sayings mark a real border between the schools. Western readers hear the Gospel here, and the likeness is there. But see how [[Wang Bi|wangbi]] reads it, and passage 79: when a great grievance is settled, some of it is sure to remain, so the sage holds the creditor’s half of the tally and makes no claim.",
+      "src": [
+        "Analects 14.34",
+        "Liji, “Qu li” (曲禮)",
+        "Laozi 79"
+      ]
+    },
+    "tu": {
+      "kind": "etymology",
+      "title": "圖: the dictionary quotes the line",
+      "body": "圖 is a border, 囗, around the part 啚. The Shuowen’s definition is a surprise: 畫計難也。从囗从啚。啚，難意也. “To draw up plans for a difficulty. From 囗 and 啚; 啚 gives the idea of difficulty.” The verb 圖 and the word 難 are joined in the dictionary’s own gloss, just as they are in this line, 圖難於其易. Xu Shen may have had this very sentence in mind, or the two words went together in common speech. 圖 is to draw a thing out before one does it: a plan, a chart, a map. A map of a region was the standard gift of surrender; in 227 BCE an assassin reached the king of Qin by offering one with a dagger rolled inside. So 圖 is cool, forward-looking thought, and the line says when to use it: 於其易, “at its easy”, at the point in the life of the trouble when it is still easy. See the plate.",
+      "src": [
+        "Shuowen Jiezi, 囗部: 圖，畫計難也。从囗从啚。啚，難意也。",
+        "Shiji, “Cike liezhuan” (Jing Ke)"
+      ]
+    },
+    "yi": {
+      "kind": "wordplay",
+      "title": "易 and 難: counting the pair",
+      "body": "難, hard, comes five times in this passage and 易, easy, four times, and the two change their parts of speech as they go. First they are states of a thing: its hard stage and its easy stage. Then they are kinds of affairs: 難事. Then verbs of attitude: 多易, “to call much easy”, and 難之, “to treat it as hard”. Then a noun again at the close: 無難, “no difficulty”. The last four lines are a small machine built on this. To treat as easy brings the hard. To treat as hard brings no hard. English needs “difficult”, “difficulty”, “to find difficult”, “to make light of”, and the single thread is cut into four. One more thing is hidden from the English eye: 易 is also the word “change”, as in the Book of Changes. The stage at which a thing is easy is the stage at which it can still be changed.",
+      "src": [
+        "Shuowen Jiezi, 易部: 易，蜥易，蝘蜓，守宮也。象形。"
+      ]
+    },
+    "xi": {
+      "kind": "etymology",
+      "title": "細: thin as silk",
+      "body": "細 has 糸, a silk thread, at its left, and the Shuowen says 微也, “minute”. It is not “small” in general, for which the text has 小. It is thin: a filament, a hair, a crack. The choice is exact. Great things are said to start not as small copies of themselves but as threads: a single line that can be followed or cut with two fingers. The next passage gives the pictures: a tree that fills the arms grows from a tip as fine as down; a tower of nine storeys rises from a basket of earth. Han Feizi adds two that became proverbs: a dyke of a thousand measures is broken by the hole of an ant, and a house of a hundred feet burns from a spark in the chimney crack. See [[his story of the doctor|bianque]]. What in your life is a thread now?",
+      "src": [
+        "Shuowen Jiezi, 糸部: 細，微也。从糸囟聲。",
+        "Han Feizi, “Yu Lao” (喻老): 千丈之堤，以螻蟻之穴潰；百尺之室，以突隙之煙焚。"
+      ]
+    },
+    "bianque": {
+      "kind": "history",
+      "title": "The doctor who ran away",
+      "body": "Han Feizi explains these lines with a story. The great physician Bian Que came before Lord Huan and said: you have a sickness in the pores of the skin; if it is not treated, it will go deeper. The lord said: I have no sickness. When the doctor had left, he added: doctors like to treat the healthy and take the credit. Ten days later Bian Que said: it is in the flesh now. The lord did not reply. Ten days later: it is in the stomach and gut. Still no reply. After ten more days Bian Que saw the lord from a distance, turned, and ran. A man was sent to ask why. In the skin, he said, hot compresses reach it; in the flesh, needles; in the gut, a draught. Now it is in the marrow, and that belongs to the Master of Fate. Five days later the lord’s body began to ache. He sent for Bian Que, who had fled the state. The lord died.",
+      "src": [
+        "Han Feizi, “Yu Lao” (喻老)"
+      ]
+    },
+    "shengren": {
+      "kind": "gap",
+      "title": "聖人終不為大: the sage does nothing great",
+      "body": "聖人, “the sage”, is not a saint and not a genius. The character has an ear 耳 and a mouth 口; the sage is one who is attuned, and in this book usually one who rules by attunement. This line gives the trait a hard edge. 終不為大: “to the end, does not do the great”. 為大 can be “to do great things”, or “to act the great one”, or “to make oneself great”; all three are refused. The same sentence closes passage 34, where the Dao clothes and feeds all things and never acts as their lord. A culture of heroes finds this strange. The founders and conquerors of the time were praised for 大事, great deeds. The sage has no great deeds, since each was done when it was a thread. Nothing was left to grow great. The greatness is all in the result: 成其大. Our English adds “what is” there; the Chinese says only “complete its great”.",
+      "src": [
+        "Laozi 34"
+      ]
+    },
+    "qing-nuo": {
+      "kind": "history",
+      "title": "輕諾: the weight of a “yes”",
+      "body": "諾 is the word that one says to accept a request: “yes, I will”. It has 言, speech, at its left. 輕 is “light”; at first, as the Shuowen says, a light chariot. A light 諾 is a yes that costs the speaker nothing at the moment when it is given. 寡信: “little trust”. 信 is a person, 人, beside 言, their word: to stand by what one said. The four characters 輕諾寡信 are still a common phrase. The ideal was the reverse. A saying about the Chu general Ji Bu, a man known for keeping his word, ran a generation after this book: a hundred catties of gold are not worth one 諾 from Ji Bu. Why does the line stand here? A promise is the smallest form of a large task. To say yes is easy, and it is the easy stage of the thing: the one point at which the whole weight could still be weighed. The light yes skips that point.",
+      "src": [
+        "Shuowen Jiezi, 車部: 輕，輕車也。从車坙聲。",
+        "Shuowen Jiezi, 言部: 信，誠也。从人从言。會意。",
+        "Shiji, “Ji Bu Luan Bu liezhuan”"
+      ]
+    },
+    "you-nan": {
+      "kind": "gap",
+      "title": "猶難之: even the sage",
+      "body": "猶 is “still, even so”. 難之 is 難 used as a verb with an object: “to hard it”, to regard it as hard. So 聖人猶難之 can be heard two ways. “Even the sage treats it as hard”: if the sage does, who are you to be casual? [[Wang Bi|wangbi]] reads it so. Or “the sage still treats it as hard”: after all the skill, the respect for the thing has not worn off. Both are meant. What is “it”? The text does not say: the task, the easy stage, each thing in turn. This is not anxiety. A good cook treats a knife as sharp every time, and for that reason is not cut. The last line then lands with a small smile: 故終無難矣, “and so, to the end, no difficulty”. The one who takes nothing lightly has a light life. The one who finds all things easy is always in trouble."
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge fills in the three phrases",
+      "body": "The first line is nine characters. Legge’s English for it runs to more than thirty words, since he explains each paradox away as he goes: to act “without (thinking of) acting”, to conduct affairs “without (feeling the) trouble of them”, to taste “without discerning any flavour”. In each case the Chinese object, not-doing, no-business, no-taste, has become a state of mind in the doer. The shock of the grammar is gone. He begins with a bracket that tells the reader what kind of text this is: “(It is the way of the Tao)”. For 報怨以德 he writes “to recompense injury with kindness”, and in his notes to the Analects he had already weighed Confucius’s answer against the teaching of Christ, to the advantage of the latter. Here 德 becomes “kindness”, a warm, personal word. The Chinese word is cooler and larger: the power of a person who is whole.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)",
+        "James Legge, The Chinese Classics vol. 1 (note on Analects 14.36 in his numbering)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Find the thread",
+      "body": "Make a short list of three things that weigh on you. For each one, do not ask how to solve it. Ask: where is this thing still a thread? A hard talk that you dread has an easy stage: one sentence, today, that opens it. A large piece of work has a first five minutes. A habit has the moment just before the hand moves. Do only the thread, and do it with full care, as if it were the hard part; that is 猶難之. Then look at your recent promises. Find one “yes” that you gave lightly. It is still at its easy stage now, or it was last week. Either carry it today or go back and take it up again honestly. Notice that none of this is a great deed."
+    }
+  },
+  "lenses": {
+    "ground": "The passage starts dark and ends plain. Three riddling phrases: [[do the not-doing|wei-wu-wei]], [[serve the no-business|shi-wu-shi]], [[taste what has no taste|wu-wei-taste]]. Four words with no grammar: [[great, small, many, few|da-xiao]]. One hard saying: [[answer resentment with 德|bao-yuan]]. Then the tone changes to that of a manual. [[Plan|tu]] the hard at its easy stage; do the great at its [[thread|xi]] stage; all hard and great affairs start so. The [[sage|shengren]] does nothing great and so completes the great. A [[light promise|qing-nuo]] is not kept, and much “easy” brings much “hard”. The sage [[treats things as hard|you-nan]] and so has no hardship. The second half may be read as a comment on the first: this is what 為無為 looks like in a working day. The [[oldest copy|guodian]] lacks most of that comment.",
+    "inner": "The first three phrases describe an attention that is fully at work and adds nothing. To [[taste the tasteless|wu-wei-taste]] is the clearest of them. Most experience is thin: the walk to the door, the cup of water, the minute with nothing in it. A mind that is trained on strong flavours calls this “nothing” and goes to look for something. The practice is to stay and taste. Then the small is no longer small: [[大小|da-xiao]], the small is treated as great. The line on [[resentment|bao-yuan]] belongs here too. A grievance is easiest to meet when it is a thread, the first tightening in the chest, before it has a story and a history. At that stage it can be answered with something whole. The second half of the passage is this same skill seen from outside: one who feels the fine beginnings does not have to fight the great ends.",
+    "leading": "Institutions reward the one who solves the crisis and seldom see the one who made sure that there was none. [[The doctor in Han Feizi’s story|bianque]] is not thanked when the sickness is in the skin. This passage asks a leader to work in exactly that unrewarded place: to [[plan|tu]] while the thing is easy, to act while it is [[a thread|xi]], and so to end a career with [[no great deeds|shengren]] to show. It gives two checks. The [[light yes|qing-nuo]]: each quick promise to a client, a board, or a child is a debt taken on at the one moment when it could have been weighed. And the word “easy”: a team that calls many things easy is storing up hard ones. The cure is not worry. It is respect for small things, 猶難之, held as a habit by the person with the most skill in the room.",
+    "body": "In the body, the hard arises from the easy in a way that anyone can feel. A stiff back was once a slight holding in one place for many hours. A fall begins as a small lean that was not corrected. The skill of a mover is to notice at the [[thread stage|xi]]: the first tightening, the first loss of root. In partner arts this is the whole game. The push that cannot be stopped at full force can be turned with one finger at its start, and a good player works only there, and looks as if nothing was done: [[為無為|wei-wu-wei]]. The same holds for training. Do the simple form as if it were hard. Those who find the basics easy stop looking at them, and their difficulties begin. And [[taste|wu-wei-taste]] your food. Plain rice, chewed slowly, becomes sweet.",
+    "nature": "The great things of the land rise from fine ones. A canyon was a line of run-off. A reef is the work of animals the size of a grain. An oak begins as a root-hair that finds water. The same is true of ruin: the gully that takes a field starts as a wheel-rut, and the flood comes through [[the hole of an ant|xi]]. A good farmer or forester walks the ground often and does very small things: a stone moved here, a channel opened with the heel, one seedling pulled. Seen from far off, such a person does nothing, and the land is in order. Water is the model of the first line. It has [[no taste|wu-wei-taste]] and no shape, starts no great works, and completes them all.",
+    "practice": "Do the exercise of [[the thread|practice]] with three things that weigh on you, and act only at the easy stage of each. Then, once today, [[taste what has no taste|wu-wei-taste]]: a glass of water, drunk slowly, as if it were a rare tea. And the next time that someone asks you for something, wait one breath before the [[“yes”|qing-nuo]]. In that breath, feel the whole weight of what is asked."
+  },
+  "glyph": "圖",
+  "plates": [
+    {
+      "c": "圖",
+      "title": "A map of the hard part",
+      "lesson": "Start with the frame. 囗 is an enclosure, a line that goes round; the Shuowen says 回也, “to go around”, and it is the outer wall of 國, a state, and 園, a garden. Inside the frame of 圖 is 啚 (bǐ). Look at its parts: a small 口 on top, and below it a form that ends in 回. That lower form is the granary, 㐭, the same one that sits at the bottom of 嗇, the farmer’s word of passage 59. The Shuowen’s entry for 啚 says so in one word: 嗇也, “to be sparing”, a place where grain is kept; the character was an early way to write 鄙, an outlying district with its stores. A border drawn round the settlements and granaries of the countryside: that is a map, and “map, chart, picture” is the main sense of 圖 to this day (地圖 is “map”; 圖書 is “charts and writings”, books). But the Shuowen defines the word as an act of mind: 畫計難也, “to draw up plans for a difficulty”, and reads the inside part as a sign of that: 啚，難意也, “啚 gives the idea of difficulty”. A thing held tightly is hard to get. So the character is a plan drawn round the hard part. [[The passage says when to draw it|tu]]: while the hard part is easy. Later the word could also mean “to scheme, to covet” a neighbour’s land, since the one who draws your map wants your granaries.",
+      "brush": "Fourteen strokes, and the order teaches a rule of the script: build the house, fill it, then shut the door. First the left wall. Then the top and the right wall in one stroke with a corner. The frame now stands open at the bottom. Fill it: a small mouth in three strokes; then a short stroke that falls to the left, above a horizontal; then the granary, a box within a box, in six strokes (left side; top and right side; the inner mouth in three; the outer base). Only then the fourteenth stroke: the long horizontal that closes the great frame. Watch for that last stroke. Until it is drawn, the map has no southern border. Inside, keep the three tiers apart with thin bands of white, or the character goes black. The simplified form 图 puts a different part inside and has only eight strokes."
+    },
+    {
+      "c": "易",
+      "title": "A lizard, or the sun and moon",
+      "lesson": "The Shuowen gives this small character two origins and does not choose. The first: 蜥易，蝘蜓，守宮也。象形. “The lizard, the gecko, the ‘palace guard’. A picture.” On this view 易 is the house lizard, head at the top (the part that looks like 日) and legs and tail below, and the word “change” is its gift, since such lizards were held to shift their colour through the day. The lizard itself was later written with an insect sign, 蜴. The second: 祕書說：日月爲易，象陰陽也. “The secret writings say: sun and moon make 易; it shows yin and yang.” Here the top is 日, the sun, and the bottom is a form of 月, the moon: the two lights that take turns, the model of all change. Modern scholars have a third account from the oldest forms, which we leave aside. Both of the dictionary’s readings serve the two meanings of the word. 易 is “to change, to exchange”, as in the 易經, the Book of Changes. And 易 is “easy”. Why should one word mean both? What changes readily is easy; what is fixed is hard, 難. This passage uses the easy sense four times, and its advice depends on the other sense: [[act on a thing at the stage when it can still change|yi]]. In the market the same word is “to trade”: 貿易.",
+      "brush": "Eight strokes. The upper part is 日 in four: a vertical on the left; a horizontal that turns down on the right; a short horizontal inside; a horizontal that closes the box. Make it flat and wide; it is a head, and it is not as tall as the sun written alone. The lower part is 勿 in four: a stroke that starts at the left under the box and falls to the left; then a horizontal that turns, sweeps down in a curve, and ends in a hook that points up and left; then two more strokes inside that curve, each falling to the left, each a little longer than the one before. Watch the three strokes that fall to the left, numbers five, seven, and eight. They are parallel, like the legs of the lizard or rays of light, and the gaps between them must be even. The long hook, stroke six, wraps them like a tail."
+    },
+    {
+      "c": "味",
+      "title": "A mouth and a full tree",
+      "lesson": "Left: 口, a mouth, the sign for all that goes in and out of it: 吃 (to eat), 喝 (to drink), 呼 and 吸 (to breathe out and in), 吹 (to blow), 唱 (to sing). Right: 未 (wèi), which gives the sound. But the Shuowen says that the sound-part also gives the sense: 未，味也, “未 is flavour”. It ties 未 to the sixth month of the old calendar, high summer, when fruit and grain have taken on their taste, and it reads the shape as a tree: 象木重枝葉也, “it shows a tree with doubled branches and leaves”. Compare 木, a tree, with 未: one more line across the top, a second tier of growth. A tree in full leaf, and a mouth beside it: 味. The same 未 is the common word “not yet”, and the eighth of the twelve branches that count hours and years. Take care with its near twin 末, “the tip, the end”, in which the upper line is the longer one; passage 64 has it, in “the tip of a hair”. The meaning of 味 grew from the tongue to the mind: 意味 is “meaning”, 趣味 “interest”, and to 體味 a thing is to taste it with the whole body, to take it in slowly. That last use is close to the line here, [[taste what has no taste|wu-wei-taste]]: the fullest character for flavour is turned on what has none.",
+      "brush": "Eight strokes. The mouth, three: a short vertical; a horizontal that turns down; a closing horizontal. As a left-hand part it is small and sits high, level with the upper half of the tree, and it must not grow to the full height. The tree, five: a short horizontal; a longer horizontal under it; a vertical through both, tall, with its top well above the first line; then a stroke that falls to the left and one that falls to the right from the crossing of the vertical and the second horizontal. Watch the two horizontals. The upper one must be the shorter, or you have written 末 and changed the word. The two falling strokes spread wide and low and carry the small mouth as a branch carries a fruit. In running script the mouth is two quick dots and a turn."
+    }
+  ]
+}

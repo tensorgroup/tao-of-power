@@ -1,0 +1,65 @@
+{
+  "素": {
+    "senses": ["undyed silk; white silk cloth", "plain, unadorned", "basic stuff; element", "usual, all along", "without meat (of food)"],
+    "shuowen": "白緻繒也。从糸、𠂹，取其澤也。",
+    "shuowenEn": "White, close-woven silk. From 糸 (silk) and 𠂹 (to hang down); chosen for its sheen.",
+    "parts": [{"c": "龶", "m": "top: the Shuowen’s 𠂹, a thing that hangs"}, {"c": "糸", "m": "silk; a bound skein"}],
+    "story": "Silk cloth as it leaves the loom, before any dye. Thinkers of every school used it as the image of what a person is before teaching and habit colour them. The Laozi says it once: 見素抱樸, “show the undyed silk, hold the uncarved wood” (19). The Shuowen defines 樸, the wood, as 木素: the 素 of wood. Together the two became the ordinary word 樸素, plain.",
+    "gap": "“Purity” is a moral word with dirt as its opposite. 素 has no dirt in view. Its opposite is colour and pattern."
+  },
+  "棄": {
+    "senses": ["to throw away, to abandon", "to expose a child", "to forsake, to waive"],
+    "shuowen": "捐也。从廾推𠦒棄之，从𠫓。𠫓，逆子也。",
+    "shuowenEn": "To cast off. From two hands (廾) that push a winnowing basket (𠦒) to throw a thing out, and from 𠫓. 𠫓 is a child reversed.",
+    "parts": [{"c": "𠫓", "m": "a child, head down: a new-born"}, {"c": "𠦒", "m": "a winnowing basket"}, {"c": "廾", "m": "two hands"}],
+    "story": "The graph shows a new-born carried out in a basket. The ancestor of the Zhou house, Lord Millet, was named 棄 because his mother exposed him three times. In the Laozi the word is used with force: throw away cleverness, right conduct, profit (19). And with tenderness: the sage is good at saving people, so no person is 棄; good at saving things, so no thing is 棄 (27).",
+    "gap": "“Discard” is light. 棄 is what one does to a thing that was one’s own."
+  },
+  "盜": {
+    "senses": ["to rob; a robber", "to take for private gain", "(modern) to steal; a thief"],
+    "shuowen": "私利物也。从㳄，㳄欲皿者。",
+    "shuowenEn": "To make a thing one’s private gain. From 㳄 (spittle): one who drools with desire for the dish (皿).",
+    "parts": [{"c": "氵", "m": "water: with 欠, spittle"}, {"c": "欠", "m": "an open mouth"}, {"c": "皿", "m": "a dish"}],
+    "story": "A wet mouth over someone else’s dish. The Laozi treats robbery as a product of government and fashion. Do not prize rare goods and the people will not rob (3); throw away skill and profit and there are no robbers (19); the court is splendid and the fields are weeds: this is called the boast of robbers (53); the more laws are published, the more robbers there are (57).",
+    "gap": "English “thief” blames a person. The graph and the book both look first at the dish, and at who made it so desirable."
+  },
+  "絕": {
+    "senses": ["to cut a thread", "to sever, to break off; to end", "extreme; matchless"],
+    "shuowen": "斷絲也。从糸从刀从卩。",
+    "shuowenEn": "To cut silk thread. From 糸 (silk), 刀 (knife), and 卩.",
+    "parts": [{"c": "糸", "m": "silk thread"}, {"c": "刀", "m": "a knife (now written ⺈)"}, {"c": "卩", "m": "lower right part (now 巴)"}],
+    "story": "A knife on a thread: a continuous thing is ended at one stroke. The three bans of passage 19 use it, and so does the line that follows them, 絕學無憂, “cut off learning: no worry” (20).",
+    "gap": "“Renounce” happens in the conscience. 絕 happens under a blade."
+  },
+  "文": {
+    "senses": ["crossed lines; a pattern; a tattoo", "ornament, elegance", "a written graph; writing; a text", "culture; civil (against 武, martial)"],
+    "shuowen": "錯畫也。象交文。",
+    "shuowenEn": "Crossed strokes. It pictures a crossing pattern.",
+    "story": "First a pattern of lines, on cloth, on bronze, or on skin; the early graph is commonly explained as a person with a mark on the chest. Then all that is patterned in human life: writing, literature, manners, culture. For Confucians it was the precious inheritance of Zhou. The Laozi uses it rarely and coolly: the three bans, “as 文”, are not enough (19); those who wear 文 and coloured silks while the fields are bare are robbers (53).",
+    "gap": "English splits it into “pattern”, “text”, “culture”, and “civil”. In Chinese the weave of a cloth and the classics of a people are one word."
+  },
+  "巧": {
+    "senses": ["skill, technique", "clever, ingenious", "artful, cunning"],
+    "shuowen": "技也。从工丂聲。",
+    "shuowenEn": "Technique. From 工 (work; a carpenter’s square), with 丂 for the sound.",
+    "parts": [{"c": "工", "m": "work; a square"}, {"c": "丂", "m": "sound"}],
+    "story": "The craftsman’s gift, and the cunning that grows from it. Passage 19 says to cut it off; passage 45 says 大巧若拙, “great skill seems clumsy”; passage 57 says that the more skills people have, the more strange things appear.",
+    "gap": "“Skill” is praise in English. 巧 has a shadow: too clever by half."
+  },
+  "寡": {
+    "senses": ["few; to make few", "alone; a widow", "寡人: “the lonely one”, a ruler’s word for himself"],
+    "shuowen": "少也。从宀从頒。頒，分賦也，故爲少。",
+    "shuowenEn": "Few. From 宀 (roof) and 頒. 頒 is to share out, and so there is little.",
+    "parts": [{"c": "宀", "m": "a roof"}, {"c": "頒", "m": "to share out (lower part, altered)"}],
+    "story": "Few, and so alone. Kings called themselves 寡人, and the Laozi notes it twice: lords and kings name themselves “orphaned, lonely, without grain” (39, 42). As a verb it is “to reduce”: 寡欲, fewer wants (19); 小國寡民, a small state with few people (80).",
+    "gap": "寡欲 is often turned into “desireless”. It says “few”."
+  },
+  "屬": {
+    "senses": ["to join on, to connect", "to belong to; a kind, a class", "zhǔ: to attach; to entrust, to enjoin"],
+    "shuowen": "連也。从尾蜀聲。",
+    "shuowenEn": "To connect. From 尾 (tail), with 蜀 for the sound.",
+    "parts": [{"c": "尾", "m": "a tail (top, altered)"}, {"c": "蜀", "m": "sound"}],
+    "story": "What follows on behind and is joined, as a tail to a body. In passage 19 the bare bans are given “something to belong to”: plain silk and uncarved wood.",
+    "gap": "English must choose “belong”, “attach”, or “entrust”. The picture is a thing that hangs on to another."
+  }
+}

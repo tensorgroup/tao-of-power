@@ -1,0 +1,235 @@
+{
+  "n": 33,
+  "title": "Dies and Is Not Lost",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "知人者智，自知者明。",
+      "gloss": {
+        "0": "to know (verb)",
+        "3": "clever, knowing; shrewdness (the same word as 知, with a mark added)",
+        "8": "bright, clear; clear-sighted"
+      }
+    },
+    {
+      "text": "勝人者有力，自勝者強。",
+      "gloss": {
+        "0": "to overcome; first: to bear a load, to be equal to",
+        "9": "qiáng: strong (here a good word, unlike in passage 30)"
+      }
+    },
+    {
+      "text": "知足者富。",
+      "gloss": {
+        "1": "enough, sufficient (the graph is a foot)",
+        "3": "rich; fully provided"
+      }
+    },
+    {
+      "text": "強行者有志。",
+      "gloss": {
+        "0": "with force, with effort (qiǎng or qiáng)",
+        "4": "will, aim: where the heart is going"
+      }
+    },
+    {
+      "text": "不失其所者久。",
+      "gloss": {
+        "3": "place; one’s own place"
+      }
+    },
+    {
+      "text": "死而不亡者壽。",
+      "gloss": {
+        "0": "to die",
+        "3": "to be lost, to be gone; the silk texts are reported to read 忘, forgotten",
+        "5": "long life"
+      }
+    }
+  ],
+  "rendering": [
+    "One who knows others is [[clever|zhi]].",
+    "One who [[knows the self|zi-zhi]] is [[bright|ming]].",
+    "One who [[overcomes|sheng]] others has force.",
+    "One who overcomes the self is [[strong|qiang]].",
+    "",
+    "One who [[knows enough|zu]] is [[rich|fu-qiang]].",
+    "One who [[walks on with effort|qiang-xing]] has will.",
+    "One who does not lose [[the place|suo]] [[lasts|jiu]].",
+    "One who [[dies and is not lost|wang]] has [[long life|shou]]."
+  ],
+  "notes": {
+    "zhi": {
+      "kind": "wordplay",
+      "title": "知 and 智: one word, split",
+      "body": "The first line has 知 at one end and 智 at the other. They are one word in two uses: 知 the verb, “to know”, and 智 the quality, “knowing, clever”. 智 is 知 with a mark added below to tell them apart, and early copyists often did not bother. The Mawangdui silk texts are reported to write the line 知人者知也: “one who knows others: knowing”. The effect is flat on purpose. To know people is to be knowing, and no more than that. The Shuowen analyses 知 as 口, a mouth, and 矢, an arrow. Later scholars explained: what one knows comes out of the mouth as fast as an arrow. That is cleverness: quick, aimed at a target outside, and useful; it was [[a paid skill|sunzi-know]]. In this book 智 is rarely praise; passages 18, 19, 27, and 65 all distrust it. The line grants it and moves on.",
+      "src": [
+        "Shuowen Jiezi, 矢部: 知，詞也。从口从矢。",
+        "Mawangdui Laozi, silk texts A and B (as reported)"
+      ]
+    },
+    "zi-zhi": {
+      "kind": "gap",
+      "title": "Not the Greek “know thyself”",
+      "body": "A Western reader hears Delphi in this line, and should be careful. The Greek maxim first meant: know that you are a mortal and not a god; know your limit. Later the West made self-knowledge an inventory of a thing called the self: its character, its motives, its soul. The Chinese has no such thing here. 自 is not a noun. It is the reflexive word, in origin a picture of the nose, and it means “oneself” as the object of whatever verb comes next. 自知 is knowing, turned round. The same faculty that reads other people is pointed the other way, and the text gives it a different name, 明, as if it were a different light. Wang Bi says it is 超智之上, “above and beyond cleverness”. It does not gather more facts. It sees the one who gathers. We wrote “the self” because English needs an object, and it is too solid.",
+      "src": [
+        "Shuowen Jiezi, 自部: 自，鼻也。象鼻形。",
+        "Wang Bi commentary on Laozi 33"
+      ]
+    },
+    "ming": {
+      "kind": "etymology",
+      "title": "明: moonlight in a window",
+      "body": "Everyone learns 明 as 日, the sun, beside 月, the moon: two lights, so “bright”. That form is old. The Shuowen’s main entry has another, 朙: 照也。从月从囧, “to shine on; from the moon and 囧”, and 囧 is a window with its lattice. Moonlight that comes in at a window. The picture suits the Laozi’s use better than a blaze of sun and moon together. 明 in this book is not brilliance. It is the kind of seeing that works in low light: “to know the constant is called 明” (16), “to see the small is called 明” (52). Passage 24 said that one who shows the self is not 明. Here one who knows the self is. It is the eye adjusted to the dark of passage 1. English “enlightened” is too loud, and it carries the eighteenth century with it. What can you see only when the lamp is out?",
+      "src": [
+        "Shuowen Jiezi, 朙部: 朙，照也。从月从囧。",
+        "Laozi 16, 24, 52"
+      ]
+    },
+    "sunzi-know": {
+      "kind": "geopolitics",
+      "title": "Sunzi’s version",
+      "body": "The age had another famous sentence on these two kinds of knowing. Sunzi, on war: 知彼知己，百戰不殆, “know the other and know yourself, and in a hundred battles there is no danger”. For the strategist the two are equal parts of intelligence work: the enemy’s strength and your own, both counted before the fight. Courts hired men for the first kind especially. Reading people was a profession: the persuader studied a ruler’s wishes, and the ruler studied his ministers for signs of treason. The Laozi takes the same pair and ranks it. Knowledge of others is 智, the paid skill of the age. Knowledge of oneself is of another order. Sunzi’s reward for both is 不殆, “no danger”, a phrase this book also loves (passages 16, 32, 44). The Laozi’s reward for the second is not safety in battle. It is light.",
+      "src": [
+        "Sunzi, “Mou gong” (Attack by Stratagem)"
+      ]
+    },
+    "sheng": {
+      "kind": "history",
+      "title": "The war in the chest",
+      "body": "勝 is “to win, to overcome”. The Shuowen gives an older sense: 任也, “to bear, to be equal to a load”, and the graph has 力, which it explains as a sinew. To 勝 a thing is first to be able to carry it. So 自勝 is to be equal to oneself. The Han Feizi explains the phrase with a story. Zixia, a disciple of Confucius, met Zengzi, who asked why he had grown fat. He said: I won a war. At home I saw the right as the former kings held it, and I honoured it. Outside I saw the pleasures of wealth and rank, and I honoured them too. The two fought in my chest and neither was winning, so I was thin. Now the right has won, so I am fat. Han Fei concludes: 自勝之謂強. The body knew who had won.",
+      "src": [
+        "Shuowen Jiezi, 力部: 勝，任也。从力朕聲。 力，筋也。象人筋之形。",
+        "Han Feizi, “Yu Lao”"
+      ]
+    },
+    "qiang": {
+      "kind": "gap",
+      "title": "強 as a good word?",
+      "body": "In passage 30, 強 was the thing to avoid: do not force the world, do not take the strong place, and what reaches its forced prime grows old. Passage 76 will call the stiff and strong “companions of death”. Yet here, three passages later, 自勝者強 is praise. The two do not conflict; the book is redefining the word. It does the same in passage 52: 守柔曰強, “to keep to the soft is called strong”. Strength pointed outward, at others, the text calls 有力, “having force”: a quantity that can be used up and met by a greater one. Strength with nothing outside it to beat is 強 in the new sense. Wang Bi: 無物以損其力, “no thing can wear its force down”. English has one word, “strong”, for the bully and the oak. Which did you mean the last time you used it of a person?",
+      "src": [
+        "Wang Bi commentary on Laozi 33",
+        "Laozi 30, 52, 76"
+      ]
+    },
+    "zu": {
+      "kind": "wordplay",
+      "title": "足: enough is a foot",
+      "body": "知足, “to know enough”. The word for “enough” is written with the graph for a foot, 足; the Shuowen says 人之足也。在下, “a person’s foot; it is below”. The sense “sufficient” is usually explained as a loan for a word of the same sound, though some like to think of a thing that reaches its foot, its full measure. Now set this beside the end of the passage before: 知止, “know where to stop”, where 止 is also a foot (see passage 32). The two phrases are a pair across the two passages, and passage 44 puts them in one line: 知足不辱，知止不殆, “know enough, no disgrace; know when to stop, no danger”. Both say that the knowledge that matters is of a limit, and both write the limit with the part of the body that stands on the ground. The one on tiptoe in passage 24 knew neither.",
+      "src": [
+        "Shuowen Jiezi, 足部: 足，人之足也。在下。从止、口。",
+        "Laozi 44, 46"
+      ]
+    },
+    "fu-qiang": {
+      "kind": "geopolitics",
+      "title": "“Rich state, strong army”",
+      "body": "富 and 強 were the two most political words of the age. The reformers who rebuilt the Warring States, Shang Yang in Qin above all, had one programme, and later writers gave it four characters: 富國強兵, “enrich the state, strengthen the army”. Wealth meant grain in the state’s granaries; strength meant conscripts in the field; and each fed the other. A ruler who heard 富 and 強 together heard policy. This passage takes both words and moves them inside one person. 強 is to overcome oneself. 富 is to know what is enough. It is a quiet act of theft from the vocabulary of the state. No granary can make a man rich in this sense, and no law can stop him from being so. The slogan had a long life: Japan took it as the motto of its modernisation in the nineteenth century.",
+      "src": [
+        "Shiji 68, “Biography of Lord Shang”",
+        "Shiji 74 (富國彊兵)"
+      ]
+    },
+    "qiang-xing": {
+      "kind": "gap",
+      "title": "強行: praise, or a warning?",
+      "body": "強行者有志: “one who walks on with effort has will”. This is the one line of the eight that can be read against itself. Wang Bi reads it as praise: 勤能行之，其志必獲, “one who can walk it with diligence will surely gain the aim”. Passage 41 supports him: the best student hears the Dao and “walks it with diligence”. But look at the words. 強 as an adverb was the “forced” naming of passage 25, and passage 30 warned against 強 by name. 志, the heart’s aim, is what passage 3 says the sage weakens in people: 弱其志. On that reading, the line gives forced effort its due and no more: such a person has will. It does not say bright, or rich, or lasting. Our rendering keeps the effort and the walking and does not decide. The line sits between “rich” and “lasts”. Do you hear it as one of their company?",
+      "src": [
+        "Wang Bi commentary on Laozi 33",
+        "Laozi 3, 41"
+      ]
+    },
+    "suo": {
+      "kind": "etymology",
+      "title": "所: a place, from the sound of an axe",
+      "body": "所 is “place”, and it is one of the script’s odd borrowings. The Shuowen defines it as 伐木聲也, “the sound of wood being chopped”, and quotes an ode: 伐木所所, “they fell the trees, suo, suo”. The graph has 斤, an axe, and 戶, a door, which gives the sound. The word for “place” had no picture and took this one. What place does the line mean? The text says only 其所, “its place”, or “one’s own”. [[Legge|legge]] makes it a station in society with duties. Wang Bi makes it a matter of measure: 量力而行, “gauge your strength and then walk”. Body-practice readers take it as the centre, low in the belly, where breath and weight settle. The simplest sense may be best: the spot where a thing belongs, as a fish belongs in water (passage 36). The verb is 失, to let slip from the hand.",
+      "src": [
+        "Shuowen Jiezi, 斤部: 所，伐木聲也。从斤戶聲。《詩》曰：“伐木所所。”",
+        "Shuowen Jiezi, 手部: 失，縱也。从手乙聲。",
+        "Wang Bi commentary on Laozi 33"
+      ]
+    },
+    "jiu": {
+      "kind": "etymology",
+      "title": "久 and 壽: two kinds of long",
+      "body": "The last two lines end in two words for duration, and the Shuowen ties them together: it defines 壽, long life, by the other word, 久也. 久 is “for a long time, to last”. Its graph, the Shuowen says, shows a person’s two legs with something that holds them from behind. To last is to be kept in place. 壽 is written with a short form of 老, old, on top: it is length of years in a body, the blessing that many bronze inscriptions ask of the ancestors first. The Laozi uses the pair elsewhere: heaven and earth are 長 and 久 because they do not live for themselves (7); knowing when to halt leads to 長久 (44). The two lines step up: not losing the place, one lasts; and then the text goes one step past lasting.",
+      "src": [
+        "Shuowen Jiezi, 久部: 久，以後灸之，象人兩脛後有距也。",
+        "Shuowen Jiezi, 老部: 壽，久也。从老省，𠷎聲。"
+      ]
+    },
+    "wang": {
+      "kind": "variant",
+      "title": "亡 or 忘: not lost, or not forgotten?",
+      "body": "The received text says 死而不亡. 亡 is “to be gone, to cease to exist”; the Shuowen’s first sense is 逃也, “to flee”. So: one dies and is not gone. The Mawangdui silk texts are reported to read 死不忘者壽也, with a heart under the same graph: 忘, “to forget”. One dies and is not forgotten. In early writing 亡 often stands for 忘, so the two texts may record one word, and a reader could take it either way. They point to different hopes. “Not forgotten” is the hope of the Zhou gentleman; a statesman of 549 BCE defined “to die and not decay” as leaving behind virtue, deeds, or words. “Not gone” is stranger. Wang Bi explains it by the Dao that one lived by: 身沒而道猶存, “the body sinks away and the Dao remains”. Later Daoist religion took it as the survival of a refined spirit. Our “not lost” tries to leave both doors open.",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Shuowen Jiezi, 亡部: 亡，逃也。从人从乚。 心部: 忘，不識也。从心从亡，亡亦聲。",
+        "Zuozhuan, Duke Xiang, year 24",
+        "Wang Bi commentary on Laozi 33"
+      ]
+    },
+    "shou": {
+      "kind": "gap",
+      "title": "壽 for the dead",
+      "body": "壽 means a long life in the body: many years, white hair, grandchildren. It is not “eternal life”, a phrase that brings the Christian heaven, and it is not “immortality” in the Greek sense of a soul that cannot die. That is what makes the last line a paradox in Chinese and only a pious hope in English. The sentence gives the prize for staying alive to someone who has died. It says 死, “dies”, with no softening; the Shuowen glosses the word as 澌, water that runs out, and as 人所離也, “what people part from”. The text does not deny the parting. It claims that something of the kind 壽, bodily and of this world, belongs to one who has parted. The First Emperor sent ships to find the herb of deathlessness. This line had already told him where long life is found, and he would not have liked the first word.",
+      "src": [
+        "Shuowen Jiezi, 死部: 死，澌也，人所離也。从歺从人。",
+        "Shiji 6, “Basic Annals of the First Emperor”"
+      ]
+    },
+    "wb-end": {
+      "kind": "wangbi",
+      "title": "Wang Bi: turned on oneself",
+      "body": "Wang Bi reads the first four lines as one instruction about direction. 用其智於人，未若用其智於己也。用其力於人，未若用其力於己也。 “To use one’s cleverness on others is not as good as to use it on oneself. To use one’s force on others is not as good as to use it on oneself.” Then the gain: 明用於己，則物無避焉；力用於己，則物無改焉, “when brightness is used on oneself, nothing evades it; when force is used on oneself, nothing alters it”. It is a practical claim. Other people can hide from your cleverness and resist your force. You cannot hide from your own clear sight, and force that is spent on yourself meets no opponent who will wear it down. He was about twenty when he wrote this, and he died at twenty-three. His commentary has lasted nearly eighteen centuries. See the last line of the passage.",
+      "src": [
+        "Wang Bi commentary on Laozi 33"
+      ]
+    },
+    "form": {
+      "kind": "wordplay",
+      "title": "A small dictionary",
+      "body": "Eight lines, and each has one shape: a description, the word 者, “the one who”, and a single term of value. The Mawangdui copies are reported to close every line with 也, the particle of definition: 自知者，明也; 知足者，富也. It reads like a list of entries. The eight terms are the things that the age wanted: 智 cleverness, 明 clear sight, 力 force, 強 strength, 富 wealth, 志 will, 久 duration, 壽 long life. The passage does not reject one of them. It rewrites the entry for each. Confucius called his programme 正名, “making names correct”; this is the Laozi doing the same work its own way, and with a pattern. In the first four lines the object moves from others to oneself. In the last four the grasp loosens: enough, a place not lost, and a death. The first word of the passage is 知. The last is 壽.",
+      "src": [
+        "Mawangdui Laozi, silk texts A and B (as reported)",
+        "Analects 13.3"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s “lot” and “position”",
+      "body": "Legge’s English is sound here, and two phrases show his century. 知足者富 becomes “he who is satisfied with his lot is rich”. A “lot” is what Providence has assigned; the phrase belongs to the sermon that tells the poor to be content. The Chinese says “knows enough”: a judgement that a person makes, of any amount. And 不失其所 becomes “does not fail in the requirements of his position”. 所, a place, has become a social station with duties attached, which one can fail. It is the ethics of a Victorian household, upstairs and down. His first pair, “discerning” and “intelligent”, is hard to tell apart, so the step up from 智 to 明 is lost. He keeps the last line plain: “he who dies and yet does not perish, has longevity”, and “longevity” is exactly the right, bodily word. Every line begins “He who”. The Chinese 者 has no gender.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "Eight short lines in [[one shape|form]], each a new entry for a word that people prized. The first four are two pairs, and in each pair the object turns from others to oneself: to know others is [[cleverness|zhi]], to [[know oneself|zi-zhi]] is [[clear sight|ming]]; to [[overcome|sheng]] others is force, to overcome oneself is [[strength|qiang]]. The last four stand alone: [[enough|zu]] is wealth; forced walking is [[will|qiang-xing]]; not to lose [[one’s place|suo]] is [[to last|jiu]]; to [[die and not be lost|wang]] is [[long life|shou]]. The passage has no image from nature and no sage. It is the plainest in this part of the book. After three passages on war and one on rule, it turns to a single person, and takes the two great words of state policy, [[rich and strong|fu-qiang]], with it.",
+    "inner": "The first two lines describe a turn of attention, and the whole contemplative life is in it. Attention goes out by habit: it reads faces, weighs motives, predicts. That is [[智|zhi]], and it never has to stop, because other people are endless. Turned round, the same attention [[finds its source|zi-zhi]]. The text calls the result 明 and the Shuowen draws that word as [[moonlight through a window|ming]]: a quiet light, inside a room. The next pair applies it to struggle. The contest with others has winners; [[the contest in the chest|sheng]] ends in a person who is no longer divided. The rest follows as description. Such a person knows [[enough|zu]], because the lack was the division. And the last line asks what in a person is [[not lost at death|wang]]. It does not answer. It gives a word for it that means old age.",
+    "leading": "The opening pair sets an order of work for anyone with authority. Reading others is the daily craft: who is able, who is afraid, what the other side wants. The passage [[grants it a name|zhi]] and puts something above it. A leader who has not looked at the self’s own fear and appetite will project them onto everyone, and the cleverness will serve them. So: first, [[the inward look|zi-zhi]]; then people. The second pair is about power. Force over others is real, and it is a stock that runs down and invites a greater force. Command of oneself [[cannot be outbid|qiang]]; Wang Bi states it as [[a rule of direction|wb-end]]. The fifth line is a rule for budgets and for ambition: an organisation or a person that [[cannot say “enough”|zu]] is poor at any size. The state’s own slogan promised [[wealth and strength|fu-qiang]]. This passage says where they are kept.",
+    "body": "Later Daoist practice read these lines as instruction for the body. 自勝: [[to be equal to oneself|sheng]], to carry one’s own weight without strain; the old story says the man who won that war grew fat. 知足: the graph is [[a foot|zu]], and practice begins by feeling the feet as enough, the weight complete on them. 強行 is steady training, [[one step and then the next|qiang-xing]], and the caution in the word applies: effort that forces the breath or the joints builds will and not much else. 不失其所: keep the centre, low in the belly, [[the place|suo]] that the weight and breath return to; a body that keeps it lasts. And the last line was the charter of the long-life arts. They sought 壽 in the body, and their best teachers said that it meant [[something the body could not hold|shou]].",
+    "practice": "Run the first pair as a timed exercise. For one conversation today, do what you usually do: read the other person. Notice their mood, guess what they want. That is the first line, and you are probably good at it. In the next conversation, keep a part of the attention [[turned round|zi-zhi]]. Notice what you want from this person, where you tighten, when you stop listening and start preparing. Do not fix anything. Afterwards ask which conversation went better, and who was more [[visible|ming]] to you in the second: they, or you. For the fifth line, take one thing you are trying to get more of, and say aloud the amount that would be [[enough|zu]]. If you cannot name an amount, that is worth knowing. For the last line, there is nothing to do. [[Read it again tomorrow.|wang]]"
+  },
+  "glyph": "亡",
+  "plates": [
+    {
+      "c": "亡",
+      "title": "A person gone into the corner",
+      "lesson": "Three strokes for the largest absence. The Shuowen says 逃也。从人从乚: “to flee; from a person and 乚”, and 乚 is a bent line, a nook, a place to hide. A person has slipped into the corner and cannot be seen. That is the first sense: to run away, to be missing. Then to lose a thing; then to be destroyed, as a state is; then to be dead. The oracle-bone forms are read in several other ways, and no account is agreed; the Shuowen’s is the one the tradition taught. Now see how much the script builds on the missing person. Add a heart: 忘, to forget; the Shuowen says 不識也, “not to recognise”, the mind’s thing gone. Add an eye: 盲, blind; 目無牟子, “an eye with no pupil”. Add wailing mouths: 喪, mourning (the plate in passage 31). And 望, to gaze into the distance, to hope: the Shuowen explains it with a small story, 出亡在外，望其還也, “someone has fled and is abroad, and one looks out for the return”. Even 無, the great “not-having” of this book, is glossed 亡也, and the oldest bamboo manuscripts often write 亡 where later copies have 無. So the word in [[the last line|wang]] is not a dramatic word. It is the ordinary graph for a thing that is not where it was. The line says that one who dies is not, in that sense, missing.",
+      "brush": "Three strokes. The first is a dot at the top centre, pressed in and released. The second is a horizontal under it, long, rising a hair to the right. The third starts at the left under the horizontal, comes straight down, and then turns to run right along the bottom, in one movement with a firm corner. That is all. The corner is the nook where the person hid, and the brush must slow there: stop, set the tip, and go on. If the last stroke is too short, the character falls to the left; let its base run nearly as far right as the horizontal above. Because there are so few strokes, the white space matters more than the ink. The character is mostly an open room with one wall and a floor. In running script the dot and the horizontal join, and the form is close to a single turning line."
+    },
+    {
+      "c": "知",
+      "title": "An arrow and a mouth",
+      "lesson": "Left side: 矢, an arrow. The Shuowen says the graph shows 鏑栝羽之形, “the shape of point, nock, and feathers”, and you can still find them: the top stroke is the head, the lines across are the shaft and its binding, and the two strokes that spread at the bottom are the fletching. Right side: 口, a mouth; the Shuowen says 人所以言食也, “that with which people speak and eat”. For the whole it gives only 詞也, “a word, an utterance”, and 从口从矢. Why an arrow? The usual answer, from later commentators, is speed and aim: what is known is said at once and goes to the mark. Another account takes 矢 mainly as a sound hint. Either way, knowing was first something done with the mouth: to know a thing was to be able to say it. Compare the first line of the book, where the Dao that can be said is set aside. The arrow has a grim family: 矢 with a person is 侯, a lord, first the archery target; 矢 in a body is 疾, sickness; 矢 in the old form of 族, a clan, is the band that gathers under one banner with its arrows. Put 日, the sun, or in old forms other marks, under 知 and you have 智, [[the word that this passage ranks second|zhi]]. Knowledge of others flies outward to a target. The passage asks what happens when the archer turns the arrow round.",
+      "brush": "Eight strokes. The arrow first. Stroke one is a short stroke at the top that falls to the left. Stroke two is a short horizontal. Stroke three is a longer horizontal below it. Stroke four starts at the first horizontal, passes down through the second, and sweeps to the lower left: the shaft. Stroke five would be a full right-falling stroke if the arrow stood alone; here it is cut to a dot, pressed and held, so that the arrow gives room to its neighbour. Then the mouth. Stroke six is its left side. Stroke seven is the top and right side in one turn. Stroke eight closes it. The mouth is set low, level with the foot of the arrow, not up beside its head. Watch the gap between the dot and the mouth: it should be narrow and clean. The left side is all slant and movement, and the right is a still square."
+    },
+    {
+      "c": "富",
+      "title": "A full jar under the roof",
+      "lesson": "The top is 宀, a roof, the same one that covers the child in 字 (the plate in passage 25) and the woman in 安, peace. Under it is 畐, which the Shuowen treats here as the sound part. Its early forms are commonly described as a jar with a narrow neck and a round belly, full to the top: the 一 is the lid or mouth, the 口 the neck, the 田 the belly, which has nothing to do with a field. A house with a full wine jar in it: 富. The Shuowen’s gloss is 備也, “provided, complete”, and then 厚也, “thick”. Wealth is first having everything needed, in store, under one’s own roof. The same jar fills other words. With the altar sign it is 福, blessing: the full jar set before the spirits. With cloth it is 幅, the full width of a bolt. With a knife it is 副, which the Shuowen glosses 判也, “to split”: to cut the full thing in two, and so a second, a deputy. The opposite of 富 is as clear: 貧, poor, is 貝, a shell, under 分, to divide; 財分少也, “the goods divided and small”. So in the script a rich person is one whose jar is full, and a poor one is a person whose shells have been shared out. The passage adds a new entry: [[the rich one is whoever knows that the jar is full|zu]]. The size of the jar is not mentioned.",
+      "brush": "Twelve strokes, from the roof down. Stroke one is the dot at the peak. Stroke two is a short stroke at the left that leans out to the left. Stroke three is the roof line, a horizontal with a hook down at its right end. Stroke four is a short horizontal under the roof: the lid. Strokes five, six, and seven make the small mouth: left side, top and right side in one turn, and base. Strokes eight and nine begin the belly: left side, then top and right side in one turn. Stroke ten is the horizontal inside it. Stroke eleven is the vertical inside it, crossing the last. Stroke twelve closes the base. Three boxes sit under one roof, so the danger is a tall, thin tower. Keep the roof wide, the lid short, the neck narrow, and let the belly be the broadest of the three, as a jar is."
+    }
+  ]
+}

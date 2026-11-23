@@ -1,0 +1,120 @@
+{
+  "垢": {
+    "senses": [
+      "dirt, grime, filth",
+      "turbid, soiled",
+      "disgrace (as a figure of speech)"
+    ],
+    "shuowen": "濁也。从土后聲。",
+    "shuowenEn": "Turbid. From 土 (earth), with 后 for the sound.",
+    "parts": [
+      { "c": "土", "m": "earth, soil" },
+      { "c": "后", "m": "sound hòu; by itself: a sovereign, later a queen" }
+    ],
+    "story": "Dirt that clings: on skin, in water. The Zuo chronicle has an old saying that the ruler of a state “holds dirt in the mouth”, as rivers and marshes take in filth. In the Laozi the word comes once, in the sage’s saying of passage 78: to take on the dirt of the state is to be lord of its altars. The Mawangdui silk text writes 詬, spoken abuse, with the same sound-part.",
+    "gap": "“Disgrace” and “blame” are social and abstract. 垢 is mud. The link to water, which takes all dirt, depends on the plain sense."
+  },
+  "易": {
+    "senses": [
+      "to change",
+      "to exchange, to replace",
+      "easy (the opposite of 難)",
+      "to treat as easy, to make light of"
+    ],
+    "shuowen": "蜥易，蝘蜓，守宮也。象形。《祕書》說：日月爲易，象陰陽也。一曰从勿。",
+    "shuowenEn": "The lizard; the gecko; the “palace guard”. A picture. A book of secret lore says: sun and moon make 易; it pictures yin and yang. Another explanation: it is from 勿.",
+    "parts": [
+      { "c": "日", "m": "in the modern shape, like “sun”; for the Shuowen, the lizard’s head" },
+      { "c": "勿", "m": "in the modern shape; for the Shuowen, legs and tail" }
+    ],
+    "story": "The Shuowen sees a lizard; modern scholars commonly see liquid poured from one vessel to another. The word means change, exchange, and ease, and it names the Book of Changes. The Laozi mostly uses the sense “easy”: the hard and the easy bring each other about (2); plan for the difficult while it is easy (63); my words are very easy to know (70). In passage 78 it is “replace” or “change”: nothing can take water’s place.",
+    "gap": "English needs three words: change, exchange, easy. In Chinese the three are one, so a line with 易 can be read three ways."
+  },
+  "主": {
+    "senses": [
+      "lord, master, ruler",
+      "host (as against guest); owner",
+      "the main thing; to preside over"
+    ],
+    "shuowen": "鐙中火主也。",
+    "shuowenEn": "The flame in the middle of a lamp.",
+    "parts": [
+      { "c": "丶", "m": "the flame; also the sound" },
+      { "c": "王", "m": "in the modern shape, like “king”; in the old form, the lamp stand" }
+    ],
+    "story": "First the flame of a lamp, then the one around whom others gather. The Laozi uses the word for rulers and takes the pride out of it. Dao clothes and feeds the ten thousand things and does not act as their 主 (34). The lord of ten thousand chariots must not treat himself lightly (26). In war, do not dare to be the host; be the guest (69). The lord of the altars is the one who takes the state’s dirt (78).",
+    "gap": "“Lord” and “master” bring feudal Europe and the Bible. 主 is first a host: the one who is at home and has guests to care for."
+  },
+  "受": {
+    "senses": [
+      "to receive, to accept",
+      "to take on, to bear",
+      "(early) to hand over, later written 授"
+    ],
+    "shuowen": "相付也。从𠬪，舟省聲。",
+    "shuowenEn": "To hand over to one another. From 𠬪 (two hands), with a reduced 舟 (boat) for the sound.",
+    "parts": [
+      { "c": "爫", "m": "a hand reaching down" },
+      { "c": "冖", "m": "what is left of the object passed between the hands" },
+      { "c": "又", "m": "a hand reaching up" }
+    ],
+    "story": "Two hands and a thing that passes between them. One graph first served for both giving and receiving. In passage 78 the ruler receives the dirt and the ill omens of the state, as low water receives what runs down.",
+    "gap": "“Accept” and “bear” sound passive or heroic. 受 is a plain act of the hands: someone holds a thing out, and you take it."
+  },
+  "社": {
+    "senses": [
+      "the god of the soil; the altar of the soil",
+      "a village community that shares such an altar",
+      "(modern) a society, an association"
+    ],
+    "parts": [
+      { "c": "礻", "m": "an altar; things of spirits and rites" },
+      { "c": "土", "m": "earth, soil" }
+    ],
+    "story": "Altar and earth: a mound of soil where a community made offerings to the god of its land. Each state had one, paired with the altar of millet, 稷. The pair 社稷 came to mean the state itself. The modern word for “society”, 社會, is built on it: a gathering at the soil altar. In the Laozi the word comes once (78).",
+    "gap": "“Altars” in English suggests a church. 社 is an open mound of the country’s own earth."
+  },
+  "稷": {
+    "senses": [
+      "millet",
+      "the god of grain; the altar of grain",
+      "Lord Millet (后稷), ancestor of the Zhou house"
+    ],
+    "shuowen": "𪗉也。五穀之長。从禾畟聲。",
+    "shuowenEn": "A kind of millet. The chief of the five grains. From 禾 (grain), with 畟 for the sound.",
+    "parts": [
+      { "c": "禾", "m": "the grain plant" },
+      { "c": "畟", "m": "sound" }
+    ],
+    "story": "Millet was the staple of north China before wheat and rice, and its god received offerings beside the god of the soil. The Zhou kings traced their line to Hou Ji, Lord Millet, who taught the people to farm. With 社 it names the state: soil and grain, the two things without which there is no people.",
+    "gap": "English has no single word for a grain that is also a god and a sign of the state."
+  },
+  "祥": {
+    "senses": [
+      "a good omen; auspicious",
+      "an omen of any kind (early use)",
+      "不祥: ill-omened, unlucky"
+    ],
+    "parts": [
+      { "c": "礻", "m": "an altar; things of spirits and rites" },
+      { "c": "羊", "m": "a sheep; also the sound" }
+    ],
+    "story": "The altar sign with the sheep, the animal of offering; the Shuowen defines 羊 itself as 祥, lucky. The Laozi uses the word with suspicion. Weapons are tools of ill omen (31). To add to life is called 祥, and there the old sense “an omen”, probably a bad one, is meant (55). The king takes on the ill omens of the state (78).",
+    "gap": "“Misfortune” is an event. 不祥 is a sign from heaven that something is wrong, and it asks who will answer for it."
+  },
+  "剛": {
+    "senses": [
+      "hard, unbending (of metal)",
+      "firm, strong-willed",
+      "the unbroken line of the Book of Changes (partner of 柔)"
+    ],
+    "shuowen": "彊斷也。从刀岡聲。",
+    "shuowenEn": "To cut through by force. From 刀 (knife), with 岡 for the sound.",
+    "parts": [
+      { "c": "岡", "m": "sound gāng; by itself, a ridge" },
+      { "c": "刂", "m": "a knife" }
+    ],
+    "story": "The hardness of a blade. With 柔, soft, it forms one of the basic pairs of Chinese thought. The Laozi always gives the victory to the other side: the soft and weak overcome the hard and strong (36); the soft overcomes the hard (78).",
+    "gap": "“Hard” is neutral in English and “firm” is praise. 剛 has an edge: it is the hardness that cuts and can snap."
+  }
+}

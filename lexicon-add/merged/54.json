@@ -1,0 +1,79 @@
+{
+  "祭": {
+    "senses": ["to offer food and drink to ancestors or spirits", "a sacrifice, an offering rite", "with 祀: the regular round of offerings"],
+    "parts": [
+      { "c": "肉", "m": "meat (squeezed form at top left)" },
+      { "c": "又", "m": "right hand" },
+      { "c": "示", "m": "altar; things of the spirits" }
+    ],
+    "story": "The modern shape shows a hand that sets meat on an altar, and that is the common explanation of the character. In early China the dead of a family lived on as ancestors while their descendants fed them at fixed times. A house with no sons had no one to lay the table, and to destroy a state fully was “to cut off its sacrifices”. So in passage 54 the unbroken sacrifice is the proof that a thing was well set up: it lasts because those who come after choose to continue it. The same part 示 is in 神, 福, 禍, and 祀.",
+    "gap": "“Sacrifice” suggests loss, or blood on a stone. 祭 is nearer to a meal that is shared with the dead: cooked food, wine, a set place."
+  },
+  "孫": {
+    "senses": ["grandchild, grandson", "with 子: descendants", "a surname (as in Sunzi)"],
+    "shuowen": "子之子曰孫。从子从系。系，續也。",
+    "shuowenEn": "The child of a child is called 孫. From 子 (child) and 系 (thread). 系 is to continue.",
+    "parts": [
+      { "c": "子", "m": "child" },
+      { "c": "系", "m": "a hanging thread; to tie, to continue" }
+    ],
+    "story": "A grandchild is the child who continues the thread. Chinese speaks of a family as a line of silk: 繼 is to succeed, 續 to continue, 絕 to cut off. In passage 54, 子孫 are the descendants whose offerings do not stop; the Mawangdui silk texts use the thread word itself, 不絕, “not cut”. 孫 is also the family name of Sunzi, the strategist, whose book shares a world with the Laozi.",
+    "gap": "English “grandson” counts a generation. 孫 pictures a continuity: one thread that passes through each child."
+  },
+  "觀": {
+    "senses": ["to look at with attention, to observe, to contemplate", "a sight, a view", "guàn: a gate tower; a Daoist temple", "hexagram 20 of the Changes"],
+    "shuowen": "諦視也。从見雚聲。",
+    "shuowenEn": "To look at with close attention. From 見 (to see), with 雚 for the sound.",
+    "parts": [
+      { "c": "雚", "m": "a water bird (stork or heron); gives the sound" },
+      { "c": "見", "m": "to see: an eye on legs" }
+    ],
+    "story": "觀 is the long, careful look. Passage 1 uses it twice: without desire, look at the fine points; with desire, look at the edges. Passage 16 uses it for the return of all things: 吾以觀復, “by this I watch them go back”. Passage 54 makes it a method: by the body look at the body, by the realm look at the realm. The sound-part draws a tall water bird, and readers like to see in it the heron that stands still and watches, though sound was the scribes’ reason. Read guàn, the word later named the Daoist temple.",
+    "gap": "“Observe” sounds like science and “contemplate” like religion. 觀 is both and neither: steady looking that does not yet judge or plan."
+  },
+  "建": {
+    "senses": ["to set upright, to erect", "to found, to establish (a state, a house, a rule)"],
+    "shuowen": "立朝律也。从聿从廴。",
+    "shuowenEn": "To establish the statutes of the court. From 聿 (a hand with a brush) and 廴 (to go a long way).",
+    "parts": [
+      { "c": "聿", "m": "a hand that holds a brush" },
+      { "c": "廴", "m": "a long stride; to extend" }
+    ],
+    "story": "建 is the verb for founding: 建國, to found a state; 封建, to grant land and set up a lord. The Shuowen sees a writing brush in it and defines it from the court, as the setting up of statutes. In passage 54 it is paired with 拔, “to pull out”, the verb of the war records for a town that falls. Passage 41 has the phrase 建德, “de that is set up firm”, and quotes a lost book called 建言, “Established Sayings”.",
+    "gap": "Translations say “planted”, which gives a garden. The Chinese word belongs to building and to politics."
+  },
+  "修": {
+    "senses": ["to adorn, to trim", "to repair, to keep in order", "to tend, to cultivate (the person, a teaching)", "long"],
+    "shuowen": "飾也。从彡攸聲。",
+    "shuowenEn": "To adorn. From 彡 (strokes of hair or ornament), with 攸 for the sound.",
+    "parts": [
+      { "c": "攸", "m": "gives the sound" },
+      { "c": "彡", "m": "hair, feathers, ornament" }
+    ],
+    "story": "修 is regular care for a thing that is already there: to brush it, to mend it, to keep it fit. 修身, “to keep the person in order”, was shared by all the early schools. Passage 54 uses the verb five times, for body, household, village, state, and realm, and each time the object is only 之, “it”.",
+    "gap": "“Cultivate” brings a field and a crop. 修 is nearer to maintenance: how a person keeps a boat, a wall, or a road."
+  },
+  "身": {
+    "senses": ["the body, the trunk", "the person, oneself", "one’s life"],
+    "shuowen": "躳也。象人之身。",
+    "shuowenEn": "The body. It shows a person’s trunk.",
+    "story": "身 is the body and also the self; Chinese does not split them. The Laozi asks hard questions with it. Passage 13: the reason I have great trouble is that I have a 身. Passage 44: name or 身, which is nearer? Passage 7: the sage puts the 身 last and it comes first. In passage 54 it is the first of five places where the Dao is tended, and the only one whose fruit is “real”. The early form is commonly explained as a person in profile with a large belly.",
+    "gap": "“Self” moves the word into the mind; “body” drops the person. 身 is the lived body that is you."
+  },
+  "鄉": {
+    "senses": ["village, home district", "the countryside", "xiàng: to face toward (later written 嚮, 向)"],
+    "story": "The early form is commonly explained as two people who kneel face to face over a vessel of food. That picture wrote three words: 鄉, the community; 饗, to feast; and 卿, a minister. A village is the people who eat together. In passage 54 it is the third rung of the ladder, between the household and the state, and its fruit is 長, “lasting”.",
+    "gap": "“Village” is a place on a map. 鄉 is first a group that shares feasts, elders, and rites."
+  },
+  "輟": {
+    "senses": ["to pause, to break off", "to leave a gap"],
+    "shuowen": "車小缺復合者。从車叕聲。",
+    "shuowenEn": "Carts with a small gap that close up again. From 車 (cart), with 叕 for the sound.",
+    "parts": [
+      { "c": "車", "m": "cart" },
+      { "c": "叕", "m": "to join, to stitch; gives the sound" }
+    ],
+    "story": "A column of carts opens a small gap and closes it again: that is 輟. So the word means a pause, not an end. Passage 54 says the sacrifices of the descendants 不輟, do not pause even once. The Mawangdui silk texts have the stronger word 絕, “cut off”.",
+    "gap": "English “cease” is final. 輟 is the smaller thing: a missed beat."
+  }
+}

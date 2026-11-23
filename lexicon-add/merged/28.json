@@ -1,0 +1,66 @@
+{
+  "黑": {
+    "senses": ["black; the colour of soot", "dark, dim, unlit", "what is out of sight, unnoticed"],
+    "shuowen": "火所熏之色也。从炎，上出𡆧。𡆧，古窻字。",
+    "shuowenEn": "The colour that fire smokes on. From 炎 (flames), which go up and out through 𡆧. 𡆧 is the old graph for “window”.",
+    "parts": [{"c": "灬", "m": "fire"}, {"c": "𡆧", "m": "a smoke hole, a window (as the Shuowen reads the top)"}],
+    "story": "The Shuowen pictures black as soot round a smoke hole above a fire; scholars read the oldest forms in several other ways. Soot is also what Chinese ink is made of, and 墨, ink, is “black” over “earth”. In Laozi 28 the black is what one keeps to after one knows the white: the unlit place, out of the glare. It is close to 玄, the deep dark of passage 1, and it carries no sense of evil.",
+    "gap": "In English, black against white is sin against purity. In the Laozi, 黑 is only the dim and unseen, and it is the side to stay on."
+  },
+  "辱": {
+    "senses": ["disgrace, shame; to disgrace", "soiled, stained, dark (Laozi 41)", "a polite “I am unworthy of your…”"],
+    "shuowen": "恥也。从寸在辰下。失耕時，於封畺上戮之也。辰者，農之時也。故房星爲辰，田候也。",
+    "shuowenEn": "Shame. From 寸 (a hand) under 辰. One who missed the time for ploughing was punished on the boundary mound. 辰 is the farmers’ season; so the Fang stars are called 辰, the signal for the fields.",
+    "parts": [{"c": "辰", "m": "the farming season; perhaps an old farm tool"}, {"c": "寸", "m": "a hand; measure, rule"}],
+    "story": "The Shuowen makes disgrace a farm matter: the hand of punishment on the one who failed the season, in public, at the field’s edge. The word is the standing opposite of 榮, honour, and of 寵, favour (Laozi 13). It also means dirty or dull in colour: “great white seems soiled” (41). In passage 28 one knows honour and keeps to 辱, and so becomes the valley of the world; the Zhuangzi quotes the line as “know the white, keep to the soiled”.",
+    "gap": "“Shame” in English is an inner feeling. 辱 is first an outer position: the low place where others look down at you."
+  },
+  "嬰": {
+    "senses": ["a neck ornament of strung shells (Shuowen)", "to wear round the neck; to encircle; to be entangled", "an infant at the breast"],
+    "shuowen": "頸飾也。从女、賏。賏，其連也。",
+    "shuowenEn": "A neck ornament. From 女 (woman) and 賏. 賏 shows the shells strung together.",
+    "parts": [{"c": "賏", "m": "two cowrie shells on a string"}, {"c": "女", "m": "a woman"}],
+    "story": "A woman with strung cowries at her neck. The sense “baby” is commonly explained from the way a nursing child hangs at the mother’s neck and chest. 嬰兒, the infant, is one of the Laozi’s chief images of wholeness: breath gathered and supple (10), the child that has not yet smiled (20), the place one returns to (28). Passage 55 describes the same child in detail without the word.",
+    "gap": "“Infant” in English suggests helplessness. The Laozi’s 嬰兒 is the model of full, unspent vitality."
+  },
+  "雌": {
+    "senses": ["a hen; the female of birds and animals", "the yielding, the one that stays low or behind", "the loser in a contest (雌雄)"],
+    "shuowen": "鳥母也。从隹此聲。",
+    "shuowenEn": "The mother of birds. From 隹 (bird); 此 gives the sound.",
+    "parts": [{"c": "此", "m": "sound part"}, {"c": "隹", "m": "a short-tailed bird"}],
+    "story": "雌 is the hen, and by extension the female of any creature. The Laozi uses it for a way of acting: “when the gates of heaven open and close, can you be the hen?” (10); “know the cock, keep to the hen” (28). Wang Bi glosses it as “the kind that goes behind”. It is a different word from 牝, the female animal of passages 6 and 61, and from 女, a woman.",
+    "gap": "“Feminine” makes it a statement about women. 雌 is a barnyard word for a kind of behaviour open to anyone."
+  },
+  "雄": {
+    "senses": ["a cock; the male of birds and animals", "strong, bold, leading", "the victor (雌雄)"],
+    "shuowen": "鳥父也。从隹厷聲。",
+    "shuowenEn": "The father of birds. From 隹 (bird); 厷 gives the sound.",
+    "parts": [{"c": "厷", "m": "sound part; by itself: the upper arm"}, {"c": "隹", "m": "a short-tailed bird"}],
+    "story": "雄 is the cock. From the male bird the word spread to any male animal and to the qualities of display and attack; later 英雄 is “hero”. Wang Bi reads it as “the kind that goes first”. Laozi 28 does not reject it: the first verb is 知, to know it and have command of it. Only then does one keep to the hen.",
+    "gap": "“Masculine” is an abstraction. 雄 is a rooster on a wall."
+  },
+  "谿": {
+    "senses": ["a mountain gully, a ravine", "a stream in a ravine"],
+    "shuowen": "山瀆無所通者。从谷奚聲。",
+    "shuowenEn": "A mountain watercourse that leads through to nowhere. From 谷 (valley); 奚 gives the sound.",
+    "parts": [{"c": "奚", "m": "sound part"}, {"c": "谷", "m": "a valley"}],
+    "story": "谿 is the narrow, closed cut in a mountainside down which water runs; it is also written 溪. The Shuowen sets it apart from 谷, the open valley where a spring reaches a river. In Laozi 28 the one who keeps to the hen is “the ravine of all under heaven”; Wang Bi comments that a ravine does not seek things and things come to it of themselves.",
+    "gap": "English “stream” names the water. 谿 names the low ground that the water has no choice except to enter."
+  },
+  "割": {
+    "senses": ["to cut apart, to hack off", "to cede or seize (territory)", "to harm"],
+    "shuowen": "剥也。从刀害聲。",
+    "shuowenEn": "To strip, to cut apart. From 刀 (knife); 害 gives the sound.",
+    "parts": [{"c": "害", "m": "sound part; by itself: harm"}, {"c": "刂", "m": "a knife"}],
+    "story": "割 is the butcher’s and the conqueror’s cut: meat from the bone, a strip of land from a neighbour. Warring States treaties are full of 割地, “cut land”. The Laozi uses it twice for what the sage’s shaping does not do: “the great cutting does not sever” (28), and the sage is “square and does not cut” (58).",
+    "gap": "English “cut” is neutral. 割 hurts; its sound part is the word for harm."
+  },
+  "制": {
+    "senses": ["to cut to a pattern (cloth, timber)", "to make, to shape; to regulate, to control", "an institution, a system; a rule"],
+    "shuowen": "裁也。从刀从未。未，物成有滋味，可裁斷。一曰止也。",
+    "shuowenEn": "To cut out. From 刀 (knife) and 未. 未 is a thing grown ripe and full of flavour, which can be cut. Another sense: to stop.",
+    "parts": [{"c": "未", "m": "a tree in full leaf; what is ripe for cutting (Shuowen)"}, {"c": "刂", "m": "a knife"}],
+    "story": "制 is the cut that makes something: the tailor’s cut that turns cloth into a robe, the carpenter’s that turns timber into a frame. From it came “to regulate” and the noun for the institutions of a state. The Laozi uses the craft sense and the political sense at once: “the great cutting does not sever” (28); “when the cutting begins, there are names” (32).",
+    "gap": "“System” and “regulation” hide the knife. In 制 it is still visible."
+  }
+}

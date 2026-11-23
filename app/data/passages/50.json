@@ -1,0 +1,227 @@
+{
+  "n": 50,
+  "title": "No Place for the Horn",
+  "theme": "self",
+  "zh": [
+    {
+      "text": "出生入死。",
+      "gloss": {
+        "0": "to come out, to go out",
+        "2": "to go in, to enter"
+      }
+    },
+    {
+      "text": "生之徒，十有三；死之徒，十有三；人之生，動之死地，亦十有三。夫何故？以其生生之厚。蓋聞善攝生者，陸行不遇兕虎，入軍不被甲兵；兕無所投其角，虎無所措其爪，兵無所容其刃。夫何故？以其無死地。",
+      "gloss": {
+        "2": "tú: a follower, a companion; one who goes on foot",
+        "5": "joins the numbers: “ten and three”, or “of ten, three”",
+        "21": "a verb here: to go to",
+        "36": "a verb: to live, to feed (life)",
+        "39": "thick, rich, heavy",
+        "44": "shè: to gather in and hold; to take care of",
+        "52": "sì: a rhinoceros, or a great wild ox",
+        "58": "to wear, to have on; or to suffer, to be struck by",
+        "65": "to throw, to thrust",
+        "79": "to admit, to give room to"
+      }
+    }
+  ],
+  "rendering": [
+    "[[Out into life, in to death|chusheng]].",
+    "The [[followers of life|tu]]: [[three in ten|shisan]].",
+    "The followers of death: three in ten.",
+    "People who live, and in moving [[go to the death-ground|sidi]]:",
+    "[[also three in ten|tenth]].",
+    "Now why is this?",
+    "Because they [[live life thickly|hou]].",
+    "",
+    "[[It is said|gaiwen]] that one good at [[holding life|shesheng]]",
+    "walks the land and [[does not meet|buyu]] [[rhinoceros|si]] or tiger,",
+    "enters an army and [[wears no armour or blade|bei]].",
+    "The rhinoceros has nowhere to thrust its [[horn|weapons]],",
+    "the tiger nowhere to set its claw,",
+    "the blade nowhere to [[lodge its edge|rong]].",
+    "Now why is this?",
+    "Because they have [[no death-ground|wusidi]]."
+  ],
+  "notes": {
+    "chusheng": {
+      "kind": "gap",
+      "title": "出生入死: four words, three readings",
+      "body": "Out, life, in, death. The four characters have no grammar marks, and readers join them in different ways. One: to come out is to live, and to go in is to die; the oldest commentary, in the Han Feizi, says that a person’s beginning is called “coming out” and the end is called “going in”. Out of what? The womb, the earth, the unseen. Two: people come out into life and go into death, as a traveller passes through two gates. [[Wang Bi|wangbi]] writes: out of the ground of life, into the ground of death. Three: to leave life is to enter death; one step does both. In modern Chinese the phrase is an idiom for facing mortal danger, “to go through fire”. The rendering keeps the bare four beats and adds only two small words.",
+      "src": [
+        "Han Feizi, “Jie Lao” (解老)",
+        "Wang Bi commentary on Laozi 50"
+      ]
+    },
+    "tu": {
+      "kind": "etymology",
+      "title": "徒: those who go on foot",
+      "body": "徒 has 彳, a step on the road, at its left, and 止, a foot, at the lower right. The Shuowen lists it in an older graph and defines it 步行也, “to go on foot”. Those who walked behind a chariot were the foot soldiers and the retinue, and so the word came to mean followers, companions, disciples, a kind of people. 生之徒 are “life’s followers”: those in life’s train. Some scholars read the word as 途, “road”: the roads of life, the roads of death. The book supports “followers”. Passage 76 uses the same two phrases and tells us who they are: 堅強者死之徒，柔弱者生之徒, “the hard and strong are followers of death; the soft and weak are followers of life”. Death and life are pictured as two lords, each with a company on foot behind. Whose company are you in today?",
+      "src": [
+        "Shuowen Jiezi, 辵部: 𨑒，步行也。从辵土聲。",
+        "Laozi 76"
+      ]
+    },
+    "shisan": {
+      "kind": "gap",
+      "title": "十有三: three in ten, or thirteen?",
+      "body": "This is one of the old disputes of the book. 十有三 is, word for word, “ten have three”. In normal classical usage the phrase is a number: thirteen. Confucius says 吾十有五而志于學, “at ten-and-five I set my heart on learning”, and no one reads that as five in ten. On that basis the earliest commentary reads [[thirteen|thirteen]] here. Wang Bi reads it otherwise: 十有三，猶云十分有三分, “ten-have-three is like saying three parts in ten parts”. Then the lines are a census. Three people in ten follow life. Three follow death. Three more are alive and move toward death. We render Wang Bi’s reading, because our base text is his and because the count leads somewhere; see [[the tenth|tenth]]. The grammar is on the side of thirteen. English cannot write a phrase that is both.",
+      "src": [
+        "Analects 2.4",
+        "Wang Bi commentary on Laozi 50"
+      ]
+    },
+    "thirteen": {
+      "kind": "history",
+      "title": "Thirteen: the limbs and the openings",
+      "body": "The Han Feizi, about 240 BCE, explains the number in this way. The body has four limbs and nine openings: two eyes, two ears, two nostrils, the mouth, and the two below. These thirteen are the great equipment of a person. In life, all thirteen belong to life; they are 生之徒, life’s followers, the same thirteen. At death, all thirteen turn and belong to death. And when a person lives and moves, each movement of the thirteen wears them toward the death-ground. The Heshang Gong commentary also counts thirteen, as nine openings and four “passes”, 九竅四關. In this reading the passage has no census of people. It is about one body and its doors, the same doors that passage 52 says to shut. The life-keeper is then the one whose thirteen do not carry them out to die.",
+      "src": [
+        "Han Feizi, “Jie Lao” (解老)",
+        "Heshang Gong commentary on Laozi 50"
+      ]
+    },
+    "tenth": {
+      "kind": "wordplay",
+      "title": "Three, three, three: where is the tenth?",
+      "body": "If the count is by tenths, do the sum. Three in ten for life, three for death, three who live and move toward death. That is nine. The passage never mentions the one who is left. Then, with no link but the words “it is said”, it begins to describe a single person whom the horn and the blade do not find. Many readers take that person as the missing tenth: the one in ten who belongs to no company. This may not be what the author counted; numbers in early texts are often round. But notice the form. The text does not write “and one in ten is the keeper of life”. It leaves a gap in the arithmetic, and the reader finds a person in it. The one who has no death-ground also has no line in the census."
+    },
+    "sidi": {
+      "kind": "geopolitics",
+      "title": "死地: a term from the art of war",
+      "body": "死地, “death-ground”, is soldier’s language. The Sunzi lists nine kinds of ground, and the last is this: 疾戰則存，不疾戰則亡者，為死地. “Where you survive if you fight at once and perish if you do not, that is death-ground.” It is terrain with no way out: backs to a river, enemies in front. The Sunzi gives the general a hard rule for it: throw your troops onto ground from which they cannot escape and they will live, because men who cannot run will fight. Death-ground there is a tool that commanders use on their own soldiers. The Laozi takes the term and turns it inward. Most people, it says, carry themselves to such ground by their own movement, 動之死地. And one kind of person has no such place in them at all. The same verb, 投, “to throw”, is in both texts.",
+      "src": [
+        "Sunzi, “Jiu di” (九地)"
+      ]
+    },
+    "hou": {
+      "kind": "gap",
+      "title": "生生之厚: too thick a life",
+      "body": "以其生生之厚: “because of the thickness of their living of life”. The first 生 is a verb and the second its object: to live life, to feed life, to make a living of living. 厚 is “thick”; the Shuowen defines it by mountains, 山陵之厚也. Thick living is rich food, rich goods, and strong attachment to staying alive. The claim is a paradox with a plain core: those who work hardest to add to life are the ones who move toward death. Passage 75 says it of rulers: the people take death lightly because those above seek 生之厚, and it ends: only the one who does not act for the sake of life is wiser than the one who prizes life. The Mawangdui silk texts are reported to have a shorter answer, 以亓生生也, “because they live for life”. If so, there is no “thick”, and the striving itself is the cause.",
+      "src": [
+        "Shuowen Jiezi, 㫗部: 厚，山陵之厚也。从𣆪从厂。",
+        "Laozi 75",
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "gaiwen": {
+      "kind": "gap",
+      "title": "蓋聞: “it is said”",
+      "body": "The second half opens with 蓋聞, “now, [one] has heard”. It is a formula of report. The author does not say “I know” or “it is so”; the text marks what follows as something handed down, a saying about a kind of person. English translators, [[Legge|legge]] among them, supply “I have heard”, but the Chinese has no “I”. The distance matters for how literally to take the tigers. A text that wished to promise magic could state it flatly. This one says: there is a report. It then asks its own question, 夫何故, “now why is this?”, and answers with a reason and not a miracle. The same question and the same form of answer close both halves of the passage. The first asks why people die early. The second asks why this one does not."
+    },
+    "shesheng": {
+      "kind": "history",
+      "title": "攝生: to hold life in the hand",
+      "body": "攝 has 扌, a hand, beside three ears, 聶, which give the sound. The Shuowen defines it as 引持也, “to draw in and hold”. It is what you do with a robe when you gather its skirts to walk, and with an office when you hold it for another. 攝生 is then “to gather life in and hold it”: to keep it collected, not to add to it. That is the difference from the [[thick living|hou]] of the line before. Feeding life makes it large and exposed. Holding it makes it compact. The phrase had a long future. It became a common term for the care of health, beside 養生, “to nourish life”, and a whole literature of breathing, diet, exercise, and sexual practice grew under those names. The Zhuangzi is cool toward the bodily version: those who puff and stretch like bears and birds only to live long, it says, are people who nourish the form.",
+      "src": [
+        "Shuowen Jiezi, 手部: 攝，引持也。从手聶聲。",
+        "Zhuangzi, “Ke yi” (刻意)"
+      ]
+    },
+    "buyu": {
+      "kind": "variant",
+      "title": "“Does not meet” or “does not avoid”",
+      "body": "Our text says 陸行不遇兕虎: walking on land, does not meet rhinoceros or tiger. The Mawangdui silk texts are reported to read 陵行不辟兕虎: walking in the hills, does not avoid them. Two words differ. 陵, hills, is wilder than 陸, level land: it is where the animals are. And 辟, “to avoid, to step aside”, changes the claim. In the received line the beasts are simply not there; it sounds like luck or a charm. In that line the person takes no detour. The beasts may be there, and no precaution is taken. That fits the next line, where the person enters an army and [[wears no armour|bei]]. Both lines then describe the same thing: a person who has dropped the stance of defence. The received 不遇 would then be a later softening, by an editor who found “does not avoid” reckless.",
+      "src": [
+        "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)"
+      ]
+    },
+    "si": {
+      "kind": "history",
+      "title": "兕: rhinoceros in the Yellow River plain",
+      "body": "The 兕 is a real animal, and scholars still argue which. The Shuowen lists it under an old picture-graph and says 如野牛而青, “like a wild ox, and dark”; it keeps a separate entry for 犀, the two-horned rhinoceros “from beyond the southern border”. Shang kings hunted 兕 and recorded the kills on oracle bones. Some zoologists identify it as a wild buffalo; the traditional reading is rhinoceros. Either way it was a large horned beast that charged. North China was warmer and wetter then, with elephants and rhinoceros in the river plains; by the Warring States they survived mostly in the south. There is a link to the next line. Armour was made of the hides of both animals. The Kaogongji says that armour of 犀 hide lasts a hundred years and armour of 兕 hide two hundred, and a song of Chu describes warriors who 被犀甲, “wear rhinoceros armour”. The beast and the armour in these two lines are one skin.",
+      "src": [
+        "Shuowen Jiezi, 𤉡部: 𤉡，如野牛而青。象形。",
+        "Shuowen Jiezi, 牛部: 犀，南徼外牛。一角在鼻，一角在頂，似豕。",
+        "Zhouli, “Kaogongji”",
+        "Chu ci, “Guo shang” (國殤)"
+      ]
+    },
+    "bei": {
+      "kind": "gap",
+      "title": "不被甲兵: wears none, or is touched by none",
+      "body": "被 is first a covering, a long coat for the night, and as a verb “to put on, to wear”. It also means “to be covered by” in the bad sense: to suffer, to be struck. So 入軍不被甲兵 has two readings. One: enters an army and does not put on armour or carry a weapon. Two: enters an army and is not struck by armoured men and blades. 甲 is the armour and 兵 is the weapon; together they can also mean “troops”. The Han Feizi quotes the line with another verb, 不備, “does not make ready”, and explains: the sage has no heart to harm others, so no one harms the sage, and so no guard is kept. That supports the first reading, and we follow it. It is the stronger claim. The person is not well protected. The person is unprotected.",
+      "src": [
+        "Shuowen Jiezi, 衣部: 被，𡪢衣，長一身有半。从衣皮聲。",
+        "Han Feizi, “Jie Lao” (解老)"
+      ]
+    },
+    "weapons": {
+      "kind": "etymology",
+      "title": "角, 爪, 刃: three pictures of a point",
+      "body": "The three things that find no place are written with three of the simplest picture-characters. 角 is a horn; the Shuowen says 獸角也。象形, “an animal’s horn; a picture”, and you can still see the curved tip and the rings. 爪 is a claw: 覆手曰爪, “a hand turned palm down is called 爪”, fingers pointing to the ground. 刃 is a blade’s edge: a knife, 刀, with one stroke added to mark the place that cuts; see the plate. Horn, claw, and edge are nature’s weapon, the predator’s weapon, and the human weapon, in rising order of skill. Each of the three verbs is also exact. The horn is 投, thrust or thrown. The claw is 措, set down, placed. The edge is [[容|rong]], let in. Each attack needs a place that receives it.",
+      "src": [
+        "Shuowen Jiezi, 角部: 角，獸角也。象形，角與刀、魚相似。",
+        "Shuowen Jiezi, 爪部: 爪，丮也。覆手曰爪。象形。",
+        "Shuowen Jiezi, 刃部: 刃，刀堅也。象刀有刃之形。"
+      ]
+    },
+    "rong": {
+      "kind": "wordplay",
+      "title": "容: the body that gives no room",
+      "body": "兵無所容其刃: “the weapon has no place that 容 its edge”. 容 is to hold, to contain, to have room for. The Shuowen glosses it 盛也, “to hold as a vessel holds”, and the graph has a roof, 宀, over 谷, a valley: a sheltered hollow. It is a warm word in this book. Passage 16 says that to know the constant is 容, to be capacious, and that capacity leads to fairness and to kingliness. So the verb is chosen with some wit. The person in this passage, who has room for everything, has no room for a blade. Think of how a blade works. It needs something that resists it, a firm surface to part. What would a person be like in whom an insult, a threat, or a loss found nothing firm to enter?",
+      "src": [
+        "Shuowen Jiezi, 宀部: 容，盛也。从宀、谷。",
+        "Laozi 16"
+      ]
+    },
+    "wusidi": {
+      "kind": "gap",
+      "title": "無死地: magic, or a way of being?",
+      "body": "“Because they have no death-ground.” Later religion took the lines at face value. Daoist adepts sought bodies that weapons could not cut, and handbooks gave charms for going into the mountains among tigers. The older commentators are sober. For the Han Feizi, the person has no wish to harm and so draws no harm. For [[Wang Bi|wangbi]], the person does not let desire burden the body, and so is not baited onto fatal ground. The Zhuangzi offers a picture: a drunk man falls from a cart and is not killed, because he does not know that he is falling and nothing in him braces against the ground. On this view the death-ground is not a spot on the body. It is the place where a person is stiff with wanting to live. Passage 55 says the same of the infant: it is not stung by wasps or seized by wild animals.",
+      "src": [
+        "Zhuangzi, “Da sheng” (達生)",
+        "Laozi 55"
+      ]
+    },
+    "wangbi": {
+      "kind": "wangbi",
+      "title": "Wang Bi: the hawk and the sweet bait",
+      "body": "Wang Bi’s note ends with a small fable. 夫蚖蟺以淵為淺，而鑿穴其中，鷹鸇以山為卑，而增巢其上. “The eels and water-lizards find the deep pool shallow and bore their holes in its bed; the hawks and falcons find the mountain low and build their nests above it.” No corded arrow can reach them and no net can arrive, he says; they may be said to live where there is no death-ground. 然而卒以甘餌，乃入於無生之地. “And yet in the end, through sweet bait, they enter the ground where there is no life.” Is this not, he asks, [[the thickness of living|hou]]? His conclusion is the key to his reading: 善攝生者無以生為生，故無死地也. “The one good at holding life does not make life the thing to live for, and so has no death-ground.” Safety of position does not save the hawk. Only the absence of the hook does.",
+      "src": [
+        "Wang Bi commentary on Laozi 50"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge: life “entrusted for a time”",
+      "body": "Legge follows [[Wang Bi’s count|shisan]], “of every ten three”, and translates 徒 as “ministers”: ministers of life, ministers of death. That is a churchman’s word for a follower. The most telling phrase comes later. For 善攝生者, five characters, he writes: “he who is skilful in managing the life entrusted to him for a time”. Entrusted by whom? The Chinese has no giver and no loan. The idea that life is a trust from God, for which the holder must give account, is the doctrine of stewardship in which Legge was raised, and here it has entered the text without a bracket. For 甲兵 he writes “buff coat or sharp weapon”: the leather coat of a seventeenth-century English soldier. His rhinoceros and tiger are left as they are.",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "practice": {
+      "kind": "practice",
+      "title": "Find the place that braces",
+      "body": "Today, when something comes at you, a sharp remark, bad news, a car that cuts in, a demand, notice the body in the first second. Somewhere it braces: the jaw, the belly, the chest. That hardening is a small 死地, a firm place offered to the horn. Do not try to remove it by will. Only find it, name it, and breathe out once through it. Then see what the remark does when it has less to strike. Separately, look at one way in which you [[live thickly|hou]]: a comfort or a safeguard that has become heavy to maintain. Ask whether it adds to your life or only to your exposure. The passage ranks nothing here. It only describes how its two kinds of people move."
+    }
+  },
+  "lenses": {
+    "ground": "The passage has two halves of the same shape: a statement, the question 夫何故, “now why is this?”, and an answer that begins 以其, “because they”. The first half opens with [[four bare words|chusheng]] and then counts: [[followers of life|tu]], followers of death, and people who are alive and [[moving to the death-ground|sidi]], each [[“ten have three”|shisan]]. Why? [[They live life thickly|hou]]. The second half is [[a report|gaiwen]] about one kind of person, [[good at holding life|shesheng]], drawn in three pairs of images: land and army; beast and weapon; and then [[horn, claw, and edge|weapons]], each with nowhere to go. Why? [[No death-ground|wusidi]]. The first half is arithmetic, and the second is a picture. Between them stands [[a missing number|tenth]].",
+    "inner": "The first half says that most movement is toward death, and that the cause is the effort to have more life. The grip on life is the death-ground. The second half then describes someone in whom the grip is absent, and the description is negative throughout: does not meet, does not wear, nowhere, nowhere, nowhere, none. Nothing is said about what this person has. Fear makes a place in the body and in the mind that harm can find. A person defends, and the defence marks where the wound will be. The one who [[holds life|shesheng]] without clutching it gives the world’s horns nothing to push against. [[Wang Bi|wangbi]] puts it in one clause: does not make life the thing to live for. The passage does not teach contempt for life. It teaches a lighter hold.",
+    "body": "Martial arts in China have long used this passage, and in a physical sense. A strike needs a target that stays and resists. The skilled body does not stay: it turns, yields, and lets the force pass through empty space, so that the fist has [[nowhere to lodge|rong]]. Stiffness is the death-ground. A stiff arm can be broken and a rigid stance can be thrown. Passage 76 states the rule: the hard and strong are [[followers of death|tu]]. Stand and let someone push your shoulder slowly. Resist first: you become a thing that can be moved. Then let the shoulder turn away under the hand while the feet stay. The push finds nothing. Notice also the line on armour. [[The best armour|si]] was the hide of the very beast that one feared.",
+    "leading": "Read the census as a view of a court. Three in ten thrive. Three are finished. Three are alive and busy, and each move takes them nearer the end, because they are trying so hard to secure themselves: more wealth, more allies, more guards. In a Warring States court that last group was large, and its members died of what they had gathered. The [[term for where they go|sidi]] is military. For a person in office the lesson is concrete. Each privilege that you defend and each rival whom you mark is a place where you can be struck. The official whom no one can hurt is the one who holds the post lightly and has taken nothing that must be hidden. There is no place in such a person for the horn.",
+    "practice": "Do the exercise of [[the place that braces|practice]]: find, in the first second of a threat, where the body hardens, and breathe out through it. Then make the passage’s count for your own day, in thirds. Which of today’s movements were in life’s company? Which in death’s? And which were the third kind, lively and well meant, and wearing you down? Do not correct anything yet. The passage asks 夫何故, “why is this?”, before it says anything else, and that is the practice: to ask it."
+  },
+  "glyph": "刃",
+  "plates": [
+    {
+      "c": "刃",
+      "title": "The dot that points at the edge",
+      "lesson": "Begin with 刀, a knife. The Shuowen calls it 兵也。象形, “a weapon; a picture”: the old forms show a handle and a curved blade. Now add one small stroke on the blade, and you have 刃. The Shuowen explains: 刀堅也。象刀有刃之形, “the hard part of the knife; it shows a knife that has an edge”. The added stroke is not a picture of anything. It is a pointer. It says: this part, here. Chinese scholars call such characters 指事, “pointing at the matter”, and they are few and easy to love. 本, root, is 木, a tree, with a mark at its foot; the Shuowen says 木下曰本, “the lower part of a tree is called 本”. 末, tip, is the same tree with the mark at the top. So 刃 is a knife with a finger on its sharpest place. It then serves as a sound in other characters. 忍, to endure: 刃 over 心, the heart, which the dictionary treats as sound only, though generations of readers have seen an edge held over a heart. In this passage the edge is the last of [[three points|weapons]], and the one made by people. The text says that it finds no place to enter. The character itself is a mark that shows where the cut would be.",
+      "brush": "Three strokes. The first makes the body of the knife: it runs to the right, turns the corner, comes down with a slight lean to the left, and ends in a hook. The second starts under the middle of the first and falls in a long curve to the lower left; this is the cutting edge, and it should be slim and quick. Watch the third stroke, the pointer. It is a single short mark set just beside the falling stroke, on the outside of the curve, close to it and not on it. Press, and lift at once. If it is too large the character becomes clumsy, and if it drifts far from the blade it means nothing. The whole lesson of this small character is placement: one touch of the brush, in exactly the place that matters."
+    },
+    {
+      "c": "死",
+      "title": "A person beside the bones",
+      "lesson": "Two parts. The left is 歹, which the Shuowen writes 歺 and defines as 𠛱骨之殘也, “what remains of bones that have been stripped”: bare, broken bone. It marks death and damage in 殘 (to maim), 殃 (calamity), and 殆, the “danger” of passage 44. The right part looks like 匕, a spoon, but the Shuowen is clear that it is a person: 从歺从人, “from bones and a person”. The common explanation of the early form is a living person who kneels or bows beside the remains of the dead. So the character for “to die” does not show the dying. It shows the mourner and what is left. The dictionary’s definition has the same view from outside: 死，澌也，人所離也, “to die is to run dry; it is what people part from”. Put 死 between two tufts of grass and you have 葬, to bury, which the Shuowen explains as the dead laid in thick grass with a mat beneath: 从死在茻中. In this passage the word comes five times, and twice in the term [[死地|sidi]], the ground of death. Notice that the text never uses it for the life-keeper. Of that person it says only 無死地: there is no such ground.",
+      "brush": "Six strokes. First a long horizontal across the top: a lid over the whole character. Under it on the left, the bones in three strokes: a short stroke that falls to the left; then a stroke that goes a little to the right, turns, and falls far to the lower left; then one dot inside the angle. On the right, the person in two strokes: a short stroke that comes in from the right and leans down to the left, and then the last and largest stroke. Watch it. It comes down, bends at the bottom, runs to the right along the ground, and ends in a hook that turns up. This sixth stroke gives the character its base and its only open curve. The two sides do not touch each other; a narrow channel of white runs down between the bones and the one who stays."
+    },
+    {
+      "c": "虎",
+      "title": "The tiger with human feet",
+      "lesson": "The Shuowen gives the tiger a title: 山獸之君, “lord of the beasts of the mountains”. It then divides the character in two. The upper part is 虍, which the dictionary defines as 虎文也, “the stripes of the tiger”, and calls a picture. The lower part is two strokes. The standard traditional form writes them as 几; the Shuowen saw the legs of a person, 儿, and says so plainly: 虎足象人足, “the tiger’s feet are like human feet”. Modern scholars read the history differently. Oracle-bone forms draw the whole animal on its side, with open jaws, a striped body, claws, and a long tail, and the regular script is what the brush made of that drawing, set upright; the “human feet” are the worn-down legs and tail. Look at those early forms in the links. Still, the dictionary’s remark is a good thing to hold beside this passage, which puts a person and a tiger on the same path. 虍 on its own makes the top of other characters, usually as a sound: 虛, empty; 處, to dwell; 慮, to think ahead. With 豸 or 犬 beside it the tiger becomes an adjective of ferocity. The tiger’s weapon here is 爪, the claw, [[a hand turned down|weapons]], and the text says that it finds no place to set it.",
+      "brush": "Eight strokes. The stripes take the first six. A short vertical at the top centre. A short horizontal that goes out from it to the right. Then a horizontal with a small hook at its right end, which covers what is below. Fourth, a long stroke that starts at the left end of that cover and falls far down to the left: the back of the animal, and the longest line. Inside, a short horizontal that rises a little, and a stroke that comes down through it and bends to the right. Then the feet in two strokes: one that falls to the left, and one that begins with a short run to the right, turns down, bends, runs to the right again, and hooks upward. Watch the last stroke. It must reach out past the upper part on the right, so that the heavy head has something to stand on."
+    }
+  ]
+}
