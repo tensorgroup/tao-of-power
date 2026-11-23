@@ -4,6 +4,7 @@
 import { h, tetragram, lineNames } from '../ui.js';
 import { bundleRemainder, lineFromTotal, splitSticks, drawTetragram, passageNumber } from '../draw.js';
 import { getIndex } from '../data.js';
+import { openSheet } from '../sheet.js';
 
 const EXAMPLES = [
   { label: '20 · 25 · 19', bundles: [20, 25, 19], note: 'An ordinary cast.' },
@@ -59,6 +60,7 @@ function stickRow(name, n, { whole = false } = {}) {
       }
       last.classList.add('kept-grp');
       tally.textContent = `${rem} left → ${rem} set aside`;
+      if (n < 3) return `${name}: only ${n} ${n > 1 ? 'sticks' : 'stick'} — fewer than three, so there is nothing to count off. Set ${n > 1 ? 'both' : 'it'} aside. This bundle gives ${rem}.`;
       return `${name}: ${Math.floor(n / 3)} threes make ${n - rem}; ${rem} ${rem > 1 ? 'sticks are' : 'stick is'} left. Set ${rem > 1 ? 'them' : 'it'} aside. This bundle gives ${rem}.`;
     },
   };
@@ -89,6 +91,20 @@ function castSteps(bundles, ui, { intro, onLine }) {
   return steps;
 }
 
+function whyThreeToFive() {
+  openSheet({
+    kind: 'Why?', title: 'Why the total is always 3, 4, or 5',
+    build: () => h('div', {},
+      h('p', {}, h('b', { text: 'Never less than 3. ' }), 'Every bundle gives at least 1 stick. If a bundle leaves 1 or 2, you set those aside. If it comes out even (nothing left), the rule says to take one stick out anyway. So three bundles always give at least 1 + 1 + 1 = 3. That is why 0, 1, or 2 can never happen.'),
+      h('p', {}, h('b', { text: 'Never more than 5. ' }), 'Every bundle gives at most 2, so the most you could imagine is 2 + 2 + 2 = 6. But for all three bundles to leave 2, each bundle must be a multiple of 3 plus 2. Add three of those and you get a multiple of 3 plus 6 — which is a multiple of 3. 64 is not: it is 63 + 1. So 6 can never happen.'),
+      h('p', {}, h('b', { text: 'Why 64 matters. ' }), 'The three remainders (before the take-one rule) must add up to what 64 leaves when divided by 3 — that is 1, or 1 + 3 = 4. With 63 sticks they would have to add up to 0, 3, or 6, and all three bundles could come out even at once. The 64th stick is what tilts every cast into 3, 4, or 5.'),
+      h('div', { class: 'how-key' },
+        h('div', {}, lineGlyph(0, 64), h('span', { text: '3 → solid' })),
+        h('div', {}, lineGlyph(1, 64), h('span', { text: '4 → broken once' })),
+        h('div', {}, lineGlyph(2, 64), h('span', { text: '5 → broken twice' })))),
+  });
+}
+
 export function howSection({ standalone = false } = {}) {
   const root = h('section', { class: 'how' });
   const stage = h('div', { class: 'how-stage', 'aria-live': 'polite' });
@@ -96,6 +112,7 @@ export function howSection({ standalone = false } = {}) {
   const result = h('div', { class: 'how-result' });
   const builder = h('div', { class: 'how-builder' });
   let mode = 'full';
+  let selected = null;
   let token = 0;
   let steps = [];
   let i = 0;
@@ -106,19 +123,22 @@ export function howSection({ standalone = false } = {}) {
   const exChips = h('div', { class: 'filters', role: 'group', 'aria-label': 'Examples' });
   const playBtn = h('button', { class: 'btn primary', type: 'button', text: 'Play', onclick: play });
   const nextBtn = h('button', { class: 'btn quiet', type: 'button', text: 'Next step', onclick: next });
-  const newBtn = h('button', { class: 'btn quiet', type: 'button', text: 'New random draw', onclick: () => load() });
+  const newBtn = h('button', { class: 'btn quiet', type: 'button', text: 'New random draw', onclick: () => { selected = null; renderChips(); load(); } });
 
-  function setMode(m) { mode = m; renderChips(); load(); }
+  function setMode(m) { mode = m; selected = null; renderChips(); load(); }
   function renderChips() {
     modeChips.replaceChildren(
       h('button', { type: 'button', class: 'chip', 'aria-pressed': String(mode === 'full'), text: 'A full draw, step by step', onclick: () => setMode('full') }),
       h('button', { type: 'button', class: 'chip', 'aria-pressed': String(mode === 'line'), text: 'One line up close', onclick: () => setMode('line') }));
     exChips.hidden = mode !== 'line';
-    exChips.replaceChildren(...EXAMPLES.map((ex) => h('button', { type: 'button', class: 'chip', text: ex.label, onclick: () => load(ex) })));
+    exChips.replaceChildren(...EXAMPLES.map((ex) => h('button', {
+      type: 'button', class: 'chip', 'aria-pressed': String(selected === ex), text: ex.label,
+      onclick: () => { selected = ex; renderChips(); load(ex, { jump: true }); },
+    })));
     newBtn.textContent = mode === 'full' ? 'New random draw' : 'Random line';
   }
 
-  function load(example) {
+  function load(example, { jump = false } = {}) {
     const my = ++token;
     ui.alive = () => my === token;
     playing = false;
@@ -163,7 +183,7 @@ export function howSection({ standalone = false } = {}) {
           h('p', { class: 'muted small', text: 'This was a real random draw, made the same way as the Draw page. Try another.' }));
       });
     }
-    run(0);
+    run(0).then(() => { if (jump) play(); });
   }
 
   async function run(k) {
@@ -191,7 +211,9 @@ export function howSection({ standalone = false } = {}) {
       h('li', {}, h('b', { text: 'Split. ' }), 'Divide the 64 sticks at random into three bundles.'),
       h('li', {}, h('b', { text: 'Count by threes. ' }), 'Take one bundle and remove sticks three at a time until fewer than three are left.'),
       h('li', {}, h('b', { text: 'Set aside the rest. ' }), 'One or two sticks are left: set them aside. If none are left, take one stick out and set that aside instead. So every bundle gives 1 or 2.'),
-      h('li', {}, h('b', { text: 'Repeat ' }), 'for the other two bundles, then add up what you set aside. The total is always 3, 4, or 5.'),
+      h('li', {}, h('b', { text: 'Repeat ' }), 'for the other two bundles, then add up what you set aside. ',
+        h('button', { type: 'button', class: 'mark', 'aria-haspopup': 'dialog', onclick: whyThreeToFive }, 'The total is always 3, 4, or 5.'),
+        h('sup', { class: 'fn-q', 'aria-hidden': 'true', text: ' why?' })),
       h('li', {}, h('b', { text: 'Make a line, ' }), 'then do it all again — four times. Stack the lines from the bottom up.')),
     h('div', { class: 'how-key' },
       h('div', {}, lineGlyph(0, 64), h('span', { text: '3 → solid' })),
@@ -200,7 +222,6 @@ export function howSection({ standalone = false } = {}) {
     modeChips, exChips,
     h('div', { class: 'frame how-box' }, builder, stage, caption, result,
       h('div', { class: 'row how-controls' }, playBtn, nextBtn, newBtn)),
-    h('p', { class: 'small', text: 'Why only 3, 4, or 5? Each bundle gives 1 or 2, so three bundles could give up to 6. But 6 needs all three bundles to leave 2, and three such bundles always add up to a multiple of 3 plus 0 — while 64 is a multiple of 3 plus 1. So 6 never happens.' }),
     h('p', { class: 'small', text: 'From four lines to a passage: three kinds of line in four places make 3 × 3 × 3 × 3 = 81 figures, one per passage. The order follows the Taixuan jing (太玄經), Yang Xiong’s book of 81 figures from about 2 BCE.' }),
     h('p', { class: 'small', text: 'Chance, fairly: the app splits the sticks with your device’s cryptographic random generator. The method itself is not perfectly even, and the app keeps that: a solid line comes 10 times in 31, a once-broken line 11 times in 31, a twice-broken line 10 times in 31 — as with real sticks.' }),
   );

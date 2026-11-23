@@ -388,3 +388,9 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 .how .filters { margin: .8rem 0 .4rem; }
 .how-result .how-sum { margin-bottom: 1rem; }
 .how-result p { margin-top: .4rem; }
+
+/* Clear pressed / selected feedback */
+.chip { transition: background-color .15s ease, color .15s ease, border-color .15s ease, transform .08s ease; }
+.chip:active, .btn:active { transform: scale(.97); background: var(--ink-2); color: var(--paper); border-color: var(--ink-2); }
+.chip[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--seal) inset; }
+.fn-q { color: var(--seal); font-size: .72em; letter-spacing: .04em; margin-left: .1em; }
