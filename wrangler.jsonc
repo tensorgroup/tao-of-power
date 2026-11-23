@@ -1,6 +1,9 @@
 {
   "name": "tao",
+  "account_id": "cb08826ea543ac8c950a73d3a0b982b2",
   "compatibility_date": "2026-11-01",
-  "assets": { "directory": "./app", "not_found_handling": "single-page-application" },
+  // Hash router: no SPA fallback, so a missing JSON/font is a real 404.
+  // The service worker caches the shell under "./" (not "index.html").
+  "assets": { "directory": "./app" },
   "routes": [{ "pattern": "tao.tensor.group", "custom_domain": true }]
 }
