@@ -105,6 +105,38 @@ function whyThreeToFive() {
   });
 }
 
+/** Two stacked lines: [lower, upper], bottom→top. */
+function bigramGlyph(pair, width = 28) {
+  const svg = tetragram([pair[0], pair[1], 0, 0], { size: width });
+  svg.querySelectorAll('g').forEach((g) => { if (Number(g.getAttribute('data-line')) > 1) g.remove(); });
+  const rects = [...svg.querySelectorAll('rect')];
+  const ys = rects.map((r) => Number(r.getAttribute('y')));
+  const lh = Number(rects[0].getAttribute('height'));
+  const top = Math.min(...ys);
+  const bottom = Math.max(...ys) + lh;
+  svg.setAttribute('viewBox', `0 ${top} ${width} ${bottom - top}`);
+  svg.setAttribute('height', bottom - top);
+  svg.classList.add('bigram');
+  return svg;
+}
+
+/** All 81 figures: column = top two lines, row = bottom two lines. n = 1 + 9·(column) + (row). */
+function figureTable() {
+  const pairs = [];
+  for (let hi = 0; hi < 3; hi++) for (let lo = 0; lo < 3; lo++) pairs.push([lo, hi]); // index = 3·hi + lo
+  const head = h('tr', {}, h('th', { class: 'corner', scope: 'col' }, h('span', { text: 'top two →' }), h('br'), h('span', { text: 'bottom two ↓' })),
+    ...pairs.map((p) => h('th', { scope: 'col', title: `top two lines: ${lineNames(p).replace(', ', ' below ')}` }, bigramGlyph(p))));
+  const rows = pairs.map((low, l) => h('tr', {},
+    h('th', { scope: 'row' }, bigramGlyph(low)),
+    ...pairs.map((up, u) => {
+      const n = 1 + 9 * u + l;
+      const lines = [low[0], low[1], up[0], up[1]];
+      return h('td', {}, h('a', { href: `#/p/${n}`, class: 'fig-cell', 'aria-label': `Passage ${n}: ${lineNames(lines)}` },
+        tetragram(lines, { size: 22 }), h('span', { text: String(n) })));
+    })));
+  return h('div', { class: 'fig-wrap' }, h('table', { class: 'fig-table' }, h('thead', {}, head), h('tbody', {}, ...rows)));
+}
+
 export function howSection({ standalone = false } = {}) {
   const root = h('section', { class: 'how' });
   const stage = h('div', { class: 'how-stage', 'aria-live': 'polite' });
@@ -221,7 +253,9 @@ export function howSection({ standalone = false } = {}) {
     modeChips, exChips,
     h('div', { class: 'frame how-box' }, builder, stage, caption, result,
       h('div', { class: 'row how-controls' }, playBtn, nextBtn, newBtn)),
-    h('p', { class: 'small', text: 'From four lines to a passage: three kinds of line in four places make 3 × 3 × 3 × 3 = 81 figures, one per passage. The order follows the Taixuan jing (太玄經), Yang Xiong’s book of 81 figures from about 2 BCE.' }),
+    h('h3', { text: 'The 81 figures' }),
+    h('p', { class: 'small', text: 'Three kinds of line in four places make 3 × 3 × 3 × 3 = 81 figures — every possible combination, one per passage. To find a figure, take its top two lines to choose the column and its bottom two lines to choose the row. The order follows the Taixuan jing (太玄經), Yang Xiong’s book of 81 figures from about 2 BCE: the bottom line changes fastest, so numbers count down each column. Tap any figure to open its passage.' }),
+    figureTable(),
     h('p', { class: 'small', text: 'Chance, fairly: the app splits the sticks with your device’s cryptographic random generator. The method itself is not perfectly even, and the app keeps that: a solid line comes 10 times in 31, a once-broken line 11 times in 31, a twice-broken line 10 times in 31 — as with real sticks.' }),
   );
   load();
