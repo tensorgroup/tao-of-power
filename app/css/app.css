@@ -20,10 +20,10 @@
   --brush: "Brush TC", "LXGW WenKai TC", "Kaiti TC", "STKaiti", "BiauKai", var(--han);
   --measure: 34rem;
   --tap: 44px;
-  color-scheme: light dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
+:root { color-scheme: light; }
+/* Theme: light by default; dark on request; "auto" follows the phone. */
+:root[data-theme="dark"] {
     --paper: #14120f;
     --paper-2: #1d1a16;
     --ink: #ece4d4;
@@ -34,8 +34,24 @@
     --seal-ink: #1a0e0a;
     --wash: rgba(208, 98, 76, 0.12);
     --shadow: 0 -8px 40px rgba(0, 0, 0, 0.6);
+    color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="auto"] {
+    --paper: #14120f;
+    --paper-2: #1d1a16;
+    --ink: #ece4d4;
+    --ink-2: #c4baa6;
+    --ink-3: #8f8573;
+    --rule: #3a342b;
+    --seal: #d0624c;
+    --seal-ink: #1a0e0a;
+    --wash: rgba(208, 98, 76, 0.12);
+    --shadow: 0 -8px 40px rgba(0, 0, 0, 0.6);
+    color-scheme: dark;
   }
 }
+.theme-btn { appearance: none; border: 0; background: none; color: var(--ink-2); min-width: var(--tap); min-height: var(--tap); border-radius: 50%; cursor: pointer; font-size: 1.15rem; line-height: 1; }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
@@ -80,7 +96,7 @@ nav { display: flex; gap: .15rem; margin-left: auto; }
 nav a {
   text-decoration: none; color: var(--ink-2);
   font-size: .95rem; letter-spacing: .04em;
-  padding: .55rem .55rem; min-height: var(--tap); display: inline-flex; align-items: center;
+  padding: .55rem .42rem; min-height: var(--tap); display: inline-flex; align-items: center;
   border-radius: 6px;
 }
 nav a[aria-current="page"] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--seal); border-radius: 0; }
