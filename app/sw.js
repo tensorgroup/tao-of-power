@@ -1,9 +1,10 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = '4a980e952b00';
+const VERSION = '18937dfb636b';
 const FILES = [
  "./",
  "css/app.css",
+ "data/echoes.json",
  "data/glossary.json",
  "data/index.json",
  "data/lexicon.json",
@@ -291,6 +292,7 @@ const FILES = [
  "js/views/about.js",
  "js/views/browse.js",
  "js/views/draw.js",
+ "js/views/how.js",
  "js/views/journal.js",
  "js/views/passage.js",
  "manifest.webmanifest"

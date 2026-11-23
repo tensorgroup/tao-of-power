@@ -352,3 +352,39 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 .mark .gloss { text-decoration: none; }
 .glossary-list { padding-left: 1.1rem; }
 .glossary-list li { margin-bottom: .45rem; font-size: 1rem; }
+
+/* How the draw works */
+.how-steps { padding-left: 1.3rem; }
+.how-steps li { margin-bottom: .5rem; }
+.how-key { display: flex; flex-wrap: wrap; gap: .8rem 1.6rem; margin: 1rem 0 .5rem; }
+.how-key > div { display: flex; align-items: center; gap: .6rem; }
+.line-glyph rect { fill: currentColor; }
+.how-box { margin-top: .5rem; }
+.how-row { margin: 0 0 1rem; }
+.row-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .2rem .8rem; font-size: .95rem; margin-bottom: .3rem; }
+.row-label { font-weight: 600; }
+.row-tally { color: var(--seal); }
+.sticks-row { display: flex; flex-wrap: wrap; gap: 6px 9px; align-items: flex-end; min-height: 34px; }
+.sticks-row .grp { display: inline-flex; gap: 3px; padding: 2px 3px; border-radius: 4px; transition: opacity .35s ease, background-color .35s ease; }
+.sticks-row .st { display: inline-block; width: 4px; height: 30px; border-radius: 2px; background: var(--ink); transition: opacity .35s ease, transform .35s ease, background-color .35s ease; }
+.sticks-row .grp.counted { opacity: .18; }
+.sticks-row .grp.kept-grp { background: var(--wash); }
+.sticks-row .grp.kept-grp .st, .sticks-row .st.kept { background: var(--seal); transform: translateY(-6px); }
+.sticks-row .st.dim { opacity: .18; }
+.how-caption { min-height: 3.2em; margin: .6rem 0; color: var(--ink-2); }
+.how-result { text-align: center; }
+.how-result .line-glyph { margin: .4rem auto .6rem; display: block; color: var(--ink); }
+.how-sum { font-size: 1.15rem; }
+.how-sum b { color: var(--seal); font-size: 1.4rem; }
+.how-controls { justify-content: center; margin-top: .6rem; }
+.how-example-tetra { display: flex; gap: 1rem; align-items: center; }
+
+.how-builder-in { display: flex; gap: 1rem; align-items: flex-start; padding-bottom: .8rem; margin-bottom: .8rem; border-bottom: 1px solid var(--rule); }
+.how-tetra { color: var(--ink); flex: none; }
+.how-tetra .ghost { opacity: .12; }
+.how-log { margin: .2rem 0 0; padding-left: 1.1rem; font-size: .92rem; }
+.how-log li { margin-bottom: .2rem; }
+.how-log b { color: var(--seal); font-weight: 600; }
+.how .filters { margin: .8rem 0 .4rem; }
+.how-result .how-sum { margin-bottom: 1rem; }
+.how-result p { margin-top: .4rem; }

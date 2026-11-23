@@ -3,8 +3,9 @@ import { readFileSync, existsSync, statSync } from 'node:fs';
 
 const root = new URL('../', import.meta.url);
 const path = new URL('app/data/art.json', root);
-if (!existsSync(path)) { console.log('check-art: no art.json yet'); process.exit(0); }
-const art = JSON.parse(readFileSync(path));
+const hasArt = existsSync(path);
+if (!hasArt) console.log('check-art: no art.json yet (echoes still checked)');
+const art = hasArt ? JSON.parse(readFileSync(path)) : { catalog: {}, passages: {}, stories: {} };
 const errors = [];
 const PD = /(public domain|^pd\b|pd-|cc0)/i;
 
@@ -19,7 +20,7 @@ for (const [id, a] of Object.entries(art.catalog || {})) {
 const missing = [];
 for (let n = 1; n <= 81; n++) {
   const list = art.passages?.[n] || [];
-  if (!list.length) missing.push(n);
+  if (hasArt && !list.length) missing.push(n);
   for (const e of list) if (!art.catalog?.[e.id]) errors.push(`passage ${n}: unknown art id ${e.id}`);
 }
 for (const [id, st] of Object.entries(art.stories || {})) {

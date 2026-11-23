@@ -2,6 +2,7 @@
 import { h, tetragram } from '../ui.js';
 import { getGlossary } from '../data.js';
 import { openGlossary } from '../notes.js';
+import { howSection } from './how.js';
 
 export async function aboutView() {
   const gl = await getGlossary();
@@ -10,16 +11,7 @@ export async function aboutView() {
     h('h1', { text: 'About' }),
     h('p', { text: 'The Daodejing (道德經) is about 5,000 characters long and was put together in China during the Warring States period, around the 4th century BCE. Tradition names its author Laozi, “the Old Master.” This page offers a way to meet it one passage at a time: by chance, slowly, with room to write.' }),
 
-    h('h3', { text: 'The draw' }),
-    h('p', { text: 'Sixty-four sticks are divided at random into three bundles. Each bundle is counted off by threes. What is left (one or two sticks; a bundle that comes out even gives up one stick) is set aside. The three remainders always add up to 3, 4, or 5, because 64 leaves 1 when divided by 3.' }),
-    h('div', { class: 'row' },
-      h('span', {}, tetragram([0, 0, 0, 0], { size: 36 })), h('span', { text: '3 → solid line' })),
-    h('div', { class: 'row' },
-      h('span', {}, tetragram([1, 1, 1, 1], { size: 36 })), h('span', { text: '4 → line broken once' })),
-    h('div', { class: 'row' },
-      h('span', {}, tetragram([2, 2, 2, 2], { size: 36 })), h('span', { text: '5 → line broken twice' })),
-    h('p', { text: 'Four casts build a tetragram from the bottom up. With three kinds of line and four places there are 3 × 3 × 3 × 3 = 81 figures — one for each passage. The order follows the Taixuan jing (太玄經), Yang Xiong’s 1st-century BCE book of 81 tetragrams.' }),
-    h('p', { text: 'Each split picks two cut points among the 63 gaps between sticks, using your device’s cryptographic random generator (crypto.getRandomValues, with rejection sampling so no value is favored). The odds follow the method itself: a solid line comes 10 times in 31, a once-broken line 11 times in 31, a twice-broken line 10 times in 31. So the middle passages come up a little more often than the edges — as they would with real sticks.' }),
+    howSection(),
 
     h('h3', { text: 'The texts' }),
     h('ul', {},

@@ -22,6 +22,7 @@ export async function drawView() {
     h('h1', { class: 'sr-title', text: 'Draw a passage' }),
     h('p', { class: 'lede', text: 'Settle. Hold a question lightly, or none at all. Then let the sticks fall.' }),
     h('div', { class: 'row actions' }, h('button', { class: 'btn red', type: 'button', text: 'Draw', onclick: () => run(root) })),
+    h('p', { class: 'small' }, h('a', { href: '#/how', class: 'muted', text: 'How does the draw work?' })),
   );
   root.append(start, recentList(idx));
   return root;

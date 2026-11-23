@@ -7,6 +7,7 @@ import { passageView } from './views/passage.js';
 import { journalView } from './views/journal.js';
 import { browseView } from './views/browse.js';
 import { aboutView } from './views/about.js';
+import { howView } from './views/how.js';
 import { setGlossary } from './notes.js';
 import { getGlossary } from './data.js';
 
@@ -33,6 +34,7 @@ const routes = [
   [/^#\/journal$/, () => journalView()],
   [/^#\/browse$/, () => browseView()],
   [/^#\/about$/, () => aboutView()],
+  [/^#\/how$/, () => howView()],
 ];
 
 async function route() {
