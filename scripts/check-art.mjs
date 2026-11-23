@@ -41,6 +41,18 @@ if (existsSync(ePath)) {
   }
   console.log(`echoes: ${count}`);
 }
+const wPath = new URL('app/data/wing.json', root);
+if (existsSync(wPath)) {
+  const w = JSON.parse(readFileSync(wPath));
+  let c = 0;
+  for (const [n, list] of Object.entries(w.passages || {})) for (const e of list) {
+    c++;
+    if (!e.title || !e.body || !e.kind) errors.push(`wing ${n}: title, body, kind required`);
+    if (!['idea', 'story', 'interpretation', 'contrast'].includes(e.kind)) errors.push(`wing ${n}: bad kind ${e.kind}`);
+    if ((e.body || '').split(/\s+/).length > 160) errors.push(`wing ${n}: body over 160 words`);
+  }
+  console.log(`wing notes: ${c}`);
+}
 if (missing.length) errors.push(`passages without art: ${missing.join(', ')}`);
 console.log(`art: ${Object.keys(art.catalog || {}).length} images, ${Object.keys(art.stories || {}).length} stories`);
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }

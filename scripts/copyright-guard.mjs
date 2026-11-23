@@ -56,5 +56,26 @@ for (const [f, obj] of lexFiles) {
     }
   }
 }
+// Echoes, stories, and Wing reference notes are shipped prose too.
+const scanFile = (rel, pick, n = N) => {
+  const fp = new URL(rel, root);
+  if (!existsSync(fp)) return;
+  const wingN = n === N ? wing : (() => { const g = new Set(); const ws = words(readFileSync(ocrPath, 'utf8')); for (let i = 0; i + n <= ws.length; i++) g.add(ws.slice(i, i + n).join(' ')); return g; })();
+  const leggeN = n === N ? leggeGrams : (() => { const g = new Set(); const ws = words(leggeText); for (let i = 0; i + n <= ws.length; i++) g.add(ws.slice(i, i + n).join(' ')); return g; })();
+  for (const [where, t] of pick(JSON.parse(readFileSync(fp)))) {
+    const ws = words(t || '');
+    for (let i = 0; i + n <= ws.length; i++) {
+      const g = ws.slice(i, i + n).join(' ');
+      if (wingN.has(g) && !allow.has(g) && !leggeN.has(g)) problems.push(`${rel} ${where}: shares "${g}"`);
+    }
+  }
+};
+scanFile('app/data/echoes.json', (d) => Object.entries(d.passages || {}).flatMap(([n, l]) => l.flatMap((e) => [[`${n}/${e.id}`, e.title], [`${n}/${e.id}`, e.body], [`${n}/${e.id}`, e.quoteEn]])));
+scanFile('app/data/art.json', (d) => [
+  ...Object.entries(d.stories || {}).flatMap(([id, st]) => [[id, st.title], [id, st.text]]),
+  ...Object.entries(d.passages || {}).flatMap(([n, l]) => l.flatMap((e) => [[`${n}`, e.caption], [`${n}`, e.look]])),
+]);
+scanFile('app/data/wing.json', (d) => Object.entries(d.passages || {}).flatMap(([n, l]) => l.flatMap((e) => [[`${n}`, e.title], [`${n}`, e.body]])), 5);
+
 if (problems.length) { console.error([...new Set(problems)].join('\n')); process.exit(1); }
 console.log('copyright-guard OK');

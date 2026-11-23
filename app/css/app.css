@@ -426,3 +426,6 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 #update { position: fixed; left: 50%; transform: translateX(-50%); top: calc(.6rem + env(safe-area-inset-top)); z-index: 31;
   background: var(--ink); color: var(--paper); padding: .55rem 1rem; border-radius: 999px; font-size: .95rem; box-shadow: 0 6px 24px rgba(0,0,0,.25); }
 #update button { background: none; border: 0; color: var(--seal); font-weight: 600; margin-left: .4rem; min-height: 36px; cursor: pointer; }
+
+.wing-btn { border-left-color: var(--ink-2); }
+.wing-ref h2 { margin-bottom: .3rem; }

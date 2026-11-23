@@ -3,6 +3,8 @@ import { h, tetragram } from '../ui.js';
 import { getGlossary } from '../data.js';
 import { openGlossary } from '../notes.js';
 import { howSection } from './how.js';
+import { getWing } from '../data.js';
+import { openWingNote } from './passage.js';
 
 function src(text, links = []) {
   return h('li', {}, text, links.length ? h('span', { class: 'src-links' }, ...links.map(([label, href]) =>
@@ -10,7 +12,8 @@ function src(text, links = []) {
 }
 
 export async function aboutView() {
-  const gl = await getGlossary();
+  const [gl, wing] = await Promise.all([getGlossary(), getWing()]);
+  const wingIntro = (wing.passages?.['0'] || [])[0];
   const li = (...c) => h('li', {}, ...c);
   return h('section', { class: 'about' },
     h('h1', { text: 'About' }),
@@ -36,6 +39,10 @@ export async function aboutView() {
       src('Fonts: EB Garamond, Noto Serif TC, LXGW WenKai TC — SIL Open Font License.', [['EB Garamond', 'https://fonts.google.com/specimen/EB+Garamond'], ['Noto Serif TC', 'https://fonts.google.com/noto/specimen/Noto+Serif+TC'], ['LXGW WenKai TC', 'https://github.com/lxgw/LxgwWenkaiTC'], ['OFL', 'https://openfontlicense.org/']]),
       src('Inspiration: R. L. Wing, The Tao of Power (Doubleday, 1986), which used the same 64-stick method. Its text is not reproduced here.', [['Open Library', 'https://openlibrary.org/works/OL8050823W']]),
     ),
+
+    wingIntro ? h('div', {}, h('h3', { text: 'R. L. Wing’s Tao of Power' }),
+      h('button', { class: 'story-btn wing-btn', type: 'button', onclick: () => openWingNote(wingIntro, wing.book) },
+        h('span', { class: 'kind', text: 'About the book that inspired this page' }), h('span', { text: wingIntro.title }))) : null,
 
     h('h3', { text: 'Glossary' }),
     h('p', { class: 'muted small', text: 'Names and terms used in the notes. Tap one for more.' }),

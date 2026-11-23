@@ -1,7 +1,7 @@
 // One passage: rendering with notes, the Chinese column, lenses, plate, Legge, journal.
 import { h, tetragram, lineNames, fmtDate, toast } from '../ui.js';
 import { linesFor } from '../draw.js';
-import { getPassage, getLexicon, getArt, getEchoes } from '../data.js';
+import { getPassage, getLexicon, getArt, getEchoes, getWing } from '../data.js';
 import { openSheet } from '../sheet.js';
 import { rich, openChar, hanify } from '../notes.js';
 import { isHan } from '../markup.js';
@@ -25,7 +25,7 @@ const LENS = [
 
 export async function passageView(n, drawId) {
   if (!(n >= 1 && n <= 81)) return h('p', { text: 'There are 81 passages.' });
-  const [{ text, rich: p }, lex, art, echoes] = await Promise.all([getPassage(n), getLexicon(), getArt(), getEchoes()]);
+  const [{ text, rich: p }, lex, art, echoes, wing] = await Promise.all([getPassage(n), getLexicon(), getArt(), getEchoes(), getWing()]);
   const ctx = { notes: p?.notes || {} };
   const lines = linesFor(n);
   const draw = drawId ? state.journal.draws.find((d) => d.id === drawId) : null;
@@ -89,6 +89,10 @@ export async function passageView(n, drawId) {
   const echoBox = echoSection(n, echoes, ctx);
   if (echoBox) root.append(echoBox);
 
+  // A reference to R. L. Wing's reading (our summary, not his words)
+  const wingBox = wingSection(n, wing, ctx);
+  if (wingBox) root.append(wingBox);
+
   // Calligraphy plates
   const plates = p?.plates?.length ? p.plates : (p?.glyph ? [{ c: p.glyph }] : []);
   if (plates.length) {
@@ -136,6 +140,31 @@ function openStory(st, ctx) {
       return box;
     },
   });
+}
+
+const WING_KIND = { idea: 'An idea', story: 'A story he tells', interpretation: 'His reading', contrast: 'Where we differ' };
+
+export function openWingNote(note, book, ctx = {}) {
+  openSheet({
+    kind: `R. L. Wing · ${WING_KIND[note.kind] || 'Reference'}`, title: note.title,
+    build: () => h('div', {},
+      ...String(note.body || '').split(/\n{2,}/).map((para) => rich(para, ctx, { block: true })),
+      h('p', { class: 'src' }, `${note.ref || 'The Tao of Power'}. Summarized in our own words; not quoted. `,
+        book?.link ? h('a', { href: book.link, target: '_blank', rel: 'noopener noreferrer', text: `${book.title} (${book.year})` }) : null)),
+  });
+}
+
+function wingSection(n, wing, ctx) {
+  const list = wing.passages?.[n] || [];
+  if (!list.length) return null;
+  const box = h('section', { class: 'echoes wing-ref', 'aria-label': 'A reference to R. L. Wing' },
+    h('h2', { text: 'A reference: R. L. Wing' }),
+    h('p', { class: 'muted small', text: 'The 1986 book that inspired this page. These are short summaries in our own words.' }));
+  for (const note of list) {
+    box.append(h('button', { class: 'story-btn wing-btn', type: 'button', onclick: () => openWingNote(note, wing.book, ctx) },
+      h('span', { class: 'kind', text: WING_KIND[note.kind] || 'Reference' }), h('span', { text: note.title })));
+  }
+  return box;
 }
 
 function echoSection(n, echoes, ctx) {
