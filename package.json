@@ -8,6 +8,6 @@
     "precache": "node scripts/build-precache.mjs",
     "serve": "npx --yes serve app -l 5173",
     "deploy": "npm run build && npm run check && npx wrangler deploy",
-    "build": "node scripts/build-text.mjs && node scripts/build-index.mjs && node scripts/build-precache.mjs"
+    "build": "node scripts/merge-lexicon.mjs && node scripts/build-text.mjs && node scripts/build-index.mjs && node scripts/build-precache.mjs"
   }
 }
