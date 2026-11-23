@@ -123,7 +123,7 @@ export function howSection({ standalone = false } = {}) {
   const exChips = h('div', { class: 'filters', role: 'group', 'aria-label': 'Examples' });
   const playBtn = h('button', { class: 'btn primary', type: 'button', text: 'Play', onclick: play });
   const nextBtn = h('button', { class: 'btn quiet', type: 'button', text: 'Next step', onclick: next });
-  const newBtn = h('button', { class: 'btn quiet', type: 'button', text: 'New random draw', onclick: () => { selected = null; renderChips(); load(); } });
+  const newBtn = h('button', { class: 'btn quiet', type: 'button', text: 'Restart', onclick: () => (mode === 'line' && selected ? load(selected, { jump: true }) : load()) });
 
   function setMode(m) { mode = m; selected = null; renderChips(); load(); }
   function renderChips() {
@@ -135,7 +135,6 @@ export function howSection({ standalone = false } = {}) {
       type: 'button', class: 'chip', 'aria-pressed': String(selected === ex), text: ex.label,
       onclick: () => { selected = ex; renderChips(); load(ex, { jump: true }); },
     })));
-    newBtn.textContent = mode === 'full' ? 'New random draw' : 'Random line';
   }
 
   function load(example, { jump = false } = {}) {
@@ -180,7 +179,7 @@ export function howSection({ standalone = false } = {}) {
         result.replaceChildren(
           h('div', { class: 'how-sum' }, 'Passage ', h('b', { text: String(n) }), title ? ` — ${title}` : ''),
           h('p', {}, h('a', { class: 'btn red', href: `#/p/${n}`, text: `Read passage ${n}` })),
-          h('p', { class: 'muted small', text: 'This was a real random draw, made the same way as the Draw page. Try another.' }));
+          h('p', { class: 'muted small', text: 'This was a real random draw, made the same way as the Draw page. Restart for another.' }));
       });
     }
     run(0).then(() => { if (jump) play(); });
