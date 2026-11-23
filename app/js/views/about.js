@@ -1,7 +1,10 @@
 // How the draw works, sources, licenses, and where your data lives.
 import { h, tetragram } from '../ui.js';
+import { getGlossary } from '../data.js';
+import { openGlossary } from '../notes.js';
 
-export function aboutView() {
+export async function aboutView() {
+  const gl = await getGlossary();
   const li = (...c) => h('li', {}, ...c);
   return h('section', { class: 'about' },
     h('h1', { text: 'About' }),
@@ -30,6 +33,11 @@ export function aboutView() {
       li('Variant readings: the Mawangdui silk manuscripts (2nd c. BCE), collated text from Wikisource.'),
     ),
     h('p', { class: 'muted small', text: 'Made in the spirit of R. L. Wing’s The Tao of Power (1986), which used the same 64-stick method and taught that a chance meeting with a passage can be the right one.' }),
+
+    h('h3', { text: 'Glossary' }),
+    h('p', { class: 'muted small', text: 'Names and terms used in the notes. Tap one for more.' }),
+    h('ul', { class: 'glossary-list' }, Object.entries(gl).sort((a, b) => a[1].term.localeCompare(b[1].term)).map(([k, e]) =>
+      h('li', {}, h('button', { class: 'gloss', type: 'button', onclick: () => openGlossary(k) }, e.term), e.zh ? h('span', { lang: 'zh-Hant', class: 'muted', text: ` ${e.zh}` }) : null, ` — ${e.short}`))),
 
     h('h3', { text: 'Your journal lives in this browser' }),
     h('p', { text: 'Entries are stored only on this device, in this browser. Nothing is sent anywhere. Browsers can delete site data: Brave Shields with “forget me when I close this site,” clearing site data, Safari’s 7-day rule for sites you do not visit, or removing a home-screen app. Export from the Journal page now and then, and after anything you would hate to lose. Import merges files, so old and new backups can be combined.' }),

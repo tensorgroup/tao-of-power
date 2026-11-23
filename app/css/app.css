@@ -344,3 +344,11 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 .echo-quote { margin: 0 0 1rem; padding: .6rem 0 .6rem 1rem; border-left: 3px solid var(--seal); }
 .echo-quote p[lang] { font-family: var(--han); font-size: 1.25rem; margin: 0 0 .3rem; }
 .echo-quote p[lang="ja"] { font-family: var(--han), "Hiragino Mincho ProN", "Yu Mincho", serif; }
+
+/* Glossary terms */
+.gloss { appearance: none; background: none; border: 0; padding: 0; margin: 0; font: inherit; color: inherit; cursor: help;
+  text-decoration: underline dotted var(--ink-3); text-decoration-thickness: 1.5px; text-underline-offset: .2em; }
+.gloss:hover, .gloss:focus-visible { color: var(--seal); text-decoration-color: var(--seal); }
+.mark .gloss { text-decoration: none; }
+.glossary-list { padding-left: 1.1rem; }
+.glossary-list li { margin-bottom: .45rem; font-size: 1rem; }

@@ -18,6 +18,7 @@ export const getText = () => json('data/text.json');
 export const getLexicon = () => json('data/lexicon.json');
 export const getArt = () => json('data/art.json').catch(() => ({ catalog: {}, passages: {}, stories: {} }));
 export const getEchoes = () => json('data/echoes.json').catch(() => ({ passages: {} }));
+export const getGlossary = () => json('data/glossary.json').catch(() => ({}));
 export const getIndex = () => json('data/index.json').catch(() => ({ passages: {} }));
 
 /** {text, rich|null}. rich is null when the passage file is not written yet. */

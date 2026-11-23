@@ -1,0 +1,267 @@
+{
+  "shuowen": {
+    "term": "Shuowen Jiezi", "zh": "說文解字", "aliases": ["Shuowen Jiezi", "Shuowen jiezi", "Shuowen"],
+    "short": "China's first great character dictionary, finished by Xu Shen around 100 CE.",
+    "body": "The Shuowen Jiezi — “Explaining the simple graphs and analysing the compound characters” — was finished by the Han scholar Xu Shen (許慎) around 100 CE. It sorts about 9,353 characters under 540 radicals and gives each one a short definition and an account of how it is built: which part carries the meaning, which part the sound. It is the oldest systematic attempt to say why a character looks the way it does. It is not always right — Xu Shen never saw the oracle bones, which were found in 1899 — but almost every later account of a character starts from it. When a note here quotes the Shuowen, the quote is checked against the full text."
+  },
+  "xushen": {
+    "term": "Xu Shen", "zh": "許慎", "aliases": ["Xu Shen"],
+    "short": "Han-dynasty scholar (c. 58–c. 147 CE) who wrote the Shuowen Jiezi.",
+    "body": "Xu Shen was a classics scholar of the Eastern Han. His dictionary, the [[Shuowen Jiezi|shuowen]], was the first to explain characters by their parts. He worked from the small seal script of the Qin and Han, not from the older oracle-bone and bronze forms."
+  },
+  "duanyucai": {
+    "term": "Duan Yucai", "zh": "段玉裁", "aliases": ["Duan Yucai"],
+    "short": "Qing scholar (1735–1815) whose commentary on the Shuowen is the classic study of it.",
+    "body": "Duan Yucai spent some thirty years on his annotated Shuowen (說文解字注). He corrected the text, traced word meanings through early sources, and worked on the old sound system. Notes here cite him when a reading of a character depends on his arguments."
+  },
+  "wangbi": {
+    "term": "Wang Bi", "zh": "王弼", "aliases": ["Wang Bi"],
+    "short": "A brilliant young philosopher (226–249 CE) whose edition and commentary of the Laozi became the standard text.",
+    "body": "Wang Bi died at twenty-three and left two of the most influential commentaries in Chinese history, on the Laozi and on the Yijing. His Laozi text is the “received text” most translations use, including this one. His comments read the book as philosophy of 無 (non-being, the not-there) as the root of 有 (being, the there). This page shows his Chinese comments under each passage, and the notes translate key lines freshly."
+  },
+  "heshanggong": {
+    "term": "Heshang Gong", "zh": "河上公", "aliases": ["Heshang Gong"],
+    "short": "“The Old Man by the River” — a legendary sage credited with an early Laozi commentary focused on the body and long life.",
+    "body": "The Heshang Gong commentary is traditionally dated to the Han dynasty; scholars now place it somewhat later. Its author is a legend: a hermit by the Yellow River who taught Emperor Wen. Where Wang Bi reads the Laozi as philosophy, Heshang Gong reads it as a guide to nourishing the body, the breath, and the spirits within — and to ruling a state the same way. Its text sometimes differs from Wang Bi's."
+  },
+  "mawangdui": {
+    "term": "Mawangdui silk texts", "zh": "馬王堆帛書", "aliases": ["Mawangdui silk texts", "Mawangdui silk", "Mawangdui", "silk A", "silk B", "silk texts", "silk text"],
+    "short": "Two manuscripts of the Laozi on silk, buried in 168 BCE and found in 1973 at Mawangdui, Changsha.",
+    "body": "In 1973 archaeologists opened a Han-dynasty tomb at Mawangdui (“King Ma's Mound”) near Changsha. Among the books inside were two copies of the Laozi written on silk, called A (甲) and B (乙). They are some four hundred years older than Wang Bi's text. Both put the 德 (de) half first, and they differ in hundreds of small ways — a particle, a different character, a missing phrase. Copy A avoids no imperial names; copy B avoids 邦 (the founding emperor's name), which helps date them. Gaps in the damaged silk are shown as □."
+  },
+  "guodian": {
+    "term": "Guodian bamboo slips", "zh": "郭店楚簡", "aliases": ["Guodian bamboo slips", "Guodian slips", "Guodian"],
+    "short": "The oldest known Laozi material: bamboo slips from a tomb of about 300 BCE, found in 1993 in Hubei.",
+    "body": "In 1993 a tomb at Guodian, in the old state of Chu, gave up about 800 bamboo slips. Some 71 of them carry passages that match about a third of the Laozi, in a different order and with different wording — for example a milder chapter 19 that does not attack humaneness and rightness. They show the book was still taking shape around 300 BCE. Notes mark Guodian readings as “reported” where we cannot check the transcription here."
+  },
+  "beida": {
+    "term": "Beida bamboo Laozi", "zh": "北大漢簡老子", "aliases": ["Beida"],
+    "short": "A nearly complete Han-dynasty bamboo Laozi, bought by Peking University (Beida) in 2009.",
+    "body": "The Beida slips were donated to Peking University in 2009 after leaving China through the antiquities market, so their origin is not documented and some scholars doubt them. If genuine, they date to the 1st century BCE and divide the text into 77 chapters."
+  },
+  "fuyi": {
+    "term": "Fu Yi", "zh": "傅奕", "aliases": ["Fu Yi"],
+    "short": "Tang scholar (555–639) who edited an “ancient text” of the Laozi said to come from a tomb.",
+    "body": "Fu Yi's edition claims to rest on a copy found in a tomb in 574 CE. It often agrees with the Mawangdui silk against Wang Bi, which suggests it does keep older readings."
+  },
+  "received": {
+    "term": "received text", "aliases": ["received text"],
+    "short": "The version of a classic handed down by copying and printing, as opposed to manuscripts dug up from tombs.",
+    "body": "For the Laozi the received text usually means Wang Bi's edition. Excavated manuscripts (Guodian, Mawangdui, Beida) let us see what changed along the way."
+  },
+  "warring": {
+    "term": "Warring States", "zh": "戰國", "aliases": ["Warring States"],
+    "short": "The age of China's wars of unification, about 475–221 BCE — the world in which the Laozi took shape.",
+    "body": "As the Zhou kings lost real power, a handful of large states — Qin, Chu, Qi, Yan, Zhao, Wei, Han — fought for mastery. Armies grew to hundreds of thousands; states built walls, roads, and law codes; a class of wandering advisers (士) sold strategies to rulers. Confucians, Mohists, Legalists, strategists like Sunzi, and the Laozi all answer the same question: how should power work? In 221 BCE Qin conquered the rest and founded the empire."
+  },
+  "zhou": {
+    "term": "Zhou dynasty", "zh": "周", "aliases": ["Zhou dynasty", "Zhou king", "Zhou kings", "the Zhou"],
+    "short": "The long dynasty (c. 1046–256 BCE) whose ritual order collapsed into the Warring States.",
+    "body": "The Zhou kings ruled through kin and ritual. Tradition says Laozi was an archivist at the Zhou court who left when the dynasty declined."
+  },
+  "han": {
+    "term": "Han dynasty", "zh": "漢", "aliases": ["Han dynasty", "Eastern Han", "Western Han"],
+    "short": "The empire of 206 BCE–220 CE that fixed the classics, made the first dictionaries, and buried the Mawangdui silk.",
+    "body": "Early Han rulers favoured “Huang-Lao” thought — government by the Laozi's light touch. Later Han made Confucianism the state orthodoxy."
+  },
+  "qin": {
+    "term": "Qin", "zh": "秦", "aliases": ["Qin state", "the Qin"],
+    "short": "The western state that conquered all others in 221 BCE and founded the first empire.",
+    "body": "Qin ran on Legalist methods — law, reward, punishment, registration of every household. Its first emperor standardised the script into small seal. The dynasty fell within fifteen years of his death, a story later readers often set beside the Laozi's warnings about force."
+  },
+  "oraclebone": {
+    "term": "oracle-bone script", "zh": "甲骨文", "aliases": ["oracle-bone script", "oracle-bone form", "oracle-bone forms", "oracle bones", "oracle bone", "oracle-bone"],
+    "short": "The oldest Chinese writing (c. 1250–1050 BCE): questions to the spirits cut into turtle shells and ox bones.",
+    "body": "Shang kings asked their ancestors about harvests, war, childbirth, and weather. Diviners heated a shell or bone until it cracked, read the crack, and carved the question and often the answer beside it. About 4,500 different graphs are known; about a third are read with confidence. They were only recognised in 1899, so earlier scholars like Xu Shen never saw them."
+  },
+  "bronze": {
+    "term": "bronze script", "zh": "金文", "aliases": ["bronze script", "bronze form", "bronze forms", "bronze inscriptions", "bronze inscription"],
+    "short": "Writing cast into ritual bronze vessels, from the late Shang through the Zhou (c. 1200–200 BCE).",
+    "body": "Bronze inscriptions record gifts, appointments, and victories “for sons and grandsons to treasure forever.” Because they were cast, the strokes are rounder and fuller than the knife-cut oracle bones."
+  },
+  "seal": {
+    "term": "seal script", "zh": "篆書", "aliases": ["small seal script", "small seal", "seal script", "seal form", "seal forms", "seal-script"],
+    "short": "The formal script of Qin and Han — even, curving lines — still used today on name seals.",
+    "body": "“Large seal” covers earlier Zhou forms; “small seal” is the version Qin standardised after 221 BCE. The Shuowen is organised around small seal. Its lines have equal weight and rounded turns, more like drawing than brushing."
+  },
+  "clerical": {
+    "term": "clerical script", "zh": "隸書", "aliases": ["clerical script", "clerical"],
+    "short": "The flat, broad script of Han clerks, where the brush first shows its own swells and flicks.",
+    "body": "Clerks writing fast with a brush squared off the seal curves. The result is wide, with a signature wave-shaped stroke that thickens and flares (the 磔). Most modern character shapes come from this change."
+  },
+  "regular": {
+    "term": "regular script", "zh": "楷書", "aliases": ["regular script", "small regular script"],
+    "short": "The standard, carefully separated script used since about the 3rd century CE — the form printed in books today.",
+    "body": "Each stroke is distinct, with a clear entry, movement, and exit. The brushed characters on this page follow regular-script stroke order."
+  },
+  "running": {
+    "term": "running script", "zh": "行書", "aliases": ["running script"],
+    "short": "A semi-cursive hand: regular script written fast, strokes linking within a character.",
+    "body": "Wang Xizhi's Orchid Pavilion Preface (353 CE) is the most admired example."
+  },
+  "cursive": {
+    "term": "cursive script", "zh": "草書", "aliases": ["cursive script", "grass script", "cursive"],
+    "short": "“Grass script”: the fastest, most abbreviated hand, where whole characters become a few loops.",
+    "body": "It can be hard to read even for Chinese readers, and is prized as the freest expression of a calligrapher's spirit."
+  },
+  "radical": {
+    "term": "radical", "zh": "部首", "aliases": ["radical", "radicals"],
+    "short": "The component under which a character is filed in a dictionary, often hinting at its meaning.",
+    "body": "Water (氵) appears in characters for liquids and flowing; the heart (心, 忄) in characters for feelings. The Shuowen used 540 radicals; modern dictionaries use 214 or fewer."
+  },
+  "phonetic": {
+    "term": "phonetic component", "aliases": ["phonetic component", "sound component", "phonetic"],
+    "short": "The part of a character that hints at its sound rather than its meaning.",
+    "body": "Most characters are built from a meaning part plus a sound part. 沖 is water (氵) for meaning plus 中 for sound. Over 2,500 years the sounds drifted, so the hint often no longer works in Mandarin."
+  },
+  "oldchinese": {
+    "term": "Old Chinese", "aliases": ["Old Chinese", "rhyme group", "rhyme groups"],
+    "short": "The spoken language of the Zhou period, very different in sound from modern Mandarin.",
+    "body": "Scholars group Old Chinese words into “rhyme groups” from the rhymes of the Book of Odes and the sound parts of characters. Parts of the Laozi rhyme in Old Chinese though they no longer rhyme in Mandarin. Reconstructions of exact pronunciations differ between systems, so notes here give only the rhyme groups."
+  },
+  "pinyin": {
+    "term": "pinyin", "aliases": ["pinyin"],
+    "short": "The standard way of writing Mandarin sounds in the Latin alphabet, with marks for the four tones.",
+    "body": "dào with a falling tone, wú rising, mǎ dipping, tiān level. Pinyin gives modern Mandarin sounds, not the sounds of Laozi's time."
+  },
+  "unihan": {
+    "term": "Unihan", "aliases": ["Unihan"],
+    "short": "The Unicode Consortium's database of Chinese characters: readings, short definitions, variants.",
+    "body": "The quick definitions and pinyin shown when you tap a character come from Unihan. They are modern dictionary senses; the notes explain what a character meant in the Laozi."
+  },
+  "legge": {
+    "term": "James Legge", "aliases": ["James Legge", "Legge"],
+    "short": "Scottish missionary and Oxford's first professor of Chinese (1815–1897); his 1891 Laozi is shown under each passage.",
+    "body": "Legge spent some thirty years in Malacca and Hong Kong, then translated the Confucian and Daoist classics for Max Müller's Sacred Books of the East. His work is careful and learned, and it is also shaped by his Christian and Victorian frame — for example in how he renders 天 (Heaven), 聖人 (the sage), and 德 (virtue). Notes marked “Legge's frame” point out where."
+  },
+  "sbe": {
+    "term": "Sacred Books of the East", "aliases": ["Sacred Books of the East"],
+    "short": "A 50-volume series (1879–1910) edited by Max Müller translating Asian scriptures into English.",
+    "body": "Legge's Daoist volumes (39 and 40, 1891) helped fix how the West read the Laozi for a century."
+  },
+  "zhuangzi": {
+    "term": "Zhuangzi", "zh": "莊子", "aliases": ["Zhuangzi", "Chuang Tzu"],
+    "short": "The second great Daoist classic (4th–3rd c. BCE): stories, jokes, and dialogues by Zhuang Zhou and his school.",
+    "body": "Where the Laozi is terse verse, the Zhuangzi is playful prose: Cook Ding carving an ox, a butterfly dream, a useless tree that lives long because no one wants its wood. It shares the Laozi's distrust of fixed names and forced action, with more humour and less interest in ruling."
+  },
+  "sunzi": {
+    "term": "Sunzi", "zh": "孫子兵法", "aliases": ["Sunzi", "Sun Tzu", "Art of War"],
+    "short": "The classic of strategy, traditionally credited to Sun Wu (6th–5th c. BCE).",
+    "body": "Sunzi praises winning without battle, shapelessness like water, and knowing self and enemy. It shares much vocabulary with the Laozi, and later readers often paired them."
+  },
+  "hanfeizi": {
+    "term": "Han Feizi", "zh": "韓非子", "aliases": ["Han Feizi", "Han Fei"],
+    "short": "The great Legalist book (3rd c. BCE); its chapters Jie Lao and Yu Lao are the oldest surviving commentary on the Laozi.",
+    "body": "Han Fei, a student of Xunzi, wrote for rulers who wanted control through law and technique. Strikingly, he read the Laozi closely — as a manual of the ruler's hidden power."
+  },
+  "analects": {
+    "term": "Analects", "zh": "論語", "aliases": ["Analects"],
+    "short": "The sayings of Confucius (551–479 BCE) and his students.",
+    "body": "Confucius taught ritual, humaneness (仁), and right conduct (義) as the way to restore order. The Laozi often pushes back against these ideals."
+  },
+  "mencius": {
+    "term": "Mencius", "zh": "孟子", "aliases": ["Mencius", "Mengzi"],
+    "short": "Confucian thinker (c. 372–289 BCE) who argued human nature is good.",
+    "body": "His book is the second great Confucian classic, full of debates with Warring States kings."
+  },
+  "xunzi": {
+    "term": "Xunzi", "zh": "荀子", "aliases": ["Xunzi"],
+    "short": "Confucian thinker (3rd c. BCE) who argued human nature must be shaped by ritual and learning.",
+    "body": "Teacher of Han Fei and Li Si, the architects of Qin's Legalist state."
+  },
+  "yijing": {
+    "term": "Yijing", "zh": "易經", "aliases": ["Yijing", "I Ching", "Book of Changes"],
+    "short": "The Book of Changes: an ancient divination manual of 64 six-line figures (hexagrams).",
+    "body": "Its commentaries became a philosophy of change, yin and yang. The Taixuan jing, with its 81 four-line figures, imitates it — and that is the figure system this page uses to draw a passage."
+  },
+  "taixuan": {
+    "term": "Taixuan jing", "zh": "太玄經", "aliases": ["Taixuan jing", "Taixuan"],
+    "short": "Yang Xiong's “Classic of Great Mystery” (c. 2 BCE), built on 81 tetragrams of four lines.",
+    "body": "Yang Xiong (揚雄) made a ternary rival to the Yijing: each line is whole, broken once, or broken twice, giving 3⁴ = 81 figures. Its 玄 (“dark, mysterious”) comes straight from the Laozi's first passage. This page uses its order to match each tetragram to a passage."
+  },
+  "tetragram": {
+    "term": "tetragram", "aliases": ["tetragram", "tetragrams"],
+    "short": "A figure of four stacked lines, each solid, broken once, or broken twice — 81 in all.",
+    "body": "You build one from the bottom up with four casts of the 64 sticks. Its number is the passage you read."
+  },
+  "zuozhuan": {
+    "term": "Zuozhuan", "zh": "左傳", "aliases": ["Zuozhuan", "Zuo zhuan"],
+    "short": "A great narrative history of the Spring and Autumn period (722–468 BCE).",
+    "body": "Full of battles, speeches, omens, and diplomacy — the best picture of the world just before the Laozi."
+  },
+  "shiji": {
+    "term": "Shiji", "zh": "史記", "aliases": ["Shiji", "Records of the Grand Historian", "Sima Qian"],
+    "short": "Sima Qian's history of China up to about 100 BCE; it contains the earliest biography of Laozi.",
+    "body": "Sima Qian gives Laozi's name as Li Er, an archivist of Zhou, who met Confucius and later left through the western pass, writing his book for the gatekeeper. Sima Qian himself admits the sources are uncertain."
+  },
+  "shijing": {
+    "term": "Book of Odes", "zh": "詩經", "aliases": ["Book of Odes", "Shijing", "Book of Songs"],
+    "short": "The oldest Chinese poetry anthology: 305 songs, about 1000–600 BCE.",
+    "body": "Its rhymes are the main evidence for how Old Chinese sounded."
+  },
+  "liji": {
+    "term": "Liji", "zh": "禮記", "aliases": ["Liji", "Book of Rites"],
+    "short": "The Record of Rites: Han compilation on ritual, mourning, family, and government.",
+    "body": "Its rules on mourning and the left/right sides of honour explain passage 31."
+  },
+  "huainanzi": {
+    "term": "Huainanzi", "zh": "淮南子", "aliases": ["Huainanzi"],
+    "short": "A Han encyclopaedia of Daoist-flavoured statecraft and cosmology, presented in 139 BCE.",
+    "body": "Compiled at the court of Liu An, King of Huainan, it quotes and expands the Laozi often."
+  },
+  "guanzi": {
+    "term": "Guanzi / Neiye", "zh": "管子・內業", "aliases": ["Guanzi", "Neiye", "Nei ye"],
+    "short": "Neiye (“Inward Training”), a chapter of the Guanzi, is perhaps the oldest Chinese text on meditation and breath.",
+    "body": "It teaches settling the heart, refining 精 (essence) and 氣 (breath-energy) — a body practice that sits close to several Laozi passages."
+  },
+  "dao": {
+    "term": "Dao", "zh": "道", "aliases": ["Dao"],
+    "short": "Literally a road or way; also “to speak” and “to lead.” The book's central, unnamable word.",
+    "body": "Left untranslated here because every English choice (Way, Path, Truth, Logos, God) brings a frame the Chinese does not have."
+  },
+  "de": {
+    "term": "de", "zh": "德", "aliases": ["de"],
+    "short": "The power or charisma that comes from being in accord with Dao — “virtue” in the old sense of a plant's virtue.",
+    "body": "Not moral goodness alone: de is the quiet pull of a person or thing that is fully itself. It is related in sound to 得, “to get.”"
+  },
+  "wuwei": {
+    "term": "wu wei", "zh": "無為", "aliases": ["wu wei", "wu-wei", "not-forcing", "not-doing"],
+    "short": "Literally “no doing”: acting without forcing, so that things go of themselves.",
+    "body": "Not passivity — more like the effortless timing of a skilled craftsman or a river finding its way."
+  },
+  "sage": {
+    "term": "sage", "zh": "聖人", "aliases": ["the sage"],
+    "short": "聖人, the person of full attunement — in the Laozi usually a ruler.",
+    "body": "聖 has an ear (耳) and a mouth (口): one who hears and speaks rightly. Not a saint, and not simply a wise man."
+  },
+  "tenthousand": {
+    "term": "ten thousand things", "zh": "萬物", "aliases": ["ten thousand things"],
+    "short": "萬物: everything that exists — all beings and things.",
+    "body": "“Ten thousand” means countless. The phrase includes people, animals, plants, and objects alike."
+  },
+  "jicheng": {
+    "term": "Jicheng", "aliases": ["Jicheng"],
+    "short": "The 2014 complete edition of the Mawangdui silk and slip manuscripts, with new photographs and transcriptions.",
+    "body": "Its transcription is the source of the silk A and B readings quoted here."
+  },
+  "zhaomengfu": {
+    "term": "Zhao Mengfu", "zh": "趙孟頫", "aliases": ["Zhao Mengfu"],
+    "short": "Yuan-dynasty painter and calligrapher (1254–1322) who copied the whole Daodejing in small regular script in 1316.",
+    "body": "His elegant, balanced hand became a model for centuries of students."
+  },
+  "wangxizhi": {
+    "term": "Wang Xizhi", "zh": "王羲之", "aliases": ["Wang Xizhi"],
+    "short": "The “Sage of Calligraphy” (303–361 CE), master of running script.",
+    "body": "Legend says he once copied a Daoist text for a priest in exchange for a flock of geese."
+  },
+  "musashi": {
+    "term": "Miyamoto Musashi", "zh": "宮本武蔵", "aliases": ["Miyamoto Musashi", "Musashi", "Book of Five Rings", "Five Rings"],
+    "short": "Japanese swordsman and painter (c. 1584–1645), author of the Book of Five Rings (五輪書).",
+    "body": "He wrote his book in a cave near the end of his life, in five scrolls: Earth, Water, Fire, Wind, and Void. His Water scroll and Void scroll come close to the Laozi's water and emptiness."
+  },
+  "redchamber": {
+    "term": "Dream of the Red Chamber", "zh": "紅樓夢", "aliases": ["Dream of the Red Chamber", "Story of the Stone", "Red Chamber"],
+    "short": "Cao Xueqin's 18th-century novel, the greatest in Chinese, framed by a magic stone and Daoist and Buddhist wanderers.",
+    "body": "Also called The Story of the Stone (石頭記). A stone left over when the goddess Nüwa mended the sky is born into the human world. Its famous couplet — 假作真時真亦假 — “when the false is taken as true, the true becomes false too” — echoes the Laozi's play of being and non-being."
+  }
+}

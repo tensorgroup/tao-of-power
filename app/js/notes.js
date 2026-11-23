@@ -4,6 +4,63 @@ import { parseMarked, isHan } from './markup.js';
 import { openSheet } from './sheet.js';
 import { getLexicon, charLinks } from './data.js';
 
+// ---- Glossary: terms like "Shuowen" become tappable (title gives a hover tooltip) ----
+let GLOSS = null;
+let GLOSS_RE = null;
+const ALIAS = new Map();
+export function setGlossary(g) {
+  GLOSS = g || {};
+  ALIAS.clear();
+  for (const [key, e] of Object.entries(GLOSS)) for (const a of [e.term, ...(e.aliases || [])]) ALIAS.set(a.toLowerCase(), key);
+  const alts = [...ALIAS.keys()].sort((a, b) => b.length - a.length).map((a) => a.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  GLOSS_RE = alts.length ? new RegExp(`(?<![A-Za-z])(${alts.join('|')})(?![A-Za-z])`, 'gi') : null;
+}
+
+export function openGlossary(key, ctx = {}) {
+  const e = GLOSS?.[key];
+  if (!e) return;
+  openSheet({
+    kind: 'Glossary', title: e.zh ? `${e.term}  ${e.zh}` : e.term,
+    build: () => {
+      const box = h('div', {}, h('p', {}, h('b', { text: e.short })));
+      const gctx = { ...ctx, notes: Object.fromEntries(Object.keys(GLOSS).map((k) => [k, null])), glossSeen: new Set([key]) };
+      for (const para of String(e.body || '').split(/\n{2,}/)) box.append(glossText(para, gctx, true));
+      return box;
+    },
+  });
+}
+
+/** Plain text → text + glossary buttons + tappable Han characters. Marks each term once per ctx.glossSeen. */
+function glossify(text, ctx) {
+  const frag = document.createDocumentFragment();
+  if (!GLOSS_RE) { frag.append(hanify(text, ctx)); return frag; }
+  const seen = ctx.glossSeen || (ctx.glossSeen = new Set());
+  let last = 0;
+  for (const m of text.matchAll(GLOSS_RE)) {
+    const key = ALIAS.get(m[1].toLowerCase());
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    if (m.index > last) frag.append(hanify(text.slice(last, m.index), ctx));
+    frag.append(h('button', {
+      type: 'button', class: 'gloss', title: GLOSS[key].short, 'aria-haspopup': 'dialog',
+      onclick: (ev) => { ev.stopPropagation(); openGlossary(key, ctx); },
+    }, m[1]));
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) frag.append(hanify(text.slice(last), ctx));
+  return frag;
+}
+
+/** Glossary-body text: [[Term|glossKey]] links to other glossary entries. */
+function glossText(str, ctx, block) {
+  const frag = document.createDocumentFragment();
+  for (const seg of parseMarked(str || '')) {
+    if (seg.note && GLOSS?.[seg.note]) frag.append(h('button', { type: 'button', class: 'gloss', onclick: () => openGlossary(seg.note, ctx) }, seg.text));
+    else frag.append(glossify(seg.text, ctx));
+  }
+  return block ? h('p', {}, frag) : frag;
+}
+
 const KIND_LABEL = {
   etymology: 'Etymology', gap: 'Translation gap', history: 'History', geopolitics: 'Geopolitics',
   wordplay: 'Wordplay', variant: 'Variant reading', wangbi: 'Wang Bi’s comment', legge: 'Legge’s frame',
@@ -16,6 +73,7 @@ const KIND_LABEL = {
  */
 export function rich(str, ctx, { block = false } = {}) {
   const frag = document.createDocumentFragment();
+  ctx = { ...ctx, glossSeen: new Set() }; // each paragraph marks its own first mention
   for (const seg of parseMarked(str || '')) {
     if (seg.note && ctx.notes?.[seg.note]) {
       frag.append(h('button', {
@@ -23,7 +81,7 @@ export function rich(str, ctx, { block = false } = {}) {
         onclick: (e) => openNote(seg.note, ctx, e.currentTarget),
       }, hanify(seg.text, ctx)));
     } else {
-      frag.append(hanify(seg.text, ctx));
+      frag.append(glossify(seg.text, ctx));
     }
   }
   return block ? h('p', {}, frag) : frag;
@@ -52,7 +110,7 @@ export function openNote(id, ctx) {
     build: () => {
       const box = h('div', {});
       for (const para of String(n.body).split(/\n{2,}/)) box.append(rich(para, ctx, { block: true }));
-      if (n.src?.length) box.append(h('p', { class: 'src', text: `Sources: ${n.src.join('; ')}` }));
+      if (n.src?.length) box.append(h('p', { class: 'src' }, 'Sources: ', glossify(n.src.join('; '), { ...ctx, glossSeen: new Set() })));
       return box;
     },
   });

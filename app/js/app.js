@@ -7,6 +7,8 @@ import { passageView } from './views/passage.js';
 import { journalView } from './views/journal.js';
 import { browseView } from './views/browse.js';
 import { aboutView } from './views/about.js';
+import { setGlossary } from './notes.js';
+import { getGlossary } from './data.js';
 
 export const state = {
   journal: journalStore.load(),
@@ -59,6 +61,7 @@ async function route() {
 }
 
 addEventListener('hashchange', route);
+await getGlossary().then(setGlossary);
 // Another tab changed the journal.
 addEventListener('storage', (e) => { if (e.key === journalStore.KEY) state.journal = journalStore.load(); });
 route();
