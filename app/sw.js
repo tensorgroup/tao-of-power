@@ -1,6 +1,6 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = '5ab0794b5565';
+const VERSION = '8ca9a3a13c97';
 const ART_VERSION = 'bb939904';
 const FILES = [
  "./",
@@ -272,6 +272,7 @@ const FILES = [
  "data/strokes/9bae.json",
  "data/strokes/9ed1.json",
  "data/text.json",
+ "data/wing.json",
  "fonts/ebgaramond-italic.woff2",
  "fonts/ebgaramond.woff2",
  "fonts/notoseriftc.woff2",

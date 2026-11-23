@@ -1,0 +1,451 @@
+{
+  "book": {
+    "title": "The Tao of Power",
+    "author": "R. L. Wing",
+    "year": 1986,
+    "publisher": "Doubleday",
+    "link": "https://openlibrary.org/works/OL8050823W"
+  },
+  "passages": {
+    "0": [
+      {
+        "kind": "idea",
+        "title": "A handbook for people who lead",
+        "body": "R. L. Wing reads the Tao Te Ching as advice for anyone who guides others. Wing translates 德 as \"Power\": stored potential that changes the world by example, with no force. Three habits mark the book. First, analogies from physics and evolution: charge, fields, the Big Bang. Second, a \"whole mind\" method: a journal page beside each passage asks the reader to restate a life event as a picture from nature. Third, chance: a die or a bundle of sticks selects the passage for the day. The science is dated to 1986, and our pages often read the Chinese differently. The book still matters because it gives the reader work to do.",
+        "ref": "The Tao of Power, introduction"
+      }
+    ],
+    "1": [
+      {
+        "kind": "contrast",
+        "title": "A constant way, or an \"Absolute\"?",
+        "body": "Wing turns 常 into a noun, the \"Absolute\", and places it behind the Tao as a first source. Wing also gives 欲 as expectation, so the passage becomes a lesson on perception: drop your forecasts and you see more. Our page keeps 常 as an adjective, \"constant\", and 欲 as desire, which has a body in it. We read one Way with two aspects, not two levels. Wing's version is still useful as a practical test: notice how much a wish for a result narrows what you can see.",
+        "ref": "The Tao of Power, passage 1"
+      }
+    ],
+    "2": [
+      {
+        "kind": "idea",
+        "title": "Credit comes to the person who refuses it",
+        "body": "Wing reads this passage as a law of polarity, taken from the behaviour of matter and energy. Each quality calls up its opposite, so an extreme of any kind, even of goodness, starts a counter-movement. The practical step follows: do the work, do not preach about it, do not claim it. Wing then adds a social prediction. Nature and society both lean toward a person who holds no extreme position. In Wing's view the reward is not denied to such a person; it arrives because nobody had to fight for it.",
+        "ref": "The Tao of Power, passage 2"
+      }
+    ],
+    "3": [
+      {
+        "kind": "interpretation",
+        "title": "A leader's values become the group's motives",
+        "body": "Wing takes the hard political lines of this passage and makes one rule for leaders. People compete for whatever the leader visibly admires. Admire rare talent and costly goods, and rivalry spreads through the group. Admire qualities that every member can reach, and the cause of rivalry is gone. Wing names integrity, flexibility, and spontaneity as examples. On this reading the leader governs mostly by attitude and hardly at all by action. Our page keeps the sharper edge of the Chinese, with its empty hearts and full bellies.",
+        "ref": "The Tao of Power, passage 3"
+      }
+    ],
+    "4": [
+      {
+        "kind": "idea",
+        "title": "The Tao as a formula",
+        "body": "Wing offers a clean modern picture for the empty bowl. A formula has no content of its own. Because of that, people can apply the formula again and again and never use it up. Wing sets the Tao in the same class: not the place where the universe came from, but the pattern by which everything changes. The comparison is of 1986 and belongs to Wing's physics lens. As an open metaphor it helps a reader see why emptiness and endless use go together in this passage.",
+        "ref": "The Tao of Power, passage 4"
+      }
+    ],
+    "5": [
+      {
+        "kind": "contrast",
+        "title": "Straw dogs, softened",
+        "body": "Wing reads the first lines as a lesson in impartial sight. Heaven and earth have no favourites, and neither does the wise person. Wing then softens the point at once: such a person stays kind, from independence and not from duty. Wing also notes that 仁 joins \"person\" and \"two\", and that the straw figures were burned after the rite with no regret. Our page leaves the lines hard. We read \"not humane\" as a plain and unsettling statement, and we let the bellows image carry the comfort, if there is any.",
+        "ref": "The Tao of Power, passage 5"
+      }
+    ],
+    "6": [
+      {
+        "kind": "contrast",
+        "title": "The valley as the edge of sight",
+        "body": "Wing gives the valley an unusual role. Its walls stand for the limit of human sight: we live on the valley floor and cannot look over the rim to the origin. The gate is the place where that origin enters the world of affairs. Wing also calls the feminine side passive and tranquil. Our page reads the dark female differently, as a mother animal: low, open, and generative, not passive. We also note that the passage gives no advice. It only names. Wing's rim image is still a good one to hold beside ours.",
+        "ref": "The Tao of Power, passage 6"
+      }
+    ],
+    "7": [
+      {
+        "kind": "interpretation",
+        "title": "Last place changes what you want",
+        "body": "A cynical reader can take this passage as a trick: step back so that others push you forward. Wing does call the last and outside place a chosen position. Wing then adds a correction that is easy to miss. People who truly take that place find that their priorities shift. Their aims begin to match the situation and the larger forces around them, and their surroundings grow as those aims are met. So the method changes its user. A nearby plate shows the legendary Fu Hsi, whose work the caption presents as an early system of management.",
+        "ref": "The Tao of Power, passage 7"
+      }
+    ],
+    "8": [
+      {
+        "kind": "idea",
+        "title": "Seven values, seven kinds of awareness",
+        "body": "The middle of this passage is a list of seven short lines. Wing gives each one a condition. A good location needs a view of the whole. Depth needs a sense of what is possible. Kindness needs knowledge of human nature. Sincere speech needs inner truth. Order needs a grasp of the full structure. Competence needs a picture of the finished result. Good timing needs past and future held together. The list makes one argument: a person with that much awareness has no reason to compete. Water is Wing's recurring image for progress that causes no resentment.",
+        "ref": "The Tao of Power, passage 8"
+      }
+    ],
+    "9": [
+      {
+        "kind": "interpretation",
+        "title": "Leave at the top, then start again",
+        "body": "Wing reads the full vessel as a cycle of growth and decline. Fullness must turn, so a person who stays after success will feel the fall. Wing gives a psychological cause: when you identify with an achievement, inner growth stops. The advice has two halves. Withdraw when the work is done. Then go to the next task, lightly, with no load of status or property. Our page stays closer to the images of brim and blade. Wing's addition, that retirement is a move to new work and not an end, is worth keeping.",
+        "ref": "The Tao of Power, passage 9"
+      }
+    ],
+    "10": [
+      {
+        "kind": "contrast",
+        "title": "Breath and soul, or inner balance?",
+        "body": "Wing reads the six questions as tests of balance between two sides of a person: aggressive drive, and the spontaneous need to belong. A person who joins the two keeps the influence that Wing calls \"intellectual gravity\". A note links ch'i to tai chi. Our page reads the same questions as bodily practice: the soul held to the One, the breath made soft as an infant's, the dark mirror washed. We think the Chinese speaks of a real body. Wing's reading is a fair translation of that practice into the language of character.",
+        "ref": "The Tao of Power, passage 10"
+      }
+    ],
+    "11": [
+      {
+        "kind": "idea",
+        "title": "Make an absence and let the world fill it",
+        "body": "Hub, pot, and room all work because of the part that is not there. Wing takes one more step and turns the observation into a method. In any event, Wing says, the Tao is the missing part that drives the change. So a person can create a felt absence on purpose: leave a role open, a question unanswered, a space unfilled. Natural forces then move to close the gap. This is a typical Wing move, from image to technique. Our page stays with the three objects, but the technique is a fair experiment for a reader.",
+        "ref": "The Tao of Power, passage 11"
+      }
+    ],
+    "12": [
+      {
+        "kind": "interpretation",
+        "title": "The belly as the intuitive centre",
+        "body": "Wing treats this passage as control of input. A flood of colour, sound, flavour, and speed blunts insight, and a hunger for rare goods bends judgement. Wing cites the old commentator Wang Bi on belly and eye: one takes things in and is fed, the other is ruled by outside things. Wing then reads the belly as the centre, the seat of the intuitive mind. A paradox closes the note: strong desires leave a person few options, and a person tied to little is free to experience everything. Our page keeps the belly as a belly.",
+        "ref": "The Tao of Power, passage 12"
+      }
+    ],
+    "13": [
+      {
+        "kind": "idea",
+        "title": "\"Expanding identification\"",
+        "body": "This is one of Wing's key terms. Praise and blame both tie a person to the small self, because both depend on the judgement of others. Reduce that dependence, Wing says, and identity begins to reach outward until it takes in the world. Only such a person is fit to guide it. Our page reads the passage through 身, the body, which the Chinese repeats six times, and through the two opposite ways to read the last lines. Wing's term names something our reading shares: care that does not stop at one's own skin.",
+        "ref": "The Tao of Power, passage 13"
+      }
+    ],
+    "14": [
+      {
+        "kind": "idea",
+        "title": "Trace events to their start",
+        "body": "Wing finds this passage especially hard to enter, since it describes the Tao by what the senses cannot find. The Tao shows itself only in effects: in ideas, events, and social change. Wing then makes the closing lines practical. Follow any event back to its beginning. Follow your own existence back as well, to reach the intuitive mind. From there a person can foresee outcomes. Wing adds a thought from quantum physics: the observer helps to form what is observed. Our page reads the last image as a thread to hold, with no promise of control.",
+        "ref": "The Tao of Power, passage 14"
+      }
+    ],
+    "15": [
+      {
+        "kind": "interpretation",
+        "title": "Muddy water is reality itself",
+        "body": "For Wing the muddy water is not a problem to solve. It is how reality looks from inside. A person who settles into its unity begins to see the pattern, and can then guide it with moves so steady that nothing resists. Wing reads the old masters' caution as stored advantage: force that stays in reserve. The closing advice is the most useful part. Be a channel and not a storehouse; a person who stays unfilled is renewed. Our page gives more room to the seven wary similes, such as the walker on winter ice.",
+        "ref": "The Tao of Power, passage 15"
+      }
+    ],
+    "17": [
+      {
+        "kind": "interpretation",
+        "title": "Hidden power is usable power",
+        "body": "Wing turns the ranking of rulers into a working method. Heavy leaders go against nature. The best leader holds back, sets direction indirectly, chooses words with care, and trusts people. The people then feel that the result is their own, and Wing observes that they also produce more. The striking claim is about the leader: the less visible the power, the more of it can be used. Wing's short formula is to guide and not to rule. Our page adds the textual history of the first line, which Wing does not discuss.",
+        "ref": "The Tao of Power, passage 17"
+      }
+    ],
+    "18": [
+      {
+        "kind": "interpretation",
+        "title": "Instinct first, morality as repair",
+        "body": "Wing reads this passage as a defence of human instinct. People are good by nature. Talk of morality becomes loud only where a society is already corrupt, talk of duty where family ties are false, and patriotism where a nation is split. For Wing these are repairs invented by the intellect, and virtue that is enforced injures the instinct it tries to replace. Wing adds a warning for seekers: people who read their own experience through a borrowed system are lost as well. Our page sets the lines against the Confucian vocabulary that they answer.",
+        "ref": "The Tao of Power, passage 18"
+      }
+    ],
+    "20": [
+      {
+        "kind": "interpretation",
+        "title": "The crowd as a shared mind",
+        "body": "Wing hears an accomplished Taoist in this passage and takes it as a call to think alone: leave the crowd, drop dogma, trust direct experience. Wing renders the crowd with a term close to Jung's collective unconscious. The independent person does not simply escape that shared mind. Such a person adds to it, and looks ahead to where evolution points. Our page hears something Wing passes over: doubt and loneliness in the speaker's voice. The two readings fit together. Independence has a cost, and the passage admits it.",
+        "ref": "The Tao of Power, passage 20"
+      }
+    ],
+    "21": [
+      {
+        "kind": "idea",
+        "title": "A thought experiment before the Big Bang",
+        "body": "Wing rates this passage very highly. The Tao here is like the field of a magnet: nobody sees it, and everybody can see what it moves. Wing calls it a force that carries information, and claims that the trends of a culture follow the same laws as physical forces. Then comes an exercise. Picture matter and energy as one thing before the universe began. Go behind even that picture, to a creative state outside time and space. The cosmology is of its decade. As a meditation prompt for the haze and the seed in this passage, it still works.",
+        "ref": "The Tao of Power, passage 21"
+      }
+    ],
+    "22": [
+      {
+        "kind": "idea",
+        "title": "\"Intellectual gravity\"",
+        "body": "Wing coins this phrase for the pull that a collected person has on events. The argument is one of cause and effect. An open grab for position is a cause, and its effect cannot be controlled. A person who does not display, justify, or boast keeps energy inside, and gains weight. Events then bend toward that person. Wing says that outcomes in society, as in physics, depend on how this weight is spread among the people involved. Our page keeps the older image: bent, and so whole.",
+        "ref": "The Tao of Power, passage 22"
+      }
+    ],
+    "23": [
+      {
+        "kind": "idea",
+        "title": "Power over others as hidden slavery",
+        "body": "A squall is over before noon. Wing draws a rule from it: violent effort stops soon and calls up a reaction that cancels it. Only an attitude that a person can hold for years changes anything. Wing then gives the clearest definition of the book's key word. \"Power\" means independence and freedom inside one's own life. It does not mean command of other people, which Wing regards as a concealed form of bondage for the one who commands. A larger mind makes a deeper change, since people become what they believe.",
+        "ref": "The Tao of Power, passage 23"
+      }
+    ],
+    "24": [
+      {
+        "kind": "idea",
+        "title": "Groups correct the show-off",
+        "body": "Wing files this passage under organizations and reads it as group psychology. A group behaves like a system that balances itself. Members who push for attention, play two sides, or boast set off a strong reaction, and the group pulls them down. Wing adds a diagnostic use. Excess and redundancy in any situation are signs that it is unstable and will decline fast. The wise member notices the signs and leaves quietly. Our page stays with the body image of a person on tiptoe, who cannot stand for long.",
+        "ref": "The Tao of Power, passage 24"
+      }
+    ],
+    "25": [
+      {
+        "kind": "idea",
+        "title": "Four forces and one substance",
+        "body": "Wing reads the opening lines as cosmology in the modern sense. They describe a state in which matter and energy were not yet separate, and Wing compares it with the search of physicists for one interaction at the origin. The four known forces, Wing says, appeared in the first instant, and the Tao is their action, in the cosmos and in society alike. The ruler stands among the four great things because a leader can see those laws at work in people. Our page uses such parallels only as open metaphor, and ends on 自然, \"so of itself\".",
+        "ref": "The Tao of Power, passage 25"
+      }
+    ],
+    "26": [
+      {
+        "kind": "story",
+        "title": "Ten thousand chariots, in modern terms",
+        "body": "The Chinese speaks of a lord with ten thousand war chariots. Wing stops to make the number felt. For an ancient reader, that was a force past imagining, and Wing compares it with nuclear power in the 1980s. The comparison gives weight to the plain advice of the passage. A person who holds that much force must not be light or restless, since the whole organization rests on the leader's centre. Wing sets a portrait of the Qianlong emperor near the passage as a model of the serious, educated ruler.",
+        "ref": "The Tao of Power, passage 26"
+      }
+    ],
+    "27": [
+      {
+        "kind": "interpretation",
+        "title": "The \"Light\" as information",
+        "body": "Wing reads this passage as an account of how knowledge moves between people. The best systems hold with no extra force, like a knot that needs no rope. They rest on free, creative action and a feel for human need. The wise person wastes nobody, and so passes on what Wing calls the \"Light\": information that guides evolution. The fresh point is about the teacher. An uninformed person needs a model, and the person who serves as the model gains energy and insight from that role. Both sides change.",
+        "ref": "The Tao of Power, passage 27"
+      }
+    ],
+    "28": [
+      {
+        "kind": "idea",
+        "title": "The leader as a reservoir",
+        "body": "Wing makes this passage a portrait of the leader as connector. Such a leader knows the strong side and stays on the quiet side. The leader then becomes a low place, like a reservoir, where the talents of separate people collect and are exchanged. Wing adds a physics parallel. Four forces hold matter together, and a leader who binds people into one effort does similar work in society. Infant, limitless, and uncarved block are, for Wing, three pictures of one whole before division. Our page keeps the hen and the valley as images.",
+        "ref": "The Tao of Power, passage 28"
+      }
+    ],
+    "30": [
+      {
+        "kind": "interpretation",
+        "title": "A passage for the adviser",
+        "body": "Most readers take this passage as a warning to rulers. Wing notices that the Chinese addresses the person who assists a ruler, and builds the reading on that. An adviser has a duty to restrain. Large bodies cannot stop their own motion, and an organization that confuses defence with attack uses up its resources until its people go hungry. Wing adds a point about the adviser's own mind: time spent on aggressive plans narrows it, until it can no longer see where society is going. Stop at the result, and take nothing more.",
+        "ref": "The Tao of Power, passage 30"
+      }
+    ],
+    "31": [
+      {
+        "kind": "interpretation",
+        "title": "A sharp mind is also a weapon",
+        "body": "Wing widens the meaning of \"weapon\". An army counts, and so does a keen mind or a smart plan, at the moment a person uses it to force another person. All of these are necessary evils at best. Wing's rule is that force adds to personal power only when its user regrets it. A leader's visible sorrow over a conflict also calms disputes inside the organization. Wing treats the funeral lines as later commentary that entered the text. Our page keeps them and reads the mourning rite as the centre of the passage.",
+        "ref": "The Tao of Power, passage 31"
+      }
+    ],
+    "32": [
+      {
+        "kind": "idea",
+        "title": "Too much structure suits machines",
+        "body": "Wing reads the warning about names as a warning about organization charts. A leader who defines every role and rule builds a place fit for machines. People who are held in fixed roles stop creating, and a body that is fully systematized is closed to evolution; Wing says it moves toward extinction. With simple, loose management, people look at the goal and not at the method, and they have nothing to resent. The reading is narrow beside the Chinese, which also has sweet dew and rivers. As management advice it has aged well.",
+        "ref": "The Tao of Power, passage 32"
+      }
+    ],
+    "36": [
+      {
+        "kind": "interpretation",
+        "title": "How the small defeats the large",
+        "body": "Wing gives this passage a strategic reading with two parts. First, the strongest position carries the most risk. An organization is most exposed when it is overextended and pleased with its own praise and profit. Advantages that stay hidden last longer, since they provoke nobody; fish do not survive out of deep water. Second, the opening lines become a method for a small body that faces a large one. Do not resist. Yield, and feed the excess of the large body until it overreaches. Our page also shows how Legalist writers used these lines.",
+        "ref": "The Tao of Power, passage 36"
+      }
+    ],
+    "40": [
+      {
+        "kind": "idea",
+        "title": "Reversal as electrical charge",
+        "body": "Wing explains the turning of the Way with the language of charge. Yin and yang are negative and positive states. An extreme is a state that carries too much charge, so it is unstable and starts to move toward its opposite. In society the same law appears as cycles of easy and hard, active and passive. The practical result is moderation: a person who avoids extremes and stays receptive moves with the main forces. The physics is loose, but the picture of an overcharged state makes the short Chinese text easy to remember.",
+        "ref": "The Tao of Power, passage 40"
+      }
+    ],
+    "43": [
+      {
+        "kind": "idea",
+        "title": "Many problems end when nobody fights them",
+        "body": "Wing reads the soft thing that enters where there is no gap as a rule of least effort. Most difficulties, Wing argues, are born from reactions to something larger. Remove the aggression and many of them leave. When action is truly needed, the lightest touch works best, because it does not create a second set of problems. Wing adds two remarks that lift the reading above technique. To leave things alone is a kind of freedom. It also takes courage, because the pressure to act is strong.",
+        "ref": "The Tao of Power, passage 43"
+      }
+    ],
+    "44": [
+      {
+        "kind": "idea",
+        "title": "Let things pass through",
+        "body": "Wing's commentary here is unusually blunt about people who live only to collect. The argument under the bluntness is worth keeping. Hoarding trains the mind to see reality as fixed, and a fixed view cannot grow. A person with few needs is mobile and independent. Wing describes a flow: release what you hold, and more comes in and moves on through your life. To need less also brings a person nearer to the self. Our page reads the three opening questions, name or body, body or goods, as real questions with no easy answer.",
+        "ref": "The Tao of Power, passage 44"
+      }
+    ],
+    "45": [
+      {
+        "kind": "contrast",
+        "title": "Cold and heat",
+        "body": "Wing reads the two short lines near the end in a way we have not seen elsewhere. \"Cold\" is taken as lifeless matter, which needs vigorous work before it becomes a tool. \"Heated\" is taken as the human being, who needs a calm centre. Our page reads the lines as two plain facts about a body: restless movement beats cold, and stillness beats heat. From there the Chinese steps to its last words, clear and still. Wing's version is inventive. We think the plain reading prepares the ending better.",
+        "ref": "The Tao of Power, passage 45"
+      }
+    ],
+    "48": [
+      {
+        "kind": "idea",
+        "title": "Observation that does not disturb",
+        "body": "Wing joins the daily loss of this passage to the observer problem in physics. A person who acts in order to learn something changes the scene, so what comes back is a record of reactions to the actor. Fixed ideas distort in a second way, since they freeze a world that arrives as possibility and change. The ideal observer has cleared those ideas and does not interfere. What that person receives is clean, in Wing's account, and it refines intuition. Passage 47 has a matching note: hold still, and the inner world can mirror the outer one.",
+        "ref": "The Tao of Power, passage 48"
+      }
+    ],
+    "49": [
+      {
+        "kind": "idea",
+        "title": "Trust as chemistry",
+        "body": "Why answer distrust with trust? Wing gives a chemist's reason. An extreme is neutralized only by its opposite, as in a chemical reaction. Aggression that meets aggression grows; aggression that meets its opposite loses its charge. Wing calls this ability to neutralize extremes the highest power, because it changes the other person from inside and leaves peace behind. Wing also reads the wise person's lack of a fixed mind as a practical matter: belief systems distort incoming information. Our page keeps the image of the hundred clans and their one heart.",
+        "ref": "The Tao of Power, passage 49"
+      }
+    ],
+    "50": [
+      {
+        "kind": "contrast",
+        "title": "Thirteen, or three in ten?",
+        "body": "The number phrase 十有三 can be read two ways. Wing takes it as thirteen and explains the thirteen as the senses and their openings. A person who limits what leaves through them builds up vital energy and has no weak place for harm to enter. This follows an old reading that goes back to Han Fei. Our page takes the phrase as \"three in ten\" and reads the first half as a count of people: three hold to life, three to death, three move toward death by living too thickly. Both readings end with the same picture: no place for the horn.",
+        "ref": "The Tao of Power, passage 50"
+      }
+    ],
+    "54": [
+      {
+        "kind": "idea",
+        "title": "Hold a picture of the unit at its best",
+        "body": "The passage climbs from self to family, community, state, and world. Wing turns the climb into an exercise. For each scale, form a clear mental image of how that unit works at its best: no contention, mutual support, a pleasing social life. The image shows the pattern under the unit. Wing goes further and claims that an ideal held firmly in a developed mind pulls reality toward it, for later generations as well. Our page reads the same lines through the ancestral sacrifice that does not stop.",
+        "ref": "The Tao of Power, passage 54"
+      }
+    ],
+    "55": [
+      {
+        "kind": "contrast",
+        "title": "A title the Chinese does not supply",
+        "body": "Wing's title for this passage names non-contention, and the commentary explains the infant's safety that way: the infant attacks nothing, so nothing attacks the infant. Adults can use the same method against social danger. The Chinese of this passage does not contain 不爭, the phrase for \"not contending\". Our page reads the infant through the body: soft bones and a firm grip, a full store of essence, a cry all day with no hoarse throat. The safety comes from wholeness. Wing's point and ours meet in the last lines, where forced strength grows old fast.",
+        "ref": "The Tao of Power, passage 55"
+      }
+    ],
+    "60": [
+      {
+        "kind": "interpretation",
+        "title": "Wait, and the schemers show themselves",
+        "body": "Wing reads the small fish as advice for an uncertain period. A delicate situation falls apart under too much handling. When no easy and elegant solution exists, wait and watch. Wing then gives the ghost lines an organizational sense. When a leader brings the Tao into the affairs of a group, matters become clear to everybody. Self-serving plans become obvious and lose their effect, and a group that does not fear manipulation works well. Before the passage, Wing places a portrait of the first Tang emperor, presented as a reformer.",
+        "ref": "The Tao of Power, passage 60"
+      }
+    ],
+    "61": [
+      {
+        "kind": "interpretation",
+        "title": "Service as the source of power",
+        "body": "Wing treats this passage as diplomacy and then widens it. The strong side should take the low place. That stance looks weak, yet it has the strength of generosity, and the small side has nothing to resent. Each side has a real need: the large one to gather and support, the small one to serve a wider public. Wing holds that the rule applies at every scale, from two people to two nations, and closes with a reversal of the usual link between ruling and serving.",
+        "ref": "The Tao of Power, passage 61"
+      }
+    ],
+    "63": [
+      {
+        "kind": "story",
+        "title": "King Yu and the flood",
+        "body": "Before this passage Wing tells the legend of Yu, who tamed the great floods. Earlier efforts had built dikes against the rivers. Yu dredged channels instead, so that the water could reach the sea by its own course. He worked for thirteen years and, the legend says, passed his own door three times without going in. The pairing is deliberate. Wing's commentary describes influence that goes to the point of least resistance, follows that point as it moves, and never meets a large problem head on. Yu is the picture of it.",
+        "ref": "The Tao of Power, passage 63"
+      }
+    ],
+    "64": [
+      {
+        "kind": "interpretation",
+        "title": "Feel where events begin",
+        "body": "Wing reads this long passage as a theory of timing. Forceful action meets an equal counter-force, which either cancels the actor or spoils the situation. The skilled person works at the origin, when a situation is small, simple, and least reactive. Two conditions follow. One must learn to sense the place and time where things start, an instinct that desire and dogma block. One must also hold a position from which to guide events through to the end, since many efforts fail near completion. Our page keeps the tree, the tower, and the first step under the foot.",
+        "ref": "The Tao of Power, passage 64"
+      }
+    ],
+    "66": [
+      {
+        "kind": "interpretation",
+        "title": "A democratic ideal, early",
+        "body": "Wing calls this passage a democratic ideal and remarks that it suits the present better than the age that produced it, twenty-five centuries ago. The leader identifies fully with the people, so their interests become the leader's interests. Wing stresses the test in the text: neither words nor actions may show any sense of being above others. Support given to such a leader lasts, because nobody feels the weight. Our page reads the image first: the sea rules a hundred valleys by lying below them.",
+        "ref": "The Tao of Power, passage 66"
+      }
+    ],
+    "67": [
+      {
+        "kind": "interpretation",
+        "title": "Too large to think",
+        "body": "Wing reads the odd opening as a paradox with a purpose. Whatever the mind can fully hold becomes small and manageable, and the manageable is no source of real power. The Tao is too large for that, and the effort to think it anyway is itself a source of strength. Wing then calls the three treasures the emotional base of the whole method: feelings, not rules. Compassion comes first because it gives foresight and vision, and so the compassionate leader prevails. Our page stays with the three treasures as things held and guarded.",
+        "ref": "The Tao of Power, passage 67"
+      }
+    ],
+    "69": [
+      {
+        "kind": "interpretation",
+        "title": "A contest of ideas",
+        "body": "Wing moves this military passage from the battlefield to the mind. Conflict between ideologies is a normal part of social change. Ideas pushed by aggression meet direct resistance, and both sides escalate. Ideas offered by indirect means enter and stay. That is why, on Wing's reading, the saying prefers a long retreat to a short advance. The side that is able to grieve over the conflict is the more evolved side, and its ideas win in the end. Wing notes the author's fear that escalation destroys the three treasures of passage 67.",
+        "ref": "The Tao of Power, passage 69"
+      }
+    ],
+    "70": [
+      {
+        "kind": "contrast",
+        "title": "Who is speaking?",
+        "body": "Wing holds that the \"I\" of this passage is the Tao itself, and that the first readers were rulers and their scholars, the only people in early China who could read. The jade under coarse cloth becomes strategy: keep an advantage inside a plain exterior. Our page hears a human voice, close to the lonely speaker of passage 20, who complains that easy words find no takers. We read the jade as worth that needs no display. Wing's point about audience is a good reminder that the book was written for people with power.",
+        "ref": "The Tao of Power, passage 70"
+      }
+    ],
+    "73": [
+      {
+        "kind": "idea",
+        "title": "The net as a field of law",
+        "body": "Wing reads heaven's wide net as a boundless field of physical law. Every act, thought, and event falls inside it. Nothing escapes notice, and nature answers each extreme with precision. From this Wing draws a calm conclusion, not a threatening one: nature's way is both the standard of conduct and the easiest road, so the person who copies it meets the least resistance. Our page keeps the doubt in the middle of the passage, where the text asks who knows why heaven dislikes a thing.",
+        "ref": "The Tao of Power, passage 73"
+      }
+    ],
+    "76": [
+      {
+        "kind": "interpretation",
+        "title": "Adapt or go extinct",
+        "body": "Wing reads soft and stiff through evolution. The universe changes, so whatever adapts survives. Fixed beliefs, fixed habits of food or thought, and fixed responses lead toward extinction; the same situation at a later time may need a new answer. Flexibility, Wing adds, sharpens instinct and lengthens life. The last line of Wing's version carries an echo of the Bible verse about the meek. The page before shows a painting of bamboo under snow, which the caption presents as a sign of long life and responsive strength.",
+        "ref": "The Tao of Power, passage 76"
+      }
+    ],
+    "77": [
+      {
+        "kind": "idea",
+        "title": "One balancing law at three scales",
+        "body": "Wing tests the bow image at three levels. In ecology, a species that grows too dominant is brought down, and fragile ones find support. In the atom, a particle with excess charge seeks its opposite and settles. In society, people who dominate raise a common wish to cancel them, and people in need raise a wish to help. The wise person works with this tendency: a modest position draws energy toward itself. Wing notes, as the Chinese does, that human habit runs the other way and takes from those who have little.",
+        "ref": "The Tao of Power, passage 77"
+      }
+    ],
+    "78": [
+      {
+        "kind": "interpretation",
+        "title": "Two kinds of blame",
+        "body": "Wing separates the two burdens named near the end of this passage. Disgrace is error that arises inside the group. Misfortune arrives from outside. A leader who accepts the first can lead the group. A leader who accepts the second believes in a duty to foresee, and can lead far beyond the group. In both cases the leader behaves as water does: no edge, no fixed form, and so nothing for a blow to land on. Wing argues that taking responsibility steadies a position and does not weaken it.",
+        "ref": "The Tao of Power, passage 78"
+      }
+    ],
+    "79": [
+      {
+        "kind": "interpretation",
+        "title": "The creditor's chance",
+        "body": "Wing reads the tally as a study of the stronger party in any obligation. That party has the duty to prevent leftover resentment. A claim that is pressed returns later as trouble. A claim that is held lightly creates gratitude and shapes a future that suits the giver. Wing adds a practical consolation: if the other side fails, the giver has learned the right partner and the right time for an agreement. Before the passage stands a portrait page on King Wen, who by tradition studied the Book of Changes in prison.",
+        "ref": "The Tao of Power, passage 79"
+      }
+    ],
+    "80": [
+      {
+        "kind": "contrast",
+        "title": "A small state, or any organization?",
+        "body": "Wing translates 國 as \"organization\" throughout, on the ground that the character shows bounded, defended land. So this passage becomes a model for a self-sufficient unit of any size: a family, a business, a nation. A good unit gives each member health, education, and recreation, and satisfied members stay loyal. Our page keeps the small state and its strange details: unused tools, knotted cords, a neighbour's rooster heard across the border. We read a wish more than a plan. Wing's question still stands: what would make people glad to stay?",
+        "ref": "The Tao of Power, passage 80"
+      }
+    ],
+    "81": [
+      {
+        "kind": "idea",
+        "title": "Hoarding information breaks the flow",
+        "body": "Wing closes the book with a law of flow. The wise person does not store up; the more that person gives, the more passes through. Wing extends the list of things that should not be hoarded from goods to services and to information, and calls any such hoard a dangerous imbalance, for the holder first of all. The earlier lines become three qualities to protect: reality without decoration, good work that needs no defence, and knowledge that reaches inward. It is a fitting last note for a book about influence without possession.",
+        "ref": "The Tao of Power, passage 81"
+      }
+    ]
+  }
+}
