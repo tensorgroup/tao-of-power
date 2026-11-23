@@ -26,6 +26,20 @@ for (const [id, st] of Object.entries(art.stories || {})) {
   if (!st.title || !st.text || !st.source) errors.push(`story ${id}: title, text, source required`);
   for (const n of st.passages || []) if (!(n >= 1 && n <= 81)) errors.push(`story ${id}: bad passage ${n}`);
 }
+const ePath = new URL('app/data/echoes.json', root);
+if (existsSync(ePath)) {
+  const ec = JSON.parse(readFileSync(ePath));
+  let count = 0;
+  for (const [n, list] of Object.entries(ec.passages || {})) {
+    if (!(Number(n) >= 1 && Number(n) <= 81)) errors.push(`echoes: bad passage ${n}`);
+    for (const e of list) {
+      count++;
+      for (const k of ['id', 'source', 'title', 'body']) if (!e[k]) errors.push(`echo ${n}/${e.id}: missing ${k}`);
+      if ((e.quote || '').length > 80) errors.push(`echo ${n}/${e.id}: quote longer than 80 characters`);
+    }
+  }
+  console.log(`echoes: ${count}`);
+}
 if (missing.length) errors.push(`passages without art: ${missing.join(', ')}`);
 console.log(`art: ${Object.keys(art.catalog || {}).length} images, ${Object.keys(art.stories || {}).length} stories`);
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }

@@ -337,3 +337,10 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
   border: 1px solid var(--rule); border-left: 3px solid var(--seal); background: var(--paper-2); border-radius: 4px;
   padding: .75rem 1rem; margin: 0 0 .6rem; font-size: 1.08rem; color: var(--ink); }
 .story-btn .kind, .sheet .kind { font-size: .75rem; letter-spacing: .16em; text-transform: uppercase; color: var(--seal); }
+
+/* Echoes */
+.echoes { margin-top: 2.25rem; }
+.echo-btn { border-left-color: var(--ink-3); }
+.echo-quote { margin: 0 0 1rem; padding: .6rem 0 .6rem 1rem; border-left: 3px solid var(--seal); }
+.echo-quote p[lang] { font-family: var(--han); font-size: 1.25rem; margin: 0 0 .3rem; }
+.echo-quote p[lang="ja"] { font-family: var(--han), "Hiragino Mincho ProN", "Yu Mincho", serif; }

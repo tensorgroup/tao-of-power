@@ -48,8 +48,12 @@ if (process.argv.includes('--all') && files.length !== 81) err('passages', `expe
 
 for (const f of files) {
   const where = `passage ${f}`;
+  try { checkPassage(f, where); } catch (e) { err(where, `crashed: ${e.message}`); }
+}
+
+function checkPassage(f, where) {
   let p;
-  try { p = read(`app/data/passages/${f}`); } catch (e) { err(where, `bad JSON: ${e.message}`); continue; }
+  try { p = read(`app/data/passages/${f}`); } catch (e) { err(where, `bad JSON: ${e.message}`); return; }
   for (const k of KEYS) if (!(k in p)) err(where, `missing key ${k}`);
   if (p.n !== Number(f.slice(0, 2))) err(where, `n=${p.n} does not match file name`);
   if (!THEMES.has(p.theme)) err(where, `unknown theme ${p.theme}`);

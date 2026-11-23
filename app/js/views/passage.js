@@ -1,7 +1,7 @@
 // One passage: rendering with notes, the Chinese column, lenses, plate, Legge, journal.
 import { h, tetragram, lineNames, fmtDate, toast } from '../ui.js';
 import { linesFor } from '../draw.js';
-import { getPassage, getLexicon, getArt } from '../data.js';
+import { getPassage, getLexicon, getArt, getEchoes } from '../data.js';
 import { openSheet } from '../sheet.js';
 import { rich, openChar, hanify } from '../notes.js';
 import { isHan } from '../markup.js';
@@ -25,7 +25,7 @@ const LENS = [
 
 export async function passageView(n, drawId) {
   if (!(n >= 1 && n <= 81)) return h('p', { text: 'There are 81 passages.' });
-  const [{ text, rich: p }, lex, art] = await Promise.all([getPassage(n), getLexicon(), getArt()]);
+  const [{ text, rich: p }, lex, art, echoes] = await Promise.all([getPassage(n), getLexicon(), getArt(), getEchoes()]);
   const ctx = { notes: p?.notes || {} };
   const lines = linesFor(n);
   const draw = drawId ? state.journal.draws.find((d) => d.id === drawId) : null;
@@ -85,6 +85,10 @@ export async function passageView(n, drawId) {
   const artBox = artSection(n, art, ctx);
   if (artBox) root.append(artBox);
 
+  // Echoes from other classics
+  const echoBox = echoSection(n, echoes, ctx);
+  if (echoBox) root.append(echoBox);
+
   // Calligraphy plates
   const plates = p?.plates?.length ? p.plates : (p?.glyph ? [{ c: p.glyph }] : []);
   if (plates.length) {
@@ -132,6 +136,24 @@ function openStory(st, ctx) {
       return box;
     },
   });
+}
+
+function echoSection(n, echoes, ctx) {
+  const list = echoes.passages?.[n] || [];
+  if (!list.length) return null;
+  const box = h('section', { class: 'echoes', 'aria-label': 'Echoes in other classics' }, h('h2', { text: 'Echoes' }));
+  for (const e of list) {
+    const lang = /musashi|five rings|五輪/i.test(e.source) ? 'ja' : 'zh-Hant';
+    box.append(h('button', { class: 'story-btn echo-btn', type: 'button', onclick: () => openSheet({
+      kind: e.source, title: e.title,
+      build: () => h('div', {},
+        e.quote ? h('blockquote', { class: 'echo-quote' },
+          h('p', { lang }, hanify(e.quote, ctx)),
+          e.quoteEn ? h('p', { class: 'muted', text: e.quoteEn }) : null) : null,
+        ...String(e.body || '').split(/\n{2,}/).map((para) => rich(para, ctx, { block: true }))),
+    }) }, h('span', { class: 'kind', text: e.source }), h('span', { text: e.title })));
+  }
+  return box;
 }
 
 function artSection(n, art, ctx) {
