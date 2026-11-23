@@ -37,10 +37,9 @@ clean and quiet; the depth sits one tap away.
 1. Copy every Shuowen quote from `sources/shuowen.txt` with its radical
    section. Never quote from memory. A rare variant graph is a different
    entry until the text shows otherwise. `check-content` verifies quotes.
-2. Variant readings: quote the Mawangdui silk texts from `sources/mawangdui-a.json`
-   and `sources/mawangdui-b.json` (silk A and B, transcribed from the 2014
-   Jicheng plates; □ marks a lacuna; chapter keys "1".."81"). Say which
-   manuscript ("silk A reads …"). `sources/mawangdui-collated.json` is a
+2. Variant readings: no reliable silk A/B transcription is in the repo yet.
+   Mark every Mawangdui reading "reported" (e.g. "the silk texts are
+   reported to read …") unless the reviewer confirms it. `sources/mawangdui-collated.json` is a
    modern merged reconstruction that mixes in Guodian wording (e.g. its
    ch.19 has 絕知棄辯, which is Guodian, not silk) — never cite it as "the
    Mawangdui text". For Guodian or Beida, say "reported" unless certain,
