@@ -70,6 +70,17 @@ for (const f of files) {
   const marked = (p.rendering || []).flatMap((l) => noteIds(l)).length;
   if (marked < 8) err(where, `only ${marked} marked phrases in rendering (min 8)`);
   if (!lex[p.glyph]) err(where, `glyph ${p.glyph} not in lexicon`);
+  const plates = p.plates || [];
+  if (plates.length < 1 || plates.length > 3) err(where, `needs 1–3 plates, has ${plates.length}`);
+  if (plates[0] && plates[0].c !== p.glyph) err(where, 'glyph must equal the first plate character');
+  const passageHan = new Set(hanOnly((p.zh || []).map((x) => x.text).join('')));
+  for (const [i, pl] of plates.entries()) {
+    if (!pl.c || !isHan(pl.c)) err(where, `plate ${i}: bad character`);
+    else if (!passageHan.has(hanOnly(pl.c))) err(where, `plate ${i}: ${pl.c} does not appear in the passage`);
+    if (!pl.title || !pl.lesson || !pl.brush) err(where, `plate ${i}: title, lesson, brush required`);
+    checkText(pl.lesson || '', `plate ${i} lesson`);
+    checkText(pl.brush || '', `plate ${i} brush`);
+  }
   for (const id of Object.keys(notes)) if (!used.has(id)) err(where, `note ${id} is never referenced`);
 }
 

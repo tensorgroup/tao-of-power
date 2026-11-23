@@ -7,6 +7,7 @@ import { isHan } from '../markup.js';
 import { state } from '../app.js';
 import { addEntry, saveDraft, loadDraft, clearDraft } from '../journal.js';
 import { entryList } from './journal.js';
+import { brushPanel } from '../brush.js';
 
 const THEME = {
   way: 'The Way', seeing: 'Seeing', self: 'Self', leading: 'Leading',
@@ -79,8 +80,13 @@ export async function passageView(n, drawId) {
     root.append(h('h2', { text: 'Reflections' }), box);
   }
 
-  // Glyph plate
-  if (p?.glyph) root.append(plate(p.glyph, lex[p.glyph] || {}, ctx));
+  // Calligraphy plates
+  const plates = p?.plates?.length ? p.plates : (p?.glyph ? [{ c: p.glyph }] : []);
+  if (plates.length) {
+    const box = h('section', { class: 'plates', 'aria-label': 'Characters' }, h('h2', { text: plates.length > 1 ? 'Characters to sit with' : 'A character to sit with' }));
+    for (const pl of plates) box.append(await plate(pl, lex[pl.c] || {}, ctx));
+    root.append(box);
+  }
 
   // Wang Bi + Legge
   const wb = text.wangbi.map((w, i) => (w ? [text.zh[i], w] : null)).filter(Boolean);
@@ -95,13 +101,30 @@ export async function passageView(n, drawId) {
   return root;
 }
 
-function plate(c, e, ctx) {
-  return h('section', { class: 'frame plate', 'aria-label': `Character ${c}` },
-    h('p', { class: 'glyph', lang: 'zh-Hant', text: c }),
-    h('p', { class: 'py', text: (e.py || []).join(' · ') }),
-    e.parts?.length ? h('div', { class: 'parts' }, e.parts.map((pt) => h('span', { class: 'part' }, h('span', { lang: 'zh-Hant', text: pt.c }), pt.m))) : null,
-    e.story ? h('div', { class: 'story' }, rich(e.story, ctx, { block: true })) : null,
-    h('button', { class: 'btn quiet', type: 'button', text: 'More on this character', onclick: () => openChar(c, null, ctx) }));
+async function plate(pl, e, ctx) {
+  const c = pl.c;
+  const panel = await brushPanel(c, { label: `${c} written with a brush` });
+  let order = false;
+  const orderBtn = h('button', { class: 'btn quiet', type: 'button', 'aria-pressed': 'false', text: 'Stroke order',
+    onclick: () => { order = !order; panel.showOrder(order); orderBtn.setAttribute('aria-pressed', String(order)); } });
+  const el = h('section', { class: 'frame plate', 'aria-label': `Character ${c}` },
+    h('span', { class: 'chop', lang: 'zh-Hant', 'aria-hidden': 'true', text: '道' }),
+    h('div', { class: 'plate-top' },
+      panel.el,
+      panel.hasStrokes ? h('div', { class: 'controls' },
+        h('button', { class: 'btn quiet', type: 'button', text: 'Write it again', onclick: () => panel.write() }), orderBtn) : null,
+      h('h3', {}, h('span', { lang: 'zh-Hant', text: `${c} ` }), pl.title || ''),
+      h('p', { class: 'py', text: (e.py || []).join(' · ') })),
+    pl.lesson ? [h('h4', { text: 'The character' }), rich(pl.lesson, ctx, { block: true })] : (e.story ? rich(e.story, ctx, { block: true }) : null),
+    pl.brush ? [h('h4', { text: 'The brush' }), rich(pl.brush, ctx, { block: true })] : null,
+    h('div', { class: 'controls' }, h('button', { class: 'btn quiet', type: 'button', text: 'Dictionary & ancient forms', onclick: () => openChar(c, null, ctx) })));
+  if (panel.hasStrokes && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver((ents) => {
+      if (ents.some((x) => x.isIntersecting)) { io.disconnect(); panel.write(); }
+    }, { threshold: 0.6 });
+    io.observe(panel.el);
+  }
+  return el;
 }
 
 function journalBox(n, draw) {

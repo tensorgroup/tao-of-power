@@ -278,3 +278,32 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* Calligraphy plates */
+.plates { margin-top: 2.5rem; }
+.plate { text-align: left; padding: 1.4rem 1.1rem 1.2rem; margin-bottom: 1.5rem; background: var(--paper); }
+.plate .plate-top { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.plate h3 { font-size: 1.35rem; font-weight: 500; margin: .4rem 0 .1rem; letter-spacing: .01em; }
+.plate .py { color: var(--seal); letter-spacing: .08em; margin: 0 0 .8rem; }
+.plate h4 { font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); margin: 1.2rem 0 .35rem; font-weight: 600; }
+.plate .controls { display: flex; gap: .5rem; justify-content: center; margin: .3rem 0 .6rem; flex-wrap: wrap; }
+.plate .controls .btn { min-height: 38px; padding: .35rem .95rem; font-size: .92rem; }
+.brush { position: relative; width: min(72vw, 260px); aspect-ratio: 1; margin: 0 auto;
+  background:
+    linear-gradient(var(--rule), var(--rule)) center / 1px 100% no-repeat,
+    linear-gradient(var(--rule), var(--rule)) center / 100% 1px no-repeat;
+  border: 1px solid var(--rule); }
+.brush::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background:
+    linear-gradient(45deg, transparent calc(50% - .5px), color-mix(in srgb, var(--rule) 55%, transparent) 50%, transparent calc(50% + .5px)),
+    linear-gradient(-45deg, transparent calc(50% - .5px), color-mix(in srgb, var(--rule) 55%, transparent) 50%, transparent calc(50% + .5px)); }
+.brush-svg { width: 100%; height: 100%; display: block; position: relative; z-index: 1; }
+.brush-guide path { fill: color-mix(in srgb, var(--ink) 7%, transparent); }
+.brush-stroke { fill: none; stroke: var(--ink); stroke-width: 138; stroke-linecap: round; stroke-linejoin: round; }
+.brush-order { display: none; }
+.show-order .brush-order { display: inline; }
+.brush-order circle { fill: var(--seal); opacity: .9; }
+.brush-order text { fill: var(--seal-ink); font: 600 40px var(--serif); }
+.brush-fallback { display: grid; place-items: center; height: 100%; font: 400 11rem/1 var(--brush); position: relative; z-index: 1; }
+.plate .chop { position: absolute; right: 1rem; top: 1rem; width: 1.6rem; height: 1.6rem; background: var(--seal); color: var(--seal-ink);
+  font: 600 1rem/1.6rem var(--brush); text-align: center; border-radius: 2px; transform: rotate(-4deg); }

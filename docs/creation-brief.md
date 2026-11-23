@@ -33,7 +33,12 @@ first and follow it exactly. Spec: `docs/superpowers/specs/2026-11-23-tao-of-pow
   "rendering": [ "line with [[marked phrase|noteId]]", "", "blank string = stanza break" ],
   "notes": { "noteId": { "kind": "etymology|gap|history|geopolitics|wordplay|variant|wangbi|legge|practice", "title": "…", "body": "…", "src": ["…"] } },
   "lenses": { "ground": "…", "inner": "…", "leading": "…", "body": "…", "nature": "…", "practice": "…" },
-  "glyph": "<one featured character from this passage>"
+  "glyph": "<the first plate's character>",
+  "plates": [
+    { "c": "道", "title": "A head on the road",
+      "lesson": "Teach the character like a good teacher at a table: its parts, what each pictures, how they combine, the oldest forms, how its meaning grew, a related character or two (e.g. 男 = 田 field + 力 plow/strength; 家 = 宀 roof + 豕 pig).",
+      "brush": "Speak about it as calligraphy: stroke order and rhythm, where the brush presses and lifts, the balance of the parts, how the form changed across scripts (oracle bone, bronze, seal 篆, clerical 隸, regular 楷, running 行, cursive 草), and when relevant a famous written copy (e.g. Zhao Mengfu's 1316 small-regular-script Daodejing)." }
+  ]
 }
 ```
 - `zh`: one object per source segment, same order, `text` copied exactly
@@ -52,6 +57,17 @@ first and follow it exactly. Spec: `docs/superpowers/specs/2026-11-23-tao-of-pow
 - Any Chinese characters in note bodies and lenses become tappable — use them.
 - Body length 40–180 words each. Many end with an open question or an
   invitation to notice — not all.
+
+## Plates (calligraphy lessons)
+1–3 per passage. Choose the most teachable, surprising, or meaningful characters
+of the passage — not always the obvious key term. The app writes each plate's
+character stroke by stroke (Make Me a Hanzi stroke data), so the `brush` text can
+refer to "watch the third stroke" etc. `lesson` 120–260 words, `brush` 60–160
+words; both may use `[[text|noteId]]` and tappable Chinese characters. Only
+state etymologies you are confident of; mark disputed ones ("commonly
+explained as…", "the oracle-bone form is debated…"). A plate character must
+appear in the passage. Prefer characters that have stroke data (check
+`sources/strokes-chars.txt`; if absent the app falls back to a font).
 
 ## Output: `lexicon-add/NN.json`
 Entries for the featured glyph and 3–8 other key characters of the passage
