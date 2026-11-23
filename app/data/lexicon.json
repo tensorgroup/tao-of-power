@@ -1787,7 +1787,7 @@
     "m": "few, small, young"
    }
   ],
-  "story": "妙 is not in the oldest layer of the Shuowen, and the early manuscripts of the Laozi do not write it this way. The Mawangdui silk texts have 眇, with the eye radical: tiny, at the limit of sight. Wang Bi defines the word as 微之極, “the far limit of the minute”, the point where a thing is only starting to be a thing. The later graph is written with 女 and 少, and readers have long liked to see in it a young woman, and so freshness and grace; that is a reading of the modern shape, not a recorded origin. From “fine” the word grew to mean wonderful and skilled: a 妙 hand, a 妙 plan. In Buddhism it translated the Sanskrit sat, “true, excellent”, as in the title of the Lotus Sutra, 妙法蓮華經.",
+  "story": "妙 has no entry of its own in the Shuowen, and the early manuscripts of the Laozi do not write it this way. The Mawangdui silk texts have 眇, with the eye radical: tiny, at the limit of sight. Wang Bi defines the word as 微之極, “the far limit of the minute”, the point where a thing is only starting to be a thing. The later graph is written with 女 and 少, and readers have long liked to see in it a young woman, and so freshness and grace; that is a reading of the modern shape, not a recorded origin. From “fine” the word grew to mean wonderful and skilled: a 妙 hand, a 妙 plan. In Buddhism it translated the Sanskrit sat, “true, excellent”, as in the title of the Lotus Sutra, 妙法蓮華經.",
   "gap": "“Mystery” makes it a secret. “Wonder” makes it large. “Subtlety” makes it dry. 妙 is small, early, and delightful together: the thing you only see if you want nothing from it."
  },
  "妨": {
@@ -2685,7 +2685,7 @@
     "m": "gives the sound"
    }
   ],
-  "story": "徼 is a word from border service: the rounds that guards walk, and so the frontier line itself. Han texts speak of 徼外, “beyond the frontier”. In the Laozi it occurs once, in passage 1, as that which the wanting mind sees. Wang Bi explains it as 歸終, the return and the end: the place where a thing arrives when it is complete. Other readers have proposed that the graph stands for 皦, “bright”, or 竅, “opening”, and the Mawangdui silk texts read 所噭, also disputed. The patrol sense is the oldest attested gloss, and it fits the passage: names and desires walk the borders of things.",
+  "story": "徼 is a word from border service: the rounds that guards walk, and so the frontier line itself. Han texts speak of 徼外, “beyond the frontier”. In the Laozi it occurs once, in passage 1, as that which the wanting mind sees. Wang Bi explains it as 歸終, the return and the end: the place where a thing arrives when it is complete. Other readers have proposed that the graph stands for 皦, “bright”, or 竅, “opening”, and the Mawangdui silk texts read 其所噭, also disputed. The patrol sense is the oldest attested gloss, and it fits the passage: names and desires walk the borders of things.",
   "gap": "No single English word covers border, outcome, and outline together. “Manifestations”, a common choice, has no basis in the old glosses."
  },
  "心": {
@@ -4362,7 +4362,7 @@
     "m": "the old picture: water between two banks"
    }
   ],
-  "story": "A 淵 is the deep, slow place in a river where the water circles and the largest fish stay. It is the home of dragons in early stories. The Laozi likes the word: Dao is a 淵 (4); the heart of the good is 淵 (8); fish must not leave it (36). The Zhuangzi lists nine kinds of 淵 in a story about a shaman who cannot read a master’s face. Confucius’s favorite student was called Yan Yuan, 顏淵. Under the Tang, writers had to avoid the graph, because it was the personal name of the founder’s line (Li Yuan), and many copies wrote 泉 or 深 in its place.",
+  "story": "A 淵 is the deep, slow place in a river where the water circles and the largest fish stay. It is the home of dragons in early stories. The Laozi likes the word: Dao is a 淵 (4); the heart of the good is 淵 (8); fish must not leave it (36). The Zhuangzi lists nine kinds of 淵 in a story about a shaman who cannot read a master’s face. Confucius’s favorite student was called Yan Yuan, 顏淵. Under the Tang, writers had to avoid the graph, because it was the personal name of the dynasty’s founder, Li Yuan, and many copies wrote 泉 or 深 in its place.",
   "gap": "“Abyss” brings in dread and the bottomless pit of Western scripture. 淵 is deep but friendly: depth that shelters and feeds."
  },
  "混": {
@@ -4602,8 +4602,8 @@
    "do not (as a prohibition, like 毋)"
   ],
   "shuowen": "亡也。从亡無聲。",
-  "shuowenEn": "To be without. From 亡 (to be gone), with 無 for the sound. (The Shuowen enters the word under the fuller graph 𣞤.)",
-  "story": "The early graph is widely explained as a dancer with tassels or plumes in the hands; it was the first way to write “dance”, now 舞. It was borrowed for a word of like sound, “to not have”. The oldest Laozi manuscripts mostly write that word as 亡, “gone, lost”, or as 无, a short form that the Shuowen calls an “odd character”. In the Laozi, 無 is the partner of 有. The two give birth to each other (2); the uses of a wheel, a pot, and a room are at their 無 (11); things are born from 有 and 有 from 無 (40). It is also the first half of 無為, not-forcing, and 無名, nameless.",
+  "shuowenEn": "To be without. From 亡 (to be gone), with 無 for the sound.",
+  "story": "The early graph is widely explained as a dancer with tassels or plumes in the hands; it was the first way to write “dance”, now 舞. It was borrowed for a word of like sound, “to not have”. The oldest Laozi manuscripts mostly write that word as 亡, “gone, lost”, or as 无, a short form that the Shuowen lists as a 奇字, a variant graph of the ancient script. In the Laozi, 無 is the partner of 有. The two give birth to each other (2); the uses of a wheel, a pot, and a room are at their 無 (11); things are born from 有 and 有 from 無 (40). It is also the first half of 無為, not-forcing, and 無名, nameless.",
   "gap": "“Nothingness” and “Non-being” make it an abstract noun, and the Western tradition tends to hear a void to fear. 無 is first a verb, “have not”. In passage 11 it has an owner: 其無, “its nothing”."
  },
  "然": {
@@ -7096,7 +7096,7 @@
    }
   ],
   "story": "Before it was a philosophical term, 道 was the road under a traveler’s feet, and each school of the Warring States had its own: the 道 of the former kings, the 道 of war, the 道 of Heaven. To “have Dao” meant that a state was in order. The word was also an everyday verb, “to say”, and a verb for guiding. The Laozi took this common word and used it for that which comes before heaven and earth, while it kept the road in view. The graph joins walking and a head. Some read a person on a journey, and others a leader who shows the direction; both are later readings of the shape, and neither should be pressed.",
-  "gap": "“Way” is nearest, but English adds an article, a capital letter, and a singular. “God”, “Reason”, “Logos”, and “Nature” were all tried by early translators, and each brought in a Western system. The 1986 habit of “Absolute”, with a capital, does the same. Dao is a road that things walk. It does not stand behind them as a second thing."
+  "gap": "“Way” is nearest, but English adds an article, a capital letter, and a singular. “God”, “Reason”, “Logos”, and “Nature” were all tried by early translators, and each brought in a Western system. Modern versions that write “Absolute”, with a capital, do the same. Dao is a road that things walk. It does not stand behind them as a second thing."
  },
  "達": {
   "py": [

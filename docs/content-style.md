@@ -32,6 +32,28 @@ clean and quiet; the depth sits one tap away.
    other editions (Mawangdui silk, Guodian bamboo, Heshang Gong, Fu Yi) in
    `variant` notes.
 
+## 2b. Lessons from the pilot review (binding)
+
+1. Copy every Shuowen quote from `sources/shuowen.txt` with its radical
+   section. Never quote from memory. A rare variant graph is a different
+   entry until the text shows otherwise. `check-content` verifies quotes.
+2. Variant readings: quote the Mawangdui silk text from
+   `sources/mawangdui-collated.json` (collated A/B; chapter keys "1".."81").
+   For Guodian or Beida, say "reported" unless you are certain, and never
+   invent wording.
+3. Stroke order: read `app/data/strokes/<hex>.json` (hex = code point).
+   State the stroke count and name the strokes in order; do not group them.
+4. Before reading a line with new punctuation, test each unit as a known
+   compound (無有, 有無, 自然 …) — search the other chapters.
+5. Give every character cousin its basis: "the Shuowen says", "commonly
+   explained as", or "modern homophone only". Mandarin sound is not Old
+   Chinese sound; give rhyme groups, not reconstructions.
+6. The rendering adds no subject ("you", "we", "a man") and no intensifier
+   ("never", "hidden") that the characters lack. If English forces one,
+   name it in a note.
+7. If a note holds two facts that seem to conflict, resolve them there.
+8. Note ids are free-form; note `kind` must be one of the listed kinds.
+
 ## 3. The rendering
 
 - Short lines. Plain, living English. No archaism ("thee", "doth"), no

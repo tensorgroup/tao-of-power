@@ -20,7 +20,7 @@
         "25": "to temper, to blend, to tune",
         "29": "to be the same as, to join",
         "31": "dust; the common world",
-        "33": "sunk deep, still, and clear",
+        "33": "zhàn: sunk deep, still, and clear (for “submerged” the graph was also read chén, like 沈)",
         "36": "perhaps (the second “perhaps”)",
         "37": "to be there, to remain",
         "44": "child, son; offspring",
@@ -32,25 +32,25 @@
   ],
   "rendering": [
     "[[Dao|dao]] is an [[empty bowl|chong]].",
-    "Use it, and [[perhaps|huo]] it [[never fills|ying]].",
+    "Use it, and [[perhaps|huo]] it [[does not fill|ying]].",
     "A [[deep pool|yuan]], ah,",
     "it [[seems|si]] the [[ancestor|zong]] of the ten thousand things.",
     "",
     "[[Blunting what is sharp|cuo-rui]],",
     "untying what is tangled,",
     "[[tempering the light|he-guang]],",
-    "[[one with the dust|tong-chen]].",
+    "[[joining the dust|tong-chen]].",
     "",
     "[[Sunk and still|zhan]], ah,",
     "it seems, perhaps, to be there.",
     "I do not know [[whose child|shei-zi]] it is.",
-    "It [[looks|xiang]] older than [[the high god|di]]."
+    "It [[looks like|xiang]] the forebear of [[the high god|di]]."
   ],
   "notes": {
     "dao": {
       "kind": "gap",
       "title": "Dao, described by a cup",
-      "body": "We leave 道 as Dao. The word is first a road (see passage 1), and “Way” is its nearest English. This passage gives it no definition. It gives it a kitchen object, then a pool, then dust. Western philosophy tends to explain a first principle with the highest things it has: light, mind, the good, a king. This text goes down, to low and common things. Note also the grammar of the first clause, 道沖: two words, “Dao, empty”. It has no “is” and no “like”. English must add one or the other, and each adds a claim. Legge chose “is (like)”, with the second word in brackets. Which do you hear: a statement, or a comparison?"
+      "body": "We leave 道 as Dao. The word is first a road (see passage 1), and “Way” is its nearest English. This passage gives it no definition. It gives it a kitchen object, then a pool, then dust. Western philosophy tends to explain a first principle with the highest things it has: light, mind, the good, a king. This text goes down, to low and common things. Note also the grammar of the first clause, 道沖: two words, “Dao, empty”. It has no “is” and no “like”. English must add one or the other, and each adds a claim. Our “bowl” is also an addition; it comes from [[the old reading 盅|zhong]]. Legge chose “is (like)”, with the second word in brackets. Which do you hear: a statement, or a comparison?"
     },
     "chong": {
       "kind": "etymology",
@@ -80,13 +80,13 @@
     },
     "ying": {
       "kind": "gap",
-      "title": "Never fills, or never runs out?",
+      "title": "Does not fill, or does not run out?",
       "body": "不盈 is literally “not full”. The clause can go two ways. One: however much you pour in, the bowl does not fill; its capacity has no end. Two: however much you take out, it is not used up; some commentators read 盈 here as “reach a limit”, close to 窮, “exhaust”. Passage 45 supports the pair of ideas: 大盈若沖，其用不窮, “great fullness seems empty; its use does not run out”. Legge found a third way and made it a warning: we must “be on our guard against all fulness”. The Chinese has no “we” and no “must”. In English, a cup is for filling, and an empty cup is a lack. Here the cup is good because it stays unfilled. [[Wang Bi|wangbi]] explains why."
     },
     "wangbi": {
       "kind": "wangbi",
       "title": "Wang Bi: fill it and it spills",
-      "body": "Wang Bi comments: 沖而用之，用乃不能窮，滿以造實，實來則溢。 “Empty, and so used: then the use cannot be exhausted. Fill it to make it solid, and when the solid comes, it spills.” He begins with a political picture: a man whose capacity is the size of one household cannot keep a household whole, and a man whose capacity is the size of one state cannot complete a state. To carry a thing you need more room than the thing. Of the four middle lines he writes: 銳挫而無損…其體同塵而不渝其真, “its edge is blunted and it takes no harm … its body is one with the dust and its trueness does not change”. For him the lines describe Dao itself. They are not rules for us.",
+      "body": "Wang Bi comments: 沖而用之，用乃不能窮，滿以造實，實來則溢。 “Empty, and so used: then the use cannot be exhausted. Fill it to make it solid, and when the solid comes, it spills.” He begins with a political picture: a person whose capacity is the size of one household cannot keep a household whole, and a person whose capacity is the size of one state cannot complete a state. To carry a thing you need more room than the thing. Of the four middle lines he writes: 銳挫而無損…其體同塵而不渝其真, “its edge is blunted and it takes no harm … its body is one with the dust and its trueness does not change”. For him the lines describe Dao itself. They are not rules for us.",
       "src": [
         "Wang Bi commentary on Laozi 4"
       ]
@@ -118,7 +118,7 @@
     "four-lines": {
       "kind": "variant",
       "title": "Four lines that live twice",
-      "body": "挫其銳，解其紛，和其光，同其塵. These twelve characters come again, word for word, in passage 56, where they describe a person who knows and does not speak. Many modern scholars think that they belong there and were copied into this passage by mistake: without them the pool line and the still-water line join cleanly. If it was a mistake, it is very old. The Mawangdui silk texts (before 168 BCE) already have the lines in both places. The Guodian bamboo slips have passage 56 with the lines, and do not contain this passage at all. We keep them, as the pinned text does. In 56 the lines are about a sage. Here, with no subject, they may be about Dao. Read them both ways.",
+      "body": "挫其銳，解其紛，和其光，同其塵. These twelve characters come again, word for word, in passage 56, where they describe a person who knows and does not speak. Many modern scholars think that they belong there and were copied into this passage by mistake: without them the pool line and the still-water line join cleanly. If it was a mistake, it is very old. The Mawangdui silk texts (before 168 BCE) already have the lines in both places. The Guodian bamboo slips have passage 56 with the lines (in a different order, and with some different graphs), and do not contain this passage at all. We keep them, as the pinned text does. In 56 the lines are about a sage. Here, with no subject, they may be about Dao. Read them both ways.",
       "src": [
         "Mawangdui Laozi A and B",
         "Guodian Laozi A"
@@ -141,7 +141,7 @@
     "he-guang": {
       "kind": "gap",
       "title": "和: to tune the light",
-      "body": "和其光 is often given as “dim its light” or “soften its glare”. The verb is more interesting. 和 is the great word for harmony, and it began in sound. The Shuowen: 相譍也, “to answer one another”, as one voice answers another in a song. It is also what a cook does with flavors: blends them so that none stands out. So the light is not put out. It is tuned to the room, as a singer matches a choir. The light does not become less. It stops being separate. English has no verb that does this to light. “Temper” is our nearest: to bring to the right mix. Think of a person you know who is brilliant and does not make others feel dull. What do they do with their light?",
+      "body": "和其光 is often given as “dim its light” or “soften its glare”. The verb is more interesting. 和 is the great word for harmony, and it began in sound. The Shuowen: 相譍也, “to answer one another”, as one voice answers another in a song. It is also what a cook does with flavors: blends them so that none stands out. So the light is not put out. It is tuned to the room, as a singer matches a choir. The light does not become less. It stops being separate. The next line uses 同, “same”. Early ethics set these two words against each other: Confucius says that the noble person 和而不同, harmonizes and does not make the same. The Laozi uses both, one after the other. English has no verb that does this to light. “Temper” is our nearest: to bring to the right mix. Think of a person you know who is brilliant and does not make others feel dull. What do they do with their light?",
       "src": [
         "Shuowen Jiezi, 口部: 咊（和），相譍也。从口禾聲。"
       ]
@@ -166,7 +166,7 @@
     "zhan": {
       "kind": "etymology",
       "title": "湛: under the surface",
-      "body": "The Shuowen defines 湛 with one word: 沒也, “submerged”. From there the senses spread: deep, soaked through, still, clear. It is water again, the third water word in the passage after 沖 and 淵, and the calmest. The clause that follows is a wonder of hedging: 似或存, “seems, perhaps, to remain”. 存 means to be there, to persist, to be kept alive. Legge heard permanence here, “as if it would ever so continue”. The plainer sense is a thing seen under water: you think it is there, the light moves, and you are not sure. Dao does not show itself as a bright fact. It is like a stone on the bed of a clear pool. When did you last know a thing was present though you could not point to it?",
+      "body": "The Shuowen defines 湛 with one word: 沒也, “submerged”; in that sense the graph was also read chén, the same word as 沈, to sink. From there the senses spread: deep, soaked through, still, clear. It is water again, the third water word in the passage after 沖 and 淵, and the calmest. The clause that follows is a wonder of hedging: 似或存, “seems, perhaps, to remain”. 存 means to be there, to persist, to be kept alive. Legge heard permanence here, “as if it would ever so continue”. The plainer sense is a thing seen under water: you think it is there, the light moves, and you are not sure. Dao does not show itself as a bright fact. It is like a stone on the bed of a clear pool. When did you last know a thing was present though you could not point to it?",
       "src": [
         "Shuowen Jiezi, 水部: 湛，沒也。从水甚聲。"
       ]
@@ -174,7 +174,7 @@
     "shei-zi": {
       "kind": "gap",
       "title": "Whose child?",
-      "body": "吾不知誰之子: “I do not know whose child it is.” In a society built on lineage, to explain a thing was to give its descent. A man was the son of someone; a state was founded by someone; a king was 天子, the Son of Heaven. The speaker has just called Dao the [[ancestor|zong]] of everything, and now asks the family question about the ancestor itself, and has no answer. 子 is “child”; it often means “son”, and Legge wrote “son”, but the word does not require it. This is the first “I” (吾) in the book. It appears in order to say “I do not know”. The Greek tradition would ask “what is its cause?”. The Chinese asks “who is its parent?”. What changes when the question is about family?"
+      "body": "吾不知誰之子: “I do not know whose child it is.” In a society built on lineage, to explain a thing was to give its descent. A man was the son of someone; a state was founded by someone; a king was 天子, the Son of Heaven. The speaker has just called Dao the [[ancestor|zong]] of everything, and now asks the family question about the ancestor itself, and has no answer. 子 is “child”; it often means “son”, and Legge wrote “son”, but the word does not require it. This is the first “I” (吾) in the book. It appears in order to say “I do not know”. The Greek tradition would ask “what is its cause?”. The Chinese asks “who is its parent?”. The family words run through the whole passage: 宗, ancestor; 子, child; and in the last line 先, forebear. What changes when the question is about family?"
     },
     "xiang": {
       "kind": "etymology",
@@ -201,7 +201,7 @@
     }
   },
   "lenses": {
-    "ground": "The passage gives three pictures and one confession. A hollow [[bowl|chong]] that you can use and not fill. A [[deep pool|yuan]] in a river, which seems to be the [[ancestor|zong]] of the ten thousand things. Then four short strokes with no subject: blunt the point, untie the knot, [[tune the light|he-guang]], be [[one with the dust|tong-chen]]. Then water again, [[sunk and still|zhan]], where something seems, perhaps, to be. Then the confession: I do not know whose child this is; it [[looks|xiang]] older than [[Di|di]]. Three of the key words are written with water: 沖, 淵, 湛. The passage starts on a table, goes down into a river, down into dust, and ends before the high god. Every step goes lower or earlier. None goes up.",
+    "ground": "The passage gives three pictures and one confession. A hollow [[bowl|chong]] that you can use and not fill. A [[deep pool|yuan]] in a river, which seems to be the [[ancestor|zong]] of the ten thousand things. Then four short strokes with no subject: blunt the point, untie the knot, [[tune the light|he-guang]], be [[joining the dust|tong-chen]]. Then water again, [[sunk and still|zhan]], where something seems, perhaps, to be. Then the confession: I do not know whose child this is; it [[looks|xiang]] older than [[Di|di]]. Three of the key words are written with water: 沖, 淵, 湛. The passage starts on a table, goes down into a river, down into dust, and ends before the high god. Every step goes lower or earlier. None goes up.",
     "inner": "The usual picture of the sacred is fullness: more light, more presence, more certainty. This passage reverses each one. Dao is a hollow. Its depth is that of a pool. It is not a height. It tunes its light down to the room and joins the dust. Even its existence is given with a [[“perhaps”|si]]. For the contemplative reader this is exact reporting. When the mind is quiet, what remains is not a bright object. It is a clear, still capacity, hard to point at, in which sounds and thoughts appear and do not fill it. The four middle lines then describe what happens in that stillness, with no one who does it: sharp reactions lose their point, knots come loose. The [[proverb|proverb]] made from this passage says that such a person looks ordinary.",
     "leading": "[[Wang Bi|wangbi]] opens with a rule for anyone who carries responsibility: a person whose capacity is the size of the job cannot hold the job. You need unused room. The leader who is full of plans, opinions, and self has nowhere to put what the team brings. The four lines add a style. Blunt the edge: do not win each point. Untie the tangle: disputes are knots, and knots are untied, not cut. Tune the light: let your ability raise the room and not shame it. Join the dust: stay in the common work. This has a strategic side, and Sunzi would know it; a force with no sharp point gives the enemy nothing to strike. But the passage does not promise a reward. The speaker ends with “I do not know”, which is also a thing a leader can say.",
     "body": "Feel the first line in the breath. The lungs are a vessel that works only because it does not stay full. At the end of the out-breath there is a hollow, and the next breath comes into it without your effort: 沖, [[empty and surging|chong]]. The four lines are a good scan for a body that holds too much. Where is something sharp: the jaw, the eyes, the tone of voice? Let it go blunt. Where is a tangle: the shoulders, the belly? Let it loosen; do not pull at it. Internal martial arts use the same order. A hard, pointed force is easy to meet and turn. A body that is [[sunk and still|zhan]], with weight low like water in a pool, has no edge for the other person to find.",
@@ -213,19 +213,19 @@
     {
       "c": "沖",
       "title": "Water at the centre",
-      "lesson": "On the left, three drops: 氵, the short form of 水 when it stands at the side of a character. 水 itself is a picture of a current with spray on each side. Every character in this passage that is about depth has it: 沖, 淵, 湛. Count them in the Chinese text. On the right is 中, the centre: a line through the middle of a space. The oldest forms of 中 show a pole with streamers, commonly explained as a flag set up at the centre of a camp or a field, where people gather; the detail is debated. The Shuowen takes the two parts together, 从水中, and defines the word as water that wells up and rocks. Its cousins by the right half are worth a look: 忠 is 中 over 心, the heart at its centre: loyalty. 仲 is a person in the middle: the second of three brothers. And 盅, 中 over a dish, is [[the hollow of a vessel|zhong]], the word that the old readers heard in this line. In modern Chinese the short form 冲 has two drops and does heavy work: to rinse, to brew tea, to charge forward. So one sound holds a bowl that waits and water that moves. The line needs both: [[an emptiness that surges|chong]].",
+      "lesson": "On the left, three drops: 氵, the short form of 水 when it stands at the side of a character. 水 itself is a picture of a current with spray on each side. Every character in this passage that is about depth has it: 沖, 淵, 湛. Count them in the Chinese text. On the right is 中, the centre: a line through the middle of a space. The oldest forms of 中 show a pole with streamers, commonly explained as a flag set up at the centre of a camp or a field, where people gather; the detail is debated. The Shuowen takes the two parts together, 从水中, and defines the word as water that wells up and rocks. Its cousins by the right half are worth a look: 忠 is 中 over 心, the heart at its centre: loyalty. 仲 is a person in the middle: the second-born brother. And 盅, 中 over a dish, is [[the hollow of a vessel|zhong]], the word that the old readers heard in this line. In modern Chinese the short form 冲 has two drops and does heavy work: to rinse, to brew tea, to charge forward. So one sound holds a bowl that waits and water that moves. The line needs both: [[an emptiness that surges|chong]].",
       "brush": "Seven strokes. The three drops come first, top to bottom, and no two are alike: the first falls, the second falls a little further left, and the third is not a drop at all but a flick upward to the right. Watch that third stroke: it points at the place where the next part will begin, and it joins the two halves across the gap. Then 中: left side, then top and right side in a single stroke, then the base. The last stroke is the vertical through the centre, from above the box to well below it. Everything waits for it. A writer may end it in a point, the “hanging needle”, or in a rounded stop, the “dropping dew”. In running script the three drops become one line that hooks, like water that has started to move."
     },
     {
       "c": "象",
       "title": "The elephant in the mind",
       "lesson": "This is a whole animal, turned on its side over three thousand years. The oracle-bone form is one of the clearest pictures in early writing: a side view with a long curved trunk, a heavy body, and a tail. Stand the animal on its tail and you have the modern form: the trunk and head at the top, the body in the middle, the legs and tail in the strokes that fan out below. The Shuowen still describes it as a picture: 象耳牙四足之形, “it shows the ears, tusks, and four feet”. Elephants lived in the Yellow River plain in the Shang. The character 為, “to do, to make”, is commonly explained from its early form as a hand that leads an elephant: work. Then the animals withdrew to the south, and the word did a strange thing. The Han Feizi says that people who found the bones of a dead elephant pictured the living one from them, and so every mental picture came to be called 象. Add a person, and you get 像: a portrait, a statue, a likeness. In Chinese chess, 象棋, the elephant still walks the board. In the last line here, 象 is a verb: [[it looks like, it seems|xiang]]. Dao is given as a guess from the bones.",
-      "brush": "Follow the animal from the top. The first strokes make the small bent cap that was the trunk and head. Next comes the flat box of the head and body, wider than it is tall. Then the lower half: a long stroke that curves down through the centre and ends in a hook, with short strokes that fall away to the left of it like legs. The last stroke is the long 捺 that sweeps to the lower right. Watch it: the brush presses down as it travels and then lifts to a point. It is the counterweight for all the strokes on the left, and without it the elephant falls on its face. In clerical script this last stroke carries the flared “goose tail”, and the whole beast looks as if it is walking."
+      "brush": "Eleven strokes in the form that the app writes (some standards count twelve). Follow the animal from the top. Strokes one and two make the small bent cap that was the trunk and head. Three to five make the flat box, wider than it is tall. Stroke six starts inside the box and falls a long way down to the left. Then stroke seven, the spine: it curves down through the centre and ends in a hook. Two more strokes fall away to the left of it, like legs. Stroke ten is a short one on the right side that meets the spine. The last stroke is the long 捺 that sweeps to the lower right. Watch it: the brush presses down as it travels and then lifts to a point. It is the counterweight for every stroke on the left. In clerical script it carries the flared “goose tail”, and the beast seems to walk."
     },
     {
       "c": "塵",
       "title": "Deer over earth",
-      "lesson": "Two pictures, one on the other. On top is 鹿, a deer. The oracle-bone form shows the animal from the side with branched antlers, a large eye, and legs; in the modern form the antlers and head are the upper part, and the two 匕 shapes at the foot are what is left of the legs. Below is 土, earth: commonly explained as a lump of soil on the ground line. The Shuowen’s older form of the character has three deer on top, 麤, a herd, and the definition is a scene and not a gloss: 鹿行揚土也, “deer run and the earth rises”. So dust is the track that life leaves in the air. Three of a thing is the usual way in the script to say “many”: 森 is a forest from three trees, 眾 a crowd from three people, and 品, three mouths, is a set of things to compare. The herd shrank to one deer because the full form was heavy to write. The mainland short form went further and is a new small poem: 尘, 小 over 土, “small earth”. 鹿 has cousins too: 麗, “beautiful”, is a deer with a fine pair of antlers above it, and 慶, to celebrate, has a deer inside it, commonly explained as a deerskin brought as a gift. The line says [[同其塵|tong-chen]]: be where the hooves are.",
+      "lesson": "Two pictures, one on the other. On top is 鹿, a deer. The oracle-bone form shows the animal from the side with branched antlers, a large eye, and legs; in the modern form the antlers and head are the upper part, and the two 匕 shapes at the foot are what is left of the legs. Below is 土, earth: commonly explained as a lump of soil on the ground line. The Shuowen’s older form of the character has three deer on top, 麤, a herd, and the definition is a scene and not a gloss: 鹿行揚土也, “deer run and the earth rises”. So dust is the track that life leaves in the air. Three of a thing is the usual way in the script to say “many”: 森 is a forest from three trees, 眾 a crowd from three people, and 品, three mouths, is a set of things to compare. The herd shrank to one deer because the full form was heavy to write. The mainland short form went further and is a new small poem: 尘, 小 over 土, “small earth”. 鹿 has cousins too: 麗, “beautiful”, is commonly explained as a deer with a fine pair of antlers above it (the Shuowen takes the top part as the sound), and 慶, to celebrate, has a deer inside it, commonly explained as a deerskin brought as a gift. The line says [[同其塵|tong-chen]]: be where the hooves are.",
       "brush": "Fourteen strokes: the deer first, then the earth. The deer opens with a dot and a level line, and then a long stroke that falls away to the left and shelters all that comes after it. Under that roof the strokes are many and close, and the writer must keep the white spaces between them even, or the animal turns into a blot. The two leg shapes at the bottom of the deer are kept short, to leave room. Then the earth: a short horizontal, a vertical, and last a long horizontal. Watch that last stroke. It is the ground line, and it should be the widest line in the character; a tall, crowded shape stands or falls on it. In cursive script the deer is cut down to a few turns of the wrist, and only the ground line stays the same."
     }
   ]

@@ -1,6 +1,6 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = '08eb4721ae97';
+const VERSION = 'bf732cda6621';
 const FILES = [
  "./",
  "css/app.css",

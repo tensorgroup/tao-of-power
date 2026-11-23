@@ -11,6 +11,14 @@ first and follow it exactly. Spec: `docs/superpowers/specs/2026-11-23-tao-of-pow
 - `sources/legge.json` — Legge 1891, public domain (for discussion in `legge`
   notes; the app shows it separately — do not copy it into your file).
 - `sources/unihan.json` — pinyin readings and short definitions.
+- `sources/shuowen.txt` — the full Shuowen Jiezi (copy quotes from here).
+- `sources/mawangdui-collated.json` — the Mawangdui silk text, by chapter.
+- `app/data/strokes/` is built later; for stroke order use
+  `node -e` on `sources/raw/hanzi/graphics.txt` (one JSON per line, field
+  `character`, `strokes`, `medians`) or standard regular-script order.
+- `app/data/passages/01.json`, `04.json`, `11.json` — the reviewed pilot.
+  Match their depth, tone, and density.
+- `node scripts/show-offsets.mjs N` — prints segment characters with offsets.
 - `app/data/lexicon.json` — the current lexicon.
 - `docs/study/wing/NN.md` and `docs/study/wing/overview.md` — notes in our
   own words on how a 1986 modern translation framed each passage: what it
