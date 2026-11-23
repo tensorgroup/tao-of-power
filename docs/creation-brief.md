@@ -12,7 +12,7 @@ first and follow it exactly. Spec: `docs/superpowers/specs/2026-11-23-tao-of-pow
   notes; the app shows it separately — do not copy it into your file).
 - `sources/unihan.json` — pinyin readings and short definitions.
 - `sources/shuowen.txt` — the full Shuowen Jiezi (copy quotes from here).
-- `sources/mawangdui-collated.json` — the Mawangdui silk text, by chapter.
+- `sources/mawangdui-a.json`, `sources/mawangdui-b.json` — silk A and B by chapter (see style guide §2b.2; the collated file is NOT reliable).
 - `app/data/strokes/` is built later; for stroke order use
   `node -e` on `sources/raw/hanzi/graphics.txt` (one JSON per line, field
   `character`, `strokes`, `medians`) or standard regular-script order.

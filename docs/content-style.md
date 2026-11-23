@@ -37,10 +37,14 @@ clean and quiet; the depth sits one tap away.
 1. Copy every Shuowen quote from `sources/shuowen.txt` with its radical
    section. Never quote from memory. A rare variant graph is a different
    entry until the text shows otherwise. `check-content` verifies quotes.
-2. Variant readings: quote the Mawangdui silk text from
-   `sources/mawangdui-collated.json` (collated A/B; chapter keys "1".."81").
-   For Guodian or Beida, say "reported" unless you are certain, and never
-   invent wording.
+2. Variant readings: quote the Mawangdui silk texts from `sources/mawangdui-a.json`
+   and `sources/mawangdui-b.json` (silk A and B, transcribed from the 2014
+   Jicheng plates; □ marks a lacuna; chapter keys "1".."81"). Say which
+   manuscript ("silk A reads …"). `sources/mawangdui-collated.json` is a
+   modern merged reconstruction that mixes in Guodian wording (e.g. its
+   ch.19 has 絕知棄辯, which is Guodian, not silk) — never cite it as "the
+   Mawangdui text". For Guodian or Beida, say "reported" unless certain,
+   and never invent wording.
 3. Stroke order: read `app/data/strokes/<hex>.json` (hex = code point).
    State the stroke count and name the strokes in order; do not group them.
 4. Before reading a line with new punctuation, test each unit as a known
