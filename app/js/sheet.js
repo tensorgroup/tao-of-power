@@ -2,7 +2,7 @@
 import { h, clear } from './ui.js';
 
 let stack = [];
-let root, scrim, panel, titleEl, kindEl, bodyEl, backBtn, lastFocus;
+let root, scrim, panel, titleEl, kindEl, bodyEl, backBtn, lastFocus, closeTimer;
 
 function ensure() {
   if (panel) return;
@@ -39,7 +39,8 @@ function render() {
 /** build: () => Node. Pushes onto the stack (so chained notes can go back). */
 export function openSheet({ title, kind, build }) {
   ensure();
-  const opening = stack.length === 0;
+  clearTimeout(closeTimer);
+  const opening = stack.length === 0 || !panel.isConnected;
   stack.push({ title, kind, build });
   render();
   if (opening) {
@@ -60,7 +61,7 @@ export function closeAll() {
   stack = [];
   scrim.classList.remove('in');
   panel.classList.remove('in');
-  setTimeout(() => { scrim.remove(); panel.remove(); }, 280);
+  closeTimer = setTimeout(() => { if (!stack.length) { scrim.remove(); panel.remove(); } }, 280);
   lastFocus?.focus?.({ preventScroll: true });
 }
 

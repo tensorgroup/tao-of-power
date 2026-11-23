@@ -1,5 +1,5 @@
 // Router, service worker, and app-wide state.
-import { h, clear, toast } from './ui.js';
+import { h, clear, toast, showUpdate } from './ui.js';
 import { closeAll } from './sheet.js';
 import * as journalStore from './journal.js';
 import { drawView } from './views/draw.js';
@@ -65,16 +65,18 @@ async function route() {
 addEventListener('hashchange', route);
 await getGlossary().then(setGlossary);
 // Another tab changed the journal.
-addEventListener('storage', (e) => { if (e.key === journalStore.KEY) state.journal = journalStore.load(); });
+addEventListener('storage', (e) => {
+  if (e.key !== journalStore.KEY) return;
+  state.journal = journalStore.load();
+  if (location.hash === '#/journal') route();
+});
 route();
 
 // Service worker: offline + update flow.
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  const hadController = !!navigator.serviceWorker.controller; // first visit: no reload on claim
   navigator.serviceWorker.register('sw.js').then((reg) => {
-    const offer = (w) => toast('Update ready.', {
-      action: 'Refresh', ms: 0,
-      onAction: () => w.postMessage('skipWaiting'),
-    });
+    const offer = (w) => showUpdate(() => w.postMessage('skipWaiting'));
     if (reg.waiting && navigator.serviceWorker.controller) offer(reg.waiting);
     reg.addEventListener('updatefound', () => {
       const w = reg.installing;
@@ -85,7 +87,7 @@ if ('serviceWorker' in navigator && location.protocol === 'https:') {
   }).catch(() => {});
   let reloading = false;
   navigator.serviceWorker.addEventListener('controllerchange', () => {
-    if (reloading) return;
+    if (reloading || !hadController) return;
     reloading = true;
     location.reload();
   });

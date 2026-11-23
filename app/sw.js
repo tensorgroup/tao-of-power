@@ -1,6 +1,7 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = 'c0489c3858e3';
+const VERSION = '60aad5179c11';
+const ART_VERSION = 'bb939904';
 const FILES = [
  "./",
  "css/app.css",
@@ -300,7 +301,7 @@ const FILES = [
 ];
 // </precache>
 const CACHE = `tao-${VERSION}`;
-const ART_CACHE = 'tao-art'; // runtime cache: paintings are cached when first viewed
+const ART_CACHE = `tao-art-${typeof ART_VERSION === 'string' ? ART_VERSION : 'dev'}`; // paintings cached on first view; versioned so replaced art refreshes
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {

@@ -80,7 +80,7 @@ function castSteps(bundles, ui, { intro, onLine }) {
     ui.stage.replaceChildren(...rows.map((r) => r.el));
     ui.caption.textContent = `Divide them at random into three bundles: ${bundles.join(', ')} (together 64). Count the right one first.`;
   });
-  [0, 1, 2].forEach((i) => steps.push(async () => { ui.caption.textContent = await rows[i].count(ui.alive) || ui.caption.textContent; }));
+  [0, 1, 2].forEach((i) => steps.push(async () => { const alive = ui.alive; const text = await rows[i].count(alive); if (alive() && text) ui.caption.textContent = text; }));
   steps.push(() => {
     const rem = bundles.map(bundleRemainder);
     const total = rem.reduce((s, x) => s + x, 0);
@@ -217,21 +217,27 @@ export function howSection({ standalone = false } = {}) {
     run(0).then(() => { if (jump) play(); });
   }
 
+  let busy = false;
   async function run(k) {
+    const my = token;
     i = k;
+    busy = true;
+    nextBtn.disabled = true;
     await steps[i]();
+    if (my !== token) return; // a newer load took over
+    busy = false;
     nextBtn.disabled = playBtn.disabled = i >= steps.length - 1;
   }
-  async function next() { if (i < steps.length - 1) await run(i + 1); }
+  async function next() { if (!busy && i < steps.length - 1) await run(i + 1); }
   async function play() {
-    if (playing) return;
-    playing = true;
     const my = token;
-    while (i < steps.length - 1 && my === token && playing) {
+    if (playing === my) return;
+    playing = my;
+    while (i < steps.length - 1 && my === token) {
       await next();
       await wait(1100);
     }
-    playing = false;
+    if (playing === my) playing = false;
   }
 
   renderChips();

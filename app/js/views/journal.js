@@ -2,7 +2,7 @@
 import { h, fmtDate, toast } from '../ui.js';
 import { state } from '../app.js';
 import {
-  updateEntry, deleteEntry, validate, merge, toExport, exportFilename, snapshot, emptyJournal,
+  updateEntry, deleteEntry, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
 } from '../journal.js';
 import { getIndex } from '../data.js';
 
@@ -20,6 +20,7 @@ export async function journalView() {
       h('h1', { text: 'Journal' }),
       h('p', { class: 'muted', text: `${j.entries.length} entr${j.entries.length === 1 ? 'y' : 'ies'} · ${j.draws.length} draw${j.draws.length === 1 ? '' : 's'}` }),
       backupNote(last, newer),
+      restoreBox(render),
       h('div', { class: 'row' },
         h('button', { class: 'btn primary', type: 'button', text: 'Export', onclick: () => doExport(render) }),
         h('button', { class: 'btn', type: 'button', text: 'Import', onclick: () => doImport(render) })),
@@ -30,6 +31,18 @@ export async function journalView() {
   };
   render();
   return root;
+}
+
+function restoreBox(render) {
+  let snap = null;
+  try { snap = validate(JSON.parse(localStorage.getItem(SNAPSHOT_KEY) || 'null')); } catch { snap = null; }
+  if (!snap?.ok) return null;
+  return h('p', { class: 'backup' }, `A journal saved before your last Replace is kept (${snap.journal.entries.length} entries). `,
+    h('button', { class: 'btn quiet small-btn', type: 'button', text: 'Restore it (merge)', onclick: () => {
+      state.journal = merge(state.journal, snap.journal);
+      if (state.persist()) { try { localStorage.removeItem(SNAPSHOT_KEY); } catch {} toast('Restored and merged.'); }
+      render();
+    } }));
 }
 
 function backupNote(last, newer) {
@@ -131,18 +144,22 @@ function doImport(render) {
 function showImportChoice(incoming, before, render) {
   const view = document.getElementById('view');
   const box = h('div', { class: 'confirm', role: 'alertdialog', 'aria-label': 'Import' },
-    h('span', { text: `File has ${incoming.entries.length} entries. Merge keeps everything from both.` }),
+    h('span', { text: `File has ${incoming.entries.length} entries. Merge combines both journals; where they disagree, the newer edit or deletion wins.` }),
     h('button', { class: 'btn primary', type: 'button', text: 'Merge', onclick: () => {
+      const beforeIds = new Set(state.journal.entries.map((e) => e.id));
       state.journal = merge(state.journal, incoming);
-      if (state.persist()) toast(`Merged. ${state.journal.entries.length - before} new or restored.`);
+      const afterIds = new Set(state.journal.entries.map((e) => e.id));
+      const added = [...afterIds].filter((id) => !beforeIds.has(id)).length;
+      const removed = [...beforeIds].filter((id) => !afterIds.has(id)).length;
+      if (state.persist()) toast(`Merged: ${added} added${removed ? `, ${removed} removed by newer deletions` : ''}.`);
       render();
     } }),
     h('button', { class: 'btn quiet', type: 'button', text: 'Replace…', onclick: () => {
       box.replaceChildren(h('span', { text: 'Replace deletes this browser’s journal (a snapshot is kept). Sure?' }),
         h('button', { class: 'btn red', type: 'button', text: 'Replace', onclick: () => {
-          snapshot(state.journal);
+          if (!snapshot(state.journal)) { toast('Could not save a snapshot (storage full). Export first, then replace.', { warn: true, ms: 7000 }); return; }
           state.journal = merge(emptyJournal(), incoming);
-          if (state.persist()) toast('Replaced. The previous journal is kept as a snapshot.');
+          if (state.persist()) toast('Replaced. The previous journal is saved — use “Restore” on this page to bring it back.');
           render();
         } }),
         h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => box.remove() }));

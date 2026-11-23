@@ -56,6 +56,16 @@ export function lineNames(lines) {
   return lines.map((v) => name[v]).join(', ');
 }
 
+/** A persistent "Update ready" banner that other toasts cannot replace. */
+export function showUpdate(onRefresh) {
+  let el = document.getElementById('update');
+  if (!el) {
+    el = h('div', { id: 'update', role: 'status' });
+    document.body.append(el);
+  }
+  el.replaceChildren('Update ready. ', h('button', { type: 'button', text: 'Refresh', onclick: () => { el.remove(); onRefresh(); } }));
+}
+
 let toastTimer;
 export function toast(msg, { action, onAction, warn = false, ms = 3500 } = {}) {
   const t = document.getElementById('toast');

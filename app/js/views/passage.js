@@ -204,14 +204,19 @@ async function plate(pl, e, ctx) {
   return el;
 }
 
+// One pair of global listeners saves whichever draft is on screen.
+let currentFlush = null;
+addEventListener('pagehide', () => currentFlush?.());
+document.addEventListener('visibilitychange', () => { if (document.hidden) currentFlush?.(); });
+addEventListener('hashchange', () => { currentFlush?.(); currentFlush = null; });
+
 function journalBox(n, draw) {
   const ta = h('textarea', { id: 'jtext', 'aria-label': 'Your thoughts on this passage', placeholder: 'What arises?' });
   ta.value = loadDraft(n);
   let t;
   const flush = () => saveDraft(n, ta.value);
   ta.addEventListener('input', () => { clearTimeout(t); t = setTimeout(flush, 600); });
-  addEventListener('pagehide', flush);
-  document.addEventListener('visibilitychange', () => { if (document.hidden) flush(); });
+  currentFlush = flush;
   const list = h('div');
   const refresh = () => list.replaceChildren(entryList(state.journal.entries.filter((e) => e.passage === n), { showPassage: false, onChange: refresh }));
   const save = () => {

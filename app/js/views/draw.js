@@ -14,7 +14,10 @@ const TOP = 38, STICK_H = 120;
 const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 const LINE_WORD = ['solid', 'broken once', 'broken twice'];
 
+let activeRun = 0;
+
 export async function drawView() {
+  activeRun++;
   const idx = await getIndex();
   const root = h('section', { class: 'draw' });
   const start = h('div', {},
@@ -39,6 +42,7 @@ function recentList(idx) {
 }
 
 async function run(root) {
+  const myRun = ++activeRun;
   const result = drawTetragram();
   let skip = reduced();
   const wait = (ms) => (skip ? Promise.resolve() : new Promise((r) => setTimeout(r, ms)));
@@ -104,7 +108,7 @@ async function run(root) {
   const go = () => { location.hash = `#/p/${result.n}?d=${d.id}`; };
   stage.append(h('div', { class: 'row actions' }, h('button', { class: 'btn primary', type: 'button', text: 'Read the passage', onclick: go })));
   if (!skip) await wait(1400);
-  if (location.hash === '' || location.hash === '#/' ) go();
+  if (myRun === activeRun && (location.hash === '' || location.hash === '#/')) go();
 }
 
 function reset(sticks) {
