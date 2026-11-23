@@ -1,11 +1,25 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = '23e32b80e8f1';
+const VERSION = '08eb4721ae97';
 const FILES = [
  "./",
  "css/app.css",
  "data/index.json",
  "data/lexicon.json",
+ "data/passages/01.json",
+ "data/passages/04.json",
+ "data/passages/11.json",
+ "data/strokes/540d.json",
+ "data/strokes/5668.json",
+ "data/strokes/5875.json",
+ "data/strokes/5fb7.json",
+ "data/strokes/6c96.json",
+ "data/strokes/7121.json",
+ "data/strokes/7384.json",
+ "data/strokes/7d93.json",
+ "data/strokes/8c61.json",
+ "data/strokes/8eca.json",
+ "data/strokes/9053.json",
  "data/text.json",
  "fonts/ebgaramond-italic.woff2",
  "fonts/ebgaramond.woff2",
@@ -17,6 +31,7 @@ const FILES = [
  "icons/icon-512.png",
  "icons/icon-maskable.png",
  "js/app.js",
+ "js/brush.js",
  "js/data.js",
  "js/draw.js",
  "js/journal.js",

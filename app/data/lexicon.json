@@ -783,7 +783,27 @@
   "py": [
    "lì"
   ],
-  "def": "gains, advantage, profit, merit"
+  "def": "gains, advantage, profit, merit",
+  "senses": [
+   "sharp (of a blade)",
+   "smooth, favorable",
+   "gain, profit, advantage",
+   "to benefit"
+  ],
+  "shuowen": "銛也。从刀。和然後利，从和省。《易》曰：「利者，義之和也。」",
+  "shuowenEn": "Sharp. From 刀 (knife). After harmony comes gain; the graph takes a part of 和. The Changes says: “Gain is the harmony of what is right.”",
+  "parts": [
+   {
+    "c": "禾",
+    "m": "grain stalk"
+   },
+   {
+    "c": "刂",
+    "m": "knife"
+   }
+  ],
+  "story": "A knife beside grain: the common explanation is a blade that cuts the crop, and so both “sharp” and “harvest, gain”. The Shuowen prefers a moral reading, with 禾 as a short form of 和, harmony. 利 was one of the most contested words of the Warring States. For the Mohists it was the measure of right action: that which benefits the world. Mencius set it against rightness. Sunzi uses it for the advantage that a general seeks. The Laozi uses both senses: “sharp tools” (36, 57), and water that “benefits the ten thousand things and does not contend” (8). In passage 11 it is the gain that substance gives.",
+  "gap": "English separates “sharp”, “profit”, and “benefit”. In 利 the edge is still in the word: gain is a thing that is cut and taken."
  },
  "到": {
   "py": [
@@ -1144,7 +1164,27 @@
    "míng",
    "mìng"
   ],
-  "def": "name, rank, title, position"
+  "def": "name, rank, title, position",
+  "senses": [
+   "name",
+   "to name, to call",
+   "fame, reputation",
+   "title, rank; a word as against the thing (實)"
+  ],
+  "shuowen": "自命也。从口从夕。夕者，冥也。冥不相見，故以口自名。",
+  "shuowenEn": "To call oneself. From 口 (mouth) and 夕 (evening). Evening is darkness. In the dark people cannot see each other, so each one says a name with the mouth.",
+  "parts": [
+   {
+    "c": "夕",
+    "m": "evening, dusk"
+   },
+   {
+    "c": "口",
+    "m": "mouth"
+   }
+  ],
+  "story": "The Shuowen’s picture is one of the best in the dictionary: two people meet at dusk, cannot see faces, and call out who they are. A name is a voice in the dark. In the Warring States, 名 was a central problem of government and logic. Confucius wanted names made correct, so that “ruler” and “father” would bind the people who carried those titles. The debaters of the School of Names tested how names attach to things. Legalist administrators held each officer to the 名 of the post. The word also means fame, and the Laozi asks in passage 44: 名與身孰親, “name or body, which is closer to you?”",
+  "gap": "English “name” is mostly a label for a person or thing. 名 also covers title, role, reputation, and the whole act of dividing the world with words. “Nameless” (無名) in the Laozi is not “anonymous”. It is the state before the world is cut into kinds."
  },
  "向": {
   "py": [
@@ -1205,7 +1245,27 @@
    "hè",
    "huò"
   ],
-  "def": "harmony, peace; peaceful, calm"
+  "def": "harmony, peace; peaceful, calm",
+  "senses": [
+   "to answer in song, to sing in response",
+   "harmony; to harmonize",
+   "to blend, to mix (flavors, medicines)",
+   "mild, gentle; peace"
+  ],
+  "shuowen": "相譍也。从口禾聲。",
+  "shuowenEn": "To answer one another. From 口 (mouth), with 禾 for the sound.",
+  "parts": [
+   {
+    "c": "禾",
+    "m": "grain stalk; gives the sound"
+   },
+   {
+    "c": "口",
+    "m": "mouth"
+   }
+  ],
+  "story": "和 began in music: one voice or instrument that answers another. It also belonged to the kitchen. A statesman in the Zuo Tradition explains 和 with a cook who makes soup: water, fire, vinegar, salt, and plums are different, and the cook balances them. If all were the same, he says, who could eat it? So 和 is never sameness; it needs difference. In the Laozi, sounds and voices 和 each other (2), the breaths of yin and yang surge into 和 (42), and to know 和 is called the constant (55). In passage 4 it takes an unusual object: light.",
+  "gap": "English “harmony” has become soft and vague, and “peace” is only the absence of conflict. 和 is an active skill: to tune different things so that each can still be heard."
  },
  "咎": {
   "py": [
@@ -1303,7 +1363,27 @@
   "py": [
    "qì"
   ],
-  "def": "receptacle, vessel; instrument"
+  "def": "receptacle, vessel; instrument",
+  "senses": [
+   "vessel, container",
+   "tool, implement, weapon",
+   "ritual bronze",
+   "a person’s capacity or talent; to value someone’s ability"
+  ],
+  "shuowen": "皿也。象器之口，犬所以守之。",
+  "shuowenEn": "A dish. The graph shows the mouths of vessels, and a dog that guards them.",
+  "parts": [
+   {
+    "c": "口",
+    "m": "mouth, opening (four of them)"
+   },
+   {
+    "c": "犬",
+    "m": "dog"
+   }
+  ],
+  "story": "Four mouths around a dog: the Shuowen sees a row of vessels with a watchdog. Modern scholars debate the middle part, but the four openings are plain. 器 first meant pots, then each made tool, and above all the cast bronzes of ancestral ritual, which were the signs of rank. From there it came to mean a person’s capacity. Confucius said that the noble person is not a 器. The Laozi turns the word several ways: the uncarved block is split to make 器 (28); the world is a spirit 器 and cannot be handled (29); the great 器 is completed late (41); and in passage 11 its use is its hollow.",
+  "gap": "English keeps “vessel”, “tool”, and “talent” apart. 器 joins them, so that each statement about a pot is quietly a statement about a person."
  },
  "四": {
   "py": [
@@ -1405,7 +1485,25 @@
   "py": [
    "zhí"
   ],
-  "def": "soil with large clay content"
+  "def": "soil with large clay content",
+  "senses": [
+   "sticky clay, potter’s clay",
+   "clay soil"
+  ],
+  "shuowen": "黏土也。从土直聲。",
+  "shuowenEn": "Sticky earth. From 土 (earth), with 直 for the sound.",
+  "parts": [
+   {
+    "c": "土",
+    "m": "earth, soil"
+   },
+   {
+    "c": "直",
+    "m": "gives the sound; by itself: straight"
+   }
+  ],
+  "story": "埴 is fine clay that holds together when it is wet. With 埏, to knead, it makes the craft phrase 埏埴, “to work clay”, which both the Laozi (11) and the Xunzi use for the potter’s trade. The two books draw opposite lessons from the same act. Xunzi points to the potter’s effort: a vessel does not come from the clay’s nature, and a good person does not come from human nature without training. The Laozi points to the hollow that the potter leaves. China’s oldest pots are many thousands of years older than either book.",
+  "gap": "“Clay” is close. That which English loses is the phrase: 埏埴 was a set term of a trade, as plain to its first hearers as “throw a pot” is to an English potter."
  },
  "執": {
   "py": [
@@ -1457,7 +1555,26 @@
   "py": [
    "chén"
   ],
-  "def": "dust, dirt, ashes, cinders"
+  "def": "dust, dirt, ashes, cinders",
+  "senses": [
+   "dust",
+   "the common world and its affairs",
+   "traces, tracks"
+  ],
+  "shuowen": "鹿行揚土也。从麤从土。",
+  "shuowenEn": "Deer run and the earth rises. From 麤 (three deer) and 土 (earth).",
+  "parts": [
+   {
+    "c": "鹿",
+    "m": "deer"
+   },
+   {
+    "c": "土",
+    "m": "earth, soil"
+   }
+  ],
+  "story": "The Shuowen’s form has three deer over earth, and its definition is a scene: a herd runs and dust goes up. The modern graph keeps one deer. Dust in Chinese is thus first a sign of movement and life. In the Laozi it occurs in one phrase, 同其塵, “be one with its dust” (4, 56). Later the word became the usual figure for worldly life: 紅塵, “red dust”, is the busy world; 風塵, “wind and dust”, is hard travel; in Buddhist texts the six 塵 are the objects of the senses. To leave home for a monastery was to leave the dust. The Laozi’s phrase goes the other way.",
+  "gap": "English “dust” suggests neglect and death (“dust to dust”). 塵 suggests traffic: the world where things are happening."
  },
  "增": {
   "py": [
@@ -1654,7 +1771,24 @@
    "miào",
    "miǎo"
   ],
-  "def": "mysterious, subtle; exquisite"
+  "def": "mysterious, subtle; exquisite",
+  "senses": [
+   "fine, minute, subtle",
+   "wondrous, excellent",
+   "the first hidden stir of a thing"
+  ],
+  "parts": [
+   {
+    "c": "女",
+    "m": "woman"
+   },
+   {
+    "c": "少",
+    "m": "few, small, young"
+   }
+  ],
+  "story": "妙 is not in the oldest layer of the Shuowen, and the early manuscripts of the Laozi do not write it this way. The Mawangdui silk texts have 眇, with the eye radical: tiny, at the limit of sight. Wang Bi defines the word as 微之極, “the far limit of the minute”, the point where a thing is only starting to be a thing. The later graph is written with 女 and 少, and readers have long liked to see in it a young woman, and so freshness and grace; that is a reading of the modern shape, not a recorded origin. From “fine” the word grew to mean wonderful and skilled: a 妙 hand, a 妙 plan. In Buddhism it translated the Sanskrit sat, “true, excellent”, as in the title of the Lotus Sutra, 妙法蓮華經.",
+  "gap": "“Mystery” makes it a secret. “Wonder” makes it large. “Subtlety” makes it dry. 妙 is small, early, and delightful together: the thing you only see if you want nothing from it."
  },
  "妨": {
   "py": [
@@ -1808,7 +1942,27 @@
   "py": [
    "zōng"
   ],
-  "def": "lineage, ancestry; ancestor, clan"
+  "def": "lineage, ancestry; ancestor, clan",
+  "senses": [
+   "ancestral shrine",
+   "ancestor; the main line of a clan",
+   "to honor as head; the head or root of a thing",
+   "a school or sect"
+  ],
+  "shuowen": "尊祖廟也。从宀从示。",
+  "shuowenEn": "The shrine where the ancestors are honored. From 宀 (roof) and 示 (altar).",
+  "parts": [
+   {
+    "c": "宀",
+    "m": "roof, building"
+   },
+   {
+    "c": "示",
+    "m": "altar; a thing shown to the spirits"
+   }
+  ],
+  "story": "Under a roof stands an altar: 宗 is the hall where a clan keeps the tablets of its dead and feeds them. From the hall the word moved to the first ancestor, to the senior line of descent, and to the act of looking to someone as head. Zhou society was organized by 宗法, the rule of the ancestral line, which decided who inherited rank and who made the offerings. Later the word named religious schools: 禪宗 is the Chan (Zen) school. When the Laozi calls Dao the 宗 of the ten thousand things (4), and says “my words have a 宗” (70), it uses the strongest word for authority and belonging that its world had.",
+  "gap": "“Source” and “origin” are impersonal. 宗 is family: the ancestor is still present and still owed something."
  },
  "官": {
   "py": [
@@ -1839,7 +1993,26 @@
   "py": [
    "shì"
   ],
-  "def": "room, home, house, chamber; 13th lunar mansion, determinative star α Pegasi (Markab)"
+  "def": "room, home, house, chamber; 13th lunar mansion, determinative star α Pegasi (Markab)",
+  "senses": [
+   "inner room, chamber",
+   "house, household",
+   "wife (the one of the inner room)"
+  ],
+  "shuowen": "實也。从宀从至。至，所止也。",
+  "shuowenEn": "“Full, solid” (a gloss by like sound). From 宀 (roof) and 至 (to arrive). To arrive: the place where one stops.",
+  "parts": [
+   {
+    "c": "宀",
+    "m": "roof, building"
+   },
+   {
+    "c": "至",
+    "m": "to arrive, to reach"
+   }
+  ],
+  "story": "In an early Chinese house the 堂 was the open front hall and the 室 was the closed room behind it, where the family slept. The Analects has a saying about a student who has “gone up into the hall but not yet entered the 室”: the room is the inner part of learning. The Shuowen explains the word by a pun, 實, “full”: a room is where people and goods come to rest. The Laozi (11) looks at the same room and sees that its use is where it has nothing. The Zhuangzi has a famous phrase in the same spirit: 虛室生白, “the empty room gives birth to light”.",
+  "gap": "“Room” in English also means space (“make room”), which is a lucky fit for passage 11. 室 does not have that second sense; the Chinese reader gets the point from the picture, not from the word."
  },
  "宮": {
   "py": [
@@ -2150,7 +2323,14 @@
   "py": [
    "dì"
   ],
-  "def": "supreme ruler, emperor; god"
+  "def": "supreme ruler, emperor; god",
+  "senses": [
+   "Di, the high god of the Shang",
+   "Lord on High (上帝); a deified royal ancestor",
+   "emperor (from 221 BCE)"
+  ],
+  "story": "In the Shang oracle-bone inscriptions, Di is the highest power: Di sends rain or holds it back, and approves or ruins the king’s plans. Dead Shang kings also received the title. The Zhou identified Di with their Heaven, 天, and the two words stand side by side in the early classics. The early shape of the graph is disputed, and we give no picture for it. In 221 BCE the king of Qin joined it to 皇 and made 皇帝, “emperor”, which is why the Shuowen, written under the Han, defines the word as a ruler’s title. The Laozi names Di once, to say that Dao seems to come before it (4).",
+  "gap": "“God” makes Di the creator of the Bible, which Di was not; Legge chose it for reasons of mission. “Emperor” is too late and too human. Di is a high ancestor-god of a royal house, and nearer to a first ancestor than to a creator."
  },
  "帥": {
   "py": [
@@ -2174,7 +2354,27 @@
   "py": [
    "cháng"
   ],
-  "def": "common, normal, frequent, regular"
+  "def": "common, normal, frequent, regular",
+  "senses": [
+   "constant, lasting, regular",
+   "always, as a rule",
+   "the ordinary, the usual",
+   "a constant: a law or norm"
+  ],
+  "shuowen": "下帬也。从巾尚聲。",
+  "shuowenEn": "A lower garment, a skirt. From 巾 (cloth), with 尚 for the sound.",
+  "parts": [
+   {
+    "c": "尚",
+    "m": "gives the sound; by itself: still, to esteem"
+   },
+   {
+    "c": "巾",
+    "m": "a piece of cloth"
+   }
+  ],
+  "story": "The Shuowen files 常 as an item of dress, the same word as 裳, the skirt of formal robes. The sense “constant” is a second, borrowed use of the graph that became the main one. In the Laozi the word is everywhere: the constant Way, constant virtue-power, and “to know the constant is called clear sight” (16, 55). But in the oldest manuscripts most of these places read 恆. Han scribes replaced 恆 with 常 to avoid the personal name of Emperor Wen, Liu Heng (劉恆, ruled 180–157 BCE). The word also means plain and ordinary, as in the modern 平常. The Laozi’s constant is not far from its ordinary: that which lasts is that which keeps coming back.",
+  "gap": "“Eternal”, “unchanging”, and “absolute” bring in a timeless realm above this world. 常 is constancy inside time: the regular return of seasons, the habit of water. It can be an adjective, an adverb (“always”), or a noun, and passage 1 uses it in more than one way."
  },
  "平": {
   "py": [
@@ -2467,7 +2667,26 @@
    "jiǎo",
    "jiāo"
   ],
-  "def": "frontier, border; inspect, patrol"
+  "def": "frontier, border; inspect, patrol",
+  "senses": [
+   "to patrol, to go around",
+   "frontier, border",
+   "edge, outer limit; the end to which a thing returns (Wang Bi)"
+  ],
+  "shuowen": "循也。从彳敫聲。",
+  "shuowenEn": "To go along, to patrol. From 彳 (a step), with 敫 for the sound.",
+  "parts": [
+   {
+    "c": "彳",
+    "m": "a step; movement on a road"
+   },
+   {
+    "c": "敫",
+    "m": "gives the sound"
+   }
+  ],
+  "story": "徼 is a word from border service: the rounds that guards walk, and so the frontier line itself. Han texts speak of 徼外, “beyond the frontier”. In the Laozi it occurs once, in passage 1, as that which the wanting mind sees. Wang Bi explains it as 歸終, the return and the end: the place where a thing arrives when it is complete. Other readers have proposed that the graph stands for 皦, “bright”, or 竅, “opening”, and the Mawangdui silk texts read 所噭, also disputed. The patrol sense is the oldest attested gloss, and it fits the passage: names and desires walk the borders of things.",
+  "gap": "No single English word covers border, outcome, and outline together. “Manifestations”, a common choice, has no basis in the old glosses."
  },
  "心": {
   "py": [
@@ -3448,7 +3667,27 @@
    "yòu",
    "wěi"
   ],
-  "def": "have, own, possess; exist"
+  "def": "have, own, possess; exist",
+  "senses": [
+   "to have, to hold",
+   "there is, there are",
+   "having; that which is there",
+   "abundance (a good harvest year)"
+  ],
+  "shuowen": "不宜有也。《春秋傳》曰：「日月有食之。」从月又聲。",
+  "shuowenEn": "That which ought not to be there. The Spring and Autumn Tradition says: “the sun, the moon: there was an eclipse of it.” From 月 (moon), with 又 for the sound.",
+  "parts": [
+   {
+    "c": "𠂇",
+    "m": "a hand (又)"
+   },
+   {
+    "c": "月",
+    "m": "moon, as the Shuowen says; many scholars see 肉, meat"
+   }
+  ],
+  "story": "The Shuowen ties 有 to the moon and to eclipses, a thing that appears when it should not. Many modern scholars read the early forms as a hand that holds a piece of meat: to have is to have food in the hand. Both explanations are on record, and we do not decide between them. The word covers possession and existence with one verb. In the Laozi it is the visible half of each pair: 有名, the named; 有欲, with wanting; and plain 有, that which is there, the clay of the pot and the wall of the room.",
+  "gap": "Western philosophy turned 有 into “Being”. But 有 always suggests a holder and a thing held. “There is a cup” and “has a cup” are one sentence in Chinese."
  },
  "服": {
   "py": [
@@ -3701,7 +3940,26 @@
   "py": [
    "yù"
   ],
-  "def": "desire, want, long for; intend"
+  "def": "desire, want, long for; intend",
+  "senses": [
+   "to want, to desire",
+   "appetite, craving",
+   "to be about to; to wish to (before a verb)"
+  ],
+  "shuowen": "貪欲也。从欠谷聲。",
+  "shuowenEn": "Greedy wanting. From 欠 (an open mouth that breathes out), with 谷 for the sound.",
+  "parts": [
+   {
+    "c": "谷",
+    "m": "valley; here it gives the sound"
+   },
+   {
+    "c": "欠",
+    "m": "an open mouth, a yawn, breath going out"
+   }
+  ],
+  "story": "欲 is desire as the body has it: hunger, thirst, lust, the pull toward gain. The Guodian bamboo slips often write the word simply as 谷, the valley graph, without the open mouth. The Laozi is sometimes read as an enemy of desire, and it does praise 無欲, “without wanting”, and 寡欲, “few wants” (19). But it also says the sage 欲不欲, “wants not-wanting” (64), and passage 1 gives 有欲 its own kind of sight. The same graph is a plain helper word, “to wish to, to be about to”, and this makes some lines open to two readings.",
+  "gap": "“Desire” in English leans toward sex and romance, and “expectation” moves the word into the head. 欲 is wider and lower: appetite of every kind, felt in the belly and the breath."
  },
  "欺": {
   "py": [
@@ -3922,7 +4180,27 @@
   "py": [
    "chōng"
   ],
-  "def": "pour, infuse, steep; wash away"
+  "def": "pour, infuse, steep; wash away",
+  "senses": [
+   "to well up, to surge",
+   "empty, hollow (for 盅)",
+   "to rush against; to rinse",
+   "mild, modest, deep"
+  ],
+  "shuowen": "涌搖也。从水中。讀若動。",
+  "shuowenEn": "To well up and rock. From 水 (water) and 中 (middle). Read like 動.",
+  "parts": [
+   {
+    "c": "氵",
+    "m": "water"
+   },
+   {
+    "c": "中",
+    "m": "the middle, the center"
+   }
+  ],
+  "story": "Two words meet in this graph. One is the Shuowen’s: water that wells up and rocks. The other is “hollow”, properly written 盅, a dish with 中 above it; the Shuowen defines 盅 as “the emptiness of a vessel” and quotes Laozi 4 as its example. Scribes used 沖 for both. The Laozi uses the word three times: Dao is 沖 and use does not fill it (4); the breaths 沖 and make harmony (42); great fullness seems 沖 (45). In later Chinese the word means mild and modest, as in 沖和 and 謙沖, and also to dash against. So the character holds a waiting bowl and moving water together.",
+  "gap": "English “empty” is a lack, and often a sad one: an empty house, an empty life. 沖 is emptiness as capacity, with a hint of movement in it. No English adjective does both."
  },
  "沸": {
   "py": [
@@ -4065,7 +4343,27 @@
   "py": [
    "yuān"
   ],
-  "def": "gulf, abyss, deep"
+  "def": "gulf, abyss, deep",
+  "senses": [
+   "a deep pool in a river",
+   "whirling water",
+   "deep, profound",
+   "a gathering place, a source"
+  ],
+  "shuowen": "回水也。从水，象形。左右，岸也。中象水皃。",
+  "shuowenEn": "Water that turns back on itself. From 水; a picture. Left and right are the banks; the middle shows the look of water.",
+  "parts": [
+   {
+    "c": "氵",
+    "m": "water"
+   },
+   {
+    "c": "𣶒",
+    "m": "the old picture: water between two banks"
+   }
+  ],
+  "story": "A 淵 is the deep, slow place in a river where the water circles and the largest fish stay. It is the home of dragons in early stories. The Laozi likes the word: Dao is a 淵 (4); the heart of the good is 淵 (8); fish must not leave it (36). The Zhuangzi lists nine kinds of 淵 in a story about a shaman who cannot read a master’s face. Confucius’s favorite student was called Yan Yuan, 顏淵. Under the Tang, writers had to avoid the graph, because it was the personal name of the founder’s line (Li Yuan), and many copies wrote 泉 or 深 in its place.",
+  "gap": "“Abyss” brings in dread and the bottomless pit of Western scripture. 淵 is deep but friendly: depth that shelters and feeds."
  },
  "混": {
   "py": [
@@ -4130,7 +4428,27 @@
    "chén",
    "dān"
   ],
-  "def": "deep; profound; clear; tranquil, placid"
+  "def": "deep; profound; clear; tranquil, placid",
+  "senses": [
+   "submerged, sunk",
+   "deep",
+   "still and clear, as deep water",
+   "soaked; heavy (of dew)"
+  ],
+  "shuowen": "沒也。从水甚聲。一曰湛水，豫章浸。",
+  "shuowenEn": "Submerged. From 水 (water), with 甚 for the sound. Some say it is the Zhan river, a water of Yuzhang.",
+  "parts": [
+   {
+    "c": "氵",
+    "m": "water"
+   },
+   {
+    "c": "甚",
+    "m": "gives the sound; by itself: very, extreme"
+   }
+  ],
+  "story": "The root sense is “under water”. From it come deep, soaked, and then the quiet clearness of deep water that nothing stirs. The Book of Odes uses it for heavy dew: 湛湛露斯, “soaked, soaked is the dew”. In the Laozi it occurs once (4), for Dao that “seems, perhaps, to be there”, like a thing seen at the bottom of a pool. Later writers used it for a settled mind: 湛然, “limpid and still”, is a common phrase in Daoist and Buddhist writing on meditation.",
+  "gap": "English must choose among “deep”, “still”, and “clear”. 湛 is one quality: the calm of water so deep that the surface does not disturb it."
  },
  "溢": {
   "py": [
@@ -4276,7 +4594,17 @@
    "wú",
    "mó"
   ],
-  "def": "negative, no, not; lack, have no"
+  "def": "negative, no, not; lack, have no",
+  "senses": [
+   "to not have, to be without",
+   "there is not",
+   "not-having; the part that is not there",
+   "do not (as a prohibition, like 毋)"
+  ],
+  "shuowen": "亡也。从亡無聲。",
+  "shuowenEn": "To be without. From 亡 (to be gone), with 無 for the sound. (The Shuowen enters the word under the fuller graph 𣞤.)",
+  "story": "The early graph is widely explained as a dancer with tassels or plumes in the hands; it was the first way to write “dance”, now 舞. It was borrowed for a word of like sound, “to not have”. The oldest Laozi manuscripts mostly write that word as 亡, “gone, lost”, or as 无, a short form that the Shuowen calls an “odd character”. In the Laozi, 無 is the partner of 有. The two give birth to each other (2); the uses of a wheel, a pot, and a room are at their 無 (11); things are born from 有 and 有 from 無 (40). It is also the first half of 無為, not-forcing, and 無名, nameless.",
+  "gap": "“Nothingness” and “Non-being” make it an abstract noun, and the Western tradition tends to hear a void to fear. 無 is first a verb, “have not”. In passage 11 it has an owner: 其無, “its nothing”."
  },
  "然": {
   "py": [
@@ -4369,7 +4697,29 @@
   "py": [
    "yǒu"
   ],
-  "def": "window; lead enlightenment"
+  "def": "window; lead enlightenment",
+  "senses": [
+   "window cut in a wall, with a lattice",
+   "to open, to give light to (the mind)"
+  ],
+  "shuowen": "穿壁以木為交窻也。",
+  "shuowenEn": "Pierce the wall and set crossed wood in it as a window.",
+  "parts": [
+   {
+    "c": "片",
+    "m": "a split piece of wood, a slat"
+   },
+   {
+    "c": "戶",
+    "m": "a door of one leaf"
+   },
+   {
+    "c": "甫",
+    "m": "the third part named by the Shuowen"
+   }
+  ],
+  "story": "Early Chinese kept two kinds of window apart. An opening in the roof, for smoke and light, was a 囱 (later 窗). An opening in a wall was a 牖, with a lattice of wood. The Analects tells that Confucius came to see a student who was very sick, did not go in, and held the man’s hand through the 牖. The Laozi names it twice: you chisel door and 牖 to make a room (11), and without a look out of the 牖 one may see heaven’s way (47). The Book of Odes uses it as a verb: Heaven 牖 the people, opens and leads them.",
+  "gap": "“Window” suggests glass and a view. A 牖 was a cut in a thick earth wall: light, air, and a hand could go through it."
  },
  "牝": {
   "py": [
@@ -4482,7 +4832,27 @@
    "xuán",
    "xuàn"
   ],
-  "def": "deep, profound, abstruse; Kangxi radical 95"
+  "def": "deep, profound, abstruse; Kangxi radical 95",
+  "senses": [
+   "dark red-black, the color of deep dye",
+   "hidden and far; deep",
+   "the dark source (Laozi 1)",
+   "later: profound, abstruse"
+  ],
+  "shuowen": "幽遠也。黑而有赤色者為玄。象幽而入覆之也。",
+  "shuowenEn": "Hidden and far. Black with red in it is called 玄. The graph shows a hidden thing with a cover over it.",
+  "parts": [
+   {
+    "c": "亠",
+    "m": "a cover (as the Shuowen reads the top stroke)"
+   },
+   {
+    "c": "幺",
+    "m": "a fine thread, a small twist of silk"
+   }
+  ],
+  "story": "玄 is first a color word: the black that still has red in it, as cloth has after many dips in the dye vat, or the sky has before dawn. Many scholars connect the lower part with a twist of silk thread, which fits the dye-house. From the color came the sense of depth: a thing so far in that light does not come back from it. The Laozi uses the word for the common source of having and not-having (passage 1), for the “dark female” (6), and for “dark virtue-power”, 玄德 (10, 51, 65). In the third century CE it named a movement, 玄學, “dark learning”. Qing dynasty printers had to avoid the graph, because it was in the personal name of the Kangxi emperor; they wrote 元 in its place.",
+  "gap": "English gives “mystery”, “profound”, or “dark”. The first two lose the color. The third brings in the Western link between darkness and evil or ignorance, which the Chinese word does not have. 玄 is the dark of depth and of the womb."
  },
  "玉": {
   "py": [
@@ -4559,7 +4929,17 @@
   "py": [
    "yòng"
   ],
-  "def": "use, employ, apply, operate; use"
+  "def": "use, employ, apply, operate; use",
+  "senses": [
+   "to use, to employ",
+   "use, function, working",
+   "expense, resources",
+   "by means of"
+  ],
+  "shuowen": "可施行也。从卜从中。衞宏說。",
+  "shuowenEn": "That which can be put into practice. From 卜 (to divine) and 中 (to hit the mark). This is the explanation of Wei Hong.",
+  "story": "The Shuowen reads the graph as a divination that hits the mark, and so a thing that can be acted on. Modern scholars doubt this, and the early form is disputed; a common view sees a bucket or other container. We give no picture. In the Laozi, 用 is a key word and nearly always a surprise: the use of Dao does not run out (4, 6, 35, 45); weakness is the 用 of Dao (40); the 用 of a wheel, a pot, and a room is at their emptiness (11). Later Chinese philosophy made a pair of 體 and 用, “body” and “function”: that which a thing is, and that which it does.",
+  "gap": "“Use” in English sounds like usefulness to an owner, and “utility” is an economist’s word. 用 is the working of a thing, its function in act. That is the reason passage 11 can set it against 利, gain."
  },
  "甫": {
   "py": [
@@ -6158,7 +6538,23 @@
   "py": [
    "xiàng"
   ],
-  "def": "elephant; ivory; figure, image"
+  "def": "elephant; ivory; figure, image",
+  "senses": [
+   "elephant",
+   "image, figure, likeness",
+   "to resemble, to seem",
+   "a sign in the sky; a hexagram figure"
+  ],
+  "shuowen": "長鼻牙，南越大獸，三秊一乳，象耳牙四足之形。",
+  "shuowenEn": "Long nose and tusks; a great beast of the far south; it bears young once in three years. The graph shows ears, tusks, and four feet.",
+  "parts": [
+   {
+    "c": "象",
+    "m": "a whole picture of the animal: trunk at the top, body and legs below"
+   }
+  ],
+  "story": "Elephants lived in north China in the Shang and withdrew south as the land was cleared. By the Warring States most people knew them only from ivory and bones. The Han Feizi uses this to explain how the animal’s name came to mean “image”: people find the bones of a dead elephant and from that pattern imagine the living one, “so whatever people picture in the mind is called 象”. The word then covered each kind of likeness: the signs that heaven hangs in the sky, the figures of the Book of Changes. In the Laozi, 大象, “the great image” (35, 41), has no shape, and Dao “looks” older than Di (4).",
+  "gap": "English keeps “image”, “symbol”, “seems”, and “elephant” apart. In Chinese one word holds them, with a hint that every image is a reconstruction from remains."
  },
  "豫": {
   "py": [
@@ -6479,7 +6875,25 @@
    "gǔ",
    "gū"
   ],
-  "def": "hub of wheel"
+  "def": "hub of wheel",
+  "senses": [
+   "hub of a wheel",
+   "by extension: a cart, a center where things gather"
+  ],
+  "shuowen": "輻所凑也。从車𣪊聲。",
+  "shuowenEn": "That on which the spokes converge. From 車 (cart), with 㱿 for the sound.",
+  "parts": [
+   {
+    "c": "車",
+    "m": "cart, wheeled vehicle"
+   },
+   {
+    "c": "㱿",
+    "m": "gives the sound"
+   }
+  ],
+  "story": "The hub was a short cylinder of hard wood with a ring of mortises for the spokes and a bore through the center for the axle. It took the most wear of any part, and the Kaogongji gives careful rules for its wood, length, and bore. Crowded streets were described as 轂擊, “hub knocks on hub”. In the Laozi it occurs once (11), and it made the hub one of the lasting images of Chinese thought: a center that holds everything because it is hollow.",
+  "gap": "English “hub” now means a busy center, a place full of activity. The Laozi’s hub is important for the opposite reason: its middle is the one empty place in the wheel."
  },
  "轉": {
   "py": [
@@ -6661,7 +7075,28 @@
    "dào",
    "dǎo"
   ],
-  "def": "path, road, street; method, way"
+  "def": "path, road, street; method, way",
+  "senses": [
+   "road, path",
+   "to speak, to tell",
+   "to lead, to guide (later written 導)",
+   "method, teaching, a craft’s or a school’s way",
+   "Dao: the course that everything follows"
+  ],
+  "shuowen": "所行道也。从辵从𩠐。一達謂之道。",
+  "shuowenEn": "That on which one walks. From 辵 (to walk) and 𩠐 (head). A road that goes through in one direction is called 道.",
+  "parts": [
+   {
+    "c": "辶",
+    "m": "walking, movement along a road"
+   },
+   {
+    "c": "首",
+    "m": "head; the first, the leader"
+   }
+  ],
+  "story": "Before it was a philosophical term, 道 was the road under a traveler’s feet, and each school of the Warring States had its own: the 道 of the former kings, the 道 of war, the 道 of Heaven. To “have Dao” meant that a state was in order. The word was also an everyday verb, “to say”, and a verb for guiding. The Laozi took this common word and used it for that which comes before heaven and earth, while it kept the road in view. The graph joins walking and a head. Some read a person on a journey, and others a leader who shows the direction; both are later readings of the shape, and neither should be pressed.",
+  "gap": "“Way” is nearest, but English adds an article, a capital letter, and a singular. “God”, “Reason”, “Logos”, and “Nature” were all tried by early translators, and each brought in a Western system. The 1986 habit of “Absolute”, with a capital, does the same. Dao is a road that things walk. It does not stand behind them as a second thing."
  },
  "達": {
   "py": [
@@ -6863,7 +7298,22 @@
   "py": [
    "mén"
   ],
-  "def": "gate, door, entrance, opening; Kangxi radical 169"
+  "def": "gate, door, entrance, opening; Kangxi radical 169",
+  "senses": [
+   "gate, double door",
+   "entry, opening",
+   "a household; a school or lineage of teaching"
+  ],
+  "shuowen": "聞也。从二戶。象形。",
+  "shuowenEn": "“To hear” (a gloss by like sound). From two door leaves. A picture.",
+  "parts": [
+   {
+    "c": "戶",
+    "m": "one door leaf; 門 is two of them, face to face"
+   }
+  ],
+  "story": "門 is one of the clearest pictures in the script: two leaves that hang on posts. The Shuowen glosses it with a word of like sound, 聞, “to hear”; a gate is where news comes in. A 門 was the large outer gate of a compound or a city, and a 戶 was the small inner door. The word then came to mean a family and a school of teaching: to be a student is to “enter the gate”. In the Laozi the gate is where things come out of the dark (1, 6) and a thing in the body that can open and close (10, 52, 56). A gate is useful where the wall is absent, which is the lesson of passage 11.",
+  "gap": "English “gate” and “door” are only openings. 門 is also a threshold of belonging: a house, a lineage, a way of practice."
  },
  "閉": {
   "py": [

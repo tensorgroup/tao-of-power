@@ -1,0 +1,169 @@
+{
+  "玄": {
+    "senses": [
+      "dark red-black, the color of deep dye",
+      "hidden and far; deep",
+      "the dark source (Laozi 1)",
+      "later: profound, abstruse"
+    ],
+    "shuowen": "幽遠也。黑而有赤色者為玄。象幽而入覆之也。",
+    "shuowenEn": "Hidden and far. Black with red in it is called 玄. The graph shows a hidden thing with a cover over it.",
+    "parts": [
+      {
+        "c": "亠",
+        "m": "a cover (as the Shuowen reads the top stroke)"
+      },
+      {
+        "c": "幺",
+        "m": "a fine thread, a small twist of silk"
+      }
+    ],
+    "story": "玄 is first a color word: the black that still has red in it, as cloth has after many dips in the dye vat, or the sky has before dawn. Many scholars connect the lower part with a twist of silk thread, which fits the dye-house. From the color came the sense of depth: a thing so far in that light does not come back from it. The Laozi uses the word for the common source of having and not-having (passage 1), for the “dark female” (6), and for “dark virtue-power”, 玄德 (10, 51, 65). In the third century CE it named a movement, 玄學, “dark learning”. Qing dynasty printers had to avoid the graph, because it was in the personal name of the Kangxi emperor; they wrote 元 in its place.",
+    "gap": "English gives “mystery”, “profound”, or “dark”. The first two lose the color. The third brings in the Western link between darkness and evil or ignorance, which the Chinese word does not have. 玄 is the dark of depth and of the womb."
+  },
+  "道": {
+    "senses": [
+      "road, path",
+      "to speak, to tell",
+      "to lead, to guide (later written 導)",
+      "method, teaching, a craft’s or a school’s way",
+      "Dao: the course that everything follows"
+    ],
+    "shuowen": "所行道也。从辵从𩠐。一達謂之道。",
+    "shuowenEn": "That on which one walks. From 辵 (to walk) and 𩠐 (head). A road that goes through in one direction is called 道.",
+    "parts": [
+      {
+        "c": "辶",
+        "m": "walking, movement along a road"
+      },
+      {
+        "c": "首",
+        "m": "head; the first, the leader"
+      }
+    ],
+    "story": "Before it was a philosophical term, 道 was the road under a traveler’s feet, and each school of the Warring States had its own: the 道 of the former kings, the 道 of war, the 道 of Heaven. To “have Dao” meant that a state was in order. The word was also an everyday verb, “to say”, and a verb for guiding. The Laozi took this common word and used it for that which comes before heaven and earth, while it kept the road in view. The graph joins walking and a head. Some read a person on a journey, and others a leader who shows the direction; both are later readings of the shape, and neither should be pressed.",
+    "gap": "“Way” is nearest, but English adds an article, a capital letter, and a singular. “God”, “Reason”, “Logos”, and “Nature” were all tried by early translators, and each brought in a Western system. The 1986 habit of “Absolute”, with a capital, does the same. Dao is a road that things walk. It does not stand behind them as a second thing."
+  },
+  "名": {
+    "senses": [
+      "name",
+      "to name, to call",
+      "fame, reputation",
+      "title, rank; a word as against the thing (實)"
+    ],
+    "shuowen": "自命也。从口从夕。夕者，冥也。冥不相見，故以口自名。",
+    "shuowenEn": "To call oneself. From 口 (mouth) and 夕 (evening). Evening is darkness. In the dark people cannot see each other, so each one says a name with the mouth.",
+    "parts": [
+      {
+        "c": "夕",
+        "m": "evening, dusk"
+      },
+      {
+        "c": "口",
+        "m": "mouth"
+      }
+    ],
+    "story": "The Shuowen’s picture is one of the best in the dictionary: two people meet at dusk, cannot see faces, and call out who they are. A name is a voice in the dark. In the Warring States, 名 was a central problem of government and logic. Confucius wanted names made correct, so that “ruler” and “father” would bind the people who carried those titles. The debaters of the School of Names tested how names attach to things. Legalist administrators held each officer to the 名 of the post. The word also means fame, and the Laozi asks in passage 44: 名與身孰親, “name or body, which is closer to you?”",
+    "gap": "English “name” is mostly a label for a person or thing. 名 also covers title, role, reputation, and the whole act of dividing the world with words. “Nameless” (無名) in the Laozi is not “anonymous”. It is the state before the world is cut into kinds."
+  },
+  "常": {
+    "senses": [
+      "constant, lasting, regular",
+      "always, as a rule",
+      "the ordinary, the usual",
+      "a constant: a law or norm"
+    ],
+    "shuowen": "下帬也。从巾尚聲。",
+    "shuowenEn": "A lower garment, a skirt. From 巾 (cloth), with 尚 for the sound.",
+    "parts": [
+      {
+        "c": "尚",
+        "m": "gives the sound; by itself: still, to esteem"
+      },
+      {
+        "c": "巾",
+        "m": "a piece of cloth"
+      }
+    ],
+    "story": "The Shuowen files 常 as an item of dress, the same word as 裳, the skirt of formal robes. The sense “constant” is a second, borrowed use of the graph that became the main one. In the Laozi the word is everywhere: the constant Way, constant virtue-power, and “to know the constant is called clear sight” (16, 55). But in the oldest manuscripts most of these places read 恆. Han scribes replaced 恆 with 常 to avoid the personal name of Emperor Wen, Liu Heng (劉恆, ruled 180–157 BCE). The word also means plain and ordinary, as in the modern 平常. The Laozi’s constant is not far from its ordinary: that which lasts is that which keeps coming back.",
+    "gap": "“Eternal”, “unchanging”, and “absolute” bring in a timeless realm above this world. 常 is constancy inside time: the regular return of seasons, the habit of water. It can be an adjective, an adverb (“always”), or a noun, and passage 1 uses it in more than one way."
+  },
+  "妙": {
+    "senses": [
+      "fine, minute, subtle",
+      "wondrous, excellent",
+      "the first hidden stir of a thing"
+    ],
+    "parts": [
+      {
+        "c": "女",
+        "m": "woman"
+      },
+      {
+        "c": "少",
+        "m": "few, small, young"
+      }
+    ],
+    "story": "妙 is not in the oldest layer of the Shuowen, and the early manuscripts of the Laozi do not write it this way. The Mawangdui silk texts have 眇, with the eye radical: tiny, at the limit of sight. Wang Bi defines the word as 微之極, “the far limit of the minute”, the point where a thing is only starting to be a thing. The later graph is written with 女 and 少, and readers have long liked to see in it a young woman, and so freshness and grace; that is a reading of the modern shape, not a recorded origin. From “fine” the word grew to mean wonderful and skilled: a 妙 hand, a 妙 plan. In Buddhism it translated the Sanskrit sat, “true, excellent”, as in the title of the Lotus Sutra, 妙法蓮華經.",
+    "gap": "“Mystery” makes it a secret. “Wonder” makes it large. “Subtlety” makes it dry. 妙 is small, early, and delightful together: the thing you only see if you want nothing from it."
+  },
+  "徼": {
+    "senses": [
+      "to patrol, to go around",
+      "frontier, border",
+      "edge, outer limit; the end to which a thing returns (Wang Bi)"
+    ],
+    "shuowen": "循也。从彳敫聲。",
+    "shuowenEn": "To go along, to patrol. From 彳 (a step), with 敫 for the sound.",
+    "parts": [
+      {
+        "c": "彳",
+        "m": "a step; movement on a road"
+      },
+      {
+        "c": "敫",
+        "m": "gives the sound"
+      }
+    ],
+    "story": "徼 is a word from border service: the rounds that guards walk, and so the frontier line itself. Han texts speak of 徼外, “beyond the frontier”. In the Laozi it occurs once, in passage 1, as that which the wanting mind sees. Wang Bi explains it as 歸終, the return and the end: the place where a thing arrives when it is complete. Other readers have proposed that the graph stands for 皦, “bright”, or 竅, “opening”, and the Mawangdui silk texts read 所噭, also disputed. The patrol sense is the oldest attested gloss, and it fits the passage: names and desires walk the borders of things.",
+    "gap": "No single English word covers border, outcome, and outline together. “Manifestations”, a common choice, has no basis in the old glosses."
+  },
+  "門": {
+    "senses": [
+      "gate, double door",
+      "entry, opening",
+      "a household; a school or lineage of teaching"
+    ],
+    "shuowen": "聞也。从二戶。象形。",
+    "shuowenEn": "“To hear” (a gloss by like sound). From two door leaves. A picture.",
+    "parts": [
+      {
+        "c": "戶",
+        "m": "one door leaf; 門 is two of them, face to face"
+      }
+    ],
+    "story": "門 is one of the clearest pictures in the script: two leaves that hang on posts. The Shuowen glosses it with a word of like sound, 聞, “to hear”; a gate is where news comes in. A 門 was the large outer gate of a compound or a city, and a 戶 was the small inner door. The word then came to mean a family and a school of teaching: to be a student is to “enter the gate”. In the Laozi the gate is where things come out of the dark (1, 6) and a thing in the body that can open and close (10, 52, 56). A gate is useful where the wall is absent, which is the lesson of passage 11.",
+    "gap": "English “gate” and “door” are only openings. 門 is also a threshold of belonging: a house, a lineage, a way of practice."
+  },
+  "欲": {
+    "senses": [
+      "to want, to desire",
+      "appetite, craving",
+      "to be about to; to wish to (before a verb)"
+    ],
+    "shuowen": "貪欲也。从欠谷聲。",
+    "shuowenEn": "Greedy wanting. From 欠 (an open mouth that breathes out), with 谷 for the sound.",
+    "parts": [
+      {
+        "c": "谷",
+        "m": "valley; here it gives the sound"
+      },
+      {
+        "c": "欠",
+        "m": "an open mouth, a yawn, breath going out"
+      }
+    ],
+    "story": "欲 is desire as the body has it: hunger, thirst, lust, the pull toward gain. The Guodian bamboo slips often write the word simply as 谷, the valley graph, without the open mouth. The Laozi is sometimes read as an enemy of desire, and it does praise 無欲, “without wanting”, and 寡欲, “few wants” (19). But it also says the sage 欲不欲, “wants not-wanting” (64), and passage 1 gives 有欲 its own kind of sight. The same graph is a plain helper word, “to wish to, to be about to”, and this makes some lines open to two readings.",
+    "gap": "“Desire” in English leans toward sex and romance, and “expectation” moves the word into the head. 欲 is wider and lower: appetite of every kind, felt in the belly and the breath."
+  }
+}

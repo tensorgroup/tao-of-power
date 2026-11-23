@@ -1,4 +1,4 @@
-// Fold app/data/lexicon-add/*.json (written per passage by creation agents) into app/data/lexicon.json.
+// Fold lexicon-add/*.json (repo root) (written per passage by creation agents) into app/data/lexicon.json.
 // Fields from an add file fill empty fields; an existing enriched field is kept unless the add file sets "replace": true.
 // Add files are dev inputs: they are removed from the deployed tree after merging (kept in git history).
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync, renameSync } from 'node:fs';

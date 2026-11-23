@@ -1,0 +1,261 @@
+{
+  "n": 1,
+  "title": "Dark, and Darker Still",
+  "theme": "way",
+  "zh": [
+    {
+      "text": "道可道，非常道，名可名，非常名；",
+      "gloss": {
+        "0": "a way, a road; Dao (noun)",
+        "2": "to tell, to speak; also to walk or lead as a way (verb)",
+        "5": "constant, lasting, regular",
+        "8": "a name (noun)",
+        "10": "to name, to give as a name (verb)"
+      }
+    },
+    {
+      "text": "無名，天地之始，有名，萬物之母。",
+      "gloss": {
+        "0": "not-having; without",
+        "6": "the beginning, the first moment",
+        "8": "having; with",
+        "11": "ten thousand: countless, all",
+        "14": "mother; the one who rears"
+      }
+    },
+    {
+      "text": "故常無欲，以觀其妙，",
+      "gloss": {
+        "1": "always (the same graph as “constant” in line 1)",
+        "3": "wanting, desire, appetite",
+        "6": "to watch closely, to contemplate",
+        "8": "fine, minute, wondrous"
+      }
+    },
+    {
+      "text": "常有欲，以觀其徼；",
+      "gloss": {
+        "7": "jiào: border, edge; where a thing comes to its end"
+      }
+    },
+    {
+      "text": "此兩者，同出而異名，同謂之玄。玄之又玄，眾妙之門。",
+      "gloss": {
+        "4": "together; from one place",
+        "5": "to come out, to emerge",
+        "13": "dark: the deep red-black of dyed cloth",
+        "17": "again, and further",
+        "20": "the many, all",
+        "23": "a gate with two leaves"
+      }
+    }
+  ],
+  "rendering": [
+    "A way that can be [[told as a way|ke-dao]]",
+    "is not the [[constant|chang]] [[Dao|dao]].",
+    "A [[name|ming-age]] that can be [[given as a name|ke-ming]]",
+    "is not the constant name.",
+    "",
+    "[[Nameless|wu-ming]]: the beginning of heaven and earth.",
+    "Named: the [[mother|mu]] of the [[ten thousand things|wanwu]].",
+    "",
+    "So: always without [[wanting|yu]],",
+    "and you [[watch|guan]] its [[hidden fineness|miao]];",
+    "always with wanting,",
+    "and you watch its [[edges|jiao]].",
+    "",
+    "[[These two|liang-zhe]] come out together",
+    "and differ in name.",
+    "Together, call them [[dark|xuan]].",
+    "Dark, and [[darker still|xuan-again]]:",
+    "the [[gate|men]] of all hidden fineness."
+  ],
+  "notes": {
+    "ke-dao": {
+      "kind": "wordplay",
+      "title": "One word, three times in six",
+      "body": "The first line has six characters, and three of them are 道. The first is a noun: a way, a road. The second is a verb. As a verb 道 can mean “to speak, to tell”; an old song in the Book of Odes says of palace gossip 不可道也, “it cannot be told”. It can also mean “to lead along a road” (the Analects uses it for guiding a state). The third 道 is the noun again, now with 常 in front of it. So the line hears itself: a way that can be way-ed is not the constant way. English must pick “told” or “walked” or “followed”. The Chinese picks nothing. The line also does what it describes: it names Dao and, in the same breath, takes the name back. Which verb did you hear first?",
+      "src": [
+        "Shijing, Yong feng, “Qiang you ci” (牆有茨)",
+        "Analects 1.5"
+      ]
+    },
+    "dao": {
+      "kind": "etymology",
+      "title": "道: a head on a road",
+      "body": "The Shuowen Jiezi, the first Chinese dictionary (about 100 CE), defines 道 as 所行道也: “that on which one walks”. Its parts are 辶, the sign for walking, and 首, a head. A common reading is a person who goes forward on a road; some see a leader, since the same word, written 導, means “to guide”. Read such pictures lightly. The plain fact is enough: before 道 was a mystery it was a road, and a road exists because feet go over it. We leave Dao in Chinese because each English word is too small. “Way” is closest. The Chinese has no “the”, no capital letter, and no singular or plural.",
+      "src": [
+        "Shuowen Jiezi, 辵部: 道，所行道也。从辵从𩠐。一達謂之道。"
+      ]
+    },
+    "chang": {
+      "kind": "gap",
+      "title": "Constant is not “eternal”",
+      "body": "常 means regular, lasting, usual: a thing you can rely on, like the return of spring. English versions often say “eternal” or even “Absolute”, with a capital. Those words bring a second world with them: Plato’s forms beyond change, or the God of the missionaries who stands outside time. The Chinese word does not leave this world. It also does not say “unchanging”. A river is constant, and it is never the same water. Note one more thing. In line 5 the same character comes back as a plain adverb, “always”: 常無欲. The text uses its great word for Dao and for a daily habit in one breath. See [[the older word 恆|heng]] for what stood here before."
+    },
+    "heng": {
+      "kind": "variant",
+      "title": "An emperor’s name in the first line",
+      "body": "The Mawangdui silk texts, buried in 168 BCE and found in 1973, do not read 常 here. They read 恆 (héng): 非恆道也. The reason for the change is a taboo. The personal name of Emperor Wen of Han (ruled 180–157 BCE) was Liu Heng, 劉恆, and a subject could not write the ruler’s name. Scribes put 常 in its place, and the replacement stayed for two thousand years. The two words are close, but 恆 has its own picture. The Shuowen says its ancient form contained the moon, and quotes the Book of Odes: 如月之恆, “like the moon’s steady waxing”. That is constancy as the moon has it: never still, and never late. The first line of this book about what cannot be named was itself changed because of a name.",
+      "src": [
+        "Mawangdui Laozi A and B",
+        "Shuowen Jiezi, 二部: 恆，常也…古文恆从月。《詩》曰：如月之恆。"
+      ]
+    },
+    "ming-age": {
+      "kind": "geopolitics",
+      "title": "An age that fought over names",
+      "body": "This line entered a real quarrel. In the Warring States period (5th–3rd century BCE), names were politics. Confucius said that government must start with 正名, “making names correct”: a ruler must be a ruler, a father a father. The debaters later called the School of Names (名家) argued that “a white horse is not a horse”. The Legalists built a method of rule on it: give each officer a title (名), then punish any gap between the title and the result. Against all of this, the Laozi says in six characters that no name holds for good. Is that a withdrawal from politics, or the sharpest political statement in the debate?",
+      "src": [
+        "Analects 13.3",
+        "Gongsun Longzi, “White Horse”",
+        "Han Feizi, “The Two Handles”"
+      ]
+    },
+    "ke-ming": {
+      "kind": "etymology",
+      "title": "名: a mouth in the dark",
+      "body": "名 is built from 夕, evening, and 口, a mouth. The Shuowen explains: 夕者，冥也。冥不相見，故以口自名. “Evening is darkness. In the dark people cannot see each other, so each one says a name with the mouth.” A name, in this picture, is what we call out when sight fails. It is useful, even kind. It is also proof that we stand in the dark. The same pattern as the first line returns: the noun 名, the verb 名, then 常名. Keep this picture until the last lines of the passage, where the text itself gives a name, and the name it gives is [[dark|xuan]].",
+      "src": [
+        "Shuowen Jiezi, 口部: 名，自命也。从口从夕。夕者，冥也。冥不相見，故以口自名。"
+      ]
+    },
+    "wu-ming": {
+      "kind": "gap",
+      "title": "Where does the comma go?",
+      "body": "Classical Chinese had no punctuation. Each reader put in the pauses. The oldest commentators, Wang Bi among them, read 無名 and 有名 as units: “the nameless” and “the named”. Some Song dynasty readers, Wang Anshi and Sima Guang among them, cut after the first character: 無，名天地之始. Then the line says: “Nothing: that is the name for the beginning of heaven and earth. Something: that is the name for the ten thousand things’ mother.” In the first reading the subject is naming. In the second the subject is 無 and 有, not-having and having, the pair that the book returns to in passages 2, 11, and 40. The same cut is possible [[two lines later|yu]]. English must choose. Can you keep both in mind for one breath?",
+      "src": [
+        "Wang Bi commentary",
+        "Wang Anshi, Laozi zhu (fragments)"
+      ]
+    },
+    "mu": {
+      "kind": "etymology",
+      "title": "Beginning and mother",
+      "body": "Two words for origin stand side by side, and both contain 女, woman. For 始, “beginning”, the Shuowen says 女之初也, “the first of a woman”. For 母 it says the graph shows a woman who holds a child; “some say it shows the breasts”. The text has no father-creator and no craftsman who stands apart from the work. Things are not made. They are born and then reared. Wang Bi keeps the two words apart: 始 is the first moment, before form; 母 is the long care after it. This mother returns in passages 20, 25, 52, and 59. What changes in your sense of the world if its origin is still here and still feeds it?",
+      "src": [
+        "Shuowen Jiezi, 女部: 始，女之初也。 母，牧也。从女，象褱子形。一曰象乳子也。"
+      ]
+    },
+    "wanwu": {
+      "kind": "variant",
+      "title": "Ten thousand things, twice",
+      "body": "萬物, “the ten thousand things”, is the usual Chinese term for all that exists. 萬 is the largest common number; it means “too many to count”. The word 物 is a thing or a creature: an ox, a stone, a person, an event. Note that there is no word “universe” here, no single container. The world is a crowd. The received text sets “heaven and earth” in the nameless line and “the ten thousand things” in the named line, and many readers built a two-step cosmology on the difference. The Mawangdui silk texts read 萬物 in both lines: nameless, the beginning of the ten thousand things; named, their mother. In that version the same crowd is seen two ways, and there are no two stages.",
+      "src": [
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "yu": {
+      "kind": "gap",
+      "title": "Wanting, in the body",
+      "body": "欲 is appetite. Its parts are 欠, an open mouth that breathes out, and 谷, which gives the sound. It is the want of food, sex, gain, rank. Modern versions that say “expectation” or “intention” move the word from the belly up into the head. The surprise is in the second half: 常有欲, “always with wanting”, is also a way to see. The text does not call it an error. As with [[the naming lines|wu-ming]], a second cut is possible: 常無，欲以觀其妙, “in constant nothing, wish to watch its fineness”. The Mawangdui silk texts add a particle that closes the question for their version: 恆無欲也, with the pause after 欲. Sit for a moment. What do you see differently when you want nothing from that which is in front of you?",
+      "src": [
+        "Shuowen Jiezi, 欠部: 欲，貪欲也。从欠谷聲。",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "guan": {
+      "kind": "practice",
+      "title": "觀: to watch as a bird watches",
+      "body": "觀 is not a glance. The Shuowen defines it as 諦視, “to look with full attention”. Its parts are 見, to see, and 雚, a water bird (the stork), which mainly gives the sound; many readers also like the picture of a heron that stands in the shallows, still and awake. Later the word named a watchtower, and then a Daoist temple (guàn): a place to look out from. Try the two kinds of watching that the lines describe. Take any object near you. First look at it as a thing you could use, buy, fix, or move; you will see its edges and its price. Then let the wanting drop for three breaths and look again. Do not decide which view is true.",
+      "src": [
+        "Shuowen Jiezi, 見部: 觀，諦視也。从見雚聲。"
+      ]
+    },
+    "miao": {
+      "kind": "wangbi",
+      "title": "Wang Bi on 妙",
+      "body": "Wang Bi (226–249 CE) wrote his commentary before he was twenty-four. On this word he says: 妙者，微之極也。萬物始於微而後成，始於無而後生。 “妙 is the far limit of the minute. The ten thousand things begin in the minute and then are completed; they begin in nothing and then are born.” So 妙 is not “mystery” in the sense of a locked room. It is fineness: the first stir of a thing, too small to hold. The Mawangdui silk texts write the word as 眇, with the eye radical: so small that the eye strains. The later graph 妙 is written with 女 (woman) and 少 (few, young). English “wonder” keeps the feeling and loses the smallness. “Subtle” keeps the smallness and loses the delight.",
+      "src": [
+        "Wang Bi commentary on Laozi 1",
+        "Mawangdui Laozi A and B"
+      ]
+    },
+    "jiao": {
+      "kind": "gap",
+      "title": "徼: the patrolled border",
+      "body": "徼 (jiào) is a rare word and readers have never agreed on it. The Shuowen glosses it 循也, “to go along, to patrol”. From that comes the sense “frontier”: the line that guards walk. Wang Bi takes it as 歸終, “the return and the end”: where a thing arrives when it is complete. So desire sees outlines, limits, results. Other scholars have proposed that the graph stands for 皦, “bright, clear”, or 竅, “an opening”. The Mawangdui silk texts read 所噭, which is also disputed. Our “edges” follows the oldest gloss. Note the fit with a state at war: a ruler who wants something looks at the map and sees borders. What do you see first in a room: the things, or the lines between them?",
+      "src": [
+        "Shuowen Jiezi, 彳部: 徼，循也。从彳敫聲。",
+        "Wang Bi commentary on Laozi 1"
+      ]
+    },
+    "liang-zhe": {
+      "kind": "gap",
+      "title": "Which two?",
+      "body": "此兩者, “these two”. The text does not say which. Wang Bi answers 兩者，始與母也: beginning and mother. Others say the nameless and the named; or 無 and 有; or the fineness and the edges; or the two ways of watching. Each answer is defensible, and the sentence works for all of them. The important words are 同出, “come out together”. 出 is to step out of a door, to be born. The pair is not a high thing and a low thing, or a real thing and an illusion. They are twins with two names. This is the line that resists a dualistic reading most plainly. Dualism wants one side to win. Here the text gives both sides one source, and then gives that source a name that is [[almost not a name|xuan]]."
+    },
+    "xuan": {
+      "kind": "etymology",
+      "title": "玄: the dyer’s dark",
+      "body": "The Shuowen defines 玄 as 幽遠也, “hidden and far”, and then gives a color: 黑而有赤色者為玄, “black with red in it is called 玄”. It is the color that cloth takes when it goes into the dye vat again and again, and the color of the sky before dawn. The dark here is depth. It is not evil, and it is not ignorance; the Western pair of light as good and dark as bad does not apply. English versions say “mystery” or “profound” and lose the color. Later the word named a whole movement: 玄學, “dark learning”, the philosophy of Wang Bi’s generation. Look at a night sky or deep water. Is the dark there empty?",
+      "src": [
+        "Shuowen Jiezi, 玄部: 玄，幽遠也。黑而有赤色者為玄。象幽而入覆之也。"
+      ]
+    },
+    "xuan-again": {
+      "kind": "wangbi",
+      "title": "Why say it twice",
+      "body": "The text has just named the unnameable: it called the source “dark”. Wang Bi sees the trap and reads the next phrase as the escape: 若定乎一玄，則是名則失之遠矣。故曰玄之又玄也。 “If you settled on one ‘dark’, that would be a name, and you would miss it by far. So the text says: dark, and again dark.” The second 玄 removes the first. The phrase is a method, and Tang dynasty Daoists made it one. They called their school 重玄, “Twofold Dark”: first let go of having and not-having, then let go of the letting go. Grammar helps the reading: 玄之 can be heard as a verb, “to darken it”. Darken it, and darken it again.",
+      "src": [
+        "Wang Bi commentary on Laozi 1",
+        "Cheng Xuanying, Daodejing commentary (Tang)"
+      ]
+    },
+    "men": {
+      "kind": "etymology",
+      "title": "門: two leaves that swing",
+      "body": "門 is a picture that you can still see: two door leaves on their posts. The Shuowen says 从二戶，象形, “from two door leaves; a picture”. The passage ends at a gate, and it does not end with a definition. A gate is the one part of a wall that is not wall. It is useful because it is empty, as passage 11 will say of doors and windows. A gate also works in two directions: things come out, and you may go in. This is the first gate in the book. Others follow: the gate of the dark female (6), the gates of heaven that open and close (10), the gates you are told to shut (52, 56). Is the gate at the end of the passage, or was the whole passage the gate?",
+      "src": [
+        "Shuowen Jiezi, 門部: 門，聞也。从二戶。象形。"
+      ]
+    },
+    "legge": {
+      "kind": "legge",
+      "title": "Legge’s Victorian door",
+      "body": "James Legge was a Scottish missionary in Hong Kong and later the first professor of Chinese at Oxford. His 1891 version is honest work, and you can see its frame. He gives 常 two words, “enduring and unchanging”, the usual attributes of God in a sermon. He adds “(Conceived of as)” in brackets before the nameless and the named: a careful scholar’s sign that the English needs more than the Chinese gives. He puts the desire lines in rhyme, with “we must be found” without desire. That turns a description of two ways to see into a moral duty, and makes desire the thing that keeps us at the “outer fringe”. His “Mystery” has a capital M. Compare his text with the characters. Where does the Chinese say “must”?",
+      "src": [
+        "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
+      ]
+    },
+    "first-page": {
+      "kind": "history",
+      "title": "Not always page one",
+      "body": "We read this passage as the grand opening. For early readers it was not always the opening. The oldest long commentary, in the Han Feizi (3rd century BCE), starts with what is now passage 38. Both Mawangdui silk texts do the same: the part on 德 comes first, and this passage stands in the middle of the book, at the start of the second part. The Guodian bamboo slips (about 300 BCE), the oldest Laozi material found so far, do not contain this passage at all. The order that we know, with Dao before De, was fixed by the Han. So the famous first line may have been met first as a turn in the middle of a roll. Does the passage read differently as a hinge and not as a front door?",
+      "src": [
+        "Han Feizi, “Jie Lao”",
+        "Mawangdui Laozi A and B",
+        "Guodian Laozi A, B, C"
+      ]
+    }
+  },
+  "lenses": {
+    "ground": "Four moves. First, two matched lines that turn on a pun: a way that can be [[told as a way|ke-dao]] is not the constant Dao, and a name that can be named is not the constant name. Second, two lines on origin: without name, a beginning; with name, a mother. Third, two lines on looking: without wanting you watch the fine first stir of things, and with wanting you watch their borders. Fourth, the knot is tied: the two come out of one place under two names, and the place is called [[玄|xuan]], the dark of deep dye. The last word is 門, a gate. Nothing in the passage is abstract in Chinese. It has a road, a mouth in the dark, a mother, a border patrol, a dye vat, and a door. The passage [[was not always the first page|first-page]].",
+    "inner": "The passage does not ask you to give up words or desire. It shows two modes of one mind and says they are twins. In one mode you name, want, and see edges; this mode lets you eat, build, and keep promises. In the other mode the wanting rests and the world shows its fine grain, before it divides into things for you. Most contemplative schools rank the second above the first. This text does not: 同出, they [[come out together|liang-zhe]]. The practice is not to stay in one mode. The practice is to know which mode you are in, and to feel the common source below both. When the text names that source “dark”, it [[removes the name at once|xuan-again]]. No higher world stands behind this one. There is this one, seen to the bottom.",
+    "leading": "A leader works with names all day: roles, goals, plans, the story of what the team is. The passage does not say names are bad. It says no name is [[constant|chang]]. The strategy document is a way that can be told; the living situation is not the document. A leader who forgets this defends the plan against the facts. The lines on wanting give a second tool. When you want a result, you see [[edges|jiao]]: deadlines, rivals, limits, who is in and who is out. That sight is necessary. But the first sign of change in a group or a market is always small and has no name yet, and only a mind that wants nothing for a moment can notice it. In the text’s own time, this was advice for people who [[ruled by names|ming-age]].",
+    "body": "Later Daoist practice reads the two looking-lines as instruction for sitting. 無欲: let the breath settle until the body stops reaching for the next thing; then [[watch|guan]] the fine beginnings of breath, sensation, and thought. 有欲: when intention rises, watch where it goes and where it stops. The body knows this difference well. A hand that wants to grab feels the surface of a thing. A hand that only rests on a thing feels its weight, warmth, and pulse. Martial arts teach the same: a fighter full of the wish to strike sees only the target and its edge, and misses the small shift of weight that comes before the opponent moves. [[Wanting|yu]] is of the belly and the breath before it is of the mind.",
+    "nature": "Stand at a river. You can name it, map it, and measure its banks; these are its [[edges|jiao]]. You cannot step into the name. The water you saw a moment ago is gone, and the river is still there: this is what [[常|chang]] means, and why “eternal” is the wrong word for it. The world in this passage is not built by a maker. It has a beginning and a [[mother|mu]], so it is born and reared like a living thing. Its source is [[dark|xuan]] as soil and deep water are dark: seeds open there. The older word for constancy in this line, [[恆|heng]], was written with the moon, which keeps faith by changing each night.",
+    "practice": "Once today, look at one ordinary thing twice. First, name it and say to yourself what it is for: “cup, for coffee”. Notice how quickly the name closes the looking. Then look again for three slow breaths without the name and without a use for it. Let color, weight, light, and small flaws come to you. You do not need to feel wonder. At the end, do not rank the two looks. The cup that holds coffee and the cup with no name [[came out together|liang-zhe]]. If you like, read [[Legge’s rhymed version|legge]] of the looking-lines afterwards and see where he adds a “must”."
+  },
+  "glyph": "玄",
+  "plates": [
+    {
+      "c": "玄",
+      "title": "The dyer’s dark",
+      "lesson": "Start with the colour. The Shuowen says 黑而有赤色者為玄: black with red in it. Dyers got that colour by many dips in the vat, and the lower part of the character, 幺, is commonly explained as a small twist of silk thread; the same shape, doubled and given a tail, makes 糸, the silk radical in 紅 (red), 綠 (green), and 紛 (tangle). The early bronze forms look like such a twist, though scholars do not all agree on what they show. Above the thread the Shuowen sees a cover: a thing hidden. So the parts say “thread” and “covered”, and the word says dark, deep, far. Now look at its family. Two of them side by side make 玆, and with grass above, 茲: “this, here”, and also “black, muddy”. Add 弓, a bow, and you get 弦, a bowstring or the string of an instrument: the thread sense is plain there. Add 目, an eye, and you get 眩, dizzy: the eye goes dark. Add 田 below in the old form and you get 畜, to rear animals. The Laozi uses 玄 for the [[one source of having and not-having|xuan]]. The word is a colour before it is an idea. Can you think of the idea and still see the colour?",
+      "brush": "Five strokes. Watch the first two: a dot, then a level line under it. That is the lid, and a good hand sets the dot right over the centre so that the whole character hangs from it. Strokes three and four are each one movement with a turn in it: down to the left, then a sharp return to the right. The brush presses, lifts at the corner, and presses again; together they make the twist of thread. The fifth stroke is a single dot at the lower right that stops the character from falling over. That dot has a history. The Kangxi emperor’s personal name was 玄燁, and for the rest of the Qing dynasty printers and writers left the last dot out, or wrote 元 in place of the character. A book can be dated by it."
+    },
+    {
+      "c": "道",
+      "title": "A head on the road",
+      "lesson": "Two parts. On the right and above is 首, a head: the top strokes are commonly explained as hair, and the box below with its lines is the face, from 目, an eye. 首 also means “first” and “chief”. Around the left and bottom is 辶, the walking sign. In its full old form, 辵, it joins a crossroads with a foot: movement on a road. You meet it in 進 (advance), 退 (withdraw), 遠 (far), 近 (near), 通 (go through), 迷 (go astray). So 道 is a head that goes along a road, as the Shuowen says: 所行道也, “that on which one walks”. Some bronze forms set the head inside a full crossroads, 行, with a foot or a hand; scholars read them in more than one way, so take the “leader” story lightly. See how the meaning grew. First a road. Then a way to do a thing, a craft’s method. Then to lead someone along (later written with a hand added below: 導, to guide). Then to speak, to lay a matter out. Last, [[the course of everything that is|dao]]. The first line of the book uses [[two of these senses against each other|ke-dao]]. Trace the character with a finger: the head must be finished before the road is drawn. Which of the two carries the other?",
+      "brush": "Watch the order: the head 首 is written first, complete, and the walking sign comes last, although it sits on the left. The road is laid under a traveller who is already there. In the head, the two small opening strokes lean toward each other; then a long horizontal; then the narrow box with its inner lines evenly spaced. The walking sign begins with a dot, bends, and ends in the long final stroke that runs under the whole character. Calligraphers call this a level 捺 and give it “one wave, three bends”: press in, travel, press harder, release to a point. It is the boat that the head rides in. Zhao Mengfu wrote the whole book in small regular script in 1316, and the story goes that Wang Xizhi once copied it out for a Daoist priest in return for a flock of geese."
+    },
+    {
+      "c": "名",
+      "title": "A mouth at dusk",
+      "lesson": "Above is 夕, evening. 夕 began as the same picture as 月, the moon: a crescent. The two graphs were later kept apart by one stroke, so that 夕 is a moon that has only just risen. Below is 口, a mouth; a plain square now, a curved open mouth in the oldest writing. The oracle-bone form of 名 already has these two parts. The Shuowen tells the story: 冥不相見，故以口自名, “in the dark people cannot see each other, so each says a name with the mouth”. Not all modern scholars accept this as the origin, but no one has given a better picture. Look at the cousins of each part. With 夕: 夜 (night), 外 (outside; commonly explained by divination done at evening), 多 (many: two 夕, one on the other), 夢 (dream, with 夕 at the foot). With 口: 言 (speech), 告 (announce), 問 (ask: a mouth in a gate), 命 (command). 名 and 命 were close in sound and sense: the Shuowen defines 名 as 自命, “to command oneself”, to give oneself a call. A sound-cousin is 明, bright. [[A name, then, is a small light for the dark.|ke-ming]] And the dark itself, 玄, is the name that the passage gives at its end.",
+      "brush": "Six strokes, three and three. 夕 first: a short falling stroke to the left; then a longer stroke that goes right, turns, and sweeps down to the left in one movement; then a dot inside, the stroke that keeps evening apart from the moon. 口 next: left side down; then top and right side in a single stroke with a corner; then the base, which closes the box. Watch the corner in the fifth stroke: the brush stops, sets its shoulder, and comes down. The art is in the fit. The long sweep of 夕 needs room at the lower left, so the mouth sits a little to the right and takes the weight. In running script the dot and the mouth often join in one loop, and you can still read it."
+    }
+  ]
+}

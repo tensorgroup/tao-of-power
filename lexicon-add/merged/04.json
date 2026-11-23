@@ -1,0 +1,160 @@
+{
+ "沖": {
+  "senses": [
+   "to well up, to surge",
+   "empty, hollow (for 盅)",
+   "to rush against; to rinse",
+   "mild, modest, deep"
+  ],
+  "shuowen": "涌搖也。从水中。讀若動。",
+  "shuowenEn": "To well up and rock. From 水 (water) and 中 (middle). Read like 動.",
+  "parts": [
+   {
+    "c": "氵",
+    "m": "water"
+   },
+   {
+    "c": "中",
+    "m": "the middle, the center"
+   }
+  ],
+  "story": "Two words meet in this graph. One is the Shuowen’s: water that wells up and rocks. The other is “hollow”, properly written 盅, a dish with 中 above it; the Shuowen defines 盅 as “the emptiness of a vessel” and quotes Laozi 4 as its example. Scribes used 沖 for both. The Laozi uses the word three times: Dao is 沖 and use does not fill it (4); the breaths 沖 and make harmony (42); great fullness seems 沖 (45). In later Chinese the word means mild and modest, as in 沖和 and 謙沖, and also to dash against. So the character holds a waiting bowl and moving water together.",
+  "gap": "English “empty” is a lack, and often a sad one: an empty house, an empty life. 沖 is emptiness as capacity, with a hint of movement in it. No English adjective does both."
+ },
+ "淵": {
+  "senses": [
+   "a deep pool in a river",
+   "whirling water",
+   "deep, profound",
+   "a gathering place, a source"
+  ],
+  "shuowen": "回水也。从水，象形。左右，岸也。中象水皃。",
+  "shuowenEn": "Water that turns back on itself. From 水; a picture. Left and right are the banks; the middle shows the look of water.",
+  "parts": [
+   {
+    "c": "氵",
+    "m": "water"
+   },
+   {
+    "c": "𣶒",
+    "m": "the old picture: water between two banks"
+   }
+  ],
+  "story": "A 淵 is the deep, slow place in a river where the water circles and the largest fish stay. It is the home of dragons in early stories. The Laozi likes the word: Dao is a 淵 (4); the heart of the good is 淵 (8); fish must not leave it (36). The Zhuangzi lists nine kinds of 淵 in a story about a shaman who cannot read a master’s face. Confucius’s favorite student was called Yan Yuan, 顏淵. Under the Tang, writers had to avoid the graph, because it was the personal name of the founder’s line (Li Yuan), and many copies wrote 泉 or 深 in its place.",
+  "gap": "“Abyss” brings in dread and the bottomless pit of Western scripture. 淵 is deep but friendly: depth that shelters and feeds."
+ },
+ "宗": {
+  "senses": [
+   "ancestral shrine",
+   "ancestor; the main line of a clan",
+   "to honor as head; the head or root of a thing",
+   "a school or sect"
+  ],
+  "shuowen": "尊祖廟也。从宀从示。",
+  "shuowenEn": "The shrine where the ancestors are honored. From 宀 (roof) and 示 (altar).",
+  "parts": [
+   {
+    "c": "宀",
+    "m": "roof, building"
+   },
+   {
+    "c": "示",
+    "m": "altar; a thing shown to the spirits"
+   }
+  ],
+  "story": "Under a roof stands an altar: 宗 is the hall where a clan keeps the tablets of its dead and feeds them. From the hall the word moved to the first ancestor, to the senior line of descent, and to the act of looking to someone as head. Zhou society was organized by 宗法, the rule of the ancestral line, which decided who inherited rank and who made the offerings. Later the word named religious schools: 禪宗 is the Chan (Zen) school. When the Laozi calls Dao the 宗 of the ten thousand things (4), and says “my words have a 宗” (70), it uses the strongest word for authority and belonging that its world had.",
+  "gap": "“Source” and “origin” are impersonal. 宗 is family: the ancestor is still present and still owed something."
+ },
+ "塵": {
+  "senses": [
+   "dust",
+   "the common world and its affairs",
+   "traces, tracks"
+  ],
+  "shuowen": "鹿行揚土也。从麤从土。",
+  "shuowenEn": "Deer run and the earth rises. From 麤 (three deer) and 土 (earth).",
+  "parts": [
+   {
+    "c": "鹿",
+    "m": "deer"
+   },
+   {
+    "c": "土",
+    "m": "earth, soil"
+   }
+  ],
+  "story": "The Shuowen’s form has three deer over earth, and its definition is a scene: a herd runs and dust goes up. The modern graph keeps one deer. Dust in Chinese is thus first a sign of movement and life. In the Laozi it occurs in one phrase, 同其塵, “be one with its dust” (4, 56). Later the word became the usual figure for worldly life: 紅塵, “red dust”, is the busy world; 風塵, “wind and dust”, is hard travel; in Buddhist texts the six 塵 are the objects of the senses. To leave home for a monastery was to leave the dust. The Laozi’s phrase goes the other way.",
+  "gap": "English “dust” suggests neglect and death (“dust to dust”). 塵 suggests traffic: the world where things are happening."
+ },
+ "象": {
+  "senses": [
+   "elephant",
+   "image, figure, likeness",
+   "to resemble, to seem",
+   "a sign in the sky; a hexagram figure"
+  ],
+  "shuowen": "長鼻牙，南越大獸，三秊一乳，象耳牙四足之形。",
+  "shuowenEn": "Long nose and tusks; a great beast of the far south; it bears young once in three years. The graph shows ears, tusks, and four feet.",
+  "parts": [
+   {
+    "c": "象",
+    "m": "a whole picture of the animal: trunk at the top, body and legs below"
+   }
+  ],
+  "story": "Elephants lived in north China in the Shang and withdrew south as the land was cleared. By the Warring States most people knew them only from ivory and bones. The Han Feizi uses this to explain how the animal’s name came to mean “image”: people find the bones of a dead elephant and from that pattern imagine the living one, “so whatever people picture in the mind is called 象”. The word then covered each kind of likeness: the signs that heaven hangs in the sky, the figures of the Book of Changes. In the Laozi, 大象, “the great image” (35, 41), has no shape, and Dao “looks” older than Di (4).",
+  "gap": "English keeps “image”, “symbol”, “seems”, and “elephant” apart. In Chinese one word holds them, with a hint that every image is a reconstruction from remains."
+ },
+ "帝": {
+  "senses": [
+   "Di, the high god of the Shang",
+   "Lord on High (上帝); a deified royal ancestor",
+   "emperor (from 221 BCE)"
+  ],
+  "story": "In the Shang oracle-bone inscriptions, Di is the highest power: Di sends rain or holds it back, and approves or ruins the king’s plans. Dead Shang kings also received the title. The Zhou identified Di with their Heaven, 天, and the two words stand side by side in the early classics. The early shape of the graph is disputed, and we give no picture for it. In 221 BCE the king of Qin joined it to 皇 and made 皇帝, “emperor”, which is why the Shuowen, written under the Han, defines the word as a ruler’s title. The Laozi names Di once, to say that Dao seems to come before it (4).",
+  "gap": "“God” makes Di the creator of the Bible, which Di was not; Legge chose it for reasons of mission. “Emperor” is too late and too human. Di is a high ancestor-god of a royal house, and nearer to a first ancestor than to a creator."
+ },
+ "湛": {
+  "senses": [
+   "submerged, sunk",
+   "deep",
+   "still and clear, as deep water",
+   "soaked; heavy (of dew)"
+  ],
+  "shuowen": "沒也。从水甚聲。一曰湛水，豫章浸。",
+  "shuowenEn": "Submerged. From 水 (water), with 甚 for the sound. Some say it is the Zhan river, a water of Yuzhang.",
+  "parts": [
+   {
+    "c": "氵",
+    "m": "water"
+   },
+   {
+    "c": "甚",
+    "m": "gives the sound; by itself: very, extreme"
+   }
+  ],
+  "story": "The root sense is “under water”. From it come deep, soaked, and then the quiet clearness of deep water that nothing stirs. The Book of Odes uses it for heavy dew: 湛湛露斯, “soaked, soaked is the dew”. In the Laozi it occurs once (4), for Dao that “seems, perhaps, to be there”, like a thing seen at the bottom of a pool. Later writers used it for a settled mind: 湛然, “limpid and still”, is a common phrase in Daoist and Buddhist writing on meditation.",
+  "gap": "English must choose among “deep”, “still”, and “clear”. 湛 is one quality: the calm of water so deep that the surface does not disturb it."
+ },
+ "和": {
+  "senses": [
+   "to answer in song, to sing in response",
+   "harmony; to harmonize",
+   "to blend, to mix (flavors, medicines)",
+   "mild, gentle; peace"
+  ],
+  "shuowen": "相譍也。从口禾聲。",
+  "shuowenEn": "To answer one another. From 口 (mouth), with 禾 for the sound.",
+  "parts": [
+   {
+    "c": "禾",
+    "m": "grain stalk; gives the sound"
+   },
+   {
+    "c": "口",
+    "m": "mouth"
+   }
+  ],
+  "story": "和 began in music: one voice or instrument that answers another. It also belonged to the kitchen. A statesman in the Zuo Tradition explains 和 with a cook who makes soup: water, fire, vinegar, salt, and plums are different, and the cook balances them. If all were the same, he says, who could eat it? So 和 is never sameness; it needs difference. In the Laozi, sounds and voices 和 each other (2), the breaths of yin and yang surge into 和 (42), and to know 和 is called the constant (55). In passage 4 it takes an unusual object: light.",
+  "gap": "English “harmony” has become soft and vague, and “peace” is only the absence of conflict. 和 is an active skill: to tune different things so that each can still be heard."
+ }
+}

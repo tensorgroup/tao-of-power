@@ -9,6 +9,7 @@ const read = (p) => JSON.parse(readFileSync(new URL(p, root)));
 const src = read('sources/zh-wangbi.json');
 const uni = read('sources/unihan.json');
 const lex = read('app/data/lexicon.json');
+const shuowen = hanOnly(readFileSync(new URL('sources/shuowen.txt', root), 'utf8'));
 
 const KINDS = new Set(['etymology', 'gap', 'history', 'geopolitics', 'wordplay', 'variant', 'wangbi', 'legge', 'practice']);
 const LENSES = new Set(['ground', 'inner', 'leading', 'body', 'nature', 'practice']);
@@ -18,6 +19,17 @@ const stripTone = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ü/
 
 const errors = [];
 const err = (where, msg) => errors.push(`${where}: ${msg}`);
+
+// Shuowen quotations must exist in the Shuowen text (Han characters compared).
+const checkShuowen = (where, q) => {
+  const h = hanOnly(q || '');
+  if (h && !shuowen.includes(h)) err(where, `shuowen quote not found in Shuowen text: ${q}`);
+};
+for (const [c, e] of Object.entries(lex)) if (e.shuowen) checkShuowen(`lexicon ${c}`, e.shuowen);
+const addDir = new URL('lexicon-add/', root);
+for (const f of existsSync(addDir) ? readdirSync(addDir).filter((x) => x.endsWith('.json')) : []) {
+  for (const [c, e] of Object.entries(read(`lexicon-add/${f}`))) if (e.shuowen) checkShuowen(`lexicon-add/${f} ${c}`, e.shuowen);
+}
 
 // Lexicon pinyin must be a Unihan reading.
 for (const [c, e] of Object.entries(lex)) {

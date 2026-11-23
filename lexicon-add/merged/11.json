@@ -1,0 +1,177 @@
+{
+ "無": {
+  "senses": [
+   "to not have, to be without",
+   "there is not",
+   "not-having; the part that is not there",
+   "do not (as a prohibition, like 毋)"
+  ],
+  "shuowen": "亡也。从亡無聲。",
+  "shuowenEn": "To be without. From 亡 (to be gone), with 無 for the sound. (The Shuowen enters the word under the fuller graph 𣞤.)",
+  "story": "The early graph is widely explained as a dancer with tassels or plumes in the hands; it was the first way to write “dance”, now 舞. It was borrowed for a word of like sound, “to not have”. The oldest Laozi manuscripts mostly write that word as 亡, “gone, lost”, or as 无, a short form that the Shuowen calls an “odd character”. In the Laozi, 無 is the partner of 有. The two give birth to each other (2); the uses of a wheel, a pot, and a room are at their 無 (11); things are born from 有 and 有 from 無 (40). It is also the first half of 無為, not-forcing, and 無名, nameless.",
+  "gap": "“Nothingness” and “Non-being” make it an abstract noun, and the Western tradition tends to hear a void to fear. 無 is first a verb, “have not”. In passage 11 it has an owner: 其無, “its nothing”."
+ },
+ "有": {
+  "senses": [
+   "to have, to hold",
+   "there is, there are",
+   "having; that which is there",
+   "abundance (a good harvest year)"
+  ],
+  "shuowen": "不宜有也。《春秋傳》曰：「日月有食之。」从月又聲。",
+  "shuowenEn": "That which ought not to be there. The Spring and Autumn Tradition says: “the sun, the moon: there was an eclipse of it.” From 月 (moon), with 又 for the sound.",
+  "parts": [
+   {
+    "c": "𠂇",
+    "m": "a hand (又)"
+   },
+   {
+    "c": "月",
+    "m": "moon, as the Shuowen says; many scholars see 肉, meat"
+   }
+  ],
+  "story": "The Shuowen ties 有 to the moon and to eclipses, a thing that appears when it should not. Many modern scholars read the early forms as a hand that holds a piece of meat: to have is to have food in the hand. Both explanations are on record, and we do not decide between them. The word covers possession and existence with one verb. In the Laozi it is the visible half of each pair: 有名, the named; 有欲, with wanting; and plain 有, that which is there, the clay of the pot and the wall of the room.",
+  "gap": "Western philosophy turned 有 into “Being”. But 有 always suggests a holder and a thing held. “There is a cup” and “has a cup” are one sentence in Chinese."
+ },
+ "轂": {
+  "senses": [
+   "hub of a wheel",
+   "by extension: a cart, a center where things gather"
+  ],
+  "shuowen": "輻所凑也。从車𣪊聲。",
+  "shuowenEn": "That on which the spokes converge. From 車 (cart), with 㱿 for the sound.",
+  "parts": [
+   {
+    "c": "車",
+    "m": "cart, wheeled vehicle"
+   },
+   {
+    "c": "㱿",
+    "m": "gives the sound"
+   }
+  ],
+  "story": "The hub was a short cylinder of hard wood with a ring of mortises for the spokes and a bore through the center for the axle. It took the most wear of any part, and the Kaogongji gives careful rules for its wood, length, and bore. Crowded streets were described as 轂擊, “hub knocks on hub”. In the Laozi it occurs once (11), and it made the hub one of the lasting images of Chinese thought: a center that holds everything because it is hollow.",
+  "gap": "English “hub” now means a busy center, a place full of activity. The Laozi’s hub is important for the opposite reason: its middle is the one empty place in the wheel."
+ },
+ "埴": {
+  "senses": [
+   "sticky clay, potter’s clay",
+   "clay soil"
+  ],
+  "shuowen": "黏土也。从土直聲。",
+  "shuowenEn": "Sticky earth. From 土 (earth), with 直 for the sound.",
+  "parts": [
+   {
+    "c": "土",
+    "m": "earth, soil"
+   },
+   {
+    "c": "直",
+    "m": "gives the sound; by itself: straight"
+   }
+  ],
+  "story": "埴 is fine clay that holds together when it is wet. With 埏, to knead, it makes the craft phrase 埏埴, “to work clay”, which both the Laozi (11) and the Xunzi use for the potter’s trade. The two books draw opposite lessons from the same act. Xunzi points to the potter’s effort: a vessel does not come from the clay’s nature, and a good person does not come from human nature without training. The Laozi points to the hollow that the potter leaves. China’s oldest pots are many thousands of years older than either book.",
+  "gap": "“Clay” is close. That which English loses is the phrase: 埏埴 was a set term of a trade, as plain to its first hearers as “throw a pot” is to an English potter."
+ },
+ "牖": {
+  "senses": [
+   "window cut in a wall, with a lattice",
+   "to open, to give light to (the mind)"
+  ],
+  "shuowen": "穿壁以木為交窻也。",
+  "shuowenEn": "Pierce the wall and set crossed wood in it as a window.",
+  "parts": [
+   {
+    "c": "片",
+    "m": "a split piece of wood, a slat"
+   },
+   {
+    "c": "戶",
+    "m": "a door of one leaf"
+   },
+   {
+    "c": "甫",
+    "m": "the third part named by the Shuowen"
+   }
+  ],
+  "story": "Early Chinese kept two kinds of window apart. An opening in the roof, for smoke and light, was a 囱 (later 窗). An opening in a wall was a 牖, with a lattice of wood. The Analects tells that Confucius came to see a student who was very sick, did not go in, and held the man’s hand through the 牖. The Laozi names it twice: you chisel door and 牖 to make a room (11), and without a look out of the 牖 one may see heaven’s way (47). The Book of Odes uses it as a verb: Heaven 牖 the people, opens and leads them.",
+  "gap": "“Window” suggests glass and a view. A 牖 was a cut in a thick earth wall: light, air, and a hand could go through it."
+ },
+ "利": {
+  "senses": [
+   "sharp (of a blade)",
+   "smooth, favorable",
+   "gain, profit, advantage",
+   "to benefit"
+  ],
+  "shuowen": "銛也。从刀。和然後利，从和省。《易》曰：「利者，義之和也。」",
+  "shuowenEn": "Sharp. From 刀 (knife). After harmony comes gain; the graph takes a part of 和. The Changes says: “Gain is the harmony of what is right.”",
+  "parts": [
+   {
+    "c": "禾",
+    "m": "grain stalk"
+   },
+   {
+    "c": "刂",
+    "m": "knife"
+   }
+  ],
+  "story": "A knife beside grain: the common explanation is a blade that cuts the crop, and so both “sharp” and “harvest, gain”. The Shuowen prefers a moral reading, with 禾 as a short form of 和, harmony. 利 was one of the most contested words of the Warring States. For the Mohists it was the measure of right action: that which benefits the world. Mencius set it against rightness. Sunzi uses it for the advantage that a general seeks. The Laozi uses both senses: “sharp tools” (36, 57), and water that “benefits the ten thousand things and does not contend” (8). In passage 11 it is the gain that substance gives.",
+  "gap": "English separates “sharp”, “profit”, and “benefit”. In 利 the edge is still in the word: gain is a thing that is cut and taken."
+ },
+ "用": {
+  "senses": [
+   "to use, to employ",
+   "use, function, working",
+   "expense, resources",
+   "by means of"
+  ],
+  "shuowen": "可施行也。从卜从中。衞宏說。",
+  "shuowenEn": "That which can be put into practice. From 卜 (to divine) and 中 (to hit the mark). This is the explanation of Wei Hong.",
+  "story": "The Shuowen reads the graph as a divination that hits the mark, and so a thing that can be acted on. Modern scholars doubt this, and the early form is disputed; a common view sees a bucket or other container. We give no picture. In the Laozi, 用 is a key word and nearly always a surprise: the use of Dao does not run out (4, 6, 35, 45); weakness is the 用 of Dao (40); the 用 of a wheel, a pot, and a room is at their emptiness (11). Later Chinese philosophy made a pair of 體 and 用, “body” and “function”: that which a thing is, and that which it does.",
+  "gap": "“Use” in English sounds like usefulness to an owner, and “utility” is an economist’s word. 用 is the working of a thing, its function in act. That is the reason passage 11 can set it against 利, gain."
+ },
+ "室": {
+  "senses": [
+   "inner room, chamber",
+   "house, household",
+   "wife (the one of the inner room)"
+  ],
+  "shuowen": "實也。从宀从至。至，所止也。",
+  "shuowenEn": "“Full, solid” (a gloss by like sound). From 宀 (roof) and 至 (to arrive). To arrive: the place where one stops.",
+  "parts": [
+   {
+    "c": "宀",
+    "m": "roof, building"
+   },
+   {
+    "c": "至",
+    "m": "to arrive, to reach"
+   }
+  ],
+  "story": "In an early Chinese house the 堂 was the open front hall and the 室 was the closed room behind it, where the family slept. The Analects has a saying about a student who has “gone up into the hall but not yet entered the 室”: the room is the inner part of learning. The Shuowen explains the word by a pun, 實, “full”: a room is where people and goods come to rest. The Laozi (11) looks at the same room and sees that its use is where it has nothing. The Zhuangzi has a famous phrase in the same spirit: 虛室生白, “the empty room gives birth to light”.",
+  "gap": "“Room” in English also means space (“make room”), which is a lucky fit for passage 11. 室 does not have that second sense; the Chinese reader gets the point from the picture, not from the word."
+ },
+ "器": {
+  "senses": [
+   "vessel, container",
+   "tool, implement, weapon",
+   "ritual bronze",
+   "a person’s capacity or talent; to value someone’s ability"
+  ],
+  "shuowen": "皿也。象器之口，犬所以守之。",
+  "shuowenEn": "A dish. The graph shows the mouths of vessels, and a dog that guards them.",
+  "parts": [
+   {
+    "c": "口",
+    "m": "mouth, opening (four of them)"
+   },
+   {
+    "c": "犬",
+    "m": "dog"
+   }
+  ],
+  "story": "Four mouths around a dog: the Shuowen sees a row of vessels with a watchdog. Modern scholars debate the middle part, but the four openings are plain. 器 first meant pots, then each made tool, and above all the cast bronzes of ancestral ritual, which were the signs of rank. From there it came to mean a person’s capacity. Confucius said that the noble person is not a 器. The Laozi turns the word several ways: the uncarved block is split to make 器 (28); the world is a spirit 器 and cannot be handled (29); the great 器 is completed late (41); and in passage 11 its use is its hollow.",
+  "gap": "English keeps “vessel”, “tool”, and “talent” apart. 器 joins them, so that each statement about a pot is quietly a statement about a person."
+ }
+}
