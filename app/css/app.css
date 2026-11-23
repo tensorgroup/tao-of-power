@@ -394,3 +394,7 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 .chip:active, .btn:active { transform: scale(.97); background: var(--ink-2); color: var(--paper); border-color: var(--ink-2); }
 .chip[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--seal) inset; }
 .fn-q { color: var(--seal); font-size: .72em; letter-spacing: .04em; margin-left: .1em; }
+
+/* All 64 sticks: always two even rows of 32 */
+.sticks-row.whole { display: grid; grid-template-columns: repeat(32, minmax(0, 1fr)); gap: 8px 0; justify-items: center; }
+.sticks-row.whole .st { width: min(4px, 60%); height: 26px; }

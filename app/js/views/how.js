@@ -34,11 +34,11 @@ export function lineGlyph(v, width = 72) {
 function stickRow(name, n, { whole = false } = {}) {
   const sticks = Array.from({ length: n }, () => h('span', { class: 'st' }));
   const groups = [];
-  const box = h('div', { class: 'sticks-row' });
+  const box = h('div', { class: whole ? 'sticks-row whole' : 'sticks-row' });
   if (whole) box.append(...sticks);
   else for (let k = 0; k < n; k += 3) { const g = h('span', { class: 'grp' }, ...sticks.slice(k, k + 3)); groups.push(g); box.append(g); }
   const tally = h('span', { class: 'row-tally' });
-  const el = h('div', { class: 'how-row' }, h('div', { class: 'row-head' }, h('span', { class: 'row-label', text: `${name}: ${n}` }), tally), box);
+  const el = h('div', { class: 'how-row' }, h('div', { class: 'row-head' }, h('span', { class: 'row-label', text: whole ? name : `${name}: ${n}` }), tally), box);
   return {
     el,
     /** Returns the caption text for this bundle. */
@@ -71,7 +71,7 @@ function castSteps(bundles, ui, { intro, onLine }) {
   const rows = [];
   const steps = [];
   steps.push(() => {
-    ui.stage.replaceChildren(stickRow('All 64 sticks', 64, { whole: true }).el);
+    ui.stage.replaceChildren(stickRow('All 64 sticks (two rows of 32)', 64, { whole: true }).el);
     ui.caption.textContent = intro;
   });
   steps.push(() => {
