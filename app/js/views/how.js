@@ -106,7 +106,7 @@ function whyThreeToFive() {
 }
 
 /** Two stacked lines: [lower, upper], bottom→top. */
-function bigramGlyph(pair, width = 28) {
+function bigramGlyph(pair, width = 40) {
   const svg = tetragram([pair[0], pair[1], 0, 0], { size: width });
   svg.querySelectorAll('g').forEach((g) => { if (Number(g.getAttribute('data-line')) > 1) g.remove(); });
   const rects = [...svg.querySelectorAll('rect')];
@@ -132,7 +132,7 @@ function figureTable() {
       const n = 1 + 9 * u + l;
       const lines = [low[0], low[1], up[0], up[1]];
       return h('td', {}, h('a', { href: `#/p/${n}`, class: 'fig-cell', 'aria-label': `Passage ${n}: ${lineNames(lines)}` },
-        tetragram(lines, { size: 22 }), h('span', { text: String(n) })));
+        tetragram(lines, { size: 40 }), h('span', { text: String(n) })));
     })));
   return h('div', { class: 'fig-wrap' }, h('table', { class: 'fig-table' }, h('thead', {}, head), h('tbody', {}, ...rows)));
 }
@@ -254,9 +254,9 @@ export function howSection({ standalone = false } = {}) {
     h('div', { class: 'frame how-box' }, builder, stage, caption, result,
       h('div', { class: 'row how-controls' }, playBtn, nextBtn, newBtn)),
     h('h3', { text: 'The 81 figures' }),
-    h('p', { class: 'small', text: 'Three kinds of line in four places make 3 × 3 × 3 × 3 = 81 figures — every possible combination, one per passage. To find a figure, take its top two lines to choose the column and its bottom two lines to choose the row. The order follows the Taixuan jing (太玄經), Yang Xiong’s book of 81 figures from about 2 BCE: the bottom line changes fastest, so numbers count down each column. Tap any figure to open its passage.' }),
+    h('p', { text: 'Three kinds of line in four places make 3 × 3 × 3 × 3 = 81 figures — every possible combination, one per passage. To find a figure, take its top two lines to choose the column and its bottom two lines to choose the row. The order follows the Taixuan jing (太玄經), Yang Xiong’s book of 81 figures from about 2 BCE: the bottom line changes fastest, so numbers count down each column. Tap any figure to open its passage.' }),
     figureTable(),
-    h('p', { class: 'small', text: 'Chance, fairly: the app splits the sticks with your device’s cryptographic random generator. The method itself is not perfectly even, and the app keeps that: a solid line comes 10 times in 31, a once-broken line 11 times in 31, a twice-broken line 10 times in 31 — as with real sticks.' }),
+    h('p', { text: 'Chance, fairly: the app splits the sticks with your device’s cryptographic random generator. The method itself is not perfectly even, and the app keeps that: a solid line comes 10 times in 31, a once-broken line 11 times in 31, a twice-broken line 10 times in 31 — as with real sticks.' }),
   );
   load();
   return root;
