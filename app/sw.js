@@ -1,6 +1,6 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = 'bf732cda6621';
+const VERSION = '44cbc0c12a6b';
 const FILES = [
  "./",
  "css/app.css",
@@ -38,6 +38,7 @@ const FILES = [
  "js/markup.js",
  "js/notes.js",
  "js/sheet.js",
+ "js/theme.js",
  "js/ui.js",
  "js/views/about.js",
  "js/views/browse.js",
@@ -48,6 +49,7 @@ const FILES = [
 ];
 // </precache>
 const CACHE = `tao-${VERSION}`;
+const ART_CACHE = 'tao-art'; // runtime cache: paintings are cached when first viewed
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -66,7 +68,7 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    for (const k of await caches.keys()) if (k.startsWith('tao-') && k !== CACHE) await caches.delete(k);
+    for (const k of await caches.keys()) if (k.startsWith('tao-') && k !== CACHE && k !== ART_CACHE) await caches.delete(k);
     await self.clients.claim();
   })());
 });
@@ -85,6 +87,14 @@ self.addEventListener('fetch', (event) => {
       const shell = await cache.match('./');
       if (shell) return shell;
       return fetch(req);
+    }
+    if (url.pathname.includes('/art/')) {
+      const art = await caches.open(ART_CACHE);
+      const got = await art.match(req);
+      if (got) return got;
+      const res = await fetch(req);
+      if (res.ok) art.put(req, res.clone());
+      return res;
     }
     const hit = await cache.match(req, { ignoreSearch: true });
     if (hit) return hit;

@@ -15,7 +15,7 @@ export function listFiles(dir = app) {
     if (statSync(p).isDirectory()) out.push(...listFiles(p));
     else {
       const rel = relative(app, p).split('\\').join('/');
-      if (!SKIP.has(rel)) out.push(rel);
+      if (!SKIP.has(rel) && !rel.startsWith('art/')) out.push(rel); // art is cached on first view
     }
   }
   return out.sort();

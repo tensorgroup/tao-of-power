@@ -1,7 +1,8 @@
 // One passage: rendering with notes, the Chinese column, lenses, plate, Legge, journal.
 import { h, tetragram, lineNames, fmtDate, toast } from '../ui.js';
 import { linesFor } from '../draw.js';
-import { getPassage, getLexicon } from '../data.js';
+import { getPassage, getLexicon, getArt } from '../data.js';
+import { openSheet } from '../sheet.js';
 import { rich, openChar, hanify } from '../notes.js';
 import { isHan } from '../markup.js';
 import { state } from '../app.js';
@@ -24,7 +25,7 @@ const LENS = [
 
 export async function passageView(n, drawId) {
   if (!(n >= 1 && n <= 81)) return h('p', { text: 'There are 81 passages.' });
-  const [{ text, rich: p }, lex] = await Promise.all([getPassage(n), getLexicon()]);
+  const [{ text, rich: p }, lex, art] = await Promise.all([getPassage(n), getLexicon(), getArt()]);
   const ctx = { notes: p?.notes || {} };
   const lines = linesFor(n);
   const draw = drawId ? state.journal.draws.find((d) => d.id === drawId) : null;
@@ -80,6 +81,10 @@ export async function passageView(n, drawId) {
     root.append(h('h2', { text: 'Reflections' }), box);
   }
 
+  // Old masters: paintings, prints, rubbings, and stories
+  const artBox = artSection(n, art, ctx);
+  if (artBox) root.append(artBox);
+
   // Calligraphy plates
   const plates = p?.plates?.length ? p.plates : (p?.glyph ? [{ c: p.glyph }] : []);
   if (plates.length) {
@@ -99,6 +104,56 @@ export async function passageView(n, drawId) {
 
   root.append(h('hr', { class: 'rule' }), journalBox(n, draw));
   return root;
+}
+
+function credit(a) {
+  return [a.artist, a.date, a.collection].filter(Boolean).join(' · ');
+}
+
+function openArt(a, entry, ctx) {
+  openSheet({
+    kind: 'Painting', title: a.title,
+    build: () => h('div', {},
+      h('img', { class: 'art-full', src: a.file, alt: a.alt || a.title, width: a.w, height: a.h }),
+      a.titleZh ? h('p', { class: 'zh-quote', lang: 'zh-Hant' }, hanify(a.titleZh, ctx)) : null,
+      h('p', { class: 'muted small', text: credit(a) }),
+      entry.look ? rich(entry.look, ctx, { block: true }) : null,
+      h('p', { class: 'src' }, `${a.license}. `, h('a', { href: a.source, target: '_blank', rel: 'noopener noreferrer', text: 'Source: Wikimedia Commons' }))),
+  });
+}
+
+function openStory(st, ctx) {
+  openSheet({
+    kind: 'A story', title: st.title,
+    build: () => {
+      const box = h('div', {});
+      for (const para of String(st.text).split(/\n{2,}/)) box.append(rich(para, ctx, { block: true }));
+      if (st.source) box.append(h('p', { class: 'src', text: `From ${st.source}. Retold for this page.` }));
+      return box;
+    },
+  });
+}
+
+function artSection(n, art, ctx) {
+  const entries = (art.passages?.[n] || []).filter((e) => art.catalog?.[e.id]);
+  const stories = Object.values(art.stories || {}).filter((st) => (st.passages || []).includes(n));
+  if (!entries.length && !stories.length) return null;
+  const box = h('section', { class: 'old-masters', 'aria-label': 'Paintings and stories' }, h('h2', { text: 'From the old masters' }));
+  for (const e of entries) {
+    const a = art.catalog[e.id];
+    box.append(h('figure', { class: 'art' },
+      h('button', { class: 'art-btn', type: 'button', 'aria-label': `Look closer: ${a.title}`, onclick: () => openArt(a, e, ctx) },
+        h('img', { src: a.file, alt: a.alt || a.title, width: a.w, height: a.h, loading: 'lazy', decoding: 'async' })),
+      h('figcaption', {},
+        h('b', { text: a.title }), ' ', h('span', { class: 'muted small', text: credit(a) }),
+        e.caption ? h('span', { class: 'art-cap' }, rich(e.caption, ctx)) : null,
+        h('button', { class: 'btn quiet small-btn', type: 'button', text: 'How to look at it', onclick: () => openArt(a, e, ctx) }))));
+  }
+  for (const st of stories) {
+    box.append(h('button', { class: 'story-btn', type: 'button', onclick: () => openStory(st, ctx) },
+      h('span', { class: 'kind', text: 'A story' }), h('span', { text: st.title })));
+  }
+  return box;
 }
 
 async function plate(pl, e, ctx) {

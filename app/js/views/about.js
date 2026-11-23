@@ -25,6 +25,9 @@ export function aboutView() {
       li('The English renderings, titles, reflections, and notes are new, written for this page from the Chinese.'),
       li('Character data: Unicode Unihan database (© Unicode, Inc., used under the Unicode License). Shuowen Jiezi (說文解字, Xu Shen, c. 100 CE). Facts paraphrased from Wiktionary (CC BY-SA) are credited in the notes.'),
       li('Fonts: EB Garamond, Noto Serif TC, LXGW WenKai TC — SIL Open Font License.'),
+      li('Brushwork: stroke data from Make Me a Hanzi, derived from Arphic PL KaitiM (Arphic Public License).'),
+      li('Paintings, prints, and rubbings: public-domain works from Wikimedia Commons; each credit names the artist, collection, and source. The stories are new retellings of ancient texts (Zhuangzi, Sima Qian’s Shiji, and others).'),
+      li('Variant readings: the Mawangdui silk manuscripts (2nd c. BCE), collated text from Wikisource.'),
     ),
     h('p', { class: 'muted small', text: 'Made in the spirit of R. L. Wing’s The Tao of Power (1986), which used the same 64-stick method and taught that a chance meeting with a passage can be the right one.' }),
 
