@@ -2,6 +2,7 @@
 import { h, s, tetragram, lineNames, fmtDate } from '../ui.js';
 import { drawTetragram, bundleRemainder } from '../draw.js';
 import { recordDraw } from '../journal.js';
+import { track } from '../track.js';
 import { state } from '../app.js';
 import { getIndex, getArt } from '../data.js';
 import { openArt } from './passage.js';
@@ -119,6 +120,7 @@ async function run(root) {
   }
 
   const d = recordDraw(state.journal, { passage: result.n, lines: result.lines, bundles: result.casts.map((x) => x.bundles) });
+  track('draw', result.n);
   state.persist();
   skipBtn.remove();
   build.replaceChildren(h('div', { class: 'badge' }, tetragram(result.lines, { size: 92, label: lineNames(result.lines) }), h('span', { class: 'num', text: `${result.n}` })));

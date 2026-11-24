@@ -11,6 +11,7 @@ import { howView } from './views/how.js';
 import { searchView } from './views/search.js';
 import { galleryView, storiesView, cultureView } from './views/library.js';
 import { setGlossary, setRareGlyphs } from './notes.js';
+import { trackView } from './track.js';
 import { getGlossary, getRareGlyphs } from './data.js';
 
 export const state = {
@@ -68,6 +69,7 @@ async function route() {
     if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   }
   if (!hash.startsWith('#/p/')) window.scrollTo(0, 0);
+  trackView(hash);
   view.focus({ preventScroll: true });
 }
 

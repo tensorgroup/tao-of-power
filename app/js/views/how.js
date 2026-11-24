@@ -211,7 +211,7 @@ export function howSection({ standalone = false } = {}) {
         result.replaceChildren(
           h('div', { class: 'how-sum' }, 'Passage ', h('b', { text: String(n) }), title ? ` — ${title}` : ''),
           h('p', {}, h('a', { class: 'btn red', href: `#/p/${n}`, text: `Read passage ${n}` })),
-          h('p', { class: 'muted small', text: 'This was a real random draw, made the same way as the Draw page. Restart for another.' }));
+          h('p', { class: 'muted small' }, 'This was a real random draw, made the same way as ', h('a', { class: 'ref', href: '#/', text: 'the Draw page' }), '. Restart for another.'));
       });
     }
     run(0).then(() => { if (jump) play(); });

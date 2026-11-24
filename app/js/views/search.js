@@ -5,6 +5,7 @@ import { getArt, getEchoes, getWing, getPassage } from '../data.js';
 import { openNote, openGlossary } from '../notes.js';
 import { openArt, openStory, openEcho, openWingNote } from './passage.js';
 import { libraryLinks } from './library.js';
+import { track } from '../track.js';
 
 const MODEL = 'potion-r29k-256-q4';
 let indexP = null;
@@ -79,6 +80,7 @@ export async function searchView(initial = '') {
   let index = null;
   let model = null;
   let timer;
+  let searchTimer;
   const input = h('input', {
     type: 'search', id: 'q', enterkeyhint: 'search', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false',
     placeholder: 'An idea, a feeling, a name…', 'aria-label': 'Search by idea or word',
@@ -100,6 +102,8 @@ export async function searchView(initial = '') {
     history.replaceState(null, '', q ? `#/search?q=${encodeURIComponent(q)}` : '#/search');
     suggest.hidden = !!q;
     if (!q || !index) { fill(results); return; }
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => track('search', filter), 1500); // that a search happened, never its words
     const types = FILTERS.find(([k]) => k === filter)[2];
     const ranked = rank(model, q, index, { limit: 40, filter: types ? (d) => types.includes(index.docs[d].type) : null });
     // Relative cutoff: scores vary a lot by query (a Chinese term scores only on exact matches).

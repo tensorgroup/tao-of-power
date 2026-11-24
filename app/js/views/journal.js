@@ -5,6 +5,7 @@ import {
   updateEntry, deleteEntry, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
 } from '../journal.js';
 import { getIndex } from '../data.js';
+import { track } from '../track.js';
 
 const DAY = 86400000;
 
@@ -120,6 +121,7 @@ async function doExport(render) {
       setTimeout(() => URL.revokeObjectURL(url), 4000);
     }
     state.persist();
+    track('journal-export');
     toast('Journal exported.');
   } catch (e) {
     j.lastExportAt = prev;
@@ -138,6 +140,7 @@ function doImport(render) {
     const r = validate(obj);
     if (!r.ok) { toast(`${r.reason} Nothing changed.`, { warn: true, ms: 6000 }); return; }
     const before = state.journal.entries.length;
+    track('journal-import');
     showImportChoice(r.journal, before, render);
   });
   input.click();

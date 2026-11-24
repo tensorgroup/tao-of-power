@@ -10,6 +10,7 @@ import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } fr
 import { entryList } from './journal.js';
 import { brushPanel } from '../brush.js';
 import { sayButton } from '../audio.js';
+import { track } from '../track.js';
 
 // Vertical presentation forms: in a vertical column, commas and stops sit at the top right of the cell.
 const VERTICAL_PUNCT = { '，': '︐', '、': '︑', '。': '︒', '：': '︓', '；': '︔', '！': '︕', '？': '︖', '「': '﹁', '」': '﹂', '『': '﹃', '』': '﹄' };
@@ -147,6 +148,7 @@ function sourceName(url) {
 }
 
 export function openArt(a, entry, ctx, { passages } = {}) {
+  track('art', String(a.file).replace(/^art\//, '').replace(/\.jpg$/, ''));
   openSheet({
     kind: 'Painting', title: a.title,
     build: () => h('div', {},
@@ -166,6 +168,7 @@ export function passageLinks(passages) {
 }
 
 export function openStory(st, ctx = {}, { links = false } = {}) {
+  track('story', st.title);
   openSheet({
     kind: 'A story', title: st.title,
     build: () => {
@@ -204,6 +207,7 @@ function wingSection(n, wing, ctx) {
 }
 
 export function openEcho(e, ctx = {}, { passages } = {}) {
+  track('echo', e.id);
   const lang = /musashi|five rings|五輪/i.test(e.source) ? 'ja' : 'zh-Hant';
   openSheet({
     kind: e.source, title: e.title,
@@ -239,7 +243,7 @@ export function cultureLinks(c) {
   if (c.kind === 'poem' || c.kind === 'short-story') out.push(['▶ Hear a reading', yt(`${bare(c.title)} ${firstName(c.creator)} reading`), 'play']);
   if (READ.has(c.kind) && c.year && c.year < 1929) out.push(['Read free', `https://www.gutenberg.org/ebooks/search/?query=${encodeURIComponent(`${bare(c.title)} ${firstName(c.creator)}`)}`, 'read']);
   out.push(['Wikipedia', c.link, 'wiki']);
-  return h('p', { class: 'c-links' }, out.map(([label, href, kind]) => h('a', { class: `c-link ${kind}`, href, target: '_blank', rel: 'noopener noreferrer', text: label })));
+  return h('p', { class: 'c-links' }, out.map(([label, href, kind]) => h('a', { class: `c-link ${kind}`, href, target: '_blank', rel: 'noopener noreferrer', text: label, onclick: () => track('culture', `${c.kind}:${kind}:${c.id}`) })));
 }
 
 function cultureSection(n, culture) {
@@ -327,7 +331,7 @@ function questionSection(qs, jbox) {
     box.append(h('div', { class: 'sit-q' },
       h('p', { class: 'sit-claim', text: q.claim }),
       h('ul', {}, q.prompts.map((pr) => h('li', { text: pr }))),
-      h('button', { class: 'btn quiet small-btn', type: 'button', text: 'Write about this', onclick: () => jbox.ask(q) })));
+      h('button', { class: 'btn quiet small-btn', type: 'button', text: 'Write about this', onclick: () => { track('question', q.id); jbox.ask(q); } })));
   }
   return box;
 }
@@ -359,7 +363,7 @@ function journalBox(n, draw) {
     const text = ta.value.trim();
     if (!text) { ta.focus(); return; }
     addEntry(state.journal, { passage: n, text, drawId: draw?.id, q });
-    if (state.persist()) { ta.value = ''; q = null; clearDraft(n); showQ(); toast('Saved.'); refresh(); }
+    if (state.persist()) { track('journal-save', n); ta.value = ''; q = null; clearDraft(n); showQ(); toast('Saved.'); refresh(); }
   };
   refresh();
   const el = h('section', { class: 'jbox', 'aria-label': 'Journal' },

@@ -1,6 +1,6 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = 'f30182a7ef68';
+const VERSION = 'be54f8059bad';
 const ART_VERSION = '3cfa7432';
 const SEARCH_VERSION = '66167224';
 const MODEL_VERSION = 'a31ada72';
@@ -299,6 +299,7 @@ const FILES = [
  "js/search-core.js",
  "js/sheet.js",
  "js/theme.js",
+ "js/track.js",
  "js/ui.js",
  "js/views/about.js",
  "js/views/browse.js",

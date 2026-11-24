@@ -15,7 +15,8 @@ npm run check        # content check + copyright guard + art check
 node scripts/check-content.mjs --all   # also requires all 81 passage files
 npm run precache     # rewrite the service-worker file list and version in app/sw.js
 npm run build        # merge lexicon, build text/index/strokes, then precache
-npm run deploy       # build + check + wrangler deploy (needs Cloudflare login)
+npm run deploy       # build + check + wrangler deploy (Worker + assets; needs Cloudflare login)
+scripts/analytics.sh 7   # usage report from D1 (last 7 days)
 ```
 
 Run `npm test` and `npm run check` before you say a change is done. Run
@@ -59,8 +60,16 @@ the old files.
 - **Note kinds** must be one of: etymology, gap, history, geopolitics,
   wordplay, variant, wangbi, legge, practice, pair. Add a new kind in three
   places: `content-style.md`, `scripts/check-content.mjs`, and `KIND_LABEL` in `app/js/notes.js`.
-- **Security.** The CSP in `index.html` allows only same-origin. No inline
-  scripts or styles, no external fonts or CDNs, no `innerHTML`.
+- **Security.** The CSP in `index.html` allows only same-origin, plus
+  Cloudflare Web Analytics (`static.cloudflareinsights.com` script,
+  `cloudflareinsights.com` connect). No inline scripts or styles, no other
+  external fonts or CDNs, no `innerHTML`.
+- **Analytics.** `worker/index.js` serves `./app` and answers `POST /api/e`,
+  storing anonymous events in D1 `tao-analytics` (schema in
+  `worker/schema.sql`). The client is `app/js/track.js`: route views plus a
+  few named actions; never typed text, journal content, IPs, or UA strings;
+  off under DNT/GPC. Report: `scripts/analytics.sh [days] [--local]`. A new
+  event name must be added to `EVENTS` in the Worker.
 - **DOM.** Build nodes with `h()`; replace children with `fill()` from `ui.js`. Native `replaceChildren()`/`append()` print
   `null` as the text "null"; filter nulls or pass the children through `h()`.
 - **Journal data** lives only in the user's browser. Keep the export format

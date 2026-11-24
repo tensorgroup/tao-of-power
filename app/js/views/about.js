@@ -70,6 +70,8 @@ export async function aboutView(section) {
 
     h('h3', { text: 'Your journal lives in this browser' }),
     h('p', { text: 'Entries are stored only on this device, in this browser. Nothing is sent anywhere. Browsers can delete site data: Brave Shields with “forget me when I close this site,” clearing site data, Safari’s 7-day rule for sites you do not visit, or removing a home-screen app. Export from the Journal page now and then, and after anything you would hate to lose. Import merges files, so old and new backups can be combined.' }),
+    h('h3', { text: 'What this site counts' }),
+    h('p', { text: 'To learn which parts of the site people use, the site counts page visits and a few actions (a draw, a search, a tap on a character or a note), with a random ID kept in your browser and the route you came from. It does not record your journal, the words you search for, your IP address, or anything that names you. If your browser sends “Do Not Track” or Global Privacy Control, nothing is counted. Cloudflare Web Analytics also counts page loads, without cookies.' }),
     h('p', { class: 'muted small', text: 'Tip: add this page to your home screen. It then works offline.' }),
   ));
 }

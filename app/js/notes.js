@@ -4,6 +4,7 @@ import { parseMarked, isHan } from './markup.js';
 import { openSheet } from './sheet.js';
 import { getLexicon, charLinks } from './data.js';
 import { sayButton } from './audio.js';
+import { track } from './track.js';
 
 // ---- Rare characters (CJK Extension B+): drawn from GlyphWiki outlines, since phones lack fonts ----
 let RARE = {};
@@ -43,30 +44,56 @@ export function openGlossary(key, ctx = {}) {
   });
 }
 
-// ---- Passage references: "passage 76", "chapters 1–37", "passages 22, 28 and 39" link to #/p/N ----
-const REF_RE = /\b(passages?|chapters?|chs?\.)(\s*)(\d{1,2}(?:\s*(?:,|–|-|and|or|&)\s*\d{1,2})*)(?!\d)/gi;
-// "chapter N" of another book must not link to our passage N.
-const OTHER_BOOK = /(Zhuangzi|Han ?Feizi|Huainanzi|Xunzi|Liezi|Mencius|Analects|Zuozhuan|Lüshi|Shiji|Sunzi|Yijing|Guanzi|Liji|Red Chamber|Story of the Stone|Illusion Land|Baoyu|Five Rings|Wumenguan|Hongloumeng)/i;
+// ---- Passage references: "passage 76", "chapters 1–37", "passages 22, 24, and 57", "(28)", "Laozi 40" ----
+const LIST = String.raw`\d{1,2}(?:(?:\s*,\s*(?:and|or)?|\s*(?:–|-|and|or|&))\s*\d{1,2})*`;
+const REF_RE = new RegExp(String.raw`\b(passages?|chapters?|chs?\.)(\s*)(${LIST})(?!\d)|\((${LIST})\)|\b(Laozi|Daodejing)(\s+)(\d{1,2})(?![\d:])`, 'gi');
+// A "chapter N" or "(N)" of another book must not link to our passage N.
+const BOOKS = String.raw`(Zhuangzi|Han ?Feizi|Huainanzi|Xunzi|Liezi|Mencius|Analects|Zuozhuan|Lüshi|Shiji|Sunzi|Yijing|Guanzi|Liji|Red Chamber|Story of the Stone|Illusion Land|Baoyu|Five Rings|Wumenguan|Hongloumeng)`;
+const OTHER_BOOK_NEAR = new RegExp(BOOKS, 'i'); // "chapter N": a book named in the last 80 characters
+const OTHER_BOOK_SENTENCE = new RegExp(`${BOOKS}[^.;]*$`, 'i'); // "(N)": a book named earlier in the same sentence
+
+/** Split text into [{text}] and [{n, text}] pieces; n is a passage number 1–81. Pure; tested in tests/refs.test.js. */
+export function refSegments(text) {
+  const t = String(text);
+  const out = [];
+  let last = 0;
+  const plain = (x) => { if (x) out.push({ text: x }); };
+  const nums = (x) => { for (const part of x.split(/(\d{1,2})/)) { if (!part) continue; const n = Number(part); if (/^\d+$/.test(part) && n >= 1 && n <= 81) out.push({ n, text: part }); else plain(part); } };
+  for (const m of t.matchAll(new RegExp(REF_RE))) {
+    const before = t.slice(Math.max(0, m.index - 80), m.index);
+    const isChapter = m[1] && m[1].toLowerCase().startsWith('ch');
+    if ((isChapter && OTHER_BOOK_NEAR.test(before)) || (m[4] && OTHER_BOOK_SENTENCE.test(before))) continue;
+    plain(t.slice(last, m.index));
+    if (m[1]) { plain(m[1] + m[2]); nums(m[3]); }
+    else if (m[4]) { plain('('); nums(m[4]); plain(')'); }
+    else { plain(m[5] + m[6]); nums(m[7]); }
+    last = m.index + m[0].length;
+  }
+  plain(t.slice(last));
+  return out;
+}
 
 /** Split text into plain pieces (rendered by `plain`) and links to passages. */
 export function linkRefs(text, plain = (t) => document.createTextNode(t)) {
   const frag = document.createDocumentFragment();
-  let last = 0;
-  for (const m of String(text).matchAll(new RegExp(REF_RE))) { // a fresh copy: lastIndex starts at 0
-    const word = m[1].toLowerCase();
-    if (word.startsWith('ch') && OTHER_BOOK.test(text.slice(Math.max(0, m.index - 80), m.index))) continue;
-    if (m.index > last) frag.append(plain(text.slice(last, m.index)));
-    frag.append(plain(m[1] + m[2]));
-    for (const part of m[3].split(/(\d{1,2})/)) {
-      if (!part) continue;
-      const n = Number(part);
-      if (/^\d+$/.test(part) && n >= 1 && n <= 81) frag.append(h('a', { class: 'ref', href: `#/p/${n}`, text: part }));
-      else frag.append(plain(part));
-    }
-    last = m.index + m[0].length;
-  }
-  if (last < text.length) frag.append(plain(text.slice(last)));
+  for (const seg of refSegments(text)) frag.append(seg.n ? h('a', { class: 'ref', href: `#/p/${seg.n}`, text: seg.text }) : plain(seg.text));
   return frag;
+}
+
+// Names of the app's own pages, as they appear in About and the draw explainer.
+const PAGES = [[/\b(?:the )?Journal page\b/, '#/journal'], [/\b(?:the )?Draw page\b/, '#/'], [/\bBrowse(?= lets)/, '#/browse'], [/\bthe Search page\b/, '#/search']];
+
+function linkPages(textNode) {
+  for (const [re, href] of PAGES) {
+    const t = textNode.textContent;
+    const m = t.match(re);
+    if (!m) continue;
+    const after = document.createTextNode(t.slice(m.index + m[0].length));
+    textNode.textContent = t.slice(0, m.index);
+    textNode.after(h('a', { class: 'ref', href, text: m[0] }), after);
+    linkPages(after);
+    return;
+  }
 }
 
 /** Walk a built subtree and link passage references in its plain text (skips buttons and links). */
@@ -77,7 +104,12 @@ export function linkRefsIn(root) {
   const nodes = [];
   while (walker.nextNode()) nodes.push(walker.currentNode);
   for (const n of nodes) {
-    if (new RegExp(REF_RE).test(n.textContent)) n.replaceWith(linkRefs(n.textContent));
+    if (refSegments(n.textContent).some((x) => x.n)) {
+      const frag = linkRefs(n.textContent);
+      const texts = [...frag.childNodes].filter((x) => x.nodeType === 3);
+      n.replaceWith(frag);
+      texts.forEach(linkPages);
+    } else linkPages(n);
   }
   return root;
 }
@@ -163,6 +195,7 @@ export function hanify(text, ctx = {}, { inert = false } = {}) {
 
 export function openNote(id, ctx, { passage } = {}) {
   const n = ctx.notes[id];
+  track('note', id);
   openSheet({
     kind: KIND_LABEL[n.kind] || n.kind,
     title: n.title,
@@ -177,6 +210,7 @@ export function openNote(id, ctx, { passage } = {}) {
 }
 
 export async function openChar(c, occurrence, ctx = {}) {
+  track('char', c);
   const lex = await getLexicon().catch(() => ({}));
   const e = lex[c] || {};
   openSheet({
@@ -192,12 +226,12 @@ export async function openChar(c, occurrence, ctx = {}) {
       const dl = h('dl', {});
       const row = (label, node) => { if (node) dl.append(h('dt', { text: label }), h('dd', {}, node)); };
       if (occurrence) row('Here', rich(occurrence, ctx));
-      if (e.senses?.length) row('Senses', h('span', { text: e.senses.join('; ') }));
+      if (e.senses?.length) row('Senses', h('span', {}, linkRefs(e.senses.join('; '))));
       else if (e.def) row('Dictionary (Unihan)', h('span', { text: e.def }));
       if (e.parts?.length) {
-        row('Parts', h('span', {}, e.parts.map((p, i) => [i ? ' + ' : '', h('span', { lang: 'zh-Hant', class: 'zh-quote', text: p.c }), ` ${p.m}`])));
+        row('Parts', h('span', {}, e.parts.map((p, i) => [i ? ' + ' : '', h('span', { lang: 'zh-Hant', class: 'zh-quote', text: p.c }), ' ', linkRefs(p.m)])));
       }
-      if (e.shuowen) row('Shuowen Jiezi (c. 100 CE)', h('span', {}, h('span', { class: 'zh-quote', lang: 'zh-Hant', text: e.shuowen }), e.shuowenEn ? h('span', { text: ` — ${e.shuowenEn}` }) : null));
+      if (e.shuowen) row('Shuowen Jiezi (c. 100 CE)', h('span', {}, h('span', { class: 'zh-quote', lang: 'zh-Hant', text: e.shuowen }), e.shuowenEn ? h('span', {}, ' — ', linkRefs(e.shuowenEn)) : null));
       if (e.story) row('Story', rich(e.story, ctx));
       if (e.gap) row('Where English fails', rich(e.gap, ctx));
       box.append(dl);

@@ -2,8 +2,14 @@
   "name": "tao",
   "account_id": "cb08826ea543ac8c950a73d3a0b982b2",
   "compatibility_date": "2026-11-01",
+  // The Worker answers POST /api/e (anonymous usage events into D1); every
+  // other request is a static file from ./app.
+  "main": "worker/index.js",
   // Hash router: no SPA fallback, so a missing JSON/font is a real 404.
   // The service worker caches the shell under "./" (not "index.html").
-  "assets": { "directory": "./app" },
+  "assets": { "directory": "./app", "binding": "ASSETS" },
+  "d1_databases": [
+    { "binding": "tao_analytics", "database_name": "tao-analytics", "database_id": "067ecf84-5409-49fa-9c17-ef6ad1df6938" }
+  ],
   "routes": [{ "pattern": "tao.tensor.group", "custom_domain": true }]
 }
