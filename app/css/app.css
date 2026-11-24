@@ -189,13 +189,15 @@ p { margin: 0 0 1rem; }
   scrollbar-width: thin;
 }
 .column {
+  /* Plain block flow: in vertical-rl, each line of the text is a block that
+     sits to the left of the one before; inside it, columns wrap at the height. */
   writing-mode: vertical-rl; text-orientation: upright;
-  display: flex; flex-direction: row; gap: .3rem;
-  font: 400 1.6rem/1.15 var(--han);
-  max-height: 21rem; margin-inline-start: auto;
+  display: block; height: 20rem;
+  font: 400 1.6rem/1.2 var(--han);
   width: max-content; margin-left: auto;
 }
-.column .seg { display: block; }
+.column .seg { display: block; margin-block-end: .9rem; }
+.column .seg:last-child { margin-block-end: 0; }
 .han {
   appearance: none; background: none; border: 0; padding: .06em 0; margin: 0;
   font: inherit; color: inherit; cursor: pointer; border-radius: 3px;
@@ -204,7 +206,8 @@ p { margin: 0 0 1rem; }
 .han.glossed { color: var(--seal); }
 .han:active, .han.open { background: var(--wash); }
 .column .punct { color: var(--ink-3); }
-.column-hint { font-size: .85rem; color: var(--ink-3); margin: .4rem 0 0; text-align: right; }
+.column .zh-cell { white-space: nowrap; }
+.column-hint { font-size: .85rem; color: var(--ink-3); margin: .5rem 0 0; text-align: left; text-wrap: pretty; }
 
 .lens { margin: 0 0 1.6rem; }
 .lens h3 { font-size: .85rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 .35rem; font-weight: 600; }
@@ -558,10 +561,6 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 
 .more-row { display: flex; flex-wrap: wrap; gap: .5rem; margin: -.35rem 0 1.1rem; }
 .more-row .more-link { margin: 0; min-height: 40px; }
-.dyn-list li.has-art { display: grid; grid-template-columns: 4.6rem 1fr; column-gap: .8rem; align-items: start; }
-.dyn-list li.has-art > :not(.dyn-art) { grid-column: 2; }
-.dyn-art { grid-column: 1; grid-row: 1 / span 3; appearance: none; border: 0; padding: 0; background: none; cursor: zoom-in; }
-.dyn-art img { width: 4.6rem; height: 4.6rem; object-fit: cover; border-radius: 6px; display: block; border: 1px solid var(--rule); }
 
 /* Links to other passages inside text */
 a.ref { color: var(--seal); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; padding: .15rem .05rem; }
@@ -582,3 +581,25 @@ a.ref { color: var(--seal); text-decoration: underline; text-decoration-thicknes
 .map-pt.tomb .map-dot { fill: var(--ink-2); }
 .map-pt.tomb.on .map-dot { fill: var(--seal); }
 .map-legend .key-sym:not(:first-child) { margin-left: .3rem; }
+
+.home-art { margin: 2rem auto 0; max-width: 26rem; }
+.home-art .art-btn { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; }
+.home-art img { width: 100%; height: auto; border-radius: 8px; display: block; }
+.home-art figcaption { margin-top: .5rem; }
+.home-art figcaption a { color: var(--ink-3); display: inline-flex; align-items: center; min-height: var(--tap); }
+.about h4 { font-size: 1.02rem; margin: 1.3rem 0 .3rem; }
+
+/* Timeline: one list of eras, a sticky slider, pictures per era */
+.era-slider { position: sticky; top: 3.85rem; z-index: 4; background: var(--paper); padding: .55rem 0 .4rem; border-bottom: 1px solid var(--rule); margin: .6rem 0 .4rem; }
+.era-label { display: block; font-weight: 600; color: var(--ink); font-size: .98rem; min-height: 1.4em; }
+.era-slider input[type=range] { width: 100%; min-height: var(--tap); margin: 0; accent-color: var(--seal); }
+.dyn-list .era { padding: .9rem 0 1.1rem .9rem; border-left: 3px solid transparent; margin-left: -2px; scroll-margin-top: 9rem; }
+.dyn-list .era.now { border-left-color: var(--seal); }
+.era-art { display: flex; gap: .5rem; overflow-x: auto; margin: .5rem 0 .4rem; scrollbar-width: thin; }
+.era-pic { flex: none; appearance: none; border: 0; padding: 0; background: none; cursor: zoom-in; }
+.era-pic img { width: 7.2rem; height: 7.2rem; object-fit: cover; border-radius: 6px; display: block; border: 1px solid var(--rule); }
+.dyn-note { margin: .3rem 0 0; color: var(--ink-2); }
+.era-book { margin-top: .6rem; padding: .55rem .8rem; background: var(--wash); border-radius: 8px; }
+.era-book-h { margin: 0 0 .2rem; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--seal); }
+.era-book ul { margin: 0; padding-left: 1rem; }
+.era-book li { margin: .35rem 0; font-size: .96rem; }

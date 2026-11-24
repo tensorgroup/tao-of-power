@@ -4,7 +4,7 @@
   "theme": "self",
   "zh": [
     {
-      "text": "絕學無憂，唯之與阿，相去幾何？善之與惡，相去若何？人之所畏，不可不畏。",
+      "text": "絕學無憂。唯之與阿，相去幾何？善之與惡，相去若何？人之所畏，不可不畏。",
       "gloss": {
         "1": "learning: study of the rites and the books, the road to office",
         "5": "wěi: “yes!”, the prompt answer of a junior",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "text": "沌沌兮，",
+      "text": "沌沌兮！",
       "gloss": {
         "0": "dùn: murky, not yet sorted"
       }

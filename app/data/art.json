@@ -1697,6 +1697,32 @@
    "w": 830,
    "h": 893,
    "alt": "A small gilt-bronze bodhisattva seated at ease, one knee raised, holding a flask."
+  },
+  "terracotta-pit1": {
+   "file": "art/terracotta-pit1.jpg",
+   "title": "The Terracotta Army, Pit 1",
+   "titleZh": "兵馬俑",
+   "artist": "Photograph by Gary Todd",
+   "date": "Figures: Qin dynasty, before 210 BCE; photograph modern",
+   "collection": "Mausoleum of the First Qin Emperor, Lintong, near Xi’an (photograph released CC0 on Wikimedia Commons)",
+   "source": "https://commons.wikimedia.org/wiki/File:Qin_Shihuang_Terracotta_Army,_Pit_1.jpg",
+   "license": "CC0",
+   "w": 1100,
+   "h": 759,
+   "alt": "Rows of life-size clay soldiers and a clay horse standing in the earthen trenches of an excavated pit."
+  },
+  "terracotta-embedded": {
+   "file": "art/terracotta-embedded.jpg",
+   "title": "A Terracotta Warrior in the Earth",
+   "titleZh": "兵馬俑",
+   "artist": "Photograph by Richard Chambers",
+   "date": "Figure: Qin dynasty, before 210 BCE; photograph modern",
+   "collection": "Mausoleum of the First Qin Emperor, near Xi’an (photograph released into the public domain on Wikimedia Commons)",
+   "source": "https://commons.wikimedia.org/wiki/File:Terracotta_army_xian_embedded_warrior.jpg",
+   "license": "Public domain",
+   "w": 1100,
+   "h": 825,
+   "alt": "A clay warrior still half buried in the earth among broken fragments of other figures."
   }
  },
  "passages": {

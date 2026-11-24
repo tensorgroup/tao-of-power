@@ -100,10 +100,13 @@ function history(map) {
     para('It is written in a compressed, often rhymed, often paradoxical style. Many lines have no stated subject and no tense. That openness is one reason why there are hundreds of translations, and why they differ so widely.'),
 
     h('h3', { text: 'Who wrote it?' }),
-    figure('lao-buffalo-disciple', 'Laozi on his water buffalo, a boy with a gourd beside him: how later painters liked to picture him. Qing dynasty, 18th century.'),
+    figure('confucius-laozi-rubbing', 'Confucius (left) meets Laozi: a rubbing from a Han dynasty stone relief, carved about 1,800 years ago.'),
     h('p', {}, 'Nobody knows. The oldest surviving biography is by the historian Sima Qian, in his Records of the Grand Historian (', zh('史記'), ', about 94 BCE). He says Laozi was Li Er, also called Dan, a man from the state of Chu who kept the archives at the Zhou royal court. Confucius is said to have visited him to ask about ritual, and to have come away comparing him to a dragon. When Laozi saw the Zhou kingdom decline, he left. At the pass (later tradition puts it on the western frontier), the keeper of the pass, Yin Xi, asked him to write down his teaching. Laozi wrote a book in two parts, “more than five thousand words” about the Way and its power, and then left. “No one knows where he ended,” Sima Qian writes.'),
-    figures(['confucius-laozi-rubbing', 'Confucius (left) meets Laozi: a rubbing from a Han dynasty stone relief, carved about 1,800 years ago.'], ['yinxi-woodblock', 'Yin Xi, the keeper of the pass who asked Laozi to write. A Ming woodblock print.']),
+    figure('yinxi-woodblock', 'Yin Xi, the keeper of the pass who asked Laozi to write. A Ming woodblock print.'),
     para('Sima Qian himself was not sure. In the same chapter he names two other men who might be Laozi: Lao Laizi, a man from Chu who wrote a book on the uses of the Way, and the Grand Historian Dan (儋, a different character from Li Er’s 聃), who met a Qin ruler 129 years after Confucius died. On who Laozi really was, he concludes: “The world does not know if this is so.” He also reports that Laozi lived more than 160 years, “some say more than 200”. Later legend added the ox that Laozi rides through the pass and a birth after many decades in the womb.'),
+    h('h4', { text: 'Why is Laozi on an ox?' }),
+    h('p', {}, 'Sima Qian says nothing about an ox. The ox comes from later legend. A passage often quoted from the Han dynasty ', h('i', { text: 'Biographies of Immortals' }), ' (', zh('列仙傳'), ', credited to Liu Xiang) says that the keeper of the pass saw a purple vapour drifting over it from the east, and then Laozi came through riding a ', zh('青牛'), ', a dark ox. The purple vapour gave Chinese a saying still used for good fortune arriving: ', zh('紫氣東來'), ', “purple vapour comes from the east”. Painters made the ox a water buffalo, the slow animal of the rice fields.'),
+    para('Why an ox and not a horse? The legend does not say, but readers have long found it fitting. A horse is for war and speed; passage 46 sets the war horse against the horse that works the fields. An ox is slow, strong, patient, and low to the ground, the plainest way to travel. The sage leaves the world on the humblest mount there is. Much later, Chan Buddhists drew a series of “ox-herding” pictures in which the ox stands for one’s own mind; some of those paintings are in this app.'),
     para('Most scholars now think that the text is not the work of one hand at one time. It looks like a collection of sayings, some perhaps old proverbs or verses for memorizing, that were gathered, arranged, and edited over generations. “Laozi” (“the Old Master”) may have been a real archivist, a name given to a school of thought, or both.'),
 
     map ? mapSection(map) : null,
@@ -115,21 +118,7 @@ function history(map) {
     figure('bamboo-slips', 'Bamboo slips from a Chu tomb of the same age as Guodian. Texts were written in a column down each strip, and the strips were tied into a roll.'),
     para('This site reads the received text that Wang Bi used in the 3rd century CE. Where the early manuscripts differ in a way that matters, a “Variant reading” note says so.'),
 
-    h('h3', { text: 'Who has used it, and how' }),
-    figures(['mirror-daoist-deities', 'A bronze mirror with Daoist deities, Eastern Han: by then Laozi’s world was full of gods.'], ['star-chart', 'The Dunhuang star chart, Tang dynasty, about 700: from the age when emperors claimed Laozi as their ancestor.']),
-    h('ul', { class: 'timeline' },
-      h('li', {}, h('b', { text: 'Warring States (5th–3rd c. BCE). ' }), 'An age of states at war. The text spoke to rulers and to people who wanted to stay whole in dangerous times. The oldest surviving commentary, on selected passages, is kept in the Han Feizi, a book credited to the philosopher Han Fei. It reads the text as advice on how to rule, and parts of it as advice on care of the self.'),
-      h('li', {}, h('b', { text: 'Early Han court (2nd c. BCE). ' }), 'After the wars, early Han rulers, above all Emperors Wen and Jing, followed “Huang-Lao” thought, named for the Yellow Emperor and Laozi: light taxes, few laws, and a ruler who did not interfere. Sima Qian says the Empress Dowager Dou made the emperor, the crown prince, and her own clan read the Yellow Emperor and the Laozi.'),
-      h('li', {}, h('b', { text: 'Body and breath (Eastern Han). ' }), 'The Heshang Gong commentary, credited to a legendary “Old Man by the River”, read the text on two levels: how to govern a state and how to nourish the body for a long life. Those two levels run through much of later Daoist practice.'),
-      h('li', {}, h('b', { text: 'A god and a scripture (2nd c. CE). ' }), 'Laozi became a god. In the 160s CE the emperor himself made sacrifices to him. The Celestial Masters, the first organized Daoist religion, recited the text as scripture.'),
-      h('li', {}, h('b', { text: 'Philosophy (3rd c. CE). ' }), 'Wang Bi (226–249) died at 23. He wrote the commentary that made the text a work of philosophy about being and non-being. The received text handed down with his commentary is the one most people read, and the one on this site. Scholars note that later copyists brought it closer to other editions, so in places it differs from the text that Wang Bi himself comments on.'),
-      h('li', {}, h('b', { text: 'Buddhism. ' }), 'When Buddhism came to China, translators borrowed Daoist words, even 道 itself, to explain Indian ideas. A story arose that Laozi went west and taught the barbarians, or even became the Buddha. Later Daoists turned it into a weapon against Buddhism. Chan (Zen) Buddhism took in much of the Laozi’s spirit.'),
-      h('li', {}, h('b', { text: 'Tang dynasty (618–907). ' }), 'The ruling Li family claimed Laozi, Li Er, as their ancestor. Emperor Xuanzong wrote his own commentary and ordered every household to keep a copy. The text was set for the state examinations. Tang sources report that the monk Xuanzang was ordered to translate it into Sanskrit for an Indian king; that version does not survive.'),
-      h('li', {}, h('b', { text: 'Later China, Korea, Japan. ' }), 'Scholars, poets, painters, and martial artists returned to it again and again. The Ming founder, Zhu Yuanzhang, who rose from poverty to rule all China, wrote a commentary on it.'),
-      h('li', {}, h('b', { text: 'Europe (18th–19th c.). ' }), 'Jesuit missionaries searched it for traces of Christian truth. In 1823 the French scholar Abel-Rémusat suggested that three sounds in chapter 14 spelled the name of the biblical God. Stanislas Julien published a full French translation in 1842. James Legge, a Scottish missionary who became Oxford’s first professor of Chinese, published his English version in 1891. It is included on this site for comparison.'),
-      h('li', {}, h('b', { text: 'Late 19th and 20th centuries. ' }), 'In the 1890s Tolstoy read it closely and helped with a Russian version. Bertolt Brecht wrote a poem about the customs officer at the pass. Martin Heidegger worked on a German translation with the Chinese scholar Paul Shih-yi Hsiao in 1946. It became one of the most translated books in the world.'),
-      h('li', {}, h('b', { text: 'Today. ' }), 'People read it for meditation, for tai chi and other martial arts, for leadership and management, for psychology and therapy, and for ecology, as a voice for living with nature and not against it. Some uses are deep. Some flatten it into slogans.')),
-    dynasties(),
+    timeline(),
     para('Why has it lasted? It is short. It is open enough that each age can find itself in it. And it says something that each age seems to need: that softness can outlast force, that less can be more, and that every extreme turns back toward its opposite.'),
   ));
 }
@@ -182,7 +171,7 @@ const PLACES = [
   [110.92, 34.63, 'Hangu Pass', 'one traditional site of the pass where Laozi wrote the book', 'above'],
   [115.48, 33.86, 'Luyi', 'old Ku county in Chu: Laozi’s birthplace in the Shiji', 'right'],
   [116.99, 35.58, 'Qufu', 'home of Confucius, in the state of Lu', 'right'],
-  [108.94, 34.34, 'Xi’an', 'Chang’an, capital of the Western Han and the Tang; the Qin capital was nearby', 'below'],
+  [108.94, 34.34, 'Xi’an', 'Chang’an, capital of the Western Han and the Tang. Just east lie the First Emperor’s tomb and his Terracotta Army', 'below'],
   [112.18, 30.52, 'Guodian tomb', 'bamboo slips with about two-fifths of the text, buried about 300 BCE, found 1993 (Shayang, near ancient Jinancheng)', 'left', 'tomb'],
   [113.03, 28.20, 'Mawangdui tomb', 'two silk copies of the whole text, tomb sealed 168 BCE, opened 1973 (Changsha)', 'right', 'tomb'],
   [116.40, 39.90, 'Beijing', 'today’s capital, for reference', 'right'],
@@ -244,19 +233,19 @@ function mapSection(m) {
 
 // Peak areas: rough estimates in million km² (Taagepera); other estimates differ widely.
 const DYNASTIES = [
-  ['Shang', 'c. 1600–1046 BCE', null, 'fangyou-wine-vessel', 'Bronze ritual vessels, and the oldest Chinese writing, on oracle bones.'],
-  ['Zhou', '1046–256 BCE', null, 'bell-zhong', 'Kings ruled by the “Mandate of Heaven”. After 771 BCE their power faded: the Spring and Autumn period, then the Warring States (475–221 BCE). The Daodejing took shape in this age.'],
-  ['Qin', '221–206 BCE', null, null, 'The First Emperor joined the states into one empire and took the new title 皇帝, “emperor”. One script, one coinage, one law.'],
-  ['Han', '206 BCE–220 CE', 6.5, 'han-chariot', 'The Laozi became a classic; the Mawangdui tomb was sealed in 168 BCE; Laozi became a god.'],
-  ['Division', '220–589', null, 'xiwangmu-mirror', 'Three Kingdoms, Jin, and the Northern and Southern dynasties. Wang Bi wrote his commentary; Buddhism spread.'],
-  ['Sui', '581–618', null, 'sui-guanyin', 'Reunified the country and dug the Grand Canal.'],
-  ['Tang', '618–907', 5.4, 'han-gan-white', 'The ruling Li family claimed Laozi as its ancestor; the text was set for the state exams.'],
-  ['Song', '960–1279', 3.1, 'fan-kuan-travelers', 'Reunified most of China after the Five Dynasties (907–960). Printing spread; the great landscape painters, many of them in this app.'],
-  ['Yuan', '1271–1368', 11.0, 'huang-gongwang', 'Mongol rule under Khubilai Khan and his heirs.'],
-  ['Ming', '1368–1644', 6.5, 'qiu-ying-peach', 'Its founder, Zhu Yuanzhang, wrote a commentary on the Laozi.'],
-  ['Qing', '1644–1912', 14.7, 'bada-fish', 'Manchu rule; China’s largest empire. Jesuits and then Protestant missionaries carried the text to Europe.'],
-  ['Republic', '1912–1949 (mainland)', null, null, 'The last emperor, Puyi, gave up the throne in 1912. After 1949 the Republic continued on Taiwan.'],
-  ['People’s Republic', '1949–', 9.6, 'bamboo-slips', 'Today’s area, for comparison. The Guodian and Mawangdui finds came in this era.'],
+  ['Shang', 'c. 1600–1046 BCE', null, ['fangyou-wine-vessel', 'shang-ding'], 'Bronze ritual vessels, and the oldest Chinese writing, on oracle bones.'],
+  ['Zhou', '1046–256 BCE', null, ['bell-zhong', 'inlaid-hu-jar'], 'Kings ruled by the “Mandate of Heaven”. After 771 BCE their power faded: the Spring and Autumn period, then the Warring States (475–221 BCE). The Daodejing took shape in this age.'],
+  ['Qin', '221–206 BCE', null, ['terracotta-pit1', 'terracotta-embedded'], 'The First Emperor, Qin Shi Huang, joined the states into one empire and took the new title 皇帝, “emperor”. One script, one coinage, one law. Near Xi’an he built a vast tomb, guarded by an army of some 8,000 life-size clay soldiers that farmers digging a well found in 1974.'],
+  ['Han', '206 BCE–220 CE', 6.5, ['han-chariot', 'mirror-daoist-deities', 'confucius-laozi-rubbing'], 'The Laozi became a classic; the Mawangdui tomb was sealed in 168 BCE; Laozi became a god.'],
+  ['Division', '220–589', null, ['xiwangmu-mirror'], 'Three Kingdoms, Jin, and the Northern and Southern dynasties. Wang Bi wrote his commentary; Buddhism spread.'],
+  ['Sui', '581–618', null, ['sui-guanyin'], 'Reunified the country and dug the Grand Canal.'],
+  ['Tang', '618–907', 5.4, ['han-gan-white', 'star-chart'], 'The ruling Li family claimed Laozi as its ancestor; the text was set for the state exams.'],
+  ['Song', '960–1279', 3.1, ['fan-kuan-travelers', 'ma-yuan-waterfall'], 'Reunified most of China after the Five Dynasties (907–960). Printing spread; the great landscape painters, many of them in this app.'],
+  ['Yuan', '1271–1368', 11.0, ['huang-gongwang', 'zhao-mengfu-river-village'], 'Mongol rule under Khubilai Khan and his heirs.'],
+  ['Ming', '1368–1644', 6.5, ['qiu-ying-peach', 'laozi-ox-chen'], 'Its founder, Zhu Yuanzhang, wrote a commentary on the Laozi.'],
+  ['Qing', '1644–1912', 14.7, ['bada-fish', 'kuncan-valley'], 'Manchu rule; China’s largest empire. Jesuits and then Protestant missionaries carried the text to Europe.'],
+  ['Republic', '1912–1949 (mainland)', null, [], 'The last emperor, Puyi, gave up the throne in 1912. After 1949 the Republic continued on Taiwan.'],
+  ['People’s Republic', '1949–', 9.6, ['bamboo-slips'], 'Today’s area, for comparison. The Guodian and Mawangdui finds came in this era.'],
 ];
 
 // Width via the CSSOM: the CSP forbids inline style attributes, not script-set styles.
@@ -266,26 +255,69 @@ function fillBar(frac) {
   return el;
 }
 
-/** A small picture from the era; tap to look closer. */
-function dynArt(id) {
-  const { a, used } = artUse(id);
-  if (!a) return null;
-  return h('button', { class: 'dyn-art', type: 'button', 'aria-label': `Look closer: ${a.title}`,
-    onclick: () => openArt(a, used[0]?.[1] || {}, {}, { passages: used.map(([n]) => n) }) },
-  h('img', { src: a.file.replace(/^art\//, 'art/thumbs/'), alt: a.alt || a.title, loading: 'lazy', decoding: 'async' }));
+const BOOK = {
+  "Zhou": [["Warring States (5th–3rd c. BCE)", 'An age of states at war. The text spoke to rulers and to people who wanted to stay whole in dangerous times. The oldest surviving commentary, on selected passages, is kept in the Han Feizi, a book credited to the philosopher Han Fei. It reads the text as advice on how to rule, and parts of it as advice on care of the self.']],
+  "Han": [["Early Han court (2nd c. BCE)", 'After the wars, early Han rulers, above all Emperors Wen and Jing, followed “Huang-Lao” thought, named for the Yellow Emperor and Laozi: light taxes, few laws, and a ruler who did not interfere. Sima Qian says the Empress Dowager Dou made the emperor, the crown prince, and her own clan read the Yellow Emperor and the Laozi.'], ["Body and breath (Eastern Han)", 'The Heshang Gong commentary, credited to a legendary “Old Man by the River”, read the text on two levels: how to govern a state and how to nourish the body for a long life. Those two levels run through much of later Daoist practice.'], ["A god and a scripture (2nd c. CE)", 'Laozi became a god. In the 160s CE the emperor himself made sacrifices to him. The Celestial Masters, the first organized Daoist religion, recited the text as scripture.']],
+  "Division": [["Philosophy (3rd c. CE)", 'Wang Bi (226–249) died at 23. He wrote the commentary that made the text a work of philosophy about being and non-being. The received text handed down with his commentary is the one most people read, and the one on this site. Scholars note that later copyists brought it closer to other editions, so in places it differs from the text that Wang Bi himself comments on.'], ["Buddhism", 'When Buddhism came to China, translators borrowed Daoist words, even 道 itself, to explain Indian ideas. A story arose that Laozi went west and taught the barbarians, or even became the Buddha. Later Daoists turned it into a weapon against Buddhism. Chan (Zen) Buddhism took in much of the Laozi’s spirit.']],
+  "Tang": [["Tang dynasty (618–907)", 'The ruling Li family claimed Laozi, Li Er, as their ancestor. Emperor Xuanzong wrote his own commentary and ordered every household to keep a copy. The text was set for the state examinations. Tang sources report that the monk Xuanzang was ordered to translate it into Sanskrit for an Indian king; that version does not survive.']],
+  "Ming": [["Later China, Korea, Japan", 'Scholars, poets, painters, and martial artists returned to it again and again. The Ming founder, Zhu Yuanzhang, who rose from poverty to rule all China, wrote a commentary on it.']],
+  "Qing": [["Europe (18th–19th c.)", 'Jesuit missionaries searched it for traces of Christian truth. In 1823 the French scholar Abel-Rémusat suggested that three sounds in chapter 14 spelled the name of the biblical God. Stanislas Julien published a full French translation in 1842. James Legge, a Scottish missionary who became Oxford’s first professor of Chinese, published his English version in 1891. It is included on this site for comparison.']],
+  "Republic": [["Late 19th and 20th centuries", 'In the 1890s Tolstoy read it closely and helped with a Russian version. Bertolt Brecht wrote a poem about the customs officer at the pass. Martin Heidegger worked on a German translation with the Chinese scholar Paul Shih-yi Hsiao in 1946. It became one of the most translated books in the world.']],
+  "People’s Republic": [["Today", 'People read it for meditation, for tai chi and other martial arts, for leadership and management, for psychology and therapy, and for ecology, as a voice for living with nature and not against it. Some uses are deep. Some flatten it into slogans.']],
+};
+
+/** Pictures from the era; tap one to look closer. */
+function eraArt(ids) {
+  const list = (ids || []).map((id) => [id, artUse(id)]).filter(([, u]) => u.a);
+  if (!list.length) return null;
+  return h('div', { class: 'era-art' }, list.map(([, { a, used }]) => h('button', {
+    class: 'era-pic', type: 'button', 'aria-label': `Look closer: ${a.title}`,
+    onclick: () => openArt(a, used[0]?.[1] || {}, {}, { passages: used.map(([n]) => n) }),
+  }, h('img', { src: a.file.replace(/^art\//, 'art/thumbs/'), alt: a.alt || a.title, loading: 'lazy', decoding: 'async' }))));
 }
 
-function dynasties() {
+/** One timeline: China's eras, and what the book was in each. A slider moves through it. */
+function timeline() {
   const max = 15;
+  const eras = DYNASTIES.map(([name, dates, area, arts, note], i) => h('li', { class: 'era', 'data-i': i },
+    h('div', { class: 'dyn-head' }, h('b', { text: name }), h('span', { class: 'muted small', text: dates })),
+    eraArt(arts),
+    area ? h('div', { class: 'dyn-bar', role: 'img', 'aria-label': `Peak area about ${area} million square kilometres` },
+      fillBar(area / max), h('span', { class: 'dyn-val small', text: `≈ ${area} million km²` })) : null,
+    h('p', { class: 'dyn-note', text: note }),
+    BOOK[name] ? h('div', { class: 'era-book' }, h('p', { class: 'era-book-h', text: 'The book in this age' }),
+      h('ul', {}, BOOK[name].map(([label, text]) => h('li', {}, h('b', { text: `${label}. ` }), text)))) : null));
+  const label = h('span', { class: 'era-label', 'aria-hidden': 'true' });
+  const slider = h('input', { type: 'range', min: 0, max: DYNASTIES.length - 1, step: 1, value: 0, 'aria-label': 'Move through the eras' });
+  const bar = h('div', { class: 'era-slider' }, label, slider);
+  const show = (i) => {
+    const [name, dates] = DYNASTIES[i];
+    label.textContent = `${name} · ${dates}`;
+    slider.value = String(i);
+    slider.setAttribute('aria-valuetext', `${name}, ${dates}`);
+    eras.forEach((e, k) => e.classList.toggle('now', k === i));
+  };
+  let dragging = 0;
+  slider.addEventListener('input', () => {
+    dragging = Date.now();
+    const i = Number(slider.value);
+    show(i);
+    const offset = (document.querySelector('.bar')?.offsetHeight || 0) + bar.offsetHeight + 10;
+    window.scrollTo({ top: eras[i].getBoundingClientRect().top + scrollY - offset, behavior: 'auto' });
+  });
+  // As the reader scrolls, the slider follows the era near the top of the screen.
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((ents) => {
+      if (Date.now() - dragging < 400) return;
+      const vis = ents.filter((e) => e.isIntersecting).map((e) => Number(e.target.dataset.i));
+      if (vis.length) show(Math.min(...vis));
+    }, { rootMargin: '-30% 0px -60% 0px' });
+    eras.forEach((e) => io.observe(e));
+  }
+  show(0);
   return h('section', { class: 'dynasties' },
-    h('h3', { text: 'China’s dynasties and emperors' }),
-    h('p', {}, 'From 221 BCE until imperial rule ended in 1912, China was ruled by emperors. A dynasty held power while it kept the “Mandate of Heaven”; floods, famine, and revolt were read as signs that heaven had withdrawn it. Borders grew and shrank with each dynasty, and for long periods several states shared the land. The Daodejing took shape in a time of division, and it was read by every dynasty after.'),
-    h('ol', { class: 'dyn-list' }, DYNASTIES.map(([name, dates, area, artId, note]) => h('li', { class: artId ? 'has-art' : null },
-      dynArt(artId),
-      h('div', { class: 'dyn-head' }, h('b', { text: name }), h('span', { class: 'muted small', text: dates })),
-      area ? h('div', { class: 'dyn-bar', role: 'img', 'aria-label': `Peak area about ${area} million square kilometres` },
-        fillBar(area / max),
-        h('span', { class: 'dyn-val small', text: `≈ ${area} million km²` })) : null,
-      h('p', { class: 'dyn-note small', text: note })))),
+    h('h3', { text: 'A timeline: China, and the book in it' }),
+    h('p', {}, 'From 221 BCE until imperial rule ended in 1912, China was ruled by emperors. A dynasty held power while it kept the “Mandate of Heaven”; floods, famine, and revolt were read as signs that heaven had withdrawn it. Borders grew and shrank with each dynasty, and for long periods several states shared the land. The Daodejing took shape in a time of division, and every age after read it in its own way. Drag the slider to move through the ages.'),
+    bar, h('ol', { class: 'dyn-list' }, eras),
     h('p', { class: 'muted small', text: 'Bars: peak area, rough estimates (after the political scientist Rein Taagepera); other estimates differ widely, because borders were often claimed more than held. Today’s China is about 9.6 million km².' }));
 }

@@ -3,7 +3,8 @@ import { h, s, tetragram, lineNames, fmtDate } from '../ui.js';
 import { drawTetragram, bundleRemainder } from '../draw.js';
 import { recordDraw } from '../journal.js';
 import { state } from '../app.js';
-import { getIndex } from '../data.js';
+import { getIndex, getArt } from '../data.js';
+import { openArt } from './passage.js';
 
 const N = 64;
 const PITCH = 9;          // stick spacing
@@ -18,7 +19,7 @@ let activeRun = 0;
 
 export async function drawView() {
   activeRun++;
-  const idx = await getIndex();
+  const [idx, art] = await Promise.all([getIndex(), getArt()]);
   const root = h('section', { class: 'draw' });
   const start = h('div', {},
     h('header', { class: 'home-head' },
@@ -30,9 +31,22 @@ export async function drawView() {
     h('p', { class: 'lede', text: 'Settle. Hold a question lightly, or none at all. Then let the sticks fall.' }),
     h('div', { class: 'row actions' }, h('button', { class: 'btn red', type: 'button', text: 'Draw', onclick: () => run(root) })),
     h('p', { class: 'small how-link' }, h('a', { href: '#/how', class: 'muted', text: 'How does the draw work?' })),
+    homeArt(art),
   );
   root.append(start, recentList(idx));
   return root;
+}
+
+/** Laozi on his water buffalo, leaving through the pass. */
+function homeArt(art) {
+  const id = 'lao-buffalo-disciple';
+  const a = art.catalog?.[id];
+  if (!a) return null;
+  const used = Object.entries(art.passages || {}).flatMap(([n, l]) => l.filter((e) => e.id === id).map((e) => [Number(n), e]));
+  return h('figure', { class: 'home-art' },
+    h('button', { class: 'art-btn', type: 'button', 'aria-label': `Look closer: ${a.title}`, onclick: () => openArt(a, used[0]?.[1] || {}, {}, { passages: used.map(([n]) => n) }) },
+      h('img', { src: a.file, alt: a.alt || a.title, width: a.w, height: a.h, loading: 'lazy', decoding: 'async' })),
+    h('figcaption', { class: 'muted small' }, 'Laozi leaves through the western pass on his water buffalo. ', h('a', { href: '#/about', text: 'Why a buffalo?' })));
 }
 
 function recentList(idx) {

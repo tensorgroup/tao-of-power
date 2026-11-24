@@ -10,6 +10,9 @@ import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } fr
 import { entryList } from './journal.js';
 import { brushPanel } from '../brush.js';
 
+// Vertical presentation forms: in a vertical column, commas and stops sit at the top right of the cell.
+const VERTICAL_PUNCT = { '，': '︐', '、': '︑', '。': '︒', '：': '︓', '；': '︔', '！': '︕', '？': '︖', '「': '﹁', '」': '﹂', '『': '﹃', '』': '﹄' };
+
 const THEME = {
   way: 'The Way', seeing: 'Seeing', self: 'Self', leading: 'Leading',
   yielding: 'Yielding', conflict: 'Conflict', simplicity: 'Simplicity',
@@ -55,20 +58,30 @@ export async function passageView(n, drawId) {
     const gloss = p?.zh?.[i]?.gloss || {};
     const segText = p?.zh?.[i]?.text ?? seg;
     const span = h('span', { class: 'seg' });
+    // Each character and the punctuation after it share one unbreakable cell,
+    // so a column never starts with a comma.
+    let cell = null;
     [...segText].forEach((c, k) => {
       if (isHan(c)) {
         const occ = gloss[String(k)];
-        span.append(h('button', {
+        cell = h('span', { class: 'zh-cell' }, h('button', {
           type: 'button', class: occ ? 'han glossed' : 'han',
           'aria-label': `${c} ${(lex[c]?.py || []).join(' ')}`,
           onclick: () => openChar(c, occ, ctx),
         }, c));
-      } else span.append(h('span', { class: 'punct', 'aria-hidden': 'true', text: c }));
+        span.append(cell);
+      } else {
+        const mark = h('span', { class: 'punct', 'aria-hidden': 'true', text: VERTICAL_PUNCT[c] || c });
+        (cell || span).append(mark);
+      }
     });
     col.append(span);
   });
+  // Reading starts at the right edge: scroll there once the column is laid out.
+  const colWrap = h('div', { class: 'column-wrap' }, col);
+  requestAnimationFrame(() => { colWrap.scrollLeft = colWrap.scrollWidth; });
   root.append(h('h2', { text: 'The Chinese' }),
-    h('div', { class: 'column-wrap' }, col),
+    colWrap,
     h('p', { class: 'column-hint', text: 'Read top to bottom, right to left. Red characters carry a note for this line.' }));
 
   // Lenses
