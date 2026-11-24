@@ -30,3 +30,9 @@ test('text is preserved exactly', () => {
   const t = 'Compare passages 22, 24, and 57 (and 61) with Laozi 40.';
   assert.equal(refSegments(t).map((s) => s.text).join(''), t);
 });
+
+test('"to" ranges link both ends', () => {
+  assert.deepEqual(links('passages 29 to 31 address'), [29, 31]);
+  assert.deepEqual(links('Passages 72 to 75 stand together'), [72, 75]);
+  assert.deepEqual(links('passage 5 to the end'), [5]);
+});

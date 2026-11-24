@@ -45,7 +45,7 @@ export function openGlossary(key, ctx = {}) {
 }
 
 // ---- Passage references: "passage 76", "chapters 1–37", "passages 22, 24, and 57", "(28)", "Laozi 40" ----
-const LIST = String.raw`\d{1,2}(?:(?:\s*,\s*(?:and|or)?|\s*(?:–|-|and|or|&))\s*\d{1,2})*`;
+const LIST = String.raw`\d{1,2}(?:(?:\s*,\s*(?:and|or)?|\s*(?:–|-|and|or|to|&))\s*\d{1,2})*`;
 const REF_RE = new RegExp(String.raw`\b(passages?|chapters?|chs?\.)(\s*)(${LIST})(?!\d)|\((${LIST})\)|\b(Laozi|Daodejing)(\s+)(\d{1,2})(?![\d:])`, 'gi');
 // A "chapter N" or "(N)" of another book must not link to our passage N.
 const BOOKS = String.raw`(Zhuangzi|Han ?Feizi|Huainanzi|Xunzi|Liezi|Mencius|Analects|Zuozhuan|Lüshi|Shiji|Sunzi|Yijing|Guanzi|Liji|Red Chamber|Story of the Stone|Illusion Land|Baoyu|Five Rings|Wumenguan|Hongloumeng)`;

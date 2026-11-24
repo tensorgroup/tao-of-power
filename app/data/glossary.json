@@ -32,12 +32,12 @@
   "guodian": {
     "term": "Guodian bamboo slips", "zh": "郭店楚簡", "aliases": ["Guodian bamboo slips", "Guodian slips", "Guodian"],
     "short": "The oldest known Laozi material: bamboo slips from a tomb of about 300 BCE, found in 1993 in Hubei.",
-    "body": "In 1993 a tomb at Guodian, in the old state of Chu, gave up about 800 bamboo slips. Some 71 of them carry passages that match about a third of the Laozi, in a different order and with different wording — for example a milder chapter 19 that does not attack humaneness and rightness. They show the book was still taking shape around 300 BCE. Notes mark Guodian readings as “reported” where we cannot check the transcription here."
+    "body": "In 1993 a tomb at Guodian, in the old state of Chu, gave up about 800 bamboo slips. Some 71 of them carry passages that match about a third of the Laozi, in a different order and with different wording — for example a milder passage 19 that does not attack humaneness and rightness. They show the book was still taking shape around 300 BCE. Notes mark Guodian readings as “reported” where we cannot check the transcription here."
   },
   "beida": {
     "term": "Beida bamboo Laozi", "zh": "北大漢簡老子", "aliases": ["Beida"],
     "short": "A nearly complete Han-dynasty bamboo Laozi, bought by Peking University (Beida) in 2009.",
-    "body": "The Beida slips were donated to Peking University in 2009 after leaving China through the antiquities market, so their origin is not documented and some scholars doubt them. If genuine, they date to the 1st century BCE and divide the text into 77 chapters."
+    "body": "The Beida slips were donated to Peking University in 2009 after leaving China through the antiquities market, so their origin is not documented and some scholars doubt them. If genuine, they date to the 1st century BCE and divide the text into 77 sections (章), not the received 81."
   },
   "fuyi": {
     "term": "Fu Yi", "zh": "傅奕", "aliases": ["Fu Yi"],
@@ -281,12 +281,12 @@
   },
   "daojing": {
     "term": "Dao part", "zh": "道經", "aliases": ["Dao part", "Daojing"],
-    "short": "Chapters 1–37 of the received text. It opens with 道可道, “a way that can be spoken”.",
-    "body": "The name comes from the first word of its first chapter. In the silk manuscripts from Mawangdui this part comes second."
+    "short": "Passages 1–37 of the received text. It opens with 道可道, “a way that can be spoken”.",
+    "body": "The name comes from the first word of its first passage. In the silk manuscripts from Mawangdui this part comes second."
   },
   "dejing": {
     "term": "De part", "zh": "德經", "aliases": ["De part", "Dejing"],
-    "short": "Chapters 38–81 of the received text. It opens with 上德不德, “the highest de is not de”.",
+    "short": "Passages 38–81 of the received text. It opens with 上德不德, “the highest de is not de”.",
     "body": "The name comes from 德, the second word of its first line. In both silk manuscripts from Mawangdui this part comes first, so those copies are sometimes called the Dedaojing."
   },
   "simaqian": {
