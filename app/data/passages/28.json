@@ -62,7 +62,7 @@
     "and the constant de does not go wrong.",
     "Go back again to [[what has no limit|wu-ji]].",
     "",
-    "Know honour, keep to [[disgrace|ru]]:",
+    "Know [[honour|rong-ru]], keep to [[disgrace|ru]]:",
     "be the valley of all under heaven,",
     "and the constant de is then enough.",
     "Go back again to [[the uncarved wood|pu]].",
@@ -239,6 +239,11 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "rong-ru": {
+      "kind": "pair",
+      "title": "Three pairs, and a weight on the light end",
+      "body": "Cock and hen, white and black, 榮 honour and 辱 disgrace: three pairs, and one frame for all three (see [[know one, keep to the other|zhi-shou]]). The text does lean. It sets the post at the hen, the black, the disgrace. The lean answers a world in which each court ran after the first of each pair; it is a weight put on the light end of a scale. It does not make the low side good. Honour and disgrace arise together: there is no low seat in a room with no high one, and passage 13 says that both make people start. And the low side turns. The valley fills. The uncarved wood is split into vessels three lines later. Disgrace that is kept as a badge becomes a quiet honour, and the cock is back. What would it be to keep the low post and not be proud of it?"
     }
   },
   "lenses": {
@@ -248,6 +253,38 @@
     "body": "The infant is the body’s lesson here, and the book returns to it often. A baby is weak in every muscle and yet holds a finger with a grip that surprises, breathes with the whole belly, and falls without bracing. Its skull [[has not closed|ying-er]]. Adult strength is mostly held tension: a body that has taken a fixed shape, a vessel. The internal arts of China read 知其雄，守其雌 as a rule of practice: have the strike, and stay in the yielding; know how to be hard, and remain soft enough to feel. The [[ravine|xi]] is felt as a sinking: weight and breath go down and collect low, as water does. Try to stand so that nothing in you is held up on purpose. What in the body still knows how to be [[unworked wood|pu]]?",
     "practice": "Take the third stanza, since it is the hardest. Today there will be some small chance to be seen in a good light: to correct someone, to mention a success, to take the better seat. Know it fully. Notice that you could. Then keep to the other place, once, without comment, and without the private glow of having been humble (that is [[the cock again|wb-ravine]]). Watch what the body does when no credit comes: the heat in the face, the wish to explain. That is [[辱|ru]], felt at the edge of the field. Stay one breath longer than is comfortable. The text makes a claim about that position: 常德乃足, the de is then enough. Find out for yourself whether “enough” is the right word. If you want a gentler exercise, look at a page of writing and [[read the white|bai-hei]]."
   },
+  "questions": [
+    {
+      "id": "know-keep",
+      "claim": "One can know strength fully and still choose to stay with the soft, low side.",
+      "prompts": [
+        "Do you think this can be done, or does a person who stays low lose the strength in time?",
+        "Which side were you taught to live on: the cock or the hen, the one who is seen or the one who gives way? Who taught you?",
+        "Hold the reverse for a minute: know the soft, and keep to the strong. What changes in your chest and shoulders as you hold it?",
+        "Which of the two do you look down on in other people? What might that side of you want?"
+      ]
+    },
+    {
+      "id": "keep-disgrace",
+      "claim": "To stay in the place of disgrace, while knowing honour, makes a person whole and sufficient.",
+      "prompts": [
+        "Does that ring true, or does it sound like an excuse for being treated badly? Where do you draw the line?",
+        "Remember a time when you were shamed in front of others. What did you decide about yourself then, and do you still hold it?",
+        "Take the opposite view: honour is worth seeking, and a person should stand up and claim it. Stay there. What feelings come?",
+        "Which side is more natural for you, and what has it cost you?"
+      ]
+    },
+    {
+      "id": "uncarved",
+      "claim": "Before roles and uses cut it, a person is whole, and can go back to that.",
+      "prompts": [
+        "Do you believe there is such a state to go back to? What in your life suggests it?",
+        "Which roles have cut you into a useful shape? Which of them did you choose?",
+        "Now take the other side: a person is made by the cutting, and with no role there is no one there. Hold it and see what arises.",
+        "Why would it be worth knowing which of these you believe?"
+      ]
+    }
+  ],
   "glyph": "黑",
   "plates": [
     {

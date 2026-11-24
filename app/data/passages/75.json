@@ -24,7 +24,7 @@
   ],
   "rendering": [
     "The people [[starve|ji]].",
-    "[[Those above them|shang]] [[eat|shi]] too much in [[grain tax|shui]]:",
+    "[[Those above them|shang]] [[eat|shi]] so much in [[grain tax|shui]]:",
     "[[that is why|pattern]] they starve.",
     "",
     "The people are [[hard to govern|nan-zhi]].",
@@ -33,7 +33,7 @@
     "",
     "The people [[take death lightly|qing-si]].",
     "[[Those above them|qiu-sheng]] seek life’s [[thickness|hou]]:",
-    "that is why they take death lightly.",
+    "that is why they [[take death lightly|light-thick]].",
     "",
     "Only the one who [[does nothing for the sake of life|wu-yi-sheng]]",
     "is [[worthier|xian]] than [[prizing life|gui-sheng]]."
@@ -171,16 +171,53 @@
       "kind": "practice",
       "title": "Look one level up",
       "body": "Take one complaint that you have about people in your care or under your direction: children, a team, students, tenants. Write it in the frame of the passage. “They are …” on the first line. Then, before any other cause, try the second line as the text gives it: “because the one above them …”, and put yourself there. What do you eat that they have grown? Time, attention, credit, the pleasant tasks? What do you do, 有為, that makes them hard to lead? Fill in the line even if you do not believe it. Then read the three lines aloud. The passage does not claim that this is always the whole truth. It claims that it is the first place to look, and the last place where those above usually look."
+    },
+    "light-thick": {
+      "kind": "pair",
+      "title": "輕 and 厚: light death, thick life",
+      "body": "The third sentence joins two weights: 輕死, death held light, and 生之厚, life piled thick. They are one fact seen from two ends. Where life is made thick in one place, it grows thin in another, and there death weighs little. The same holds for the pair that frames all three sentences, 上 and 民, above and below: each is defined by the other, and the harvest is one. The last line favors [[doing nothing for the sake of life|wu-yi-sheng]] over [[prizing life|gui-sheng]]. That preference corrects an age, and a class, that thickened life at the cost of others. It is not contempt for life. It also turns. The person who drops the project of life stands close to the people who take death lightly, and the passage treats their lightness as a symptom. Passage 80 wants death to be heavy again. So light and heavy trade places from line to line. Which of the two do you carry now?"
     }
   },
   "lenses": {
-    "ground": "Three sentences with one frame, then a fourth that breaks it. The people [[starve|ji]]: those above them [[eat|shi]] too much [[grain tax|shui]]. The people are in disorder: those above them [[have their doings|you-wei]]. The people hold death light: those above them pile life [[thick|hou]]. Each sentence [[returns to its first words|pattern]], like a door that shuts. The last sentence changes the subject from classes to a kind of person: the one with no doing for life’s sake is worth more than [[prizing life|gui-sheng]]. The things in the passage are a failed harvest, a mouth, a measure of grain, a light chariot, a mountain, and a cowrie shell. The passage ends the group that began at 72, and it answers the first line of 74: this is why the people do not fear death.",
+    "ground": "Three sentences with one frame, then a fourth that breaks it. The people [[starve|ji]]: those above them [[eat|shi]] so much [[grain tax|shui]]. The people are in disorder: those above them [[have their doings|you-wei]]. The people hold death light: those above them pile life [[thick|hou]]. Each sentence [[returns to its first words|pattern]], like a door that shuts. The last sentence changes the subject from classes to a kind of person: the one with no doing for life’s sake is worth more than [[prizing life|gui-sheng]]. The things in the passage are a failed harvest, a mouth, a measure of grain, a light chariot, a mountain, and a cowrie shell. The passage ends the group that began at 72, and it answers the first line of 74: this is why the people do not fear death.",
     "inner": "Read the three sentences as a map of one person. There is a part that rules: the planner, the one with ambitions for this life. There is a part that is ruled: the body, the plain energies of the day. When the planner takes too much, the body starves: of sleep, of unclaimed time. When the planner has many projects, the body becomes hard to govern: it stalls, it falls ill, it does the opposite. When the planner reaches for a [[thicker|hou]] life, something below begins to hold life cheap, and takes risks or goes numb. The last line points past the usual cure. The usual cure is to prize life more: more care, better habits. The text says that there is something better, [[a living that is not a project at all|wu-yi-sheng]]. It does not explain how. It only says that such a one is worth more.",
     "leading": "The passage is the plainest statement of responsibility in the book. Wang Bi’s summary is [[“it comes from above”|shang]]. When a group is poor in something, ask first what the top takes: salary is the obvious thing, and time, credit, and attention are the larger ones. When a group is hard to lead, count the initiatives; [[有為|you-wei]] includes good ideas. When people stop caring whether they stay or go, look at how richly the leaders live in comparison. The figures of [[one farm in Wei|accounts]] show how small the margin below can be while those above see only a fair tithe. The frame of the sentences gives the discipline: start with the people, go up to yourself for the cause, and come back down to check the result. Try [[the exercise|upstream]] once with a real complaint.",
     "body": "A body can be over-governed. The person who diets by rule, trains by plan, tracks sleep, and takes ten supplements is “seeking life’s thickness”. The early Daoists knew this type well, and so does passage 50, where those who [[live life too thickly|hou]] walk toward the place of death. The practices that later grew from this book go the other way. The breath is not driven; it is left to become fine by itself. The posture is not held up by will; the weight is given to the ground. In such practice the body becomes easy to “govern” at the moment when the governor stops having plans for it. Sit for five minutes and do nothing for the sake of your health. Do not improve the breath. Notice whether the body takes this as neglect or as relief.",
     "nature": "A field has a simple law: it can give only what grew. A tax in grain is a claim on a living system, and the system has a floor. The seed for next year, the food of the people who work the land, the fodder of the ox: when the claim goes below that floor, the yield of every later year falls. [[Li Kui’s sum|accounts]] is an early piece of ecology in this sense; it finds the floor by counting. The first line of the passage sees the same thing from below. The Shuowen’s [[饑|ji]] is a year when the grain does not ripen. The passage adds a second kind of failed harvest: the grain ripens, and it does not reach the mouths of the growers. Any system where the top feeds on the base has this limit. A forest shows the other pattern: the canopy drops its leaves to feed the roots.",
     "practice": "At one meal today, trace the food upward and downward. Downward: who grew it, carried it, cooked it? Upward: who takes a share of the price on the way, and are you, in other parts of your life, one of those who take a share of the work of others? Do not turn this into guilt; the passage is a diagnosis and gives no sentence. Then make one small change in the direction of the last line. Find one thing that you do purely “for the sake of life”, to thicken it: an upgrade, a precaution, an extra. Leave it out for one day and watch what the day is like. If you like, compare the three versions of the third sentence: ours, [[the collated silk text|qiu-sheng]], and [[Legge|legge]]."
   },
+  "questions": [
+    {
+      "id": "from-above",
+      "claim": "When the people below are hungry, unruly, or careless of life, the first cause is in those above them.",
+      "prompts": [
+        "Do you agree? Test it on a group where you are below, and then on a group where you are above.",
+        "Which is easier for you to say: “they are the problem”, or “I am”? Where did you learn that reflex?",
+        "Hold the opposite for a few minutes: people answer for their own state, whoever leads them. What is true in that? What does it protect you from?",
+        "Look at where you blame upward and where you blame downward. Do the two match the places where you have power?"
+      ]
+    },
+    {
+      "id": "many-doings",
+      "claim": "The more those in charge plan, reform, and manage, the harder the people become to lead.",
+      "prompts": [
+        "Where have you watched this happen? Where have you watched the reverse: a group that drifted because no one gave direction?",
+        "When something goes wrong near you, is your first move to do more? Who showed you that move?",
+        "Try the opposite on: good order needs active hands, and to leave things alone is neglect. How does your body respond to that sentence?",
+        "What would you learn about yourself if you did less for one week and things went well?"
+      ]
+    },
+    {
+      "id": "thick-life",
+      "claim": "A life that is guarded and thickened as a project is worth less than a life that is simply lived.",
+      "prompts": [
+        "Is this so for you? List what you do purely to make your life longer, safer, or fuller.",
+        "What is under that effort: an illness in the family, a lean time, a fear of missing something?",
+        "Now take the other side: life is the one thing you have, and to prize and protect it is plain good sense. Let that be right for a while. What relaxes, and what tightens?",
+        "Think of someone who takes great care of their life, and someone who takes none. Which one annoys you more? What might that say?"
+      ]
+    }
+  ],
   "glyph": "食",
   "plates": [
     {

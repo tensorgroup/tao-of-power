@@ -42,7 +42,7 @@
     "Without [[peeping through the window|kui]],",
     "see [[heaven’s way|tiandao]].",
     "[[The farther the going out|mi]],",
-    "the less the knowing.",
+    "[[the less the knowing|pair-in-out]].",
     "",
     "So [[the sage|sheng]]",
     "[[does not travel, and knows|xing]];",
@@ -177,6 +177,11 @@
       "kind": "practice",
       "title": "One room, ten minutes",
       "body": "Sit in a room with the door shut and no screen. For ten minutes, take the room as the whole world, and look for the world’s patterns in it. Something here is rising and something is wearing out. Something was fought for; something was given. There is want in the room, yours, and there is enough. There is a thing that works because of what it lacks. When the ten minutes end, ask what you would have learned about how things go by reading the day’s news in the same time. Do not conclude that news is useless. Only weigh the two kinds of knowing. Then, the next time you travel, notice what you carry with you that makes the new place look like every other place."
+    },
+    "pair-in-out": {
+      "kind": "pair",
+      "title": "出/不出, 遠/少: a door has two sides",
+      "body": "The pairs here are out 出 and not-out, far 遠 and little 少, travel 行 and knowing 知. The text takes a side with force: the farther out, the less known. It is a correction. [[Its age|mi]] counted miles as learning, and the line states the opposite to stop that count. Yet the images are a door and a window, and each is a thing that joins inside and outside. A house with no door is a tomb. Inside means something only because there is a world to know, and the passage begins with it: know the world, 知天下. So the two sides depend on each other. The favored side turns too. Staying in can become a wall, a pride in not looking, a ruler who hears nothing. Then the cure is the road. A one-sided reading makes this passage contempt for experience. It asks where the knowing happens, on any road or in any room. Which do you run from: the journey or the room?"
     }
   },
   "lenses": {
@@ -199,6 +204,28 @@
       "title": "An arrow and a mouth",
       "lesson": "Left: 矢, an arrow. Right: 口, a mouth. The Shuowen says that 矢 is a picture of the arrow of bow and crossbow, with its point, its notch, and its feathers. It then defines 知 in a way that surprises a beginner: 詞也。从口从矢, “a word of speech; from mouth and arrow”. The dictionary gives no story for the pair. The one that is now commonly repeated is credited to the tenth-century scholar Xu Kai, and the Qing scholar Duan Yucai gave it its familiar wording: the one who knows a thing says it at once, and the word leaves the mouth as fast as an arrow. Hold that as a later teaching aid; some scholars think that the arrow only gives the sound. The same graph also wrote the noun “wisdom, cleverness”, read zhì. Later a 日 was added below for that sense, and the result is 智. The Laozi is hard on 智 (passage 19 would discard it) and makes 知 its central verb, so the eye must watch which is meant. Compare other characters where 口 stands beside a second part: 名, a mouth under the evening, a name called in the dark; 如, “to be like”. Now look again at the passage. Its knowing is the opposite of the fast arrow. The arrow goes out, far and straight. This [[知|zhi]] does not leave the house.",
       "brush": "Eight strokes: five for the arrow and three for the mouth. The arrow begins with a short stroke that falls to the left, then a short horizontal beneath it, then a longer horizontal. The fourth stroke starts at the first horizontal, crosses the lower one, and falls away to the lower left. The fifth should be a long stroke to the lower right, but here it is held back to a dot, because the mouth is waiting on that side: a part yields when it has a neighbour. Then 口: the left side, the top and right side in one stroke, and the base. Watch where the mouth sits. It is not level with the top of the arrow; it hangs a little below the middle, small and square, so that the tall, leaning arrow and the low, still box balance each other."
+    }
+  ],
+  "questions": [
+    {
+      "id": "know-without-going",
+      "claim": "The world can be known without going out; the farther a person travels, the less that person knows.",
+      "prompts": [
+        "Do you agree? What have you learned by staying that you could not learn by going?",
+        "What have journeys, new places, and new people given you? Could you have found it at home? Be exact.",
+        "Take the opposite for a while: we know only what we have gone out and met, and the one who stays home knows a small room. What do you feel?",
+        "Do you run toward the road or toward the room? What is the one that you avoid likely to show you?"
+      ]
+    },
+    {
+      "id": "complete-without-acting",
+      "claim": "Some things come to completion without being acted on.",
+      "prompts": [
+        "Name one thing in your care now. Would it complete itself without you?",
+        "What does it mean about you if it would? Notice the first feeling before you answer.",
+        "Hold the other side: things left alone decay, and care means showing up. Where did you learn that, and from whose neglect?",
+        "How do you tell the things that need your hand from the things that only draw your itch?"
+      ]
     }
   ]
 }

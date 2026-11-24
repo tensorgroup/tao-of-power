@@ -52,7 +52,7 @@
     "So [[the sage|sheng]] holds [[the left tally|zuo-qi]]",
     "and [[makes no claim|ze]] on anyone.",
     "One with [[de|de]] [[keeps the tally|si-qi]];",
-    "one without de [[keeps the tithe|si-che]].",
+    "[[one without de|two-halves]] [[keeps the tithe|si-che]].",
     "",
     "[[The way of heaven has no kin.|wu-qin]]",
     "It is always [[with|yu]] the good person."
@@ -210,6 +210,11 @@
       "kind": "practice",
       "title": "Hold one tally, and do not present it",
       "body": "Think of something that is owed to you. It may be money. More often it is an apology, a favour returned, an acknowledgment of work that you did. You hold your half of that tally, and the notches are clear in your mind; you can recite them. For one week, keep the tally and do not present it. Do not hint at it, and do not mention it to a third person. This is not the same as forgiving the debt or pretending that it does not exist. The sage holds the tally. Then do Wang Bi’s exercise and [[look at your own half|si-qi]] of the same agreement: what did you undertake, and did you deliver it? Notice at what hour the grievance comes to you. The graph [[怨|yuan]] suggests that it is at night."
+    },
+    "two-halves": {
+      "kind": "pair",
+      "title": "有德 and 無德: two halves of one stick",
+      "body": "The passage holds several pairs: 和 and 怨, accord and grievance; the left tally and the right; 有德 and 無德. The tally shows how such pairs work. It is one stick, split. A claim has no meaning without a debt, and neither half proves anything alone. The holder of one claim is a debtor in some other contract, and [[readers do not agree|left-right]] on which half the sage holds. [[德|de]] itself has two faces: an inner power, and a credit that someone owes. The text favors the keeper of the tally over the keeper of the tithe. That preference corrects an age of extraction. It is not a rule against every claim. The favored side also turns: a person who is proud of the claims not pressed keeps a second account, of merit, and collects on that. Accord and grievance turn too. Each made peace [[leaves a remainder|yu-yuan]], and the remainder is the seed of the next grievance."
     }
   },
   "lenses": {
@@ -219,6 +224,38 @@
     "nature": "The last line can be watched in any field. Rain falls on the careful farmer’s land and on the careless one’s alike; that is 無親, [[no kin|wu-qin]]. Yet the field that was dug and mulched takes the rain in, and the hard field sheds it. Heaven is [[“with”|yu]] the good farmer, and it chose no one. Rivers show the first half. Two streams that meet after a storm, one clear and one brown, run side by side in the same bed for a long way before they mix; the join is made at once and the accord takes miles. A broken bone knits and remains visible on a picture of the limb for life. Things that are joined after a break carry the break. This is not a moral fault in them. It is why the text looks for the good before the break.",
     "practice": "Do the exercise of [[the uncollected tally|uncollected]] this week with one real debt of the non-money kind. Hold it clearly; do not present it. Beside that, do one small act of the earlier kind that Wang Bi points to: find an agreement that you are part of which is not clear, with a colleague, a partner, a child, and make your own half exact. Say what you will do and by when. Many great grievances begin as a tally that nobody cut. At the end of the week, read the last line and then [[Sima Qian’s doubt|sima-qian]] about it. Do not hurry to defend the line. Ask what you expect heaven to do for the good, and whether [[Legge’s “on the side of”|legge]] is your reading too."
   },
+  "questions": [
+    {
+      "id": "leftover",
+      "claim": "After a great grievance is settled, some of it is sure to remain, so peace made afterwards is not enough.",
+      "prompts": [
+        "Is this true of the peace that you have made? Think of one settled quarrel and look for what is left in it.",
+        "What were you taught about forgiving: that it wipes the slate, or that it does not? Who taught you, and did they live by it?",
+        "Take the opposite view: a real reconciliation leaves nothing over, and a bond can be stronger at the mended place. Have you known one such case? What did it need?",
+        "Which do you hold more tightly: the grievances that others have against you, or yours against them? What does each give you?"
+      ]
+    },
+    {
+      "id": "unpressed",
+      "claim": "A person of inner power keeps the proof of what is owed and does not press the claim.",
+      "prompts": [
+        "Could you do this with a debt that matters? What do you feel when you picture it: freedom, or the sense of being a fool?",
+        "Look at how debts were handled around you when you were young. Were accounts kept exactly, or never spoken of?",
+        "Stand on the other side: to claim what is owed is self-respect, and silence teaches people to take from you. Give that its due. Where has it been true for you?",
+        "When you do not ask, is it restraint, or fear of the answer? How do you tell the two apart?"
+      ]
+    },
+    {
+      "id": "no-kin",
+      "claim": "The way of heaven has no favourites, yet it goes along with those who act well.",
+      "prompts": [
+        "Do you believe that acting well is met by anything at all? What have you seen?",
+        "Was there a favourite in your family? Were you the one, or not? How does that colour what you expect from life?",
+        "Try the plain opposite: nothing is with anyone, and good people starve while the cruel grow old. A great historian feared so. Can you still act well if that is how it is?",
+        "What do you secretly expect to receive for being good? What happens in you when it does not arrive?"
+      ]
+    }
+  ],
   "glyph": "契",
   "plates": [
     {

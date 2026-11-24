@@ -66,7 +66,7 @@
     "So a [[whirlwind|piaofeng]] does not last the morning;",
     "a [[sudden rain|zhouyu]] does not last the day.",
     "Who makes these? [[Heaven and earth.|tiandi]]",
-    "Heaven and earth, even they, cannot keep it up;",
+    "Heaven and earth, even they, [[cannot keep it up|piao-jiu]];",
     "[[how much less, then, people?|qin]]",
     "",
     "So, of those who [[make Dao their work|congshi]]:",
@@ -75,7 +75,7 @@
     "the one of [[loss|shi]] is at one with loss.",
     "At one with Dao: Dao too is [[glad to get them|le]].",
     "At one with De: De too is glad to get them.",
-    "At one with loss: loss too is glad to get them.",
+    "[[At one with loss|de-shi]]: loss too is glad to get them.",
     "",
     "[[Trust not enough, there:|xin]]",
     "no trust, there."
@@ -206,6 +206,16 @@
       "kind": "practice",
       "title": "Let the squall pass",
       "body": "The next time a strong feeling rises, anger, panic, a flood of certainty, treat it as weather. Say to yourself: a whirlwind does not last the morning. Do not act and do not speak for the length of the squall; in the body it is often no more than a minute or two, if you do not feed it with words. Watch it turn and thin. Then say the one sentence that is still true when it has gone; that is your [[sparse word|xiyan]]. For the second half of the passage, ask at the end of the day: what did I 從事, [[work at|congshi]], today, hour by hour? Not what I believe or intend. Whatever the answer, you are a little more [[the same as|tong]] that thing tonight than you were this morning. The passage adds, with no unkindness, that it is glad to have you."
+    },
+    "piao-jiu": {
+      "kind": "pair",
+      "title": "The squall and the long day",
+      "body": "The first pair is the violent and the lasting: 飄風 and 驟雨 on one side, 久 on the other; and with it, a flood of words and 希言, sparse words. The text leans to the sparse and the lasting. The lean is a correction to [[rule by storm|qin]], and to the belief that force shows strength. But the storm is not blamed. Heaven and earth make it, and it ends of itself; it is 自然 too. The line is also wider than a rule that the gentle lasts. 天地尚不能久 names no object: it is open whether heaven and earth cannot make the storm last, or cannot make any one state last. On the second reading the quiet day ends as well, and its heat builds the next squall. The two are one weather. A one-sided reading forbids the raised voice. The passage says that a raised voice is short. When was a squall the true thing for you, and when did you try to hold one past noon?"
+    },
+    "de-shi": {
+      "kind": "pair",
+      "title": "得 and 失: getting and loss in one grammar",
+      "body": "The second pair is 得 and 失, to get and to lose, and with it [[德|de-de]], which sounds like 得. Most teaching ranks them: get the Way, and avoid loss. The passage sets three rows in one grammar and uses 得 for loss too: 失亦樂得之, “loss too is glad to get them”. So a getting is inside each loss, and the one of loss is not cast out. The reverse is also in the book: passage 38 opens with 上德不德, the highest De does not act as De, and so has De. A one-sided reading makes the third row a threat, a place of punishment for those who fail. The text has [[no blame in it|shi]]. It does have a direction: the one who works at Dao is named first, and the trust line warns of what follows a lack. But it reports the three as one law of likeness. What have you got from a loss that you did not choose?"
     }
   },
   "lenses": {
@@ -213,7 +223,7 @@
     "inner": "The passage makes two observations about the inner life. First, intensity does not last. The mind has its [[whirlwinds|piaofeng]]: bursts of resolve, of rage, of rapture in meditation. They feel like the real thing because they are loud. The text points out that even heaven cannot keep a storm up until noon, and asks how you could. What lasts is of the other kind: thin, even, [[with almost no taste|xiyan]]. Second, you become what you do. This is not a doctrine of positive thought. It is closer to the fact that a hand takes the shape of its tool. Give your hours to the Way and you grow [[like it|tong]]; give them to [[loss|shi]], to grievance, to counting what is gone, and that also takes you in, and gladly. No one judges. There is only the question of what you are practising now.",
     "leading": "The first lesson is about the style of rule. Government by [[storm|qin]], the campaign, the purge, the hundred-day push, the daily announcement, has the force of heaven and earth behind it for a morning. The passage was read, after the fall of Qin, as an exact forecast. A leader’s words follow the same law: [[few|xiyan]], and they are heard; a flood, and people take shelter and wait. The second lesson is about culture. A group becomes [[the same as|tong]] what it works at. If its hours go to the craft, it comes to resemble the craft. If they go to covering losses, assigning blame, and explaining, it becomes a company of [[loss|shi]], and loss is glad to have it. The [[trust line|xin]] at the end is the feedback loop in one sentence. Which weather do you make: the kind people talk about, or the kind that fills wells?",
     "body": "Strong emotion is [[weather in the body|practice]], and the body cannot sustain it: the surge of a rage or a fright is spent in a minute or two, unless thought stirs it up again. Athletes know the same law from the other side. A sprint is a [[cloudburst|zhouyu]]: it is splendid, and over. The work that builds a body is the long, easy, repeated kind that nobody watches. Breath shows both. A forced deep breath is a small squall. The ordinary breath, thin and even, [[sparse|xiyan]] as the first line says, has gone on since you were born. In your next hard effort, find the pace that you could keep up all day. That pace is [[自然|ziran]].",
-    "nature": "The passage is good meteorology. The energy of a thunderstorm is spent in an hour, because it uses up the difference in heat that made it. A drizzle can go on for days. Floods carve a valley in one afternoon, and the valley is then shaped for ten thousand years by water that hardly seems to move. It is good ecology too: the fast-growing weed is the first to die, and the slow oak stands. Even [[heaven and earth|tiandi]] obey this, the text says: there is no power in the world that can do the violent thing for long. The old belief read [[storms as heaven’s anger|omen]]. This passage reads them as heaven’s brief exception. For the Han dictionary, steady wind was the breath that [[wakes the insects|piaofeng]] in spring. What in the land around you was made by the slow water?",
+    "nature": "The passage is good meteorology. The energy of a thunderstorm is spent in an hour, because it uses up the difference in heat that made it. A drizzle can go on for days. Floods carve a valley in one afternoon, and the valley is then shaped for ten thousand years by water that hardly seems to move. It is good ecology too: the fast-growing weed is the first to die, and the slow oak stands longer. Even [[heaven and earth|tiandi]] obey this, the text says: there is no power in the world that can do the violent thing for long. The old belief read [[storms as heaven’s anger|omen]]. This passage reads them as heaven’s brief exception. For the Han dictionary, steady wind was the breath that [[wakes the insects|piaofeng]] in spring. What in the land around you was made by the slow water?",
     "practice": "Two exercises. First, [[let one squall pass|practice]] today without a word, and then say the single sentence that remains. Second, keep a rough account of one day by the hour. At night, read it as the passage would: this is what I [[worked at|congshi]]. Do not judge the list. Ask only what you are becoming [[the same as|tong]]. If the answer includes some hours of [[loss|shi]], note that the text says so calmly, and that the older copies say it [[more plainly still|le]]. For the long view, read how [[an empire that governed like a storm|qin]] lasted fifteen years. And if you would like to see four characters grow into thirteen words, read [[Legge’s first sentence|legge]], and then say the Chinese aloud: xī yán zì rán."
   },
   "glyph": "然",
@@ -235,6 +245,28 @@
       "title": "The insect in the wind",
       "lesson": "Wind cannot be drawn, so the script had to borrow. The oracle bones use the graph of a great bird, the phoenix, 鳳, for the word “wind”; the two words sounded alike, and perhaps the bird’s wings were felt to make the wind. That bird is the ancestor of our character, and the outer frame of 風 is its last trace: the same frame, 凡, stands around 鳳. Inside, where the phoenix has 鳥, a bird, the wind has 虫, a creeping creature. The Shuowen explains: 風動蟲生。故蟲八日而化. “When the wind stirs, insects are born; and so insects take eight days to transform.” It then says the frame, 凡, gives the sound. So the Han saw in this graph the spring wind and the first insects that wake in it. The eight days answer to the eight winds of the eight directions, which the dictionary lists by name. The word spread far. 風 is the air of a place and so its customs: 風俗. It is a style: 風格. It is news that travels: 風聞. The first part of the Book of Odes is the 國風, “the airs of the states”, folk songs by which a ruler could feel how the wind blew among the people. With 水 it is 風水, wind and water: the art of siting a house. The passage sets the [[turning wind|piaofeng]] against all of that. The squall wakes nothing, and is gone by noon.",
       "brush": "Nine strokes: frame, then inside. The first stroke falls from the top to the lower left in a long, slow curve. The second is the one to watch. It goes across the top, turns, comes down the right side with a slight inward bow, and ends in a hook that kicks up and out. It is like the great hook of 孔 in passage 21, but it leans, and the frame it makes must be wide at the foot, like a sail. Then the inside: a short falling stroke under the roof; then 虫: a small vertical, a stroke for the top and side of its box, a level stroke that closes it, a vertical through the box, a stroke that rises at its foot, and a last dot. The creature sits in the middle, with air on each side. In cursive script the inside is often one twist and the frame one sweep: the character looks blown."
+    }
+  ],
+  "questions": [
+    {
+      "id": "storms-pass",
+      "claim": "What is forced and violent cannot last; what is sparse and quiet is the natural way.",
+      "prompts": [
+        "Do you agree? Think of your own strong efforts and outbursts. What did they leave?",
+        "How was intensity treated in your home: admired, feared, punished? How do you treat it in yourself?",
+        "Take the opposite view: the squall clears the air, and some things are done in a burst or not at all. Hold it for a time. What does your body say?",
+        "Do you trust your quiet hours or your intense ones more? What has that trust built?"
+      ]
+    },
+    {
+      "id": "same-as-your-work",
+      "claim": "A person becomes the same as what they work at, and even loss welcomes those who serve it.",
+      "prompts": [
+        "Is it true that you are what you do each day? What have this year’s hours made of you?",
+        "Is there a loss or a grievance that you tend like a job? What would you be without it?",
+        "Now take the other side: a person is more than their habits, and can stand apart from what they do. What hope, or what excuse, is in that?",
+        "Which side do you use when you look at others, and which when you look at yourself?"
+      ]
     }
   ]
 }

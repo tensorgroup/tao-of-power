@@ -48,7 +48,7 @@
   ],
   "rendering": [
     "[[Work at|wei]] [[learning|xue]]: each day [[more|yi]].",
-    "Work at [[Dao|dao]]: each day [[less|sun]].",
+    "Work at [[Dao|dao]]: [[each day|pair-more-less]] [[less|sun]].",
     "[[Less, and again less|sunsun]],",
     "until it comes to [[not-doing|wuwei]].",
     "Not doing, and [[nothing is left undone|wubuwei]].",
@@ -193,6 +193,11 @@
       "kind": "practice",
       "title": "A ledger of less",
       "body": "At the end of today, do not ask what you learned or got done. Ask what you put down. One opinion that you did not defend. One piece of information that you did not look up. One plan that you let go. One improvement that you did not make to another person. Write a single line. Do this for a week and read the seven lines. The Chinese word is 日損, a loss each day, and the scale is small on purpose. Watch for [[the second loss|sunsun]] too: if the list becomes a source of pride, lose the list."
+    },
+    "pair-more-less": {
+      "kind": "pair",
+      "title": "益/損: two directions of one hand",
+      "body": "More 益 and less 損 stand in two lines of the same form, and with them learning 學 and Dao 道. The Chinese sets them side by side. It does not say that learning is wrong or that less is better than more. Each needs the other: a person can put down only what was picked up, and the long adding of a skill is what the later taking-away works on. The passage then follows the “less” side. That is the preference of a book written against an age of piled-up doctrine and [[busy rule|youshi]]. The less side turns as well, and the text shows it two times. [[Less, and again less|sunsun]]: the second loss is the loss of losing as a project. And at the end of less stands [[nothing left undone|wubuwei]], which is the largest “more”. A one-sided reading makes a creed of subtraction. Which do you count as progress: what you added, or what you put down?"
     }
   },
   "lenses": {
@@ -221,6 +226,38 @@
       "title": "The hand that leads an elephant",
       "lesson": "This is the verb “to do”, and its history is one of the surprises of the script. The Shuowen writes it 爲 and gives an explanation that scholars no longer follow: 母猴也, “a female monkey”, with the top as its claw. Inscriptions on bone and bronze, found long after the dictionary was written, are commonly read differently: a hand at the top, and under it an elephant, with trunk, body, and legs. A hand leads an elephant to work. Elephants lived in north China in the Shang period, and the Shuowen’s own entry for 象 still describes the animal with care: long nose and tusks, a great beast of the far south, which bears young once in three years. By the time of this passage the animal was gone from the north, and few who wrote 為 thought of it. The picture is still exact for the word’s sense: to work upon a thing that is large, alive, and stronger than you, and to make it serve a purpose. That is the [[為|wei]] that this passage removes, six uses of the same verb. 無為 does not let the elephant loose in the village. It takes away the hand at its trunk and the idea that the animal is for something. A related graph adds a person at the side: 偽, “made by people, artificial”, and in later use “false”.",
       "brush": "Twelve strokes; the stroke data draw the form with the full claw at the top. First four small strokes: one that falls to the left, two dots, and one more short stroke that leans in from the right. They are the fingers of the hand. Fifth, a long stroke that falls from under the claw to the lower left: the line of the trunk. Then three strokes that each go right and turn down, one under the other, like steps; the third and largest ends in a hook. They are the body. Last, four dots in a row inside the hook: the legs. Watch the three turning strokes. Each is wider than the one above, and the rhythm quickens as the brush descends. In running and cursive script the whole figure is reduced to two or three linked turns, and that habit of the brush is the source of the short form 为."
+    }
+  ],
+  "questions": [
+    {
+      "id": "less-each-day",
+      "claim": "Learning grows by adding each day; the Way is reached by putting something down each day.",
+      "prompts": [
+        "Do both movements exist in your life? Which has had more of your years?",
+        "What do you hold that you would be afraid to put down: a skill, an opinion, a picture of yourself? What would you be without it?",
+        "Take the opposite: a person is what they have gathered, and to lose it is only loss. Stay with that. What do you want to protect?",
+        "Do you count progress by what you added or by what you dropped? Who gave you that way of counting?"
+      ]
+    },
+    {
+      "id": "nothing-undone",
+      "claim": "When doing has been stripped away entirely, nothing is left undone.",
+      "prompts": [
+        "Have you known a moment when a thing was done and you could not find the effort in it?",
+        "What do you believe would fall apart if you stopped pushing? How do you know?",
+        "Now hold the plain objection: what is not done by someone stays undone. Which duties in your life are truly of that kind?",
+        "Which of the two beliefs lets you rest, and which lets you feel needed? Which do you need more?"
+      ]
+    },
+    {
+      "id": "no-business",
+      "claim": "Those who meddle and keep busy are not fit to hold the world; it comes to the one with no agenda.",
+      "prompts": [
+        "Does this fit the leaders, parents, and teachers that you have known?",
+        "What agenda do you carry into most rooms? When did it become yours?",
+        "Take the other side: those without a plan are steered by those with one. When did your lack of a plan cost you?",
+        "What do you feel toward a person who wants nothing from you? Trust, suspicion, discomfort?"
+      ]
     }
   ]
 }

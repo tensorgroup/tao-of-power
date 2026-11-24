@@ -37,7 +37,7 @@
     "So they are able to [[live long|changsheng]].",
     "",
     "For this reason the sage",
-    "puts [[the body|shen]] [[behind|hou-xian]], and the body is in front;",
+    "puts [[the body|shen]] [[behind|hou-xian]], and the body [[is in front|pair-hou-xian]];",
     "puts the body [[outside|wai]], and the body [[is kept|cun]].",
     "Is it not because the sage is [[without the private|si]]?",
     "So [[the private is brought to completion|cheng-si]]."
@@ -155,6 +155,11 @@
       "kind": "practice",
       "title": "Go through the door last",
       "body": "Take the line in its most literal sense for one day. 後其身: put the body behind. At each door, let the others go through first. In a queue, do not look for the faster line. In a talk, let your point wait until the others have spoken. Do it with the body, and do not make a show of it or tell anyone. Notice what the body does when it is put behind: often a small protest, a tightness, a fear of being left out. That protest is the 私, the ring drawn round oneself. Then notice what else happens. Did you lose anything that mattered? Were you, at the end of the day, less present, or more?"
+    },
+    "pair-hou-xian": {
+      "kind": "pair",
+      "title": "後 and 先: behind turns to front",
+      "body": "Three pairs carry the second half: 後 and 先, behind and in front; 外 and 存, put outside and kept; 無私 and 私, without the private and the private. In each line the first word turns into the second. The text does not say that behind is good and front is bad. The body does come to the front, and the private is [[brought to completion|cheng-si]]; the passage does not hide that or regret it. A one-sided reading can go two ways. One makes self-denial the goal and stops at 後. The other makes 後 [[a lever|trick]] to get 先. Both freeze a movement. If behind turns into front, then front is also a place that turns. A sage who arrives in front and settles there is now a person who stands in front, and the first stanza has said what lasts: that which does not live for itself. Where are you in front now, and how did you come there?"
     }
   },
   "lenses": {
@@ -184,6 +189,28 @@
       "title": "A divination at dusk",
       "lesson": "Left and right are both old pictures. On the left is 夕, evening. The Shuowen says 从月半見, “from the moon, half seen”: it is 月 with a stroke missing, the moon as it first shows at dusk. On the right is 卜, to divine. The Shuowen calls it a picture of the scorching of a tortoise shell, 象灸龜之形, and gives a second account: 象龜兆之從橫也, the crack lines that run down and across. Shang diviners read such cracks, and the graph keeps their shape: a long line and a short branch. The word is thought to imitate the sound of the shell as it cracked. Now the Shuowen’s account of 外. The definition is 遠也, “far”. The reason: 卜尚平旦，今夕卜，於事外矣. “Divination values the early morning. Now to divine in the evening is to be outside the matter.” The right time to ask the spirits was dawn. A crack made at night was off the record, beside the point: outside. Modern scholars doubt the explanation and often take one part as the sound; the Shuowen’s story is the one that readers knew for two thousand years. So “outside” in Chinese began as a matter of timing and ritual, and not as a place. The phrase [[外其身|wai]] gains from this. To “outside” the body is to treat it as not the matter in hand.",
       "brush": "Five strokes. Evening takes three. First a short stroke that falls to the left. Second, a stroke that starts beside it, goes right a short way, turns, and sweeps down to the left, long and curved. Third, a dot inside the curve; it must touch nothing. Then divination, in two. Stroke four is the long vertical, the tallest line of the character: it starts above everything else and comes straight down. Watch where it stands: close to the left half, so that the two parts hold together. The last stroke is a dot that begins on the vertical, a little above its middle, and falls to the right. It is the branch of the crack. The left half leans and curves; the right half is one firm upright. Writers let the dot at the right reach out a little, and it balances the long sweep on the left."
+    }
+  ],
+  "questions": [
+    {
+      "id": "behind-comes-front",
+      "claim": "The one who puts the self behind comes to the front; the one who sets it aside is kept.",
+      "prompts": [
+        "Has this happened to you? Or have you stepped back and simply been left behind?",
+        "Who showed you how to stand in a line, at a table, in a family? Did that person go first or last?",
+        "Hold the opposite: no one will put you forward if you do not, and those who step back are forgotten. What rises when you take that as true?",
+        "When you do step back, is some part of you watching for the reward? What happens when you see that part?"
+      ]
+    },
+    {
+      "id": "not-for-itself",
+      "claim": "Heaven and earth last because they do not live for themselves; what is passed on is not used up.",
+      "prompts": [
+        "Do you agree? Look at one thing you have given freely and one thing you have guarded.",
+        "Where does your sense of “mine” come from: a time of too little, a thing that was taken, a rule of the house?",
+        "Now take the other side: fill your own store first, because those who do not are drained by others. Stay with it. What thoughts follow?",
+        "What do you think of people who look after themselves first? Is there any envy in that opinion?"
+      ]
     }
   ]
 }

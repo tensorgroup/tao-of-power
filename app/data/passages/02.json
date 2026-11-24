@@ -67,7 +67,7 @@
     "long and short [[measure each other|jiao]],",
     "high and low [[lean toward each other|qing]],",
     "[[tune and sound|yin-sheng]] answer each other,",
-    "before and after follow each other.",
+    "before and after [[follow each other|pair-xiang]].",
     "",
     "For this reason [[the sage|shengren]]",
     "stays in the work of [[not-forcing|wuwei]]",
@@ -229,6 +229,11 @@
       "kind": "practice",
       "title": "Catch one “as”",
       "body": "Today, catch one moment when you know a thing as good or as fine: a face, a piece of work, a plan, your own conduct. Do not stop the judgment. Look to its other side. What did that judgment just make less fine? Who became plain when one person became beautiful? Then try the second half of the passage with one small job. Do it well. When it is done, say nothing about it and do not check who saw. Later in the day, ask if the work has left you. The passage says that it does not."
+    },
+    "pair-xiang": {
+      "kind": "pair",
+      "title": "相: pairs that make each other",
+      "body": "This passage is the book’s plainest statement of how opposites work. The word 相, “each other”, stands in all [[six lines|six]]. Neither side comes first. Long is long beside short. A step is “before” because another step is “after”. The opening lines apply this to value: when all know 美 as 美, 惡 is there too. A one-sided reading takes this as a warning against beauty and goodness, or as a claim that nothing is better than anything. The text says neither. It says that a judgment has two ends, and that a person who picks up one end picks up the other. The sage’s conduct follows from this: 弗居, do not dwell at either end, because each end turns. Passage 58 gives the turn: 正復為奇，善復為妖, the straight becomes the crooked again, and the good becomes the ominous again. Where did one of your own “goods” turn?"
     }
   },
   "lenses": {
@@ -252,6 +257,38 @@
       "title": "Teaching has no mouth",
       "lesson": "Look for a mouth in this character. There is none: no 口, no 言. On the right is 攵, the side form of 攴. The Shuowen defines 攴 as 小擊也, “to strike lightly”, and its old form is a hand, 又, that holds a rod. On the left, the modern shape is the same as 孝, “care for parents”, an old person carried on a child, 子, and the Shuowen reads it so: 从攴从孝. Many modern scholars read the early forms in another way: crossed marks, 爻, above a child, the same parts that stand inside 學, “to learn”. Then the whole is a child, something to copy, and a hand with a rod. The Shuowen’s definition says nothing of talk: 上所施下所效也, “what those above give out and those below copy”. Now look at the family of the rod-hand. 牧, to herd: an ox and the rod; the Shuowen says 養牛人也, “one who raises cattle”. 政, to govern: 正, “straight”, and the rod. 攻, to attack. 效, to copy. Herding, ruling, attacking, and teaching share one hand. That is the usual teaching of the age, and this passage asks for another kind: [[不言之教|buyan]], a teaching with no words. Read the character once more. Words were not in it. The sage also puts down the rod.",
       "brush": "Eleven strokes, left part first. A short horizontal, a vertical through it, and a longer horizontal below: the same start as 土. Stroke four is the surprise: a long diagonal that falls from the upper right, crosses the vertical, and runs far to the lower left. It ties the top to the child below. Then 子 in three strokes: a short horizontal that turns back, the curved vertical with its hook, and a last stroke that rises to the right. A horizontal would stop the eye; a rising stroke hands the eye to the right part. Then 攵: a falling stroke, a short horizontal, a long stroke that falls to the left, and last the 捺 to the lower right. Watch that last stroke cross the one before it. The right part must not push the left; the writer makes the left narrow and tall, so that the rod-hand has room to swing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "beauty-makes-ugly",
+      "claim": "When everyone knows the beautiful as beautiful, the ugly is already there; one judgment makes both.",
+      "prompts": [
+        "Does this match what you have seen? Name one standard of beauty or goodness in your world, and say what it pushed to the other side.",
+        "Which side of such a line were you placed on when you were young? How does that place still shape what you praise?",
+        "Hold the other view for a minute: some things are simply good, and to see them as good harms no one. What rises in you: ease, doubt, anger?",
+        "What do you call ugly or not-good in others with the most force? Could it be the back of something you need to be seen as?"
+      ]
+    },
+    {
+      "id": "hard-beside-easy",
+      "claim": "Hard and easy, high and low, before and after make each other; neither side stands alone.",
+      "prompts": [
+        "Test it on one thing you call hard. Hard beside what? Hard for whom?",
+        "Think of a low time in your life that later held up a high one. Did you see it then, or afterwards?",
+        "Now take the opposite: some things are hard in themselves, some people are ahead in fact, and the comparison adds nothing. How does that feel to hold?",
+        "Which comfort do you lean on more: that all is relative, or that there are fixed measures? What does each one protect you from?"
+      ]
+    },
+    {
+      "id": "not-dwelling",
+      "claim": "Work that is done and not claimed does not leave the one who did it.",
+      "prompts": [
+        "Do you believe it? Or has unclaimed work of yours simply gone to someone else?",
+        "Where does your need for credit come from? Think of the first time you were passed over, or the first time you were praised.",
+        "Try the other side: say what you did and stand in it, or it will be lost. Hold that fully. What thoughts and feelings come with it?",
+        "Both views can be lived. Which one have you lived, and what has it cost?"
+      ]
     }
   ]
 }

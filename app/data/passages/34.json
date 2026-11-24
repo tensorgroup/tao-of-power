@@ -58,7 +58,7 @@
     "and it does not act the lord:",
     "it can be named [[great|xiao]].",
     "",
-    "Because to the end it does not make itself great,",
+    "Because to the end it [[does not make itself great|xiao-da]],",
     "it can [[complete its greatness|silk]]."
   ],
   "notes": {
@@ -185,6 +185,11 @@
       "kind": "practice",
       "title": "One thing done, no name entered",
       "body": "Today, do one useful thing for a person or a place and leave no mark of the giver. Fill the kettle. Fix the shared document. Pay for the next person. Then watch the mind for the next hour. It will want to mention the thing, or to be seen near it, or at least to tell itself a story about a generous person. This is 名有, to name it “mine”. Do not fight the wish. Only see how fast it comes. Then think about what feeds you every day without a signature: the water system, the soil, the people who wrote the words you think with."
+    },
+    "xiao-da": {
+      "kind": "pair",
+      "title": "小 and 大: one act, seen from two sides",
+      "body": "Two pairs run through the passage: 小 small and 大 great, and [[lord|zhu]] and guest. [[The two names|xiao]] come from one act. The Dao does not act the lord: seen from its lack of wanting, that is small; seen from all that comes home to it, that is great. So small is not the humble, good name, and great is not the proud, bad one. Each is true from one side. The last line is often turned into a method: be modest, and you will be great. The Chinese gives a reason, 以, and not a plan. A smallness that is worn to gain greatness is already 自為大, making oneself great. And the pair moves. That which is great because it holds all things is, for the same reason, plain and easy to overlook; that which is overlooked is what all things lean on. Where in your work is the small thing the great one?"
     }
   },
   "lenses": {
@@ -194,6 +199,28 @@
     "nature": "On a flood plain the river is not the enemy of the field. It is the origin of the field. Each flood leaves silt, and the silt is the soil that feeds the villages; the Yellow River built the north China plain in this way and also drowned it many times. Water goes [[left and right|zuoyou]] with no plan and [[feeds|yiyang]] that which it touches. Then all water [[goes home|gui]]: the streams to the river, the river to the sea, the sea to cloud and rain. Passage 32 gave the same picture: the Dao in the world is like rivers and valleys that run to the sea. No part of the cycle is its [[lord|zhu]]. Sunlight has the same manners. It lands on the leaf, the leaf lives, and no bill comes.",
     "practice": "Try the [[unsigned act|practice]] today. Then, in the evening, do the reverse and count what came to you unsigned: who cooked, who built the road, whose patience held a meeting together. The passage has two movements and you can feel both in one day. In the first, things [[lean and are fed|shi]]. In the second, things [[come home|gui]]. Note where in your day you were the one that leaned, and where you were the place to which a person returned, and if in that hour you needed to be the [[lord|zhu]] of it."
   },
+  "questions": [
+    {
+      "id": "no-claim",
+      "claim": "The greatest work feeds all things, claims nothing, and does not act the lord.",
+      "prompts": [
+        "Do you agree that the largest work is done with no claim? Who has done such work for you?",
+        "How much do you need credit? Remember a time when your work was not named. What did you feel, and where did you learn that feeling?",
+        "Take the opposite view: to claim your work is honest, and to hide it is a false modesty that lets others take it. Hold that. What arises?",
+        "Which of the two do you dislike in others, the one who claims or the one who hides? Why might that matter?"
+      ]
+    },
+    {
+      "id": "not-making-great",
+      "claim": "Greatness is completed by the one who does not make itself great.",
+      "prompts": [
+        "Is that true of the great people you have known in person?",
+        "When you make yourself small, is it free, or is it a way to be safe or to be praised? How can you tell?",
+        "Now hold the other side: no one becomes great by accident, and a person must stand up and take their full size. What does your body do with that?",
+        "Which side clashes with what you were taught? What has that teaching given you, and what has it cost?"
+      ]
+    }
+  ],
   "glyph": "歸",
   "plates": [
     {

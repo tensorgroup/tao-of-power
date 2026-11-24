@@ -59,7 +59,7 @@
     "",
     "The nameless uncarved wood:",
     "[[that too will be without wanting|yiwuyu]].",
-    "Not wanting, [[and so still|jing]]:",
+    "[[Not wanting|pair-stir-still]], [[and so still|jing]]:",
     "all under heaven will [[settle of itself|ziding]]."
   ],
   "notes": {
@@ -187,6 +187,11 @@
       "kind": "practice",
       "title": "A weight that is not a rule",
       "body": "The next time a want rises strongly today, to buy, to answer at once, to fix a person, do not obey it and do not fight it. Put one plain thing on it. A plain thing has no name and no argument: the feeling of your feet on the floor, one slow breath out, a look at the grain of the table. Stay for the time of three breaths. This is a small 鎮, a weight on the corner of the mat. Then notice the second step of the passage. If you become proud of the method, or want to be good at it, put that down too."
+    },
+    "pair-stir-still": {
+      "kind": "pair",
+      "title": "作 and 靜: stirring and stillness",
+      "body": "The passage runs on a pair: 作, to rise and stir, and 靜, to be still. It also shows that the two feed each other. Not-doing lets the things change of themselves. The change brings wanting, and wanting stirs. The weight of plain wood brings stillness. Then the world settles, and a settled world is the ground where things again change of themselves. So the passage is a circle, and 將, “will”, marks each turn of it. The text leans to the still side. The lean is a correction for [[lords and kings|houwang]] who answer each stir with more doing. It is not a verdict against movement: 化, change, is what the stillness allows. A reading that takes stillness as the goal and stirring as the fault makes the plain wood a thing to want, and the passage [[warns against that|yiwuyu]]. Where in your day does a calm already carry its next stir?"
     }
   },
   "lenses": {
@@ -209,6 +214,28 @@
       "title": "The nose that means “self”",
       "lesson": "The Shuowen is direct: 自，鼻也。象鼻形, “自 is the nose; it shows the shape of a nose”. The early forms are a nose seen from the front: the bridge, the two wings, the lines across. How did a nose come to mean “self”? The common explanation is a gesture: people in China point to their own nose, not to their chest, when they say “I”. When the graph was taken over by the words “self” and “from”, the nose got a new character, 鼻, with a sound part added below. The old nose still works inside other characters. 息, “breath, to rest”, is 自 over 心, the heart: the Shuowen says 从心从自. 臭, “smell”, is 自 over 犬, a dog: the Shuowen explains that the dog is the animal that follows a trail by its nose. The second meaning, “from”, is the nose again: the point from which one starts. Now read 自化 and 自定 in this passage, and the great word 自然, “so of itself”. Each has in it a face that points at itself. In Chinese, the self of “by itself” is not a soul and not an ego. It is the place where the breath comes in. See [[the family of 自|zihua]].",
       "brush": "Six strokes. First a short stroke at the top that falls to the left. Second, the left side, a vertical. Third, the top and right side in one stroke, with a firm corner. Fourth and fifth, two short horizontals inside, which touch the left side and do not reach the right. Sixth, the base that closes the box. Watch the first stroke: it is the only difference between this character and 目, the eye. It is small and it must be alive, set a little left of center, like the bridge of the nose above the face. The three inner spaces should be equal. The form has hardly changed since the seal script. The Han clerks only made the round nose square."
+    }
+  ],
+  "questions": [
+    {
+      "id": "settles-of-itself",
+      "claim": "Left without interference, things change and settle of themselves; stillness does more than control.",
+      "prompts": [
+        "Is this true in your experience? Name one thing that settled when you left it, and one that did not.",
+        "When you step in to manage a thing, what do you fear will happen if you do not? Whose voice taught you that fear?",
+        "Take the other side for a while: nothing comes right unless someone makes it right. What in you agrees at once, and what feels tired at the thought?",
+        "Which do you judge in other people, the one who controls or the one who lets things drift? What might that judgment protect?"
+      ]
+    },
+    {
+      "id": "wanting-plainness",
+      "claim": "Even the wish to be plain and free of wanting is a wanting, and it too must be let go.",
+      "prompts": [
+        "Do you accept this, or does it seem to take away the one tool that you have?",
+        "Think of something good that you want to be: calm, simple, kind. How does the wanting feel in the body, and how is it different from the thing itself?",
+        "Hold the opposite: a strong wish for a good state is exactly what brings it. Stay there for a minute. Which memories support it?",
+        "Which view matches what you have lived? What would change in your days if the other one were true?"
+      ]
     }
   ]
 }

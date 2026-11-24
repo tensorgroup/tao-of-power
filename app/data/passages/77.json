@@ -52,7 +52,7 @@
     "[[The way of heaven|tian-dao]]:",
     "is it not like [[the stringing of a bow|zhang-gong]]?",
     "[[The high is pressed down,|recurve]]",
-    "the low is lifted.",
+    "[[the low is lifted|high-low]].",
     "What has [[more than enough|you-yu]] is [[reduced|sun]];",
     "what has not enough is [[mended|bu]].",
     "",
@@ -217,6 +217,11 @@
       "kind": "practice",
       "title": "Find one high tip",
       "body": "Take stock as the archer does, by looking for what stands too high and what hangs too low. Money is one case, and often not the first. Where do you have 有餘 today? Perhaps time on one day of the week, or attention, or knowledge that a younger colleague lacks, or simply room in the house. And who near you is at 不足 in the same thing? Choose one pair. Then move a little from the high to the low, and do it in the manner of the last lines: do not announce it, do not keep a count, and do not return to see how grateful the person is. Notice what the giving feels like when no credit is stored. The text’s word for that kind of giving is [[奉|feng]]: both hands, from below."
+    },
+    "high-low": {
+      "kind": "pair",
+      "title": "高 and 下, 有餘 and 不足: one bow",
+      "body": "Two pairs run through the passage: 高 and 下, high and low, and 有餘 and 不足, surplus and lack. A bow has two tips, and neither is the wrong one. High is high only against low, and a surplus is measured by the lack beside it. Heaven’s way does not prefer the low to the high. It moves between them until the bow can work. The movement does not stop: the tip that was lifted will stand high and be pressed in its turn. Passage 2 said it first: 高下相傾, high and low lean on each other. The text does set 天之道 over 人之道. That preference corrects an order in which the full grow fuller. It is not a rule that having is bad. The question asks 孰能有餘, who can have a surplus and offer it; without a high tip there is nothing to give. A reading that only blames the rich misses this. A strung bow is also [[unstrung|zhang-gong]] in its time."
     }
   },
   "lenses": {
@@ -227,6 +232,38 @@
     "nature": "Heaven’s way of levelling can be watched in an afternoon. Water leaves the high ground and gathers in the low. Heat moves from the warm stone to the cool air until they match. A hill is worn down grain by grain and the valley fills. The moon that is full begins to wane on the next night. No judge does this, and nothing is punished; the high place only has more to give off. Living systems add a second movement, and it is the one that the passage calls [[mending|bu]]: a forest closes a gap where a tree fell, and skin closes a cut. Against these stands the pattern that [[people make|ren-dao]], in which what is large draws more to itself. The text does not say that this is unnatural in every sense. It says that it is ours, and so it can be done differently.",
     "practice": "Do [[the archer’s check|level]] today with one real thing: find a place where you have more than enough and a person or a part of your life that has too little of the same thing, and move some across. Keep the three rules of the last lines. Do not lean on it: make no claim from it later. Do not stay in it: leave when it is done. Do not show it: tell no one. If that seems easy, try the same with praise. The next time credit comes to you that also belongs to others, press that high tip down at once and lift theirs. Then read [[Legge’s sentence|legge]] on the human way, with its “he” and “his own”, and ask why he needed a single guilty man."
   },
+  "questions": [
+    {
+      "id": "level-heaven",
+      "claim": "The natural way takes from what has too much and gives to what has too little.",
+      "prompts": [
+        "Is this what you see when you look at the world? Give one case for it and one against.",
+        "Which did your family hold to be natural: that things even out, or that the strong gather more? How was it said at the table?",
+        "Take the other side for a while: gathering to the top is the real law, and levelling is a wish. What comes with that view: relief, anger, shame, a kind of pride?",
+        "Your answer may follow the tip of the bow on which you stand. Are you the high one or the low one, and in what?"
+      ]
+    },
+    {
+      "id": "surplus-up",
+      "claim": "Left to themselves, people take from those who lack and hand it up to those who already have more.",
+      "prompts": [
+        "Do you take part in this? Follow one thing that you gave this week, time or praise or money, and see whether it went up or down.",
+        "Why is it easier to give to those who already have? What do you hope to receive from them?",
+        "Suppose the opposite were true of people: that their first movement is to share downward. Can you find that movement in yourself? When was it last free to act?",
+        "What do you judge in the rich, or in the poor, that you would not like to find in yourself?"
+      ]
+    },
+    {
+      "id": "no-credit",
+      "claim": "Work that is truly finished is left behind, with no claim made and no worth shown.",
+      "prompts": [
+        "Can you do something well and not want it seen? Recall the last time, and how long the silence lasted.",
+        "What did recognition mean where you grew up? Was it rare, or cheap, or a condition of being loved?",
+        "Argue the other side: to be seen for good work is fair, and it shows others what is possible. Hold that for a while. Does it feel like an excuse or like a truth?",
+        "Which do you fear more: to be overlooked, or to be found wanting when you are looked at? How does that fear shape what you show?"
+      ]
+    }
+  ],
   "glyph": "張",
   "plates": [
     {

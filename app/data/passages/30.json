@@ -63,7 +63,7 @@
     "Fruit, [[because there was no choice|bu-de-yi]].",
     "Fruit, and no forcing.",
     "",
-    "A creature [[at its full strength then grows old|zhuang-lao]].",
+    "A creature [[at its full strength|zhuang-lao]] [[then grows old|peak-slope]].",
     "This is called [[not-Dao|bu-dao]].",
     "What is not-Dao is [[early finished|zao-yi]]."
   ],
@@ -96,7 +96,7 @@
     "qiang": {
       "kind": "wordplay",
       "title": "強, three times",
-      "body": "The passage is fenced by one word. Line 2: do not 強 the world with weapons. Middle: do not dare to 取強, “take strength”, where 取 is the trophy word of passage 29. Last line of the list: 果而勿強, “fruit, and no forcing”. The Mawangdui silk texts are reported to end the list with a summary that makes the point outright: 是謂果而不強, “this is called fruit without force”. 強 is “strong”, “to force”, and “stiff”, and in this book it is nearly always a symptom (see the note in passage 25 on the insect in its graph). The text does not oppose strength to weakness here. It opposes 強 to 果: forcing an outcome against letting an outcome ripen. Both get results. Only one of them, the last stanza says, has a long life.",
+      "body": "The passage is fenced by one word. Line 2: do not 強 the world with weapons. Middle: do not dare to 取強, “take strength”, where 取 is the trophy word of passage 29. Last line of the list: 果而勿強, “fruit, and no forcing”. The Mawangdui silk texts are reported to end the list with a summary that makes the point outright: 是謂果而不強, “this is called fruit without force”. 強 is “strong”, “to force”, and “stiff”, and in this book it is often a symptom (see the note in passage 25 on the insect in its graph). The text does not oppose strength to weakness here. It opposes 強 to 果: forcing an outcome against letting an outcome ripen. Both get results. Only one of them, the last stanza says, has a long life.",
       "src": [
         "Mawangdui Laozi, silk texts A and B (as reported)"
       ]
@@ -216,15 +216,52 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "peak-slope": {
+      "kind": "pair",
+      "title": "壯 and 老: the peak and the slope",
+      "body": "壯 and 老, the prime and old age, look like a good state and a bad one. The line only joins them with 則, “then”: at the prime, then old. This is the turn that passage 25 called 反, and the second line of this passage has already named it: such business [[likes to come back|hao-huan]]. Strength is not the fault, and age is not a punishment. One arises with the other; a peak is a place that has a slope on each side. What the text calls [[not-Dao|bu-dao]] is 強, the attempt to hold the peak or to reach it early. Its own preference, [[fruit and then a stop|guo]], is a correction for an age of armies. It is not a fixed rule either. Fruit also falls and rots, and a stop that is made into a policy becomes one more thing to force. Can you tell a ripe result from a forced one while it is in your hand?"
     }
   },
   "lenses": {
     "ground": "Four parts. A rule for one profession: the one who [[serves a lord as his left hand|zuo]] by the Dao does not make the world submit by [[arms|bing]], because that kind of business [[comes back|hao-huan]]. Evidence from the fields: [[thorns|jing-ji]] where the army camped, and [[failed harvests|xiong-nian]] after it. A code for the case in which force is used: get [[the fruit|guo]] and stop; then five short lines, each “fruit, and…”, that take away [[the spear, the halberd, the tall horse|jiao]], plead [[necessity|bu-de-yi]], and forbid [[forcing|qiang]]. A law of bodies to close: what is driven to [[its prime grows old|zhuang-lao]]; this is [[not-Dao|bu-dao]], and it is [[soon over|zao-yi]]. The passage assumes that there will be armies. [[Its age left no room to doubt it.|war-scale]]",
     "inner": "Every person has a lord to assist and weapons to hand. The lord is whatever one serves: an aim, a principle, the wish to be good. The weapons are will, anger, argument, discipline turned harsh. The passage says what happens when the aim is served by those means. The ground where the force camped grows [[thorns|jing-ji]]: a habit broken by violence leaves a waste where it stood, and something tough and unpleasant moves in. The middle stanza gives the alternative in the same domain, because sometimes one must act hard. Do the thing until [[it has borne|guo]]. Then stop. No story of victory, no new opinion of oneself, [[no high horse|jiao]]. And check the claim of [[necessity|bu-de-yi]] honestly. The last law is about energy: a state of mind [[held at its peak|zhuang-lao]] by effort is already on its way down.",
     "leading": "The speaker stands where many readers stand: not the owner, but [[the one who advises|ren-zhu]]. The first counsel is about means. A leader can usually get the next result by force: by threat, by a purge, by a price war, by pressure on the team. The adviser is asked to see the [[return|hao-huan]]: force teaches force, and the ground it crosses is poorer afterwards. The second counsel is about success, and it is rarer. When a hard action was truly needed and it worked, the danger starts. [[Five lines|guo]] list what to refuse: self-satisfaction, the public claim, the swagger, the reason found afterwards, and the use of this win to become the strong one. The military writers of the time [[said much the same|sunzi]]. An organisation at its [[forced peak|zhuang-lao]] should be read as old.",
-    "nature": "The passage reasons from fields and trees. An army is described as an ecological event: it [[settles|shi]] on worked land, and the land’s response is succession, the tough thorny shrubs that take a disturbed and abandoned plot. Then the harvest, which is what [[a year|xiong-nian]] is, fails. The alternative is also a plant: [[果|guo]], the fruit. A tree puts out blossom, sets fruit, ripens it, and is done; then it rests. It does not hold the fruit, and it does not treat the fruit as a reason to grow thorns. The last stanza is a law of organisms. Growth that is driven hard and early to a maximum, like a forced bulb or a crop on too much manure, [[is followed quickly by decline|zhuang-lao]]. The plant that lasts is never quite at full stretch.",
+    "nature": "The passage reasons from fields and trees. An army is described as an ecological event: it [[settles|shi]] on worked land, and the land’s response is succession, the tough thorny shrubs that take a disturbed and abandoned plot. Then the harvest, which is what [[a year|xiong-nian]] is, fails. The alternative is also a plant: [[果|guo]], the fruit. A tree puts out blossom, sets fruit, ripens it, and is done; then it rests. It does not hold the fruit, and it does not treat the fruit as a reason to grow thorns. The last stanza is a law of organisms. Growth that is driven hard and early to a maximum, like a forced bulb or a crop on too much manure, [[is followed quickly by decline|zhuang-lao]]. The plant that lasts is seldom at full stretch.",
     "practice": "Find one result this week that you got by pushing: an argument won, a child or colleague made to comply, your own body driven through tiredness. Go back and look at the ground where the force camped. What is growing there now: resentment, a flinch, a debt of sleep? That is the second stanza. Then take the next task that does need firmness and try the code. Before: ask if there is [[truly no other way|bu-de-yi]]. During: aim at [[the fruit|guo]] only, the one outcome needed. After: stop at once. Say nothing about it for a day. Notice the pull to mention it, to stand a little taller, to press the advantage. Each pull is one of the “and no…” lines. See which is strongest in you: the spear, the halberd, or [[the horse|jiao]]."
   },
+  "questions": [
+    {
+      "id": "comes-back",
+      "claim": "Force used on the world returns to the one who used it.",
+      "prompts": [
+        "Has this been true in your life? Recall one time when you forced a result. What came back, and when?",
+        "What did the people who raised you believe about force: that it works, or that it is paid for? Which of them do you sound like?",
+        "Hold the opposite for a while: force settles things, and those who refuse to use it are used by others. What do you feel when you hold that?",
+        "Which of these two views would you not want others to know that you hold? Why?"
+      ]
+    },
+    {
+      "id": "fruit-and-stop",
+      "claim": "It is enough to get the result and stop, with no pride and no further gain taken.",
+      "prompts": [
+        "Do you agree that a result can be enough? When did you last stop at the result?",
+        "What makes it hard for you to stop: a fear that the gain will not last, a wish to be seen, an old lack?",
+        "Now take the other side: a win should be pressed, and to stop early is to waste it. What thoughts and feelings arise?",
+        "Which does your body know better, the pressing or the stopping?"
+      ]
+    },
+    {
+      "id": "prime-then-old",
+      "claim": "What is pushed to its full strength has already begun to decline.",
+      "prompts": [
+        "Is that what you have seen in careers, bodies, or groups that you know?",
+        "Are you afraid of your own peak, or of what comes after it? Where did that fear begin?",
+        "Take the opposite: full strength is the point of a life, and to hold back is to live at half. What does that view wake in you?",
+        "What would you do differently this year if you believed one side fully?"
+      ]
+    }
+  ],
   "glyph": "果",
   "plates": [
     {

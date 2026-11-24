@@ -48,7 +48,7 @@
     "[[are evened of themselves|jun]].",
     "",
     "When [[the cutting begins|shi-zhi]], there are [[names|ming]].",
-    "Once the names are there,",
+    "[[Once the names are there|named-nameless]],",
     "it is time to [[know where to stop|zhi-zhi]].",
     "Know where to stop, and so be out of danger.",
     "",
@@ -196,6 +196,11 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "named-nameless": {
+      "kind": "pair",
+      "title": "無名 and 有名: the wood and the cut",
+      "body": "The passage moves between 無名, without name, and 有名, having names; between the [[uncarved wood|pu]] and [[the cut|shi-zhi]]. It is easy to read the first as pure and the second as a fall. The text does not say so. The names “are there now”, as a fact, and it asks for 知止, to know where to stop. The two sides need each other. “Nameless” is a name, and wood is called uncarved by someone who has seen a carved thing. They also turn into each other: the wood is cut into vessels, and streams with many names run to one sea. The lean toward the nameless answers an age that multiplied titles, ranks, and laws. It is not a rule against words. Wood that is not cut holds no water, and people with no names cannot call each other. Where does a name of yours serve, and where has it gone too far?"
     }
   },
   "lenses": {
@@ -205,6 +210,28 @@
     "nature": "Read the images in their order and you have the water cycle. Dew condenses out of the night air where sky and ground meet, and settles on every leaf [[without preference|jun]]; the Shuowen even calls the people [[“sprouts”|min]]. It gathers into [[streams in the valleys|jiang-hai]]. The streams reach the River, the River reaches the sea, the “pool of heaven”, and from the sea the water goes up to come down again as dew. No part of this is commanded, and no part can be [[made a servant|chen]]; people dam rivers, and the sea is not impressed. The passage sets one human act inside the cycle, [[the cut|shi-zhi]], and asks only that it know its limit: fields, ditches, and names, as far as needed. The uncarved wood is the forest that is still standing.",
     "practice": "Take the third movement as an experiment in [[stopping|zhi-zhi]]. Pick one thing today that you organise: your notes, a plan for the week, the rules in your house, the labels you put on a person you find difficult. You have already made cuts and given names. Ask where the next cut would be one too many, and stop one short of it. Leave one thing unsorted, one person undescribed. Then try the first movement for a few minutes. Sit, and look for what in your experience is plain and [[small|pu]] and has no name yet. Do not improve it. See if the thoughts that arrive can be received [[as guests|bin]]: respected, and free to go. And tomorrow, early, go out and look at the dew before the sun takes it. See who got more."
   },
+  "questions": [
+    {
+      "id": "know-stop",
+      "claim": "Names and divisions are needed, and safety lies in knowing where to stop them.",
+      "prompts": [
+        "Do you agree that naming can go too far? Where have you seen a name, a title, or a rule do harm?",
+        "Which names were put on you early: the clever one, the difficult one, the quiet one? How far do you still obey them?",
+        "Hold the opposite: more exact names bring more freedom, and what has no name cannot be cared for. What feelings and thoughts come?",
+        "Is there something in your life that you have named too much, or something that you refuse to name? Why might that be?"
+      ]
+    },
+    {
+      "id": "of-themselves",
+      "claim": "With no order from anyone, people share out evenly of themselves.",
+      "prompts": [
+        "Do you believe that? What have you seen that supports it, and what have you seen that does not?",
+        "How much were you ordered as a child, and how much were you trusted? How does that shape what you expect of others now?",
+        "Now take the other view: with no one in command, the strong take the most, and order must be made. Stay with it for a minute. What rises?",
+        "Which view do you apply to yourself: do you command yourself, or trust yourself? What would the other way feel like?"
+      ]
+    }
+  ],
   "glyph": "臣",
   "plates": [
     {

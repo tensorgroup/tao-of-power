@@ -48,7 +48,7 @@
   ],
   "rendering": [
     "[[Ruling a great state|da-guo]]",
-    "is like the [[cooking|peng]] of [[a small fish|xiao-xian]].",
+    "[[is like|pair-great-small]] the [[cooking|peng]] of [[a small fish|xiao-xian]].",
     "",
     "With the Dao [[presiding over|li]] all under heaven,",
     "its [[ghosts|gui]] [[have no spirit-force|bu-shen]].",
@@ -191,12 +191,17 @@
       "kind": "practice",
       "title": "Cook the fish",
       "body": "Do it for real once. Buy a few small whole fish, or take any food that breaks easily: a soft egg, a ripe pear in syrup, a fillet. Put it on low heat and cook it without touching it more than once. Watch what your hand wants to do. It wants to lift, to check, to turn, to press. Each of those is care, and each one harms. Notice the difference between attention, which stays with the pot, and handling. Then carry the two words into one thing that you are in charge of this week: a child’s homework, a colleague’s draft, a plant, your own mood. Give it attention, and count your handlings. The cook of small fish is not absent. The cook stands at the stove the whole time."
+    },
+    "pair-great-small": {
+      "kind": "pair",
+      "title": "大 / 小: the great handled as the small",
+      "body": "The first line rests on 大 and 小, great and small, joined by 若, “is like”. The Chinese does not rank them. It does not say that small is better, or that a great state is bad; it takes the great state as a fact. It says that the great thing is treated as one treats a small one. The pair crosses over: what is largest is, in the hand, easily broken, and the rough stirring that a big pot seems to allow is what ruins it. A second pair comes after: the seen and the unseen, people and [[ghosts|gui]], with the sage between. Here too neither side defeats the other. [[The two|liang]] stop harming each other, and the good goes both ways. A one-sided reading makes the first line a rule of doing little. But a cook does cook. There is fire, and attention, and a meal at the end."
     }
   },
   "lenses": {
     "ground": "The passage has a famous first line and a strange remainder. Line one is a likeness: [[a great state|da-guo]] is ruled as [[a small fish|xiao-xian]] is [[cooked|peng]]. Then the scene widens to all under heaven and to the unseen. With the Dao [[over|li]] the realm, the [[ghosts|gui]] [[lose their force|bu-shen]]; the text [[corrects itself twice|fei]], and comes to rest on harm: the spirits do not hurt people, and [[the sage|shengren]] “also” does not. The close says that [[the two|liang]] do not harm each other, and so [[德|de]] [[comes home from both sides|jiao-gui]]. The verb 傷, to wound, comes four times in forty-eight characters. That is the real subject. The fish, the ghosts, and the sage are three cases of one thing: a delicate body in the hands of a power that can ruin it by handling.",
     "inner": "Read the realm as yourself, and the ghosts as your own dead: old fears, old griefs, wrongs that you did and that were done to you. They do not go away. The text is careful here. [[非其鬼不神|fei]]: it is not that they have no force. What changes is that the force does not wound. A memory can be present and not be a haunting. How? The passage gives one instruction, and it is the first line: do not keep turning it over. A mind that handles its ghosts, that checks them, argues with them, tries to drive them out, feeds them. A mind that the Dao [[presides over|li]], which is to say a mind that is not being run by a nervous manager, gives them [[a place to go home to|gui]]. Then the inner ruler, too, stops being a source of harm, and 德 has room to return.",
-    "leading": "Three lessons for one who runs anything large. First, [[the cook’s|xiao-xian]]: the bigger and more delicate the thing, the less you may handle it. Reorganizations, new rules, and constant checks are stirring; [[Han Feizi|hanfei]] counted their cost, and the people pay it. Attention is not the same as handling. Second, the ghosts. Every institution has its unquiet dead: people who were wronged, old injuries that nobody names, fears that govern behaviour from the dark. A leader cannot abolish them by decree. Where rule is fair and light, they lose their grip, and nobody needs to speak of them. Third, [[Wang Bi’s|shengren]]: authority that is felt as authority is already in decline. Count yourself, as the text does, among the things that can hurt people. That one word, 亦, “also”, is the best check on a ruler in the book.",
+    "leading": "Three lessons for one who runs anything large. First, [[the cook’s|xiao-xian]]: the bigger and more delicate the thing, the lighter the hand that it asks for. Reorganizations, new rules, and constant checks are stirring; [[Han Feizi|hanfei]] counted their cost, and the people pay it. Attention is not the same as handling. Second, the ghosts. Every institution has its unquiet dead: people who were wronged, old injuries that nobody names, fears that govern behaviour from the dark. A leader cannot abolish them by decree. Where rule is fair and light, they lose their grip, and nobody needs to speak of them. Third, [[Wang Bi’s|shengren]]: authority that is felt as authority is already in decline. Count yourself, as the text does, among the things that can hurt people. That one word, 亦, “also”, is the best check on a ruler in the book.",
     "nature": "Things that are small and whole are damaged by handling: a seedling that is dug up to see if the roots have grown, a nest that is visited too often, a pond that is stirred. Ecologists have a hard-won rule that the first act of care is to stop the disturbance and wait. The passage then says a thing about fear in a landscape. Where people live at war with a place, it is full of dangerous spirits: every forest and river has one that must be bought off. Where they live well with it, the same forest is only a forest. Its powers are still there, as [[the text insists|fei]], and they do not strike. Both sides stop harming, and the good of each [[flows to the other|jiao-gui]].",
     "practice": "[[Cook the fish|practice]], in the kitchen and then in one piece of work. And once this week, when an old [[ghost|gui]] visits, a shame, a grudge, a dread, do not stir it. Do not argue with it or push it out. Give it a place: say what it is, let it sit, and turn back to what is in front of you. See if its force, which may remain, still wounds."
   },
@@ -219,6 +224,28 @@
       "title": "An offering over the fire",
       "lesson": "The bottom is fire: 灬, the four-dot form that 火 takes under another part, as in 煮 (to boil), 熟 (cooked, ripe), 熱 (hot), and 然 (to burn; then “so”). The top is 亨. That part has a history of its own. The Shuowen has no 烹 and no 亨; it has an older character, 亯, which it defines as 獻也, “to offer up”, and describes as 象進孰物形, “the shape of cooked things being presented”. It quotes the Classic of Filial Piety: 祭則鬼亯之, “at the sacrifice, the ghosts enjoy it”. From that one old graph three modern ones came, by small changes of the brush: 享, to offer and to enjoy; 亨, the success that follows an offering that is accepted, a key word of the Book of Changes; and, with fire added, 烹, to cook. So the cooking word in the first line has an altar in its past. Food was first cooked for the dead. That makes a bridge that the English reader cannot see: the pot of line one and the [[ghosts|gui]] of line two belong to one scene, a sacrifice. The quotation in the dictionary even names them together. The same root has a cruel branch, since 烹 was also [[a way to execute|peng]]. All of this is in the kitchen where the fish is cooking.",
       "brush": "Eleven strokes. A dot on top, then a horizontal: the lid. Then a small mouth in three strokes: a vertical; a horizontal that turns down; a closing horizontal. Then the lower part of 亨 in two strokes: a horizontal that turns and falls to the left in a short hook, and a vertical that curves and ends in a hook to the left. Then the fire, four dots from left to right: the first leans to the left, and the other three lean to the right, each a little larger than the one before. Watch the dots. They must sit on one level line and be spread wider than everything above, so that the pot stands on its flames. Keep the upper part narrow and tall. In running and cursive hands the four dots are often drawn as one wavy line, a single low flame, which is the right heat for a small fish."
+    }
+  ],
+  "questions": [
+    {
+      "id": "small-fish",
+      "claim": "A great thing is ruined by much handling and has to be treated like something small and delicate.",
+      "prompts": [
+        "Do you agree? Name something that you spoiled by stirring, and something that failed because you left it.",
+        "What makes it hard for you to leave a thing alone? What do you believe about yourself when you are not acting on it?",
+        "Take the opposite: big things need a firm and busy hand, and a light touch is a way to dodge the work. Stay with that view. What comes: energy, dread, a sense of being needed?",
+        "Whose handling of you, when you were small, do you still feel? Was it too much or too little? How does that shape your answer?"
+      ]
+    },
+    {
+      "id": "ghosts-unharmed",
+      "claim": "The old ghosts keep their force, yet under a quiet rule that force does no harm.",
+      "prompts": [
+        "Is that true of your own ghosts: the old fears, griefs, and wrongs? Has one of them been present and not hurt?",
+        "How do you deal with them as a habit: argue, push out, feed, obey? Where did you learn that way?",
+        "Now hold the other view: what haunts has to be faced and fought, and to let it sit is to let it rule. Believe it for a few minutes. What happens in you?",
+        "The passage counts the ruler among the things that can harm. In what way are you one of the things that can hurt the people near you? What makes that hard to look at?"
+      ]
     }
   ]
 }

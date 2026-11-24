@@ -91,7 +91,7 @@
     "",
     "So: [[not to be got hold of|bu-ke-de]] and drawn close,",
     "not to be got hold of and [[kept far|qin-shu]];",
-    "not to be got hold of and given gain,",
+    "not to be got hold of and [[given gain|pair-one-handle]],",
     "not to be got hold of and harmed;",
     "not to be got hold of and [[raised high|gui-jian]],",
     "not to be got hold of and brought low.",
@@ -230,13 +230,18 @@
       "kind": "legge",
       "title": "Legge’s nostrils",
       "body": "Legge’s version shows a Victorian reader at work with a text that leaves things out. The Chinese of the first line is four characters. He adds “(the Tao)”, “(care to)”, “(about it)”, and “(ever ready to)”: the knower now has a mood, and the speaker has a fault of character. For 塞其兌，閉其門 he writes that the sage will keep the mouth shut and close “the portals (of his nostrils)”. The nostrils come from later Daoist breath lore, and they turn a general line about the senses into a breathing technique. 玄同 is “the Mysterious Agreement”, with capitals and in quotation marks, like the name of a treaty. And each line gets a subject, “He”, “(Such an one)”. The effect is a portrait of a rare male adept. The Chinese has six verbs with no owner, which any reader may try on."
+    },
+    "pair-one-handle": {
+      "kind": "pair",
+      "title": "親 / 疏, 利 / 害, 貴 / 賤: three pairs, no side taken",
+      "body": "Six lines, three pairs: 親 and 疏, close and far; 利 and 害, gain and harm; 貴 and 賤, high and low. The grammar gives each side the same words, 不可得而, so no side is set above its partner. That is the point of the form. Most advice says how to get the first of each pair and avoid the second. The passage treats the two as one thing with two ends: [[whoever can be raised can be brought low|wangbi-pairs]]. To want one side is to be open to the other. A one-sided reading takes the lines as praise of distance. But 疏, far, is one of the six, and it is refused like the rest. The [[last line|tianxia-gui]] then uses 貴 once more. What kind of “high” has no “low”? The first two lines hold a pair as well, 知 and 言; see [[the book that speaks|bu-yan]]."
     }
   },
   "lenses": {
     "ground": "Three movements. First a pair of mirror lines, four characters each, built from only four different words: 知者不言，言者不知. Then six lines of three characters, all of one form: a verb, 其, a noun. [[Stop the openings|dui]], [[shut the gate|men]], [[blunt the point|rui]], [[untie the divisions|fen]], [[tune the light|he-guang]], [[be the same as the dust|tong-chen]]. They get a name, [[玄同|xuan-tong]]. Then six more lines, again of one form: [[不可得而|bu-ke-de]] and a verb, in three pairs of opposites: near and far, gain and harm, high and low. Then one line of result. Four of the six verb lines also stand in passage 4, where they have no person near them. The grammar never says who does any of this. We kept that: our English has “-ing” forms and no “he”.",
     "inner": "Why does the knower not speak? Not from a rule of secrecy. Speech needs a speaker who stands apart from the thing and points at it, and this knowing has no such distance in it; see the [[wheelwright|wheelwright]]. The six lines then describe how the distance closes. Each takes away a way of standing apart: the mouth that comments, the senses that go out to fetch, the edge that needs to be right, the knots of mine and yours, the glare of being someone. What is left is called [[the dark sameness|xuan-tong]]. It is not a union of two things, since the second thing is what was removed. The result is given only by negatives, and that is honest. From inside, nothing special is felt. From outside, a person [[cannot be got hold of|bu-ke-de]]. Praise finds no one to inflate. Blame finds no one to wound.",
     "leading": "The second half is a study of leverage. A court, a firm, or a family holds people by [[three ropes|qin-shu]]: closeness, reward and penalty, rank. [[Wang Bi|wangbi-pairs]] gives the mechanism: whoever can be drawn in can be shut out. A leader who needs to be liked can be steered by anyone who withholds liking. An adviser who wants the next title cannot say the true thing. The passage does not tell you to be aloof; 不可得而疏 says that this one cannot be pushed away either. It describes a person who is fully present and is not for sale. The first half says how such a person looks in a meeting: [[the light is tuned|he-guang]] to the room, and the point is off the blade. The loud ones are usually still learning. Beware one misuse. A show of mystery in order to gain value is only a subtler price.",
-    "body": "In the body the six lines are familiar to anyone who has sat in stillness or stood in a martial stance. The mouth closes and the tongue rests. The eyes soften and the hearing widens: the [[gate|men]] is shut, and yet sound still comes in. Then tension that has an [[edge|rui]], in the jaw, the hands, the brow, is let down. Then the [[knots|fen]]: the places where the breath does not pass. A body with no edge and no knot gives an opponent nothing to hold; in push-hands the skilled partner seems to be nowhere, and that is [[不可得|bu-ke-de]] in the flesh. The last two lines are about bearing. A trained person tends to shine. The better teachers look like nobody in particular: ordinary clothes, ordinary walk, [[one with the dust|tong-chen]].",
+    "body": "In the body the six lines are familiar to anyone who has sat in stillness or stood in a martial stance. The mouth closes and the tongue rests. The eyes soften and the hearing widens: the [[gate|men]] is shut, and yet sound still comes in. Then tension that has an [[edge|rui]], in the jaw, the hands, the brow, is let down. Then the [[knots|fen]]: the places where the breath does not pass. A body with no edge and no knot gives an opponent nothing to hold; in push-hands the skilled partner seems to be nowhere, and that is [[不可得|bu-ke-de]] in the flesh. The last two lines are about bearing. A trained person tends to shine. Many good teachers look like nobody in particular: ordinary clothes, ordinary walk, [[one with the dust|tong-chen]].",
     "practice": "Choose one conversation today and take [[the first line|bu-yan]] into it as a test. When you notice the wish to show that you know, a correction, a better story, the right term, let one such moment pass in silence. Watch what the wish does when it is not fed. Does the knowing become less? Then, afterwards, one of the three pairs: recall a recent word of praise and a recent word of blame, and find the place in the body where each took hold. That place is the [[handle|wangbi-pairs]]. You need not remove it. Only see that it is one handle, and that both pulled on it."
   },
   "glyph": "兌",
@@ -258,6 +263,28 @@
       "title": "A shell under a basket",
       "lesson": "The lower part is 貝, a cowrie, the small glossy sea-shell that was used as money in the Shang and early Zhou. The Shuowen calls it a picture and tells its history: shells were the currency, then came bronze coins, and 至秦廢貝行錢, “when the Qin came, shells were ended and coins were used”. The currency changed and the script did not: the shell is still in 買 (to buy), 賣 (to sell), 財 (wealth), 貨 (goods), 賞 (to reward), 貧 (poor), 賤 (cheap, base), and 寶 (treasure). The upper part of 貴 is harder. The Shuowen says that it gives the sound and that it is an old form of 蕢, a carrying basket. Some modern scholars see two hands in the early form. We cannot settle it; what the modern eye sees is a small load above a shell. The meaning is clear in any case: 物不賤也, “a thing that is not cheap”. From a high price the word went to high rank, and then to the act of esteem: to 貴 a thing is to hold it dear. All three senses are [[at work in this passage|gui-jian]], and the [[last line|tianxia-gui]] plays the first against the third. The noble are, in the script, the expensive.",
       "brush": "Twelve strokes. The top takes five: a short vertical; a horizontal that turns down; a horizontal that closes the small box; a vertical that goes through the box from above; then a long horizontal below. That long fifth stroke is the beam of the character. Watch it: all the upper part rests on it, and it reaches past the shell on both sides. Then the shell, seven strokes: a vertical; a horizontal that turns down; two short horizontals inside; a horizontal that closes the box; and two small legs, one that falls to the left and one dot to the right. The shell is tall and narrow, with even white bands inside. The legs are short; they are the last trace of the shell’s opening. In running script the inner lines of the shell join into a single zigzag."
+    }
+  ],
+  "questions": [
+    {
+      "id": "knower-silent",
+      "claim": "One who knows does not speak, and one who speaks does not know.",
+      "prompts": [
+        "Is this true of the people you have met? Count the cases for and against.",
+        "When do you speak in order to show that you know? What was it like, early in your life, not to be heard?",
+        "Take the opposite view: knowledge that is not spoken helps no one, and silence is often a hiding place. Stay there. What do you feel about your own silences?",
+        "Do the talkers annoy you, or the silent ones? What might the annoyance point at in you?"
+      ]
+    },
+    {
+      "id": "one-handle",
+      "claim": "A person who can be won by praise can be broken by blame; it is one handle.",
+      "prompts": [
+        "Do you agree that the two go together? Test it against one piece of praise that you still carry.",
+        "Whose good opinion did you most need when you were young? Is the same need at work today, under another name?",
+        "Now hold the opposite: to need the regard of others is human, and a person whom nothing can reach is cold. Believe that for a while. What does it protect, and what does it cost?",
+        "Which do you want more: to be free of the handle, or to be held by it? Answer before you pick the answer that sounds wiser."
+      ]
     }
   ]
 }

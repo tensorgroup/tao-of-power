@@ -137,7 +137,7 @@
     "Murky, murky.",
     "",
     "Common people are [[bright, bright|zhaozhao]];",
-    "I alone am dusk, dusk.",
+    "I alone am [[dusk, dusk|zhao-hun]].",
     "Common people are sharp, sharp;",
     "I alone am shut, shut.",
     "[[Swaying, like the sea|hai-sea]];",
@@ -329,6 +329,11 @@
       "kind": "practice",
       "title": "Be dim at the feast",
       "body": "The next time you are in a bright room, a party, a meeting, a feed on a screen where each person shines, try the speaker’s place for ten minutes. Do not perform, and do not withdraw in pride either; the passage has no pride in it. Let the face rest, like [[a face before its first smile|hai]]. Have no opinion ready. If someone asks what you do, try an answer with no [[use|yi-use]] in it. Notice the fear that comes: of being taken for a fool, a block, a person from nowhere. The passage names each of those fears and puts “I” in front of it. Then find the last line in your own body. Under the wish to shine there is something that is fed without effort: breath comes in, and you did not earn it. Stay there for three breaths."
+    },
+    "zhao-hun": {
+      "kind": "pair",
+      "title": "昭 and 昏: the crowd’s light, the speaker’s dusk",
+      "body": "The passage is built of pairs. At the start are 唯 and 阿, 善 and 惡, and the text asks how far apart the two sides are. Then come the crowd and the “I”: 昭昭 and 昏昏, bright and dusk; 察察 and 悶悶, sharp and shut; 有餘 and 遺, surplus and loss. The speaker stands on the dim side each time, and a reader may take this as a rank: dull is good, bright is bad. The tone does not allow it. The speaker does not boast; the words are 若, “as if”, and a cry: a fool’s heart! Brightness and dusk are also one day, and each comes out of the other. The lean to dusk answers an age that prized the sharp eye and the correct answer. It is a correction. A dimness that is worn as a badge is one more way to shine, and passage 24 has a word for that: 自見. Where are you bright by habit, and what rests in you at dusk?"
     }
   },
   "lenses": {
@@ -351,6 +356,38 @@
       "title": "The dog that walks alone",
       "lesson": "On the left is 犭, the side form of 犬, a dog. 犬 is 大 with a dot; the old forms are a dog drawn on end, with a lean body and a curled tail. As a side part it marks animals, mostly the wild and wilful ones: 狗 (dog), 狼 (wolf), 狐 (fox), 猴 (monkey), 猶 (the ape of passage 15), 獵 (to hunt), 狂 (mad), and 狀, “shape”, which the Shuowen defines as “the form of a dog”. On the right is 蜀. Alone it is the old name of Sichuan; the Shuowen explains it as a grub in the mallow plant, with 目 for its head and 虫, a creature, below. Here it gives the sound. Now the definition, one of the dictionary’s best: 犬相得而鬬也, “dogs, when they come together, fight”, and then a proverb: 羊爲羣，犬爲獨也, “sheep make a flock; a dog makes one alone”. The graph for a flock, 羣, has 羊, a sheep, in it; the graph for alone has the dog. So to be 獨 is not to be abandoned. It is to be the kind of animal that does not herd. The word has an honoured place in Chinese ethics. The Confucian classics ask a person to be watchful when 獨, alone and unobserved, and passage 25 of this book says that the Way 獨立, “stands alone”, and does not change. The speaker of this passage says [[我獨|du]] six times. The short form is 独: the dog, and only the 虫.",
       "brush": "Sixteen strokes: three for the dog, thirteen for 蜀. The dog: a short stroke that falls to the left; a long curved stroke that bends outward and ends in a hook; and a second falling stroke across its lower part. Keep it lean, with the curve like a back. Then the flat eye on top of the right side: a short vertical; a stroke that goes right and turns down; two short verticals inside; and the line that closes it. Under the eye, a falling stroke, and then a long stroke that goes right, turns, comes down, and hooks inward: it wraps the last part like an arm. Inside the wrap is 虫: a small box of three strokes, a vertical through it, a rising stroke at the foot, and a final dot. Watch the wrapping stroke. It decides the width of the whole right side, and the small creature must sit inside it with room to spare."
+    }
+  ],
+  "questions": [
+    {
+      "id": "good-and-foul",
+      "claim": "Good and bad, like a polite yes and a rude one, stand closer together than people say.",
+      "prompts": [
+        "Do you agree, or does the thought alarm you? Where does the alarm sit?",
+        "Think of a thing that you once called bad and now do not. What moved: the thing, or you?",
+        "Hold the opposite firmly: there is a real line between good and bad, and to blur it does harm. What do you feel as you hold it: safety, heat, relief?",
+        "Whom do you judge most sharply, and how far is that person from you on a tired day?"
+      ]
+    },
+    {
+      "id": "dim-alone",
+      "claim": "To be dim, unsure, and without a use, while others shine, can be a way to stay near the source.",
+      "prompts": [
+        "Does this ring true, or does it sound like an excuse? What in your own history makes it sound so?",
+        "Recall a time when everyone around you was sure and merry and you were not. What did you conclude about yourself then?",
+        "Take the crowd’s side: brightness, sharpness, and a place at the feast are good, and the one who stands apart is only afraid. Stay with that. What answers in you?",
+        "Which do you hide more: your dullness, or your shine? From whom?"
+      ]
+    },
+    {
+      "id": "borrowed-fear",
+      "claim": "What other people fear cannot simply be left unfeared.",
+      "prompts": [
+        "Do you agree that you must share the fears of those around you? Name one that you carry and did not choose.",
+        "Who would be hurt or angry if you put that fear down?",
+        "Hold the opposite: a fear that is only borrowed can be handed back today. What do you notice in the body as you think it?",
+        "What does the borrowed fear give you that you might not want to lose?"
+      ]
     }
   ]
 }

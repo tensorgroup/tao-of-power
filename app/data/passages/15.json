@@ -79,7 +79,7 @@
     "Blended, like [[muddy water|zhuo]].",
     "",
     "[[Who can|shu-neng]], muddy, through stillness, [[slowly|xu]] come clear?",
-    "Who can, at rest, through long movement, slowly come alive?",
+    "Who can, [[at rest, through long movement|jing-dong]], slowly come alive?",
     "",
     "Whoever keeps this way does not want to be [[full|ying]].",
     "Just because not full:",
@@ -246,6 +246,11 @@
       "kind": "practice",
       "title": "A jar of muddy water",
       "body": "Fill a glass jar with water and stir in a spoon of soil. Set it where you will pass it during the day. Do nothing to it. You cannot clear it by any act: to filter it with a finger, to shake it, to watch it with impatience, all keep it brown. In an hour the top is lighter. By evening there is clear water over a floor of silt. Nothing was removed; the mud is all still in the jar, and it has found its place. Then do the second half, which people forget. Pour the clear water on a plant. [[Rest, then long movement, then life.|shu-neng]] The next time your mind is thick with a problem, remember which one you are in: the stirring, the settling, or the pouring."
+    },
+    "jing-dong": {
+      "kind": "pair",
+      "title": "濁 and 清, 靜 and 動: the second question undoes the first",
+      "body": "The two questions hold two pairs: 濁 and 清, muddy and clear, and 靜 and 動, stillness and movement. It is easy to read them as a ranking: clear is the goal, and stillness is the way to it. But the second question starts where the first one ends, and it goes the other way. What is at rest comes alive through movement. So stillness clears the mud, and then movement stirs the settled water into life, which is muddy again. Neither state is the end. The portrait says the same: the masters are grave and loosening, solid and wide, and their last likeness is 濁, mud. The passage does favor one thing, 不盈, not to be full. That preference is aimed at an age that wanted each cup at the brim. It is not a rule to stay empty. The one who is not full can be [[worn|bi]], and passage 22 says that the worn is what becomes new. When did stillness last serve you, and when movement?"
     }
   },
   "lenses": {
@@ -269,6 +274,28 @@
       "title": "Two feet, one stream",
       "lesson": "Left: 氵, three drops, the short form of 水, water. Right: 步, a step. And 步 is itself two pictures. Its top is 止, which was a drawing of a foot, with the toes up (it now means “to stop”). Its bottom is the same foot turned the other way. The Shuowen says exactly that: 从止𣥂相背, “from a foot and its mirror image, back to back”. Left foot, right foot: one pace. So 涉 is water and two feet. The oracle-bone form is commonly described as even plainer: a stream that runs through the middle, with one footprint on each side of it. The Shuowen lists the word under a fuller graph with the water written twice, and defines it 徒行厲水也, “to cross water on foot”. That is the first sense: to wade, with no boat and no bridge. Then the meaning spread, as it does: to pass through (涉世, to go through the world), to have experience of, to be involved in (干涉, to interfere; 涉及, to touch upon). See the foot in its other homes: 正 (straight; commonly explained as a foot that marches on a town), 足 (the foot and leg), 走 (to run), 武 (commonly explained as a foot and a spear: to go to war), and in 辶, the walking sign of 道. The first portrait of the passage is [[a winter crossing|winter]]. In the character one foot is still on the near bank.",
       "brush": "Ten strokes: three, four, three. The water is two dots and a stroke that flicks upward; the flick points at the place where the right side begins, and in running script the three join in one wave. The upper foot, 止: a vertical; a short level stroke to its right; a short vertical at the left; and a long level base. That base is the bank, and it is the widest line in the character. Under it the second foot: a vertical in the centre, a dot to the left of it, and then the tenth stroke, a long sweep down to the left. Watch that last stroke; it is the leg that reaches out for the far side, and its slow thinning to a point is the whole movement of the word. Note what is absent: the lower part looks like 少, “few”, but it has no dot on the right."
+    }
+  ],
+  "questions": [
+    {
+      "id": "still-to-clear",
+      "claim": "Confusion clears by itself when it is left still; to stir it in order to fix it keeps it muddy.",
+      "prompts": [
+        "Has this been true for you? Recall one tangle that cleared when you left it, and one that got worse.",
+        "What happens in you when a matter is unclear and you do nothing? What do you fear will be said of you?",
+        "The passage itself gives the other side: what is at rest comes alive through movement. Take that as the main truth for a few minutes. What changes in the body?",
+        "Do you trust stillness or action more, and who taught you that trust?"
+      ]
+    },
+    {
+      "id": "not-full",
+      "claim": "The one who does not want to be full can stay worn and unfinished, and that is a strength.",
+      "prompts": [
+        "Do you agree, or does “unfinished” sound like failure to you?",
+        "Where did you learn that a person must look complete, new, on top of things? What happened to those who did not?",
+        "Hold the opposite: fullness is good, and a life should be filled to the brim while there is time. What does that view wake in you?",
+        "When you see someone who is content to look worn, what do you feel? What does the feeling say about you?"
+      ]
     }
   ]
 }

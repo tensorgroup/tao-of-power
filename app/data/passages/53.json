@@ -53,7 +53,7 @@
     "the granaries are very [[empty|xu]].",
     "[[Patterned silks|wencai]] are worn,",
     "[[sharp swords|jian]] at the belt;",
-    "glutted with drink and food,",
+    "[[glutted with drink and food|pair-empty-surplus]],",
     "with [[goods in surplus|yu]].",
     "This is called [[the robbers’ boast|daokua]].",
     "[[Not the Way|feidao]], indeed!"
@@ -147,7 +147,7 @@
     "yu": {
       "kind": "gap",
       "title": "有餘: surplus, and whose it is",
-      "body": "厭 is to be sated, full past wanting; the same graph means “to be sick of”. 餘 is what is left over; the Shuowen glosses it with 饒也, “abundance”, the word that it used for 益 in passage 48. 財貨有餘 is “wealth and goods in surplus”. A modern reader hears success: a surplus is good management. The Laozi uses 有餘 as a technical term, and passage 77 gives the rule. Heaven’s way takes from those who have surplus and gives to those who have not enough, like the bending of a bow. The way of people does the reverse: 損不足以奉有餘, “it takes from those who lack, to offer to those who have surplus”. Surplus, in this book, is always somebody’s shortage, moved. The list in this passage runs from the empty granary to the full table in four lines, and the reader is left to connect the two.",
+      "body": "厭 is to be sated, full past wanting; the same graph means “to be sick of”. 餘 is what is left over; the Shuowen glosses it with 饒也, “abundance”, the word that it used for 益 in passage 48. 財貨有餘 is “wealth and goods in surplus”. A modern reader hears success: a surplus is good management. The Laozi uses 有餘 as a technical term, and passage 77 shows it in motion. Heaven’s way takes from those who have surplus and gives to those who have not enough, like the bending of a bow. The way of people does the reverse: 損不足以奉有餘, “it takes from those who lack, to offer to those who have surplus”. Surplus, as passage 77 sees it, is somebody’s shortage, moved. The list in this passage runs from the empty granary to the full table in four lines, and the reader is left to connect the two.",
       "src": [
         "Shuowen Jiezi, 食部: 餘，饒也。从食余聲。",
         "Laozi 77"
@@ -199,6 +199,11 @@
       "kind": "practice",
       "title": "Find the weedy field",
       "body": "Apply the three lines to something that you help to run: a household, a team, your own week. First find the swept court: the part that is kept fine because it is seen, the front room, the report, the public face. Then look for the field that pays for it. What basic work, the kind that feeds everything else, has gone to weeds while the front was polished? Sleep, a friendship, the maintenance of a tool, the training of a new person. Then look in the granary: what reserve is empty? Do not fix all three. Take one hour this week from the court and give it to the field. And notice your own [[shortcut|jing]]: one place where you take the quick private path past a level public road."
+    },
+    "pair-empty-surplus": {
+      "kind": "pair",
+      "title": "虛 / 餘: the empty and the left over",
+      "body": "Two words in the list face each other: 虛, [[empty|xu]], for the granaries, and 餘, [[surplus|yu]], for the goods. With them stand the swept court and the weedy fields, and the level road and the shortcut. The lines put no “because” between them. They are set side by side, and the reader sees one fact with two faces: what is too much in one place is what is missing in the other. Here the text does judge. It calls the result robbery. But look at what it judges. It is not fullness: a full granary is the health of a state. It is not emptiness: the book praises that word elsewhere. It is the holding of the two apart, so that nothing flows back. Passage 77 shows the same pair in motion, as a bow that is bent: the high end comes down and the low end goes up."
     }
   },
   "lenses": {
@@ -227,6 +232,29 @@
       "title": "A person and a bow",
       "lesson": "The Shuowen analyses this character as two pictures laid one over the other: 从大从弓, “from 大 and from 弓”. 大 is a person seen from the front with arms and legs spread; it means “big”, and you can find its top stroke, its arms, and its two legs here. 弓 is a bow, with its curved stave: the three bends in the middle of this character. A person who carries a bow. The dictionary adds: 東方之人也, “the people of the east”, the coastal peoples whom the Zhou knew as archers. Modern scholars do not all accept this analysis of the earliest forms, so take it as the Han reading. The first definition that the Shuowen gives is the other sense: 平也, “level”. How the archer and the level ground came to share a graph is not known; the simplest view is that one word borrowed the other’s character. The level sense makes its own family: 夷 as a verb is to flatten, to raze a city, to wipe out a clan; a calm sea is 夷. In the Laozi the word belongs to the Way. It is the name of what the eye cannot catch (14), and it is the quality of the [[great road|yi]] here: 大道甚夷. Hold the two senses together for a moment. The Zhou drew the people at the edge of their world with this character, and the book uses it for the main highway.",
       "brush": "Six strokes. First a horizontal across the top: the arms of the person. Then the bow in three strokes: a horizontal that turns down at its right end; a second horizontal below it; and then a stroke that starts at the left, goes down, turns right, turns down again, and ends in a hook. These three must stack closely, like the folds of a stave. Watch the fifth stroke. It starts above the first horizontal, passes down through all the bends of the bow, and sweeps away to the lower left; it is the body and one leg of the person, and it joins everything. The sixth stroke is the other leg: from the centre down to the right, pressed harder as it goes, with a long sharp tail. The two legs must spread wide, because the bow in the middle is narrow and needs a base."
+    }
+  ],
+  "questions": [
+    {
+      "id": "level-road",
+      "claim": "The great road is level and plain, and people leave it because they love a shortcut.",
+      "prompts": [
+        "Is this true of you? Name one shortcut that you are on now.",
+        "What drew you to it: hurry, a fear of being left behind, the wish to be seen as someone? Where did that pull begin?",
+        "Take the opposite view: shortcuts are how anything new is found, and the level road is for those who lack nerve. Hold it for a while. Does some part of you cheer?",
+        "What do you think of people who stay on the plain road, year after year? Is there envy in the judgment, or contempt, or both?"
+      ]
+    },
+    {
+      "id": "surplus-is-theft",
+      "claim": "Great surplus beside empty granaries is a kind of theft, however lawful it looks.",
+      "prompts": [
+        "Do you agree, or is this too hard on those who have much? Where do you place yourself in the picture?",
+        "What did your family say about wealth and about the people who had it? What did they say about those who had little?",
+        "Now argue the other side with full force: surplus is the fruit of work and skill, and it takes nothing from anyone. Stay with it. Then notice the body: does it relax or tighten?",
+        "Leave the state aside and look at one life, your own. Is there a swept court in it that is paid for by a weedy field? What do you feel when you see it?",
+        "Which of the two views would be more costly for you to accept? Why is that worth knowing?"
+      ]
     }
   ]
 }

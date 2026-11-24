@@ -37,7 +37,7 @@
     }
   ],
   "rendering": [
-    "[[Heavy|zhong]] is the [[root|gen]] of light.",
+    "[[Heavy|zhong]] is the [[root|gen]] of [[light|zhong-qing]].",
     "[[Still|jing]] is the [[lord|jun]] of restless.",
     "",
     "So [[the sage|shengren]] travels the whole day",
@@ -189,6 +189,11 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "zhong-qing": {
+      "kind": "pair",
+      "title": "重 and 輕, 靜 and 躁: root and leaf",
+      "body": "Two pairs open the passage: 重 heavy and 輕 light, 靜 still and 躁 restless. The text does favor one side. It calls heavy the root and still the lord. But a root is the root of something, and a lord rules someone. The line does not say “be heavy, not light”. It says where the light gets its hold. The sage of the next lines travels the whole day; the wagons are for the march, and they do not replace it. The preference answers courts that prized the fast chariot and the fine view and forgot the supply train. It is not a rule for all time. The heavy side turns too: wagons with no march are a store that rots, and a root with no leaf is dead wood. Is your weight today a root, or is it a load?"
     }
   },
   "lenses": {
@@ -198,6 +203,28 @@
     "body": "Every art of balance knows the first line. A potter centres the clay before raising a wall. A rider sits heavy and has light hands. In the internal martial arts the teaching is nearly a quotation: sink the weight to the feet and the lower belly, and then the arms can be quick; if the weight rises to the chest, the hands are fast and have nothing behind them. Even the script agrees: the Shuowen makes 動, “to move”, from 力, strength, and 重, the heavy, which gives the sound. The second line is about the nervous system. 躁 has [[a foot in it|jing]]: the leg that jigs under the table, the urge to get up. Stillness “lords” it not by force. It is simply what is there when the feet stop. [[What does not move lets the rest move.|wb-unmoved]]",
     "practice": "Today, name your baggage wagons. Write down three slow, heavy things that everything else in your life eats from: perhaps sleep, one relationship, one piece of long work, the state of your accounts. Then look at the day’s plan and mark each item W, for wagon, or C, for light chariot. No blame goes with C; the text allows a full day of travel. Only check one thing at evening: did you leave the wagons out of sight at any point? If a [[splendid tower|rong-guan]] comes up in the day (an offer, a quarrel, a bright piece of news), try Wang Bi’s test. See it fully, and notice whether it [[passes through the heart|chao-ran]] or stays outside. Then go back to the carts."
   },
+  "questions": [
+    {
+      "id": "heavy-root",
+      "claim": "The light and quick live off the heavy and slow, and are lost when they leave it.",
+      "prompts": [
+        "Do you agree? Name one time when speed cost you your footing, and one time when it did not.",
+        "Where did you learn your answer: from a parent who was steady, or one who was not, or from a time when you were weighed down?",
+        "Now hold the other side: weight is the trap, and lightness keeps a person alive and able to leave. What feelings come with that?",
+        "Which do you judge more in other people, the heavy or the restless? What might that judgment say about you?"
+      ]
+    },
+    {
+      "id": "splendid-towers",
+      "claim": "A person can be among fine sights and honours and remain clear of them.",
+      "prompts": [
+        "Is that true in your life, or do the fine things get into you? Give one honest case.",
+        "What is your own splendid tower: praise, a view, a screen, a place at a table? When did it first take hold of you?",
+        "Take the opposite view: to stay clear is a kind of coldness, and a full life means to be moved and carried off at times. What rises in you as you hold that?",
+        "Why might it matter to know which of the two you live by?"
+      ]
+    }
+  ],
   "glyph": "重",
   "plates": [
     {

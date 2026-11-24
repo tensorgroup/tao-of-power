@@ -78,7 +78,7 @@
     "",
     "[[Fine words can be traded|mei-yan]];",
     "honoured conduct can [[raise a person over others|jia-ren]].",
-    "What is not good in a person:",
+    "[[What is not good in a person|shan-pair]]:",
     "[[what is there to throw away?|qi]]",
     "",
     "So when [[the Son of Heaven is set up|tianzi]]",
@@ -222,6 +222,11 @@
       "kind": "practice",
       "title": "Whom have you thrown away?",
       "body": "Sit for a few minutes with the question of the middle line: 何棄之有? First the people. Bring to mind one person whom you have written off: a relative, a former friend, someone at work, a public figure. You need not like them or let them back in. Only look for the act of throwing away, the moment when you put them in the basket and pushed. Is the person in fact gone from the house of things? Then turn it inward. What in yourself have you put out: a failure, a trait, a year of your life? The passage says that the Dao is the corner of the house where this, too, is kept. Nothing is asked of you there but to stop pushing the basket."
+    },
+    "shan-pair": {
+      "kind": "pair",
+      "title": "善 and 不善: one corner for both",
+      "body": "The passage names a pair, the good person (善人) and the person who is not good (不善人), and then gives both the same root. Dao is treasure to one and shelter to the other, and the two words, 寶 and 保, [[share one sound|bao]]. The text does not say that the two people are the same. It also does not rank them and send one away. Its question, 何棄之有, refuses the step from “not good” to “thrown out”. The close keeps both sides too: the seeker gets, and the guilty go free. A one-sided reading takes the passage as praise of the good, with some mercy added. But passage 2 says that when all know the good as good, the not-good is already there. Each is known by the other. Who would the good person be with no one to stand beside?"
     }
   },
   "lenses": {
@@ -250,6 +255,38 @@
       "title": "A fish-net, by order of the emperor",
       "lesson": "Top: 罒, a net, the flat form of 网. The Shuowen says that Fuxi knotted the first one of cord, to fish with. Bottom: 非, “is not, wrong”, which the dictionary derives from the two wings of a bird, spread back to back. A net over wrongdoing: the modern reader takes it as a picture of the law, and it is a good one. But the Shuowen says that this is an accident of politics. Its entry for 罪 reads: 捕魚竹网, “a bamboo net for catching fish”. That is all the character meant. The word “guilt, crime” had a character of its own, 辠: 自, a nose, above 辛, the sign of harsh punishment. The dictionary explains it as the offender who wrinkles the nose in bitter pain; many scholars think of the penalty of cutting off the nose. Then: 秦以辠似皇字，改爲罪. “Qin, since 辠 looked like the character 皇, changed it to 罪.” 皇 is “august”, the word that the First Emperor had just taken for his new title. He did not want “crime” to look like “emperor”, so crime was moved to the fish-net. The passage was written before that decree, with the nose and the knife. Its promise is that the one who has [[罪 goes free|zui-mian]]. In the form that we read now, a fish gets out of a net.",
       "brush": "Thirteen strokes. The net, five: a short vertical on the left; a horizontal that turns down on the right; two short verticals inside; and the closing horizontal. It is a wide, flat box with three even cells. Then 非, eight, in two halves. The left half: a vertical that curves away to the left at its foot; two short horizontals drawn from the left into it; and a third that rises to the right. The right half: a straight vertical; then three short horizontals that go rightward from it. Watch the two verticals. They stand back to back with a clear strip of white between, and the six short strokes stick out from them like the barbs of two feathers. The left vertical bends and the right one is straight. Keep the net wider than the wings, so that it covers them."
+    }
+  ],
+  "questions": [
+    {
+      "id": "nothing-thrown",
+      "claim": "A person who is not good is still kept by the Dao, and nothing in them calls for throwing away.",
+      "prompts": [
+        "Do you agree? Is there a person, or an act, that you hold to be past keeping?",
+        "Who was thrown away in the house or the school where you grew up? Were you ever close to being that one?",
+        "Take the opposite view: some things must be cut off, and a group that keeps everyone protects no one. What rises in you when you hold that?",
+        "What part of yourself have you put outside the door? What do you think of people who show that same part openly?"
+      ]
+    },
+    {
+      "id": "plain-gift",
+      "claim": "Plain counsel offered from a low seat is worth more than the richest gift.",
+      "prompts": [
+        "When did someone last give you the plain thing they saw, and not a present or praise? How did you take it?",
+        "What do you bring to people whose good opinion you want? What did you learn early about how to be welcome?",
+        "Hold the other side: a generous gift is love made visible, and plain talk is often cheap. Is there truth in that for you?",
+        "Which is harder for you, to give the jade or to sit down and say what you see? Why might that be worth knowing?"
+      ]
+    },
+    {
+      "id": "guilt-free",
+      "claim": "The one who seeks gets, and the one who carries guilt can go free.",
+      "prompts": [
+        "Do you believe that guilt can be let go with no payment? Where did you learn what guilt costs?",
+        "Is there a fault of your own that you still hold? Who would you be if it were let go?",
+        "Take the opposite: a debt must be paid, and to go free with no payment is unjust. Stay with that. Toward whom do you feel it most?",
+        "Do you allow others the release that you refuse yourself, or the reverse? What does the difference tell you?"
+      ]
     }
   ]
 }

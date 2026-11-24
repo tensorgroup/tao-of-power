@@ -42,7 +42,7 @@
     "must first be [[given|plot]].",
     "",
     "This is called [[the faint light|weiming]].",
-    "[[Soft and weak|rouruo]] overcome [[hard and strong|gangqiang]].",
+    "[[Soft and weak|rouruo]] [[overcome|sheng-turn]] [[hard and strong|gangqiang]].",
     "",
     "[[Fish|fish]] must not [[slip out of|tuo]] the deep.",
     "The [[state’s|guo]] [[sharp tools|liqi]]",
@@ -196,6 +196,11 @@
       "kind": "practice",
       "title": "Find the top of the breath",
       "body": "Sit and breathe in slowly until the lungs are full. Do not hold. At the top there is a point where the in-breath is complete and the out-breath has not started. Notice that you do not decide the turn. Fullness itself is the turn. Do this five times. Then look at one thing in your life that is now at full stretch: a workload, an argument, a success, a market. Do not predict. Only ask what the first small sign of the turn would be, and whether it is already there. That small sign is the [[faint light|weiming]]."
+    },
+    "sheng-turn": {
+      "kind": "pair",
+      "title": "A win that also turns",
+      "body": "The first eight lines are four pairs: drawn in and stretched, weak and strong, pulled down and raised, taken and given. Each side comes by way of the other. Then one line seems to end the game: 柔弱勝剛強, soft and weak overcome hard and strong. It has five characters, and none of them is “always”. Read with the lines before it, it is one more turn and not a final score. That which has overcome is now the strong one, and the second pair applies to it next. The preference for the [[soft|rouruo]] is a correction for states that trusted in walls and sharp tools. It names the side of the turn that the world of that time did not see: [[the faint light|weiming]]. If it is made into a fixed rule, “the weak win”, softness becomes a technique for winning, which is hardness with patience. What soft thing in you has become hard since it won?"
     }
   },
   "lenses": {
@@ -206,6 +211,38 @@
     "nature": "The four pairs are a description of each wave. Water draws back from the beach before the breaker; the trough is the stored wave. The moon is full on the night that it begins to wane. A forest grows dense, and the fuel for the fire is laid; a population of deer rises, and the grass that will starve it is eaten. Ecologists draw this as a loop of growth, peak, release, and renewal. None of it is a plot. The [[soft|rouruo]] things win by time: roots split rock, water cuts a gorge, grass comes back after the hard frost has broken the hard ground. And each creature has its [[deep|tuo]]. Take it from its element and admire it, and you have a specimen.",
     "practice": "Do the [[breath exercise|practice]] once today. Then choose one of the two prohibitions for the day. The fish: find one good thing that lives in your depth, a plan not yet ripe, a kindness, a skill, and for today do not take it out to show. Or the tools: notice each time you display a strength in order to control someone, a title, a fact, a sharp word. No rule against it. Only see what the display did to the tool, and to the other person."
   },
+  "questions": [
+    {
+      "id": "stretch-first",
+      "claim": "What is at full stretch is about to draw in; what is raised highest is near its fall.",
+      "prompts": [
+        "Do you see this in your own life: a height that was already the start of a turn?",
+        "When things go well, do you relax, or do you wait for the fall? Where did you learn to expect it, or to not expect it?",
+        "Take the opposite: growth can go on, and to look for the fall is what brings it. Hold that for a while. What do you feel?",
+        "Which side is hope for you and which is fear? What does that say about what you have lived?"
+      ]
+    },
+    {
+      "id": "soft-overcomes",
+      "claim": "The soft and weak overcome the hard and strong.",
+      "prompts": [
+        "Do you believe it? Give one case from your life for it and one against.",
+        "Were you soft or hard as a child, and what did it get you? What did you decide then about weakness?",
+        "Hold the other side: the hard and strong prevail, and softness is what the losers call their loss. Stay with it. What arises in you?",
+        "If the soft side wins, does it stay soft? What happened to a softness of yours after it won?"
+      ]
+    },
+    {
+      "id": "keep-hidden",
+      "claim": "Some things keep their life in the deep, and are lost when they are shown.",
+      "prompts": [
+        "Is there something of yours that lost its life when you showed it?",
+        "What do you hide, and from whom? Is it protection, or is it shame?",
+        "Take the opposite: what is hidden rots, and things become real when they are shared. Hold it. What feelings and thoughts come?",
+        "Which do you resist more, to be seen or to stay unseen? Why might that be useful to know?"
+      ]
+    }
+  ],
   "glyph": "奪",
   "plates": [
     {

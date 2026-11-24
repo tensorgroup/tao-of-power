@@ -45,7 +45,7 @@
   "rendering": [
     "One [[good at|shan]] being an [[officer|shi]] is [[not martial|wu]].",
     "One good at fighting is [[not angry|nu]].",
-    "One good at beating an enemy [[does not engage|yu]].",
+    "One good at [[beating an enemy|zheng-pair]] [[does not engage|yu]].",
     "One good at [[using people|yongren]] [[goes below them|xia]].",
     "",
     "This is called the [[de of not contending|de]].",
@@ -180,6 +180,11 @@
       "kind": "practice",
       "title": "Find the first heat",
       "body": "Anger has a first sign in the body, and it comes before any thought of being wronged: heat in the face or chest, a tight jaw, a breath that stops high. Today, in one disagreement, look for that sign. You do not have to stop the anger. Note only where the sign is, and let one full breath go out before you speak. See what the delay changes. The second experiment is for a moment when you need something from another person. Before you ask, put yourself below: ask what they see, what they would do, what they need for the work. Then say what you need. Wang Bi says that strength [[will not serve|wangbi]] the one who stays above. Find out if he is right."
+    },
+    "zheng-pair": {
+      "kind": "pair",
+      "title": "勝 and 不爭: a contest with no pull",
+      "body": "The pair here is contending and not contending, with above and below beside it. The passage does not refuse the contest. Its people are an officer, a fighter, a victor, and a user of others, and each is called 善, good at the work. The fight still happens, and the enemy is still beaten, 勝. What is removed is the pull: the martial show, the anger, the clash, the high seat. So [[不爭|de]] is not the opposite of winning here. It is the manner in which the skilled one wins. A one-sided reading goes two ways. One hears a refusal of all fighting, and loses the soldier. One hears a trick for victory, and loses the last lines, which end at heaven and not at the enemy’s camp. The preference for the low and the cool corrects [[a world of generals|bingjia]] who prized display. It also turns: the one who goes below is given the strength of others and stands, for a time, above."
     }
   },
   "lenses": {
@@ -202,6 +207,28 @@
       "title": "Beside the wine jar",
       "lesson": "The left side is 酉, and it is a picture of a jar: a narrow neck, a wide body, and lines for the liquid or the bands. The Shuowen ties it to the season: 八月黍成，可爲酎酒, “in the eighth month the millet is ripe and can be made into strong wine”. 酉 marks the words of fermenting and drinking: 酒, wine, with water added at the left; 醉, drunk; 醒, to become sober, to wake; 酬, to pour in return, to repay; and 醫, a doctor, since wine was a medicine. It is also the tenth of the twelve branches, the hour of the evening. The right side of 配 is now written 己, and the Shuowen takes it as the sound and defines the whole as 酒色也, “the colour of wine”. The early forms are commonly explained differently: a person who kneels beside the jar. From that scene, it is thought, comes the main sense: to stand by, to be the partner of, to match. 配 is to mate, to blend, to fit one thing to another; 妃, a consort, is defined in the Shuowen as 匹也, “a mate”, and has the same right-hand part. In the ancestral rite, wine was the offering, and the ancestor who was [[paired with heaven|peitian]] received it at heaven’s side. The character keeps the jar.",
       "brush": "Ten strokes: seven for the jar, three for its partner. The jar: a horizontal across the top; the left side; the top and right side in one stroke with a corner; then, inside, a short stroke that falls to the left and a short vertical that bends at its foot; then a horizontal inside, and the base. Keep the jar tall and narrow, because it must give room to its neighbour. Then the right side: a horizontal that turns down at a corner; a short horizontal that closes it; and last a long stroke that goes down, bends, runs to the right along the base, and ends in a hook that turns up. Watch the last stroke: it reaches under the right half like a mat. The two halves should stand level, like two persons at one table. Neither is the larger."
+    }
+  ],
+  "questions": [
+    {
+      "id": "no-anger",
+      "claim": "The one who fights well does not fight from anger.",
+      "prompts": [
+        "Do you agree? Recall a conflict that you entered hot and one that you entered cool.",
+        "What was done with anger in your first home? What do you do with it now?",
+        "Take the opposite: anger is the proper answer to a wrong, and a fighter with none does not care enough. What in you says yes to that?",
+        "When another person stays calm in a quarrel with you, what do you feel toward them? What does that tell you?"
+      ]
+    },
+    {
+      "id": "use-from-below",
+      "claim": "The one who is good at bringing out the strength of others places themselves below those others.",
+      "prompts": [
+        "Who has brought out your strength? Where did that person stand in relation to you?",
+        "Is it hard for you to have someone in the room who is better than you are? Where does that come from?",
+        "Hold the other view: people work best under a firm hand from above. When has that been true for you, as leader or as led?",
+        "Does “going below” feel to you like strength or like loss of standing? Why might that be worth knowing?"
+      ]
     }
   ]
 }

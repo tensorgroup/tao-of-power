@@ -48,7 +48,7 @@
   "rendering": [
     "[[My words|wuyan]] are [[very easy|wangbi]] to know,",
     "very easy to [[walk|xing]].",
-    "Under heaven no one can know them,",
+    "Under heaven [[no one can know them|yi-mo-pair]],",
     "no one can walk them.",
     "",
     "Words have [[an ancestor|zong]].",
@@ -197,6 +197,11 @@
       "kind": "practice",
       "title": "One thing unshown",
       "body": "Today, do one good thing or have one good thought, and show it to no one. Do not mention it, do not hint, and do not post it. Keep it as the sage keeps the jade: [[inside the robe|huai]]. Then watch the mind for the rest of the day. It will look for a way to be known: a casual remark, a tone of voice. Notice how strong the pull is, and what you believe would be added if someone knew. Tomorrow, try the other half. Wear the coarse cloth: in one meeting, let a point of yours go without your name on it, or let someone else explain what you know well. Ask afterward what was lost. The passage says that the price went up."
+    },
+    "yi-mo-pair": {
+      "kind": "pair",
+      "title": "易 and 莫能, 褐 and 玉: easy, and out of reach",
+      "body": "The first four lines hold a pair in its sharpest form: very easy, and no one can. The text does not solve it. Both are said of the same words. [[Wang Bi|wangbi]] puts the difficulty in the hearers, but the passage leaves the two statements side by side. A second pair closes it: [[coarse cloth|he]] outside and [[jade|yu]] inside, the plain and the precious on one body. A third joins them: few and dear, 希 and 貴. A one-sided reading makes the speaker a hidden superior and the world a crowd of fools. That misses the dependence. The jade is [[dear because few know it|zegui]], so the world’s not-knowing is part of its price. And cloth with no jade is only cloth. The preference for the plain outside answers [[a market|market]] where worth was shown and sold. It also turns: coarse cloth that is worn in order to be noticed is one more display."
     }
   },
   "lenses": {
@@ -219,6 +224,28 @@
       "title": "Three stones on a cord",
       "lesson": "Three horizontal lines and one vertical through them: the Shuowen says 象三玉之連，丨其貫也, “it shows three pieces of jade joined; the vertical is the cord through them”. Jade was drilled and threaded, and it was worn and given in strings. That early graph looks almost the same as 王, “king”, and for centuries scribes told the two apart only by the spacing of the lines. The dot was added later to mark the jade. The side form never took the dot, so wherever you see 王 at the left of a character, it is jade and no king: 珍, precious; 理, to work jade along its veins, and so “pattern, reason”; 玩, to handle and enjoy; 環, a ring. The Shuowen says that 寶, treasure, has it under a roof, and that 弄, “to play with”, is two hands that hold it: 从廾持玉. The simplified 国, “state”, even puts jade inside the border. Jade is not a jewel in the Western sense. It does not sparkle. It is valued for a dense, soft light, a cool touch, and a clear note when struck, and writers found in it the qualities of a person: warm and firm, and with flaws that are not hidden. Here the sage [[holds it where no one sees|yu]]. The king has four strokes. The jade has five: the king, and one small thing kept at the side.",
       "brush": "Five strokes. The first horizontal, short. The second horizontal, shorter or equal, set a little nearer the first than the last. Then the vertical, straight through the centre from the first line to where the base will be. Then the long base horizontal, which is the widest stroke and carries the others. Last the dot. It sits at the right, in the space between the second line and the base, and it falls to the right. Watch the dot. It is written last and is the lightest stroke, and it changes the character’s whole meaning. If it is too large, it crowds the lower room; if too far out, it leaves the character. In seal script there is no dot, and the three lines are evenly spaced, like three discs on a string."
+    }
+  ],
+  "questions": [
+    {
+      "id": "easy-unwalked",
+      "claim": "What is asked is very easy to know and to do, and still no one under heaven does it.",
+      "prompts": [
+        "Is there something in your own life that is easy to know, easy to do, and not done? Name it.",
+        "What stands between the knowing and the doing: desire, hurry, the wish for something more impressive?",
+        "Take the opposite: what matters is hard, and what is easy cannot be worth much. Where did you learn to trust the difficult?",
+        "If the important thing were simple and already at hand, what would you lose? What effort would have nowhere to go?"
+      ]
+    },
+    {
+      "id": "unknown-worth",
+      "claim": "Worth does not need to be seen; it can be carried inside under a plain surface.",
+      "prompts": [
+        "Do you believe this, or do you feel that worth unseen is worth lost?",
+        "What did being noticed mean when you were young? What did being passed over mean?",
+        "Hold the other side for a while: a gift is for use, and to hide it is pride or fear. Which word fits you more?",
+        "When you keep something unshown, is it jade against the skin or a card held back? What do you think of people who show everything?"
+      ]
     }
   ]
 }

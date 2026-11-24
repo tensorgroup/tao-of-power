@@ -92,7 +92,7 @@
     "",
     "Now things, [[thick and teeming|yunyun]],",
     "each [[go home again to the root|guigen]].",
-    "Going home to the root is called stillness.",
+    "[[Going home to the root|zuo-fu]] is called stillness.",
     "This is called [[reporting back on the charge|fuming]].",
     "To report back on the charge is called [[the constant|chang]].",
     "To know the constant is called [[bright|ming]].",
@@ -272,6 +272,11 @@
       "kind": "practice",
       "title": "Watch one thing go home",
       "body": "Sit upright for five minutes. Do not try to empty the mind; that is one more [[rising|zuo]]. Let things rise as they wish: a sound, an itch, a plan, a memory. Your one task is the second half of each. Each of them, if you do not feed it, goes back. The sound ends. The itch fades. The plan runs out of words. Watch for the place where each one goes, as you would watch where a bird lands. You will find that you seldom see it; attention jumps to the next rising before the last has gone home. After some days it gets easier. The passage says that this watching has a result that is not mystical at all: [[room|rong]]. What returns by itself does not need to be pushed away."
+    },
+    "zuo-fu": {
+      "kind": "pair",
+      "title": "作 and 復, 動 and 靜: one arc",
+      "body": "The pairs here are 作 and 復, rising and return, and with them 動 and 靜, movement and stillness. The passage leans to one side. It tells the reader to keep stillness, and it calls the return “the constant”. [[Wang Bi|wangbi-fu]] makes that lean a rank: stillness is the ground. The text itself is more even. The things rise 並, side by side, and no line blames them for it. What it calls ill-omened is 妄作, rising that does not know the return. So the lean is a correction. People see risings easily and miss returns, and the passage points to the half that they miss. The favored side turns too. A root is where the next shoot starts, and [[the hexagram of Return|guanfu]] shows one light line that already comes back under five dark ones. A stillness that refused to rise again would also fail to know the constant. Which half of the arc do you see less often?"
     }
   },
   "lenses": {
@@ -295,6 +300,38 @@
       "title": "Stillness, with a tug-of-war inside",
       "lesson": "Two parts, and each has two parts more. On the left is 青, the colour of living plants: blue-green. The Shuowen calls it 東方色也, “the colour of the east”, and reads the graph as 生 over 丹. 生 is a sprout that comes out of the ground. 丹 is the red mineral cinnabar, in its pit; it stands here for mineral colour in general. So 青 is “the colour of that which grows”. You know its family: 清 (clear water), 晴 (clear sky), 精 (fine, pure rice; essence), 情 (feeling), 請 (to ask). On the right is 爭, to contend. The Shuowen glosses it 引也, “to pull”, and its seal form is commonly explained as two hands, one above and one below, that pull at one thing. The Laozi uses this word for what the sage and water do not do: 不爭. So the character for [[stillness|jing]] contains the character for struggle. The Shuowen says that 爭 gives only the sound, and that is surely right. Still, each reader of Chinese sees it there, and it is a true picture of an hour of sitting: clear green on one side, and a tug-of-war on the other. The Shuowen’s meaning for the whole is 審也, “to examine closely”. A short form, 静, is used today on the mainland and in Japan. Passage 45 says 清靜為天下正: “clear and still, the measure of the world”. Both of its key words have 青 in them.",
       "brush": "Sixteen strokes, eight and eight. 青 first: two level strokes, a vertical through them, and a longer level stroke that is the ground under the sprout. Below it, the form that looks like 月: a vertical; a stroke that goes right, turns down, and hooks; and two short level strokes inside. Then 爭: a flat stroke that falls to the left; two dots; a short falling stroke. These four are the upper hand. Next, a level stroke that turns down; a long level stroke that crosses out to the right; one more level stroke below. Watch the sixteenth stroke: a vertical with a hook that goes down through all three, and joins them as a hand closes. Each half has many level lines. The skill is to keep them evenly spaced and not quite parallel, so that the two halves of the character are still and do not look frozen."
+    }
+  ],
+  "questions": [
+    {
+      "id": "all-return",
+      "claim": "Each thing that rises goes home to its root, and to know this is to see clearly.",
+      "prompts": [
+        "Do you hold this as a fact, or only as a comfort? What in your life has not come back to its root?",
+        "Think of a thing that you built and that is now going down. What did you learn, early, about endings?",
+        "Take the opposite view: growth can go on, and what returns to the root has failed. Stay with it. What does it promise you, and what does it ask?",
+        "Is the return sad to you or a relief, and what past loss speaks in that answer?"
+      ]
+    },
+    {
+      "id": "stillness-home",
+      "claim": "Stillness is the home state, and rising and action are a journey out from it.",
+      "prompts": [
+        "Does that match what you feel? When you are still, are you at home, or are you waiting?",
+        "What were you told as a child about sitting still, and about being busy? Which of the two earned love?",
+        "Later thinkers answered that the heart of heaven and earth is life and motion, and that stillness is a pause in it. Take their side for a few minutes. What do you notice?",
+        "Which do you call other people more often: lazy, or restless? Could that word point at a part of you that you do not let live?"
+      ]
+    },
+    {
+      "id": "wild-rising",
+      "claim": "Action that does not know the return is blind, and it ends in harm.",
+      "prompts": [
+        "Do you agree? Find one plan of yours that assumes that the present trend will hold.",
+        "When you act fast and far, what are you afraid will happen if you wait?",
+        "The other side says: one who waits to know the whole arc does not act at all, and boldness opens roads. What in you agrees?",
+        "What has each side cost you so far, and which cost do you prefer not to count?"
+      ]
     }
   ]
 }

@@ -59,7 +59,7 @@
     "Not to govern a state by cleverness",
     "is the state’s [[good fortune|fu]].",
     "",
-    "To know these two is also the [[pattern to check by|jishi]].",
+    "To know [[these two|liang-zhe-pair]] is also the [[pattern to check by|jishi]].",
     "To know the pattern always:",
     "this is called [[dark de|xuande]].",
     "Dark de is deep. It is far.",
@@ -130,7 +130,7 @@
     "fu": {
       "kind": "wordplay",
       "title": "賊 and 福: a rhyme you cannot hear",
-      "body": "The two verdicts rhymed. In the old sound system 賊 and 福 belong to one rhyme group (the 職 group), and the Mawangdui reading 德 is in the same group. Mandarin has moved them apart: zéi, fú, dé. A Warring States listener heard a couplet with a click at the end, like a proverb. 福 is the common word for good fortune; it is on red paper at every Chinese New Year. The Shuowen defines it 祐也, “help from above”. Its left part, 示, is the sign of an altar, so the fortune is first a thing received from ancestors and spirits and not a thing made. Passage 58 says that fortune and disaster lean on each other. Here the rule is simple for once: one way of rule harms, and one is a gift.",
+      "body": "The two verdicts rhymed. In the old sound system 賊 and 福 belong to one rhyme group (the 職 group), and the Mawangdui reading 德 is in the same group. Mandarin has moved them apart: zéi, fú, dé. A Warring States listener heard a couplet with a click at the end, like a proverb. 福 is the common word for good fortune; it is on red paper at every Chinese New Year. The Shuowen defines it 祐也, “help from above”. Its left part, 示, is the sign of an altar, so the fortune is first a thing received from ancestors and spirits and not a thing made. Passage 58 says that fortune and disaster lean on each other. Here the verdict is plain: one way of rule harms, and one is a gift. Even so, the passage asks the reader to know [[both|liang-zhe-pair]].",
       "src": [
         "Laozi 58"
       ]
@@ -194,6 +194,11 @@
       "kind": "practice",
       "title": "One day without the angle",
       "body": "Cleverness in this passage is a specific habit: to look at a person and see what can be got, and how. For one day, in one relation, put it down. Choose a person you often manage a little: a child, a colleague, a partner. Do not arrange the words to get the result. Do not hint. Do not praise in order to move. Say the plain thing, ask the plain question, and let the answer be what it is. Notice the moment when the angle appears in your mind; it is quick and it feels like intelligence. Notice also what the other person does when no technique is used on them. Wang Bi says that people [[learn the ruler’s method|wangbi]]. What have the people near you learned from yours?"
+    },
+    "liang-zhe-pair": {
+      "kind": "pair",
+      "title": "兩者: bright and simple, ruin and fortune",
+      "body": "兩者, “these two”, are the two ways of rule and their results: 賊 and 福, [[ruin and good fortune|fu]]. Behind them is a second pair, 明 and 愚, bright and [[simple|yu]], with 智, cleverness, on the bright side. The text takes a side here, and we do not hide it. But see what the preference is for. It answers an age in which rulers and advisers prized cunning, and each clever law bred a more clever evasion. It is not a rule that knowing is bad: this very line asks the ruler to 知, to know, both sides. Elsewhere 明 is praised; to know the constant is called 明 (16). The favoured side also turns. Simplicity that is ordered from above becomes [[a policy of ignorance|legalist]], and that is one more piece of cleverness. Passage 58 says that fortune and disaster lean on each other. The standard is to keep both in view."
     }
   },
   "lenses": {
@@ -216,6 +221,28 @@
       "title": "A head beside a stream",
       "lesson": "At the left are three lines that fall side by side: 川, a river. The Shuowen calls 川 water that 貫穿通流, “passes through and flows on”; the oldest forms are lines of current between two banks. At the right is 頁. The Shuowen says 頭也, “the head”; the graph is a large head with its hair above a small body, and it marks parts of the head in 頭 (head), 頂 (crown), 額 (forehead), 顏 (face), and 頸 (neck). The Shuowen lists 順 as a joint meaning, 从頁从巛, head and stream, and defines it 理也: to follow the lines in a thing, as a jade worker follows the veins of the stone. So the picture is a person who faces the way the water runs. Two cousins take 川 for the sound, and both keep the idea: 訓, “to instruct”, with 言, speech, which the Shuowen explains as 說教也; and 馴, “tame”, with 馬, a horse, of which the Shuowen says 馬順也, “a horse that goes along”. The opposite word is 逆, to meet head-on, to go upstream. In Confucian texts 順 often means a son’s or a subject’s obedience. This passage uses the same word with no superior in it: the [[great going-along|dashun]] has no one at the head of the stream.",
       "brush": "Twelve strokes: three for the river, nine for the head. The river first: a stroke that curves down to the left, a short vertical, and a long vertical. They must not be parallel bars. The first leans, the second is short and waits, the third is the longest and straightest; together they should move like water. Then 頁: a horizontal across the top; a short stroke that falls to the left under it; then a tall box in five strokes: left side, top and right side with one corner, two horizontals inside, and the base. Last come two small strokes under the box, one to the left and one to the right, like feet. Watch the white channels between the three river strokes. In seal script the three were curved and equal. The clerical and regular scripts made them unequal, and so gave the stream a direction."
+    }
+  ],
+  "questions": [
+    {
+      "id": "clever-rule",
+      "claim": "To govern by cleverness ruins a state; to govern without it is the state’s good fortune.",
+      "prompts": [
+        "Does your experience of leaders, parents, or teachers bear this out? Give one case each way.",
+        "When were you last clever with someone and not plain? What were you guarding?",
+        "Take the other side: a ruler with no cunning is eaten by those who have it. How much of your own cleverness comes from that fear?",
+        "Do you trust plain people more than clever ones, or less? Where did you learn that?"
+      ]
+    },
+    {
+      "id": "simple-people",
+      "claim": "People are easier to live with and to lead when they are simple than when they are sharp.",
+      "prompts": [
+        "This line has been used to keep people ignorant. Before you reject it or accept it, what is your first feeling on reading it?",
+        "Were you praised as a child for being bright? What did that praise ask you to give up?",
+        "Hold the opposite: light is good, and more knowing makes people more free. Then hold the passage’s side. Does one of them feel like home?",
+        "Is there a kind of knowing in you that makes you worse at living with others? Is there a kind of simplicity that you look down on?"
+      ]
     }
   ]
 }

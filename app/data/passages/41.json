@@ -108,7 +108,7 @@
     "So the [[Established Sayings|jianyan]] have it:",
     "",
     "The bright way [[seems|seems]] [[dim|mei]].",
-    "The way forward seems to go back.",
+    "The way forward [[seems to go back|pair-forward-back]].",
     "The level way seems [[knotted|lei]].",
     "Highest de seems a valley.",
     "Great white seems [[soiled|ru]].",
@@ -275,10 +275,15 @@
       "kind": "practice",
       "title": "Three hearers in one day",
       "body": "Take one line of the passage for the day; for example, “the way forward seems to go back”. Watch for the three hearers in yourself. In the morning you may be the first: you see where it applies and you act on it. By noon you are the second: you have forgotten the line, then remember it, then doubt it. At some point you will be the third: the line will seem naive, or useless in the real world, and you will smile at it. Note the exact moment of that smile and what you were protecting. Do not correct any of the three. Only see that all of them heard the same words."
+    },
+    "pair-forward-back": {
+      "kind": "pair",
+      "title": "明/昧, 進/退: what 若 does to a pair",
+      "body": "Eight sayings put a quality beside its opposite: bright 明 and dim 昧, forward 進 and back 退, level 夷 and knotted 纇, white 白 and soiled 辱. The joint is 若, [[“seems”|seems]]. The word does not say that dim is the true bright, and it does not tell the reader to seek dimness. It says that the large form of one side has room for the look of the other. A way that could not seem dim would be a glare. An advance with no step back in it does not last a mile. So the pairs are not ranked; each side is seen through the other. The scene at the start makes the same point with people: there is a highest scholar and a lowest, and [[the laugh|buzu]] of the lowest is needed. A one-sided reading trusts only the bright look, or it learns to distrust that look and collects dim looks as proof of depth. Both judge by looks. Which look do you trust too fast?"
     }
   },
   "lenses": {
-    "ground": "Three parts. First a scene with three [[scholars|shi]] and three responses to one teaching: [[toil|qin]], [[wavering|cunwang]], [[loud laughter|xiao]], and the remark that [[the laughter is required|buzu]]. Second, a citation: twelve old sayings from the [[“Established Sayings”|jianyan]], eleven of four characters and one of five. Eight say that a good thing [[seems|seems]] its opposite: bright seems [[dim|mei]], level seems [[knotted|lei]], white seems [[soiled|ru]]. Four say that the great form of a thing lacks its mark: a square with [[no corners|corner]], a vessel [[not finished|wancheng]], a note with [[hardly a sound|xisheng]]. Third, a summary of two lines: the Dao is [[hidden and unnamed|silk]], and it alone [[lends and completes|dai]]. The twelve sayings explain the laughter. If the real thing always looks like its opposite, then a sensible man, who judges by looks, must laugh.",
+    "ground": "Three parts. First a scene with three [[scholars|shi]] and three responses to one teaching: [[toil|qin]], [[wavering|cunwang]], [[loud laughter|xiao]], and the remark that [[the laughter is required|buzu]]. Second, a citation: twelve old sayings from the [[“Established Sayings”|jianyan]], eleven of four characters and one of five. Eight say that a good thing [[seems|seems]] its opposite: bright seems [[dim|mei]], level seems [[knotted|lei]], white seems [[soiled|ru]]. Four say that the great form of a thing lacks its mark: a square with [[no corners|corner]], a vessel [[not finished|wancheng]], a note with [[hardly a sound|xisheng]]. Third, a summary of two lines: the Dao is [[hidden and unnamed|silk]], and it alone [[lends and completes|dai]]. The twelve sayings explain the laughter. If the real thing can look like its opposite, then a sensible person, who judges by looks, must laugh.",
     "inner": "The three hearers are not three people. They are three moments of one mind, and they can come within an hour. There is the moment of plain recognition, when hearing and doing are one. There is [[the wavering|cunwang]], and it is honest: the thing in question does seem there and seem not there. And there is the laugh, the mind’s quick defense of what it already knows. The twelve sayings are a preparation for how the path will feel from inside. Clarity will feel like [[dimness|mei]], since the old certainty is gone. Progress will feel like retreat, since one has less to show. The even state will feel [[lumpy|lei]]. If your practice feels like a steady rise in brightness and attainment, the passage suggests a question. The last line gives comfort that is not sweet: what you need is [[lent|dai]], not earned.",
     "leading": "A new and true idea in an organization gets the same three receptions, and a leader should expect all three and not count votes. A few people simply start to work in the new way. Most hold it and drop it, by turns. Some laugh in the meeting. [[The laugh is information|buzu]]: an idea at which no one laughs is probably the old idea in new words. The twelve sayings then describe how good leadership looks from outside, which is: not impressive. The clear direction [[looks vague|mei]]. The solid person [[looks slack|tou]], because there is no display of effort. The capable institution has [[no sharp corners|corner]], and its best work makes [[little noise|xisheng]]. Be careful with the proverb about [[the great vessel|wancheng]]. In its older form it does not promise a late success. It says that the greatest capacity stays unfinished.",
     "nature": "The sayings are observations before they are paradoxes. The light by which all things live is not seen as light; in full daylight no one notices the sun, and one sees by it. The level path over real ground [[winds and bumps|lei]]; only a road forced through hills is straight. A [[valley|ru]] is where the greatest fullness of water and soil collects, and it is the low place. The horizon of the sea is the edge of a shape too large to have [[corners|corner]]. The deep background sounds of the world, wind and far water, are [[hardly sounds at all|xisheng]], and they contain all the others. And each living thing has its form [[on loan|dai]]: the carbon, the water, the warmth are borrowed for a season and returned. No tree is ever a finished vessel. It grows until it falls.",
@@ -297,6 +302,38 @@
       "title": "The sun, and one who gets away",
       "lesson": "The left side is 日, the sun: a circle in the oldest writing, made square by the brush, with a mark in the middle. It measures time in many characters: 早 (early), 明 (bright), 昧, the [[dawn dimness|mei]] of this passage, 時 (season, time). The right side is 免, “to escape, to be let off, to avoid”. The Shuowen explains the whole as 莫也。从日免聲: “dusk; from the sun, with 免 for the sound”. Its word for dusk, 莫, is a beautiful picture that it explains too: 从日在茻中, “the sun in the middle of the grasses”: the sun has gone down into the plants at the horizon. So 晚 is the late part of the day, and then “late” in general: a late guest, a late harvest, the last years of a life, 晚年. Now the surprise. The right side, 免, has no entry of its own in the Shuowen, like 笑. And 免 alone is what [[the silk manuscript|wancheng]] has in this line: 大器免成, the great vessel is spared completion. Take the sun away from “late” and you have “escapes”. The whole question of the famous proverb is inside this one character: was a sun added, or was a sun left out? By their modern parts, two more characters keep 免 in view: 勉, to strive, is 免 with 力, strength; 娩, to give birth, is 免 with 女.",
       "brush": "Eleven strokes. The sun takes four: the left side; the top and right side in one stroke; the short line inside; the base. At the left of a character the sun is made narrow and is set a little high. Then 免, seven strokes: a short stroke that falls left; a horizontal that turns and falls left; then a flat box in three strokes, left side, top with right side, and a line that closes it; then a long stroke that falls left from inside the box; and last the stroke that goes down, bends, runs to the right, and ends in a hook up. Watch the last stroke. It is the leg of someone who runs: long, low, with the hook like a heel. It needs room, so the sun must stay small and high to leave the lower left open. In running script the last two strokes are often joined in one movement, a turn of the wrist."
+    }
+  ],
+  "questions": [
+    {
+      "id": "laughter-test",
+      "claim": "A teaching that no one laughs at is not deep enough to be the Way.",
+      "prompts": [
+        "Do you agree, or is this a way to make any strange idea safe from doubt?",
+        "When did you last laugh at an idea? What was the laugh guarding?",
+        "Take the other side: what most sensible people laugh at is usually wrong. When has the laugh of the crowd saved you?",
+        "Are you more often the one who laughs or the one who is laughed at? What did each role teach you to hide?"
+      ]
+    },
+    {
+      "id": "looks-opposite",
+      "claim": "The real thing often looks like its opposite: clarity seems dim, and progress seems like going back.",
+      "prompts": [
+        "Where has this been true for you? Where has dim simply been dim?",
+        "Think of a time that felt like a retreat. Who decided that it was a retreat: you, or the eyes of others?",
+        "Hold the plain view for a while: things are mostly what they look like, and a path that feels wrong is wrong. What do you feel as you hold it?",
+        "Which view do you use to judge your own life this year? What would the other view say about it?"
+      ]
+    },
+    {
+      "id": "late-vessel",
+      "claim": "The greatest capacity is slow to be finished, and may stay unfinished.",
+      "prompts": [
+        "Is this a truth for you, or an excuse that you have used?",
+        "Who set the clock by which you are early or late? Do you still accept that clock?",
+        "Try the opposite: what is not finished in time is lost, and form needs a deadline. Which of your works speak for that?",
+        "What in you is still unfinished, and how do you feel when you say so aloud?"
+      ]
     }
   ]
 }

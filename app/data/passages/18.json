@@ -43,7 +43,7 @@
     "[[there are|an]] [[humaneness|ren]] and [[right conduct|yi]].",
     "[[Cleverness and wit|zhihui]] come out:",
     "there is the [[great fabrication|wei]].",
-    "The [[six kin|liuqin]] are out of tune:",
+    "The [[six kin|liuqin]] are [[out of tune|fei-you]]:",
     "there are [[devoted children and tender parents|xiaoci]].",
     "[[State and house|guojia]] are [[dark and disordered|hunluan]]:",
     "there are [[loyal ministers|zhongchen]]."
@@ -115,7 +115,7 @@
     "liuqin": {
       "kind": "wangbi",
       "title": "Wang Bi: fish on dry ground",
-      "body": "Wang Bi names the six kin: 六親，父子兄弟夫婦也, “father and son, elder and younger brother, husband and wife”. Then he gives the logic of the whole passage: 甚美之名生於大惡，所謂美惡同門. “The names of great beauty are born from great ugliness; as the saying goes, beauty and ugliness come from one gate.” 若六親自和，國家自治，則孝慈忠臣不知其所在矣. “If the six kin were in tune of themselves, and state and house in order of themselves, no one would know where the devoted child and the loyal minister were to be found.” He ends with fish, from a story in the Zhuangzi. When the spring dries up, the fish lie together on the ground and wet each other with their spit. That is a touching sight, and it is far worse than to forget each other in the rivers and lakes. Wang Bi’s sentence as it has come down seems to have lost a word, but the sense is clear: the virtue of mutual wetting is born when the water is gone.",
+      "body": "Wang Bi names the six kin: 六親，父子兄弟夫婦也, “father and son, elder and younger brother, husband and wife”. Then he gives the logic of the whole passage: 甚美之名生於大惡，所謂美惡同門. “The names of great beauty are born from great ugliness; as the saying goes, beauty and ugliness come from one gate.” 若六親自和，國家自治，則孝慈忠臣不知其所在矣. “If the six kin were in tune of themselves, and state and house in order of themselves, no one would know where the devoted child and the loyal minister were to be found.” He ends with fish, from a story in the Zhuangzi. When the spring dries up, the fish lie together on the ground and wet each other with their spit. That is a touching sight, and the Zhuangzi says 不如, “it is not as good as”, to forget each other in the rivers and lakes. Wang Bi’s sentence as it has come down seems to have lost a word, but the sense is clear: the virtue of mutual wetting is born when the water is gone.",
       "src": [
         "Wang Bi commentary on Laozi 18",
         "Zhuangzi, “Da zong shi” (大宗師)"
@@ -186,6 +186,11 @@
       "kind": "practice",
       "title": "Where a virtue is on the wall",
       "body": "For one day, notice where a virtue is named aloud or in print. A company puts “integrity” on the wall of the lobby. A family says often how close it is. A person tells you that they are “a very honest person”. A government names a ministry for truth, or harmony. Do not judge; only ask the passage’s question in each case: what fell down here, that this had to be said? Then turn the question on yourself. Which of your own virtues do you mention most often, or most enjoy being praised for? What would be in its place if the ground under it were whole? The answer is not always shameful. Sometimes the named virtue is a good splint on a real break. It is still worth knowing where the break is."
+    },
+    "fei-you": {
+      "kind": "pair",
+      "title": "Ruin and virtue arrive together",
+      "body": "Each couplet is a pair: 廢 and 仁義, ruin and the virtues; 不和 and 孝慈, discord and devotion; 昏亂 and 忠, disorder and loyalty. Passage 2 gives the rule: when all know the beautiful as beautiful, there is already the ugly. This is the same rule from the other side. The named virtue is seen only against its lack, and the lack calls it out. Two one-sided readings are common. One says that the virtues are simply good, and it misses what they stand on. The other says that they are false, and the text [[does not say that|symptom]]. Its preference is for the state before the names, when kin were in tune and no one called it devotion. That preference answers schools that offered more virtue as the cure. And the favored side turns as well: the passage begins with the great Dao in ruins. The unnamed order did not hold. Out of the ruin come the virtues, and passage 19 says that the people can go back."
     }
   },
   "lenses": {
@@ -214,6 +219,28 @@
       "title": "The eye that looks down",
       "lesson": "This is a whole character with no separate parts, and the Shuowen calls it a picture: 象屈服之形, “it shows the form of one who bends in submission”. Its definition is two words, 牽也, “to be led, as by a rope”, and then 事君也, “to serve a lord”. Modern scholars read the old forms otherwise, and their account is widely accepted: it is an eye. Compare 目, the eye, which is the same drawing set upright and squared. In 臣 the eye is turned on end, as it looks when the head is bowed, or when one looks up from the ground. The earliest 臣 were captives and bondsmen. By the Zhou the word meant anyone who served a lord, up to the chief minister, and a man said 臣 for “I” when he spoke to his king. The eye appears in two other graphs that are worth knowing. 臥, to lie down, is a person beside it. 監, to oversee, is commonly explained as a person with a large eye who bends over a basin of water: at first, to look at one’s own face. Its descendant 鑑 means a mirror. So the same eye that submits is also the eye that inspects. The passage’s last word joins it with 忠, a heart, 心, under 中, the centre: a 忠臣 is a heart held centred, and an eye held low. The line says [[when you will hear of such a person|zhongchen]].",
       "brush": "Six strokes. A level stroke on top. A short vertical down from it at the centre. Then a stroke that goes right and turns down: the top and right side of the inner box. A level stroke that closes the box below. A second short vertical, from the box to the base. Watch the sixth and last stroke. It starts at the upper left, comes straight down the whole left side, turns the corner, and runs along the bottom to the right: one long line that takes more ink than the other five together. It is the frame, and it is written last, so that the hand must judge the height and the width of everything from the inside first. The right side stays open; the two inner openings face the reader like a pupil. Some schools of writing teach a different order, with the left side first."
+    }
+  ],
+  "questions": [
+    {
+      "id": "virtue-as-sign",
+      "claim": "Named virtues appear when something whole has broken; talk of duty and loyalty is a sign of loss.",
+      "prompts": [
+        "Do you agree? Look at the virtues that are praised most where you work or live. What had gone wrong first?",
+        "Which virtue were you praised for as a child? What was missing in the house, that this virtue was needed?",
+        "Now take the Confucian side: the break is a fact, and the virtues are what holds people together after it. Hold that with respect. What do you feel toward your own disciplines?",
+        "Does it sting to see a virtue of yours as a splint? Why might the sting be worth a look?"
+      ]
+    },
+    {
+      "id": "clever-fabrication",
+      "claim": "When cleverness comes forward, pretending on a large scale comes with it.",
+      "prompts": [
+        "Have you seen this: a clever rule, and then a cleverer way around it? Were you on one side, or on both?",
+        "What do you feel about your own cleverness: pride, distrust, need? When did it first serve you?",
+        "Take the opposite: wit is how people lift each other out of hardship, and plain dealing with no skill leaves them poor. What comes up?",
+        "Where are you clever in place of honest, and what would the honest version cost?"
+      ]
     }
   ]
 }

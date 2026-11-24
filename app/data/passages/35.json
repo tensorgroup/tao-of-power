@@ -44,7 +44,7 @@
     "[[Music|yue]] and [[cakes|er]]:",
     "the [[passing guest|guoke]] stops.",
     "The Dao, [[as it comes out of the mouth|chukou]]:",
-    "[[bland|dan]]! It has no flavor.",
+    "[[bland|dan]]! It has [[no flavor|wei-dan]].",
     "",
     "Look at it: [[not enough to see|buzu]].",
     "Listen to it: not enough to hear.",
@@ -174,6 +174,11 @@
       "kind": "practice",
       "title": "Drink plain water slowly",
       "body": "Pour a glass of plain water at room temperature. Drink it slowly, as you would taste a wine. For the first seconds the tongue looks for a flavor and reports that nothing is there: 無味. Stay with it. After some moments the water has a coolness, a weight, a faint sweetness or a mineral edge. The tongue had to become quiet before it could find them. Then notice the next thing that you taste after the water, and how loud it is. Do the same once today with the ears: one minute of the plain sound of the room before you put on music."
+    },
+    "wei-dan": {
+      "kind": "pair",
+      "title": "味 and 無味: the feast and the plain",
+      "body": "The pair is 味 and 無味, flavor and no flavor: the feast with [[music|yue]] and [[cakes|er]], and a Dao that is [[bland|dan]]. A moral reading makes the feast a temptation and the plain taste a virtue. The text makes no such charge. It reports two effects. Flavor makes the guest stop, and the guest is one who will go on. That which has no flavor stops no one, and use does not end it. The two sides need each other: “bland” is a word for a tongue that has known flavor, and passage 63 says 味無味, to taste the tasteless, which is still a tasting. The preference is for what can be returned to, in an age of court display. It also turns. Plainness that is praised and shown becomes a flavor, with its own guests. And some who stop for the music stay to hear what has no sound. What is your feast, and what is your water?"
     }
   },
   "lenses": {
@@ -183,6 +188,28 @@
     "body": "Taste belongs to the body, and the body knows this passage well. Strong flavors, sugar and salt and fat, stop us as bait stops a fish; the food industry is a science of [[餌|er]]. The staple foods of the long-lived are bland: rice, bread, water, tea. You can eat them every day because they do not shout. The same law holds in movement. A showy effort feels like something; an efficient movement feels like almost nothing, and teachers of the internal martial arts say that correct structure feels [[bland|dan]], even empty. Breath is the clearest case. It has no flavor, you cannot see it, you hardly hear it, and you have used it since birth and [[not come to the end of it|ji]].",
     "practice": "Do the [[water exercise|practice]]. Then make a list, in the evening, of what stopped you today as music and cakes stop a [[traveler|guoke]]: a headline, a snack, a message, a quarrel. No blame; the passage says plainly that this is what happens to guests. Then make a second list, shorter and harder: the flavorless things that carried the day and that you did not notice. Air, light, the floor, a person who was simply there. Ask of each list: which of these could I use for forty years?"
   },
+  "questions": [
+    {
+      "id": "bland-lasts",
+      "claim": "What draws us by flavor holds us for a while; what is plain cannot be used up.",
+      "prompts": [
+        "Do you agree? Name something sweet that ended, and something plain that you still return to.",
+        "What is the music and cake that stops you on your road? When did it first get that power?",
+        "Take the opposite: flavor is the point, and a life of plain water is a life not tasted. Stay with it. What feelings arise?",
+        "Do you distrust pleasure, or do you distrust plainness? Where might that come from?"
+      ]
+    },
+    {
+      "id": "goes-toward",
+      "claim": "To one who holds the great image all the world comes, and comes to no harm.",
+      "prompts": [
+        "Have you known a person or a place that people went toward and were not harmed? What was held there?",
+        "What do you hold on to that draws people to you, or keeps them away? Did you choose it?",
+        "Hold the other view: people come for what they can get, and one who draws a crowd will be harmed or do harm. What comes up?",
+        "Which view matches your own history with groups and leaders? Why is that worth seeing?"
+      ]
+    }
+  ],
   "glyph": "淡",
   "plates": [
     {

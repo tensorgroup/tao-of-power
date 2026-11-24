@@ -52,7 +52,7 @@
     "",
     "So the [[full-grown one|dazhangfu]] stays in the thick",
     "and does not dwell in the thin;",
-    "stays in the fruit",
+    "[[stays in the fruit|pair-fruit-flower]]",
     "and does not dwell in the flower.",
     "So: leave that, [[take this|first]]."
   ],
@@ -166,7 +166,7 @@
     "yu": {
       "kind": "etymology",
       "title": "愚: a heart and a monkey",
-      "body": "愚 is “stupid, foolish”. Its parts are 心, the heart, under 禺, and the Shuowen explains: 禺，猴屬，獸之愚者, “禺 is a kind of monkey, the dull one among the beasts”. A monkey-heart. Here the word is a plain insult: clever foresight is where folly starts. But a reader of the whole book must settle an apparent conflict, because elsewhere 愚 is praise. The speaker of passage 20 says 我愚人之心也哉, “mine is the heart of a fool”. Passage 65 says that the ancients did not make the people bright; they kept them 愚. Those lines use the word for a mind that is whole and not sharp, the uncarved wood. This line uses it for the confusion that comes from too much sharpness. The two meet: the brilliant person ends in the bad kind of folly, and the person of the Dao begins in the good kind.",
+      "body": "愚 is “stupid, foolish”. Its parts are 心, the heart, under 禺, and the Shuowen explains: 禺，猴屬，獸之愚者, “禺 is a kind of monkey, the dull one among the beasts”. A monkey-heart. Here the word is a plain insult: clever foresight is where folly starts. But a reader of the whole book must settle an apparent conflict, because elsewhere 愚 is praise. The speaker of passage 20 says 我愚人之心也哉, “mine is the heart of a fool”. Passage 65 says that the ancients did not make the people bright; they kept them 愚. Those lines use the word for a mind that is whole and not sharp, the uncarved wood. This line uses it for the confusion that comes from too much sharpness. The two meet. Sharpness that is pushed far ends in the confused kind of dullness, and the whole mind begins in the plain kind. One word names both ends, so bright and dull are not two fixed camps.",
       "src": [
         "Shuowen Jiezi, 心部: 愚，戇也。从心从禺。禺，猴屬，獸之愚者。"
       ]
@@ -217,6 +217,11 @@
       "kind": "practice",
       "title": "Find the “for”",
       "body": "Choose three good acts from yesterday: a kind word, a duty done, a courtesy. For each, ask the question of the passage: was there a “for”? For thanks, for my picture of myself, for the rule, to be in the right? Do not judge the answer. Most human goodness has a “for”, and the passage ranks it and does not forbid it. Then look for one act that had none, that was done before any reason appeared, as a hand goes out to steady a person who trips. Notice how little you remember of it. That is how 上德 feels from inside: like nothing in particular."
+    },
+    "pair-fruit-flower": {
+      "kind": "pair",
+      "title": "厚/薄, 實/華: two pairs, one plant",
+      "body": "The passage ends on two pairs: thick 厚 and [[thin|bo]] 薄, fruit 實 and [[flower|hua]] 華. The text chooses: stay in the thick, stay in the fruit. But look at what the pairs are. Thick and thin are two places on one thing. Flower and fruit are two times of one branch: the fruit sets where the flower was, and the seed in the fruit will flower again. So the choice is not good against evil. It says where to dwell, 處 and 居, at a court that lived on show, ceremony, and clever forecasts. The favored side turns too. Fruit that is kept too long rots, and a plainness that is worn for others to see has become a flower. The first line says the same of de: the de that holds on to de is the lower kind. A reader who takes this passage as contempt for form misses the orchard. What flower in your life is on its way to fruit?"
     }
   },
   "lenses": {
@@ -239,6 +244,38 @@
       "title": "An altar and a full vessel",
       "lesson": "The left side, 礻, is the narrow form of 示. It is commonly explained as an altar stone or a spirit tablet, and it marks what belongs to the gods and ancestors: 神 (spirit), 祖 (ancestor), 祭 (sacrifice), 福 (blessing), 祝 (to pray). The right side, 豊, is the older way to write the whole word; the Shuowen says of it 行禮之器也, “a vessel for the performance of rites”, and 讀與禮同, “it is read like 禮”. Look at its two layers. Below is 豆, a food bowl on a high stem, with its lid: a real ritual vessel of bronze or pottery, later borrowed for the word “bean”. Above, the part that now looks like 曲 is the offering in the bowl; many scholars see two strings of jade in the early forms. The near twin 豐, “abundant”, is the same bowl heaped full; the Shuowen calls it 豆之豐滿者也. The Shuowen defines the full character: 履也，所以事神致福也, “to tread a path; that by which one serves the spirits and brings blessing”. So 禮 is: at the altar, a bowl with precious things in it. The rite came first, and all the later meanings grew from it: the correct forms of court and family, courtesy, a gift (禮物). In this passage the full bowl is called [[the thin part of trust|bo]]. The character stays generous: it shows only an offering. It does not show [[the arm that drags|rangbi]]; the Laozi adds that.",
       "brush": "Seventeen strokes. The altar side takes four: a dot, a horizontal that turns and falls left, a vertical, and a small dot at the right of the vertical. Then the offering, six strokes: the left side of the box, the top and right side, a horizontal inside, two verticals that rise through the top of the box like stalks, and the base. Then the bowl, seven strokes: a horizontal lid, the small mouth in three strokes, a dot and a short left-falling stroke for the stem, and a long horizontal foot. Watch the last stroke. It is the widest line on the right side, and it reaches left under the altar a little, so that the two halves stand on one floor. The right side has many horizontals, and they must not be of equal length or the vessel looks like a ladder. The Song master Mi Fu wrote that a character needs a frame of bone, and flesh that wraps the sinew."
+    }
+  ],
+  "questions": [
+    {
+      "id": "virtue-unseen",
+      "claim": "Real goodness does not know itself as goodness; the virtue that keeps hold of itself is the lesser kind.",
+      "prompts": [
+        "Do you agree? Think of the kindest person that you know. Do they know it?",
+        "Where did you learn to keep count of your own good acts, or to hide the count? Who was watching then?",
+        "Now hold the opposite: virtue must be chosen, known, and practiced on purpose, or it is only luck of temperament. What rises in you as you hold that?",
+        "Which side do you defend more quickly? What would you lose if the other side were right?"
+      ]
+    },
+    {
+      "id": "ladder-of-loss",
+      "claim": "Rules and ceremony appear where trust has worn thin, and they are the first sign of disorder.",
+      "prompts": [
+        "Does this match what you have seen in a family, a team, or a country?",
+        "Recall a rule that you were grateful for. What was it holding together, and what had already been lost by then?",
+        "Take the other view: form is what makes trust possible, and people learn care by first practicing courtesy. Which moments of your life speak for this?",
+        "Do you lean toward the people who keep the forms or toward the people who break them? What do you dislike in the other group, and is any of it in you?"
+      ]
+    },
+    {
+      "id": "fruit-not-flower",
+      "claim": "A mature person stays with what is thick and feeds, and does not live in what is bright and shows.",
+      "prompts": [
+        "Where do you agree, and where does this sound like a refusal of beauty?",
+        "What in your life is flower: early, bright, made to be seen? Do you feel shame or pleasure in it?",
+        "Suppose that the flower matters as much as the fruit, and that display is how living things find each other. Stay with that. What changes in your picture of yourself?",
+        "Why does one of the two sit more easily with you? What did it cost you to prefer it?"
+      ]
     }
   ]
 }

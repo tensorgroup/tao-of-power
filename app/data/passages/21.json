@@ -75,7 +75,7 @@
     "Dim! Flickering!",
     "Within it there is an [[image|xiang]].",
     "Flickering! Dim!",
-    "Within it there is a thing.",
+    "Within it [[there is a thing|you-wu]].",
     "[[Deep! Dark!|yaoming]]",
     "Within it there is [[essence|jing]].",
     "This essence is very [[real|zhen]];",
@@ -239,6 +239,11 @@
       "kind": "practice",
       "title": "Stay in the haze one minute longer",
       "body": "The passage describes a sequence, and you can test it on a small scale. Choose a question to which you do not know the answer: what to write, what a person meant, what you feel about a thing. Sit with it, and do not reach for the first clear thought. That first clear thought is usually an old one. Let the matter be [[dim and unfixed|huanghu]]. After a while there is often a vague shape, a leaning: an [[image|xiang]]. Do not grab it. Then something more definite, a thing you could name. Stay one minute longer than is comfortable, in [[the deep part|yaoming]], and see whether there is a sense that this is [[real|zhen]], and that it [[holds when you lean on it|xin]]. Then get up and act on it. The method of the passage is in its last two words: not by report, [[by this|yi-ci]]."
+    },
+    "you-wu": {
+      "kind": "pair",
+      "title": "The haze and the thing: 無 and 有",
+      "body": "The pair is not named, but each couplet turns on it: 恍惚, the haze where nothing is definite, and 有, “there is”. Passage 14 followed the same matter back to 無物, “no thing”. This passage says 其中有物, “within it there is a thing”. The two do not conflict. They are the two sides that passage 2 joins: 有無相生, there-is and there-is-not bring each other forth. Read one side alone, and Dao is a blank, and the practice is to empty the mind and stop. Read the other side alone, and Dao is an object, a highest being with a clear shape. The text gives neither. The image, the thing, the essence, and the proof are found inside the dimness, and they do not end it: the haze is how they are there. Even the words turn: 恍惚 becomes [[惚恍|huanghu]] and comes back. Which do you trust more easily: what is clear, or what is dim and does not fail?"
     }
   },
   "lenses": {
@@ -261,6 +266,28 @@
       "title": "The swallow that brings a child",
       "lesson": "Only four strokes, and the Shuowen has a whole spring festival in them. The left side is 子, a child. The right side, a single bent line, is not a hook or a number. The Shuowen says it is 𠃉, a picture of a swallow in flight, and explains: 𠃉，請子之候鳥也。𠃉至而得子，嘉美之也。 “The swallow is the bird of the season at which one prays for children. The swallow comes and a child is got; this is cause for joy and praise.” Swallows return to north China at the spring equinox, and on that day the king offered sacrifice to the divine matchmaker and asked for sons. So the dictionary reads 孔 as swallow plus child: a happy passage, a thing that came through. Its definition is 通也, “to go through”, and it adds that men of old named 嘉, “Excellent”, took the formal name 子孔. Modern scholars read the bronze forms otherwise: a child with a mark at the head, perhaps the soft spot of an infant’s skull, or a child at the breast; either way a small opening. The word’s ordinary sense is “hole”: 鼻孔 is a nostril, 毛孔 a pore. Its old sense “very, great” is the one usually read [[in this passage|kong]]. And it is the surname of Confucius, 孔子, Master Kong, whose descendants still carry it. In this line, the look of De is 孔: great, and gone through.",
       "brush": "Four strokes. The child takes three, as in 孩 of the passage before: a level stroke that turns back sharply to the left; a curved vertical with a hook at the foot; and the arms, written as a stroke that rises to the right. The fourth stroke is the whole right side, and you should watch it from start to end. The brush goes down, bends at the bottom in a round corner with no stop, runs to the right along the base, and then turns up into a tall hook. Calligraphers name it the “floating goose” stroke. It is one of the hardest in the script, because it must change direction twice and keep the same strength; the turn is made with the wrist, and the hook is pushed up, not flicked. In a good 孔 the space between the child and that curve is wide and clean: the hole in the character."
+    }
+  ],
+  "questions": [
+    {
+      "id": "real-in-the-dim",
+      "claim": "Inside what is dim and dark there is something very real, and it can be trusted.",
+      "prompts": [
+        "Have you found this? Recall something sure that came out of a time when you saw nothing clearly.",
+        "How long can you stay in not knowing before you reach for an answer? What did unclear times mean in your family?",
+        "Take the other side: what is clear and can be shown is to be trusted, and haze hides error. Hold it for a while. What does it guard you against?",
+        "Which side feels like home, and which like a threat? What has each one kept from you?"
+      ]
+    },
+    {
+      "id": "follow-only",
+      "claim": "The greatest power has no face of its own; it follows the Way and nothing else.",
+      "prompts": [
+        "Do you agree that the strongest way to act is to follow? Where have you seen it work, and where have you seen it fail?",
+        "What do you think of followers? If the word carries shame for you, where was that learned?",
+        "Now hold the opposite: power is to set the direction, and one who follows has given up their part. What rises in you?",
+        "In which part of your life do you lead where you could follow, or follow where you are asked to lead?"
+      ]
     }
   ]
 }

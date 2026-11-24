@@ -77,7 +77,7 @@
     "This is called [[light under a robe|xi-ming]].",
     "",
     "So the good person is the not-good person’s [[teacher|shi-zi]].",
-    "The not-good person is the good person’s [[material|zi]].",
+    "[[The not-good person|shan-bushan]] is the good person’s [[material|zi]].",
     "Not to prize the teacher, not to care for the material:",
     "however clever, [[greatly lost|da-mi]].",
     "This is called [[the fine crux|yao-miao]]."
@@ -240,6 +240,11 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "shan-bushan": {
+      "kind": "pair",
+      "title": "善 and 不善: each is made from the other",
+      "body": "The last stanza sets two people side by side: 善人 and 不善人, the one good at it and the one not good at it. English hears a saint and a sinner, and then the lines rank them: one above to teach, one below to be worked on. The Chinese ties them with two nouns, 師 and 資, and both nouns are debts. The not-good person needs a [[teacher|shi-zi]]. The good person needs [[material|zi]], and with no material there is no skill and no teacher. Each is what the other is made from. The next line asks the same of both sides: 貴 the teacher, 愛 the material. And the pair moves. The pupil of today teaches later; a master of one craft is raw stock in the next. 不善 is “not good”, with 不; it is not “bad”. So the sage [[discards no one|qi]]. In which room are you the material?"
     }
   },
   "lenses": {
@@ -249,6 +254,38 @@
     "body": "Watch someone who is truly good at a physical craft: a mason, a cook, a calligrapher. The movement is small and nothing is corrected afterwards. The beginner leaves marks everywhere: chips, spills, strokes gone over twice. Skill in the body is the removal of the extra motion, until the act [[leaves no rut|zhe-ji]]. The door lines can be felt in a joint. A well-set shoulder or hip is closed by its own shape and needs no clenched muscle to hold it; a clenched one is a [[bolt|guan-jian]], and it can be forced. The tying line is known to anyone who has learned a real knot: the good one holds by its form and comes apart when you want, and the bad one is a tangle with much rope in it. [[Good at|shan]] is first a thing that hands know.",
     "practice": "Choose one small task today and do it so that it leaves no trace of you: wash a cup and put it away, close a matter with one clear sentence, return a borrowed thing in better order than you got it. Do not mention it to anyone. That is the first stanza. For the second, look for one [[discarded thing|qi]] in your house or your work (a tool, a draft, a plant, a person who has been written off) and ask what it would take to bring it back into use; do one step of that. For the third, name privately one person who is your teacher and one who is your [[material|zi]]. Ask if you prize the first and hold the second dear. If the second answer is no, the text has [[a word for your position|da-mi]]."
   },
+  "questions": [
+    {
+      "id": "no-discarded",
+      "claim": "For one who is truly skilled at helping, no person and no thing is waste.",
+      "prompts": [
+        "Do you believe that? Think of a person you have written off, and ask it again.",
+        "Where did you learn who counts as waste: at school, at work, in your family? Were you at some time the one set aside?",
+        "Hold the opposite for a time: some people and things must be let go, and to refuse is pride. What do you feel as you hold it?",
+        "Which view do you use on others, and which on yourself? Are they the same?"
+      ]
+    },
+    {
+      "id": "teacher-material",
+      "claim": "The skilled and the unskilled need each other, and to despise either one is to be lost.",
+      "prompts": [
+        "Do you agree that the one who teaches needs the one who cannot yet do it? Where have you seen it?",
+        "Whom do you find it hard to respect: those who know more than you, or those who know less? What in your past makes that side hard?",
+        "Now try the other view: the skilled owe nothing to the unskilled, and do best among their own kind. Sit with it. What thoughts and feelings arrive?",
+        "What does your reaction tell you about how you see your own skill?"
+      ]
+    },
+    {
+      "id": "no-trace",
+      "claim": "Good work leaves no track, and needs no lock or knot to hold it.",
+      "prompts": [
+        "Is this your experience of good work, your own or another person’s?",
+        "How much do you need your work to be seen and signed? Where does that need come from?",
+        "Take the opposite: a life should leave marks, and work that no one can trace is lost. Hold that for a while and notice what it stirs.",
+        "Which of the two would you choose for your name after you are gone, and why?"
+      ]
+    }
+  ],
   "glyph": "師",
   "plates": [
     {

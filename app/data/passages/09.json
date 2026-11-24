@@ -54,7 +54,7 @@
     }
   ],
   "rendering": [
-    "[[Hold it and fill it|chi-ying]] to the brim:",
+    "[[Hold it and fill it|chi-ying]] [[to the brim|pair-ying-tui]]:",
     "better [[to have stopped|yi]].",
     "[[Hammer it and sharpen it|chuai]]:",
     "it [[cannot be kept for long|sword]].",
@@ -189,6 +189,11 @@
       "kind": "practice",
       "title": "Carry a full cup",
       "body": "Fill a cup with water to the very brim and carry it from one room to another. Feel what the body does: the breath held, the eyes fixed, the slow steps, the grip. That is 持而盈之. Now pour a third of it out and carry it again. Walk normally. Look around. Then ask where in your life you are carrying a full cup: a schedule with no gap, an account that must not drop, a reputation that must be kept level. You do not need to empty it. Find one place today where you can stop a little before the brim: one task not added, one more point not made, one helping not taken."
+    },
+    "pair-ying-tui": {
+      "kind": "pair",
+      "title": "盈 and 退: the peak turns",
+      "body": "Each case sets a rise beside its end: 盈 full and 已 stopped, sharp and broken, a full hall and a lost one, 功遂 and 身退, the work carried through and the body stepping back. The passage does not condemn the rise. A cup is filled, a blade is ground, and the work is carried through; 遂 is success. Its claim is about the peak: the full point is where the turn begins, as with the sun at noon. So the text favors stopping short and stepping back. The preference is a correction for people who can only add, and the courts of the time were full of them. It is not praise of the empty cup or of work left undone: 功遂 comes first, and 身退 follows. Stepping back also turns. Winter is where spring starts, and a retreat that is held as a merit becomes one more thing to [[be proud of|jiao]]. What are you still filling that was full some time ago?"
     }
   },
   "lenses": {
@@ -218,6 +223,28 @@
       "title": "At cross purposes",
       "lesson": "The Shuowen says this character is made of a person, 人, and the character 各. Look for them. 各 is the top left part, 夂, with the 口 at the bottom: the person has been pushed into the upper right corner, where it is written as a vertical with a short stroke, and it splits 各 into two floors. First 各 itself. 夂 is a foot that points downward, a foot that arrives or drags. 口 is a mouth. The Shuowen explains: 夊者，有行而止之，不相聽也, “one walks and another stops him; they do not listen to each other”, and so it defines 各 as 異辭, “words that differ”. The common modern sense of 各 is “each”: each on a separate road. Scholars who work on the oldest forms commonly explain 各 another way, as a foot that arrives at a dwelling, the first way of writing 格, “to come”. Now add the person. 从人从各…相違也: a person, and being at odds. The Shuowen’s definition is 災也, “calamity”. Harm is what comes when a person and the turn of things go separate ways. Cousins with 各 as the sound, each so marked in the Shuowen: 客, a guest, under a roof; 格, a tall tree, later a frame; 洛, the Luo River. 路, a road, has a foot beside 各, and there the Shuowen joins the two as meanings. The diviner’s verdict 无咎, “no harm”, was the best that most lines of the Changes could promise. [[This passage|jiu]] describes people who write their own verdict.",
       "brush": "Eight strokes. The foot at the top left takes three: a short stroke that falls to the left; a second that starts beside it, goes right a little, and then falls left; and a long 捺 that crosses both and runs down to the right. Watch this third stroke. It is the longest in the character, and it shelters the mouth below like a roof with one long eave. Then the person in the upper right, in two: a vertical, and a short stroke out from its side. They are small and stand in the space that the long 捺 leaves open. Then the mouth, in three: left side, top and right side, base. The mouth is centred under the meeting point of the strokes above. The whole is a little off balance on purpose. The top leans left, the long stroke pulls right, and the small square at the bottom holds them."
+    }
+  ],
+  "questions": [
+    {
+      "id": "the-full-point",
+      "claim": "Filling a thing to the brim is worse than stopping; the full point is where the loss begins.",
+      "prompts": [
+        "Do you agree? Where have you added one thing too many?",
+        "What does “enough” mean in your history? Was there a time of too little, and is that time still filling the cup?",
+        "Hold the other view: go to the limit, because half measures are how people hide from their own capacity. What do you feel as you hold it?",
+        "Which do you judge more in others, the one who overreaches or the one who stops early? Why that one?"
+      ]
+    },
+    {
+      "id": "step-back-when-done",
+      "claim": "When the work is carried through, stepping back is the way of heaven.",
+      "prompts": [
+        "Have you done this? Have you stayed too long somewhere?",
+        "What would you be if you left the thing you are known for? Notice the first answer that comes.",
+        "Take the opposite: the one who built it should stay and tend it, and leaving is a kind of desertion. Stay with that side. What arises?",
+        "Which is nearer to your fear: to hold on and be pushed out, or to step back and not be missed?"
+      ]
     }
   ]
 }

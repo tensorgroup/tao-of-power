@@ -70,7 +70,7 @@
     "Lords and kings, with nothing to keep them noble and high, might well fall.",
     "",
     "So the noble has the lowly [[as its root|ben]];",
-    "the high has the low as its footing.",
+    "[[the high has the low as its footing|pair-high-low]].",
     "For this reason lords and kings name themselves",
     "[[“the orphan”, “the lone one”, “the unfed”|gugua]].",
     "Is this not to take the lowly as root? Is it not?",
@@ -225,6 +225,11 @@
       "kind": "practice",
       "title": "Count out the cart",
       "body": "Choose a thing that you are proud of or depend on: a team, a family, a skill, your own name. List its parts on paper, as many as you can. Then ask where in the list the thing itself is. The team is not any member, the skill is not any single movement. What makes the parts one? You will not find it as an item, and without it the items are a heap. Then do the second half of the passage. Ask what low thing this high thing stands on: who cooks, who cleans, which dull routine, which people that no one names. Write those down too. They are the 本, the root."
+    },
+    "pair-high-low": {
+      "kind": "pair",
+      "title": "貴/賤, 高/下: the wall and its footing",
+      "body": "Two pairs stand here: noble 貴 and lowly 賤, high 高 and low 下. The Chinese does not rank them. It relates them: one is [[root and footing|ben]] of the other. No footing, no wall; and with no wall above it, a footing is only packed earth. Passage 2 says it of the pair itself: 高下相傾, high and low lean on each other. The text does send kings toward the low side. That is a correction for men who looked only upward. It does not say that the low place is the better place. The low side turns as well. [[The humble titles|gugua]] show it: “the orphan” and “the lone one” were words that in practice only a ruler used, so the low name grew into a badge of the highest rank. A one-sided reading makes this passage praise of humility. It is a statement of how height is built, and a warning that each side can be worn as a pose, as [[the last line|jade]] may say."
     }
   },
   "lenses": {
@@ -247,6 +252,38 @@
       "title": "The king with a dot",
       "lesson": "Three horizontal lines and one vertical through them: that was the whole character for jade in the old scripts, and the Shuowen explains it: 象三玉之連，丨其貫也, “it shows three pieces of jade joined; the 丨 is the cord through them”. The trouble was that the character for king, 王, had come to look the same: three lines and a post. The Tang editor Li Yangbing, quoted in the Shuowen text, tells them apart by spacing: of 王 he says 中畫近上, “the middle line is near the top”, and of 玉, 三畫正均, “the three lines are exactly even”. Later writers solved the problem with a dot at the lower right, and jade became 玉. But when jade is a part at the left of a character, it is still written with no dot, and looks like a king: 理 (to work jade along its veins, and so “pattern, reason”), 現 (to appear), 珍 (a treasure), 玩 (to play, first to turn jade in the hand). The two rare words of this passage, 琭 and 珞, have this side: they are jade words, though they seem to say “king”. That is a good accident for a passage that speaks to [[lords and kings|gugua]] and ends by refusing [[jade|jade]]. The king, 王, is jade with the dot taken away. Stone, 石, by contrast, is a rock under a cliff: the Shuowen calls it 山石也, “mountain stone”.",
       "brush": "Five strokes. A horizontal at the top. A second horizontal under it, shorter. Then the vertical, from the middle of the first line down through the second. Then the long base line, the widest stroke. Last the dot, at the right, in the space between the second line and the base. Watch the dot. It is one touch of the brush and it turns a king into a stone; it should lean and have a tail, like a seed, and it must not touch the vertical. Keep the two spaces between the three lines equal: that evenness was the old sign of jade. In clerical script the base line has the long “silkworm head and goose tail” wave, and the character sits on it like a pendant on a cord."
+    }
+  ],
+  "questions": [
+    {
+      "id": "high-on-low",
+      "claim": "What is high stands on what is low, as a wall stands on its footing.",
+      "prompts": [
+        "Is that how you see the high places in your own world? What are they standing on?",
+        "Where do you place yourself, among the high or among the low? When did you first learn where you belonged?",
+        "Take the reverse: the low depends on the high, and without those who lead and carry risk the base has no shape. What feelings come with that view?",
+        "Which side makes you angry or uneasy? What does the unease tell you about what you have lived?"
+      ]
+    },
+    {
+      "id": "stone-not-jade",
+      "claim": "There is no need to be rare like jade; to be common like stone is enough.",
+      "prompts": [
+        "Do you believe it? Or is there a part of you that must be jade?",
+        "Who first told you that you were special, or that you were not? How does that voice still steer you?",
+        "Hold the opposite for a few breaths: each person has something rare, and to hide it is a waste. What rises: relief, pressure, grief?",
+        "Notice also the pride of being plain. Do you know that pose in yourself, or in someone whom you judge?"
+      ]
+    },
+    {
+      "id": "joined-to-one",
+      "claim": "Each thing keeps its excellence only while it is joined to a whole; cut off, it breaks.",
+      "prompts": [
+        "Where have you seen this happen: a strength that failed when it stood alone?",
+        "What whole do you depend on that you seldom name? What stops you from naming it?",
+        "Try the other side: a thing becomes itself only when it separates and stands alone. Which periods of your life prove that?",
+        "Which do you trust more, belonging or independence? What happened that taught you so?"
+      ]
     }
   ]
 }

@@ -63,7 +63,7 @@
     "What is meant by “favor and disgrace: like a start of fear”?",
     "[[Favor|chong]] [[makes the lower one|wei-xia]].",
     "Getting it: [[like a start of fear|jing]].",
-    "Losing it: like a start of fear.",
+    "[[Losing it|de-shi]]: like a start of fear.",
     "This is meant by “favor and [[disgrace|ru]]: like a start of fear”.",
     "",
     "What is meant by “honor great [[trouble|huan]] as the body”?",
@@ -202,6 +202,11 @@
       "kind": "practice",
       "title": "Watch the jolt",
       "body": "For one day, watch for the start of fear. It comes when you are praised: a message of thanks, a number that went up, a warm word from someone above you. It comes when you are slighted. Both arrive first in the body: a lift or a drop in the chest, heat in the face, a quick breath. That is 驚, the horse’s shy. Do not correct it. Mark it only: “favor”, or “disgrace”, and notice that the jolt is the same animal each time. Then ask the passage’s question at that moment: what in me can be raised and lowered by this? At night, count. Was it praise or blame that made the horse jump more often?"
+    },
+    "de-shi": {
+      "kind": "pair",
+      "title": "寵 and 辱, 得 and 失: one jolt",
+      "body": "The passage holds two pairs in one hand: 寵 and 辱, favor and disgrace, and 得 and 失, getting and losing. The common view ranks them: favor is good to get, and disgrace is the thing to avoid. The text does not rank them. It gives one answer to both, 若驚, and it uses the same four words for getting and for losing. The reason is that each side holds the other. Favor can be lost, so the one who has it already fears disgrace; and only a person who has been raised can be thrown down. A reader could turn this around and say that favor is bad and that disgrace is the honest state. That is also a ranking, and the text does not make it. A third pair comes later: 有身 and 無身, to have a body and to have none. The speaker imagines no body and no trouble, and then ends with the body honored and cherished. The passage keeps both."
     }
   },
   "lenses": {
@@ -230,6 +235,28 @@
       "title": "Strung through the heart",
       "lesson": "The lower part is 心, the heart. It is a picture of the organ; the old script is commonly explained as showing its chambers, and in the modern form there are three dots and one curved stroke that holds them like a bowl. As a meaning part it marks every movement of feeling and thought: 志, aim; 忘, to forget; 恃, to lean on; 惡, to hate; 慈, a mother’s love. The upper part is 串. It is two small boxes with one line through both, and it means things strung on a cord or a stick: a string of coins, meat on a skewer. Street stalls today sell skewered food under this same name. The Shuowen describes the upper part of 患 as two mouths, 吅, pierced through, and says the heart has this above it: 从心上貫吅. Its definition is 憂也, “worry”. So the character is a heart with something run through it. The same word names the outer disaster and the inner grief: 患 is a calamity, an illness (a patient is a 患者), and the fear of both. The passage speaks of 大患, [[great trouble|huan]], and gives its cause in four characters: 為吾有身, “because I have a body”. A thing that can be strung can be hurt. The speaker does not complain about this. The speaker reports it.",
       "brush": "Eleven strokes. The skewer first, in seven. The upper box takes three: left side, top and right side in one turn, and the base. The lower box takes three in the same way, and it is made a little wider than the upper one. Then stroke seven: one vertical that starts above the upper box and runs down through both. Watch it. It must pass through the exact middle of each box, and it stops before it reaches the heart. Then the heart in four. A dot at the left that leans outward. Then the long curved stroke: it starts low on the left, sweeps along the bottom, and ends in a hook that points up and back. Then two dots, one above the curve and one at the far right. The three dots must look at each other, like three people in a talk. The top is straight and stiff, and the heart below is round and open."
+    }
+  ],
+  "questions": [
+    {
+      "id": "one-jolt",
+      "claim": "Favor and disgrace are one shock, and to receive favor already puts you below the giver.",
+      "prompts": [
+        "Is that true in your life? Think of the last praise that mattered to you, and of who gave it.",
+        "Where did you learn to want favor: from a parent, a teacher, a first employer? What did it cost to keep?",
+        "Now hold the other view for a few minutes: praise is a plain gift, and to enjoy it binds you to nothing. What do you feel as you hold it?",
+        "Which view do you defend more quickly, and what does that speed tell you?"
+      ]
+    },
+    {
+      "id": "body-before-world",
+      "claim": "A person who cherishes the body more than the world is the one who can be trusted with the world.",
+      "prompts": [
+        "Do you trust such a person, or do you trust the one who gives everything for the cause?",
+        "What do you think of people who guard their sleep, their health, their time? If you judge them, what is the judgment made of?",
+        "Take the opposite side: a great task deserves the whole body, and to hold back is small. Stay with that. What rises: pride, tiredness, a memory?",
+        "Where has each side been true in what you have lived, and why might you need to know which one runs you?"
+      ]
     }
   ]
 }

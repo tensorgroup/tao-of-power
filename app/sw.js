@@ -1,11 +1,14 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = '8ca9a3a13c97';
-const ART_VERSION = 'bb939904';
+const VERSION = 'eeaad42757d7';
+const ART_VERSION = '1b1e6549';
+const SEARCH_VERSION = '8cc552ad';
+const MODEL_VERSION = 'a31ada72';
 const FILES = [
  "./",
  "css/app.css",
  "data/art.json",
+ "data/culture.json",
  "data/echoes.json",
  "data/glossary.json",
  "data/index.json",
@@ -289,6 +292,7 @@ const FILES = [
  "js/journal.js",
  "js/markup.js",
  "js/notes.js",
+ "js/search-core.js",
  "js/sheet.js",
  "js/theme.js",
  "js/ui.js",
@@ -297,12 +301,18 @@ const FILES = [
  "js/views/draw.js",
  "js/views/how.js",
  "js/views/journal.js",
+ "js/views/library.js",
  "js/views/passage.js",
+ "js/views/search.js",
  "manifest.webmanifest"
 ];
 // </precache>
 const CACHE = `tao-${VERSION}`;
 const ART_CACHE = `tao-art-${typeof ART_VERSION === 'string' ? ART_VERSION : 'dev'}`; // paintings cached on first view; versioned so replaced art refreshes
+// The search model (4 MB) and index load the first time Search opens; versioned like art.
+const SEARCH_CACHE = `tao-search-${typeof SEARCH_VERSION === 'string' ? SEARCH_VERSION : 'dev'}`;
+const MODEL_CACHE = `tao-model-${typeof MODEL_VERSION === 'string' ? MODEL_VERSION : 'dev'}`;
+const LAZY = [['/art/', ART_CACHE], ['/model/', MODEL_CACHE], ['/data/search/', SEARCH_CACHE]];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -321,7 +331,7 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    for (const k of await caches.keys()) if (k.startsWith('tao-') && k !== CACHE && k !== ART_CACHE) await caches.delete(k);
+    for (const k of await caches.keys()) if (k.startsWith('tao-') && ![CACHE, ART_CACHE, SEARCH_CACHE, MODEL_CACHE].includes(k)) await caches.delete(k);
     await self.clients.claim();
   })());
 });
@@ -341,12 +351,13 @@ self.addEventListener('fetch', (event) => {
       if (shell) return shell;
       return fetch(req);
     }
-    if (url.pathname.includes('/art/')) {
-      const art = await caches.open(ART_CACHE);
-      const got = await art.match(req);
+    const lazy = LAZY.find(([dir]) => url.pathname.includes(dir));
+    if (lazy) {
+      const c = await caches.open(lazy[1]);
+      const got = await c.match(req);
       if (got) return got;
       const res = await fetch(req);
-      if (res.ok) art.put(req, res.clone());
+      if (res.ok) event.waitUntil(c.put(req, res.clone()).catch(() => {})); // keep the worker alive until stored
       return res;
     }
     const hit = await cache.match(req, { ignoreSearch: true });

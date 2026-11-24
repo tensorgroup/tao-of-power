@@ -56,7 +56,7 @@
     "The [[space between|jian]] heaven and earth:",
     "is it not like a [[bellows|tuoyue]]?",
     "Empty, and it [[does not give way|buqu]].",
-    "Moved, and [[more comes out|yuchu]].",
+    "[[Moved|pair-xu-dong]], and [[more comes out|yuchu]].",
     "",
     "[[Many words|duoyan]]: [[again and again, the dead end|shuqiong]].",
     "Better to [[keep to the middle|shouzhong]]."
@@ -138,7 +138,7 @@
     "buqu": {
       "kind": "gap",
       "title": "不屈: does not bend, or does not run out",
-      "body": "屈 is first “to bend, to buckle”. On that reading, the bellows is empty and does not collapse: its hollow keeps its form, and that is why it can work. A second reading takes 屈 as “to be exhausted”, close to 竭. [[Wang Bi|wangbi]] reads it so: 虛而不得窮屈, “empty, and it cannot be brought to an end”. Then the line says that the emptiness is never used up, which is the claim of passage 4. The Mawangdui silk texts are reported to write the word with water, 淈; the Shuowen gives one sense of that graph as 水出皃, “the look of water that comes out”. Our “does not give way” tries to hold both: a thing gives way when it buckles, and a supply gives way when it fails. The line that follows chooses neither, and adds a fact: the more it moves, the more comes out.",
+      "body": "屈 is first “to bend, to buckle”. On that reading, the bellows is empty and does not collapse: its hollow keeps its form, and that is why it can work. A second reading takes 屈 as “to be exhausted”, close to 竭. [[Wang Bi|wangbi]] reads it so: 虛而不得窮屈, “empty, and it cannot be brought to an end”. Then the line says that the emptiness is not used up, which is the claim of passage 4. The Mawangdui silk texts are reported to write the word with water, 淈; the Shuowen gives one sense of that graph as 水出皃, “the look of water that comes out”. Our “does not give way” tries to hold both: a thing gives way when it buckles, and a supply gives way when it fails. The line that follows chooses neither, and adds a fact: the more it moves, the more comes out.",
       "src": [
         "Shuowen Jiezi, 水部: 淈，濁也。… 一曰水出皃。",
         "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
@@ -188,6 +188,11 @@
       "kind": "practice",
       "title": "Three breaths as a bellows",
       "body": "Sit or stand. Put one hand on the lower ribs. Breathe out fully and wait. Do not pull the next breath in; let the ribs open by themselves, as a pressed bag opens when the hand lets go. Do this three times. The chest is a 橐籥: a bag and a pipe. It gives most when it is emptied well, and it never needs to be held full. Then take the last line into the day. In one conversation, notice the moment when you have said enough and feel the wish to add more. Stop there. Keep the hollow. See if the other person fills it, or if the silence does the work."
+    },
+    "pair-xu-dong": {
+      "kind": "pair",
+      "title": "虛 and 動: empty and moving",
+      "body": "The bellows lines hold two pairs. 虛 and 動: empty and moved. 屈 and 出: giving way and coming out. A bellows is not a still void. It works by a cycle: it opens and is empty, it is pressed and gives air, and it opens again. The emptiness makes the movement possible, and the movement renews the emptiness. A reading that keeps 虛 alone makes the passage praise stillness and silence. A reading that keeps 動 alone makes it praise output. The last lines do rank: [[many words|duoyan]] are “not as good as” keeping the middle. The preference is aimed at a habit, the mouth that keeps pushing when the bag has no air. It is not a rule against speech; the passage itself is speech. The first lines work the same way. 不仁 is not cruelty set above kindness. It is care that has no favorite. When does your silence give, and when does it hold back?"
     }
   },
   "lenses": {
@@ -217,6 +222,29 @@
       "title": "The dog that knocks",
       "lesson": "Chinese has two words for a dog, and they are made in two ways. 犬 is a picture. The Shuowen quotes Confucius on it: 視犬之字如畫狗也, “look at the character 犬: it is like a drawing of a dog”. 狗 is the other kind of character. The left side, 犭, is that same 犬 pressed thin to stand at the side, and it gives the meaning: an animal of the dog kind. The right side, 句, gives the sound; alone it means “bent, a hook”, and the Shuowen defines it as 曲也, “curved”. Then the Shuowen quotes Confucius once more, with a pun as an explanation: 狗，叩也。叩气吠以守, “狗 is 叩, to knock: it knocks out its breath in barks and keeps guard”. Old glossaries add that 狗 was the young or small dog and 犬 the general word. In this passage the dog is made of straw, and its work is in the rite. Dogs were real offerings too. The Shuowen says under 獻, “to offer”, which has a 犬 in it, that the dog of the ancestral temple had a special name and that a fat dog was chosen to offer. [[Wang Bi|wangbi]] adds a plain fact: people ate dogs. So the animal in [[芻狗|chugou]] was guard, food, and gift to the ancestors, and here it is a thing of straw that stands in for all three.",
       "brush": "Eight strokes. The dog radical takes three. First a short stroke that falls to the left. Second, the spine: it starts at the top, curves down in a long bow, and ends with a hook to the left. Watch this stroke; it gives the whole left side its spring. Third, a stroke that falls left from the middle of the spine, like a leg. Then 句 in five: a falling stroke on the left; then the long wrapping stroke, a horizontal that turns, drops, and hooks inward; and inside that wrap a small mouth, 口, in three strokes, closed by its base line last. The mouth must sit high and to the left inside the wrap, with white space below it. The left side is all curve and the right side is all corner. In running script the three strokes of the animal are often made as one linked motion."
+    }
+  ],
+  "questions": [
+    {
+      "id": "no-favorites",
+      "claim": "Heaven and earth have no favorites, and the sage has none; each thing gets its hour and is let go.",
+      "prompts": [
+        "Can you accept this, or does something in you ask to be the exception?",
+        "Think of when you first learned that the world would not make a special case of you. How old were you? What did you decide then?",
+        "Hold the opposite: love means having favorites, and a care that is the same for all is no care. What moves in you when you take that side?",
+        "Whom do you treat as a straw dog after its hour? Who has treated you so?",
+        "Which is harder for you: to be let go, or to let go?"
+      ]
+    },
+    {
+      "id": "many-words",
+      "claim": "Many words reach a dead end; guarding the empty middle gives more than filling it.",
+      "prompts": [
+        "Is that your experience of your own talk?",
+        "In the house where you grew up, who talked and who kept quiet? Which of them had the power?",
+        "Take the other side: what is not said is lost, and silence leaves people alone with their guesses. Stay with it. What do you notice?",
+        "When is your silence a hollow that gives, and when is it a wall? How can you tell the two apart from the inside?"
+      ]
     }
   ]
 }

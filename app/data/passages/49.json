@@ -51,7 +51,7 @@
     "the heart of the [[hundred clans|baixing]] is taken as [[heart|xin]].",
     "",
     "The [[good|shan]], [[I|wu]] am good to them.",
-    "The not good, I am good to them too.",
+    "[[The not good|pair-good-notgood]], I am good to them too.",
     "[[De is good|deshan]].",
     "The [[true|trust]], I trust them.",
     "The untrue, I trust them too.",
@@ -202,6 +202,11 @@
       "kind": "practice",
       "title": "Trust first, once",
       "body": "Choose one person today whom you have filed as 不信, not to be relied on, or 不善, no good. It may be a colleague, a relative, a stranger at a counter. For one meeting, set the file down. Do not pretend that the past did not happen and do not hand over anything that you cannot afford to lose. Only give them, for this hour, the same plain good treatment and the same assumption of honesty that you give to those whom you like. Watch two things. Watch them: [[Wang Bi|wangbi]] says that people answer in the coin that they are offered. And watch yourself: notice how much effort the file took to carry, and what the [[in-breath|xixi]] feels like without it."
+    },
+    "pair-good-notgood": {
+      "kind": "pair",
+      "title": "善 / 不善: one answer to both sides",
+      "body": "The passage names two pairs: 善 and 不善, good and not good; 信 and 不信, true and untrue. Notice how the second side is written. It has no word of its own. It is the first word with 不, “not”, in front. The two are one measure, and each needs the other to be seen; passage 2 says that when all know the good as good, the not good is already there. The sage does not deny the difference. The lines keep both names. What the sage does not do is answer in two ways. One response meets both sides. A one-sided reading makes this a rule, “be kind to bad people”, and keeps the list of who is bad. The text takes away the list, which is the [[constant heart|wuchang]]. It also does not say that the not good stay so. A person turns."
     }
   },
   "lenses": {
@@ -230,6 +235,29 @@
       "title": "A person stands by a word",
       "lesson": "Left: 亻, the form that 人, a person, takes at the side of a character. Right: 言, speech. The Shuowen names this as a model case of the kind of character that joins two meanings to make a third: 信，誠也。从人从言。會意, “real, true; from person and speech; joined meaning”. A person, and what they said: 信 is the state in which the two agree. The pieces are familiar. 亻 marks human matters: 仁 (humane: a person and two), 位 (a place to stand), 伐 (to attack: a person and a dagger-axe). 言 has 口, a mouth, at its base. From “true to one’s word” came “to trust”, then a pledge or token that proves a message, and at last the modern sense “a letter”. For Confucius 信 is one of the load-bearing words: a person without it, he says, is like a cart without the pin that joins the yoke to the pole. The Laozi values it too, and distrusts fine speech: 信言不美，美言不信, “true words are not beautiful; beautiful words are not true” (81). This passage does something else with it. It makes 信 a gift that goes first, to the one who has not earned it. See [[the note on 信|trust]].",
       "brush": "Nine strokes. The person takes two: a stroke that falls to the left, and a vertical that starts from the middle of it. Keep it slim. Then 言 in seven. A dot at the top. A long horizontal: the widest line of the character, and it reaches left almost to the person. Two shorter horizontals below it, even and parallel. Then the mouth in three strokes: left side, top with right side, base. Watch the stack of three horizontals. If they are equal the character goes dead, so the first is long, the next two are short, and the spaces between them are the same. The mouth at the bottom is a little wider than the two short lines above it, and so the speech has a base to rest on."
+    }
+  ],
+  "questions": [
+    {
+      "id": "good-to-the-not-good",
+      "claim": "Goodness given to those who are not good is still goodness, and it does not wait for them to earn it.",
+      "prompts": [
+        "Is this true in your experience, or does it sound like a way to be used? Think of one person before you answer.",
+        "Who taught you that kindness has to be earned, or that it does not? What happened in your life that made the lesson stay?",
+        "Take the other side for a while: to be good to the not good wrongs the good, and people should get what they have shown. Say it as your own view. What rises in you: relief, anger, shame?",
+        "Whom do you keep on your own list of the not good? What in them do you most refuse to find in yourself?",
+        "Which view has your life given you more evidence for? What would it cost you if the other one were right?"
+      ]
+    },
+    {
+      "id": "no-constant-heart",
+      "claim": "A fixed heart, with standing verdicts on people, hears less than a heart that takes its shape from others.",
+      "prompts": [
+        "Do you agree, or do you count firm judgments as part of having character?",
+        "Recall a verdict on someone that you have held for years. When did you form it, and what was it protecting?",
+        "Now argue against the passage: a person with no fixed heart is a weathervane, and nobody can rely on them. Hold that for a few minutes. What do you notice in the body and in the thoughts?",
+        "Which do you fear more in yourself: to be rigid, or to have no centre? What does that fear say about what you have lived?"
+      ]
     }
   ]
 }

@@ -57,7 +57,7 @@
     "",
     "[[Plan|tu]] for the hard [[while it is easy|yi]].",
     "Work on the great while it is [[fine as a thread|xi]].",
-    "The hard affairs under heaven must start from the easy.",
+    "The hard affairs under heaven [[must start from the easy|nan-yi-pair]].",
     "The great affairs under heaven must start from the fine.",
     "So the [[sage|shengren]], to the end, does not do the great,",
     "and so can complete what is great.",
@@ -178,7 +178,7 @@
     "you-nan": {
       "kind": "gap",
       "title": "猶難之: even the sage",
-      "body": "猶 is “still, even so”. 難之 is 難 used as a verb with an object: “to hard it”, to regard it as hard. So 聖人猶難之 can be heard two ways. “Even the sage treats it as hard”: if the sage does, who are you to be casual? [[Wang Bi|wangbi]] reads it so. Or “the sage still treats it as hard”: after all the skill, the respect for the thing has not worn off. Both are meant. What is “it”? The text does not say: the task, the easy stage, each thing in turn. This is not anxiety. A good cook treats a knife as sharp every time, and for that reason is not cut. The last line then lands with a small smile: 故終無難矣, “and so, to the end, no difficulty”. The one who takes nothing lightly has a light life. The one who finds all things easy is always in trouble."
+      "body": "猶 is “still, even so”. 難之 is 難 used as a verb with an object: “to hard it”, to regard it as hard. So 聖人猶難之 can be heard two ways. “Even the sage treats it as hard”: if the sage does, who are you to be casual? [[Wang Bi|wangbi]] reads it so. Or “the sage still treats it as hard”: after all the skill, the respect for the thing has not worn off. Both are meant. What is “it”? The text does not say: the task, the easy stage, each thing in turn. This is not anxiety. A good cook treats a knife as sharp every time, and for that reason is not cut. The last line then lands with a small smile: 故終無難矣, “and so, to the end, no difficulty”. The one who takes nothing lightly has a light life. The one who finds all things easy stores up trouble."
     },
     "legge": {
       "kind": "legge",
@@ -193,6 +193,11 @@
       "kind": "practice",
       "title": "Find the thread",
       "body": "Make a short list of three things that weigh on you. For each one, do not ask how to solve it. Ask: where is this thing still a thread? A hard talk that you dread has an easy stage: one sentence, today, that opens it. A large piece of work has a first five minutes. A habit has the moment just before the hand moves. Do only the thread, and do it with full care, as if it were the hard part; that is 猶難之. Then look at your recent promises. Find one “yes” that you gave lightly. It is still at its easy stage now, or it was last week. Either carry it today or go back and take it up again honestly. Notice that none of this is a great deed."
+    },
+    "nan-yi-pair": {
+      "kind": "pair",
+      "title": "難 and 易: each is the other’s early form",
+      "body": "Passage 2 says that hard and easy complete each other, 難易相成. Here the pair is shown in time. The hard thing was once easy, and the great thing was once [[fine as a thread|xi]]. Then the pair turns the other way: much that is taken as easy brings much that is hard, and what is treated as hard ends with nothing hard. So neither word is a fixed property of a task. Each is a stage, and a way of meeting the stage. The text seems to favour the easy and the small. Look again: the sage [[treats it as hard|you-nan]]. The preference is for the early moment and for care, against an age that admired great deeds. It does not say “avoid what is hard”. The same holds for great and small, many and few, which stand [[with no verb between them|da-xiao]]. Which side do you call your work?"
     }
   },
   "lenses": {
@@ -222,6 +227,38 @@
       "title": "A mouth and a full tree",
       "lesson": "Left: 口, a mouth, the sign for all that goes in and out of it: 吃 (to eat), 喝 (to drink), 呼 and 吸 (to breathe out and in), 吹 (to blow), 唱 (to sing). Right: 未 (wèi), which gives the sound. But the Shuowen says that the sound-part also gives the sense: 未，味也, “未 is flavour”. It ties 未 to the sixth month of the old calendar, high summer, when fruit and grain have taken on their taste, and it reads the shape as a tree: 象木重枝葉也, “it shows a tree with doubled branches and leaves”. Compare 木, a tree, with 未: one more line across the top, a second tier of growth. A tree in full leaf, and a mouth beside it: 味. The same 未 is the common word “not yet”, and the eighth of the twelve branches that count hours and years. Take care with its near twin 末, “the tip, the end”, in which the upper line is the longer one; passage 64 has it, in “the tip of a hair”. The meaning of 味 grew from the tongue to the mind: 意味 is “meaning”, 趣味 “interest”, and to 體味 a thing is to taste it with the whole body, to take it in slowly. That last use is close to the line here, [[taste what has no taste|wu-wei-taste]]: the fullest character for flavour is turned on what has none.",
       "brush": "Eight strokes. The mouth, three: a short vertical; a horizontal that turns down; a closing horizontal. As a left-hand part it is small and sits high, level with the upper half of the tree, and it must not grow to the full height. The tree, five: a short horizontal; a longer horizontal under it; a vertical through both, tall, with its top well above the first line; then a stroke that falls to the left and one that falls to the right from the crossing of the vertical and the second horizontal. Watch the two horizontals. The upper one must be the shorter, or you have written 末 and changed the word. The two falling strokes spread wide and low and carry the small mouth as a branch carries a fruit. In running script the mouth is two quick dots and a turn."
+    }
+  ],
+  "questions": [
+    {
+      "id": "hard-from-easy",
+      "claim": "Every hard affair starts as an easy one, and the time to work on it is then.",
+      "prompts": [
+        "Does your own history agree? Name one hard thing in your life and look for its easy stage.",
+        "When trouble is still small, what do you do by habit: act, wait, or look away? Who taught you that?",
+        "Take the other side: some things cannot be seen while they are small, and some hard things are worth meeting at full size. What in you likes that view?",
+        "Do you admire the person who solves the crisis more than the one who had none? What does that say about what you want to be seen doing?"
+      ]
+    },
+    {
+      "id": "resentment-de",
+      "claim": "Resentment is to be answered with de, and not with a like return.",
+      "prompts": [
+        "Do you agree, or do you hold with the old objection: then with what do you answer kindness?",
+        "Think of a wrong done to you that you still carry. How did your family deal with wrongs: by return, by silence, by forgiving?",
+        "Hold the opposite for a minute: a wrong that is answered with good is a wrong rewarded. What feelings come, and toward whom?",
+        "Is your answer different when you are the one who did the wrong? What do you hope for then?"
+      ]
+    },
+    {
+      "id": "light-yes",
+      "claim": "A quick yes is a weak promise, and calling many things easy brings many hard ones.",
+      "prompts": [
+        "Is this true of you? Recall your last quick yes and what became of it.",
+        "What do you fear will happen if you pause before you agree? Where does that fear come from?",
+        "Now take the other side: a ready yes is generosity, and a person who weighs every request is cold. Which person were you taught to be?",
+        "What do you think of people who often say “that is hard”? What might they see that you pass over?"
+      ]
     }
   ]
 }

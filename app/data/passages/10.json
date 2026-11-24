@@ -94,7 +94,7 @@
     "can it be without a flaw?",
     "[[Caring for the state|aiguo]], ordering the people:",
     "can it be [[without cleverness|wangbi]]?",
-    "[[Heaven’s gate|tianmen]] opens and shuts:",
+    "[[Heaven’s gate|tianmen]] [[opens and shuts|pair-kai-he]]:",
     "can one take [[the hen’s part|ci]]?",
     "Bright and clear, reaching the four quarters:",
     "can it be without forcing?",
@@ -266,6 +266,11 @@
       "kind": "practice",
       "title": "Sit with the first three",
       "body": "Sit down for ten minutes with the first three questions, in order. First: feel the body as one weight on the seat, and let attention stay inside it. When it leaves, that is 離, parting. Come back, and do not scold. Second: let the breath become even and fine, and with each out-breath let one part soften: the jaw, the shoulders, the belly. Ask how an infant would lie here. Third: look at what passes through the mind as marks on a mirror. You do not need to scrub. See that the mirror itself is dark and clear behind them. Do not answer the questions. They are in the text as questions, and the practice is to keep asking."
+    },
+    "pair-kai-he": {
+      "kind": "pair",
+      "title": "開 and 闔, 雌 and 雄: the gate does both",
+      "body": "The fifth question has one pair in plain view, 開 and 闔, open and shut, and one pair with a half missing: 雌, [[the hen|ci]], with no 雄, the cock. The gate does both things by turns, and neither is the right one. Breath comes and goes; times of order and disorder come and go. Then the question asks for one part: can one be the hen, who answers? The text prefers that part here, and the reason is practical. A person who has to lead each swing of the gate fights half of its movement. The preference does not rank female over male or rest over action. Passage 28 gives the whole of it: 知其雄，守其雌, know the cock, keep to the hen. The one who keeps to the hen knows how to crow. The other questions work the same way: [[柔|rou]] is asked of a body that has bones, and 無為 of a mind that is 明白, bright and clear. When the gate last swung in your life, which part did you take?"
     }
   },
   "lenses": {
@@ -295,6 +300,38 @@
       "title": "A convict under a roof",
       "lesson": "Two parts, one above the other. The top is 宀, a roof: a dot for the ridge and a line that comes down on each side. It marks buildings and what is inside them: 家, a household; 室, a room; 宮, a palace; 守, to keep a post, from passage 5. Below it is 辛. Today 辛 means “bitter, harsh”. The Shuowen glosses its core as 辠, “crime”, and modern scholars commonly explain the early form as a chisel or blade for marking the faces of convicts and slaves. Its family is dark, and the Shuowen is plain about it. 辠, the old graph for crime, is 辛 with a nose, and the First Emperor replaced it with 罪 because it looked too much like his title 皇. 童, now “child”, was once a male slave, and 妾 a female one; in both, the top is a short form of this blade. So 宰 is a marked person who serves under a roof: 辠人在屋下執事者. Such servants ran great houses. One of them cut and shared the sacrificial meat, and the word came to mean “to butcher”; another kept the accounts, and the word came to mean “steward”, then “minister”. Confucius’s student Zai Wo carried it as a family name. In 長而不宰 all the layers sound together: to be head of a house and not to [[carve it up|zai-steward]] as its master.",
       "brush": "Ten strokes. The roof takes three: the dot at the top centre, a short stroke at the left end, and then a horizontal that runs right and ends in a hook. The roof must be wide, wider than most of what is below, because it has to cover. Then 辛 in seven. A dot, a horizontal, and two small strokes that lean toward each other: these four are the top of the blade and look like 立. Then stroke eight. Watch it: a long horizontal, as wide as the roof itself, and the main level line of the lower part. Under it comes a shorter horizontal, and last the vertical, which starts at the long line and comes straight down to a point. That last stroke is called a hanging needle. Three level lines of three lengths stand on one needle, and the needle must be exactly upright."
+    }
+  ],
+  "questions": [
+    {
+      "id": "soft-as-an-infant",
+      "claim": "The breath can be gathered to full softness, as in an infant, and that softness is whole, not weak.",
+      "prompts": [
+        "Do you agree that softness can be strength? Where have you seen it hold, and where have you seen it fail?",
+        "When did you learn to harden: at what age, after what event? What did the hardness protect?",
+        "Now hold the opposite: an adult needs a firm shape, and softness is for those whom others guard. What happens in your chest and jaw as you hold that?",
+        "What do you feel toward very soft people? What do you feel toward very hard ones? Which feeling is stronger?"
+      ]
+    },
+    {
+      "id": "raise-and-not-rule",
+      "claim": "To give life and to raise, without owning or ruling, is the deepest kind of power.",
+      "prompts": [
+        "Is that how you were raised? Is it how you raise, teach, or lead?",
+        "Think of something you made, or someone you helped to grow. Where do you still hold title?",
+        "Take the other side: what you bring to life is your charge, and to drop the reins is neglect. Stay with it a while. What comes?",
+        "Which have you met more in your life, the hand that held too tight or the hand that was absent? How does that decide which side you defend?"
+      ]
+    },
+    {
+      "id": "the-part-that-answers",
+      "claim": "When the gate opens and shuts, one can take the part that answers and does not lead.",
+      "prompts": [
+        "In a sudden change, do you move first, or do you respond? Is that a choice?",
+        "Who led and who followed in the pairs you watched as a child? What did you conclude from them?",
+        "Hold the opposite: someone has to crow, and waiting to respond leaves the first move to others. What thoughts and feelings does that raise?",
+        "What would it cost you to take the other part once this week?"
+      ]
     }
   ]
 }

@@ -44,7 +44,7 @@
     "",
     "The ten thousand things [[carry shade on the back|yin]]",
     "and [[hold sun in the arms|fubao]];",
-    "the [[surging breath|chongqi]] makes their accord.",
+    "the [[surging breath|chongqi]] [[makes their accord|pair-yin-yang]].",
     "",
     "What people hate",
     "is to be [[orphaned, alone, unfed|gugua]],",
@@ -131,7 +131,7 @@
     "sunyi": {
       "kind": "etymology",
       "title": "損 and 益: two hexagrams",
-      "body": "損 is “to lessen”; the Shuowen says 減也, “to reduce”, and the hand at the left takes something away. 益 is “to add, to increase”, and its graph is a picture that the Shuowen reads: 饒也。从水、皿, “abundance; from water and a dish”: a vessel so full that the water stands above the rim. It is the first form of 溢, to overflow. The two words are also the names of two hexagrams that stand side by side in the Book of Changes, 損 and 益, numbers 41 and 42, and each is the other turned upside down. A Han story says that Confucius sighed each time that he read them, because he saw in them that an act meant to benefit a thing can harm it, and an act meant to harm can benefit. The line here says more than “gain and loss alternate”. It says that the lessening is itself the growing. Passage 48 gives the practice: in learning, add each day; in the Dao, 損, take away each day.",
+      "body": "損 is “to lessen”; the Shuowen says 減也, “to reduce”, and the hand at the left takes something away. 益 is “to add, to increase”, and its graph is a picture that the Shuowen reads: 饒也。从水、皿, “abundance; from water and a dish”: a vessel so full that the water stands above the rim. It is the first form of 溢, to overflow. The two words are also the names of two hexagrams that stand side by side in the Book of Changes, 損 and 益, numbers 41 and 42, and each is the other turned upside down. A Han story says that Confucius sighed each time that he read them, because he saw in them that an act meant to benefit a thing can harm it, and an act meant to harm can benefit. The line here says more than “gain and loss alternate”. With 或, “sometimes”, it says that a lessening can itself be the growing. Passage 48 gives the practice: in learning, add each day; in the Dao, 損, take away each day.",
       "src": [
         "Shuowen Jiezi, 手部: 損，減也。从手員聲。",
         "Shuowen Jiezi, 皿部: 益，饒也。从水、皿。皿，益之意也。",
@@ -197,12 +197,17 @@
       "kind": "practice",
       "title": "Find your shaded side",
       "body": "Stand outside on a clear day, or by a window, with the light on your face and chest. Feel the warmth in front. Then put your attention on your back: the cooler side, which you never see. You carry it everywhere. Breathe in and out a few times and notice that the breath moves between the two, front and back, and makes them one body. Then apply it. Take one quality that you show, a sunny one: competence, cheer, patience. Ask what its shaded side is, the thing that goes with it and stays behind you. Do not turn around to fix it. The passage says only that you carry it, and that the accord is in the breath between."
+    },
+    "pair-yin-yang": {
+      "kind": "pair",
+      "title": "陰/陽 and 損/益: neither side alone",
+      "body": "The passage has two pairs. Shade 陰 and sun 陽 are [[two sides of one hill|yin]]: each thing carries one and holds the other. The text gives no rank. It gives a third thing, 和, accord, made by the breath that moves between the two. A thing with only sun is scorched; a thing with only shade does not ripen. Later ages took sides: some made yang the noble half, and some readers make the Laozi a book of yin. This line does neither. The second pair, less 損 and more 益, is written as a crossing: [[lessened and so grow, grow and so be lessened|sunyi]]. The word 或, “in some cases”, keeps it from being a rule that less is more. Each side is on its way to the other, as the slopes change with the hour. Which side of yourself do you hold to the light, and which do you carry?"
     }
   },
   "lenses": {
-    "ground": "The passage opens with a count: the Dao [[bears|sheng]] one, one two, two three, three [[all things|numbers]]. Four short clauses with one verb; then the count stops, since after three there is only “many”. The second sentence turns from origin to structure: each thing has [[shade on its back|yin]] and [[sun in its arms|fubao]], and a [[breath that blends them|chongqi]]. Then, with no bridge, we are at court: kings name themselves with [[the words that people hate|gugua]], and a law is drawn, that [[lessening is growing|sunyi]]. Last, the speaker cites [[a common proverb|qiangliang]] and names it [[father of the teaching|jiaofu]]. Some hold that these are [[two passages|halves]]. Read as one, it goes from the largest thing that can be said to the smallest: from the birth of the world to how a bully dies.",
+    "ground": "The passage opens with a count: the Dao [[bears|sheng]] one, one two, two three, three [[all things|numbers]]. Four short clauses with one verb; then the count stops, since after three there is only “many”. The second sentence turns from origin to structure: each thing has [[shade on its back|yin]] and [[sun in its arms|fubao]], and a [[breath that blends them|chongqi]]. Then, with no bridge, we are at court: kings name themselves with [[the words that people hate|gugua]], and an observation is drawn, that [[a lessening may be a growing|sunyi]]. Last, the speaker cites [[a common proverb|qiangliang]] and names it [[father of the teaching|jiaofu]]. Some hold that these are [[two passages|halves]]. Read as one, it goes from the largest thing that can be said to the smallest: from the birth of the world to how a bully dies.",
     "inner": "The count can be watched in experience. Before a thought, awareness is not divided: no number fits it. Then “here I am”: [[one|numbers]]. Then “and there is that”: two, a knower and a known. Then the relation between them, liking or fear or interest: three. From three the whole busy world unfolds in a second. [[Wang Bi|wangbi]] saw that the first step is a word: to say “one” is already two. The way back is the 損 of the second half: [[less|sunyi]], and less. The middle lines describe the state of any living moment: it has a lit side that we show and hold, and a [[shaded side|yin]] that we carry and do not see, and it is whole when [[breath|qi]] moves freely between them. No part of this says to get rid of the shade.",
-    "leading": "Kings chose the worst words for their titles: [[orphan, alone, unfed|gugua]]. The passage reads the custom as a law of power. An organization that grows by adding, with more staff, more rules, more reach, is at some point [[lessened by the adding|sunyi]]; one that cuts back to its root grows. A leader who takes the low name and the blame is made larger, and one who takes each honor is made smaller, and the people around both of them can see it. Then the proverb: [[the hard and overbearing|qiangliang]] end badly. Each office has known such a person and has seen the end. The speaker [[claims no new wisdom|renjiao]]. For a leader this may be the most useful line: the principle that you need is probably one that your grandmother said, and you have not yet made it [[the father of your practice|jiaofu]].",
+    "leading": "Kings chose the worst words for their titles: [[orphan, alone, unfed|gugua]]. The passage reads the custom as a pattern of power. An organization that grows by adding, with more staff, more rules, more reach, is at some point [[lessened by the adding|sunyi]]; one that cuts back to its root may grow. A leader who takes the low name and the blame is made larger, and one who takes each honor is made smaller, and the people around both of them can see it. Then the proverb: [[the hard and overbearing|qiangliang]] end badly. Each office has known such a person and has seen the end. The speaker [[claims no new wisdom|renjiao]]. For a leader this may be the most useful line: the principle that you need is probably one that your grandmother said, and you have not yet made it [[the father of your practice|jiaofu]].",
     "body": "Chinese medicine and the movement arts took their first map from this passage. The back of the body is its [[yin|yin]] side in the passage’s own sense: it is carried, and turned from the light. The front is held open to the sun. Stand and feel both. Most people live in the front, in the face and chest and hands, and forget that half of the body is behind them. Then the [[breath|qi]]: a full breath widens the back as much as the chest, and when it does, front and back stop being two. That is 和, [[accord|chongqi]], as a physical fact. The last lines are also of the body. Stiffness is 強梁, the [[strong beam|qiangliang]]: locked knees, a held jaw, force used against force. Such a body is easy to break and wears out early.",
     "nature": "Go to any hill at noon. The south slope is [[陽|yin]]: warm, dry, with one set of plants. The north slope is 陰: cool, mossy, with ferns and a different wood. One hill, two climates, and the ridge between them is not a wall. By evening the light has moved and the slopes have begun to change roles. Life needs both: seeds sprout in the shade and fruit ripens in the sun. And between them moves [[air|qi]], warm rising from the lit side, cool sinking on the dark side; the wind on a mountain is this surging of two breaths. The count at the head of the passage is the same hill seen in time: one land, two slopes, the weather between them, and then all the living things.",
     "practice": "Do the exercise of [[the shaded side|practice]] once today. Then choose one 損, one small lessening, and watch for the gain in it: say less in one meeting, own one thing less, leave one claim unmade. And remember one saying that your elders repeated, the kind that everyone knows and no one obeys. For a week, treat it as the speaker treats his proverb: as [[the father of the teaching|jiaofu]]."
@@ -220,6 +225,38 @@
       "title": "The sunny side of the hill",
       "lesson": "The left part, 阝, is all that the brush has kept of 𨸏 (阜), a hill or a terraced slope; the old forms are a set of steps cut into a height. At the left of a character it means land that rises: 陵 (a mound), 降 (to come down: two feet that descend a hill), 隅 (a corner, from passage 41), 陰. The right part is 昜. Its top is 日, the sun. Under the sun is a line, and under that some slanting strokes that are commonly explained as rays that come down, or as the sun above an altar; the Shuowen defines 昜 as 開也, “to open”, and lists it as a character by itself. With the hill at its side, the Shuowen’s gloss is 高、明也, [[high and bright|yin]]. The same right side gives its sound, and often its brightness, to 揚 (to lift, to spread), 湯 (hot water), and 場 (an open ground). Now set 陰 beside it. Same hill. On the right, 今 above 云, and 云 is the old picture of a cloud. So the pair is: a hill with the sun up, a hill under cloud. The short forms make it simpler still, and children learn them first: 阳 is hill and 日, sun; 阴 is hill and 月, moon. In all these forms the hill is the same hill. The passage says that each of the ten thousand things is such a hill, with [[one side to the light|fubao]].",
       "brush": "Eleven strokes. The hill takes two: first a stroke that goes right, turns back, and curls twice like an ear; then a long vertical that stands under its left edge. Then the sun, four strokes: left side, top with right side, the line inside, the base. Then a long horizontal under the sun, the widest line of the right half. Then four more: a stroke that falls left; a horizontal that turns down and ends in a hook to the left; and inside that frame two strokes that fall left, side by side. Watch the last two. They are parallel and must stay apart, like rays; if they touch, the light goes out of the character. The hill should be narrow and stand a little high, so that the sun on the right can be full. Its long vertical ends in a point like a needle that hangs."
+    }
+  ],
+  "questions": [
+    {
+      "id": "shade-and-sun",
+      "claim": "Every thing carries a shaded side and holds a lit side, and is whole only when the two blend.",
+      "prompts": [
+        "Do you accept this about yourself? What is on your lit side, and what do you carry behind?",
+        "What did your family show in the light, and what did it keep in the shade? Which did you inherit?",
+        "Take the opposite: a person should bring everything into the light, and what stays dark is a fault to remove. What rises as you hold that?",
+        "Which quality do you judge most quickly in others? Could it be standing on your own shaded slope?"
+      ]
+    },
+    {
+      "id": "less-may-grow",
+      "claim": "A thing may grow by being lessened, and may shrink by being added to.",
+      "prompts": [
+        "Where has a loss made you larger, or a gain made you smaller? Where has it simply not been so?",
+        "What are you adding to now? What do you fear would happen if you stopped?",
+        "Hold the common view for a minute: more is more, and loss is loss. What part of you is relieved to hear it said plainly?",
+        "Which side do your choices of the last year follow? Is that the side that you say you believe?"
+      ]
+    },
+    {
+      "id": "hard-end",
+      "claim": "The hard and overbearing do not come to a natural end.",
+      "prompts": [
+        "Does life bear this out? Think of the forceful people that you have known, and how it went for them.",
+        "Where are you the overbearing one? What are you protecting there?",
+        "Now suppose the opposite: the forceful take what they want and die content, and the mild are passed over. What do you feel: anger, envy, doubt?",
+        "Why might you need the proverb to be true? What would you do differently if it were not?"
+      ]
     }
   ]
 }

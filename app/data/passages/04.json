@@ -1,6 +1,6 @@
 {
   "n": 4,
-  "title": "The Bowl That Never Fills",
+  "title": "The Bowl That Does Not Fill",
   "theme": "way",
   "zh": [
     {
@@ -32,7 +32,7 @@
   ],
   "rendering": [
     "[[Dao|dao]] is an [[empty bowl|chong]].",
-    "Use it, and [[perhaps|huo]] it [[does not fill|ying]].",
+    "[[Use it|pair-chong-ying]], and [[perhaps|huo]] it [[does not fill|ying]].",
     "A [[deep pool|yuan]], ah,",
     "it [[seems|si]] the [[ancestor|zong]] of the ten thousand things.",
     "",
@@ -198,6 +198,11 @@
       "kind": "practice",
       "title": "Wash one bowl",
       "body": "After a meal today, wash one bowl or cup by hand, slowly. When it is clean and dry, hold it for a moment before you put it away. Look into it. The part that you paid for is the wall. The part that you use is the room inside, and the meal did not use it up. Now turn the same look on yourself for three breaths. After a day of use, is there a part of you that is still empty, still able to receive? Do not try to make that part larger. See only that it is there. The passage says “perhaps” at this point, and you may say it too. The bowl returns in passage 11, with a wheel and a house."
+    },
+    "pair-chong-ying": {
+      "kind": "pair",
+      "title": "沖 and 盈: empty and full",
+      "body": "沖 is the hollow of the bowl, and 盈 is fullness. The line sets them against each other and joins them through 用, use. The bowl is of use because it is empty, and the use does not fill it. English hears “empty” as a lack. The text here prefers the empty side, and it helps to ask what the preference is for. It answers a world that counted full things: full halls, full titles, the full vessel of passage 9. It does not say that fullness is bad. Passage 45 puts the two words in one line, 大盈若沖: great fullness is like emptiness. Passage 22 says 窪則盈: the hollow place is filled. So the empty side turns too. A bowl is emptied to be filled and filled to be emptied. The four lines that follow hold more pairs: sharp and blunt, tangled and loose, [[light and dust|tong-chen]]. Which do you defend more, your fullness or your room?"
     }
   },
   "lenses": {
@@ -227,6 +232,28 @@
       "title": "Deer over earth",
       "lesson": "Two pictures, one on the other. On top is 鹿, a deer. The oracle-bone form shows the animal from the side with branched antlers, a large eye, and legs; in the modern form the antlers and head are the upper part, and the two 匕 shapes at the foot are what is left of the legs. Below is 土, earth: commonly explained as a lump of soil on the ground line. The Shuowen’s older form of the character has three deer on top, 麤, a herd, and the definition is a scene and not a gloss: 鹿行揚土也, “deer run and the earth rises”. So dust is the track that life leaves in the air. Three of a thing is the usual way in the script to say “many”: 森 is a forest from three trees, 眾 a crowd from three people, and 品, three mouths, is a set of things to compare. The herd shrank to one deer because the full form was heavy to write. The mainland short form went further and is a new small poem: 尘, 小 over 土, “small earth”. 鹿 has cousins too: 麗, “beautiful”, is commonly explained as a deer with a fine pair of antlers above it (the Shuowen takes the top part as the sound), and 慶, to celebrate, has a deer inside it, commonly explained as a deerskin brought as a gift. The line says [[同其塵|tong-chen]]: be where the hooves are.",
       "brush": "Fourteen strokes: the deer first, then the earth. The deer opens with a dot and a level line, and then a long stroke that falls away to the left and shelters all that comes after it. Under that roof the strokes are many and close, and the writer must keep the white spaces between them even, or the animal turns into a blot. The two leg shapes at the bottom of the deer are kept short, to leave room. Then the earth: a short horizontal, a vertical, and last a long horizontal. Watch that last stroke. It is the ground line, and it should be the widest line in the character; a tall, crowded shape stands or falls on it. In cursive script the deer is cut down to a few turns of the wrist, and only the ground line stays the same."
+    }
+  ],
+  "questions": [
+    {
+      "id": "empty-is-useful",
+      "claim": "The empty bowl is the useful one; use does not fill it, and so it does not run out.",
+      "prompts": [
+        "Where in your life has this been true: a room, a silence, a free hour that gave more than a full one?",
+        "How do you feel in front of an empty thing: a blank day, a pause in talk, an account at zero? Where did that feeling begin?",
+        "Take the other side: a full store is safety, and emptiness is what happens to people who did not prepare. Hold that as true for a minute. What comes up?",
+        "Which of the two sides sounds like a voice you know? Whose voice is it?"
+      ]
+    },
+    {
+      "id": "light-into-dust",
+      "claim": "The sharp point is blunted and the light is tuned down to the dust, and nothing is lost by it.",
+      "prompts": [
+        "Do you agree that nothing is lost? Think of a time when you held back a sharp answer.",
+        "What did you learn early about being bright in a room: that it was welcome, or that it had a price?",
+        "Now the opposite: a light is for shining and an edge is for cutting, and to dim them is a kind of lie. Stay with that. What feelings and thoughts arrive?",
+        "When someone else shines and does not hold back, what do you feel toward that person? What does it tell you about your own light?"
+      ]
     }
   ]
 }

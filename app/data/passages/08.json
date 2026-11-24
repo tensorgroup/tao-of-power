@@ -55,7 +55,7 @@
     "For work, the good is ability.",
     "For movement, the good is [[the right time|shi]].",
     "",
-    "Only by not contending",
+    "Only by [[not contending|pair-shang-xia]]",
     "is there [[no blame|you]]."
   ],
   "notes": {
@@ -184,6 +184,11 @@
       "kind": "practice",
       "title": "Pour a glass of water",
       "body": "Pour water slowly from a jug into a glass and watch it. It goes down. It takes the shape of the glass at once and keeps no shape of its own. It finds its level and becomes still. It does not argue with the glass. Then drink it; it benefits you and asks for nothing. Now carry one of the seven lines for the day. Choose 動善時: in moving, the right time. Before you speak in a meeting, send a message, or start a task, ask one question: is this the season for it? Wait if it is not. Water behind a stone is not weak. It is early, and it knows it."
+    },
+    "pair-shang-xia": {
+      "kind": "pair",
+      "title": "上 and 下: the highest goes lowest",
+      "body": "The first word is 上, “highest”, and the image that follows goes to the lowest ground. That is the passage’s pair: 上 and 下, high and low, with 爭 and 不爭, contending and not contending, beside it. The crowd puts the good at the top and hates the bottom. The text does not turn the ladder over and make low the new high. It shows one movement: water is “highest” in worth because it goes down and serves there. Take away the going down, and nothing is left of the height. The preference for the low place answers a class that [[lived by rank|wu]]. It is not a rule that low is good at all times. Water also [[drowns|shanli]], and the rain that reaches the sea rises again as cloud. Not contending turns too: passage 66 says that no one in the world can contend with one who does not contend. Is your not-contending a going down, or a quiet way to be above?"
     }
   },
   "lenses": {
@@ -213,6 +218,38 @@
       "title": "The sun’s seasons",
       "lesson": "On the left is 日, the sun. In the oldest script it is a circle with a mark inside; brush and chisel made it a rectangle. As a meaning part it gives light and time: 明, bright; 早, early; 昏, dusk; 春, spring. On the right is 寺. In this character the Shuowen takes 寺 only as the sound: 从日寺聲. Alone, 寺 was a government office in the Han, and later it became the common word for a Buddhist temple. An old form of 時 is commonly cited that has no 寺 at all: 旹, with 之, “to go”, above the sun. That older form is a small sentence: the sun goes. The Shuowen’s definition is 四時也, “the four seasons”. So the first Chinese word for time is a word about the sky and the farm: the sun’s position decides what work is due. The sound part has a family, and each is marked as a sound-compound in the Shuowen: 詩, a poem, has speech; 持, to hold, has a hand; 恃, to lean on, has a heart, and you met it in passage 2. 持 opens passage 9. In modern Chinese 時間, “time-gap”, is clock time, a term fixed in the modern period. The line here needs the old sense: 動善時, move in season. The simplified form 时 keeps the sun and a hand.",
       "brush": "Ten strokes. The sun first, in four: the left side, then the top and right side in one turn, then the short line in the middle, then the base. As a left part it is narrow and is set a little high. Then 寺 in six. A short horizontal, a vertical through it, and then stroke seven, a long horizontal. Watch it: it is the widest line of the right half, and it lies level with the middle of the sun. Below it comes one more horizontal, shorter. Stroke nine is the vertical with a hook at its foot; it stands to the right of centre. The last stroke is a dot in the angle of the hook. The left part is small and still. The right part is tall, with three level lines at different lengths and a hook at the foot."
+    }
+  ],
+  "questions": [
+    {
+      "id": "the-despised-place",
+      "claim": "The best kind of good is like water: it serves everything and settles in the place people despise.",
+      "prompts": [
+        "Do you agree that the despised place is near to the best? Or does that sound like a story told to people who are kept low?",
+        "Which places and tasks did your family look down on? Which of them do you still avoid?",
+        "Hold the opposite: good work rises, and the top is where a person can do the most. What do you feel when you take that side?",
+        "Think of someone you know in a low place. Do you see water there, or failure? What decides it?"
+      ]
+    },
+    {
+      "id": "no-contest-no-blame",
+      "claim": "One who does not contend draws no blame.",
+      "prompts": [
+        "Is that true in your life? When has not contending kept you clear, and when has it cost you?",
+        "What did a fight mean where you grew up: danger, sport, love, shame?",
+        "Take the other side: some things are worth a fight, and one who will not contend lets other people decide. Stay with that. What arises?",
+        "Is your own not-contending a strength, or is it a fear with a good name? How would you know?"
+      ]
+    },
+    {
+      "id": "the-right-time",
+      "claim": "In movement, the good lies in the right time, not in speed or force.",
+      "prompts": [
+        "Where have you seen timing do what effort could not?",
+        "Are you by habit early or late? Whose pace did you learn?",
+        "Suppose instead that waiting for the right moment is an excuse, and that the one who moves first makes the moment. What does that stir in you?",
+        "What are you waiting on now? Is it a season, or is it a fear?"
+      ]
     }
   ]
 }

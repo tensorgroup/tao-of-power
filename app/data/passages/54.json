@@ -65,7 +65,7 @@
   ],
   "rendering": [
     "What is [[well set up|jian]] is not torn out.",
-    "What is [[well held in the arms|bao]] does not slip away.",
+    "What is [[well held in the arms|bao]] [[does not slip away|pair-hold-lose]].",
     "Sons and grandsons [[bring the offerings|jisi]],",
     "[[and the line does not break|chuo]].",
     "",
@@ -218,6 +218,11 @@
       "kind": "practice",
       "title": "One scale at a time",
       "body": "Try the five looks as an exercise, and keep each one on its own scale. First the body: sit, and for two minutes only notice it as a body. Is it tired, tight, hungry, at ease? Do not explain it with your work or your family. Then the household: think of your home at a normal hour, as if you stood in the doorway. What is its mood? Do not judge it by how you feel. Then one wider circle that you belong to: a street, a team, a town. Each time, ask what this thing is like when you measure it only by itself. Most trouble in judgment comes from a mix of scales: a company treated as a family, a family run as a state. What changes when you stop?"
+    },
+    "pair-hold-lose": {
+      "kind": "pair",
+      "title": "建 / 拔, 抱 / 脫: set up and torn out, held and lost",
+      "body": "The first two lines are built on two pairs: 建 and 拔, to set up and to pull out; 抱 and 脫, to hold in the arms and to slip free. In common experience each first word calls up the second. What is set up can be pulled out, and what is held can get away. The harder the founding and the tighter the grip, the more this is so; the [[war records|jian]] of the time are full of it. The lines do not deny the turn. They say 善, “well”: there is a way of setting up that gives the puller no hold, and a way of holding that does not make the thing struggle. The proof offered is not a wall. It is grandchildren who come of their own will. A one-sided reading hears “make it strong enough and it stays for ever”. The text has no “for ever”. It has a table that someone has to choose to lay again."
     }
   },
   "lenses": {
@@ -247,6 +252,28 @@
       "title": "The bird that watches",
       "lesson": "觀 has twenty-five strokes and two parts. The right side is 見, “to see”: an eye, 目, on two legs. The eye is so large that the person under it is only legs. The left side is 雚 (guàn), and the Shuowen says it gives the sound: 从見雚聲. But look at what it draws. At the bottom is 隹, a short-tailed bird. Above the bird are two 口, and above them a crest. 雚 is an old name for a water bird, commonly identified as a stork or heron, and the two “mouths” are often explained as its two wide eyes. We cannot prove that the scribes chose it for the picture; sound was their reason. Still, a reader sees a tall bird that stands in shallow water without a move and looks. That is a good teacher for [[this verb|guan]]. The same sound-part is in 歡 (joy), 勸 (to urge), and 權 (the weight of a scale, then power). 觀 is also the name of hexagram 20 of the Changes, where it means both to look and to be looked at, like a tower. A gate tower was a 觀, and then a Daoist temple. Passage 1 has the same verb: 以觀其妙, “to look at its fine points”.",
       "brush": "Twenty-five strokes. The left side takes eighteen. The crest, four strokes: a vertical, a horizontal, a vertical, a horizontal. Two small mouths side by side, each in three: a vertical, a horizontal that turns down, a closing horizontal. Then 隹, eight strokes: a stroke that falls left, a vertical, a dot, three horizontals, a vertical through their middle, and a last horizontal as the base. The right side, 見, takes seven: the eye in five (left side; top and right side in one stroke; two lines inside; the base), then a stroke that falls to the left and a last stroke that goes down, turns right, and ends in a hook up. That final hook is the only free line in the character. All the rest is packed tight, and the white inside must stay open. Cursive script reduced it to a few turns, the source of the short form 观."
+    }
+  ],
+  "questions": [
+    {
+      "id": "lasting-is-chosen",
+      "claim": "What is well set up lasts because those who come after choose to carry it on.",
+      "prompts": [
+        "Do you agree? Think of something that outlived its founder, and something that did not.",
+        "What have you built by force of will that would stop if you stopped? What are you afraid would be shown if you let go?",
+        "Take the opposite: things last because they are defended, with rules, walls, and effort, and what is left to free choice is dropped. Hold that as true for a while. What comes up?",
+        "Which did you inherit from your own family: a table that you were glad to lay again, or a duty that you carried? How does that colour your answer?"
+      ]
+    },
+    {
+      "id": "look-by-itself",
+      "claim": "Each thing is known by looking at it as itself: the body by the body, the state by the state.",
+      "prompts": [
+        "Is that how you look? Or do you measure your body by another body, and your home by another home?",
+        "Where did the habit of comparing come from in your life? Who was held up beside you?",
+        "Try the other view: nothing is known alone, and comparison is what shows a thing for what it is. Stay with it. Does it feel like clear sight, or like an old pressure?",
+        "The passage puts the body first and the realm last. Do you tend to start at the other end, with the world and its faults? What might that order spare you from seeing?"
+      ]
     }
   ]
 }

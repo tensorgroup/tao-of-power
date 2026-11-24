@@ -1065,6 +1065,612 @@
    "w": 1000,
    "h": 552,
    "alt": "A large carp curves upward among water plants; a smaller fish swims nearby on pale silk."
+  },
+  "cook-ding-han": {
+   "file": "art/cook-ding-han.jpg",
+   "title": "Kitchen Scene with a Butcher",
+   "titleZh": "庖廚圖",
+   "artist": "Anonymous carvers; said to be Han dynasty",
+   "date": "Said to be Han dynasty (206 BCE–220 CE)",
+   "collection": "Collection not stated in the Commons record (its only source is a Baidu encyclopedia page)",
+   "source": "https://commons.wikimedia.org/wiki/File:Cook_Ding_is_cutting_up_an_ox_-_A_Han_dynasty_illustration_to_the_Zhuang_Zi.jpg",
+   "license": "Public domain",
+   "w": 500,
+   "h": 407,
+   "alt": "A carved figure works at a hanging carcass while another robed figure stands watching."
+  },
+  "lao-buffalo-disciple": {
+   "file": "art/lao-buffalo-disciple.jpg",
+   "title": "Laozi on His Buffalo, Followed by a Disciple",
+   "titleZh": "老子騎牛",
+   "artist": "Unknown Chinese painter",
+   "date": "Qing dynasty, 18th century (as reported)",
+   "collection": "Collection not stated in the Commons record (its source is a print seller)",
+   "source": "https://commons.wikimedia.org/wiki/File:Lao-Tzu_on_his_buffalo,_followed_by_a_disciple.jpg",
+   "license": "Public domain",
+   "w": 960,
+   "h": 858,
+   "alt": "A white-bearded old man in pink robes rides a black water buffalo; a boy in green walks beside him carrying a gourd on a staff."
+  },
+  "zha-shibiao-spring-plowing": {
+   "file": "art/zha-shibiao-spring-plowing.jpg",
+   "title": "Spring Plowing (Landscape Album in Various Styles)",
+   "titleZh": "四季山水圖冊",
+   "artist": "Zha Shibiao",
+   "date": "Qing dynasty, 1684",
+   "collection": "Cleveland Museum of Art, 1955.37.2",
+   "source": "https://www.clevelandart.org/art/1955.37.2",
+   "license": "CC0",
+   "w": 1000,
+   "h": 749,
+   "alt": "An album leaf in light ink and colour: thatched farmhouses among round willow trees on low banks, with a small boat on the calm water between them."
+  },
+  "ding-xing-bowl": {
+   "file": "art/ding-xing-bowl.jpg",
+   "title": "Ding Ware Bowl of the Xing Type with Bi-Disc Foot",
+   "artist": "Unknown artist",
+   "date": "Five Dynasties, 907–60",
+   "collection": "Cleveland Museum of Art, 2020.186",
+   "source": "https://www.clevelandart.org/art/2020.186",
+   "license": "CC0",
+   "w": 1000,
+   "h": 471,
+   "alt": "A shallow, wide bowl with an ivory-white glaze and a flat foot, photographed against a dark grey ground."
+  },
+  "han-clay-dog": {
+   "file": "art/han-clay-dog.jpg",
+   "title": "Dog",
+   "titleZh": "狗",
+   "artist": "Unknown artist",
+   "date": "Eastern Han dynasty, 25–220 CE",
+   "collection": "Cleveland Museum of Art, 1983.1",
+   "source": "https://www.clevelandart.org/art/1983.1",
+   "license": "CC0",
+   "w": 1000,
+   "h": 854,
+   "alt": "A glazed earthenware dog sits on its haunches with its long neck raised, its ears up and its mouth open."
+  },
+  "hokusai-yoro-falls": {
+   "file": "art/hokusai-yoro-falls.jpg",
+   "title": "Yoro Waterfall in Mino Province (Tour of the Waterfalls in Various Provinces)",
+   "artist": "Katsushika Hokusai",
+   "date": "Edo period, c. 1833",
+   "collection": "Art Institute of Chicago, 1961.166",
+   "source": "https://www.artic.edu/artworks/13255",
+   "license": "CC0",
+   "w": 681,
+   "h": 1000,
+   "alt": "A tall woodblock print: a white waterfall drops in blue lines down a green cliff to a pool, where small travellers in wide hats rest by the rocks."
+  },
+  "windy-sailboat": {
+   "file": "art/windy-sailboat.jpg",
+   "title": "Windy Landscape with Sailboat",
+   "artist": "Unknown artist",
+   "date": "Muromachi period, mid-1400s",
+   "collection": "Cleveland Museum of Art, 1982.131",
+   "source": "https://www.clevelandart.org/art/1982.131",
+   "license": "CC0",
+   "w": 348,
+   "h": 1000,
+   "alt": "A tall, pale ink painting: a small house and pine trees on a bank at lower left, a sail on open water, and a faint mountain in the distance."
+  },
+  "wen-zhengming-wintry-brook": {
+   "file": "art/wen-zhengming-wintry-brook.jpg",
+   "title": "Old Trees by a Wintry Brook",
+   "titleZh": "古木寒泉圖",
+   "artist": "Wen Zhengming",
+   "date": "Ming dynasty, 1551",
+   "collection": "Cleveland Museum of Art, 1997.102",
+   "source": "https://www.clevelandart.org/art/1997.102",
+   "license": "CC0",
+   "w": 408,
+   "h": 1000,
+   "alt": "A tall, narrow scroll: two gnarled old trees stand over a thin stream among rocks, with an inscription and a wide pale sky above."
+  },
+  "returning-home-ink": {
+   "file": "art/returning-home-ink.jpg",
+   "title": "Returning Home",
+   "artist": "Unknown artist",
+   "date": "Muromachi period, mid-1500s",
+   "collection": "Cleveland Museum of Art, 2015.513",
+   "source": "https://www.clevelandart.org/art/2015.513",
+   "license": "CC0",
+   "w": 727,
+   "h": 1000,
+   "alt": "An ink landscape: a boat comes toward a small pavilion under a tall pine and jagged cliffs, with misty water and far peaks behind."
+  },
+  "zhao-mengfu-river-village": {
+   "file": "art/zhao-mengfu-river-village.jpg",
+   "title": "River Village: Fisherman’s Joy",
+   "titleZh": "江村漁樂圖",
+   "artist": "Zhao Mengfu",
+   "date": "Yuan dynasty, c. 1302–3",
+   "collection": "Cleveland Museum of Art, 1978.66",
+   "source": "https://www.clevelandart.org/art/1978.66",
+   "license": "CC0",
+   "w": 1000,
+   "h": 958,
+   "alt": "A round fan painting on silk: tall trees on a flat river shore, small fishing boats on the water, and blue-green hills behind."
+  },
+  "jonan-budai": {
+   "file": "art/jonan-budai.jpg",
+   "title": "Budai",
+   "titleZh": "布袋",
+   "artist": "Jonan Etetsu",
+   "date": "Muromachi period, late 1400s",
+   "collection": "Cleveland Museum of Art, 1988.17",
+   "source": "https://www.clevelandart.org/art/1988.17",
+   "license": "CC0",
+   "w": 481,
+   "h": 1000,
+   "alt": "An ink painting of the fat, smiling monk Budai, who carries a big cloth sack on a stick over his shoulder, below a long inscription."
+  },
+  "lu-wenying-rainstorm": {
+   "file": "art/lu-wenying-rainstorm.jpg",
+   "title": "River Village in a Rainstorm",
+   "titleZh": "江村風雨圖",
+   "artist": "Lu Wenying",
+   "date": "Ming dynasty, c. 1480–1507",
+   "collection": "Cleveland Museum of Art, 1970.76",
+   "source": "https://www.clevelandart.org/art/1970.76",
+   "license": "CC0",
+   "w": 614,
+   "h": 1000,
+   "alt": "A dark silk scroll: slanting bands of rain sweep across trees bent by wind above a riverside village and small boats."
+  },
+  "streams-mountains-endless": {
+   "file": "art/streams-mountains-endless.jpg",
+   "title": "Streams and Mountains without End (detail)",
+   "titleZh": "溪山無盡",
+   "artist": "Unknown artist",
+   "date": "Late Northern Song to Jin dynasty, 1100–1150",
+   "collection": "Cleveland Museum of Art, 1953.126",
+   "source": "https://www.clevelandart.org/art/1953.126",
+   "license": "CC0",
+   "w": 986,
+   "h": 525,
+   "alt": "A detail of a long handscroll on dark silk: wooded hills and rocky masses rise and fall along a river, with small paths and houses among them."
+  },
+  "buson-snow": {
+   "file": "art/buson-snow.jpg",
+   "title": "Snow Landscape",
+   "titleZh": "雪中山水図",
+   "artist": "Yosa Buson",
+   "date": "Edo period, mid-1770s",
+   "collection": "Cleveland Museum of Art, 1997.111",
+   "source": "https://www.clevelandart.org/art/1997.111",
+   "license": "CC0",
+   "w": 402,
+   "h": 1000,
+   "alt": "A tall painting of snow-covered mountains and trees in grey ink, with a small roofed retreat half buried in white at the centre."
+  },
+  "wen-zhengming-qin-valley": {
+   "file": "art/wen-zhengming-qin-valley.jpg",
+   "title": "Playing the Qin in a Secluded Valley",
+   "titleZh": "幽壑鳴琴圖",
+   "artist": "Wen Zhengming",
+   "date": "Ming dynasty, 1548",
+   "collection": "Cleveland Museum of Art, 1969.60",
+   "source": "https://www.clevelandart.org/art/1969.60",
+   "license": "CC0",
+   "w": 439,
+   "h": 1000,
+   "alt": "A tall scroll of steep, layered cliffs in light colour, with pines and a waterfall running down a deep ravine to a stream at the bottom."
+  },
+  "fangyou-wine-vessel": {
+   "file": "art/fangyou-wine-vessel.jpg",
+   "title": "Square Wine Container (Fangyou)",
+   "artist": "Unknown artist",
+   "date": "Shang dynasty, c. 1250–1046 BCE",
+   "collection": "Cleveland Museum of Art, 1963.103",
+   "source": "https://www.clevelandart.org/art/1963.103",
+   "license": "CC0",
+   "w": 714,
+   "h": 1000,
+   "alt": "A square bronze ritual wine vessel with a lid and a curved handle, covered with crested birds and spiral patterns, green with age."
+  },
+  "jade-dagger-axe": {
+   "file": "art/jade-dagger-axe.jpg",
+   "title": "Ceremonial Dagger-Axe with Animal Masks (Ge)",
+   "titleZh": "饕餮紋玉戈",
+   "artist": "Unknown artist",
+   "date": "Shang dynasty, c. 1600–1050 BCE",
+   "collection": "Cleveland Museum of Art, 1983.2",
+   "source": "https://www.clevelandart.org/art/1983.2",
+   "license": "CC0",
+   "w": 1000,
+   "h": 506,
+   "alt": "A pale jade blade shaped like a dagger-axe, with a pointed tip, a central ridge, and a small carved animal mask near the hole at its base."
+  },
+  "han-bronze-sword": {
+   "file": "art/han-bronze-sword.jpg",
+   "title": "Sword",
+   "artist": "Unknown artist",
+   "date": "Han dynasty, 206 BCE–220 CE",
+   "collection": "Cleveland Museum of Art, 1915.232",
+   "source": "https://www.clevelandart.org/art/1915.232",
+   "license": "CC0",
+   "w": 358,
+   "h": 1000,
+   "alt": "A straight bronze sword with a ring at the end of its hilt and a narrow guard, green with corrosion, standing upright on a dark ground."
+  },
+  "dong-qichang-river": {
+   "file": "art/dong-qichang-river.jpg",
+   "title": "River and Mountains on a Clear Autumn Day (detail)",
+   "titleZh": "江山秋霽圖",
+   "artist": "Dong Qichang",
+   "date": "Ming dynasty, c. 1624–27",
+   "collection": "Cleveland Museum of Art, 1959.46",
+   "source": "https://www.clevelandart.org/art/1959.46",
+   "license": "CC0",
+   "w": 1000,
+   "h": 422,
+   "alt": "A detail of an ink handscroll: rounded, folded hills run diagonally across pale paper, with groves of trees and open water below."
+  },
+  "hanshan-recluse": {
+   "file": "art/hanshan-recluse.jpg",
+   "title": "Poet and Recluse Hanshan",
+   "artist": "Unknown artist",
+   "date": "Ming dynasty, 1400s",
+   "collection": "Cleveland Museum of Art, 1991.117",
+   "source": "https://www.clevelandart.org/art/1991.117",
+   "license": "CC0",
+   "w": 505,
+   "h": 1000,
+   "alt": "A dark silk painting of the poet Hanshan with wild hair and a loose pale robe, standing alone under overhanging branches."
+  },
+  "mei-qing-nine-dragon": {
+   "file": "art/mei-qing-nine-dragon.jpg",
+   "title": "Nine Dragon Pool",
+   "titleZh": "九龍潭圖",
+   "artist": "Mei Qing",
+   "date": "Qing dynasty, 1690s",
+   "collection": "Cleveland Museum of Art, 1979.50",
+   "source": "https://www.clevelandart.org/art/1979.50",
+   "license": "CC0",
+   "w": 483,
+   "h": 1000,
+   "alt": "A tall scroll: a white waterfall winds down a mountain in many curves between soft grey rocks, past a small pine and autumn trees."
+  },
+  "jian-tea-bowl": {
+   "file": "art/jian-tea-bowl.jpg",
+   "title": "Tea Bowl (Jian ware)",
+   "artist": "Unknown artist",
+   "date": "Song dynasty, 12th century",
+   "collection": "Art Institute of Chicago, 1924.326",
+   "source": "https://www.artic.edu/artworks/20392",
+   "license": "CC0",
+   "w": 843,
+   "h": 606,
+   "alt": "A deep, dark brown tea bowl with fine streaks in its glaze like hare’s fur and a small unglazed foot."
+  },
+  "carp-pair": {
+   "file": "art/carp-pair.jpg",
+   "title": "A Pair of Carp",
+   "artist": "Unknown artist",
+   "date": "Joseon dynasty (1392–1910)",
+   "collection": "Art Institute of Chicago, 2005.54",
+   "source": "https://www.artic.edu/artworks/185001",
+   "license": "CC0",
+   "w": 400,
+   "h": 1000,
+   "alt": "A tall Korean ink painting: two carp, one above the other, turn in grey water near rocks and water plants."
+  },
+  "ma-lin-rising-clouds": {
+   "file": "art/ma-lin-rising-clouds.jpg",
+   "title": "Scholar Reclining and Watching Rising Clouds",
+   "titleZh": "坐看雲起圖",
+   "artist": "Ma Lin",
+   "date": "Southern Song dynasty, c. 1256",
+   "collection": "Cleveland Museum of Art, 1961.421",
+   "source": "https://www.clevelandart.org/art/1961.421",
+   "license": "CC0",
+   "w": 1000,
+   "h": 911,
+   "alt": "A round fan painting on silk: a scholar lies on a rock at the water’s edge at lower left, looking across a wide, empty space to a faint peak."
+  },
+  "shugetsu-haboku": {
+   "file": "art/shugetsu-haboku.jpg",
+   "title": "Haboku (Flung-ink) Landscape",
+   "artist": "Shūgetsu Tōkan",
+   "date": "Muromachi period, c. 1510",
+   "collection": "Cleveland Museum of Art, 1976.59",
+   "source": "https://www.clevelandart.org/art/1976.59",
+   "license": "CC0",
+   "w": 732,
+   "h": 1000,
+   "alt": "An ink painting of splashes and quick strokes: a dark, blurred mass of trees and rocks rises from a low shore, with a few dark marks for boats or stones."
+  },
+  "mirror-daoist-deities": {
+   "file": "art/mirror-daoist-deities.jpg",
+   "title": "Mirror with Images of Daoist Deities",
+   "artist": "Unknown artist",
+   "date": "Eastern Han dynasty, 2nd or 3rd century CE",
+   "collection": "Art Institute of Chicago, 1929.644",
+   "source": "https://www.artic.edu/artworks/3316",
+   "license": "CC0",
+   "w": 792,
+   "h": 900,
+   "alt": "The back of a round, dark bronze mirror, with a central knob surrounded by rings of small seated figures, animals, and patterned bands."
+  },
+  "soami-waterfall": {
+   "file": "art/soami-waterfall.jpg",
+   "title": "Gazing at a Waterfall",
+   "titleZh": "観瀑図",
+   "artist": "Sōami",
+   "date": "Muromachi period, early 1500s",
+   "collection": "Cleveland Museum of Art, 1977.30",
+   "source": "https://www.clevelandart.org/art/1977.30",
+   "license": "CC0",
+   "w": 1000,
+   "h": 959,
+   "alt": "An ink landscape: two figures stand on a railed terrace under a twisted pine, looking toward a thin waterfall that falls through mist at the left."
+  },
+  "dai-jin-xu-you": {
+   "file": "art/dai-jin-xu-you.jpg",
+   "title": "The Hermit Xu You Resting by a Stream",
+   "titleZh": "箕山高隱圖",
+   "artist": "Dai Jin",
+   "date": "Ming dynasty, 1400s",
+   "collection": "Cleveland Museum of Art, 1974.45",
+   "source": "https://www.clevelandart.org/art/1974.45",
+   "license": "CC0",
+   "w": 547,
+   "h": 1000,
+   "alt": "A tall silk scroll: a man in a short robe sits at ease below overhanging pines and steep cliffs, near a small stream."
+  },
+  "crackle-bowl": {
+   "file": "art/crackle-bowl.jpg",
+   "title": "Crackle-glazed Bowl",
+   "artist": "Unknown artist",
+   "date": "Goryeo dynasty, 1100s",
+   "collection": "Cleveland Museum of Art, 1921.626",
+   "source": "https://www.clevelandart.org/art/1921.626",
+   "license": "CC0",
+   "w": 1000,
+   "h": 476,
+   "alt": "A wide, shallow celadon bowl in pale grey-green, its glaze covered with a fine web of cracks."
+  },
+  "hideyori-farming": {
+   "file": "art/hideyori-farming.jpg",
+   "title": "Farming and Herding Buffalo in Summer",
+   "artist": "Kano Hideyori",
+   "date": "Muromachi to Momoyama period, mid- to late 1500s",
+   "collection": "Cleveland Museum of Art, 2015.594",
+   "source": "https://www.clevelandart.org/art/2015.594",
+   "license": "CC0",
+   "w": 673,
+   "h": 1000,
+   "alt": "A pale ink landscape: willows and low banks along a wide river, with small farmers in the fields and water buffalo wading near the shore."
+  },
+  "chen-hongshou-hut": {
+   "file": "art/chen-hongshou-hut.jpg",
+   "title": "Scholar Reading in a Thatched Hut by a Waterfall (Paintings after Ancient Masters)",
+   "artist": "Chen Hongshou",
+   "date": "Ming dynasty, before 1652",
+   "collection": "Cleveland Museum of Art, 1979.27.2.18",
+   "source": "https://www.clevelandart.org/art/1979.27.2.18",
+   "license": "CC0",
+   "w": 862,
+   "h": 1000,
+   "alt": "An album leaf: a huge pine with blue-green needles leans over a thatched hut among rocks, with a seated scholar inside and a far lake behind."
+  },
+  "inlaid-hu-jar": {
+   "file": "art/inlaid-hu-jar.jpg",
+   "title": "Covered Jar (Hu)",
+   "titleZh": "鎏金错银壶",
+   "artist": "Unknown artist",
+   "date": "Eastern Zhou dynasty, Warring States period, late 4th/3rd century BCE",
+   "collection": "Art Institute of Chicago, 1930.481",
+   "source": "https://www.artic.edu/artworks/86491",
+   "license": "CC0",
+   "w": 743,
+   "h": 1000,
+   "alt": "A pear-shaped bronze jar with a lid topped by small animals, its body covered in swirling patterns of inlaid silver and bands of gilding."
+  },
+  "wen-boren-water-village": {
+   "file": "art/wen-boren-water-village.jpg",
+   "title": "Water Village (detail)",
+   "titleZh": "平橋遠水",
+   "artist": "Wen Boren",
+   "date": "Ming dynasty, 1570",
+   "collection": "Cleveland Museum of Art, 1985.370",
+   "source": "https://www.clevelandart.org/art/1985.370",
+   "license": "CC0",
+   "w": 1000,
+   "h": 402,
+   "alt": "A detail of a pale ink handscroll: bare trees and a few houses on low marshy banks, with flat water and a line of soft mountains behind."
+  },
+  "playing-with-infant": {
+   "file": "art/playing-with-infant.jpg",
+   "title": "Playing with an Infant",
+   "titleZh": "嬰戲圖",
+   "artist": "Unknown artist",
+   "date": "Qing dynasty, Qianlong reign, 1736–95",
+   "collection": "Cleveland Museum of Art, 2025.34",
+   "source": "https://www.clevelandart.org/art/2025.34",
+   "license": "CC0",
+   "w": 647,
+   "h": 1000,
+   "alt": "A colour woodblock print: two young women in long robes reach toward a small child who stands on a bench between them, wearing a red bib."
+  },
+  "unkei-bodhidharma": {
+   "file": "art/unkei-bodhidharma.jpg",
+   "title": "Bodhidharma",
+   "titleZh": "菩提達磨図",
+   "artist": "Unkei Eii",
+   "date": "Muromachi period, early to mid-1500s",
+   "collection": "Cleveland Museum of Art, 2015.472",
+   "source": "https://www.clevelandart.org/art/2015.472",
+   "license": "CC0",
+   "w": 492,
+   "h": 1000,
+   "alt": "An ink painting of the monk Bodhidharma from the chest up, with large eyes, a heavy beard, and a robe drawn in a few broad strokes, below an inscription."
+  },
+  "tao-hong-peasants": {
+   "file": "art/tao-hong-peasants.jpg",
+   "title": "Returning Peasants in a Spring Evening",
+   "artist": "Tao Hong",
+   "date": "Ming dynasty, early 1600s",
+   "collection": "Cleveland Museum of Art, 1999.223",
+   "source": "https://www.clevelandart.org/art/1999.223",
+   "license": "CC0",
+   "w": 1000,
+   "h": 935,
+   "alt": "An album leaf on silk: bare trees on a flat plain by a shallow stream, with a few farmers walking home and birds flying in the pale sky."
+  },
+  "wen-zhengming-old-pine": {
+   "file": "art/wen-zhengming-old-pine.jpg",
+   "title": "Old Pine Tree (detail)",
+   "titleZh": "畫松圖",
+   "artist": "Wen Zhengming",
+   "date": "Ming dynasty, late 1530s",
+   "collection": "Cleveland Museum of Art, 1964.43",
+   "source": "https://www.clevelandart.org/art/1964.43",
+   "license": "CC0",
+   "w": 1000,
+   "h": 431,
+   "alt": "A detail of an ink handscroll: the twisted trunk and long branches of an old pine reach across pale paper, covered with clusters of needles."
+  },
+  "shang-ding": {
+   "file": "art/shang-ding.jpg",
+   "title": "Tripod Cauldron (Ding)",
+   "titleZh": "鼎",
+   "artist": "Unknown artist",
+   "date": "Shang dynasty, 1200–1100 BCE",
+   "collection": "Cleveland Museum of Art, 1960.288",
+   "source": "https://www.clevelandart.org/art/1960.288",
+   "license": "CC0",
+   "w": 1000,
+   "h": 942,
+   "alt": "A bronze tripod cooking vessel with two upright handles, a round bowl decorated with a band of masks, and three straight legs."
+  },
+  "zha-shibiao-autumn-travel": {
+   "file": "art/zha-shibiao-autumn-travel.jpg",
+   "title": "Traveling in Autumn Mountains (Landscape Album in Various Styles)",
+   "artist": "Zha Shibiao",
+   "date": "Qing dynasty, 1684",
+   "collection": "Cleveland Museum of Art, 1955.37.6",
+   "source": "https://www.clevelandart.org/art/1955.37.6",
+   "license": "CC0",
+   "w": 1000,
+   "h": 717,
+   "alt": "An album leaf: a traveller on a donkey and a porter with a carrying pole cross a flat shore, below tall autumn trees with red leaves and a cliff."
+  },
+  "zhao-yong-fishermen": {
+   "file": "art/zhao-yong-fishermen.jpg",
+   "title": "Fishermen-Hermits in Stream and Mountain",
+   "titleZh": "溪山漁隱圖",
+   "artist": "Zhao Yong",
+   "date": "Yuan dynasty, 1300s",
+   "collection": "Cleveland Museum of Art, 1997.93",
+   "source": "https://www.clevelandart.org/art/1997.93",
+   "license": "CC0",
+   "w": 489,
+   "h": 1000,
+   "alt": "A tall silk scroll: tall trees on a rocky near shore, small houseboats with fishermen on the water, and low wooded hills across the river."
+  },
+  "monk-mending": {
+   "file": "art/monk-mending.jpg",
+   "title": "Monk Mending Clothes in the Morning Sun",
+   "titleZh": "朝陽補綴図",
+   "artist": "Unknown artist",
+   "date": "Nanbokuchō period, c. 1350",
+   "collection": "Cleveland Museum of Art, 1962.163",
+   "source": "https://www.clevelandart.org/art/1962.163",
+   "license": "CC0",
+   "w": 418,
+   "h": 1000,
+   "alt": "A tall ink painting: a monk sits on the ground at the bottom and holds up his robe to mend it, below a few hanging branches."
+  },
+  "bronze-dagger-axe": {
+   "file": "art/bronze-dagger-axe.jpg",
+   "title": "Dagger-Axe (Ge)",
+   "artist": "Unknown artist",
+   "date": "Shang dynasty, 1600–1046 BCE",
+   "collection": "Art Institute of Chicago, 1949.41",
+   "source": "https://www.artic.edu/artworks/64435",
+   "license": "CC0",
+   "w": 843,
+   "h": 337,
+   "alt": "A bronze dagger-axe blade, wide and pointed, green and silver with corrosion, with a patterned tang at the right."
+  },
+  "buson-farmer": {
+   "file": "art/buson-farmer.jpg",
+   "title": "Farmer Returning Home in Autumn",
+   "titleZh": "秋景色帰農夫図",
+   "artist": "Yosa Buson",
+   "date": "Edo period, 1781",
+   "collection": "Cleveland Museum of Art, 1970.77",
+   "source": "https://www.clevelandart.org/art/1970.77",
+   "license": "CC0",
+   "w": 358,
+   "h": 1000,
+   "alt": "A tall silk scroll: a farmer on a plank bridge waves at a crow on his load of grain while his water buffalo wades a stream below pines and misty hills."
+  },
+  "puming-bamboo": {
+   "file": "art/puming-bamboo.jpg",
+   "title": "Bamboo in the Wind",
+   "titleZh": "風竹圖",
+   "artist": "Puming (Xuechuang)",
+   "date": "Yuan dynasty, 1300s",
+   "collection": "Cleveland Museum of Art, 1953.246",
+   "source": "https://www.clevelandart.org/art/1953.246",
+   "license": "CC0",
+   "w": 611,
+   "h": 1000,
+   "alt": "An ink painting on silk: thin stalks of bamboo with dark, pointed leaves bend in the wind above a rock, with orchids at their foot."
+  },
+  "chinzan-waterfall": {
+   "file": "art/chinzan-waterfall.jpg",
+   "title": "Waterfall and Rocks",
+   "artist": "Tsubaki Chinzan",
+   "date": "Edo period, 1847",
+   "collection": "Cleveland Museum of Art, 1985.251.8",
+   "source": "https://www.clevelandart.org/art/1985.251.8",
+   "license": "CC0",
+   "w": 776,
+   "h": 1000,
+   "alt": "An album leaf in ink: a waterfall runs down between high, folded cliffs with pines to a pool among rounded rocks."
+  },
+  "li-shida-village": {
+   "file": "art/li-shida-village.jpg",
+   "title": "New Year’s Day in a Village at Stone Lake",
+   "titleZh": "石湖村舍",
+   "artist": "Li Shida",
+   "date": "Ming dynasty, 1609",
+   "collection": "Cleveland Museum of Art, 1980.178",
+   "source": "https://www.clevelandart.org/art/1980.178",
+   "license": "CC0",
+   "w": 1000,
+   "h": 639,
+   "alt": "An album leaf in ink and light colour: a farmhouse among bare willows, with guests coming over a small bridge and boys in the courtyard."
+  },
+  "song-lizong-poem": {
+   "file": "art/song-lizong-poem.jpg",
+   "title": "Poem by Wang Wei in the Cursive Script Style",
+   "titleZh": "王維詩",
+   "artist": "Song Lizong (Emperor Lizong)",
+   "date": "Southern Song dynasty, 1256",
+   "collection": "Cleveland Museum of Art, 1961.421.2",
+   "source": "https://www.clevelandart.org/art/1961.421.2",
+   "license": "CC0",
+   "w": 978,
+   "h": 1000,
+   "alt": "A round silk fan with two columns of large cursive characters, a seal, and a small signature, mounted on white paper."
+  },
+  "cai-jia-peach": {
+   "file": "art/cai-jia-peach.jpg",
+   "title": "Peach Blossom Spring",
+   "titleZh": "桃花源圖",
+   "artist": "Cai Jia",
+   "date": "Qing dynasty, 1763",
+   "collection": "Saint Louis Art Museum, 127:2016 (image: museum photograph, cropped to the painting)",
+   "source": "https://commons.wikimedia.org/wiki/File:Cai_Jia_-_Peach_Blossom_Spring_-_127-2016_-_Saint_Louis_Art_Museum.jpg",
+   "license": "Public domain",
+   "w": 687,
+   "h": 1100,
+   "alt": "Misty peaks above a hidden valley of fields, houses, and blossoming trees; a small boat waits at the mouth of a cave in the cliff; old pines in the foreground."
   }
  },
  "passages": {
@@ -1097,6 +1703,11 @@
     "id": "xia-gui-thatched",
     "caption": "Xia Gui puts a few trees and tiny figures on a low bank and leaves the rest as mist. Nothing here asks for attention.",
     "look": "Look first at the left edge, where the trees and the little figures sit. Then let your eye travel right across the wide, golden emptiness. There is no palace, no treasure, nothing to compete for. Chapter 3 advises not to praise the clever or prize rare goods, so that people are not stirred to quarrel or steal. The sage empties hearts and fills bellies. This painting feels like that kind of life: modest, settled, with plenty of room to breathe. The mist is not a lack. It is the quiet in which the small scene can rest."
+   },
+   {
+    "id": "zha-shibiao-spring-plowing",
+    "caption": "Farmhouses sit among willows on a quiet river delta in spring. “Empty the heart, fill the belly.”",
+    "look": "Start at the cluster of thatched roofs near the top, then follow the banks down and to the right. Zha Shibiao painted this album at sixty-eight, and he made the willows with quick, wet strokes, so each tree is a round puff of blue-green ink. There is no hero in this picture and no grand peak. The water in the middle is bare paper. Nothing here is hard to get, and nothing is on show. The passage gives the sage’s way of ordering: “empty the heart, fill the belly, weaken the will, strengthen the bones.” This leaf looks like that kind of place: fed, quiet, and without much to want."
    }
   ],
   "4": [
@@ -1104,6 +1715,11 @@
     "id": "gu-bronze",
     "caption": "The gu is a wine vessel whose use is its hollow. Its mouth flares wide, and its centre is mostly air.",
     "look": "Follow the outline from the wide mouth down to the narrow waist and out again to the base. The bronze is only a thin skin around an empty column. Three thousand years ago this cup held offerings for ancestors. Chapter 4 says the Way is empty, yet using it never fills it up; it is deep, like the ancestor of the ten thousand things. Imagine looking down into the gu from above: a dark round hole with no bottom you can see. The shape is useful because it holds back from being solid."
+   },
+   {
+    "id": "ding-xing-bowl",
+    "caption": "A plain white bowl from the Gongxian kilns, made for drinking tea. “Dao is an empty bowl. Use it, and perhaps it does not fill.”",
+    "look": "Look first at the inside of the bowl, which you can only half see. The potter gave it a wide, low rim and no decoration at all: only a smooth ivory glaze over a white body. The museum says bowls of this kind were used for tea and were traded as far as Samarra. Its use is in the hollow, not in the clay. The passage begins, “Dao is an empty bowl. Use it, and perhaps it does not fill.” Let your eye rest on the curve where the light falls into the bowl. That open space is what the bowl gives."
    }
   ],
   "5": [
@@ -1111,6 +1727,11 @@
     "id": "xia-gui-streams",
     "caption": "This scroll, attributed to Xia Gui, leaves most of the paper blank. The empty space works like the bellows in this chapter: it gives, and it is never used up.",
     "look": "Look at how much is not painted. Cliffs and pines crowd one side, and everything else is mist and water. Yet the blank paper does not feel weak; it gives the rocks their weight and the trees their reach. Chapter 5 says heaven and earth are like a bellows: empty but not exhausted; the more it moves, the more comes out. Breathe slowly while you look. Let the empty part of the picture breathe with you. The painting does not favour any one thing. Rock, tree and fog are all simply allowed."
+   },
+   {
+    "id": "han-clay-dog",
+    "caption": "A glazed clay dog from the Eastern Han, with its head up and its mouth open. “They treat the ten thousand things as straw dogs.”",
+    "look": "Start with the open mouth and the pricked ears, then follow the long neck down to the folded legs. The potter shaped it with a light, humorous hand, and the lead glaze runs over it like brown honey. Clay animals like this one were often placed in Han tombs. A straw dog, too, was a thing made for a rite: honoured during the rite, then put aside. The passage says heaven and earth “treat the ten thousand things as straw dogs.” This dog is not straw, but it asks the same question. What is a made thing worth after its use is over?"
    }
   ],
   "6": [
@@ -1137,6 +1758,11 @@
     "id": "ma-yuan-riplets",
     "caption": "Ma Yuan's waves fill the whole leaf with a soft, even net. Water benefits all things and does not compete.",
     "look": "Look closely at a single wave: one curling line that rises, folds over, and passes its motion to the next. No wave is larger or more important than its neighbours. Then step back and see the whole Yangzi spread out flat and wide. Chapter 8 says the highest good is like water. It nourishes everything, does not contend, and settles in low places that people dislike. Ma Yuan has painted nothing but water, yet the page feels alive. Let your breathing follow the rhythm of the lines."
+   },
+   {
+    "id": "hokusai-yoro-falls",
+    "caption": "Hokusai’s Yoro Falls drops straight down to the low pool, where travellers stop to rest. “It stays in the place the crowd hates, and so it is near to Dao.”",
+    "look": "Begin at the top of the falls and let your eye drop with the water, line by line, to the foam at the bottom. Hokusai printed the fall as a column of separate blue strokes, so it looks both still and moving. At its foot, small figures in wide hats rest, and one carries a load. Everything in the picture leans toward the low pool. That is where the water goes, and where people come to drink and rest. The passage says water “stays in the place the crowd hates, and so it is near to Dao.” It does not contend; it only keeps going down."
    }
   ],
   "9": [
@@ -1144,6 +1770,11 @@
     "id": "wang-meng-gehong",
     "caption": "The Daoist Ge Hong moves his family into the mountains, leaving office behind. When the work is done, step back.",
     "look": "Find the tiny figures crossing the bridge at the lower left: Ge Hong with his household and an ox. Then follow the path upward into the folds of green and blue mountain, where the house waits. Wang Meng crowds the scroll with texture and colour, but the story at its heart is a quiet withdrawal. Chapter 9 warns that filling a hall with gold and jade means you cannot guard it, and that pride in wealth invites disaster. Withdraw when the work is done: that is the Way of heaven. The travellers do not look back."
+   },
+   {
+    "id": "windy-sailboat",
+    "caption": "A retired official’s small house by the water faces one distant sail. “The work carried through, the body steps back: the Way of heaven.”",
+    "look": "Start at the small house in the lower left, half hidden by bent pines. Then cross the wide, empty water to the sail, and go on to the faint mountain at the top. The museum describes the house as the retreat of an official who has left government service. The painter used very little ink; most of the scroll is mist and bare paper. Nothing here is filled to the brim. The passage ends, “The work carried through, the body steps back: the Way of heaven.” This painting shows what stepping back can look like: a small roof, some wind, and a lot of room."
    }
   ],
   "10": [
@@ -1196,6 +1827,11 @@
     "id": "sesshu-winter",
     "caption": "In Sesshū's winter landscape a sharp line of cliff cuts down through cold air. The ancient masters were careful, as if crossing a winter stream.",
     "look": "Look at the left scroll first. A single dark stroke runs down the middle like a crack in ice. Beside it, a tiny temple and a figure with a hat move through the snow. Everything is still and alert. Chapter 15 says the ancient masters were hesitant, as if crossing a stream in winter; watchful, as if they feared their neighbours; simple, like uncarved wood; open, like a valley; murky, like muddy water. Then turn to the autumn scroll on the right, softer and wider. Both seasons ask for the same attention."
+   },
+   {
+    "id": "wen-zhengming-wintry-brook",
+    "caption": "Wen Zhengming painted these bare old trees over a cold stream in his eighties. “Wary, as if crossing a river in winter.”",
+    "look": "Start at the twisted trunks near the bottom and follow the small stream as it winds between the rocks. Wen Zhengming painted the bark with dry, broken strokes, so the trees look worn but still standing. Above them is a wide field of empty paper and his small, careful inscription, which says he painted it playfully, in his eighties. The passage pictures the officers of old as “wary, as if crossing a river in winter,” and “solid, like uncarved wood.” These trees have both: the caution of great age and the plain strength of wood that no one has shaped."
    }
   ],
   "16": [
@@ -1203,6 +1839,11 @@
     "id": "ni-zan-rongxi",
     "caption": "Ni Zan paints an empty pavilion between two shores. Attain the summit of emptiness; hold fast to stillness.",
     "look": "The picture has three parts: a near bank with thin trees and an empty hut, a wide band of blank water, and low hills far away. No person is present. Ni Zan used dry, light ink and almost no colour. Chapter 16 asks us to reach complete emptiness and keep deep stillness, and to watch the ten thousand things rise and return to their root. Let your eye rest in the empty water. It is the centre of the painting. The hut waits there, like a mind with nothing in it, ready to receive."
+   },
+   {
+    "id": "returning-home-ink",
+    "caption": "A small boat comes home to a pavilion below a pine and jagged cliffs. “Each go home again to the root.”",
+    "look": "Find the small boat near the shore at the bottom, then the pavilion it is heading for under the leaning pine. Behind them the cliffs rise in sharp, dark strokes, and behind the cliffs the mist takes everything away. The scroll carries a seal of the monk-painter Shōkei, but the museum says the seal was added later, so the painter is unknown. The passage watches the ten thousand things rise and then “each go home again to the root.” Here the journey is almost over. Look at how much of the scroll is still water and haze: the return happens in stillness."
    }
   ],
   "17": [
@@ -1210,6 +1851,11 @@
     "id": "xu-daoning",
     "caption": "Fishermen work the river under huge peaks. No ruler appears; the people live their lives and say, \"We did this ourselves.\"",
     "look": "Find the small boats near the bottom. Then let your eye climb the narrow, steep mountains that rise like folded curtains. The fishermen are tiny, but the painting belongs to them. Nobody commands them. Chapter 17 says the best rulers are those the people barely know exist. When the work is done, the people say it happened by itself. Xu Daoning painted this around 1049, and it has the quiet of evening. Listen for the song in the title. It is the people's song, not the court's."
+   },
+   {
+    "id": "zhao-mengfu-river-village",
+    "caption": "On Zhao Mengfu’s round fan, fishermen work a flat river below blue hills. “The hundred families all say: ‘We are so of ourselves.’”",
+    "look": "Begin with the tall trees on the right, then move left across the flat, shining water where small boats drift. Zhao Mengfu filled the far hills with blue and green mineral colour, an old style that he used here on a small fan. No ruler, palace, or soldier appears. The fishermen get on with their day. The passage praises the ruler whom those below only know is there. When the work is done, “the hundred families all say: ‘We are so of ourselves.’” In this village the order is so light that you cannot see who keeps it."
    }
   ],
   "18": [
@@ -1231,6 +1877,11 @@
     "id": "liang-kai-immortal",
     "caption": "Liang Kai's immortal stumbles forward, belly out, eyes squinting. Everyone else is bright; I alone am dull.",
     "look": "Look at how the body is made: a few broad, wet sweeps of ink, with only tiny fine strokes for the face. The figure seems about to fall over or burst out laughing. Chapter 20 is the most personal chapter of the Daodejing. Others are busy and festive, says the speaker; I alone am drifting, like a baby that has not yet smiled. Others have more than enough; I alone seem to have lost something. Yet I value being fed by the mother. Notice how happy this foolish figure looks."
+   },
+   {
+    "id": "jonan-budai",
+    "caption": "Budai, the wandering monk with a cloth sack, grins below a long inscription. “Mine is the heart of a fool!”",
+    "look": "Start with the round, smiling face, then follow the loose robe down to the bare feet and across to the huge sack. The Zen monk Jonan Etetsu painted Budai with soft grey washes and a few fast, dark lines. In Chan legend, Budai was a wandering monk said to carry all he owned in one bag. He looks clumsy, and he does not seem to care. The speaker of this passage stands apart from the merry crowd: “Mine is the heart of a fool! Murky, murky.” Budai’s grin shows that foolishness from the outside: no plan, no rank, no home to go to."
    }
   ],
   "21": [
@@ -1257,6 +1908,11 @@
     "id": "ma-yuan-yellow-river",
     "caption": "Ma Yuan's Yellow River throws up foam and spray. A whirlwind does not last all morning.",
     "look": "Watch the big waves rise and crash, then notice the smaller ones already settling at the edges. Ma Yuan's brush moves fast here, with heavy, curling lines. Chapter 23 says that to speak little is natural. A whirlwind does not last all morning; a downpour does not last all day. If even heaven and earth cannot keep up such force for long, how much less can people? Let the noise of the painting rise in you, and then let it fall. Look at the calmer water at the edges."
+   },
+   {
+    "id": "lu-wenying-rainstorm",
+    "caption": "Wind and slanting rain lash a river village in Lu Wenying’s scroll. “A sudden rain does not last the day.”",
+    "look": "Start with the pale diagonal streaks at the upper left and follow them down across the bent trees to the roofs at the bottom. Lu Wenying, a court painter of the Hongzhi era, laid the rain over the silk in pale washes, so the whole picture leans one way. The village has gone indoors. The storm looks total, but the passage reminds us: “a whirlwind does not last the morning; a sudden rain does not last the day.” Even heaven and earth cannot keep it up. Look again at the boats tied by the shore. They are waiting, not fighting."
    }
   ],
   "24": [
@@ -1271,6 +1927,11 @@
     "id": "fan-kuan-travelers",
     "caption": "Fan Kuan's mountain fills the sky; the travellers below are almost too small to see. Something formless existed before heaven and earth.",
     "look": "Stand back and let the great mountain wall press toward you. Then search the bottom edge for the travellers and their mules, tiny and patient. The waterfall on the right is a single white thread. Chapter 25 speaks of something formed in chaos before heaven and earth, silent and empty, standing alone and unchanging. We call it the Way, or Great. Humans follow earth, earth follows heaven, heaven follows the Way, the Way follows what is so of itself. This painting places people inside that order, small but walking."
+   },
+   {
+    "id": "streams-mountains-endless",
+    "caption": "In this detail of a long silk handscroll, hills and streams run on past both edges. “Great means passing on. Passing on means far. Far means turning back.”",
+    "look": "Pick any small path or roof and follow it until it goes behind a ridge. A handscroll is unrolled a little at a time, so the land seems to have no first or last mountain. Here you see one section only. The unknown painter built the hills from many small brushstrokes and darker trees, with river and mist between them. The passage tries to name the thing born before heaven and earth, and says: “Great means passing on. Passing on means far. Far means turning back.” The scroll moves the same way: on, then far, then around again."
    }
   ],
   "26": [
@@ -1285,6 +1946,11 @@
     "id": "ma-yuan-path",
     "caption": "Ma Yuan's scholar strolls along a spring path. A good walker leaves no tracks.",
     "look": "The walker is at the lower left, sleeves loose, brushing past willow branches. A servant follows with a qin. One bird perches on a willow twig; another takes flight. The rest of the leaf is open space with a short poem. Nothing is forced. Chapter 27 says a good traveller leaves no tracks, a good speaker makes no slips, a good counter needs no tally. The sage is always good at saving people, so no one is thrown away. Look at how lightly the figure moves into the empty right side of the painting, as if he will leave no mark there."
+   },
+   {
+    "id": "buson-snow",
+    "caption": "Buson’s snow covers mountains, trees, and a small scholar’s retreat, and no path shows. “Good walking leaves no rut or footprint.”",
+    "look": "Start at the small roof in the middle, then look for the path that led to it. There is none to see. Yosa Buson, famous as a poet, left the snow as bare paper and painted grey sky around it, so the white seems to glow. The museum notes warm red undertones under the grey, and birds come down into the trees. The passage opens, “Good walking leaves no rut or footprint.” Whoever lives here came and went without a mark. Let your eye travel the same way, lightly, from roof to peak and back."
    }
   ],
   "28": [
@@ -1292,6 +1958,11 @@
     "id": "li-tang-pines",
     "caption": "Li Tang fills the scroll with pines and valleys. Know the male, keep to the female; be a valley for the world.",
     "look": "The painting is dense and dark: strong peaks above, deep pines below, a stream running through the gorge. Let your eye drop down from the heights to the low places, where water collects and the wind moves in the pines. Chapter 28 says: know the white, keep to the black; know honour, keep to humility; be a valley for the world, and constant virtue will be enough. You will return to the uncarved block. Notice how the valley floor, not the peak, holds the life of this picture."
+   },
+   {
+    "id": "wen-zhengming-qin-valley",
+    "caption": "Wen Zhengming’s deep ravine gathers cliffs, pines, and falling water into one long valley. “Be the valley of all under heaven.”",
+    "look": "Start at the stream at the bottom of the scroll, then climb the ravine, past the waterfall and the pines, to the peaks. Wen Zhengming stacked the rocks in many layers of pale ochre and blue, so the valley is a long, narrow gap that holds everything else. His poem on the scroll answers the old song of the pine wind with a tune on the qin. The passage asks us to “be the valley of all under heaven” and to go “back again to the uncarved wood.” The low, open place collects the water, the sound, and the people."
    }
   ],
   "29": [
@@ -1299,6 +1970,11 @@
     "id": "ding-bronze",
     "caption": "The ding was the symbol of rule in ancient China. Laozi calls the world a sacred vessel that cannot be grabbed.",
     "look": "Look at the solid legs, the raised handles, the band of masks around the belly. Ding cauldrons held offerings, and to own the great ding meant to own the kingdom. Chapter 29 warns those who want to take the world and work on it: all under heaven is a spirit vessel. Who works on it ruins it; who grips it loses it. Things sometimes lead and sometimes follow. Notice that this vessel is meant to be filled, carried with care and used in ritual, not seized."
+   },
+   {
+    "id": "fangyou-wine-vessel",
+    "caption": "A Shang bronze ritual vessel for wine, cast with crested birds. “All under heaven is a spirit vessel. It cannot be worked on.”",
+    "look": "Start at the small knob on the lid and follow the edges down to the base. Every face of this bronze is cast with crested birds against a dense ground of fine spirals, and the green crust is three thousand years of age. It was made for ritual, not for daily pouring. A vessel like this is handled with care, never hammered into a new shape. The passage says, “All under heaven is a spirit vessel. It cannot be worked on. Who works on it ruins it.” The design was set once, in the mould. Nothing on it can change now without breaking it."
    }
   ],
   "30": [
@@ -1306,6 +1982,11 @@
     "id": "han-battle-bridge",
     "caption": "A Han stone shows chariots fighting on a bridge. Where armies camp, thorns and brambles grow.",
     "look": "This rubbing comes from a family shrine of the second century. Look along the long band: horses rearing, chariots crowded on the arch of the bridge, soldiers in the water below. It is energetic and full of noise. Chapter 30 advises those who help rulers with the Way not to use force. Where armies have stayed, thorns grow; after a great war, bad years follow. Gain your goal, and stop. Do not boast. Look at how the fighters are packed so tightly they can hardly move."
+   },
+   {
+    "id": "jade-dagger-axe",
+    "caption": "A Shang jade blade in the shape of a bronze weapon, made for ceremony. “Fruit, and no forcing.”",
+    "look": "Start at the point and slide back along the ridge to the carved mask and the small hole where it was once tied. The museum says this jade copies the shape of bronze dagger-axes, the weapon of its time, and that jade could only be worked slowly with abrasive sand. A blade made so slowly was most likely never meant to strike. The shape of a weapon became a sign of rank and rite. The passage warns against forcing the world with weapons: “Where an army has camped, thorn and bramble grow.” Here the weapon’s shape remains, and its force is gone."
    }
   ],
   "31": [
@@ -1313,6 +1994,11 @@
     "id": "bell-zhong",
     "caption": "A Zhou ritual bell, silent in times of mourning. Laozi says a victory should be marked with the rites of mourning.",
     "look": "This bell was struck at sacrifices and court rites nearly three thousand years ago. Look at the rows of knobs, the curved rim, the dragons in low relief. In Zhou mourning, such bells were taken down and fell silent: the absence of music marked a funeral. Chapter 31 says weapons are instruments of ill omen; a gentleman uses them only when he must, and values calm. A victory is not beautiful. Those who rejoice in killing cannot win the world. After a battle, the dead should be mourned and the victory treated as a funeral. Imagine the hall after a victory with this bell left unstruck."
+   },
+   {
+    "id": "han-bronze-sword",
+    "caption": "A plain bronze sword from the Han dynasty, its blade dulled by age. “Weapons are tools of ill omen, not a gentleman’s tools.”",
+    "look": "Look at the ring at the top of the hilt, then follow the blade down to its point. There is no inlay and no gold, only bronze dulled to green and brown. The museum record gives little more than a name and a date, and that silence suits it. The passage says, “Fine weapons are tools of ill omen,” and asks that even a battle won be met “with the rites of mourning.” It also says: “Win, and do not find it beautiful.” Let the long, narrow form stand alone in the dark. It asks to be understood, not admired."
    }
   ],
   "32": [
@@ -1320,6 +2006,11 @@
     "id": "dong-yuan-river",
     "caption": "In this scroll attributed to Dong Yuan, soft hills curve around a wide river. The Way in the world is like streams flowing to rivers and the sea.",
     "look": "Follow the river from the far distance toward the shore, where boats gather and people wait. The hills are round and gentle, painted in long, soft strokes. Chapter 32 says the Way, constant and nameless, is like the uncarved block. If rulers could keep it, all things would come of themselves, and the sweet dew would fall without being commanded. The Way in the world is like small streams flowing into the rivers and the sea. Notice how every line in this landscape leads toward the water."
+   },
+   {
+    "id": "dong-qichang-river",
+    "caption": "Dong Qichang’s folded hills run down toward open water. “A likeness for Dao in all under heaven: streams and valleys, and the River and the sea.”",
+    "look": "Start at the top left, where the hills begin, and follow their folds down to the right, past the groves, to the water at the edge. Dong Qichang set the landscape on a diagonal and built it from dry, repeated strokes, a way of painting that recalls older masters. His inscription names Huang Gongwang as his model. Look at how the hills spill into flat ground and then into water. The passage ends: “A likeness for Dao in all under heaven: streams and valleys, and the River and the sea.” Everything in this detail runs down to the low, open place."
    }
   ],
   "33": [
@@ -1327,6 +2018,11 @@
     "id": "fan-kuan-sitting",
     "caption": "A small figure sits alone beside a stream under dark mountains. One who knows himself is enlightened.",
     "look": "Find the seated figure near the bottom. He looks out at the water, his back to the high cliffs. He is not climbing or travelling. Chapter 33 says: one who knows others is clever; one who knows himself is enlightened. One who conquers others is strong; one who conquers himself is mighty. One who knows when he has enough is rich. Stay with the man by the stream. The great mountain behind him does not distract him. What is he looking at?"
+   },
+   {
+    "id": "hanshan-recluse",
+    "caption": "The hermit poet Hanshan stands alone in a loose robe, his hair wild. “One who knows the self is bright.”",
+    "look": "Start with the face under the mass of black hair, then follow the pale robe down to the feet. Hanshan, the Cold Mountain poet of the Tang, is said to have lived alone among cliffs and to have written his poems on rocks and trees. Here he stands against dark branches and holds his sleeve close, as if the wind is strong. The painter is unknown. No one in the scene judges him. The passage says, “One who knows others is clever. One who knows the self is bright.” Hanshan is not trying to be seen."
    }
   ],
   "34": [
@@ -1334,6 +2030,11 @@
     "id": "dong-yuan-riverbank",
     "caption": "In this scroll attributed to Dong Yuan, the river winds left and right. The great Way flows everywhere.",
     "look": "Trace the water from the top of the scroll to the bottom. It turns this way and that, wind-blown, never in a straight line. Mountains, a house and trees all lean along its course. Chapter 34 says the great Way flows everywhere, to the left and to the right. All things depend on it, and it does not refuse them. It completes its work and claims nothing. Because it never makes itself great, it can be great. Let your eye drift with the current."
+   },
+   {
+    "id": "mei-qing-nine-dragon",
+    "caption": "Mei Qing’s waterfall at Huangshan bends left and right through nine pools. “The great Dao floods, oh: it can go left and right.”",
+    "look": "Begin at the top, where the water first shows as a white ribbon, and follow it down, curve by curve, to the bottom. Mei Qing probably sketched this fall at Huangshan in 1690, at about sixty-eight. The museum says it has nine bends, each with a green pool. He left the water as bare paper and shaped it only with the rocks around it. The passage says, “The great Dao floods, oh: it can go left and right.” The water here does just that. It fills each pool and moves on, and it never calls the pools its own."
    }
   ],
   "35": [
@@ -1341,6 +2042,11 @@
     "id": "huizong-qin",
     "caption": "Under a pine, a man plays the qin while two officials listen. Music and good food make travellers stop; the Way has no flavour.",
     "look": "The player sits with his head bowed toward the strings. The listener in green lifts his head and looks up and away; the one in red bows his head. A small incense burner stands on a stand. Chapter 35 says music and fine food make passing travellers stop, but the Way, when spoken, is bland and has no flavour. Look at it and it is not enough to see; listen and it is not enough to hear; use it and it never runs out. The qin's music was quiet and plain. Notice the stillness of the three men."
+   },
+   {
+    "id": "jian-tea-bowl",
+    "caption": "A Song tea bowl from Fujian with a dark glaze called hare’s fur. “The Dao, as it comes out of the mouth: bland! It has no flavor.”",
+    "look": "Start at the rim, where the glaze thins to brown, then look down into the dark centre. The fine streaks, called hare’s fur, come from iron in the glaze. Bowls like this were made in Fujian for whisked tea in the Song dynasty. The bowl does not call for attention; you have to come close to see the streaks at all. The passage sets music and cakes, which stop the passing guest, against the Dao: “bland! It has no flavor.” Then it adds, “Use it: not enough to end it.” The bowl waits, empty, for something plain."
    }
   ],
   "36": [
@@ -1348,6 +2054,11 @@
     "id": "bada-fish",
     "caption": "Bada Shanren's tiny minnows dart beneath a heavy rock. Fish should not leave the deep water.",
     "look": "The rock at the top seems about to fall. Below it, a few tiny minnows, each only a flick or two of ink, dart through open space. Bada Shanren was a member of the Ming royal family who became a monk after the dynasty fell; his fish and birds often look sideways at the world. Chapter 36 says the soft and weak overcome the hard and strong. Fish should not leave the depths; the sharp tools of a state should not be shown. Notice how much empty paper surrounds the minnows. They are safe there, as fish are safe in deep water."
+   },
+   {
+    "id": "carp-pair",
+    "caption": "Two carp turn in deep water in a Korean ink painting. “Fish must not slip out of the deep.”",
+    "look": "Start with the upper carp, its body curved and its tail up, then drop to the second fish near the rocks. The painter used soft grey washes for the water and darker ink for scales and fins, so the fish seem to move inside the water, not on the paper. Neither fish breaks the surface. The passage moves from the soft and weak that overcome the hard and strong to this: “Fish must not slip out of the deep.” In the deep, a fish is safe and free; out of it, it is lost. The plain grey around them is their shelter."
    }
   ],
   "37": [
@@ -1376,6 +2087,11 @@
     "id": "taiji-zhao",
     "caption": "One of the earliest printed yin-yang swirls, from about 1370. Returning is the movement of the Way.",
     "look": "Look at the black and white halves turning around each other. Each carries a small dot of the other. Around the circle are the names of the eight trigrams. Zhao Huiqian called this the River Chart of Heaven and Earth. Chapter 40 is very short: returning is the movement of the Way; weakness is the use of the Way. The ten thousand things are born from being, and being is born from non-being. Follow the curve with your eye. It never stops; it always comes back."
+   },
+   {
+    "id": "ma-lin-rising-clouds",
+    "caption": "Ma Lin’s scholar lies by the water and watches clouds rise out of empty space. “Having is born from not-having.”",
+    "look": "Find the small reclining scholar at the lower left, then follow his gaze across the empty silk to the faint peak and the clouds that form near it. Ma Lin painted this fan in reply to a couplet by Wang Wei that Emperor Lizong wrote out: walk to where the water ends, then sit and watch the clouds rise. Almost the whole fan is empty, and the clouds come out of that emptiness. The passage says, “Turning back is the movement of the Dao,” and “having is born from not-having.” The scholar has reached the end of the water and turned to watch."
    }
   ],
   "41": [
@@ -1383,6 +2099,11 @@
     "id": "hanshan-shide",
     "caption": "Shide, the ragged temple sweeper, looks like a fool. Chapter 41 says the bright Way seems dark and the purest white seems soiled.",
     "look": "Indara drew Shide with a few loose, almost careless strokes. The broom, the tattered robe and the open mouth are all you need. Hanshan and Shide were Tang dynasty eccentrics who lived at a temple, wrote poems on rocks and laughed at monks and officials alike. Chapter 41 says the bright Way seems dark, high virtue seems like a valley, the purest white seems soiled, and the great image has no shape. People who see only rags and a broom laugh. Look at the joy in this ragged figure."
+   },
+   {
+    "id": "shugetsu-haboku",
+    "caption": "Shūgetsu’s flung ink makes a landscape out of blots and a few quick strokes. “The great image is without shape.”",
+    "look": "Start with the darkest blot in the centre and try to decide what it is: trees, a cliff, a roof? Then look at the small dark marks on the shore below it. Shūgetsu used the haboku, or flung-ink, method, which hides a planned composition inside what looks like chance. The museum says the brush here carries the painter’s state of mind in one moment. Most of the paper is left blank. The passage lists things that seem their opposite and ends with this: “The great image is without shape.” The painting gives a landscape without fixing a single line."
    }
   ],
   "42": [
@@ -1390,6 +2111,11 @@
     "id": "chen-zhixu",
     "caption": "A Yuan Daoist diagram joins five numbered circles into one. Later Daoists read Chapter 42's counting of one, two and three into their own number lore.",
     "look": "Chen Zhixu drew this for inner alchemy, the Daoist practice of refining body and spirit. Look at the five small circles marked one to five, set in a cross, and the curved lines that join them in pairs around the five at the centre. The pairs each make five, and the fives join into one. It is not a picture of Chapter 42, but it grows from it. The chapter says the Dao gives birth to one, one to two, two to three, and three to the ten thousand things; they carry shade on the back and hold sun in the arms, and the surging breath makes their accord. Follow the lines back to the centre."
+   },
+   {
+    "id": "mirror-daoist-deities",
+    "caption": "The back of an Eastern Han bronze mirror: one knob at the centre, then rings of deities and beasts. “The Dao gives birth to one. One gives birth to two.”",
+    "look": "Start at the knob in the centre, then move outward ring by ring. Around the knob, small bosses divide the field; between them sit figures that the museum calls Daoist deities, with beasts among them. Bands of pattern close the circle at the edge. The polished face, on the other side, once showed whoever held it. The back reads like a map of how many things come from one centre. The passage says, “The Dao gives birth to one. One gives birth to two. Two gives birth to three. Three gives birth to the ten thousand things.” Read the rings in that order."
    }
   ],
   "43": [
@@ -1397,6 +2123,16 @@
     "id": "ma-yuan-waterfall",
     "caption": "A scholar watches a waterfall pour through the rocks. The softest thing in the world rides over the hardest.",
     "look": "Find the white line of water falling from the cliff, then the scholar on the rock, quiet and attentive. The pine leans across the leaf. Chapter 43 says the softest thing in the world overcomes the hardest; what has no substance enters where there is no gap. From this I know the value of non-action. Few in the world reach the teaching without words. The scholar does not speak. He watches water do what it has always done: wear away stone by never stopping."
+   },
+   {
+    "id": "cook-ding-han",
+    "caption": "A kitchen relief, said to be Han, of a butcher at the carcass. What has no substance enters where there is no gap.",
+    "look": "The Commons file calls this Cook Ding, from the Zhuangzi. That is not confirmed: Han tombs often show kitchen scenes, and this may be one of many. Look anyway at the butcher bent to the hanging carcass and the robed figure who watches. In the Zhuangzi story, the cook's blade stays keen because it moves through the spaces between the joints. Passage 43 says: what has no substance enters where there is no gap. Find the gaps in the carving itself: between the two figures, under the beam. See the story \"Cook Ding Carves an Ox\"."
+   },
+   {
+    "id": "soami-waterfall",
+    "caption": "Two men on a terrace watch a thin waterfall pour through mist. “The softest thing under heaven gallops over the hardest thing under heaven.”",
+    "look": "Start with the two men at the railing, then follow their gaze to the waterfall at the far left, a pale strip of water between dark rocks. Sōami built the scene from soft washes and a few hard, dry strokes for the rocks and the pine. The museum links the subject to Li Bai’s poem on gazing at the waterfall on Mount Lu. Water is soft, yet it has cut this whole gorge. The passage says, “The softest thing under heaven gallops over the hardest thing under heaven.” The men stand still; the water does the work."
    }
   ],
   "44": [
@@ -1404,6 +2140,11 @@
     "id": "wu-zhen-fisherman",
     "caption": "A fisherman floats on calm water, far from court. Which is dearer, fame or your life?",
     "look": "The boat is very small. Above it, a poem by the painter praises the fisherman's life. Wu Zhen was a Yuan dynasty recluse who painted fishermen again and again; for him, the fisherman meant a person who has chosen freedom over office. Chapter 44 asks: fame or the self, which is dearer? The self or possessions, which is more? Gain or loss, which harms more? One who knows what is enough is not disgraced; one who knows when to stop is not in danger. Look at the stillness of the water."
+   },
+   {
+    "id": "dai-jin-xu-you",
+    "caption": "Xu You, who refused a throne, rests by a stream under cliffs and pines. “Know enough: no disgrace. Know to stop: no danger.”",
+    "look": "Look for the small seated figure near the bottom, then climb through the pines to the high cliffs. Dai Jin shows Xu You in a labourer’s short robe, his belly showing, one arm on a raised knee. In the old story, the sage-emperor Yao offered him the throne; he refused it and went to farm on Mount Ji. The passage asks, “Name or body: which is nearer?” Xu You chose the body and the stream. His ease shows the end of the passage: “Know enough: no disgrace. Know to stop: no danger. Then it can last long.”"
    }
   ],
   "45": [
@@ -1411,6 +2152,11 @@
     "id": "mi-fu-grass",
     "caption": "Mi Fu's cursive looks careless and spills across the page. The greatest skill seems clumsy.",
     "look": "Look at one character and you may not recognise it. The strokes run together, thicken, thin out, and rush on. Mi Fu was a master of every script, yet in his cursive writing he lets the brush seem almost out of control. Chapter 45 says great completion seems incomplete, yet its use is never exhausted. Great fullness seems empty. Great straightness seems bent; great skill seems clumsy; great eloquence seems to stammer. Follow one line from top to bottom without trying to read it. Feel the speed and the pauses."
+   },
+   {
+    "id": "crackle-bowl",
+    "caption": "A Korean celadon bowl, its green glaze crazed with fine cracks. “Great completion seems chipped; its use does not wear out.”",
+    "look": "Start at the rim, then let your eye wander over the web of fine lines in the glaze. Cracks like these form as glaze and clay shrink at different rates while they cool. To a careless eye they look like damage; to a potter they are part of the surface. The museum says everyday bowls like this were often placed in Goryeo tombs. The passage opens, “Great completion seems chipped; its use does not wear out.” This bowl is whole and still able to hold. Its flaws are where the light catches."
    }
   ],
   "46": [
@@ -1418,6 +2164,11 @@
     "id": "li-gonglin-horses",
     "caption": "Li Gonglin's horse stands calmly with its groom. When the world has the Way, horses fertilise the fields.",
     "look": "Li Gonglin drew this horse with fine, plain ink lines and almost no colour. The animal is quiet and powerful. The groom holds the reins loosely. Chapter 46 says when the world has the Way, fast horses are sent back to haul dung in the fields. When the world lacks the Way, war horses are bred on the frontier. No disaster is greater than not knowing what is enough. Look at the horse's calm eye and soft stance. It is not running anywhere. This is a horse at peace."
+   },
+   {
+    "id": "hideyori-farming",
+    "caption": "Farmers and water buffalo work the fields by a summer river. “When the world has Dao, running horses are turned back to dung the fields.”",
+    "look": "Start at the willows on the right, then look along the banks for the small figures and the buffalo at work. Kano Hideyori painted with light ink and a few touches of colour, and he left the river wide and calm. The museum says scenes like this were linked with the ideal of a prosperous realm. No animal here is going to war. The passage says, “When the world has Dao, running horses are turned back to dung the fields.” The animals in this scroll pull, wade, and graze. That is what enough looks like."
    }
   ],
   "47": [
@@ -1425,6 +2176,11 @@
     "id": "ma-lin-pines",
     "caption": "A scholar sits under a pine and listens to the wind. Without going out the door, one can know the world.",
     "look": "The man sits at the foot of the pine, one arm resting on a root, looking calmly out to the right. Above him, the trunk twists high into the scroll. A stream runs nearby. He is not travelling or studying. He is listening. Chapter 47 says: without going out the door, know the world; without looking out the window, see the way of heaven. The further you go, the less you know. Imagine the sound the scholar hears. Let the painting go quiet in your mind until only the wind in the pines is left."
+   },
+   {
+    "id": "chen-hongshou-hut",
+    "caption": "In Chen Hongshou’s album leaf, a scholar sits in a thatched hut under a great pine. “Without going out of the door, know the world.”",
+    "look": "Look first for the hut, half hidden under the pine, and the scholar seated inside it. Then look up at the fan of needles, drawn one cluster at a time, and out to the lake and the far shore at the top. Chen Hongshou painted in a deliberately old-fashioned, very precise way, with rocks like stacked blocks. The whole world seems to arrive at the hut while the reader stays put. The passage says, “Without going out of the door, know the world. Without peeping through the window, see heaven’s way.” He sits still; the view comes to him."
    }
   ],
   "48": [
@@ -1467,6 +2223,11 @@
     "id": "huizong-cranes",
     "caption": "Cranes circle the palace gate in a painting from Emperor Huizong's court, a sign of good fortune. Fifteen years later his dynasty fell.",
     "look": "The blue is intense, the cranes elegant, the roof precise. It bears the name of an emperor who loved art and luxury and kept painters at his court. In 1127 his capital fell to invaders and he died a captive. Chapter 53 says the great Way is very level, but people love side paths. The court is very fine, the fields full of weeds, the granaries empty; people wear rich clothes and carry sharp swords, eat and drink too much, have more wealth than they need. This is called robbery. Look at the beauty, and remember the fields."
+   },
+   {
+    "id": "inlaid-hu-jar",
+    "caption": "A Warring States bronze jar, gilded and inlaid with silver swirls. “Glutted with drink and food, with goods in surplus.”",
+    "look": "Start with the small animals on the lid, then let the silver spirals pull your eye around the body. The bronze is inlaid with strands of silver and gilded in bands: a luxury for a noble house of the Warring States. It is beautiful, and it is also a sign of how much that house could take. The passage describes a court swept clean while the fields are weedy and the granaries empty. Its people wear patterned silks, “glutted with drink and food, with goods in surplus. This is called the robbers’ boast.” Look again at the gold."
    }
   ],
   "54": [
@@ -1474,6 +2235,11 @@
     "id": "wu-zhen-twin-pines",
     "caption": "Two old pines stand together, deeply rooted. What is well planted cannot be uprooted.",
     "look": "Follow each trunk down to the ground. The roots grip the earth; the branches twist but hold. Behind them, a stream and soft hills. Wu Zhen painted this in 1328. Chapter 54 says what is well planted is not uprooted, what is well embraced does not slip away. Cultivate it in yourself, and virtue is real; in your family, and it is abundant; in your village, and it lasts long. Look at how the two trees lean together. They are rooted, and they are companions."
+   },
+   {
+    "id": "wen-boren-water-village",
+    "caption": "A quiet village on low marshland, from Wen Boren’s handscroll. “Tend it in the village: its de then lasts.”",
+    "look": "Start with the gnarled tree at the right, then move left across the low banks and the houses among the bare trees. Wen Boren painted this scroll in the autumn of 1570 with pale, dry ink. The museum notes that paths and bridges cross the land, but only two people appear in the whole scroll. It looks calm, almost too calm. The passage moves outward from the body to the household, the village, and the state: “Tend it in the village: its de then lasts.” Here nothing is torn out. The houses stay where they were set up."
    }
   ],
   "55": [
@@ -1481,6 +2247,11 @@
     "id": "su-hanchen-autumn",
     "caption": "Two children bend over their game in an autumn garden, in a painting attributed to Su Hanchen. One who holds virtue fully is like a newborn child.",
     "look": "Look past the tall garden rock and the flowers to the children at the round stools. Their heads are close together. They do not notice anything else. Chapter 55 says one rich in virtue is like a newborn. Wasps and snakes do not bite it; wild beasts do not attack it. Its bones are soft, its muscles weak, yet its grip is firm. It cries all day and does not grow hoarse: its harmony is perfect. Notice how relaxed the children's bodies are, and how completely they attend."
+   },
+   {
+    "id": "playing-with-infant",
+    "caption": "Two women play with a small child in a Qing colour woodblock print. “One who holds de within, thick and deep, is like a red child.”",
+    "look": "Start with the child at the top centre, standing with arms out, then look at the two women whose hands reach toward him. The printer used firm black outlines and flat areas of blue, orange, and red. Prints like this were sold in the cities of Jiangnan and hung on walls. The baby is the still point; the adults move around him. The passage says that one who holds de “is like a red child,” with “bones weak, sinews soft, yet the grip is firm.” Look at how steadily the child stands on the bench."
    }
   ],
   "56": [
@@ -1488,6 +2259,11 @@
     "id": "zhou-dongqing-fish",
     "caption": "Zhou Dongqing's carp turn among water plants, free and at ease. One who knows does not speak.",
     "look": "This scroll is called The Pleasures of Fishes, after the story of Zhuangzi and Huizi on the bridge over the Hao River. Look at the big carp curving upward, its body light in the water. The plants move with the current. Chapter 56 says one who knows does not speak; one who speaks does not know. Stop the openings, blunt what is sharp, untie what is divided, temper the light, join the dust. This is called the dark sameness. The fish are not explaining their joy. See the story \"The Happy Fish of the Hao River\"."
+   },
+   {
+    "id": "unkei-bodhidharma",
+    "caption": "Unkei Eii’s Bodhidharma looks out in silence, wrapped in a few broad strokes of robe. “One who knows does not speak.”",
+    "look": "Start with the eyes, wide and steady, then let your gaze drop to the robe, which is only a few thick strokes of ink. Bodhidharma is said to have brought Chan to China in the early 500s. In one story he met Emperor Wu, saw that the emperor did not understand, and simply left. Here his mouth is closed. The painter gives most of the paper to empty space and a short inscription. The passage begins, “One who knows does not speak. One who speaks does not know.” Notice how much this face says without a word."
    }
   ],
   "57": [
@@ -1495,6 +2271,11 @@
     "id": "huang-gongwang",
     "caption": "Huang Gongwang's long scroll of quiet hills shows people living by the river. I do nothing, and the people transform themselves.",
     "look": "The brushwork is dry and light; nothing shouts. Follow the riverbank, the pines, the small houses. Huang Gongwang worked on this scroll for several years, adding a little at a time when the mood came. Chapter 57 says the more prohibitions there are, the poorer the people; the more sharp weapons, the more trouble; the more laws, the more thieves. So the sage says: I do nothing, and the people change by themselves. I love stillness, and they become upright. Look at how the painting seems to unroll on its own."
+   },
+   {
+    "id": "tao-hong-peasants",
+    "caption": "Farmers walk home past bare trees at the start of the farming year. “I have no business, and the people grow rich of themselves.”",
+    "look": "Look for the small figures walking among the trees on the right, then follow the shallow stream back to the hills and the line of birds in the sky. Tao Hong painted early spring with thin washes and a few touches of green. The museum reads the scene as hope for a good harvest. No official stands over these farmers, and no notice is posted. The passage says, “I do not force, and the people change of themselves,” and “I have no business, and the people grow rich of themselves.” The order here comes with the season, not by command."
    }
   ],
   "58": [
@@ -1509,6 +2290,11 @@
     "id": "chen-hongshou-plum",
     "caption": "An old plum branch, gnarled and spare, still flowers. In caring for people and serving heaven, nothing is better than frugality.",
     "look": "The branch is crooked and rough, with only a few blossoms. Chen Hongshou leaves most of the leaf empty. Old plum trees were admired in China because they bloom in the cold, on wood that looks dead. Chapter 59 says in governing people and serving heaven, nothing is better than frugality. Being frugal means preparing early; it builds up virtue. This is called deep roots and firm stem, the way to long life and lasting vision. Look at the thin branch holding its flowers."
+   },
+   {
+    "id": "wen-zhengming-old-pine",
+    "caption": "Wen Zhengming’s old pine twists across the scroll, bent but deeply rooted. “This is called deep roots and a firm taproot.”",
+    "look": "Start where the thick trunk enters at the left and follow it as it turns, splits, and reaches to the right. Wen Zhengming made the bark from pale washes and the needles from quick, dark strokes, so the tree feels both heavy and alive. His inscription likens the branches to a dragon’s whiskers. A pine like this grows slowly and spends little. The passage praises “the farmer’s sparing” and ends: “This is called deep roots and a firm taproot: the way of long life and lasting sight.” See how far the branches reach from one root you cannot see."
    }
   ],
   "60": [
@@ -1516,6 +2302,11 @@
     "id": "liu-cai-fish",
     "caption": "Goldfish turn and drift among the plants. Govern a great state as you cook a small fish: gently, and not too much stirring.",
     "look": "Look at how each fish moves in its own direction, some up, some down, all at ease. Nothing disturbs the water. Chapter 60 begins with a famous image: govern a great state as you would cook a small fish. Stir it too much and it falls apart. When the world is governed by the Way, even the spirits lose their power to harm. Let your eye drift with the fish. The painter has not crowded them or ordered them in lines. Each finds its own place."
+   },
+   {
+    "id": "shang-ding",
+    "caption": "A Shang bronze ding, a cooking vessel for offerings of grain and meat. “Ruling a great state is like the cooking of a small fish.”",
+    "look": "Start at the two upright handles on the rim, then drop to the band of masks and the three firm legs. The museum says ding were made in sets of different sizes and used to offer grain and meat to the spirits of the ancestors. A small fish in a pot like this falls apart if you stir it too much. The passage says, “Ruling a great state is like the cooking of a small fish,” and then speaks of ghosts whose spirit-force does not harm people. This vessel joins both worlds: the kitchen and the rite."
    }
   ],
   "61": [
@@ -1544,6 +2335,11 @@
     "id": "wen-walker",
     "caption": "A lone figure walks under bare autumn trees. A journey of a thousand li begins beneath your feet.",
     "look": "Find the small walker at the bottom of the scroll. Above him, tall bare trees rise and birds lift into the air. Wen Zhengming painted this in 1554, when he was in his eighties. Chapter 64 traces three big things back to something tiny: the tree too wide to hug to a shoot, the nine-tiered terrace to baskets of earth, the long road to the ground under one foot. Look at the walker's next step. The whole journey is there."
+   },
+   {
+    "id": "zha-shibiao-autumn-travel",
+    "caption": "A traveller on a donkey and his porter set out under autumn trees. “A journey of a thousand li begins under the foot.”",
+    "look": "Start with the rider and the porter at the left, small and just setting out. Then follow the empty, level shore toward the trees and the far water. Zha Shibiao used light, wet strokes and touches of red for the autumn leaves. The long road ahead is mostly blank paper. The passage says, “A tree that fills the arms’ embrace is born from the tip of a hair,” and “A journey of a thousand li begins under the foot.” The whole trip still lies ahead. All the rider can take is the next step."
    }
   ],
   "65": [
@@ -1558,6 +2354,11 @@
     "id": "ma-yuan-clouds-sea",
     "caption": "Long swells of the sea under rising mist. Rivers and seas rule a hundred valleys because they lie lower.",
     "look": "The waves here are broad and slow, rolling across the bottom of the leaf. Above them, cloud rises into empty golden silk. All the water in the world ends here. Chapter 66 says rivers and seas can be kings of the hundred valleys because they are good at staying low. So the sage, wishing to be above the people, speaks humbly; wishing to lead them, walks behind. He is on top, and the people do not feel his weight. Let your eye sink to the bottom of the painting and rest."
+   },
+   {
+    "id": "zhao-yong-fishermen",
+    "caption": "Zhao Yong’s fishermen sit low in their boats between two shores. “The River and the sea can be kings of the hundred valleys.”",
+    "look": "Start with the tall trees on the near bank, then find the small houseboats at the left, where fishermen hold short rods. Across the water, low hills fade into the distance. Zhao Yong, son of Zhao Mengfu, used the southern plan of two shores divided by a river. The water fills the middle of the painting and lies below everything else. The passage says the River and the sea rule the hundred valleys “because they are good at being below them.” The fishermen also keep low and quiet, and nobody contends with them."
    }
   ],
   "67": [
@@ -1565,6 +2366,11 @@
     "id": "laozi-ox-chen",
     "caption": "Laozi rides slowly past bamboo on his ox. I have three things to treasure: tenderness, spareness, and not daring to go ahead of the world.",
     "look": "Chen Hongshou gives Laozi a gentle, slightly strange face and a calm ox. He sits loosely, in no hurry, as if the road will wait. Bamboo bends behind him. Chapter 67 is one of the few places where the speaker says \"I\" so plainly: I have three things to treasure; I hold them and keep them safe. The first is tenderness, the second is spareness, the third is not daring to go ahead of the world. Tenderness makes courage possible. Look at the old man's relaxed hands. Nothing about him pushes forward."
+   },
+   {
+    "id": "monk-mending",
+    "caption": "A monk holds his old robe up to the morning light and mends it. “The second is spareness.”",
+    "look": "Look for the monk at the bottom, raising his robe toward the light to find the hole. The painter used a few pale lines for the body and one heavy black stroke for the cloth. Above him, most of the scroll is bare paper and a few branches. The museum says the scene shows the Zen ideal of practice in every moment, even the plain ones. The passage names three treasures: tenderness, spareness, and “not daring to go ahead of the world.” To mend instead of replace is spareness. Notice how calm the work looks."
    }
   ],
   "68": [
@@ -1579,6 +2385,11 @@
     "id": "han-battle-bridge",
     "caption": "Look again at the Han battle on the bridge. Military strategists say: I would rather be the guest than the host.",
     "look": "This time, notice the moments of retreat in the crowd: horses turning, figures falling back toward the river. Chapter 69 quotes the strategists: I do not dare to be the host; I am the guest. I do not dare to advance an inch; I go back a foot. This is called marching ranks that are not there, baring an arm that is not there. No disaster is greater than to take the enemy lightly. When raised armies meet, the one who grieves wins. Look for the stillness hidden inside the struggle."
+   },
+   {
+    "id": "bronze-dagger-axe",
+    "caption": "A bronze dagger-axe from the Shang, its blade worn green and silver. “I do not dare to advance an inch; I go back a foot.”",
+    "look": "Start at the point and move back along the blade to the patterned tang, where it was once bound to a wooden shaft. Blades like this were used widely in Shang warfare, swung on a long handle. Corrosion has turned the edge to patches of green and silver. It no longer cuts. The passage quotes a saying of those who use arms: “I do not dare to be the host; I am the guest. I do not dare to advance an inch; I go back a foot.” It ends: “the one who grieves wins.” Hold that line next to this blade."
    }
   ],
   "70": [
@@ -1586,6 +2397,11 @@
     "id": "hanshan-shide",
     "caption": "Shide in rags, with his broom, looks like nobody. The sage wears coarse cloth and carries jade inside it.",
     "look": "Look again at this ragged figure. Nothing about him announces wisdom: a torn robe, a broom, a grin. Shide and his friend Hanshan lived at a Tang temple, swept floors, wrote poems on rocks, and were taken for madmen. Chapter 70 is Laozi speaking about himself: my words are very easy to know and very easy to practise, yet no one in the world can know them or practise them. Those who know me are few, and that makes me precious. So the sage wears coarse cloth and carries jade inside it. See the story \"Bian He's Uncut Jade\"."
+   },
+   {
+    "id": "lao-buffalo-disciple",
+    "caption": "Laozi on his buffalo, a boy with a gourd beside him. Those who know me are few; and so I am precious.",
+    "look": "This is Laozi as later tradition pictured him: the white beard, the high bald head, the slow water buffalo, a young follower with a gourd on his staff. Look at how plain the journey is. No banners, no escort. In passage 70 the words speak of themselves: they are easy to know and easy to walk, and yet no one under heaven walks them. So the sage wears coarse cloth and holds jade in the bosom. The painting is reported as 18th-century Chinese; its collection is not known. See the story \"Bian He's Uncut Jade\"."
    }
   ],
   "71": [
@@ -1614,6 +2430,11 @@
     "id": "wen-zhengming-junipers",
     "caption": "Ancient junipers, shaped by centuries of weather rather than by any carpenter. Whoever cuts in place of the master carpenter rarely escapes hurting his hand.",
     "look": "Follow one knotted trunk through the tangle. No human tool made these shapes; wind, frost, drought and time did. Chapter 74 says: the people do not fear death. How, then, frighten them with death? There is always the master executioner, heaven itself, who decides when things end. To kill in its place is like hewing wood in place of the master carpenter: few who try it escape cutting their own hands. Look at how these trees were left to the great carpenter, and how strange and alive its work is."
+   },
+   {
+    "id": "cook-ding-han",
+    "caption": "A butcher's skilled, dangerous work. Hew in the place of the great carpenter, and seldom is the hand not hurt.",
+    "look": "Look at how the worker braces against the weight, and at the hand close to the blade. Cutting was a trade, learned over years. Passage 74 says: to kill in the place of the one in charge of killing is called hewing in the place of the great carpenter, and seldom is the hand not hurt. The passage is about a ruler who takes death into his own hands. The image keeps it bodily: a blade in the wrong hands cuts its holder. This relief is said to be Han, and its source is not confirmed."
    }
   ],
   "75": [
@@ -1621,6 +2442,11 @@
     "id": "gengzhi",
     "caption": "Farm families give thanks after the harvest. People starve when those above eat too much in taxes.",
     "look": "This print comes from a set of pictures of farming and weaving made for the Kangxi emperor in 1696. Look at the families bowing in the yard, the thatched roofs, the bare trees. The grain on which the empire lived came from houses like these. Chapter 75 says the people starve because those above them eat too much in grain tax. They are hard to govern because those above them have their doings. They take death lightly because those above them seek life’s thickness. Look at the humble offering, and ask who should be giving thanks to whom."
+   },
+   {
+    "id": "buson-farmer",
+    "caption": "Buson’s farmer shoos a crow from his grain while his buffalo wades the stream. “The people starve. Those above them eat so much in grain tax.”",
+    "look": "Start with the farmer on the plank bridge, then the crow, then the buffalo in the water below. The museum says the farmer is scolding a crow that came to eat his grain. Buson kept it light, with tall pines and soft hills in mist. Still, the subject is a small harvest and a hungry bird. The passage puts it plainly: “The people starve. Those above them eat so much in grain tax: that is why they starve.” Here, at least, the farmer guards what he grew. See how little there is to guard."
    }
   ],
   "76": [
@@ -1628,6 +2454,11 @@
     "id": "wen-zhengming-waterfall",
     "caption": "Old trees twist beside a cold waterfall. Living things are soft and supple; dead things are hard and dry.",
     "look": "Look at the trees: some branches still bend and leaf; others are stiff and broken. Far off, between the cliffs, a thin waterfall slides down without end. Two small figures stand at the bottom, listening. Chapter 76 says people are soft and weak when born, hard and stiff when dead. Plants are tender and supple when alive, dry and brittle when dead. So the hard and strong are companions of death; the soft and weak are companions of life. A rigid army is defeated; a rigid tree is cut. Compare the water to the dead wood."
+   },
+   {
+    "id": "puming-bamboo",
+    "caption": "The monk Puming painted bamboo that bends in the wind and does not break. “The soft and weak are the company of life.”",
+    "look": "Start at the rock at the bottom, then follow the thin stalks upward as they curve to the left. Puming, a monk in Suzhou, painted each leaf with one stroke, pressing and lifting the brush so that the leaf narrows to a point. The museum notes that bamboo does not break under snow or wind. It bends, and then it stands again. The passage says, “A person, alive, is soft and weak; dead, hard and strong,” and “a tree that is strong meets the axe.” The bamboo lasts because it gives way."
    }
   ],
   "77": [
@@ -1642,6 +2473,11 @@
     "id": "ma-yuan-autumn-flood",
     "caption": "Ma Yuan's autumn water spreads in endless small waves. Nothing in the world is softer than water, yet nothing is better at wearing down the hard.",
     "look": "Look at the patient rhythm of the waves, row after row, like woven cloth. No single wave is strong. Yet the whole surface moves with great power. Chapter 78 says nothing under heaven is softer or weaker than water, yet for attacking the hard and strong nothing can surpass it, because nothing can take its place. Everyone knows that the weak overcome the strong and the soft overcome the hard, yet no one can practise it. Straight words seem crooked. Let your eye ride the waves to the far edge."
+   },
+   {
+    "id": "chinzan-waterfall",
+    "caption": "In Tsubaki Chinzan’s album leaf, a waterfall cuts down through folded cliffs. “Under heaven nothing is softer and weaker than water.”",
+    "look": "Start at the inscription at the top left, then move across to the cliffs and down the fall to the rocks in the pool. Tsubaki Chinzan made this leaf after the styles of the Chinese painter Zhai Dakun, and he copied Zhai’s inscriptions too. The cliffs are built from many dry, folded strokes; the water is only the paper left white between them. Yet it is the water that has shaped the rock. The passage says, “Under heaven nothing is softer and weaker than water, yet for attacking the hard and strong nothing can beat it.”"
    }
   ],
   "79": [
@@ -1656,6 +2492,16 @@
     "id": "qiu-ying-peach",
     "caption": "A fisherman finds a hidden valley where people have lived in peace for centuries. Small country, few people.",
     "look": "Follow the stream into the scroll as the fisherman did. Blue-green hills and blossoming trees close around the water. Chapter 80 imagines a small state with few people. They have tools but do not use them, boats and carts but do not ride them, weapons but do not display them. They find their food sweet, their clothes beautiful, their homes peaceful, their customs pleasant. Neighbouring villages are so close that they can hear each other's roosters and dogs, yet people grow old and die without visiting. See the story \"The Peach Blossom Spring\"."
+   },
+   {
+    "id": "li-shida-village",
+    "caption": "Guests come to a village farmhouse to greet the elders on New Year’s Day. “Their homes at rest, their customs a joy.”",
+    "look": "Start with the house in the centre, then find the guests on the bridge and the boys in the yard. The museum says the boys are lighting firecrackers, servants beat a gong at the gate, and inside the hosts offer hot wine. Li Shida drew the willows bare, with a quick, scratchy line. This village is small and complete. The passage imagines such a place, where people “find their food sweet, their clothes beautiful, their homes at rest, their customs a joy,” and the sound of chickens and dogs carries from one village to the next."
+   },
+   {
+    "id": "cai-jia-peach",
+    "caption": "A hidden valley of farms and blossom, reached through a cave. Though there are boats and carts, there is no occasion to ride them.",
+    "look": "Start at the old pines at the bottom, then find the cave in the cliff on the right: a small boat waits in its mouth. That is how the fisherman in Tao Yuanming's story came in, and why no one could find the way again. Above it the valley opens: fields, a cluster of roofs, trees in blossom, a lone figure by the water. Passage 80 pictures such a place: a small state, few people, homes at rest, and boats that no one needs to ride. Cai Jia hides the entrance and gives the valley most of the paper. See the story \"Peach Blossom Spring\"."
    }
   ],
   "81": [
@@ -1663,6 +2509,11 @@
     "id": "laozi-ox-zhanglu",
     "caption": "Zhang Lu's Laozi rides away on his ox, looking up from his book. True words are not beautiful; beautiful words are not true.",
     "look": "The old man's head is high and bald; his eyes are lifted, perhaps to the sky, perhaps to the road ahead. The ox steps forward with lowered horns. Zhang Lu paints with quick, rough strokes, nothing polished. Chapter 81 is the last chapter: true words are not beautiful; good people do not argue; those who know are not learned. The sage does not hoard. The more he does for others, the more he has; the more he gives, the more he gains. Laozi leaves, and the book stays. See the story \"The Keeper of the Pass\"."
+   },
+   {
+    "id": "song-lizong-poem",
+    "caption": "Emperor Lizong wrote out ten characters from a poem by Wang Wei on this round fan. “Words to trust are not beautiful.”",
+    "look": "Start at the top of the right column and read down, then the left: ten characters in two lines. Emperor Lizong wrote out a couplet by the Tang poet Wang Wei about walking to where the water ends and watching the clouds rise. Ma Lin painted the other half of this fan. The brush moves fast, but the characters stay plain and open, with wide space around them. The passage begins, “Words to trust are not beautiful,” and says the sage “does not pile up.” Ten characters are enough here. Notice what is left unsaid around them."
    }
   ]
  },
@@ -1903,6 +2754,233 @@
     9,
     13,
     44
+   ]
+  },
+  "zhang-liang-shoe": {
+   "title": "The Old Man's Shoe",
+   "source": "Shiji 55 (Hereditary House of the Marquis of Liu)",
+   "text": "Zhang Liang had tried to kill the First Emperor of Qin, and he had failed. He changed his name and hid in the town of Xiapi.\n\nOne day, on a bridge there, an old man in coarse cloth walked up, let his shoe fall under the bridge on purpose, and said, \"Boy, go down and fetch my shoe.\"\n\nLiang was stunned. He wanted to hit him. But the man was old, so he forced his anger down, climbed down, and brought the shoe. \"Put it on me,\" said the old man. Liang had already fetched it, so he knelt and put it on the foot that was held out. The old man laughed and walked off.\n\nHe went about one li and came back. \"The boy can be taught. Meet me here in five days, at dawn.\"\n\nLiang came at dawn. The old man was there already, and angry. \"You make a date with an old man and arrive after him? Five days from now, come earlier.\" Liang came at cockcrow. Again the old man was there first. \"Late again? Five more days.\"\n\nThis time Liang went before midnight. After a while the old man arrived, and he was pleased. \"This is how it should be.\" He handed over a book. \"Read this and you will be a teacher of kings. In thirteen years you will see me in Jibei. The yellow stone at the foot of Mount Gucheng is me.\" He left and was not seen again.\n\nAt daylight Liang looked at the book. It was Taigong's Art of War. He read and recited it constantly, and he became the strategist who helped to found the Han. Thirteen years later he found a yellow stone at the foot of Mount Gucheng, and he kept it as a treasure.\n\nThe Daodejing says: to keep to the soft is called strength.",
+   "passages": [
+    52,
+    66
+   ]
+  },
+  "goujian-gall": {
+   "title": "The King Who Tasted Gall",
+   "source": "Shiji 41 (Hereditary House of Goujian, King of Yue)",
+   "text": "King Fuchai of Wu broke the army of Yue. King Goujian of Yue was left with five thousand men, shut in on Mount Kuaiji.\n\nHis adviser Fan Li said, \"Send humble words and rich gifts. If Wu refuses, offer yourself.\" So the minister Zhong went to the Wu camp. He moved forward on his knees, struck his head on the ground, and said, \"Goujian asks to be your servant, and his wife to be your maid.\" The Wu minister Wu Zixu warned his king against it. But Zhong secretly brought beautiful women and treasures to the Grand Steward of Wu, and Wu let Yue live.\n\nGoujian went home. He hung a gall bladder by his seat. He looked up at it when he sat and when he lay down, and he tasted it when he ate and drank. \"Have you forgotten the shame of Kuaiji?\" he said to himself. He worked in the fields with his own hands, and his wife wove the cloth. He ate no meat and wore no second colour. He bowed to able men, gave to the poor, mourned the dead, and shared the labour of the common people.\n\nWu grew proud and marched north to contend with the great states. Yue struck from behind. After twenty-two years of planning, Yue had Fuchai shut in on Mount Gusu, and now his envoy came forward on his knees. Goujian could hardly bear to refuse. Fan Li beat the drum and sent the troops forward. Fuchai covered his face and killed himself.\n\nThe Daodejing says: a small state that puts itself below a great state takes the great state.",
+   "passages": [
+    61,
+    78
+   ]
+  },
+  "fan-li-leaves": {
+   "title": "Fan Li Leaves at the Height",
+   "source": "Shiji 41 (Hereditary House of Goujian, King of Yue)",
+   "text": "Fan Li served King Goujian of Yue for more than twenty years. Together they destroyed the state of Wu, and Goujian became the chief of the lords. Fan Li held the title of Supreme General. At that moment he left. He took a boat out to sea and did not come back.\n\nFrom the state of Qi he sent a letter to his old colleague, the minister Zhong. \"When the birds are all shot, the good bow is put away. When the hare is dead, the hound is cooked. The king has a long neck and a mouth like a beak. A man can share trouble with him, but not ease. Why do you not go?\"\n\nZhong read the letter and stayed. He only said that he was ill and stopped going to court. Someone told the king that Zhong was planning a revolt. The king sent him a sword, and Zhong killed himself.\n\nIn Qi, Fan Li took a new name and farmed by the sea with his sons. In a few years his property was worth hundreds of thousands. The people of Qi made him chancellor. He sighed. \"At home, a thousand in gold. In office, the rank of chancellor. For a commoner this is the top. To hold an honoured name for long brings no good.\" He gave back the seal and shared out his wealth among friends and neighbours. He went quietly to the town of Tao, and there he traded and grew rich a second time, under the name Lord Zhu of Tao.\n\nThe Daodejing says: the good one bears fruit, and stops.",
+   "passages": [
+    9,
+    30,
+    77
+   ]
+  },
+  "cao-shen": {
+   "title": "The Chancellor Who Changed Nothing",
+   "source": "Shiji 54 (Hereditary House of Chancellor Cao)",
+   "text": "Xiao He wrote the laws of the young Han empire. When he died, Cao Shen took his place as chancellor. Years before, in Qi, a teacher of the Yellow Emperor and Laozi had told Cao Shen: \"The way to govern values clear stillness, and the people settle of themselves.\"\n\nCao Shen changed nothing. He kept every rule of Xiao He. He chose slow, plain-spoken men as his clerks and sent away the sharp ones who wanted a name. Day and night he drank good wine. Officials and guests came to give him advice. He poured wine for them. When they tried to speak, he poured more, and they went home drunk with the advice unsaid.\n\nThe young Emperor Hui was troubled. He told Cao Shen's son to ask his father, in private, why he did not attend to affairs. Cao Shen gave his son two hundred strokes. \"Go and wait on the emperor. The affairs of the empire are not for you to talk about.\"\n\nAt court the emperor reproached him. Cao Shen took off his cap. \"Who is the wiser ruler, Your Majesty or the founding emperor?\"\n\n\"How could I dare to compare myself with him?\"\n\n\"And who is the abler man, I or Xiao He?\"\n\n\"You do not seem to be his equal.\"\n\n\"Your Majesty is right. Those two settled the empire, and the laws are clear. If Your Majesty sits with folded hands, and we keep our posts and follow the rules without losing them, is that not enough?\"\n\n\"Good,\" said the emperor. \"You may rest.\"\n\nCao Shen was chancellor for three years. The people sang that Xiao He's laws were as straight as a drawn line, and that Cao Shen kept them, and so the people had peace.\n\nThe Daodejing says: I love stillness, and the people come straight of themselves.",
+   "passages": [
+    57,
+    60,
+    75
+   ]
+  },
+  "bian-que": {
+   "title": "The Physician Who Ran Away",
+   "source": "Hanfeizi ch.21 (Yu Lao); Shiji 105 tells it of a Marquis Huan of Qi",
+   "text": "The physician Bian Que came before Lord Huan of Cai. He stood a while and said, \"My lord has an illness. It lies in the pores of the skin. If it is not treated, I fear it will go deeper.\"\n\n\"I am not ill,\" said the lord. When Bian Que had gone, he said, \"Doctors like to treat the healthy and take the credit.\"\n\nTen days later Bian Que came again. \"The illness is in the flesh now. Untreated, it will go deeper.\" The lord did not answer, and he was not pleased.\n\nTen days later Bian Que came again. \"The illness is in the stomach and the bowels. Untreated, it will go deeper.\" Again the lord did not answer.\n\nTen days later Bian Que saw the lord from a distance. He turned around and ran. The lord sent a man to ask him why.\n\n\"In the pores, hot compresses can reach an illness. In the flesh, needles can reach it. In the stomach and bowels, boiled medicines can reach it. In the marrow of the bones, it belongs to the Master of Fates, and nothing can be done. It is in the marrow now. So I no longer ask to treat him.\"\n\nFive days later the lord's body began to hurt. He sent men to find Bian Que, but Bian Que had fled to Qin. The lord died.\n\nThe Hanfeizi adds that a good doctor attacks an illness while it is still at the skin, and that the sage, in the same way, attends to things early. The Hanfeizi tells it for Daodejing ch.63: plan for the hard while it is easy; work on the great while it is fine as a thread.",
+   "passages": [
+    63,
+    64
+   ]
+  },
+  "ivory-chopsticks": {
+   "title": "The Ivory Chopsticks",
+   "source": "Hanfeizi ch.21 (Yu Lao)",
+   "text": "Zhou, the last king of Shang, had a pair of chopsticks made of ivory. His kinsman Jizi saw them and was afraid.\n\nJizi reasoned like this. Ivory chopsticks will not be set beside bowls of baked clay. They will call for cups of jade and rhinoceros horn. Ivory chopsticks and jade cups will not be used for a broth of beans and bean leaves. They will call for yak, elephant, and unborn leopard. A man who eats yak, elephant, and unborn leopard will not wear a short coat of rough cloth, and he will not eat under a roof of thatch. He will want brocade in nine layers, wide halls, and high terraces.\n\n\"I fear where this ends,\" said Jizi. \"So I am afraid of where it begins.\"\n\nFive years went by. King Zhou had a garden of meat. He had the grid of hot metal for burning people. He climbed a hill of wine dregs and looked down on a pool of wine. And so he was destroyed, and Shang with him.\n\nThe Hanfeizi says that Jizi saw a pair of ivory chopsticks and knew from them the ruin of the whole realm. Then it quotes the Daodejing: to see the small is called clear sight.",
+   "passages": [
+    52,
+    53
+   ]
+  },
+  "ivory-leaf": {
+   "title": "Three Years for One Leaf",
+   "source": "Hanfeizi ch.21 (Yu Lao); Liezi ch.8 (Shuofu) has the same story with a leaf of jade",
+   "text": "A man of Song carved a paper mulberry leaf out of ivory for his lord. The work took him three years.\n\nThe leaf was perfect. The stalk and the veins were thick in one place and thin in another, as they are in a living leaf. It had the fine hairs and the soft shine. When it was mixed in with real mulberry leaves, nobody could pick it out. For this feat the man was given a salary from the state of Song.\n\nLiezi heard about it. He said, \"If heaven and earth took three years to finish one leaf, there would be very few things with leaves.\"\n\nThe Hanfeizi tells the story to explain a line of the Daodejing. A person who does not ride on what heaven and earth supply, it says, and loads everything on one body, is doing the work of that one leaf. Grain that is sown in winter: even Hou Ji, the first farmer, could not make it thrive. A great crop in a rich year: even a slave cannot spoil it. With the strength of one person, Hou Ji is not enough. Following what is so of itself, a slave is more than enough.\n\nThe Hanfeizi caps the story with a line of Daodejing ch.64: to assist the self-so of the ten thousand things, and not dare to act.",
+   "passages": [
+    25,
+    51,
+    64
+   ]
+  },
+  "nanrong-chu": {
+   "title": "The Crowd Behind Nanrong Chu",
+   "source": "Zhuangzi ch.23 (Gengsang Chu)",
+   "text": "Nanrong Chu was no longer young, and his mind gave him no peace. His teacher Gengsang Chu could not help him, and sent him south to Laozi. He packed his grain and walked for seven days and seven nights.\n\nLaozi looked at him. \"Have you come from Gengsang Chu?\"\n\n\"Yes.\"\n\n\"Then why have you brought so many people with you?\"\n\nNanrong Chu was startled and looked behind him. Nobody was there.\n\n\"You do not understand what I mean?\" said Laozi.\n\nNanrong Chu hung his head in shame. Then he looked up and sighed. \"Now I have forgotten my answer, and so I have lost my question as well.\" After a while he found it again. \"If I do not know things, people call me a fool. If I do know things, the knowing brings grief to my own body. If I am not kind, I hurt others. If I am kind, I hurt myself. How can I get out of this?\"\n\nHe stayed in the guest house for ten days and worked on himself, and then he came back, still unhappy. So Laozi gave him the rule for guarding life.\n\n\"Can you hold the One in your arms? Can you not lose it? Can you stop? Can you let go of others and look for it in yourself? Can you be a baby? A baby howls all day and its throat is not hoarse. That is harmony at its peak. It clenches its fist all day and the hand does not cramp. It stares all day and the eyes do not blink. It walks and does not know where to. It rests and does not know what for. It goes along with things and shares the same current. That is the rule for guarding life.\"",
+   "passages": [
+    10,
+    55
+   ]
+  },
+  "straw-dogs": {
+   "title": "The Straw Dogs After the Rite",
+   "source": "Zhuangzi ch.14 (Tianyun)",
+   "text": "Confucius was travelling west to the state of Wei. His student Yan Yuan asked the music master Jin, \"What do you think of my master's journey?\"\n\n\"A pity,\" said Master Jin. \"Your master will come to a dead end.\"\n\n\"Why?\"\n\n\"Before the straw dogs are set out for the offering, they are kept in a basket and wrapped in embroidered cloth. The priest fasts before he carries them in. After the offering, people who walk by tread on their heads and backs, and the grass cutters pick them up to light the cooking fire. That is all. If someone puts them back in the basket, wraps them in embroidery again, and lives and sleeps beneath them, he gets no good dreams. He gets nightmares. Your master has gathered up the straw dogs that the old kings set out long ago. He and his students live and sleep beneath them.\n\n\"On water, nothing is better than a boat. On land, nothing is better than a cart. A boat goes well on water, but push it on land and in a lifetime it will not move a few feet. Are the old days and today not like water and land?\n\n\"The beauty Xi Shi had a pain in her chest and frowned at her neighbours. An ugly woman of the village saw this and thought it lovely. She went home, pressed her hands to her chest, and frowned at everyone. The rich shut their gates and stayed in. The poor took their wives and children and ran. She knew that the frown was beautiful. She did not know what made it beautiful.\"\n\nThe Daodejing says: heaven and earth treat the ten thousand things as straw dogs.",
+   "passages": [
+    5,
+    38
+   ]
+  },
+  "tilting-vessel": {
+   "title": "The Vessel That Tips When Full",
+   "source": "Xunzi ch.28 (Youzuo); retold in Huainanzi ch.12 (Daoying xun), which ends with Daodejing ch.15",
+   "text": "Confucius visited the ancestral temple of Duke Huan of Lu. He saw a vessel there that sat at a slant.\n\n\"What vessel is this?\" he asked the keeper of the temple.\n\n\"It is the vessel that sits at the right of the seat,\" said the keeper.\n\n\"I have heard of it,\" said Confucius. \"Empty, it leans. Half full, it stands straight. Full, it turns over.\" He looked at his students. \"Pour water into it.\"\n\nThe students ladled water in. When the vessel was half full, it stood straight. When it was full, it turned over and spilled everything. When it was empty, it leaned again.\n\nConfucius sighed. \"Ah! Is there anything that is full and does not turn over?\"\n\nHis student Zilu said, \"May I ask: is there a way to hold fullness?\"\n\n\"Sharp wits and wide knowledge: guard them with dullness. Achievements that cover the world: guard them with yielding. Courage that shakes the age: guard it with caution. Wealth that reaches the four seas: guard it with modesty. This is called the way of ladling out and making less.\"\n\nThe Huainanzi closes with a line of the Daodejing: whoever keeps this way does not want to be full.",
+   "passages": [
+    4,
+    9,
+    15,
+    42
+   ]
+  },
+  "lin-xiangru": {
+   "title": "The Minister Who Turned His Carriage",
+   "source": "Shiji 81 (Biographies of Lian Po and Lin Xiangru)",
+   "text": "Lin Xiangru was a man of low birth. He faced down the King of Qin twice and saved the honour of Zhao, and the King of Zhao ranked him above the old general Lian Po.\n\nLian Po was furious. \"I am the general of Zhao. I have taken cities and won battles in the field. Xiangru has only worked his tongue, and he sits above me. I am ashamed to be below him. When I meet him, I will humiliate him.\"\n\nXiangru heard this. After that he said he was ill on court days, so that the two would not have to dispute their places. Once, when he was out, he saw Lian Po far off, and he turned his carriage aside and hid.\n\nHis retainers were ashamed. \"We left our families to serve you because we admired your high spirit. Now you hide from a man of your own rank. A common man would be ashamed of this. We ask to leave.\"\n\nXiangru stopped them. \"Which is more terrible, General Lian or the King of Qin?\"\n\n\"The King of Qin.\"\n\n\"I shouted at the King of Qin in his own court and shamed his ministers. Would I fear General Lian? But I think of this. Strong Qin does not dare to send troops against Zhao for one reason: the two of us are here. If two tigers fight, both will not come out alive. I do this because I put the danger of the state first and a private grudge after.\"\n\nLian Po heard what he had said. He bared his shoulders, tied a rod of thorn on his back, and came to Xiangru's gate to ask for punishment. The two became friends unto death.\n\nThe Daodejing says: because the sage does not contend, no one under heaven can contend with the sage.",
+   "passages": [
+    7,
+    66,
+    68
+   ]
+  },
+  "lord-father": {
+   "title": "The Lord Father at Shaqiu",
+   "source": "Shiji 43 (Hereditary House of Zhao); Hanfeizi ch.21 (Yu Lao) uses him to explain Daodejing 26",
+   "text": "King Wuling of Zhao was a strong king. He put his soldiers into the short coats of the northern riders and taught them to shoot from horseback, and he won wide lands. Then, in the twenty-seventh year of his rule, while he was still alive and well, he gave the throne to a young son. He called himself the Lord Father. He meant to be free to lead the army.\n\nHe was a restless man. Once he dressed as his own envoy and rode into Qin to take a look at its king. The king of Qin thought that this envoy did not carry himself like any man's servant, and sent riders after him. The Lord Father was already through the pass.\n\nHe had an elder son, Zhang, whom he had passed over. At court he saw his elder son, downcast, bow down to the boy king, and he pitied him. He thought of cutting the state in two. He could not decide.\n\nOn a visit to Shaqiu, Zhang rose in revolt and lost. He fled to his father's lodge, and his father let him in. The king's ministers surrounded the lodge and killed Zhang. Then they were afraid. If they lifted the siege, the Lord Father would destroy them. So they kept it. They called to the people inside: \"The last one out dies.\" Everyone came out.\n\nThe Lord Father could not get out, and he had no food. He took sparrow nestlings from their nests and ate them. After more than three months he starved to death in the palace at Shaqiu.\n\nThe Hanfeizi says: the state is a ruler's baggage wagon, and the Lord Father left his while he lived. The Daodejing asks: how can the lord of ten thousand chariots take the body lightly before all under heaven?",
+   "passages": [
+    26
+   ]
+  },
+  "zifa-thief": {
+   "title": "The General and the Thief",
+   "source": "Huainanzi ch.12 (Daoying xun)",
+   "text": "Zifa, a general of Chu, liked to seek out men who had a skill. A man of Chu came to see him. \"I hear that you look for men of skill. I am a thief. I would like to serve as one of your soldiers, with my skill.\"\n\nZifa hurried out to meet him. His sash was not tied and his cap was not straight, and he received the man with full courtesy. His attendants objected. \"A thief robs the whole world. Why treat him with respect?\"\n\n\"This is not something for you to judge,\" said Zifa.\n\nNot long after, Qi raised an army and attacked Chu. Zifa led the defence, and three times his troops were pushed back. The able officers of Chu used up all their plans, and the army of Qi only grew stronger.\n\nThe thief came forward. \"I have a small skill. Let me use it for you.\"\n\n\"Go,\" said Zifa, and he did not ask what the man meant to do.\n\nThat night the thief took down the bed curtain of the Qi general and brought it back. Zifa sent it across with a message: \"One of our men went out for firewood and found the general's curtain. We return it.\" The next night the thief brought the general's pillow. Zifa sent it back. The night after, he brought the general's hairpin. Zifa sent it back.\n\nThe army of Qi was badly shaken. The general said to his officers, \"If we do not leave today, I fear that Chu will take my head.\" He turned his army around and went home.\n\nThe Huainanzi says that no skill is too slight; it depends on how a ruler uses it. Then it quotes the Daodejing: the not-good person is the good person's material.",
+   "passages": [
+    27,
+    62
+   ]
+  },
+  "robber-zhi-way": {
+   "title": "The Robber's Five Virtues",
+   "source": "Zhuangzi ch.10 (Quqie)",
+   "text": "People guard against thieves who cut open trunks, feel in bags, and break into chests. They tie the cords tight and make the bolts and clasps firm. The world calls this wisdom. Then a great thief comes. He puts the chest on his back, lifts the trunk, shoulders the bag, and runs. His one fear is that the cords and clasps will not hold.\n\nThe state of Qi was once like a well-tied chest. Its villages were in sight of one another. Its temples, its districts, and its laws all followed the pattern of the sages. Then one morning Tian Chengzi killed the lord of Qi and stole the state. He stole the wise laws along with it. People called him a robber, but he lived as safely as the sage kings, and his house held Qi for generations.\n\nA follower of the bandit Zhi once asked him, \"Does a robber also have a Way?\"\n\n\"Where can anyone go without a Way?\" said Zhi. \"To guess what is stored inside a house: that is sageliness. To go in first: that is courage. To come out last: that is duty. To know if the job can be done or not: that is wisdom. To divide the loot in equal shares: that is humaneness. Nobody in the world has become a great robber without all five.\"\n\nThe chapter draws its own conclusion. A man who steals a belt hook is put to death. A man who steals a state becomes a lord, and humaneness and duty are then found at his gate.\n\nThe Daodejing says: the more laws and orders are displayed, the more thieves and bandits there are.",
+   "passages": [
+    18,
+    19,
+    57
+   ]
+  },
+  "zengzi-pig": {
+   "title": "Zengzi Kills the Pig",
+   "source": "Hanfeizi ch.32 (Wai chu shuo, upper left)",
+   "text": "The wife of Zengzi was leaving for the market. Her small son followed her and cried.\n\n\"Go back home,\" she said. \"When I return, I will kill a pig for you.\"\n\nShe came back from the market, and Zengzi was about to catch a pig and kill it. She stopped him. \"I was only playing with the child.\"\n\n\"A child is not someone to play with in that way,\" said Zengzi. \"A child knows nothing yet. He depends on his father and mother to learn, and he listens to what they teach. If you deceive him now, you teach him to deceive. When a mother deceives her son, the son does not trust his mother. That is no way to teach him.\" And he killed the pig and cooked it.\n\nThe same chapter tells a second story. Marquis Wen of Wei set a day to go hunting with his gamekeeper. The next day a fierce wind blew. His attendants told him to stay in. \"No,\" said the marquis. \"I will not break my word because the wind is strong.\" He drove the carriage himself, went out into the wind, and told the gamekeeper in person that the hunt was called off.\n\nThe Daodejing says: trust not enough, there: no trust, there.",
+   "passages": [
+    17,
+    23,
+    54
+   ]
+  },
+  "king-zhuang-mound": {
+   "title": "No Mound for the Victory",
+   "source": "Zuozhuan, Duke Xuan, year 12",
+   "text": "In 597 BCE the army of Chu met the army of Jin at Bi, and Jin was routed. The Jin soldiers fought one another for places in the boats to get back across the Yellow River.\n\nAn officer of Chu named Pan Dang came to King Zhuang. \"Why does my lord not build a war monument? Gather the Jin dead and raise a great mound over them. I have heard that one who defeats an enemy must show it to his sons and grandsons, so that they do not forget the deeds of war.\"\n\n\"This is not something that you understand,\" said the king. \"Look at the written character for war. It is made of 'stop' and 'spear'.\" The Zuozhuan gives his words as 止戈為武. \"War is for seven things: to forbid violence, to put away weapons, to keep what is great, to settle the work, to give the people rest, to bring the many into accord, and to make wealth grow. I have caused the bones of the men of two states to lie in the open. That is violence. I have shown my weapons to frighten the lords. That is not putting weapons away. Of the seven, I have not one. What would I show to my sons and grandsons?\n\n\"In old times the wise kings struck down the disrespectful. They took the worst of them and buried them under a mound as a great punishment. Here there is no criminal. These people all gave their loyalty and died for their lord's command. How can I make a mound of them?\"\n\nHe made an offering to the River. He built a shrine to his forefathers and reported there that the task was done. Then he went home.\n\nThe Daodejing says: a battle won: observe it with the rites of mourning.",
+   "passages": [
+    30,
+    31,
+    69
+   ]
+  },
+  "lin-hui-jade": {
+   "title": "Lin Hui Drops the Jade",
+   "source": "Zhuangzi ch.20 (Shanmu)",
+   "text": "Confucius said to Zisang Hu, \"I was driven out of Lu twice. In Song they cut down the tree where I sat. In Wei they wiped out my footprints. I was in want in Shang and Zhou, and surrounded between Chen and Cai. And through all these troubles my kin have grown more distant and my friends and followers have drifted away. Why is that?\"\n\n\"Have you not heard about the man of Jia who fled?\" said Zisang Hu. \"His name was Lin Hui. He threw away a disc of jade worth a thousand in gold, put his baby on his back, and ran. Someone asked him, 'Did you think of the price? A baby is worth little. Did you think of the burden? A baby is a great burden. Why throw away the jade and carry the baby?' Lin Hui said, 'The jade and I were joined by profit. This child and I are joined by heaven.'\n\n\"Things that profit joins throw one another away when trouble presses. Things that heaven joins hold on to one another when trouble presses. The friendship of a noble person is bland, like water. The friendship of a small person is sweet, like new wine. The bland one grows close. The sweet one breaks off.\"\n\n\"I accept the teaching with respect,\" said Confucius. He walked home slowly and at ease. He gave up his studies and put away his books. His students no longer bowed before him, and their love for him grew.\n\nThe Daodejing says: the Dao, as it comes out of the mouth: bland! It has no flavor.",
+   "passages": [
+    20,
+    35
+   ]
+  },
+  "xu-you": {
+   "title": "Xu You Refuses the World",
+   "source": "Zhuangzi ch.1 (Xiaoyao you)",
+   "text": "The sage king Yao wanted to hand all under heaven to the hermit Xu You.\n\n\"The sun and moon are up,\" said Yao, \"and the torch is still burning. Is it not hard for the torch to give light? The rain falls in its season, and a man is still carrying water to the fields. Is that not wasted work? If you took the throne, the world would be in order. Yet I still sit in the seat. I look at myself and see what I lack. Please take the world.\"\n\n\"You govern the world,\" said Xu You, \"and the world is already governed. If I took your place now, would I do it for the name? The name is the guest of the real thing. Shall I be a guest?\n\n\"The wren nests in the deep forest and uses no more than one branch. The mole drinks at the river and takes no more than a bellyful. Go home, my lord, and rest. I have no use for the world.\n\n\"The cook may not be keeping his kitchen in order. Even so, the priest and the stand-in for the dead do not step over the wine jars and the meat stands to do his work for him.\"\n\nThe Daodejing says: once the names are there, it is time to know where to stop.",
+   "passages": [
+    32,
+    44
+   ]
+  },
+  "chen-sheng": {
+   "title": "Late Is Death, Revolt Is Death",
+   "source": "Shiji 48 (Hereditary House of Chen She)",
+   "text": "In the seventh month of 209 BCE, nine hundred poor men were called up to guard the frontier at Yuyang. On the march they camped at Daze village. Heavy rain fell, the road was cut, and they saw that they could not reach the post by the set day. Under the law of Qin, all who came late were to lose their heads.\n\nTwo of the squad leaders, Chen Sheng and Wu Guang, talked it over. \"If we run, we die. If we start a great undertaking, we die. Death either way. Why not die for a state of our own?\"\n\nThey prepared the men. They wrote \"Chen Sheng will be king\" in red on a piece of silk and put it in the belly of a fish that the soldiers bought for dinner. At night Wu Guang hid by a shrine near the camp, lit a fire, and called out like a fox: \"Great Chu will rise. Chen Sheng will be king.\" In the morning the soldiers pointed at Chen Sheng and whispered.\n\nThen Wu Guang provoked one of the officers, who was drunk, into flogging him. The officer drew his sword. Wu Guang took it and killed him. Chen Sheng helped, and they killed both officers.\n\nThey called the men together. \"You have all met with this rain, and you are all late. The late lose their heads. And even if you are spared, six or seven of every ten frontier guards die. If a brave man dies, let it be for a great name. Are kings and lords, generals and ministers, a breed apart?\" The Shiji gives this last line as 王侯將相寧有種乎.\n\n\"We accept your command,\" said the men. Within three years Qin had fallen.\n\nThe Daodejing says: the people do not fear death. How, then, frighten them with death?",
+   "passages": [
+    72,
+    74,
+    75
+   ]
+  },
+  "feng-xuan": {
+   "title": "Feng Xuan Burns the Tallies",
+   "source": "Zhanguo ce, Stratagems of Qi 4; Shiji 75 tells it differently, calls him Feng Huan, and has him burn only the tallies of those too poor to pay",
+   "text": "Lord Mengchang of Qi kept many guests in his house. The people of his fief, Xue, owed him money. He asked which of his guests could keep accounts and collect the debts. A poor guest named Feng Xuan signed his name.\n\nFeng Xuan asked, \"When the debts are all in, what shall I buy with the money?\"\n\n\"Look at what my house has little of,\" said the lord.\n\nFeng Xuan drove to Xue. He had the officials call in everyone who owed money, and each debtor brought his half of the tally to be matched. When all the tallies were matched, Feng Xuan stood up. He declared, as if by the lord's order, that the debts were a gift to the people. Then he burned the tallies. The people shouted, \"Ten thousand years!\"\n\nHe drove straight back. The lord was surprised at his speed. \"Are the debts collected? What did you buy?\"\n\n\"You told me to look at what your house has little of. Your palace is piled with treasure, and your stables are full. What your house has little of is right dealing. So I bought right dealing for you.\"\n\n\"How does one buy that?\"\n\n\"You have only this small Xue, and you do not care for its people as your children. You treat them as a merchant treats a market. I gave them the debts and burned the tallies.\"\n\nThe lord was not pleased. \"Enough, sir.\"\n\nA year later the King of Qi dismissed him, and he went to Xue. He was still a hundred li away when the people came out to meet him on the road, the old on their arms and the children by the hand. He turned to Feng Xuan. \"Today I see what you bought for me.\"\n\nThe Daodejing says: the sage holds the left tally and makes no claim on anyone.",
+   "passages": [
+    79,
+    81
+   ]
+  },
+  "jie-zhitui": {
+   "title": "Jie Zhitui Asks for Nothing",
+   "source": "Zuozhuan, Duke Xi, year 24",
+   "text": "Chong'er, a prince of Jin, lived in exile for nineteen years. A few men followed him through all of it. When he came home and ruled as Duke Wen, he rewarded those who had gone with him. Jie Zhitui had gone with him. He said nothing about a reward, and no reward came to him.\n\nJie Zhitui said to his mother, \"Of the old duke's sons, only our lord is left. Heaven has not ended the line of Jin, so there had to be a ruler. Who else could it be? Heaven set him up. Yet these gentlemen think it was their own strength. To steal a person's goods is called robbery. What is it, then, to take the work of heaven and call it one's own? I find it hard to live among them.\"\n\n\"Why not ask as well?\" said his mother. \"If you die like this, whom will you blame?\"\n\n\"To copy a fault that I have condemned would be worse. And I have spoken with resentment. I will not eat his food.\"\n\n\"Then at least let him know. What of that?\"\n\n\"Words are the ornament of the body. My body is about to go into hiding. Why ornament it? That would be to seek notice.\"\n\n\"Can you really be like this?\" said his mother. \"Then I will go into hiding with you.\"\n\nThey went away and lived hidden until they died. The duke looked for him and could not find him. He set aside the fields of Mianshang in his name. \"Let this record my fault,\" he said, \"and honour a good man.\"\n\nLater tellings add a forest fire that the duke lit to drive him out. The Zuozhuan does not have it.\n\nThe Daodejing says: the work is complete; it does not name it \"mine\".",
+   "passages": [
+    34,
+    72,
+    77
+   ]
+  },
+  "well-sweep": {
+   "title": "The Gardener and the Well-Sweep",
+   "source": "Zhuangzi ch.12 (Tiandi)",
+   "text": "Zigong, a student of Confucius, was travelling through the country south of the Han River. He saw an old man at work in a vegetable garden. The old man had dug a sloping tunnel down to his well. He went in, came out with a jar of water in his arms, and poured it on the beds. He puffed and strained, and for all his labour very little was done.\n\n\"There is a machine for this,\" said Zigong. \"In one day it waters a hundred beds. It takes little strength and does a great deal. Would you not like one, sir?\"\n\nThe gardener looked up. \"How does it work?\"\n\n\"It is a wooden arm, heavy at the back and light at the front. It lifts the water as if it were pulling it out, so fast that it seems to boil over. It is called a well-sweep.\"\n\nThe gardener's face flushed with anger. Then he laughed. \"I heard this from my teacher. Where there are machines, there will be machine business. Where there is machine business, there will be a machine heart. With a machine heart in the chest, what is pure and plain is no longer whole. Then the spirit does not settle, and what has an unsettled spirit, the Dao does not carry. It is not that I do not know of your machine. I would be ashamed to use it.\"\n\nZigong was abashed. He looked down and gave no answer. He walked on, pale and not himself, and he had gone thirty li before he recovered.\n\nThe Daodejing says: the more craft and skill people have, the more strange things arise.",
+   "passages": [
+    57,
+    65,
+    80
+   ]
+  },
+  "zhaozhou-tea": {
+   "title": "Wash Your Bowl, Have Some Tea",
+   "source": "Wumenguan (The Gateless Barrier), case 7; the tea story is in the Chan records of Zhaozhou Congshen (Wudeng huiyuan)",
+   "text": "In Tang times the Chan master Congshen lived at a temple in Zhaozhou, and people called him by the name of the place.\n\nA monk came to him and said, \"I have only just entered the monastery. I beg the master to teach me.\"\n\n\"Have you eaten your rice gruel?\" said Zhaozhou.\n\n\"I have eaten.\"\n\n\"Then go and wash your bowl.\"\n\nThe record says that the monk understood something.\n\nAnother time, Zhaozhou asked a monk who had just arrived, \"Have you been here before?\"\n\n\"I have been here.\"\n\n\"Go and have some tea.\"\n\nHe asked the second the same question.\n\n\"I have not been here.\"\n\n\"Go and have some tea.\"\n\nLater the prior of the temple came to him. \"To the one who had been here, you said, 'Go and have some tea.' To the one who had not been here, you also said, 'Go and have some tea.' Why?\"\n\n\"Prior!\" called Zhaozhou.\n\n\"Yes?\" said the prior.\n\n\"Go and have some tea.\"\n\nZhaozhou gives no explanation. The Daodejing says: the Dao, as it comes out of the mouth: bland! It has no flavor.",
+   "passages": [
+    35,
+    63
+   ]
+  },
+  "king-tai-leaves-bin": {
+   "title": "King Tai Leaves Bin",
+   "source": "Mencius 1B:15; also told in Zhuangzi ch.28 (Rangwang)",
+   "text": "Long before the house of Zhou ruled, its ancestor King Tai lived with his people in the land of Bin. The Di tribes raided them.\n\nKing Tai gave the Di furs and silk. The raids did not stop. He gave them dogs and horses. The raids did not stop. He gave them pearls and jade. The raids did not stop.\n\nHe called the elders together. \"What the Di want is our land. I have heard that a ruler does not harm people with the thing that is meant to feed them. Why should you worry about having no lord? I am going to leave.\"\n\nIn the Zhuangzi he says more. \"To live beside a man's older brother and have the younger brother killed, to live beside a father and have his son killed: I cannot bear it. Stay here, all of you, and do your best. What difference is there between being my subjects and being subjects of the Di?\"\n\nHe took his staff and left Bin. He crossed Mount Liang and settled at the foot of Mount Qi.\n\nThe people of Bin said, \"This is a humane man. We must not lose him.\" Mencius says that they followed him like a crowd on its way to market. In the Zhuangzi they go after him in an unbroken line. A new state grew up under Mount Qi, and from it, generations later, came the kings of Zhou.\n\nThe Daodejing says: all under heaven are glad to push the sage forward and do not tire.",
+   "passages": [
+    66,
+    67
    ]
   }
  }

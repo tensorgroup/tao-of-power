@@ -64,7 +64,7 @@
     "shelters them, covers them.",
     "",
     "[[Gives birth and does not possess|buyou]].",
-    "Acts and does not lean on it.",
+    "[[Acts and does not lean on it|pair-give-hold]].",
     "Leads and [[does not carve|zai]].",
     "This is called [[dark de|xuande]]."
   ],
@@ -210,6 +210,11 @@
       "kind": "practice",
       "title": "Feed one thing, and take no credit",
       "body": "Choose one living thing that depends on you: a child, a plant, an animal, a junior colleague, a piece of work that is still growing. Today, do one act of [[畜|chu]] for it, plain feeding: water, a meal, time, the tool that it needs. Then apply the three “and not”. Do not speak of it as yours. Do not mention what you did or wait for thanks. And do not decide for it what it should become. Notice which of the three you break first, and how soon. The passage says that creatures honour what rears them without being told to. See whether that is true of the thing that you tend when you stop asking for it."
+    },
+    "pair-give-hold": {
+      "kind": "pair",
+      "title": "生 / 有: to give and to hold",
+      "body": "Each of the three lines joins two acts that people take as one: 生 and 有, to give birth and to own; 為 and 恃, to do and to count on it; 長 and 宰, to lead and to carve up. In common life the second follows the first as its pay. The [[refrain|buyou]] cuts the link with 不, and it keeps the first half. This matters. The text does not favour not-doing over doing. Dao gives birth; de rears; six verbs of care follow. Nor does it call all keeping bad: a herdsman [[keeps|chu]] the herd. It describes a giving that is complete, because no claim is held back from it. A one-sided reading takes “does not possess” as the whole teaching and turns it into distance. Then the birth and the rearing are lost. Where in your work does the doing end and the claim begin?"
     }
   },
   "lenses": {
@@ -238,6 +243,28 @@
       "title": "Under the roof, a knife",
       "lesson": "The top is 宀, a roof, the sign of houses: 家, a household; 室, a room; 安, a woman under a roof, “at peace”. The bottom is 辛. The Shuowen explains 辛 in several ways; in this entry it says 辛，辠也, “辛 is crime”, and many modern scholars take the old form as a chisel or a short blade, the tool that marked the faces of convicts. With that the dictionary reads the whole: 辠人在屋下執事者, “a convicted person who does service under a roof”. A household slave. The work of such a servant in a great house was the kitchen and the slaughter of animals for the rites, and 宰 came to mean to butcher and to carve. The one who cut and shared the sacrificial meat held a place of trust, and so the same word rose through the house: steward, head of the household staff, and at last the chief minister of a state. The history of the word is a history of power in three steps: a bound servant, a man with a knife, a ruler. The passage uses it for what the Way does not do. It [[leads and does not 宰|zai]]. For 辛 in another role, see 辯 in passage 45, where two of them are parties in a lawsuit.",
       "brush": "Ten strokes. The roof first: a dot at the top centre, a short stroke at the left edge, and a horizontal that ends in a hook down at the right. Then 辛 in seven strokes. A dot under the roof; a horizontal; then two small strokes that lean toward each other, a dot on the left and a short left-falling stroke on the right. Next come two horizontals, and the first of them is the longest line in the character; it reaches out past the roof on both sides. Watch the tenth stroke: a vertical that starts at the long horizontal and goes straight down through the last horizontal to a point. It is drawn last and it is the blade. It must hang plumb, with nothing beside it, and a good hand lets it thin toward the end like a needle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "give-not-own",
+      "claim": "To give life to a thing and to work for it gives no right to own it.",
+      "prompts": [
+        "Do you agree when it is your own child, your own work, your own idea? Take the hardest case, not the easy one.",
+        "Where did you learn what a maker is owed? Was there a ledger in your family, spoken or unspoken, of who had done what for whom?",
+        "Now hold the opposite: what I make is mine, and a claim on it is fair pay for the care I gave. Stay there for a few minutes. What feelings come, and do they surprise you?",
+        "Is there someone whose claim on you still rests on what they once gave? How does that shape what you think here?"
+      ]
+    },
+    {
+      "id": "honour-uncommanded",
+      "claim": "Real honour arises of itself, and honour that has to be commanded is of another kind.",
+      "prompts": [
+        "Is that so in your experience? Think of someone you honour, and ask whether anyone told you to.",
+        "When have you wanted thanks or respect and asked for it, openly or by a hint? What did you fear would happen if you did not ask?",
+        "Take the other view: people forget, and respect that is not required soon fades; a parent, a teacher, an office has to insist on it. Hold it as true. What do you notice?",
+        "Which view matches the way you were raised, and which matches the way you now live? Why might the gap be worth a look?"
+      ]
     }
   ]
 }

@@ -40,7 +40,7 @@
     "The people [[do not fear death|wei]].",
     "[[How, then,|naihe]] [[frighten|ju]] them with death?",
     "",
-    "Suppose the people were made to [[fear death always|chang-wei]],",
+    "[[Suppose|fear-pair]] the people were made to [[fear death always|chang-wei]],",
     "and those who do [[the irregular|qi]]:",
     "[[I|wu]] could [[seize|zhi]] them and kill them.",
     "[[Who would dare?|shu-gan]]",
@@ -189,6 +189,11 @@
       "kind": "practice",
       "title": "Whose axe is this?",
       "body": "The next time you are about to punish, ask the carpenter’s question first. The punishment may be small: a cold reply, a public correction, the removal of a task from someone who failed at it. Before you act, ask three things. Is this my post, or do I stand in for someone or something else: the group, the rules, the plain result of the person’s own act? Has the result perhaps already arrived without me? And where is my hand in relation to the edge? You do not have to decide against acting. A carpenter does hew. The passage only says that the one who takes the tool from the master is seldom unhurt. Notice, a day later, where the cut went."
+    },
+    "fear-pair": {
+      "kind": "pair",
+      "title": "畏 and 不畏: fear spends itself",
+      "body": "The passage stands on two cases: 民不畏死, the people do not fear death, and 常畏死, they fear it constantly. The pair is 畏 and 不畏, dread and its absence. The ruler of the middle lines wants one side only: constant fear. The text shows why that side cannot be held alone. Fear needs something to lose. When threat takes that thing away, fear turns into its opposite, and the people of the first line are the result. Passage 72 says it in one sentence: 民不畏威，則大威至, when the people do not dread authority, a greater dread arrives. So each side makes the other. The text does not rank them. Fearlessness is not praised here as courage; it is a symptom. Dread is not praised as order; it is the thing that a threat uses up. A second pair stands under this one: 奇, the odd, and its unnamed partner 正, the regular, which [[turn into each other|qi]]. Who decides which is which?"
     }
   },
   "lenses": {
@@ -199,6 +204,28 @@
     "nature": "In a forest nothing is executed and everything dies. Death has its seasons and its agents: frost, age, the hawk, the fungus that takes a tree which has finished. This is one old reading of [[the one in charge of killing|si-sha]]: the standing order by which each thing reaches its term. People who take this office over, with good intentions, have often cut their own hand. They kill the wolves, and the deer strip the hillsides. They poison the insects, and the birds go. The passage does not say that nothing should ever be cut. A carpenter fells trees. It says that the cut is a master’s work, and that the master is already at the bench. What in your garden, or your care, would you leave to the frost?",
     "practice": "Today, catch one threat that you make. It may be to a child, a colleague, or yourself: “if this happens again, then…”. Do not judge it. Ask the first question of the passage: does the other person still fear this? If the threat has been made many times, the honest answer is often no. Then ask the second question: [[is this my axe?|pause]] Try, once, to name the natural result and step back from the role of the one who delivers it. Say what will follow from the act, and do not say what you will do to the person. Afterwards read [[Legge’s version|legge]], with its capital “One”, and compare it with the plain job title in the Chinese."
   },
+  "questions": [
+    {
+      "id": "spent-fear",
+      "claim": "Fear that is used too often stops working, and people with nothing left to lose cannot be threatened.",
+      "prompts": [
+        "Have you seen this happen, in a family, a school, a job, or in the way you speak to yourself?",
+        "Which threats were used on you when you were young? Which of them still work, and which wore out?",
+        "Take the other side: a firm threat, kept fresh and carried out, is what holds people and habits in line. Say it as if you believed it. What in you agrees?",
+        "What does your answer show about how much you trust people, or yourself, to act well without fear?"
+      ]
+    },
+    {
+      "id": "not-my-axe",
+      "claim": "Results have their own agent, and whoever steps in to deliver the punishment in person is usually the one hurt.",
+      "prompts": [
+        "Do you believe that wrong acts meet their result without your help? What evidence do you have, for and against?",
+        "Recall a time when you punished someone, in a small way or a large one. Where did the cut land?",
+        "Now the opposite: if you do not act, nobody will, and the harm goes on. Stay with that. Is there anger in it, or duty, or a wish to be the one who sets things right?",
+        "Whose work do you most often take over? What would you have to feel if you left it to them?"
+      ]
+    }
+  ],
   "glyph": "匠",
   "plates": [
     {

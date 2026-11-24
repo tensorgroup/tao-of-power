@@ -56,7 +56,7 @@
   "rendering": [
     "[[A small state, few people.|xiao-guo]]",
     "[[Let there be|shi]] [[tools for ten and for a hundred|shi-bai]],",
-    "and let them go unused.",
+    "and let them [[go unused|have-unused]].",
     "Let the people [[take death as a heavy thing|zhong-si]]",
     "and not move far away.",
     "",
@@ -240,6 +240,11 @@
       "kind": "practice",
       "title": "One day within earshot",
       "body": "Give the passage one day. Choose a day when you can stay within the distance that a rooster’s call would carry from your door: on foot, no vehicle. Leave some of your “tools for ten and for a hundred” where they lie; you know which machines do the work of a hundred people for you, and which of them you could rest. Write nothing down that day. Then do the four verbs, on purpose. Eat one plain meal and try to find it sweet. Put on ordinary clothes and find them good. Sit in your own room until it is restful. Do one thing that is a custom of your household or street, and enjoy it. In the evening, listen for the neighbours. You need not visit. Notice what you missed, and how strongly, and what you did not miss at all."
+    },
+    "have-unused": {
+      "kind": "pair",
+      "title": "有 and 不用: having, and not using",
+      "body": "The passage has no named pair like soft and hard. Its pair is in its grammar: 有…而不用, there are tools, and they are not used; 雖有…無所, though there are boats, there is no occasion. Having and not using stand together in each sentence, and neither is given up. A people with no boats cannot choose to stay; their staying is only lack. The text needs the boat at the shore for the staying to mean anything. The close has a second pair of the same kind: near and apart. The states [[look across at each other|xiang-wang]] and hear each other, and do not visit. A one-sided reading takes the passage as “simple good, complex bad”, or “home good, travel bad”. The characters do not say so. The lean toward staying corrects an age of forced movement: levies, flight, armies on the roads. It also turns. Staying that is enforced is a prison, as [[Sima Qian|sima-qian]] saw, and a tool that is left unused for ever is no longer had."
     }
   },
   "lenses": {
@@ -249,6 +254,38 @@
     "nature": "The scale of the passage is the scale of a valley. A rooster’s call carries perhaps a kilometre in still air, and a dog’s bark a little more. Within that radius a farming community can find water, fuel, soil, and seed, and it can know every tree. The graph for custom, [[俗|le-su]], puts a person beside a valley. Each valley shapes a way of living that fits it. Ecologists speak of a bioregion; the idea is close. When boats and carts are in constant use, the valley’s limits stop teaching, because whatever is short can be brought in and whatever is waste can be sent out. The two states that [[gaze at each other|xiang-wang]] are like two watersheds on either side of a ridge: near, visible, and each complete. The line does not despise the far side. It lets it be whole.",
     "practice": "Try [[one day within earshot|near]], or a single hour of it if a day is not possible. If even that is hard, do only the four verbs at one meal: 甘其食. Take the food that is in the house, and before you eat, look at it; then find it sweet. The grammar is exact: the sweetness is something that you do. Afterwards ask the honest questions that the passage raises. Would you choose this life? [[Sima Qian|sima-qian]] thought that no one would. Was the hour restful, or did you feel shut in? Then read [[the Zhuangzi’s version|zhuangzi]], which places the village in the far past, and [[Tao Yuanming’s|ji-quan]], which hides it behind a cave. Three writers could not agree on where the small state is. Where did you find it?"
   },
+  "questions": [
+    {
+      "id": "enough-here",
+      "claim": "People can find their own food sweet and their own home restful, with no need to go elsewhere.",
+      "prompts": [
+        "Is that so for you? What in your present life do you find sweet as it is?",
+        "Where did you learn that the better life is somewhere else, or that it is here? Who in your family left, and who stayed?",
+        "Take the other side: the wish to go, to see, to trade, to meet strangers is the best thing in people, and staying is a slow sleep. Let that be true for a while. What wakes up?",
+        "When you see someone content with little, do you feel respect, envy, or a quiet scorn? What might that feeling be about?"
+      ]
+    },
+    {
+      "id": "have-not-use",
+      "claim": "A good life has powerful tools and weapons at hand and finds no occasion to use them.",
+      "prompts": [
+        "Which of your powers could you leave unused? Think of a tool, a skill, or an argument that you know would win.",
+        "What happens in you when you hold a capacity back: ease, or the fear that it is wasted?",
+        "Now the opposite: what you can do, you should do, and an unused gift is a loss to everyone. Whose voice says that in your head?",
+        "Is your restraint a choice, or a lack of nerve? Is your use of power a choice, or a habit? How would you know?"
+      ]
+    },
+    {
+      "id": "small-few",
+      "claim": "A community does well when it is small and its people are few.",
+      "prompts": [
+        "Do you agree? In which size of group have you been most yourself?",
+        "What does growth mean to you: safety, proof, life itself? Where does that meaning come from?",
+        "Hold the opposite: only large numbers and open roads bring the medicine, the music, and the stranger who changes your mind. What would you not give up?",
+        "If both are true, what are you in fact choosing between?"
+      ]
+    }
+  ],
   "glyph": "甘",
   "plates": [
     {

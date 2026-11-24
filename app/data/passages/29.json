@@ -41,7 +41,7 @@
     "",
     "So with creatures: [[some go ahead, some follow|huo]];",
     "some [[breathe warm, some blow cold|xu-chui]];",
-    "some are strong, some thin;",
+    "[[some are strong, some thin|qiang-lei]];",
     "some [[break, some fall|cuo-hui]].",
     "",
     "So [[the sage|shengren]] [[puts away|qu-san]] the extreme,",
@@ -191,6 +191,11 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "qiang-lei": {
+      "kind": "pair",
+      "title": "Four pairs, and what the sage removes",
+      "body": "Ahead and behind, warm breath and cold, 強 strong and 羸 thin, and a last pair that the editions give in more than one form (see [[the variants|cuo-hui]]). The stanza names both sides of each and praises neither. This is its reply to the first stanza. To [[work on|wei-zhi]] the world is to pick one side of each pair and try to make it stay: all leading, all warm, all strong. But the sides need each other. No one goes ahead unless someone follows, and “strong” is a word that needs a thinner thing beside it. They also change places ([[或 can mean “at times”|huo]]). So the sage in the last lines does not remove the weak side or the strong side. The three things put away are all excess: the point where one side is pushed until it breaks into the other. Which side of a pair are you trying to make permanent?"
     }
   },
   "lenses": {
@@ -200,6 +205,28 @@
     "nature": "The middle stanza is an ecologist’s sentence. [[Among creatures|huo]] some go in front and some behind: the herd has its lead animal and its stragglers. Some breathe warm and some blow cold. Some are sturdy and some are lean: every population has both. Some are heaped up and some slide down: [[banks build and banks collapse|cuo-hui]]. A manager of land who wants only the strong, the leading, and the standing will drain the marsh, cull the weak, straighten the river, and be surprised by the flood. The text’s word for the whole is [[器|shen-qi]], a made thing, and its maker cannot be found, so no one has the drawings. What can be done with such a thing is to learn its tendencies and [[go by them|wb-follow]]. The Qin empire [[tried the other way|qin]].",
     "practice": "Do [[the breath test|xu-chui]] first; it takes ten seconds and fixes the middle stanza in the body. Then choose one thing you are trying to improve by force: a person, a habit, a piece of work that will not come right. For one day do nothing to it. Do only what the last stanza says. Ask the three questions in order. Where is this [[too sweet|qu-san]], where am I getting too much comfort from it? Where is it too wide, where am I showing off? Where is it too smooth, where have I grown grand and careless? Remove one excess, once. Leave the thing itself alone. In the evening, look at your hand as the note on [[執|zhi]] suggests. Then ask if the thing is in a worse state for a day without your work on it."
   },
+  "questions": [
+    {
+      "id": "cannot-work-on",
+      "claim": "The world is a sacred vessel, and whoever tries to remake it ruins it.",
+      "prompts": [
+        "Do you agree? Think of something that you or others tried to fix and made worse. Then think of one that got better.",
+        "Where does your urge to fix things come from, or your urge to leave them alone? Whose voice is in it?",
+        "Hold the opposite: the world is unfinished, and it is a duty to take hold of it and work. What do you feel as you take that side?",
+        "Is your answer different for the world, for other people, and for yourself? What explains the difference?"
+      ]
+    },
+    {
+      "id": "some-ahead",
+      "claim": "No one way of being suits all creatures, and each takes its turn at strong and weak.",
+      "prompts": [
+        "Do you accept this for the people near you, or do you want them to be one way?",
+        "Which side of a pair were you not allowed to be as a child: slow, weak, behind, cold? What happened to that side of you?",
+        "Try the other view: some ways of being are simply better, and people should be moved toward them. Stay with it. What comes?",
+        "When you are the thin one or the one behind, how do you treat yourself? Why does that matter?"
+      ]
+    }
+  ],
   "glyph": "取",
   "plates": [
     {

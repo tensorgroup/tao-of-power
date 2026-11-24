@@ -64,7 +64,7 @@
     "To [[order people|zhi-ren]] and [[serve heaven|shi-tian]],",
     "nothing equals [[the farmer’s sparing|se]].",
     "",
-    "Only sparing:",
+    "[[Only sparing|pair-store-spend]]:",
     "this is called [[being ready early|zao-fu]].",
     "Being ready early is called [[storing de in layers|chong-ji]].",
     "With de stored in layers, there is nothing that is not [[overcome|ke]].",
@@ -206,6 +206,11 @@
       "kind": "practice",
       "title": "Find the seed grain",
       "body": "A farmer knows which sacks are for eating and which are seed. Most of us do not know this about our own stores. Take three: attention, strength, and good will. For each, ask: what part of this is seed grain, which I must not spend however great the need looks today? For attention it may be the first hour of the morning. For strength, the sleep before midnight. For good will with a person, the one thing that you do not say in anger. Then look at yesterday. Where did you eat seed? Do not make a plan to be more productive with what you save. That would be to plant in order to spend more. 嗇 only asks that the store exists, and that you [[are ready early|zao-fu]], before the bad year."
+    },
+    "pair-store-spend": {
+      "kind": "pair",
+      "title": "嗇 / 費: to store and to spend",
+      "body": "The passage names one side: [[嗇|se]], to keep back. Its partner is not named. [[Han Feizi|hanfei]] supplies it: 費, to spend. The text plainly favours the keeping. Ask what the favour is for. It speaks to rulers and to persons who run at the edge and use up people, grain, and spirit. For them the correction is to store. But the image is a farmer’s, and a farmer stores in order to sow. Seed grain that is not put in the ground next spring is as lost as seed that is eaten. The store and the spending make one year between them. So the favoured side turns too: sparing that forgets its purpose is the miser’s vice, which is what 嗇 means in modern speech. A one-sided reading hears “hold back, always”. The passage says 早, early: keep now, so that there is something to give when the time comes."
     }
   },
   "lenses": {
@@ -235,6 +240,29 @@
       "title": "A woman with two dots",
       "lesson": "Begin with 女, woman. The Shuowen calls it a picture, and the usual explanation of the early form is a figure that kneels with the arms crossed in front. Three strokes are left of it today. Now add two dots inside the frame of the body. The Shuowen reads them plainly: 从女，象褱子形。一曰象乳子也, “from 女; it shows her with a child in her arms. Another view: it shows her suckling a child.” The second view is the one that most people hold: the two dots are the breasts. In the modern form the figure has been turned and squared, so that 母 looks like a box, but the dots are still there, and the line through the middle is the old arms. The dictionary’s one-word definition is 牧也, “to tend, to pasture”: a pun on the sound, and also a thought. A mother is one who feeds and herds. Compare 毋, “do not”, which the Shuowen derives from 女 with one line across: a mark of stopping. The mother is a sound-part in 每, “each”, and through it in 海, the sea, which the Shuowen calls 天池也，以納百川者, “heaven’s pool, which takes in the hundred rivers”. In this book the mother is the Dao as that which feeds. Here she is [[the mother of the state|mu]].",
       "brush": "Five strokes. First a stroke that goes down, leaning a little to the left, and then turns sharply to run rightward: the left side and the floor. Second, a stroke that starts at the top, goes right, turns down, and ends in a hook to the left: the roof and the right side. The two make a leaning frame, a parallelogram and not a square. Third, a dot in the upper half. Fourth, the long horizontal, which crosses the whole frame and comes out on both sides. Fifth, a dot in the lower half. Watch the fourth stroke. It is the arms, and it must be long, level, and exactly between the dots. The lean of the frame gives the character life; written upright it is stiff. In cursive the two dots run together into one vertical line, and that form is close to how 毋 is written."
+    }
+  ],
+  "questions": [
+    {
+      "id": "finite-store",
+      "claim": "The body, a life, and a state each have a finite store, and sparing it is the root of long life.",
+      "prompts": [
+        "Do you agree? Where do you see it hold in your own body and days, and where not?",
+        "If you hold this view, where might it come from in your past: a time of want, an illness, a tired parent, a fear of running out? If you reject it, what made holding back look like a small way to live?",
+        "Look at your shadow here. Whom do you judge: the one who hoards strength, or the one who burns it? What might that judgment hide about you?",
+        "Now take the opposite view: the store grows when it is spent, and what is given out comes back. Hold it for a while as if it were yours. Notice the feelings and thoughts that arise, and do not correct them.",
+        "Which view sits with what you think, believe, or have lived, and which one clashes? Why might it be of value to know that, whichever is true?"
+      ]
+    },
+    {
+      "id": "ready-early",
+      "claim": "Readiness comes from what was put by early, before any need could be seen.",
+      "prompts": [
+        "Is this how you live, or do you do your best work late and under pressure?",
+        "What does last-minute strain give you: a thrill, a proof of worth, an excuse? When did it first serve you?",
+        "Hold the other side for a while: life cannot be prepared for, and those who store for tomorrow miss today. What does that view free in you, and what does it frighten?",
+        "Which side did the people around you live on when you were young? Have you copied them, or run from them?"
+      ]
     }
   ]
 }

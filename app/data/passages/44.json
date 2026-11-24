@@ -47,7 +47,7 @@
     "[[Gain or loss|de-wang]]: which is the [[sickness|bing]]?",
     "",
     "So: [[extreme love|ai]] must cost greatly;",
-    "[[much stored|cang]] must be heavily lost.",
+    "[[much stored|cang]] [[must be heavily lost|pair-gain-loss]].",
     "",
     "[[Know enough|zhizu]]: no [[disgrace|ru]].",
     "[[Know to stop|zhizhi]]: no [[danger|dai]].",
@@ -209,6 +209,11 @@
         "Mawangdui Laozi (collated reconstruction; not checked against silk A or B)",
         "Guodian Laozi A"
       ]
+    },
+    "pair-gain-loss": {
+      "kind": "pair",
+      "title": "得/亡: the store and the loss arrive together",
+      "body": "The passage asks about pairs and gives no answers: name or body, body or goods, [[getting 得 or losing 亡|de-wang]]. Then it shows how one side of the last pair makes the other. Much stored, 多藏, and heavy loss, 厚亡, are one event seen at two times; a person with no store cannot lose it. Extreme love and great cost are joined in the same way. So the text does not say that gain is bad and loss is good. It says that each is carried inside the other, and that 甚, “extreme”, is the point where the turn starts. The passage favors “enough” and “stop”. That is advice for those who have a name and a store, in courts where both were deadly. It turns as well: “enough” held as a rule is a new store, and a name for wanting little is still a name. What have you lost that left you with more?"
     }
   },
   "lenses": {
@@ -231,6 +236,38 @@
       "title": "A hand and a hoe",
       "lesson": "The top is 辰 and the bottom is 寸. Take the bottom first. 寸 is “inch”: the Shuowen explains it as the spot one inch back from the hand where the pulse moves, and analyses it as 又, a hand, with one mark. In compounds it usually means only “hand”: 守 (to guard), 封 (to raise a boundary mound), 得 (to get), which stands in this passage. Now the top. 辰 is today the fifth of the twelve branches and a word for a time or a star. The Shuowen calls it 農之時, the farmer’s season. Many modern scholars explain the old form as a farm tool, a hoe or a blade made from a large clam shell; the basis is the family of characters around it. 農, farming, has 辰 below. 蜃 is a great clam. 耨, to weed, has 辱 itself on the right. So 辱 is commonly explained as a hand that holds the hoe: to weed, to work the soil. How did it come to mean [[disgrace|ru]]? The Shuowen answers with its story of the late ploughman punished at the field’s edge. Others think the word “shame” only borrowed the graph for its sound. This is disputed; hold both. Its cousin 恥, shame, is glossed by the Shuowen with this character: 恥，辱也.",
       "brush": "Ten strokes: seven for 辰, three for 寸. 辰 begins with a horizontal, then a long stroke that falls to the left and makes a roof with it, like the cliff shape 厂. Under that roof come two more horizontals, the second one longer. The fifth stroke goes down and flicks up to the right. The sixth is a short stroke to the left, and the seventh is a long one that falls to the right; let it reach wide. Then 寸: a long horizontal, a vertical that ends in a hook to the left, and one dot. Watch the eighth stroke, the horizontal of 寸. It is the widest line in the character and it carries the whole upper part like a tray. The weight above is to the right, and the hook and dot below answer it on the left."
+    }
+  ],
+  "questions": [
+    {
+      "id": "name-or-body",
+      "claim": "Your body is nearer to you than your name, and counts for more than your goods.",
+      "prompts": [
+        "Answer the passage’s question honestly: on an ordinary day, which do you serve first?",
+        "When did you first learn that your name, your standing with others, could be lost? What did you start to do then?",
+        "Take the opposite: a good name outlasts the body, and some things are worth the body’s cost. What have you gladly spent yourself on?",
+        "Which side embarrasses you a little? Why might that be the one to look at?"
+      ]
+    },
+    {
+      "id": "love-costs",
+      "claim": "The more extreme the attachment, the greater the cost; the bigger the hoard, the heavier the loss.",
+      "prompts": [
+        "Do you agree, or does this sound like fear of loving anything fully?",
+        "What do you hold most tightly? Trace the grip back: what earlier loss does it remember?",
+        "Now hold the other view: only what you love without measure is worth having, and its cost is the proof. What feelings come?",
+        "Do you admire people who hold on or people who travel light? What do you say about the other kind when they are not present?"
+      ]
+    },
+    {
+      "id": "enough-lasts",
+      "claim": "A person who knows what is enough, and when to stop, meets no disgrace and can last.",
+      "prompts": [
+        "Has stopping in time ever protected you? Has it ever cost you something that you still want?",
+        "How do you know that you have had enough: of work, of food, of praise? Is the signal in the body or in a rule?",
+        "Suppose the opposite: those who do not say “enough” are the ones who change things, and to last long is not the highest aim. Stay with that. What stirs?",
+        "Which do you fear more, going too far or stopping too soon? Where does that fear come from?"
+      ]
     }
   ]
 }

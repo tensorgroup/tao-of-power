@@ -61,7 +61,7 @@
     "So the [[sage|shengren]]",
     "[[knows the self|zizhi]] and does not [[show the self|zixian]];",
     "[[cares for the self|ziai]] and does not [[set a high price on the self|zigui]];",
-    "and so [[leaves that, takes this|qubi]]."
+    "and so [[leaves that|qubi]], [[takes this|bi-ci-pair]]."
   ],
   "notes": {
     "wei": {
@@ -200,6 +200,11 @@
       "kind": "practice",
       "title": "Where do I press?",
       "body": "Each person has some small realm: a household, a team, a class, a child. Today, look for the two acts that the passage forbids. To cramp the dwelling: do I enter another person’s space, time, or attention as I please? A child’s room, a colleague’s evening, a partner’s silence? To press on the living: do I load people with more than their means, in work, in demands, in my moods? Look for the sign that the passage names, which is 厭, the loathing that answers pressure. It is quiet at first: a slow reply, eyes that go down. Then turn to the last lines. When I press, is it because I am [[showing myself|zixian]] to someone? Choose one pressure and take it off for a day. Tell no one that you did."
+    },
+    "bi-ci-pair": {
+      "kind": "pair",
+      "title": "彼 and 此: twins, not strangers",
+      "body": "The passage ends on a pair, that and this (彼, 此), and it fills each side with two things: self-showing and self-pricing there; self-knowing and self-caring here. Look at how near the two sides are. All four begin with 自, the self. To know the self and to show the self share [[one graph for seeing|zixian]]. To care for the self and to set a price on it are both forms of regard. “That” is not a foreign vice. It is “this”, turned outward for an audience. The opening has the same shape: the people’s fear and the ruler’s fearsomeness are [[one word|weiwei]], and when the small fear runs out the great dread arrives. The text does choose, and the choice answers [[an age of rising titles|zigui]]. It also turns. Self-knowledge that is spoken of with pride has become display. Self-care that counts its own worth has become a price. Where is the line in you today?"
     }
   },
   "lenses": {
@@ -228,6 +233,38 @@
       "title": "Dog meat under a cliff",
       "lesson": "This character is a stack of four small pictures. Take the inside first: 猒. Its right side is 犬, a dog. Its lower left, written like 月, is 肉, meat. The Shuowen joins these two as 肰 and defines it: 犬肉也, “dog meat”, a common food of the time. The same pair, with fire beneath, is 然, “to burn”, the second half of 自然. The upper left of 猒 the Shuowen gives as 甘, “sweet, good to eat”, a mouth with something in it. Together: 猒，飽也, “to have eaten one’s fill”. The first idea is a pleasant one, a full stomach after good meat. But fullness turns. One who has had enough has soon had too much, and so the word came to mean “to be sick of, to loathe”. Now put 厂 over it. The Shuowen says 厂 is a cliff with an overhang, under which people can live. With the cliff on top, the Shuowen defines 厭 as 笮也, “to press down”. Later writers divided the senses among new graphs: 壓, with earth, to press; 饜, with food, to be sated; and 魘, with a ghost, a nightmare, the ghost that presses on a sleeper. In this passage one graph does [[two jobs in four characters|ya]]: the weight that comes down, and the disgust that comes up.",
       "brush": "Fourteen strokes. The cliff first: a horizontal across the top, then a long stroke that falls from its left end to the lower left. Under this roof, the left column: a small box in four strokes (left side; top and right side; a short line inside; the base), and under it the meat in four strokes (a left side that curves out a little; the top and right side with a hook; a short line inside; a second short line under it). Then the dog at the right: a horizontal; a long stroke that falls to the left through it; a long stroke to the right; and last the dot at the upper right. Watch the proportions. The long left stroke of the cliff must lean well out, so that all three inner parts fit under it. The dog’s last sweep runs out from under the cliff to the right, and the character is open on that side."
+    }
+  ],
+  "questions": [
+    {
+      "id": "fear-runs-out",
+      "claim": "Rule by fear lasts until the fear runs out, and then something worse arrives.",
+      "prompts": [
+        "Have you seen this in a family, a workplace, or a country? What arrived when the fear ended?",
+        "Where do you rule by a kind of fear, over others or over your own body? Who ruled you that way?",
+        "Take the opposite view: with no fear of consequences, people and habits run loose. How much do you believe that?",
+        "What in you stopped fearing some time ago? Did you notice when it happened?"
+      ]
+    },
+    {
+      "id": "know-not-show",
+      "claim": "It is enough to know and care for oneself, with no need to be seen or highly priced.",
+      "prompts": [
+        "Is it enough for you? In what room is it hardest?",
+        "When did you first learn that you had to be seen in order to count?",
+        "Hold the other side: a self that is not shown is not shared, and to ask a fair price is self-respect. What is true in that?",
+        "What do you think of people who display themselves? Is any part of that judgment a wish?"
+      ]
+    },
+    {
+      "id": "press-loathe",
+      "claim": "People come to loathe what presses on them; where nothing presses, nothing is loathed.",
+      "prompts": [
+        "What presses on you at present, and what do you feel toward it?",
+        "Whom do you press: a child, a colleague, your own body? Would they say so?",
+        "Take the opposite: pressure is how people grow, and those who are not pressed stay small. Which pressures in your past do you thank?",
+        "How do you tell the pressure that forms a person from the pressure that makes a person turn away?"
+      ]
     }
   ]
 }

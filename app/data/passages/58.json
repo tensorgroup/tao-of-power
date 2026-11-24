@@ -87,7 +87,7 @@
     "the people are [[chipped and lacking|que-que]].",
     "",
     "[[Disaster|huo-fu]], ah: good fortune leans on it.",
-    "Good fortune, ah: disaster [[crouches in it|yi-fu]].",
+    "[[Good fortune|pair-fortune]], ah: disaster [[crouches in it|yi-fu]].",
     "Who knows [[where it ends|ji]]?",
     "[[There is no straight.|wu-zheng]]",
     "The straight [[turns back|fu-return]] into the strange.",
@@ -264,12 +264,17 @@
       "kind": "practice",
       "title": "The old man’s question",
       "body": "For one day, use the question of the [[old man at the frontier|saiweng]]. When a thing happens that you call bad, a delay, a refusal, a loss, do not correct the judgment. Add a question after it: how do I know? Do the same when a thing happens that you call good. The point is not to pretend that pain is pleasant or to stop caring about results. It is to notice how fast the verdict comes, and how little the verdict knows. Then try one of the four last lines in a conversation where you are right. Be [[square|fang]]: hold your shape. And watch the edge: does it cut? If you see the other person flinch, you have found your 割."
+    },
+    "pair-fortune": {
+      "kind": "pair",
+      "title": "禍 / 福: each inside the other",
+      "body": "The passage is made of pairs: 悶悶 and 察察, dull rule and sharp rule; 禍 and 福, disaster and good fortune; 正 and 奇, straight and strange; 善 and 妖, good and uncanny. The middle pair shows how to read the others. Its two lines are a mirror: each side is the place where the other [[leans or crouches|yi-fu]]. Neither comes first. The comfort and the warning have the same weight, and a reading that keeps the comfort alone has cut the pair in half. The first stanza does favour one side, the dull rule over the sharp. Read it by the middle lines. The favour is a correction to states that watched too much. It is not a fixed law, for the text says next that there is [[no fixed straight|wu-zheng]]. Dull rule turns too: it can go round into neglect. The four last lines then show a person who holds both sides: a shape, and no cut."
     }
   },
   "lenses": {
     "ground": "Three parts that seem at first to be three subjects. Part one is politics, in four [[doubled words|sound]]: a [[muffled|men-men]] rule and a whole people; a [[sharp-eyed|cha-cha]] rule and a [[chipped|que-que]] people. Part two is fortune: [[disaster and blessing|huo-fu]] each [[hold the other|yi-fu]]; nobody knows the [[last turn|ji]]; the straight turns strange and the good turns [[uncanny|yao]]; people have long been [[lost|mi]]. Part three is four lines on form: [[square|fang]], [[cornered|lian]], straight, bright, each with a “but does not”. The link is the short line in the middle, [[其無正|wu-zheng]]. Since no fixed “correct” holds, a rule that enforces the correct breaks its people, and a person who has a shape must take care that the shape does not cut. The passage is the second half of passage 57, and shares its key words: 正, 奇, 民.",
     "inner": "The two lines on fortune are often read as comfort: bad luck holds good luck. They are that. They are also a caution of the same weight: your good fortune has something [[crouched in it|yi-fu]]. Taken together, they loosen the habit that runs most of a day, the instant sorting of each event into “for me” and “against me”. The text does not say that the sorting is wrong. It asks who knows the [[end|ji]]. The mind that stops insisting on the verdict becomes a little [[悶悶|men-men]], less sharp, less sure, and in the terms of the first stanza, more whole. The same holds for the idea of oneself as good. 善復為妖: goodness that is held up and watched goes strange. The four last lines describe a character without that self-watching: it has form, and it does not use the form on anyone.",
-    "leading": "The first stanza is a finding about measurement. A leader who inspects everything, who sets a metric for every act, gets people who are 缺缺: each one reduced to what is checked, and skilled at the gaps between the checks. A leader whose rule looks vague from outside may be the one whose people are 淳淳. This is not a defence of neglect. [[Wang Bi|wu-zheng]] says the muffled rule ends in “great order”; the test is the people and not the look of the office. The middle lines warn reformers. Each [[correction|fu-return]] becomes the next abuse, and each published virtue the next [[freak|yao]]. Do not give up on standards for that reason. Hold them as the last four lines say: [[square and not cutting|fang]]. And [[hold the lamp|guang]] so that a lost person can see the road. Do not point it into the person’s face.",
+    "leading": "The first stanza is a finding about measurement. A leader who inspects everything, who sets a metric for every act, gets people who are 缺缺: each one reduced to what is checked, and skilled at the gaps between the checks. A leader whose rule looks vague from outside may be the one whose people are 淳淳. This is not a defence of neglect. [[Wang Bi|wu-zheng]] says the muffled rule ends in “great order”; the test is the people and not the look of the office. The middle lines warn reformers. A [[correction|fu-return]] can become the next abuse, and a published virtue the next [[freak|yao]]. Do not give up on standards for that reason. Hold them as the last four lines say: [[square and not cutting|fang]]. And [[hold the lamp|guang]] so that a lost person can see the road. Do not point it into the person’s face.",
     "body": "The four last lines are good instructions for posture and for touch. Square: the frame is aligned, hips and shoulders level, and yet nothing in it is rigid enough to hurt on contact. Cornered: the angles of the joints are exact, and their edges are padded with softness. Straight: the spine is long, and it does not strain upward past ease; that is 不肆. Bright: the eyes are awake, and they do not stare. In partner work the same four hold. A teacher’s correcting hand should have a clear shape and no cut in it. Timing belongs to the middle lines: strength at its fullest is where the fall [[lies in wait|yi-fu]], and the low point of a movement is where the rise leans. A fighter who loves the winning position is already in the next one.",
     "nature": "A river in flood is disaster to this year’s field and the source of next year’s soil; the Yellow River built the plain that it drowns. A fire clears a wood and opens the seeds that only heat can open. A fat year breeds the many mouths of a hungry one. Living systems do not have a “correct” state that stays. They have turning, 復, and what is called health is an ability to keep turning. The last four lines read well as a description of a mature landscape: old mountains are still [[mountains|fang]], and their edges are worn so that things can live on them. Light at noon in the desert kills, and under leaves it feeds. 光而不燿 is the light of a forest floor.",
     "practice": "Use [[the old man’s question|practice]] for one day: how do I know? Then look at one place where you are in charge of others, even slightly, and ask which of the two governments you run there. Count your acts of checking in a day. Remove one. Do not announce the change, and give it a week before you judge it. See if the people there become, by a small degree, less [[chipped|que-que]]. Then ask the old man’s question about that result as well."
@@ -293,6 +298,38 @@
       "title": "The edge of the hall",
       "lesson": "The cover of this character is 广 (yǎn), a building seen from the side with one wall open; it marks halls and sheds, as in 庫 (armoury), 府 (office, treasury), 廟 (ancestral temple), and 庭 (courtyard). Under it is 兼, which gives the sound. 兼 is worth a look in itself: the Shuowen says 从又持秝, “a hand that holds two stalks of grain”, and so “to hold two at once, to combine” (it has a plate in passage 61). The Shuowen puts 廉 among the buildings and explains it as the side or edge. In the ritual books it is the sharp border of the platform on which a hall stands, the line where the floor ends and the drop begins. Guests of different rank stood nearer to it or farther from it. The meaning then moved from stone to character, as English moved “upright” and “square” from carpentry to persons. A 廉 person has a clean edge: takes nothing over the line. In the Han, men were recommended for office as 孝廉, “filial and incorrupt”. The passage adds the craftsman’s warning: an edge that is exact [[need not cut|lian]]. Its phrase is also said of jade.",
       "brush": "Thirteen strokes. The building, three: a dot on top; a horizontal; a long stroke that falls away to the left and makes the open wall. Then 兼 beneath, ten: two short strokes at the top that lean toward each other; a horizontal; a horizontal that turns down at the right; two more horizontals, the upper one longer, across the whole of 兼; then two verticals that pass down through all the horizontals; and last a stroke that falls to the left and one that falls to the right, like two feet. Watch the two long verticals, strokes ten and eleven. They are the two stalks of grain, and they must be parallel and evenly spaced, with the horizontals tied across them like a hand. The left-falling wall of 广 must be long enough to shelter the whole of 兼 and must not touch it."
+    }
+  ],
+  "questions": [
+    {
+      "id": "fortune-turns",
+      "claim": "Disaster carries good fortune in it, good fortune carries disaster, and nobody knows where the turning ends.",
+      "prompts": [
+        "Does your life bear this out? Name one loss that opened something, and one gain that cost you.",
+        "How fast do you sort an event into good or bad? Who taught you to be sure so quickly?",
+        "Take the opposite and hold it: some things are simply bad, some are simply good, and to blur them is a way to avoid grief or joy. What rises in you as you hold it?",
+        "Is there a loss that you would refuse to call anything but a loss? Stay near that refusal for a moment. What does it guard?"
+      ]
+    },
+    {
+      "id": "sharp-rule-chips",
+      "claim": "Close watching makes people smaller, and a looser hand leaves them whole.",
+      "prompts": [
+        "Have you found this, as the one who watches and as the one who was watched?",
+        "Were you watched closely as a child, or left alone? What did that do to you, and what did you decide about it?",
+        "Now argue for the sharp eye: what is not checked is not done, and vague rule is neglect with a kind face. Hold it as true. Which part of you agrees at once?",
+        "Which side do you live by, and which do you criticise in others? Are they the same side?"
+      ]
+    },
+    {
+      "id": "square-not-cut",
+      "claim": "A person can have a firm shape and not use it to cut others.",
+      "prompts": [
+        "Do you think this is possible, or does every edge cut someone?",
+        "Recall a time when your being right wounded a person. What did you want in that moment?",
+        "Take the other view: to hold back the edge is dishonest, and truth has to cut. Stay with it. What do you feel?",
+        "Which have you been more often: sharp, or shapeless? What would the other one have cost you?"
+      ]
     }
   ]
 }

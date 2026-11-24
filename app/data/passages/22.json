@@ -72,7 +72,7 @@
     "[[Hollow, then full.|wa]]",
     "[[Worn, then new.|xin]]",
     "[[Few, then gain.|de]]",
-    "Many, then bewildered.",
+    "[[Many, then bewildered.|ze]]",
     "",
     "So [[the sage|shengren]] [[holds the One in the arms|bao-yi]]",
     "and is [[the measure|shi]] for all under heaven.",
@@ -121,7 +121,7 @@
     "wa": {
       "kind": "etymology",
       "title": "窪: the dip in the ground",
-      "body": "窪 is a low place in the land. Its top is 穴, a cave or pit, and under it is the water word 洼, which the Shuowen defines 深池也, “a deep pool”. After rain, every dip in a field has water in it and every rise is dry. The line is a fact of drainage before it is a moral. 盈 is the brim-fullness of passage 15, where the one who keeps the Way does not wish for it. Here it comes unasked, to the place that is lowest. The book returns to this ground often. Water is good because it stays in the places that people dislike (8). The great state should be like the low reach of a river (61). Rivers and seas are kings of the hundred valleys because they are good at being below them (66). In a meeting or a family, who is the low place where things collect?",
+      "body": "窪 is a low place in the land. Its top is 穴, a cave or pit, and under it is the water word 洼, which the Shuowen defines 深池也, “a deep pool”. After rain, every dip in a field has water in it and every rise is dry. The line is a fact of drainage before it is a moral. 盈 is the brim-fullness of passage 15, where the one who keeps the Way does not wish for it. Here it comes unasked, to the place that is lowest. The book returns to this ground often. Water is good because it stays in the places that people dislike (8). The great state is the low reach of a river (61). Rivers and seas are kings of the hundred valleys because they are good at being below them (66). In a meeting or a family, who is the low place where things collect?",
       "src": [
         "Shuowen Jiezi, 水部: 洼，深池也。从水圭聲。"
       ]
@@ -229,6 +229,11 @@
       "kind": "practice",
       "title": "Bend once on purpose",
       "body": "Today, in one exchange where you are sure that you are right, bend. Do not pretend to agree. Only decline to pull: do not [[show|zi]], justify, list what you have done, or wait to be admired. Say what you see once, plainly, and stop. Then watch what the other person does when there is nothing to pull against. Often their own position, with no opponent, straightens or falls of itself. Feel also what it costs in the body: a heat in the chest, a wish to add one more sentence. That wish is the 自 of the four lines. In the evening, ask whether you came out of the exchange more [[whole|quan]] or less. The saying is a claim that can be tested. It was a proverb long before it was scripture, and proverbs are kept because they work."
+    },
+    "ze": {
+      "kind": "pair",
+      "title": "則: the hinge turns both ways",
+      "body": "Six pairs stand in six lines: 曲 and 全, 枉 and 直, 窪 and 盈, 敝 and 新, 少 and 得, 多 and 惑. The Chinese joins each with 則, “then”. It does not say “better than”, and it does not say “in order to”. Five lines begin on the low side and reach the high one. The sixth goes the other way: much, then bewildered. So the list is not a rule that the low side wins. It is 反者道之動 (passage 40): turning back is how Dao moves. The passage does lean to the low side, and the reason is plain. Most people reach for the whole, the straight, and the full at once, and the old saying corrects that reach. The whole and the full are not blamed; they are what arrives. And they turn in their time, as the sixth line shows. One who bends as a trick, to win later, has kept one half of the pair. Where are you now on the curve: filling, or full?"
     }
   },
   "lenses": {
@@ -236,7 +241,7 @@
     "inner": "The four 自 lines are a precise list of what the self does all day: it shows itself, it holds itself right, it praises itself, it admires itself. Contemplatives of every tradition have made such lists. The Laozi’s point is less moral than most. It does not say that the self is bad. It says that these four acts take what is whole and make it [[many|de]], and that with many comes bewilderment. To [[hold the One|bao-yi]] is the same instruction from the other side: arms that are full of one thing cannot pick up four others. Note the first saying again in this light. To be [[bent|qu]] is to have given up the straight line of one’s own will, and what follows is not loss. It is [[全|quan]], nothing missing. When you stop holding yourself right, what is it that is suddenly intact?",
     "leading": "This is leadership by standing as [[a measure|shi]] and not by pushing. The four lines are practical. A leader who displays is watched less closely than one who does not, since people look hardest for what is not shown to them. One who is always right teaches others to stop reporting facts. One who [[claims the credit|fa]] finds that there is less of it each year; in passage 17 the people said, “we did it ourselves”. One who is proud does not last. The strategists knew [[the military form of the first line|quan]]: give ground, keep the force whole. And [[不爭|buzheng]] is not weakness in a negotiator. The person with no position to defend for its own sake cannot be cornered. A caution from [[Mencius|wang]] belongs here too: to bend oneself for advantage is a trade, and the text does not offer a trade.",
     "body": "Every martial art of China teaches the first line with the spine and the knees. A straight, locked limb breaks; a bent one stores force, like a drawn bow. In push-hands, when a partner pushes, you do not push back and you do not collapse: you curve, the force goes past, and you are still on your feet, [[whole|qu]]. The teachers call it 捨己從人, “give up yourself and follow the other”, which is [[不爭|buzheng]] as a skill of the joints. The [[hollow|wa]] is the chest that sinks so that the breath can fill the belly. And [[to hold the One|bao-yi]] is a posture known to every student of standing practice: the arms rounded in front of the chest as if around a tree or a large ball. Stand like that for two minutes. What do the arms learn that a list of four virtues cannot teach?",
-    "nature": "Grass bends in a gale and the oak comes down. A river keeps no straight course and so arrives at the sea. The [[dip in the field|wa]] holds the pond, and the pond holds the frogs. A forest burns, and the [[worn-out|xin]] wood becomes ash for seedlings; the graph for “new” has an axe in it. The [[inchworm|wang]] draws itself into a hoop in order to go forward. None of these is a strategy. The grass does not bend to win. That is the difference between the old proverb and a clever reading of it: in nature the bending and the wholeness are one event, and not a price and a reward. Even the first word says so. [[曲|qu]], in the dictionary’s picture, is a vessel that is curved so that it can hold. A straight line holds nothing.",
+    "nature": "Grass bends in a gale and the oak comes down. A river keeps no straight course and so arrives at the sea. The [[dip in the field|wa]] holds the pond, and the pond holds the frogs. A forest burns, and the [[worn-out|xin]] wood becomes ash for seedlings; the graph for “new” has an axe in it. The [[inchworm|wang]] draws itself into a hoop in order to go forward. None of these is a strategy. The grass does not bend to win. That is the difference between the old proverb and a clever reading of it: in nature the bending and the wholeness are one event, and not a price and a reward. Even the first word says so. [[曲|qu]], in the dictionary’s picture, is a vessel that is curved so that it can hold. The straight is in the list as well: it is what the crooked becomes.",
     "practice": "Try the [[one deliberate bend|practice]] today. Then take the saying that fits your season. If you are being forced to give way, [[曲則全|qu]]: ask what stays whole if you do. If you have been wronged, [[枉則直|wang]]: ask whether you need to be straightened today. If you feel empty, [[窪則盈|wa]]: a low place is where things collect. If you are worn out, [[敝則新|xin]]. If you are bewildered, count how [[many|de]] things you are holding, and put down all but one. The ancients, the text says, did not speak empty words. For the close of the passage and its three ways home, read [[the note on the last six characters|gui]]. For a Victorian sermon made out of four mechanical facts, read [[Legge|legge]]."
   },
   "glyph": "曲",
@@ -252,6 +257,38 @@
       "title": "A man with a halberd",
       "lesson": "Left: 亻, a person. Right: 戈, the dagger-axe, the standard weapon of the Bronze Age in China. It was a blade set at a right angle on a long shaft, used to hook and slash from a chariot. The character still shows it: the long slanted stroke is the shaft, the level stroke is the blade, and the small strokes are the tassel and the butt. The Shuowen reads the pair simply: 从人持戈, “a person who holds a halberd”, and defines it 擊也, “to strike”. In many oracle-bone forms, as scholars commonly describe them, the blade lies across the person’s neck: a beheading. The word’s first use is war: 征伐, a punitive campaign; a lord 伐 a neighbour state with drums. Then to cut down: 伐木 is to fell trees, and the Book of Odes has a song of that name with the sound of the axe in it. Then, by a turn that tells you something about boasting, “to brag of one’s deeds”: [[自伐|fa]], to make a campaign of oneself. See 戈 in other graphs: 戰 (battle), 戒 (to guard: two hands on a halberd), 武 (martial), 我 (I: at first a toothed axe), and 國, a state, which has a halberd inside its wall. The passage says: not self-praising, and so there is merit. In the graph the merit and the weapon are still one thing. The line asks you to put the second down.",
       "brush": "Six strokes: two and four. The person: a stroke that falls to the left, and a vertical from under its middle. Then the halberd. A level stroke that rises a little to the right: the blade. Then the fourth stroke, which you should watch: the long slanted hook. It starts high, above the blade, crosses it, sweeps down to the lower right in a slow curve, and ends in a hook that flicks straight up. It is the longest stroke and it gives the character its lean; calligraphers say it must be like a bow at full draw, bent and strong. The fifth stroke falls to the left across the lower shaft. The sixth is a dot at the upper right, placed high, which balances the hook below. The person stands close and upright, a little short, so that the weapon reaches over the head."
+    }
+  ],
+  "questions": [
+    {
+      "id": "bent-whole",
+      "claim": "What bends stays whole; to yield is how a thing comes through intact.",
+      "prompts": [
+        "Is that your experience? Recall one time when you gave way and stayed whole, and one when you gave way and lost yourself.",
+        "What did bending mean where you grew up: wisdom, weakness, survival?",
+        "Take the side of the straight: some things must not bend, and a person who yields each time has no shape. Hold that view. What in you stands up?",
+        "How do you tell a bend from a collapse in your own body? Why does the difference matter to you now?"
+      ]
+    },
+    {
+      "id": "no-self-show",
+      "claim": "The one who does not display, justify, or praise the self is the one who is seen and lasts.",
+      "prompts": [
+        "Do you believe that? Or have you seen that the ones who show themselves get the place?",
+        "When did you first learn to speak up for yourself, or to keep silent? What was the price of each?",
+        "Hold the opposite: if you do not show your work, no one will, and silence is a kind of pride. What feelings does that bring?",
+        "What do you feel toward people who promote themselves with ease? What might they carry for you?"
+      ]
+    },
+    {
+      "id": "few-many",
+      "claim": "With few things there is gain; with many there is confusion.",
+      "prompts": [
+        "Does more confuse you, or feed you? Look at your shelves, your plans, your days.",
+        "What does the wish for more stand in for? When was there too little?",
+        "Take the other side: plenty is life, and to hold few things is fear dressed as wisdom. Stay with it. What do you notice?",
+        "Which side would those who know you best say that you live on?"
+      ]
     }
   ]
 }

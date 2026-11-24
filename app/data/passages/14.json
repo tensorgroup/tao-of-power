@@ -66,7 +66,7 @@
     "[[the image of no thing|xiang]].",
     "This is called [[dim and flickering|huhuang]].",
     "",
-    "Go to meet it: its head is not seen.",
+    "[[Go to meet it|ying-sui]]: its head is not seen.",
     "Follow it: its back is not seen.",
     "[[Hold the way of old|zhigu]]",
     "to [[drive|yu]] [[what there is now|you]].",
@@ -228,6 +228,11 @@
       "kind": "practice",
       "title": "Let three senses fail",
       "body": "Sit where it is quiet. First the eyes: look at a plain wall or the open sky, with no point to rest on. Stay until the looking has no object. That evenness is 夷. Then the ears: listen for the faintest sound in the room, and then for what is between the sounds. That thinness is 希. Then the hand: rub thumb and finger together more and more lightly, until you cannot say if they touch. That fineness is 微. Do not look for a result. The passage says the three [[are one|hun]], and that they do not answer [[questions|jie]]. Give it two minutes. Then stand up and take hold of the first thing you must do today, in the way that a driver takes up [[the reins|yu]]."
+    },
+    "ying-sui": {
+      "kind": "pair",
+      "title": "Pairs with no line between them",
+      "body": "This passage names five pairs. It uses four of them to say what is absent: 上 and 下, above and below; 皦 and 昧, bright and dark; 首 and 後, head and back; 迎 and 隨, to meet and to follow. In things, each side of such a pair marks off the other: a top is bright because an underside is dark, and a front is a front because there is a back. Here the top is not bright and the underside is not dark, so there is no line where one side stops and the other starts. The fifth pair is 古 and 今, old and now, and the text treats it otherwise. It keeps both sides and gives each a verb: the old is held, and the now is driven. A reader who takes one side hears “the old is better”, or, with [[the reported silk reading|zhigu]], “the now is all that counts”. But reins with no team move nothing, and a team with no reins has no driver. Which of the two do your hands neglect?"
     }
   },
   "lenses": {
@@ -251,6 +256,28 @@
       "title": "The driver’s hands",
       "lesson": "Three parts, set side by side. At the left is 彳, a step or a road; it is the left half of 行, which first pictured a crossroads. You saw it in [[微|wei]], “to walk unseen”, and it is in 往 (to go), 徐 (to walk slowly), 復 (to return), and 德, the inner power of this book’s title. The middle and the right, taken together, are 卸. The Shuowen defines 卸 as 舍車解馬也: “to leave the car and loose the horses”, to unharness. It still means “to unload”. So for the Shuowen, 御 is the whole work of the road: to harness, to drive, to unharness; its definition is 使馬也, “to make the horses go”. The oracle-bone form is debated; some see a kneeling person, the 卩 at the right, with a rope or a whip. Another old way to write the word needs no debate: 馭, a horse 馬 and a hand 又. Now see how the word rose. The one who drove the king’s car stood beside the king. So 御 came to mean “to attend the ruler”, then “of the ruler”: an imperial thing was 御. Japanese still puts it before a word as a mark of respect. The Zhuangzi gave it wings: the sage Liezi 御風而行, “drove the wind and went”. In this passage the team is [[what there is now|you]].",
       "brush": "Twelve strokes, in three columns: three, seven, two. The road first: a short stroke that falls to the left, a longer one under it, then a vertical. The middle column is the busy one. A falling stroke, two level strokes, and a vertical through them: this top looks like 午. Below it come a short level tick, a short vertical, and a base line that rises to the right, toward the last part. Then 卩: one stroke that goes right, turns down, and hooks back; and the twelfth stroke, a long vertical, the tallest line in the character. Watch that last one. A good hand lets it fall well below the rest, like a whip held down, or a driver who stands. The middle must stay narrow, or the three columns pull apart; calligraphers say that such a character must “give way” inside, each part with less room than it would take alone."
+    }
+  ],
+  "questions": [
+    {
+      "id": "old-thread",
+      "claim": "To handle what is here now, take hold of the way of old and find where the matter began.",
+      "prompts": [
+        "Do you agree that the beginning of a thing is the place to take hold of it? Name one case where that worked, or failed.",
+        "How do you stand toward the old: do you lean on it, or push away from it? Whose voice do you hear in that?",
+        "Try the reverse, which the silk copies are reported to give: hold the way of now, and let the past go. What loosens in you, and what protests?",
+        "What does your preference for old or new protect you from having to face?"
+      ]
+    },
+    {
+      "id": "not-graspable",
+      "claim": "What matters most cannot be seen, heard, or held, and no questioning brings it to an account.",
+      "prompts": [
+        "Do you believe that? Or do you hold that what is real can, in the end, be measured and named?",
+        "Recall a time when you could not name a thing and it frightened you, or a time when it was a relief. What made the difference?",
+        "Now take the other side fully: what cannot be shown or tested is not there. Stay with that for a while. What feelings come, and what do you lose or gain?",
+        "Which side do you look down on in other people, and what might that side know?"
+      ]
     }
   ]
 }

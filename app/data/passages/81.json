@@ -81,7 +81,7 @@
     "",
     "[[The sage|sheng]] does not [[pile up|ji]].",
     "[[Having already worked for others|ji-yi]], has [[still more|yu]];",
-    "having already given to others, [[has more again|wb-give]].",
+    "[[having already given to others|give-have]], [[has more again|wb-give]].",
     "",
     "The way of heaven",
     "[[benefits and does not harm|li]].",
@@ -244,16 +244,53 @@
       "kind": "practice",
       "title": "One plain sentence",
       "body": "Today, before you send a message that matters, do the test of the first line. Read what you wrote and mark every phrase that is there to please, to impress, or to protect you. Then ask of what remains: will I stand beside this? That is 信, the person next to the word. Send the short version. Later in the day, when someone says a thing that you think is wrong, try the third line once. Do not argue. Say what you know in one sentence, without the case for it, and stop. Notice the discomfort; the urge to add a second sentence is 辯, the litigant in you. And once, give something away to the end: finish the good coffee on a guest, give the whole afternoon. See whether “has still more” is true in any sense that you can feel."
+    },
+    "give-have": {
+      "kind": "pair",
+      "title": "與 and 有, 人 and 己: to give and to have",
+      "body": "The second movement rests on two pairs: 與 and 有, to give and to have, and 人 and 己, others and self. Common sense makes them a scale: what goes to others leaves me. The lines join them the other way. Having given, one has more. The text does not rank self below others, and it does not say that having is bad; the words that end the two lines are 有 and 多, “has” and “much”. Giving needs a holder and a thing held, and [[the bellows|yu]] gives only because air comes in again. The passage does favor the open hand over [[the heap|ji]]. That corrects a world that measures a person by the store. It is not a rule to empty oneself. The favored side also turns: giving that keeps count is piling up by another road, and a giver who cannot receive leaves others no room to give. Where do you stand in that circle today?"
     }
   },
   "lenses": {
     "ground": "The passage has three movements and no images from nature at all; it is the plainest page in the book. First, [[three mirror pairs|form]] about speech and knowledge: words [[to trust|xin]] against [[beautiful|mei]] words, the good against those who [[argue|bian]], those who know against the [[widely learned|bo]]. Second, three lines on having: the sage does not [[pile up|ji]]; [[having already worked for others|ji-yi]], has [[still more|yu]]; having given, has more again. Third, two last lines that set two ways side by side: heaven’s way [[benefits and does not harm|li]]; [[the sage’s way|sheng-dao]] acts and [[does not contend|bu-zheng]]. Inside the characters there is more to see: a person beside a word, two litigants with speech between them, a heap of grain, a blade that does not cut, and two hands that pull at one thing. In the received order this is [[the last page|last-page]].",
     "inner": "The six opening lines are a mirror for the reader who has come to the end of a wise book. By now you have collected many fine sayings. You may be able to argue for them, and you know a good deal about the text. The passage looks at exactly these three gains, beauty, argument, and breadth, and says that none of them is the thing. What is left? [[Wang Bi’s three small notes|wb-one]] point to it: the plain stuff, the uncarved wood, the One. Then the lines on giving describe what a person is like who lives from there: nothing is stored up, [[not even insight|ji]]. An insight that is kept as a possession goes stale. Used for others, it [[comes back larger|yu]]. The last two words give the test for all of it: is there any pulling in this?",
-    "leading": "The passage gives a leader three warnings and one rule. Distrust the polished report and the polished speaker; [[the words to rely on|xin]] are often clumsy. Notice who wins by argument in your meetings, because [[skill in argument|bian]] and being right are different gifts, and the age that prized debaters most was [[an age of ruin|debaters]]. Prefer the person who knows the work to the bottom over the one with [[a wide view of everything|bo]]. Then the rule: do not pile up. A leader has stores of several kinds: information, credit, access, the pleasant tasks. Each of them grows when it is given away and spoils when it is held. The closing pair gives the standard for every act of leading: it should benefit and not harm, and it should be done [[without a contest|bu-zheng]]. The collated silk text says that this is [[simply the human way|sheng-dao]].",
+    "leading": "The passage gives a leader three warnings and one rule. Distrust the polished report and the polished speaker; [[the words to rely on|xin]] are often clumsy. Notice who wins by argument in your meetings, because [[skill in argument|bian]] and being right are different gifts, and the age that prized debaters most was [[an age of ruin|debaters]]. Prefer the person who knows the work to the bottom over the one with [[a wide view of everything|bo]]. Then the rule: do not pile up. A leader has stores of several kinds: information, credit, access, the pleasant tasks. Each of them can grow when it is given away, and it often spoils when it is held. The closing pair gives the standard for every act of leading: it should benefit and not harm, and it should be done [[without a contest|bu-zheng]]. The collated silk text says that this is [[simply the human way|sheng-dao]].",
     "body": "不爭 is a state of the body before it is a policy. [[爭|bu-zheng]] is two hands on one thing, each pulling. You can feel it without any opponent: one muscle pulls against another, the will pulls against the breath, the shoulders pull up while the mind says “relax”. Most effort that tires us is this inner tug. 為而不爭, to act and not contend, is movement in which nothing pulls against anything else: the push comes from the ground, passes through loose joints, and leaves through the hand. The lines on giving fit the breath. Lungs do not pile up. The out-breath that empties them fully is what lets the next breath come in by itself, and [[the bellows of passage 5|yu]] says the same. Breathe out to the end, once, and wait.",
     "nature": "The plainest words in the passage describe what the living world does every day. Nothing in a forest piles up for long. A tree that holds its leaves through winter in a cold country is broken by snow; the tree that gives them all to the ground is fed by them in spring. 既以與人，己愈多: having given, it has more. The sun is the largest case: it [[benefits and does not harm|li]], and it gives without a store that we can see the bottom of. A river that is dammed turns stale and fills with silt, and a river that runs stays itself. The granary is the human invention that set us apart from this, and the state grew from the granary. The passage does not ask us to burn the granary. It says that the sage does not live as one.",
     "practice": "As the last practice of the book, take one line from each movement. From the first: write or say [[one plain sentence|plain]] that you will stand beside, and let it be less handsome than you could make it. From the second: give one thing away completely, to the end, and do not replace it at once. Stay with the empty place for a day. From the third: do one piece of work today with no opponent in it at all, no rival, no deadline to beat, no earlier self to surpass. Act, and do not contend. Then close the book, as the passage itself advises: [[its words are fine|mei]], and fine words are not the point. If you open it again tomorrow, open it [[where the oldest copies begin|last-page]], or anywhere."
   },
+  "questions": [
+    {
+      "id": "plain-trust",
+      "claim": "Words that can be trusted are not beautiful, and beautiful words are not to be trusted.",
+      "prompts": [
+        "Do you agree? Think of the person whose word you rely on most. How do they speak?",
+        "Have fine words ever deceived you? Have you used them to cover something? What was covered?",
+        "Take the other side: beauty in speech is a kind of care, and a true thing that is well said reaches further. This book is itself well said. What does that do to the claim?",
+        "Do you distrust charm, or plainness? Where did that distrust begin, and whom has it kept out?"
+      ]
+    },
+    {
+      "id": "give-more",
+      "claim": "The one who stores nothing and gives to others ends with more, not less.",
+      "prompts": [
+        "Has this been true for you in any sense that you can point to? Has it also been false?",
+        "What do you keep in reserve: money, time, affection, knowledge? What day are you keeping it for?",
+        "Now hold the opposite: what you give is gone, and a person with no store is at the mercy of others. That is also experience. Whose experience is it, in your family?",
+        "Are you easier with giving or with receiving? What does the harder one ask you to admit?"
+      ]
+    },
+    {
+      "id": "no-contest",
+      "claim": "It is possible to act fully in the world and not compete with anyone.",
+      "prompts": [
+        "Is it? Look at one piece of work that you did this week. Who was the rival in it, seen or unseen?",
+        "When did winning first matter to you, and what did you get for it?",
+        "Take the other side: contest sharpens people, and without a rival most of us do less than we can. What part of you needs the opponent?",
+        "If the contest stopped, what would move you to act? Does that question feel like rest, or like a threat?"
+      ]
+    }
+  ],
   "glyph": "辯",
   "plates": [
     {

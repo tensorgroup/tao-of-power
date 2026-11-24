@@ -71,7 +71,7 @@
     "",
     "So the [[sage|shengren]] says:",
     "I [[do not force|wu-wei]], and the people [[change of themselves|zi]].",
-    "I love stillness, and the people come straight of themselves.",
+    "I love stillness, and the people [[come straight of themselves|pair-straight-strange]].",
     "I have no business, and the people grow rich of themselves.",
     "I [[have no desire|wu-yu]], and the people are of themselves [[uncut wood|pu]]."
   ],
@@ -235,6 +235,11 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "pair-straight-strange": {
+      "kind": "pair",
+      "title": "正 / 奇: the straight and the strange",
+      "body": "正 and 奇, the straight and the strange, or the regular and the surprise, are [[a pair from the art of war|qi]], and Sunzi says that each gives birth to the other. The first two lines seem to rank them: the straight for the state, surprise for arms. The rest of the passage does not let the rank stand. The four proofs show the straight, when it is applied by decree, giving rise to the strange: 奇物, [[strange things|qi-wu]], and thieves. Then 正 comes back in this line as something that the people do of themselves. So the passage has two kinds of straight, one pressed on and one grown, and the first turns into its opposite. A one-sided reading takes the first line as plain advice, “govern by the correct”, and misses the turn. The next passage says it in four characters: 正復為奇. Has a rule of yours bred the thing that it forbade?"
     }
   },
   "lenses": {
@@ -263,6 +268,28 @@
       "title": "A foot that stops at the line",
       "lesson": "Five plain strokes. The lower four are 止, and the Shuowen says of 止 that it came to be used for the foot: 故以止爲足. The stroke on top is 一, a line. The dictionary reads the two together: 正，是也。从止，一以止, “正 is ‘right’; from 止, with 一 as that at which it stops”. A foot that goes to the mark and stops there: on target, straight, correct. Many modern scholars read the oldest forms in a harder way: the top was a small square, a walled town, and the foot marches on it. That is the first form of 征, “to go on a punitive campaign”, to correct a neighbour by force. We cannot settle the early form here. But both readings are in this passage. [[Wang Bi|wangbi]] says that to rule by 正 is already to prepare for war. The family is large. 政, government, is 正 with a hand that holds a rod, and the Shuowen defines the one by the other. 定, “settled”, is 正 under a roof: 从宀从正. 是, “this is so”, is 正 under the sun: 从日、正. 整 is “to put in order”. And since the character has exactly five strokes, Chinese uses it to keep count: one stroke for each item, a full 正 for each five. The [[first word|zheng]] of the passage is a tally mark and a march.",
       "brush": "Five strokes. A horizontal across the top. A vertical down from its middle. A short horizontal that goes right from the middle of that vertical. A short vertical on the left, which stands a little apart and does not touch the top line. Then the long horizontal at the bottom, the widest stroke, which joins the feet of both verticals. Watch the top and bottom lines. They are parallel, and the bottom one is longer; the whole character hangs between them like a frame. Nothing in it leans, and for that reason a writer shows a slow, even hand here or shows nothing. Beginners in regular script practise this character for its right angles. In running script the third and fourth strokes join in one small loop, and the foot begins to walk again."
+    }
+  ],
+  "questions": [
+    {
+      "id": "more-laws",
+      "claim": "The more rules and bans are set up, the more disorder they breed.",
+      "prompts": [
+        "Is this what you have seen, at work, at home, in yourself? Give one case each way.",
+        "How do you react to a rule, as the one who makes it and as the one who is under it? Where did each reaction start?",
+        "Take the other side in full: people need firm rules, and without them the strong take from the weak. Hold it as true for a while. What feelings arise, and what memories?",
+        "Which view suits your temper, and which view would you prefer not to look at? Why is that useful to know?"
+      ]
+    },
+    {
+      "id": "of-themselves",
+      "claim": "When the one in charge stops forcing and wanting, people come right of themselves.",
+      "prompts": [
+        "Do you trust this? Think of a time when you stepped back and it went well, and a time when it did not.",
+        "What do you fear will happen if you stop managing? Is that fear from an event, or from the voice of a person?",
+        "Now hold the opposite: left alone, people drift, and someone has to push. Stay with it for a few minutes. Does it feel like duty, like worry, or like a wish to matter?",
+        "The sage in the passage wants nothing from the result. Could you? What would you lose if the people did well and it was not your doing?"
+      ]
     }
   ]
 }

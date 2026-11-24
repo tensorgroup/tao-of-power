@@ -32,7 +32,7 @@
     }
   ],
   "rendering": [
-    "One [[on tiptoe|qi]] does not stand.",
+    "One [[on tiptoe|qi]] [[does not stand|qi-li]].",
     "One [[at full stride|kua]] does not walk.",
     "",
     "One who [[shows the self|zi-xian]] is not bright.",
@@ -183,6 +183,11 @@
       "kind": "practice",
       "title": "One minute on the toes",
       "body": "Do what the first line says. Stand with bare feet and rise onto the toes. Stay there for one minute. Notice the calves, the small corrections at the ankle, the breath that goes shallow, the eyes that fix on a point. You are taller, and all your attention is spent on not falling. Now come down. Let the heels take the weight. Notice how much of the room comes back. Then take three steps as long as your legs allow, and feel how each one stops you. The passage asks you to remember these two states in the body. Later in the day, when you speak about your own work, ask which of the two states you are in."
+    },
+    "qi-li": {
+      "kind": "pair",
+      "title": "Reach and root: the more that becomes less",
+      "body": "The pairs here are implied: 企 and 立, to rise on the toes and to stand; 跨 and 行, to straddle and to walk; and under them 餘, the extra, and what is enough. Each line takes a wish to its limit and reports the opposite result. More height: no standing. More stride: no walking. More show: less light. This is the turn of passage 40, seen in a body. It is not a rule that low is good and high is bad. The text does not blame standing, walking, brightness, or merit; these are the things that it wants to keep. And a person rises on the toes to reach a shelf, and that is no fault. The fault is to [[stay there|bu-chu]]. The preference is for the plain stance, as a correction to [[an age of self-display|persuaders]]. It turns too: a heel that does not lift does not walk, and a modesty that is shown is one more boast. Where do you stand on the toes from habit?"
     }
   },
   "lenses": {
@@ -205,6 +210,28 @@
       "title": "A person with a halberd",
       "lesson": "Here the person stands at the left, in the narrow form 亻 that 人 takes when it shares a square. At the right is 戈, the dagger-axe: a bronze blade tied across the top of a long shaft, the common weapon of Shang and Zhou foot soldiers. The Shuowen calls it 平頭𢧢, “the flat-headed halberd”, and says the graph is a picture. For 伐 it gives 擊也。从人持戈, “to strike; a person who holds a halberd”. In the oracle-bone forms, as they are commonly described, the blade lies across the person’s neck, so the first sense may have been “to behead”; take this as the usual account and not as certain. From “strike” came “to send an army against a state”, “to cut down a tree”, and [[“to boast of one’s merit”|zi-fa]]. Look at the halberd’s family. The Shuowen reads 戒, “to guard”, as two hands that hold a halberd: 从廾持戈. 或, the old graph for a state or domain, is a halberd that guards a walled place; the Shuowen says 邦也, and this passage uses the same graph as the small word “some”. 我, “I”, has a halberd in it too; the Shuowen includes 从戈 in its account, and modern scholars commonly explain the graph as a toothed weapon borrowed for the sound. The word for “I” and the word for “boast” both carry a blade. The passage puts 自 in front of 伐 and lets the reader look.",
       "brush": "Six strokes. First a short stroke that falls to the left. Second a vertical that starts from the middle of the first: together they are the standing person, and they stay narrow. The third stroke is a horizontal that rises a little as it goes right; it is the cross-blade. Now watch the fourth stroke, because the character lives in it: a long slanting line that begins at the upper left of the halberd, cuts down across the horizontal to the lower right, and ends in a hook that flicks upward. It must be one confident movement; a slow hand makes it tremble. The fifth stroke falls to the left through the lower part of the slanting line. The sixth is a dot at the upper right, set last, like the tassel on the weapon. The person is upright and still. The halberd leans and moves. Good writing keeps a clear gap between them."
+    }
+  ],
+  "questions": [
+    {
+      "id": "overreach",
+      "claim": "The one who strains to be taller or to go faster loses the footing that standing and walking need.",
+      "prompts": [
+        "Where are you on tiptoe now? Is it true there that you do not stand?",
+        "Who first asked you to be taller than you were? What happened when you were not?",
+        "Take the other side: no one grows without a stretch, and to stay flat on the heels is to stay small. Hold that for a time. What does it stir?",
+        "How do you know, in your own case, a stretch from a strain?"
+      ]
+    },
+    {
+      "id": "extra-self",
+      "claim": "To show, justify, and praise the self is leftover food: an extra that others turn away from.",
+      "prompts": [
+        "Do you agree that people turn from display? Or have you seen them drawn to it?",
+        "What do you feel when someone boasts? Is there a boast of your own that you hold back with effort?",
+        "Now the opposite: to speak well of your work is honest, and to hide it is a false modesty. Stay with that. What eases, and what tightens?",
+        "Which have you been punished for more: showing too much, or showing too little? How does that still steer you?"
+      ]
     }
   ]
 }

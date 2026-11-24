@@ -83,7 +83,7 @@
     "[[Forced|qiang]] to make a name for it, I say “great”.",
     "",
     "Great means [[passing on|shi]].",
-    "Passing on means far.",
+    "Passing on means [[far|yuan-fan]].",
     "Far means [[turning back|fan]].",
     "",
     "So Dao is great, heaven is great,",
@@ -144,7 +144,7 @@
     "zhou-xing": {
       "kind": "gap",
       "title": "Round, or everywhere? Danger, or tired?",
-      "body": "周行而不殆 holds two choices. 周 can mean “in a circle”, a full circuit that comes back, or “all over, to every place”; the Shuowen’s gloss is 密也, “close, with no gap”. Wang Bi takes the second sense: 周行無所不至, “it goes all round and there is no place it does not reach”. 殆 is “danger” in the Shuowen, 危也, and that is how we render it: a thing that goes everywhere and is never at risk. Many readers take the graph as 怠, “to grow slack, to tire”: it goes round and does not weary. The first reading pictures a traveller who cannot be harmed. The second pictures a motion with no friction. The line [[is reported absent from the excavated copies|silk-25]], so the choice may be between two later readers. Which would you want to be true of the mother of the world?",
+      "body": "周行而不殆 holds two choices. 周 can mean “in a circle”, a full circuit that comes back, or “all over, to every place”; the Shuowen’s gloss is 密也, “close, with no gap”. Wang Bi takes the second sense: 周行無所不至, “it goes all round and there is no place it does not reach”. 殆 is “danger” in the Shuowen, 危也, and that is how we render it: a thing that goes everywhere and is not at risk. Many readers take the graph as 怠, “to grow slack, to tire”: it goes round and does not weary. The first reading pictures a traveller who cannot be harmed. The second pictures a motion with no friction. The line [[is reported absent from the excavated copies|silk-25]], so the choice may be between two later readers. Which would you want to be true of the mother of the world?",
       "src": [
         "Shuowen Jiezi, 口部: 周，密也。从用、口。",
         "Shuowen Jiezi, 歺部: 殆，危也。从歺台聲。",
@@ -258,6 +258,11 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "yuan-fan": {
+      "kind": "pair",
+      "title": "遠 and 反: far, and back",
+      "body": "The chain ends on a pair: 遠, far, and 反, to turn back. A common reading ranks them. Going out is loss, and the return is the cure. The Chinese does not say that. It joins the two with 曰, “is called”: far is called turning back. The going is not a mistake that the return corrects; it is how the great shows that it is great, 逝. Without the going out there is nothing to come back, and a return that stays at home has not returned from anywhere. The first stanza holds the same two sides in one line: it [[stands alone|du-li]] and it [[goes all round|zhou-xing]]. Stillness and travel are both said of one thing. A reader who keeps only the return makes Dao a place to hide in. A reader who keeps only the going has a road with no turn. Where are you on the chain today?"
     }
   },
   "lenses": {
@@ -267,6 +272,28 @@
     "nature": "It is tempting to read the end as “follow nature”, and the temptation is half right. A person [[takes the earth as the rule|fa]]: this is concrete. Soil, slope, water table, and season decide what will grow, and a farmer who goes against them loses the crop. The earth in turn keeps to heaven: light, warmth, rain, the turning year. But the last step is not to a bigger nature. It is to [[自然|ziran]], which in this text is not a place or a set of living things. It is the way each of them is what it is with no one making it so. The river does not follow a law of rivers. It runs. The middle of the passage adds the motion: what is great [[goes out, goes far, and turns back|fan]], as water leaves the sea and comes home to it.",
     "practice": "Try the speaker’s two sentences on something you think you know well: a person you love, your work, yourself. First say honestly: “I do not know its name.” Wait and see if that is true. Then give it a name on purpose, aloud, and hear it as a [[style-name|zi]]: a polite handle for use in company, not the thing. Then one more, [[forced|qiang]], and notice the small strain in forcing it. For the rest of the day, when you use any big word (love, success, God, the market), remember that someone once gave it as a courtesy title. If you want a second exercise, look at one thing that is [[so of itself|ziran]], such as a child asleep or rain on a window, and ask what rule it is following."
   },
+  "questions": [
+    {
+      "id": "far-is-return",
+      "claim": "Whatever goes far enough is already on its way back.",
+      "prompts": [
+        "Is this true of anything you have lived: a journey, a quarrel, an ambition, a time away from someone?",
+        "If it sounds true, where did you learn to trust the turn? If it sounds false, what did you once go far from and not come back to?",
+        "Hold the other view for a while: some roads go one way, and what is gone is gone. What do you feel in the body as you hold it?",
+        "One view comforts and one is hard. Which is which for you, and what does that say about what you want to be true?"
+      ]
+    },
+    {
+      "id": "so-of-itself",
+      "claim": "The deepest rule is what is so of itself; nothing stands above it to give it orders.",
+      "prompts": [
+        "Do you agree that things go best by their own nature, with no outside rule? Where do you see it, and where do you doubt it?",
+        "Who or what did you take as your rule when you were young: a parent, a book, a god, a boss? What did that teach you about your own nature?",
+        "Take the opposite: a person left to what is so of itself goes wrong, and needs a model to follow. Stay with it for a minute. What comes up?",
+        "Is there a part of you that you do not let be “so of itself”? What do you fear it would do?"
+      ]
+    }
+  ],
   "glyph": "字",
   "plates": [
     {

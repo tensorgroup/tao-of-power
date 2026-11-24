@@ -72,8 +72,8 @@
   "rendering": [
     "[[Courage|yong]] in [[daring|gan]]: [[killing|sha]].",
     "Courage in not daring: [[life|huo]].",
-    "Of these two,",
-    "[[one benefits, one harms|huo-li]].",
+    "[[Of these two|liang-zhe]],",
+    "[[sometimes benefit, sometimes harm|huo-li]].",
     "",
     "[[What heaven hates|tian-wu]]:",
     "who knows the reason?",
@@ -136,7 +136,7 @@
     "huo-li": {
       "kind": "gap",
       "title": "或…或…: which one gains?",
-      "body": "或利或害 is four characters: “some gain, some harm”. 或 means “one of them, someone”, and also “sometimes, perhaps”. The first reading sorts the two kinds of courage: one of the two benefits, and the other harms. Wang Bi reads it so: 俱勇而所施者異, “both are courage, but where it is applied differs”. Our rendering follows him. The second reading is less tidy: of these two, each sometimes gains and sometimes harms. The bold person sometimes wins. The careful person sometimes dies. That reading fits the next line better, because the next line is a question with no answer: who knows why heaven hates what it hates? The text may give a rule in line two and take the certainty back in line four.",
+      "body": "或利或害 is four characters: “some gain, some harm”. 或 means “one of them, someone”, and also “sometimes, perhaps”. The first reading sorts the two kinds of courage: one of the two benefits, and the other harms. Wang Bi reads it so: 俱勇而所施者異, “both are courage, but where it is applied differs”. The second reading is less tidy: of these two, each sometimes gains and sometimes harms. The bold person sometimes wins. The careful person sometimes dies. That reading fits the next line better, because the next line is a question with no answer: who knows why heaven hates what it hates? Our rendering says “sometimes” and does not say which of the two does which, so both readings stay open. The text may give a rule in line two and take the certainty back in line four.",
       "src": [
         "Wang Bi commentary on Laozi 73"
       ]
@@ -250,6 +250,11 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "liang-zhe": {
+      "kind": "pair",
+      "title": "敢 and 不敢: one breath, two directions",
+      "body": "此兩者, “these two”, names the pair: 敢, daring, and 不敢, not daring. The text does not set courage against cowardice. Both sides are 勇; one breath goes two ways. Each side needs the other. Not daring has meaning only where daring is possible, and a bold act is clean only in a person who could also have held back. The pairs that follow turn the same way: 殺 and 活, 利 and 害. The opening lines lean toward not daring. The lean corrects an age that paid for boldness with heads. It is not a rule. [[或利或害|huo-li]] can say that each side sometimes gains and sometimes harms, and the next line admits that nobody knows the reason. Restraint also turns. Held as a habit, it becomes a refusal to act when the hour needs the act. A reader who takes only one side loses the question: where does the breath go now?"
     }
   },
   "lenses": {
@@ -260,6 +265,38 @@
     "nature": "A river does not argue with a rock and is past it. Spring does not announce a date and the buds [[answer|ying]]. No one summons the swallows or the [[wheat|lai]]. These are the four lines on heaven, seen in a year. The last image needs a longer look. A fishing net with a wide mesh lets the small fish go and the water pass; that is why it can be drawn through the sea at all, and why there are fish next year. A net that held everything could not be lifted. The text says that heaven’s net is of the [[open|shu]] kind, and still nothing is outside it. An ecologist might say the same in other words: no act leaves the system. The result may arrive late and far from the place where the act was done.",
     "practice": "Find one moment today when you feel the surge to act boldly: to send the message, to correct someone, to close a question. Notice the breath; that is [[勇|yong]]. Do not hold the surge down. Give it the other direction for one hour: be brave enough to not do the thing yet. While you wait, loosen something at your waist, the belt or only the muscles, and breathe into the space. After the hour, look at the matter again. Sometimes you will act, and the act will be cleaner. Sometimes the matter will have [[come to you|zi-lai]] in a new form. Do not expect a reward each time; the passage does not promise one. Afterwards, read how [[Legge|legge]] turned the first line into a rule for criminals, and ask what he was afraid of."
   },
+  "questions": [
+    {
+      "id": "brave-restraint",
+      "claim": "Holding back from a bold act can take as much courage as the act itself.",
+      "prompts": [
+        "Does this match what you have seen? Recall one time when not acting was the braver thing, and one time when it was only fear.",
+        "Who taught you which of the two counts as courage: a parent, a team, a workplace? What did they call the person who waited?",
+        "Take the other side for a while: the bold act is the honest one, and waiting is a way to hide. What do you feel in the chest when you say that?",
+        "When you judge someone as reckless, or as timid, what in yourself are you looking at?"
+      ]
+    },
+    {
+      "id": "wide-net",
+      "claim": "Nothing has to be seized or forced, because in the end nothing slips through the wide net.",
+      "prompts": [
+        "Do you trust this? Name one thing in your life that you believe would be lost if you stopped holding it tight.",
+        "Where does your answer come from? Think of a time when something did slip away, and nobody caught it.",
+        "Now hold the opposite: the mesh is loose, and things are lost for good unless someone acts. Stay there for a minute. Is the feeling fear, or energy, or both?",
+        "Which picture do you live by on most days? What does it cost you, and what does it spare you?"
+      ]
+    },
+    {
+      "id": "no-reason",
+      "claim": "Nobody can know why some acts end well and others badly; even the wisest person finds it hard.",
+      "prompts": [
+        "Is that true in your experience, or do you think that results can mostly be explained?",
+        "Think of a good outcome that you count as earned. How much of it can you in fact account for?",
+        "Try the opposite view: there is a reason for each result, and a careful person can find it. What does that view give you? What weight does it put on you?",
+        "Which is harder for you to live with: a world with reasons that you failed to read, or a world that gives none?"
+      ]
+    }
+  ],
   "glyph": "網",
   "plates": [
     {

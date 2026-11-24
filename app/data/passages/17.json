@@ -56,7 +56,7 @@
     }
   ],
   "rendering": [
-    "[[The highest|taishang]]: those below [[know there is one|zhi-you]].",
+    "[[The highest|taishang]]: [[those below|shang-xia]] [[know there is one|zhi-you]].",
     "Next: one they [[hold dear and praise|qin]].",
     "Next: one they [[fear|wei]].",
     "Next: one they [[scorn|wu]].",
@@ -213,6 +213,11 @@
       "kind": "practice",
       "title": "Help so that they say “we did it”",
       "body": "Choose one thing today in which you have some power over another person: a child with homework, a colleague with a problem, a friend who asks for advice. Before you act, place yourself on the ladder. Do you want to be thanked? That is the second rung. Do you want to be obeyed? That is the third. Then try the first. Do the smallest thing that removes the obstacle, a question in place of an answer, or a tool left within reach, and say little. Afterwards listen to how they tell it. If they say “I worked it out”, do not correct them. Notice the small ache of not being credited. That ache is the exact price of the first rung, and the passage says the price is worth paying."
+    },
+    "shang-xia": {
+      "kind": "pair",
+      "title": "上 and 下: the highest weighs least",
+      "body": "The first line sets 上 beside 下: the highest, and those below. Here the text does rank: 其次, “next”, three times. But see what it ranks. Each step down is a ruler who weighs more on those below: first love and praise, then fear, then scorn. The highest is the one whose height is felt least, so that the people say “we”. Above and below make each other, and the trust line shows it: what the top does not give, the bottom does not return. Love and scorn look like opposites. Both are a people that looks up and judges, and the ladder shows one becoming the other. A one-sided reading makes the top rung a technique: be unseen, and control more. That was Han Fei’s use of it. The preference for the light hand corrects rulers who wished to be loved or feared. The favored side turns too: a ruler who is so far off that trust runs short is already on the way down the ladder."
     }
   },
   "lenses": {
@@ -236,6 +241,29 @@
       "title": "Born of a woman",
       "lesson": "女 on the left, 生 on the right. 女 is a woman. The Shuowen says only 象形, “a picture”, and the old forms are commonly described as a figure who kneels with the arms crossed in front. 生 is a picture too, and the Shuowen reads it so: 象艸木生出土上, “it shows a plant that comes up out of the soil”. The level line at the foot is the ground and the rest is the shoot. It means to be born, to grow, to be alive, and it is raw, fresh, a student (學生), a lifetime (一生). Set a woman beside a birth and you have 姓: the name that tells from whom you were born. The Shuowen defines it 人所生也 and says that 生 gives both sense and sound. Some of the oldest clan names keep the woman in the graph itself: 姬, the name of the Zhou royal house; 姜, the house of Qi; 姚 and 姒, the names given to the lines of the sage-kings Shun and Yu. Scholars have long seen in this a memory of descent traced through mothers; that is a theory, and the graphs are the fact. A second word for a family name, 氏, marked a branch, a fief, or an office, and was held by men. In time the two merged. So the [[hundred families|baixing]] who speak at the end of the passage carry, in the word for them, a woman and a sprout. The Laozi’s own word for the source is 母, mother.",
       "brush": "Eight strokes: three and five. 女 has an order that surprises learners. The first stroke goes down to the left, turns, and runs down to the right: one bent line. The second falls to the left across it. The third is the level stroke, written last, and as a left-hand part it is short and rises a little toward 生. Then 生: a short falling stroke at the upper left; a level stroke; a second level stroke; the vertical through the centre; and the long base line, the ground. Watch the three level lines of 生. The second is a little shorter than the first, and the last is the widest stroke in the character; the shoot stands on it. The woman must give room: her right side stays narrow, and 生 does not touch her. In clerical script, the script of the Han stone inscriptions, the base of 生 ends in a flared tail."
+    }
+  ],
+  "questions": [
+    {
+      "id": "unnoticed-best",
+      "claim": "The best leader is hardly noticed, and the people take the finished work as their own.",
+      "prompts": [
+        "Do you believe this of leaders you have known? Who was the best, and how much did you notice them?",
+        "When your own work is not credited, what happens in you? Where did you learn what credit means?",
+        "Take the opposite view: people need a leader whom they can see, love, and thank, and a hidden one leaves them alone. What in you welcomes that view?",
+        "Which do you want more: to be useful, or to be known as useful? What makes that question hard to answer?"
+      ]
+    },
+    {
+      "id": "trust-returns",
+      "claim": "Where trust is not given in full, no trust comes back.",
+      "prompts": [
+        "Is this how it has gone for you? Recall one person who trusted you before you had earned it.",
+        "Whom do you watch closely, and what do you expect to find? Where does that expectation come from?",
+        "Hold the other side: trust must be earned, and to give it early is careless. Stay with it a while. What does it protect?",
+        "What did you become when you were trusted too little? And when you were trusted more than you had earned?",
+        "Which side fits what you have lived, and where does the other side still have a point?"
+      ]
     }
   ]
 }

@@ -97,7 +97,7 @@
     "",
     "People at their work",
     "constantly ruin it [[when it is nearly done|jicheng]].",
-    "Be as careful of the end as of the start:",
+    "Be as careful of [[the end as of the start|shi-zhong-pair]]:",
     "then no work is ruined.",
     "",
     "So the sage [[desires not to desire|yubuyu]]",
@@ -258,6 +258,11 @@
       "kind": "practice",
       "title": "The last tenth",
       "body": "Choose one thing that you will finish today: a message, a meal, a repair, a talk with a child. Notice the moment when you judge that it is nearly done. This is the 幾成 of the passage. Watch what your attention does at that moment. It usually leaves and goes to the next thing. Today, do the last tenth as you did the first: the same pace, the same care for small parts. Wash the last dish as you washed the first. Read the last line before you send. Then try the other half. Find one thing that has shown [[no sign yet|zhao]]: a tiredness in a friend’s voice, a small wrong sound in a machine. Hold it now, while a hand is enough."
+    },
+    "shi-zhong-pair": {
+      "kind": "pair",
+      "title": "始 and 終: the start inside the end",
+      "body": "The passage is built on beginning and end. Its first half looks at beginnings: the hair-tip, the first load of earth, the ground under the foot. Its second half looks at ends, where people ruin the work [[when it is nearly done|jicheng]]. The sentence 慎終如始 joins them: be as careful of the end as of the start. It does not rank them. The start is noted as easy to work on, and the end is to be met as if it were a start. Other pairs follow the same line. Order is made inside not-yet-disorder (治, 亂). The great tree is in the small tip. Acting and ruin, gripping and loss, are set side by side, and the sage’s [[not forcing|wuwei]] is still a way of working: it [[assists|fu]]. A reading that hears only “begin small” has kept half. A reading that hears only “do nothing” has kept less. Where in your day does an end need a beginner’s care?"
     }
   },
   "lenses": {
@@ -287,6 +292,38 @@
       "title": "Cart and cheek",
       "lesson": "Two parts. At the left, 車: a cart seen from above, with a body, two wheels, and an axle. At the right, 甫, which gives the sound (the Shuowen: 从車甫聲). The cart tells you the class of thing. A 輔 was a side piece lashed to a cart so that it could bear a heavy load; a [[poem|fu]] warns the man who throws his props away when the cart is full. Yet the Shuowen defines the word with a part of the face: 人頰車也, “the cheek-frame of a person”, the jaw. The two senses meet in a proverb from the Zuozhuan. In 655 BCE the great state of Jin asked the small state of Yu for passage to attack its neighbour Guo. A minister of Yu objected: 輔車相依，脣亡齒寒, “prop and cart lean on each other; when the lips are gone, the teeth are cold”. Readers have taken 輔車 there as cheek and jawbone and also as prop and cart. Yu gave passage. Jin destroyed Guo, and on the way home it destroyed Yu. So the word holds a whole idea of support: a thing at the side that carries load and does not steer. Later it named the ministers at a ruler’s side. The right-hand part 甫 lends its sound to other words: 補, to mend; 捕, to catch; 浦, a riverbank. In the last line of this passage the sage is the [[輔|fu]] of the ten thousand things.",
       "brush": "Fourteen strokes: seven for 車, then seven for 甫. In 車: a horizontal; the left side of the box; the top and right side in one stroke with a corner; a short line inside; a line that closes the box; a long horizontal; and last the vertical through the centre. As a left-hand part the cart is made narrow, and its long horizontal slants up to the right to give way to its neighbour. In 甫: a horizontal; the left vertical of the frame; the top and right side in one stroke that ends in a hook; a short horizontal inside; a second short horizontal under it; a tall vertical through the middle; and at the end a dot at the upper right. Watch the two central verticals, strokes seven and thirteen. They stand side by side like two poles. Neither part leans on the other, and each helps the other stand."
+    }
+  ],
+  "questions": [
+    {
+      "id": "grip-loses",
+      "claim": "The one who acts on a thing ruins it, and the one who grips it loses it.",
+      "prompts": [
+        "Where has this been true for you? Where has it been false, and your grip kept something from harm?",
+        "What are you gripping at present? What do you believe will happen if the hand opens?",
+        "Take the opposite: things left alone decay, and what you do not hold is taken. Who in your past lived by that? Did it serve them?",
+        "What do you think of people who let things be: do they seem wise to you, or lazy? What might that judgment guard in you?"
+      ]
+    },
+    {
+      "id": "end-as-start",
+      "claim": "Work is most often ruined when it is nearly done, so the end needs the care of the start.",
+      "prompts": [
+        "Is this your pattern? Think of something that you spoiled, or dropped, in its last tenth.",
+        "What happens in you when the end comes into view: hurry, boredom, fear that the finished thing will be judged?",
+        "Hold the other view: the start decides everything, and a good beginning carries itself home. Which do you trust more, your starts or your finishes?",
+        "Is there something in your life that you keep nearly done? What would its completion ask of you?"
+      ]
+    },
+    {
+      "id": "assist-not-make",
+      "claim": "The sage helps things be what they are of themselves and does not dare to do more.",
+      "prompts": [
+        "Do you agree that the best help adds nothing of the helper’s own plan? Think of a child, a student, or a garden in your care.",
+        "Who helped you in this way? Who helped you by making you into something? How do you now see each of them?",
+        "Take the opposite: people and things need to be shaped, and to hold back is to fail them. Stay with that. When has it been true?",
+        "The text says “does not dare”. What is it that you do not dare: to act, or to stop acting?"
+      ]
     }
   ]
 }

@@ -55,7 +55,7 @@
     "[[Goods hard to get|huo]] make a person’s walk stumble.",
     "",
     "For this reason the sage",
-    "is [[for the belly, not for the eye|fu-mu]],",
+    "is [[for the belly|fu-mu]], [[not for the eye|pair-fu-mu]],",
     "and so [[leaves that and takes this|bi-ci]]."
   ],
   "notes": {
@@ -189,6 +189,11 @@
       "kind": "practice",
       "title": "One plain meal",
       "body": "Eat one meal today with the eye off duty. Put away the screen and the page. Choose plain food: rice or bread, one vegetable, water. Eat slowly, and give your attention to the mouth and the belly. Notice how much taste there is in plain food when nothing strong has come before it; that is a mouth that is not 爽 in the bad sense. Notice the moment when the belly says “enough”. It is quiet, and it is easy to miss if the eye is busy. Stop there. For the rest of the day, each time you reach for something, ask one question from the last line: is this for the eye, or for the belly?"
+    },
+    "pair-fu-mu": {
+      "kind": "pair",
+      "title": "腹 and 目, 此 and 彼: belly and eye",
+      "body": "Two pairs close the passage: 腹 and 目, belly and eye, and 此 and 彼, [[this and that|bi-ci]]. They are inside and outside, near and far, enough and more. The text takes a side: for the belly, not for the eye. Ask what the preference is for. The five lines describe courts where sights, sounds, tastes, and the hunt were pushed past what an organ can bear. Against that excess the belly is the correction. It is not a verdict on eyes. The sage is [[not asked to see less|belly]], and the “this” of 取此 is found by looking. The belly side also turns. The five flavors enter by the mouth and end in the belly, so a life lived for the belly alone has its own line in this list. And the belly empties: its “enough” lasts some hours. A reader who makes the inner good and the outer bad has moved the craving indoors. What does your eye want that your belly has not asked for?"
     }
   },
   "lenses": {
@@ -218,6 +223,28 @@
       "title": "A hand on an ear",
       "lesson": "This is among the most common verbs in Chinese, “to take”, and it holds a battlefield. The left side is 耳, an ear, made narrow. The right side is 又, a right hand: the Shuowen calls 又 a hand, and its old form shows three fingers and a wrist. A hand that reaches for an ear. The Shuowen explains why: 捕取也, “to capture and take”, and then it quotes the Rites of Zhou: 獲者取左耳, “the one who makes a kill or a capture takes the left ear”. Soldiers cut the left ears from the enemy dead and brought them in to be counted; hunters did the same with game. The Shuowen adds a line from an old military code about carrying in the tally of ears. Rewards were paid on the count. So “to take” is first to take a trophy. The cousins soften with time: 娶, to take a wife, is 取 over a woman; 最, “most”, is commonly explained with 取 under a cover; 趣, to hasten toward, has running feet beside it, and there the Shuowen takes 取 as the sound. Now read the end of the passage: 去彼[[取此|bi-ci]]. The text has just said what the five notes do to the ear. Its last verb has a severed ear in it, and the sage uses that verb for the gentlest of acts: to take what is here.",
       "brush": "Eight strokes. The ear takes six. A horizontal at the top; a short vertical down from its left end; then the long vertical on the right, which runs the full height. Two short horizontals go between the uprights. Stroke six is the foot of the ear. In the free-standing 耳 it is a level line; here, at the left of a character, it rises to the right and reaches out past the long vertical. Watch it: it starts far to the left, and its tip leads the eye across to the hand. Then the hand in two strokes. Stroke seven is a horizontal that turns and sweeps down to the left, long and fast. Stroke eight is the 捺: it starts inside the angle, crosses the falling stroke, and presses out to the lower right. The ear is upright and narrow. The hand is all diagonals, and its last stroke reaches under and steadies both halves."
+    }
+  ],
+  "questions": [
+    {
+      "id": "too-much-dulls",
+      "claim": "Too much color, sound, and flavor does not feed the senses; it blinds, deafens, and dulls them.",
+      "prompts": [
+        "Do you agree? What does a plain thing taste or look like to you now?",
+        "Where you grew up, was pleasure treated as a danger or as a right? How does that sit in you today?",
+        "Take the opposite: the senses grow by rich use, and a life kept plain is a life kept small. Hold that for a minute. What arises?",
+        "Do you judge people who enjoy a great deal, or people who refuse to? What might the judgment guard?"
+      ]
+    },
+    {
+      "id": "belly-not-eye",
+      "claim": "The sage lives for the belly and not the eye: for what is here and enough, not for what is over there.",
+      "prompts": [
+        "Which one runs your day, the belly or the eye? How do you know?",
+        "What were you taught to look toward: a place, a rank, a kind of life that was somewhere else? Who pointed?",
+        "Now hold the other side: looking outward is how a person grows, and one who is content with enough has stopped. What do you feel when you take that as true?",
+        "Is your “enough” a fullness, or is it a limit that someone set for you? Why would the difference matter?"
+      ]
     }
   ]
 }

@@ -37,7 +37,7 @@
     "Cut off [[skill|qiao]], throw away profit:",
     "[[robbers and bandits|daozei]], there are none.",
     "",
-    "These three, as [[ornament|wen]], are not enough.",
+    "These three, as [[ornament|wen]], [[are not enough|wen-su]].",
     "So let there be [[something to fasten to|zhu]]:",
     "[[show the undyed silk|su]],",
     "[[hold the uncarved wood|pu]];",
@@ -193,6 +193,11 @@
       "kind": "practice",
       "title": "One thing with no finish on it",
       "body": "Find one thing today that is 素 or 樸: a thing with no finish on it. A board with no paint. A bowl of plain rice. A wall with nothing on it. Tap water. A sentence with no adjective. Give it one full minute of attention, and note the small restlessness that asks for more: colour, salt, a picture, a clever phrase. That restlessness is 欲 in its mildest form. Do not fight it. Then try the two verbs on yourself, in the passage’s own modest measure. [[少私|shao]]: once today, when you would say “my”, see if the sentence works without it. 寡欲: when you next want to buy or add something, wait one day. The passage does not ask for a monk. It asks for less, and promises that less will not feel like loss once the hands are [[around something plain|pu]]."
+    },
+    "wen-su": {
+      "kind": "pair",
+      "title": "文 and 素: pattern and the plain",
+      "body": "The pair is 文 and 素: the worked pattern and the undyed cloth, and beside it the carved vessel and 樸, the uncarved wood. The passage takes the side of the plain, three times, with a knife. But see what the plain is in these images. 素 is silk that will take any dye, and 樸 is wood that can become any vessel. Each is defined by the work that it has not yet had. Pattern needs a ground, and a ground is plain only next to a pattern. The Analects holds the pair level: 文質彬彬, pattern and substance in balance, make the noble person. The Laozi leans, and the lean is a correction to courts where display had become a trade. It is not a rule for all time, and the close says [[less, not none|shao]]. The favored side also turns: passage 28 says 樸散則為器, “the uncarved wood is split up, and then there are vessels”. What in you is ground, and what is pattern?"
     }
   },
   "lenses": {
@@ -221,6 +226,29 @@
       "title": "A wet mouth over a dish",
       "lesson": "Three parts, and the Shuowen reads them as a little scene. At the upper left are three drops, 氵, water. Beside them is 欠. This is a person with the mouth wide open: it means to yawn, to breathe out, to lack, and it is the right side of 欲, desire, and of 歌 (to sing), 吹 (to blow), 飲 (to drink). Water and an open mouth together are 㳄, the old graph for spittle, the word now written 涎. Under both is 皿, a dish. You know it from 盈, [[full|shao]], and 盤 (a tray), 盆 (a basin), 盡 (used up; commonly explained as a hand that scrubs an empty dish). So: one who drools over a dish. The Shuowen says exactly this, 㳄欲皿者, and defines the word as 私利物也, to make a thing one’s private gain. In classical Chinese 盜 is the robber and 賊 the one who does violence; in the modern language they have nearly changed places, and 盜 is the thief. It is a good graph for the passage’s argument about [[where robbers come from|daozei]]. The dish is someone else’s. The crime in the picture has not yet happened; there is only the mouth, and the water in it. The mainland short form, 盗, writes 次 on top: the spittle has lost a drop.",
       "brush": "Twelve strokes: three, four, five. The water: a dot, a second dot, and a stroke that flicks up to the right. Then 欠: a short stroke that falls to the left; a level stroke that ends in a hook; then the person below, a long stroke that falls to the left and one that presses out to the right. These two must be kept short and flat, because they have a dish under them. Then 皿: left side; a stroke for the top and right side; two short verticals inside; and the long base line. Watch the twelfth stroke. It is the widest line in the character, and it runs out past both sides of the dish like a table. All that is above leans over it. In a well-written 盜 the upper half is a little too large and a little too far forward for comfort. That is right for this word."
+    }
+  ],
+  "questions": [
+    {
+      "id": "cut-off-virtue",
+      "claim": "If the claims to wisdom, goodness, and skill are dropped, people gain, and return to natural care.",
+      "prompts": [
+        "Do you think people are kind and honest without being taught to be? What have you seen that says yes, and what says no?",
+        "What would be left of you if you could not call yourself wise, good, or capable? Which of the three is hardest to put down?",
+        "Hold the other view: without teaching, ideals, and skill, people turn rough and poor. Stay there. Whose voice is that, and is it wrong?",
+        "Which view did your upbringing rest on, and how has it shaped what you expect from others?"
+      ]
+    },
+    {
+      "id": "plain-enough",
+      "claim": "The plain state, undyed and uncarved, with few wants, is enough to hold on to.",
+      "prompts": [
+        "Is plain enough for you? Where do you feel that it is, and where not?",
+        "What have you added to yourself so that others would value you? What were you afraid they would see under it?",
+        "Take the side of pattern: a person is made by cultivation, and the raw state is only a start. What feelings and thoughts come as you hold that?",
+        "What do you feel when you meet someone plain and unpolished? And someone finely finished?",
+        "What do those two reactions show about what you have accepted in yourself?"
+      ]
     }
   ]
 }

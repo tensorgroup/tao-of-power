@@ -27,7 +27,7 @@
     "so one who has the Dao does not stay with them.",
     "",
     "[[The gentleman|junzi]] at home [[honours the left|zuo-you]];",
-    "when weapons are used, honours the right.",
+    "when weapons are used, [[honours the right|ji-xiong]].",
     "",
     "Weapons are tools of ill omen,",
     "[[not a gentleman’s tools|qi-vessel]].",
@@ -219,6 +219,11 @@
       "src": [
         "James Legge, The Texts of Taoism, Sacred Books of the East vol. 39 (1891)"
       ]
+    },
+    "ji-xiong": {
+      "kind": "pair",
+      "title": "Left and right, glad and grim, win and mourn",
+      "body": "The passage is built on 左 and 右, left and right, and on 吉 and 凶, the glad occasion and the occasion of death. Neither side is the fixed seat of honour. At home the left is honoured; with weapons, the right. The [[ritual order|zuo-you]] turns with the occasion, and a person must know both orders to stand in the correct place. The last lines then join a third pair that the world keeps apart: 勝, to win, and 喪, to mourn. A one-sided reader takes the victory and leaves the funeral, or takes the grief and forbids all fighting. The text holds both. It grants that weapons are used when there is no choice, and it puts the victor in the mourner’s place. It prefers [[calm and plain|tian-dan]] because victors of that age raised monuments. Calm also turns: with no grief in it, it is cold. Which of your wins had a loss inside it?"
     }
   },
   "lenses": {
@@ -228,6 +233,28 @@
     "body": "Left and right are in the body before they are in ritual. [[Two hands|zuo-you]]: for most people the right is the hand that strikes, cuts, and writes, and the left is the hand that holds and steadies. The peaceful order honours the holding hand. War honours the striking hand, and the text calls that the order of death. The feeling it asks for is also bodily. 恬淡 is a state of the breath and the tongue: slow, [[with no taste in the mouth|tian-dan]]. A martial artist will recognise the instruction. Train the strike fully; when it must be used, use it without anger, because anger makes the body stiff and the judgement poor; and feel no thrill afterwards, because the thrill is what brings a person back to fight again. The last lines put the body in [[hemp, wailing|sang-li]].",
     "practice": "Think of the last time you won against someone: an argument, a negotiation, a game played hard, a decision that went your way and not theirs. Recall the moment just after. Was there a taste? That is [[美|mei]]. The practice has three parts. Next time, before you use whatever weapon you have (rank, a sharp tongue, a better lawyer), ask the question from passage 30: is there truly no choice? If you go ahead, do it [[plain|tian-dan]], with no flourish. And when you have won, take one minute alone for the other person’s loss. Do not perform it for them. [[Stand in it.|weep]] A minute is not three years in hemp; it is the same rite in small. Then notice whether you still want to tell someone about your victory."
   },
+  "questions": [
+    {
+      "id": "victory-funeral",
+      "claim": "A victory in which people were harmed should be met with mourning and not with joy.",
+      "prompts": [
+        "Do you agree, even for a fight that had to be fought?",
+        "Think of a time when you won against someone. What did you feel in the first hour? What had you learned about winning as a child?",
+        "Hold the opposite view for a while: a hard win has earned its joy, and to mourn it dishonours the effort. What arises?",
+        "Is there a win of yours that you have not mourned, or a loss of another person that you enjoyed? Why is that worth knowing?"
+      ]
+    },
+    {
+      "id": "ill-omen-tools",
+      "claim": "Weapons are unlucky tools, used when there is no choice and then without relish.",
+      "prompts": [
+        "What are your weapons: rank, words, silence, money, anger? Do you think of them as unlucky?",
+        "When you say “I had no choice”, how often is it true? Where did you learn to say it?",
+        "Take the other side: strength that is shown and enjoyed keeps the peace, and shame about it is weakness. Stay with it. What do you notice?",
+        "Which do you fear more, your own force or your lack of it? What does the answer explain about how you act?"
+      ]
+    }
+  ],
   "glyph": "喪",
   "plates": [
     {

@@ -50,7 +50,7 @@
   "rendering": [
     "[[Those who use arms|yongbing]] have a saying:",
     "“I do not dare to be [[the host|zhuke]]; I am the guest.",
-    "I do not dare to advance [[an inch|cunchi]]; I go back a foot.”",
+    "I do not dare to advance [[an inch|cunchi]]; [[I go back a foot|jin-tui-pair]].”",
     "",
     "This is called [[marching ranks that are not there|hang]],",
     "[[baring an arm|rangbi]] that is not there,",
@@ -188,6 +188,11 @@
       "kind": "practice",
       "title": "Enter as a guest",
       "body": "Choose one conflict that is alive for you now: a dispute at work, an old argument at home. The next time it opens, try the two halves of the saying. First, be the guest. Do not set the terms, the place, or the first topic. Let the other person be host in their own matter, and answer what is said, not what you prepared. Second, when you feel the wish to press a small advantage, a point scored or a slip of theirs, give back a foot: say what is true in their case. Watch the four signs in yourself: the line you have drawn up, the sleeve that goes up, the hand that reaches, the weapon that you hold ready. Before all this, ask the last line’s question. If you won, what would be lost, and would you [[mourn|ai]] it?"
+    },
+    "jin-tui-pair": {
+      "kind": "pair",
+      "title": "進 and 退, 主 and 客: a step back inside a fight",
+      "body": "The saying sets host against guest (主, 客) and advance against retreat (進, 退), and each time it takes the second. This is not a rule that retreat is good. The speaker is one who uses arms, and the passage ends with a side that wins. The step back is a move inside a fight. It [[gives a foot where it could take an inch|cunchi]], and it lets the other side spend its force. The pairs also depend on each other. There is no guest with no host, and no going back with no one who comes on. And they turn: in the military books [[the guest|zhuke]] is the army that has gone deep into another’s land. The preference corrects an age that honoured the first strike. A step back made from fear, or from contempt, is a different act; the passage calls [[taking the enemy lightly|qingdi]] the great disaster. What makes a step back strong?"
     }
   },
   "lenses": {
@@ -216,6 +221,38 @@
       "title": "A foot arrives under a roof",
       "lesson": "The top is 宀, a roof with its ridge and two eaves; it marks houses and what happens in them, as in 家, 室, 安, and 宿. Under the roof is 各. The Shuowen takes 各 as the sound and defines 客 as 寄也, “to lodge with another”. But look at 各 itself. Its lower part is 口, here an opening, the entrance of a dwelling. Its upper part, 夂, is commonly explained as a foot that points downward: a foot that comes toward the entrance. The Shuowen’s own note keeps the motion: 夊者，有行而止之, “a walking that is brought to a stop”. So 各 is an arrival, and scholars take it as the first way of writing a word for “to come, to arrive”. Put a roof over an arrival, and you have a guest. The foot is the part to remember. A guest is the one who has come from outside, who does not own the roof, and who will go. The same 各 gives its sound to 路, a road; 落, to fall; 格, a frame; and 洛, the river Luo. In passage 35 music and good food make the passing guest, 過客, stop. Here the general chooses to be [[the guest|zhuke]]: under another’s roof, and careful where the feet go.",
       "brush": "Nine strokes. The roof first: a dot at the top centre; a short vertical dot at the left; then a long horizontal that turns down at its right end in a short hook. Under it, the foot: a stroke that falls to the left; then a short horizontal that turns and falls to the left in one movement; then a long stroke to the right, which crosses the second and is pressed wide at its end. Last the mouth, in three strokes: left side, top and right side, base. Watch the long stroke to the right, the sixth. It reaches out from under the eaves, wider than the roof, and it gives the character its ease. The roof must be broad but light, and the mouth small and firm at the foot. If the roof is heavy, the guest looks shut in."
+    }
+  ],
+  "questions": [
+    {
+      "id": "guest-not-host",
+      "claim": "In a conflict it is safer to answer than to begin, and to give ground than to take it.",
+      "prompts": [
+        "Is this your way or its reverse? Think of your last quarrel: who moved first?",
+        "What did giving ground mean where you grew up: good sense, or weakness?",
+        "Take the opposite: the one who moves first sets the terms, and ground given is ground lost. Stay with it. What feelings come with the thought of the first step?",
+        "When you step back, is it room given, or a wish to avoid the meeting? What do you think of people who do not step back?"
+      ]
+    },
+    {
+      "id": "grief-wins",
+      "claim": "When two matched forces meet, the side that grieves is the side that wins.",
+      "prompts": [
+        "Does this seem true to you, or only fine-sounding? What would it mean in a dispute that you know?",
+        "Have you won something and felt no grief for what it cost the other side? Have you lost to someone who was sorry to win?",
+        "Hold the other view: grief weakens the hand, and the one who wants it more wins. Where did you learn that?",
+        "What do you do with sorrow in a conflict: show it, hide it, turn it to anger?"
+      ]
+    },
+    {
+      "id": "taken-lightly",
+      "claim": "To take an opponent lightly is the greatest danger, since it costs what one holds most dear.",
+      "prompts": [
+        "Whom or what do you take lightly at present? What makes you sure?",
+        "Where in your life does no one oppose you? What has that done to your care and your restraint?",
+        "Take the opposite: respect for the opponent turns into fear, and fear loses. Is that your experience?",
+        "Think of a person who still opposes you. What do you owe to that person?"
+      ]
     }
   ]
 }

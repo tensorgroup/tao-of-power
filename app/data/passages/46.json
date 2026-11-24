@@ -34,7 +34,7 @@
   "rendering": [
     "When [[the world has Dao|youdao]],",
     "[[running horses|zouma]] are [[turned back|que]] to [[dung the fields|fen]].",
-    "When the world has no Dao,",
+    "[[When the world has no Dao|pair-dao-no-dao]],",
     "[[war horses|rongma]] [[are born|sheng]] at the [[outskirts|jiao]].",
     "",
     "No [[calamity|huo-jiu]] is greater than not to know enough;",
@@ -182,6 +182,11 @@
       "kind": "practice",
       "title": "Find the fast horse",
       "body": "Every life keeps some running horses: strength that is fed and trained for a contest. It may be the hours given to rivalry at work, the attention spent on a quarrel, the money held ready to win something. Name one today. Then ask the question of the first line: what would it mean to turn this back to the field? The same energy, on the thing that feeds you and the people near you. Do one small act of that kind. Then ask the second question, which is harder. Is there a mare at the front? Something that should be resting, growing, or bearing, a body, a child’s time, a friendship, that the contest has taken into service?"
+    },
+    "pair-dao-no-dao": {
+      "kind": "pair",
+      "title": "有道/無道: one horse, two uses",
+      "body": "The passage is built on 有 and 無: the world has Dao, the world has no Dao. It does not picture two worlds. It pictures one animal. The same horse dungs the field or is born to war at the border. So the two states lie near each other, and one turns into the other when [[the wish to get|yude]] moves. The second pair is enough 足 and not-enough 不足. The text clearly favors “enough”, and it speaks to rulers whose wanting filled the outskirts with war horses. But [[the last line|zuzu]] does not rank a small store over a large one. It moves the measure from the store to the knowing. The favored side turns too: “enough” as a fixed rule can be a refusal to see real need, and a contentment that is announced is one more thing gained. A one-sided reading makes peace and war two kinds of people. Where is your horse today?"
     }
   },
   "lenses": {
@@ -204,6 +209,38 @@
       "title": "What looks like rice and is not",
       "lesson": "Read the modern character from the top and you get a pleasant error: 米, rice; 田, a field; 共, together. Rice, field, shared: a farm. None of the three is what it seems. The Shuowen has the word under an older graph and defines it as 棄除也, “to throw out, to clear away”. It explains the parts: two hands, 廾, push a kind of dustpan and throw out what is in it. Then it quotes an authority, Guan Pu, on the top part: 似米而非米者，矢字, “that which is like 米 and is not 米 is the graph for excrement”. So the “rice” is waste; the “field” is the pan or basket; and “together” is the two hands at the bottom. The first sense is to sweep out the house or stable. The second sense is the thing that is swept out. The third is what a farmer does with it: to dress a field. That is the sense of [[以糞|fen]] in this passage. One character holds the whole circle: the stable is cleaned, and the field is fed. Two cousins by the hands: 共 itself, and 棄, “to abandon”, the first word of the Shuowen’s definition, which the dictionary also explains with two hands and the same pan.",
       "brush": "Seventeen strokes in three floors. The top floor is six strokes, written like 米: a dot at upper left, a short stroke at upper right that leans in, a horizontal, a vertical through it, then a stroke that falls to the left and one that falls to the right. The middle floor is the box, five strokes: left side; top and right side in one; the inner horizontal; the inner vertical; the base. The bottom floor is six strokes: a horizontal, two short verticals, a long horizontal, and two dots below that lean apart. Watch the fifteenth stroke, the long horizontal near the bottom. It is the widest line in the character and the two hands carry everything on it. The danger is height. A good writer presses each floor flat, so that three characters’ worth of strokes fit in one square."
+    }
+  ],
+  "questions": [
+    {
+      "id": "wanting-makes-war",
+      "claim": "The greatest disasters start from not knowing what is enough and from the wish to get.",
+      "prompts": [
+        "Does this explain the conflicts that you know at close range: in a family, at work, in yourself?",
+        "Where is your own wish to get strongest? What lack, real or remembered, feeds it?",
+        "Take the opposite: wanting more is what built every good thing that we have, and contentment keeps people poor. What in you cheers at that?",
+        "When you see greed in another person, what do you feel? Is there a want of your own that you do not allow yourself?"
+      ]
+    },
+    {
+      "id": "enough-is-knowing",
+      "claim": "Enough is not an amount; it is a kind of knowing, and that knowing does not run out.",
+      "prompts": [
+        "Is that true for you, or does enough in fact depend on how much there is?",
+        "Recall a time when you had little and felt that it was enough, and a time when you had much and did not. What was different?",
+        "Hold the other side honestly: some people do not have enough, and to tell them that it is a matter of knowing is an insult. What does that do to the line?",
+        "Which statement would you defend at a dinner table? Which one do you live by?"
+      ]
+    },
+    {
+      "id": "where-the-horses-are",
+      "claim": "The state of a world shows in where its best energy is put: on the field or at the border.",
+      "prompts": [
+        "Where are your fast horses today? On what feeds you, or on a contest?",
+        "Who or what trained you for the contest? What did you fear would happen if you did not compete?",
+        "Suppose that the border must be guarded, and that a life with no fight in it is taken by others. What truth is in that for you?",
+        "What would you have to trust in order to turn one horse back to the field?"
+      ]
     }
   ]
 }

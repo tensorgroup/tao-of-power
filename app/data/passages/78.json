@@ -37,7 +37,7 @@
     "nothing can beat it:",
     "[[there is nothing to put in its place|yi]].",
     "",
-    "Weak overcomes strong,",
+    "[[Weak overcomes strong|weak-strong]],",
     "soft overcomes [[hard|gang]].",
     "Under heaven [[no one does not know this;|mo]]",
     "no one can walk it.",
@@ -209,6 +209,11 @@
       "kind": "practice",
       "title": "Be the low place once",
       "body": "In any group, some things roll downhill until they find a person: the task that no one wants, the complaint with no clear owner, the fault that belongs to everyone a little. Most of us step aside by reflex. Once this week, when such a thing rolls toward you, hold out your hands. Say “give it to me”, or simply take it, and add no speech about it. Then observe three things. First, what the others do: often the room relaxes, as ground drains when it has an outlet. Second, what your body does: the pull to explain, to mention that it was not your fault. Third, whether you can let the dirt settle in you without becoming dirty in your own eyes. Water that takes mud is still water. Do not do this every time. The verse describes a ruler, and one must know the size of one’s lake."
+    },
+    "weak-strong": {
+      "kind": "pair",
+      "title": "弱 and 強, 柔 and 剛: which one is strong?",
+      "body": "The line names two pairs, 弱 and 強, 柔 and 剛, and joins each with 勝, to overcome. It is easy to freeze this into a rule: the weak wins. The Chinese has no “always”, and the passage itself undoes the rule. Water is called the weakest thing, and in the same sentence it [[attacks|gong]] and nothing can beat it. At the moment of victory the weak one is the strong one; the pair has turned. The wall turns as well: the hard thing is the thing that breaks. Water is not soft at all hours. It is ice in winter and a flood in spring. The text favors the soft side as a correction, in an age that knew the saying and still ranked by force. The second half shows the same turn in a ruler: the lowest place, which takes the dirt, is the lord’s seat. The last line names the method. [[正 and 反|zheng-yan]], straight and reversed, are how each side sounds from the other."
     }
   },
   "lenses": {
@@ -219,6 +224,37 @@
     "nature": "A gorge is the plain proof of the first lines. A river with no edge cut it through rock, and it used the rock’s own grit as its teeth. Water does this by being [[what nothing can replace|yi]]: it keeps its nature at every point, and it never stops arriving. The second half of the passage is also in the landscape. Follow any stream down and you reach a marsh, a delta, a lake bed. All the dirt of the country ends there: silt, leaves, the waste of towns. These low, muddy places are the most fertile ground on earth, and the early states of China grew on river silt. The saying in the Zuo chronicle puts [[the ruler beside the marsh|gou]] for this reason. In the living world, to receive the dirt is the start of soil. The first altar of a state was [[a mound of earth|sheji]].",
     "practice": "Use water today as a teacher, twice. First, with the hands: when you wash something, watch what the water does. It does not scrub. It takes the dirt into itself and carries it down, and the thing is clean because the water agreed to be dirty. Second, with people: [[be the low place once|low-water]]. When a small blame is in the air and looking for someone, receive it, even if only a tenth of it is yours, and say nothing in your defence. Feel how much effort the usual defence costs. In the evening, read the last line again, 正言若反, and pick one sentence from this book that sounded upside down when you first met it. Does it [[still seem reversed|zheng-yan]]? Then compare the saying with [[Legge’s hymn stanza|legge]]."
   },
+  "questions": [
+    {
+      "id": "weak-wins",
+      "claim": "The weak overcomes the strong and the soft overcomes the hard, as water wears down a wall.",
+      "prompts": [
+        "Do you believe it? Everyone is said to know it. Do you know it in a way that changes what you do?",
+        "Recall a time when you gave way and it worked, and a time when you gave way and were simply run over. What made the difference?",
+        "Take the other side honestly: force decides, and softness wins only when force allows it. Stay with that. What in your history speaks for it?",
+        "If you find that you trust only one of the two, what would it cost you to grant the other its hour?"
+      ]
+    },
+    {
+      "id": "know-not-walk",
+      "claim": "Everyone knows that yielding works, and almost no one can live by it.",
+      "prompts": [
+        "Name one thing that you know to be right and do not do. How long have you known it?",
+        "What stands between the knowing and the doing: a fear, a habit, a picture of the person you would be if you did it?",
+        "Try the opposite thought: if you do not act on a thing, you do not in fact know it. Is that fairer to you, or harsher?"
+      ]
+    },
+    {
+      "id": "take-dirt",
+      "claim": "The right to lead belongs to the one who takes the dirt and bad luck of the group.",
+      "prompts": [
+        "Do you agree, or do you think that authority should rest on skill, or strength, or the choice of the group?",
+        "When blame was in the air in your first family, where did it land? Were you the one who took it, or the one who stepped aside?",
+        "Now hold the opposite: a person who takes on what is not theirs lets the others stay careless, and is used. What rises in you: recognition, resentment, relief?",
+        "Is there dirt of your own that you leave for someone else to hold? Who holds it?"
+      ]
+    }
+  ],
   "glyph": "垢",
   "plates": [
     {

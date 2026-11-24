@@ -70,12 +70,12 @@
     "Block [[the openings|dui]],",
     "shut [[the gates|men]]:",
     "to the end of life, [[no wearing out|qin]].",
-    "Open the openings,",
+    "[[Open the openings|pair-shut-open]],",
     "[[add to the business|ji]]:",
     "to the end of life, no rescue.",
     "",
     "To see the small is called [[clear sight|ming]].",
-    "To keep to the soft is called [[strength|qiang]].",
+    "To [[keep to the soft|pair-soft-strong]] is called [[strength|qiang]].",
     "Use [[the light|guang]],",
     "and go back again to the clear sight.",
     "[[Leave the body no calamity|yang]].",
@@ -230,13 +230,23 @@
       "kind": "practice",
       "title": "Shut the gates for ten breaths",
       "body": "Sit. Close the mouth and let the tongue rest. Lower the eyes or close them. For ten slow breaths, let sounds come and do not go out to meet them; let thoughts of business come and do not [[add to them|ji]]. That is all. Then open the eyes and use them: look at one thing with full attention, a leaf, a face, a line of text. When you have seen it, do not go at once to the next thing. Come back for one breath to the one who was looking. Out, and home: the child, and the mother; [[the light, and the clear sight|guang]]. Do this three times today, at the start of three ordinary tasks. The passage calls the habit [[practising the constant|xichang]]."
+    },
+    "pair-soft-strong": {
+      "kind": "pair",
+      "title": "柔 / 強: the soft that is called strong",
+      "body": "柔 and 強, soft and strong, are a pair that the book comes back to often. Common speech sets them apart. This line joins them with 曰, “is called”: to keep to the soft is the strong. It does not say that soft is good and strong is bad. If it did, it could not use 強 as its word of praise. The [[Shuowen’s pictures|qiang]] show how each holds the other: green wood that bends, and the bow that is made of it. The text leans toward the soft, and the lean is a correction. The age prized hard force, and the book points at what that age did not see. The soft side turns too. Wood that bends and has no spring is no bow. And passage 55 uses the same form of line with 強 as a warning. Which of the two sides do you trust less?"
+    },
+    "pair-shut-open": {
+      "kind": "pair",
+      "title": "塞 / 開: shut and open, out and back",
+      "body": "The middle lines set 塞 and 閉, to block and to shut, against 開, to open. The two results look like a verdict: shut is safe, and open is past rescue. Read with the rest, they are two halves of one movement. The first lines say to know [[the child|zi]], and the later lines say to use [[the light|guang]]. Both are a going out, and the passage does not cancel them. It adds 復, “back”. An opening that can also close is a gate. The trouble named in the second triplet is an opening that has lost its other half. So the text favours the closing, because people do it less. Closing turns as well. A gate that stays shut is a wall, and then the mother has no child to know. What do you open with ease, and what do you find hard to shut?"
     }
   },
   "lenses": {
     "ground": "Three movements, each with the same shape. First: the world has [[a beginning|shi]], its [[mother|mu]]; get the mother, know [[the child|zi]], and [[go back to keep the mother|shou]]. Second: two matched triplets on [[the openings|dui]] and [[the gates|men]]. Close them, and life is [[not worn out|qin]]. Open them and [[succeed in affairs|ji]], and life is beyond rescue. Third: two definitions, of [[clear sight|ming]] and of [[strength|qiang]]; then [[the light|guang]] that is used and brought home. In each movement something goes out, child, business, light, and the instruction is the word 復, “again, back”, which appears twice. The close gives the whole a name: [[practising the constant|xichang]]. The passage begins with the mother of the world and ends inside one body, and it treats these as one subject.",
     "inner": "This is one of the book’s clearest texts on practice, and its instruction is a single gesture: return. Attention is born from a quiet source, goes out through the senses into the world of things, and usually does not come back; it goes on to the next thing, and the next. The passage does not forbid the going out. It says: know the child, use the light. It adds the half that is forgotten. After knowing, come back to what knows. [[Closing the gates|men]] is the same gesture made with the body. The fruit is described in negatives, [[not worn out|qin]], no danger, [[no calamity left behind|yang]], because what is gained is not a new experience. It is the end of a leak. The mother was never far. One was only facing the other way.",
-    "leading": "For a person with responsibilities the second triplet is the uncomfortable one: [[濟其事|ji]], to bring one’s affairs to success, is set on the wrong side. The text does not say that work is bad. It describes someone who is all outlet: every channel open, every matter answered, a life of pure response. Such a person is effective for years and at the end is past help, because nothing was ever brought home. [[Wang Bi|wangbi]] reads the lines on light as advice to a ruler: let your clarity guide people, and do not turn it on them as a searchlight. And [[見小曰明|ming]] is a rule that any leader can use. The useful sight is of small things, early: the first sign of trouble, the quiet person, the detail before it has grown.",
-    "body": "[[守柔曰強|qiang]] is a law of the body before it is a philosophy. The Shuowen’s 柔 is green wood that bends, and its true “strong” is the bow. A joint that is held soft can take a load from any angle; a locked joint has one angle and then breaks. Stand with knees and elbows a little bent and let someone press on your arm: the soft arm sends the force to the ground, and the stiff arm sends it to the shoulder. The [[gates|men]] have a bodily sense too. Close the mouth and breathe through the nose. Let the eyes rest. The energy that goes out all day in talk and looking stays in, and one finishes the hour less tired. That is 終身不勤 on the scale of an afternoon.",
+    "leading": "For a person with responsibilities the second triplet is the uncomfortable one: [[濟其事|ji]], to bring one’s affairs to success, is set on the side that ends past rescue. The text does not say that work is bad. It describes someone who is all outlet: every channel open, every matter answered, a life of pure response. Such a person is effective for years and at the end is past help, because nothing was ever brought home. [[Wang Bi|wangbi]] reads the lines on light as advice to a ruler: let your clarity guide people, and do not turn it on them as a searchlight. And [[見小曰明|ming]] is a rule that any leader can use. The useful sight is of small things, early: the first sign of trouble, the quiet person, the detail before it has grown.",
+    "body": "[[守柔曰強|qiang]] is a fact of the body before it is a philosophy. The Shuowen’s 柔 is green wood that bends, and its true “strong” is the bow. A joint that is held soft can take a load from any angle; a locked joint has one angle and then breaks. Stand with knees and elbows a little bent and let someone press on your arm: the soft arm sends the force to the ground, and the stiff arm sends it to the shoulder. The [[gates|men]] have a bodily sense too. Close the mouth and breathe through the nose. Let the eyes rest. The energy that goes out all day in talk and looking stays in, and one finishes the hour less tired. That is 終身不勤 on the scale of an afternoon.",
     "nature": "The mother and child are literal in every field. A river is the child of its spring, and the water that reaches the sea comes back as rain. A tree sends out leaves, the leaves fall, and the tree feeds on them at the root; [[Wang Bi’s|wangbi]] root and tip are a real tree. A bird flies out from the nest and returns at dusk. The character 習, [[to practise|xichang]], is that bird, young, trying its wings again and again near home. The rhythm of all living things is out and back, and what only goes out, a stream cut off from its source, a branch off the tree, lasts for a short time. The passage asks a human life to keep the same rhythm that a day and a year already have.",
     "practice": "Do the exercise of [[ten breaths with the gates shut|practice]], three times today, each before an ordinary task. In the evening, look back on the day for one case of [[見小|ming]]: a small thing that you noticed early. And look for one place where you went out and did not come home: an hour in which attention ran from thing to thing. Do not scold yourself for it. Only notice, at the end of that hour, [[how tired you were|qin]]."
   },
@@ -259,6 +269,29 @@
       "title": "Wings, again and again",
       "lesson": "The top is 羽, feathers: two wings side by side, each with its quills. The Shuowen calls it a picture of the long feathers of a bird. The bottom is written 白, “white”, in the modern form; scholars debate what it was at first, and some early forms seem to have a sun, 日, there. The Shuowen’s definition is what matters: 習，數飛也, “to fly again and again”. A young bird at the edge of the nest beats its wings, lifts, drops back, and tries once more. An old calendar text says of the sixth month: 鷹乃學習, “the young hawks now learn and practise”, and those last two characters are the modern Chinese word for “to study”. Confucius opens the Analects with the same pair: to learn, and at due times to 習 it. From flying practice came practice of any kind, then habit, custom, what one is used to. A related word of the same sound is 襲, to put on a garment, which [[other texts read here|xichang]]. In this passage the thing practised is 常, the constant: the going out and coming home of the mother and child, of the light and the clear sight. The image fits closely. A fledgling’s practice is a short flight that always ends back at the nest.",
       "brush": "Eleven strokes: six for the wings, five for the base. Each wing is three strokes: a horizontal that turns and comes straight down; then a dot inside, which points down to the right; then a second small stroke inside that rises to the right. Write the left wing, then the right wing, and make them twins. They stand side by side at the top and take the full width. Then the base: a short stroke that falls to the left from under the middle of the wings; the left side of the box; the top and right side in one stroke; a horizontal inside; and the bottom line. Watch the four small strokes inside the wings. They are the quills. In each wing the dot and the rising stroke lean toward each other, and all four must be light and quick. The box below is narrower than the wings, as a body is narrower than a wingspan."
+    }
+  ],
+  "questions": [
+    {
+      "id": "all-outlet",
+      "claim": "A life with every opening open wears out, and a life that returns to its source does not.",
+      "prompts": [
+        "Do you agree? Look at one recent week of your own before you answer.",
+        "What do you believe about being available, busy, and quick to respond? Whose approval did that belief first win you?",
+        "Hold the opposite for a while: life is for going out, and a person who shuts the gates has stopped living before the end. What comes with that thought: energy, guilt, a fear of missing something?",
+        "When you are told to withdraw and rest, what in you objects? When you are told to engage more, what objects? Which voice is older?"
+      ]
+    },
+    {
+      "id": "soft-is-strong",
+      "claim": "To keep to the soft is the real strength.",
+      "prompts": [
+        "Has this been true in your life? Name one time when yielding held, and one time when it did not.",
+        "What were you taught about softness as a child, and by whom? Was it a danger, a duty, or a gift?",
+        "Now take the plain opposite: strength is hardness, and the soft are pushed aside. Believe it for a few minutes. What memories come up to support it?",
+        "What do you feel toward people who are harder than you, and toward people who are softer? What do those feelings say about the side that you have not owned?",
+        "Why might it help to know which side you were given, and which side you chose?"
+      ]
     }
   ]
 }

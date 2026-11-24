@@ -62,7 +62,7 @@
     "dead, [[dry and withered|ku-gao]].",
     "",
     "[[So|gu-yue]] the hard and strong are [[the company of death|tu]];",
-    "the soft and weak are the company of life.",
+    "[[the soft and weak|soft-hard]] are the company of life.",
     "",
     "For this reason",
     "[[an army that is strong does not win|bing-qiang]];",
@@ -199,7 +199,7 @@
     "chu-xia": {
       "kind": "wangbi",
       "title": "Wang Bi: it is a tree",
-      "body": "強大處下，柔弱處上: the strong and great are placed below; the soft and weak are placed above. Many readers hear a promise that the ranks of society will be reversed, and English readers hear the verse about the meek who inherit the earth. Wang Bi reads no such promise. His two notes are among the shortest in his commentary. On “below”: 木之本也, “this is the root and trunk of the tree”. On “above”: 枝條是也, “this is the branches and twigs”. The line still describes the tree of the line before. The thick, hard part is at the bottom. The part that moves in the wind, puts out leaves, and takes the light is at the top. It is a description of how a living thing is arranged. Whether it is also a statement about rank, the reader must decide. In this book, the low place is usually the better one (8, 66).",
+      "body": "強大處下，柔弱處上: the strong and great are placed below; the soft and weak are placed above. Many readers hear a promise that the ranks of society will be reversed, and English readers hear the verse about the meek who inherit the earth. Wang Bi reads no such promise. His two notes are among the shortest in his commentary. On “below”: 木之本也, “this is the root and trunk of the tree”. On “above”: 枝條是也, “this is the branches and twigs”. The line still describes the tree of the line before. The thick, hard part is at the bottom. The part that moves in the wind, puts out leaves, and takes the light is at the top. It is a description of how a living thing is arranged. Whether it is also a statement about rank, the reader must decide. The book often praises the low place (8, 66), and here the low place holds the hard part. “Below” and “above” are two positions in one tree, and neither is a prize.",
       "src": [
         "Wang Bi commentary on Laozi 76"
       ]
@@ -224,16 +224,52 @@
       "kind": "practice",
       "title": "The proof is in the hand",
       "body": "The passage argues from touch, so test it by touch. Press the pad of your thumb into the muscle of your forearm. It gives, and when you let go it returns: that is 柔. Bend a green twig and a dry one. Then find the places where you are, at this moment, 堅強 without need. The usual ones are the jaw, the tongue against the palate, the shoulders, the hands, the belly. In each, something is braced against a blow that has not come. Let one of them go soft and see what feeling was held under it. Often it is a small fear. The passage does not ask you to be limp. A living branch is not limp. It asks on which side of the line each part of you now stands."
+    },
+    "soft-hard": {
+      "kind": "pair",
+      "title": "柔弱 and 堅強: the twig and the trunk",
+      "body": "The passage sets 柔弱, soft and weak, against 堅強, hard and strong, and ties them to a second pair, 生 and 死. It plainly favors the soft. The preference is a correction. The age admired the strong army and the tall tree, and the text points at what that admiration does not see. It is not a rule for all time. The soft side turns: the tender shoot is [[easy to snap|cui]], and green wood that lives becomes trunk. The hard side has its work too. The last lines do not remove the strong and great. They give it a place, below, where it carries the twigs; a tree with no heartwood does not stand. Elsewhere the book calls keeping to the soft a kind of [[strength|qiang]]. So the two depend on each other in one body. A reader who hears only “soft good, hard bad” will miss where hardness belongs, and the moment when softness has become limp."
     }
   },
   "lenses": {
     "ground": "The passage is a proof from the hand, in four steps. Step one: touch a person. [[Alive|sheng]], the body is [[soft|rou]] and [[weak|ruo]]; [[dead|si]], it is hard and stiff. Step two: touch a plant. Alive, it is soft and [[tender|cui]]; dead, it is [[dry wood|ku-gao]]. Step three, the rule, perhaps [[an old saying|gu-yue]]: hardness belongs to [[death’s company|tu]], softness to life’s. Step four applies the rule to the two things that the age admired most, a strong army and a tall tree: the first [[does not win|bing-qiang]], and the second [[is cut down|mu-qiang]]. The close turns the tree into a diagram: [[thick trunk below, soft twigs above|chu-xia]]. The key word [[強|qiang]] comes five times. The evidence is all physical: skin, a shoot, a dry stick, an axe. No abstraction is needed, and the text uses none.",
     "inner": "Apply the test to the mind. A living view can be bent and comes back; it can take a question. A dead view is hard: it cannot be touched without a crack, and so it has to be defended. Most of us carry some of each. The hard ones feel like our strength, and they are often the positions we are most proud of. The passage suggests that they are the parts that have already stopped. This is uncomfortable, and the text does not soften it: [[弱|ruo]] is “weak”, the word that no one wants. To let a fixed opinion become tender again is to feel, for a while, without defence. That feeling is the [[brittle softness|cui]] of a new shoot. The passage counts it as the sign of life. Where are you certain in a way that cannot bend?",
     "leading": "The fourth step speaks to those who build strong things: 兵強則不勝, a strong army does not win. Wang Bi’s reason is that [[everything else comes to hate it|bing-qiang]]; the fall of [[the strongest house in Jin|zhi-bo]] was the textbook case. An organisation is strong in this fatal sense when it cannot bend: its rules have no exceptions, its plans admit no doubt, its leader is never wrong. Such a group wins for a while and then meets the one situation that its strength does not fit. The last line gives a design. Put what is strong and large [[underneath|chu-xia]], as support: the trunk, the budget, the firm commitments. Put what is soft at the top and the edge, where the group meets the weather: the people who listen and adjust. Most organisations do the reverse. They put the hardest person at the front.",
-    "body": "This is the passage that the soft martial arts took as their own, and [[柔道|rou-dao]] carries its first adjective in its name. The body lesson is exact. A stiff arm gives the partner a handle: the force goes straight through it to your centre. A soft arm gives nothing to push on, and it can still feel. Softness here is the state in which you get the most information, because a tense muscle is numb. Age is partly a slow rehearsal of the corpse: joints lose range, the breath grows shallow, the face sets. Practice works against this by wetting and bending, never by forcing. [[Test it with your hand.|touch]] The infant of passage 55 is the model: bones weak, sinews soft, and a grip that does not let go.",
+    "body": "This is the passage that the soft martial arts took as their own, and [[柔道|rou-dao]] carries its first adjective in its name. The body lesson is exact. A stiff arm gives the partner a handle: the force goes straight through it to your centre. A soft arm gives nothing to push on, and it can still feel. Softness here is the state in which you get the most information, because a tense muscle is numb. Age is partly a slow rehearsal of the corpse: joints lose range, the breath grows shallow, the face sets. Practice works against this by wetting and bending, and not by forcing. [[Test it with your hand.|touch]] The infant of passage 55 is the model: bones weak, sinews soft, and a grip that does not let go.",
     "nature": "Walk in a wood after a storm. The trunks that lie on the ground are mostly the big, rigid ones; some texts of this passage say outright that [[the strong tree breaks|mu-qiang]]. The grass under them is flat and will stand again by evening. The woodcutter makes the same choice as the wind: [[the straight tree is cut first|straight-tree]]. A living tree keeps its soft parts where the growth is: the tips of twigs and roots, and a thin wet layer under the bark. The heartwood that gives the trunk its strength is dead cells. So the tree itself has the arrangement of the last line: [[the strong and great below|chu-xia]] and within, the soft and weak above and outside. Water is the test in each case. Green wood is half water, and the Shuowen’s word for death is [[to run dry|si]]. Two passages later the book makes water its direct subject.",
     "practice": "Twice today, do [[the hand test|touch]]. Once on your own body: find one place that is hard without reason and let it go soft for three breaths. Once on your thinking: find one opinion that you hold stiffly and say aloud the best point on the other side, as if you meant it. Notice the moment of feeling undefended; it is short. Then look at one strong thing that you admire, a tree, a building, an institution, and ask where its softness is and whether it has kept any. If you want a companion text, read [[Legge’s version|legge]] and mark each place where he chose a gentler English word than the Chinese gives. Ask whether his choices are themselves soft, or only polite."
   },
+  "questions": [
+    {
+      "id": "soft-alive",
+      "claim": "What is soft and weak belongs to life, and what is hard and strong belongs to death.",
+      "prompts": [
+        "Do you accept this? Where does your own experience support it, and where does it refuse?",
+        "What were you told about weakness as a child? Who was called weak, and what happened to them?",
+        "Stand on the other side: hardness is what kept you alive and upright when things were bad, and softness was a luxury. Give that view its full weight. What does it remember?",
+        "Notice which word you would less like to hear said of you: “hard” or “weak”. What does that choice guard?"
+      ]
+    },
+    {
+      "id": "strong-falls",
+      "claim": "The strong army does not win, and the strong tree is the one that gets cut.",
+      "prompts": [
+        "Think of a strong thing that you have seen fall: a company, a body, a marriage, a state. Did its strength play a part?",
+        "Now think of a strong thing that lasted. What does the passage leave out?",
+        "Where are you strong in a way that others can see? Has that drawn the axe, or kept it away?",
+        "If strength both protects and exposes, how do you decide where to show it? What old lesson makes that decision for you?"
+      ]
+    },
+    {
+      "id": "below-above",
+      "claim": "In a living thing the hard and great part sits below, and the soft part is on top.",
+      "prompts": [
+        "Look at how you are arranged. What do you put in front when you meet people: the firm part or the tender part?",
+        "Where did that order come from? What happened, once, when the soft part was in front?",
+        "Reverse it in thought: let what is firm in you hold you up from below, unseen, and let what is soft meet the day. What do you expect to happen? Is that expectation a memory?"
+      ]
+    }
+  ],
   "glyph": "弱",
   "plates": [
     {

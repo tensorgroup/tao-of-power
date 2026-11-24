@@ -71,7 +71,7 @@
     "",
     "For this reason, the sage’s [[way of ordering|zhi]]:",
     "[[empty the heart|xu-xin]], fill the [[belly|fu]],",
-    "weaken the [[will|zhi-will]], strengthen the [[bones|gu]].",
+    "[[weaken|pair-xu-shi]] the [[will|zhi-will]], strengthen the [[bones|gu]].",
     "Always keep the people [[without knowing, without wanting|wuzhi]].",
     "Keep [[the clever ones|zhizhe]] from daring to act.",
     "",
@@ -225,6 +225,11 @@
       "kind": "practice",
       "title": "One day for the belly",
       "body": "For one day, take the four lines as directions for your own body. Empty the heart: at three set times, stop and drop the plan that you are turning over; it will come back by itself. Fill the belly: eat one plain meal slowly and stop at the point of enough. Weaken the will: choose one thing that you are pushing, and for today only, do not push it. Strengthen the bones: walk, carry something, stand well. In the evening, ask two questions. Did anything fall into disorder because you pushed less? And what did you not look at today, because you did not go where it was shown?"
+    },
+    "pair-xu-shi": {
+      "kind": "pair",
+      "title": "虛 and 實, 弱 and 強: both in one body",
+      "body": "Four lines use two pairs: 虛 empty and 實 full, 弱 pliant and 強 strong. The text does not choose one side of either pair. It gives each side a place. The heart is emptied and the belly is filled. The [[will|zhi-will]] is made pliant and the bones are made strong. A reader who knows later passages may expect “empty is good, full is bad” or “weak is good, strong is bad”. This stanza does not allow that: 實 and 強 are things that the sage brings about. The question is where each one sits. A full heart on an empty belly makes [[disorder|luan]]; so does a hard will on weak bones. The placing also turns with time. A belly that is filled past its need becomes the dulled mouth of passage 12, and a heart that is held empty by force is one more aim. What in you is full where it could be empty, and empty where it could be full?"
     }
   },
   "lenses": {
@@ -254,6 +259,29 @@
       "title": "The kernel of the flesh",
       "lesson": "The lower half is easy: it is the shape that looks like 月, “moon”. When this shape stands at the bottom or the side of a body word, it is nearly always 肉, flesh, in its short form. The Shuowen calls 肉 a picture of a cut of meat. You know it from 腹, belly, in this passage, and from 肝, liver, and 胃, stomach. The upper half is 冎. The Shuowen’s entry is grim: 剔人肉置其骨也, “to strip off a person’s flesh and leave the bone”, and it adds 頭隆骨也, “the domed bone of the head”. So the top is bare bone, and the bottom is flesh. The Shuowen joins them, 从冎有肉, “bone that has flesh”, and gives a definition from the fruit bowl: 肉之覈也, “the kernel of the flesh”. Bone is to the body what the stone is to a peach. Cousins: 體, the body as a whole, is 骨 with a sound part; the Shuowen counts it as “the twelve parts together”. 滑, slippery, is water beside 骨, where the Shuowen takes 骨 as the sound. And this character names the oldest Chinese writing that we have. The Shang kings cut their questions into ox shoulder blades and turtle shells: 甲骨文, “shell and bone script”. [[強其骨|gu]]: the passage asks for strength in the part that lasts and knows nothing.",
       "brush": "Nine strokes. The bare bone on top takes three: a short vertical on the left, then the top and the right side in one turning stroke, and a small inner corner. Keep this part narrow. Strokes four and five make a cover: a short dot on the left, then a wide horizontal that ends in a hook at the right. Watch that fifth stroke. It is the widest line of the character, like shoulders, and the head sits in the middle of it. Then the flesh below, four strokes: the left side, the top and right side with a hook at the foot, and two short horizontals inside that touch the left wall and do not reach the right. The form is a tall column: narrow head, broad shoulders, straight trunk. Calligraphers use this same word for good writing. Strokes with firm inner strength have 骨, and soft, fat strokes have only flesh."
+    }
+  ],
+  "questions": [
+    {
+      "id": "prize-makes-fight",
+      "claim": "When no one is held up as worthy, people do not contend; the prize makes the fight.",
+      "prompts": [
+        "Is this what you have seen in the families, schools, or teams that you know?",
+        "Were you a child who won prizes, or one who watched others win them? What did that teach you about your worth?",
+        "Take the opposite side: honor given to the able lifts everyone, and a group with no praise goes slack. Stay there for a while. What do you feel?",
+        "Which side do you defend at once? What might you lose if the other were also true?"
+      ]
+    },
+    {
+      "id": "pliant-will",
+      "claim": "A will made pliant and a heart made empty bring order; a fed belly and strong bones are enough.",
+      "prompts": [
+        "Do you agree that a softer aim could leave you better off? Answer before you make the answer polite.",
+        "What was said in your home about ambition, and about people who lacked it?",
+        "Now hold the opposite: a strong will is the best thing you have, and without it nothing in your life would stand. What arises?",
+        "Rulers have used this passage to keep people small. Has someone who gained from it told you to want less? Does that memory color how you read the line?",
+        "Which do you fear more in yourself, the driven one or the one with no drive?"
+      ]
     }
   ]
 }

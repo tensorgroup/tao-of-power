@@ -30,7 +30,7 @@
     "[[Not to know knowing|buzhizhi]]: [[a sickness|bing]].",
     "",
     "[[Just because|fuwei]] [[the sickness is taken as a sickness|bingbing]],",
-    "by this there is no sickness.",
+    "by this [[there is no sickness|zhi-buzhi-pair]].",
     "",
     "The [[sage|shengren]] is free of sickness:",
     "because the sage [[takes the sickness as a sickness|repeat]],",
@@ -139,6 +139,11 @@
       "kind": "practice",
       "title": "Three times “I don’t know”",
       "body": "Today, catch three moments in which you are about to speak with more certainty than you have: an opinion on the news, a judgment of a person’s motive, an answer to a child. In each, say the plain words: “I don’t know.” Say them with no apology and no hurry to add what you do know. Then stay in the gap for one breath. Notice the feeling in the body. For most people it is a small alarm, as if something had been lost. That alarm is the place where the passage points. The second half of the practice is the verb 病: once today, when you see a fault of your own in action, name it at once, to yourself or aloud: “that was vanity”, “that was fear”. Do not add blame. The naming is the treatment."
+    },
+    "zhi-buzhi-pair": {
+      "kind": "pair",
+      "title": "知 and 不知, 病 and 不病: each inside the other",
+      "body": "Two pairs make the whole passage: knowing and not-knowing (知, 不知), sickness and freedom from sickness (病, 不病). Neither pair is sorted into good and bad. Not-knowing appears on both sides of the first line: once inside [[the high thing|shang]] and once inside the sickness. What differs is whether it is known. So the high thing is still a knowing; the text does not praise ignorance. The second pair is tied closer still. The way to 不病 goes through 病: one must [[take the sickness as a sickness|bingbing]]. Health here is not the absence of the fault. It is the fault seen. A one-sided reading says “not-knowing is best” and makes a new certainty of it. That is 不知知 again, the sickness in fresh clothes. The preference corrects an age, and a kind of mind, that is paid to be sure. Can a person be sure of their not-knowing, and be well?"
     }
   },
   "lenses": {
@@ -161,6 +166,28 @@
       "title": "An arrow beside a mouth",
       "lesson": "The left side is 矢, an arrow. The Shuowen calls it the arrow of bow and crossbow and says that the graph shows 鏑栝羽之形, “the form of the head, the notch, and the feathers”. The right side is 口, a mouth. The Shuowen’s entry for the whole is short: 詞也。从口从矢, “a word of speech. From mouth and arrow”. It does not say why. The usual explanation, made famous by the Qing scholar Duan Yucai, is speed: one who knows a thing speaks of it at once, and the word leaves the mouth like an arrow. Others think of aim: to know is to hit the mark. Both are later readings of an old graph, so hold them lightly. The same arrow is in 疾, illness, under the sickness frame: an illness that strikes fast, and the old word also means “swift”. So the two key words of this passage, [[知|zhibuzhi]] and [[病|bing]], have relatives that share an arrow. Add 曰, “to speak”, now written like 日, beneath 知 and you have 智, “cleverness”; early manuscripts did not separate the two, and the Laozi distrusts the second. Note what the picture leaves out. It has no eye and no heart. In this graph knowing is a thing said: quick, aimed, and gone from the bow. The passage asks for the knowing that can stay on the string.",
       "brush": "Eight strokes: five for the arrow, three for the mouth. The arrow: a short stroke that falls to the left; a short horizontal that starts under it; a longer horizontal below; then a long stroke that falls to the left through both; and last a dot to the right. When 矢 stands alone, its final stroke is a long sweep to the right. Here it is pulled in to a dot, to make room for its neighbour. This is a rule of the regular script: a part at the left gives way. Then the mouth: left side, top and right side with one corner, base. Watch its height. The mouth is set low, level with the foot of the arrow and well under its head, so that the character leans forward a little. If the mouth is as tall as the arrow, the character goes stiff."
+    }
+  ],
+  "questions": [
+    {
+      "id": "know-not-knowing",
+      "claim": "To know that one does not know is high; to take not-knowing for knowledge is a sickness.",
+      "prompts": [
+        "Do you agree? When did you last say “I do not know” and mean it?",
+        "What did not-knowing cost you at school, at work, at home? What did it cost the adults around you to admit it?",
+        "Take the other view: a person must commit to a judgment, and too much “I do not know” is a way to hide. Where is that true of you?",
+        "What do you feel toward people who are very sure? Toward people who are seldom sure? Which of the two are you afraid to be?"
+      ]
+    },
+    {
+      "id": "fault-seen",
+      "claim": "A fault that is seen as a fault has already lost its hold.",
+      "prompts": [
+        "Is this so in your experience? Name a fault that you see clearly and that still acts.",
+        "How were faults met where you grew up: named, punished, hidden, laughed at?",
+        "Hold the opposite: seeing is not enough, and a fault yields to effort and correction. Stay with that. Does it tire you or steady you?",
+        "Which is more natural to you, to look at a fault or to set about fixing it? What might the other way know?"
+      ]
     }
   ]
 }

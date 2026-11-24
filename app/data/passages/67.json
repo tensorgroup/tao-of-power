@@ -85,7 +85,7 @@
     "",
     "Now: to let go of tenderness and [[take|qie]] courage,",
     "to let go of spareness and take width,",
-    "to let go of the rear and take the front:",
+    "to let go of [[the rear and take the front|hou-xian-pair]]:",
     "[[that is death|si]].",
     "",
     "Tenderness: [[fight with it and win|zhan]];",
@@ -239,6 +239,11 @@
       "kind": "practice",
       "title": "Find the root of one brave act",
       "body": "Take the three pairs as three checks, one for each part of a day. Morning, courage: you will have to do one hard thing today, such as a refusal, a hard talk, or a risk. Before it, ask what it protects. If you can name a person or a living thing that you care for, go on; the courage has its root. If you find only the wish to look strong, wait. Midday, width: before you take on one more thing, look for one thing to use less of. Evening, the front: recall a moment when you made yourself first, in a queue, in a talk, in credit for work. Do not blame yourself. Notice what it cost, and who felt it. The passage says of the three: [[持而保之|bao]]. They are kept by daily handling."
+    },
+    "hou-xian-pair": {
+      "kind": "pair",
+      "title": "後 and 先, 慈 and 勇: root and fruit",
+      "body": "The passage gives three pairs: tenderness and courage (慈, 勇), spareness and width (儉, 廣), the rear and the front (後, 先). They look like opposites, and a quick reader ranks them: tender good, brave bad. The text says a different thing. Each first term produces the second: tender, 故, [[and so able to be brave|yong]]. Courage, width, and the head’s place are wanted, and they are reached. What the text calls death is to [[take|qie]] the second with the first let go: the fruit cut from the root. So the preference is for an order, and not for one side. It answers an age that grabbed at the front. The favoured side also turns. Tenderness goes out to fight in the last lines, and the one who stays behind becomes [[head|qizhang]]. What of tenderness from which no courage grows? The text does not name it. But it is the root that bears which is treasured here."
     }
   },
   "lenses": {
@@ -267,6 +272,38 @@
       "title": "A foot ahead of a person",
       "lesson": "The Shuowen says: 前進也。从儿从之, “to go forward. From 儿 (a person) and 之 (to go)”. The lower two strokes, 儿, are a person’s legs. The upper part was 之, and in the oldest forms 之 is commonly explained as a foot on a line: a foot that sets out. So the early graph is a foot drawn above a person: someone whose foot has already gone, the one in front. From “ahead in space” came “ahead in time”: 先 is “earlier, former”. 先生, “born before”, is a teacher, and today the plain word for “Mr.”. 先王 are the former kings. And 先 alone means forebears, the dead of the family: the Shuowen’s own entry on [[不肖|buxiao]] speaks of the child who is not like 其先. This gives the third treasure a second edge. 不敢為天下先 is not to dare to be the world’s forerunner, and also not to set oneself up as the world’s ancestor, the one from whom all must descend. The opposite word is 後, “behind, after”. The Shuowen defines it 遲也, “late”, and lists its parts: 彳, a step; 幺, a thread; 夊, a foot that drags. A foot on a thread walks behind. In this passage the foot that goes ahead is the [[dangerous one|xian]], and the foot that comes after is safe.",
       "brush": "Six strokes. First a short stroke that falls to the left. Second a horizontal that starts from it. Third a vertical through that horizontal, from above it to below. Fourth a long horizontal: the ground line, and the widest stroke of the upper part. Then the legs. The fifth stroke falls to the left in a long curve. The sixth goes down, bends to the right, runs along the base, and ends in a hook that turns up. Watch the sixth stroke. It is the largest movement in the character, and it carries the weight like a foot set well forward. The upper part should be small and upright, and the legs wide. In running script the last stroke is often left open, with no hook, and the brush leaves the paper on its way to the next character."
+    }
+  ],
+  "questions": [
+    {
+      "id": "brave-from-tender",
+      "claim": "Courage that lasts grows out of tenderness; courage taken with no such root ends in death.",
+      "prompts": [
+        "Think of the bravest thing that you have done. What was it for? Was care under it, or something else?",
+        "Were you taught that tenderness and courage go together, or that one must be given up for the other? By whom?",
+        "Hold the opposite: tenderness makes a person hesitate, and the brave act needs a hard heart. When have you believed that?",
+        "Which do you show more readily, the tender side or the brave one? What do you fear would happen if the other were seen?"
+      ]
+    },
+    {
+      "id": "not-first",
+      "claim": "The one who does not dare to go ahead of the world can become its head.",
+      "prompts": [
+        "Do you agree? Where have you seen a person reach the front because they did not seize it?",
+        "What is your own relation to being first: do you want it, avoid it, or deny that you want it?",
+        "Put the modern slogan in its place: dare to be first. Stay with it. What does it wake up in you?",
+        "If you hold back, is it this treasure, or is it fear in the treasure’s clothes? How would you know?"
+      ]
+    },
+    {
+      "id": "sparing-wide",
+      "claim": "Spending little is what makes it possible to reach far.",
+      "prompts": [
+        "Is this true in your use of money, words, or strength? Where has it failed?",
+        "What did your family teach about spending and saving? Did that come from want, from fear, or from choice?",
+        "Hold the other side: what is spent freely comes back, and a tight hand makes a small life. Which side resists in you?",
+        "What do you judge in people who spend in the way that you do not?"
+      ]
     }
   ]
 }

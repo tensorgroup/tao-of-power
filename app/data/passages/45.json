@@ -59,7 +59,7 @@
     "its use does not miss.",
     "",
     "[[Restlessness beats cold|zao]];",
-    "stillness beats heat.",
+    "[[stillness beats heat|pair-move-still]].",
     "[[Clear and still|qingjing]]:",
     "[[the measure of the world|zheng]]."
   ],
@@ -206,6 +206,11 @@
       "kind": "practice",
       "title": "Leave one chip",
       "body": "Take one piece of work today, a message, a plan, a drawing, a meal, and stop before the last round of polish. Leave the join visible. Then watch what the gap does. Often the other person steps into it: they add the missing part, ask the question, finish the thought. A sealed thing can only be admired. In a conversation, try the same with [[訥|ne]]: when you know the clever reply, wait for three breaths, and say the plain one, or nothing. This is not a method to look humble. It is a test of the first line: does the use wear out sooner when the thing is left a little open?"
+    },
+    "pair-move-still": {
+      "kind": "pair",
+      "title": "躁/靜, 寒/熱: each has its season",
+      "body": "Five pairs open the passage, joined by [[“seems”|ruo]]: complete and chipped, full and empty, straight and bent, skilled and clumsy, eloquent and tongue-tied. Then come two more, crossed: restless 躁 and still 靜, cold 寒 and hot 熱. Here the text gives each side its work. Movement answers cold. Stillness answers heat. Neither is the cure for all weather, and [[some editors|zao]] have wished to change the line because it lets restlessness win once. The last line does lean to the still side: clear and still is the measure, 正. A measure is not a place to stay. It is the level from which a person can tell which season it is. Stillness also turns: sit long enough and you are cold, and then the text itself says to move. A one-sided reading makes this passage a rule to be still, or a rule to look clumsy. What does the weather of today ask for?"
     }
   },
   "lenses": {
@@ -235,6 +240,28 @@
       "title": "Words kept inside",
       "lesson": "Left: 言, speech. Right: 內, inside. The Shuowen takes both parts as meaning: 言難也。从言从内, “speech is difficult; from 言 and from 內”. Look first at 言. At its base is 口, a mouth; the lines above it are explained in different ways, and the Shuowen calls the upper part a sound element. It defines the word with a distinction: 直言曰言，論難曰語, “to speak straight out is 言; to discuss and dispute is 語”. As a side part, 言 marks acts of speech: 語, 說, 論, 誠 (sincere: speech made complete), 信 with a person beside it (trust), and 辯, the [[disputation|bian]] of this same line, where 言 stands between two litigants. Now 內. The Shuowen defines it as 入也, “to enter”, and adds 自外而入也, “from outside, to come in”: the part 入, enter, under a cover. Add a mouth to it and you have 吶; add silk and you have 納, to take in. So [[訥|ne]] is speech that has gone in, or has not yet come out. The line pairs it with 辯 on purpose. Both have 言. In one, speech stands in the middle of a quarrel. In the other, it stays at home.",
       "brush": "Eleven strokes. 言 takes seven: a dot, a long horizontal, two shorter horizontals, and then the mouth in three strokes: left side, top with right side, base. As a left-hand part it is written narrow, and its long horizontal reaches out only to the left, so that it does not strike the neighbour. 內 takes four. First the left vertical, then the top and right side in one stroke that ends in a hook. Watch the tenth stroke: it starts above the frame, comes in through the top, and falls to the left; the last stroke leans to the right from its middle. The brush enters the box from outside. Written so, with the left-falling stroke the higher one, the inner part is 人, a person. The Shuowen explains the older 入, “to enter”, in which the right-falling stroke is the higher."
+    }
+  ],
+  "questions": [
+    {
+      "id": "great-seems-flawed",
+      "claim": "What is truly complete looks flawed, and great skill looks clumsy.",
+      "prompts": [
+        "Whom do you know who fits this? And where has a flaw simply been a flaw?",
+        "How much of your effort goes to looking finished? Who is the audience that you picture?",
+        "Take the opposite: excellence shows, and a polished surface is honest evidence of care. Which of your own works say so?",
+        "What do you feel in front of a clumsy person: impatience, tenderness, superiority? What does that say about your own unfinished places?"
+      ]
+    },
+    {
+      "id": "two-medicines",
+      "claim": "Movement answers cold and stillness answers heat; each has its season, and a clear, still mind can tell which.",
+      "prompts": [
+        "Which of the two do you reach for by habit when you are troubled?",
+        "Where did the habit start? Was the other medicine not allowed, or not safe, in the house where you grew up?",
+        "Hold the view that the medicine you use less is the one that you need now. What objections come at once?",
+        "Do you agree that stillness is the measure? Or is that the taste of a tired age, or of a tired person?"
+      ]
     }
   ]
 }

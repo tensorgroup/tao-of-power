@@ -32,7 +32,7 @@
     "is to have to put [[the body|shen]] behind them.",
     "",
     "So the [[sage|shengren]] stays above, and the people [[feel no weight|zhong]];",
-    "stays in front, and the people take no harm.",
+    "[[stays in front|shang-xia-pair]], and the people take no harm.",
     "So all under heaven are glad to [[push the sage forward|tui]]",
     "and [[do not tire|yan]].",
     "",
@@ -162,6 +162,11 @@
       "kind": "practice",
       "title": "Go through the door last",
       "body": "Take the two halves of the passage as two small experiments. Words: in one meeting or one family talk today, speak after the others have spoken, and when you speak, say first what you heard. Do not use the low voice as a method to win. Only find out what you learn from that place. Body: once today, put the body behind. Go through the door last. Serve yourself last. Take the seat that no one wanted. These acts are small, and the body will tell you at once whether it holds a claim to the front. Then ask the question of the passage about your own position, wherever you are above someone: do they [[feel the weight|zhong]]? You may have to ask them."
+    },
+    "shang-xia-pair": {
+      "kind": "pair",
+      "title": "上 and 下, 先 and 後: the high place is kept",
+      "body": "Two pairs carry the passage: above and below (上, 下), ahead and behind (先, 後). It is easy to hear a rule in it: low is good, high is bad. The text does not say that. The sage 處上, stays above, and 處前, stays in front. The high place is not refused. What changes is the way to it and the weight of it: one comes to be above by [[going below|shanxia]], and then the people [[feel no weight|zhong]]. The image shows why the two sides need each other. With no valleys above them, the River and the sea have nothing to receive. With no low water, the valleys have nowhere to go. The preference for the low is spoken to those who are, or wish to be, above, in an age of kings who pressed down. The low place also turns: the one who goes below is [[pushed forward|tui]]. Then the question begins again."
     }
   },
   "lenses": {
@@ -185,6 +190,38 @@
       "title": "Water and a carpenter’s tool",
       "lesson": "The left side is 氵, “three dots of water”, the short form of 水 that marks nearly every word for a liquid or a river. The right side is 工. The Shuowen says of 工: 巧飾也。象人有規榘也, “skilled work; it shows a person with compass and square”. Modern scholars commonly see a single tool, perhaps a square or a rammer. In 江 the tool has no meaning. It is there for its sound, and Xu Shen chose this very character, with 河, as his example of the most common kind of graph, 形聲, “form and sound”: one part gives the class, one part gives the pronunciation. “江、河”是也, he wrote. Today 工 is gōng and 江 is jiāng, and the match is hard to hear. In the old language they were close; both belong to one old rhyme group (the 東 group). The same family includes 紅, red; 空, empty; 功, merit; 攻, to attack; and 項, the neck, which changed as 江 did. Note what kind of word this is: [[a proper name|jianghai]]. 江 was the one great river of the south. Some linguists propose that the word itself came from a language of the southern peoples; that is a hypothesis. From this one graph and its northern partner 河, Chinese built its general words for rivers.",
       "brush": "Six strokes. The water first: a dot that falls to the right; a second dot under it, a little to the left; then a stroke that begins low and flicks up to the right. Watch the third stroke: its tip points at the start of the next part, and so hands the movement across. Then 工: a short horizontal, a vertical from its centre, and a long horizontal at the base. The lower horizontal is the longest line in the character. It runs under the water dots like a riverbed and holds both halves. The three dots must not stand in a straight column; they form a shallow curve that opens to the right. In running script the three become one continuous line with two turns, and in cursive the whole left side can be a single vertical flick."
+    }
+  ],
+  "questions": [
+    {
+      "id": "low-is-king",
+      "claim": "Rivers and seas rule the valleys because they lie below them; what is lowest receives the most.",
+      "prompts": [
+        "Do you believe this of people as well as of water? Who in your life receives much and demands little?",
+        "What does “going low” mean in your history: safety, shame, good manners, defeat?",
+        "Take the other side: those who go low are stepped on, and the world goes to those who climb. Which of your own experiences speak for that?",
+        "The passage keeps the sage above and in front. Are you more at ease in the high place or the low one? What do you think of people who prefer the other?"
+      ]
+    },
+    {
+      "id": "no-contend",
+      "claim": "The one who does not contend is the one with whom no one can contend.",
+      "prompts": [
+        "Is that so? Recall a time when you did not pull back on the rope. What did the other person do?",
+        "What did you learn about contests as a child: to win, to stay out, to let others win?",
+        "Hold the opposite for a while: what you do not fight for, you lose. Where in your life is that the truer sentence?",
+        "When you refuse to contend, is it from ease or from fear of losing? How do you tell the two apart in the body?"
+      ]
+    },
+    {
+      "id": "wish-above",
+      "claim": "To be above people, one must speak from below them; to lead, one must put oneself behind.",
+      "prompts": [
+        "Does this read to you as wisdom or as technique? What makes the difference?",
+        "Think of a leader who spoke low and one who spoke high. Under which did you feel less weight?",
+        "Take the plain opposite: a leader should stand in front and say so. What is honest in that view?",
+        "Have you gone low in order to rise? What did the people around you feel?"
+      ]
     }
   ]
 }

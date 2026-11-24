@@ -25,7 +25,7 @@
   "rendering": [
     "The [[valley|gu]] [[spirit|shen]] [[does not die|busi]].",
     "This is called the [[dark|xuan]] [[female|pin]].",
-    "The [[gate|men]] of the dark female:",
+    "The [[gate|men]] of the [[dark female|pair-pin-mu]]:",
     "this is called the [[root|gen]] of heaven and earth.",
     "[[Thin as silk floss|mianmian]], it [[seems to be there|ruocun]].",
     "Use it: it [[does not wear out|buqin]]."
@@ -126,7 +126,7 @@
     "buqin": {
       "kind": "gap",
       "title": "不勤: not toil, or not used up",
-      "body": "勤 is commonly “to toil, to work hard”; the Shuowen says 勞也, “labor”. On that reading the line says: use it, and there is no strain. [[Wang Bi|wangbi]] reads it so: 用而不勞也, “used, and not wearied”. Most modern scholars take 勤 here as a loan for a word that means “to be exhausted”. The Mawangdui silk texts are reported to write the word 堇, with no “strength” part, which shows only that the graph was not fixed. Then the line says: use it, and it is never used up. The grammar matters. In both readings the thing that does not tire or run out is the valley spirit. Some versions turn the line into a promise to the user: act with Dao, and your work will cost you no effort. That is not what the six characters say.",
+      "body": "勤 is commonly “to toil, to work hard”; the Shuowen says 勞也, “labor”. On that reading the line says: use it, and there is no strain. [[Wang Bi|wangbi]] reads it so: 用而不勞也, “used, and not wearied”. Most modern scholars take 勤 here as a loan for a word that means “to be exhausted”. The Mawangdui silk texts are reported to write the word 堇, with no “strength” part, which shows only that the graph was not fixed. Then the line says: use it, and it is not used up. The grammar matters. In both readings the thing that does not tire or run out is the valley spirit. Some versions turn the line into a promise to the user: act with Dao, and your work will cost you no effort. That is not what the six characters say.",
       "src": [
         "Shuowen Jiezi, 力部: 勤，勞也。",
         "Mawangdui Laozi silk texts (as reported; see Gao Ming, Boshu Laozi jiaozhu)"
@@ -157,6 +157,11 @@
       "kind": "practice",
       "title": "Breathe like floss",
       "body": "Sit with the back straight and the belly loose. Let the breath become quiet through the nose, and make it fine: so fine that a feather held under the nose would not move. Do not hold it and do not push it. Let it be long and unbroken, like floss drawn from a cocoon. That is 緜緜. After a few minutes, see if you can say that you are breathing, or only that breathing seems to be there: 若存. Then notice that this fine breath costs nothing and does not run out. The old breath teachers took the whole passage as this one exercise. If you prefer the valley to the body, go to a low place with water in it, and sit there."
+    },
+    "pair-pin-mu": {
+      "kind": "pair",
+      "title": "牝 and 牡: the half that is not named",
+      "body": "Every image here has a partner that the passage leaves out. 牝, the female animal, implies 牡, the male. 谷, the valley, implies the ridge. 玄, dark, implies bright. 若存, “seems to be there”, stands between present and gone. The text names the low, dark, female side and is silent on the other. That is a choice, and it has a target: a Zhou world that honored the high, the bright, and the father’s line. The passage corrects the count. It [[does not make one sex passive|passive]] and it does not make the other bad. A valley has no meaning without slopes, and its water comes down from the ridge. Passage 28 keeps both in one line, 知其雄，守其雌: know the male, keep to the female. And the favored side turns. Passage 39 says that a valley with nothing to fill it would run dry. The low place is low so that it can be filled. Which half of this pair does your own world leave unnamed?"
     }
   },
   "lenses": {
@@ -186,6 +191,28 @@
       "title": "A tree, and an eye that will not yield",
       "lesson": "The left side is 木, a tree. It is one of the clearest pictures in the script: a trunk, a line for the branches, and two strokes below for the roots. So the roots are already in the meaning part. Two characters are made from that picture by one added mark. 本, the root or base, is a tree with a short line across the foot of the trunk. 末, the tip, is a tree with a long line across the top. 根 is made the other way, with a sound part: 从木艮聲. The right side, 艮, is worth a look of its own. The Shuowen defines it as 很也, “defiant”, and reads it as 匕 and 目: eyes that measure each other and do not give way, 不相下也. In the Book of Changes, 艮 is the trigram of the mountain and of keeping still. Its sound family is large, and the Shuowen marks each as a sound-compound: 限, a limit or threshold; 恨, resentment; 眼, the eye. A root is the still part of a tree. It holds while the top moves, and the Chinese word keeps that still, stubborn 艮 in it. The Shuowen defines 根 as 木株也, the base of the tree. The passage says that the gate of the dark female is this for heaven and earth: [[the part below|gen]], unmoved, which feeds the rest.",
       "brush": "Ten strokes. The tree first, in four: the horizontal, the long vertical through it, a stroke that falls to the left, and then a dot. In the free-standing 木 the fourth stroke is a long sweep to the right. At the side it is cut down to a dot, so that it does not push into the right half. Calligraphers call this yielding, 避讓. Then 艮 in six: the top and right side of the eye in one turning stroke, two short horizontals inside, and then stroke eight, a long vertical on the left that turns at the foot and rises to the right. Then a short stroke that falls to the left, and last the 捺, long, pressed, and lifted. Watch the last stroke: it reaches under the right side, as a root reaches under a tree. The left half is narrow and high, and the right half spreads at the foot."
+    }
+  ],
+  "questions": [
+    {
+      "id": "low-and-open-lasts",
+      "claim": "What is low, open, and barely there does not die, and use does not wear it out.",
+      "prompts": [
+        "Do you believe that? Name something in your life that has lasted in this way.",
+        "What were you taught about people who are low and open: that they are strong, or that they are used?",
+        "Now the other side: what lasts is what stands up, takes a shape, and defends it. Hold that for a while. What do you feel in the body?",
+        "Which of the two do you admire in public, and which do you rely on in private?"
+      ]
+    },
+    {
+      "id": "origin-is-a-birth",
+      "claim": "The root of heaven and earth is a dark female gate; origin is a birth and not a command.",
+      "prompts": [
+        "How does that picture of origin sit beside the one you were given as a child?",
+        "What do the words “dark” and “female” each carry for you? Which of those meanings did you choose, and which were handed to you?",
+        "Take the picture that the passage leaves out: a bright maker who speaks, and it is so. What feelings come with that one?",
+        "One picture may feel like home and the other foreign. Why might that be, and what in your life rests on it?"
+      ]
     }
   ]
 }
