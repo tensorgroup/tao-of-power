@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const app = fileURLToPath(new URL('../app/', import.meta.url));
 const SKIP = new Set(['sw.js', 'index.html']);
-const LAZY = ['art/', 'model/', 'data/search/'];
+const LAZY = ['art/', 'model/', 'data/search/', 'audio/'];
 
 /** Hash every file under app/<dir>, recursively, in a stable order. */
 function hashDir(dir) {
@@ -48,9 +48,10 @@ export function build() {
   const artVersion = hashDir('art');
   const searchVersion = hashDir('data/search');
   const modelVersion = hashDir('model');
+  const audioVersion = hashDir('audio');
   const swPath = join(app, 'sw.js');
   const sw = readFileSync(swPath, 'utf8');
-  const block = `// <precache>\nconst VERSION = '${version}';\nconst ART_VERSION = '${artVersion}';\nconst SEARCH_VERSION = '${searchVersion}';\nconst MODEL_VERSION = '${modelVersion}';\nconst FILES = ${JSON.stringify(['./', ...files], null, 1)};\n// </precache>`;
+  const block = `// <precache>\nconst VERSION = '${version}';\nconst ART_VERSION = '${artVersion}';\nconst SEARCH_VERSION = '${searchVersion}';\nconst MODEL_VERSION = '${modelVersion}';\nconst AUDIO_VERSION = '${audioVersion}';\nconst FILES = ${JSON.stringify(['./', ...files], null, 1)};\n// </precache>`;
   const next = sw.replace(/\/\/ <precache>[\s\S]*?\/\/ <\/precache>/, block);
   if (next === sw && !sw.includes(block)) throw new Error('precache markers missing in sw.js');
   writeFileSync(swPath, next);

@@ -3,6 +3,19 @@ import { h } from './ui.js';
 import { parseMarked, isHan } from './markup.js';
 import { openSheet } from './sheet.js';
 import { getLexicon, charLinks } from './data.js';
+import { sayButton } from './audio.js';
+
+// ---- Rare characters (CJK Extension B+): drawn from GlyphWiki outlines, since phones lack fonts ----
+let RARE = {};
+export function setRareGlyphs(m) { RARE = m || {}; }
+function rareGlyph(c) {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', '0 0 200 200'); svg.setAttribute('aria-hidden', 'true');
+  const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  path.setAttribute('d', RARE[c]);
+  svg.append(path);
+  return h('span', { class: 'han-rare', lang: 'zh-Hant', role: 'img', 'aria-label': `rare character U+${c.codePointAt(0).toString(16).toUpperCase()}`, title: `Rare character U+${c.codePointAt(0).toString(16).toUpperCase()}` }, svg);
+}
 
 // ---- Glossary: terms like "Shuowen" become tappable (title gives a hover tooltip) ----
 let GLOSS = null;
@@ -134,7 +147,11 @@ export function hanify(text, ctx = {}, { inert = false } = {}) {
   let buf = '';
   const flush = () => { if (buf) { frag.append(document.createTextNode(buf)); buf = ''; } };
   for (const c of text) {
-    if (isHan(c)) {
+    if (isHan(c) && c.codePointAt(0) > 0xFFFF) {
+      // A rare character: draw it, and do not offer an empty dictionary drawer.
+      flush();
+      frag.append(RARE[c] ? rareGlyph(c) : h('span', { class: 'han-rare-text', lang: 'zh-Hant', text: c }));
+    } else if (isHan(c)) {
       flush();
       frag.append(inert ? h('span', { class: 'han', lang: 'zh-Hant' }, c)
         : h('button', { type: 'button', class: 'han', lang: 'zh-Hant', onclick: () => openChar(c, null, ctx) }, c));
@@ -168,7 +185,10 @@ export async function openChar(c, occurrence, ctx = {}) {
     build: () => {
       const box = h('div', {});
       box.append(h('div', { class: 'big-han', lang: 'zh-Hant', 'aria-hidden': 'true', text: c }));
-      if (e.py?.length) box.append(h('p', { class: 'py', text: e.py.join(' · ') }));
+      if (e.py?.length) {
+        box.append(h('p', { class: 'py', text: e.py.join(' · ') }));
+        box.append(h('p', { class: 'say-row' }, h('span', { class: 'muted small', text: 'Hear it (Mandarin): ' }), e.py.map((py) => sayButton(py, c))));
+      }
       const dl = h('dl', {});
       const row = (label, node) => { if (node) dl.append(h('dt', { text: label }), h('dd', {}, node)); };
       if (occurrence) row('Here', rich(occurrence, ctx));

@@ -1,0 +1,2 @@
+Mandarin syllable recordings by Chen Wang, from https://github.com/hugolpz/audio-cmn (24k-abr/syllabs).
+License: Creative Commons Attribution-ShareAlike (CC BY-SA). Copied unchanged.

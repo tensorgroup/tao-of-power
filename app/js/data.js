@@ -22,6 +22,7 @@ export const getGlossary = () => json('data/glossary.json').catch(() => ({}));
 export const getWing = () => json('data/wing.json').catch(() => ({ passages: {} }));
 export const getCulture = () => json('data/culture.json').catch(() => ({ passages: {} }));
 export const getMap = () => json('data/map.json');
+export const getRareGlyphs = () => json('data/rare-glyphs.json').catch(() => ({}));
 export const getIndex = () => json('data/index.json').catch(() => ({ passages: {} }));
 
 /** {text, rich|null}. rich is null when the passage file is not written yet. */

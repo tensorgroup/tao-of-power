@@ -84,6 +84,13 @@ the old files.
 - **About map** data (`app/data/map.json`) is built once by `python3
   scripts/build-map.py <dir>` from Natural Earth 1:50m land and rivers
   (public domain); places and dynasty facts live in `app/js/views/about.js`.
+- **Pronunciation**: `app/audio/<syllable>.mp3` (audio-cmn, Chen Wang, CC BY-SA)
+  for the readings in the lexicon; `python3 scripts/vendor-audio.py` adds new
+  ones and rewrites `app/audio/index.json`. `app/js/audio.js` maps pinyin to a
+  file (same rule as the script) and falls back to speechSynthesis.
+- **Rare characters** (outside the BMP) are drawn from GlyphWiki outlines in
+  `app/data/rare-glyphs.json`; run `python3 scripts/vendor-rare-glyphs.py`
+  after adding content. They render as plain glyphs, not dictionary buttons.
 - **Gallery thumbnails** live in `app/art/thumbs/`; run `python3
   scripts/make-thumbs.py` after adding art (check-art requires them).
 - Light theme is the default. Every color comes from the CSS custom

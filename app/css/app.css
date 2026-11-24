@@ -634,3 +634,12 @@ a.ref { color: var(--seal); text-decoration: underline; text-decoration-thicknes
 .era-book-h { margin: 0 0 .2rem; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--seal); }
 .era-book ul { margin: 0; padding-left: 1rem; }
 .era-book li { margin: .35rem 0; font-size: .96rem; }
+
+/* Rare characters drawn from outlines; pronunciation buttons */
+.han-rare { display: inline-block; width: 1em; height: 1em; vertical-align: -0.14em; margin: 0 .04em; }
+.han-rare svg { width: 100%; height: 100%; display: block; fill: currentColor; }
+.say-row { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem; margin: .3rem 0 .4rem; }
+.plate .say-row { justify-content: center; }
+.say-btn { appearance: none; display: inline-flex; align-items: center; gap: .1rem; min-height: var(--tap); padding: .3rem .95rem; border: 1px solid var(--seal); border-radius: 999px; background: none; color: var(--seal); font: inherit; font-size: .95rem; cursor: pointer; }
+.say-btn .say-icon { font-size: .75em; }
+.say-btn.playing { background: var(--wash); }

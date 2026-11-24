@@ -1,9 +1,10 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = '637412508658';
+const VERSION = 'f30182a7ef68';
 const ART_VERSION = '3cfa7432';
 const SEARCH_VERSION = '66167224';
 const MODEL_VERSION = 'a31ada72';
+const AUDIO_VERSION = 'a8506e97';
 const FILES = [
  "./",
  "css/app.css",
@@ -95,6 +96,7 @@ const FILES = [
  "data/passages/79.json",
  "data/passages/80.json",
  "data/passages/81.json",
+ "data/rare-glyphs.json",
  "data/strokes/4e0b.json",
  "data/strokes/4e3b.json",
  "data/strokes/4e45.json",
@@ -287,6 +289,7 @@ const FILES = [
  "icons/icon-512.png",
  "icons/icon-maskable.png",
  "js/app.js",
+ "js/audio.js",
  "js/brush.js",
  "js/data.js",
  "js/draw.js",
@@ -313,7 +316,8 @@ const ART_CACHE = `tao-art-${typeof ART_VERSION === 'string' ? ART_VERSION : 'de
 // The search model (4 MB) and index load the first time Search opens; versioned like art.
 const SEARCH_CACHE = `tao-search-${typeof SEARCH_VERSION === 'string' ? SEARCH_VERSION : 'dev'}`;
 const MODEL_CACHE = `tao-model-${typeof MODEL_VERSION === 'string' ? MODEL_VERSION : 'dev'}`;
-const LAZY = [['/art/', ART_CACHE], ['/model/', MODEL_CACHE], ['/data/search/', SEARCH_CACHE]];
+const AUDIO_CACHE = `tao-audio-${typeof AUDIO_VERSION === 'string' ? AUDIO_VERSION : 'dev'}`;
+const LAZY = [['/art/', ART_CACHE], ['/model/', MODEL_CACHE], ['/data/search/', SEARCH_CACHE], ['/audio/', AUDIO_CACHE]];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -332,7 +336,7 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    for (const k of await caches.keys()) if (k.startsWith('tao-') && ![CACHE, ART_CACHE, SEARCH_CACHE, MODEL_CACHE].includes(k)) await caches.delete(k);
+    for (const k of await caches.keys()) if (k.startsWith('tao-') && ![CACHE, ART_CACHE, SEARCH_CACHE, MODEL_CACHE, AUDIO_CACHE].includes(k)) await caches.delete(k);
     await self.clients.claim();
   })());
 });

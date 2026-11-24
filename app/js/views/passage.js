@@ -9,6 +9,7 @@ import { state } from '../app.js';
 import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
 import { entryList } from './journal.js';
 import { brushPanel } from '../brush.js';
+import { sayButton } from '../audio.js';
 
 // Vertical presentation forms: in a vertical column, commas and stops sit at the top right of the cell.
 const VERTICAL_PUNCT = { '，': '︐', '、': '︑', '。': '︒', '：': '︓', '；': '︔', '！': '︕', '？': '︖', '「': '﹁', '」': '﹂', '『': '﹃', '』': '﹄' };
@@ -302,7 +303,8 @@ async function plate(pl, e, ctx) {
       panel.hasStrokes ? h('div', { class: 'controls' },
         h('button', { class: 'btn quiet', type: 'button', text: 'Write it again', onclick: () => panel.write() }), orderBtn) : null,
       h('h3', {}, h('span', { lang: 'zh-Hant', text: `${c} ` }), pl.title || ''),
-      h('p', { class: 'py', text: (e.py || []).join(' · ') })),
+      h('p', { class: 'py', text: (e.py || []).join(' · ') }),
+      e.py?.length ? h('p', { class: 'say-row' }, e.py.map((py) => sayButton(py, c, `Hear ${py}`))) : null),
     pl.lesson ? [h('h4', { text: 'The character' }), rich(pl.lesson, ctx, { block: true })] : (e.story ? rich(e.story, ctx, { block: true }) : null),
     pl.brush ? [h('h4', { text: 'The brush' }), rich(pl.brush, ctx, { block: true })] : null,
     h('div', { class: 'controls' }, h('button', { class: 'btn quiet', type: 'button', text: 'Dictionary & ancient forms', onclick: () => openChar(c, null, ctx) })));

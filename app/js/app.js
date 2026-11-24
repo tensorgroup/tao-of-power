@@ -10,8 +10,8 @@ import { aboutView } from './views/about.js';
 import { howView } from './views/how.js';
 import { searchView } from './views/search.js';
 import { galleryView, storiesView, cultureView } from './views/library.js';
-import { setGlossary } from './notes.js';
-import { getGlossary } from './data.js';
+import { setGlossary, setRareGlyphs } from './notes.js';
+import { getGlossary, getRareGlyphs } from './data.js';
 
 export const state = {
   journal: journalStore.load(),
@@ -72,7 +72,7 @@ async function route() {
 }
 
 addEventListener('hashchange', route);
-await getGlossary().then(setGlossary);
+await Promise.all([getGlossary().then(setGlossary), getRareGlyphs().then(setRareGlyphs)]);
 // Another tab changed the journal.
 addEventListener('storage', (e) => {
   if (e.key !== journalStore.KEY) return;
