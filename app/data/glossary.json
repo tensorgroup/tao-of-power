@@ -190,7 +190,7 @@
     "body": "Full of battles, speeches, omens, and diplomacy — the best picture of the world just before the Laozi."
   },
   "shiji": {
-    "term": "Shiji", "zh": "史記", "aliases": ["Shiji", "Records of the Grand Historian", "Sima Qian"],
+    "term": "Shiji", "zh": "史記", "aliases": ["Shiji", "Records of the Grand Historian"],
     "short": "Sima Qian's history of China up to about 100 BCE; it contains the earliest biography of Laozi.",
     "body": "Sima Qian gives Laozi's name as Li Er, an archivist of Zhou, who met Confucius and later left through the western pass, writing his book for the gatekeeper. Sima Qian himself admits the sources are uncertain."
   },
@@ -288,5 +288,10 @@
     "term": "De part", "zh": "德經", "aliases": ["De part", "Dejing"],
     "short": "Chapters 38–81 of the received text. It opens with 上德不德, “the highest de is not de”.",
     "body": "The name comes from 德, the second word of its first line. In both silk manuscripts from Mawangdui this part comes first, so those copies are sometimes called the Dedaojing."
+  },
+  "simaqian": {
+    "term": "Sima Qian", "zh": "司馬遷", "aliases": ["Sima Qian", "Ssu-ma Ch’ien", "Grand Historian"],
+    "short": "China’s first great historian (c. 145 – c. 86 BCE), author of the Shiji, which holds the oldest life of Laozi.",
+    "body": "Sima Qian served the Han emperor Wu as Grand Historian (太史令), keeper of records and of the calendar, an office his father Sima Tan had held. His father had begun a history of the world as the Chinese knew it, and wrote a famous essay on the six schools of thought that praised the Daoists above the rest. In 99 BCE Sima Qian spoke up for a defeated general, Li Ling, and the angry emperor condemned him. He chose castration over death so that he could finish his father’s book, and he explained why in a letter that is still read today. The result, the Shiji (“Records of the Grand Historian”), runs to 130 chapters, from the Yellow Emperor to his own day, and set the pattern for every later dynastic history. Chapter 63 is the joint life of Laozi and Han Fei: the archivist Li Er, Confucius’s visit, the keeper of the pass, and Sima Qian’s honest doubt about all of it."
   }
 }
