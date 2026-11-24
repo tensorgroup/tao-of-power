@@ -120,7 +120,7 @@ export function rich(str, ctx, { block = false } = {}) {
       frag.append(h('button', {
         type: 'button', class: 'mark', 'aria-haspopup': 'dialog',
         onclick: (e) => openNote(seg.note, ctx, e.currentTarget),
-      }, hanify(seg.text, ctx)));
+      }, hanify(seg.text, ctx, { inert: true }))); // no button inside a button: the phrase is the tap
     } else {
       frag.append(glossify(seg.text, ctx));
     }
@@ -128,15 +128,16 @@ export function rich(str, ctx, { block = false } = {}) {
   return block ? h('p', {}, frag) : frag;
 }
 
-/** Wrap runs of Han characters in tappable buttons; leave other text plain. */
-export function hanify(text, ctx = {}) {
+/** Wrap Han characters in tappable buttons (or, with inert, styled spans); leave other text plain. */
+export function hanify(text, ctx = {}, { inert = false } = {}) {
   const frag = document.createDocumentFragment();
   let buf = '';
   const flush = () => { if (buf) { frag.append(document.createTextNode(buf)); buf = ''; } };
   for (const c of text) {
     if (isHan(c)) {
       flush();
-      frag.append(h('button', { type: 'button', class: 'han', lang: 'zh-Hant', onclick: () => openChar(c, null, ctx) }, c));
+      frag.append(inert ? h('span', { class: 'han', lang: 'zh-Hant' }, c)
+        : h('button', { type: 'button', class: 'han', lang: 'zh-Hant', onclick: () => openChar(c, null, ctx) }, c));
     } else buf += c;
   }
   flush();

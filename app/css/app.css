@@ -176,7 +176,8 @@ p { margin: 0 0 1rem; }
 .mark {
   appearance: none; background: none; border: 0; padding: 0; margin: 0;
   font: inherit; color: inherit; cursor: pointer; text-align: inherit;
-  text-decoration: underline dotted var(--seal); text-decoration-thickness: 1.5px; text-underline-offset: .22em;
+  text-decoration-line: underline; text-decoration-style: dotted; text-decoration-color: var(--seal);
+  text-decoration-thickness: 1.5px; text-underline-offset: .22em;
 }
 .mark:active, .mark.open { background: var(--wash); }
 .pending { padding: 1rem; background: var(--paper-2); border-radius: 6px; color: var(--ink-2); font-size: 1rem; }
@@ -204,7 +205,36 @@ p { margin: 0 0 1rem; }
   min-width: 1.2em;
 }
 .han.glossed { color: var(--seal); }
-.han:active, .han.open { background: var(--wash); }
+.han:active, .han.open { background-color: var(--wash); }
+
+/* Tappable Chinese characters. Each character gets its own quiet rule, so a
+   run of characters reads as a row of short dashes, not one heavy line.
+   Prose: a thin underline, like the links on the home page.
+   Column (vertical-rl): a 1px background rule on the left side, where Chinese
+   puts marks in vertical text. A background renders the same in every writing
+   mode on WebKit and Chromium, and it moves no text.
+   Red (glossed) characters get a red rule. Inside a .mark, the character takes
+   the phrase's dotted red underline so the phrase reads as one tap.
+   Use the text-decoration longhands: Safari drops the shorthand when it has a
+   colour or a style in it. */
+.han {
+  --han-rule: color-mix(in srgb, var(--ink-3) 65%, transparent);
+  text-decoration-line: underline; text-decoration-color: var(--han-rule);
+  text-decoration-thickness: 1px; text-underline-offset: .28em;
+  text-decoration-skip-ink: none;
+}
+.han.glossed { --han-rule: color-mix(in srgb, var(--seal) 65%, transparent); }
+.mark .han { text-decoration-style: dotted; text-decoration-color: var(--seal); text-decoration-thickness: 1.5px; }
+.column .han {
+  --han-rule: color-mix(in srgb, var(--ink-3) 40%, transparent);
+  text-decoration-line: none;
+  background-image: linear-gradient(var(--han-rule), var(--han-rule));
+  background-repeat: no-repeat; background-size: 1px 82%; background-position: 0 50%;
+}
+.column .han.glossed { --han-rule: color-mix(in srgb, var(--seal) 60%, transparent); }
+@media (hover: hover) {
+  .han:hover { color: var(--seal); --han-rule: var(--seal); }
+}
 .column .punct { color: var(--ink-3); }
 .column .zh-cell { white-space: nowrap; }
 .column-hint { font-size: .85rem; color: var(--ink-3); margin: .5rem 0 0; text-align: left; text-wrap: pretty; }
@@ -381,7 +411,8 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 
 /* Glossary terms */
 .gloss { appearance: none; background: none; border: 0; padding: 0; margin: 0; font: inherit; color: inherit; cursor: help;
-  text-decoration: underline dotted var(--ink-3); text-decoration-thickness: 1.5px; text-underline-offset: .2em; }
+  text-decoration-line: underline; text-decoration-style: dotted; text-decoration-color: var(--ink-3);
+  text-decoration-thickness: 1.5px; text-underline-offset: .2em; }
 .gloss:hover, .gloss:focus-visible { color: var(--seal); text-decoration-color: var(--seal); }
 .mark .gloss { text-decoration: none; }
 .glossary-list { padding-left: 1.1rem; }

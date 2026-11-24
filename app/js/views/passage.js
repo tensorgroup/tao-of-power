@@ -82,7 +82,7 @@ export async function passageView(n, drawId) {
   requestAnimationFrame(() => { colWrap.scrollLeft = colWrap.scrollWidth; });
   root.append(h('h2', { text: 'The Chinese' }),
     colWrap,
-    h('p', { class: 'column-hint', text: 'Read top to bottom, right to left. Red characters carry a note for this line.' }));
+    h('p', { class: 'column-hint', text: 'Read top to bottom, right to left. Tap any character to look it up; red ones carry a note for this line.' }));
 
   // Lenses
   if (p?.lenses) {
