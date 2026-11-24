@@ -1,7 +1,7 @@
 // How the draw works, sources, licenses, and where your data lives.
 import { h, tetragram } from '../ui.js';
 import { getGlossary } from '../data.js';
-import { openGlossary } from '../notes.js';
+import { openGlossary, openChar } from '../notes.js';
 import { howSection } from './how.js';
 import { getWing } from '../data.js';
 import { openWingNote } from './passage.js';
@@ -60,14 +60,29 @@ export async function aboutView() {
 }
 
 const para = (t) => h('p', { text: t });
+const NAME = [['道', 'dào', 'way'], ['德', 'dé', 'power, virtue'], ['經', 'jīng', 'warp; classic']];
+/** A small "More" link that opens a glossary pop-up. */
+const more = (key, label = 'More') => h('button', { class: 'more-link', type: 'button', onclick: () => openGlossary(key) }, label === 'More' ? 'More ›' : `${label} ›`);
 const zh = (t) => h('span', { lang: 'zh-Hant', text: t });
 
 function history() {
   return h('div', { class: 'history' },
+    h('h2', { text: 'The name' }),
+    h('p', {}, 'The title has three characters. Tap one to see how it is built.'),
+    h('div', { class: 'name-chars' }, NAME.map(([c, py, en]) => h('button', {
+      class: 'name-char', type: 'button', 'aria-label': `${c} ${py}, ${en}: open the character`, onclick: () => openChar(c),
+    }, h('span', { class: 'nc-han', lang: 'zh-Hant', text: c }), h('span', { class: 'nc-py', text: py }), h('span', { class: 'nc-en', text: en })))),
+    h('p', {}, h('b', {}, zh('道'), ' dào'), ' is a road, a way. It is also the verb “to speak”, and “to lead”. The character joins a foot walking along a road (', zh('辶'), ') with a head (', zh('首'), '). The book opens with a play on the word: ', zh('道可道'), ', “a way that can be spoken” (or walked). This site leaves it as “Dao”, because every English word for it brings its own frame. ', more('dao')),
+    h('p', {}, h('b', {}, zh('德'), ' dé'), ' is the power a thing has when it is true to its way: the pull of a good teacher, the healing in a herb. Old English used “virtue” in this sense. The character is commonly explained as a step (', zh('彳'), ') with a straight heart (', zh('直'), ' over ', zh('心'), '), and it sounds like ', zh('得'), ', “to get”. ', more('de')),
+    h('p', {}, h('b', {}, zh('經'), ' jīng'), ' is the warp, the threads that are strung first on a loom and stay fixed while the weft passes through. From that it came to mean a constant, and then a classic: a book that the rest of life is woven through. ', more('jing')),
+
+    h('h3', { text: 'The Dao part and the De part' }),
+    h('p', {}, 'The book has two parts, named after their first lines. The Dao part, ', zh('道經'), ' (chapters 1–37), opens ', zh('道可道'), '. The De part, ', zh('德經'), ' (chapters 38–81), opens ', zh('上德不德'), ', “the highest de is not de”. So the title simply names the two parts and calls them a classic: “The Classic of the Way and its Power”. In the oldest complete copies, the silk manuscripts from Mawangdui, the De part comes first. ', more('daojing', 'Dao part'), ' ', more('dejing', 'De part'), ' ', more('mawangdui', 'Mawangdui')),
+    h('p', {}, 'For its first centuries the book had no grand title. People called it the Laozi, “the Old Master”, after its supposed author: ', zh('老'), ' is old, and ', zh('子'), ', a child, is also a title of respect for a teacher. The title with ', zh('經'), ' is traditionally traced to the Han dynasty (206 BCE–220 CE), when the court began to treat the book as a classic. ', more('laozi', 'Laozi')),
+    h('p', {}, '“Tao Te Ching” and “Daodejing” are one name in two spellings. “Tao Te Ching” is the older Wade–Giles spelling, in which T stands for a sound close to English d. “Daodejing” is pinyin, the spelling China adopted in 1958. The notes on this site use pinyin. ', more('daodejing', 'Daodejing')),
+
     h('h2', { text: 'The text' }),
-    h('p', {}, 'The Tao Te Ching (', zh('道德經'), ') is about 5,000 Chinese characters in 81 short chapters. “Tao Te Ching” is the older English spelling; “Daodejing” is the modern pinyin spelling of the same name. The notes on this site use the pinyin spelling. ',
-      zh('道'), ' dào is the way or path. ', zh('德'), ' dé is the inner power or virtue that a thing has when it follows its way. ', zh('經'), ' jīng is the warp thread on a loom, and from that a “classic”, a text that holds the rest together.'),
-    para('The book has two parts: the Dao part (chapters 1–37) and the De part (chapters 38–81). For its first centuries it had no grand title. People called it the Laozi, after its supposed author. The title “Classic of the Way and its Power” is traditionally traced to the Han dynasty (206 BCE–220 CE), when the court began to treat the book as a classic. The full title became standard only later.'),
+    para('The book is about 5,000 Chinese characters in 81 short chapters.'),
     para('It is written in a compressed, often rhymed, often paradoxical style. Many lines have no stated subject and no tense. That openness is one reason why there are hundreds of translations, and why they differ so widely.'),
 
     h('h3', { text: 'Who wrote it?' }),

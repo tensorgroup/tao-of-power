@@ -263,5 +263,30 @@
     "term": "Dream of the Red Chamber", "zh": "紅樓夢", "aliases": ["Dream of the Red Chamber", "Story of the Stone", "Red Chamber"],
     "short": "Cao Xueqin's 18th-century novel, the greatest in Chinese, framed by a magic stone and Daoist and Buddhist wanderers.",
     "body": "Also called The Story of the Stone (石頭記). A stone left over when the goddess Nüwa mended the sky is born into the human world. Its famous couplet — 假作真時真亦假 — “when the false is taken as true, the true becomes false too” — echoes the Laozi's play of being and non-being."
+  },
+  "daodejing": {
+    "term": "Daodejing", "zh": "道德經", "aliases": ["Daodejing", "Tao Te Ching", "Dao De Jing"],
+    "short": "“The Classic of the Way and its Power”: the title joins the names of the book's two parts, 道 and 德, and adds 經, “classic”.",
+    "body": "“Tao Te Ching” is the older Wade–Giles spelling, in which T stands for a sound close to English d. “Daodejing” is pinyin, the spelling China adopted in 1958. Both name the same three characters. Before the Han dynasty the book was simply called the Laozi."
+  },
+  "jing": {
+    "term": "jing", "zh": "經", "aliases": ["jing"],
+    "short": "The warp threads on a loom; from that, a constant, and a classic text.",
+    "body": "The Shuowen defines 經 as “to weave”. The warp is strung first and stays fixed while the weft passes through, so a 經 is a text that the rest is woven through: the Confucian classics, later the Buddhist sutras. The Laozi received the title in the Han dynasty."
+  },
+  "laozi": {
+    "term": "Laozi", "zh": "老子", "aliases": ["Laozi", "Lao Tzu", "Lao-tzu"],
+    "short": "“The Old Master”: the traditional author of the Daodejing, and the book's oldest title.",
+    "body": "老 is old, an elder; 子 is a child, and also a title of respect for a teacher, as in Kongzi (Confucius) and Mengzi (Mencius). Sima Qian's Shiji names him Li Er, an archivist at the Zhou court, but admits that no one is sure. Many scholars think “Laozi” names a tradition as much as a person."
+  },
+  "daojing": {
+    "term": "Dao part", "zh": "道經", "aliases": ["Dao part", "Daojing"],
+    "short": "Chapters 1–37 of the received text. It opens with 道可道, “a way that can be spoken”.",
+    "body": "The name comes from the first word of its first chapter. In the silk manuscripts from Mawangdui this part comes second."
+  },
+  "dejing": {
+    "term": "De part", "zh": "德經", "aliases": ["De part", "Dejing"],
+    "short": "Chapters 38–81 of the received text. It opens with 上德不德, “the highest de is not de”.",
+    "body": "The name comes from 德, the second word of its first line. In both silk manuscripts from Mawangdui this part comes first, so those copies are sometimes called the Dedaojing."
   }
 }

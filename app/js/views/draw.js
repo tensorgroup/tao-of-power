@@ -29,7 +29,7 @@ export async function drawView() {
     h('p', { class: 'big', lang: 'zh-Hant', 'aria-hidden': 'true', text: '道' }),
     h('p', { class: 'lede', text: 'Settle. Hold a question lightly, or none at all. Then let the sticks fall.' }),
     h('div', { class: 'row actions' }, h('button', { class: 'btn red', type: 'button', text: 'Draw', onclick: () => run(root) })),
-    h('p', { class: 'small' }, h('a', { href: '#/how', class: 'muted', text: 'How does the draw work?' })),
+    h('p', { class: 'small how-link' }, h('a', { href: '#/how', class: 'muted', text: 'How does the draw work?' })),
   );
   root.append(start, recentList(idx));
   return root;

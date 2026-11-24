@@ -10768,7 +10768,28 @@
    "jīng",
    "jìng"
   ],
-  "def": "classic works; pass through"
+  "def": "classic works; pass through",
+  "senses": [
+   "the warp: the lengthwise threads on a loom",
+   "a constant, a norm, a rule",
+   "a classic text, a scripture (later also a Buddhist sutra)",
+   "to pass through, to go by way of",
+   "to manage, to lay out"
+  ],
+  "shuowen": "織也。从糸巠聲。",
+  "shuowenEn": "To weave. From 糸 (silk thread), with 巠 giving the sound.",
+  "parts": [
+   {
+    "c": "糸",
+    "m": "silk thread"
+   },
+   {
+    "c": "巠",
+    "m": "sound part; commonly explained as warp threads stretched on a loom"
+   }
+  ],
+  "story": "On a loom the warp threads are strung first and stay fixed; the weft runs back and forth through them. 經 is the warp, and from it come the ideas of what stays constant and what everything else is woven through. A text that a culture treats as its warp is a 經: the Confucian classics, and later the Buddhist sutras. The Laozi was given this title in the Han dynasty, when the court began to treat it as a classic. The same word also means to pass through, as a thread passes through cloth.",
+  "gap": "“Classic” keeps the sense of a canonical book but loses the loom. “Scripture” and “sutra” add a religious frame the title did not have at first. The thread image says something the English cannot: a 經 is what the rest of life is woven through."
  },
  "網": {
   "py": [
