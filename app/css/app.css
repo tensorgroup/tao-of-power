@@ -526,3 +526,32 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 .nc-py { color: var(--seal); letter-spacing: .05em; }
 .nc-en { font-size: .85rem; color: var(--ink-3); text-align: center; }
 .more-link { appearance: none; border: 1px solid var(--rule); background: none; border-radius: 999px; font: inherit; font-size: .85rem; color: var(--ink-2); padding: .3rem .8rem; min-height: 36px; cursor: pointer; margin: .3rem .15rem 0 0; }
+
+/* About: pictures, map, dynasties */
+.about-fig { margin: 1.1rem 0; }
+.about-fig .art-btn { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; }
+.about-fig img { width: 100%; height: auto; border-radius: 6px; display: block; }
+.about-fig figcaption { margin-top: .4rem; }
+.about-figs { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; align-items: start; margin: 1.1rem 0; }
+.about-figs .about-fig { margin: 0; }
+.map-box { border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; margin: .6rem 0; }
+.about-map { display: block; width: 100%; height: auto; }
+.map-sea { fill: var(--paper); }
+.map-land { fill: var(--wash); stroke: var(--ink-3); stroke-width: 1.2; stroke-linejoin: round; }
+.map-river { fill: none; stroke: var(--ink-3); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; opacity: .75; }
+.map-river-label { fill: var(--ink-3); font-size: 21px; font-style: italic; }
+.map-dot { fill: var(--seal); stroke: var(--paper); stroke-width: 3; }
+.map-label { fill: var(--ink); font-size: 24px; paint-order: stroke; stroke: var(--paper); stroke-width: 5px; stroke-linejoin: round; }
+.map-key { padding-left: 1.1rem; font-size: .95rem; }
+.map-key li { margin-bottom: .3rem; }
+.dyn-list { list-style: none; padding: 0; margin: .8rem 0; border-left: 2px solid var(--rule); }
+.dyn-list li { padding: .1rem 0 .8rem .9rem; }
+.dyn-head { display: flex; justify-content: space-between; gap: .6rem; align-items: baseline; flex-wrap: wrap; }
+.dyn-bar { display: flex; align-items: center; gap: .5rem; margin: .3rem 0 .1rem; }
+.dyn-fill { height: 8px; border-radius: 0 4px 4px 0; background: var(--seal); max-width: 70%; display: block; }
+.dyn-val { color: var(--ink-2); white-space: nowrap; }
+.dyn-note { margin: .2rem 0 0; color: var(--ink-2); }
+
+.c-links { display: flex; flex-wrap: wrap; gap: .55rem; margin: .5rem 0 0; }
+.c-link { display: inline-flex; align-items: center; min-height: 40px; padding: .3rem .9rem; border-radius: 999px; border: 1px solid var(--rule); color: var(--ink-2); text-decoration: none; font-size: .9rem; }
+.c-link.play { border-color: var(--seal); color: var(--seal); }

@@ -1,8 +1,8 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 // <precache>
-const VERSION = '7b1a8e4fdb11';
+const VERSION = '25954c9ca6ee';
 const ART_VERSION = '1b1e6549';
-const SEARCH_VERSION = '83e1f4d0';
+const SEARCH_VERSION = '073302f1';
 const MODEL_VERSION = 'a31ada72';
 const FILES = [
  "./",
@@ -13,6 +13,7 @@ const FILES = [
  "data/glossary.json",
  "data/index.json",
  "data/lexicon.json",
+ "data/map.json",
  "data/passages/01.json",
  "data/passages/02.json",
  "data/passages/03.json",

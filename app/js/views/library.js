@@ -1,7 +1,7 @@
 // Index pages: every painting and object (#/art) and every story (#/stories).
 import { h, fill } from '../ui.js';
 import { getArt, getCulture, getIndex } from '../data.js';
-import { openArt, openStory, CULTURE_KIND } from './passage.js';
+import { openArt, openStory, CULTURE_KIND, cultureLinks } from './passage.js';
 
 /** artId -> [[passage, entry], ...] in passage order. */
 function uses(art) {
@@ -104,13 +104,14 @@ export async function cultureView() {
             h('span', { class: 'kind', text: `${CULTURE_KIND[c.kind] || c.kind}${c.contrast ? ' · by contrast' : ''}` }),
             h('a', { href: c.link, target: '_blank', rel: 'noopener noreferrer', class: 'c-title', text: c.title }),
             h('span', { class: 'muted small', text: [c.creator, c.year].filter(Boolean).join(', ') })),
-          h('p', { class: 'c-why', text: c.why })))));
+          h('p', { class: 'c-why', text: c.why }),
+          cultureLinks(c)))));
     }));
   };
   render();
   return h('section', { class: 'library' },
     libraryLinks('culture'),
     h('h1', { text: 'In our time' }),
-    h('p', { class: 'muted', text: `${total} songs, films, shows, books, poems, games, and ads that explore a passage, or show its opposite. Titles link to Wikipedia.` }),
+    h('p', { class: 'muted', text: `${total} songs, films, shows, books, poems, games, and ads that explore a passage, or show its opposite. “Watch” and “Listen” open a YouTube search for the work; titles link to Wikipedia.` }),
     chips, list);
 }

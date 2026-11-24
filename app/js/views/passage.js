@@ -207,18 +207,40 @@ export const CULTURE_KIND = {
   comic: 'Comic', music: 'Music', album: 'Album', novel: 'Novel', 'short-story': 'Short story', book: 'Book', ad: 'Ad', game: 'Game',
 };
 
+const WATCH = new Set(['film', 'tv', 'episode', 'anime', 'ad', 'game']);
+const LISTEN = new Set(['song', 'music', 'album']);
+const READ = new Set(['poem', 'novel', 'book', 'short-story']);
+const yt = (q) => `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`;
+const firstName = (c) => String(c || '').split(/[;(]| and |, /)[0].trim();
+const bare = (t) => String(t).replace(/\s*\([^)]*\)\s*$/, '');
+
+/** Links that let a reader see, hear, or read the work now. Searches, not guessed video ids. */
+export function cultureLinks(c) {
+  const out = [];
+  if (LISTEN.has(c.kind)) out.push(['▶ Listen on YouTube', yt(`${bare(c.title)} ${firstName(c.creator)}`), 'play']);
+  else if (c.kind === 'episode') out.push(['▶ Watch on YouTube', yt(`${c.title} clip`), 'play']);
+  else if (c.kind === 'game') out.push(['▶ Watch on YouTube', yt(`${bare(c.title)} ${c.year || ''} trailer`), 'play']);
+  else if (c.kind === 'ad') out.push(['▶ Watch on YouTube', yt(`${bare(c.title)} ${firstName(c.creator)} ad`), 'play']);
+  else if (WATCH.has(c.kind)) out.push(['▶ Watch on YouTube', yt(`${bare(c.title)} ${c.year || ''} trailer`), 'play']);
+  if (c.kind === 'poem' || c.kind === 'short-story') out.push(['▶ Hear a reading', yt(`${bare(c.title)} ${firstName(c.creator)} reading`), 'play']);
+  if (READ.has(c.kind) && c.year && c.year < 1929) out.push(['Read free', `https://www.gutenberg.org/ebooks/search/?query=${encodeURIComponent(`${bare(c.title)} ${firstName(c.creator)}`)}`, 'read']);
+  out.push(['Wikipedia', c.link, 'wiki']);
+  return h('p', { class: 'c-links' }, out.map(([label, href, kind]) => h('a', { class: `c-link ${kind}`, href, target: '_blank', rel: 'noopener noreferrer', text: label })));
+}
+
 function cultureSection(n, culture) {
   const list = culture.passages?.[n] || [];
   if (!list.length) return null;
   return h('section', { class: 'culture', 'aria-label': 'In our time' },
     h('h2', { text: 'In our time' }),
-    h('p', { class: 'muted small', text: 'Songs, films, books, and shows that explore this passage, or show its opposite. Links go to Wikipedia.' }),
+    h('p', { class: 'muted small', text: 'Songs, films, books, and shows that explore this passage, or show its opposite. “Watch” and “Listen” open a YouTube search for the work.' }),
     h('ul', { class: 'culture-list' }, list.map((c) => h('li', { id: `c-${c.id}` },
       h('p', { class: 'c-head' },
         h('span', { class: 'kind', text: `${CULTURE_KIND[c.kind] || c.kind}${c.contrast ? ' · by contrast' : ''}` }),
         h('a', { href: c.link, target: '_blank', rel: 'noopener noreferrer', class: 'c-title', text: c.title }),
         h('span', { class: 'muted small', text: [c.creator, c.year].filter(Boolean).join(', ') })),
-      h('p', { class: 'c-why', text: c.why })))));
+      h('p', { class: 'c-why', text: c.why }),
+      cultureLinks(c)))));
 }
 
 function echoSection(n, echoes, ctx) {

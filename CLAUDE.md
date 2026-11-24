@@ -81,6 +81,9 @@ the old files.
   queries and documents; `tests/fixtures/wordpiece.json` pins tokenizer parity
   with the reference tokenizer. Model, search index, and art are cached on
   first use by `sw.js`, not precached. Rebuild the index after content changes.
+- **About map** data (`app/data/map.json`) is built once by `python3
+  scripts/build-map.py <dir>` from Natural Earth 1:50m land and rivers
+  (public domain); places and dynasty facts live in `app/js/views/about.js`.
 - **Gallery thumbnails** live in `app/art/thumbs/`; run `python3
   scripts/make-thumbs.py` after adding art (check-art requires them).
 - Light theme is the default. Every color comes from the CSS custom

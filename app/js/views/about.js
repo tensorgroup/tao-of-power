@@ -1,10 +1,10 @@
 // How the draw works, sources, licenses, and where your data lives.
-import { h, tetragram } from '../ui.js';
-import { getGlossary } from '../data.js';
+import { h, s as svgEl, tetragram } from '../ui.js';
+import { getGlossary, getArt, getMap } from '../data.js';
 import { openGlossary, openChar } from '../notes.js';
 import { howSection } from './how.js';
 import { getWing } from '../data.js';
-import { openWingNote } from './passage.js';
+import { openWingNote, openArt } from './passage.js';
 
 function src(text, links = []) {
   return h('li', {}, text, links.length ? h('span', { class: 'src-links' }, ...links.map(([label, href]) =>
@@ -12,14 +12,15 @@ function src(text, links = []) {
 }
 
 export async function aboutView() {
-  const [gl, wing] = await Promise.all([getGlossary(), getWing()]);
+  const [gl, wing, art, map] = await Promise.all([getGlossary(), getWing(), getArt(), getMap().catch(() => null)]);
+  ART = art;
   const wingIntro = (wing.passages?.['0'] || [])[0];
   const li = (...c) => h('li', {}, ...c);
   return h('section', { class: 'about' },
     h('h1', { text: 'About' }),
     h('p', { class: 'lead', text: 'This is an interactive tool for exploring the Tao Te Ching. It offers a way to meet the text one passage at a time: by chance, slowly, with room to write. Below: where the text came from, who has used it and why, and how you might use it, and this tool, today.' }),
 
-    history(),
+    history(map),
     useToday(),
 
     howSection(),
@@ -65,7 +66,7 @@ const NAME = [['道', 'dào', 'way'], ['德', 'dé', 'power, virtue'], ['經', '
 const more = (key, label = 'More') => h('button', { class: 'more-link', type: 'button', onclick: () => openGlossary(key) }, label === 'More' ? 'More ›' : `${label} ›`);
 const zh = (t) => h('span', { lang: 'zh-Hant', text: t });
 
-function history() {
+function history(map) {
   return h('div', { class: 'history' },
     h('h2', { text: 'The name' }),
     h('p', {}, 'The title has three characters. Tap one to see how it is built.'),
@@ -80,22 +81,29 @@ function history() {
     h('p', {}, 'The book has two parts, named after their first lines. The Dao part, ', zh('道經'), ' (chapters 1–37), opens ', zh('道可道'), '. The De part, ', zh('德經'), ' (chapters 38–81), opens ', zh('上德不德'), ', “the highest de is not de”. So the title simply names the two parts and calls them a classic: “The Classic of the Way and its Power”. In the oldest complete copies, the silk manuscripts from Mawangdui, the De part comes first. ', more('daojing', 'Dao part'), ' ', more('dejing', 'De part'), ' ', more('mawangdui', 'Mawangdui')),
     h('p', {}, 'For its first centuries the book had no grand title. People called it the Laozi, “the Old Master”, after its supposed author: ', zh('老'), ' is old, and ', zh('子'), ', a child, is also a title of respect for a teacher. The title with ', zh('經'), ' is traditionally traced to the Han dynasty (206 BCE–220 CE), when the court began to treat the book as a classic. ', more('laozi', 'Laozi')),
     h('p', {}, '“Tao Te Ching” and “Daodejing” are one name in two spellings. “Tao Te Ching” is the older Wade–Giles spelling, in which T stands for a sound close to English d. “Daodejing” is pinyin, the spelling China adopted in 1958. The notes on this site use pinyin. ', more('daodejing', 'Daodejing')),
+    h('p', {}, 'You will meet other spellings too. For ', zh('老子'), ': Lao Tzu, Lao-tse, Laotse, Lao Tse, Lao Tsu. For ', zh('道德經'), ': Tâo Teh King (Legge’s 1891 title), Tao Te King (common in German and many French books), Tao-tö king (also French), Dao De Jing. They come from different ways of writing Chinese sounds in the Latin alphabet, and from different languages’ habits. All of them name the same figure and the same book.'),
 
     h('h2', { text: 'The text' }),
     para('The book is about 5,000 Chinese characters in 81 short chapters.'),
     para('It is written in a compressed, often rhymed, often paradoxical style. Many lines have no stated subject and no tense. That openness is one reason why there are hundreds of translations, and why they differ so widely.'),
 
     h('h3', { text: 'Who wrote it?' }),
+    figure('lao-buffalo-disciple', 'Laozi on his water buffalo, a boy with a gourd beside him: how later painters liked to picture him. Qing dynasty, 18th century.'),
     h('p', {}, 'Nobody knows. The oldest surviving biography is by the historian Sima Qian, in his Records of the Grand Historian (', zh('史記'), ', about 94 BCE). He says Laozi was Li Er, also called Dan, a man from the state of Chu who kept the archives at the Zhou royal court. Confucius is said to have visited him to ask about ritual, and to have come away comparing him to a dragon. When Laozi saw the Zhou kingdom decline, he left. At the pass (later tradition puts it on the western frontier), the keeper of the pass, Yin Xi, asked him to write down his teaching. Laozi wrote a book in two parts, “more than five thousand words” about the Way and its power, and then left. “No one knows where he ended,” Sima Qian writes.'),
+    figures(['confucius-laozi-rubbing', 'Confucius (left) meets Laozi: a rubbing from a Han dynasty stone relief, carved about 1,800 years ago.'], ['yinxi-woodblock', 'Yin Xi, the keeper of the pass who asked Laozi to write. A Ming woodblock print.']),
     para('Sima Qian himself was not sure. In the same chapter he names two other men who might be Laozi: Lao Laizi, a man from Chu who wrote a book on the uses of the Way, and the Grand Historian Dan (儋, a different character from Li Er’s 聃), who met a Qin ruler 129 years after Confucius died. On who Laozi really was, he concludes: “The world does not know if this is so.” He also reports that Laozi lived more than 160 years, “some say more than 200”. Later legend added the ox that Laozi rides through the pass and a birth after many decades in the womb.'),
     para('Most scholars now think that the text is not the work of one hand at one time. It looks like a collection of sayings, some perhaps old proverbs or verses for memorizing, that were gathered, arranged, and edited over generations. “Laozi” (“the Old Master”) may have been a real archivist, a name given to a school of thought, or both.'),
+
+    map ? mapSection(map) : null,
 
     h('h3', { text: 'What the tombs showed' }),
     para('Three finds changed what we know. In 1973, at Mawangdui in Hunan, archaeologists opened a tomb sealed in 168 BCE. It held two copies of the Laozi on silk. Both are nearly complete. Both put the De part first and the Dao part second.'),
     para('In 1993, at Guodian in Hubei, a tomb from about 300 BCE gave up bundles of bamboo strips. They hold about two-fifths of the text, in a different order, alongside other writings. The Guodian strips show that much of the material existed by the late 4th century BCE, but perhaps not yet as one fixed book. A Han dynasty bamboo copy adds a third early witness. Peking University acquired it in 2009 from the antiquities market, so, unlike the other two, its tomb is not known.'),
+    figure('bamboo-slips', 'Bamboo slips from a Chu tomb of the same age as Guodian. Texts were written in a column down each strip, and the strips were tied into a roll.'),
     para('This site reads the received text that Wang Bi used in the 3rd century CE. Where the early manuscripts differ in a way that matters, a “Variant reading” note says so.'),
 
     h('h3', { text: 'Who has used it, and how' }),
+    figures(['mirror-daoist-deities', 'A bronze mirror with Daoist deities, Eastern Han: by then Laozi’s world was full of gods.'], ['star-chart', 'The Dunhuang star chart, Tang dynasty, about 700: from the age when emperors claimed Laozi as their ancestor.']),
     h('ul', { class: 'timeline' },
       h('li', {}, h('b', { text: 'Warring States (5th–3rd c. BCE). ' }), 'An age of states at war. The text spoke to rulers and to people who wanted to stay whole in dangerous times. The oldest surviving commentary, on selected passages, is kept in the Han Feizi, a book credited to the philosopher Han Fei. It reads the text as advice on how to rule, and parts of it as advice on care of the self.'),
       h('li', {}, h('b', { text: 'Early Han court (2nd c. BCE). ' }), 'After the wars, early Han rulers, above all Emperors Wen and Jing, followed “Huang-Lao” thought, named for the Yellow Emperor and Laozi: light taxes, few laws, and a ruler who did not interfere. Sima Qian says the Empress Dowager Dou made the emperor, the crown prince, and her own clan read the Yellow Emperor and the Laozi.'),
@@ -108,6 +116,7 @@ function history() {
       h('li', {}, h('b', { text: 'Europe (18th–19th c.). ' }), 'Jesuit missionaries searched it for traces of Christian truth. In 1823 the French scholar Abel-Rémusat suggested that three sounds in chapter 14 spelled the name of the biblical God. Stanislas Julien published a full French translation in 1842. James Legge, a Scottish missionary who became Oxford’s first professor of Chinese, published his English version in 1891. It is included on this site for comparison.'),
       h('li', {}, h('b', { text: 'Late 19th and 20th centuries. ' }), 'In the 1890s Tolstoy read it closely and helped with a Russian version. Bertolt Brecht wrote a poem about the customs officer at the pass. Martin Heidegger worked on a German translation with the Chinese scholar Paul Shih-yi Hsiao in 1946. It became one of the most translated books in the world.'),
       h('li', {}, h('b', { text: 'Today. ' }), 'People read it for meditation, for tai chi and other martial arts, for leadership and management, for psychology and therapy, and for ecology, as a voice for living with nature and not against it. Some uses are deep. Some flatten it into slogans.')),
+    dynasties(),
     para('Why has it lasted? It is short. It is open enough that each age can find itself in it. And it says something that each age seems to need: that softness can outlast force, that less can be more, and that every extreme turns back toward its opposite.'),
   );
 }
@@ -131,4 +140,102 @@ function useToday() {
       h('li', {}, h('b', { text: 'Write. ' }), 'Tap “Write about this” on a question, or just write. Your notes collect on the Journal page. They stay in this browser; export them now and then.'),
       h('li', {}, h('b', { text: 'Search and wander. ' }), h('a', { href: '#/search', text: 'Search' }), ' finds passages, notes, stories, and art by idea, not only by word: try “letting go” or “grief”. Or browse every ', h('a', { href: '#/art', text: 'painting and object' }), ' and every ', h('a', { href: '#/stories', text: 'story' }), ', and the songs, films, books, and shows that echo each passage ', h('a', { href: '#/culture', text: 'in our time' }), '.')),
   );
+}
+
+let ART = { catalog: {}, passages: {} };
+
+function artUse(id) {
+  const used = Object.entries(ART.passages || {}).flatMap(([n, l]) => l.filter((e) => e.id === id).map((e) => [Number(n), e]));
+  return { a: ART.catalog?.[id], used };
+}
+
+/** A public-domain picture from the app's art catalog; tap to look closer. */
+function figure(id, caption) {
+  const { a, used } = artUse(id);
+  if (!a) return null;
+  return h('figure', { class: 'about-fig' },
+    h('button', { class: 'art-btn', type: 'button', 'aria-label': `Look closer: ${a.title}`,
+      onclick: () => openArt(a, used[0]?.[1] || {}, {}, { passages: used.map(([n]) => n) }) },
+    h('img', { src: a.file, alt: a.alt || a.title, width: a.w, height: a.h, loading: 'lazy', decoding: 'async' })),
+    h('figcaption', { class: 'muted small', text: caption }));
+}
+function figures(...pairs) {
+  return h('div', { class: 'about-figs' }, pairs.map(([id, cap]) => figure(id, cap)));
+}
+
+// Places, by longitude and latitude. Coordinates of modern towns; old sites are approximate.
+const PLACES = [
+  [112.45, 34.62, 'Luoyang', 'Eastern Zhou royal capital, where Laozi is said to have kept the archives', 'right'],
+  [110.92, 34.63, 'Hangu Pass', 'one traditional site of the pass where Laozi wrote the book', 'above'],
+  [115.48, 33.86, 'Luyi', 'old Ku county in Chu: Laozi’s birthplace in the Shiji', 'right'],
+  [116.99, 35.58, 'Qufu', 'home of Confucius, in the state of Lu', 'right'],
+  [108.94, 34.34, 'Xi’an', 'Chang’an, capital of the Western Han and the Tang; the Qin capital was nearby', 'below'],
+  [112.18, 30.52, 'Guodian', 'bamboo slips, tomb of about 300 BCE (Shayang, near ancient Jinancheng)', 'left'],
+  [113.03, 28.20, 'Mawangdui', 'silk manuscripts, tomb sealed 168 BCE (Changsha)', 'right'],
+  [116.40, 39.90, 'Beijing', 'today’s capital, for reference', 'right'],
+];
+const RIVER_LABELS = [['Yellow River', 108.6, 40.9], ['Yangtze', 117.3, 29.6], ['Han River', 109.4, 32.3]];
+
+function mapSection(m) {
+  const k = Math.cos(m.lat0 * Math.PI / 180);
+  const [W0, , , N0] = m.window;
+  const xy = (lon, lat) => [(lon - W0) * k * m.scale, (N0 - lat) * m.scale];
+  const svg = svgEl('svg', { class: 'about-map', viewBox: `0 0 ${m.width} ${m.height}`, role: 'img',
+    'aria-label': 'Map of the Yellow River and Yangtze region with the places named in the list below' },
+  svgEl('rect', { x: 0, y: 0, width: m.width, height: m.height, class: 'map-sea' }),
+  svgEl('path', { d: m.land, class: 'map-land' }),
+  ...m.rivers.map((r) => svgEl('path', { d: r.d, class: 'map-river' })),
+  ...RIVER_LABELS.map(([t, lon, lat]) => { const [x, y] = xy(lon, lat); return svgEl('text', { x, y, class: 'map-river-label' }, t); }),
+  ...PLACES.flatMap(([lon, lat, name, , side], i) => {
+    const [x, y] = xy(lon, lat);
+    return [svgEl('circle', { cx: x, cy: y, r: 7, class: 'map-dot' }),
+      svgEl('text', {
+        x: side === 'left' ? x - 12 : side === 'right' ? x + 12 : x,
+        y: side === 'above' ? y - 16 : side === 'below' ? y + 32 : y + 8,
+        class: 'map-label', 'text-anchor': side === 'left' ? 'end' : side === 'right' ? 'start' : 'middle',
+      }, name)];
+  }));
+  return h('section', { class: 'about-map-wrap' },
+    h('h3', { text: 'Where it happened' }),
+    h('div', { class: 'map-box' }, svg),
+    h('ul', { class: 'map-key' }, PLACES.map(([, , name, what]) => h('li', {}, h('b', { text: `${name}: ` }), what))),
+    h('p', { class: 'muted small', text: 'Coastline and rivers from Natural Earth (public domain). Modern coastline; the coast and the river courses have moved over the centuries, and no borders are drawn because they changed so often.' }));
+}
+
+// Peak areas: rough estimates in million km² (Taagepera); other estimates differ widely.
+const DYNASTIES = [
+  ['Shang', 'c. 1600–1046 BCE', null, 'Bronze ritual vessels, and the oldest Chinese writing, on oracle bones.'],
+  ['Zhou', '1046–256 BCE', null, 'Kings ruled by the “Mandate of Heaven”. After 771 BCE their power faded: the Spring and Autumn period, then the Warring States (475–221 BCE). The Daodejing took shape in this age.'],
+  ['Qin', '221–206 BCE', null, 'The First Emperor joined the states into one empire and took the new title 皇帝, “emperor”. One script, one coinage, one law.'],
+  ['Han', '206 BCE–220 CE', 6.5, 'The Laozi became a classic; the Mawangdui tomb was sealed in 168 BCE; Laozi became a god.'],
+  ['Division', '220–589', null, 'Three Kingdoms, Jin, and the Northern and Southern dynasties. Wang Bi wrote his commentary; Buddhism spread.'],
+  ['Sui', '581–618', null, 'Reunified the country and dug the Grand Canal.'],
+  ['Tang', '618–907', 5.4, 'The ruling Li family claimed Laozi as its ancestor; the text was set for the state exams.'],
+  ['Song', '960–1279', 3.1, 'Reunified most of China after the Five Dynasties (907–960). Printing spread; the great landscape painters, many of them in this app.'],
+  ['Yuan', '1271–1368', 11.0, 'Mongol rule under Khubilai Khan and his heirs.'],
+  ['Ming', '1368–1644', 6.5, 'Its founder, Zhu Yuanzhang, wrote a commentary on the Laozi.'],
+  ['Qing', '1644–1912', 14.7, 'Manchu rule; China’s largest empire. Jesuits and then Protestant missionaries carried the text to Europe.'],
+  ['Republic', '1912–1949 (mainland)', null, 'The last emperor, Puyi, gave up the throne in 1912. After 1949 the Republic continued on Taiwan.'],
+  ['People’s Republic', '1949–', 9.6, 'Today’s area, for comparison. The Guodian and Mawangdui finds came in this era.'],
+];
+
+// Width via the CSSOM: the CSP forbids inline style attributes, not script-set styles.
+function fillBar(frac) {
+  const el = h('span', { class: 'dyn-fill' });
+  el.style.width = `${Math.max(2, Math.round(frac * 100))}%`;
+  return el;
+}
+
+function dynasties() {
+  const max = 15;
+  return h('section', { class: 'dynasties' },
+    h('h3', { text: 'China’s dynasties and emperors' }),
+    h('p', {}, 'From 221 BCE until imperial rule ended in 1912, China was ruled by emperors. A dynasty held power while it kept the “Mandate of Heaven”; floods, famine, and revolt were read as signs that heaven had withdrawn it. Borders grew and shrank with each dynasty, and for long periods several states shared the land. The Daodejing took shape in a time of division, and it was read by every dynasty after.'),
+    h('ol', { class: 'dyn-list' }, DYNASTIES.map(([name, dates, area, note]) => h('li', {},
+      h('div', { class: 'dyn-head' }, h('b', { text: name }), h('span', { class: 'muted small', text: dates })),
+      area ? h('div', { class: 'dyn-bar', role: 'img', 'aria-label': `Peak area about ${area} million square kilometres` },
+        fillBar(area / max),
+        h('span', { class: 'dyn-val small', text: `≈ ${area} million km²` })) : null,
+      h('p', { class: 'dyn-note small', text: note })))),
+    h('p', { class: 'muted small', text: 'Bars: peak area, rough estimates (after the political scientist Rein Taagepera); other estimates differ widely, because borders were often claimed more than held. Today’s China is about 9.6 million km².' }));
 }
