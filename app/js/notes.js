@@ -64,7 +64,7 @@ function glossText(str, ctx, block) {
 const KIND_LABEL = {
   etymology: 'Etymology', gap: 'Translation gap', history: 'History', geopolitics: 'Geopolitics',
   wordplay: 'Wordplay', variant: 'Variant reading', wangbi: 'Wang Bi’s comment', legge: 'Legge’s frame',
-  practice: 'Practice',
+  practice: 'Practice', pair: 'Paired opposites',
 };
 
 /**
@@ -102,7 +102,7 @@ export function hanify(text, ctx = {}) {
   return frag;
 }
 
-export function openNote(id, ctx) {
+export function openNote(id, ctx, { passage } = {}) {
   const n = ctx.notes[id];
   openSheet({
     kind: KIND_LABEL[n.kind] || n.kind,
@@ -111,6 +111,7 @@ export function openNote(id, ctx) {
       const box = h('div', {});
       for (const para of String(n.body).split(/\n{2,}/)) box.append(rich(para, ctx, { block: true }));
       if (n.src?.length) box.append(h('p', { class: 'src' }, 'Sources: ', glossify(n.src.join('; '), { ...ctx, glossSeen: new Set() })));
+      if (passage) box.append(h('p', { class: 'links' }, h('a', { href: `#/p/${passage}`, text: `Passage ${passage}` })));
       return box;
     },
   });

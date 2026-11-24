@@ -21,8 +21,12 @@ export async function drawView() {
   const idx = await getIndex();
   const root = h('section', { class: 'draw' });
   const start = h('div', {},
+    h('header', { class: 'home-head' },
+      h('h1', {}, 'Tao Te Ching ', h('span', { class: 'zh', lang: 'zh-Hant', text: '道德經' })),
+      h('p', { class: 'sub', text: 'Tao of Power' }),
+      h('p', { class: 'intro' }, 'An interactive tool for exploring the Tao Te Ching. Draw a passage by chance, read it slowly, look into the Chinese, and write what arises. ',
+        h('a', { href: '#/about', text: 'About: the how and the why' }))),
     h('p', { class: 'big', lang: 'zh-Hant', 'aria-hidden': 'true', text: '道' }),
-    h('h1', { class: 'sr-title', text: 'Draw a passage' }),
     h('p', { class: 'lede', text: 'Settle. Hold a question lightly, or none at all. Then let the sticks fall.' }),
     h('div', { class: 'row actions' }, h('button', { class: 'btn red', type: 'button', text: 'Draw', onclick: () => run(root) })),
     h('p', { class: 'small' }, h('a', { href: '#/how', class: 'muted', text: 'How does the draw work?' })),

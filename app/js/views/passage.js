@@ -1,12 +1,12 @@
 // One passage: rendering with notes, the Chinese column, lenses, plate, Legge, journal.
 import { h, tetragram, lineNames, fmtDate, toast } from '../ui.js';
 import { linesFor } from '../draw.js';
-import { getPassage, getLexicon, getArt, getEchoes, getWing } from '../data.js';
+import { getPassage, getLexicon, getArt, getEchoes, getWing, getCulture } from '../data.js';
 import { openSheet } from '../sheet.js';
 import { rich, openChar, hanify } from '../notes.js';
 import { isHan } from '../markup.js';
 import { state } from '../app.js';
-import { addEntry, saveDraft, loadDraft, clearDraft } from '../journal.js';
+import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
 import { entryList } from './journal.js';
 import { brushPanel } from '../brush.js';
 
@@ -25,7 +25,7 @@ const LENS = [
 
 export async function passageView(n, drawId) {
   if (!(n >= 1 && n <= 81)) return h('p', { text: 'There are 81 passages.' });
-  const [{ text, rich: p }, lex, art, echoes, wing] = await Promise.all([getPassage(n), getLexicon(), getArt(), getEchoes(), getWing()]);
+  const [{ text, rich: p }, lex, art, echoes, wing, culture] = await Promise.all([getPassage(n), getLexicon(), getArt(), getEchoes(), getWing(), getCulture()]);
   const ctx = { notes: p?.notes || {} };
   const lines = linesFor(n);
   const draw = drawId ? state.journal.draws.find((d) => d.id === drawId) : null;
@@ -89,6 +89,10 @@ export async function passageView(n, drawId) {
   const echoBox = echoSection(n, echoes, ctx);
   if (echoBox) root.append(echoBox);
 
+  // Songs, films, books, shows: the passage in modern culture
+  const cultureBox = cultureSection(n, culture);
+  if (cultureBox) root.append(cultureBox);
+
   // A reference to R. L. Wing's reading (our summary, not his words)
   const wingBox = wingSection(n, wing, ctx);
   if (wingBox) root.append(wingBox);
@@ -110,7 +114,11 @@ export async function passageView(n, drawId) {
   root.append(h('details', { class: 'legge' }, h('summary', { text: 'James Legge’s translation (1891)' }),
     text.legge.map((para) => h('p', { text: para }))));
 
-  root.append(h('hr', { class: 'rule' }), journalBox(n, draw));
+  const jbox = journalBox(n, draw);
+  const qBox = questionSection(p?.questions, jbox);
+  root.append(h('hr', { class: 'rule' }));
+  if (qBox) root.append(qBox);
+  root.append(jbox);
   return root;
 }
 
@@ -118,7 +126,13 @@ function credit(a) {
   return [a.artist, a.date, a.collection].filter(Boolean).join(' · ');
 }
 
-function openArt(a, entry, ctx) {
+function sourceName(url) {
+  if (/clevelandart\.org/.test(url)) return 'Cleveland Museum of Art (open access)';
+  if (/artic\.edu/.test(url)) return 'Art Institute of Chicago (open access)';
+  return 'Wikimedia Commons';
+}
+
+export function openArt(a, entry, ctx, { passages } = {}) {
   openSheet({
     kind: 'Painting', title: a.title,
     build: () => h('div', {},
@@ -126,17 +140,25 @@ function openArt(a, entry, ctx) {
       a.titleZh ? h('p', { class: 'zh-quote', lang: 'zh-Hant' }, hanify(a.titleZh, ctx)) : null,
       h('p', { class: 'muted small', text: credit(a) }),
       entry.look ? rich(entry.look, ctx, { block: true }) : null,
-      h('p', { class: 'src' }, `${a.license}. `, h('a', { href: a.source, target: '_blank', rel: 'noopener noreferrer', text: 'Source: Wikimedia Commons' }))),
+      h('p', { class: 'src' }, `${a.license}. `, h('a', { href: a.source, target: '_blank', rel: 'noopener noreferrer', text: `Source: ${sourceName(a.source)}` })),
+      passageLinks(passages)),
   });
 }
 
-function openStory(st, ctx) {
+/** "Read passage N" chips, for sheets opened outside a passage page. */
+export function passageLinks(passages) {
+  if (!passages?.length) return null;
+  return h('p', { class: 'links' }, [...new Set(passages)].sort((x, y) => x - y).map((n) => h('a', { href: `#/p/${n}`, text: `Passage ${n}` })));
+}
+
+export function openStory(st, ctx = {}, { links = false } = {}) {
   openSheet({
     kind: 'A story', title: st.title,
     build: () => {
       const box = h('div', {});
       for (const para of String(st.text).split(/\n{2,}/)) box.append(rich(para, ctx, { block: true }));
       if (st.source) box.append(h('p', { class: 'src', text: `From ${st.source}. Retold for this page.` }));
+      if (links) { const l = passageLinks(st.passages); if (l) box.append(l); }
       return box;
     },
   });
@@ -167,20 +189,45 @@ function wingSection(n, wing, ctx) {
   return box;
 }
 
+export function openEcho(e, ctx = {}, { passages } = {}) {
+  const lang = /musashi|five rings|五輪/i.test(e.source) ? 'ja' : 'zh-Hant';
+  openSheet({
+    kind: e.source, title: e.title,
+    build: () => h('div', {},
+      e.quote ? h('blockquote', { class: 'echo-quote' },
+        h('p', { lang }, hanify(e.quote, ctx)),
+        e.quoteEn ? h('p', { class: 'muted', text: e.quoteEn }) : null) : null,
+      ...String(e.body || '').split(/\n{2,}/).map((para) => rich(para, ctx, { block: true })),
+      passageLinks(passages)),
+  });
+}
+
+export const CULTURE_KIND = {
+  song: 'Song', poem: 'Poem', film: 'Film', tv: 'TV', episode: 'TV episode', anime: 'Anime', manga: 'Manga',
+  comic: 'Comic', music: 'Music', album: 'Album', novel: 'Novel', 'short-story': 'Short story', book: 'Book', ad: 'Ad', game: 'Game',
+};
+
+function cultureSection(n, culture) {
+  const list = culture.passages?.[n] || [];
+  if (!list.length) return null;
+  return h('section', { class: 'culture', 'aria-label': 'In our time' },
+    h('h2', { text: 'In our time' }),
+    h('p', { class: 'muted small', text: 'Songs, films, books, and shows that explore this passage, or show its opposite. Links go to Wikipedia.' }),
+    h('ul', { class: 'culture-list' }, list.map((c) => h('li', { id: `c-${c.id}` },
+      h('p', { class: 'c-head' },
+        h('span', { class: 'kind', text: `${CULTURE_KIND[c.kind] || c.kind}${c.contrast ? ' · by contrast' : ''}` }),
+        h('a', { href: c.link, target: '_blank', rel: 'noopener noreferrer', class: 'c-title', text: c.title }),
+        h('span', { class: 'muted small', text: [c.creator, c.year].filter(Boolean).join(', ') })),
+      h('p', { class: 'c-why', text: c.why })))));
+}
+
 function echoSection(n, echoes, ctx) {
   const list = echoes.passages?.[n] || [];
   if (!list.length) return null;
   const box = h('section', { class: 'echoes', 'aria-label': 'Echoes in other classics' }, h('h2', { text: 'Echoes' }));
   for (const e of list) {
-    const lang = /musashi|five rings|五輪/i.test(e.source) ? 'ja' : 'zh-Hant';
-    box.append(h('button', { class: 'story-btn echo-btn', type: 'button', onclick: () => openSheet({
-      kind: e.source, title: e.title,
-      build: () => h('div', {},
-        e.quote ? h('blockquote', { class: 'echo-quote' },
-          h('p', { lang }, hanify(e.quote, ctx)),
-          e.quoteEn ? h('p', { class: 'muted', text: e.quoteEn }) : null) : null,
-        ...String(e.body || '').split(/\n{2,}/).map((para) => rich(para, ctx, { block: true }))),
-    }) }, h('span', { class: 'kind', text: e.source }), h('span', { text: e.title })));
+    box.append(h('button', { class: 'story-btn echo-btn', type: 'button', onclick: () => openEcho(e, ctx) },
+      h('span', { class: 'kind', text: e.source }), h('span', { text: e.title })));
   }
   return box;
 }
@@ -233,6 +280,21 @@ async function plate(pl, e, ctx) {
   return el;
 }
 
+// Questions to sit with: each one can be taken into the journal box below.
+function questionSection(qs, jbox) {
+  if (!qs?.length) return null;
+  const box = h('section', { class: 'sit', 'aria-label': 'Questions to sit with' },
+    h('h2', { text: 'Sit with it' }),
+    h('p', { class: 'muted small', text: 'Test the passage against your own life. Take your time with each question. Then write what arises.' }));
+  for (const q of qs) {
+    box.append(h('div', { class: 'sit-q' },
+      h('p', { class: 'sit-claim', text: q.claim }),
+      h('ul', {}, q.prompts.map((pr) => h('li', { text: pr }))),
+      h('button', { class: 'btn quiet small-btn', type: 'button', text: 'Write about this', onclick: () => jbox.ask(q) })));
+  }
+  return box;
+}
+
 // One pair of global listeners saves whichever draft is on screen.
 let currentFlush = null;
 addEventListener('pagehide', () => currentFlush?.());
@@ -242,6 +304,14 @@ addEventListener('hashchange', () => { currentFlush?.(); currentFlush = null; })
 function journalBox(n, draw) {
   const ta = h('textarea', { id: 'jtext', 'aria-label': 'Your thoughts on this passage', placeholder: 'What arises?' });
   ta.value = loadDraft(n);
+  let q = loadDraftQ(n);
+  const qLine = h('div', { class: 'jq', hidden: true });
+  const showQ = () => {
+    qLine.hidden = !q;
+    if (q) qLine.replaceChildren(h('span', { class: 'kind', text: 'Writing on' }), h('span', { class: 'jq-claim', text: q.claim }),
+      h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Stop writing on this question', text: '×', onclick: () => { q = null; saveDraftQ(n, null); showQ(); } }));
+  };
+  showQ();
   let t;
   const flush = () => saveDraft(n, ta.value);
   ta.addEventListener('input', () => { clearTimeout(t); t = setTimeout(flush, 600); });
@@ -251,15 +321,24 @@ function journalBox(n, draw) {
   const save = () => {
     const text = ta.value.trim();
     if (!text) { ta.focus(); return; }
-    addEntry(state.journal, { passage: n, text, drawId: draw?.id });
-    if (state.persist()) { ta.value = ''; clearDraft(n); toast('Saved.'); refresh(); }
+    addEntry(state.journal, { passage: n, text, drawId: draw?.id, q });
+    if (state.persist()) { ta.value = ''; q = null; clearDraft(n); showQ(); toast('Saved.'); refresh(); }
   };
   refresh();
-  return h('section', { class: 'jbox', 'aria-label': 'Journal' },
+  const el = h('section', { class: 'jbox', 'aria-label': 'Journal' },
     h('h2', { text: 'Journal' }),
     h('label', { for: 'jtext', class: 'muted small', text: new Date().toLocaleString(undefined, { dateStyle: 'full', timeStyle: 'short' }) }),
+    qLine,
     ta,
     h('div', { class: 'row' }, h('span', { class: 'muted small', text: 'Saved in this browser. Export from Journal.' }),
       h('button', { class: 'btn primary', type: 'button', text: 'Save', onclick: save })),
     list);
+  el.ask = (next) => {
+    q = { id: next.id, claim: next.claim };
+    saveDraftQ(n, q);
+    showQ();
+    el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    ta.focus({ preventScroll: true });
+  };
+  return el;
 }

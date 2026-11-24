@@ -11,10 +11,10 @@ const uni = read('sources/unihan.json');
 const lex = read('app/data/lexicon.json');
 const shuowen = hanOnly(readFileSync(new URL('sources/shuowen.txt', root), 'utf8'));
 
-const KINDS = new Set(['etymology', 'gap', 'history', 'geopolitics', 'wordplay', 'variant', 'wangbi', 'legge', 'practice']);
+const KINDS = new Set(['etymology', 'gap', 'history', 'geopolitics', 'wordplay', 'variant', 'wangbi', 'legge', 'practice', 'pair']);
 const LENSES = new Set(['ground', 'inner', 'leading', 'body', 'nature', 'practice']);
 const THEMES = new Set(['way', 'seeing', 'self', 'leading', 'yielding', 'conflict', 'simplicity']);
-const KEYS = ['n', 'title', 'theme', 'zh', 'rendering', 'notes', 'lenses', 'glyph'];
+const KEYS = ['n', 'title', 'theme', 'zh', 'rendering', 'notes', 'lenses', 'glyph', 'questions'];
 const stripTone = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ü/g, 'v');
 
 const errors = [];
@@ -97,7 +97,25 @@ function checkPassage(f, where) {
     checkText(pl.lesson || '', `plate ${i} lesson`);
     checkText(pl.brush || '', `plate ${i} brush`);
   }
+  checkQuestions(p.questions, where);
   for (const id of Object.keys(notes)) if (!used.has(id)) err(where, `note ${id} is never referenced`);
+}
+
+// Questions to sit with (style guide §11).
+function checkQuestions(qs, where) {
+  if (qs == null) return; // the missing key is reported above
+  if (!Array.isArray(qs) || qs.length < 2 || qs.length > 3) { err(where, `needs 2–3 questions, has ${qs?.length}`); return; }
+  const ids = new Set();
+  for (const [i, q] of qs.entries()) {
+    const w = `question ${i}`;
+    if (!q?.id || ids.has(q.id)) err(where, `${w}: missing or duplicate id`);
+    ids.add(q?.id);
+    const words = String(q?.claim || '').split(/\s+/).filter(Boolean).length;
+    if (words < 8 || words > 25) err(where, `${w}: claim has ${words} words (8–25)`);
+    if (/\[\[/.test(q?.claim || '')) err(where, `${w}: claim must not contain note markup`);
+    if (!Array.isArray(q?.prompts) || q.prompts.length < 3 || q.prompts.length > 5) err(where, `${w}: needs 3–5 prompts`);
+    else for (const pr of q.prompts) if (typeof pr !== 'string' || !/[?.!]["”’)]*$/.test(pr.trim()) || /\[\[/.test(pr)) err(where, `${w}: prompt must be a sentence`);
+  }
 }
 
 console.log(`checked ${files.length} passages, ${Object.keys(lex).length} lexicon entries`);

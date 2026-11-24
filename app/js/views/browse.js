@@ -2,6 +2,7 @@
 import { h, tetragram } from '../ui.js';
 import { linesFor } from '../draw.js';
 import { getIndex } from '../data.js';
+import { libraryLinks } from './library.js';
 
 const THEMES = [
   ['all', 'All'], ['way', 'The Way'], ['seeing', 'Seeing'], ['self', 'Self'], ['leading', 'Leading'],
@@ -29,7 +30,7 @@ export async function browseView() {
     }));
   };
   draw();
-  return h('section', {}, h('h1', { text: 'The 81 passages' }),
+  return h('section', {}, libraryLinks('browse'), h('h1', { text: 'The 81 passages' }),
     h('p', { class: 'muted', text: 'Each passage has its own tetragram of four lines, read from the bottom up. Choose one directly, or return to the draw.' }),
     chips, grid);
 }

@@ -1,7 +1,7 @@
 {
-  "name": "Tao — draw, read, write",
+  "name": "Tao Te Ching · Tao of Power",
   "short_name": "Tao",
-  "description": "Draw a passage of the Daodejing with the 64-stick method. Read slowly. Write what arises.",
+  "description": "An interactive tool for exploring the Tao Te Ching: draw a passage, read it slowly, write what arises.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

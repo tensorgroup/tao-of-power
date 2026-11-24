@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {
   emptyJournal, load, save, addEntry, updateEntry, deleteEntry, recordDraw,
   validate, merge, toExport, exportFilename, saveDraft, loadDraft, clearDraft,
-  KEY,
+  saveDraftQ, loadDraftQ, KEY,
 } from '../app/js/journal.js';
 
 function memStorage(throwOnSet = false) {
@@ -123,3 +123,30 @@ test('drafts round-trip', () => {
 });
 
 test('storage key', () => assert.equal(KEY, 'tao.journal.v1'));
+
+test('an entry keeps the question it answers, through export and import', () => {
+  const j = emptyJournal();
+  const e = addEntry(j, { passage: 59, text: 'x', q: { id: 'finite-store', claim: 'The body has a finite store.', extra: 1 } });
+  assert.deepEqual(e.q, { id: 'finite-store', claim: 'The body has a finite store.' });
+  const back = validate(JSON.parse(toExport(j)));
+  assert.equal(back.ok, true);
+  assert.deepEqual(back.journal.entries[0].q, e.q);
+  assert.equal(addEntry(j, { passage: 1, text: 'y', q: null }).q, undefined);
+});
+
+test('validate drops a malformed question link but keeps the entry', () => {
+  const now = new Date().toISOString();
+  const r = validate({ version: 1, entries: [{ id: 'a', passage: 2, text: 't', createdAt: now, updatedAt: now, q: { id: 3 } }] });
+  assert.equal(r.ok, true);
+  assert.equal('q' in r.journal.entries[0], false);
+});
+
+test('draft question round-trips and clears with the draft', () => {
+  const st = memStorage();
+  saveDraft(5, 'hi', st);
+  saveDraftQ(5, { id: 'q1', claim: 'c' }, st);
+  assert.deepEqual(loadDraftQ(5, st), { id: 'q1', claim: 'c' });
+  clearDraft(5, st);
+  assert.equal(loadDraftQ(5, st), null);
+  assert.equal(loadDraft(5, st), '');
+});

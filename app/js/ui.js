@@ -26,6 +26,13 @@ function append(el, children) {
   }
 }
 
+/** Replace an element's children. Like native replaceChildren(), but skips null and false (which it would print as "null"). */
+export function fill(el, ...children) {
+  clear(el);
+  append(el, children);
+  return el;
+}
+
 export function clear(el) { while (el.firstChild) el.firstChild.remove(); return el; }
 
 /** Tetragram SVG. lines bottom→top; 0 solid, 1 one break, 2 two breaks. */

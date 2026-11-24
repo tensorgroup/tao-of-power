@@ -3,6 +3,7 @@
 export const KEY = 'tao.journal.v1';
 export const SNAPSHOT_KEY = 'tao.journal.snapshot';
 const DRAFT = (n) => `tao.draft.${String(n).padStart(2, '0')}`;
+const DRAFT_Q = (n) => `tao.draftq.${String(n).padStart(2, '0')}`;
 
 const ls = () => globalThis.localStorage;
 
@@ -42,9 +43,10 @@ export function snapshot(j, storage = ls()) {
   try { storage.setItem(SNAPSHOT_KEY, JSON.stringify(j)); return true; } catch { return false; }
 }
 
-export function addEntry(j, { passage, text, drawId }, now = new Date().toISOString()) {
+export function addEntry(j, { passage, text, drawId, q }, now = new Date().toISOString()) {
   const e = { id: uuid(), createdAt: now, updatedAt: now, passage, text };
   if (drawId) e.drawId = drawId;
+  if (q?.id && q?.claim) e.q = { id: String(q.id), claim: String(q.claim) };
   j.entries.push(e);
   return e;
 }
@@ -94,7 +96,11 @@ export function validate(obj) {
     journal: {
       version: 1,
       lastExportAt: isTime(obj.lastExportAt) ? obj.lastExportAt : null,
-      entries: obj.entries.map((e) => ({ ...e, text: String(e.text) })),
+      entries: obj.entries.map((e) => {
+        const out = { ...e, text: String(e.text) };
+        if (!(e.q && isStr(e.q.id) && isStr(e.q.claim))) delete out.q; // drop a malformed question link
+        return out;
+      }),
       draws: draws.map((d) => ({ ...d })),
       tombstones: tombstones.map((t) => ({ ...t })),
     },
@@ -150,5 +156,17 @@ export function loadDraft(n, storage = ls()) {
   try { return storage.getItem(DRAFT(n)) || ''; } catch { return ''; }
 }
 export function clearDraft(n, storage = ls()) {
-  try { storage.removeItem(DRAFT(n)); } catch { /* ignore */ }
+  try { storage.removeItem(DRAFT(n)); storage.removeItem(DRAFT_Q(n)); } catch { /* ignore */ }
+}
+/** The question a draft answers: { id, claim } or null. */
+export function saveDraftQ(n, q, storage = ls()) {
+  try {
+    if (q) storage.setItem(DRAFT_Q(n), JSON.stringify({ id: q.id, claim: q.claim })); else storage.removeItem(DRAFT_Q(n));
+  } catch { /* best effort */ }
+}
+export function loadDraftQ(n, storage = ls()) {
+  try {
+    const q = JSON.parse(storage.getItem(DRAFT_Q(n)) || 'null');
+    return q && typeof q.id === 'string' && typeof q.claim === 'string' ? q : null;
+  } catch { return null; }
 }

@@ -8,6 +8,8 @@ import { journalView } from './views/journal.js';
 import { browseView } from './views/browse.js';
 import { aboutView } from './views/about.js';
 import { howView } from './views/how.js';
+import { searchView } from './views/search.js';
+import { galleryView, storiesView, cultureView } from './views/library.js';
 import { setGlossary } from './notes.js';
 import { getGlossary } from './data.js';
 
@@ -35,7 +37,13 @@ const routes = [
   [/^#\/browse$/, () => browseView()],
   [/^#\/about$/, () => aboutView()],
   [/^#\/how$/, () => howView()],
+  [/^#\/search(?:\?q=([^&]*))?$/, (m) => searchView(m[1] ? safeDecode(m[1]) : '')],
+  [/^#\/art$/, () => galleryView()],
+  [/^#\/stories$/, () => storiesView()],
+  [/^#\/culture$/, () => cultureView()],
 ];
+
+const safeDecode = (s) => { try { return decodeURIComponent(s); } catch { return s; } };
 
 async function route() {
   closeAll();
@@ -53,9 +61,10 @@ async function route() {
     node = h('div', { class: 'pending' }, h('p', { text: 'This page could not load. If you are offline, the offline copy may be incomplete.' }), h('p', { class: 'small', text: String(e.message || e) }));
   }
   clear(view).append(node);
-  const section = hash.split('/')[1] || 'draw';
+  const section = (hash.split('/')[1] || 'draw').split('?')[0];
+  const navKey = { art: 'browse', stories: 'browse', culture: 'browse' }[section] || section;
   for (const a of document.querySelectorAll('[data-nav]')) {
-    const on = a.dataset.nav === (section === 'p' ? '' : section || 'draw');
+    const on = a.dataset.nav === (section === 'p' ? '' : navKey || 'draw');
     if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   }
   if (!hash.startsWith('#/p/')) window.scrollTo(0, 0);

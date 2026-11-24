@@ -1,5 +1,5 @@
 // All entries, edit/delete, export/import with merge.
-import { h, fmtDate, toast } from '../ui.js';
+import { h, fill, fmtDate, toast } from '../ui.js';
 import { state } from '../app.js';
 import {
   updateEntry, deleteEntry, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
@@ -16,7 +16,7 @@ export async function journalView() {
     const entries = [...j.entries].reverse();
     const last = j.lastExportAt ? Date.parse(j.lastExportAt) : null;
     const newer = j.entries.filter((e) => !last || Date.parse(e.updatedAt) > last).length;
-    root.replaceChildren(
+    fill(root,
       h('h1', { text: 'Journal' }),
       h('p', { class: 'muted', text: `${j.entries.length} entr${j.entries.length === 1 ? 'y' : 'ies'} · ${j.draws.length} draw${j.draws.length === 1 ? '' : 's'}` }),
       backupNote(last, newer),
@@ -25,9 +25,10 @@ export async function journalView() {
         h('button', { class: 'btn primary', type: 'button', text: 'Export', onclick: () => doExport(render) }),
         h('button', { class: 'btn', type: 'button', text: 'Import', onclick: () => doImport(render) })),
       entries.length ? entryList(entries, { showPassage: true, idx, onChange: render })
-        : h('p', { class: 'muted', style: null, text: 'No entries yet. Draw a passage and write what arises.' }),
-      draws(j, idx),
-    );
+        : h('div', { class: 'empty' },
+          h('p', { class: 'muted', text: 'No entries yet. Draw a passage and write what arises.' }),
+          h('a', { class: 'btn red', href: '#/', text: 'Draw a passage' })),
+      draws(j, idx));
   };
   render();
   return root;
@@ -57,11 +58,12 @@ export function entryList(entries, { showPassage, idx, onChange }) {
 
 function entryItem(e, { showPassage, idx, onChange }) {
   const li = h('li', { class: 'entry' });
-  const view = () => li.replaceChildren(
+  const view = () => fill(li,
     h('div', { class: 'meta' },
       h('time', { datetime: e.createdAt, text: fmtDate(e.createdAt) }),
       e.updatedAt !== e.createdAt ? h('span', { text: `edited ${fmtDate(e.updatedAt)}` }) : null,
       showPassage ? h('a', { href: `#/p/${e.passage}`, text: `${e.passage}${idx?.passages?.[e.passage]?.title ? ` · ${idx.passages[e.passage].title}` : ''}` }) : null),
+    e.q?.claim ? h('p', { class: 'entry-q', text: e.q.claim }) : null,
     h('div', { class: 'text', text: e.text }),
     h('div', { class: 'tools' },
       h('button', { class: 'btn quiet', type: 'button', text: 'Edit', onclick: edit }),

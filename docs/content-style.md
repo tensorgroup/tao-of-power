@@ -143,3 +143,61 @@ new writing and the brushwork is generated from open stroke data.
 See spec §5.4. `zh` is an array of segments as in the source; `gloss` maps a
 character offset (string) to an occurrence-specific sense. `legge` is copied
 by script, not by hand.
+
+## 10. Paired opposites (binding, 2026-11-23)
+
+The Laozi thinks in pairs: 有/無, 難/易, 長/短, 高/下, 剛/柔, 強/弱, 雌/雄,
+白/黑, 榮/辱, 動/靜, 先/後, 實/虛, 曲/全, 損/益, 生/死. Its claim is that each
+side of a pair arises with the other (有無相生, ch. 2), that each turns into the
+other (反者道之動, ch. 40), and that the sage holds both. Translations often
+lose this. They make one side "good" and the other "bad", or they freeze a
+cycle into a fixed rule ("weak always wins").
+
+For every passage:
+1. Find each pair, named or implied. Check that the rendering does not
+   moralize one side, rank the pair where the Chinese only relates it, or
+   add "always", "never", "better", "only" that the characters lack.
+2. Where the text does favor one side (soft over hard in ch. 76), say in a
+   note what that preference is for. It is usually a correction against a
+   world that over-values the other side. It is not a rule for all time.
+   Say that the favored side also turns.
+3. Add at least one note of kind `pair` ("Paired opposites") per passage
+   that has a pair. It names the pair, shows how the two sides depend on
+   and become each other, and says what a one-sided reading would miss.
+   Mark it in the rendering on the phrase where the pair sits.
+4. Do not force a pair into a passage that has none. Say so in your report.
+
+## 11. Questions to sit with (`questions`, binding, 2026-11-23)
+
+Each passage has 2–3 questions in `questions`. They feed the journal.
+Each one starts from a claim or an assumption that the passage makes, and
+asks the reader to test it against their own life.
+
+```json
+"questions": [
+  {
+    "id": "finite-store",
+    "claim": "The body has a finite store, and sparing it is the root of long life.",
+    "prompts": [
+      "Do you agree? Where in your own life did you learn this, or learn the opposite?",
+      "If you believe it, what might that belief come from: a scarcity, a fear, an illness, a parent's voice?",
+      "Now take the opposite: what you give out returns, and the store grows when it is spent. Stay with that for a minute. What feelings and thoughts arise?",
+      "Which side feels natural to you, and which side resists? Why might that be worth knowing?"
+    ]
+  }
+]
+```
+
+Rules:
+- `claim`: one plain sentence, 8–25 words, in our own words. State the idea
+  as the passage holds it, fairly, not as a straw man.
+- `prompts`: 3–5 questions. Cover, in some order: agree or disagree; where
+  the view comes from in the reader's past, or in their "shadow" (what they
+  deny, fear, or judge in others); the opposite view, held for a while,
+  and the feelings and thoughts it raises; why one side aligns or clashes
+  with what they believe or have lived, and why that is worth knowing.
+- Use the paired-opposites work (§10): the opposite view is often the other
+  side of the passage's own pair.
+- Speak to the reader as "you". No therapy jargon, no diagnosis, no
+  New-Age gloss. Do not tell the reader what they should feel.
+- Vary the wording between passages. Do not paste the same four prompts.

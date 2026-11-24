@@ -35,7 +35,8 @@ for (const f of existsSync(dir) ? readdirSync(dir).filter((x) => x.endsWith('.js
   const p = JSON.parse(readFileSync(new URL(f, dir)));
   const texts = [p.title, ...p.rendering, ...Object.values(p.lenses || {}),
     ...Object.values(p.notes || {}).flatMap((n) => [n.title, n.body]),
-    ...(p.plates || []).flatMap((x) => [x.title, x.lesson, x.brush])];
+    ...(p.plates || []).flatMap((x) => [x.title, x.lesson, x.brush]),
+    ...(p.questions || []).flatMap((q) => [q.claim, ...(q.prompts || [])])];
   for (const t of texts) {
     for (const g of grams(words(t || ''))) {
       // Shared with Legge (public domain) is fine: both quote the same old idioms.
@@ -75,6 +76,7 @@ scanFile('app/data/art.json', (d) => [
   ...Object.entries(d.stories || {}).flatMap(([id, st]) => [[id, st.title], [id, st.text]]),
   ...Object.entries(d.passages || {}).flatMap(([n, l]) => l.flatMap((e) => [[`${n}`, e.caption], [`${n}`, e.look]])),
 ]);
+scanFile('app/data/culture.json', (d) => Object.entries(d.passages || {}).flatMap(([n, l]) => l.map((e) => [`${n}/${e.id}`, e.why])));
 scanFile('app/data/wing.json', (d) => Object.entries(d.passages || {}).flatMap(([n, l]) => l.flatMap((e) => [[`${n}`, e.title], [`${n}`, e.body]])), 5);
 
 if (problems.length) { console.error([...new Set(problems)].join('\n')); process.exit(1); }
