@@ -1,5 +1,5 @@
 // One passage: rendering with notes, the Chinese column, lenses, plate, Legge, journal.
-import { h, tetragram, lineNames, fmtDate, toast } from '../ui.js';
+import { h, fill, tetragram, lineNames, fmtDate, toast } from '../ui.js';
 import { linesFor } from '../draw.js';
 import { getPassage, getLexicon, getArt, getEchoes, getWing, getCulture } from '../data.js';
 import { openSheet } from '../sheet.js';
@@ -11,6 +11,10 @@ import { entryList } from './journal.js';
 import { brushPanel } from '../brush.js';
 import { sayButton } from '../audio.js';
 import { track } from '../track.js';
+
+const CLAUSE_END = new Set(['，', '；', '。', '：', '！', '？', ',']);
+const LAYOUT_KEY = 'tao.colLayout';
+const getLayout = () => { try { return localStorage.getItem(LAYOUT_KEY) === 'printed' ? 'printed' : 'lines'; } catch { return 'lines'; } };
 
 // Vertical presentation forms: in a vertical column, commas and stops sit at the top right of the cell.
 const VERTICAL_PUNCT = { '，': '︐', '、': '︑', '。': '︒', '：': '︓', '；': '︔', '！': '︕', '？': '︖', '「': '﹁', '」': '﹂', '『': '﹃', '』': '﹄' };
@@ -61,8 +65,10 @@ export async function passageView(n, drawId) {
     const segText = p?.zh?.[i]?.text ?? seg;
     const span = h('span', { class: 'seg' });
     // Each character and the punctuation after it share one unbreakable cell,
-    // so a column never starts with a comma.
+    // so a column never starts with a comma. Clauses (ended by ，；。：！？) are
+    // wrapped so the "Lines" layout can start each one at the top of a column.
     let cell = null;
+    let clause = h('span', { class: 'clause' });
     [...segText].forEach((c, k) => {
       if (isHan(c)) {
         const occ = gloss[String(k)];
@@ -71,19 +77,40 @@ export async function passageView(n, drawId) {
           'aria-label': `${c} ${(lex[c]?.py || []).join(' ')}`,
           onclick: () => openChar(c, occ, ctx),
         }, c));
-        span.append(cell);
+        clause.append(cell);
       } else {
         const mark = h('span', { class: 'punct', 'aria-hidden': 'true', text: VERTICAL_PUNCT[c] || c });
-        (cell || span).append(mark);
+        // Punctuation joins the character before it, even across a clause break (as in ？」).
+        (cell || clause).append(mark);
+        if (CLAUSE_END.has(c) && clause.querySelector('.zh-cell')) { span.append(clause); clause = h('span', { class: 'clause' }); }
       }
     });
+    if (clause.querySelector('.zh-cell')) span.append(clause);
+    else if (clause.childNodes.length) (cell || span).append(...clause.childNodes);
     col.append(span);
   });
   // Reading starts at the right edge: scroll there once the column is laid out.
   const colWrap = h('div', { class: 'column-wrap' }, col);
-  requestAnimationFrame(() => { colWrap.scrollLeft = colWrap.scrollWidth; });
+  const toRight = () => requestAnimationFrame(() => { colWrap.scrollLeft = colWrap.scrollWidth; });
+  // Layout: "Lines" starts each clause at the top of a column (as many modern
+  // editions set the text); "As printed" runs it on continuously, as old books did.
+  let layout = getLayout();
+  // In "Lines", size the column to its longest clause (each cell is about 1.2em tall).
+  const longest = Math.max(1, ...[...col.querySelectorAll('.clause')].map((c) => c.querySelectorAll('.zh-cell').length));
+  const applyLayout = () => {
+    col.classList.toggle('lines', layout === 'lines');
+    col.style.height = layout === 'lines' ? `min(20rem, ${(longest * 1.22 + 1.1).toFixed(2)}em)` : '';
+  };
+  applyLayout();
+  const layoutBtns = h('div', { class: 'filters col-layout', role: 'group', 'aria-label': 'Layout of the Chinese' });
+  const drawLayout = () => fill(layoutBtns, ...[['lines', 'Lines'], ['printed', 'As printed']].map(([k, label]) => h('button', {
+    type: 'button', class: 'chip', 'aria-pressed': String(layout === k), text: label,
+    onclick: () => { layout = k; try { localStorage.setItem(LAYOUT_KEY, k); } catch { /* ignore */ } applyLayout(); drawLayout(); toRight(); },
+  })));
+  drawLayout();
+  toRight();
   root.append(h('h2', { text: 'The Chinese' }),
-    colWrap,
+    colWrap, layoutBtns,
     h('p', { class: 'column-hint', text: 'Read top to bottom, right to left. Tap any character to look it up; red ones carry a note for this line.' }));
 
   // Lenses

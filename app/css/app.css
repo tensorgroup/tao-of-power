@@ -643,3 +643,9 @@ a.ref { color: var(--seal); text-decoration: underline; text-decoration-thicknes
 .say-btn { appearance: none; display: inline-flex; align-items: center; gap: .1rem; min-height: var(--tap); padding: .3rem .95rem; border: 1px solid var(--seal); border-radius: 999px; background: none; color: var(--seal); font: inherit; font-size: .95rem; cursor: pointer; }
 .say-btn .say-icon { font-size: .75em; }
 .say-btn.playing { background: var(--wash); }
+
+/* Chinese column layouts: "Lines" starts each clause at the top of a column */
+.column .clause { display: inline; }
+.column.lines .clause { display: block; margin-block-end: .12rem; }
+.col-layout { margin: .7rem 0 0; }
+.col-layout .chip { min-height: 40px; }
