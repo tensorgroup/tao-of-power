@@ -555,3 +555,30 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 .c-links { display: flex; flex-wrap: wrap; gap: .55rem; margin: .5rem 0 0; }
 .c-link { display: inline-flex; align-items: center; min-height: 40px; padding: .3rem .9rem; border-radius: 999px; border: 1px solid var(--rule); color: var(--ink-2); text-decoration: none; font-size: .9rem; }
 .c-link.play { border-color: var(--seal); color: var(--seal); }
+
+.more-row { display: flex; flex-wrap: wrap; gap: .5rem; margin: -.35rem 0 1.1rem; }
+.more-row .more-link { margin: 0; min-height: 40px; }
+.dyn-list li.has-art { display: grid; grid-template-columns: 4.6rem 1fr; column-gap: .8rem; align-items: start; }
+.dyn-list li.has-art > :not(.dyn-art) { grid-column: 2; }
+.dyn-art { grid-column: 1; grid-row: 1 / span 3; appearance: none; border: 0; padding: 0; background: none; cursor: zoom-in; }
+.dyn-art img { width: 4.6rem; height: 4.6rem; object-fit: cover; border-radius: 6px; display: block; border: 1px solid var(--rule); }
+
+/* Links to other passages inside text */
+a.ref { color: var(--seal); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; padding: .15rem .05rem; }
+
+/* Map: places are tappable, and the list answers */
+.map-pt { cursor: pointer; outline: none; }
+.map-hit { fill: transparent; }
+.map-dot { transition: transform .15s ease; transform-box: fill-box; transform-origin: center; }
+.map-pt.on .map-dot { transform: scale(1.8); }
+.map-pt.on .map-label { font-weight: 700; fill: var(--seal); }
+.map-pt:focus-visible .map-dot { stroke: var(--ink); }
+.map-key { list-style: none; padding: 0; }
+.map-key-btn { appearance: none; border: 0; border-left: 3px solid transparent; background: none; font: inherit; color: inherit; text-align: left; width: 100%; padding: .55rem .6rem; min-height: var(--tap); cursor: pointer; border-radius: 0 6px 6px 0; }
+.map-key-btn.on { border-left-color: var(--seal); background: var(--wash); }
+
+.key-sym { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; background: var(--seal); margin-right: .45rem; vertical-align: .05em; }
+.key-sym.tomb { border-radius: 2px; background: var(--ink-2); }
+.map-pt.tomb .map-dot { fill: var(--ink-2); }
+.map-pt.tomb.on .map-dot { fill: var(--seal); }
+.map-legend .key-sym:not(:first-child) { margin-left: .3rem; }

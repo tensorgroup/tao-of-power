@@ -1671,6 +1671,32 @@
    "w": 687,
    "h": 1100,
    "alt": "Misty peaks above a hidden valley of fields, houses, and blossoming trees; a small boat waits at the mouth of a cave in the cliff; old pines in the foreground."
+  },
+  "xiwangmu-mirror": {
+   "file": "art/xiwangmu-mirror.jpg",
+   "title": "Mirror with Xiwangmu",
+   "titleZh": "西王母鏡",
+   "artist": "Unknown artist",
+   "date": "Six Dynasties period, c. 317–400 CE",
+   "collection": "Cleveland Museum of Art, 1983.213",
+   "source": "https://www.clevelandart.org/art/1983.213",
+   "license": "CC0",
+   "w": 900,
+   "h": 797,
+   "alt": "A round bronze mirror back with a central knob, ringed by small seated figures and animals in relief."
+  },
+  "sui-guanyin": {
+   "file": "art/sui-guanyin.jpg",
+   "title": "Bodhisattva Guanyin",
+   "titleZh": "觀音菩薩",
+   "artist": "Unknown artist",
+   "date": "Sui dynasty, 581–618",
+   "collection": "Cleveland Museum of Art, 1962.217",
+   "source": "https://www.clevelandart.org/art/1962.217",
+   "license": "CC0",
+   "w": 830,
+   "h": 893,
+   "alt": "A small gilt-bronze bodhisattva seated at ease, one knee raised, holding a flask."
   }
  },
  "passages": {

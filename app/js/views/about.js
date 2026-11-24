@@ -1,7 +1,7 @@
 // How the draw works, sources, licenses, and where your data lives.
 import { h, s as svgEl, tetragram } from '../ui.js';
 import { getGlossary, getArt, getMap } from '../data.js';
-import { openGlossary, openChar } from '../notes.js';
+import { openGlossary, openChar, linkRefsIn } from '../notes.js';
 import { howSection } from './how.js';
 import { getWing } from '../data.js';
 import { openWingNote, openArt } from './passage.js';
@@ -16,7 +16,7 @@ export async function aboutView() {
   ART = art;
   const wingIntro = (wing.passages?.['0'] || [])[0];
   const li = (...c) => h('li', {}, ...c);
-  return h('section', { class: 'about' },
+  return linkRefsIn(h('section', { class: 'about' },
     h('h1', { text: 'About' }),
     h('p', { class: 'lead', text: 'This is an interactive tool for exploring the Tao Te Ching. It offers a way to meet the text one passage at a time: by chance, slowly, with room to write. Below: where the text came from, who has used it and why, and how you might use it, and this tool, today.' }),
 
@@ -57,17 +57,28 @@ export async function aboutView() {
     h('h3', { text: 'Your journal lives in this browser' }),
     h('p', { text: 'Entries are stored only on this device, in this browser. Nothing is sent anywhere. Browsers can delete site data: Brave Shields with “forget me when I close this site,” clearing site data, Safari’s 7-day rule for sites you do not visit, or removing a home-screen app. Export from the Journal page now and then, and after anything you would hate to lose. Import merges files, so old and new backups can be combined.' }),
     h('p', { class: 'muted small', text: 'Tip: add this page to your home screen. It then works offline.' }),
-  );
+  ));
 }
 
 const para = (t) => h('p', { text: t });
 const NAME = [['道', 'dào', 'way'], ['德', 'dé', 'power, virtue'], ['經', 'jīng', 'warp; classic']];
+/** Move "More" buttons out of each paragraph into a row of their own below it. */
+function liftMore(root) {
+  for (const p of [...root.querySelectorAll('p')]) {
+    const btns = [...p.querySelectorAll(':scope > .more-link')];
+    if (!btns.length) continue;
+    const row = h('p', { class: 'more-row' }, btns);
+    p.after(row);
+    p.lastChild && p.lastChild.nodeType === 3 && (p.lastChild.textContent = p.lastChild.textContent.replace(/\s+$/, ''));
+  }
+  return root;
+}
 /** A small "More" link that opens a glossary pop-up. */
 const more = (key, label = 'More') => h('button', { class: 'more-link', type: 'button', onclick: () => openGlossary(key) }, label === 'More' ? 'More ›' : `${label} ›`);
 const zh = (t) => h('span', { lang: 'zh-Hant', text: t });
 
 function history(map) {
-  return h('div', { class: 'history' },
+  return liftMore(h('div', { class: 'history' },
     h('h2', { text: 'The name' }),
     h('p', {}, 'The title has three characters. Tap one to see how it is built.'),
     h('div', { class: 'name-chars' }, NAME.map(([c, py, en]) => h('button', {
@@ -79,6 +90,7 @@ function history(map) {
 
     h('h3', { text: 'The Dao part and the De part' }),
     h('p', {}, 'The book has two parts, named after their first lines. The Dao part, ', zh('道經'), ' (chapters 1–37), opens ', zh('道可道'), '. The De part, ', zh('德經'), ' (chapters 38–81), opens ', zh('上德不德'), ', “the highest de is not de”. So the title simply names the two parts and calls them a classic: “The Classic of the Way and its Power”. In the oldest complete copies, the silk manuscripts from Mawangdui, the De part comes first. ', more('daojing', 'Dao part'), ' ', more('dejing', 'De part'), ' ', more('mawangdui', 'Mawangdui')),
+    figure('laozi-ox-zhanglu', 'Laozi Riding an Ox, by Zhang Lu (Ming dynasty, early 1500s): the “Old Master” of the book’s first title.'),
     h('p', {}, 'For its first centuries the book had no grand title. People called it the Laozi, “the Old Master”, after its supposed author: ', zh('老'), ' is old, and ', zh('子'), ', a child, is also a title of respect for a teacher. The title with ', zh('經'), ' is traditionally traced to the Han dynasty (206 BCE–220 CE), when the court began to treat the book as a classic. ', more('laozi', 'Laozi')),
     h('p', {}, '“Tao Te Ching” and “Daodejing” are one name in two spellings. “Tao Te Ching” is the older Wade–Giles spelling, in which T stands for a sound close to English d. “Daodejing” is pinyin, the spelling China adopted in 1958. The notes on this site use pinyin. ', more('daodejing', 'Daodejing')),
     h('p', {}, 'You will meet other spellings too. For ', zh('老子'), ': Lao Tzu, Lao-tse, Laotse, Lao Tse, Lao Tsu. For ', zh('道德經'), ': Tâo Teh King (Legge’s 1891 title), Tao Te King (common in German and many French books), Tao-tö king (also French), Dao De Jing. They come from different ways of writing Chinese sounds in the Latin alphabet, and from different languages’ habits. All of them name the same figure and the same book.'),
@@ -97,7 +109,8 @@ function history(map) {
     map ? mapSection(map) : null,
 
     h('h3', { text: 'What the tombs showed' }),
-    para('Three finds changed what we know. In 1973, at Mawangdui in Hunan, archaeologists opened a tomb sealed in 168 BCE. It held two copies of the Laozi on silk. Both are nearly complete. Both put the De part first and the Dao part second.'),
+    para('Three finds changed what we know. The two known tombs are the square marks on the map above.'),
+    para('In 1973, at Mawangdui in Hunan, archaeologists opened a tomb sealed in 168 BCE. It held two copies of the Laozi on silk. Both are nearly complete. Both put the De part first and the Dao part second.'),
     para('In 1993, at Guodian in Hubei, a tomb from about 300 BCE gave up bundles of bamboo strips. They hold about two-fifths of the text, in a different order, alongside other writings. The Guodian strips show that much of the material existed by the late 4th century BCE, but perhaps not yet as one fixed book. A Han dynasty bamboo copy adds a third early witness. Peking University acquired it in 2009 from the antiquities market, so, unlike the other two, its tomb is not known.'),
     figure('bamboo-slips', 'Bamboo slips from a Chu tomb of the same age as Guodian. Texts were written in a column down each strip, and the strips were tied into a roll.'),
     para('This site reads the received text that Wang Bi used in the 3rd century CE. Where the early manuscripts differ in a way that matters, a “Variant reading” note says so.'),
@@ -118,7 +131,7 @@ function history(map) {
       h('li', {}, h('b', { text: 'Today. ' }), 'People read it for meditation, for tai chi and other martial arts, for leadership and management, for psychology and therapy, and for ecology, as a voice for living with nature and not against it. Some uses are deep. Some flatten it into slogans.')),
     dynasties(),
     para('Why has it lasted? It is short. It is open enough that each age can find itself in it. And it says something that each age seems to need: that softness can outlast force, that less can be more, and that every extreme turns back toward its opposite.'),
-  );
+  ));
 }
 
 function useToday() {
@@ -170,8 +183,8 @@ const PLACES = [
   [115.48, 33.86, 'Luyi', 'old Ku county in Chu: Laozi’s birthplace in the Shiji', 'right'],
   [116.99, 35.58, 'Qufu', 'home of Confucius, in the state of Lu', 'right'],
   [108.94, 34.34, 'Xi’an', 'Chang’an, capital of the Western Han and the Tang; the Qin capital was nearby', 'below'],
-  [112.18, 30.52, 'Guodian', 'bamboo slips, tomb of about 300 BCE (Shayang, near ancient Jinancheng)', 'left'],
-  [113.03, 28.20, 'Mawangdui', 'silk manuscripts, tomb sealed 168 BCE (Changsha)', 'right'],
+  [112.18, 30.52, 'Guodian tomb', 'bamboo slips with about two-fifths of the text, buried about 300 BCE, found 1993 (Shayang, near ancient Jinancheng)', 'left', 'tomb'],
+  [113.03, 28.20, 'Mawangdui tomb', 'two silk copies of the whole text, tomb sealed 168 BCE, opened 1973 (Changsha)', 'right', 'tomb'],
   [116.40, 39.90, 'Beijing', 'today’s capital, for reference', 'right'],
 ];
 const RIVER_LABELS = [['Yellow River', 108.6, 40.9], ['Yangtze', 117.3, 29.6], ['Han River', 109.4, 32.3]];
@@ -180,43 +193,70 @@ function mapSection(m) {
   const k = Math.cos(m.lat0 * Math.PI / 180);
   const [W0, , , N0] = m.window;
   const xy = (lon, lat) => [(lon - W0) * k * m.scale, (N0 - lat) * m.scale];
-  const svg = svgEl('svg', { class: 'about-map', viewBox: `0 0 ${m.width} ${m.height}`, role: 'img',
-    'aria-label': 'Map of the Yellow River and Yangtze region with the places named in the list below' },
+  const svg = svgEl('svg', { class: 'about-map', viewBox: `0 0 ${m.width} ${m.height}`, role: 'group',
+    'aria-label': 'Map of the Yellow River and Yangtze region. Each place is a button.' },
   svgEl('rect', { x: 0, y: 0, width: m.width, height: m.height, class: 'map-sea' }),
   svgEl('path', { d: m.land, class: 'map-land' }),
   ...m.rivers.map((r) => svgEl('path', { d: r.d, class: 'map-river' })),
   ...RIVER_LABELS.map(([t, lon, lat]) => { const [x, y] = xy(lon, lat); return svgEl('text', { x, y, class: 'map-river-label' }, t); }),
-  ...PLACES.flatMap(([lon, lat, name, , side], i) => {
+  ...PLACES.map(([lon, lat, name, what, side, type], i) => {
     const [x, y] = xy(lon, lat);
-    return [svgEl('circle', { cx: x, cy: y, r: 7, class: 'map-dot' }),
+    return svgEl('g', { class: `map-pt${type === 'tomb' ? ' tomb' : ''}`, 'data-i': i, role: 'button', tabindex: 0, 'aria-label': `${name}: ${what}` },
+      svgEl('circle', { cx: x, cy: y, r: 26, class: 'map-hit' }),
+      type === 'tomb'
+        ? svgEl('rect', { x: x - 8, y: y - 8, width: 16, height: 16, rx: 2, class: 'map-dot' })
+        : svgEl('circle', { cx: x, cy: y, r: 7, class: 'map-dot' }),
       svgEl('text', {
         x: side === 'left' ? x - 12 : side === 'right' ? x + 12 : x,
         y: side === 'above' ? y - 16 : side === 'below' ? y + 32 : y + 8,
         class: 'map-label', 'text-anchor': side === 'left' ? 'end' : side === 'right' ? 'start' : 'middle',
-      }, name)];
+      }, name));
   }));
+  const key = h('ul', { class: 'map-key' }, PLACES.map(([, , name, what, , type], i) => h('li', {},
+    h('button', { class: 'map-key-btn', type: 'button', 'data-i': i },
+      h('span', { class: `key-sym${type === 'tomb' ? ' tomb' : ''}`, 'aria-hidden': 'true' }), h('b', { text: `${name}: ` }), what))));
+  // Tap a place on the map or in the list: both light up.
+  let on = -1;
+  const select = (i, from) => {
+    on = on === i ? -1 : i;
+    svg.querySelectorAll('.map-pt').forEach((g) => g.classList.toggle('on', Number(g.dataset.i) === on));
+    key.querySelectorAll('.map-key-btn').forEach((b) => {
+      const hit = Number(b.dataset.i) === on;
+      b.classList.toggle('on', hit);
+      b.setAttribute('aria-pressed', String(hit));
+    });
+    if (on < 0) return;
+    const target = from === 'map' ? key.querySelector(`.map-key-btn[data-i="${on}"]`) : svg;
+    const r = target.getBoundingClientRect();
+    if (r.top < 60 || r.bottom > innerHeight) target.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' });
+  };
+  svg.addEventListener('click', (e) => { const g = e.target.closest('.map-pt'); if (g) select(Number(g.dataset.i), 'map'); });
+  svg.addEventListener('keydown', (e) => { const g = e.target.closest('.map-pt'); if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); select(Number(g.dataset.i), 'map'); } });
+  key.addEventListener('click', (e) => { const b = e.target.closest('.map-key-btn'); if (b) select(Number(b.dataset.i), 'list'); });
   return h('section', { class: 'about-map-wrap' },
     h('h3', { text: 'Where it happened' }),
     h('div', { class: 'map-box' }, svg),
-    h('ul', { class: 'map-key' }, PLACES.map(([, , name, what]) => h('li', {}, h('b', { text: `${name}: ` }), what))),
+    h('p', { class: 'muted small map-legend' }, h('span', { class: 'key-sym', 'aria-hidden': 'true' }), 'places in the story  ',
+      h('span', { class: 'key-sym tomb', 'aria-hidden': 'true' }), 'tombs where the oldest copies were found. Tap a place on the map or in the list.'),
+    key,
     h('p', { class: 'muted small', text: 'Coastline and rivers from Natural Earth (public domain). Modern coastline; the coast and the river courses have moved over the centuries, and no borders are drawn because they changed so often.' }));
 }
 
 // Peak areas: rough estimates in million km² (Taagepera); other estimates differ widely.
 const DYNASTIES = [
-  ['Shang', 'c. 1600–1046 BCE', null, 'Bronze ritual vessels, and the oldest Chinese writing, on oracle bones.'],
-  ['Zhou', '1046–256 BCE', null, 'Kings ruled by the “Mandate of Heaven”. After 771 BCE their power faded: the Spring and Autumn period, then the Warring States (475–221 BCE). The Daodejing took shape in this age.'],
-  ['Qin', '221–206 BCE', null, 'The First Emperor joined the states into one empire and took the new title 皇帝, “emperor”. One script, one coinage, one law.'],
-  ['Han', '206 BCE–220 CE', 6.5, 'The Laozi became a classic; the Mawangdui tomb was sealed in 168 BCE; Laozi became a god.'],
-  ['Division', '220–589', null, 'Three Kingdoms, Jin, and the Northern and Southern dynasties. Wang Bi wrote his commentary; Buddhism spread.'],
-  ['Sui', '581–618', null, 'Reunified the country and dug the Grand Canal.'],
-  ['Tang', '618–907', 5.4, 'The ruling Li family claimed Laozi as its ancestor; the text was set for the state exams.'],
-  ['Song', '960–1279', 3.1, 'Reunified most of China after the Five Dynasties (907–960). Printing spread; the great landscape painters, many of them in this app.'],
-  ['Yuan', '1271–1368', 11.0, 'Mongol rule under Khubilai Khan and his heirs.'],
-  ['Ming', '1368–1644', 6.5, 'Its founder, Zhu Yuanzhang, wrote a commentary on the Laozi.'],
-  ['Qing', '1644–1912', 14.7, 'Manchu rule; China’s largest empire. Jesuits and then Protestant missionaries carried the text to Europe.'],
-  ['Republic', '1912–1949 (mainland)', null, 'The last emperor, Puyi, gave up the throne in 1912. After 1949 the Republic continued on Taiwan.'],
-  ['People’s Republic', '1949–', 9.6, 'Today’s area, for comparison. The Guodian and Mawangdui finds came in this era.'],
+  ['Shang', 'c. 1600–1046 BCE', null, 'fangyou-wine-vessel', 'Bronze ritual vessels, and the oldest Chinese writing, on oracle bones.'],
+  ['Zhou', '1046–256 BCE', null, 'bell-zhong', 'Kings ruled by the “Mandate of Heaven”. After 771 BCE their power faded: the Spring and Autumn period, then the Warring States (475–221 BCE). The Daodejing took shape in this age.'],
+  ['Qin', '221–206 BCE', null, null, 'The First Emperor joined the states into one empire and took the new title 皇帝, “emperor”. One script, one coinage, one law.'],
+  ['Han', '206 BCE–220 CE', 6.5, 'han-chariot', 'The Laozi became a classic; the Mawangdui tomb was sealed in 168 BCE; Laozi became a god.'],
+  ['Division', '220–589', null, 'xiwangmu-mirror', 'Three Kingdoms, Jin, and the Northern and Southern dynasties. Wang Bi wrote his commentary; Buddhism spread.'],
+  ['Sui', '581–618', null, 'sui-guanyin', 'Reunified the country and dug the Grand Canal.'],
+  ['Tang', '618–907', 5.4, 'han-gan-white', 'The ruling Li family claimed Laozi as its ancestor; the text was set for the state exams.'],
+  ['Song', '960–1279', 3.1, 'fan-kuan-travelers', 'Reunified most of China after the Five Dynasties (907–960). Printing spread; the great landscape painters, many of them in this app.'],
+  ['Yuan', '1271–1368', 11.0, 'huang-gongwang', 'Mongol rule under Khubilai Khan and his heirs.'],
+  ['Ming', '1368–1644', 6.5, 'qiu-ying-peach', 'Its founder, Zhu Yuanzhang, wrote a commentary on the Laozi.'],
+  ['Qing', '1644–1912', 14.7, 'bada-fish', 'Manchu rule; China’s largest empire. Jesuits and then Protestant missionaries carried the text to Europe.'],
+  ['Republic', '1912–1949 (mainland)', null, null, 'The last emperor, Puyi, gave up the throne in 1912. After 1949 the Republic continued on Taiwan.'],
+  ['People’s Republic', '1949–', 9.6, 'bamboo-slips', 'Today’s area, for comparison. The Guodian and Mawangdui finds came in this era.'],
 ];
 
 // Width via the CSSOM: the CSP forbids inline style attributes, not script-set styles.
@@ -226,12 +266,22 @@ function fillBar(frac) {
   return el;
 }
 
+/** A small picture from the era; tap to look closer. */
+function dynArt(id) {
+  const { a, used } = artUse(id);
+  if (!a) return null;
+  return h('button', { class: 'dyn-art', type: 'button', 'aria-label': `Look closer: ${a.title}`,
+    onclick: () => openArt(a, used[0]?.[1] || {}, {}, { passages: used.map(([n]) => n) }) },
+  h('img', { src: a.file.replace(/^art\//, 'art/thumbs/'), alt: a.alt || a.title, loading: 'lazy', decoding: 'async' }));
+}
+
 function dynasties() {
   const max = 15;
   return h('section', { class: 'dynasties' },
     h('h3', { text: 'China’s dynasties and emperors' }),
     h('p', {}, 'From 221 BCE until imperial rule ended in 1912, China was ruled by emperors. A dynasty held power while it kept the “Mandate of Heaven”; floods, famine, and revolt were read as signs that heaven had withdrawn it. Borders grew and shrank with each dynasty, and for long periods several states shared the land. The Daodejing took shape in a time of division, and it was read by every dynasty after.'),
-    h('ol', { class: 'dyn-list' }, DYNASTIES.map(([name, dates, area, note]) => h('li', {},
+    h('ol', { class: 'dyn-list' }, DYNASTIES.map(([name, dates, area, artId, note]) => h('li', { class: artId ? 'has-art' : null },
+      dynArt(artId),
       h('div', { class: 'dyn-head' }, h('b', { text: name }), h('span', { class: 'muted small', text: dates })),
       area ? h('div', { class: 'dyn-bar', role: 'img', 'aria-label': `Peak area about ${area} million square kilometres` },
         fillBar(area / max),

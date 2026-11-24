@@ -3,7 +3,7 @@ import { h, tetragram, lineNames, fmtDate, toast } from '../ui.js';
 import { linesFor } from '../draw.js';
 import { getPassage, getLexicon, getArt, getEchoes, getWing, getCulture } from '../data.js';
 import { openSheet } from '../sheet.js';
-import { rich, openChar, hanify } from '../notes.js';
+import { rich, openChar, hanify, linkRefs } from '../notes.js';
 import { isHan } from '../markup.js';
 import { state } from '../app.js';
 import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
@@ -239,7 +239,7 @@ function cultureSection(n, culture) {
         h('span', { class: 'kind', text: `${CULTURE_KIND[c.kind] || c.kind}${c.contrast ? ' · by contrast' : ''}` }),
         h('a', { href: c.link, target: '_blank', rel: 'noopener noreferrer', class: 'c-title', text: c.title }),
         h('span', { class: 'muted small', text: [c.creator, c.year].filter(Boolean).join(', ') })),
-      h('p', { class: 'c-why', text: c.why }),
+      h('p', { class: 'c-why' }, linkRefs(c.why)),
       cultureLinks(c)))));
 }
 

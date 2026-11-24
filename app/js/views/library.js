@@ -1,5 +1,6 @@
 // Index pages: every painting and object (#/art) and every story (#/stories).
 import { h, fill } from '../ui.js';
+import { linkRefs } from '../notes.js';
 import { getArt, getCulture, getIndex } from '../data.js';
 import { openArt, openStory, CULTURE_KIND, cultureLinks } from './passage.js';
 
@@ -104,7 +105,7 @@ export async function cultureView() {
             h('span', { class: 'kind', text: `${CULTURE_KIND[c.kind] || c.kind}${c.contrast ? ' · by contrast' : ''}` }),
             h('a', { href: c.link, target: '_blank', rel: 'noopener noreferrer', class: 'c-title', text: c.title }),
             h('span', { class: 'muted small', text: [c.creator, c.year].filter(Boolean).join(', ') })),
-          h('p', { class: 'c-why', text: c.why }),
+          h('p', { class: 'c-why' }, linkRefs(c.why)),
           cultureLinks(c)))));
     }));
   };

@@ -30,24 +30,65 @@ export function openGlossary(key, ctx = {}) {
   });
 }
 
+// ---- Passage references: "passage 76", "chapters 1–37", "passages 22, 28 and 39" link to #/p/N ----
+const REF_RE = /\b(passages?|chapters?|chs?\.)(\s*)(\d{1,2}(?:\s*(?:,|–|-|and|or|&)\s*\d{1,2})*)(?!\d)/gi;
+// "chapter N" of another book must not link to our passage N.
+const OTHER_BOOK = /(Zhuangzi|Han ?Feizi|Huainanzi|Xunzi|Liezi|Mencius|Analects|Zuozhuan|Lüshi|Shiji|Sunzi|Yijing|Guanzi|Liji|Red Chamber|Story of the Stone|Illusion Land|Baoyu|Five Rings|Wumenguan|Hongloumeng)/i;
+
+/** Split text into plain pieces (rendered by `plain`) and links to passages. */
+export function linkRefs(text, plain = (t) => document.createTextNode(t)) {
+  const frag = document.createDocumentFragment();
+  let last = 0;
+  for (const m of String(text).matchAll(new RegExp(REF_RE))) { // a fresh copy: lastIndex starts at 0
+    const word = m[1].toLowerCase();
+    if (word.startsWith('ch') && OTHER_BOOK.test(text.slice(Math.max(0, m.index - 80), m.index))) continue;
+    if (m.index > last) frag.append(plain(text.slice(last, m.index)));
+    frag.append(plain(m[1] + m[2]));
+    for (const part of m[3].split(/(\d{1,2})/)) {
+      if (!part) continue;
+      const n = Number(part);
+      if (/^\d+$/.test(part) && n >= 1 && n <= 81) frag.append(h('a', { class: 'ref', href: `#/p/${n}`, text: part }));
+      else frag.append(plain(part));
+    }
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) frag.append(plain(text.slice(last)));
+  return frag;
+}
+
+/** Walk a built subtree and link passage references in its plain text (skips buttons and links). */
+export function linkRefsIn(root) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode: (n) => (n.parentElement?.closest('a, button, h1, h2, h3, svg') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT),
+  });
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  for (const n of nodes) {
+    if (new RegExp(REF_RE).test(n.textContent)) n.replaceWith(linkRefs(n.textContent));
+  }
+  return root;
+}
+
 /** Plain text → text + glossary buttons + tappable Han characters. Marks each term once per ctx.glossSeen. */
+const refHan = (t, ctx) => linkRefs(t, (x) => hanify(x, ctx));
+
 function glossify(text, ctx) {
   const frag = document.createDocumentFragment();
-  if (!GLOSS_RE) { frag.append(hanify(text, ctx)); return frag; }
+  if (!GLOSS_RE) { frag.append(refHan(text, ctx)); return frag; }
   const seen = ctx.glossSeen || (ctx.glossSeen = new Set());
   let last = 0;
   for (const m of text.matchAll(GLOSS_RE)) {
     const key = ALIAS.get(m[1].toLowerCase());
     if (!key || seen.has(key)) continue;
     seen.add(key);
-    if (m.index > last) frag.append(hanify(text.slice(last, m.index), ctx));
+    if (m.index > last) frag.append(refHan(text.slice(last, m.index), ctx));
     frag.append(h('button', {
       type: 'button', class: 'gloss', title: GLOSS[key].short, 'aria-haspopup': 'dialog',
       onclick: (ev) => { ev.stopPropagation(); openGlossary(key, ctx); },
     }, m[1]));
     last = m.index + m[0].length;
   }
-  if (last < text.length) frag.append(hanify(text.slice(last), ctx));
+  if (last < text.length) frag.append(refHan(text.slice(last), ctx));
   return frag;
 }
 
