@@ -91,7 +91,22 @@ export async function passageView(n, drawId) {
   });
   // Reading starts at the right edge: scroll there once the column is laid out.
   const colWrap = h('div', { class: 'column-wrap' }, col);
-  const toRight = () => requestAnimationFrame(() => { colWrap.scrollLeft = colWrap.scrollWidth; });
+  // When the columns are wider than the screen, a fade and "← more" at the left say so,
+  // until the reader has scrolled to the end (the left edge, where the text finishes).
+  const more = h('span', { class: 'col-more', 'aria-hidden': 'true' });
+  const colBox = h('div', { class: 'column-box' }, colWrap, more);
+  const updateMore = () => {
+    const overflow = colWrap.scrollWidth > colWrap.clientWidth + 4;
+    colBox.classList.toggle('has-more', overflow && colWrap.scrollLeft > 6);
+  };
+  colWrap.addEventListener('scroll', updateMore, { passive: true });
+  const toRight = () => { colWrap.scrollLeft = colWrap.scrollWidth; updateMore(); };
+  // Land on the right edge, where reading starts, whenever the layout settles (first attach,
+  // the Chinese font arriving), until the reader touches the column themselves.
+  let touched = false;
+  for (const ev of ['pointerdown', 'touchstart', 'wheel', 'keydown']) colWrap.addEventListener(ev, () => { touched = true; }, { passive: true });
+  if ('ResizeObserver' in window) new ResizeObserver(() => { if (!touched) toRight(); }).observe(col);
+  document.fonts?.ready.then(() => { if (!touched && colWrap.isConnected) toRight(); });
   // Layout: "Lines" starts each clause at the top of a column (as many modern
   // editions set the text); "As printed" runs it on continuously, as old books did.
   let layout = getLayout();
@@ -110,7 +125,7 @@ export async function passageView(n, drawId) {
   drawLayout();
   toRight();
   root.append(h('h2', { text: 'The Chinese' }),
-    colWrap, layoutBtns,
+    colBox, layoutBtns,
     h('p', { class: 'column-hint', text: 'Read top to bottom, right to left. Tap any character to look it up; red ones carry a note for this line.' }));
 
   // Lenses

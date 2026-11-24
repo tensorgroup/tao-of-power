@@ -649,3 +649,11 @@ a.ref { color: var(--seal); text-decoration: underline; text-decoration-thicknes
 .column.lines .clause { display: block; margin-block-end: .12rem; }
 .col-layout { margin: .7rem 0 0; }
 .col-layout .chip { min-height: 40px; }
+
+/* Scroll cue for wide Chinese columns: reading starts at the right and ends at the left */
+.column-box { position: relative; }
+.col-more { position: absolute; left: -1.1rem; top: 2rem; bottom: 1px; width: 3.2rem; pointer-events: none; opacity: 0; transition: opacity .2s ease;
+  background: linear-gradient(to right, var(--paper-2) 20%, transparent); }
+.col-more::after { content: "← more"; position: absolute; left: 1.2rem; bottom: .25rem; white-space: nowrap; font-size: .78rem; color: var(--ink-2);
+  background: var(--paper-2); border: 1px solid var(--rule); border-radius: 999px; padding: .05rem .5rem; }
+.column-box.has-more .col-more { opacity: 1; }
