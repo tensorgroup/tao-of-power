@@ -11,11 +11,23 @@ function src(text, links = []) {
     h('a', { href, target: '_blank', rel: 'noopener noreferrer', text: label }))) : null);
 }
 
-export async function aboutView() {
+/** Scroll to a section after route() has put the page on screen (it scrolls to the top first). */
+function scrollToSection(id) {
+  if (!id) return;
+  setTimeout(() => {
+    const el = document.getElementById(`s-${id}`);
+    if (!el) return;
+    const bar = document.querySelector('.bar')?.offsetHeight || 0;
+    window.scrollTo({ top: el.getBoundingClientRect().top + scrollY - bar - 12, behavior: 'auto' });
+  }, 0);
+}
+
+export async function aboutView(section) {
   const [gl, wing, art, map] = await Promise.all([getGlossary(), getWing(), getArt(), getMap().catch(() => null)]);
   ART = art;
   const wingIntro = (wing.passages?.['0'] || [])[0];
   const li = (...c) => h('li', {}, ...c);
+  scrollToSection(section); // runs after route() attaches the page
   return linkRefsIn(h('section', { class: 'about' },
     h('h1', { text: 'About' }),
     h('p', { class: 'lead', text: 'This is an interactive tool for exploring the Tao Te Ching. It offers a way to meet the text one passage at a time: by chance, slowly, with room to write. Below: where the text came from, who has used it and why, and how you might use it, and this tool, today.' }),
@@ -104,7 +116,7 @@ function history(map) {
     h('p', {}, 'Nobody knows. The oldest surviving biography is by the historian Sima Qian, in his Records of the Grand Historian (', zh('史記'), ', about 94 BCE). He says Laozi was Li Er, also called Dan, a man from the state of Chu who kept the archives at the Zhou royal court. Confucius is said to have visited him to ask about ritual, and to have come away comparing him to a dragon. When Laozi saw the Zhou kingdom decline, he left. At the pass (later tradition puts it on the western frontier), the keeper of the pass, Yin Xi, asked him to write down his teaching. Laozi wrote a book in two parts, “more than five thousand words” about the Way and its power, and then left. “No one knows where he ended,” Sima Qian writes.'),
     figure('yinxi-woodblock', 'Yin Xi, the keeper of the pass who asked Laozi to write. A Ming woodblock print.'),
     para('Sima Qian himself was not sure. In the same chapter he names two other men who might be Laozi: Lao Laizi, a man from Chu who wrote a book on the uses of the Way, and the Grand Historian Dan (儋, a different character from Li Er’s 聃), who met a Qin ruler 129 years after Confucius died. On who Laozi really was, he concludes: “The world does not know if this is so.” He also reports that Laozi lived more than 160 years, “some say more than 200”. Later legend added the ox that Laozi rides through the pass and a birth after many decades in the womb.'),
-    h('h4', { text: 'Why is Laozi on an ox?' }),
+    h('h4', { id: 's-ox', text: 'Why is Laozi on an ox?' }),
     h('p', {}, 'Sima Qian says nothing about an ox. The ox comes from later legend. A passage often quoted from the Han dynasty ', h('i', { text: 'Biographies of Immortals' }), ' (', zh('列仙傳'), ', credited to Liu Xiang) says that the keeper of the pass saw a purple vapour drifting over it from the east, and then Laozi came through riding a ', zh('青牛'), ', a dark ox. The purple vapour gave Chinese a saying still used for good fortune arriving: ', zh('紫氣東來'), ', “purple vapour comes from the east”. Painters made the ox a water buffalo, the slow animal of the rice fields.'),
     para('Why an ox and not a horse? The legend does not say, but readers have long found it fitting. A horse is for war and speed; passage 46 sets the war horse against the horse that works the fields. An ox is slow, strong, patient, and low to the ground, the plainest way to travel. The sage leaves the world on the humblest mount there is. Much later, Chan Buddhists drew a series of “ox-herding” pictures in which the ox stands for one’s own mind; some of those paintings are in this app.'),
     para('Most scholars now think that the text is not the work of one hand at one time. It looks like a collection of sayings, some perhaps old proverbs or verses for memorizing, that were gathered, arranged, and edited over generations. “Laozi” (“the Old Master”) may have been a real archivist, a name given to a school of thought, or both.'),

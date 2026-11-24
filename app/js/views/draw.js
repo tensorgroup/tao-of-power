@@ -46,7 +46,7 @@ function homeArt(art) {
   return h('figure', { class: 'home-art' },
     h('button', { class: 'art-btn', type: 'button', 'aria-label': `Look closer: ${a.title}`, onclick: () => openArt(a, used[0]?.[1] || {}, {}, { passages: used.map(([n]) => n) }) },
       h('img', { src: a.file, alt: a.alt || a.title, width: a.w, height: a.h, loading: 'lazy', decoding: 'async' })),
-    h('figcaption', { class: 'muted small' }, 'Laozi leaves through the western pass on his water buffalo. ', h('a', { href: '#/about', text: 'Why a buffalo?' })));
+    h('figcaption', { class: 'muted small' }, 'Laozi leaves through the western pass on his water buffalo. ', h('a', { href: '#/about?s=ox', text: 'Why an ox?' })));
 }
 
 function recentList(idx) {

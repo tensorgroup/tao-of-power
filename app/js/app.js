@@ -35,7 +35,7 @@ const routes = [
   [/^#\/p\/(\d{1,2})(?:\?d=([\w-]+))?$/, (m) => passageView(Number(m[1]), m[2])],
   [/^#\/journal$/, () => journalView()],
   [/^#\/browse$/, () => browseView()],
-  [/^#\/about$/, () => aboutView()],
+  [/^#\/about(?:\?s=([\w-]+))?$/, (m) => aboutView(m[1])],
   [/^#\/how$/, () => howView()],
   [/^#\/search(?:\?q=([^&]*))?$/, (m) => searchView(m[1] ? safeDecode(m[1]) : '')],
   [/^#\/art$/, () => galleryView()],
