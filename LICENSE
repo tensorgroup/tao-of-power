@@ -19,28 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-Third-party material
-
-The MIT License above covers the code and the original writing in this
-repository (the English renderings, notes, questions, and other text written
-for this project). The files below are not ours. They keep their own terms:
-
-- Chinese text (Wang Bi edition), James Legge's 1891 translation, the Shuowen
-  Jiezi, and the Mawangdui collation (sources/): public domain.
-- Unihan data (sources/unihan.json and data built from it): Unicode License,
-  https://www.unicode.org/license.txt
-- Stroke data (app/data/strokes/): Make Me a Hanzi, derived from Arphic PL
-  KaitiM, Arphic Public License.
-- Pronunciation recordings (app/audio/): audio-cmn by Chen Wang, CC BY-SA.
-- Rare-character outlines (app/data/rare-glyphs.json): GlyphWiki.
-- Search model (app/model/): Model2Vec potion-retrieval-32M by MinishLab,
-  distilled from BAAI bge-base-en-v1.5, MIT License.
-- Art (app/art/): public domain or CC0. Each work is credited in
-  app/data/art.json.
-- Fonts (app/fonts/): EB Garamond, Noto Serif TC, LXGW WenKai TC, SIL Open
-  Font License.
-
-R. L. Wing's The Tao of Power (1986) inspired this project. Its text is not
-included here.
