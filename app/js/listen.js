@@ -17,7 +17,7 @@ const GLYPH = { idle: PLAY, loading: '', playing: '❚❚ ', paused: PLAY, error
 const ERROR_TEXT = 'Audio did not load. Check the connection and try again.';
 const LANGUAGE = { zh: 'Chinese', en: 'English' };
 const ARIA = {
-  idle: (l) => 'Listen to the ' + l, loading: () => LABEL.loading, playing: (l) => 'Pause the ' + l,
+  idle: (l) => 'Listen to the ' + l, loading: (l) => 'Loading the ' + l + '…', playing: (l) => 'Pause the ' + l,
   paused: (l) => 'Resume the ' + l, error: (l) => 'Listen to the ' + l,
 };
 
@@ -52,6 +52,19 @@ export function followTarget({ cellLeft, cellRight, boxLeft, boxRight, scrollLef
   if (cellLeft < boxLeft + margin) next -= boxLeft + margin - cellLeft;
   else if (cellRight > boxRight) next += cellRight - boxRight;
   return Math.min(Math.max(next, 0), Math.max(maxScroll, 0));
+}
+
+/**
+ * Pixels to scroll the window so a line stays in view: at least margin px below the
+ * sticky bar (or the visual viewport top, whichever is lower) and above the view bottom.
+ * 0 when the line is inside. A line taller than the space keeps its top in view.
+ */
+export function pageFollowDelta({ top, bottom, barBottom, viewTop, viewBottom, margin }) {
+  const upper = Math.max(barBottom, viewTop) + margin;
+  const lower = viewBottom - margin;
+  if (top < upper) return top - upper;
+  if (bottom > lower) return Math.min(bottom - lower, top - upper);
+  return 0;
 }
 
 /** A gesture older than this counts as ended (ms): a lost end event must not stop the follow for good. */

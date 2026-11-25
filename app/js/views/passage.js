@@ -4,14 +4,15 @@ import { linesFor } from '../draw.js';
 import { getPassage, getLexicon, getArt, getEchoes, getWing, getCulture } from '../data.js';
 import { openSheet } from '../sheet.js';
 import { rich, openChar, hanify, linkRefs } from '../notes.js';
-import { isHan, passageChars, segmentsFor } from '../markup.js';
+import { isHan, passageChars, segmentsFor, plainLine, wordsOf } from '../markup.js';
+import { wrapWords, wordCell } from '../words.js';
 import { state } from '../app.js';
 import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
 import { entryList } from './journal.js';
 import { brushPanel } from '../brush.js';
 import { sayButton } from '../audio.js';
 import { track } from '../track.js';
-import { listenRow, followTarget, followAllowed, gestureLive } from '../listen.js';
+import { listenRow, followTarget, followAllowed, gestureLive, pageFollowDelta } from '../listen.js';
 
 const CLAUSE_END = new Set(['，', '；', '。', '：', '！', '？', ',']);
 const LAYOUT_KEY = 'tao.colLayout';
@@ -48,11 +49,25 @@ export async function passageView(n, drawId) {
       draw ? h('p', { class: 'muted small', text: `Drawn ${fmtDate(draw.at)}` }) : null),
     h('div', { class: 'badge' }, tetragram(lines, { size: 46, label: lineNames(lines) }), h('span', { class: 'num', text: `${n}` }))));
 
+  // The Listen manifest, fetched once for both rows. The view does not wait for it.
+  const manifest = fetch('data/listen.json').then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  let left = false; // the route changed: add no window listeners after this
+  addEventListener('hashchange', () => { left = true; }, { once: true });
+
   // Rendering
   if (p) {
     const r = h('div', { class: 'rendering' });
-    for (const line of p.rendering) r.append(line.trim() === '' ? h('p', { class: 'gap' }) : rich(line, ctx, { block: true }));
+    const lineEls = []; // the non-empty lines, in order
+    for (const line of p.rendering) {
+      const el = line.trim() === '' ? h('p', { class: 'gap' }) : rich(line, ctx, { block: true });
+      if (!el.classList.contains('gap')) lineEls.push(el);
+      r.append(el);
+    }
     root.append(r);
+    manifest.then((m) => {
+      const rec = m?.en?.[n];
+      if (rec && !left) englishRow(n, p.rendering, r, lineEls, rec);
+    }).catch((e) => console.error(e)); // no English row
     root.append(h('p', { class: 'muted small', text: 'Tap an underlined phrase or any Chinese character to look deeper.' }));
   } else {
     root.append(h('div', { class: 'pending' },
@@ -166,8 +181,7 @@ export async function passageView(n, drawId) {
   drawLayout();
   toRight();
   // The Listen row, right under the column, once the manifest says this passage is recorded.
-  // The view does not wait for the manifest.
-  if (listenOk) fetch('data/listen.json').then((r) => (r.ok ? r.json() : null)).then((m) => {
+  if (listenOk) manifest.then((m) => {
     const rec = m?.zh?.[n];
     if (!rec) return;
     const row = listenRow({
@@ -231,6 +245,63 @@ export async function passageView(n, drawId) {
   if (qBox) root.append(qBox);
   root.append(jbox);
   return root;
+}
+
+/**
+ * The English Listen row, right after the rendering. Wraps each word of each line in span.w;
+ * no row when the words on the page differ from the plain lines or from the recording's count.
+ */
+function englishRow(n, rendering, r, lineEls, rec) {
+  const words = [], cells = [], lineOf = [];
+  for (const el of lineEls) {
+    const w = wrapWords(el, words.length);
+    for (const c of w.cells) { cells.push(c); lineOf.push(el); }
+    words.push(...w.words);
+  }
+  const expected = rendering.flatMap((l) => wordsOf(plainLine(l)).map((w) => w.word));
+  if (words.length !== expected.length || words.some((w, i) => w !== expected[i]) || words.length !== rec.n) {
+    console.error(`passage ${n}: English words and the recording disagree (${words.length} on the page, ${expected.length} in the text, ${rec.n} recorded)`);
+    return;
+  }
+  // Page follow: keep the spoken line below the sticky bar and above the view bottom, but
+  // leave the page alone while the reader scrolls it, and for 4 s after. A scroll counts as
+  // manual only during a touch or pointer gesture (a plain tap scrolls nothing); a wheel turn
+  // or a scroll key counts at once. Touch and pointer are tracked apart (see the column).
+  let pointerDown = false, touchDown = false, gestureStart = 0, lastManual = -Infinity, scrolled = false;
+  const gestureActive = () => gestureLive(Date.now(), pointerDown || touchDown, gestureStart);
+  const release = () => { lastManual = Date.now(); };
+  const begin = () => { gestureStart = Date.now(); scrolled = false; };
+  const endGesture = () => { if (scrolled) release(); scrolled = false; }; // momentum runs on after the lift
+  const listeners = [
+    ['pointerdown', () => { pointerDown = true; begin(); }],
+    ['touchstart', () => { touchDown = true; begin(); }],
+    ['pointerup', () => { if (pointerDown) { pointerDown = false; endGesture(); } }],
+    ['pointercancel', () => { if (pointerDown) { pointerDown = false; endGesture(); } }],
+    ['touchend', () => { if (touchDown) { touchDown = false; endGesture(); } }],
+    ['touchcancel', () => { if (touchDown) { touchDown = false; endGesture(); } }],
+    ['wheel', release],
+    // Enter or Space on a button presses it (Listen, a note); that is not a scroll.
+    ['keydown', (e) => { if (!((e.key === ' ' || e.key === 'Enter') && e.target?.closest?.('button'))) release(); }],
+    ['scroll', () => { if (gestureActive()) { scrolled = true; release(); } }],
+  ];
+  for (const [ev, fn] of listeners) addEventListener(ev, fn, { passive: true });
+  addEventListener('hashchange', () => { for (const [ev, fn] of listeners) removeEventListener(ev, fn, { passive: true }); }, { once: true });
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const follow = (i) => {
+    if (!followAllowed(Date.now(), lastManual, pointerDown || touchDown, gestureStart)) return;
+    const line = lineOf[i].getBoundingClientRect();
+    const vv = window.visualViewport;
+    const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+    const d = pageFollowDelta({
+      top: line.top, bottom: line.bottom,
+      barBottom: document.querySelector('.bar')?.getBoundingClientRect().bottom ?? 0,
+      viewTop: vv ? vv.offsetTop : 0, viewBottom: vv ? vv.offsetTop + vv.height : innerHeight,
+      margin: 2.5 * rem,
+    });
+    if (d) scrollBy({ top: d, behavior: reduced.matches ? 'auto' : 'smooth' });
+  };
+  const row = listenRow({ kind: 'en', n, file: rec.file, times: rec.t, end: rec.end, cells: cells.map(wordCell), onIndex: follow });
+  if (row) r.after(row);
 }
 
 function credit(a) {

@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 
 // listen.js keeps all DOM access inside functions, so it imports cleanly in Node.
-const { indexAt, createPlayer, followTarget, followAllowed, gestureLive, rowView } = await import('../app/js/listen.js');
+const { indexAt, createPlayer, followTarget, followAllowed, gestureLive, rowView, pageFollowDelta } = await import('../app/js/listen.js');
 const { wordCell } = await import('../app/js/words.js');
 
 test('indexAt: empty, before first, exact hit, between, after last', () => {
@@ -193,7 +193,7 @@ test('wake lock: a lock the browser released while loading is asked for again on
 
 test('rowView: labels with a text-style play glyph, language-named aria, error text only in error', () => {
   assert.deepEqual(rowView('idle'), { text: '\u25B6\uFE0E Listen', aria: 'Listen to the Chinese', error: '' });
-  assert.deepEqual(rowView('loading'), { text: 'Loading…', aria: 'Loading…', error: '' });
+  assert.deepEqual(rowView('loading'), { text: 'Loading…', aria: 'Loading the Chinese…', error: '' });
   assert.deepEqual(rowView('playing'), { text: '❚❚ Pause', aria: 'Pause the Chinese', error: '' });
   assert.deepEqual(rowView('paused'), { text: '\u25B6\uFE0E Resume', aria: 'Resume the Chinese', error: '' });
   assert.deepEqual(rowView('error'), { text: '\u25B6\uFE0E Listen', aria: 'Listen to the Chinese', error: 'Audio did not load. Check the connection and try again.' });
@@ -206,6 +206,7 @@ test('rowView en: same visible text, aria names the English', () => {
   assert.equal(rowView('paused', 'en').aria, 'Resume the English');
   assert.equal(rowView('error', 'en').aria, 'Listen to the English');
   assert.equal(rowView('playing', 'en').text, '❚❚ Pause');
+  assert.deepEqual(rowView('loading', 'en'), { text: 'Loading…', aria: 'Loading the English…', error: '' });
 });
 
 test('wake lock: requested on playing, released on pause, asked again when visible', async () => {
@@ -303,6 +304,34 @@ test('followTarget: past the right edge, the cell comes back inside', () => {
 test('followTarget: clamped to [0, maxScroll]', () => {
   assert.equal(followTarget({ ...box, cellLeft: -400, cellRight: -370, scrollLeft: 100 }), 0);
   assert.equal(followTarget({ ...box, cellLeft: 2000, cellRight: 2030, scrollLeft: 900 }), 1000);
+});
+
+const view = { barBottom: 60, viewTop: 0, viewBottom: 800, margin: 40 };
+
+test('pageFollowDelta: a line inside [barBottom + margin, viewBottom - margin] needs no scroll', () => {
+  assert.equal(pageFollowDelta({ ...view, top: 300, bottom: 330 }), 0);
+  assert.equal(pageFollowDelta({ ...view, top: 100, bottom: 760 }), 0); // exactly at both limits
+});
+
+test('pageFollowDelta: a line above the limit scrolls up to barBottom + margin', () => {
+  assert.equal(pageFollowDelta({ ...view, top: -200, bottom: -170 }), -300);
+});
+
+test('pageFollowDelta: a line below the limit scrolls down to viewBottom - margin', () => {
+  assert.equal(pageFollowDelta({ ...view, top: 900, bottom: 930 }), 170);
+});
+
+test('pageFollowDelta: a line under the sticky bar counts as above', () => {
+  // visible in the viewport (top 20 > viewTop 0), but the bar covers it
+  assert.equal(pageFollowDelta({ ...view, top: 20, bottom: 50 }), -80);
+});
+
+test('pageFollowDelta: a pinch-zoomed visual viewport below the bar uses its own top', () => {
+  assert.equal(pageFollowDelta({ ...view, viewTop: 200, top: 210, bottom: 240 }), -30);
+});
+
+test('pageFollowDelta: a line taller than the space keeps its top in view', () => {
+  assert.equal(pageFollowDelta({ ...view, top: 500, bottom: 1400 }), 400);
 });
 
 test('followAllowed: never during a gesture; only 4 s after the last manual scroll', () => {

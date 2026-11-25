@@ -176,6 +176,9 @@ p { margin: 0 0 1rem; }
 .rendering { font-size: 1.2rem; line-height: 1.65; margin: 1.25rem 0 0; }
 .rendering p { margin: 0 0 .25rem; }
 .rendering p.gap { height: .8rem; margin: 0; }
+/* English Listen: the spoken word in seal; spoken words dim (5.4:1 light, 7.1:1 dark on paper; 4.8:1 and 6.2:1 on the note wash). */
+.rendering .w.now { background: var(--seal); color: var(--seal-ink); border-radius: 3px; }
+.rendering .w.done { color: color-mix(in srgb, var(--ink) 67%, var(--paper)); }
 .mark {
   appearance: none; background: none; border: 0; padding: 0; margin: 0;
   font: inherit; color: inherit; cursor: pointer; text-align: inherit;
