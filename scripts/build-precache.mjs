@@ -9,7 +9,7 @@ const SKIP = new Set(['sw.js', 'index.html']);
 const LAZY = ['art/', 'model/', 'data/search/', 'audio/'];
 
 /** Hash every file under app/<dir>, recursively, in a stable order. */
-function hashDir(dir) {
+function hashDir(dir, skip = []) {
   const hh = createHash('sha256');
   const walk = (d) => {
     let names = [];
@@ -17,6 +17,7 @@ function hashDir(dir) {
     for (const name of names) {
       if (name.startsWith('.')) continue;
       const p = join(d, name);
+      if (skip.includes(relative(join(app, dir), p))) continue;
       if (statSync(p).isDirectory()) walk(p);
       else { hh.update(relative(app, p)); hh.update(readFileSync(p)); }
     }
@@ -48,7 +49,7 @@ export function build() {
   const artVersion = hashDir('art');
   const searchVersion = hashDir('data/search');
   const modelVersion = hashDir('model');
-  const audioVersion = hashDir('audio');
+  const audioVersion = hashDir('audio', ['passages']);
   const swPath = join(app, 'sw.js');
   const sw = readFileSync(swPath, 'utf8');
   const block = `// <precache>\nconst VERSION = '${version}';\nconst ART_VERSION = '${artVersion}';\nconst SEARCH_VERSION = '${searchVersion}';\nconst MODEL_VERSION = '${modelVersion}';\nconst AUDIO_VERSION = '${audioVersion}';\nconst FILES = ${JSON.stringify(['./', ...files], null, 1)};\n// </precache>`;

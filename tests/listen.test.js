@@ -89,3 +89,25 @@ test('validateReadings reports a missing decision, a moved at-key, a ctx off the
   e = validateReadings(1, segs, R({ ...base, extra: { 沒: { py: 'mo4' } }, chars: { 長: 'chang2' } }), lex);
   assert.equal(e.length, 1);
 });
+
+import { joinTimes, parseWav } from '../scripts/build-audio.mjs';
+
+test('joinTimes shifts later parts by the samples before them', () => {
+  const r = joinTimes([{ times: [0.015, 0.5], samples: 24000 }, { times: [0.015], samples: 24000 }], 24000);
+  assert.deepEqual(r.t, [0.015, 0.5, 1.015]);
+  assert.equal(r.end, 2);
+});
+test('parseWav finds the data chunk after an extra LIST chunk', () => {
+  const fmt = Buffer.alloc(24); fmt.write('fmt ', 0); fmt.writeUInt32LE(16, 4);
+  fmt.writeUInt16LE(1, 8); fmt.writeUInt16LE(1, 10); fmt.writeUInt32LE(24000, 12);
+  fmt.writeUInt32LE(48000, 16); fmt.writeUInt16LE(2, 20); fmt.writeUInt16LE(16, 22);
+  const list = Buffer.alloc(8 + 5 + 1); list.write('LIST', 0); list.writeUInt32LE(5, 4); list.write('abcde', 8); // odd size, padded
+  const pcm = Buffer.from([1, 0, 2, 0, 3, 0]);
+  const data = Buffer.concat([Buffer.from('data'), Buffer.from([6, 0, 0, 0]), pcm]);
+  const body = Buffer.concat([Buffer.from('WAVE'), fmt, list, data]);
+  const head = Buffer.alloc(8); head.write('RIFF', 0); head.writeUInt32LE(body.length, 4);
+  const w = parseWav(Buffer.concat([head, body]));
+  assert.equal(w.sampleRate, 24000);
+  assert.equal(w.channels, 1);
+  assert.deepEqual([...w.pcm], [1, 0, 2, 0, 3, 0]);
+});
