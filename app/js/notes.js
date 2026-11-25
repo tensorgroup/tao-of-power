@@ -148,7 +148,7 @@ function glossText(str, ctx, block) {
 }
 
 const KIND_LABEL = {
-  etymology: 'Etymology', gap: 'Translation gap', history: 'History', geopolitics: 'Geopolitics',
+  etymology: 'Etymology', gap: 'For English readers', history: 'History', geopolitics: 'Geopolitics',
   wordplay: 'Wordplay', variant: 'Variant reading', wangbi: 'Wang Bi’s comment', legge: 'Legge’s frame',
   practice: 'Practice', pair: 'Paired opposites',
 };
@@ -233,7 +233,7 @@ export async function openChar(c, occurrence, ctx = {}) {
       }
       if (e.shuowen) row('Shuowen Jiezi (c. 100 CE)', h('span', {}, h('span', { class: 'zh-quote', lang: 'zh-Hant', text: e.shuowen }), e.shuowenEn ? h('span', {}, ' — ', linkRefs(e.shuowenEn)) : null));
       if (e.story) row('Story', rich(e.story, ctx));
-      if (e.gap) row('Where English fails', rich(e.gap, ctx));
+      if (e.gap) row('For English readers', rich(e.gap, ctx));
       box.append(dl);
       box.append(h('div', { class: 'links' }, charLinks(c).map((l) => h('a', { href: l.href, target: '_blank', rel: 'noopener noreferrer', text: l.label }))));
       return box;

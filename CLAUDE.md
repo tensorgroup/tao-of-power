@@ -32,6 +32,7 @@ the old files.
   - `js/sheet.js` bottom sheet (notes drawer) with a back stack and pull-down to close.
   - `js/notes.js` `[[text|noteId]]` markup, character sheets, note kind labels.
   - `js/journal.js` localStorage journal: entries, draws, tombstones, merge-safe import/export, drafts.
+  - `js/margin.js` margin tabs: journal entries with `at: { key, snip }`, pinned beside page blocks marked `data-mark`.
   - `js/draw.js` stick-draw logic (crypto random). `js/brush.js` stroke-by-stroke calligraphy.
   - `js/views/*` one module per page.
   - `data/passages/NN.json` one file per passage (rendering, notes, lenses, plates, questions).

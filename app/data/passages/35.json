@@ -23,7 +23,7 @@
     {
       "text": "樂與餌，過客止。道之出口，淡乎其無味，視之不足見，聽之不足聞，用之不足既。",
       "gloss": {
-        "0": "yuè here: music; the same graph is lè, joy",
+        "0": "yuè here: music; the same character is lè, joy",
         "2": "ěr: a cake of rice or flour; also bait for fish",
         "4": "guò: to pass by",
         "5": "guest, lodger, traveler, stranger",
@@ -79,7 +79,7 @@
     "hai": {
       "kind": "gap",
       "title": "往而不害: who does not harm whom?",
-      "body": "Four characters: “go / and / not / harm”. Classical Chinese does not mark active and passive, and gives no object. Three readings are in the line together. The people go and are not harmed; we render this one. The people go and do no harm, to each other or to the one they go to. Or the going itself does no damage: the world moves and nothing breaks. [[Wang Bi|wangbi]] keeps the third: the great image is formless and leans to no side, so all things can go and are not hindered. The Shuowen defines 害 as 傷也, “to wound”, and says that the roof and the mouth in the graph show that harm starts with words in the house. Legge and many others add “him” and “men”. The Chinese has no persons here, only motion and no wound.",
+      "body": "Four characters: “go / and / not / harm”. Classical Chinese does not mark active and passive, and gives no object. Three readings are in the line together. The people go and are not harmed; we render this one. The people go and do no harm, to each other or to the one they go to. Or the going itself does no damage: the world moves and nothing breaks. [[Wang Bi|wangbi]] keeps the third: the great image is formless and leans to no side, so all things can go and are not hindered. The Shuowen defines 害 as 傷也, “to wound”, and says that the roof and the mouth in the character show that harm starts with words in the house. Legge and many others add “him” and “men”. The Chinese has no persons here, only motion and no wound.",
       "src": [
         "Shuowen Jiezi, 宀部: 害，傷也。从宀从口。宀、口，言从家起也。"
       ]
@@ -101,7 +101,7 @@
     "yue": {
       "kind": "wordplay",
       "title": "樂: music, and joy",
-      "body": "One graph writes two words: yuè, “music”, and lè, “joy, pleasure”. The Confucian school made a doctrine of the pun: 樂者樂也, “music is joy”, says the Record of Music. The Shuowen takes the graph as a picture of drums on a wooden stand: 象鼓鞞。木，虡也. Here the word is yuè, because it stands beside food as the second attraction of a feast. But the reader sees lè too: pleasure and cakes. Music was also statecraft. Court music with bronze bells was a ruler’s display, and Confucians held that correct music made correct people. The Mohists wrote a whole chapter, “Against Music”, on its cost. The Laozi does not argue. It only notes what music does to a person on the road: the person stops.",
+      "body": "One character writes two words: yuè, “music”, and lè, “joy, pleasure”. The Confucian school made a doctrine of the pun: 樂者樂也, “music is joy”, says the Record of Music. The Shuowen takes the character as a picture of drums on a wooden stand: 象鼓鞞。木，虡也. Here the word is yuè, because it stands beside food as the second attraction of a feast. But the reader sees lè too: pleasure and cakes. Music was also statecraft. Court music with bronze bells was a ruler’s display, and Confucians held that correct music made correct people. The Mohists wrote a whole chapter, “Against Music”, on its cost. The Laozi does not argue. It only notes what music does to a person on the road: the person stops.",
       "src": [
         "Shuowen Jiezi, 木部: 樂，五聲八音緫名。象鼓鞞。木，虡也。",
         "Liji, “Yue ji”: 樂者樂也。",
@@ -148,7 +148,7 @@
     "ji": {
       "kind": "etymology",
       "title": "既: the meal is over",
-      "body": "既 usually means “already”. Here it is a verb, “to finish, to come to the end of”. The Shuowen enters the word under the older graph 旣 and defines it as 小食也, “a small meal”. The early form is commonly explained as a person who kneels at a food vessel and has turned the head away: the meal is over. If that is right, the last word of the passage goes back to the table where the passage began, with music and cakes. A feast is the thing that ends: the dishes are emptied and the guest goes on. The Dao is the meal at which no one reaches the turn of the head. The Mawangdui silk texts are reported to read 用之不可既也, “use it: it cannot be finished”, with 可, “can”, where the pinned text repeats 足, “enough”, for a third time. The book says the same in other pictures: 用之不勤, “use does not wear it out” (6); 用之或不盈, “use never fills it” (4).",
+      "body": "既 usually means “already”. Here it is a verb, “to finish, to come to the end of”. The Shuowen enters the word under the older character 旣 and defines it as 小食也, “a small meal”. The early form is commonly explained as a person who kneels at a food vessel and has turned the head away: the meal is over. If that is right, the last word of the passage goes back to the table where the passage began, with music and cakes. A feast is the thing that ends: the dishes are emptied and the guest goes on. The Dao is the meal at which no one reaches the turn of the head. The Mawangdui silk texts are reported to read 用之不可既也, “use it: it cannot be finished”, with 可, “can”, where the pinned text repeats 足, “enough”, for a third time. The book says the same in other pictures: 用之不勤, “use does not wear it out” (6); 用之或不盈, “use never fills it” (4).",
       "src": [
         "Shuowen Jiezi, 皀部: 旣，小食也。从皀旡聲。",
         "Mawangdui Laozi (reported readings; not checked against the silk A and B transcriptions)"

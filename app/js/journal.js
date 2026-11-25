@@ -43,10 +43,12 @@ export function snapshot(j, storage = ls()) {
   try { storage.setItem(SNAPSHOT_KEY, JSON.stringify(j)); return true; } catch { return false; }
 }
 
-export function addEntry(j, { passage, text, drawId, q }, now = new Date().toISOString()) {
+export function addEntry(j, { passage, text, drawId, q, at }, now = new Date().toISOString()) {
   const e = { id: uuid(), createdAt: now, updatedAt: now, passage, text };
   if (drawId) e.drawId = drawId;
   if (q?.id && q?.claim) e.q = { id: String(q.id), claim: String(q.claim) };
+  // A margin note: the block of the passage page it is pinned to, and a few words of that block.
+  if (isStr(at?.key)) e.at = { key: at.key, snip: typeof at.snip === 'string' ? at.snip : '' };
   j.entries.push(e);
   return e;
 }
@@ -99,6 +101,7 @@ export function validate(obj) {
       entries: obj.entries.map((e) => {
         const out = { ...e, text: String(e.text) };
         if (!(e.q && isStr(e.q.id) && isStr(e.q.claim))) delete out.q; // drop a malformed question link
+        if (!(e.at && isStr(e.at.key) && typeof e.at.snip === 'string')) delete out.at; // and a malformed margin anchor
         return out;
       }),
       draws: draws.map((d) => ({ ...d })),

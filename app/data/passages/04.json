@@ -20,11 +20,11 @@
         "25": "to temper, to blend, to tune",
         "29": "to be the same as, to join",
         "31": "dust; the common world",
-        "33": "zhàn: sunk deep, still, and clear (for “submerged” the graph was also read chén, like 沈)",
+        "33": "zhàn: sunk deep, still, and clear (for “submerged” the character was also read chén, like 沈)",
         "36": "perhaps (the second “perhaps”)",
         "37": "to be there, to remain",
         "44": "child, son; offspring",
-        "46": "looks like, seems; image (the graph is an elephant)",
+        "46": "looks like, seems; image (the character is an elephant)",
         "47": "Di, the high god of the Shang and Zhou",
         "49": "before, ahead of; a forebear"
       }
@@ -63,7 +63,7 @@
     "zhong": {
       "kind": "variant",
       "title": "The Shuowen quotes this line",
-      "body": "Under a different character, 盅 (zhōng), the Shuowen Jiezi says: 器虛也, “the emptiness of a vessel”. Then it quotes this exact line as its example: 《老子》曰：道盅而用之. So about 100 CE a copy of the Laozi was in use that wrote the word with 皿, a dish, below 中. The Fu Yi “ancient text” edition, put together in the Tang from old manuscripts, also reads 盅. The received text writes 沖, with water. The two graphs sounded alike, and scribes exchanged them. The result is good luck for readers: the line means a bowl, and it looks like water. “Empty” in English has no picture. It is a bare adjective, and often a sad one. The Chinese word is a dish with space in it.",
+      "body": "Under a different character, 盅 (zhōng), the Shuowen Jiezi says: 器虛也, “the emptiness of a vessel”. Then it quotes this exact line as its example: 《老子》曰：道盅而用之. So about 100 CE a copy of the Laozi was in use that wrote the word with 皿, a dish, below 中. The Fu Yi “ancient text” edition, put together in the Tang from old manuscripts, also reads 盅. The received text writes 沖, with water. The two characters sounded alike, and scribes exchanged them. The result is good luck for readers: the line means a bowl, and it looks like water. “Empty” in English has no picture. It is a bare adjective, and often a sad one. The Chinese word is a dish with space in it.",
       "src": [
         "Shuowen Jiezi, 皿部: 盅，器虛也。从皿中聲。《老子》曰：道盅而用之。",
         "Fu Yi, Daodejing guben pian"
@@ -94,7 +94,7 @@
     "yuan": {
       "kind": "etymology",
       "title": "淵: the pool that turns",
-      "body": "The Shuowen defines 淵 as 回水也, “water that turns back on itself”, and reads the old graph as a picture: 左右，岸也。中象水皃, “left and right are the banks; the middle shows the look of water”. It is the deep place in a river where the current slows and circles, and where the big fish stay. Passage 36 says: fish should not leave the 淵. English “abyss” comes with dread, from the Greek for “bottomless” and from the first verses of Genesis. 淵 has no dread. It is depth that feeds. Confucius’s best student had this word in his name: Yan Yuan. The line moves from a bowl on a table to a pool in a river: the same emptiness, larger. What lives in the still part of your own day?",
+      "body": "The Shuowen defines 淵 as 回水也, “water that turns back on itself”, and reads the old character as a picture: 左右，岸也。中象水皃, “left and right are the banks; the middle shows the look of water”. It is the deep place in a river where the current slows and circles, and where the big fish stay. Passage 36 says: fish should not leave the 淵. English “abyss” comes with dread, from the Greek for “bottomless” and from the first verses of Genesis. 淵 has no dread. It is depth that feeds. Confucius’s best student had this word in his name: Yan Yuan. The line moves from a bowl on a table to a pool in a river: the same emptiness, larger. What lives in the still part of your own day?",
       "src": [
         "Shuowen Jiezi, 水部: 淵，回水也。从水，象形。左右，岸也。中象水皃。"
       ]
@@ -118,7 +118,7 @@
     "four-lines": {
       "kind": "variant",
       "title": "Four lines that live twice",
-      "body": "挫其銳，解其紛，和其光，同其塵. These twelve characters come again, word for word, in passage 56, where they describe a person who knows and does not speak. Many modern scholars think that they belong there and were copied into this passage by mistake: without them the pool line and the still-water line join cleanly. If it was a mistake, it is very old. The Mawangdui silk texts (before 168 BCE) already have the lines in both places. The Guodian bamboo slips have passage 56 with the lines (in a different order, and with some different graphs), and do not contain this passage at all. We keep them, as the pinned text does. In passage 56 the lines are about a sage. Here, with no subject, they may be about Dao. Read them both ways.",
+      "body": "挫其銳，解其紛，和其光，同其塵. These twelve characters come again, word for word, in passage 56, where they describe a person who knows and does not speak. Many modern scholars think that they belong there and were copied into this passage by mistake: without them the pool line and the still-water line join cleanly. If it was a mistake, it is very old. The Mawangdui silk texts (before 168 BCE) already have the lines in both places. The Guodian bamboo slips have passage 56 with the lines (in a different order, and with some different characters), and do not contain this passage at all. We keep them, as the pinned text does. In passage 56 the lines are about a sage. Here, with no subject, they may be about Dao. Read them both ways.",
       "src": [
         "Mawangdui Laozi A and B",
         "Guodian Laozi A"
@@ -149,7 +149,7 @@
     "tong-chen": {
       "kind": "etymology",
       "title": "塵: what the deer kick up",
-      "body": "The modern graph 塵 is a deer, 鹿, over earth, 土. The older form in the Shuowen has three deer over earth, and the definition is a small poem: 鹿行揚土也, “deer run and the earth rises”. Dust, then, is not dirt in a corner. It is the sign that living things have passed. In later Chinese the word came to stand for the whole busy human world: 紅塵, “red dust”, is the life of the city and its desires. 同 is “same” and “together”. 同其塵 says: to be the same as its dust, to be in it with everything else. Western religion mostly puts the holy above the dust and tells us to rise. This line goes the other way. See [[what the phrase became|proverb]].",
+      "body": "The modern character 塵 is a deer, 鹿, over earth, 土. The older form in the Shuowen has three deer over earth, and the definition is a small poem: 鹿行揚土也, “deer run and the earth rises”. Dust, then, is not dirt in a corner. It is the sign that living things have passed. In later Chinese the word came to stand for the whole busy human world: 紅塵, “red dust”, is the life of the city and its desires. 同 is “same” and “together”. 同其塵 says: to be the same as its dust, to be in it with everything else. Western religion mostly puts the holy above the dust and tells us to rise. This line goes the other way. See [[what the phrase became|proverb]].",
       "src": [
         "Shuowen Jiezi, 麤部: 𪋻（塵），鹿行揚土也。从麤从土。"
       ]
@@ -166,7 +166,7 @@
     "zhan": {
       "kind": "etymology",
       "title": "湛: under the surface",
-      "body": "The Shuowen defines 湛 with one word: 沒也, “submerged”; in that sense the graph was also read chén, the same word as 沈, to sink. From there the senses spread: deep, soaked through, still, clear. It is water again, the third water word in the passage after 沖 and 淵, and the calmest. The clause that follows is a wonder of hedging: 似或存, “seems, perhaps, to remain”. 存 means to be there, to persist, to be kept alive. Legge heard permanence here, “as if it would ever so continue”. The plainer sense is a thing seen under water: you think it is there, the light moves, and you are not sure. Dao does not show itself as a bright fact. It is like a stone on the bed of a clear pool. When did you last know a thing was present though you could not point to it?",
+      "body": "The Shuowen defines 湛 with one word: 沒也, “submerged”; in that sense the character was also read chén, the same word as 沈, to sink. From there the senses spread: deep, soaked through, still, clear. It is water again, the third water word in the passage after 沖 and 淵, and the calmest. The clause that follows is a wonder of hedging: 似或存, “seems, perhaps, to remain”. 存 means to be there, to persist, to be kept alive. Legge heard permanence here, “as if it would ever so continue”. The plainer sense is a thing seen under water: you think it is there, the light moves, and you are not sure. Dao does not show itself as a bright fact. It is like a stone on the bed of a clear pool. When did you last know a thing was present though you could not point to it?",
       "src": [
         "Shuowen Jiezi, 水部: 湛，沒也。从水甚聲。"
       ]
@@ -179,7 +179,7 @@
     "xiang": {
       "kind": "etymology",
       "title": "象: an elephant’s bones",
-      "body": "象 is a picture of an elephant. The Shuowen describes the animal: 長鼻牙，南越大獸, “long nose and tusks, a great beast of the far south”. The same graph means “image” and “to seem”. The Han Feizi, in the oldest commentary on the Laozi, explains how: 人希見生象也，而得死象之骨，案其圖以想其生也. “People seldom see a living elephant. They find the bones of a dead one, and from that pattern they imagine the living one. So whatever people picture in the mind is called 象.” Elephants once lived in north China and withdrew south as the forests fell. So the last line carries a quiet joke on itself. 象帝之先: we have only bones and a guess. Wang Bi reads it simply as 似, “seems”. Some read it as a noun: “an image of what came before Di”.",
+      "body": "象 is a picture of an elephant. The Shuowen describes the animal: 長鼻牙，南越大獸, “long nose and tusks, a great beast of the far south”. The same character means “image” and “to seem”. The Han Feizi, in the oldest commentary on the Laozi, explains how: 人希見生象也，而得死象之骨，案其圖以想其生也. “People seldom see a living elephant. They find the bones of a dead one, and from that pattern they imagine the living one. So whatever people picture in the mind is called 象.” Elephants once lived in north China and withdrew south as the forests fell. So the last line carries a quiet joke on itself. 象帝之先: we have only bones and a guess. Wang Bi reads it simply as 似, “seems”. Some read it as a noun: “an image of what came before Di”.",
       "src": [
         "Shuowen Jiezi, 象部: 象，長鼻牙，南越大獸，三秊一乳，象耳牙四足之形。",
         "Han Feizi, “Jie Lao”"

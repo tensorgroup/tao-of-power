@@ -1,11 +1,12 @@
 // All entries, edit/delete, export/import with merge.
-import { h, fill, fmtDate, toast } from '../ui.js';
+import { h, fill, fmtDate, toast, keepAboveKeyboard } from '../ui.js';
 import { state } from '../app.js';
 import {
   updateEntry, deleteEntry, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
 } from '../journal.js';
 import { getIndex } from '../data.js';
 import { track } from '../track.js';
+import { jumpTo } from '../margin.js';
 
 const DAY = 86400000;
 
@@ -14,7 +15,8 @@ export async function journalView() {
   const root = h('section', {});
   const render = () => {
     const j = state.journal;
-    const entries = [...j.entries].reverse();
+    const entries = [...j.entries].reverse().filter((e) => !e.at);
+    const tabs = [...j.entries].filter((e) => e.at).sort((a, b) => a.passage - b.passage || Date.parse(a.createdAt) - Date.parse(b.createdAt));
     const last = j.lastExportAt ? Date.parse(j.lastExportAt) : null;
     const newer = j.entries.filter((e) => !last || Date.parse(e.updatedAt) > last).length;
     fill(root,
@@ -25,8 +27,10 @@ export async function journalView() {
       h('div', { class: 'row' },
         h('button', { class: 'btn primary', type: 'button', text: 'Export', onclick: () => doExport(render) }),
         h('button', { class: 'btn', type: 'button', text: 'Import', onclick: () => doImport(render) })),
+      tabs.length ? h('details', { class: 'legge tab-list', open: true }, h('summary', { text: `Margin tabs (${tabs.length})` }),
+        entryList(tabs, { showPassage: true, idx, onChange: render })) : null,
       entries.length ? entryList(entries, { showPassage: true, idx, onChange: render })
-        : h('div', { class: 'empty' },
+        : tabs.length ? null : h('div', { class: 'empty' },
           h('p', { class: 'muted', text: 'No entries yet. Draw a passage and write what arises.' }),
           h('a', { class: 'btn red', href: '#/', text: 'Draw a passage' })),
       draws(j, idx));
@@ -63,14 +67,15 @@ function entryItem(e, { showPassage, idx, onChange }) {
     h('div', { class: 'meta' },
       h('time', { datetime: e.createdAt, text: fmtDate(e.createdAt) }),
       e.updatedAt !== e.createdAt ? h('span', { text: `edited ${fmtDate(e.updatedAt)}` }) : null,
-      showPassage ? h('a', { href: `#/p/${e.passage}`, text: `${e.passage}${idx?.passages?.[e.passage]?.title ? ` · ${idx.passages[e.passage].title}` : ''}` }) : null),
+      showPassage ? h('a', { href: `#/p/${e.passage}`, onclick: e.at ? () => jumpTo(e.passage, e.at.key) : null, text: `${e.passage}${idx?.passages?.[e.passage]?.title ? ` · ${idx.passages[e.passage].title}` : ''}` }) : null),
+    e.at?.snip && showPassage ? h('p', { class: 'entry-q entry-at', text: `Beside: ${e.at.snip}` }) : null,
     e.q?.claim ? h('p', { class: 'entry-q', text: e.q.claim }) : null,
     h('div', { class: 'text', text: e.text }),
     h('div', { class: 'tools' },
       h('button', { class: 'btn quiet', type: 'button', text: 'Edit', onclick: edit }),
       h('button', { class: 'btn quiet', type: 'button', text: 'Delete', onclick: askDelete })));
   const edit = () => {
-    const ta = h('textarea', { 'aria-label': 'Edit entry' });
+    const ta = keepAboveKeyboard(h('textarea', { 'aria-label': 'Edit entry' }));
     ta.value = e.text;
     li.replaceChildren(h('div', { class: 'jedit' }, ta, h('div', { class: 'tools' },
       h('button', { class: 'btn primary', type: 'button', text: 'Save', onclick: () => {

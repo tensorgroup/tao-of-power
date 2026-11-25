@@ -35,7 +35,7 @@
     {
       "text": "知足不辱，知止不殆，可以長久。",
       "gloss": {
-        "1": "enough; the graph is a foot",
+        "1": "enough; the character is a foot",
         "3": "disgrace, public shame",
         "6": "to stop; at first a footprint"
       }
@@ -57,7 +57,7 @@
     "ming": {
       "kind": "gap",
       "title": "名: a name is also a reputation",
-      "body": "名 is the plain word “name”. The Shuowen explains the graph as 夕, evening, above 口, a mouth: in the dark people cannot see each other, so each one calls out who they are. In the Warring States the word had grown large. 名 was a person’s reputation, and it was also rank and title, the name by which a court knew and paid a man. The wandering advisers of the time lived by it. A good name opened the gate of a ruler; a ruined one closed every gate. English must choose “name”, “fame”, or “reputation”. We keep “name” because the first line of the book uses the same word: the name that can be named. A name is a sound in the mouths of others. Where is it kept?",
+      "body": "名 is the plain word “name”. The Shuowen explains the character as 夕, evening, above 口, a mouth: in the dark people cannot see each other, so each one calls out who they are. In the Warring States the word had grown large. 名 was a person’s reputation, and it was also rank and title, the name by which a court knew and paid a man. The wandering advisers of the time lived by it. A good name opened the gate of a ruler; a ruined one closed every gate. English must choose “name”, “fame”, or “reputation”. We keep “name” because the first line of the book uses the same word: the name that can be named. A name is a sound in the mouths of others. Where is it kept?",
       "src": [
         "Shuowen Jiezi, 口部: 名，自命也。从口从夕。夕者，冥也。冥不相見，故以口自名。"
       ]
@@ -65,7 +65,7 @@
     "shen": {
       "kind": "etymology",
       "title": "身: the body, not “life”",
-      "body": "The Shuowen says of 身: 象人之身, “it pictures a person’s body”. The graph is commonly explained as a figure seen from the side with the trunk drawn large; some see a pregnant belly, and 身 still means “pregnancy” in the phrase 有身. The word covers the trunk, the whole body, and the person: 身 is how classical Chinese says “oneself”. English translators often write “life” or “self” here, and both are too thin. The question is physical. Fame is in the mouths of others, and this is in your skin. The book returns to the word often. Passage 13 says that great trouble comes from having a 身, and then gives the world to the one who values the body as the world. Passage 26 asks how a lord of ten thousand chariots can treat the body more lightly than the realm.",
+      "body": "The Shuowen says of 身: 象人之身, “it pictures a person’s body”. The character is commonly explained as a figure seen from the side with the trunk drawn large; some see a pregnant belly, and 身 still means “pregnancy” in the phrase 有身. The word covers the trunk, the whole body, and the person: 身 is how classical Chinese says “oneself”. English translators often write “life” or “self” here, and both are too thin. The question is physical. Fame is in the mouths of others, and this is in your skin. The book returns to the word often. Passage 13 says that great trouble comes from having a 身, and then gives the world to the one who values the body as the world. Passage 26 asks how a lord of ten thousand chariots can treat the body more lightly than the realm.",
       "src": [
         "Shuowen Jiezi, 身部: 身，躳也。象人之身。"
       ]
@@ -73,7 +73,7 @@
     "qin": {
       "kind": "gap",
       "title": "親: near, kin, dear",
-      "body": "親 is one word where English has three. It means near in space, it means parents and relatives, and it means dear. The Shuowen defines it with one syllable: 至也, “it arrives”, it comes all the way to you. The graph has 見, to see, on the right: the people whom you see every day. So the first question does not ask which of the two is “better” or “more valuable”. It asks which is closer kin. The answer looks easy, and the text gives none. The question had [[a school behind it|yangzhu]]. In a court society the honest answer was often the name: men died to protect it, and families lived on it for generations. The question measures a distance. How far from you is your reputation, and how far is your hand?",
+      "body": "親 is one word where English has three. It means near in space, it means parents and relatives, and it means dear. The Shuowen defines it with one syllable: 至也, “it arrives”, it comes all the way to you. The character has 見, to see, on the right: the people whom you see every day. So the first question does not ask which of the two is “better” or “more valuable”. It asks which is closer kin. The answer looks easy, and the text gives none. The question had [[a school behind it|yangzhu]]. In a court society the honest answer was often the name: men died to protect it, and families lived on it for generations. The question measures a distance. How far from you is your reputation, and how far is your hand?",
       "src": [
         "Shuowen Jiezi, 見部: 親，至也。从見亲聲。"
       ]
@@ -107,7 +107,7 @@
     "bing": {
       "kind": "gap",
       "title": "病: sickness, not “worse”",
-      "body": "病 is illness. The Shuowen: 疾加也, “a sickness that has grown heavy”. As a verb it means to make ill, to distress, to find fault with. Many translations write “which is worse?” or “more harmful”, and the image is lost. The first two questions used words of measure: nearer, more. The third changes to medicine. It asks for a diagnosis. The answer is not obvious to the patient, because this sickness feels like health: the store grows, the name grows. Passage 71 uses the word in the same way and makes a remedy from it: 病病, to be sick of the sickness, is to be free of it. The left and top part of the graph, 疒, marks illnesses; the Shuowen explains it as a person who leans on a bed.",
+      "body": "病 is illness. The Shuowen: 疾加也, “a sickness that has grown heavy”. As a verb it means to make ill, to distress, to find fault with. Many translations write “which is worse?” or “more harmful”, and the image is lost. The first two questions used words of measure: nearer, more. The third changes to medicine. It asks for a diagnosis. The answer is not obvious to the patient, because this sickness feels like health: the store grows, the name grows. Passage 71 uses the word in the same way and makes a remedy from it: 病病, to be sick of the sickness, is to be free of it. The left and top part of the character, 疒, marks illnesses; the Shuowen explains it as a person who leans on a bed.",
       "src": [
         "Shuowen Jiezi, 疒部: 病，疾加也。从疒丙聲。"
       ]
@@ -132,7 +132,7 @@
     "zhizu": {
       "kind": "wordplay",
       "title": "知足: to know the foot",
-      "body": "足 is “foot”, and it is also “enough”. The two are one graph and one syllable; how the second sense came from the first is not settled. So 知足, “to know enough”, can be seen as “to know the foot”: to know where you stand. The phrase runs through the book. Passage 33: 知足者富, “who knows enough is rich”. Passage 46: 知足之足常足, “the enough of ‘know enough’ is always enough”, with three 足 in six characters. English “contentment” makes it a feeling. The Chinese makes it knowledge: an accurate sense of a quantity. It is also not “settle for less”. The line does not say how much is enough. It says that there is such a point, and that it can be known. See the plate for [[足|zu-zhi]].",
+      "body": "足 is “foot”, and it is also “enough”. The two are one character and one syllable; how the second sense came from the first is not settled. So 知足, “to know enough”, can be seen as “to know the foot”: to know where you stand. The phrase runs through the book. Passage 33: 知足者富, “who knows enough is rich”. Passage 46: 知足之足常足, “the enough of ‘know enough’ is always enough”, with three 足 in six characters. English “contentment” makes it a feeling. The Chinese makes it knowledge: an accurate sense of a quantity. It is also not “settle for less”. The line does not say how much is enough. It says that there is such a point, and that it can be known. See the plate for [[足|zu-zhi]].",
       "src": [
         "Laozi 33, 46"
       ]
@@ -154,7 +154,7 @@
     "ru": {
       "kind": "etymology",
       "title": "辱: shamed at the edge of the field",
-      "body": "辱 is public disgrace. The Shuowen explains the graph with a scene from the farming year: 从寸在辰下。失耕時，於封畺上戮之也, “from 寸 under 辰. One who missed the time of ploughing was punished on the boundary mound.” 辰, it adds, is 農之時, “the farmer’s season”. So the dictionary’s disgrace is the shame of bad timing, displayed where the neighbours could see. Modern scholars read the picture in another way; see the plate. In either case 辱 is social: it is done to you in front of others. That fits the audience. A man at a Warring States court could lose rank, be mutilated, or be killed with his kin when his name or his wealth grew too visible. The book pairs 辱 with 寵, favour, in passage 13: both arrive like a shock.",
+      "body": "辱 is public disgrace. The Shuowen explains the character with a scene from the farming year: 从寸在辰下。失耕時，於封畺上戮之也, “from 寸 under 辰. One who missed the time of ploughing was punished on the boundary mound.” 辰, it adds, is 農之時, “the farmer’s season”. So the dictionary’s disgrace is the shame of bad timing, displayed where the neighbours could see. Modern scholars read the picture in another way; see the plate. In either case 辱 is social: it is done to you in front of others. That fits the audience. A man at a Warring States court could lose rank, be mutilated, or be killed with his kin when his name or his wealth grew too visible. The book pairs 辱 with 寵, favour, in passage 13: both arrive like a shock.",
       "src": [
         "Shuowen Jiezi, 辰部: 辱，恥也。从寸在辰下。失耕時，於封畺上戮之也。辰者，農之時也。"
       ]
@@ -234,7 +234,7 @@
     {
       "c": "辱",
       "title": "A hand and a hoe",
-      "lesson": "The top is 辰 and the bottom is 寸. Take the bottom first. 寸 is “inch”: the Shuowen explains it as the spot one inch back from the hand where the pulse moves, and analyses it as 又, a hand, with one mark. In compounds it usually means only “hand”: 守 (to guard), 封 (to raise a boundary mound), 得 (to get), which stands in this passage. Now the top. 辰 is today the fifth of the twelve branches and a word for a time or a star. The Shuowen calls it 農之時, the farmer’s season. Many modern scholars explain the old form as a farm tool, a hoe or a blade made from a large clam shell; the basis is the family of characters around it. 農, farming, has 辰 below. 蜃 is a great clam. 耨, to weed, has 辱 itself on the right. So 辱 is commonly explained as a hand that holds the hoe: to weed, to work the soil. How did it come to mean [[disgrace|ru]]? The Shuowen answers with its story of the late ploughman punished at the field’s edge. Others think the word “shame” only borrowed the graph for its sound. This is disputed; hold both. Its cousin 恥, shame, is glossed by the Shuowen with this character: 恥，辱也.",
+      "lesson": "The top is 辰 and the bottom is 寸. Take the bottom first. 寸 is “inch”: the Shuowen explains it as the spot one inch back from the hand where the pulse moves, and analyses it as 又, a hand, with one mark. In compounds it usually means only “hand”: 守 (to guard), 封 (to raise a boundary mound), 得 (to get), which stands in this passage. Now the top. 辰 is today the fifth of the twelve branches and a word for a time or a star. The Shuowen calls it 農之時, the farmer’s season. Many modern scholars explain the old form as a farm tool, a hoe or a blade made from a large clam shell; the basis is the family of characters around it. 農, farming, has 辰 below. 蜃 is a great clam. 耨, to weed, has 辱 itself on the right. So 辱 is commonly explained as a hand that holds the hoe: to weed, to work the soil. How did it come to mean [[disgrace|ru]]? The Shuowen answers with its story of the late ploughman punished at the field’s edge. Others think the word “shame” only borrowed the character for its sound. This is disputed; hold both. Its cousin 恥, shame, is glossed by the Shuowen with this character: 恥，辱也.",
       "brush": "Ten strokes: seven for 辰, three for 寸. 辰 begins with a horizontal, then a long stroke that falls to the left and makes a roof with it, like the cliff shape 厂. Under that roof come two more horizontals, the second one longer. The fifth stroke goes down and flicks up to the right. The sixth is a short stroke to the left, and the seventh is a long one that falls to the right; let it reach wide. Then 寸: a long horizontal, a vertical that ends in a hook to the left, and one dot. Watch the eighth stroke, the horizontal of 寸. It is the widest line in the character and it carries the whole upper part like a tray. The weight above is to the right, and the hook and dot below answer it on the left."
     }
   ],

@@ -56,10 +56,10 @@
     "m": "the mark above it (shape only)"
    }
   ],
-  "story": "上 is a base line with a mark over it; with 下 it is Xu Shen’s example of a graph that points at an idea. In the Laozi it is the word for the best and for those who rule. The highest good is like water (8). Of the highest ruler, those below know only that he exists (17). The highest de is not de-like (38). The highest officer hears the Dao and walks it (41). To wish to be above the people one must go below them (66). To know not-knowing is 上 (71). The people starve because those above eat too much in taxes (75).",
+  "story": "上 is a base line with a mark over it; with 下 it is Xu Shen’s example of a character that points at an idea. In the Laozi it is the word for the best and for those who rule. The highest good is like water (8). Of the highest ruler, those below know only that he exists (17). The highest de is not de-like (38). The highest officer hears the Dao and walks it (41). To wish to be above the people one must go below them (66). To know not-knowing is 上 (71). The people starve because those above eat too much in taxes (75).",
   "gap": "English uses different words for “upper”, “best”, and “the authorities”. 上 is all three, so each praise of the highest is also a remark about those on top.",
   "shuowen": "高也。此古文上，指事也。",
-  "shuowenEn": "High. This is the ancient form of 上; a graph that points at the matter."
+  "shuowenEn": "High. This is the ancient form of 上; a character that points at the matter."
  },
  "下": {
   "py": [
@@ -83,10 +83,10 @@
     "m": "the mark below it (shape only; not the word “divine”)"
    }
   ],
-  "story": "The early graph is a long line with a short mark under it; 上 is the reverse. In the postface to the Shuowen, Xu Shen gives 上 and 下 as his examples of 指事, graphs that point at an idea. In the Laozi the low place is the place of power. Water stays where people hate to be (8). High and low lean on each other (2); the high has the low as its base (39). The great state is the low reach of the river (61). In passage 66, 下 is a verb and a skill: the River and the sea are 善下, good at being below, and so they are kings.",
+  "story": "The early character is a long line with a short mark under it; 上 is the reverse. In the postface to the Shuowen, Xu Shen gives 上 and 下 as his examples of 指事, characters that point at an idea. In the Laozi the low place is the place of power. Water stays where people hate to be (8). High and low lean on each other (2); the high has the low as its base (39). The great state is the low reach of the river (61). In passage 66, 下 is a verb and a skill: the River and the sea are 善下, good at being below, and so they are kings.",
   "gap": "English “below” and “under” are prepositions and carry a sense of defeat (“underling”, “beneath me”). 下 can be an action that one does well, and in this book it is where things gather.",
   "shuowen": "底也。指事。",
-  "shuowenEn": "The bottom. A graph that points at the matter."
+  "shuowenEn": "The bottom. A character that points at the matter."
  },
  "不": {
   "py": [
@@ -138,7 +138,7 @@
   ],
   "shuowen": "鐙中火主也。",
   "shuowenEn": "The flame in a lamp.",
-  "story": "The Shuowen reads the graph as a lamp with its flame, the dot at the top; the character 炷, a wick, keeps that sense. From the one light in the room came the head of the house and the lord of a state. The Laozi uses the word with care. The Dao feeds all things and does not act the 主 (34). The soldier’s saying in passage 69 is “I do not dare to be the host; I would rather be the guest”. The lord of ten thousand chariots must not treat his person lightly (26).",
+  "story": "The Shuowen reads the character as a lamp with its flame, the dot at the top; the character 炷, a wick, keeps that sense. From the one light in the room came the head of the house and the lord of a state. The Laozi uses the word with care. The Dao feeds all things and does not act the 主 (34). The soldier’s saying in passage 69 is “I do not dare to be the host; I would rather be the guest”. The lord of ten thousand chariots must not treat his person lightly (26).",
   "gap": "“Lord” brings in feudal Europe and the God of the English Bible. 主 is also the plain word for a host at a dinner and the owner of a dog.",
   "parts": [
    {
@@ -170,7 +170,7 @@
   ],
   "shuowen": "以後灸之，象人兩脛後有距也。",
   "shuowenEn": "To apply heat from behind; it shows a person’s two shins with something set against them from behind.",
-  "story": "Many scholars take this graph as the first way of writing 灸, to burn moxa on the skin: a slow treatment in which the herb stays in place. It was then used for “a long time”. In the Laozi, 久 is what Dao and its followers have and what force lacks. Heaven is long and earth is lasting (7). A storm wind does not last a morning; if heaven and earth cannot make things last, how can people? (23). Know what is enough and you can be long and lasting (44). With the mother of the state one can be long and lasting (59). Dao itself is 久 (16).",
+  "story": "Many scholars take this character as the first way of writing 灸, to burn moxa on the skin: a slow treatment in which the herb stays in place. It was then used for “a long time”. In the Laozi, 久 is what Dao and its followers have and what force lacks. Heaven is long and earth is lasting (7). A storm wind does not last a morning; if heaven and earth cannot make things last, how can people? (23). Know what is enough and you can be long and lasting (44). With the mother of the state one can be long and lasting (59). Dao itself is 久 (16).",
   "gap": "“Eternal” and “forever” are outside time. 久 is inside time: a thing that stays put for a long while."
  },
  "之": {
@@ -228,7 +228,7 @@
   ],
   "shuowen": "治也。从乙，乙，治之也；从𤔔。",
   "shuowenEn": "To put in order. From 乙; 乙 is that which orders it. From 𤔔.",
-  "story": "The Shuowen defines disorder as “to put in order”. The graph is commonly explained as two hands that work at a tangle of silk on a frame, and the oldest texts use the word in both directions: a tangle, and the untangling. The Analects quotes King Wu on his ten ministers who 亂, that is, who govern well. In the Laozi the word is the state to avoid: the people’s heart not in 亂 (3); loyal ministers appear when the state is in dark 亂 (18); ritual is the head of 亂 (38); order a thing before it is in 亂 (64).",
+  "story": "The Shuowen defines disorder as “to put in order”. The character is commonly explained as two hands that work at a tangle of silk on a frame, and the oldest texts use the word in both directions: a tangle, and the untangling. The Analects quotes King Wu on his ten ministers who 亂, that is, who govern well. In the Laozi the word is the state to avoid: the people’s heart not in 亂 (3); loyal ministers appear when the state is in dark 亂 (18); ritual is the head of 亂 (38); order a thing before it is in 亂 (64).",
   "gap": "English “chaos” is a Greek void and “disorder” is a mere absence. 亂 is a tangle of threads: a thing with structure that has gone wrong, and that hands can work on."
  },
  "事": {
@@ -715,7 +715,7 @@
     "m": "speech, a word"
    }
   ],
-  "story": "A person beside a word. To be 信 is to be someone whose word holds, and the same graph names the trust that others then give. The Laozi uses it in both directions. In words, the good is 信 (8). When trust is not enough, there is no trust in return (17). Within Dao there is something real, and within that there is 信, a token that can be tested (21). The sage trusts the trustworthy and trusts the untrustworthy also (49). Light promises mean little 信 (63). True words are not beautiful (81).",
+  "story": "A person beside a word. To be 信 is to be someone whose word holds, and the same character names the trust that others then give. The Laozi uses it in both directions. In words, the good is 信 (8). When trust is not enough, there is no trust in return (17). Within Dao there is something real, and within that there is 信, a token that can be tested (21). The sage trusts the trustworthy and trusts the untrustworthy also (49). Light promises mean little 信 (63). True words are not beautiful (81).",
   "gap": "“Faith” has become religious, “sincerity” is a feeling, and “trust” is the other person’s response. 信 is all three as one fact: word and deed agree."
  },
  "修": {
@@ -826,7 +826,7 @@
    "false, counterfeit, pretended"
   ],
   "shuowen": "詐也。从人爲聲。",
-  "shuowenEn": "Deceit. From 人 (person), with 爲 for the sound. (The Shuowen writes the graph in its fuller form, 僞.)",
+  "shuowenEn": "Deceit. From 人 (person), with 爲 for the sound. (The Shuowen writes the character in its fuller form, 僞.)",
   "parts": [
    {
     "c": "亻",
@@ -909,7 +909,7 @@
     "m": "all together; gives the sound"
    }
   ],
-  "story": "儉 is the conduct of a person who holds in: few wants, little display, small cost to others. Confucians praised it in ritual and in a ruler’s household. The Laozi uses the word only in passage 67, as the second of three precious things: 儉故能廣, sparing and so able to be wide. Wang Bi explains that when cost is spared the world does not run short. Passage 59 praises a related quality with another word, 嗇, the farmer’s care in storing. The opposite is 奢, lavish, “stretched open”. The Mawangdui silk texts are reported to write the word with the graph 檢.",
+  "story": "儉 is the conduct of a person who holds in: few wants, little display, small cost to others. Confucians praised it in ritual and in a ruler’s household. The Laozi uses the word only in passage 67, as the second of three precious things: 儉故能廣, sparing and so able to be wide. Wang Bi explains that when cost is spared the world does not run short. Passage 59 praises a related quality with another word, 嗇, the farmer’s care in storing. The opposite is 奢, lavish, “stretched open”. The Mawangdui silk texts are reported to write the word with the character 檢.",
   "gap": "“Economy” is bookkeeping, “moderation” is a mean between extremes, “frugality” is about money. 儉 is a general drawing-in of the self, so that there is more room around it."
  },
  "儼": {
@@ -951,7 +951,7 @@
    "a very large number (a million; in old counts more)"
   ],
   "shuowen": "灼龜坼也。从卜；兆，象形。",
-  "shuowenEn": "The splits of a scorched turtle shell. From 卜 (to divine); 兆 is a picture. (The Shuowen enters the word under the fuller graph 𠧞.)",
+  "shuowenEn": "The splits of a scorched turtle shell. From 卜 (to divine); 兆 is a picture. (The Shuowen enters the word under the fuller character 𠧞.)",
   "story": "Shang and Zhou diviners put a hot point to a prepared shell or bone and read the cracks that appeared. 卜 pictures one such crack with its branch; 兆 is the pattern to be read. From there the word came to mean any sign of what is to come. The Laozi uses it as a verb with 未, “not yet”: in passage 20 the speaker is still, 未兆, like an infant that has not yet smiled; in passage 64 a thing that is 未兆 is easy to plan for. The sense is earlier than “early”: no sign has appeared at all. As a part it gives the sound in 跳, 逃, and 桃.",
   "gap": "“Omen” in English suggests a message from a god or from fate. 兆 is more physical: a crack, a first visible line. “Before it begins” loses the picture of the diviner and the shell."
  },
@@ -1074,7 +1074,7 @@
   "senses": [
    "a rhinoceros, or a great wild ox (the identity is debated)"
   ],
-  "story": "The Shuowen lists the animal under an old picture-graph and describes it as like a wild ox and dark in colour, apart from 犀, the rhinoceros of the far south. Shang kings hunted it. Its horn made drinking cups and its hide made armour. In passage 50 it is the first danger of the road: it finds no place to thrust its horn.",
+  "story": "The Shuowen lists the animal under an old pictograph and describes it as like a wild ox and dark in colour, apart from 犀, the rhinoceros of the far south. Shang kings hunted it. Its horn made drinking cups and its hide made armour. In passage 50 it is the first danger of the road: it finds no place to thrust its horn.",
   "gap": "“Rhinoceros” puts the scene in Africa or India for an English reader. The 兕 belonged to the plains and marshes of ancient China."
  },
  "入": {
@@ -1108,7 +1108,7 @@
    "all, entirely"
   ],
   "shuowen": "完也。从入从工。",
-  "shuowenEn": "Complete. From 入 and 工. (The Shuowen enters the word under the older graph 仝.)",
+  "shuowenEn": "Complete. From 入 and 工. (The Shuowen enters the word under the older character 仝.)",
   "story": "The Shuowen glosses the word “complete”; it is commonly added that the form with jade stood for a piece of jade with no flaw. In the Warring States it was a word of survival and of strategy: to keep one’s life whole, to take a state whole. The proverb of passage 22 says the bent is what stays 全. Our text of passage 16 has it in the great chain: even-handed, then whole; whole, then heaven.",
   "gap": "“Perfect” and “complete” add an ideal. 全 only says that no piece has been broken off."
  },
@@ -1388,7 +1388,7 @@
    "to benefit"
   ],
   "shuowen": "銛也。从刀。和然後利，从和省。《易》曰：「利者，義之和也。」",
-  "shuowenEn": "Sharp. From 刀 (knife). After harmony comes gain; the graph takes a part of 和. The Changes says: “Gain is the harmony of what is right.”",
+  "shuowenEn": "Sharp. From 刀 (knife). After harmony comes gain; the character takes a part of 和. The Changes says: “Gain is the harmony of what is right.”",
   "parts": [
    {
     "c": "禾",
@@ -1924,7 +1924,7 @@
     "m": "sated: sweet (甘) with dog meat (肰); also the sound"
    }
   ],
-  "story": "The inner part, 猒, is a full stomach: the Shuowen says “to have eaten one’s fill”. Under a cliff it becomes pressure. The one graph wrote both “to press” and “to be sick of”, and the Laozi uses each. The rich are 厭 with drink and food (53). The world pushes the sage forward and does not tire (66). Passage 72 plays on both in one line: do not press on what the people live by; only because there is no pressing, there is no loathing. The Mawangdui silk texts are reported to write 猒 in all three places.",
+  "story": "The inner part, 猒, is a full stomach: the Shuowen says “to have eaten one’s fill”. Under a cliff it becomes pressure. The one character wrote both “to press” and “to be sick of”, and the Laozi uses each. The rich are 厭 with drink and food (53). The world pushes the sage forward and does not tire (66). Passage 72 plays on both in one line: do not press on what the people live by; only because there is no pressing, there is no loathing. The Mawangdui silk texts are reported to write 猒 in all three places.",
   "gap": "English has no word that is both a weight from above and a disgust from below. “Oppress” and “fed up” together come near."
  },
  "去": {
@@ -2046,7 +2046,7 @@
     "m": "a hand reaching up"
    }
   ],
-  "story": "Two hands and a thing that passes between them. One graph first served for both giving and receiving. In passage 78 the ruler receives the dirt and the ill omens of the state, as low water receives what runs down.",
+  "story": "Two hands and a thing that passes between them. One character first served for both giving and receiving. In passage 78 the ruler receives the dirt and the ill omens of the state, as low water receives what runs down.",
   "gap": "“Accept” and “bear” sound passive or heroic. 受 is a plain act of the hands: someone holds a thing out, and you take it."
  },
  "口": {
@@ -2123,7 +2123,7 @@
     "m": "a mouth: the word of command"
    }
   ],
-  "story": "The Shuowen reads 司 as the mirror image of 后, the sovereign who issues orders. The officer faces the other way and carries the orders out. In early writing the two were probably one graph that could face either side. The word filled the lists of government posts. In the Laozi it names two offices: 司殺者, the one in charge of killing (74), and in passage 79 司契 and 司徹, the keeper of the tally and the keeper of the tithe.",
+  "story": "The Shuowen reads 司 as the mirror image of 后, the sovereign who issues orders. The officer faces the other way and carries the orders out. In early writing the two were probably one character that could face either side. The word filled the lists of government posts. In the Laozi it names two offices: 司殺者, the one in charge of killing (74), and in passage 79 司契 and 司徹, the keeper of the tally and the keeper of the tithe.",
   "gap": "“To preside” sounds grand. 司 is the daily work of a post: a desk, a duty, and a limit."
  },
  "各": {
@@ -2217,7 +2217,7 @@
     "m": "a mouth: commands"
    }
   ],
-  "story": "A lord, in this graph, is a hand with the staff of office and a mouth that gives orders. 君子, “the lord’s son”, became the Confucian word for a person of noble conduct. In Laozi 26 the word comes twice: stillness is the lord of restlessness, and the restless ruler loses the lord, which means his seat and also his own inner ruler. The Mawangdui copies of passage 26 are reported to use 君子 where the received text has “the sage”.",
+  "story": "A lord, in this character, is a hand with the staff of office and a mouth that gives orders. 君子, “the lord’s son”, became the Confucian word for a person of noble conduct. In Laozi 26 the word comes twice: stillness is the lord of restlessness, and the restless ruler loses the lord, which means his seat and also his own inner ruler. The Mawangdui copies of passage 26 are reported to use 君子 where the received text has “the sage”.",
   "gap": "English “lord” is feudal or religious. 君 is any holder of command, and also the faculty in a person that should be in command."
  },
  "含": {
@@ -2392,7 +2392,7 @@
     "m": "a mouth (bottom of 各)"
    }
   ],
-  "story": "A word of the diviners. In the Book of Changes a line is judged 吉, good fortune; 凶, misfortune; or very often 无咎, “no harm”: a result with nothing to regret. The Shuowen reads the graph as a person at cross purposes. The Laozi uses the word twice, and both times the harm is self-made. The rich and proud leave their 咎 to themselves (9). No 咎 is greater than the wish to get (46).",
+  "story": "A word of the diviners. In the Book of Changes a line is judged 吉, good fortune; 凶, misfortune; or very often 无咎, “no harm”: a result with nothing to regret. The Shuowen reads the character as a person at cross purposes. The Laozi uses the word twice, and both times the harm is self-made. The rich and proud leave their 咎 to themselves (9). No 咎 is greater than the wish to get (46).",
   "gap": "English keeps harm (what happens) apart from blame (who is at fault). 咎 is both at once: a harm that has an owner."
  },
  "哀": {
@@ -2418,7 +2418,7 @@
     "m": "mouth"
    }
   ],
-  "story": "哀 is the grief of the funeral: a mouth set inside the graph for a robe. The rites gave it a form, with set times for wailing and set clothes of coarse hemp. The Laozi uses the word twice, and both times in war. When many have been killed, weep for them with 哀 and sorrow; observe a victory with the rites of mourning (31). When raised weapons meet, the one who grieves wins (69). From the second line came a later proverb, 哀兵必勝: an army in mourning is sure to win.",
+  "story": "哀 is the grief of the funeral: a mouth set inside the character for a robe. The rites gave it a form, with set times for wailing and set clothes of coarse hemp. The Laozi uses the word twice, and both times in war. When many have been killed, weep for them with 哀 and sorrow; observe a victory with the rites of mourning (31). When raised weapons meet, the one who grieves wins (69). From the second line came a later proverb, 哀兵必勝: an army in mourning is sure to win.",
   "gap": "“Sorrow” and “compassion” are feelings one may have at a distance. 哀 is ritual mourning, done aloud and in public, as for one’s own dead."
  },
  "哉": {
@@ -2476,7 +2476,7 @@
    "lucky, auspicious"
   ],
   "shuowen": "吉也。从誩从羊。此與義美同意。",
-  "shuowenEn": "Lucky, auspicious. From 誩 (two “speech”) and 羊 (sheep). This shares one idea with 義 and 美. (The Shuowen enters the word under the older graph 譱.)",
+  "shuowenEn": "Lucky, auspicious. From 誩 (two “speech”) and 羊 (sheep). This shares one idea with 義 and 美. (The Shuowen enters the word under the older character 譱.)",
   "parts": [
    {
     "c": "羊",
@@ -2487,7 +2487,7 @@
     "m": "speech (two of them in the old form)"
    }
   ],
-  "story": "The old graph 譱 is a sheep between two words. The modern form keeps the sheep on top and has pressed the two 言 into the strokes below it. The Shuowen ties it to 美 and 義 through the sheep, the animal of offerings and good omens. The word is moral and practical together: good, and good at. The Laozi plays on both. The highest 善 is like water, and then seven lines say what each thing is good at (8). The one who is good at walking leaves no track (27). The sage is good to the good and good to the not-good also (49).",
+  "story": "The old character 譱 is a sheep between two words. The modern form keeps the sheep on top and has pressed the two 言 into the strokes below it. The Shuowen ties it to 美 and 義 through the sheep, the animal of offerings and good omens. The word is moral and practical together: good, and good at. The Laozi plays on both. The highest 善 is like water, and then seven lines say what each thing is good at (8). The one who is good at walking leaves no track (27). The sage is good to the good and good to the not-good also (49).",
   "gap": "English keeps “good” (moral) apart from “good at” (skill). 善 does not. A reader must hear both each time."
  },
  "喜": {
@@ -2509,7 +2509,7 @@
    "sāng: mourning, a funeral; the rites for the dead"
   ],
   "shuowen": "亾也。从哭从亾。會意。亾亦聲。",
-  "shuowenEn": "To lose. From 哭 (to wail) and 亾 (gone); a joined-meaning graph. 亾 also gives the sound.",
+  "shuowenEn": "To lose. From 哭 (to wail) and 亾 (gone); a joined-meaning character. 亾 also gives the sound.",
   "parts": [
    {
     "c": "吅",
@@ -2521,7 +2521,7 @@
    }
   ],
   "story": "The Shuowen reads 喪 as wailing for one who is gone. The oracle-bone forms are commonly described as a mulberry tree, borrowed for its sound, with mouths added. The word names both the loss and the rites that answer it. In Laozi 31 a victory in battle is to be received with 喪禮, the rites of mourning; passage 69 warns that to take the enemy lightly is close to 喪, losing, one’s treasures.",
-  "gap": "English keeps “loss” and “funeral” apart. 喪 is one graph, so to mourn a victory is also to call it a loss."
+  "gap": "English keeps “loss” and “funeral” apart. 喪 is one character, so to mourn a victory is also to call it a loss."
  },
  "喻": {
   "py": [
@@ -2588,7 +2588,7 @@
    "a person’s capacity or talent; to value someone’s ability"
   ],
   "shuowen": "皿也。象器之口，犬所以守之。",
-  "shuowenEn": "A dish. The graph shows the mouths of vessels, and a dog that guards them.",
+  "shuowenEn": "A dish. The character shows the mouths of vessels, and a dog that guards them.",
   "parts": [
    {
     "c": "口",
@@ -2848,7 +2848,7 @@
    "to hold to, to maintain; later (Buddhist): to cling"
   ],
   "shuowen": "捕罪人也。从丮从幸，幸亦聲。",
-  "shuowenEn": "To arrest a criminal. From 丮 (a kneeling person with hands out) and 幸 (here the old graph 㚔, manacles), which also gives the sound.",
+  "shuowenEn": "To arrest a criminal. From 丮 (a kneeling person with hands out) and 幸 (here the old character 㚔, manacles), which also gives the sound.",
   "parts": [
    {
     "c": "幸",
@@ -2952,7 +2952,7 @@
     "m": "earth, soil"
    }
   ],
-  "story": "The Shuowen’s form has three deer over earth, and its definition is a scene: a herd runs and dust goes up. The modern graph keeps one deer. Dust in Chinese is thus first a sign of movement and life. In the Laozi it occurs in one phrase, 同其塵, “be one with its dust” (4, 56). Later the word became the usual figure for worldly life: 紅塵, “red dust”, is the busy world; 風塵, “wind and dust”, is hard travel; in Buddhist texts the six 塵 are the objects of the senses. To leave home for a monastery was to leave the dust. The Laozi’s phrase goes the other way.",
+  "story": "The Shuowen’s form has three deer over earth, and its definition is a scene: a herd runs and dust goes up. The modern character keeps one deer. Dust in Chinese is thus first a sign of movement and life. In the Laozi it occurs in one phrase, 同其塵, “be one with its dust” (4, 56). Later the word became the usual figure for worldly life: 紅塵, “red dust”, is the busy world; 風塵, “wind and dust”, is hard travel; in Buddhist texts the six 塵 are the objects of the senses. To leave home for a monastery was to leave the dust. The Laozi’s phrase goes the other way.",
   "gap": "English “dust” suggests neglect and death (“dust to dust”). 塵 suggests traffic: the world where things are happening."
  },
  "增": {
@@ -2982,7 +2982,7 @@
   "story": "The lowest rank of the Zhou nobility, trained in arms and rites. In the Warring States the 士 became a mobile class of experts who sold advice and service to the courts. The Laozi names them in passage 15 (good at being 士), passage 41 (the highest 士 hears the Way and practises it; the lowest laughs), and passage 68 (one good at being a 士 is not warlike).",
   "gap": "“Knight”, “scholar”, “officer”, and “gentleman” each give one side.",
   "shuowen": "事也。數始於一，終於十。从一从十。孔子曰：「推十合一爲士。」",
-  "shuowenEn": "One who serves. Numbers begin at one and end at ten; the graph is from 一 and 十. Confucius said: “One who can reason from the ten and bring them to one is a 士.”"
+  "shuowenEn": "One who serves. Numbers begin at one and end at ten; the character is from 一 and 十. Confucius said: “One who can reason from the ten and bring them to one is a 士.”"
  },
  "壯": {
   "py": [
@@ -3013,7 +3013,7 @@
     "m": "sound part"
    }
   ],
-  "story": "壽 is long life in the body, the first thing that Zhou bronzes ask of the ancestors and the first of the “five blessings” in the Book of Documents. It became the centre of a whole art of living, and its graph, in a hundred decorative forms, is the commonest emblem on Chinese gifts. The Laozi uses the word once, in the last line of passage 33, and gives it to one who has died and is not lost.",
+  "story": "壽 is long life in the body, the first thing that Zhou bronzes ask of the ancestors and the first of the “five blessings” in the Book of Documents. It became the centre of a whole art of living, and its character, in a hundred decorative forms, is the commonest emblem on Chinese gifts. The Laozi uses the word once, in the last line of passage 33, and gives it to one who has died and is not lost.",
   "gap": "“Immortality” and “eternal life” are about another world. 壽 is years in this one, which is what makes the Laozi’s use of it strange."
  },
  "外": {
@@ -3039,7 +3039,7 @@
     "m": "to divine; a crack in a heated shell"
    }
   ],
-  "story": "The Shuowen explains the graph as a divination made at the wrong hour, and so off the point. Modern scholars doubt this and often take one part as the sound. The word is the partner of 內, inside. In the Laozi it is used as a verb: the sage puts the body outside, and the body remains (7). The Zhuangzi makes this a ladder of practice: to put the world outside, then things, then life itself.",
+  "story": "The Shuowen explains the character as a divination made at the wrong hour, and so off the point. Modern scholars doubt this and often take one part as the sound. The word is the partner of 內, inside. In the Laozi it is used as a verb: the sage puts the body outside, and the body remains (7). The Zhuangzi makes this a ladder of practice: to put the world outside, then things, then life itself.",
   "gap": "English cannot say “to outside a thing”. The classical verb means to treat as not one’s concern, with no hostility in it."
  },
  "多": {
@@ -3068,7 +3068,7 @@
     "m": "a person seen from the front, arms and legs spread"
    }
   ],
-  "story": "大 is a front view of a person with the arms out: the adult who takes up room, used to write “big”. The Shuowen explains the graph with a line from Laozi 25, and in its version the fourth great thing is the human (人), where the received text and, as reported, the excavated copies say the king (王). The figure is the base of 天 (sky, heaven), 夫 (a grown man), and 立 (to stand). In Laozi 25, “great” is the name that the speaker is forced to give the Dao, and it at once turns into “passing on”.",
+  "story": "大 is a front view of a person with the arms out: the adult who takes up room, used to write “big”. The Shuowen explains the character with a line from Laozi 25, and in its version the fourth great thing is the human (人), where the received text and, as reported, the excavated copies say the king (王). The figure is the base of 天 (sky, heaven), 夫 (a grown man), and 立 (to stand). In Laozi 25, “great” is the name that the speaker is forced to give the Dao, and it at once turns into “passing on”.",
   "gap": "English “great” leans toward praise. 大 is first about extent: what reaches everywhere and leaves nothing outside."
  },
  "天": {
@@ -3331,8 +3331,8 @@
     "m": "a hand"
    }
   ],
-  "story": "The dictionary’s first sense is a loss: the bird gets out of the hand. The Qing scholar Duan Yucai noted that this old sense is the word later written 脫, “to slip free”, and that the sense “to seize” at first had its own graph, 敓. In time 奪 took the meaning “to seize” and kept the picture of the loss. In passage 36 the two words stand near each other: that which is to be 奪 must first be given, and the fish must not 脫 from the deep. The short form is 夺.",
-  "gap": "“Seize” and “take away” have only the winner’s view. The graph shows the moment from the side of the open hand."
+  "story": "The dictionary’s first sense is a loss: the bird gets out of the hand. The Qing scholar Duan Yucai noted that this old sense is the word later written 脫, “to slip free”, and that the sense “to seize” at first had its own character, 敓. In time 奪 took the meaning “to seize” and kept the picture of the loss. In passage 36 the two words stand near each other: that which is to be 奪 must first be given, and the fish must not 脫 from the deep. The short form is 夺.",
+  "gap": "“Seize” and “take away” have only the winner’s view. The character shows the moment from the side of the open hand."
  },
  "奸": {
   "py": [
@@ -3389,7 +3389,7 @@
     "m": "few, small, young"
    }
   ],
-  "story": "妙 has no entry of its own in the Shuowen, and the early manuscripts of the Laozi do not write it this way. The Mawangdui silk texts have 眇, with the eye radical: tiny, at the limit of sight. Wang Bi defines the word as 微之極, “the far limit of the minute”, the point where a thing is only starting to be a thing. The later graph is written with 女 and 少, and readers have long liked to see in it a young woman, and so freshness and grace; that is a reading of the modern shape, not a recorded origin. From “fine” the word grew to mean wonderful and skilled: a 妙 hand, a 妙 plan. In Buddhism it translated the Sanskrit sat, “true, excellent”, as in the title of the Lotus Sutra, 妙法蓮華經.",
+  "story": "妙 has no entry of its own in the Shuowen, and the early manuscripts of the Laozi do not write it this way. The Mawangdui silk texts have 眇, with the eye radical: tiny, at the limit of sight. Wang Bi defines the word as 微之極, “the far limit of the minute”, the point where a thing is only starting to be a thing. The later character is written with 女 and 少, and readers have long liked to see in it a young woman, and so freshness and grace; that is a reading of the modern shape, not a recorded origin. From “fine” the word grew to mean wonderful and skilled: a 妙 hand, a 妙 plan. In Buddhism it translated the Sanskrit sat, “true, excellent”, as in the title of the Lotus Sutra, 妙法蓮華經.",
   "gap": "“Mystery” makes it a secret. “Wonder” makes it large. “Subtlety” makes it dry. 妙 is small, early, and delightful together: the thing you only see if you want nothing from it."
  },
  "妨": {
@@ -3460,7 +3460,7 @@
     "m": "woman"
    }
   ],
-  "story": "A woman under a weapon. The Shuowen takes the first sense as the mother-in-law, before whom a bride stood in awe; modern scholars read the graph as fear and its cause. In political writing 威 is the ruler’s dread power, the partner of 德, favour, and the main tool of the Legalists. It is the same root as 畏, to fear, and the Mawangdui silk texts are reported to write both with one graph. The Laozi has the word only in passage 72: when the people do not fear 威, the great 威 arrives. The power lasts only as long as the fear does.",
+  "story": "A woman under a weapon. The Shuowen takes the first sense as the mother-in-law, before whom a bride stood in awe; modern scholars read the character as fear and its cause. In political writing 威 is the ruler’s dread power, the partner of 德, favour, and the main tool of the Legalists. It is the same root as 畏, to fear, and the Mawangdui silk texts are reported to write both with one character. The Laozi has the word only in passage 72: when the people do not fear 威, the great 威 arrives. The power lasts only as long as the fear does.",
   "gap": "“Authority” sounds lawful and calm; “terror” sounds criminal. 威 is between them: the weight of a power that can hurt you, felt as awe."
  },
  "娛": {
@@ -3499,7 +3499,7 @@
     "m": "a woman"
    }
   ],
-  "story": "First a string of shells at a woman’s neck. The sense “infant” is commonly explained from the child carried at the neck and breast; some scholars say the graph was only borrowed for the sound. The infant is the Laozi’s picture of whole power. Gather the breath to full softness: can there be an infant? (10). “I alone am still, with no sign yet, like an infant that has not yet smiled” (20). Keep to the hen, and return to the infant (28). The one who holds power in fullness is like a newborn child (55).",
+  "story": "First a string of shells at a woman’s neck. The sense “infant” is commonly explained from the child carried at the neck and breast; some scholars say the character was only borrowed for the sound. The infant is the Laozi’s picture of whole power. Gather the breath to full softness: can there be an infant? (10). “I alone am still, with no sign yet, like an infant that has not yet smiled” (20). Keep to the hen, and return to the infant (28). The one who holds power in fullness is like a newborn child (55).",
   "gap": "The English infant is helpless and “infantile” is an insult. The Laozi’s infant is the strongest state of a person: soft, whole, with no wasted force."
  },
  "子": {
@@ -3542,7 +3542,7 @@
   "senses": [
    "to bear and nurse young; to rear",
    "a style-name, the public name taken at adulthood; to give one",
-   "a written character (a compound graph)"
+   "a written character (a compound character)"
   ],
   "shuowen": "乳也。从子在宀下，子亦聲。",
   "shuowenEn": "To suckle, to bear young. From a child under a roof; 子 also gives the sound.",
@@ -3556,7 +3556,7 @@
     "m": "a child"
    }
   ],
-  "story": "A child under a roof. The first sense is to bear and nurse young. Two great later senses grew from it. A written character is a 字 because, as Xu Shen says in the postface to the Shuowen, compound graphs are “born and nursed” from simple pictures and so multiply. And a person’s public name is a 字 because it is born from the given name (名) at the capping rite. In Laozi 25 the speaker does not know the 名 of the thing that came before heaven and earth and so gives it a 字: Dao.",
+  "story": "A child under a roof. The first sense is to bear and nurse young. Two great later senses grew from it. A written character is a 字 because, as Xu Shen says in the postface to the Shuowen, compound characters are “born and nursed” from simple pictures and so multiply. And a person’s public name is a 字 because it is born from the given name (名) at the capping rite. In Laozi 25 the speaker does not know the 名 of the thing that came before heaven and earth and so gives it a 字: Dao.",
   "gap": "English has “name” and “nickname”, and neither fits. A 字 is a formal second name that others use out of respect, because the first name is too intimate to say."
  },
  "存": {
@@ -3645,7 +3645,7 @@
     "m": "sound"
    }
   ],
-  "story": "First a verb: the laugh of an infant. By the old rite a father named his child at three months, when he took its hand and made it laugh. In passage 20 the speaker is “like an infant that has not yet laughed”. In passage 49 the sage treats all the people as children who laugh: 聖人皆孩之. Later the graph with the mouth, 咳, went to “cough”, and 孩 became the noun “child”.",
+  "story": "First a verb: the laugh of an infant. By the old rite a father named his child at three months, when he took its hand and made it laugh. In passage 20 the speaker is “like an infant that has not yet laughed”. In passage 49 the sage treats all the people as children who laugh: 聖人皆孩之. Later the character with the mouth, 咳, went to “cough”, and 孩 became the noun “child”.",
   "gap": "English versions say “not yet smiled” or “not yet a child”. The first is right; the second reads a modern noun into an old verb."
  },
  "孫": {
@@ -3693,7 +3693,7 @@
    "a school; a branch of learning"
   ],
   "shuowen": "覺悟也。从教从冂。冂，尚矇也。臼聲。",
-  "shuowenEn": "To awaken. From 教 (to teach) and 冂. 冂 is “still in the dark”. 臼 gives the sound. (The Shuowen enters the word under the fuller graph 斆.)",
+  "shuowenEn": "To awaken. From 教 (to teach) and 冂. 冂 is “still in the dark”. 臼 gives the sound. (The Shuowen enters the word under the fuller character 斆.)",
   "parts": [
    {
     "c": "𦥯",
@@ -3954,7 +3954,7 @@
    }
   ],
   "story": "The Shuowen sees harm as something that starts with words spoken under one’s own roof. The Laozi pairs the word with 利, benefit. Go toward the great image and meet no harm (35). The sage stands in front, and the people do not find it harmful (66). Of two kinds of courage, one benefits and one harms (73). Heaven’s way benefits and does not harm (81).",
-  "gap": "“Harm” is general. The old graph is specific: a mouth in a house."
+  "gap": "“Harm” is general. The old character is specific: a mouth in a house."
  },
  "家": {
   "py": [
@@ -4080,8 +4080,8 @@
     "m": "ice: the two dots at the base"
    }
   ],
-  "story": "The Shuowen reads the graph as a scene: someone in a house, packed in straw, with ice below. From the cold of that house came the sense “poor”: a 寒士 is a scholar without means. The Laozi uses the word once: 躁勝寒, movement overcomes cold (45). 寒 and 熱, cold and heat, are also a basic pair of Chinese medicine.",
-  "gap": "English “cold” is a temperature. 寒 is the cold that a person suffers; the graph has a person in it."
+  "story": "The Shuowen reads the character as a scene: someone in a house, packed in straw, with ice below. From the cold of that house came the sense “poor”: a 寒士 is a scholar without means. The Laozi uses the word once: 躁勝寒, movement overcomes cold (45). 寒 and 熱, cold and heat, are also a basic pair of Chinese medicine.",
+  "gap": "English “cold” is a temperature. 寒 is the cold that a person suffers; the character has a person in it."
  },
  "察": {
   "py": [
@@ -4177,7 +4177,7 @@
    "(nìng) would rather; how could"
   ],
   "shuowen": "願詞也。从丂寍聲。",
-  "shuowenEn": "A word of wishing (“would rather”). From 丂, with 寍 for the sound. (For the sense “peace” the Shuowen has the older graph 寍: a roof, with a heart above a bowl.)",
+  "shuowenEn": "A word of wishing (“would rather”). From 丂, with 寍 for the sound. (For the sense “peace” the Shuowen has the older character 寍: a roof, with a heart above a bowl.)",
   "parts": [
    {
     "c": "宀",
@@ -4196,7 +4196,7 @@
     "m": "here from 丂, breath that comes out: the particle"
    }
   ],
-  "story": "Two words in one graph. The peace word is a roof, a heart, and a bowl: the Shuowen says that food vessels are that by which people are at peace. The particle “would rather” added a sign for breath. In passage 39 earth got the One and so is 寧, and heaven is 清; the pair gave names to palaces in Beijing. The short form is 宁.",
+  "story": "Two words in one character. The peace word is a roof, a heart, and a bowl: the Shuowen says that food vessels are that by which people are at peace. The particle “would rather” added a sign for breath. In passage 39 earth got the One and so is 寧, and heaven is 清; the pair gave names to palaces in Beijing. The short form is 宁.",
   "gap": "“Tranquil” is a mood. 寧 is security: the ground does not move and there is food in the house."
  },
  "寬": {
@@ -4316,7 +4316,7 @@
     "m": "a hand"
    }
   ],
-  "story": "First a bronze jar for sacrificial wine; the Shuowen lists it in an older form with two hands that raise the jar. To honour is to lift the wine to someone. In the Laozi all creatures 尊 the Way (51), and fine words can buy 尊 (62). The vessel sense later got its own graphs, 樽 and 罇.",
+  "story": "First a bronze jar for sacrificial wine; the Shuowen lists it in an older form with two hands that raise the jar. To honour is to lift the wine to someone. In the Laozi all creatures 尊 the Way (51), and fine words can buy 尊 (62). The vessel sense later got its own characters, 樽 and 罇.",
   "gap": "“Honour” in English is abstract. 尊 is a gesture: both hands, a full jar, raised."
  },
  "對": {
@@ -4600,7 +4600,7 @@
    "Lord on High (上帝); a deified royal ancestor",
    "emperor (from 221 BCE)"
   ],
-  "story": "In the Shang oracle-bone inscriptions, Di is the highest power: Di sends rain or holds it back, and approves or ruins the king’s plans. Dead Shang kings also received the title. The Zhou identified Di with their Heaven, 天, and the two words stand side by side in the early classics. The early shape of the graph is disputed, and we give no picture for it. In 221 BCE the king of Qin joined it to 皇 and made 皇帝, “emperor”, which is why the Shuowen, written under the Han, defines the word as a ruler’s title. The Laozi names Di once, to say that Dao seems to come before it (4).",
+  "story": "In the Shang oracle-bone inscriptions, Di is the highest power: Di sends rain or holds it back, and approves or ruins the king’s plans. Dead Shang kings also received the title. The Zhou identified Di with their Heaven, 天, and the two words stand side by side in the early classics. The early shape of the character is disputed, and we give no picture for it. In 221 BCE the king of Qin joined it to 皇 and made 皇帝, “emperor”, which is why the Shuowen, written under the Han, defines the word as a ruler’s title. The Laozi names Di once, to say that Dao seems to come before it (4).",
   "gap": "“God” makes Di the creator of the Bible, which Di was not; Legge chose it for reasons of mission. “Emperor” is too late and too human. Di is a high ancestor-god of a royal house, and nearer to a first ancestor than to a creator."
  },
  "帥": {
@@ -4664,7 +4664,7 @@
     "m": "a piece of cloth"
    }
   ],
-  "story": "The Shuowen files 常 as an item of dress, the same word as 裳, the skirt of formal robes. The sense “constant” is a second, borrowed use of the graph that became the main one. In the Laozi the word is everywhere: the constant Way, constant virtue-power, and “to know the constant is called clear sight” (16, 55). But in the oldest manuscripts most of these places read 恆. Han scribes replaced 恆 with 常 to avoid the personal name of Emperor Wen, Liu Heng (劉恆, ruled 180–157 BCE). The word also means plain and ordinary, as in the modern 平常. The Laozi’s constant is not far from its ordinary: that which lasts is that which keeps coming back.",
+  "story": "The Shuowen files 常 as an item of dress, the same word as 裳, the skirt of formal robes. The sense “constant” is a second, borrowed use of the character that became the main one. In the Laozi the word is everywhere: the constant Way, constant virtue-power, and “to know the constant is called clear sight” (16, 55). But in the oldest manuscripts most of these places read 恆. Han scribes replaced 恆 with 常 to avoid the personal name of Emperor Wen, Liu Heng (劉恆, ruled 180–157 BCE). The word also means plain and ordinary, as in the modern 平常. The Laozi’s constant is not far from its ordinary: that which lasts is that which keeps coming back.",
   "gap": "“Eternal”, “unchanging”, and “absolute” bring in a timeless realm above this world. 常 is constancy inside time: the regular return of seasons, the habit of water. It can be an adjective, an adverb (“always”), or a noun, and passage 1 uses it in more than one way."
  },
  "平": {
@@ -4711,7 +4711,7 @@
   ],
   "shuowen": "微也。殆也。从𢆶从戍。戍，兵守也。𢆶而兵守者，危也。",
   "shuowenEn": "Minute. Perilous. From 𢆶 (fine threads) and 戍 (to guard); 戍 is a guard with weapons. Fine, and guarded with weapons: that is danger.",
-  "story": "The Shuowen reads the graph as tiny threads and an armed guard: something very small that still needs watching. The word names the first faint stirring of an event, the point where a change can still be seen and turned; the Book of Changes says that the noble person acts on seeing the 幾. From “the edge of” comes “almost”. In the Laozi: water is 幾 to Dao, at its very edge (8); people at their work often fail when they are 幾 at completion (64); how far apart are yes and a sneer, 相去幾何? (20).",
+  "story": "The Shuowen reads the character as tiny threads and an armed guard: something very small that still needs watching. The word names the first faint stirring of an event, the point where a change can still be seen and turned; the Book of Changes says that the noble person acts on seeing the 幾. From “the edge of” comes “almost”. In the Laozi: water is 幾 to Dao, at its very edge (8); people at their work often fail when they are 幾 at completion (64); how far apart are yes and a sneer, 相去幾何? (20).",
   "gap": "“Almost” in English is a shortfall. 幾 is a place: the fine edge where one thing is about to become another."
  },
  "庇": {
@@ -4901,12 +4901,12 @@
   ],
   "shuowen": "橈也。",
   "shuowenEn": "Bent, curved.",
-  "story": "The Shuowen defines weakness as a bend and sees fine hairs in the graph; many modern scholars see two weak bows. The Laozi does not soften the word. “Weakness is the use of the Dao” (40). The sage weakens the ambitions of the people and strengthens their bones (3). The weak overcomes the strong, and everyone knows it, and no one can practice it (78).",
+  "story": "The Shuowen defines weakness as a bend and sees fine hairs in the character; many modern scholars see two weak bows. The Laozi does not soften the word. “Weakness is the use of the Dao” (40). The sage weakens the ambitions of the people and strengthens their bones (3). The weak overcomes the strong, and everyone knows it, and no one can practice it (78).",
   "gap": "Translators write “yielding” or “receptive” to spare the reader. The Chinese word is the plain opposite of strong, and the book praises it on purpose.",
   "parts": [
    {
     "c": "弓",
-    "m": "now the graph for a bow; for the Shuowen, a bent shape"
+    "m": "now the character for a bow; for the Shuowen, a bent shape"
    },
    {
     "c": "冫",
@@ -4964,7 +4964,7 @@
     "m": "an insect"
    }
   ],
-  "story": "The Shuowen lists 強 as the name of an insect and gives “strong” its own graph, 彊, “the bow has power”. Scribes borrowed the insect for the bow, and 強 became the normal way to write strength. In the Laozi the word is mostly a warning: the stiff and strong are companions of death (76), a thing forced to its prime grows old (30, 55). Read qiǎng, it is the adverb “by force”: the speaker is forced to describe the old masters (15) and forced to name the Dao “great” (25).",
+  "story": "The Shuowen lists 強 as the name of an insect and gives “strong” its own character, 彊, “the bow has power”. Scribes borrowed the insect for the bow, and 強 became the normal way to write strength. In the Laozi the word is mostly a warning: the stiff and strong are companions of death (76), a thing forced to its prime grows old (30, 55). Read qiǎng, it is the adverb “by force”: the speaker is forced to describe the old masters (15) and forced to name the Dao “great” (25).",
   "gap": "English “strong” is nearly always praise. 強 in this book is closer to “rigid” or “forcing”, and is usually a sign of something about to break."
  },
  "弼": {
@@ -5154,7 +5154,7 @@
     "m": "foot (lower right)"
    }
   ],
-  "story": "The Shuowen lists the word under an older graph and defines it as “to go on foot”. Those on foot behind the chariots were the infantry and the retinue; so 徒 came to mean followers and then a kind of people. The Laozi speaks of the 徒 of life and the 徒 of death (50, 76): two companies, and each person walks in one.",
+  "story": "The Shuowen lists the word under an older character and defines it as “to go on foot”. Those on foot behind the chariots were the infantry and the retinue; so 徒 came to mean followers and then a kind of people. The Laozi speaks of the 徒 of life and the 徒 of death (50, 76): two companies, and each person walks in one.",
   "gap": "“Follower” or “disciple” suggests a choice of teacher. 徒 is simply the crowd on foot behind something."
  },
  "得": {
@@ -5389,7 +5389,7 @@
     "m": "gives the sound"
    }
   ],
-  "story": "徼 is a word from border service: the rounds that guards walk, and so the frontier line itself. Han texts speak of 徼外, “beyond the frontier”. In the Laozi it occurs once, in passage 1, as that which the wanting mind sees. Wang Bi explains it as 歸終, the return and the end: the place where a thing arrives when it is complete. Other readers have proposed that the graph stands for 皦, “bright”, or 竅, “opening”, and the Mawangdui silk texts read 其所噭, also disputed. The patrol sense is the oldest attested gloss, and it fits the passage: names and desires walk the borders of things.",
+  "story": "徼 is a word from border service: the rounds that guards walk, and so the frontier line itself. Han texts speak of 徼外, “beyond the frontier”. In the Laozi it occurs once, in passage 1, as that which the wanting mind sees. Wang Bi explains it as 歸終, the return and the end: the place where a thing arrives when it is complete. Other readers have proposed that the character stands for 皦, “bright”, or 竅, “opening”, and the Mawangdui silk texts read 其所噭, also disputed. The patrol sense is the oldest attested gloss, and it fits the passage: names and desires walk the borders of things.",
   "gap": "No single English word covers border, outcome, and outline together. “Manifestations”, a common choice, has no basis in the old glosses."
  },
  "心": {
@@ -5525,7 +5525,7 @@
     "m": "heart"
    }
   ],
-  "story": "A heart under the graph for a slave. The Shuowen says that 奴 is here for the sound, but readers have long taken the picture as a comment: in anger the heart is not free. Early writers also use 怒 for any bursting energy, such as a bird that rises or a plant that shoots up. The strategists treated anger as a danger in a commander and a weakness to use in an enemy. The Laozi has the word once: 善戰者不怒, one good at fighting is not angry (68).",
+  "story": "A heart under the character for a slave. The Shuowen says that 奴 is here for the sound, but readers have long taken the picture as a comment: in anger the heart is not free. Early writers also use 怒 for any bursting energy, such as a bird that rises or a plant that shoots up. The strategists treated anger as a danger in a commander and a weakness to use in an enemy. The Laozi has the word once: 善戰者不怒, one good at fighting is not angry (68).",
   "gap": "English “anger” can be righteous, and modern culture often praises it as energy. In the military texts 怒 is simply a loss of command over oneself."
  },
  "思": {
@@ -5804,7 +5804,7 @@
     "m": "heart"
    }
   ],
-  "story": "One graph holds a quality and a feeling. Read è, it is the opposite of 美: the ugly and the bad. Read wù, it is what the heart does to such things: to hate. The Laozi uses both. The ugly appears when beauty is known (2). Water stays in the place that the crowd hates, 眾人之所惡 (8). Weapons are things that people hate (31). Passage 20 asks how far apart 善 and 惡 really are. The character has a heart in it: the bad is first what a heart turns from.",
+  "story": "One character holds a quality and a feeling. Read è, it is the opposite of 美: the ugly and the bad. Read wù, it is what the heart does to such things: to hate. The Laozi uses both. The ugly appears when beauty is known (2). Water stays in the place that the crowd hates, 眾人之所惡 (8). Weapons are things that people hate (31). Passage 20 asks how far apart 善 and 惡 really are. The character has a heart in it: the bad is first what a heart turns from.",
   "gap": "“Evil” is too heavy. It brings sin and a cosmic enemy. 惡 is the foul, the coarse, the disliked. The Chinese also does not divide “bad” from “hated”, as English does."
  },
  "愈": {
@@ -5884,7 +5884,7 @@
     "m": "a foot that drags, at the base"
    }
   ],
-  "story": "The Shuowen gives the love-word a different graph, 㤅, glossed 惠也, “kindness”, and defines 愛 itself as a way of walking. Usage joined the two long ago. In early texts 愛 often means to begrudge: the king in Mencius 1A7 is thought 愛, stingy, over an ox. The Laozi uses the word with care: 愛民 (10), 自愛不自貴 (72), and the warning of passage 44 that extreme 愛 costs dear.",
+  "story": "The Shuowen gives the love-word a different character, 㤅, glossed 惠也, “kindness”, and defines 愛 itself as a way of walking. Usage joined the two long ago. In early texts 愛 often means to begrudge: the king in Mencius 1A7 is thought 愛, stingy, over an ox. The Laozi uses the word with care: 愛民 (10), 自愛不自貴 (72), and the warning of passage 44 that extreme 愛 costs dear.",
   "gap": "English “love” has no shadow of “hoard”. 愛 has: to hold dear and to hold back are one verb."
  },
  "感": {
@@ -6033,7 +6033,7 @@
     "m": "sound; by itself, the stare of a hawk: two eyes 䀠 over a bird 隹"
    }
   ],
-  "story": "懼 is fright: the start of a creature that sees danger. The same graph serves for “to be afraid” and “to make afraid”. In passage 74 a ruler wishes to 懼 the people with death, and the text answers that they no longer hold death in awe (畏).",
+  "story": "懼 is fright: the start of a creature that sees danger. The same character serves for “to be afraid” and “to make afraid”. In passage 74 a ruler wishes to 懼 the people with death, and the text answers that they no longer hold death in awe (畏).",
   "gap": "English needs two verbs, “fear” and “frighten”. The Chinese has one, and the reader decides who does it to whom."
  },
  "戈": {
@@ -6063,7 +6063,7 @@
     "m": "explained as what is left of 甲, armour"
    }
   ],
-  "story": "The Shuowen records the word under an older graph and explains it as dagger-axe with armour: the full kit of a fighter. The same word named the non-Zhou peoples of the west, whom the Zhou both fought and married. 戎馬 are war horses (46). The Zuo zhuan says that the great affairs of a state are sacrifice and 戎.",
+  "story": "The Shuowen records the word under an older character and explains it as dagger-axe with armour: the full kit of a fighter. The same word named the non-Zhou peoples of the west, whom the Zhou both fought and married. 戎馬 are war horses (46). The Zuo zhuan says that the great affairs of a state are sacrifice and 戎.",
   "gap": "“Military” is an abstract adjective. 戎 is the weapon and the armour themselves."
  },
  "成": {
@@ -6127,7 +6127,7 @@
    }
   ],
   "story": "戰 gave its name to the age in which the Laozi took form: 戰國, the Warring States. The word means a pitched battle, and it is also used for the shaking of a body in fear or cold. The Laozi does not avoid it. Victory in battle is to be observed with the rites of mourning (31). Tenderness, in battle, wins (67). One good at battle is not angry (68). Those who are good at keeping alive, it is said, are not touched by weapons when they go among armies (50).",
-  "gap": "“War” in English is often abstract: a policy or a cause. 戰 is the day of battle itself, with the dagger-axe in the graph and trembling in the word."
+  "gap": "“War” in English is often abstract: a policy or a cause. 戰 is the day of battle itself, with the dagger-axe in the character and trembling in the word."
  },
  "戶": {
   "py": [
@@ -6166,7 +6166,7 @@
     "m": "an axe"
    }
   ],
-  "story": "The Shuowen records 所 as the noise of an axe, and the graph was borrowed for the word “place” and for the particle “that which”. As a noun it is where a thing is or belongs. Laozi 33 says that one who does not lose 其所, the place that is one’s own, lasts. The text does not say what the place is; readers have taken it as one’s role, one’s measure, or the centre of the body.",
+  "story": "The Shuowen records 所 as the noise of an axe, and the character was borrowed for the word “place” and for the particle “that which”. As a noun it is where a thing is or belongs. Laozi 33 says that one who does not lose 其所, the place that is one’s own, lasts. The text does not say what the place is; readers have taken it as one’s role, one’s measure, or the centre of the body.",
   "gap": "English “position” suggests rank among competitors. 所 is only where a thing belongs."
  },
  "手": {
@@ -6550,7 +6550,7 @@
    "to go bad, to decay"
   ],
   "shuowen": "毀也。从攴、貝。敗、賊皆从貝，會意。",
-  "shuowenEn": "To wreck. From 攴 (a hand with a stick) and 貝 (shell). 敗 and 賊 (robber) both have the shell; a joined-meaning graph.",
+  "shuowenEn": "To wreck. From 攴 (a hand with a stick) and 貝 (shell). 敗 and 賊 (robber) both have the shell; a joined-meaning character.",
   "parts": [
    {
     "c": "貝",
@@ -6606,7 +6606,7 @@
    "to dare, to venture",
    "to presume (in polite speech: 不敢, “I would not presume”)"
   ],
-  "story": "敢 is the verb of the step past a limit. In court speech 不敢 was a formula of respect. The Laozi makes it a method: the sage does not dare to act on the ten thousand things (64), does not dare to go ahead of all under heaven (67), and does not dare to be the host in war (69). Passage 73 calls this restraint a form of courage. The early forms of the graph are disputed, so we give no picture for it.",
+  "story": "敢 is the verb of the step past a limit. In court speech 不敢 was a formula of respect. The Laozi makes it a method: the sage does not dare to act on the ten thousand things (64), does not dare to go ahead of all under heaven (67), and does not dare to be the host in war (69). Passage 73 calls this restraint a form of courage. The early forms of the character are disputed, so we give no picture for it.",
   "gap": "“Not daring” sounds like fear in English. 不敢 in the Laozi is the choice of a person who could act and holds back."
  },
  "散": {
@@ -6653,7 +6653,7 @@
     "m": "a hand with a stick; to strike"
    }
   ],
-  "story": "敵 is the one who stands opposite and is equal to you: an enemy, and also a match. 無敵, “without a match”, is the old boast of the strongest. The Laozi uses the word in its two military passages. One good at beating an enemy does not engage (68). In passage 69 the received text warns against 輕敵, taking the enemy lightly; the Mawangdui silk texts are reported to have 無敵, as Wang Bi’s own comment has: no disaster is greater than to have no match. The silk texts are reported to write the word with the graph 適.",
+  "story": "敵 is the one who stands opposite and is equal to you: an enemy, and also a match. 無敵, “without a match”, is the old boast of the strongest. The Laozi uses the word in its two military passages. One good at beating an enemy does not engage (68). In passage 69 the received text warns against 輕敵, taking the enemy lightly; the Mawangdui silk texts are reported to have 無敵, as Wang Bi’s own comment has: no disaster is greater than to have no match. The silk texts are reported to write the word with the character 適.",
   "gap": "“Enemy” in English is a person one hates. 敵 is about balance: the party of equal weight on the other side. To have no 敵 is to have no counterweight."
  },
  "數": {
@@ -6672,12 +6672,12 @@
   "senses": [
    "crossed lines; a pattern; a tattoo",
    "ornament, elegance",
-   "a written graph; writing; a text",
+   "a written character; writing; a text",
    "culture; civil (against 武, martial)"
   ],
   "shuowen": "錯畫也。象交文。",
   "shuowenEn": "Crossed strokes. It pictures a crossing pattern.",
-  "story": "First a pattern of lines, on cloth, on bronze, or on skin; the early graph is commonly explained as a person with a mark on the chest. Then all that is patterned in human life: writing, literature, manners, culture. For Confucians it was the precious inheritance of Zhou. The Laozi uses it rarely and coolly: the three bans, “as 文”, are not enough (19); those who wear 文 and coloured silks while the fields are bare are robbers (53).",
+  "story": "First a pattern of lines, on cloth, on bronze, or on skin; the early character is commonly explained as a person with a mark on the chest. Then all that is patterned in human life: writing, literature, manners, culture. For Confucians it was the precious inheritance of Zhou. The Laozi uses it rarely and coolly: the three bans, “as 文”, are not enough (19); those who wear 文 and coloured silks while the fields are bare are robbers (53).",
   "gap": "English splits it into “pattern”, “text”, “culture”, and “civil”. In Chinese the weave of a cloth and the classics of a people are one word."
  },
  "斯": {
@@ -6709,8 +6709,8 @@
     "m": "an axe"
    }
   ],
-  "story": "At first the word for felling and splitting wood. The sense “new” took over the graph, and firewood was given a grass top: 薪. The Laozi pairs it with 敝, worn out: worn, then new (22).",
-  "gap": "“New” in English is abstract. The graph still has the axe and the white of fresh-cut wood."
+  "story": "At first the word for felling and splitting wood. The sense “new” took over the character, and firewood was given a grass top: 薪. The Laozi pairs it with 敝, worn out: worn, then new (22).",
+  "gap": "“New” in English is abstract. The character still has the axe and the white of fresh-cut wood."
  },
  "斲": {
   "py": [
@@ -6729,7 +6729,7 @@
     "m": "an axe or adze"
    }
   ],
-  "story": "The verb of the carpenter’s heavy work: to square a log with blows. The axe stands at the right of the graph. The Zhuangzi uses the word for the wheelwright who cannot teach his son the feel of the chisel, and for Carpenter Shi’s stroke at the plaster on a nose. In the Laozi it comes only in passage 74.",
+  "story": "The verb of the carpenter’s heavy work: to square a log with blows. The axe stands at the right of the character. The Zhuangzi uses the word for the wheelwright who cannot teach his son the feel of the chisel, and for Carpenter Shi’s stroke at the plaster on a nose. In the Laozi it comes only in passage 74.",
   "gap": "“Carve” is too light. 斲 is done with the whole arm, toward one’s own body."
  },
  "方": {
@@ -6832,7 +6832,7 @@
     "m": "the moon"
    }
   ],
-  "story": "The common graph joins sun and moon. The Shuowen’s main entry is the variant 朙, a moon beside a latticed window: moonlight coming into a room. In the Laozi 明 is the name for the highest kind of seeing, and it is usually quiet: to know the constant is 明 (16, 55); to see the small is 明 (52); one who knows the self is 明 (33); one who shows the self is not (24). Passage 41 says that the bright Dao seems dark.",
+  "story": "The common character joins sun and moon. The Shuowen’s main entry is the variant 朙, a moon beside a latticed window: moonlight coming into a room. In the Laozi 明 is the name for the highest kind of seeing, and it is usually quiet: to know the constant is 明 (16, 55); to see the small is 明 (52); one who knows the self is 明 (33); one who shows the self is not (24). Passage 41 says that the bright Dao seems dark.",
   "gap": "“Enlightenment” carries the European eighteenth century or a Buddhist awakening. 明 is plainer: the ability to see in the light that there is."
  },
  "昏": {
@@ -7126,7 +7126,7 @@
   ],
   "shuowen": "用也。一曰車右騑，所以舟旋。",
   "shuowenEn": "To use. Another sense: the right outside horse of a chariot, by which it is turned.",
-  "story": "A word of many uses: to wear, to yield, to take on. In passage 59, 早服 is read as “to submit early” (to the Dao), as “to take on the task early”, or, with the graph 備 first read on the Guodian slips, as “to be ready early”. Passage 53 uses it of rulers who 服 patterned silks while the fields are bare.",
+  "story": "A word of many uses: to wear, to yield, to take on. In passage 59, 早服 is read as “to submit early” (to the Dao), as “to take on the task early”, or, with the character 備 first read on the Guodian slips, as “to be ready early”. Passage 53 uses it of rulers who 服 patterned silks while the fields are bare.",
   "gap": "No one English verb covers wearing, yielding, and yoking."
  },
  "望": {
@@ -7435,7 +7435,7 @@
     "m": "two hands"
    }
   ],
-  "story": "The graph shows a new-born carried out in a basket. The ancestor of the Zhou house, Lord Millet, was named 棄 because his mother exposed him three times. In the Laozi the word is used with force: throw away cleverness, right conduct, profit (19). And with tenderness: the sage is good at saving people, so no person is 棄; good at saving things, so no thing is 棄 (27).",
+  "story": "The character shows a new-born carried out in a basket. The ancestor of the Zhou house, Lord Millet, was named 棄 because his mother exposed him three times. In the Laozi the word is used with force: throw away cleverness, right conduct, profit (19). And with tenderness: the sage is good at saving people, so no person is 棄; good at saving things, so no thing is 棄 (27).",
   "gap": "“Discard” is light. 棄 is what one does to a thing that was one’s own."
  },
  "棘": {
@@ -7531,7 +7531,7 @@
   "shuowen": "五聲八音緫名。象鼓鞞。木，虡也。",
   "shuowenEn": "The general name for the five notes and the eight kinds of instrument. It pictures drums; 木 is the stand.",
   "story": "Drums on a wooden frame; then music, and the gladness that music is. In the received text of passage 23 the Way is “glad to get” those who are at one with it; the Mawangdui silk texts are reported to lack the word. Passage 35 says that music and fine food make the passing guest stop, while the Way has no taste. Passage 66 says the world is glad to push the sage forward and does not tire of it.",
-  "gap": "English keeps “music” and “joy” apart. One graph, two readings.",
+  "gap": "English keeps “music” and “joy” apart. One character, two readings.",
   "parts": [
    {
     "c": "白",
@@ -7659,7 +7659,7 @@
     "m": "an open mouth, a yawn, breath going out"
    }
   ],
-  "story": "欲 is desire as the body has it: hunger, thirst, lust, the pull toward gain. The Guodian bamboo slips often write the word simply as 谷, the valley graph, without the open mouth. The Laozi is sometimes read as an enemy of desire, and it does praise 無欲, “without wanting”, and 寡欲, “few wants” (19). But it also says the sage 欲不欲, “wants not-wanting” (64), and passage 1 gives 有欲 its own kind of sight. The same graph is a plain helper word, “to wish to, to be about to”, and this makes some lines open to two readings.",
+  "story": "欲 is desire as the body has it: hunger, thirst, lust, the pull toward gain. The Guodian bamboo slips often write the word simply as 谷, the valley character, without the open mouth. The Laozi is sometimes read as an enemy of desire, and it does praise 無欲, “without wanting”, and 寡欲, “few wants” (19). But it also says the sage 欲不欲, “wants not-wanting” (64), and passage 1 gives 有欲 its own kind of sight. The same character is a plain helper word, “to wish to, to be about to”, and this makes some lines open to two readings.",
   "gap": "“Desire” in English leans toward sex and romance, and “expectation” moves the word into the head. 欲 is wider and lower: appetite of every kind, felt in the belly and the breath."
  },
  "欺": {
@@ -7704,7 +7704,7 @@
     "m": "a person with open mouth: breath"
    }
   ],
-  "story": "A breath word. The silk texts are reported to write the simpler 翕, a bird that folds its wings. In passage 36 it is the first of four verbs of decrease, set against 張, to string a bow. In passage 49 the sage in the world is 歙歙, drawn in, and keeps the heart-mind undivided. The county of She in Anhui, written with this graph, gives its name to a famous inkstone.",
+  "story": "A breath word. The silk texts are reported to write the simpler 翕, a bird that folds its wings. In passage 36 it is the first of four verbs of decrease, set against 張, to string a bow. In passage 49 the sage in the world is 歙歙, drawn in, and keeps the heart-mind undivided. The county of She in Anhui, written with this character, gives its name to a famous inkstone.",
   "gap": "“Shrink” and “contract” are words of physics. 歙 happens in a nose and a chest."
  },
  "止": {
@@ -7789,7 +7789,7 @@
     "m": "dagger-axe"
    }
   ],
-  "story": "The Shuowen gives no definition of its own and quotes a king of Chu from the Zuozhuan: to stop the dagger-axe is 武. Xu Shen uses the graph as a model of the joined-meaning class. Modern scholars commonly read the early form as a foot beside a weapon: a man marching to war. The partner word is 文, pattern and civil culture, and Zhou’s two founders are King Wen and King Wu. The Laozi uses 武 once: 善為士者不武, one good at being an officer is not martial (68). The line agrees with the king of Chu: the height of the art is that no weapon moves.",
+  "story": "The Shuowen gives no definition of its own and quotes a king of Chu from the Zuozhuan: to stop the dagger-axe is 武. Xu Shen uses the character as a model of the joined-meaning class. Modern scholars commonly read the early form as a foot beside a weapon: a man marching to war. The partner word is 文, pattern and civil culture, and Zhou’s two founders are King Wen and King Wu. The Laozi uses 武 once: 善為士者不武, one good at being an officer is not martial (68). The line agrees with the king of Chu: the height of the art is that no weapon moves.",
   "gap": "“Martial” and “military” describe a trade. 武 is also a bearing, the look and manner of force, and that is what passage 68 denies to the good officer."
  },
  "歸": {
@@ -7988,7 +7988,7 @@
    "the people, the governed; commoners"
   ],
   "shuowen": "眾萌也。从古文之象。",
-  "shuowenEn": "The multitude of sprouts. It follows the shape of the ancient graph.",
+  "shuowenEn": "The multitude of sprouts. It follows the shape of the ancient character.",
   "parts": [
    {
     "c": "民",
@@ -8022,7 +8022,7 @@
     "m": "rice, grain"
    }
   ],
-  "story": "The simple graph 气 is commonly explained as thin lines of vapor. The Shuowen says that the fuller graph with 米 was first a word for provisions; it later took over the sense of breath. From breath the word grew to cover weather, vitality, and the stuff of which everything is made. The Laozi names it three times. Gather the 氣 to full softness (10). The ten thousand things carry yin and hold yang, and the surging 氣 makes their harmony (42). When the heart drives the 氣, that is called forcing (55).",
+  "story": "The simple character 气 is commonly explained as thin lines of vapor. The Shuowen says that the fuller character with 米 was first a word for provisions; it later took over the sense of breath. From breath the word grew to cover weather, vitality, and the stuff of which everything is made. The Laozi names it three times. Gather the 氣 to full softness (10). The ten thousand things carry yin and hold yang, and the surging 氣 makes their harmony (42). When the heart drives the 氣, that is called forcing (55).",
   "gap": "“Energy” is physics and “spirit” is religion. 氣 is neither: it is material, it moves, and it can be felt as breath."
  },
  "水": {
@@ -8070,7 +8070,7 @@
     "m": "the sound part"
    }
   ],
-  "story": "The word for a river that has left its bed, as in the compound 氾濫. Mencius uses it for the chaos that the sage-king Yu ended when he cut channels. The Laozi uses it once, for the great Dao itself: 大道氾兮, the great Dao floods and can go left and right. The same sound and a like graph, 泛, mean “to float, to drift”, so the line also suggests a boat with no mooring.",
+  "story": "The word for a river that has left its bed, as in the compound 氾濫. Mencius uses it for the chaos that the sage-king Yu ended when he cut channels. The Laozi uses it once, for the great Dao itself: 大道氾兮, the great Dao floods and can go left and right. The same sound and a like character, 泛, mean “to float, to drift”, so the line also suggests a boat with no mooring.",
   "gap": "“All-pervading” and “reaches everywhere” keep the idea and remove the water. A flood is not a calm presence. It moves and it does not ask."
  },
  "求": {
@@ -8149,7 +8149,7 @@
     "m": "the middle, the center"
    }
   ],
-  "story": "Two words meet in this graph. One is the Shuowen’s: water that wells up and rocks. The other is “hollow”, properly written 盅, a dish with 中 above it; the Shuowen defines 盅 as “the emptiness of a vessel” and quotes Laozi 4 as its example. Scribes used 沖 for both. The Laozi uses the word three times: Dao is 沖 and use does not fill it (4); the breaths 沖 and make harmony (42); great fullness seems 沖 (45). In later Chinese the word means mild and modest, as in 沖和 and 謙沖, and also to dash against. So the character holds a waiting bowl and moving water together.",
+  "story": "Two words meet in this character. One is the Shuowen’s: water that wells up and rocks. The other is “hollow”, properly written 盅, a dish with 中 above it; the Shuowen defines 盅 as “the emptiness of a vessel” and quotes Laozi 4 as its example. Scribes used 沖 for both. The Laozi uses the word three times: Dao is 沖 and use does not fill it (4); the breaths 沖 and make harmony (42); great fullness seems 沖 (45). In later Chinese the word means mild and modest, as in 沖和 and 謙沖, and also to dash against. So the character holds a waiting bowl and moving water together.",
   "gap": "English “empty” is a lack, and often a sad one: an empty house, an empty life. 沖 is emptiness as capacity, with a hint of movement in it. No English adjective does both."
  },
  "沸": {
@@ -8221,7 +8221,7 @@
     "m": "to go away; to remove"
    }
   ],
-  "story": "The old full graph is 灋: water, the one-horned beast 廌 that butts the guilty, and 去, to remove. The Shuowen explains it as punishment that is level like water. The short form 法 dropped the beast. In the Warring States period 法 became the keyword of the Legalists: written statute enforced by reward and punishment. Laozi 25 uses it as a verb of learning: a person takes the earth as model, earth takes heaven, heaven takes Dao, and Dao takes what is so of itself. Chinese Buddhists later chose 法 to translate dharma.",
+  "story": "The old full character is 灋: water, the one-horned beast 廌 that butts the guilty, and 去, to remove. The Shuowen explains it as punishment that is level like water. The short form 法 dropped the beast. In the Warring States period 法 became the keyword of the Legalists: written statute enforced by reward and punishment. Laozi 25 uses it as a verb of learning: a person takes the earth as model, earth takes heaven, heaven takes Dao, and Dao takes what is so of itself. Chinese Buddhists later chose 法 to translate dharma.",
   "gap": "“Law” implies a lawgiver and a penalty. 法 in Laozi 25 has neither; it is the pattern that a learner copies from a master."
  },
  "泣": {
@@ -8247,7 +8247,7 @@
     "m": "sound part; by itself: to stand"
    }
   ],
-  "story": "Chinese separates weeping by sound: 哭 is the loud wail of the mourning rite, and 泣 is quiet tears. Laozi 31 says that when many people have been killed one should 泣 for them with grief and sorrow. The Mawangdui silk texts are reported to have a graph read as 莅, “to attend, to stand over”, in this place, and many scholars think that it is the older word.",
+  "story": "Chinese separates weeping by sound: 哭 is the loud wail of the mourning rite, and 泣 is quiet tears. Laozi 31 says that when many people have been killed one should 泣 for them with grief and sorrow. The Mawangdui silk texts are reported to have a character read as 莅, “to attend, to stand over”, in this place, and many scholars think that it is the older word.",
   "gap": "English “weep” does not say whether there is sound. 泣 says that there is none."
  },
  "注": {
@@ -8279,7 +8279,7 @@
     "m": "half; also the sound"
    }
   ],
-  "story": "The Shuowen knows 泮 as a building: the school and archery hall of a feudal lord, with a pool around half of it. The Book of Songs also uses the graph for a word of the same sound: river ice that breaks up in spring. Passage 64 has that second word: the brittle is easy to 泮. The Mawangdui silk texts are reported to write 判, “to split”, and both graphs hold 半, “half”. So the image may be thin ice, which a small force parts while it is thin.",
+  "story": "The Shuowen knows 泮 as a building: the school and archery hall of a feudal lord, with a pool around half of it. The Book of Songs also uses the character for a word of the same sound: river ice that breaks up in spring. Passage 64 has that second word: the brittle is easy to 泮. The Mawangdui silk texts are reported to write 判, “to split”, and both characters hold 半, “half”. So the image may be thin ice, which a small force parts while it is thin.",
   "gap": "English must choose “melt”, “break”, or “split”. The word covers the way ice goes: it weakens, cracks, and separates in one event."
  },
  "泰": {
@@ -8410,7 +8410,7 @@
    "to experience; to be involved in"
   ],
   "shuowen": "徒行厲水也。从沝从步。",
-  "shuowenEn": "To cross water on foot. From doubled water and 步 (a step). (The Shuowen enters the word under the fuller graph 𣻣.)",
+  "shuowenEn": "To cross water on foot. From doubled water and 步 (a step). (The Shuowen enters the word under the fuller character 𣻣.)",
   "parts": [
    {
     "c": "氵",
@@ -8502,7 +8502,7 @@
     "m": "the old picture: water between two banks"
    }
   ],
-  "story": "A 淵 is the deep, slow place in a river where the water circles and the largest fish stay. It is the home of dragons in early stories. The Laozi likes the word: Dao is a 淵 (4); the heart of the good is 淵 (8); fish must not leave it (36). The Zhuangzi lists nine kinds of 淵 in a story about a shaman who cannot read a master’s face. Confucius’s favorite student was called Yan Yuan, 顏淵. Under the Tang, writers had to avoid the graph, because it was the personal name of the dynasty’s founder, Li Yuan, and many copies wrote 泉 or 深 in its place.",
+  "story": "A 淵 is the deep, slow place in a river where the water circles and the largest fish stay. It is the home of dragons in early stories. The Laozi likes the word: Dao is a 淵 (4); the heart of the good is 淵 (8); fish must not leave it (36). The Zhuangzi lists nine kinds of 淵 in a story about a shaman who cannot read a master’s face. Confucius’s favorite student was called Yan Yuan, 顏淵. Under the Tang, writers had to avoid the character, because it was the personal name of the dynasty’s founder, Li Yuan, and many copies wrote 泉 or 深 in its place.",
   "gap": "“Abyss” brings in dread and the bottomless pit of Western scripture. 淵 is deep but friendly: depth that shelters and feeds."
  },
  "混": {
@@ -8813,14 +8813,14 @@
   "parts": [
    {
     "c": "亨",
-    "m": "from the old graph for an offering of cooked food"
+    "m": "from the old character for an offering of cooked food"
    },
    {
     "c": "灬",
     "m": "fire"
    }
   ],
-  "story": "Fire under 亨. The Shuowen has only the older graph 亯, an offering of cooked food to the spirits; from it came 享 (to offer, to enjoy), 亨 (to go through, success), and 烹. Cooking was an image of rule: the cauldron was the emblem of a dynasty, and a great minister “blended the cauldron”. Passage 60 picks the most delicate dish: a small fish.",
+  "story": "Fire under 亨. The Shuowen has only the older character 亯, an offering of cooked food to the spirits; from it came 享 (to offer, to enjoy), 亨 (to go through, success), and 烹. Cooking was an image of rule: the cauldron was the emblem of a dynasty, and a great minister “blended the cauldron”. Passage 60 picks the most delicate dish: a small fish.",
   "gap": "“Cook” is homely in English. 烹 has the altar and the execution ground behind it."
  },
  "焉": {
@@ -8844,7 +8844,7 @@
   ],
   "shuowen": "亡也。从亡無聲。",
   "shuowenEn": "To be without. From 亡 (to be gone), with 無 for the sound.",
-  "story": "The early graph is widely explained as a dancer with tassels or plumes in the hands; it was the first way to write “dance”, now 舞. It was borrowed for a word of like sound, “to not have”. The oldest Laozi manuscripts mostly write that word as 亡, “gone, lost”, or as 无, a short form that the Shuowen lists as a 奇字, a variant graph of the ancient script. In the Laozi, 無 is the partner of 有. The two give birth to each other (2); the uses of a wheel, a pot, and a room are at their 無 (11); things are born from 有 and 有 from 無 (40). It is also the first half of 無為, not-forcing, and 無名, nameless.",
+  "story": "The early character is widely explained as a dancer with tassels or plumes in the hands; it was the first way to write “dance”, now 舞. It was borrowed for a word of like sound, “to not have”. The oldest Laozi manuscripts mostly write that word as 亡, “gone, lost”, or as 无, a short form that the Shuowen lists as a 奇字, a variant character of the ancient script. In the Laozi, 無 is the partner of 有. The two give birth to each other (2); the uses of a wheel, a pot, and a room are at their 無 (11); things are born from 有 and 有 from 無 (40). It is also the first half of 無為, not-forcing, and 無名, nameless.",
   "gap": "“Nothingness” and “Non-being” make it an abstract noun, and the Western tradition tends to hear a void to fear. 無 is first a verb, “have not”. In passage 11 it has an owner: 其無, “its nothing”."
  },
  "然": {
@@ -8870,7 +8870,7 @@
     "m": "fire"
    }
   ],
-  "story": "Dog meat over a fire: the graph wrote “to burn, to roast”. It was borrowed for the spoken word “so”, and the first sense was later written 燃, with a second fire. In the Laozi it is half of 自然, “so of itself”: the people say “we are so of ourselves” (17); sparse words are so of themselves (23); the Way models itself on what is so of itself (25); no one commands it, it is always so of itself (51); the sage helps the self-so of the ten thousand things and does not dare to act (64).",
+  "story": "Dog meat over a fire: the character wrote “to burn, to roast”. It was borrowed for the spoken word “so”, and the first sense was later written 燃, with a second fire. In the Laozi it is half of 自然, “so of itself”: the people say “we are so of ourselves” (17); sparse words are so of themselves (23); the Way models itself on what is so of itself (25); no one commands it, it is always so of itself (51); the sage helps the self-so of the ten thousand things and does not dare to act (64).",
   "gap": "English needs “so”, “thus”, “yes”, “natural”, and “-ly” for the uses of this one word."
  },
  "照": {
@@ -8929,7 +8929,7 @@
     "m": "the forked tail (not fire)"
    }
   ],
-  "story": "燕 is a whole swallow, drawn from above: beak, body, wings, tail. The Shuowen calls it the dark bird, the bird that in an old ode brings the Shang royal house into being. The graph was borrowed for a word of ease and private leisure, so 燕居 and 燕處 mean “to be at home, off duty”. It is also the name of the state of Yan, in the far north-east of the Warring States world. In Laozi 26 the traveller 燕處: rests at ease, with splendid towers close by.",
+  "story": "燕 is a whole swallow, drawn from above: beak, body, wings, tail. The Shuowen calls it the dark bird, the bird that in an old ode brings the Shang royal house into being. The character was borrowed for a word of ease and private leisure, so 燕居 and 燕處 mean “to be at home, off duty”. It is also the name of the state of Yan, in the far north-east of the Warring States world. In Laozi 26 the traveller 燕處: rests at ease, with splendid towers close by.",
   "gap": "“At ease” loses the bird, and “swallow” loses the sense. The Chinese reader sees one while reading the other."
  },
  "營": {
@@ -9222,7 +9222,7 @@
     "m": "gives the sound"
    }
   ],
-  "story": "The Shuowen starts from a tame dog: an animal with which one is at ease. Among people the word turns bad: familiarity that has lost respect. In passage 72 the received text says 無狎其所居, do not 狎 the place where they dwell. Read as written, the ruler is told not to treat the people’s homes with contempt. Most editors follow the Heshang Gong text and read 狹, narrow: do not cramp their dwellings. The Mawangdui silk texts are reported to have 閘, a gate that shuts. The three graphs are near in sound.",
+  "story": "The Shuowen starts from a tame dog: an animal with which one is at ease. Among people the word turns bad: familiarity that has lost respect. In passage 72 the received text says 無狎其所居, do not 狎 the place where they dwell. Read as written, the ruler is told not to treat the people’s homes with contempt. Most editors follow the Heshang Gong text and read 狹, narrow: do not cramp their dwellings. The Mawangdui silk texts are reported to have 閘, a gate that shuts. The three characters are near in sound.",
   "gap": "“Familiar” is warm in English. 狎 is the cold side of it: the ease of one who walks in without knocking."
  },
  "狗": {
@@ -9338,7 +9338,7 @@
    "later: profound, abstruse"
   ],
   "shuowen": "幽遠也。黑而有赤色者為玄。象幽而入覆之也。",
-  "shuowenEn": "Hidden and far. Black with red in it is called 玄. The graph shows a hidden thing with a cover over it.",
+  "shuowenEn": "Hidden and far. Black with red in it is called 玄. The character shows a hidden thing with a cover over it.",
   "parts": [
    {
     "c": "亠",
@@ -9349,7 +9349,7 @@
     "m": "a fine thread, a small twist of silk"
    }
   ],
-  "story": "玄 is first a color word: the black that still has red in it, as cloth has after many dips in the dye vat, or the sky has before dawn. Many scholars connect the lower part with a twist of silk thread, which fits the dye-house. From the color came the sense of depth: a thing so far in that light does not come back from it. The Laozi uses the word for the common source of having and not-having (passage 1), for the “dark female” (6), and for “dark virtue-power”, 玄德 (10, 51, 65). In the third century CE it named a movement, 玄學, “dark learning”. Qing dynasty printers had to avoid the graph, because it was in the personal name of the Kangxi emperor; they wrote 元 in its place.",
+  "story": "玄 is first a color word: the black that still has red in it, as cloth has after many dips in the dye vat, or the sky has before dawn. Many scholars connect the lower part with a twist of silk thread, which fits the dye-house. From the color came the sense of depth: a thing so far in that light does not come back from it. The Laozi uses the word for the common source of having and not-having (passage 1), for the “dark female” (6), and for “dark virtue-power”, 玄德 (10, 51, 65). In the third century CE it named a movement, 玄學, “dark learning”. Qing dynasty printers had to avoid the character, because it was in the personal name of the Kangxi emperor; they wrote 元 in its place.",
   "gap": "English gives “mystery”, “profound”, or “dark”. The first two lose the color. The third brings in the Western link between darkness and evil or ignorance, which the Chinese word does not have. 玄 is the dark of depth and of the womb."
  },
  "玉": {
@@ -9374,7 +9374,7 @@
    }
   ],
   "shuowen": "石之美。有五德：潤澤以溫，仁之方也；䚡理自外，可以知中，義之方也；其聲舒揚，尃以遠聞，智之方也；不橈而折，勇之方也；銳廉而不技，絜之方也。象三玉之連，丨其貫也。",
-  "shuowenEn": "The beauty among stones. It has five virtues. It is glossy and warm: the way of humaneness. Its veins show from outside what is within: the way of rightness. Its sound is clear and carries far: the way of wisdom. It breaks and does not bend: the way of courage. Its edges are sharp and do not wound: the way of purity. The graph shows three pieces of jade joined; the vertical is the cord through them."
+  "shuowenEn": "The beauty among stones. It has five virtues. It is glossy and warm: the way of humaneness. Its veins show from outside what is within: the way of rightness. Its sound is clear and carries far: the way of wisdom. It breaks and does not bend: the way of courage. Its edges are sharp and do not wound: the way of purity. The character shows three pieces of jade joined; the vertical is the cord through them."
  },
  "王": {
   "py": [
@@ -9388,7 +9388,7 @@
    "(wàng) to rule as king; to be king over",
    "the greatest of its kind"
   ],
-  "story": "Han scholars explained 王 by a pun on 往, “to go toward”: a king is the one to whom all under heaven go. They also read the graph as three lines, for heaven, earth, and humankind, joined by one vertical; modern scholars commonly see in the oldest forms the blade of a great axe, a sign of the power to punish. In the Laozi the king is one of the four great things (25), and lords and kings are told to hold to the Dao (32, 37). Passage 66 builds on the pun: the River and the sea are kings of the hundred valleys because all waters go down to them. Passage 78 says who is fit for the title: the one who takes on the state’s dirt.",
+  "story": "Han scholars explained 王 by a pun on 往, “to go toward”: a king is the one to whom all under heaven go. They also read the character as three lines, for heaven, earth, and humankind, joined by one vertical; modern scholars commonly see in the oldest forms the blade of a great axe, a sign of the power to punish. In the Laozi the king is one of the four great things (25), and lords and kings are told to hold to the Dao (32, 37). Passage 66 builds on the pun: the River and the sea are kings of the hundred valleys because all waters go down to them. Passage 78 says who is fit for the title: the one who takes on the state’s dirt.",
   "gap": "“King” in English is rank by blood or conquest. The Chinese pun gives another test: do people come? A king to whom no one goes is only a man in a hall.",
   "shuowen": "天下所歸往也。董仲舒曰：「古之造文者，三畫而連其中謂之王。三者，天、地、人也，而參通之者，王也。」孔子曰：「一貫三爲王。」",
   "shuowenEn": "The one to whom all under heaven turn and go. Dong Zhongshu said: “Those who made the script in antiquity drew three strokes and joined them through the middle, and called it 王. The three are heaven, earth, and humankind; the one who passes through and joins them is the king.” Confucius said: “One that runs through three is 王.”"
@@ -9453,7 +9453,7 @@
     "m": "a thing held in the mouth"
    }
   ],
-  "story": "A mouth with something in it that one does not want to swallow yet: the graph of sweetness. In the scheme of five flavours, sweet is the middle one and goes with earth. The Laozi uses the word twice. Heaven and earth join and send down 甘露, sweet dew, which falls evenly with no command (32). And in the small state of passage 80 the people “find their food sweet”, where 甘 is a verb: they are content with it.",
+  "story": "A mouth with something in it that one does not want to swallow yet: the character of sweetness. In the scheme of five flavours, sweet is the middle one and goes with earth. The Laozi uses the word twice. Heaven and earth join and send down 甘露, sweet dew, which falls evenly with no command (32). And in the small state of passage 80 the people “find their food sweet”, where 甘 is a verb: they are content with it.",
   "gap": "English “sweet” means sugar. 甘 is any taste that is good and mild, the opposite of bitter; fresh water can be 甘."
  },
  "甚": {
@@ -9479,7 +9479,7 @@
     "m": "a mate, a match"
    }
   ],
-  "story": "In the Shuowen’s reading the graph joins sweetness and a partner: as much delight as one can have. In common use it is only the adverb “very”. The Laozi uses it with care: “much love means great expense” (44) uses it, the court that is “very swept” while the fields are “very weedy” (53) uses it, and in passage 29 it stands by itself as the first thing the sage puts away: the extreme.",
+  "story": "In the Shuowen’s reading the character joins sweetness and a partner: as much delight as one can have. In common use it is only the adverb “very”. The Laozi uses it with care: “much love means great expense” (44) uses it, the court that is “very swept” while the fields are “very weedy” (53) uses it, and in passage 29 it stands by itself as the first thing the sage puts away: the extreme.",
   "gap": "“Extreme” in English is neutral. 甚 keeps a taste of sweetness: it is too much of something one likes."
  },
  "生": {
@@ -9511,7 +9511,7 @@
   ],
   "shuowen": "可施行也。从卜从中。衞宏說。",
   "shuowenEn": "That which can be put into practice. From 卜 (to divine) and 中 (to hit the mark). This is the explanation of Wei Hong.",
-  "story": "The Shuowen reads the graph as a divination that hits the mark, and so a thing that can be acted on. Modern scholars doubt this, and the early form is disputed; a common view sees a bucket or other container. We give no picture. In the Laozi, 用 is a key word and nearly always a surprise: the use of Dao does not run out (4, 6, 35, 45); weakness is the 用 of Dao (40); the 用 of a wheel, a pot, and a room is at their emptiness (11). Later Chinese philosophy made a pair of 體 and 用, “body” and “function”: that which a thing is, and that which it does.",
+  "story": "The Shuowen reads the character as a divination that hits the mark, and so a thing that can be acted on. Modern scholars doubt this, and the early form is disputed; a common view sees a bucket or other container. We give no picture. In the Laozi, 用 is a key word and nearly always a surprise: the use of Dao does not run out (4, 6, 35, 45); weakness is the 用 of Dao (40); the 用 of a wheel, a pot, and a room is at their emptiness (11). Later Chinese philosophy made a pair of 體 and 用, “body” and “function”: that which a thing is, and that which it does.",
   "gap": "“Use” in English sounds like usefulness to an owner, and “utility” is an economist’s word. 用 is the working of a thing, its function in act. That is the reason passage 11 can set it against 利, gain."
  },
  "甫": {
@@ -9804,8 +9804,8 @@
     "m": "a food dish"
    }
   ],
-  "story": "The Shuowen reads the graph as a scene: a mouth waters over a dish that belongs to another. In classical usage 盜 is the one who takes by stealth, and 賊 is the one who harms or kills; modern usage has moved the words. The Laozi names thieves four times, and each time it looks up, at the cause. Do not prize rare goods, and the people do not become 盜 (3). Cut off skill and profit, and there are no 盜 (19). Rulers with fine clothes and full stores while the fields lie waste are called 盜夸, “robber chiefs” (53). The more that laws are displayed, the more 盜 there are (57).",
-  "gap": "“Thief” names a type of person and a crime. The graph names a condition: wanting in front of a shown dish. The Laozi’s use is closer to the graph than to the law."
+  "story": "The Shuowen reads the character as a scene: a mouth waters over a dish that belongs to another. In classical usage 盜 is the one who takes by stealth, and 賊 is the one who harms or kills; modern usage has moved the words. The Laozi names thieves four times, and each time it looks up, at the cause. Do not prize rare goods, and the people do not become 盜 (3). Cut off skill and profit, and there are no 盜 (19). Rulers with fine clothes and full stores while the fields lie waste are called 盜夸, “robber chiefs” (53). The more that laws are displayed, the more 盜 there are (57).",
+  "gap": "“Thief” names a type of person and a crime. The character names a condition: wanting in front of a shown dish. The Laozi’s use is closer to the character than to the law."
  },
  "盡": {
   "py": [
@@ -9880,7 +9880,7 @@
   "story": "A word that the Confucian classics do not use and that the Laozi and the Zhuangzi made central. It is said of things and persons, not of statements. The essence in the dark is very 真 (21); the 真 of substance seems to change (41); cultivate it in the self, and one’s De is 真 (54).",
   "gap": "“True” belongs to sentences in English. 真 belongs to gold, pearls, and people.",
   "shuowen": "僊人變形而登天也。从𠤎从目从乚；八，所乘載也。",
-  "shuowenEn": "An immortal who changes form and rises to heaven. From 𠤎 (to transform), 目 (eye), and 乚 (hidden); 八 is that on which one rides. (The Shuowen enters the word under the graph 眞.)"
+  "shuowenEn": "An immortal who changes form and rises to heaven. From 𠤎 (to transform), 目 (eye), and 乚 (hidden); 八 is that on which one rides. (The Shuowen enters the word under the character 眞.)"
  },
  "眾": {
   "py": [
@@ -9919,7 +9919,7 @@
    }
   ],
   "story": "A spear-shaft, held upright; and so, of a person, stiff with self-regard. Not self-proud, so lasting (22); the self-proud does not last (24); achieve the result and do not be proud (30).",
-  "gap": "One graph for “proud” and “to pity”. English has no word that looks down in both ways."
+  "gap": "One character for “proud” and “to pity”. English has no word that looks down in both ways."
  },
  "矣": {
   "py": [
@@ -10176,7 +10176,7 @@
    },
    {
     "c": "豊",
-    "m": "a ritual vessel with its offering; the older graph of the word"
+    "m": "a ritual vessel with its offering; the older character of the word"
    }
   ],
   "story": "An altar and a vessel. Of the right side alone the Shuowen says 行禮之器也, “a vessel for the performance of rites”. From sacrifice the word spread to all formal conduct, and for the Confucians it was the frame of a good society. The Laozi names it in two passages. In passage 31 the victory in war is to be marked with the rites of a funeral. In passage 38 it is the last step down: after the Dao, de, humaneness, and rightness are lost, ritual is left, the thin part of loyalty and trust.",
@@ -10457,7 +10457,7 @@
     "m": "a person who bends; young, supple"
    }
   ],
-  "story": "Bamboo over a bent figure, and no certain explanation: the Shuowen entry was lost early, and old sources give more than one form of the graph. A remembered picture is bamboo that bends in the wind like a person who laughs. The Laozi has the word in one passage only, three times in two lines: the lowest scholar hears the Dao and laughs loudly at it, and if he did not laugh, it would not be enough to be the Dao (41).",
+  "story": "Bamboo over a bent figure, and no certain explanation: the Shuowen entry was lost early, and old sources give more than one form of the character. A remembered picture is bamboo that bends in the wind like a person who laughs. The Laozi has the word in one passage only, three times in two lines: the lowest scholar hears the Dao and laughs loudly at it, and if he did not laugh, it would not be enough to be the Dao (41).",
   "gap": "English separates “laugh” and “smile”. 笑 is both, and with an object it is “to laugh at”."
  },
  "等": {
@@ -10595,7 +10595,7 @@
     "m": "two hands (廾)"
    }
   ],
-  "story": "The Shuowen lists the word under an older graph, defines it as “to throw out, to clear away”, and explains it as two hands that push a pan of waste. From sweeping out came the thing swept, and then its use on the land. In the Laozi it occurs once (46): in a world that has the Way, fast horses are sent back 以糞, to dung the fields.",
+  "story": "The Shuowen lists the word under an older character, defines it as “to throw out, to clear away”, and explains it as two hands that push a pan of waste. From sweeping out came the thing swept, and then its use on the land. In the Laozi it occurs once (46): in a world that has the Way, fast horses are sent back 以糞, to dung the fields.",
   "gap": "English has polite words (“fertilize”, “manure”) and rude ones. 糞 is neither; it is the plain farm word, and the passage uses it as the sign of peace."
  },
  "紀": {
@@ -10802,7 +10802,7 @@
    "the net of law; a system that holds"
   ],
   "shuowen": "庖犧所結繩以漁。从冂，下象网交文。",
-  "shuowenEn": "What Paoxi knotted from cord, to fish with. From 冂 (a cover); the lower part shows the crossed pattern of a net. (The Shuowen enters the word under the older graph 网.)",
+  "shuowenEn": "What Paoxi knotted from cord, to fish with. From 冂 (a cover); the lower part shows the crossed pattern of a net. (The Shuowen enters the word under the older character 网.)",
   "parts": [
    {
     "c": "糸",
@@ -10876,7 +10876,7 @@
     "m": "sound; the same sound-part as in 戰 (battle) and 彈 (to pluck, to shoot)"
    }
   ],
-  "story": "A rare word. In passage 73 it describes the way of heaven: 繟然而善謀, slack, and good at planning. Other old editions write 坦 (level, at ease) or 默 (silent) in its place, and a modern collated edition of the Mawangdui silk texts has a loan graph. The picture is of the body: a sash that hangs loose at the waist.",
+  "story": "A rare word. In passage 73 it describes the way of heaven: 繟然而善謀, slack, and good at planning. Other old editions write 坦 (level, at ease) or 默 (silent) in its place, and a modern collated edition of the Mawangdui silk texts has a loan character. The picture is of the body: a sash that hangs loose at the waist.",
   "gap": "“Relaxed” is close, but it is a state of mind. 繟 is a thing you can see: a cord with no pull on it."
  },
  "繩": {
@@ -11303,7 +11303,7 @@
     "m": "flesh (肉 as a component)"
    }
   ],
-  "story": "肖 is family likeness: the child’s face that repeats the parent’s. 不肖, “not like”, was the common word for a son who fell short of his father, and then for any worthless person; it is the opposite of 賢, worthy. Passage 67 plays on both senses. The world says the speaker’s Dao is great and 不肖: like nothing, and so no good. The speaker answers that only the great is unlike; a thing that resembled another would long ago have been small. The sound part of the graph is 小, small. The modern word for a portrait is 肖像.",
+  "story": "肖 is family likeness: the child’s face that repeats the parent’s. 不肖, “not like”, was the common word for a son who fell short of his father, and then for any worthless person; it is the opposite of 賢, worthy. Passage 67 plays on both senses. The world says the speaker’s Dao is great and 不肖: like nothing, and so no good. The speaker answers that only the great is unlike; a thing that resembled another would long ago have been small. The sound part of the character is 小, small. The modern word for a portrait is 肖像.",
   "gap": "“Unlike” loses the insult and “unworthy” loses the likeness. The pun needs a family: a child of whom people say, “who does it take after?”"
  },
  "肬": {
@@ -11393,11 +11393,11 @@
    "crisp (of food); fragile"
   ],
   "shuowen": "小耎易斷也。从肉，从絕省。",
-  "shuowenEn": "Small, soft, and easily broken. From 肉 (flesh) and a reduced 絕 (to cut off). (The Shuowen writes the graph 脃.)",
+  "shuowenEn": "Small, soft, and easily broken. From 肉 (flesh) and a reduced 絕 (to cut off). (The Shuowen writes the character 脃.)",
   "parts": [
    {
     "c": "月",
-    "m": "flesh (the form of 肉 at the left of a graph)"
+    "m": "flesh (the form of 肉 at the left of a character)"
    },
    {
     "c": "危",
@@ -11715,7 +11715,7 @@
   ],
   "shuowen": "蟲也。从厹，象形。",
   "shuowenEn": "A creature (an insect). From 厹; a picture.",
-  "story": "The early graph is a scorpion, with claws and a tail; it was borrowed for the number of like sound. Ten thousand was the largest common unit of counting, so 萬物, “the ten thousand things”, means all that exists, each thing counted singly. The Laozi uses 萬物 in more than twenty passages. They are born, fed, and come home; they are never added up into a “universe”. The short form 万 is old.",
+  "story": "The early character is a scorpion, with claws and a tail; it was borrowed for the number of like sound. Ten thousand was the largest common unit of counting, so 萬物, “the ten thousand things”, means all that exists, each thing counted singly. The Laozi uses 萬物 in more than twenty passages. They are born, fed, and come home; they are never added up into a “universe”. The short form 万 is old.",
   "gap": "“The universe”, “all things”, “creation” make one collective. 萬物 is a crowd."
  },
  "蒞": {
@@ -11982,7 +11982,7 @@
    "Wei: a state of the central plain"
   ],
   "shuowen": "宿衞也。从韋、帀，从行。行，列衞也。",
-  "shuowenEn": "The night guard. From 韋 and 帀 (to go round), and from 行; 行 is the ranks of the guards. (The Shuowen writes the graph 衞.)",
+  "shuowenEn": "The night guard. From 韋 and 帀 (to go round), and from 行; 行 is the ranks of the guards. (The Shuowen writes the character 衞.)",
   "parts": [
    {
     "c": "行",
@@ -12069,7 +12069,7 @@
   "parts": [
    {
     "c": "衤",
-    "m": "clothing (the form of 衣 at the left of a graph)"
+    "m": "clothing (the form of 衣 at the left of a character)"
    },
    {
     "c": "甫",
@@ -12167,7 +12167,7 @@
     "m": "a person’s legs"
    }
   ],
-  "story": "An eye on legs: a person who sees. The same graph, read xiàn, is the reverse: to be seen, to show. The Laozi uses both. Look for it and it is not seen (14). Show plainness and hold the uncarved wood (19). One who does not show the self is bright; one who shows the self is not bright (22, 24). Without looking out of the window, see heaven’s way (47). The sage knows the self and does not show the self (72), and does not wish to show worth (77).",
+  "story": "An eye on legs: a person who sees. The same character, read xiàn, is the reverse: to be seen, to show. The Laozi uses both. Look for it and it is not seen (14). Show plainness and hold the uncarved wood (19). One who does not show the self is bright; one who shows the self is not bright (22, 24). Without looking out of the window, see heaven’s way (47). The sage knows the self and does not show the self (72), and does not wish to show worth (77).",
   "gap": "English keeps “see” and “show” apart. In 見 they are one act with two directions, so that display is a kind of looking at oneself."
  },
  "視": {
@@ -12600,7 +12600,7 @@
    "a sign in the sky; a hexagram figure"
   ],
   "shuowen": "長鼻牙，南越大獸，三秊一乳，象耳牙四足之形。",
-  "shuowenEn": "Long nose and tusks; a great beast of the far south; it bears young once in three years. The graph shows ears, tusks, and four feet.",
+  "shuowenEn": "Long nose and tusks; a great beast of the far south; it bears young once in three years. The character shows ears, tusks, and four feet.",
   "parts": [
    {
     "c": "象",
@@ -12636,7 +12636,7 @@
     "m": "elephant; image"
    }
   ],
-  "story": "For the Shuowen this is an animal name: a great elephant that harms nothing. Old tradition made the elephant a careful beast that tests the ground, and so explained the sense “to hesitate”. Modern linguists treat 猶豫 as one two-syllable word and the animals as borrowed graphs. In passage 15 it opens the portrait of the old masters: wary, as if crossing a river in winter.",
+  "story": "For the Shuowen this is an animal name: a great elephant that harms nothing. Old tradition made the elephant a careful beast that tests the ground, and so explained the sense “to hesitate”. Modern linguists treat 猶豫 as one two-syllable word and the animals as borrowed characters. In passage 15 it opens the portrait of the old masters: wary, as if crossing a river in winter.",
   "gap": "English “hesitant” or “irresolute” sounds like a weakness of will. 豫 also means prepared and at ease: the care of a large body that has no need to hurry."
  },
  "貌": {
@@ -13117,7 +13117,7 @@
     "m": "a foot"
    }
   ],
-  "story": "足 is the foot with something of the leg above it. The same graph writes “enough”, commonly explained as a loan for a like-sounding word. 知足, “to know enough”, is one of the Laozi’s fixed phrases: the one who knows it is rich (33), is not disgraced (44), and has the lasting kind of enough (46). It makes a pair with 知止, to know when to stop, whose 止 is also a foot. Passage 64 has the literal sense: a journey of a thousand li starts under the foot.",
+  "story": "足 is the foot with something of the leg above it. The same character writes “enough”, commonly explained as a loan for a like-sounding word. 知足, “to know enough”, is one of the Laozi’s fixed phrases: the one who knows it is rich (33), is not disgraced (44), and has the lasting kind of enough (46). It makes a pair with 知止, to know when to stop, whose 止 is also a foot. Passage 64 has the literal sense: a journey of a thousand li starts under the foot.",
   "gap": "“Contentment” is a mood. 知足 is a piece of knowledge: knowing the amount."
  },
  "跨": {
@@ -13143,7 +13143,7 @@
     "m": "sound part; by itself: extravagant, to brag"
    }
   ],
-  "story": "跨 is the long step that takes a person over a ditch or onto a horse. Its sound part, 夸, means “extravagant” in the Shuowen and later “to brag”, so the graph happens to set a foot beside a boast. Laozi 24 says that one who strides, or straddles, does not walk: the legs have taken all the ground they can and the next step will not come. The line is reported missing from the Mawangdui silk texts.",
+  "story": "跨 is the long step that takes a person over a ditch or onto a horse. Its sound part, 夸, means “extravagant” in the Shuowen and later “to brag”, so the character happens to set a foot beside a boast. Laozi 24 says that one who strides, or straddles, does not walk: the legs have taken all the ground they can and the next step will not come. The line is reported missing from the Mawangdui silk texts.",
   "gap": "English must pick “stride” or “straddle”. 跨 is the one position of the legs that both words describe."
  },
  "路": {
@@ -13248,7 +13248,7 @@
     "m": "gives the sound"
    }
   ],
-  "story": "The graph has a cart in it, and the Book of Songs uses the word for props that are fastened to a loaded cart. The Shuowen defines it as the jaw. A proverb in the Zuozhuan joins the two: 輔車相依, prop and cart, or cheek and jaw, depend on each other. From this came the sense “to assist”, and the title of the ministers who stood at a ruler’s side. In passage 64 it is the last verb of the sage: 輔萬物之自然, to assist the self-so of the ten thousand things. The helper takes load and does not steer.",
+  "story": "The character has a cart in it, and the Book of Songs uses the word for props that are fastened to a loaded cart. The Shuowen defines it as the jaw. A proverb in the Zuozhuan joins the two: 輔車相依, prop and cart, or cheek and jaw, depend on each other. From this came the sense “to assist”, and the title of the ministers who stood at a ruler’s side. In passage 64 it is the last verb of the sage: 輔萬物之自然, to assist the self-so of the ten thousand things. The helper takes load and does not steer.",
   "gap": "“Help” and “assist” are weak in English and can hide control (“let me help you”). 輔 is structural: a part at the side that bears weight and has no power of direction."
  },
  "輕": {
@@ -13445,7 +13445,7 @@
     "m": "speech, in the middle"
    }
   ],
-  "story": "The graph is a court scene: speech between two litigants. In the Warring States, 辯 was a profession. Travelling advisers lived by set speeches, and the “disputers”, 辯者, such as Hui Shi and Gongsun Long, argued paradoxes for their own sake. The Laozi keeps its distance: great 辯 is like slow speech (45), and the good do not 辯 (81).",
+  "story": "The character is a court scene: speech between two litigants. In the Warring States, 辯 was a profession. Travelling advisers lived by set speeches, and the “disputers”, 辯者, such as Hui Shi and Gongsun Long, argued paradoxes for their own sake. The Laozi keeps its distance: great 辯 is like slow speech (45), and the good do not 辯 (81).",
   "gap": "“Eloquence” sounds like a gift. 辯 has a contest in it, and someone must lose."
  },
  "辱": {
@@ -13471,7 +13471,7 @@
     "m": "a hand; rule, measure"
    }
   ],
-  "story": "The Shuowen reads the graph as a public punishment for failing the season; modern scholars see a hand with a farm tool and doubt the story. The word is the partner of 榮, glory, and of 寵, favor. The Laozi treats it as a place that one can choose to stand in. Favor and 辱 are both like a fright (13). Know glory and keep to 辱: be the valley of the world (28). The great white seems 辱, soiled (41). Know what is enough and there is no 辱 (44).",
+  "story": "The Shuowen reads the character as a public punishment for failing the season; modern scholars see a hand with a farm tool and doubt the story. The word is the partner of 榮, glory, and of 寵, favor. The Laozi treats it as a place that one can choose to stand in. Favor and 辱 are both like a fright (13). Know glory and keep to 辱: be the valley of the world (28). The great white seems 辱, soiled (41). Know what is enough and there is no 辱 (44).",
   "gap": "“Disgrace” is a fall from grace, a word of court and church. 辱 is exposure before one’s neighbors. The Laozi advises a person to keep to it, which no English moralist would say of disgrace."
  },
  "農": {
@@ -13553,7 +13553,7 @@
     "m": "right part as now written; in the older form 𢓴 the parts are a step, the sun, and a trailing foot"
    }
   ],
-  "story": "The Shuowen enters an older graph, 𢓴, and glosses it as “to draw back; another sense, to walk slowly”. The word is the partner of 進, to advance, and the pair covers armies, careers, and manners. The Laozi takes the side of 退. The work carried through, the body steps back: the way of heaven (9). The Dao that goes forward seems to 退 (41). “I do not dare advance an inch; I 退 a foot” (69). The Mawangdui silk texts are reported to write an old form of the word, which some editions print as 芮, and to have it also in passage 7.",
+  "story": "The Shuowen enters an older character, 𢓴, and glosses it as “to draw back; another sense, to walk slowly”. The word is the partner of 進, to advance, and the pair covers armies, careers, and manners. The Laozi takes the side of 退. The work carried through, the body steps back: the way of heaven (9). The Dao that goes forward seems to 退 (41). “I do not dare advance an inch; I 退 a foot” (69). The Mawangdui silk texts are reported to write an old form of the word, which some editions print as 芮, and to have it also in passage 7.",
   "gap": "“Retreat” is a defeat and “retire” is the end of a career. 退 is a step backward, taken in good order, and it can be the strongest move."
  },
  "逆": {
@@ -13680,7 +13680,7 @@
     "m": "gives the sound"
    }
   ],
-  "story": "過 is a word of walking: to pass a place. From “go past” came “go beyond the mark”, and from that the common word for a fault. In Chinese ethics an error is first an overshoot, and Confucius says that to go too far is as bad as not to reach. The Laozi plays on both senses in passage 64: the sage 復眾人之所過, goes back to what the many pass by, or makes good what the many overdo. In passage 35 the same graph is plain: music and food make the passing guest (過客) stop.",
+  "story": "過 is a word of walking: to pass a place. From “go past” came “go beyond the mark”, and from that the common word for a fault. In Chinese ethics an error is first an overshoot, and Confucius says that to go too far is as bad as not to reach. The Laozi plays on both senses in passage 64: the sage 復眾人之所過, goes back to what the many pass by, or makes good what the many overdo. In passage 35 the same character is plain: music and food make the passing guest (過客) stop.",
   "gap": "“Sin” and “fault” in English suggest a broken rule or a stain. 過 is spatial. The thing was there, and one went past it."
  },
  "道": {
@@ -13708,7 +13708,7 @@
     "m": "head; the first, the leader"
    }
   ],
-  "story": "Before it was a philosophical term, 道 was the road under a traveler’s feet, and each school of the Warring States had its own: the 道 of the former kings, the 道 of war, the 道 of Heaven. To “have Dao” meant that a state was in order. The word was also an everyday verb, “to say”, and a verb for guiding. The Laozi took this common word and used it for that which comes before heaven and earth, while it kept the road in view. The graph joins walking and a head. Some read a person on a journey, and others a leader who shows the direction; both are later readings of the shape, and neither should be pressed.",
+  "story": "Before it was a philosophical term, 道 was the road under a traveler’s feet, and each school of the Warring States had its own: the 道 of the former kings, the 道 of war, the 道 of Heaven. To “have Dao” meant that a state was in order. The word was also an everyday verb, “to say”, and a verb for guiding. The Laozi took this common word and used it for that which comes before heaven and earth, while it kept the road in view. The character joins walking and a head. Some read a person on a journey, and others a leader who shows the direction; both are later readings of the shape, and neither should be pressed.",
   "gap": "“Way” is nearest, but English adds an article, a capital letter, and a singular. “God”, “Reason”, “Logos”, and “Nature” were all tried by early translators, and each brought in a Western system. Modern versions that write “Absolute”, with a capital, do the same. Dao is a road that things walk. It does not stand behind them as a second thing."
  },
  "達": {
@@ -13898,7 +13898,7 @@
    },
    {
     "c": "阝",
-    "m": "a settlement (the form of 邑 at the right of a graph)"
+    "m": "a settlement (the form of 邑 at the right of a character)"
    }
   ],
   "story": "The smallest unit of village life. The Laozi uses it for wariness and for nearness. The masters of old were watchful, as if in fear of neighbours on all four sides (15). In passage 80 neighbouring states are within sight and hearing of each other.",
@@ -13927,7 +13927,7 @@
     "m": "now the sound; commonly explained as a reshaped kneeling person"
    }
   ],
-  "story": "The early graph is commonly explained as a person kneeling beside a wine jar. The lasting sense is “to be the partner of”: a spouse, a match, a fit. In Zhou ritual the word had a special use. When the king sacrificed to heaven, a founding ancestor was 配天, set as heaven’s pair to share the offering. The Laozi borrows the term once. The one who does not contend and goes below others is said to 配天, at the ridgepole of the ancients (68). The highest seat in the old religion is given to the lowest posture.",
+  "story": "The early character is commonly explained as a person kneeling beside a wine jar. The lasting sense is “to be the partner of”: a spouse, a match, a fit. In Zhou ritual the word had a special use. When the king sacrificed to heaven, a founding ancestor was 配天, set as heaven’s pair to share the offering. The Laozi borrows the term once. The one who does not contend and goes below others is said to 配天, at the ridgepole of the ancients (68). The highest seat in the old religion is given to the lowest posture.",
   "gap": "“Match” and “equal” suggest a contest or a measure. 配 is a pairing, as of husband and wife or host and guest: two that belong at one table."
  },
  "釁": {
@@ -13999,7 +13999,7 @@
   ],
   "shuowen": "五色金也。黃爲之長。",
   "shuowenEn": "The metals of five colors. The yellow one is their chief.",
-  "story": "For the Warring States, 金 is metal in general and most often bronze, the stuff of ritual vessels, bells, and weapons; gold is “yellow 金”. The Shuowen praises gold: long buried, it grows no coat; refined a hundred times, it is no lighter. It reads the graph as earth, 土, with dots that show the ore in it. The Laozi names 金 once: 金 and jade fill the hall, and no one can guard them (9). Later Daoist alchemy made 金 its great aim: 金丹, the golden elixir.",
+  "story": "For the Warring States, 金 is metal in general and most often bronze, the stuff of ritual vessels, bells, and weapons; gold is “yellow 金”. The Shuowen praises gold: long buried, it grows no coat; refined a hundred times, it is no lighter. It reads the character as earth, 土, with dots that show the ore in it. The Laozi names 金 once: 金 and jade fill the hall, and no one can guard them (9). Later Daoist alchemy made 金 its great aim: 金丹, the golden elixir.",
   "gap": "“Gold” is too narrow for the early word. A hall “full of gold” was mostly a hall full of bronze."
  },
  "銳": {
@@ -14192,10 +14192,10 @@
     "m": "sun (the older form has 月, moon)"
    }
   ],
-  "story": "The older graph is 閒: a door with the moon in it. The Shuowen defines that form as a crack or gap: light seen between two door leaves. From the gap in a door the word spread to every in-between: the space between things, a span of time, the world of people (人間). In the Laozi, the whole world is 天地之間, the gap between heaven and earth, and it is compared to a bellows (5). Passage 43 says that what has no substance can enter where there is no 間, no gap at all.",
+  "story": "The older character is 閒: a door with the moon in it. The Shuowen defines that form as a crack or gap: light seen between two door leaves. From the gap in a door the word spread to every in-between: the space between things, a span of time, the world of people (人間). In the Laozi, the whole world is 天地之間, the gap between heaven and earth, and it is compared to a bellows (5). Passage 43 says that what has no substance can enter where there is no 間, no gap at all.",
   "gap": "English “space” is an abstract container. 間 is a crack with light in it: an opening between two things that are there.",
   "shuowen": "隟也。从門从月。",
-  "shuowenEn": "A crack. From gate and moon. (The Shuowen enters the older form 閒, with the moon; 間, with the sun, is the later graph.)"
+  "shuowenEn": "A crack. From gate and moon. (The Shuowen enters the older form 閒, with the moon; 間, with the sun, is the later character.)"
  },
  "閡": {
   "py": [
@@ -14257,7 +14257,7 @@
     "m": "compass, rule; gives the sound"
    }
   ],
-  "story": "闚 is a narrow look, through a gate that stands ajar. Many editions write the same word as 窺, with 穴, a hole, on top, which the Shuowen glosses as “a small look”. Both graphs were used for spying on another state. In passage 47 one sees heaven’s way without this kind of look from the window.",
+  "story": "闚 is a narrow look, through a gate that stands ajar. Many editions write the same word as 窺, with 穴, a hole, on top, which the Shuowen glosses as “a small look”. Both characters were used for spying on another state. In passage 47 one sees heaven’s way without this kind of look from the window.",
   "gap": "English “look out of the window” is neutral. 闚 says that such a look is partial and a little furtive."
  },
  "關": {
@@ -14740,7 +14740,7 @@
     "m": "an insect, a creeping creature"
    }
   ],
-  "story": "The oracle bones wrote “wind” with the graph of the phoenix. The later character keeps the bird’s frame and puts an insect inside; the Shuowen says that wind wakes the insects. In passage 23 a whirlwind, 飄風, does not last the morning.",
+  "story": "The oracle bones wrote “wind” with the character of the phoenix. The later character keeps the bird’s frame and puts an insect inside; the Shuowen says that wind wakes the insects. In passage 23 a whirlwind, 飄風, does not last the morning.",
   "gap": "English “wind” is only moving air. 風 is also the mood and manners of a people, which blow from the ruler down."
  },
  "飂": {
@@ -14770,8 +14770,8 @@
   ],
   "shuowen": "一米也。从皀亼聲。或說亼皀也。",
   "shuowenEn": "Grain gathered together. From 皀 (fragrant grain), with 亼 for the sound. Some say: 亼 (to gather) and 皀.",
-  "story": "The early graph is commonly explained as a vessel of food with a lid. Read sì, the same graph means “to feed”. Passage 20 ends with 食母, the mother who feeds; passage 53 scolds those who are glutted with drink and 食 while the fields are bare; passage 80 wishes the people to find their food sweet.",
-  "gap": "English keeps “eat” and “feed” apart. One graph does both, and 食母 leans on that.",
+  "story": "The early character is commonly explained as a vessel of food with a lid. Read sì, the same character means “to feed”. Passage 20 ends with 食母, the mother who feeds; passage 53 scolds those who are glutted with drink and 食 while the fields are bare; passage 80 wishes the people to find their food sweet.",
+  "gap": "English keeps “eat” and “feed” apart. One character does both, and 食母 leans on that.",
   "parts": [
    {
     "c": "亼",
@@ -15240,7 +15240,7 @@
    "what is out of sight, unnoticed"
   ],
   "shuowen": "火所熏之色也。从炎，上出𡆧。𡆧，古窻字。",
-  "shuowenEn": "The colour that fire smokes on. From 炎 (flames), which go up and out through 𡆧. 𡆧 is the old graph for “window”.",
+  "shuowenEn": "The colour that fire smokes on. From 炎 (flames), which go up and out through 𡆧. 𡆧 is the old character for “window”.",
   "parts": [
    {
     "c": "灬",

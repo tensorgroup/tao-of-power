@@ -150,3 +150,22 @@ test('draft question round-trips and clears with the draft', () => {
   assert.equal(loadDraftQ(5, st), null);
   assert.equal(loadDraft(5, st), '');
 });
+
+test('a margin note keeps its anchor, through export, import, and merge', () => {
+  const j = emptyJournal();
+  const e = addEntry(j, { passage: 33, text: 'moss', at: { key: 'line:8', snip: 'One who dies and is not lost', x: 1 } });
+  assert.deepEqual(e.at, { key: 'line:8', snip: 'One who dies and is not lost' });
+  const back = validate(JSON.parse(toExport(j)));
+  assert.equal(back.ok, true);
+  assert.deepEqual(back.journal.entries[0].at, e.at);
+  assert.deepEqual(merge(emptyJournal(), back.journal).entries[0].at, e.at);
+  assert.equal(addEntry(j, { passage: 1, text: 'y', at: { key: '' } }).at, undefined);
+  assert.equal(addEntry(j, { passage: 1, text: 'z', at: { key: 'q:a' } }).at.snip, '');
+});
+
+test('validate drops a malformed margin anchor but keeps the entry', () => {
+  const now = new Date().toISOString();
+  const r = validate({ version: 1, entries: [{ id: 'a', passage: 2, text: 't', createdAt: now, updatedAt: now, at: { key: 7 } }] });
+  assert.equal(r.ok, true);
+  assert.equal('at' in r.journal.entries[0], false);
+});

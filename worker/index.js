@@ -1,7 +1,7 @@
 // Static site + one endpoint: POST /api/e stores an anonymous usage event in D1.
 // Everything else is served from ./app by the assets binding.
 
-const EVENTS = new Set(['view', 'draw', 'search', 'say', 'char', 'note', 'art', 'story', 'echo', 'culture', 'question', 'journal-save', 'journal-export', 'journal-import', 'install', 'listen']);
+const EVENTS = new Set(['view', 'draw', 'search', 'say', 'char', 'note', 'art', 'story', 'echo', 'culture', 'question', 'journal-save', 'journal-export', 'journal-import', 'install', 'listen', 'margin']);
 const clip = (v, n) => (typeof v === 'string' || typeof v === 'number' ? String(v).slice(0, n) : null);
 
 function device(ua = '') {

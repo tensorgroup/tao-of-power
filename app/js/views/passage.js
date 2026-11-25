@@ -1,5 +1,5 @@
 // One passage: rendering with notes, the Chinese column, lenses, plate, Legge, journal.
-import { h, fill, tetragram, lineNames, fmtDate, toast } from '../ui.js';
+import { h, fill, tetragram, lineNames, fmtDate, toast, keepAboveKeyboard } from '../ui.js';
 import { linesFor } from '../draw.js';
 import { getPassage, getLexicon, getArt, getEchoes, getWing, getCulture } from '../data.js';
 import { openSheet } from '../sheet.js';
@@ -9,6 +9,7 @@ import { planLine, wrapWords, wordCell } from '../words.js';
 import { state } from '../app.js';
 import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
 import { entryList } from './journal.js';
+import { marginTabs } from '../margin.js';
 import { brushPanel } from '../brush.js';
 import { sayButton } from '../audio.js';
 import { track } from '../track.js';
@@ -44,6 +45,7 @@ export async function passageView(n, drawId) {
   const lines = linesFor(n);
   const draw = drawId ? state.journal.draws.find((d) => d.id === drawId) : null;
   const root = h('article', { class: 'passage' });
+  let tabBar = h('p', { class: 'muted small tab-hint' }); // holds the Margin tabs button
 
   root.append(h('div', { class: 'p-head' },
     h('div', {},
@@ -61,9 +63,9 @@ export async function passageView(n, drawId) {
   if (p) {
     const r = h('div', { class: 'rendering' });
     const lineEls = []; // the non-empty lines, in order
-    for (const line of p.rendering) {
+    for (const [i, line] of p.rendering.entries()) {
       const el = line.trim() === '' ? h('p', { class: 'gap' }) : rich(line, ctx, { block: true });
-      if (!el.classList.contains('gap')) lineEls.push(el);
+      if (!el.classList.contains('gap')) { lineEls.push(el); el.dataset.mark = `line:${i}`; }
       r.append(el);
     }
     root.append(r);
@@ -71,10 +73,11 @@ export async function passageView(n, drawId) {
       const rec = m?.en?.[n];
       if (rec && !left) englishRow(n, p.rendering, r, lineEls, rec);
     }).catch((e) => console.error(e)); // no English row
-    root.append(h('p', { class: 'muted small', text: 'Tap an underlined phrase or any Chinese character to look deeper.' }));
+    root.append(tabBar = h('p', { class: 'muted small tab-hint' }, h('span', { text: 'Tap an underlined phrase or any Chinese character to look deeper.' })));
   } else {
     root.append(h('div', { class: 'pending' },
       h('p', { text: 'The new rendering and notes for this passage are still being written. The Chinese and Legge’s 1891 translation are below; tap any character.' })));
+    root.append(tabBar);
   }
 
   // Chinese column
@@ -128,7 +131,7 @@ export async function passageView(n, drawId) {
   // When the columns are wider than the screen, a fade and "← more" at the left say so,
   // until the reader has scrolled to the end (the left edge, where the text finishes).
   const more = h('span', { class: 'col-more', 'aria-hidden': 'true' });
-  const colBox = h('div', { class: 'column-box' }, colWrap, more);
+  const colBox = h('div', { class: 'column-box', 'data-mark': 'zh' }, colWrap, more);
   const updateMore = () => {
     const overflow = colWrap.scrollWidth > colWrap.clientWidth + 4;
     colBox.classList.toggle('has-more', overflow && colWrap.scrollLeft > 6);
@@ -216,42 +219,42 @@ export async function passageView(n, drawId) {
     const box = h('section', { 'aria-label': 'Commentary' });
     for (const [k, label] of LENS) {
       if (!p.lenses[k]) continue;
-      box.append(h('div', { class: 'lens' }, h('h3', { text: label }), rich(p.lenses[k], ctx, { block: true })));
+      box.append(h('div', { class: 'lens', 'data-mark': `lens:${k}` }, h('h3', { text: label }), rich(p.lenses[k], ctx, { block: true })));
     }
     root.append(h('h2', { text: 'Reflections' }), box);
   }
 
   // Old masters: paintings, prints, rubbings, and stories
   const artBox = artSection(n, art, ctx);
-  if (artBox) root.append(artBox);
+  if (artBox) { artBox.dataset.mark = 'sec:art'; root.append(artBox); }
 
   // Echoes from other classics
   const echoBox = echoSection(n, echoes, ctx);
-  if (echoBox) root.append(echoBox);
+  if (echoBox) { echoBox.dataset.mark = 'sec:echoes'; root.append(echoBox); }
 
   // Songs, films, books, shows: the passage in modern culture
   const cultureBox = cultureSection(n, culture);
-  if (cultureBox) root.append(cultureBox);
+  if (cultureBox) { cultureBox.dataset.mark = 'sec:culture'; root.append(cultureBox); }
 
   // A reference to R. L. Wing's reading (our summary, not his words)
   const wingBox = wingSection(n, wing, ctx);
-  if (wingBox) root.append(wingBox);
+  if (wingBox) { wingBox.dataset.mark = 'sec:wing'; root.append(wingBox); }
 
   // Calligraphy plates
   const plates = p?.plates?.length ? p.plates : (p?.glyph ? [{ c: p.glyph }] : []);
   if (plates.length) {
     const box = h('section', { class: 'plates', 'aria-label': 'Characters' }, h('h2', { text: plates.length > 1 ? 'Characters to sit with' : 'A character to sit with' }));
-    for (const pl of plates) box.append(await plate(pl, lex[pl.c] || {}, ctx));
+    for (const pl of plates) { const el = await plate(pl, lex[pl.c] || {}, ctx); el.dataset.mark = `plate:${pl.c}`; box.append(el); }
     root.append(box);
   }
 
   // Wang Bi + Legge
   const wb = text.wangbi.map((w, i) => (w ? [text.zh[i], w] : null)).filter(Boolean);
   if (wb.length) {
-    root.append(h('details', { class: 'legge' }, h('summary', { text: 'Wang Bi’s commentary (3rd century, Chinese)' }),
+    root.append(h('details', { class: 'legge', 'data-mark': 'sec:wangbi' }, h('summary', { text: 'Wang Bi’s commentary (3rd century, Chinese)' }),
       wb.map(([z, w]) => h('p', { lang: 'zh-Hant' }, h('b', {}, hanify(z)), h('br'), hanify(w)))));
   }
-  root.append(h('details', { class: 'legge' }, h('summary', { text: 'James Legge’s translation (1891)' }),
+  root.append(h('details', { class: 'legge', 'data-mark': 'sec:legge' }, h('summary', { text: 'James Legge’s translation (1891)' }),
     text.legge.map((para) => h('p', { text: para }))));
 
   const jbox = journalBox(n, draw);
@@ -259,6 +262,10 @@ export async function passageView(n, drawId) {
   root.append(h('hr', { class: 'rule' }));
   if (qBox) root.append(qBox);
   root.append(jbox);
+
+  // Margin tabs: the reader's own notes beside any marked block. Tabs whose block is gone sit by the journal.
+  const tabs = marginTabs(root, n, { fallback: 'sec:journal', onChange: jbox.refresh });
+  tabBar.append(tabs.toggle);
   return root;
 }
 
@@ -520,7 +527,7 @@ function questionSection(qs, jbox) {
     h('h2', { text: 'Sit with it' }),
     h('p', { class: 'muted small', text: 'Test the passage against your own life. Take your time with each question. Then write what arises.' }));
   for (const q of qs) {
-    box.append(h('div', { class: 'sit-q' },
+    box.append(h('div', { class: 'sit-q', 'data-mark': `q:${q.id}` },
       h('p', { class: 'sit-claim', text: q.claim }),
       h('ul', {}, q.prompts.map((pr) => h('li', { text: pr }))),
       h('button', { class: 'btn quiet small-btn', type: 'button', text: 'Write about this', onclick: () => { track('question', q.id); jbox.ask(q); } })));
@@ -535,7 +542,7 @@ document.addEventListener('visibilitychange', () => { if (document.hidden) curre
 addEventListener('hashchange', () => { currentFlush?.(); currentFlush = null; });
 
 function journalBox(n, draw) {
-  const ta = h('textarea', { id: 'jtext', 'aria-label': 'Your thoughts on this passage', placeholder: 'What arises?' });
+  const ta = keepAboveKeyboard(h('textarea', { id: 'jtext', 'aria-label': 'Your thoughts on this passage', placeholder: 'What arises?' }));
   ta.value = loadDraft(n);
   let q = loadDraftQ(n);
   const qLine = h('div', { class: 'jq', hidden: true });
@@ -550,7 +557,7 @@ function journalBox(n, draw) {
   ta.addEventListener('input', () => { clearTimeout(t); t = setTimeout(flush, 600); });
   currentFlush = flush;
   const list = h('div');
-  const refresh = () => list.replaceChildren(entryList(state.journal.entries.filter((e) => e.passage === n), { showPassage: false, onChange: refresh }));
+  const refresh = () => list.replaceChildren(entryList(state.journal.entries.filter((e) => e.passage === n && !e.at), { showPassage: false, onChange: refresh }));
   const save = () => {
     const text = ta.value.trim();
     if (!text) { ta.focus(); return; }
@@ -558,7 +565,7 @@ function journalBox(n, draw) {
     if (state.persist()) { track('journal-save', n); ta.value = ''; q = null; clearDraft(n); showQ(); toast('Saved.'); refresh(); }
   };
   refresh();
-  const el = h('section', { class: 'jbox', 'aria-label': 'Journal' },
+  const el = h('section', { class: 'jbox', 'aria-label': 'Journal', 'data-mark': 'sec:journal' },
     h('h2', { text: 'Journal' }),
     h('label', { for: 'jtext', class: 'muted small', text: new Date().toLocaleString(undefined, { dateStyle: 'full', timeStyle: 'short' }) }),
     qLine,
@@ -566,6 +573,7 @@ function journalBox(n, draw) {
     h('div', { class: 'row' }, h('span', { class: 'muted small', text: 'Saved in this browser. Export from Journal.' }),
       h('button', { class: 'btn primary', type: 'button', text: 'Save', onclick: save })),
     list);
+  el.refresh = refresh;
   el.ask = (next) => {
     q = { id: next.id, claim: next.claim };
     saveDraftQ(n, q);

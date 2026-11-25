@@ -6,7 +6,7 @@
     {
       "text": "天下有始，以為天下母。",
       "gloss": {
-        "3": "a beginning (the graph has 女, a woman, at its left)",
+        "3": "a beginning (the character has 女, a woman, at its left)",
         "9": "mother"
       }
     },
@@ -104,7 +104,7 @@
     "shou": {
       "kind": "history",
       "title": "守: “keeping” became a word for meditation",
-      "body": "守 is to guard, to keep watch, to hold a post. The graph is 宀, a roof, over 寸, a hand; the Shuowen defines it as 守官也, to keep one’s office, and says that the hand stands for rule and measure. A sentry 守 a gate; an official 守 a city. The Laozi turns the word inward and uses it often: keep to the centre (5), keep to stillness (16), know the male and keep to the female (28), keep to the soft (this passage). In the religious Daoism of the Han and after, 守 became a technical term. 守一, “guarding the One”, is one of the oldest names for meditation in China: the practitioner holds attention at one place as a guard holds a pass. This passage is among its sources. Note 復, “again, back”: the keeping is a return.",
+      "body": "守 is to guard, to keep watch, to hold a post. The character is 宀, a roof, over 寸, a hand; the Shuowen defines it as 守官也, to keep one’s office, and says that the hand stands for rule and measure. A sentry 守 a gate; an official 守 a city. The Laozi turns the word inward and uses it often: keep to the centre (5), keep to stillness (16), know the male and keep to the female (28), keep to the soft (this passage). In the religious Daoism of the Han and after, 守 became a technical term. 守一, “guarding the One”, is one of the oldest names for meditation in China: the practitioner holds attention at one place as a guard holds a pass. This passage is among its sources. Note 復, “again, back”: the keeping is a return.",
       "src": [
         "Shuowen Jiezi, 宀部: 守，守官也。从宀从寸。寺府之事者。从寸。寸，法度也。"
       ]
@@ -139,7 +139,7 @@
     "qin": {
       "kind": "gap",
       "title": "不勤: not “idle”",
-      "body": "勤 is toil; the Shuowen says 勞也, and the graph has 力, strength, on the right. In modern Chinese it is a virtue, “diligent”, and a hasty reader may take 終身不勤 as a reproach: a whole life without effort. The classical word names the cost, not the virtue: to labour until one is spent. 不勤 is “not worn out”. Passage 6 uses it of the valley spirit: 用之不勤, “use it, and it is not exhausted”. So the line promises that the one who closes the openings will not be used up, to the end of life. The [[Mawangdui silk texts|silk]] are reported to write 堇, which editors read as the same word. [[Wang Bi|wangbi]] says: 無事永逸, “no business, and ease for good”. What in your day wears you out: the work, or the open gates?",
+      "body": "勤 is toil; the Shuowen says 勞也, and the character has 力, strength, on the right. In modern Chinese it is a virtue, “diligent”, and a hasty reader may take 終身不勤 as a reproach: a whole life without effort. The classical word names the cost, not the virtue: to labour until one is spent. 不勤 is “not worn out”. Passage 6 uses it of the valley spirit: 用之不勤, “use it, and it is not exhausted”. So the line promises that the one who closes the openings will not be used up, to the end of life. The [[Mawangdui silk texts|silk]] are reported to write 堇, which editors read as the same word. [[Wang Bi|wangbi]] says: 無事永逸, “no business, and ease for good”. What in your day wears you out: the work, or the open gates?",
       "src": [
         "Shuowen Jiezi, 力部: 勤，勞也。从力𡏳聲。",
         "Laozi 6"
@@ -165,7 +165,7 @@
     "qiang": {
       "kind": "etymology",
       "title": "強: “strong” is a borrowed insect",
-      "body": "守柔曰強: “to keep to the soft is called strong”. Look up the two characters in the Shuowen and each has a surprise. 柔, soft, is 木, wood, under 矛, a spear; the definition is 木曲直也, “wood that can be bent and straightened”. Softness, for the dictionary, is not weakness. It is the quality of green wood that takes a curve and does not break. 強, strong, is defined as 蚚也: a kind of insect, with 虫 inside it. The word “strong” only borrowed this graph for its sound. The proper character for strength, says the dictionary, is 彊: 弓有力也, “a bow that has force”. So the two halves of the line are closer than they seem. The soft is the bendable wood, and true strength is the bow that is made of it. Passage 76 says the rest: the living are soft, and the dead are stiff.",
+      "body": "守柔曰強: “to keep to the soft is called strong”. Look up the two characters in the Shuowen and each has a surprise. 柔, soft, is 木, wood, under 矛, a spear; the definition is 木曲直也, “wood that can be bent and straightened”. Softness, for the dictionary, is not weakness. It is the quality of green wood that takes a curve and does not break. 強, strong, is defined as 蚚也: a kind of insect, with 虫 inside it. The word “strong” only borrowed this character for its sound. The proper character for strength, says the dictionary, is 彊: 弓有力也, “a bow that has force”. So the two halves of the line are closer than they seem. The soft is the bendable wood, and true strength is the bow that is made of it. Passage 76 says the rest: the living are soft, and the dead are stiff.",
       "src": [
         "Shuowen Jiezi, 木部: 柔，木曲直也。从木矛聲。",
         "Shuowen Jiezi, 虫部: 強，蚚也。从虫弘聲。",
@@ -175,7 +175,7 @@
     "guang": {
       "kind": "gap",
       "title": "光 and 明: two lights",
-      "body": "English has “light” and “brightness” and uses them loosely. The Chinese line depends on a difference. 光 is light that goes out from a source: the Shuowen explains the graph as 火在人上, “fire above a person”, a torch held up. 明 is the state of being lit and clear, the capacity itself. 用其光，復歸其明: use the beam, and then come home to the lamp. The same structure governs the first part of the passage: know the child, and go back to the mother. Light that is sent out is a child of the clear state within. It may be used; attention may go out to the world. But a light that only shines outward is spent, and the book distrusts glare: soften the 光 (4, 56); be bright and do not dazzle (58). When you have finished looking at something, where does your attention go?",
+      "body": "English has “light” and “brightness” and uses them loosely. The Chinese line depends on a difference. 光 is light that goes out from a source: the Shuowen explains the character as 火在人上, “fire above a person”, a torch held up. 明 is the state of being lit and clear, the capacity itself. 用其光，復歸其明: use the beam, and then come home to the lamp. The same structure governs the first part of the passage: know the child, and go back to the mother. Light that is sent out is a child of the clear state within. It may be used; attention may go out to the world. But a light that only shines outward is spent, and the book distrusts glare: soften the 光 (4, 56); be bright and do not dazzle (58). When you have finished looking at something, where does your attention go?",
       "src": [
         "Shuowen Jiezi, 火部: 光，明也。从火在人上，光明意也。",
         "Laozi 4, 56, 58"
@@ -184,7 +184,7 @@
     "yang": {
       "kind": "etymology",
       "title": "無遺身殃: nothing bad left behind",
-      "body": "遺 is to leave behind, to lose, to bequeath. 殃 is calamity; the Shuowen glosses it with one word, 咎也, the “fault” of passage 46, and the graph has 歹, bare bone, at its left, like 殆 and 死. 無遺身殃 is “do not leave the body a calamity”, or “leave no calamity to yourself”. The verb suggests an inheritance. Each act that sends the light out and does not bring it home leaves something for the body to receive later, as an heir receives a debt. The silk texts are reported to make the line a prohibition, with 毋, “do not”. Passage 9 used the same verb of wealth and pride: 自遺其咎, they bequeath their own ruin. The line is modest, like the close of passage 44. It promises no bliss. It says that nothing bad is left for later.",
+      "body": "遺 is to leave behind, to lose, to bequeath. 殃 is calamity; the Shuowen glosses it with one word, 咎也, the “fault” of passage 46, and the character has 歹, bare bone, at its left, like 殆 and 死. 無遺身殃 is “do not leave the body a calamity”, or “leave no calamity to yourself”. The verb suggests an inheritance. Each act that sends the light out and does not bring it home leaves something for the body to receive later, as an heir receives a debt. The silk texts are reported to make the line a prohibition, with 毋, “do not”. Passage 9 used the same verb of wealth and pride: 自遺其咎, they bequeath their own ruin. The line is modest, like the close of passage 44. It promises no bliss. It says that nothing bad is left for later.",
       "src": [
         "Shuowen Jiezi, 歺部: 殃，咎也。从歺央聲。",
         "Laozi 9"
@@ -255,7 +255,7 @@
     {
       "c": "母",
       "title": "The woman with two dots",
-      "lesson": "Start from 女, a woman. The Shuowen calls 女 a picture, and the common explanation of the early form is a figure who kneels with her hands crossed in front. Now put two dots inside the body of the figure, and you have 母. The Shuowen says: 从女，象褱子形。一曰象乳子也. “From 女; it shows her holding a child. Another view: it shows her suckling a child.” The second view is the one that most scholars follow: the two dots are the breasts. A mother, in this script, is a woman drawn as one who can feed. The dictionary’s definition is a pun on a word of like sound: 母，牧也, “a mother is one who tends”, the verb for a herdsman with cattle. Passage 51 has just used the herdsman’s word, 畜, for what de does. Take the two dots and join them into one stroke, and the graph is 毋, “do not”, a different word that borrowed the mother’s form. Put 母 under a plant-like top and you have 每, “each”; put water beside that and you have 海, the sea. The Laozi gives this character to the Way itself. The passage says that there is a [[mother|mu]] of the world, and that a person can [[go back and keep to her|shou]]. The two dots say what for.",
+      "lesson": "Start from 女, a woman. The Shuowen calls 女 a picture, and the common explanation of the early form is a figure who kneels with her hands crossed in front. Now put two dots inside the body of the figure, and you have 母. The Shuowen says: 从女，象褱子形。一曰象乳子也. “From 女; it shows her holding a child. Another view: it shows her suckling a child.” The second view is the one that most scholars follow: the two dots are the breasts. A mother, in this script, is a woman drawn as one who can feed. The dictionary’s definition is a pun on a word of like sound: 母，牧也, “a mother is one who tends”, the verb for a herdsman with cattle. Passage 51 has just used the herdsman’s word, 畜, for what de does. Take the two dots and join them into one stroke, and the character is 毋, “do not”, a different word that borrowed the mother’s form. Put 母 under a plant-like top and you have 每, “each”; put water beside that and you have 海, the sea. The Laozi gives this character to the Way itself. The passage says that there is a [[mother|mu]] of the world, and that a person can [[go back and keep to her|shou]]. The two dots say what for.",
       "brush": "Five strokes. The first comes down on the left with a slight lean, turns at the bottom, and runs to the right: the left side and floor of the figure. The second starts at the top left, goes to the right, turns, comes down the right side, and ends in a hook that points inward. Together these two make a leaning, open box. Third, the upper dot. Fourth, a long horizontal that passes through the whole box and out on both sides: the arms. Fifth, the lower dot, under the horizontal. Watch the two dots. They are not alike: each is pressed and lifted in the same direction, one above the line and one below, and they must sit on one slanting axis. The box leans to the right, the horizontal holds it level, and the dots give it a centre."
     },
     {

@@ -91,3 +91,34 @@ export function fmtDate(iso) {
   const d = new Date(iso);
   return d.toLocaleString(undefined, { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
 }
+
+/**
+ * Keep a text box above the phone keyboard while the reader types.
+ * The keyboard shrinks the visual viewport; if the box's bottom is under it,
+ * scroll the page so the box sits between the top bar and the keyboard.
+ */
+export function keepAboveKeyboard(el) {
+  const vv = window.visualViewport;
+  if (!vv) return el;
+  let queued = false;
+  const fit = () => {
+    queued = false;
+    if (document.activeElement !== el) return;
+    const r = el.getBoundingClientRect();
+    const gap = 12;
+    const top = Math.max(vv.offsetTop, document.querySelector('.bar')?.getBoundingClientRect().bottom ?? 0) + gap;
+    const bottom = vv.offsetTop + vv.height - gap;
+    // Too low: bring the bottom up, but never push the top under the bar.
+    let d = r.bottom > bottom ? Math.min(r.bottom - bottom, r.top - top) : 0;
+    if (r.top < top) d = r.top - top;
+    if (Math.abs(d) > 1) scrollBy({ top: d, behavior: 'auto' });
+  };
+  const later = () => { if (!queued) { queued = true; requestAnimationFrame(fit); } };
+  el.addEventListener('focus', () => {
+    vv.addEventListener('resize', later);
+    later(); setTimeout(later, 350); // the keyboard opens after focus
+  });
+  el.addEventListener('blur', () => vv.removeEventListener('resize', later));
+  el.addEventListener('input', later);
+  return el;
+}

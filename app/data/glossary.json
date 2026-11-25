@@ -2,7 +2,7 @@
   "shuowen": {
     "term": "Shuowen Jiezi", "zh": "說文解字", "aliases": ["Shuowen Jiezi", "Shuowen jiezi", "Shuowen"],
     "short": "China's first great character dictionary, finished by Xu Shen around 100 CE.",
-    "body": "The Shuowen Jiezi — “Explaining the simple graphs and analysing the compound characters” — was finished by the Han scholar Xu Shen (許慎) around 100 CE. It sorts about 9,353 characters under 540 radicals and gives each one a short definition and an account of how it is built: which part carries the meaning, which part the sound. It is the oldest systematic attempt to say why a character looks the way it does. It is not always right — Xu Shen never saw the oracle bones, which were found in 1899 — but almost every later account of a character starts from it. When a note here quotes the Shuowen, the quote is checked against the full text."
+    "body": "The Shuowen Jiezi — “Explaining the simple signs and analysing the compound characters” — was finished by the Han scholar Xu Shen (許慎) around 100 CE. It sorts about 9,353 characters under 540 radicals and gives each one a short definition and an account of how it is built: which part carries the meaning, which part the sound. It is the oldest systematic attempt to say why a character looks the way it does. It is not always right — Xu Shen never saw the oracle bones, which were found in 1899 — but almost every later account of a character starts from it. When a note here quotes the Shuowen, the quote is checked against the full text."
   },
   "xushen": {
     "term": "Xu Shen", "zh": "許慎", "aliases": ["Xu Shen"],
@@ -72,7 +72,7 @@
   "oraclebone": {
     "term": "oracle-bone script", "zh": "甲骨文", "aliases": ["oracle-bone script", "oracle-bone form", "oracle-bone forms", "oracle bones", "oracle bone", "oracle-bone"],
     "short": "The oldest Chinese writing (c. 1250–1050 BCE): questions to the spirits cut into turtle shells and ox bones.",
-    "body": "Shang kings asked their ancestors about harvests, war, childbirth, and weather. Diviners heated a shell or bone until it cracked, read the crack, and carved the question and often the answer beside it. About 4,500 different graphs are known; about a third are read with confidence. They were only recognised in 1899, so earlier scholars like Xu Shen never saw them."
+    "body": "Shang kings asked their ancestors about harvests, war, childbirth, and weather. Diviners heated a shell or bone until it cracked, read the crack, and carved the question and often the answer beside it. About 4,500 different characters are known; about a third are read with confidence. They were only recognised in 1899, so earlier scholars like Xu Shen never saw them."
   },
   "bronze": {
     "term": "bronze script", "zh": "金文", "aliases": ["bronze script", "bronze form", "bronze forms", "bronze inscriptions", "bronze inscription"],
