@@ -237,10 +237,17 @@ p { margin: 0 0 1rem; }
 .column .han.glossed { --han-rule: color-mix(in srgb, var(--seal) 60%, transparent); }
 /* Listen: the character being spoken, and the ones already spoken. No font-weight change (it would reflow the column). */
 .column .han.now { background: var(--seal); color: var(--seal-ink); border-radius: 4px; }
-.column .han.done { opacity: .55; }
+/* Dim read characters with colour, not opacity: opacity would also dim the focus ring.
+   On --paper-2, light / dark: read plain 4.16 / 5.69, read glossed 3.32 / 3.12 (unread 5.09 / 4.57). */
+.column .han.done { color: color-mix(in srgb, var(--ink) 60%, var(--paper-2)); }
+.column .han.glossed.done { color: color-mix(in srgb, var(--seal) 75%, var(--paper-2)); }
 .listen-row { display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; margin: .75rem 0 0; }
-.listen-row .filters { margin: 0; }
-.listen-row p { flex-basis: 100%; margin: 0; }
+.listen-row .filters { margin: 0; align-items: center; }
+.listen-row .listen-btn { min-width: 8.5em; }
+.listen-row .listen-speed { color: var(--ink-2); margin-inline-end: .15rem; }
+.listen-row .listen-error { flex-basis: 100%; margin: 0; color: var(--ink-2); }
+/* Empty: out of the flow but still in the accessibility tree, so the status change is announced. */
+.listen-row .listen-error:empty { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 @media (hover: hover) {
   .han:hover { color: var(--seal); --han-rule: var(--seal); }
 }

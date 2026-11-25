@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 
 // listen.js keeps all DOM access inside functions, so it imports cleanly in Node.
-const { indexAt, createPlayer, followTarget, followAllowed, gestureLive } = await import('../app/js/listen.js');
+const { indexAt, createPlayer, followTarget, followAllowed, gestureLive, rowView } = await import('../app/js/listen.js');
 
 test('indexAt: empty, before first, exact hit, between, after last', () => {
   assert.equal(indexAt([], 5), -1);
@@ -36,8 +36,15 @@ class FakeMedia extends Target {
 
 const cell = () => {
   const set = new Set();
-  return { set, classList: { toggle: (c, on) => (on ? set.add(c) : set.delete(c)), remove: (...cs) => cs.forEach((c) => set.delete(c)) } };
+  const attrs = new Map();
+  return {
+    set, attrs,
+    classList: { toggle: (c, on) => (on ? set.add(c) : set.delete(c)), remove: (...cs) => cs.forEach((c) => set.delete(c)) },
+    setAttribute: (k, v) => attrs.set(k, String(v)),
+    removeAttribute: (k) => attrs.delete(k),
+  };
 };
+const current = (cells) => cells.map((c) => c.attrs.get('aria-current') ?? '-');
 const classes = (cells) => cells.map((c) => [...c.set].sort().join(' ') || '-');
 
 function setup({ n = 3, rate } = {}) {
@@ -47,7 +54,7 @@ function setup({ n = 3, rate } = {}) {
   const events = new Target();
   const doc = new Target();
   doc.visibilityState = 'visible';
-  const lock = { requests: 0, releases: 0 };
+  const lock = { requests: 0, releases: 0, last: null };
   const log = { stopSay: 0, track: [], states: [], index: [] };
   const store = new Map(rate ? [['tao-listen-rate', rate]] : []);
   let idx = -1;
@@ -57,7 +64,13 @@ function setup({ n = 3, rate } = {}) {
     cancelRaf: () => { frames.length = 0; },
     isSheetOpen: () => sheet,
     events, doc,
-    wakeLock: { request: () => { lock.requests++; return Promise.resolve({ release: () => { lock.releases++; return Promise.resolve(); } }); } },
+    wakeLock: {
+      request: () => {
+        lock.requests++;
+        lock.last = { released: false, release() { lock.releases++; this.released = true; return Promise.resolve(); } };
+        return Promise.resolve(lock.last);
+      },
+    },
     stopSay: () => { log.stopSay++; },
     track: (ev, d) => log.track.push([ev, d]),
     storage: { getItem: (k) => store.get(k) ?? null, setItem: (k, v) => store.set(k, v) },
@@ -122,6 +135,65 @@ test('tao:sound pauses', () => {
   t.events.fire('tao:sound');
   assert.equal(t.media.paused, true);
   assert.equal(t.player.state, 'paused');
+});
+
+test('resume after a tao:sound pause stops other sound again, but tracks once', () => {
+  const t = setup();
+  t.player.toggle();
+  t.media.fire('playing');
+  t.events.fire('tao:sound');
+  assert.equal(t.player.state, 'paused');
+  t.player.toggle();
+  assert.equal(t.log.stopSay, 2);
+  assert.equal(t.log.track.length, 1);
+});
+
+test('retry after an error stops other sound too', () => {
+  const t = setup();
+  t.player.toggle();
+  t.media.fire('error');
+  t.player.toggle();
+  assert.equal(t.log.stopSay, 2);
+  assert.equal(t.media.calls.load, 1);
+  assert.equal(t.log.track.length, 1);
+});
+
+test('aria-current is on the now cell only', () => {
+  const t = setup();
+  t.player.toggle();
+  t.media.fire('playing');
+  t.at(1); t.step();
+  assert.deepEqual(current(t.cells), ['-', 'true', '-']);
+  t.at(2); t.step();
+  assert.deepEqual(current(t.cells), ['-', '-', 'true']);
+  t.at(3); t.step();
+  assert.deepEqual(current(t.cells), ['-', '-', '-']);
+  t.at(0); t.step();
+  t.media.fire('ended');
+  assert.deepEqual(current(t.cells), ['-', '-', '-']);
+});
+
+test('wake lock: a lock the browser released while loading is asked for again on playing', async () => {
+  const t = setup();
+  t.player.toggle();
+  t.media.fire('playing');
+  await tick();
+  assert.equal(t.lock.requests, 1);
+  t.media.fire('waiting'); // loading; then the page hides and the browser drops the lock
+  t.lock.last.released = true;
+  t.doc.fire('visibilitychange'); // visible again, still loading
+  await tick();
+  t.media.fire('playing');
+  await tick();
+  assert.equal(t.lock.requests, 2);
+});
+
+test('rowView: labels with a text-style play glyph, words for aria, error text only in error', () => {
+  assert.deepEqual(rowView('idle'), { text: '\u25B6\uFE0E Listen', aria: 'Listen', error: '' });
+  assert.deepEqual(rowView('loading'), { text: 'Loading…', aria: 'Loading…', error: '' });
+  assert.deepEqual(rowView('playing'), { text: '❚❚ Pause', aria: 'Pause', error: '' });
+  assert.deepEqual(rowView('paused'), { text: '\u25B6\uFE0E Resume', aria: 'Resume', error: '' });
+  assert.deepEqual(rowView('error'), { text: '\u25B6\uFE0E Listen', aria: 'Listen', error: 'Audio did not load. Check the connection and try again.' });
 });
 
 test('wake lock: requested on playing, released on pause, asked again when visible', async () => {

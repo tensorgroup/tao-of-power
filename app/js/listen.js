@@ -11,8 +11,15 @@ export const LEAD = 0;
 const RATE_KEY = 'tao-listen-rate';
 const RATES = [[0.8, '0.8×'], [1, '1×'], [1.2, '1.2×']];
 const LABEL = { idle: 'Listen', loading: 'Loading…', playing: 'Pause', paused: 'Resume', error: 'Listen' };
-const GLYPH = { idle: '▶ ', loading: '', playing: '❚❚ ', paused: '▶ ', error: '▶ ' };
+// U+FE0E asks for the text form of ▶, so Android does not draw an emoji.
+const PLAY = '\u25B6\uFE0E ';
+const GLYPH = { idle: PLAY, loading: '', playing: '❚❚ ', paused: PLAY, error: PLAY };
 const ERROR_TEXT = 'Audio did not load. Check the connection and try again.';
+
+/** What the row shows in a state: button text, button aria-label, and the error line (empty unless error). */
+export function rowView(s) {
+  return { text: GLYPH[s] + LABEL[s], aria: LABEL[s], error: s === 'error' ? ERROR_TEXT : '' };
+}
 
 /** The last i with times[i] <= now, or -1. times is sorted. */
 export function indexAt(times, now) {
@@ -88,12 +95,16 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
   function mark(i) {
     if (i === last) return;
     last = i;
-    cells.forEach((c, j) => { c.classList.toggle('now', j === i); c.classList.toggle('done', j < i); });
+    cells.forEach((c, j) => {
+      c.classList.toggle('now', j === i);
+      c.classList.toggle('done', j < i);
+      if (j === i) c.setAttribute('aria-current', 'true'); else c.removeAttribute('aria-current');
+    });
     if (i >= 0 && i < cells.length) onIndex(i); // past the end: all done, no current cell
   }
   function clearMarks() {
     last = -1;
-    for (const c of cells) c.classList.remove('now', 'done');
+    for (const c of cells) { c.classList.remove('now', 'done'); c.removeAttribute('aria-current'); }
   }
 
   function loop() {
@@ -107,6 +118,7 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
 
   function holdLock() {
     lockWanted = true;
+    if (lock?.released) lock = null; // the browser drops the lock when the page hides
     if (!deps.wakeLock || lock || lockPending) return;
     lockPending = true;
     Promise.resolve().then(() => deps.wakeLock.request('screen')).then((l) => {
@@ -136,7 +148,6 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
   on(deps.events, 'pagehide', stop);
   on(deps.doc, 'visibilitychange', () => {
     if (deps.doc.visibilityState !== 'visible' || state !== 'playing') return;
-    if (lock?.released) lock = null; // the browser drops the lock when the page hides
     holdLock();
   });
   applyRate();
@@ -144,10 +155,8 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
   function toggle() {
     if (stopped) return;
     if (state === 'playing' || state === 'loading') { media.pause(); return; }
-    if (state === 'idle') {
-      deps.stopSay();
-      if (!tracked) { tracked = true; deps.track('listen', 'zh ' + n); }
-    }
+    deps.stopSay(); // every start: from idle, on resume, and on retry
+    if (state === 'idle' && !tracked) { tracked = true; deps.track('listen', 'zh ' + n); }
     if (state === 'error') { media.load(); applyRate(); }
     set('loading');
     play();
@@ -186,19 +195,20 @@ export function listenRow({ n, file, times, end, cells, onIndex, onStart, onStop
   let player = null;
   let started = false;
 
-  const btn = h('button', { type: 'button', class: 'btn', onclick: press });
+  const btn = h('button', { type: 'button', class: 'btn listen-btn', onclick: press });
   const chips = h('div', { class: 'filters', role: 'group', 'aria-label': 'Speed' });
-  const err = h('p', { class: 'small muted', role: 'status', text: ERROR_TEXT });
+  // Always present and empty unless there is an error: screen readers announce a text change.
+  const err = h('p', { class: 'small listen-error', role: 'status' });
   chips.hidden = true;
-  err.hidden = true;
 
   function label(s) {
-    btn.textContent = GLYPH[s] + LABEL[s];
-    btn.setAttribute('aria-label', LABEL[s]);
-    err.hidden = s !== 'error';
+    const v = rowView(s);
+    btn.textContent = v.text;
+    btn.setAttribute('aria-label', v.aria);
+    err.textContent = v.error;
   }
   function drawChips() {
-    fill(chips, ...RATES.map(([r, text]) => h('button', {
+    fill(chips, h('span', { class: 'small listen-speed', 'aria-hidden': 'true', text: 'Speed' }), ...RATES.map(([r, text]) => h('button', {
       type: 'button', class: 'chip', 'aria-pressed': String(player?.rate === r), text,
       onclick: () => { player?.setRate(r); drawChips(); },
     })));

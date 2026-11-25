@@ -64,6 +64,7 @@ export async function passageView(n, drawId) {
   const segments = segmentsFor(text, p);
   const chars = passageChars(segments);
   const hanButtons = []; // the button.han elements, in passageChars order
+  let listenOk = true; // false when the column and passageChars disagree: no Listen row then
   segments.forEach((segText, i) => {
     const gloss = p?.zh?.[i]?.gloss || {};
     const span = h('span', { class: 'seg' });
@@ -75,7 +76,10 @@ export async function passageView(n, drawId) {
     [...segText].forEach((c, k) => {
       if (isHan(c)) {
         const entry = chars[hanButtons.length];
-        if (entry.ch !== c || entry.seg !== i || entry.k !== k) throw new Error(`passage ${n}: column and passageChars disagree at ${hanButtons.length}`);
+        if (listenOk && (entry?.ch !== c || entry.seg !== i || entry.k !== k)) {
+          console.error(`passage ${n}: column and passageChars disagree at ${hanButtons.length}`);
+          listenOk = false;
+        }
         const occ = gloss[String(k)];
         const btn = h('button', {
           type: 'button', class: occ ? 'han glossed' : 'han',
@@ -161,9 +165,9 @@ export async function passageView(n, drawId) {
   })));
   drawLayout();
   toRight();
-  // The Listen row, under the layout chips, once the manifest says this passage is recorded.
+  // The Listen row, right under the column, once the manifest says this passage is recorded.
   // The view does not wait for the manifest.
-  fetch('data/listen.json').then((r) => r.json()).then((m) => {
+  if (listenOk) fetch('data/listen.json').then((r) => (r.ok ? r.json() : null)).then((m) => {
     const rec = m?.zh?.[n];
     if (!rec) return;
     const row = listenRow({
@@ -172,7 +176,7 @@ export async function passageView(n, drawId) {
       onIndex: (i) => { current = i; if (followAllowed(Date.now(), lastManual, gestureActive())) reveal(i); },
       onStop: () => { current = -1; },
     });
-    if (row) layoutBtns.after(row);
+    if (row) layoutBtns.before(row);
   }).catch(() => { /* no Listen row */ });
   root.append(h('h2', { text: 'The Chinese' }),
     colBox, layoutBtns,
