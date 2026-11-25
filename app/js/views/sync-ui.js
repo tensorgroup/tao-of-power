@@ -1,7 +1,7 @@
 // The sync card (offered after a draw) and the Sync section on the Journal page.
 import { h, fill, toast } from '../ui.js';
 import { syncer } from '../app.js';
-import { available, signIn, signUp, canCheckSilently, DISMISSED, LAST } from '../sync.js';
+import { available, signIn, signUp, DISMISSED, LAST } from '../sync.js';
 import { track } from '../track.js';
 
 const PRIVACY = 'Sync is optional. When it is on, your journal is stored on our server so your other devices can get it. It is not end-to-end encrypted. “Delete synced copy” removes it; database backups expire within 30 days.';
@@ -34,58 +34,43 @@ function switchPrompt(box) {
 const syncedHereBefore = () => { try { return !!localStorage.getItem(LAST); } catch { return false; } };
 
 /**
- * One passkey button that fits what we know. A page cannot ask the browser whether
- * a passkey exists, so: a browser that synced before gets "Sign in"; otherwise
- * "Turn on sync" looks for a passkey first (silently where the browser allows it),
- * and only when none is chosen does the button become "Create a passkey".
+ * The passkey buttons. A browser that synced before gets "Sign in with passkey".
+ * Otherwise "Turn on sync" opens a choice: create a passkey, or sign in with one
+ * made on another device. Nothing opens a passkey sheet until the reader picks.
  * Returns { row, msg }; `extra` are buttons kept at the end of the row.
  */
 function passkeyFlow(box, after, extra = []) {
   const msg = h('p', { class: 'muted small', 'aria-live': 'polite' });
+  const note = h('p', { class: 'muted small', text: PRIVACY, hidden: true });
   const row = h('div', { class: 'row' });
   const onSwitch = () => switchPrompt(box);
   const busy = (on) => { for (const b of row.querySelectorAll('button')) b.disabled = on; };
   const done = (ev) => { track(ev); toast('Sync is on.'); after(); };
-
   const attempt = async (fn) => {
     busy(true);
     msg.textContent = '';
     try { return await fn(); } catch (e) { msg.textContent = e?.message || String(e); return { ok: false }; } finally { busy(false); }
   };
-
-  const showSignIn = (lead) => fill(row, h('button', { class: 'btn primary', type: 'button', text: lead, onclick: async () => {
+  const signInBtn = (primary) => h('button', { class: primary ? 'btn primary' : 'btn', type: 'button', text: 'Sign in with passkey', onclick: async () => {
     const r = await attempt(() => signIn(syncer, { onSwitch }));
     if (r.ok) return done('sync-signin');
-    if (r.message) msg.textContent = r.message;
-    if (r.none) showCreate(r.message ? null : 'No passkey was chosen. If you have never made one for this site, create one now.');
-  } }), ...extra);
-
-  const showCreate = (note) => {
-    if (note) msg.textContent = note;
-    fill(row,
-      h('button', { class: 'btn primary', type: 'button', text: 'Create a passkey', onclick: async () => {
-        const r = await attempt(() => signUp(syncer, { onSwitch }));
-        if (r.ok) return done('sync-on');
-        msg.textContent = r.message || 'No passkey was made.';
-      } }),
-      h('button', { class: 'btn', type: 'button', text: 'Sign in with passkey', onclick: async () => {
-        const r = await attempt(() => signIn(syncer, { onSwitch }));
-        if (r.ok) return done('sync-signin');
-        msg.textContent = r.message || 'No passkey was chosen. If it is on your phone, choose the option to use a phone or another device.';
-      } }),
-      ...extra);
+    msg.textContent = r.message || 'No passkey was chosen. If it is on your phone, choose the option to use a phone or another device.';
+    if (!row.querySelector('.create')) fill(row, signInBtn(true), createBtn(), ...extra); // e.g. its account was deleted
+  } });
+  const createBtn = () => h('button', { class: 'btn create', type: 'button', text: 'Create a passkey', onclick: async () => {
+    const r = await attempt(() => signUp(syncer, { onSwitch }));
+    if (r.ok) return done('sync-on');
+    msg.textContent = r.message || 'No passkey was made.';
+  } });
+  const showChoice = () => {
+    fill(row, signInBtn(true), createBtn(), ...extra);
+    msg.textContent = 'Made a passkey on another device? Sign in with it. New here? Create one.';
+    note.hidden = false;
+    row.querySelector('button')?.focus();
   };
-
-  const showStart = () => fill(row, h('button', { class: 'btn primary', type: 'button', text: 'Turn on sync', onclick: async () => {
-    const silent = await canCheckSilently();
-    const r = await attempt(() => signIn(syncer, { onSwitch, immediate: silent }));
-    if (r.ok) return done('sync-signin');
-    if (r.message) msg.textContent = r.message;
-    if (r.none) showCreate(r.message ? null : silent ? 'No passkey for this site on this device. Made one on your phone? Sign in and choose to use a phone. Otherwise create one.' : 'No passkey was chosen. Made one on another device? Sign in again. Otherwise create one.');
-  } }), ...extra);
-
-  if (syncedHereBefore()) showSignIn('Sign in with passkey'); else showStart();
-  return { row, msg };
+  if (syncedHereBefore()) fill(row, signInBtn(true), ...extra);
+  else fill(row, h('button', { class: 'btn primary', type: 'button', text: 'Turn on sync', onclick: showChoice }), ...extra);
+  return { row, msg, note };
 }
 
 /** Offered after a draw until the reader turns sync on or says "Not now". */
@@ -93,47 +78,63 @@ export function syncCard() {
   if (!available() || syncer.record() || dismissed()) return null;
   const card = h('aside', { class: 'sync-card', 'aria-label': 'Sync' });
   const notNow = h('button', { class: 'btn quiet', type: 'button', text: 'Not now', onclick: () => { try { localStorage.setItem(DISMISSED, '1'); } catch {} card.remove(); } });
-  const { row, msg } = passkeyFlow(card, () => card.remove(), [notNow]);
+  const { row, msg, note } = passkeyFlow(card, () => card.remove(), [notNow]);
   fill(card,
     h('p', { class: 'sync-lead', text: 'Keep this journal on all your devices.' }),
     h('p', { class: 'muted small', text: 'A passkey signs you in: no email, no password.' }),
     row,
-    msg);
+    msg,
+    note);
   return card;
 }
 
-/** The Sync section of the Journal page. `render()` redraws the page. */
-export function syncSection(render) {
+/**
+ * The Sync section of the Journal page. Outside "More": the status and one action
+ * (Turn on sync / Sign in, or Sign out). `more` holds the page's other controls
+ * (Export, Import); Sync now and Delete synced copy join them there.
+ */
+export function syncSection(render, { more = [], moreOpen = false } = {}) {
   const box = h('section', { class: 'sync-box', 'aria-label': 'Sync' });
-  if (!available() && !syncer.record()) {
-    return fill(box, h('p', { class: 'muted small', text: 'Passkeys are not available in this browser, so sync is off here. Export keeps a full copy.' }));
-  }
+  const area = h('div', {});
+  const moreBox = (...items) => h('details', { class: 'more', open: moreOpen || null },
+    h('summary', { text: 'More' }), h('div', { class: 'row' }, ...items.filter(Boolean)));
   const r = syncer.record();
+  const refresh = () => { box.replaceWith(syncSection(render, { more, moreOpen: !!box.querySelector('details.more')?.open })); };
+  const onNews = () => {
+    if (!box.isConnected) { removeEventListener('tao:sync', onNews); return; }
+    if (box.querySelector('.confirm')) return;
+    removeEventListener('tao:sync', onNews);
+    refresh();
+  };
+  addEventListener('tao:sync', onNews);
+
   if (!r) {
-    const { row, msg } = passkeyFlow(box, render);
+    if (!available()) {
+      return fill(box, h('p', { class: 'muted small', text: 'Passkeys are not available in this browser, so sync is off here. Export keeps a full copy.' }), moreBox(...more));
+    }
+    const { row, msg, note } = passkeyFlow(box, render);
     return fill(box,
       h('h2', { text: 'Sync' }),
       h('p', { text: 'Use a passkey to see this journal on your other devices.' }),
-      row,
-      msg,
-      h('p', { class: 'muted small', text: PRIVACY }));
+      row, msg, note, area,
+      moreBox(...more));
   }
+
   const status = r.error === 'too-large'
     ? h('p', { class: 'backup', text: 'The journal is too large to sync. Export keeps a full copy.' })
     : h('p', { class: 'muted small', text: `Sync is on · ${r.label} · ${r.at ? `synced ${ago(r.at)}` : 'not synced yet'}` });
-  const area = h('div', {});
-  const signOutAsk = () => fill(area, h('div', { class: 'confirm', role: 'alertdialog', 'aria-label': 'Sign out' },
-    h('span', { text: 'Sign out of sync on this browser. Keep the journal here too?' }),
-    h('button', { class: 'btn', type: 'button', text: 'Keep it here', onclick: () => out(false) }),
-    h('button', { class: 'btn red', type: 'button', text: 'Remove it from this browser', onclick: () => out(true) }),
-    h('span', { class: 'muted small', text: 'Removing also deletes unsaved drafts here.' }),
-    h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => fill(area) })));
   const out = async (clearLocal) => {
     try { await syncer.signOut({ clearLocal }); } catch (e) { fill(area, h('p', { class: 'backup', text: e.message })); return; }
     track('sync-off');
     toast(clearLocal ? 'Signed out. The journal is on the server, not in this browser.' : 'Signed out. The journal stays in this browser.');
     render();
   };
+  const signOutAsk = () => fill(area, h('div', { class: 'confirm', role: 'alertdialog', 'aria-label': 'Sign out' },
+    h('span', { text: 'Sign out of sync on this browser. Keep the journal here too?' }),
+    h('button', { class: 'btn', type: 'button', text: 'Keep it here', onclick: () => out(false) }),
+    h('button', { class: 'btn red', type: 'button', text: 'Remove it from this browser', onclick: () => out(true) }),
+    h('span', { class: 'muted small', text: 'Removing also deletes unsaved drafts here.' }),
+    h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => fill(area) })));
   const deleteAsk = () => fill(area, h('div', { class: 'confirm', role: 'alertdialog', 'aria-label': 'Delete synced copy' },
     h('span', { text: 'Delete the synced copy from the server? This browser keeps its journal. Your other devices stop syncing.' }),
     h('button', { class: 'btn red', type: 'button', text: 'Delete synced copy', onclick: async () => {
@@ -145,21 +146,15 @@ export function syncSection(render) {
       } catch (e) { toast(e.message, { warn: true }); render(); }
     } }),
     h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => fill(area) })));
-  const onNews = () => {
-    if (!box.isConnected) { removeEventListener('tao:sync', onNews); return; }
-    if (box.querySelector('.confirm')) return;
-    removeEventListener('tao:sync', onNews);
-    box.replaceWith(syncSection(render));
-  };
-  addEventListener('tao:sync', onNews);
   return fill(box,
     h('h2', { text: 'Sync' }),
     status,
-    h('div', { class: 'row' },
-      h('button', { class: 'btn', type: 'button', text: 'Sync now', onclick: async () => { await syncer.syncNow(); render(); } }),
-      h('button', { class: 'btn quiet', type: 'button', text: 'Sign out', onclick: signOutAsk }),
-      h('button', { class: 'btn quiet', type: 'button', text: 'Delete synced copy', onclick: deleteAsk })),
-    area);
+    h('div', { class: 'row' }, h('button', { class: 'btn', type: 'button', text: 'Sign out', onclick: signOutAsk })),
+    area,
+    moreBox(
+      h('button', { class: 'btn', type: 'button', text: 'Sync now', onclick: async () => { await syncer.syncNow(); refresh(); } }),
+      ...more,
+      h('button', { class: 'btn quiet', type: 'button', text: 'Delete synced copy', onclick: deleteAsk })));
 }
 
 /**

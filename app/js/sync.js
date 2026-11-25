@@ -252,21 +252,16 @@ export async function signUp(syncer, { onSwitch } = {}) {
   return { ok: await syncer.adopt(v.data.account, { onSwitch }) };
 }
 
-/** True when the browser can look for a passkey without showing any dialog. */
-export async function canCheckSilently() {
-  try { return (await PublicKeyCredential.getClientCapabilities?.())?.immediateGet === true; } catch { return false; }
-}
-
 /**
  * Use an existing passkey. Returns { ok, message, none }. `none` means no passkey
- * was chosen: the reader closed the sheet, or (with `immediate`) this device has none.
+ * was chosen: the reader closed the sheet.
  */
-export async function signIn(syncer, { onSwitch, immediate = false } = {}) {
+export async function signIn(syncer, { onSwitch } = {}) {
   const o = await post(syncer, '/api/auth/login/options', {});
   if (!o.res.ok) return { ok: false, message: SERVER_MSG[o.data.error] || 'Sync is not available right now.' };
   let cred;
   try {
-    cred = await navigator.credentials.get({ publicKey: requestOptions(o.data.options), ...(immediate ? { mediation: 'immediate' } : {}) });
+    cred = await navigator.credentials.get({ publicKey: requestOptions(o.data.options) });
   } catch (e) {
     const message = ceremonyError(e);
     return { ok: false, message, none: message === null };

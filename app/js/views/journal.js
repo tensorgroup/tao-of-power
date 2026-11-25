@@ -24,11 +24,11 @@ export async function journalView() {
       h('h1', { text: 'Journal' }),
       h('p', { class: 'muted', text: `${j.entries.length} entr${j.entries.length === 1 ? 'y' : 'ies'} · ${j.draws.length} draw${j.draws.length === 1 ? '' : 's'}` }),
       syncer.record() ? null : backupNote(last, newer),
-      syncSection(render),
+      syncSection(render, { more: [
+        h('button', { class: 'btn', type: 'button', text: 'Export', onclick: () => doExport(render) }),
+        h('button', { class: 'btn', type: 'button', text: 'Import', onclick: () => doImport(render) }),
+      ] }),
       restoreBox(render),
-      h('div', { class: 'row' },
-        h('button', { class: 'btn primary', type: 'button', text: 'Export', onclick: () => doExport(render) }),
-        h('button', { class: 'btn', type: 'button', text: 'Import', onclick: () => doImport(render) })),
       tabs.length ? h('details', { class: 'legge tab-list', open: true }, h('summary', { text: `Margin tabs (${tabs.length})` }),
         entryList(tabs, { showPassage: true, idx, onChange: render })) : null,
       entries.length ? entryList(entries, { showPassage: true, idx, onChange: render })
@@ -57,7 +57,7 @@ function restoreBox(render) {
 function backupNote(last, newer) {
   if (!newer) return last ? h('p', { class: 'muted small', text: `Last backup ${Math.round((Date.now() - last) / DAY)} day(s) ago.` }) : null;
   const age = last ? `Last backup ${Math.round((Date.now() - last) / DAY)} day(s) ago. ` : 'Not backed up yet. ';
-  return h('p', { class: 'backup', text: `${age}${newer} entr${newer === 1 ? 'y is' : 'ies are'} only in this browser. Export to keep them safe.` });
+  return h('p', { class: 'backup', text: `${age}${newer} entr${newer === 1 ? 'y is' : 'ies are'} only in this browser. Turn on sync, or use Export under More.` });
 }
 
 export function entryList(entries, { showPassage, idx, onChange }) {
@@ -191,5 +191,6 @@ function showImportChoice(incoming, before, render) {
         h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => box.remove() }));
     } }),
     h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => box.remove() }));
-  view.querySelector('section')?.insertBefore(box, view.querySelector('section').children[3] || null);
+  const anchor = view.querySelector('.sync-box');
+  if (anchor) anchor.after(box); else view.querySelector('section')?.prepend(box);
 }

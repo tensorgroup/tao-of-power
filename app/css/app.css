@@ -322,6 +322,12 @@ details.legge p { font-size: 1rem; color: var(--ink-2); }
 .sync-card .row, .sync-box .row { margin-top: .6rem; }
 .sync-box { margin: 1rem 0 1.5rem; }
 .sync-box h2 { margin-bottom: .3rem; }
+.sync-box details.more { margin-top: .9rem; }
+.sync-box details.more > summary { cursor: pointer; color: var(--ink-2); min-height: var(--tap); display: flex; align-items: center; gap: .4rem; list-style: none; }
+.sync-box details.more > summary::-webkit-details-marker { display: none; }
+.sync-box details.more > summary::before { content: '▸'; display: inline-block; transition: transform .15s; }
+.sync-box details.more[open] > summary::before { transform: rotate(90deg); }
+.sync-box details.more .row { margin-top: .3rem; }
 .draw-row .small-btn { margin: 0 0 0 auto; }
 
 /* Browse */
