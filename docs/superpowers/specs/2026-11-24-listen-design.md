@@ -288,8 +288,14 @@ For each passage in `listen.json`:
 
 ### Stage 2: English (its own plan, after the English voice test)
 
-- Voice: an English voice that supports SSML marks, chosen by Billy from
-  a second listening test on passage 1.
+- Voice: Chirp 3 HD Callirrhoe (`en-US-Chirp3-HD-Callirrhoe`), chosen by
+  Billy from a second listening test on passage 1. Chirp 3 HD does not
+  return SSML marks, so speech recognition times the words: see the stage 2
+  plan, Task 2b (`docs/superpowers/plans/2026-11-24-listen-stage2-english.md`).
+  The first idea below (a voice with SSML marks) was replaced by that design.
+- Size: a target of about 35 MB in total for 81 Chinese and 81 English
+  recordings (they came to 27 MB). This replaces the 15 MB in the open
+  details below, which counted the Chinese only.
 - Words: tokenize each plain rendering line once (markup removed with
   `parseMarked`). A word is a run of letters, digits, `'`, and `’`
   (U+2019). Han characters are not English words. Map each word's
