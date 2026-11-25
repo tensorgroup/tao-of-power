@@ -24,11 +24,19 @@ test('almost every lexicon reading has a recording', () => {
 
 // One sound at a time. A fresh module instance per test, because the index is cached per module.
 let n = 0;
-async function harness(fetchImpl) {
-  const saved = ['fetch', 'Audio', 'dispatchEvent', 'addEventListener'].map((k) => [k, Object.getOwnPropertyDescriptor(globalThis, k)]);
-  const counts = { play: 0, pause: 0, sound: 0 };
+async function harness(fetchImpl, { playFails = false } = {}) {
+  const saved = ['fetch', 'Audio', 'dispatchEvent', 'addEventListener', 'speechSynthesis', 'SpeechSynthesisUtterance']
+    .map((k) => [k, Object.getOwnPropertyDescriptor(globalThis, k)]);
+  const counts = { play: 0, pause: 0, sound: 0, speak: 0 };
   globalThis.fetch = fetchImpl || (async () => ({ json: async () => ['dao4'] }));
-  globalThis.Audio = class { play() { counts.play++; return Promise.resolve(); } pause() { counts.pause++; } };
+  globalThis.Audio = class {
+    play() { counts.play++; return playFails ? Promise.reject(new Error('NotAllowedError')) : Promise.resolve(); }
+    pause() { counts.pause++; }
+  };
+  Object.defineProperty(globalThis, 'speechSynthesis', {
+    value: { cancel() {}, getVoices: () => [], speak() { counts.speak++; } }, configurable: true, writable: true,
+  });
+  globalThis.SpeechSynthesisUtterance = class { constructor(t) { this.text = t; } };
   const et = new EventTarget();
   Object.defineProperty(globalThis, 'dispatchEvent', { value: et.dispatchEvent.bind(et), configurable: true, writable: true });
   Object.defineProperty(globalThis, 'addEventListener', { value: et.addEventListener.bind(et), configurable: true, writable: true });
@@ -66,6 +74,24 @@ test('stopSay while the index is loading cancels that say', async () => {
     mod.stopSay();
     release();
     assert.equal(await p, false);
+    assert.equal(counts.play, 0);
+  } finally { restore(); }
+});
+
+test('a failed play falls back to speech and announces tao:sound only once', async () => {
+  const { mod, counts, restore } = await harness(undefined, { playFails: true });
+  try {
+    assert.equal(await mod.say('dào', '道'), true);
+    assert.equal(counts.speak, 1);
+    assert.equal(counts.sound, 1);
+  } finally { restore(); }
+});
+
+test('a tao:sound listener that stops sound cancels the say before it plays', async () => {
+  const { mod, counts, restore } = await harness();
+  try {
+    globalThis.addEventListener('tao:sound', () => mod.stopSay(), { once: true });
+    assert.equal(await mod.say('dào', '道'), false);
     assert.equal(counts.play, 0);
   } finally { restore(); }
 });

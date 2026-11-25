@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 
 // sw-range.js is a classic script (the service worker loads it with importScripts).
 await import('../app/js/sw-range.js');
-const { parseRange, sliceResponse, audioFetch } = globalThis.taoRange;
+const { parseRange, sliceResponse, audioFetch, isRangedAudio, listenKeep } = globalThis.taoRange;
 
 const bytes = (n) => Uint8Array.from({ length: n }, (_, i) => i % 256);
 const full = (n = 100) => new Response(bytes(n), { status: 200, headers: { 'Content-Type': 'audio/mpeg' } });
@@ -95,4 +95,24 @@ test('audioFetch returns a 404 as it is and does not store it', async () => {
   const res = await audioFetch(req, cache, async () => new Response('no', { status: 404 }));
   assert.equal(res.status, 404);
   assert.equal(cache.m.size, 0);
+});
+
+test('isRangedAudio: only .mp3 files under /audio/', () => {
+  assert.equal(isRangedAudio('/audio/dao4.mp3'), true);
+  assert.equal(isRangedAudio('/audio/passages/01.zh.0123abcd.mp3'), true);
+  assert.equal(isRangedAudio('/audio/index.json'), false);
+  assert.equal(isRangedAudio('/art/x.mp3'), false);
+});
+
+test('listenKeep: names every file and prev in the manifest, as paths under the scope', () => {
+  const m = { zh: {
+    1: { file: 'audio/passages/01.zh.aaaaaaaa.mp3', prev: 'audio/passages/01.zh.bbbbbbbb.mp3' },
+    2: { file: 'audio/passages/02.zh.cccccccc.mp3' },
+    3: null,
+  } };
+  const keep = listenKeep(m, 'https://tao.example/');
+  assert.deepEqual([...keep].sort(), [
+    '/audio/passages/01.zh.aaaaaaaa.mp3', '/audio/passages/01.zh.bbbbbbbb.mp3', '/audio/passages/02.zh.cccccccc.mp3',
+  ]);
+  assert.equal(listenKeep(null, 'https://tao.example/').size, 0);
 });

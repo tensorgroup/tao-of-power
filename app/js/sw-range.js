@@ -1,4 +1,4 @@
-/* Range answers for cached audio. A classic script (no import/export): the
+/* Range answers for cached audio, and which recordings to keep. A classic script (no import/export): the
    service worker loads it with importScripts, and node tests with import().
    Both set globalThis.taoRange. Media elements ask for `Range: bytes=…`; a
    cached full 200 must be sliced into a 206, or seeking and playback fail. */
@@ -29,7 +29,7 @@
     const size = buf.byteLength;
     const range = parseRange(header, size);
     const type = full.headers.get('Content-Type');
-    if (range === 'invalid' || range === null) {
+    if (range === 'invalid') {
       return new Response(null, { status: 416, headers: { 'Content-Range': `bytes */${size}` } });
     }
     const headers = {
@@ -54,5 +54,20 @@
     return sliceResponse(res, range);
   }
 
-  globalThis.taoRange = { parseRange, sliceResponse, audioFetch };
+  // Only recordings go through audioFetch; audio/index.json takes the plain lazy path.
+  const isRangedAudio = (pathname) => /\/audio\/.*\.mp3$/.test(pathname);
+
+  // The recording paths a data/listen.json names: each entry's file, and its prev
+  // (kept one release, for readers whose page still names the old file).
+  function listenKeep(listen, scope) {
+    const keep = new Set();
+    for (const lang of ['zh', 'en']) {
+      for (const entry of Object.values((listen && listen[lang]) || {})) {
+        for (const f of [entry?.file, entry?.prev]) if (typeof f === 'string') keep.add(new URL(f, scope).pathname);
+      }
+    }
+    return keep;
+  }
+
+  globalThis.taoRange = { parseRange, sliceResponse, audioFetch, isRangedAudio, listenKeep };
 })();

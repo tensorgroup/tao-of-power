@@ -34,11 +34,12 @@ export function stopSay() {
 
 const announce = () => globalThis.dispatchEvent?.(new Event('tao:sound'));
 
-function speakFallback(char) {
+/** Speak with the device's voice. announced: tao:sound was already sent for this say(). */
+function speakFallback(char, announced = false) {
   const synth = globalThis.speechSynthesis;
   if (!synth || !char) return false;
   synth.cancel();
-  announce();
+  if (!announced) announce();
   const u = new SpeechSynthesisUtterance(char);
   u.lang = 'zh-CN';
   u.rate = 0.8;
@@ -57,9 +58,10 @@ export async function say(py, char) {
   const file = candidates(py).find((c) => have.has(c));
   current?.pause();
   if (!file) return speakFallback(char);
-  current = new Audio(`audio/${file}.mp3`);
   announce();
-  try { await current.play(); return true; } catch { return gen === generation && speakFallback(char); }
+  if (gen !== generation) return false; // a tao:sound listener stopped sound
+  current = new Audio(`audio/${file}.mp3`);
+  try { await current.play(); return true; } catch { return gen === generation && speakFallback(char, true); }
 }
 
 /** A small "▶ dào" button. */

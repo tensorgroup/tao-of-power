@@ -1,7 +1,7 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
-importScripts('js/sw-range.js'); // taoRange: Range (206) answers for cached audio
+importScripts('js/sw-range.js'); // taoRange: Range (206) answers for cached audio, and the recordings to keep
 // <precache>
-const VERSION = 'c276f320ee6e';
+const VERSION = 'be6577821e07';
 const ART_VERSION = '3cfa7432';
 const SEARCH_VERSION = 'dffb8a05';
 const MODEL_VERSION = 'a31ada72';
@@ -327,7 +327,7 @@ const LISTEN_CACHE = 'tao-listen';
 // Order matters: the first match wins, so '/audio/passages/' comes before '/audio/'.
 const LAZY = [['/art/', ART_CACHE], ['/model/', MODEL_CACHE], ['/data/search/', SEARCH_CACHE], ['/audio/passages/', LISTEN_CACHE], ['/audio/', AUDIO_CACHE]];
 
-// Delete cached recordings that the current data/listen.json no longer names.
+// Delete cached recordings that the current data/listen.json no longer names (as file or prev).
 async function pruneListen() {
   let listen;
   try {
@@ -335,12 +335,7 @@ async function pruneListen() {
     if (!res) return;
     listen = await res.json();
   } catch { return; }
-  const keep = new Set();
-  for (const lang of ['zh', 'en']) {
-    for (const entry of Object.values((listen && listen[lang]) || {})) {
-      if (entry && typeof entry.file === 'string') keep.add(new URL(entry.file, self.registration.scope).pathname);
-    }
-  }
+  const keep = taoRange.listenKeep(listen, self.registration.scope);
   const c = await caches.open(LISTEN_CACHE);
   for (const key of await c.keys()) if (!keep.has(new URL(key.url).pathname)) await c.delete(key);
 }
@@ -387,7 +382,7 @@ self.addEventListener('fetch', (event) => {
     if (lazy) {
       const c = await caches.open(lazy[1]);
       // Audio is stored whole and sliced here: media elements send Range and need a 206.
-      if (url.pathname.includes('/audio/')) return taoRange.audioFetch(req, c, fetch);
+      if (taoRange.isRangedAudio(url.pathname)) return taoRange.audioFetch(req, c, fetch);
       const got = await c.match(req);
       if (got) return got;
       const res = await fetch(req);
