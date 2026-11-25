@@ -111,3 +111,51 @@ test('parseWav finds the data chunk after an extra LIST chunk', () => {
   assert.equal(w.channels, 1);
   assert.deepEqual([...w.pcm], [1, 0, 2, 0, 3, 0]);
 });
+
+import { checkListen } from '../scripts/check-audio.mjs';
+
+const CL_READ = { engine: ['一'], at: {}, chars: {}, extra: {} };
+const CL_SEGS = { 1: ['道可道，非常道。'] };
+function clGood() {
+  const parts = buildSsml(CL_SEGS[1], (c) => resolveReading(1, c, CL_READ));
+  const m = { v: 1, voice: SETTINGS.voice, rate: SETTINGS.rate, en: {},
+    zh: { 1: { file: 'audio/passages/01.zh.aaaaaaaa.mp3', src: sourceHash(parts), n: 7, end: 5, t: [0.1, 0.5, 1, 1.5, 2, 2.5, 3] } } };
+  return { manifest: m, segmentsOf: (n) => CL_SEGS[n], readings: CL_READ, lex: {}, exists: () => true, mp3s: ['01.zh.aaaaaaaa.mp3'] };
+}
+const clRun = (mut) => { const a = clGood(); mut(a); return checkListen(a); };
+
+test('checkListen: a manifest made by the builder has no errors', () => {
+  assert.deepEqual(checkListen(clGood()), []);
+});
+test('checkListen: changed text gives the exact message', () => {
+  const e = clRun((a) => { a.segmentsOf = () => ['道可道，非常名。']; });
+  assert.deepEqual(e, ['Passage 1 text or readings changed after the recording. Run `npm run audio -- 1`, or `npm run audio -- --drop 1`.']);
+});
+test('checkListen: changed reading is also stale', () => {
+  const e = clRun((a) => { a.readings = { ...CL_READ, chars: { 道: 'dao4' } }; a.lex = { 道: { py: ['dào'] } }; });
+  assert.equal(e.length, 1); assert.match(e[0], /^Passage 1 text or readings changed/);
+});
+test('checkListen: t length must equal n', () => {
+  const e = clRun((a) => { a.manifest.zh[1].n = 8; });
+  assert.equal(e.length, 1); assert.match(e[0], /Passage 1.*t/);
+});
+test('checkListen: t must increase', () => {
+  const e = clRun((a) => { a.manifest.zh[1].t[3] = 0.5; });
+  assert.equal(e.length, 1); assert.match(e[0], /increas/);
+});
+test('checkListen: end must be after the last mark', () => {
+  const e = clRun((a) => { a.manifest.zh[1].end = 3; });
+  assert.equal(e.length, 1); assert.match(e[0], /end/);
+});
+test('checkListen: a missing file is an error', () => {
+  const e = clRun((a) => { a.exists = () => false; });
+  assert.equal(e.length, 1); assert.match(e[0], /01\.zh\.aaaaaaaa\.mp3/);
+});
+test('checkListen: an MP3 no entry names is an error', () => {
+  const e = clRun((a) => { a.mp3s.push('01.zh.tmp.mp3'); });
+  assert.equal(e.length, 1); assert.match(e[0], /01\.zh\.tmp\.mp3/);
+});
+test('checkListen: readings errors are reported', () => {
+  const e = clRun((a) => { a.lex = { 道: { py: ['dao4', 'dao3'] } }; });
+  assert.ok(e.some((x) => /needs a reading decision/.test(x)));
+});
