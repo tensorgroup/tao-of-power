@@ -9,6 +9,7 @@ const read = (p) => JSON.parse(readFileSync(new URL(p, root)));
 const src = read('sources/zh-wangbi.json');
 const uni = read('sources/unihan.json');
 const lex = read('app/data/lexicon.json');
+const allText = read('app/data/text.json');
 const shuowen = hanOnly(readFileSync(new URL('sources/shuowen.txt', root), 'utf8'));
 
 const KINDS = new Set(['etymology', 'gap', 'history', 'geopolitics', 'wordplay', 'variant', 'wangbi', 'legge', 'practice', 'pair']);
@@ -56,6 +57,7 @@ function checkPassage(f, where) {
   try { p = read(`app/data/passages/${f}`); } catch (e) { err(where, `bad JSON: ${e.message}`); return; }
   for (const k of KEYS) if (!(k in p)) err(where, `missing key ${k}`);
   if (p.n !== Number(f.slice(0, 2))) err(where, `n=${p.n} does not match file name`);
+  if (allText[p.n - 1] && p.zh.length !== allText[p.n - 1].zh.length) err(where, `zh has ${p.zh.length} segments, text.json has ${allText[p.n - 1].zh.length}`);
   if (!THEMES.has(p.theme)) err(where, `unknown theme ${p.theme}`);
   const srcText = hanOnly(src[p.n - 1].segments.map((s) => s.zh).join(''));
   const ourText = hanOnly((p.zh || []).map((s) => s.text).join(''));

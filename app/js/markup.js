@@ -23,3 +23,16 @@ export const isHan = (ch) => HAN.test(ch);
 export function hanChars(s) {
   return [...s].filter(isHan);
 }
+
+// Every Han character of a passage, in reading order. `k` is the code-point index in its
+// segment (the key of zh[seg].gloss); `i` counts Han characters across the whole passage.
+export function passageChars(segments) {
+  const out = [];
+  segments.forEach((seg, s) => {
+    [...seg].forEach((ch, k) => { if (isHan(ch)) out.push({ ch, seg: s, k, i: out.length }); });
+  });
+  return out;
+}
+
+// The passage file's Chinese text wins over text.json (the two differ in punctuation).
+export const segmentsFor = (text, rich) => text.zh.map((seg, i) => rich?.zh?.[i]?.text ?? seg);

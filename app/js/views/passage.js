@@ -4,7 +4,7 @@ import { linesFor } from '../draw.js';
 import { getPassage, getLexicon, getArt, getEchoes, getWing, getCulture } from '../data.js';
 import { openSheet } from '../sheet.js';
 import { rich, openChar, hanify, linkRefs } from '../notes.js';
-import { isHan } from '../markup.js';
+import { isHan, passageChars, segmentsFor } from '../markup.js';
 import { state } from '../app.js';
 import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
 import { entryList } from './journal.js';
@@ -60,9 +60,11 @@ export async function passageView(n, drawId) {
 
   // Chinese column
   const col = h('div', { class: 'column', lang: 'zh-Hant' });
-  text.zh.forEach((seg, i) => {
+  const segments = segmentsFor(text, p);
+  const chars = passageChars(segments);
+  const hanButtons = []; // the button.han elements, in passageChars order
+  segments.forEach((segText, i) => {
     const gloss = p?.zh?.[i]?.gloss || {};
-    const segText = p?.zh?.[i]?.text ?? seg;
     const span = h('span', { class: 'seg' });
     // Each character and the punctuation after it share one unbreakable cell,
     // so a column never starts with a comma. Clauses (ended by ，；。：！？) are
@@ -71,12 +73,16 @@ export async function passageView(n, drawId) {
     let clause = h('span', { class: 'clause' });
     [...segText].forEach((c, k) => {
       if (isHan(c)) {
+        const entry = chars[hanButtons.length];
+        if (entry.ch !== c || entry.seg !== i || entry.k !== k) throw new Error(`passage ${n}: column and passageChars disagree at ${hanButtons.length}`);
         const occ = gloss[String(k)];
-        cell = h('span', { class: 'zh-cell' }, h('button', {
+        const btn = h('button', {
           type: 'button', class: occ ? 'han glossed' : 'han',
           'aria-label': `${c} ${(lex[c]?.py || []).join(' ')}`,
           onclick: () => openChar(c, occ, ctx),
-        }, c));
+        }, c);
+        hanButtons.push(btn);
+        cell = h('span', { class: 'zh-cell' }, btn);
         clause.append(cell);
       } else {
         const mark = h('span', { class: 'punct', 'aria-hidden': 'true', text: VERTICAL_PUNCT[c] || c });
