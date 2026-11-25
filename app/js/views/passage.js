@@ -14,12 +14,15 @@ import { sayButton } from '../audio.js';
 import { track } from '../track.js';
 import { listenRow, followTarget, followAllowed, gestureLive, pageFollowDelta, pageFollowStep, lineOnScreen } from '../listen.js';
 
-const CLAUSE_END = new Set(['，', '；', '。', '：', '！', '？', ',']);
+// Small forms (﹕ ﹗) occur in the source text too; they end a clause like the normal marks.
+const CLAUSE_END = new Set(['，', '；', '。', '：', '！', '？', ',', '﹕', '﹗']);
+// Opening quotes belong to the character after them, so a column never ends with one.
+const OPENERS = new Set(['「', '『']);
 const LAYOUT_KEY = 'tao.colLayout';
 const getLayout = () => { try { return localStorage.getItem(LAYOUT_KEY) === 'printed' ? 'printed' : 'lines'; } catch { return 'lines'; } };
 
 // Vertical presentation forms: in a vertical column, commas and stops sit at the top right of the cell.
-const VERTICAL_PUNCT = { '，': '︐', '、': '︑', '。': '︒', '：': '︓', '；': '︔', '！': '︕', '？': '︖', '「': '﹁', '」': '﹂', '『': '﹃', '』': '﹄' };
+const VERTICAL_PUNCT = { '，': '︐', '、': '︑', '﹑': '︑', '。': '︒', '：': '︓', '﹕': '︓', '；': '︔', '！': '︕', '﹗': '︕', '？': '︖', '「': '﹁', '」': '﹂', '『': '﹃', '』': '﹄' };
 
 const THEME = {
   way: 'The Way', seeing: 'Seeing', self: 'Self', leading: 'Leading',
@@ -87,6 +90,7 @@ export async function passageView(n, drawId) {
     // so a column never starts with a comma. Clauses (ended by ，；。：！？) are
     // wrapped so the "Lines" layout can start each one at the top of a column.
     let cell = null;
+    let opener = []; // opening quotes waiting for the next character's cell
     let clause = h('span', { class: 'clause' });
     [...segText].forEach((c, k) => {
       if (isHan(c)) {
@@ -102,15 +106,19 @@ export async function passageView(n, drawId) {
           onclick: () => openChar(c, occ, ctx),
         }, c);
         hanButtons.push(btn);
-        cell = h('span', { class: 'zh-cell' }, btn);
+        cell = h('span', { class: 'zh-cell' }, ...opener, btn);
+        opener = [];
         clause.append(cell);
       } else {
         const mark = h('span', { class: 'punct', 'aria-hidden': 'true', text: VERTICAL_PUNCT[c] || c });
-        // Punctuation joins the character before it, even across a clause break (as in ？」).
+        // An opening quote waits for the next character; other punctuation joins the
+        // character before it, even across a clause break (as in ？」).
+        if (OPENERS.has(c)) { opener.push(mark); return; }
         (cell || clause).append(mark);
         if (CLAUSE_END.has(c) && clause.querySelector('.zh-cell')) { span.append(clause); clause = h('span', { class: 'clause' }); }
       }
     });
+    if (opener.length) (cell || clause).append(...opener); // a quote with no character after it
     if (clause.querySelector('.zh-cell')) span.append(clause);
     else if (clause.childNodes.length) (cell || span).append(...clause.childNodes);
     col.append(span);
