@@ -113,7 +113,7 @@ export async function passageView(n, drawId) {
         const mark = h('span', { class: 'punct', 'aria-hidden': 'true', text: VERTICAL_PUNCT[c] || c });
         // An opening quote waits for the next character; other punctuation joins the
         // character before it, even across a clause break (as in ？」).
-        if (OPENERS.has(c)) { opener.push(mark); return; }
+        if (OPENERS.has(c)) { mark.classList.add('opener'); opener.push(mark); return; }
         (cell || clause).append(mark);
         if (CLAUSE_END.has(c) && clause.querySelector('.zh-cell')) { span.append(clause); clause = h('span', { class: 'clause' }); }
       }
@@ -175,10 +175,17 @@ export async function passageView(n, drawId) {
   // editions set the text); "As printed" runs it on continuously, as old books did.
   let layout = getLayout();
   // In "Lines", size the column to its longest clause (each cell is about 1.2em tall).
-  const longest = Math.max(1, ...[...col.querySelectorAll('.clause')].map((c) => c.querySelectorAll('.zh-cell').length));
+  // A clause's height in glyphs: its characters, plus an opening quote and any mark inside
+  // the clause (孤︑寡︑), which take their own space. The clause's last mark is covered below.
+  const units = (c) => {
+    const marks = c.querySelectorAll('.punct').length;
+    return c.querySelectorAll('.zh-cell').length + (marks ? marks - 1 : 0);
+  };
+  const longest = Math.max(1, ...[...col.querySelectorAll('.clause')].map(units));
   const applyLayout = () => {
     col.classList.toggle('lines', layout === 'lines');
-    col.style.height = layout === 'lines' ? `min(20rem, ${(longest * 1.22 + 1.1).toFixed(2)}em)` : '';
+    // Tall enough for the longest clause, so a line never wraps; capped at 70% of the screen.
+    col.style.height = layout === 'lines' ? `min(70svh, ${(longest * 1.22 + 1.1).toFixed(2)}em)` : '';
   };
   applyLayout();
   const layoutBtns = h('div', { class: 'filters col-layout', role: 'group', 'aria-label': 'Layout of the Chinese' });
