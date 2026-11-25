@@ -1,33 +1,51 @@
 // Check the Listen recordings: each entry matches its passage text and readings, its timings make sense, and no stray MP3 is left.
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { join, basename } from 'node:path';
-import { segmentsFor } from '../app/js/markup.js';
-import { resolveReading, buildSsml, sourceHash, validateReadings } from './lib/listen-ssml.mjs';
+import { segmentsFor, passageChars } from '../app/js/markup.js';
+import { resolveReading, buildSsml, sourceHash, validateReadings, validateGlobalReadings } from './lib/listen-ssml.mjs';
 
 const app = fileURLToPath(new URL('../app/', import.meta.url));
 const scripts = fileURLToPath(new URL('./', import.meta.url));
 
-/** Return a list of error strings; an empty list means the recordings are good. `mp3s` holds file basenames. */
-export function checkListen({ manifest, segmentsOf, readings, lex, exists, mp3s }) {
-  const errs = [];
+/** The 8 hex digits in a recording's name (NN.zh.<h8>.mp3), or null. */
+const nameHash = (file) => /\.([0-9a-f]{8})\.mp3$/.exec(file)?.[1] ?? null;
+
+/**
+ * Return a list of error strings; an empty list means the recordings are good.
+ * `mp3s` holds file basenames; `exists(rel)` and `hashOf(rel)` (SHA-256 hex) take app-relative paths.
+ */
+export function checkListen({ manifest, segmentsOf, readings, lex, exists, hashOf, mp3s }) {
+  const global = validateGlobalReadings(readings, lex);
+  const errs = [...global];
   const named = new Set();
+  // A named file must exist, and its bytes must hash to its name.
+  const checkFile = (n, what, file) => {
+    named.add(basename(file));
+    if (!exists(file)) { errs.push(`Passage ${n}: ${what} ${file} does not exist.`); return; }
+    const want = nameHash(file);
+    const got = hashOf(file)?.slice(0, 8);
+    if (got !== want) errs.push(`Passage ${n}: ${file} hashes to ${got}, not the ${want} in its name.`);
+  };
   for (const [key, e] of Object.entries(manifest.zh ?? {})) {
     const n = Number(key);
     const segments = segmentsOf(n);
-    named.add(basename(e.file));
     const bad = validateReadings(n, segments, readings, lex);
     errs.push(...bad);
-    if (!bad.length) {
+    if (!bad.length && !global.length) {
       const src = sourceHash(buildSsml(segments, (c) => resolveReading(n, c, readings)));
       if (e.src !== src) errs.push(`Passage ${n} text or readings changed after the recording. Run \`npm run audio -- ${n}\`, or \`npm run audio -- --drop ${n}\`.`);
     }
+    const count = passageChars(segments).length;
     if (e.t.length !== e.n) errs.push(`Passage ${n}: t has ${e.t.length} times, but n is ${e.n}.`);
+    else if (e.n !== count) errs.push(`Passage ${n}: n is ${e.n} and t has ${e.t.length} times, but the passage has ${count} characters.`);
     for (let i = 1; i < e.t.length; i++) {
       if (!(e.t[i] > e.t[i - 1])) { errs.push(`Passage ${n}: t does not increase at mark ${i}.`); break; }
     }
     if (e.t.length && !(e.end > e.t[e.t.length - 1])) errs.push(`Passage ${n}: end (${e.end}) is not after the last mark (${e.t[e.t.length - 1]}).`);
-    if (!exists(e.file)) errs.push(`Passage ${n}: file ${e.file} does not exist.`);
+    checkFile(n, 'file', e.file);
+    if (e.prev != null) checkFile(n, 'prev', e.prev);
   }
   for (const f of mp3s) if (!named.has(f)) errs.push(`audio/passages/${f} is not named by any entry in listen.json.`);
   return errs;
@@ -49,6 +67,7 @@ function main() {
     readings: readJson(join(scripts, 'audio-readings.json')),
     lex: readJson(join(app, 'data/lexicon.json')),
     exists: (rel) => existsSync(join(app, rel)),
+    hashOf: (rel) => createHash('sha256').update(readFileSync(join(app, rel))).digest('hex'),
     mp3s: existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith('.mp3')) : [],
   });
   for (const e of errs) console.error(e);

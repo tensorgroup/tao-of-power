@@ -1,31 +1,33 @@
 // Record the Listen read-aloud audio: Google TTS (SSML marks) -> one MP3 per passage + timings in listen.json.
-// Usage: node scripts/build-audio.mjs [N...] | --drop N | --no-force --out <path> N
+// Usage: node scripts/build-audio.mjs [N...] | --drop N | --list N | --no-force --out <path> N
 import { readFileSync, writeFileSync, renameSync, readdirSync, unlinkSync, existsSync, mkdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { join } from 'node:path';
 import { segmentsFor } from '../app/js/markup.js';
-import { SETTINGS, resolveReading, buildSsml, sourceHash, validateReadings } from './lib/listen-ssml.mjs';
+import { SETTINGS, resolveReading, buildSsml, sourceHash, validateReadings, validateGlobalReadings, forcedReadings } from './lib/listen-ssml.mjs';
 
 const app = fileURLToPath(new URL('../app/', import.meta.url));
 const scripts = fileURLToPath(new URL('./', import.meta.url));
 const MANIFEST = join(app, 'data/listen.json');
 const OUT_DIR = join(app, 'audio/passages');
 const ENDPOINT = 'https://texttospeech.googleapis.com/v1beta1/text:synthesize';
+const USAGE = 'Usage: npm run audio -- [N...] | --drop N | --list N | --no-force --out <path> N';
 const FFMPEG = existsSync('/opt/homebrew/bin/ffmpeg') ? '/opt/homebrew/bin/ffmpeg' : 'ffmpeg';
 
 /** Read a WAV buffer: find the fmt and data chunks (the header length varies). */
 export function parseWav(buf) {
   if (buf.toString('latin1', 0, 4) !== 'RIFF' || buf.toString('latin1', 8, 12) !== 'WAVE') throw new Error('not a WAV file');
-  let pos = 12, sampleRate = 0, channels = 0;
+  let pos = 12, sampleRate = 0, channels = 0, bits = 0;
   while (pos + 8 <= buf.length) {
     const id = buf.toString('latin1', pos, pos + 4);
     const size = buf.readUInt32LE(pos + 4);
     const body = pos + 8;
-    if (id === 'fmt ') { channels = buf.readUInt16LE(body + 2); sampleRate = buf.readUInt32LE(body + 4); }
+    if (id === 'fmt ') { channels = buf.readUInt16LE(body + 2); sampleRate = buf.readUInt32LE(body + 4); bits = buf.readUInt16LE(body + 14); }
     if (id === 'data') {
       if (!sampleRate) throw new Error('WAV data chunk before fmt chunk');
+      if (bits !== 16) throw new Error(`WAV has ${bits}-bit samples; expected 16-bit`);
       return { sampleRate, channels, pcm: buf.subarray(body, Math.min(body + size, buf.length)) };
     }
     pos = body + size + (size & 1);
@@ -63,10 +65,40 @@ function saveManifest(m) {
   renameSync(tmp, MANIFEST);
 }
 
-function removeOld(n, keep) {
-  if (!existsSync(OUT_DIR)) return;
-  for (const f of readdirSync(OUT_DIR)) {
-    if (f.startsWith(`${pad(n)}.zh.`) && f.endsWith('.mp3') && f !== keep) unlinkSync(join(OUT_DIR, f));
+/** Delete passage n's MP3s in dir except the basenames in keep (the new file and prev). */
+export function removeOld(dir, n, keep) {
+  if (!existsSync(dir)) return;
+  for (const f of readdirSync(dir)) {
+    if (f.startsWith(`${pad(n)}.zh.`) && f.endsWith('.mp3') && !keep.includes(f)) unlinkSync(join(dir, f));
+  }
+}
+
+/** Nothing to record: same SSML source, and the MP3 it names is on disk. */
+export function isUpToDate(stored, src, exists) {
+  return stored?.src === src && typeof stored.file === 'string' && exists(stored.file);
+}
+
+/**
+ * The new entry with prev: the file the stored entry named, kept one release for readers
+ * whose page still names it. When the bytes did not change, the stored prev carries over.
+ */
+export function withPrev(entry, stored, exists) {
+  const prev = stored && stored.file !== entry.file ? stored.file : stored?.prev;
+  if (!prev || prev === entry.file || !exists(prev)) return entry;
+  const { file, ...rest } = entry;
+  return { file, prev, ...rest };
+}
+
+/** Encode to NN.zh.tmp.mp3, then rename to NN.zh.<h8>.mp3. The tmp file never stays behind. */
+export function writeMp3(dir, n, pcm, rate, encode = encodeMp3) {
+  const tmp = join(dir, `${pad(n)}.zh.tmp.mp3`);
+  try {
+    encode(pcm, rate, tmp);
+    const name = `${pad(n)}.zh.${sha(readFileSync(tmp)).slice(0, 8)}.mp3`;
+    renameSync(tmp, join(dir, name));
+    return name;
+  } finally {
+    if (existsSync(tmp)) unlinkSync(tmp);
   }
 }
 
@@ -96,17 +128,13 @@ function encodeMp3(pcm, sampleRate, outPath) {
 
 /** Record one passage. Returns the manifest entry (or null when --out is used or nothing changed). */
 async function record(n, ctx, { noForce, out, stored }) {
-  const text = ctx.text.find((e) => e.n === n);
-  if (!text) throw new Error(`passage ${n}: not in text.json`);
-  const pf = join(app, `data/passages/${pad(n)}.json`);
-  const rich = existsSync(pf) ? readJson(pf) : null;
-  const segments = segmentsFor(text, rich);
-  const errs = validateReadings(n, segments, ctx.readings, ctx.lex);
+  const segments = segmentsOf(n, ctx.text);
+  const errs = [...ctx.globalErrs, ...validateReadings(n, segments, ctx.readings, ctx.lex)];
   if (errs.length && !noForce) throw new Error(`passage ${n} readings:\n  ${errs.join('\n  ')}`);
   const forced = noForce ? () => null : (c) => resolveReading(n, c, ctx.readings);
   const parts = buildSsml(segments, forced);
   const src = sourceHash(parts) + (noForce ? ':plain' : '');
-  if (!out && stored?.src === src) { console.log(`passage ${n}: up to date`); return null; }
+  if (!out && isUpToDate(stored, src, (rel) => existsSync(join(app, rel)))) { console.log(`passage ${n}: up to date`); return null; }
 
   const got = [];
   let rate = 0;
@@ -130,30 +158,60 @@ async function record(n, ctx, { noForce, out, stored }) {
   const pcm = Buffer.concat(got.map((g) => g.pcm));
   if (out) { encodeMp3(pcm, rate, out); console.log(`passage ${n}: wrote ${out} (${end} s)`); return null; }
   mkdirSync(OUT_DIR, { recursive: true });
-  const tmp = join(OUT_DIR, `${pad(n)}.zh.tmp.mp3`);
-  encodeMp3(pcm, rate, tmp);
-  const h8 = sha(readFileSync(tmp)).slice(0, 8);
-  const name = `${pad(n)}.zh.${h8}.mp3`;
-  renameSync(tmp, join(OUT_DIR, name));
+  const name = writeMp3(OUT_DIR, n, pcm, rate);
   console.log(`passage ${n}: ${name}, ${t.length} marks, ${end} s`);
   return { file: `audio/passages/${name}`, src, n: t.length, end, t };
 }
 
-async function main(argv) {
+const readContext = () => ({
+  text: readJson(join(app, 'data/text.json')),
+  lex: readJson(join(app, 'data/lexicon.json')),
+  readings: readJson(join(scripts, 'audio-readings.json')),
+});
+
+function segmentsOf(n, text) {
+  const t = text.find((e) => e.n === n);
+  if (!t) throw new Error(`passage ${n}: not in text.json`);
+  const pf = join(app, `data/passages/${pad(n)}.json`);
+  return segmentsFor(t, existsSync(pf) ? readJson(pf) : null);
+}
+
+/** --list N: every forced reading in passage N, for review before recording. No API call. */
+function listForced(n) {
+  const ctx = readContext();
+  for (const r of forcedReadings(n, segmentsOf(n, ctx.text), ctx.readings)) {
+    console.log(`${r.seg}:${r.k}\t${r.ch}\t${r.ctx}\t${r.py}\t${r.from}`);
+  }
+  return 0;
+}
+
+/** A passage number after a flag, or null. */
+const numberAfter = (args, i) => (/^\d+$/.test(args[i + 1] ?? '') ? Number(args[i + 1]) : null);
+
+export async function main(argv) {
   const args = argv.slice(2);
   const noForce = args.includes('--no-force');
   const oi = args.indexOf('--out');
   const out = oi >= 0 ? args[oi + 1] : null;
+  const li = args.indexOf('--list');
+  if (li >= 0) {
+    const n = numberAfter(args, li);
+    if (n == null) { console.error(USAGE); return 2; }
+    return listForced(n);
+  }
   const di = args.indexOf('--drop');
   if (di >= 0) {
-    const n = Number(args[di + 1]);
+    const n = numberAfter(args, di);
+    if (n == null) { console.error(USAGE); return 2; }
     const m = loadManifest();
     const e = m.zh[n];
     if (!e) { console.log(`passage ${n}: not in listen.json`); return 0; }
     delete m.zh[n];
     saveManifest(m);
-    const f = join(app, e.file);
-    if (existsSync(f)) unlinkSync(f);
+    for (const rel of [e.file, e.prev]) {
+      const f = rel && join(app, rel);
+      if (f && existsSync(f)) unlinkSync(f);
+    }
     console.log(`passage ${n}: dropped`);
     return 0;
   }
@@ -161,7 +219,8 @@ async function main(argv) {
   const nums = args.filter((a, i) => !skip.has(i) && /^\d+$/.test(a)).map(Number);
   if ((noForce || out) && !(noForce && out && nums.length === 1)) { console.error('--no-force and --out go together, with exactly one passage number'); return 2; }
 
-  const ctx = { text: readJson(join(app, 'data/text.json')), lex: readJson(join(app, 'data/lexicon.json')), readings: readJson(join(scripts, 'audio-readings.json')) };
+  const ctx = readContext();
+  ctx.globalErrs = validateGlobalReadings(ctx.readings, ctx.lex); // once, not once per passage
   const m = loadManifest();
   const list = nums.length ? nums : Object.keys(m.zh).map(Number);
   let code = 0;
@@ -171,9 +230,10 @@ async function main(argv) {
       const entry = await record(n, ctx, { noForce, out, stored: prev });
       if (entry) {
         const fresh = loadManifest(); // keep other entries
-        fresh.zh[n] = entry;
+        const next = withPrev(entry, prev, (rel) => existsSync(join(app, rel)));
+        fresh.zh[n] = next;
         saveManifest(fresh);
-        removeOld(n, entry.file.split('/').pop());
+        removeOld(OUT_DIR, n, [next.file, next.prev].filter(Boolean).map((f) => f.split('/').pop()));
       }
     } catch (e) {
       console.error(e.message);

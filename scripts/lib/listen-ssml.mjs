@@ -13,9 +13,32 @@ const PINYIN = /^[a-z]+[1-5]$/;
 // Like stripTone in check-content.mjs, but ǖǘǚǜ also become v (NFD would turn them into u).
 const stripTone = (s) => s.replace(/[üǖǘǚǜ]/g, 'v').normalize('NFD').replace(/[̀-ͯ]/g, '');
 
-export function resolveReading(n, c, readings) {
+const AT_KEY = /^\d+:\d+:\d+$/;
+
+/** The forced reading of one character and where it came from ('at', 'chars', 'extra'), or null. */
+function readingOf(n, c, readings) {
   if (readings.engine.includes(c.ch)) return null;
-  return readings.at[`${n}:${c.seg}:${c.k}`]?.py ?? readings.chars[c.ch] ?? readings.extra[c.ch]?.py ?? null;
+  const at = readings.at[`${n}:${c.seg}:${c.k}`]?.py;
+  if (at != null) return { py: at, from: 'at' };
+  if (readings.chars[c.ch] != null) return { py: readings.chars[c.ch], from: 'chars' };
+  if (readings.extra[c.ch]?.py != null) return { py: readings.extra[c.ch].py, from: 'extra' };
+  return null;
+}
+
+export function resolveReading(n, c, readings) {
+  return readingOf(n, c, readings)?.py ?? null;
+}
+
+/** Every forced character of passage n: { seg, k, ch, ctx, py, from }. ctx is up to 4 characters each side. */
+export function forcedReadings(n, segments, readings) {
+  const rows = [];
+  for (const c of passageChars(segments)) {
+    const r = readingOf(n, c, readings);
+    if (!r) continue;
+    const cps = [...segments[c.seg]];
+    rows.push({ seg: c.seg, k: c.k, ch: c.ch, ctx: cps.slice(Math.max(0, c.k - 4), c.k + 5).join(''), ...r });
+  }
+  return rows;
 }
 
 export function needsDecision(ch, lex, readings) {
@@ -51,7 +74,7 @@ export function buildSsml(segments, forced) {
   });
   const overhead = Buffer.byteLength('<speak></speak>');
   const parts = [];
-  let body = '', count = 0, first = 0, next = 0;
+  let body = '', count = 0, first = 0;
   const flush = () => {
     if (!body) return;
     parts.push({ ssml: `<speak>${body}</speak>`, first, count });
@@ -61,7 +84,7 @@ export function buildSsml(segments, forced) {
     const size = Buffer.byteLength(cl.text);
     if (size + overhead > LIMIT) throw new Error(`one clause is over ${LIMIT} bytes: ${cl.text.slice(0, 40)}`);
     if (body && Buffer.byteLength(body) + size + overhead > LIMIT) flush();
-    body += cl.text; count += cl.han; next += cl.han;
+    body += cl.text; count += cl.han;
   }
   flush();
   return parts;
@@ -74,14 +97,34 @@ export function sourceHash(parts) {
   return h.digest('hex');
 }
 
+/** Push an error when py is not numbered pinyin, or (unless exempt) not a lexicon syllable of ch. */
+function checkPy(errs, lex, where, ch, py, exempt) {
+  if (!PINYIN.test(py)) { errs.push(`${where}: "${py}" is not numbered pinyin`); return; }
+  const toneless = new Set((lex[ch]?.py ?? []).map(stripTone));
+  if (!exempt && !toneless.has(py.slice(0, -1))) errs.push(`${where}: "${py}" is not a lexicon syllable of ${ch}`);
+}
+
+/** The checks that do not depend on a passage: chars, extra, and the shape of at keys. Run once. */
+export function validateGlobalReadings(readings, lex) {
+  const errs = [];
+  const engine = new Set(readings.engine);
+  for (const key of Object.keys(readings.at)) {
+    if (!AT_KEY.test(key)) errs.push(`at ${key}: key must be N:seg:k (three whole numbers)`);
+  }
+  for (const [ch, py] of Object.entries(readings.chars)) {
+    if (engine.has(ch)) errs.push(`chars ${ch}: ${ch} is an engine character`);
+    checkPy(errs, lex, `chars ${ch}`, ch, py, false);
+  }
+  for (const [ch, e] of Object.entries(readings.extra)) {
+    checkPy(errs, lex, `extra ${ch}`, ch, e.py, !!e.why);
+  }
+  return errs;
+}
+
+/** The checks for one passage: every character that needs a decision has one, and its at entries fit the text. */
 export function validateReadings(n, segments, readings, lex) {
   const errs = [];
   const engine = new Set(readings.engine);
-  const tonelessOf = (ch) => new Set((lex[ch]?.py ?? []).map(stripTone));
-  const checkPy = (where, ch, py, exempt) => {
-    if (!PINYIN.test(py)) { errs.push(`${where}: "${py}" is not numbered pinyin`); return; }
-    if (!exempt && !tonelessOf(ch).has(py.slice(0, -1))) errs.push(`${where}: "${py}" is not a lexicon syllable of ${ch}`);
-  };
 
   for (const c of passageChars(segments)) {
     if (needsDecision(c.ch, lex, readings) && resolveReading(n, c, readings) == null) {
@@ -89,6 +132,7 @@ export function validateReadings(n, segments, readings, lex) {
     }
   }
   for (const [key, e] of Object.entries(readings.at)) {
+    if (!AT_KEY.test(key)) continue; // validateGlobalReadings reports it
     const [kn, kseg, kk] = key.split(':');
     if (Number(kn) !== n) continue;
     const seg = Number(kseg), k = Number(kk);
@@ -104,14 +148,7 @@ export function validateReadings(n, segments, readings, lex) {
       }
       if (!ok) errs.push(`${where}: ctx "${e.ctx}" does not cover position ${k}`);
     }
-    checkPy(where, e.ch, e.py, false);
-  }
-  for (const [ch, py] of Object.entries(readings.chars)) {
-    if (engine.has(ch)) errs.push(`chars ${ch}: ${ch} is an engine character`);
-    checkPy(`chars ${ch}`, ch, py, false);
-  }
-  for (const [ch, e] of Object.entries(readings.extra)) {
-    checkPy(`extra ${ch}`, ch, e.py, !!e.why);
+    checkPy(errs, lex, where, e.ch, e.py, false);
   }
   return errs;
 }

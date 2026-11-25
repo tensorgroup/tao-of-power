@@ -282,4 +282,5 @@ test('validateReadings reports a missing decision, a moved at-key, a ctx off the
 ### Later (not in this plan)
 
 - Readings for all 81 passages, full build, full listening pass (spec "Rollout" step 2), with Task 3's process and the reviewer step as a gate.
+- Before you record any passage beyond 1, 2, and 23, run `npm run audio -- --list N`. It prints each forced character (`seg:k`, the character, a short context, the reading, and its source: `at`, `chars`, or `extra`) and does not call the API. Review every `chars` reading for that passage (例: 惡 is è in 20, 朝 is cháo in 53), and add an `at` entry where the passage needs another reading.
 - Stage 2 English: its own plan after the English voice test.

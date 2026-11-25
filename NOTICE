@@ -10,8 +10,10 @@ for this project). The files below are not ours. They keep their own terms:
   https://www.unicode.org/license.txt
 - Stroke data (app/data/strokes/): Make Me a Hanzi, derived from Arphic PL
   KaitiM, Arphic Public License.
-- Pronunciation recordings (the syllable MP3 files in app/audio/): audio-cmn by Chen Wang, CC BY-SA.
-- Passage recordings (app/audio/passages/): made with Google Cloud Text-to-Speech (WaveNet) from the public-domain Chinese text.
+- Pronunciation recordings (the syllable MP3 files in app/audio/): audio-cmn
+  by Chen Wang, CC BY-SA.
+- Passage recordings (app/audio/passages/): made with Google Cloud
+  Text-to-Speech (WaveNet) from the public-domain Chinese text.
 - Rare-character outlines (app/data/rare-glyphs.json): GlyphWiki.
 - Search model (app/model/): Model2Vec potion-retrieval-32M by MinishLab,
   distilled from BAAI bge-base-en-v1.5, MIT License.

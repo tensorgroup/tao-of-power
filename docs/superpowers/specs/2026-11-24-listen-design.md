@@ -309,7 +309,11 @@ For each passage in `listen.json`:
    during play, a Hear button during play, route change, screen stays on,
    and offline replay.
 2. Readings for all 81 (the review task above), then build all 81. One
-   full listening pass before the deploy.
+   full listening pass before the deploy. Before you record any passage
+   beyond 1, 2, and 23, run `npm run audio -- --list N`. Review every
+   reading that comes from `chars` for that passage (例: 惡 is è in 20,
+   朝 is cháo in 53). A `chars` reading is the same in every passage, so
+   add an `at` entry where the passage needs another reading.
 3. Stage 2 plan.
 
 ### Tests

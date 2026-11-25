@@ -1,6 +1,10 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { SETTINGS, resolveReading, needsDecision, buildSsml, sourceHash, validateReadings } from '../scripts/lib/listen-ssml.mjs';
+import { SETTINGS, resolveReading, needsDecision, buildSsml, sourceHash, validateReadings, validateGlobalReadings, forcedReadings } from '../scripts/lib/listen-ssml.mjs';
+import { mkdtempSync, writeFileSync, readdirSync, existsSync, rmSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 
 test('marks precede every character and phoneme wraps forced ones', () => {
   const parts = buildSsml(['斯惡已；'], (c) => (c.ch === '惡' ? 'e4' : null));
@@ -55,10 +59,9 @@ test('needsDecision', () => {
 });
 
 const lex = { 長: { py: ['cháng', 'zhǎng'] }, 一: { py: ['yī', 'yí', 'yì'] }, 沒: { py: ['méi'] }, 女: { py: ['nǚ'] } };
-test('validateReadings reports a missing decision, a moved at-key, a ctx off the key, an engine override, a bad tone, and a syllable the lexicon lacks', () => {
+test('validateReadings (one passage) reports a missing decision, a moved at-key, a ctx off the key, and an engine at-override', () => {
   const segs = ['長一沒女，長長'];
   const base = { engine: ['一'], extra: { 沒: { py: 'mo4', why: 'test' } } };
-  // clean: 長 decided by chars, 女 as nv3 (ü -> v)
   assert.deepEqual(validateReadings(1, segs, R({ ...base, chars: { 長: 'chang2', 女: 'nv3' } }), lex), []);
   // missing decision for 長 (three occurrences)
   const miss = validateReadings(1, segs, R(base), lex);
@@ -74,23 +77,41 @@ test('validateReadings reports a missing decision, a moved at-key, a ctx off the
   assert.equal(validateReadings(1, segs, at(5, '無此'), lex).length, 1);
   // at for another passage is ignored
   assert.deepEqual(validateReadings(1, segs, R({ ...base, chars: { 長: 'chang2' }, at: { '2:0:9': { ch: '長', py: 'zhang3' } } }), lex), []);
-  // engine override
-  e = validateReadings(1, segs, R({ ...base, chars: { 長: 'chang2', 一: 'yi1' } }), lex);
-  assert.equal(e.length, 1); assert.match(e[0], /一/);
+  // engine at-override
   e = validateReadings(1, segs, R({ ...base, chars: { 長: 'chang2' }, at: { '1:0:1': { ch: '一', py: 'yi1' } } }), lex);
   assert.ok(e.some((m) => m.includes('一')));
-  // bad tone format
-  e = validateReadings(1, segs, R({ ...base, chars: { 長: 'chang6' } }), lex);
-  assert.equal(e.length, 1); assert.match(e[0], /chang6/);
-  // syllable the lexicon lacks
-  e = validateReadings(1, segs, R({ ...base, chars: { 長: 'wang2' } }), lex);
-  assert.equal(e.length, 1); assert.match(e[0], /wang2/);
-  // extra without why is held to the lexicon
-  e = validateReadings(1, segs, R({ ...base, extra: { 沒: { py: 'mo4' } }, chars: { 長: 'chang2' } }), lex);
-  assert.equal(e.length, 1);
+  // a bad chars entry is not reported per passage (validateGlobalReadings does that once)
+  assert.deepEqual(validateReadings(1, segs, R({ ...base, chars: { 長: 'wang2' } }), lex), []);
 });
 
-import { joinTimes, parseWav } from '../scripts/build-audio.mjs';
+test('validateGlobalReadings reports chars and extra once: engine override, bad tone, a syllable the lexicon lacks, extra without why, bad at keys', () => {
+  const base = { engine: ['一'], extra: { 沒: { py: 'mo4', why: 'test' } } };
+  assert.deepEqual(validateGlobalReadings(R({ ...base, chars: { 長: 'chang2', 女: 'nv3' } }), lex), []);
+  let e = validateGlobalReadings(R({ ...base, chars: { 長: 'chang2', 一: 'yi1' } }), lex);
+  assert.equal(e.length, 1); assert.match(e[0], /一/);
+  e = validateGlobalReadings(R({ ...base, chars: { 長: 'chang6' } }), lex);
+  assert.equal(e.length, 1); assert.match(e[0], /chang6/);
+  e = validateGlobalReadings(R({ ...base, chars: { 長: 'wang2' } }), lex);
+  assert.equal(e.length, 1); assert.match(e[0], /wang2/);
+  e = validateGlobalReadings(R({ ...base, extra: { 沒: { py: 'mo4' } } }), lex);
+  assert.equal(e.length, 1);
+  e = validateGlobalReadings(R({ ...base, at: { '1:0': { ch: '長', py: 'zhang3' }, '1:0:2:9': { ch: '長', py: 'zhang3' }, '1:0:x': { ch: '長', py: 'zhang3' } } }), lex);
+  assert.equal(e.length, 3);
+  for (const m of e) assert.match(m, /N:seg:k/);
+});
+
+test('forcedReadings lists every forced character with place, context, reading, and source', () => {
+  const segs = ['長一沒長，', '長長'];
+  const rows = forcedReadings(1, segs, R({ engine: ['一'], chars: { 長: 'chang2' }, extra: { 沒: { py: 'mo4', why: 't' } }, at: { '1:1:1': { ch: '長', py: 'zhang3' } } }));
+  assert.deepEqual(rows.map((x) => [`${x.seg}:${x.k}`, x.ch, x.py, x.from]), [
+    ['0:0', '長', 'chang2', 'chars'], ['0:2', '沒', 'mo4', 'extra'], ['0:3', '長', 'chang2', 'chars'],
+    ['1:0', '長', 'chang2', 'chars'], ['1:1', '長', 'zhang3', 'at'],
+  ]);
+  assert.equal(rows[1].ctx, '長一沒長，');
+  assert.ok(rows[4].ctx.includes('長長'));
+});
+
+import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3 } from '../scripts/build-audio.mjs';
 
 test('joinTimes shifts later parts by the samples before them', () => {
   const r = joinTimes([{ times: [0.015, 0.5], samples: 24000 }, { times: [0.015], samples: 24000 }], 24000);
@@ -110,6 +131,63 @@ test('parseWav finds the data chunk after an extra LIST chunk', () => {
   assert.equal(w.sampleRate, 24000);
   assert.equal(w.channels, 1);
   assert.deepEqual([...w.pcm], [1, 0, 2, 0, 3, 0]);
+  fmt.writeUInt16LE(24, 22); // 24-bit samples
+  const body24 = Buffer.concat([Buffer.from('WAVE'), fmt, list, data]);
+  head.writeUInt32LE(body24.length, 4);
+  assert.throws(() => parseWav(Buffer.concat([head, body24])), /16-bit/);
+});
+
+test('build-audio: --drop without a passage number prints usage and exits 2', async () => {
+  const saved = console.error;
+  const lines = [];
+  console.error = (m) => lines.push(String(m));
+  try {
+    assert.equal(await buildMain(['node', 'build-audio.mjs', '--drop']), 2);
+    assert.equal(await buildMain(['node', 'build-audio.mjs', '--drop', 'x']), 2);
+    assert.equal(await buildMain(['node', 'build-audio.mjs', '--list']), 2);
+  } finally { console.error = saved; }
+  assert.ok(lines.every((l) => /Usage/.test(l)));
+});
+
+test('build-audio: up to date needs the same src and the MP3 file', () => {
+  const stored = { file: 'audio/passages/01.zh.aaaaaaaa.mp3', src: 'S' };
+  assert.equal(isUpToDate(stored, 'S', () => true), true);
+  assert.equal(isUpToDate(stored, 'S', () => false), false);
+  assert.equal(isUpToDate(stored, 'T', () => true), false);
+  assert.equal(isUpToDate(undefined, 'S', () => true), false);
+});
+
+test('build-audio: a re-recording keeps the old file as prev', () => {
+  const entry = { file: 'audio/passages/01.zh.bbbbbbbb.mp3', src: 'S2', n: 1, end: 1, t: [0] };
+  const yes = () => true;
+  const e1 = withPrev(entry, { file: 'audio/passages/01.zh.aaaaaaaa.mp3' }, yes);
+  assert.equal(e1.prev, 'audio/passages/01.zh.aaaaaaaa.mp3');
+  assert.deepEqual(Object.keys(e1), ['file', 'prev', 'src', 'n', 'end', 't']);
+  // same bytes again: the old prev stays
+  assert.equal(withPrev(entry, { file: entry.file, prev: 'audio/passages/01.zh.cccccccc.mp3' }, yes).prev, 'audio/passages/01.zh.cccccccc.mp3');
+  assert.equal(withPrev(entry, undefined, yes).prev, undefined);
+  assert.equal(withPrev(entry, { file: 'audio/passages/01.zh.aaaaaaaa.mp3' }, () => false).prev, undefined, 'a missing file is not kept as prev');
+});
+
+test('build-audio: removeOld keeps file and prev, deletes older files of that passage only', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tao-audio-'));
+  try {
+    for (const f of ['01.zh.00000000.mp3', '01.zh.aaaaaaaa.mp3', '01.zh.bbbbbbbb.mp3', '02.zh.cccccccc.mp3']) writeFileSync(join(dir, f), 'x');
+    removeOld(dir, 1, ['01.zh.bbbbbbbb.mp3', '01.zh.aaaaaaaa.mp3']);
+    assert.deepEqual(readdirSync(dir).sort(), ['01.zh.aaaaaaaa.mp3', '01.zh.bbbbbbbb.mp3', '02.zh.cccccccc.mp3']);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+test('build-audio: writeMp3 names the file by its hash, and a failed encode leaves no tmp file', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tao-audio-'));
+  try {
+    const name = writeMp3(dir, 1, Buffer.alloc(2), 24000, (_pcm, _rate, out) => writeFileSync(out, 'mp3 bytes'));
+    const h8 = createHash('sha256').update('mp3 bytes').digest('hex').slice(0, 8);
+    assert.equal(name, `01.zh.${h8}.mp3`);
+    assert.throws(() => writeMp3(dir, 2, Buffer.alloc(2), 24000, (_pcm, _rate, out) => { writeFileSync(out, 'half'); throw new Error('ffmpeg failed'); }), /ffmpeg failed/);
+    assert.equal(existsSync(join(dir, '02.zh.tmp.mp3')), false);
+    assert.deepEqual(readdirSync(dir), [name]);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
 });
 
 import { checkListen } from '../scripts/check-audio.mjs';
@@ -119,8 +197,9 @@ const CL_SEGS = { 1: ['道可道，非常道。'] };
 function clGood() {
   const parts = buildSsml(CL_SEGS[1], (c) => resolveReading(1, c, CL_READ));
   const m = { v: 1, voice: SETTINGS.voice, rate: SETTINGS.rate, en: {},
-    zh: { 1: { file: 'audio/passages/01.zh.aaaaaaaa.mp3', src: sourceHash(parts), n: 7, end: 5, t: [0.1, 0.5, 1, 1.5, 2, 2.5, 3] } } };
-  return { manifest: m, segmentsOf: (n) => CL_SEGS[n], readings: CL_READ, lex: {}, exists: () => true, mp3s: ['01.zh.aaaaaaaa.mp3'] };
+    zh: { 1: { file: 'audio/passages/01.zh.aaaaaaaa.mp3', src: sourceHash(parts), n: 6, end: 5, t: [0.1, 0.5, 1, 1.5, 2, 3] } } }; // 道可道非常道: 6 characters
+  return { manifest: m, segmentsOf: (n) => CL_SEGS[n], readings: CL_READ, lex: {}, exists: () => true, mp3s: ['01.zh.aaaaaaaa.mp3'],
+    hashOf: (rel) => rel.match(/\.([0-9a-f]{8})\.mp3$/)[1] + '0'.repeat(56) };
 }
 const clRun = (mut) => { const a = clGood(); mut(a); return checkListen(a); };
 
@@ -137,7 +216,32 @@ test('checkListen: changed reading is also stale', () => {
 });
 test('checkListen: t length must equal n', () => {
   const e = clRun((a) => { a.manifest.zh[1].n = 8; });
-  assert.equal(e.length, 1); assert.match(e[0], /Passage 1.*t/);
+  assert.deepEqual(e, ['Passage 1: t has 6 times, but n is 8.']);
+});
+test('checkListen: n and t must match the passage characters', () => {
+  const e = clRun((a) => { a.manifest.zh[1].n = 5; a.manifest.zh[1].t = [0.1, 0.5, 1, 1.5, 2]; });
+  assert.deepEqual(e, ['Passage 1: n is 5 and t has 5 times, but the passage has 6 characters.']);
+});
+test('checkListen: an MP3 whose bytes do not match its name is an error', () => {
+  const e = clRun((a) => { a.hashOf = () => 'ffffffff' + '0'.repeat(56); });
+  assert.equal(e.length, 1); assert.match(e[0], /01\.zh\.aaaaaaaa\.mp3.*ffffffff/);
+});
+test('checkListen: prev is kept, must exist, and is hashed; other strays still fail', () => {
+  const withPrevFile = (a) => { a.manifest.zh[1].prev = 'audio/passages/01.zh.bbbbbbbb.mp3'; a.mp3s.push('01.zh.bbbbbbbb.mp3'); };
+  assert.deepEqual(clRun(withPrevFile), []);
+  let e = clRun((a) => { withPrevFile(a); a.exists = (rel) => !rel.includes('bbbbbbbb'); });
+  assert.equal(e.length, 1); assert.match(e[0], /prev.*01\.zh\.bbbbbbbb\.mp3/);
+  e = clRun((a) => { withPrevFile(a); a.mp3s.push('01.zh.00000000.mp3'); });
+  assert.equal(e.length, 1); assert.match(e[0], /01\.zh\.00000000\.mp3 is not named/);
+});
+test('checkListen: a bad chars entry is reported once, not once per passage', () => {
+  const e = clRun((a) => {
+    a.readings = { ...CL_READ, chars: { 道: 'wang2' } }; a.lex = { 道: { py: ['dào'] } };
+    a.manifest.zh[2] = { ...a.manifest.zh[1] };
+    CL_SEGS[2] = CL_SEGS[1];
+  });
+  delete CL_SEGS[2];
+  assert.equal(e.filter((x) => /wang2/.test(x)).length, 1);
 });
 test('checkListen: t must increase', () => {
   const e = clRun((a) => { a.manifest.zh[1].t[3] = 0.5; });
