@@ -36,3 +36,11 @@ export function passageChars(segments) {
 
 // The passage file's Chinese text wins over text.json (the two differ in punctuation).
 export const segmentsFor = (text, rich) => text.zh.map((seg, i) => rich?.zh?.[i]?.text ?? seg);
+
+/** The visible text of a rendering line: markup removed, note text kept. */
+export const plainLine = (line) => parseMarked(line).map((t) => t.text).join('');
+
+/** The words of a plain line with UTF-16 offsets. This is the only word rule; other modules call it. */
+export function wordsOf(text) {
+  return [...text.matchAll(/[A-Za-z0-9'’]+/g)].map((m) => ({ word: m[0], start: m.index, end: m.index + m[0].length }));
+}

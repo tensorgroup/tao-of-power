@@ -9,6 +9,7 @@ const KEEP = new Set([...'，。；：、！？「」『』（）《》,.;:!?'])
 const MAP = { '﹗': '！', '﹑': '、' };
 const CLAUSE_END = new Set([...'，；。：！？']);
 const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;' };
+export const escapeXml = (s) => s.replace(/[&<>]/g, (c) => ESC[c]);
 const PINYIN = /^[a-z]+[1-5]$/;
 // Like stripTone in check-content.mjs, but ǖǘǚǜ also become v (NFD would turn them into u).
 const stripTone = (s) => s.replace(/[üǖǘǚǜ]/g, 'v').normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -47,10 +48,10 @@ export function needsDecision(ch, lex, readings) {
 }
 
 export function buildSsml(segments, forced) {
-  const clauses = []; // { text, han }
-  let cur = { text: '', han: 0 };
+  const clauses = []; // { text, count }
+  let cur = { text: '', count: 0 };
   let i = 0;
-  const close = () => { if (cur.text) clauses.push(cur); cur = { text: '', han: 0 }; };
+  const close = () => { if (cur.text) clauses.push(cur); cur = { text: '', count: 0 }; };
   segments.forEach((seg, s) => {
     [...seg].forEach((raw, k) => {
       if (raw === ' ' || raw === '　') return;
@@ -59,10 +60,10 @@ export function buildSsml(segments, forced) {
         const py = forced({ ch, seg: s, k, i });
         const body = py ? `<phoneme alphabet="pinyin" ph="${py}">${ch}</phoneme>` : ch;
         cur.text += `<mark name="${i}"/>${body}`;
-        cur.han++;
+        cur.count++;
         i++;
       } else if (ESC[ch]) {
-        cur.text += ESC[ch];
+        cur.text += escapeXml(ch);
       } else if (KEEP.has(ch)) {
         cur.text += ch;
         if (CLAUSE_END.has(ch)) close();
@@ -72,6 +73,11 @@ export function buildSsml(segments, forced) {
     });
     close();
   });
+  return packClauses(clauses);
+}
+
+/** Pack clauses ({ text, count } = SSML body and its mark count) into <speak> parts under the byte limit. */
+export function packClauses(clauses) {
   const overhead = Buffer.byteLength('<speak></speak>');
   const parts = [];
   let body = '', count = 0, first = 0;
@@ -84,18 +90,21 @@ export function buildSsml(segments, forced) {
     const size = Buffer.byteLength(cl.text);
     if (size + overhead > LIMIT) throw new Error(`one clause is over ${LIMIT} bytes: ${cl.text.slice(0, 40)}`);
     if (body && Buffer.byteLength(body) + size + overhead > LIMIT) flush();
-    body += cl.text; count += cl.han;
+    body += cl.text; count += cl.count;
   }
   flush();
   return parts;
 }
 
-export function sourceHash(parts) {
+/** SHA-256 over the part texts and the settings object, nothing else. */
+export function hashParts(parts, settings) {
   const h = createHash('sha256');
   for (const p of parts) h.update(p.ssml);
-  h.update(JSON.stringify(SETTINGS));
+  h.update(JSON.stringify(settings));
   return h.digest('hex');
 }
+
+export const sourceHash = (parts) => hashParts(parts, SETTINGS);
 
 /** Push an error when py is not numbered pinyin, or (unless exempt) not a lexicon syllable of ch. */
 function checkPy(errs, lex, where, ch, py, exempt) {
