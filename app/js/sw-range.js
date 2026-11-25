@@ -49,7 +49,8 @@
     if (hit) return sliceResponse(hit, range);
     const res = await fetchFn(key);
     if (res.status !== 200) return res;
-    await cache.put(key, res.clone());
+    // A failed store (quota, restricted storage) must not lose the good bytes.
+    try { await cache.put(key, res.clone()); } catch { /* serve uncached */ }
     return sliceResponse(res, range);
   }
 

@@ -77,6 +77,18 @@ test('audioFetch fetches without Range, stores the 200, answers 206', async () =
   assert.equal(res2.headers.get('Content-Range'), 'bytes 10-19/100');
 });
 
+test('audioFetch still answers when cache.put throws', async () => {
+  const cache = { async match() {}, async put() { throw new Error('QuotaExceededError'); } };
+  const url = 'https://x.test/audio/passages/01.zh.abc.mp3';
+  const ranged = await audioFetch(new Request(url, { headers: { Range: 'bytes=10-19' } }), cache, async () => full(100));
+  assert.equal(ranged.status, 206);
+  assert.equal(ranged.headers.get('Content-Range'), 'bytes 10-19/100');
+  assert.deepEqual(new Uint8Array(await ranged.arrayBuffer()), bytes(100).slice(10, 20));
+  const plain = await audioFetch(new Request(url), cache, async () => full(100));
+  assert.equal(plain.status, 200);
+  assert.deepEqual(new Uint8Array(await plain.arrayBuffer()), bytes(100));
+});
+
 test('audioFetch returns a 404 as it is and does not store it', async () => {
   const cache = stubCache();
   const req = new Request('https://x.test/audio/nope.mp3', { headers: { Range: 'bytes=0-' } });
