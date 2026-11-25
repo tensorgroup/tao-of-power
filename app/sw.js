@@ -1,7 +1,7 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 importScripts('js/sw-range.js'); // taoRange: Range (206) answers for cached audio, and the recordings to keep
 // <precache>
-const VERSION = '56c6e6c9cfeb';
+const VERSION = 'd6adcae8b6f2';
 const ART_VERSION = '3cfa7432';
 const SEARCH_VERSION = '3f692797';
 const MODEL_VERSION = 'a31ada72';
@@ -304,6 +304,7 @@ const FILES = [
  "js/share.js",
  "js/sheet.js",
  "js/sw-range.js",
+ "js/sync.js",
  "js/theme.js",
  "js/track.js",
  "js/ui.js",
@@ -315,6 +316,7 @@ const FILES = [
  "js/views/library.js",
  "js/views/passage.js",
  "js/views/search.js",
+ "js/views/sync-ui.js",
  "js/words.js",
  "manifest.webmanifest"
 ];

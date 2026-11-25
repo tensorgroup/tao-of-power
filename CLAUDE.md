@@ -16,6 +16,7 @@ node scripts/check-content.mjs --all   # also requires all 81 passage files
 npm run precache     # rewrite the service-worker file list and version in app/sw.js
 npm run build        # merge lexicon, build text/index/strokes, then precache
 npm run deploy       # build + check + wrangler deploy (Worker + assets; needs Cloudflare login)
+npm run dev          # wrangler dev on http://localhost:8787 with local D1 (Worker + passkey sync; vars in .dev.vars)
 scripts/analytics.sh 7   # usage report from D1 (last 7 days)
 ```
 
@@ -73,9 +74,18 @@ the old files.
   event name must be added to `EVENTS` in the Worker.
 - **DOM.** Build nodes with `h()`; replace children with `fill()` from `ui.js`. Native `replaceChildren()`/`append()` print
   `null` as the text "null"; filter nulls or pass the children through `h()`.
-- **Journal data** lives only in the user's browser. Keep the export format
-  backward compatible: `validate()` must accept old files, and new entry
-  fields must be optional.
+- **Journal data** lives in the user's browser, and on the server only when
+  the reader turns on sync. Keep the export format backward compatible:
+  `validate()` must accept old files, and new entry fields must be optional.
+- **Sync** (optional, passkey): `worker/sync.js` serves `/api/auth/*`,
+  `/api/session`, `/api/journal/sync`, `/api/account` from D1 `tao-sync`
+  (schema `worker/sync-schema.sql`). The server merges with the same
+  `merge()` as the browser; `lastExportAt` never leaves the device. Client:
+  `app/js/sync.js` (single-flight sync after each save, on tab focus/hide, and
+  online) and `app/js/views/sync-ui.js` (card after a draw, Sync section on the
+  Journal page). Removals sync as tombstones (entries and draws). Never log or
+  echo journal text. `npm run dev` is the only way to test passkeys locally
+  (RP ID `localhost`).
 - **Art** (`app/data/art.json`, `app/art/`): public domain or CC0 only, from
   Wikimedia Commons or the Cleveland Museum of Art / Art Institute of
   Chicago open-access collections (`scripts/check-art.mjs` enforces this, and

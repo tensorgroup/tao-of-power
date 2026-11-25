@@ -1,7 +1,8 @@
-// Static site + one endpoint: POST /api/e stores an anonymous usage event in D1.
+// Static site + POST /api/e (anonymous usage events in D1) + optional journal sync (worker/sync.js).
 // Everything else is served from ./app by the assets binding.
+import { handleApi } from './sync.js';
 
-const EVENTS = new Set(['view', 'draw', 'search', 'say', 'char', 'note', 'art', 'story', 'echo', 'culture', 'question', 'journal-save', 'journal-export', 'journal-import', 'install', 'listen', 'margin', 'share']);
+const EVENTS = new Set(['view', 'draw', 'search', 'say', 'char', 'note', 'art', 'story', 'echo', 'culture', 'question', 'journal-save', 'journal-export', 'journal-import', 'install', 'listen', 'margin', 'share', 'sync-on', 'sync-signin', 'sync-off', 'sync-delete', 'draw-remove']);
 const clip = (v, n) => (typeof v === 'string' || typeof v === 'number' ? String(v).slice(0, n) : null);
 
 function device(ua = '') {
@@ -34,6 +35,8 @@ export default {
       if (request.method !== 'POST') return new Response(null, { status: 405 });
       try { return await record(request, env); } catch { return new Response(null, { status: 204 }); }
     }
+    const api = await handleApi(request, env);
+    if (api) return api;
     return env.ASSETS.fetch(request);
   },
 };

@@ -7,6 +7,7 @@ import { rich, openChar, hanify, linkRefs } from '../notes.js';
 import { isHan, passageChars, segmentsFor, plainLine, wordsOf } from '../markup.js';
 import { planLine, wrapWords, wordCell } from '../words.js';
 import { state } from '../app.js';
+import { syncCard } from './sync-ui.js';
 import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
 import { entryList } from './journal.js';
 import { marginTabs } from '../margin.js';
@@ -261,6 +262,8 @@ export async function passageView(n, drawId) {
   const qBox = questionSection(p?.questions, jbox);
   root.append(h('hr', { class: 'rule' }));
   if (qBox) root.append(qBox);
+  const card = draw ? syncCard() : null;
+  if (card) root.append(card);
   root.append(jbox);
 
   // Margin tabs: the reader's own notes beside any marked block. Tabs whose block is gone sit by the journal.

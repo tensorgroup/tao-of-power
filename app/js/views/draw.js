@@ -6,6 +6,7 @@ import { track } from '../track.js';
 import { state } from '../app.js';
 import { getIndex, getArt } from '../data.js';
 import { openArt } from './passage.js';
+import { onSyncNews } from './sync-ui.js';
 import { homeShareRow } from '../share.js';
 
 const N = 64;
@@ -36,7 +37,9 @@ export async function drawView() {
     homeArt(art),
     homeShareRow(),
   );
-  root.append(start, recentList(idx));
+  let recent = recentList(idx);
+  root.append(start, recent);
+  onSyncNews(root, () => { if (!recent.isConnected) return; const next = recentList(idx); recent.replaceWith(next); recent = next; }, { onlyWhenChanged: true });
   return root;
 }
 

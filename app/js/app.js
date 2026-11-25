@@ -2,6 +2,7 @@
 import { h, clear, toast, showUpdate } from './ui.js';
 import { closeAll } from './sheet.js';
 import * as journalStore from './journal.js';
+import { makeSyncer, available as passkeysAvailable } from './sync.js';
 import { drawView } from './views/draw.js';
 import { passageView } from './views/passage.js';
 import { journalView } from './views/journal.js';
@@ -23,10 +24,32 @@ export const state = {
   persist() {
     const r = journalStore.save(state.journal);
     if (!r.ok) toast(`Could not save: ${r.error}. Export your journal now.`, { warn: true, ms: 8000 });
-    else askPersistentStorage();
+    else { askPersistentStorage(); syncer.syncNow(); }
     return r.ok;
   },
 };
+
+// Optional passkey sync. A sync saves straight to storage (not persist), so it never triggers itself.
+const lsProxy = {
+  getItem: (k) => localStorage.getItem(k),
+  setItem: (k, v) => localStorage.setItem(k, v),
+  removeItem: (k) => localStorage.removeItem(k),
+};
+export const syncer = makeSyncer({
+  fetch: (...a) => fetch(...a),
+  storage: lsProxy,
+  getJournal: () => state.journal,
+  setJournal: (j) => {
+    state.journal = j;
+    const r = journalStore.save(j);
+    if (!r.ok) toast(`Could not save: ${r.error}. Export your journal now.`, { warn: true, ms: 8000 });
+  },
+  snapshot: (j) => journalStore.snapshot(j),
+  onChange: (detail) => {
+    if (detail.expired) toast('Signed out of sync. Sign in again on the Journal page.', { warn: true, ms: 6000 });
+    dispatchEvent(new CustomEvent('tao:sync', { detail }));
+  },
+});
 
 let asked = false;
 function askPersistentStorage() {
@@ -86,6 +109,12 @@ addEventListener('storage', (e) => {
   if (location.hash === '#/journal') route();
 });
 route();
+
+if (passkeysAvailable() || syncer.record()) {
+  syncer.check();
+  document.addEventListener('visibilitychange', () => syncer.syncNow({ keepalive: document.visibilityState === 'hidden' }));
+  addEventListener('online', () => syncer.syncNow());
+}
 
 // Service worker: offline + update flow.
 if ('serviceWorker' in navigator && location.protocol === 'https:') {

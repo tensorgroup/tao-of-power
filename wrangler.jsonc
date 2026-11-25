@@ -9,7 +9,16 @@
   // The service worker caches the shell under "./" (not "index.html").
   "assets": { "directory": "./app", "binding": "ASSETS" },
   "d1_databases": [
-    { "binding": "tao_analytics", "database_name": "tao-analytics", "database_id": "067ecf84-5409-49fa-9c17-ef6ad1df6938" }
+    { "binding": "tao_analytics", "database_name": "tao-analytics", "database_id": "067ecf84-5409-49fa-9c17-ef6ad1df6938" },
+    // Optional passkey journal sync (worker/sync.js, schema worker/sync-schema.sql).
+    { "binding": "tao_sync", "database_name": "tao-sync", "database_id": "8cbbbe43-9992-4807-90f0-62e7296cb11b" }
+  ],
+  // Passkeys are bound to this RP ID and origin. `.dev.vars` overrides them for `npm run dev` on localhost.
+  "vars": { "RP_ID": "tao.tensor.group", "ORIGIN": "https://tao.tensor.group" },
+  // Per-IP request limits for sync (the IP is used for counting only, never stored).
+  "ratelimits": [
+    { "name": "AUTH_LIMIT", "namespace_id": "4101", "simple": { "limit": 20, "period": 60 } },
+    { "name": "SYNC_LIMIT", "namespace_id": "4102", "simple": { "limit": 60, "period": 60 } }
   ],
   "routes": [{ "pattern": "tao.tensor.group", "custom_domain": true }]
 }

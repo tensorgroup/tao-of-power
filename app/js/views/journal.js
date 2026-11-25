@@ -1,8 +1,9 @@
 // All entries, edit/delete, export/import with merge.
 import { h, fill, fmtDate, toast, keepAboveKeyboard } from '../ui.js';
-import { state } from '../app.js';
+import { state, syncer } from '../app.js';
+import { syncSection, onSyncNews } from './sync-ui.js';
 import {
-  updateEntry, deleteEntry, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
+  updateEntry, deleteEntry, deleteDraw, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
 } from '../journal.js';
 import { getIndex } from '../data.js';
 import { track } from '../track.js';
@@ -22,7 +23,8 @@ export async function journalView() {
     fill(root,
       h('h1', { text: 'Journal' }),
       h('p', { class: 'muted', text: `${j.entries.length} entr${j.entries.length === 1 ? 'y' : 'ies'} · ${j.draws.length} draw${j.draws.length === 1 ? '' : 's'}` }),
-      backupNote(last, newer),
+      syncer.record() ? null : backupNote(last, newer),
+      syncSection(render),
       restoreBox(render),
       h('div', { class: 'row' },
         h('button', { class: 'btn primary', type: 'button', text: 'Export', onclick: () => doExport(render) }),
@@ -33,9 +35,10 @@ export async function journalView() {
         : tabs.length ? null : h('div', { class: 'empty' },
           h('p', { class: 'muted', text: 'No entries yet. Draw a passage and write what arises.' }),
           h('a', { class: 'btn red', href: '#/', text: 'Draw a passage' })),
-      draws(j, idx));
+      draws(j, idx, render));
   };
   render();
+  onSyncNews(root, render);
   return root;
 }
 
@@ -99,13 +102,26 @@ function entryItem(e, { showPassage, idx, onChange }) {
   return li;
 }
 
-function draws(j, idx) {
+function draws(j, idx, render) {
   const list = [...j.draws].reverse().slice(0, 30);
   if (!list.length) return null;
-  return h('details', { class: 'legge' }, h('summary', { text: `Draw history (${j.draws.length})` }),
-    h('ul', { class: 'entries' }, list.map((d) => h('li', { class: 'entry' }, h('div', { class: 'meta' },
+  const item = (d) => {
+    const li = h('li', { class: 'entry' });
+    const view = () => fill(li, h('div', { class: 'meta draw-row' },
       h('time', { datetime: d.at, text: fmtDate(d.at) }),
-      h('a', { href: `#/p/${d.passage}`, text: `${d.passage}${idx?.passages?.[d.passage]?.title ? ` · ${idx.passages[d.passage].title}` : ''}` }))))));
+      h('a', { href: `#/p/${d.passage}`, text: `${d.passage}${idx?.passages?.[d.passage]?.title ? ` · ${idx.passages[d.passage].title}` : ''}` }),
+      h('button', { class: 'btn quiet small-btn', type: 'button', text: 'Remove', 'aria-label': `Remove draw of passage ${d.passage} from history`, onclick: ask })));
+    const ask = () => li.append(h('div', { class: 'confirm' }, h('span', { text: 'Remove this draw from the history?' }),
+      h('button', { class: 'btn red', type: 'button', text: 'Remove', onclick: () => {
+        deleteDraw(state.journal, d.id);
+        if (state.persist()) { track('draw-remove'); render(); }
+      } }),
+      h('button', { class: 'btn quiet', type: 'button', text: 'Keep', onclick: view })));
+    view();
+    return li;
+  };
+  return h('details', { class: 'legge draw-history' }, h('summary', { text: `Draw history (${j.draws.length})` }),
+    h('ul', { class: 'entries' }, list.map(item)));
 }
 
 async function doExport(render) {
@@ -164,7 +180,7 @@ function showImportChoice(incoming, before, render) {
       if (state.persist()) toast(`Merged: ${added} added${removed ? `, ${removed} removed by newer deletions` : ''}.`);
       render();
     } }),
-    h('button', { class: 'btn quiet', type: 'button', text: 'Replace…', onclick: () => {
+    syncer.record() ? null : h('button', { class: 'btn quiet', type: 'button', text: 'Replace…', onclick: () => {
       box.replaceChildren(h('span', { text: 'Replace deletes this browser’s journal (a snapshot is kept). Sure?' }),
         h('button', { class: 'btn red', type: 'button', text: 'Replace', onclick: () => {
           if (!snapshot(state.journal)) { toast('Could not save a snapshot (storage full). Export first, then replace.', { warn: true, ms: 7000 }); return; }
