@@ -23,10 +23,22 @@ let indexP = null;
 const index = () => (indexP ||= fetch('audio/index.json').then((r) => r.json()).then((l) => new Set(l)).catch(() => new Set()));
 
 let current = null;
+let generation = 0;
+
+/** Stop whatever sound is playing or about to play (a pending say() returns false). */
+export function stopSay() {
+  generation += 1;
+  current?.pause();
+  globalThis.speechSynthesis?.cancel();
+}
+
+const announce = () => globalThis.dispatchEvent?.(new Event('tao:sound'));
+
 function speakFallback(char) {
   const synth = globalThis.speechSynthesis;
   if (!synth || !char) return false;
   synth.cancel();
+  announce();
   const u = new SpeechSynthesisUtterance(char);
   u.lang = 'zh-CN';
   u.rate = 0.8;
@@ -39,12 +51,15 @@ function speakFallback(char) {
 /** Play one reading of a character. Returns false when nothing can be played. */
 export async function say(py, char) {
   track('say', `${char} ${py}`);
+  const gen = generation;
   const have = await index();
+  if (gen !== generation) return false;
   const file = candidates(py).find((c) => have.has(c));
   current?.pause();
   if (!file) return speakFallback(char);
   current = new Audio(`audio/${file}.mp3`);
-  try { await current.play(); return true; } catch { return speakFallback(char); }
+  announce();
+  try { await current.play(); return true; } catch { return gen === generation && speakFallback(char); }
 }
 
 /** A small "▶ dào" button. */

@@ -21,3 +21,51 @@ test('almost every lexicon reading has a recording', () => {
   for (const e of Object.values(lex)) for (const py of e.py || []) if (!candidates(py).some((c) => have.has(c))) missing.add(py);
   assert.ok(missing.size <= 12, `readings without a recording: ${[...missing].join(', ')}`);
 });
+
+// One sound at a time. A fresh module instance per test, because the index is cached per module.
+let n = 0;
+async function harness(fetchImpl) {
+  const saved = ['fetch', 'Audio', 'dispatchEvent', 'addEventListener'].map((k) => [k, Object.getOwnPropertyDescriptor(globalThis, k)]);
+  const counts = { play: 0, pause: 0, sound: 0 };
+  globalThis.fetch = fetchImpl || (async () => ({ json: async () => ['dao4'] }));
+  globalThis.Audio = class { play() { counts.play++; return Promise.resolve(); } pause() { counts.pause++; } };
+  const et = new EventTarget();
+  Object.defineProperty(globalThis, 'dispatchEvent', { value: et.dispatchEvent.bind(et), configurable: true, writable: true });
+  Object.defineProperty(globalThis, 'addEventListener', { value: et.addEventListener.bind(et), configurable: true, writable: true });
+  et.addEventListener('tao:sound', () => counts.sound++);
+  const mod = await import(`../app/js/audio.js?t=${++n}`);
+  const restore = () => { for (const [k, d] of saved) { if (d) Object.defineProperty(globalThis, k, d); else delete globalThis[k]; } };
+  return { mod, counts, restore };
+}
+
+test('say announces tao:sound once and plays', async () => {
+  const { mod, counts, restore } = await harness();
+  try {
+    assert.equal(await mod.say('dào', '道'), true);
+    assert.equal(counts.sound, 1);
+    assert.equal(counts.play, 1);
+  } finally { restore(); }
+});
+
+test('stopSay pauses the current sound', async () => {
+  const { mod, counts, restore } = await harness();
+  try {
+    await mod.say('dào', '道');
+    const before = counts.pause;
+    mod.stopSay();
+    assert.equal(counts.pause, before + 1);
+  } finally { restore(); }
+});
+
+test('stopSay while the index is loading cancels that say', async () => {
+  let release;
+  const pending = new Promise((r) => { release = r; });
+  const { mod, counts, restore } = await harness(() => pending.then(() => ({ json: async () => ['dao4'] })));
+  try {
+    const p = mod.say('dào', '道');
+    mod.stopSay();
+    release();
+    assert.equal(await p, false);
+    assert.equal(counts.play, 0);
+  } finally { restore(); }
+});
