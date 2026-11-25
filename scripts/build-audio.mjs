@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { join } from 'node:path';
-import { segmentsFor, plainLine, wordsOf } from '../app/js/markup.js';
+import { segmentsFor } from '../app/js/markup.js';
 import { SETTINGS, resolveReading, buildSsml, sourceHash, validateReadings, validateGlobalReadings, forcedReadings } from './lib/listen-ssml.mjs';
 import { SETTINGS_EN, enSource, enSourceHash, romanizedCandidates } from './lib/listen-en.mjs';
 import { alignWords, recognize } from './lib/align.mjs';
@@ -185,17 +185,31 @@ async function speakZh(parts, lang, who) {
     got.push({ times: tp.map((x) => x.timeSeconds), samples: wav.pcm.length / 2, pcm: wav.pcm });
   }
   const { t, end } = joinTimes(got, rate);
+  for (let i = 1; i < t.length; i++) if (t[i] - t[i - 1] < 0.08) console.warn(`${who}: marks ${i - 1}-${i} are ${r3(t[i] - t[i - 1])} s apart`);
   return { t, end, rate, pcm: Buffer.concat(got.map((g) => g.pcm)) };
 }
 
+/** Throw unless t starts at 0 or later, strictly increases, and ends before end (the check-audio rules). */
+export function enCheckTimes(t, end, who) {
+  if (t.length && !(t[0] >= 0)) throw new Error(`${who}: the first time is ${t[0]}; nothing written`);
+  for (let i = 1; i < t.length; i++) if (!(t[i] > t[i - 1])) throw new Error(`${who}: t does not increase at word ${i}; nothing written`);
+  if (t.length && !(end > t[t.length - 1])) throw new Error(`${who}: end (${end}) is not after the last time (${t[t.length - 1]}); nothing written`);
+}
+
 /**
- * English word times from heard words: alignWords, minus SETTINGS_EN.alignBias (not below 0),
- * 3 decimals. Throws when fewer than 90 % of the words matched.
+ * English word times (s) from heard words: alignWords (wild = lexicon words), minus
+ * SETTINGS_EN.alignBias (not below 0), in whole ms, each at least 1 ms after the one before
+ * and 1 ms before end. Throws when fewer than 90 % of the words matched, or the times fail the check rules.
  */
-export function enTimes(words, heard, who) {
-  const { t, matched } = alignWords(words, heard);
+export function enTimes(words, heard, end, who, wild = new Set()) {
+  const { t, matched } = alignWords(words, heard, { wild, end });
   if (matched < 0.9 * words.length) throw new Error(`${who}: matched ${matched} of ${words.length} words (under 90 %); nothing written`);
-  return { t: t.map((x) => r3(Math.max(0, x - SETTINGS_EN.alignBias))), matched };
+  const ms = t.map((x) => Math.max(0, Math.round((x - SETTINGS_EN.alignBias) * 1000)));
+  for (let i = 1; i < ms.length; i++) ms[i] = Math.max(ms[i], ms[i - 1] + 1);
+  for (let i = ms.length - 1, cap = Math.round(end * 1000) - 1; i >= 0; i--) { ms[i] = Math.min(ms[i], cap); cap = ms[i] - 1; }
+  const out = ms.map((x) => x / 1000);
+  enCheckTimes(out, end, who);
+  return { t: out, matched };
 }
 
 /** The English language object: renderingOf(n) gives the rendering lines (or null); ipa is the romanized-word table. */
@@ -203,7 +217,7 @@ export function enLanguage(renderingOf, ipa) {
   return {
     key: 'en',
     label: (n) => `passage ${n} English`,
-    build: (n) => ({ ...enSource(renderingOf(n), ipa), words: renderingOf(n).flatMap((l) => wordsOf(plainLine(l)).map((w) => w.word)) }),
+    build: (n) => enSource(renderingOf(n), ipa),
     hash: enSourceHash,
     validate: (n) => {
       const r = renderingOf(n);
@@ -212,6 +226,7 @@ export function enLanguage(renderingOf, ipa) {
     },
     voice: { languageCode: SETTINGS_EN.lang, name: SETTINGS_EN.voice },
     rate: SETTINGS_EN.rate,
+    wild: new Set(Object.keys(ipa)),
     speak: speakEn,
   };
 }
@@ -221,9 +236,10 @@ async function speakEn(built, lang, who) {
   const wav = parseWav(Buffer.from((await synthEn(built, lang.voice, lang.rate)).audioContent, 'base64'));
   if (wav.channels !== 1) throw new Error(`${who}: expected mono audio`);
   const heard = await recognize(to16k(wav.pcm, wav.sampleRate), { ffmpeg: runFfmpeg, post: (url, body) => post(url, body, 'STT') });
-  const { t, matched } = enTimes(built.words, heard, who);
+  const end = r3(wav.pcm.length / 2 / wav.sampleRate);
+  const { t, matched } = enTimes(built.words, heard, end, who, lang.wild);
   console.log(`${who}: matched ${matched} of ${built.count} words (${heard.length} heard)`);
-  return { t, end: r3(wav.pcm.length / 2 / wav.sampleRate), rate: wav.sampleRate, pcm: wav.pcm };
+  return { t, end, rate: wav.sampleRate, pcm: wav.pcm };
 }
 
 /** Record one passage in one language. Returns the manifest entry (or null when --out is used or nothing changed). */
@@ -236,7 +252,6 @@ async function record(n, lang, { out, stored }) {
   if (!out && isUpToDate(stored, src, (rel) => existsSync(join(app, rel)))) { console.log(`${who}: up to date`); return null; }
 
   const { t, end, rate, pcm } = await lang.speak(built, lang, who);
-  for (let i = 1; i < t.length; i++) if (t[i] - t[i - 1] < 0.08) console.warn(`${who}: marks ${i - 1}-${i} are ${r3(t[i] - t[i - 1])} s apart`);
 
   if (out) { encodeMp3(pcm, rate, out); console.log(`${who}: wrote ${out} (${end} s)`); return null; }
   mkdirSync(OUT_DIR, { recursive: true });

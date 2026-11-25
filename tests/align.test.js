@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { alignWords, cutPoints, silenceMids, recognize, STT_ENDPOINT } from '../scripts/lib/align.mjs';
+import { alignWords, cutPoints, silenceMids, recognize, numberWords, STT_ENDPOINT } from '../scripts/lib/align.mjs';
 
 const heard = (pairs) => pairs.map(([word, start]) => ({ word, start }));
 
@@ -40,6 +40,47 @@ test('alignWords: nothing heard gives 0.35 s steps from 0', () => {
 test('alignWords: a repeated word matches in order', () => {
   const r = alignWords(['dark', 'and', 'dark'], heard([['dark', 1], ['dark', 3]]));
   assert.deepEqual(r, { t: [1, 2, 3], matched: 2 });
+});
+
+test('alignWords: a lexicon word matches any one heard token at its place', () => {
+  const wild = new Set(['dao', 'de']);
+  const r = alignWords(['the', 'Dao', 'and', 'de'], heard([['the', 0.2], ['dow', 0.5], ['and', 0.9], ['duh', 1.2]]), { wild });
+  assert.deepEqual(r, { t: [0.2, 0.5, 0.9, 1.2], matched: 4 });
+});
+test('alignWords: an exact match wins over a lexicon wildcard', () => {
+  const r = alignWords(['the', 'Dao', 'is'], heard([['the', 0.5], ['is', 1]]), { wild: new Set(['dao']) });
+  assert.deepEqual(r, { t: [0.5, 0.75, 1], matched: 2 });
+});
+test('alignWords: a hyphenated heard word splits into its parts', () => {
+  const r = alignWords(['full', 'grown'], [{ word: 'full-grown', start: 1, end: 2 }]);
+  assert.deepEqual(r, { t: [1, 1.5], matched: 2 });
+});
+test('alignWords: a joined heard word matches our split pair', () => {
+  const r = alignWords(['a', 'full', 'grown', 'tree'], [{ word: 'a', start: 0.5 }, { word: 'fullgrown', start: 1, end: 2 }, { word: 'tree', start: 2.2 }]);
+  assert.deepEqual(r, { t: [0.5, 1, 1.5, 2.2], matched: 4 });
+});
+test('alignWords: apostrophes do not count', () => {
+  assert.deepEqual(alignWords(['its', 'sage’s'], heard([["it's", 1], ['sages', 2]])), { t: [1, 2], matched: 2 });
+});
+test('alignWords: heard digits match our number words', () => {
+  const r = alignWords(['the', 'ten', 'thousand', 'things', 'the', 'third'],
+    [{ word: 'the', start: 0 }, { word: '10,000', start: 1, end: 2 }, { word: 'things', start: 2.1 }, { word: 'the', start: 3 }, { word: '3rd', start: 3.5 }]);
+  assert.deepEqual(r, { t: [0, 1, 1.5, 2.1, 3, 3.5], matched: 6 });
+});
+test('alignWords: with end, the tail after the last match is spread before end', () => {
+  const r = alignWords(['a', 'b', 'c', 'd'], heard([['a', 9]]), { end: 9.8 });
+  assert.deepEqual(r.t.map((x) => Math.round(x * 1000) / 1000), [9, 9.2, 9.4, 9.6]);
+  assert.deepEqual(alignWords(['a', 'b'], heard([['a', 1]]), { end: 9 }).t, [1, 1.35], 'a long gap keeps 0.35 s steps');
+});
+test('numberWords: cardinals and ordinals', () => {
+  assert.deepEqual(numberWords('3'), ['three']);
+  assert.deepEqual(numberWords('10,000'), ['ten', 'thousand']);
+  assert.deepEqual(numberWords('81'), ['eighty', 'one']);
+  assert.deepEqual(numberWords('300'), ['three', 'hundred']);
+  assert.deepEqual(numberWords('1st'), ['first']);
+  assert.deepEqual(numberWords('12th'), ['twelfth']);
+  assert.deepEqual(numberWords('20th'), ['twentieth']);
+  assert.equal(numberWords('abc'), null);
 });
 
 test('silenceMids reads ffmpeg silencedetect output', () => {

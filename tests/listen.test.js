@@ -111,7 +111,7 @@ test('forcedReadings lists every forced character with place, context, reading, 
   assert.ok(rows[4].ctx.includes('長長'));
 });
 
-import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage, enTimes } from '../scripts/build-audio.mjs';
+import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage, enTimes, enCheckTimes } from '../scripts/build-audio.mjs';
 import { SETTINGS_EN, enSourceHash, enSource } from '../scripts/lib/listen-en.mjs';
 
 test('joinTimes shifts later parts by the samples before them', () => {
@@ -289,7 +289,9 @@ test('build-audio: the English language object builds, hashes, and counts words'
   assert.deepEqual(lang.voice, { languageCode: SETTINGS_EN.lang, name: SETTINGS_EN.voice });
   assert.equal(lang.rate, SETTINGS_EN.rate);
   const built = lang.build(1);
-  assert.deepEqual(built, { ...enSource(lines, { dao: 'daʊ' }), words: ['A', 'way', 'the', 'Dao', 'is', 'not'] });
+  assert.deepEqual(built, enSource(lines, { dao: 'daʊ' }));
+  assert.deepEqual(built.words, ['A', 'way', 'the', 'Dao', 'is', 'not']);
+  assert.deepEqual([...lang.wild], ['dao']);
   assert.equal(built.count, 6);
   assert.equal(built.pronunciations.length, 1);
   assert.equal(lang.hash(built), enSourceHash(built));
@@ -300,13 +302,38 @@ test('build-audio: the English language object builds, hashes, and counts words'
 });
 test('build-audio: enTimes subtracts the bias (not below 0), rounds to 3 decimals, and fails under 90 % matched', () => {
   const heard = [{ word: 'a', start: 0.03 }, { word: 'way', start: 0.5 }, { word: 'is', start: 1.0004 }];
-  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 'p'), { t: [0, 0.434, 0.934], matched: 3 });
+  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 5, 'p'), { t: [0, 0.434, 0.934], matched: 3 });
   const ten = Array.from({ length: 10 }, (_, i) => `w${i}`);
   const nine = ten.slice(0, 9).map((word, i) => ({ word, start: i + 1 }));
-  assert.equal(enTimes(ten, nine, 'p').matched, 9);
-  assert.throws(() => enTimes(ten, nine.slice(1), 'p'), /p: matched 8 of 10 words/);
+  assert.equal(enTimes(ten, nine, 20, 'p').matched, 9);
+  assert.throws(() => enTimes(ten, nine.slice(1), 20, 'p'), /p: matched 8 of 10 words/);
 });
-
+test('build-audio: enTimes makes times strictly increase when two words clamp to 0', () => {
+  const heard = [{ word: 'a', start: 0.01 }, { word: 'way', start: 0.05 }, { word: 'is', start: 0.5 }];
+  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 5, 'p').t, [0, 0.001, 0.434]);
+});
+test('build-audio: enTimes makes times strictly increase when starts are equal', () => {
+  const heard = [{ word: 'a', start: 1.08 }, { word: 'way', start: 1.08 }, { word: 'is', start: 1.08 }];
+  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 5, 'p').t, [1.014, 1.015, 1.016]);
+});
+test('build-audio: enTimes keeps every time before end', () => {
+  const ten = Array.from({ length: 10 }, (_, i) => `w${i}`);
+  const heard = ten.map((word, i) => ({ word, start: i === 9 ? 5.2 : i * 0.5 }));
+  const { t } = enTimes(ten, heard, 5, 'p');
+  assert.ok(t.at(-1) < 5 && t.at(-1) <= 4.999, String(t));
+  for (let i = 1; i < t.length; i++) assert.ok(t[i] > t[i - 1], String(t));
+});
+test('build-audio: enTimes spreads an unmatched tail before end', () => {
+  const ten = Array.from({ length: 10 }, (_, i) => `w${i}`);
+  const heard = ten.slice(0, 9).map((word, i) => ({ word, start: i * 0.3 + 0.066 }));
+  const { t } = enTimes(ten, heard, 2.7, 'p');
+  assert.ok(t[9] > t[8] && t[9] < 2.7, String(t));
+});
+test('build-audio: enCheckTimes throws on times the check would reject', () => {
+  assert.doesNotThrow(() => enCheckTimes([0, 0.5], 1, 'p'));
+  assert.throws(() => enCheckTimes([0, 0], 1, 'p'), /p: t does not increase/);
+  assert.throws(() => enCheckTimes([0, 1], 1, 'p'), /p: end/);
+});
 test('build-audio: --en --drop without a passage number prints usage and exits 2', async () => {
   const saved = console.error;
   const lines = [];

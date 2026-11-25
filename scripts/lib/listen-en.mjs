@@ -14,34 +14,44 @@ export const STANZA_PAUSE = '[pause]';
 
 const isEmpty = (line) => line.trim() === '';
 
-/** Rendering lines ("" = stanza gap) to Chirp markup and the wordsOf count. */
-export function buildEnMarkup(rendering) {
+/** The markup and the words (as written, in order) of the rendering lines. */
+function markupAndWords(rendering) {
   const out = [];
-  let count = 0;
+  const words = [];
   rendering.forEach((line, i) => {
     if (isEmpty(line)) return;
     const plain = plainLine(line).trim();
-    count += wordsOf(plain).length;
+    for (const w of wordsOf(plain)) words.push(w.word);
     const next = rendering[i + 1];
     out.push(`${plain} ${next !== undefined && isEmpty(next) ? STANZA_PAUSE : LINE_PAUSE}`);
   });
-  return { markup: out.join(LINE_JOIN), count };
+  return { markup: out.join(LINE_JOIN), words };
 }
 
-/** Custom pronunciations from the IPA table for the words in the passage, each spelling as written, first-seen order. */
-export function enPronunciations(rendering, ipa) {
+/** Rendering lines ("" = stanza gap) to Chirp markup and the wordsOf count. */
+export function buildEnMarkup(rendering) {
+  const { markup, words } = markupAndWords(rendering);
+  return { markup, count: words.length };
+}
+
+/** Custom pronunciations from the IPA table for these words, each spelling as written, first-seen order. */
+function pronunciationsOf(words, ipa) {
   const seen = new Map();
-  for (const line of rendering) {
-    for (const { word } of wordsOf(plainLine(line))) {
-      const ph = ipa[word.toLowerCase()];
-      if (ph && !seen.has(word)) seen.set(word, { phrase: word, phoneticEncoding: 'PHONETIC_ENCODING_IPA', pronunciation: ph });
-    }
+  for (const word of words) {
+    const ph = ipa[word.toLowerCase()];
+    if (ph && !seen.has(word)) seen.set(word, { phrase: word, phoneticEncoding: 'PHONETIC_ENCODING_IPA', pronunciation: ph });
   }
   return [...seen.values()];
 }
 
-/** Everything one English request sends: { markup, count, pronunciations }. */
-export const enSource = (rendering, ipa) => ({ ...buildEnMarkup(rendering), pronunciations: enPronunciations(rendering, ipa) });
+/** Custom pronunciations for the words that occur in the passage. */
+export const enPronunciations = (rendering, ipa) => pronunciationsOf(markupAndWords(rendering).words, ipa);
+
+/** Everything one English request needs: { markup, count, words, pronunciations }. The hash uses markup and pronunciations. */
+export function enSource(rendering, ipa) {
+  const { markup, words } = markupAndWords(rendering);
+  return { markup, count: words.length, words, pronunciations: pronunciationsOf(words, ipa) };
+}
 
 /** SHA-256 over the markup, the pronunciations used, and SETTINGS_EN. */
 export function enSourceHash({ markup, pronunciations }) {
