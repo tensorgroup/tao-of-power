@@ -140,7 +140,7 @@
     "wushi": {
       "kind": "gap",
       "title": "無事: no business",
-      "body": "無事 is a term of its own, and it is not the same as [[無為|wuwei]] or as “no effort”. 事 is an affair, a task, a piece of business; as a verb it is to serve. The Shuowen glosses it 職也, “an office, a duty”, and derives it from 史, the scribe: 事 is what an official has on his desk. A state full of 事 is a state of projects: surveys, levies, works, campaigns, laws. 無事 is the absence of these, and passage 57 gives the result: 我無事而民自富, “I have no business, and the people of themselves grow rich”. Passage 63 makes it a practice, 事無事: serve no-business. Modern English has the word “busy” as praise. What would it be to hold an office and to have nothing on the desk?",
+      "body": "無事 is a term of its own, and it is not the same as [[無為|wuwei]] or as “no effort”. 事 is an affair, a task, a piece of business; as a verb it is to serve. The Shuowen glosses it 職也, “an office, a duty”, and derives it from 史, the scribe: 事 is what an official has on his desk. A state full of 事 is a state of projects: surveys, levies, works, campaigns, laws. 無事 is the absence of these, and passage 57 gives the result: 我無事而民自富, “I have no business, and the people of themselves grow rich”. Passage 63 makes it a practice, 事無事: serve no-business. Modern English has the word “busy” as praise. Chan Buddhism took up 無事; see [[Linji|linji]]. What would it be to hold an office and to have nothing on the desk?",
       "src": [
         "Shuowen Jiezi, 史部: 事，職也。从史，之省聲。",
         "Laozi 57, 63"
@@ -198,6 +198,15 @@
       "kind": "pair",
       "title": "益/損: two directions of one hand",
       "body": "More 益 and less 損 stand in two lines of the same form, and with them learning 學 and Dao 道. The Chinese sets them side by side. It does not say that learning is wrong or that less is better than more. Each needs the other: a person can put down only what was picked up, and the long adding of a skill is what the later taking-away works on. The passage then follows the “less” side. That is the preference of a book written against an age of piled-up doctrine and [[busy rule|youshi]]. The less side turns as well, and the text shows it two times. [[Less, and again less|sunsun]]: the second loss is the loss of losing as a project. And at the end of less stands [[nothing left undone|wubuwei]], which is the largest “more”. A one-sided reading makes a creed of subtraction. Which do you count as progress: what you added, or what you put down?"
+    },
+    "linji": {
+      "kind": "history",
+      "title": "無事 in Chan: the person of no business",
+      "body": "The word 無事 lived on in Chinese Buddhism. The ninth-century Chan master Linji told his students 無事是貴人: the person of no business is the noble one. He meant a person who does not go out searching for buddhahood, and who lives in an ordinary way, with no contrived effort (造作). Scholars often trace Chan words such as this to Daoist vocabulary; the Record of Linji does not quote Laozi by name. Thich Nhat Hanh (1926–2022) belonged to Linji’s lineage. In 2003–2004 he gave retreat talks on Linji at Plum Village and Deer Park. He called this ideal a ‘businessless’ person, and said that even the wish to reach enlightenment can become one more business. Here 無事 is a way to hold a state. There it is a way to hold a life. Is your list of tasks for self-improvement a business too?",
+      "src": [
+        "Linji lu (臨濟錄), 示衆",
+        "Thich Nhat Hanh, Nothing to Do, Nowhere to Go (2007)"
+      ]
     }
   },
   "lenses": {
