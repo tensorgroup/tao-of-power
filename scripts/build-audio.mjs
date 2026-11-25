@@ -1,19 +1,22 @@
-// Record the Listen read-aloud audio: Google TTS (SSML marks) -> one MP3 per passage + timings in listen.json.
+// Record the Listen read-aloud audio: one MP3 per passage + timings in listen.json.
+// Chinese: Google TTS with SSML marks. English: Chirp 3 HD markup, word times from Speech-to-Text.
 // Usage: node scripts/build-audio.mjs [--en] [N... | --all] | [--en] --drop N | --list N | --no-force --out <path> N
 import { readFileSync, writeFileSync, renameSync, readdirSync, unlinkSync, existsSync, mkdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { join } from 'node:path';
-import { segmentsFor } from '../app/js/markup.js';
+import { segmentsFor, plainLine, wordsOf } from '../app/js/markup.js';
 import { SETTINGS, resolveReading, buildSsml, sourceHash, validateReadings, validateGlobalReadings, forcedReadings } from './lib/listen-ssml.mjs';
-import { SETTINGS_EN, buildEnSsml, enSourceHash, romanizedCandidates } from './lib/listen-en.mjs';
+import { SETTINGS_EN, enSource, enSourceHash, romanizedCandidates } from './lib/listen-en.mjs';
+import { alignWords, recognize } from './lib/align.mjs';
 
 const app = fileURLToPath(new URL('../app/', import.meta.url));
 const scripts = fileURLToPath(new URL('./', import.meta.url));
 const MANIFEST = join(app, 'data/listen.json');
 const OUT_DIR = join(app, 'audio/passages');
 const ENDPOINT = 'https://texttospeech.googleapis.com/v1beta1/text:synthesize';
+const ENDPOINT_EN = 'https://texttospeech.googleapis.com/v1/text:synthesize';
 const USAGE = 'Usage: npm run audio -- [--en] [N... | --all] | [--en] --drop N | --list N | --no-force --out <path> N';
 const FFMPEG = existsSync('/opt/homebrew/bin/ffmpeg') ? '/opt/homebrew/bin/ffmpeg' : 'ffmpeg';
 
@@ -106,20 +109,39 @@ export function writeMp3(dir, n, key, pcm, rate, encode = encodeMp3) {
 let token;
 const getToken = () => (token ??= execFileSync('gcloud', ['--configuration=tao', 'auth', 'print-access-token'], { encoding: 'utf8' }).trim());
 
-async function synth(ssml, voice, rate) {
-  const res = await fetch(ENDPOINT, {
+/** POST JSON to a Google API with the gcloud token; what names the API in errors. */
+async function post(url, body, what) {
+  const res = await fetch(url, {
     method: 'POST',
     headers: { Authorization: `Bearer ${getToken()}`, 'x-goog-user-project': 'tao-of-power', 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      input: { ssml },
-      voice,
-      audioConfig: { audioEncoding: 'LINEAR16', speakingRate: rate },
-      enableTimePointing: ['SSML_MARK'],
-    }),
+    body: JSON.stringify(body),
   });
-  if (!res.ok) throw new Error(`TTS ${res.status}: ${(await res.text()).slice(0, 300)}`);
+  if (!res.ok) throw new Error(`${what} ${res.status}: ${(await res.text()).slice(0, 300)}`);
   return res.json();
 }
+
+const synth = (ssml, voice, rate) => post(ENDPOINT, {
+  input: { ssml },
+  voice,
+  audioConfig: { audioEncoding: 'LINEAR16', speakingRate: rate },
+  enableTimePointing: ['SSML_MARK'],
+}, 'TTS');
+
+const synthEn = ({ markup, pronunciations }, voice, rate) => post(ENDPOINT_EN, {
+  input: { markup, ...(pronunciations.length ? { customPronunciations: { pronunciations } } : {}) },
+  voice,
+  audioConfig: { audioEncoding: SETTINGS_EN.encoding, speakingRate: rate },
+}, 'TTS');
+
+const runFfmpeg = (args, input) => {
+  const r = spawnSync(FFMPEG, args, { input, maxBuffer: 1 << 28 });
+  if (r.status !== 0) throw new Error(`ffmpeg failed: ${r.stderr}`);
+  return { stdout: r.stdout, stderr: r.stderr.toString() };
+};
+
+/** Mono 16-bit PCM at sampleRate to 16 kHz, for the recognizer. */
+const to16k = (pcm, sampleRate) => runFfmpeg(['-loglevel', 'error', '-f', 's16le', '-ar', String(sampleRate), '-ac', '1', '-i', '-',
+  '-ar', '16000', '-f', 's16le', '-'], pcm).stdout;
 
 function encodeMp3(pcm, sampleRate, outPath) {
   const r = spawnSync(FFMPEG, ['-y', '-loglevel', 'error', '-f', 's16le', '-ar', String(sampleRate), '-ac', '1', '-i', '-',
@@ -140,35 +162,12 @@ export function zhLanguage(ctx, noForce = false) {
     validate: (n) => (noForce ? [] : [...ctx.globalErrs, ...validateReadings(n, segmentsOf(n, ctx.text), ctx.readings, ctx.lex)]),
     voice: { languageCode: 'cmn-CN', name: SETTINGS.voice },
     rate: SETTINGS.rate,
+    speak: speakZh,
   };
 }
 
-/** The English language object: renderingOf(n) gives the rendering lines (or null); ipa is the romanized-word table. */
-export function enLanguage(renderingOf, ipa) {
-  return {
-    key: 'en',
-    label: (n) => `passage ${n} English`,
-    build: (n) => buildEnSsml(renderingOf(n), ipa),
-    hash: enSourceHash,
-    validate: (n) => {
-      const r = renderingOf(n);
-      if (!r?.length) return [`passage ${n}: no English rendering`];
-      return romanizedCandidates([r], ipa).map((w) => `passage ${n}: "${w}" looks romanized; add it to scripts/audio-en-lexicon.json`);
-    },
-    voice: { languageCode: SETTINGS_EN.lang, name: SETTINGS_EN.voice },
-    rate: SETTINGS_EN.rate,
-  };
-}
-
-/** Record one passage in one language. Returns the manifest entry (or null when --out is used or nothing changed). */
-async function record(n, lang, { out, stored }) {
-  const who = lang.label(n);
-  const errs = lang.validate(n);
-  if (errs.length) throw new Error(`${who}:\n  ${errs.join('\n  ')}`);
-  const parts = lang.build(n);
-  const src = lang.hash(parts);
-  if (!out && isUpToDate(stored, src, (rel) => existsSync(join(app, rel)))) { console.log(`${who}: up to date`); return null; }
-
+/** Chinese: one TTS request per SSML part; mark times give t. */
+async function speakZh(parts, lang, who) {
   const got = [];
   let rate = 0;
   for (const part of parts) {
@@ -186,9 +185,59 @@ async function record(n, lang, { out, stored }) {
     got.push({ times: tp.map((x) => x.timeSeconds), samples: wav.pcm.length / 2, pcm: wav.pcm });
   }
   const { t, end } = joinTimes(got, rate);
+  return { t, end, rate, pcm: Buffer.concat(got.map((g) => g.pcm)) };
+}
+
+/**
+ * English word times from heard words: alignWords, minus SETTINGS_EN.alignBias (not below 0),
+ * 3 decimals. Throws when fewer than 90 % of the words matched.
+ */
+export function enTimes(words, heard, who) {
+  const { t, matched } = alignWords(words, heard);
+  if (matched < 0.9 * words.length) throw new Error(`${who}: matched ${matched} of ${words.length} words (under 90 %); nothing written`);
+  return { t: t.map((x) => r3(Math.max(0, x - SETTINGS_EN.alignBias))), matched };
+}
+
+/** The English language object: renderingOf(n) gives the rendering lines (or null); ipa is the romanized-word table. */
+export function enLanguage(renderingOf, ipa) {
+  return {
+    key: 'en',
+    label: (n) => `passage ${n} English`,
+    build: (n) => ({ ...enSource(renderingOf(n), ipa), words: renderingOf(n).flatMap((l) => wordsOf(plainLine(l)).map((w) => w.word)) }),
+    hash: enSourceHash,
+    validate: (n) => {
+      const r = renderingOf(n);
+      if (!r?.length) return [`passage ${n}: no English rendering`];
+      return romanizedCandidates([r], ipa).map((w) => `passage ${n}: "${w}" looks romanized; add it to scripts/audio-en-lexicon.json`);
+    },
+    voice: { languageCode: SETTINGS_EN.lang, name: SETTINGS_EN.voice },
+    rate: SETTINGS_EN.rate,
+    speak: speakEn,
+  };
+}
+
+/** English: one Chirp request for the passage; the recognizer hears the words and alignWords times them. */
+async function speakEn(built, lang, who) {
+  const wav = parseWav(Buffer.from((await synthEn(built, lang.voice, lang.rate)).audioContent, 'base64'));
+  if (wav.channels !== 1) throw new Error(`${who}: expected mono audio`);
+  const heard = await recognize(to16k(wav.pcm, wav.sampleRate), { ffmpeg: runFfmpeg, post: (url, body) => post(url, body, 'STT') });
+  const { t, matched } = enTimes(built.words, heard, who);
+  console.log(`${who}: matched ${matched} of ${built.count} words (${heard.length} heard)`);
+  return { t, end: r3(wav.pcm.length / 2 / wav.sampleRate), rate: wav.sampleRate, pcm: wav.pcm };
+}
+
+/** Record one passage in one language. Returns the manifest entry (or null when --out is used or nothing changed). */
+async function record(n, lang, { out, stored }) {
+  const who = lang.label(n);
+  const errs = lang.validate(n);
+  if (errs.length) throw new Error(`${who}:\n  ${errs.join('\n  ')}`);
+  const built = lang.build(n);
+  const src = lang.hash(built);
+  if (!out && isUpToDate(stored, src, (rel) => existsSync(join(app, rel)))) { console.log(`${who}: up to date`); return null; }
+
+  const { t, end, rate, pcm } = await lang.speak(built, lang, who);
   for (let i = 1; i < t.length; i++) if (t[i] - t[i - 1] < 0.08) console.warn(`${who}: marks ${i - 1}-${i} are ${r3(t[i] - t[i - 1])} s apart`);
 
-  const pcm = Buffer.concat(got.map((g) => g.pcm));
   if (out) { encodeMp3(pcm, rate, out); console.log(`${who}: wrote ${out} (${end} s)`); return null; }
   mkdirSync(OUT_DIR, { recursive: true });
   const name = writeMp3(OUT_DIR, n, lang.key, pcm, rate);

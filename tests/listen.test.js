@@ -111,8 +111,8 @@ test('forcedReadings lists every forced character with place, context, reading, 
   assert.ok(rows[4].ctx.includes('長長'));
 });
 
-import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage } from '../scripts/build-audio.mjs';
-import { SETTINGS_EN, enSourceHash, buildEnSsml } from '../scripts/lib/listen-en.mjs';
+import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage, enTimes } from '../scripts/build-audio.mjs';
+import { SETTINGS_EN, enSourceHash, enSource } from '../scripts/lib/listen-en.mjs';
 
 test('joinTimes shifts later parts by the samples before them', () => {
   const r = joinTimes([{ times: [0.015, 0.5], samples: 24000 }, { times: [0.015], samples: 24000 }], 24000);
@@ -288,14 +288,23 @@ test('build-audio: the English language object builds, hashes, and counts words'
   assert.equal(lang.key, 'en');
   assert.deepEqual(lang.voice, { languageCode: SETTINGS_EN.lang, name: SETTINGS_EN.voice });
   assert.equal(lang.rate, SETTINGS_EN.rate);
-  const parts = lang.build(1);
-  assert.deepEqual(parts, buildEnSsml(lines, { dao: 'daʊ' }));
-  assert.equal(parts.reduce((s, p) => s + p.count, 0), 6); // A way the Dao is not
-  assert.equal(lang.hash(parts), enSourceHash(parts));
+  const built = lang.build(1);
+  assert.deepEqual(built, { ...enSource(lines, { dao: 'daʊ' }), words: ['A', 'way', 'the', 'Dao', 'is', 'not'] });
+  assert.equal(built.count, 6);
+  assert.equal(built.pronunciations.length, 1);
+  assert.equal(lang.hash(built), enSourceHash(built));
   assert.deepEqual(lang.validate(1), []);
   assert.equal(lang.validate(2).length, 1);
   assert.match(lang.validate(2)[0], /no English rendering/);
   assert.match(enLanguage(() => ['the qi rises'], {}).validate(1)[0], /qi/);
+});
+test('build-audio: enTimes subtracts the bias (not below 0), rounds to 3 decimals, and fails under 90 % matched', () => {
+  const heard = [{ word: 'a', start: 0.03 }, { word: 'way', start: 0.5 }, { word: 'is', start: 1.0004 }];
+  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 'p'), { t: [0, 0.434, 0.934], matched: 3 });
+  const ten = Array.from({ length: 10 }, (_, i) => `w${i}`);
+  const nine = ten.slice(0, 9).map((word, i) => ({ word, start: i + 1 }));
+  assert.equal(enTimes(ten, nine, 'p').matched, 9);
+  assert.throws(() => enTimes(ten, nine.slice(1), 'p'), /p: matched 8 of 10 words/);
 });
 
 test('build-audio: --en --drop without a passage number prints usage and exits 2', async () => {
@@ -313,8 +322,7 @@ const EN_IPA = { dao: 'daʊ' };
 const EN_LINES = { 1: ['The [[Dao|dao]] that can be told', '', 'is not the constant Dao.'] };
 function enGood() {
   const a = clGood();
-  const parts = buildEnSsml(EN_LINES[1], EN_IPA);
-  a.manifest.en = { 1: { file: 'audio/passages/01.en.cccccccc.mp3', src: enSourceHash(parts), n: 11, end: 9, t: Array.from({ length: 11 }, (_, i) => 0.1 + i * 0.5) } };
+  a.manifest.en = { 1: { file: 'audio/passages/01.en.cccccccc.mp3', src: enSourceHash(enSource(EN_LINES[1], EN_IPA)), n: 11, end: 9, t: Array.from({ length: 11 }, (_, i) => 0.1 + i * 0.5) } };
   a.mp3s.push('01.en.cccccccc.mp3');
   a.renderingOf = (n) => EN_LINES[n] ?? null;
   a.ipa = EN_IPA;

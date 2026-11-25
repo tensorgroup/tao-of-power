@@ -1,48 +1,52 @@
-// Pure helpers for the English Listen audio: SSML parts, source hash, romanized-word check.
+// Pure helpers for the English Listen audio: Chirp 3 HD markup, custom pronunciations, source hash, romanized-word check.
+import { createHash } from 'node:crypto';
 import { plainLine, wordsOf } from '../../app/js/markup.js';
-import { escapeXml, packClauses, hashParts } from './listen-ssml.mjs';
 
-export const SETTINGS_EN = Object.freeze({ voice: 'en-US-Neural2-D', lang: 'en-US', rate: 0.9, encoding: 'LINEAR16', mp3: 'mono-48k' });
+export const SETTINGS_EN = Object.freeze({
+  voice: 'en-US-Chirp3-HD-Callirrhoe', lang: 'en-US', rate: 1.0, encoding: 'LINEAR16', mp3: 'mono-48k',
+  input: 'markup', aligner: 'chirp_2', alignBias: 0.066,
+});
 
-const BREAK = '<break time="700ms"/>';
-const CLAUSE_END = /[.;:!?]/;
+// The pacing knobs: what joins lines, what follows a line, and what follows a stanza.
+export const LINE_JOIN = ' ';
+export const LINE_PAUSE = '[pause short]';
+export const STANZA_PAUSE = '[pause]';
 
-/** The SSML for one word: its mark, then the word, or its IPA phoneme when the table has it. */
-function wordSsml(word, i, ipa) {
-  const ph = ipa[word.toLowerCase()];
-  const body = ph ? `<phoneme alphabet="ipa" ph="${escapeXml(ph)}">${word}</phoneme>` : word;
-  return `<mark name="${i}"/>${body}`;
+const isEmpty = (line) => line.trim() === '';
+
+/** Rendering lines ("" = stanza gap) to Chirp markup and the wordsOf count. */
+export function buildEnMarkup(rendering) {
+  const out = [];
+  let count = 0;
+  rendering.forEach((line, i) => {
+    if (isEmpty(line)) return;
+    const plain = plainLine(line).trim();
+    count += wordsOf(plain).length;
+    const next = rendering[i + 1];
+    out.push(`${plain} ${next !== undefined && isEmpty(next) ? STANZA_PAUSE : LINE_PAUSE}`);
+  });
+  return { markup: out.join(LINE_JOIN), count };
 }
 
-/** Rendering lines ("" = stanza gap) to <speak> parts: one mark per wordsOf word, numbered across lines. */
-export function buildEnSsml(rendering, ipa) {
-  const clauses = []; // { text, count }
-  let cur = { text: '', count: 0 };
-  let i = 0;
-  let started = false;
-  const close = () => { if (cur.text) clauses.push(cur); cur = { text: '', count: 0 }; };
+/** Custom pronunciations from the IPA table for the words in the passage, each spelling as written, first-seen order. */
+export function enPronunciations(rendering, ipa) {
+  const seen = new Map();
   for (const line of rendering) {
-    const plain = plainLine(line);
-    if (plain.trim() === '') { clauses.push({ text: BREAK, count: 0 }); continue; }
-    if (started) cur.text += ' ';
-    started = true;
-    let last = 0;
-    for (const w of wordsOf(plain)) {
-      const gap = plain.slice(last, w.start);
-      cur.text += escapeXml(gap);
-      if (CLAUSE_END.test(gap)) close();
-      cur.text += wordSsml(w.word, i, ipa);
-      cur.count++;
-      i++;
-      last = w.end;
+    for (const { word } of wordsOf(plainLine(line))) {
+      const ph = ipa[word.toLowerCase()];
+      if (ph && !seen.has(word)) seen.set(word, { phrase: word, phoneticEncoding: 'PHONETIC_ENCODING_IPA', pronunciation: ph });
     }
-    cur.text += escapeXml(plain.slice(last));
-    close();
   }
-  return packClauses(clauses);
+  return [...seen.values()];
 }
 
-export const enSourceHash = (parts) => hashParts(parts, SETTINGS_EN);
+/** Everything one English request sends: { markup, count, pronunciations }. */
+export const enSource = (rendering, ipa) => ({ ...buildEnMarkup(rendering), pronunciations: enPronunciations(rendering, ipa) });
+
+/** SHA-256 over the markup, the pronunciations used, and SETTINGS_EN. */
+export function enSourceHash({ markup, pronunciations }) {
+  return createHash('sha256').update(markup).update(JSON.stringify(pronunciations)).update(JSON.stringify(SETTINGS_EN)).digest('hex');
+}
 
 // The pinyin rule. A word looks like pinyin when it splits into syllables, each an initial
 // plus a final from that initial's group (toneless, ü written u). Two limits follow pinyin

@@ -3,9 +3,9 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { join, basename } from 'node:path';
-import { segmentsFor, passageChars, plainLine, wordsOf } from '../app/js/markup.js';
+import { segmentsFor, passageChars } from '../app/js/markup.js';
 import { resolveReading, buildSsml, sourceHash, validateReadings, validateGlobalReadings } from './lib/listen-ssml.mjs';
-import { buildEnSsml, enSourceHash } from './lib/listen-en.mjs';
+import { enSource, enSourceHash } from './lib/listen-en.mjs';
 
 const app = fileURLToPath(new URL('../app/', import.meta.url));
 const scripts = fileURLToPath(new URL('./', import.meta.url));
@@ -60,11 +60,11 @@ export function checkListen({ manifest, segmentsOf, renderingOf, ipa, readings, 
     const who = `Passage ${n} English`;
     const rendering = renderingOf(n);
     if (!rendering?.length) { errs.push(`${who}: the passage has no rendering.`); checkFiles(n, e); continue; }
-    if (e.src !== enSourceHash(buildEnSsml(rendering, ipa))) {
+    const source = enSource(rendering, ipa);
+    if (e.src !== enSourceHash(source)) {
       errs.push(`${who} changed after the recording. Run \`npm run audio -- --en ${n}\`, or \`npm run audio -- --en --drop ${n}\`.`);
     }
-    const count = rendering.reduce((sum, line) => sum + wordsOf(plainLine(line)).length, 0);
-    checkEntry(who, n, e, count, 'words');
+    checkEntry(who, n, e, source.count, 'words');
   }
   for (const f of mp3s) if (!named.has(f)) errs.push(`audio/passages/${f} is not named by any entry in listen.json.`);
   return errs;
