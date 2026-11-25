@@ -8,3 +8,4 @@ docs/study/
 node_modules/
 .wrangler/
 .DS_Store
+update-check/
