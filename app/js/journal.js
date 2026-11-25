@@ -53,16 +53,33 @@ export function addEntry(j, { passage, text, drawId, q, at }, now = new Date().t
   return e;
 }
 
+// A change must beat the version it changes, even when this device's clock is
+// behind the device that wrote that version (sync merges by time).
+function after(prev, now) {
+  const p = Date.parse(prev);
+  return Number.isNaN(p) || Date.parse(now) > p ? now : new Date(p + 1).toISOString();
+}
+
 export function updateEntry(j, id, text, now = new Date().toISOString()) {
   const e = j.entries.find((x) => x.id === id);
-  if (e) { e.text = text; e.updatedAt = now; }
+  if (e) { e.text = text; e.updatedAt = after(e.updatedAt, now); }
   return e;
 }
 
 export function deleteEntry(j, id, now = new Date().toISOString()) {
+  const e = j.entries.find((x) => x.id === id);
   j.entries = j.entries.filter((x) => x.id !== id);
   j.tombstones = j.tombstones.filter((t) => t.id !== id);
+  j.tombstones.push({ id, deletedAt: e ? after(e.updatedAt, now) : now });
+}
+
+/** Remove a draw from the history; the tombstone carries the removal to other devices. */
+export function deleteDraw(j, id, now = new Date().toISOString()) {
+  if (!j.draws.some((d) => d.id === id)) return false;
+  j.draws = j.draws.filter((d) => d.id !== id);
+  j.tombstones = j.tombstones.filter((t) => t.id !== id);
   j.tombstones.push({ id, deletedAt: now });
+  return true;
 }
 
 export function recordDraw(j, { passage, lines, bundles }, now = new Date().toISOString()) {
@@ -130,7 +147,7 @@ export function merge(local, incoming) {
     else if (e) tombs.delete(id); // a newer edit revives the entry
   }
   const draws = new Map();
-  for (const d of [...local.draws, ...incoming.draws]) if (!draws.has(d.id)) draws.set(d.id, { ...d });
+  for (const d of [...local.draws, ...incoming.draws]) if (!draws.has(d.id) && !tombs.has(d.id)) draws.set(d.id, { ...d });
   const le = [local.lastExportAt, incoming.lastExportAt].filter(Boolean).sort();
   return {
     version: 1,
@@ -139,6 +156,15 @@ export function merge(local, incoming) {
     draws: [...draws.values()].sort(byTime('at')),
     tombstones: [...tombs.values()].sort(byTime('deletedAt')),
   };
+}
+
+/** The part of a journal that syncs: everything but this device's lastExportAt. */
+export function syncCore(j) {
+  return { version: 1, entries: j.entries, draws: j.draws, tombstones: j.tombstones };
+}
+
+export function sameCore(a, b) {
+  return JSON.stringify(syncCore(a)) === JSON.stringify(syncCore(b));
 }
 
 export function toExport(j) {

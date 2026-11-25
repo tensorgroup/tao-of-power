@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {
   emptyJournal, load, save, addEntry, updateEntry, deleteEntry, recordDraw,
   validate, merge, toExport, exportFilename, saveDraft, loadDraft, clearDraft,
-  saveDraftQ, loadDraftQ, KEY,
+  saveDraftQ, loadDraftQ, KEY, deleteDraw, syncCore, sameCore,
 } from '../app/js/journal.js';
 
 function memStorage(throwOnSet = false) {
@@ -168,4 +168,52 @@ test('validate drops a malformed margin anchor but keeps the entry', () => {
   const r = validate({ version: 1, entries: [{ id: 'a', passage: 2, text: 't', createdAt: now, updatedAt: now, at: { key: 7 } }] });
   assert.equal(r.ok, true);
   assert.equal('at' in r.journal.entries[0], false);
+});
+
+test('draw tombstone wins in both merge orders and is kept', () => {
+  const a = emptyJournal();
+  const d = recordDraw(a, { passage: 3, lines: [2, 0, 0, 0], bundles: [] }, T(1));
+  const b = merge(emptyJournal(), a);
+  assert.equal(deleteDraw(a, d.id, T(5)), true);
+  assert.equal(a.draws.length, 0);
+  for (const m of [merge(a, b), merge(b, a)]) {
+    assert.equal(m.draws.length, 0);
+    assert.ok(m.tombstones.some((t) => t.id === d.id));
+  }
+  assert.equal(merge(merge(a, b), b).draws.length, 0);
+});
+
+test('deleteDraw of an unknown id returns false and changes nothing', () => {
+  const a = emptyJournal();
+  assert.equal(deleteDraw(a, 'nope', T(1)), false);
+  assert.equal(a.tombstones.length, 0);
+});
+
+test('edit stamps past previous updatedAt (slow clock)', () => {
+  const j = emptyJournal();
+  const e = addEntry(j, { passage: 1, text: 'a' }, '2030-01-01T00:00:00.000Z');
+  updateEntry(j, e.id, 'b', T(1));
+  assert.equal(e.updatedAt, '2030-01-01T00:00:00.001Z');
+  const server = merge(emptyJournal(), j);
+  server.entries[0].updatedAt = '2030-01-01T00:00:00.000Z';
+  assert.equal(merge(server, j).entries[0].text, 'b');
+});
+
+test('delete stamps past previous updatedAt (slow clock)', () => {
+  const j = emptyJournal();
+  const e = addEntry(j, { passage: 1, text: 'a' }, '2030-01-01T00:00:00.000Z');
+  const server = merge(emptyJournal(), j);
+  deleteEntry(j, e.id, T(1));
+  assert.equal(merge(server, j).entries.length, 0);
+});
+
+test('syncCore drops lastExportAt; sameCore ignores it', () => {
+  const a = emptyJournal();
+  addEntry(a, { passage: 1, text: 'a' }, T(1));
+  const b = merge(emptyJournal(), a);
+  a.lastExportAt = T(9);
+  assert.equal('lastExportAt' in syncCore(a), false);
+  assert.equal(sameCore(a, b), true);
+  addEntry(b, { passage: 2, text: 'b' }, T(2));
+  assert.equal(sameCore(a, b), false);
 });
