@@ -235,6 +235,12 @@ p { margin: 0 0 1rem; }
   background-repeat: no-repeat; background-size: 1px 82%; background-position: 0 50%;
 }
 .column .han.glossed { --han-rule: color-mix(in srgb, var(--seal) 60%, transparent); }
+/* Listen: the character being spoken, and the ones already spoken. No font-weight change (it would reflow the column). */
+.column .han.now { background: var(--seal); color: var(--seal-ink); border-radius: 4px; }
+.column .han.done { opacity: .55; }
+.listen-row { display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; margin: .75rem 0 0; }
+.listen-row .filters { margin: 0; }
+.listen-row p { flex-basis: 100%; margin: 0; }
 @media (hover: hover) {
   .han:hover { color: var(--seal); --han-rule: var(--seal); }
 }
