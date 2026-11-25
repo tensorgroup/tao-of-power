@@ -1,6 +1,7 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
+importScripts('js/sw-range.js'); // taoRange: Range (206) answers for cached audio
 // <precache>
-const VERSION = '3c6cfafb04d0';
+const VERSION = '2649b98453f1';
 const ART_VERSION = '3cfa7432';
 const SEARCH_VERSION = 'dffb8a05';
 const MODEL_VERSION = 'a31ada72';
@@ -299,6 +300,7 @@ const FILES = [
  "js/notes.js",
  "js/search-core.js",
  "js/sheet.js",
+ "js/sw-range.js",
  "js/theme.js",
  "js/track.js",
  "js/ui.js",
@@ -319,7 +321,28 @@ const ART_CACHE = `tao-art-${typeof ART_VERSION === 'string' ? ART_VERSION : 'de
 const SEARCH_CACHE = `tao-search-${typeof SEARCH_VERSION === 'string' ? SEARCH_VERSION : 'dev'}`;
 const MODEL_CACHE = `tao-model-${typeof MODEL_VERSION === 'string' ? MODEL_VERSION : 'dev'}`;
 const AUDIO_CACHE = `tao-audio-${typeof AUDIO_VERSION === 'string' ? AUDIO_VERSION : 'dev'}`;
-const LAZY = [['/art/', ART_CACHE], ['/model/', MODEL_CACHE], ['/data/search/', SEARCH_CACHE], ['/audio/', AUDIO_CACHE]];
+// Passage recordings (Listen). Not versioned: activate prunes files no longer named in data/listen.json.
+const LISTEN_CACHE = 'tao-listen';
+// Order matters: the first match wins, so '/audio/passages/' comes before '/audio/'.
+const LAZY = [['/art/', ART_CACHE], ['/model/', MODEL_CACHE], ['/data/search/', SEARCH_CACHE], ['/audio/passages/', LISTEN_CACHE], ['/audio/', AUDIO_CACHE]];
+
+// Delete cached recordings that the current data/listen.json no longer names.
+async function pruneListen() {
+  let listen;
+  try {
+    const res = await (await caches.open(CACHE)).match('data/listen.json');
+    if (!res) return;
+    listen = await res.json();
+  } catch { return; }
+  const keep = new Set();
+  for (const lang of ['zh', 'en']) {
+    for (const entry of Object.values((listen && listen[lang]) || {})) {
+      if (entry && typeof entry.file === 'string') keep.add(new URL(entry.file, self.registration.scope).pathname);
+    }
+  }
+  const c = await caches.open(LISTEN_CACHE);
+  for (const key of await c.keys()) if (!keep.has(new URL(key.url).pathname)) await c.delete(key);
+}
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -338,7 +361,8 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    for (const k of await caches.keys()) if (k.startsWith('tao-') && ![CACHE, ART_CACHE, SEARCH_CACHE, MODEL_CACHE, AUDIO_CACHE].includes(k)) await caches.delete(k);
+    for (const k of await caches.keys()) if (k.startsWith('tao-') && ![CACHE, ART_CACHE, SEARCH_CACHE, MODEL_CACHE, AUDIO_CACHE, LISTEN_CACHE].includes(k)) await caches.delete(k);
+    await pruneListen().catch(() => {}); // never block activation on pruning
     await self.clients.claim();
   })());
 });
@@ -361,6 +385,8 @@ self.addEventListener('fetch', (event) => {
     const lazy = LAZY.find(([dir]) => url.pathname.includes(dir));
     if (lazy) {
       const c = await caches.open(lazy[1]);
+      // Audio is stored whole and sliced here: media elements send Range and need a 206.
+      if (url.pathname.includes('/audio/')) return taoRange.audioFetch(req, c, fetch);
       const got = await c.match(req);
       if (got) return got;
       const res = await fetch(req);
