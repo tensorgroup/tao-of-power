@@ -3,7 +3,7 @@ import { h, fill, fmtDate, toast, keepAboveKeyboard } from '../ui.js';
 import { state, syncer } from '../app.js';
 import { syncSection, onSyncNews } from './sync-ui.js';
 import {
-  updateEntry, deleteEntry, deleteDraw, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
+  updateEntry, deleteEntry, deleteDraw, replaceJournal, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
 } from '../journal.js';
 import { getIndex } from '../data.js';
 import { track } from '../track.js';
@@ -184,7 +184,7 @@ function showImportChoice(incoming, before, render) {
       box.replaceChildren(h('span', { text: 'Replace deletes this browser’s journal (a snapshot is kept). Sure?' }),
         h('button', { class: 'btn red', type: 'button', text: 'Replace', onclick: () => {
           if (!snapshot(state.journal)) { toast('Could not save a snapshot (storage full). Export first, then replace.', { warn: true, ms: 7000 }); return; }
-          state.journal = merge(emptyJournal(), incoming);
+          state.journal = replaceJournal(state.journal, incoming);
           if (state.persist()) toast('Replaced. The previous journal is saved — use “Restore” on this page to bring it back.');
           render();
         } }),

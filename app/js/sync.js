@@ -95,7 +95,7 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
       if (choice === 'cancel') { await logout(); return false; }
       if (choice === 'replace') {
         if (!snapshot(j)) { await logout(); throw new Error('Could not keep a copy of this browser’s journal (storage full). Export it first.'); }
-        setJournal({ ...emptyJournal(), lastExportAt: j.lastExportAt ?? null });
+        setJournal({ ...emptyJournal(), lastExportAt: j.lastExportAt ?? null }, { replace: true });
       }
     }
     put(storage, PENDING_LOGOUT, null);
@@ -149,7 +149,7 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
     }
     await logout();
     setRecord(null);
-    if (clearLocal) { setJournal(emptyJournal()); wipe(); }
+    if (clearLocal) { setJournal(emptyJournal(), { replace: true }); wipe(); }
     onChange({ signedOut: true, changed: clearLocal });
   }
 

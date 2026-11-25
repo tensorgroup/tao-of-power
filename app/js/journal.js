@@ -159,6 +159,20 @@ export function merge(local, incoming) {
   };
 }
 
+/**
+ * Import "Replace": the result holds `incoming`, and everything else that `current`
+ * had is marked removed, so a later merge (another tab, sync) cannot bring it back.
+ */
+export function replaceJournal(current, incoming, now = new Date().toISOString()) {
+  const out = merge(emptyJournal(), incoming);
+  const keep = new Set([...out.entries.map((e) => e.id), ...out.draws.map((d) => d.id)]);
+  const gone = new Set(out.tombstones.map((t) => t.id));
+  for (const e of current.entries) if (!keep.has(e.id) && !gone.has(e.id)) out.tombstones.push({ id: e.id, deletedAt: after(e.updatedAt, now) });
+  for (const d of current.draws) if (!keep.has(d.id) && !gone.has(d.id)) out.tombstones.push({ id: d.id, deletedAt: now });
+  out.lastExportAt = current.lastExportAt ?? null;
+  return out;
+}
+
 /** The part of a journal that syncs: everything but this device's lastExportAt. */
 export function syncCore(j) {
   return { version: 1, entries: j.entries, draws: j.draws, tombstones: j.tombstones };

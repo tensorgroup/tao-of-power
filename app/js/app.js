@@ -22,6 +22,8 @@ document.getElementById('share-btn')?.addEventListener('click', sharePage);
 export const state = {
   journal: journalStore.load(),
   persist() {
+    // Merge with what is stored: another tab may have saved since this tab last loaded.
+    state.journal = journalStore.merge(state.journal, journalStore.load());
     const r = journalStore.save(state.journal);
     if (!r.ok) toast(`Could not save: ${r.error}. Export your journal now.`, { warn: true, ms: 8000 });
     else { askPersistentStorage(); syncer.syncNow(); }
@@ -39,9 +41,11 @@ export const syncer = makeSyncer({
   fetch: (...a) => fetch(...a),
   storage: lsProxy,
   getJournal: () => state.journal,
-  setJournal: (j) => {
-    state.journal = j;
-    const r = journalStore.save(j);
+  setJournal: (j, { replace = false } = {}) => {
+    // A sync result merges with storage (another tab may have saved); only the
+    // reader's explicit "use only the account's journal" / "remove it" replace it.
+    state.journal = replace ? j : journalStore.merge(j, journalStore.load());
+    const r = journalStore.save(state.journal);
     if (!r.ok) toast(`Could not save: ${r.error}. Export your journal now.`, { warn: true, ms: 8000 });
   },
   snapshot: (j) => journalStore.snapshot(j),

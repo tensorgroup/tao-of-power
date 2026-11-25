@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {
   emptyJournal, load, save, addEntry, updateEntry, deleteEntry, recordDraw,
   validate, merge, toExport, exportFilename, saveDraft, loadDraft, clearDraft,
-  saveDraftQ, loadDraftQ, KEY, deleteDraw, syncCore, sameCore,
+  saveDraftQ, loadDraftQ, KEY, deleteDraw, syncCore, sameCore, replaceJournal,
 } from '../app/js/journal.js';
 
 function memStorage(throwOnSet = false) {
@@ -226,4 +226,20 @@ test('equal edit times resolve the same way in both merge orders', () => {
   updateEntry(phone, e.id, 'phone', T(3));
   updateEntry(desk, e.id, 'desktop', T(3));
   assert.deepEqual(merge(phone, desk), merge(desk, phone));
+});
+
+test('replace marks dropped entries and draws removed, so a merge cannot bring them back', () => {
+  const cur = emptyJournal();
+  const keep = addEntry(cur, { passage: 1, text: 'in both' }, T(1));
+  addEntry(cur, { passage: 2, text: 'only here' }, T(2));
+  recordDraw(cur, { passage: 3, lines: [0, 0, 0, 0], bundles: [] }, T(3));
+  const file = emptyJournal();
+  file.entries.push({ ...keep });
+  addEntry(file, { passage: 4, text: 'from file' }, T(4));
+  const r = replaceJournal(cur, file, T(9));
+  assert.deepEqual(r.entries.map((e) => e.text).sort(), ['from file', 'in both']);
+  assert.equal(r.draws.length, 0);
+  const again = merge(r, cur); // another tab, or the server, still holds the old copy
+  assert.deepEqual(again.entries.map((e) => e.text).sort(), ['from file', 'in both']);
+  assert.equal(again.draws.length, 0);
 });
