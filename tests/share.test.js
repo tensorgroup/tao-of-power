@@ -27,4 +27,6 @@ test('installMode picks the right help', () => {
   assert.equal(installMode({ ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X)' }), 'ios');
   assert.equal(installMode({ ua: 'Mozilla/5.0 (Macintosh)', platform: 'MacIntel', touch: 5 }), 'ios');
   assert.equal(installMode({ ua: 'Mozilla/5.0 (Linux; Android 15)' }), 'menu');
+  assert.equal(installMode({ ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X)', brave: true }), 'ios-brave');
+  assert.equal(installMode({ ua: 'Mozilla/5.0 (Macintosh)', brave: true }), 'menu');
 });

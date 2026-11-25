@@ -46,10 +46,11 @@ async function copyLink(t) {
 // ---- Add to home screen ----
 
 /** Which help a browser needs. "prompt": the browser can install on a tap. */
-export function installMode({ standalone, canPrompt, ua = '', platform = '', touch = 0 }) {
+export function installMode({ standalone, canPrompt, ua = '', platform = '', touch = 0, brave = false }) {
   if (standalone) return 'installed';
   if (canPrompt) return 'prompt';
   const ios = /iPad|iPhone|iPod/.test(ua) || (platform === 'MacIntel' && touch > 1);
+  if (ios && brave) return 'ios-brave'; // Brave on iPhone has no Add to Home Screen (as of late 2026)
   return ios ? 'ios' : 'menu';
 }
 
@@ -57,15 +58,26 @@ export function installMode({ standalone, canPrompt, ua = '', platform = '', tou
 const shareIcon = () => s('svg', { class: 'ios-share', viewBox: '0 0 24 24', width: 18, height: 18, 'aria-hidden': 'true' },
   s('path', { d: 'M8 9H6v12h12V9h-2M12 3v12M8 7l4-4 4 4', fill: 'none', stroke: 'currentColor', 'stroke-width': 1.8, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }));
 
+const SEPARATE = 'The home-screen app keeps its own journal. To have the same journal in both, turn on sync on the Journal page in each, with the same passkey.';
+
 function hint(mode) {
+  if (mode === 'ios-brave') {
+    return [
+      h('p', { class: 'install-lead', text: 'Brave on iPhone cannot add apps to the Home Screen yet. Safari can:' }),
+      h('ol', {},
+        h('li', {}, 'Tap the Share button ', shareIcon(), ' beside the address bar, then ', h('b', { text: 'Open in Safari' }), '.'),
+        h('li', {}, 'In Safari, tap Share ', shareIcon(), ' (at the bottom, or under •••), then ', h('b', { text: 'Add to Home Screen' }), ', then ', h('b', { text: 'Add' }), '.')),
+      h('p', { text: `The 道 icon is now on your home screen. It opens full screen and works offline. ${SEPARATE}` }),
+    ];
+  }
   if (mode !== 'ios') return [h('p', { text: 'Open the browser menu (⋮ or ☰), then “Add to Home screen” or “Install app”.' })];
   return [
     h('p', { class: 'install-lead', text: 'On iPhone or iPad:' }),
     h('ol', {},
-      h('li', {}, 'Tap the Share button ', shareIcon(), '. In Safari it is at the bottom of the screen, or under the ••• button. In Brave or Chrome, look beside the address bar or in the menu.'),
-      h('li', {}, 'Scroll down the list and tap ', h('b', { text: 'Add to Home Screen' }), '.'),
+      h('li', {}, 'Tap your browser’s Share button ', shareIcon(), '. It is at the bottom of the screen, beside the address bar, or in the ••• menu.'),
+      h('li', {}, 'Scroll down the list and tap ', h('b', { text: 'Add to Home Screen' }), '. No such item? Your browser cannot do it yet: open this page in Safari and try there.'),
       h('li', {}, 'If you see ', h('b', { text: 'Open as Web App' }), ', leave it on. Tap ', h('b', { text: 'Add' }), '.')),
-    h('p', { text: 'The 道 icon is now on your home screen. It opens the app full screen, and it works offline.' }),
+    h('p', { text: `The 道 icon is now on your home screen. It opens the app full screen, and it works offline. ${SEPARATE}` }),
   ];
 }
 
@@ -86,6 +98,7 @@ function currentMode() {
   return installMode({
     standalone, canPrompt: !!deferred,
     ua: navigator.userAgent, platform: navigator.platform, touch: navigator.maxTouchPoints || 0,
+    brave: !!navigator.brave, // Brave on iPhone sends Safari's user agent; this is how to tell
   });
 }
 
