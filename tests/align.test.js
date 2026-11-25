@@ -6,11 +6,11 @@ const heard = (pairs) => pairs.map(([word, start]) => ({ word, start }));
 
 test('alignWords: an exact match takes the heard starts', () => {
   const r = alignWords(['The', 'Dao', 'is'], heard([['the', 0.1], ['dao', 0.4], ['is', 0.9]]));
-  assert.deepEqual(r, { t: [0.1, 0.4, 0.9], matched: 3 });
+  assert.deepEqual(r, { t: [0.1, 0.4, 0.9], matched: 3, wild: 0 });
 });
 test('alignWords: case, curly apostrophes, and punctuation do not matter', () => {
   const r = alignWords(['sage’s', 'way;'], heard([["Sage's", 0.2], ['way.', 0.7]]));
-  assert.deepEqual(r, { t: [0.2, 0.7], matched: 2 });
+  assert.deepEqual(r, { t: [0.2, 0.7], matched: 2, wild: 0 });
 });
 test('alignWords: a missed word is interpolated between its matched neighbours', () => {
   const r = alignWords(['a', 'way', 'that', 'can'], heard([['a', 1], ['that', 2], ['can', 3]]));
@@ -19,15 +19,15 @@ test('alignWords: a missed word is interpolated between its matched neighbours',
 });
 test('alignWords: two missed words in a row are spread evenly', () => {
   const r = alignWords(['a', 'b', 'c', 'd'], heard([['a', 1], ['d', 4]]));
-  assert.deepEqual(r, { t: [1, 2, 3, 4], matched: 2 });
+  assert.deepEqual(r, { t: [1, 2, 3, 4], matched: 2, wild: 0 });
 });
 test('alignWords: an extra heard word is skipped', () => {
   const r = alignWords(['a', 'way', 'is'], heard([['a', 0.5], ['uh', 0.8], ['way', 1.1], ['is', 1.6]]));
-  assert.deepEqual(r, { t: [0.5, 1.1, 1.6], matched: 3 });
+  assert.deepEqual(r, { t: [0.5, 1.1, 1.6], matched: 3, wild: 0 });
 });
 test('alignWords: a missed first word is spread from 0', () => {
   const r = alignWords(['so', 'always', 'without'], heard([['always', 1.2], ['without', 1.8]]));
-  assert.deepEqual(r, { t: [0.6, 1.2, 1.8], matched: 2 });
+  assert.deepEqual(r, { t: [0.6, 1.2, 1.8], matched: 2, wild: 0 });
 });
 test('alignWords: words after the last match step by 0.35 s', () => {
   const r = alignWords(['a', 'b', 'c'], heard([['a', 2]]));
@@ -35,37 +35,37 @@ test('alignWords: words after the last match step by 0.35 s', () => {
   assert.deepEqual(r.t, [2, 2.35, 2.7]);
 });
 test('alignWords: nothing heard gives 0.35 s steps from 0', () => {
-  assert.deepEqual(alignWords(['a', 'b'], []), { t: [0.35, 0.7], matched: 0 });
+  assert.deepEqual(alignWords(['a', 'b'], []), { t: [0.35, 0.7], matched: 0, wild: 0 });
 });
 test('alignWords: a repeated word matches in order', () => {
   const r = alignWords(['dark', 'and', 'dark'], heard([['dark', 1], ['dark', 3]]));
-  assert.deepEqual(r, { t: [1, 2, 3], matched: 2 });
+  assert.deepEqual(r, { t: [1, 2, 3], matched: 2, wild: 0 });
 });
 
 test('alignWords: a lexicon word matches any one heard token at its place', () => {
   const wild = new Set(['dao', 'de']);
   const r = alignWords(['the', 'Dao', 'and', 'de'], heard([['the', 0.2], ['dow', 0.5], ['and', 0.9], ['duh', 1.2]]), { wild });
-  assert.deepEqual(r, { t: [0.2, 0.5, 0.9, 1.2], matched: 4 });
+  assert.deepEqual(r, { t: [0.2, 0.5, 0.9, 1.2], matched: 4, wild: 2 });
 });
 test('alignWords: an exact match wins over a lexicon wildcard', () => {
   const r = alignWords(['the', 'Dao', 'is'], heard([['the', 0.5], ['is', 1]]), { wild: new Set(['dao']) });
-  assert.deepEqual(r, { t: [0.5, 0.75, 1], matched: 2 });
+  assert.deepEqual(r, { t: [0.5, 0.75, 1], matched: 2, wild: 0 });
 });
 test('alignWords: a hyphenated heard word splits into its parts', () => {
   const r = alignWords(['full', 'grown'], [{ word: 'full-grown', start: 1, end: 2 }]);
-  assert.deepEqual(r, { t: [1, 1.5], matched: 2 });
+  assert.deepEqual(r, { t: [1, 1.5], matched: 2, wild: 0 });
 });
 test('alignWords: a joined heard word matches our split pair', () => {
   const r = alignWords(['a', 'full', 'grown', 'tree'], [{ word: 'a', start: 0.5 }, { word: 'fullgrown', start: 1, end: 2 }, { word: 'tree', start: 2.2 }]);
-  assert.deepEqual(r, { t: [0.5, 1, 1.5, 2.2], matched: 4 });
+  assert.deepEqual(r, { t: [0.5, 1, 1.5, 2.2], matched: 4, wild: 0 });
 });
 test('alignWords: apostrophes do not count', () => {
-  assert.deepEqual(alignWords(['its', 'sage’s'], heard([["it's", 1], ['sages', 2]])), { t: [1, 2], matched: 2 });
+  assert.deepEqual(alignWords(['its', 'sage’s'], heard([["it's", 1], ['sages', 2]])), { t: [1, 2], matched: 2, wild: 0 });
 });
 test('alignWords: heard digits match our number words', () => {
   const r = alignWords(['the', 'ten', 'thousand', 'things', 'the', 'third'],
     [{ word: 'the', start: 0 }, { word: '10,000', start: 1, end: 2 }, { word: 'things', start: 2.1 }, { word: 'the', start: 3 }, { word: '3rd', start: 3.5 }]);
-  assert.deepEqual(r, { t: [0, 1, 1.5, 2.1, 3, 3.5], matched: 6 });
+  assert.deepEqual(r, { t: [0, 1, 1.5, 2.1, 3, 3.5], matched: 6, wild: 0 });
 });
 test('alignWords: with end, the tail after the last match is spread before end', () => {
   const r = alignWords(['a', 'b', 'c', 'd'], heard([['a', 9]]), { end: 9.8 });
@@ -126,4 +126,11 @@ test('recognize: cuts long audio, sends FLAC per piece, and adds the offsets bac
   assert.deepEqual(sent[0].body.config, { autoDecodingConfig: {}, languageCodes: ['en-US'], model: 'chirp_2', features: { enableWordTimeOffsets: true } });
   assert.equal(Buffer.from(sent[0].body.content, 'base64').toString(), `flac:${rate * 2 * 40}`);
   assert.equal(Buffer.from(sent[1].body.content, 'base64').toString(), `flac:${rate * 2 * 30}`);
+});
+
+test('alignWords: two wildcards never outscore one exact word', () => {
+  const r = alignWords(['Dao', 'de', 'sees'], heard([['sees', 1], ['a', 2], ['b', 3]]), { wild: new Set(['dao', 'de']) });
+  assert.equal(r.t[2], 1);
+  assert.equal(r.matched, 1);
+  assert.equal(r.wild, 0);
 });

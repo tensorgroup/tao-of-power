@@ -202,14 +202,14 @@ export function enCheckTimes(t, end, who) {
  * and 1 ms before end. Throws when fewer than 90 % of the words matched, or the times fail the check rules.
  */
 export function enTimes(words, heard, end, who, wild = new Set()) {
-  const { t, matched } = alignWords(words, heard, { wild, end });
+  const { t, matched, wild: wildMatched } = alignWords(words, heard, { wild, end });
   if (matched < 0.9 * words.length) throw new Error(`${who}: matched ${matched} of ${words.length} words (under 90 %); nothing written`);
   const ms = t.map((x) => Math.max(0, Math.round((x - SETTINGS_EN.alignBias) * 1000)));
   for (let i = 1; i < ms.length; i++) ms[i] = Math.max(ms[i], ms[i - 1] + 1);
   for (let i = ms.length - 1, cap = Math.round(end * 1000) - 1; i >= 0; i--) { ms[i] = Math.min(ms[i], cap); cap = ms[i] - 1; }
   const out = ms.map((x) => x / 1000);
   enCheckTimes(out, end, who);
-  return { t: out, matched };
+  return { t: out, matched, wild: wildMatched };
 }
 
 /** The English language object: renderingOf(n) gives the rendering lines (or null); ipa is the romanized-word table. */
@@ -237,8 +237,8 @@ async function speakEn(built, lang, who) {
   if (wav.channels !== 1) throw new Error(`${who}: expected mono audio`);
   const heard = await recognize(to16k(wav.pcm, wav.sampleRate), { ffmpeg: runFfmpeg, post: (url, body) => post(url, body, 'STT') });
   const end = r3(wav.pcm.length / 2 / wav.sampleRate);
-  const { t, matched } = enTimes(built.words, heard, end, who, lang.wild);
-  console.log(`${who}: matched ${matched} of ${built.count} words (${heard.length} heard)`);
+  const { t, matched, wild } = enTimes(built.words, heard, end, who, lang.wild);
+  console.log(`${who}: matched ${matched} of ${built.count} words (exact ${matched - wild}, wildcard ${wild}; ${heard.length} heard)`);
   return { t, end, rate: wav.sampleRate, pcm: wav.pcm };
 }
 

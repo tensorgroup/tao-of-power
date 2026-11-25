@@ -47,16 +47,17 @@ function heardTokens(heard) {
   return out;
 }
 
-// Match scores: an exact word beats a lexicon wildcard, so a wildcard never takes a word's own token.
-const EXACT = 2, WILD = 1;
+// Match scores: one exact word outscores any number of lexicon wildcards (each wildcard is 1, and
+// there are fewer than EXACT words), so wildcards never take a token that an exact word could use.
 
 /**
  * A best match of our words a (wild[i] = a lexicon word, matches any one token) against heard
  * tokens b. A heard token may also match two of our words joined (fullgrown = full grown).
- * Returns [i, j, k] steps: our words i..i+k-1 sit on token j.
+ * Returns [i, j, k, isWild] steps: our words i..i+k-1 sit on token j.
  */
 function match(a, wild, b) {
   const m = a.length, n = b.length;
+  const EXACT = m + 1, WILD = 1;
   const L = Array.from({ length: m + 2 }, () => new Int32Array(n + 1));
   const one = (i, j) => (a[i] === b[j] ? EXACT : wild[i] ? WILD : 0);
   const two = (i, j) => i + 1 < m && a[i] + a[i + 1] === b[j];
@@ -72,7 +73,7 @@ function match(a, wild, b) {
   const steps = [];
   for (let i = 0, j = 0; i < m && j < n;) {
     const s = one(i, j);
-    if (s && L[i][j] === L[i + 1][j + 1] + s) { steps.push([i, j, 1]); i++; j++; }
+    if (s && L[i][j] === L[i + 1][j + 1] + s) { steps.push([i, j, 1, s === WILD]); i++; j++; }
     else if (two(i, j) && L[i][j] === L[i + 2][j + 1] + 2 * EXACT) { steps.push([i, j, 2]); i += 2; j++; }
     else if (L[i + 1][j] === L[i][j]) i++;
     else j++;
@@ -105,7 +106,8 @@ export function alignWords(ours, heard, { wild = new Set(), end = Infinity } = {
     for (let k = i; k < j; k++) t[k] = lo + step * (k - i + 1);
     i = j;
   }
-  return { t, matched: steps.reduce((sum, [, , k]) => sum + k, 0) };
+  const wildCount = steps.filter((x) => x[3]).length;
+  return { t, matched: steps.reduce((sum, [, , k]) => sum + k, 0), wild: wildCount };
 }
 
 /** Midpoints (s) of the silences in ffmpeg silencedetect output. */

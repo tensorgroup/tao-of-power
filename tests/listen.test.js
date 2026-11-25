@@ -302,7 +302,7 @@ test('build-audio: the English language object builds, hashes, and counts words'
 });
 test('build-audio: enTimes subtracts the bias (not below 0), rounds to 3 decimals, and fails under 90 % matched', () => {
   const heard = [{ word: 'a', start: 0.03 }, { word: 'way', start: 0.5 }, { word: 'is', start: 1.0004 }];
-  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 5, 'p'), { t: [0, 0.434, 0.934], matched: 3 });
+  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 5, 'p'), { t: [0, 0.434, 0.934], matched: 3, wild: 0 });
   const ten = Array.from({ length: 10 }, (_, i) => `w${i}`);
   const nine = ten.slice(0, 9).map((word, i) => ({ word, start: i + 1 }));
   assert.equal(enTimes(ten, nine, 20, 'p').matched, 9);
