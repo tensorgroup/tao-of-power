@@ -16,7 +16,7 @@ const KINDS = new Set(['etymology', 'gap', 'history', 'geopolitics', 'wordplay',
 const LENSES = new Set(['ground', 'inner', 'leading', 'body', 'nature', 'practice']);
 const THEMES = new Set(['way', 'seeing', 'self', 'leading', 'yielding', 'conflict', 'simplicity']);
 const KEYS = ['n', 'title', 'theme', 'zh', 'rendering', 'notes', 'lenses', 'glyph', 'questions'];
-const stripTone = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ü/g, 'v');
+const stripTone = (s) => s.replace(/[üǖǘǚǜ]/g, 'v').normalize('NFD').replace(/[̀-ͯ]/g, '');
 
 const errors = [];
 const err = (where, msg) => errors.push(`${where}: ${msg}`);
