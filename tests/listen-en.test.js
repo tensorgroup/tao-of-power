@@ -41,12 +41,12 @@ test('buildEnMarkup: two empty lines still give one [pause]', () => {
 test('buildEnMarkup: markup is removed and other characters pass through', () => {
   assert.deepEqual(buildEnMarkup(['“So” — [[the sage|sage]]’s way;']), { markup: '“So” — the sage’s way; [pause short]', count: 4 });
 });
-test('enPronunciations: only words in the passage, each spelling as written', () => {
+test('enPronunciations: only words in the passage, one entry per word whatever its case (first spelling)', () => {
   assert.deepEqual(enPronunciations(['the Dao and the qi', 'dao'], IPA), [
     { phrase: 'Dao', phoneticEncoding: 'PHONETIC_ENCODING_IPA', pronunciation: 'daʊ' },
     { phrase: 'qi', phoneticEncoding: 'PHONETIC_ENCODING_IPA', pronunciation: 'tʃiː' },
-    { phrase: 'dao', phoneticEncoding: 'PHONETIC_ENCODING_IPA', pronunciation: 'daʊ' },
   ]);
+  assert.deepEqual(enPronunciations(['de and De'], IPA).map((p) => p.phrase), ['de']);
   assert.deepEqual(enPronunciations(['a way'], IPA), []);
 });
 test('the lexicon has the required readings', () => {

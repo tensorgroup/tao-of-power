@@ -34,12 +34,13 @@ export function buildEnMarkup(rendering) {
   return { markup, count: words.length };
 }
 
-/** Custom pronunciations from the IPA table for these words, each spelling as written, first-seen order. */
+/** Custom pronunciations from the IPA table for these words, one entry per word (Chirp reads phrases without case), first spelling and first-seen order. */
 function pronunciationsOf(words, ipa) {
   const seen = new Map();
   for (const word of words) {
-    const ph = ipa[word.toLowerCase()];
-    if (ph && !seen.has(word)) seen.set(word, { phrase: word, phoneticEncoding: 'PHONETIC_ENCODING_IPA', pronunciation: ph });
+    const key = word.toLowerCase();
+    const ph = ipa[key];
+    if (ph && !seen.has(key)) seen.set(key, { phrase: word, phoneticEncoding: 'PHONETIC_ENCODING_IPA', pronunciation: ph });
   }
   return [...seen.values()];
 }

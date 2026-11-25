@@ -12,6 +12,7 @@ test('marks precede every character and phoneme wraps forced ones', () => {
 });
 test('small punctuation is mapped and spaces are dropped', () => {
   assert.equal(buildSsml(['知﹗ 行﹑'], () => null)[0].ssml, '<speak><mark name="0"/>知！<mark name="1"/>行、</speak>');
+  assert.equal(buildSsml(['道﹕德'], () => null)[0].ssml, '<speak><mark name="0"/>道：<mark name="1"/>德</speak>');
 });
 test('an unknown character throws', () => {
   assert.throws(() => buildSsml(['道x'], () => null), /unexpected character: x/);

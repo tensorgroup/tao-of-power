@@ -6,7 +6,7 @@ export const SETTINGS = Object.freeze({ voice: 'cmn-CN-Wavenet-B', rate: 0.8, en
 
 const LIMIT = 4500;
 const KEEP = new Set([...'，。；：、！？「」『』（）《》,.;:!?']);
-const MAP = { '﹗': '！', '﹑': '、' };
+const MAP = { '﹗': '！', '﹑': '、', '﹕': '：' };
 const CLAUSE_END = new Set([...'，；。：！？']);
 const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;' };
 export const escapeXml = (s) => s.replace(/[&<>]/g, (c) => ESC[c]);
