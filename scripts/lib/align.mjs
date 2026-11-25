@@ -47,9 +47,6 @@ function heardTokens(heard) {
   return out;
 }
 
-// Match scores: one exact word outscores any number of lexicon wildcards (each wildcard is 1, and
-// there are fewer than EXACT words), so wildcards never take a token that an exact word could use.
-
 /**
  * A best match of our words a (wild[i] = a lexicon word, matches any one token) against heard
  * tokens b. A heard token may also match two of our words joined (fullgrown = full grown).
@@ -57,6 +54,8 @@ function heardTokens(heard) {
  */
 function match(a, wild, b) {
   const m = a.length, n = b.length;
+  // Match scores: one exact word outscores any number of lexicon wildcards (each wildcard is 1, and
+  // there are fewer than EXACT words), so wildcards never take a token that an exact word could use.
   const EXACT = m + 1, WILD = 1;
   const L = Array.from({ length: m + 2 }, () => new Int32Array(n + 1));
   const one = (i, j) => (a[i] === b[j] ? EXACT : wild[i] ? WILD : 0);
@@ -74,7 +73,7 @@ function match(a, wild, b) {
   for (let i = 0, j = 0; i < m && j < n;) {
     const s = one(i, j);
     if (s && L[i][j] === L[i + 1][j + 1] + s) { steps.push([i, j, 1, s === WILD]); i++; j++; }
-    else if (two(i, j) && L[i][j] === L[i + 2][j + 1] + 2 * EXACT) { steps.push([i, j, 2]); i += 2; j++; }
+    else if (two(i, j) && L[i][j] === L[i + 2][j + 1] + 2 * EXACT) { steps.push([i, j, 2, false]); i += 2; j++; }
     else if (L[i + 1][j] === L[i][j]) i++;
     else j++;
   }
