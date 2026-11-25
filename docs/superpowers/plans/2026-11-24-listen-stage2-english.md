@@ -13,7 +13,8 @@
 ## Global Constraints
 
 - Everything in the stage 1 plan's Global Constraints holds, except where this section changes it.
-- English voice `en-US-Neural2-D`, language code `en-US`, `speakingRate: 0.9`, LINEAR16, `enableTimePointing: ["SSML_MARK"]`. Measured: Neural2 D returns one mark per word and accepts `<phoneme alphabet="ipa">` with marks. Studio voices reject `<mark>`. The voice lives in one constant, `SETTINGS_EN`; Billy may change it after his listening test (a full re-record costs cents).
+- English voice: see Task 2b (Billy chose `en-US-Chirp3-HD-Callirrhoe`, rate 1.0; timings from speech recognition). The text below about Neural2 D and SSML marks describes Tasks 1–2 as first built.
+- First built with `en-US-Neural2-D`, language code `en-US`, `speakingRate: 0.9`, LINEAR16, `enableTimePointing: ["SSML_MARK"]`. Measured: Neural2 D returns one mark per word and accepts `<phoneme alphabet="ipa">` with marks. Studio voices reject `<mark>`. The voice lives in one constant, `SETTINGS_EN`; Billy may change it after his listening test (a full re-record costs cents).
 - A word is a match of `/[A-Za-z0-9'’]+/g` on the plain line (markup removed with `parseMarked`). This rule lives only in `wordsOf`; every other module calls it.
 - SSML: every other character passes through as escaped text (curly quotes, commas, dashes). Non-empty lines are joined with one space. Each empty line becomes exactly one `<break time="700ms"/>`, also across part boundaries.
 - Romanized Chinese words are spoken with English-sound IPA from `scripts/audio-en-lexicon.json` (`<phoneme alphabet="ipa" ph="…">word</phoneme>`, whole word, case-insensitive): `Dao` daʊ, `de` dʌ, `qi` tʃiː, `yin` jɪn, `yang` jɑːŋ, `wu` wuː, `Laozi` ˈlaʊdzə. Only sounds in Google's en-US phoneme inventory.
@@ -64,6 +65,34 @@
 - [ ] **Step 2–4: Run (FAIL), implement, run (PASS).**
 - [ ] **Step 5: Record the English pilots** `npm run audio -- --en 1 3 38 39`: marks = words for each (passage 1: 80); passage 39 uses more than one part. Then `npm run precache && npm test && npm run check`.
 - [ ] **Step 6: Commit.**
+
+
+### Task 2b: Callirrhoe voice with recognized word timings (Billy's choice, 2026-11-24)
+
+Billy chose `en-US-Chirp3-HD-Callirrhoe` at rate 1.0 after three listening rounds (WaveNet D/F, Neural2, Gemini, Chirp 3 HD). Chirp 3 HD takes no SSML and returns no marks. This task replaces the English SSML/mark path; the word rule, manifest shape, page, and player do not change.
+
+**Files:**
+- Modify: `scripts/lib/listen-en.mjs`, `scripts/build-audio.mjs`, `scripts/check-audio.mjs`
+- Create: `scripts/lib/align.mjs`
+- Test: `tests/listen-en.test.js`, `tests/align.test.js`
+
+**Interfaces and values:**
+- `SETTINGS_EN = { voice: 'en-US-Chirp3-HD-Callirrhoe', lang: 'en-US', rate: 1.0, encoding: 'LINEAR16', mp3: 'mono-48k', input: 'markup', aligner: 'chirp_2', alignBias: 0.066 }`.
+- `buildEnMarkup(rendering) -> { markup: string, count: number }`: plain lines (`plainLine`) joined with one space; after each non-empty line add ` [pause short]`, except a line followed by an empty line, which gets ` [pause]` once (one pause per stanza gap; no doubling). Empty lines add nothing else. `count` is the `wordsOf` total. These three tags are the only pacing knobs; keep them as named constants.
+- Pronunciations: `customPronunciations: { pronunciations: [{ phrase, phoneticEncoding: 'PHONETIC_ENCODING_IPA', pronunciation }] }` from `audio-en-lexicon.json`, only for words that occur in the passage. Measured: Callirrhoe accepts it and the audio changes.
+- Request: `POST https://texttospeech.googleapis.com/v1/text:synthesize` with `{ input: { markup, customPronunciations }, voice: { languageCode, name }, audioConfig: { audioEncoding: 'LINEAR16', speakingRate: 1.0 } }`. One request per passage (the longest markup is about 1.5 KB).
+- `scripts/lib/align.mjs`:
+  - `alignWords(ours: string[], heard: Array<{ word, start }>) -> { t: number[], matched: number }` — normalise both (lowercase, letters/digits only, ’ as '), longest-common-subsequence match, matched words take the heard `start`, unmatched words are interpolated between their matched neighbours (before the first match: spread from 0; after the last: 0.35 s steps). Pure.
+  - `recognize(pcm16k: Buffer, deps) -> Array<{ word, start, end }>` — Speech-to-Text v2, `https://us-central1-speech.googleapis.com/v2/projects/tao-of-power/locations/us-central1/recognizers/_:recognize`, `config: { autoDecodingConfig: {}, languageCodes: ['en-US'], model: 'chirp_2', features: { enableWordTimeOffsets: true } }`, inline FLAC content; audio over 55 s is cut at the silence nearest before 55 s (ffmpeg `silencedetect=n=-35dB:d=0.35`) and the offsets are added back.
+- Build (English): synthesize → join → encode MP3 → recognize the PCM → `alignWords` → subtract `alignBias` (not below 0) → 3 decimals. Fail the passage (write nothing) when `matched < 0.9 × count`. Print the matched count per passage. `src` = SHA-256 over the markup, the pronunciations used, and `SETTINGS_EN`.
+- Measured on a WaveNet recording with exact marks: chirp_2 word starts are 0.066 s late at the median, 0.040–0.105 s for 80 % of words.
+- Check: unchanged rules (hash, `n`, `t.length`, files); the hash now uses `buildEnMarkup`.
+- The SSML English builder (`buildEnSsml`) and its tests may be deleted; the IPA table stays.
+
+- [ ] **Step 1: Failing tests:** `buildEnMarkup` on passage 1 (one ` [pause]` per stanza gap, ` [pause short]` after other lines, count 80); `alignWords` with an exact match, a missed word (interpolated), an extra heard word, and a missed first word; the hash changes with one word and with a pronunciation.
+- [ ] **Step 2–4: Run (FAIL), implement, run (PASS).**
+- [ ] **Step 5: Re-record the English pilots** 1, 3, 38, 39 with `npm run audio -- --en 1 3 38 39` (the old Neural2 files are replaced). Report the matched count for each.
+- [ ] **Step 6: `npm run precache && npm test && npm run check`. Commit.**
 
 ### Task 3: Word spans
 
