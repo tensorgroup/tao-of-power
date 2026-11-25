@@ -94,31 +94,49 @@ export function fmtDate(iso) {
 
 /**
  * Keep a text box above the phone keyboard while the reader types.
- * The keyboard shrinks the visual viewport; if the box's bottom is under it,
- * scroll the page so the box sits between the top bar and the keyboard.
+ * The keyboard shrinks the visual viewport. On the page, scroll so the box sits between the top bar
+ * and the keyboard. In the bottom sheet (position: fixed), lift the sheet above the keyboard instead,
+ * and scroll the sheet's own body. Runs on focus and when the keyboard resizes the viewport, never
+ * per keystroke: while typing, the browser keeps the caret in view.
  */
 export function keepAboveKeyboard(el) {
   const vv = window.visualViewport;
   if (!vv) return el;
   let queued = false;
-  const fit = () => {
-    queued = false;
-    if (document.activeElement !== el) return;
+  let sheet = null;
+  const gap = 12;
+  const fitPage = () => {
     const r = el.getBoundingClientRect();
-    const gap = 12;
     const top = Math.max(vv.offsetTop, document.querySelector('.bar')?.getBoundingClientRect().bottom ?? 0) + gap;
     const bottom = vv.offsetTop + vv.height - gap;
-    // Too low: bring the bottom up, but never push the top under the bar.
-    let d = r.bottom > bottom ? Math.min(r.bottom - bottom, r.top - top) : 0;
-    if (r.top < top) d = r.top - top;
+    if (r.height > bottom - top) return; // taller than the free space: the browser owns the caret
+    const d = r.bottom > bottom ? r.bottom - bottom : r.top < top ? r.top - top : 0;
     if (Math.abs(d) > 1) scrollBy({ top: d, behavior: 'auto' });
   };
+  const fitSheet = () => {
+    const kb = Math.max(0, innerHeight - vv.height - vv.offsetTop); // keyboard height over the layout viewport
+    sheet.style.bottom = kb ? `${kb}px` : '';
+    sheet.style.maxHeight = kb ? `${Math.max(160, vv.height - gap)}px` : '';
+    const body = el.closest('.body');
+    if (!body) return;
+    const r = el.getBoundingClientRect(); const b = body.getBoundingClientRect();
+    if (r.bottom > b.bottom - gap && r.height < b.height) body.scrollTop += r.bottom - b.bottom + gap;
+  };
+  const fit = () => {
+    queued = false;
+    if (!el.isConnected || document.activeElement !== el) { stop(); return; }
+    if (sheet) fitSheet(); else fitPage();
+  };
   const later = () => { if (!queued) { queued = true; requestAnimationFrame(fit); } };
+  function stop() {
+    vv.removeEventListener('resize', later);
+    if (sheet) { sheet.style.bottom = ''; sheet.style.maxHeight = ''; }
+  }
   el.addEventListener('focus', () => {
+    sheet = el.closest('.sheet');
     vv.addEventListener('resize', later);
     later(); setTimeout(later, 350); // the keyboard opens after focus
   });
-  el.addEventListener('blur', () => vv.removeEventListener('resize', later));
-  el.addEventListener('input', later);
+  el.addEventListener('blur', stop);
   return el;
 }

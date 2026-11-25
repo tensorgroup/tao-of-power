@@ -3,7 +3,7 @@
 // The tabs live in one overlay layer, so the blocks' own DOM (and the Listen word spans) stay untouched.
 import { h, fill, toast, keepAboveKeyboard } from './ui.js';
 import { state } from './app.js';
-import { addEntry } from './journal.js';
+import { addEntry, saveDraft, loadDraft, clearDraft } from './journal.js';
 import { openSheet } from './sheet.js';
 import { entryList } from './views/journal.js';
 import { track } from './track.js';
@@ -16,10 +16,12 @@ export function jumpTo(n, key) {
   try { sessionStorage.setItem(JUMP, `${n}|${key}`); } catch { /* best effort */ }
 }
 
-const snipOf = (el) => {
-  const t = (el?.textContent || '').replace(/\s+/g, ' ').trim();
-  return t.length > SNIP ? `${t.slice(0, SNIP)}…` : t;
-};
+const flat = (el) => (el?.textContent || '').replace(/\s+/g, ' ').trim();
+const snipOf = (el) => { const t = flat(el); return t.length > SNIP ? `${t.slice(0, SNIP)}…` : t; };
+// A line key is an index into the rendering, so a content edit can shift it onto another line.
+// Such a tab keeps its place only while the line still starts with the words it was pinned to.
+const stillThere = (at, b) => !at.key.startsWith('line:') || !at.snip || flat(b).startsWith(at.snip.replace(/…$/, ''));
+const draftKey = (n, key) => `m${n}|${key}`;
 
 /**
  * root: the passage <article>. fallback: the key that holds tabs whose block is gone
@@ -30,13 +32,15 @@ export function marginTabs(root, n, { fallback, onChange } = {}) {
   root.classList.add('has-margin');
   root.append(layer);
   let marking = false;
+  const buttons = new Map();
 
   const blocks = () => new Map([...root.querySelectorAll('[data-mark]')].map((b) => [b.dataset.mark, b]));
   const groups = (byKey = blocks()) => {
     const g = new Map();
     for (const e of state.journal.entries) {
       if (e.passage !== n || !e.at) continue;
-      const key = byKey.has(e.at.key) ? e.at.key : fallback;
+      const b = byKey.get(e.at.key);
+      const key = b && stillThere(e.at, b) ? e.at.key : fallback;
       if (!g.has(key)) g.set(key, []);
       g.get(key).push(e);
     }
@@ -59,18 +63,23 @@ export function marginTabs(root, n, { fallback, onChange } = {}) {
     spots.sort((x, y) => x.top - y.top);
     const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
     let last = -Infinity;
-    fill(layer, spots.map(({ key, b, list, top }) => {
-      const y = Math.max(top, last + 1.7 * rem); // close blocks: stack the tabs, never overlap
+    const keep = new Set();
+    for (const { key, b, list, top } of spots) {
+      const y = Math.max(top, last + 2 * rem); // close blocks: stack the tabs, never overlap
       last = y;
-      const tab = h('button', {
-        class: list.length ? 'mtab' : 'mtab add', type: 'button',
-        'aria-label': list.length ? `Margin notes here (${list.length})` : 'Add a margin note here',
-        text: list.length > 1 ? String(list.length) : list.length ? '' : '+',
-        onclick: () => open(key, b),
-      });
+      keep.add(key);
+      // One button per key, kept across redraws, so focus (and the sheet's return focus) survives.
+      let tab = buttons.get(key);
+      if (!tab) { tab = h('button', { type: 'button', onclick: () => open(key, b) }); buttons.set(key, tab); }
+      const where = key === fallback ? 'the journal' : snipOf(b).slice(0, 40);
+      tab.className = list.length ? 'mtab' : 'mtab add';
+      tab.setAttribute('aria-label', list.length ? `Margin notes beside “${where}” (${list.length})` : `Add a margin note beside “${where}”`);
+      tab.textContent = list.length > 1 ? String(list.length) : list.length ? '' : '+';
       tab.style.top = `${y}px`;
-      return tab;
-    }));
+    }
+    for (const [key, tab] of buttons) if (!keep.has(key)) { tab.remove(); buttons.delete(key); }
+    // DOM order follows the page, so the Tab key moves down the page.
+    for (const { key } of spots) layer.append(buttons.get(key));
   };
   const later = () => { if (!queued) { queued = true; requestAnimationFrame(draw); } };
 
@@ -86,11 +95,13 @@ export function marginTabs(root, n, { fallback, onChange } = {}) {
         const render = () => {
           const list = groups().get(key) || [];
           const ta = keepAboveKeyboard(h('textarea', { 'aria-label': 'New margin note', placeholder: 'A note in the margin' }));
+          ta.value = loadDraft(draftKey(n, key)); // a closed sheet keeps what was typed
+          ta.addEventListener('input', () => saveDraft(draftKey(n, key), ta.value));
           const save = () => {
             const text = ta.value.trim();
             if (!text) { ta.focus(); return; }
-            addEntry(state.journal, { passage: n, text, at: { key, snip: snipOf(b) } });
-            if (state.persist()) { toast('Saved.'); render(); changed(); }
+            addEntry(state.journal, { passage: n, text, at: { key, snip: key === fallback ? '' : snipOf(b) } });
+            if (state.persist()) { clearDraft(draftKey(n, key)); toast('Saved.'); render(); changed(); }
           };
           fill(box,
             b && key !== fallback ? h('p', { class: 'mnote-at', text: `Beside: ${snipOf(b)}` }) : null,

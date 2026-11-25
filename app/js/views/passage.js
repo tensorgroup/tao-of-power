@@ -244,7 +244,7 @@ export async function passageView(n, drawId) {
   const plates = p?.plates?.length ? p.plates : (p?.glyph ? [{ c: p.glyph }] : []);
   if (plates.length) {
     const box = h('section', { class: 'plates', 'aria-label': 'Characters' }, h('h2', { text: plates.length > 1 ? 'Characters to sit with' : 'A character to sit with' }));
-    for (const pl of plates) { const el = await plate(pl, lex[pl.c] || {}, ctx); el.dataset.mark = `plate:${pl.c}`; box.append(el); }
+    for (const [i, pl] of plates.entries()) { const el = await plate(pl, lex[pl.c] || {}, ctx); el.dataset.mark = `plate:${pl.c}:${i}`; box.append(el); }
     root.append(box);
   }
 

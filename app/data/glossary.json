@@ -22,7 +22,7 @@
   "heshanggong": {
     "term": "Heshang Gong", "zh": "河上公", "aliases": ["Heshang Gong"],
     "short": "“The Old Man by the River” — a legendary sage credited with an early Laozi commentary focused on the body and long life.",
-    "body": "The Heshang Gong commentary is traditionally dated to the Han dynasty; scholars now place it somewhat later. Its author is a legend: a hermit by the Yellow River who taught Emperor Wen. Where Wang Bi reads the Laozi as philosophy, Heshang Gong reads it as a guide to nourishing the body, the breath, and the spirits within — and to ruling a state the same way. Its text sometimes differs from Wang Bi's."
+    "body": "The Heshang Gong commentary is traditionally dated to the Han dynasty; scholars now place it somewhat later. Its author is a legend: a hermit by the Yellow River who taught Emperor Wen. Where Wang Bi reads the Laozi as philosophy, Heshang Gong reads it as a guide to nourishing the body, the breath, and the spirits within — and to ruling a state the same way. The Heshang Gong text sometimes differs from Wang Bi's."
   },
   "mawangdui": {
     "term": "Mawangdui silk texts", "zh": "馬王堆帛書", "aliases": ["Mawangdui silk texts", "Mawangdui silk", "Mawangdui", "silk A", "silk B", "silk texts", "silk text"],
@@ -72,7 +72,7 @@
   "oraclebone": {
     "term": "oracle-bone script", "zh": "甲骨文", "aliases": ["oracle-bone script", "oracle-bone form", "oracle-bone forms", "oracle bones", "oracle bone", "oracle-bone"],
     "short": "The oldest Chinese writing (c. 1250–1050 BCE): questions to the spirits cut into turtle shells and ox bones.",
-    "body": "Shang kings asked their ancestors about harvests, war, childbirth, and weather. Diviners heated a shell or bone until it cracked, read the crack, and carved the question and often the answer beside it. About 4,500 different characters are known; about a third are read with confidence. They were only recognised in 1899, so earlier scholars like Xu Shen never saw them."
+    "body": "Shang kings asked their ancestors about harvests, war, childbirth, and weather. Diviners heated a shell or bone until it cracked, read the crack, and carved the question and often the answer beside it. About 4,500 different characters are known; about a third are read with confidence. The bones were only recognised in 1899, so earlier scholars like Xu Shen never saw them."
   },
   "bronze": {
     "term": "bronze script", "zh": "金文", "aliases": ["bronze script", "bronze form", "bronze forms", "bronze inscriptions", "bronze inscription"],
@@ -142,7 +142,7 @@
   "zhuangzi": {
     "term": "Zhuangzi", "zh": "莊子", "aliases": ["Zhuangzi", "Chuang Tzu"],
     "short": "The second great Daoist classic (4th–3rd c. BCE): stories, jokes, and dialogues by Zhuang Zhou and his school.",
-    "body": "Where the Laozi is terse verse, the Zhuangzi is playful prose: Cook Ding carving an ox, a butterfly dream, a useless tree that lives long because no one wants its wood. It shares the Laozi's distrust of fixed names and forced action, with more humour and less interest in ruling."
+    "body": "Where the Laozi is terse verse, the Zhuangzi is playful prose: Cook Ding carving an ox, a butterfly dream, a useless tree that lives long because no one wants its wood. The Zhuangzi shares the Laozi's distrust of fixed names and forced action, with more humour and less interest in ruling."
   },
   "sunzi": {
     "term": "Sunzi", "zh": "孫子兵法", "aliases": ["Sunzi", "Sun Tzu", "Art of War"],
@@ -262,7 +262,7 @@
   "redchamber": {
     "term": "Dream of the Red Chamber", "zh": "紅樓夢", "aliases": ["Dream of the Red Chamber", "Story of the Stone", "Red Chamber"],
     "short": "Cao Xueqin's 18th-century novel, the greatest in Chinese, framed by a magic stone and Daoist and Buddhist wanderers.",
-    "body": "Also called The Story of the Stone (石頭記). A stone left over when the goddess Nüwa mended the sky is born into the human world. Its famous couplet — 假作真時真亦假 — “when the false is taken as true, the true becomes false too” — echoes the Laozi's play of being and non-being."
+    "body": "Also called The Story of the Stone (石頭記). A stone left over when the goddess Nüwa mended the sky is born into the human world. The novel's famous couplet — 假作真時真亦假 — “when the false is taken as true, the true becomes false too” — echoes the Laozi's play of being and non-being."
   },
   "daodejing": {
     "term": "Daodejing", "zh": "道德經", "aliases": ["Daodejing", "Tao Te Ching", "Dao De Jing", "Tao Teh King", "Tao Te King", "Tao Teh Ching"],
