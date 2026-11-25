@@ -8,25 +8,30 @@ import { track } from './track.js';
 
 /** Seconds added to currentTime before the lookup. Tune on the phone (speaker, Bluetooth). */
 export const LEAD = 0;
-const RATE_KEY = 'tao-listen-rate';
+// One speed per language. The stage 1 key (Chinese only) is still read as the Chinese default.
+const RATE_KEY = (kind) => 'tao-listen-rate-' + kind;
+const OLD_RATE_KEY = 'tao-listen-rate';
 const RATES = [[0.8, '0.8×'], [1, '1×'], [1.2, '1.2×']];
-const LABEL = { idle: 'Listen', loading: 'Loading…', playing: 'Pause', paused: 'Resume', error: 'Listen' };
+const LABEL = {
+  idle: (l) => 'Listen in ' + l, loading: () => 'Loading…', playing: () => 'Pause', paused: () => 'Resume', error: (l) => 'Listen in ' + l,
+};
 // U+FE0E asks for the text form of ▶, so Android does not draw an emoji.
 const PLAY = '\u25B6\uFE0E ';
 const GLYPH = { idle: PLAY, loading: '', playing: '❚❚ ', paused: PLAY, error: PLAY };
-const ERROR_TEXT = 'Audio did not load. Check the connection and try again.';
+const ERROR_TEXT = (l) => l + ' audio did not load. Check the connection and try again.';
 const LANGUAGE = { zh: 'Chinese', en: 'English' };
 const ARIA = {
-  idle: (l) => 'Listen to the ' + l, loading: (l) => 'Loading the ' + l + '…', playing: (l) => 'Pause the ' + l,
-  paused: (l) => 'Resume the ' + l, error: (l) => 'Listen to the ' + l,
+  idle: (l) => 'Listen to the ' + l, loading: (l) => 'Loading the ' + l + '…', playing: (l) => 'Pause the ' + l + ' reading',
+  paused: (l) => 'Resume the ' + l + ' reading', error: (l) => 'Listen to the ' + l,
 };
 
 /**
- * What the row shows in a state: button text, button aria-label (names the language),
- * and the error line (empty unless error). kind is 'zh' or 'en'.
+ * What the row shows in a state: button text, button aria-label, the error line (empty
+ * unless error), and the speed group's aria-label. All name the language; kind is 'zh' or 'en'.
  */
 export function rowView(s, kind = 'zh') {
-  return { text: GLYPH[s] + LABEL[s], aria: ARIA[s](LANGUAGE[kind]), error: s === 'error' ? ERROR_TEXT : '' };
+  const l = LANGUAGE[kind];
+  return { text: GLYPH[s] + LABEL[s](l), aria: ARIA[s](l), error: s === 'error' ? ERROR_TEXT(l) : '', speed: l + ' speed' };
 }
 
 /** The last i with times[i] <= now, or -1. times is sorted. */
@@ -67,6 +72,25 @@ export function pageFollowDelta({ top, bottom, barBottom, viewTop, viewBottom, m
   return 0;
 }
 
+/**
+ * The English page follow, once per spoken word. line: the word's line index; last: the line
+ * the follow last took; held: true after a manual scroll; visible: the line is on screen
+ * (lineOnScreen); gesture: a touch or pointer is down. Scroll only when the line changes.
+ * A manual scroll holds the follow until the spoken line is on screen again (or the reader
+ * presses the row's button, which the caller handles); there is no timed pull back.
+ * Returns the next { scroll, held, last }.
+ */
+export function pageFollowStep({ line, last, held, visible, gesture }) {
+  if (gesture) return { scroll: false, held, last };
+  if (held) return visible ? { scroll: false, held: false, last: line } : { scroll: false, held: true, last };
+  return line === last ? { scroll: false, held: false, last } : { scroll: true, held: false, last: line };
+}
+
+/** True when some part of the line is below the sticky bar (or the view top, whichever is lower) and above the view bottom. */
+export function lineOnScreen({ top, bottom, barBottom, viewTop, viewBottom }) {
+  return bottom > Math.max(barBottom, viewTop) && top < viewBottom;
+}
+
 /** A gesture older than this counts as ended (ms): a lost end event must not stop the follow for good. */
 const GESTURE_STALE = 10000;
 
@@ -83,10 +107,13 @@ export function gestureLive(now, gestureActive, gestureStart) {
   return gestureActive && now - gestureStart < GESTURE_STALE;
 }
 
-function savedRate(storage) {
+function savedRate(storage, kind) {
+  const known = (v) => v != null && RATES.some(([x]) => x === Number(v));
   try {
-    const r = Number(storage?.getItem(RATE_KEY));
-    return RATES.some(([v]) => v === r) ? r : 1;
+    const r = storage?.getItem(RATE_KEY(kind));
+    if (known(r)) return Number(r);
+    const old = kind === 'zh' ? storage?.getItem(OLD_RATE_KEY) : null;
+    return known(old) ? Number(old) : 1;
   } catch { return 1; }
 }
 
@@ -104,7 +131,7 @@ export function createPlayer({
   let stopped = false;
   let frame = null;
   let last = -1;
-  let rate = savedRate(deps.storage);
+  let rate = savedRate(deps.storage, kind);
   let lock = null, lockPending = false, lockWanted = false;
   const added = [];
 
@@ -193,7 +220,7 @@ export function createPlayer({
   function setRate(r) {
     rate = r;
     applyRate();
-    try { deps.storage?.setItem(RATE_KEY, String(r)); } catch { /* private mode */ }
+    try { deps.storage?.setItem(RATE_KEY(kind), String(r)); } catch { /* private mode */ }
   }
 
   function stop() {
@@ -220,17 +247,31 @@ export function createPlayer({
 let rowCount = 0;
 
 /**
+ * While a row plays or is paused, it sticks to the bottom of the screen (class active), so
+ * Pause stays in reach. Only the row that started last sticks: two stuck rows would cover each other.
+ */
+let stuckRow = null;
+function stick(row, s) {
+  if (s === 'loading' || s === 'playing') {
+    if (stuckRow && stuckRow !== row) stuckRow.classList.remove('active');
+    stuckRow = row;
+  } else if (s !== 'paused' && stuckRow === row) stuckRow = null;
+  row.classList.toggle('active', stuckRow === row);
+}
+
+/**
  * The Listen button and speed chips, or null when the timings do not match the cells.
  * kind is 'zh' or 'en'; cells may be wordCell objects (one per English word).
+ * onPress runs on every press of the button, before the player acts.
  */
-export function listenRow({ kind = 'zh', n, file, times, end, cells, onIndex, onStart, onStop, lead = LEAD }) {
+export function listenRow({ kind = 'zh', n, file, times, end, cells, onIndex, onStart, onStop, onPress, lead = LEAD }) {
   if (!Array.isArray(times) || times.length !== cells.length) return null;
   const id = 'listen-' + ++rowCount;
   let player = null;
   let started = false;
 
   const btn = h('button', { type: 'button', class: 'btn listen-btn', onclick: press });
-  const chips = h('div', { class: 'filters', role: 'group', 'aria-label': 'Speed' });
+  const chips = h('div', { class: 'filters', role: 'group', 'aria-label': rowView('idle', kind).speed });
   // Always present and empty unless there is an error: screen readers announce a text change.
   const err = h('p', { class: 'small listen-error', role: 'status' });
   chips.hidden = true;
@@ -252,6 +293,7 @@ export function listenRow({ kind = 'zh', n, file, times, end, cells, onIndex, on
   }
 
   function press() {
+    onPress?.();
     if (!player || player.stopped) {
       const media = new Audio();
       media.preload = 'none';
@@ -275,6 +317,7 @@ export function listenRow({ kind = 'zh', n, file, times, end, cells, onIndex, on
         onIndex,
         onState: (s) => {
           label(s);
+          stick(row, s);
           if (s === 'playing' && !started) { started = true; onStart?.(); }
           if (s === 'idle') {
             finish();
@@ -288,6 +331,7 @@ export function listenRow({ kind = 'zh', n, file, times, end, cells, onIndex, on
     player.toggle();
   }
 
+  const row = h('div', { class: 'listen-row' }, btn, chips, err);
   label('idle');
-  return h('div', { class: 'listen-row' }, btn, chips, err);
+  return row;
 }

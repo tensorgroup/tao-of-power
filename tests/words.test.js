@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { splitPlan, wrapWords, wordCell } from '../app/js/words.js';
+import { splitPlan, planLine, wrapWords, wordCell } from '../app/js/words.js';
 import { wordsOf } from '../app/js/markup.js';
 
 test('a word split over two nodes gives two pieces with one index', () => {
@@ -8,11 +8,11 @@ test('a word split over two nodes gives two pieces with one index', () => {
   const plan = splitPlan(nodes);
   assert.deepEqual(plan.words, ['Be', 'like', 'the', 'sage’s', 'way']);
   assert.deepEqual(plan.pieces[3], [
-    { start: 12, end: 16, word: 'sage' },
-    { start: 0, end: 2, word: '’s' },
+    { node: 0, start: 12, end: 16, word: 'sage' },
+    { node: 1, start: 0, end: 2, word: '’s' },
   ]);
   assert.equal(plan.pieces[4].length, 1);
-  assert.deepEqual(plan.pieces[4][0], { start: 3, end: 6, word: 'way' });
+  assert.deepEqual(plan.pieces[4][0], { node: 1, start: 3, end: 6, word: 'way' });
 });
 
 test('words equal wordsOf on the joined text', () => {
@@ -88,4 +88,30 @@ test('wrapWords returns the spans of a split word in node order', () => {
   assert.deepEqual(words, ['Be', 'like', 'the', 'sage’s', 'way']);
   assert.deepEqual(cells[3].map((s) => s.textContent), ['sage', '’s']);
   assert.deepEqual(cells.map((c) => c[0].dataset.w), ['10', '11', '12', '13', '14']);
+});
+
+test('splitPlan: each piece names its node, and an empty node between gets none', () => {
+  const plan = splitPlan(['ab', '', 'cd e', '']);
+  assert.deepEqual(plan.words, ['abcd', 'e']);
+  assert.deepEqual(plan.pieces, [
+    [{ node: 0, start: 0, end: 2, word: 'ab' }, { node: 2, start: 0, end: 2, word: 'cd' }],
+    [{ node: 2, start: 3, end: 4, word: 'e' }],
+  ]);
+});
+
+test('wrapWords puts each piece in its own node, past empty nodes', () => {
+  const line = fakeDoc(['ab', '', 'cd e', '']);
+  const { words, cells } = wrapWords(line);
+  assert.deepEqual(words, ['abcd', 'e']);
+  assert.deepEqual(cells.map((c) => c.map((s) => s.textContent)), [['ab', 'cd'], ['e']]);
+});
+
+test('planLine gives the words without changing the line; wrapWords takes that plan', () => {
+  const line = fakeDoc(['Be like the sage', '’s way']);
+  const before = line.kids.length;
+  const plan = planLine(line);
+  assert.deepEqual(plan.words, ['Be', 'like', 'the', 'sage’s', 'way']);
+  assert.equal(line.kids.length, before);
+  const { cells } = wrapWords(line, 0, plan);
+  assert.deepEqual(cells[3].map((s) => s.textContent), ['sage', '’s']);
 });

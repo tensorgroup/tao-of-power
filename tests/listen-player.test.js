@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 
 // listen.js keeps all DOM access inside functions, so it imports cleanly in Node.
-const { indexAt, createPlayer, followTarget, followAllowed, gestureLive, rowView, pageFollowDelta } = await import('../app/js/listen.js');
+const { indexAt, createPlayer, followTarget, followAllowed, gestureLive, rowView, pageFollowDelta, pageFollowStep, lineOnScreen } = await import('../app/js/listen.js');
 const { wordCell } = await import('../app/js/words.js');
 
 test('indexAt: empty, before first, exact hit, between, after last', () => {
@@ -48,7 +48,7 @@ const cell = () => {
 const current = (cells) => cells.map((c) => c.attrs.get('aria-current') ?? '-');
 const classes = (cells) => cells.map((c) => [...c.set].sort().join(' ') || '-');
 
-function setup({ n = 3, rate, kind, id = 'row-a', lead, cells: given } = {}) {
+function setup({ n = 3, store: saved = {}, kind, id = 'row-a', lead, cells: given } = {}) {
   const media = new FakeMedia();
   const cells = given ?? Array.from({ length: n }, cell);
   const frames = [];
@@ -59,7 +59,7 @@ function setup({ n = 3, rate, kind, id = 'row-a', lead, cells: given } = {}) {
   const log = { stopSay: 0, track: [], states: [], index: [], listen: [], leads: [] };
   // Bypass the count: the stop tests check that the player leaves no listeners of its own.
   EventTarget.prototype.addEventListener.call(events, 'tao:listen', (e) => log.listen.push(e.detail));
-  const store = new Map(rate ? [['tao-listen-rate', rate]] : []);
+  const store = new Map(Object.entries(saved));
   let idx = -1;
   let sheet = false;
   const deps = {
@@ -191,22 +191,26 @@ test('wake lock: a lock the browser released while loading is asked for again on
   assert.equal(t.lock.requests, 2);
 });
 
-test('rowView: labels with a text-style play glyph, language-named aria, error text only in error', () => {
-  assert.deepEqual(rowView('idle'), { text: '\u25B6\uFE0E Listen', aria: 'Listen to the Chinese', error: '' });
-  assert.deepEqual(rowView('loading'), { text: 'Loading…', aria: 'Loading the Chinese…', error: '' });
-  assert.deepEqual(rowView('playing'), { text: '❚❚ Pause', aria: 'Pause the Chinese', error: '' });
-  assert.deepEqual(rowView('paused'), { text: '\u25B6\uFE0E Resume', aria: 'Resume the Chinese', error: '' });
-  assert.deepEqual(rowView('error'), { text: '\u25B6\uFE0E Listen', aria: 'Listen to the Chinese', error: 'Audio did not load. Check the connection and try again.' });
+test('rowView: labels with a text-style play glyph, language-named text and aria, error text only in error', () => {
+  const speed = 'Chinese speed';
+  assert.deepEqual(rowView('idle'), { text: '▶︎ Listen in Chinese', aria: 'Listen to the Chinese', error: '', speed });
+  assert.deepEqual(rowView('loading'), { text: 'Loading…', aria: 'Loading the Chinese…', error: '', speed });
+  assert.deepEqual(rowView('playing'), { text: '❚❚ Pause', aria: 'Pause the Chinese reading', error: '', speed });
+  assert.deepEqual(rowView('paused'), { text: '▶︎ Resume', aria: 'Resume the Chinese reading', error: '', speed });
+  assert.deepEqual(rowView('error'), { text: '▶︎ Listen in Chinese', aria: 'Listen to the Chinese', error: 'Chinese audio did not load. Check the connection and try again.', speed });
   assert.deepEqual(rowView('idle', 'zh'), rowView('idle'));
 });
 
-test('rowView en: same visible text, aria names the English', () => {
-  assert.deepEqual(rowView('idle', 'en'), { text: '\u25B6\uFE0E Listen', aria: 'Listen to the English', error: '' });
-  assert.equal(rowView('playing', 'en').aria, 'Pause the English');
-  assert.equal(rowView('paused', 'en').aria, 'Resume the English');
+test('rowView en: the text, aria, error line, and speed group name the English', () => {
+  assert.deepEqual(rowView('idle', 'en'), { text: '▶︎ Listen in English', aria: 'Listen to the English', error: '', speed: 'English speed' });
+  assert.equal(rowView('playing', 'en').aria, 'Pause the English reading');
+  assert.equal(rowView('paused', 'en').aria, 'Resume the English reading');
   assert.equal(rowView('error', 'en').aria, 'Listen to the English');
+  assert.equal(rowView('error', 'en').text, '▶︎ Listen in English');
+  assert.equal(rowView('error', 'en').error, 'English audio did not load. Check the connection and try again.');
   assert.equal(rowView('playing', 'en').text, '❚❚ Pause');
-  assert.deepEqual(rowView('loading', 'en'), { text: 'Loading…', aria: 'Loading the English…', error: '' });
+  assert.equal(rowView('paused', 'en').text, '▶︎ Resume');
+  assert.deepEqual(rowView('loading', 'en'), { text: 'Loading…', aria: 'Loading the English…', error: '', speed: 'English speed' });
 });
 
 test('wake lock: requested on playing, released on pause, asked again when visible', async () => {
@@ -272,15 +276,27 @@ test('error state', () => {
   assert.equal(t.player.state, 'error');
 });
 
-test('speed comes from storage and setRate keeps it', () => {
-  const t = setup({ rate: '1.2' });
+test('speed comes from storage and setRate keeps it, one key per language', () => {
+  const t = setup({ store: { 'tao-listen-rate-zh': '1.2' } });
   assert.equal(t.media.playbackRate, 1.2);
   assert.equal(t.media.preservesPitch, true);
   t.player.setRate(0.8);
   assert.equal(t.media.playbackRate, 0.8);
   assert.equal(t.media.defaultPlaybackRate, 0.8);
-  assert.equal(t.store.get('tao-listen-rate'), '0.8');
-  assert.equal(setup({ rate: 'junk' }).media.playbackRate, 1);
+  assert.equal(t.store.get('tao-listen-rate-zh'), '0.8');
+  assert.equal(t.store.has('tao-listen-rate-en'), false);
+  assert.equal(setup({ store: { 'tao-listen-rate-zh': 'junk' } }).media.playbackRate, 1);
+});
+
+test('speed: English has its own key; the old key is the Chinese default only', () => {
+  const en = setup({ kind: 'en', store: { 'tao-listen-rate': '0.8', 'tao-listen-rate-zh': '1.2' } });
+  assert.equal(en.media.playbackRate, 1); // the old key is not the English default
+  en.player.setRate(1.2);
+  assert.equal(en.store.get('tao-listen-rate-en'), '1.2');
+  assert.equal(en.store.get('tao-listen-rate-zh'), '1.2'); // unchanged
+  assert.equal(setup({ kind: 'en', store: { 'tao-listen-rate-en': '0.8' } }).media.playbackRate, 0.8);
+  assert.equal(setup({ store: { 'tao-listen-rate': '0.8' } }).media.playbackRate, 0.8); // zh falls back to the old key
+  assert.equal(setup({ store: { 'tao-listen-rate': '0.8', 'tao-listen-rate-zh': '1' } }).media.playbackRate, 1); // the new key wins
 });
 
 // A 300px box at x 50..350; content can scroll 0..1000 (positive scrollLeft, reading moves toward 0).
@@ -345,6 +361,39 @@ test('followAllowed: a gesture older than 10 s counts as ended (a lost end event
   assert.equal(followAllowed(19900, -Infinity, true, 10000), false); // 9.9 s: still a gesture
   assert.equal(followAllowed(20000, -Infinity, true, 10000), true); // 10 s: stale
   assert.equal(followAllowed(20000, 17000, true, 10000), false); // stale, but a scroll 3 s ago still holds the follow
+});
+
+test('pageFollowStep: scrolls only when the spoken line changes', () => {
+  const base = { held: false, visible: true, gesture: false };
+  assert.deepEqual(pageFollowStep({ ...base, line: 0, last: -1 }), { scroll: true, held: false, last: 0 });
+  assert.deepEqual(pageFollowStep({ ...base, line: 0, last: 0 }), { scroll: false, held: false, last: 0 }); // the next word, same line
+  assert.deepEqual(pageFollowStep({ ...base, line: 1, last: 0 }), { scroll: true, held: false, last: 1 });
+});
+
+test('pageFollowStep: after a manual scroll, off until the spoken line is on screen again', () => {
+  const held = { held: true, gesture: false, last: 2 };
+  // Off screen: no scroll, however long ago the scroll was (no 4 s pull back), also on a new line.
+  assert.deepEqual(pageFollowStep({ ...held, line: 2, visible: false }), { scroll: false, held: true, last: 2 });
+  assert.deepEqual(pageFollowStep({ ...held, line: 3, visible: false }), { scroll: false, held: true, last: 2 });
+  // On screen again: the follow is back, and this line needs no scroll; the next line scrolls.
+  const back = pageFollowStep({ ...held, line: 3, visible: true });
+  assert.deepEqual(back, { scroll: false, held: false, last: 3 });
+  assert.deepEqual(pageFollowStep({ ...back, line: 4, visible: true, gesture: false }), { scroll: true, held: false, last: 4 });
+});
+
+test('pageFollowStep: never during a gesture', () => {
+  assert.deepEqual(pageFollowStep({ line: 1, last: 0, held: false, visible: true, gesture: true }), { scroll: false, held: false, last: 0 });
+  assert.deepEqual(pageFollowStep({ line: 1, last: 0, held: true, visible: true, gesture: true }), { scroll: false, held: true, last: 0 });
+});
+
+test('lineOnScreen: some part of the line is between the bar (or the view top) and the view bottom', () => {
+  const v = { barBottom: 60, viewTop: 0, viewBottom: 800 };
+  assert.equal(lineOnScreen({ ...v, top: 300, bottom: 330 }), true);
+  assert.equal(lineOnScreen({ ...v, top: 40, bottom: 70 }), true); // partly under the bar
+  assert.equal(lineOnScreen({ ...v, top: 20, bottom: 60 }), false); // all under the bar
+  assert.equal(lineOnScreen({ ...v, top: 800, bottom: 830 }), false); // below the view
+  assert.equal(lineOnScreen({ ...v, top: -200, bottom: -170 }), false);
+  assert.equal(lineOnScreen({ ...v, viewTop: 200, top: 150, bottom: 190 }), false); // above a pinch-zoomed view
 });
 
 test('gestureLive: down and younger than 10 s', () => {

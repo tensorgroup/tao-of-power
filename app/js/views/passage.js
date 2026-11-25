@@ -5,14 +5,14 @@ import { getPassage, getLexicon, getArt, getEchoes, getWing, getCulture } from '
 import { openSheet } from '../sheet.js';
 import { rich, openChar, hanify, linkRefs } from '../notes.js';
 import { isHan, passageChars, segmentsFor, plainLine, wordsOf } from '../markup.js';
-import { wrapWords, wordCell } from '../words.js';
+import { planLine, wrapWords, wordCell } from '../words.js';
 import { state } from '../app.js';
 import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
 import { entryList } from './journal.js';
 import { brushPanel } from '../brush.js';
 import { sayButton } from '../audio.js';
 import { track } from '../track.js';
-import { listenRow, followTarget, followAllowed, gestureLive, pageFollowDelta } from '../listen.js';
+import { listenRow, followTarget, followAllowed, gestureLive, pageFollowDelta, pageFollowStep, lineOnScreen } from '../listen.js';
 
 const CLAUSE_END = new Set(['，', '；', '。', '：', '！', '？', ',']);
 const LAYOUT_KEY = 'tao.colLayout';
@@ -248,28 +248,32 @@ export async function passageView(n, drawId) {
 }
 
 /**
- * The English Listen row, right after the rendering. Wraps each word of each line in span.w;
- * no row when the words on the page differ from the plain lines or from the recording's count.
+ * The English Listen row, right after the rendering. Wraps each word of each line in span.w,
+ * but only when the words on the page match the plain lines and the recording's count
+ * (else no row and no spans).
  */
 function englishRow(n, rendering, r, lineEls, rec) {
-  const words = [], cells = [], lineOf = [];
-  for (const el of lineEls) {
-    const w = wrapWords(el, words.length);
-    for (const c of w.cells) { cells.push(c); lineOf.push(el); }
-    words.push(...w.words);
-  }
+  const plans = lineEls.map(planLine);
+  const words = plans.flatMap((pl) => pl.words);
   const expected = rendering.flatMap((l) => wordsOf(plainLine(l)).map((w) => w.word));
-  if (words.length !== expected.length || words.some((w, i) => w !== expected[i]) || words.length !== rec.n) {
+  if (words.length !== expected.length || words.some((w, i) => w !== expected[i]) || words.length !== rec.n
+    || !Array.isArray(rec.t) || rec.t.length !== words.length) {
     console.error(`passage ${n}: English words and the recording disagree (${words.length} on the page, ${expected.length} in the text, ${rec.n} recorded)`);
     return;
   }
-  // Page follow: keep the spoken line below the sticky bar and above the view bottom, but
-  // leave the page alone while the reader scrolls it, and for 4 s after. A scroll counts as
-  // manual only during a touch or pointer gesture (a plain tap scrolls nothing); a wheel turn
-  // or a scroll key counts at once. Touch and pointer are tracked apart (see the column).
-  let pointerDown = false, touchDown = false, gestureStart = 0, lastManual = -Infinity, scrolled = false;
+  const cells = [], lineOf = [];
+  lineEls.forEach((el, li) => {
+    for (const c of wrapWords(el, cells.length, plans[li]).cells) { cells.push(c); lineOf.push(li); }
+  });
+  // Page follow: keep the spoken line below the sticky bar and above the view bottom. It
+  // scrolls only when the spoken line changes. A manual scroll holds it until the spoken line
+  // is on screen again, or the reader presses the row's button (pageFollowStep). A scroll
+  // counts as manual only during a touch or pointer gesture (a plain tap scrolls nothing); a
+  // wheel turn or a scroll key counts at once. Touch and pointer are tracked apart (see the column).
+  let pointerDown = false, touchDown = false, gestureStart = 0, scrolled = false;
+  let step = { held: false, last: -1 };
   const gestureActive = () => gestureLive(Date.now(), pointerDown || touchDown, gestureStart);
-  const release = () => { lastManual = Date.now(); };
+  const release = () => { step = { ...step, held: true }; };
   const begin = () => { gestureStart = Date.now(); scrolled = false; };
   const endGesture = () => { if (scrolled) release(); scrolled = false; }; // momentum runs on after the lift
   const listeners = [
@@ -288,19 +292,25 @@ function englishRow(n, rendering, r, lineEls, rec) {
   addEventListener('hashchange', () => { for (const [ev, fn] of listeners) removeEventListener(ev, fn, { passive: true }); }, { once: true });
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const follow = (i) => {
-    if (!followAllowed(Date.now(), lastManual, pointerDown || touchDown, gestureStart)) return;
-    const line = lineOf[i].getBoundingClientRect();
+    const line = lineEls[lineOf[i]].getBoundingClientRect();
     const vv = window.visualViewport;
-    const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
-    const d = pageFollowDelta({
+    const view = {
       top: line.top, bottom: line.bottom,
       barBottom: document.querySelector('.bar')?.getBoundingClientRect().bottom ?? 0,
-      viewTop: vv ? vv.offsetTop : 0, viewBottom: vv ? vv.offsetTop + vv.height : innerHeight,
-      margin: 2.5 * rem,
-    });
+      // The row sits after the rendering, stuck to the screen bottom while it plays: lines under it are hidden.
+      viewBottom: Math.min(vv ? vv.offsetTop + vv.height : innerHeight, row.getBoundingClientRect().top),
+      viewTop: vv ? vv.offsetTop : 0,
+    };
+    const next = pageFollowStep({ line: lineOf[i], ...step, visible: lineOnScreen(view), gesture: gestureActive() });
+    step = { held: next.held, last: next.last };
+    if (!next.scroll) return;
+    const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+    const d = pageFollowDelta({ ...view, margin: 2.5 * rem });
     if (d) scrollBy({ top: d, behavior: reduced.matches ? 'auto' : 'smooth' });
   };
-  const row = listenRow({ kind: 'en', n, file: rec.file, times: rec.t, end: rec.end, cells: cells.map(wordCell), onIndex: follow });
+  // A press of the button brings the follow back, and the next word scrolls to its line.
+  const onPress = () => { step = { held: false, last: -1 }; };
+  const row = listenRow({ kind: 'en', n, file: rec.file, times: rec.t, end: rec.end, cells: cells.map(wordCell), onIndex: follow, onPress });
   if (row) r.after(row);
 }
 

@@ -177,6 +177,7 @@ p { margin: 0 0 1rem; }
 .rendering p { margin: 0 0 .25rem; }
 .rendering p.gap { height: .8rem; margin: 0; }
 /* English Listen: the spoken word in seal; spoken words dim (5.4:1 light, 7.1:1 dark on paper; 4.8:1 and 6.2:1 on the note wash). */
+.rendering .w { box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .rendering .w.now { background: var(--seal); color: var(--seal-ink); border-radius: 3px; }
 .rendering .w.done { color: color-mix(in srgb, var(--ink) 67%, var(--paper)); }
 .mark {
@@ -246,7 +247,9 @@ p { margin: 0 0 1rem; }
 .column .han.glossed.done { color: color-mix(in srgb, var(--seal) 75%, var(--paper-2)); }
 .listen-row { display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; margin: .75rem 0 0; }
 .listen-row .filters { margin: 0; align-items: center; }
-.listen-row .listen-btn { min-width: 8.5em; }
+.listen-row .listen-btn { min-width: 11.5em; } /* fits "Listen in Chinese", so Pause and Resume do not move the chips */
+/* While a row plays or is paused, it sticks to the screen bottom, so Pause stays in reach. */
+.listen-row.active { position: sticky; bottom: env(safe-area-inset-bottom, 0px); background: var(--paper); z-index: 4; padding-block: .4rem; }
 .listen-row .listen-speed { color: var(--ink-2); margin-inline-end: .15rem; }
 .listen-row .listen-error { flex-basis: 100%; margin: 0; color: var(--ink-2); }
 /* Empty: out of the flow but still in the accessibility tree, so the status change is announced. */
