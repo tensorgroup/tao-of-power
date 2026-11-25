@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 
 // listen.js keeps all DOM access inside functions, so it imports cleanly in Node.
-const { indexAt, createPlayer, followTarget, followAllowed } = await import('../app/js/listen.js');
+const { indexAt, createPlayer, followTarget, followAllowed, gestureLive } = await import('../app/js/listen.js');
 
 test('indexAt: empty, before first, exact hit, between, after last', () => {
   assert.equal(indexAt([], 5), -1);
@@ -226,4 +226,16 @@ test('followAllowed: never during a gesture; only 4 s after the last manual scro
   assert.equal(followAllowed(10000, 6100, false), false); // 3.9 s
   assert.equal(followAllowed(10000, 6000, false), true); // 4 s
   assert.equal(followAllowed(10000, -Infinity, false), true); // never scrolled by hand
+});
+
+test('followAllowed: a gesture older than 10 s counts as ended (a lost end event)', () => {
+  assert.equal(followAllowed(19900, -Infinity, true, 10000), false); // 9.9 s: still a gesture
+  assert.equal(followAllowed(20000, -Infinity, true, 10000), true); // 10 s: stale
+  assert.equal(followAllowed(20000, 17000, true, 10000), false); // stale, but a scroll 3 s ago still holds the follow
+});
+
+test('gestureLive: down and younger than 10 s', () => {
+  assert.equal(gestureLive(19900, true, 10000), true);
+  assert.equal(gestureLive(20000, true, 10000), false);
+  assert.equal(gestureLive(10500, false, 10000), false);
 });

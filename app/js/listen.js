@@ -39,9 +39,20 @@ export function followTarget({ cellLeft, cellRight, boxLeft, boxRight, scrollLef
   return Math.min(Math.max(next, 0), Math.max(maxScroll, 0));
 }
 
-/** Follow only when no gesture is under way and the last manual scroll is 4 s old. */
-export function followAllowed(now, lastManual, gestureActive) {
-  return !gestureActive && now - lastManual >= FOLLOW_PAUSE;
+/** A gesture older than this counts as ended (ms): a lost end event must not stop the follow for good. */
+const GESTURE_STALE = 10000;
+
+/**
+ * Follow only when no gesture is under way and the last manual scroll is 4 s old.
+ * gestureStart (when the gesture began) lets a gesture whose end event was lost expire.
+ */
+export function followAllowed(now, lastManual, gestureActive, gestureStart = now) {
+  return !gestureLive(now, gestureActive, gestureStart) && now - lastManual >= FOLLOW_PAUSE;
+}
+
+/** True while a gesture is down and younger than 10 s. */
+export function gestureLive(now, gestureActive, gestureStart) {
+  return gestureActive && now - gestureStart < GESTURE_STALE;
 }
 
 function savedRate(storage) {

@@ -11,7 +11,7 @@ import { entryList } from './journal.js';
 import { brushPanel } from '../brush.js';
 import { sayButton } from '../audio.js';
 import { track } from '../track.js';
-import { listenRow, followTarget, followAllowed } from '../listen.js';
+import { listenRow, followTarget, followAllowed, gestureLive } from '../listen.js';
 
 const CLAUSE_END = new Set(['，', '；', '。', '：', '！', '？', ',']);
 const LAYOUT_KEY = 'tao.colLayout';
@@ -114,15 +114,21 @@ export async function passageView(n, drawId) {
   for (const ev of ['pointerdown', 'touchstart', 'wheel', 'keydown']) colWrap.addEventListener(ev, () => { touched = true; }, { passive: true });
   // Listen follow: keep the spoken character in view, but leave the column alone while the
   // reader scrolls it by hand, and for 4 s after. A touch and a pointer are tracked apart,
-  // because Android sends pointercancel once a touch turns into a scroll.
+  // because Android sends pointercancel once a touch turns into a scroll. A gesture starts
+  // in the column but can end anywhere, so the end events are heard on window, until the
+  // route changes (passages opened in turn must not pile up listeners).
   let current = -1; // the cell being spoken, or -1
-  let pointerDown = false, touchDown = false, lastManual = -Infinity;
-  const gestureActive = () => pointerDown || touchDown;
+  let pointerDown = false, touchDown = false, gestureStart = 0, lastManual = -Infinity;
+  // A stuck flag (end event lost) expires, so the follow's own scrolls never count as manual.
+  const gestureActive = () => gestureLive(Date.now(), pointerDown || touchDown, gestureStart);
   const release = () => { lastManual = Date.now(); };
-  colWrap.addEventListener('pointerdown', () => { pointerDown = true; }, { passive: true });
-  colWrap.addEventListener('touchstart', () => { touchDown = true; }, { passive: true });
-  for (const ev of ['pointerup', 'pointercancel']) colWrap.addEventListener(ev, () => { pointerDown = false; release(); }, { passive: true });
-  colWrap.addEventListener('touchend', () => { touchDown = false; release(); }, { passive: true });
+  colWrap.addEventListener('pointerdown', () => { pointerDown = true; gestureStart = Date.now(); }, { passive: true });
+  colWrap.addEventListener('touchstart', () => { touchDown = true; gestureStart = Date.now(); }, { passive: true });
+  const pointerEnd = () => { if (pointerDown) { pointerDown = false; release(); } };
+  const touchEnd = () => { if (touchDown) { touchDown = false; release(); } };
+  const ends = [['pointerup', pointerEnd], ['pointercancel', pointerEnd], ['touchend', touchEnd], ['touchcancel', touchEnd]];
+  for (const [ev, fn] of ends) addEventListener(ev, fn, { passive: true });
+  addEventListener('hashchange', () => { for (const [ev, fn] of ends) removeEventListener(ev, fn, { passive: true }); }, { once: true });
   for (const ev of ['wheel', 'keydown']) colWrap.addEventListener(ev, release, { passive: true });
   colWrap.addEventListener('scroll', () => { if (gestureActive()) release(); }, { passive: true });
   const reveal = (i) => {
