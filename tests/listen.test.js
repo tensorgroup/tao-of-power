@@ -111,7 +111,8 @@ test('forcedReadings lists every forced character with place, context, reading, 
   assert.ok(rows[4].ctx.includes('長長'));
 });
 
-import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3 } from '../scripts/build-audio.mjs';
+import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage } from '../scripts/build-audio.mjs';
+import { SETTINGS_EN, enSourceHash, buildEnSsml } from '../scripts/lib/listen-en.mjs';
 
 test('joinTimes shifts later parts by the samples before them', () => {
   const r = joinTimes([{ times: [0.015, 0.5], samples: 24000 }, { times: [0.015], samples: 24000 }], 24000);
@@ -173,7 +174,7 @@ test('build-audio: removeOld keeps file and prev, deletes older files of that pa
   const dir = mkdtempSync(join(tmpdir(), 'tao-audio-'));
   try {
     for (const f of ['01.zh.00000000.mp3', '01.zh.aaaaaaaa.mp3', '01.zh.bbbbbbbb.mp3', '02.zh.cccccccc.mp3']) writeFileSync(join(dir, f), 'x');
-    removeOld(dir, 1, ['01.zh.bbbbbbbb.mp3', '01.zh.aaaaaaaa.mp3']);
+    removeOld(dir, 1, 'zh', ['01.zh.bbbbbbbb.mp3', '01.zh.aaaaaaaa.mp3']);
     assert.deepEqual(readdirSync(dir).sort(), ['01.zh.aaaaaaaa.mp3', '01.zh.bbbbbbbb.mp3', '02.zh.cccccccc.mp3']);
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });
@@ -181,10 +182,10 @@ test('build-audio: removeOld keeps file and prev, deletes older files of that pa
 test('build-audio: writeMp3 names the file by its hash, and a failed encode leaves no tmp file', () => {
   const dir = mkdtempSync(join(tmpdir(), 'tao-audio-'));
   try {
-    const name = writeMp3(dir, 1, Buffer.alloc(2), 24000, (_pcm, _rate, out) => writeFileSync(out, 'mp3 bytes'));
+    const name = writeMp3(dir, 1, 'zh', Buffer.alloc(2), 24000, (_pcm, _rate, out) => writeFileSync(out, 'mp3 bytes'));
     const h8 = createHash('sha256').update('mp3 bytes').digest('hex').slice(0, 8);
     assert.equal(name, `01.zh.${h8}.mp3`);
-    assert.throws(() => writeMp3(dir, 2, Buffer.alloc(2), 24000, (_pcm, _rate, out) => { writeFileSync(out, 'half'); throw new Error('ffmpeg failed'); }), /ffmpeg failed/);
+    assert.throws(() => writeMp3(dir, 2, 'zh', Buffer.alloc(2), 24000, (_pcm, _rate, out) => { writeFileSync(out, 'half'); throw new Error('ffmpeg failed'); }), /ffmpeg failed/);
     assert.equal(existsSync(join(dir, '02.zh.tmp.mp3')), false);
     assert.deepEqual(readdirSync(dir), [name]);
   } finally { rmSync(dir, { recursive: true, force: true }); }
@@ -262,4 +263,86 @@ test('checkListen: an MP3 no entry names is an error', () => {
 test('checkListen: readings errors are reported', () => {
   const e = clRun((a) => { a.lex = { 道: { py: ['dao4', 'dao3'] } }; });
   assert.ok(e.some((x) => /needs a reading decision/.test(x)));
+});
+
+test('build-audio: recording English keeps the Chinese files of that passage', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tao-audio-'));
+  try {
+    for (const f of ['01.zh.aaaaaaaa.mp3', '01.en.11111111.mp3', '01.en.22222222.mp3', '01.en.33333333.mp3', '02.en.44444444.mp3']) writeFileSync(join(dir, f), 'x');
+    removeOld(dir, 1, 'en', ['01.en.33333333.mp3', '01.en.22222222.mp3']);
+    assert.deepEqual(readdirSync(dir).sort(), ['01.en.22222222.mp3', '01.en.33333333.mp3', '01.zh.aaaaaaaa.mp3', '02.en.44444444.mp3']);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+test('build-audio: writeMp3 with key en names NN.en.<h8>.mp3', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tao-audio-'));
+  try {
+    const name = writeMp3(dir, 3, 'en', Buffer.alloc(2), 24000, (_pcm, _rate, out) => writeFileSync(out, 'en bytes'));
+    assert.equal(name, `03.en.${createHash('sha256').update('en bytes').digest('hex').slice(0, 8)}.mp3`);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+test('build-audio: the English language object builds, hashes, and counts words', () => {
+  const lines = ['A way, the [[Dao|dao]].', '', 'is not.'];
+  const lang = enLanguage((n) => (n === 1 ? lines : null), { dao: 'daʊ' });
+  assert.equal(lang.key, 'en');
+  assert.deepEqual(lang.voice, { languageCode: SETTINGS_EN.lang, name: SETTINGS_EN.voice });
+  assert.equal(lang.rate, SETTINGS_EN.rate);
+  const parts = lang.build(1);
+  assert.deepEqual(parts, buildEnSsml(lines, { dao: 'daʊ' }));
+  assert.equal(parts.reduce((s, p) => s + p.count, 0), 6); // A way the Dao is not
+  assert.equal(lang.hash(parts), enSourceHash(parts));
+  assert.deepEqual(lang.validate(1), []);
+  assert.equal(lang.validate(2).length, 1);
+  assert.match(lang.validate(2)[0], /no English rendering/);
+  assert.match(enLanguage(() => ['the qi rises'], {}).validate(1)[0], /qi/);
+});
+
+test('build-audio: --en --drop without a passage number prints usage and exits 2', async () => {
+  const saved = console.error;
+  const lines = [];
+  console.error = (m) => lines.push(String(m));
+  try {
+    assert.equal(await buildMain(['node', 'build-audio.mjs', '--en', '--drop']), 2);
+    assert.equal(await buildMain(['node', 'build-audio.mjs', '--en', '--no-force', '--out', 'x.mp3', '1']), 2);
+  } finally { console.error = saved; }
+  assert.equal(lines.length, 2);
+});
+
+const EN_IPA = { dao: 'daʊ' };
+const EN_LINES = { 1: ['The [[Dao|dao]] that can be told', '', 'is not the constant Dao.'] };
+function enGood() {
+  const a = clGood();
+  const parts = buildEnSsml(EN_LINES[1], EN_IPA);
+  a.manifest.en = { 1: { file: 'audio/passages/01.en.cccccccc.mp3', src: enSourceHash(parts), n: 11, end: 9, t: Array.from({ length: 11 }, (_, i) => 0.1 + i * 0.5) } };
+  a.mp3s.push('01.en.cccccccc.mp3');
+  a.renderingOf = (n) => EN_LINES[n] ?? null;
+  a.ipa = EN_IPA;
+  return a;
+}
+const enRun = (mut) => { const a = enGood(); mut(a); return checkListen(a); };
+
+test('checkListen: an English entry made by the builder has no errors; its MP3 is not a stray', () => {
+  assert.deepEqual(checkListen(enGood()), []);
+});
+test('checkListen: changed English gives the exact message', () => {
+  assert.deepEqual(enRun((a) => { a.renderingOf = () => ['The [[Dao|dao]] that can be said', '', 'is not the constant Dao.']; }),
+    ['Passage 1 English changed after the recording. Run `npm run audio -- --en 1`, or `npm run audio -- --en --drop 1`.']);
+  assert.equal(enRun((a) => { a.ipa = { dao: 'daʊ', the: 'ðə' }; }).length, 1, 'a changed IPA table is stale too');
+});
+test('checkListen: English n and t must match the word count', () => {
+  const e = enRun((a) => { a.manifest.en[1].n = 10; a.manifest.en[1].t.pop(); });
+  assert.deepEqual(e, ['Passage 1 English: n is 10 and t has 10 times, but the passage has 11 words.']);
+});
+test('checkListen: English file and prev are checked, and an unnamed English MP3 is a stray', () => {
+  let e = enRun((a) => { a.exists = (rel) => !rel.includes('cccccccc'); });
+  assert.equal(e.length, 1); assert.match(e[0], /01\.en\.cccccccc\.mp3 does not exist/);
+  e = enRun((a) => { a.manifest.en[1].prev = 'audio/passages/01.en.dddddddd.mp3'; a.mp3s.push('01.en.dddddddd.mp3'); });
+  assert.deepEqual(e, []);
+  e = enRun((a) => { a.mp3s.push('01.en.eeeeeeee.mp3'); });
+  assert.deepEqual(e, ['audio/passages/01.en.eeeeeeee.mp3 is not named by any entry in listen.json.']);
+});
+test('checkListen: an English entry with no rendering is an error', () => {
+  const e = enRun((a) => { a.renderingOf = () => null; });
+  assert.equal(e.length, 1); assert.match(e[0], /Passage 1 English.*no rendering/);
 });

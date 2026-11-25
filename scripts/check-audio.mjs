@@ -3,20 +3,22 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { join, basename } from 'node:path';
-import { segmentsFor, passageChars } from '../app/js/markup.js';
+import { segmentsFor, passageChars, plainLine, wordsOf } from '../app/js/markup.js';
 import { resolveReading, buildSsml, sourceHash, validateReadings, validateGlobalReadings } from './lib/listen-ssml.mjs';
+import { buildEnSsml, enSourceHash } from './lib/listen-en.mjs';
 
 const app = fileURLToPath(new URL('../app/', import.meta.url));
 const scripts = fileURLToPath(new URL('./', import.meta.url));
 
-/** The 8 hex digits in a recording's name (NN.zh.<h8>.mp3), or null. */
+/** The 8 hex digits in a recording's name (NN.<zh|en>.<h8>.mp3), or null. */
 const nameHash = (file) => /\.([0-9a-f]{8})\.mp3$/.exec(file)?.[1] ?? null;
 
 /**
  * Return a list of error strings; an empty list means the recordings are good.
  * `mp3s` holds file basenames; `exists(rel)` and `hashOf(rel)` (SHA-256 hex) take app-relative paths.
+ * `renderingOf(n)` gives passage n's English lines (or null) and `ipa` the romanized-word table; both are used only for `en` entries.
  */
-export function checkListen({ manifest, segmentsOf, readings, lex, exists, hashOf, mp3s }) {
+export function checkListen({ manifest, segmentsOf, renderingOf, ipa, readings, lex, exists, hashOf, mp3s }) {
   const global = validateGlobalReadings(readings, lex);
   const errs = [...global];
   const named = new Set();
@@ -28,6 +30,20 @@ export function checkListen({ manifest, segmentsOf, readings, lex, exists, hashO
     const got = hashOf(file)?.slice(0, 8);
     if (got !== want) errs.push(`Passage ${n}: ${file} hashes to ${got}, not the ${want} in its name.`);
   };
+  const checkFiles = (n, e) => {
+    checkFile(n, 'file', e.file);
+    if (e.prev != null) checkFile(n, 'prev', e.prev);
+  };
+  // n and t match the passage's count of units (characters or words), t increases, end is after the last mark.
+  const checkEntry = (who, n, e, count, unit) => {
+    if (e.t.length !== e.n) errs.push(`${who}: t has ${e.t.length} times, but n is ${e.n}.`);
+    else if (e.n !== count) errs.push(`${who}: n is ${e.n} and t has ${e.t.length} times, but the passage has ${count} ${unit}.`);
+    for (let i = 1; i < e.t.length; i++) {
+      if (!(e.t[i] > e.t[i - 1])) { errs.push(`${who}: t does not increase at mark ${i}.`); break; }
+    }
+    if (e.t.length && !(e.end > e.t[e.t.length - 1])) errs.push(`${who}: end (${e.end}) is not after the last mark (${e.t[e.t.length - 1]}).`);
+    checkFiles(n, e);
+  };
   for (const [key, e] of Object.entries(manifest.zh ?? {})) {
     const n = Number(key);
     const segments = segmentsOf(n);
@@ -37,15 +53,18 @@ export function checkListen({ manifest, segmentsOf, readings, lex, exists, hashO
       const src = sourceHash(buildSsml(segments, (c) => resolveReading(n, c, readings)));
       if (e.src !== src) errs.push(`Passage ${n} text or readings changed after the recording. Run \`npm run audio -- ${n}\`, or \`npm run audio -- --drop ${n}\`.`);
     }
-    const count = passageChars(segments).length;
-    if (e.t.length !== e.n) errs.push(`Passage ${n}: t has ${e.t.length} times, but n is ${e.n}.`);
-    else if (e.n !== count) errs.push(`Passage ${n}: n is ${e.n} and t has ${e.t.length} times, but the passage has ${count} characters.`);
-    for (let i = 1; i < e.t.length; i++) {
-      if (!(e.t[i] > e.t[i - 1])) { errs.push(`Passage ${n}: t does not increase at mark ${i}.`); break; }
+    checkEntry(`Passage ${n}`, n, e, passageChars(segments).length, 'characters');
+  }
+  for (const [key, e] of Object.entries(manifest.en ?? {})) {
+    const n = Number(key);
+    const who = `Passage ${n} English`;
+    const rendering = renderingOf(n);
+    if (!rendering?.length) { errs.push(`${who}: the passage has no rendering.`); checkFiles(n, e); continue; }
+    if (e.src !== enSourceHash(buildEnSsml(rendering, ipa))) {
+      errs.push(`${who} changed after the recording. Run \`npm run audio -- --en ${n}\`, or \`npm run audio -- --en --drop ${n}\`.`);
     }
-    if (e.t.length && !(e.end > e.t[e.t.length - 1])) errs.push(`Passage ${n}: end (${e.end}) is not after the last mark (${e.t[e.t.length - 1]}).`);
-    checkFile(n, 'file', e.file);
-    if (e.prev != null) checkFile(n, 'prev', e.prev);
+    const count = rendering.reduce((sum, line) => sum + wordsOf(plainLine(line)).length, 0);
+    checkEntry(who, n, e, count, 'words');
   }
   for (const f of mp3s) if (!named.has(f)) errs.push(`audio/passages/${f} is not named by any entry in listen.json.`);
   return errs;
@@ -56,14 +75,17 @@ function main() {
   if (!existsSync(mf)) { console.log('no recordings'); return 0; }
   const readJson = (p) => JSON.parse(readFileSync(p, 'utf8'));
   const text = readJson(join(app, 'data/text.json'));
-  const segmentsOf = (n) => {
+  const passageFile = (n) => {
     const pf = join(app, `data/passages/${String(n).padStart(2, '0')}.json`);
-    return segmentsFor(text[n - 1], existsSync(pf) ? readJson(pf) : null);
+    return existsSync(pf) ? readJson(pf) : null;
   };
+  const segmentsOf = (n) => segmentsFor(text[n - 1], passageFile(n));
   const dir = join(app, 'audio/passages');
   const errs = checkListen({
     manifest: readJson(mf),
     segmentsOf,
+    renderingOf: (n) => passageFile(n)?.rendering ?? null,
+    ipa: readJson(join(scripts, 'audio-en-lexicon.json')),
     readings: readJson(join(scripts, 'audio-readings.json')),
     lex: readJson(join(app, 'data/lexicon.json')),
     exists: (rel) => existsSync(join(app, rel)),

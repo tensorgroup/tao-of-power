@@ -1,5 +1,5 @@
 // Record the Listen read-aloud audio: Google TTS (SSML marks) -> one MP3 per passage + timings in listen.json.
-// Usage: node scripts/build-audio.mjs [N...] | --drop N | --list N | --no-force --out <path> N
+// Usage: node scripts/build-audio.mjs [--en] [N... | --all] | [--en] --drop N | --list N | --no-force --out <path> N
 import { readFileSync, writeFileSync, renameSync, readdirSync, unlinkSync, existsSync, mkdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { execFileSync, spawnSync } from 'node:child_process';
@@ -7,13 +7,14 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { join } from 'node:path';
 import { segmentsFor } from '../app/js/markup.js';
 import { SETTINGS, resolveReading, buildSsml, sourceHash, validateReadings, validateGlobalReadings, forcedReadings } from './lib/listen-ssml.mjs';
+import { SETTINGS_EN, buildEnSsml, enSourceHash, romanizedCandidates } from './lib/listen-en.mjs';
 
 const app = fileURLToPath(new URL('../app/', import.meta.url));
 const scripts = fileURLToPath(new URL('./', import.meta.url));
 const MANIFEST = join(app, 'data/listen.json');
 const OUT_DIR = join(app, 'audio/passages');
 const ENDPOINT = 'https://texttospeech.googleapis.com/v1beta1/text:synthesize';
-const USAGE = 'Usage: npm run audio -- [N...] | --drop N | --list N | --no-force --out <path> N';
+const USAGE = 'Usage: npm run audio -- [--en] [N... | --all] | [--en] --drop N | --list N | --no-force --out <path> N';
 const FFMPEG = existsSync('/opt/homebrew/bin/ffmpeg') ? '/opt/homebrew/bin/ffmpeg' : 'ffmpeg';
 
 /** Read a WAV buffer: find the fmt and data chunks (the header length varies). */
@@ -65,11 +66,11 @@ function saveManifest(m) {
   renameSync(tmp, MANIFEST);
 }
 
-/** Delete passage n's MP3s in dir except the basenames in keep (the new file and prev). */
-export function removeOld(dir, n, keep) {
+/** Delete passage n's MP3s of one language (key) in dir except the basenames in keep (the new file and prev). */
+export function removeOld(dir, n, key, keep) {
   if (!existsSync(dir)) return;
   for (const f of readdirSync(dir)) {
-    if (f.startsWith(`${pad(n)}.zh.`) && f.endsWith('.mp3') && !keep.includes(f)) unlinkSync(join(dir, f));
+    if (f.startsWith(`${pad(n)}.${key}.`) && f.endsWith('.mp3') && !keep.includes(f)) unlinkSync(join(dir, f));
   }
 }
 
@@ -89,12 +90,12 @@ export function withPrev(entry, stored, exists) {
   return { file, prev, ...rest };
 }
 
-/** Encode to NN.zh.tmp.mp3, then rename to NN.zh.<h8>.mp3. The tmp file never stays behind. */
-export function writeMp3(dir, n, pcm, rate, encode = encodeMp3) {
-  const tmp = join(dir, `${pad(n)}.zh.tmp.mp3`);
+/** Encode to NN.<key>.tmp.mp3, then rename to NN.<key>.<h8>.mp3. The tmp file never stays behind. */
+export function writeMp3(dir, n, key, pcm, rate, encode = encodeMp3) {
+  const tmp = join(dir, `${pad(n)}.${key}.tmp.mp3`);
   try {
     encode(pcm, rate, tmp);
-    const name = `${pad(n)}.zh.${sha(readFileSync(tmp)).slice(0, 8)}.mp3`;
+    const name = `${pad(n)}.${key}.${sha(readFileSync(tmp)).slice(0, 8)}.mp3`;
     renameSync(tmp, join(dir, name));
     return name;
   } finally {
@@ -105,14 +106,14 @@ export function writeMp3(dir, n, pcm, rate, encode = encodeMp3) {
 let token;
 const getToken = () => (token ??= execFileSync('gcloud', ['--configuration=tao', 'auth', 'print-access-token'], { encoding: 'utf8' }).trim());
 
-async function synth(ssml) {
+async function synth(ssml, voice, rate) {
   const res = await fetch(ENDPOINT, {
     method: 'POST',
     headers: { Authorization: `Bearer ${getToken()}`, 'x-goog-user-project': 'tao-of-power', 'Content-Type': 'application/json' },
     body: JSON.stringify({
       input: { ssml },
-      voice: { languageCode: 'cmn-CN', name: SETTINGS.voice },
-      audioConfig: { audioEncoding: SETTINGS.encoding, speakingRate: SETTINGS.rate },
+      voice,
+      audioConfig: { audioEncoding: 'LINEAR16', speakingRate: rate },
       enableTimePointing: ['SSML_MARK'],
     }),
   });
@@ -126,40 +127,72 @@ function encodeMp3(pcm, sampleRate, outPath) {
   if (r.status !== 0) throw new Error(`ffmpeg failed: ${r.stderr}`);
 }
 
-/** Record one passage. Returns the manifest entry (or null when --out is used or nothing changed). */
-async function record(n, ctx, { noForce, out, stored }) {
-  const segments = segmentsOf(n, ctx.text);
-  const errs = [...ctx.globalErrs, ...validateReadings(n, segments, ctx.readings, ctx.lex)];
-  if (errs.length && !noForce) throw new Error(`passage ${n} readings:\n  ${errs.join('\n  ')}`);
-  const forced = noForce ? () => null : (c) => resolveReading(n, c, ctx.readings);
-  const parts = buildSsml(segments, forced);
-  const src = sourceHash(parts) + (noForce ? ':plain' : '');
-  if (!out && isUpToDate(stored, src, (rel) => existsSync(join(app, rel)))) { console.log(`passage ${n}: up to date`); return null; }
+/**
+ * The Chinese language object. With noForce, no reading is forced and the readings check is off
+ * (the src gets ':plain', so a plain test recording is never taken as up to date).
+ */
+export function zhLanguage(ctx, noForce = false) {
+  return {
+    key: 'zh',
+    label: (n) => `passage ${n}`,
+    build: (n) => buildSsml(segmentsOf(n, ctx.text), noForce ? () => null : (c) => resolveReading(n, c, ctx.readings)),
+    hash: (parts) => sourceHash(parts) + (noForce ? ':plain' : ''),
+    validate: (n) => (noForce ? [] : [...ctx.globalErrs, ...validateReadings(n, segmentsOf(n, ctx.text), ctx.readings, ctx.lex)]),
+    voice: { languageCode: 'cmn-CN', name: SETTINGS.voice },
+    rate: SETTINGS.rate,
+  };
+}
+
+/** The English language object: renderingOf(n) gives the rendering lines (or null); ipa is the romanized-word table. */
+export function enLanguage(renderingOf, ipa) {
+  return {
+    key: 'en',
+    label: (n) => `passage ${n} English`,
+    build: (n) => buildEnSsml(renderingOf(n), ipa),
+    hash: enSourceHash,
+    validate: (n) => {
+      const r = renderingOf(n);
+      if (!r?.length) return [`passage ${n}: no English rendering`];
+      return romanizedCandidates([r], ipa).map((w) => `passage ${n}: "${w}" looks romanized; add it to scripts/audio-en-lexicon.json`);
+    },
+    voice: { languageCode: SETTINGS_EN.lang, name: SETTINGS_EN.voice },
+    rate: SETTINGS_EN.rate,
+  };
+}
+
+/** Record one passage in one language. Returns the manifest entry (or null when --out is used or nothing changed). */
+async function record(n, lang, { out, stored }) {
+  const who = lang.label(n);
+  const errs = lang.validate(n);
+  if (errs.length) throw new Error(`${who}:\n  ${errs.join('\n  ')}`);
+  const parts = lang.build(n);
+  const src = lang.hash(parts);
+  if (!out && isUpToDate(stored, src, (rel) => existsSync(join(app, rel)))) { console.log(`${who}: up to date`); return null; }
 
   const got = [];
   let rate = 0;
   for (const part of parts) {
-    const json = await synth(part.ssml);
+    const json = await synth(part.ssml, lang.voice, lang.rate);
     const tp = json.timepoints ?? [];
     const names = tp.map((x) => x.markName);
     const want = Array.from({ length: part.count }, (_, j) => String(part.first + j));
     if (tp.length !== part.count || names.some((nm, j) => nm !== want[j])) {
-      throw new Error(`passage ${n}: got ${tp.length} marks, wanted ${part.count} (${part.first}..${part.first + part.count - 1}); nothing written`);
+      throw new Error(`${who}: got ${tp.length} marks, wanted ${part.count} (${part.first}..${part.first + part.count - 1}); nothing written`);
     }
     const wav = parseWav(Buffer.from(json.audioContent, 'base64'));
-    if (wav.channels !== 1) throw new Error(`passage ${n}: expected mono audio`);
-    if (rate && rate !== wav.sampleRate) throw new Error(`passage ${n}: sample rate changed between parts`);
+    if (wav.channels !== 1) throw new Error(`${who}: expected mono audio`);
+    if (rate && rate !== wav.sampleRate) throw new Error(`${who}: sample rate changed between parts`);
     rate = wav.sampleRate;
     got.push({ times: tp.map((x) => x.timeSeconds), samples: wav.pcm.length / 2, pcm: wav.pcm });
   }
   const { t, end } = joinTimes(got, rate);
-  for (let i = 1; i < t.length; i++) if (t[i] - t[i - 1] < 0.08) console.warn(`passage ${n}: marks ${i - 1}-${i} are ${r3(t[i] - t[i - 1])} s apart`);
+  for (let i = 1; i < t.length; i++) if (t[i] - t[i - 1] < 0.08) console.warn(`${who}: marks ${i - 1}-${i} are ${r3(t[i] - t[i - 1])} s apart`);
 
   const pcm = Buffer.concat(got.map((g) => g.pcm));
-  if (out) { encodeMp3(pcm, rate, out); console.log(`passage ${n}: wrote ${out} (${end} s)`); return null; }
+  if (out) { encodeMp3(pcm, rate, out); console.log(`${who}: wrote ${out} (${end} s)`); return null; }
   mkdirSync(OUT_DIR, { recursive: true });
-  const name = writeMp3(OUT_DIR, n, pcm, rate);
-  console.log(`passage ${n}: ${name}, ${t.length} marks, ${end} s`);
+  const name = writeMp3(OUT_DIR, n, lang.key, pcm, rate);
+  console.log(`${who}: ${name}, ${t.length} marks, ${end} s`);
   return { file: `audio/passages/${name}`, src, n: t.length, end, t };
 }
 
@@ -169,12 +202,18 @@ const readContext = () => ({
   readings: readJson(join(scripts, 'audio-readings.json')),
 });
 
+const passageFile = (n) => {
+  const pf = join(app, `data/passages/${pad(n)}.json`);
+  return existsSync(pf) ? readJson(pf) : null;
+};
+
 function segmentsOf(n, text) {
   const t = text.find((e) => e.n === n);
   if (!t) throw new Error(`passage ${n}: not in text.json`);
-  const pf = join(app, `data/passages/${pad(n)}.json`);
-  return segmentsFor(t, existsSync(pf) ? readJson(pf) : null);
+  return segmentsFor(t, passageFile(n));
 }
+
+const renderingOf = (n) => passageFile(n)?.rendering ?? null;
 
 /** --list N: every forced reading in passage N, for review before recording. No API call. */
 function listForced(n) {
@@ -190,50 +229,66 @@ const numberAfter = (args, i) => (/^\d+$/.test(args[i + 1] ?? '') ? Number(args[
 
 export async function main(argv) {
   const args = argv.slice(2);
+  const en = args.includes('--en');
+  const all = args.includes('--all');
   const noForce = args.includes('--no-force');
   const oi = args.indexOf('--out');
   const out = oi >= 0 ? args[oi + 1] : null;
   const li = args.indexOf('--list');
   if (li >= 0) {
     const n = numberAfter(args, li);
-    if (n == null) { console.error(USAGE); return 2; }
+    if (n == null || en) { console.error(USAGE); return 2; }
     return listForced(n);
   }
+  const key = en ? 'en' : 'zh';
   const di = args.indexOf('--drop');
   if (di >= 0) {
     const n = numberAfter(args, di);
     if (n == null) { console.error(USAGE); return 2; }
     const m = loadManifest();
-    const e = m.zh[n];
-    if (!e) { console.log(`passage ${n}: not in listen.json`); return 0; }
-    delete m.zh[n];
+    const e = m[key][n];
+    if (!e) { console.log(`passage ${n}: no ${key} entry in listen.json`); return 0; }
+    delete m[key][n];
     saveManifest(m);
     for (const rel of [e.file, e.prev]) {
       const f = rel && join(app, rel);
       if (f && existsSync(f)) unlinkSync(f);
     }
-    console.log(`passage ${n}: dropped`);
+    console.log(`passage ${n}: ${key} dropped`);
     return 0;
   }
   const skip = new Set(oi >= 0 ? [oi, oi + 1] : []);
   const nums = args.filter((a, i) => !skip.has(i) && /^\d+$/.test(a)).map(Number);
-  if ((noForce || out) && !(noForce && out && nums.length === 1)) { console.error('--no-force and --out go together, with exactly one passage number'); return 2; }
+  if ((noForce || out) && !(noForce && out && nums.length === 1 && !en && !all)) {
+    console.error('--no-force and --out go together, with exactly one passage number, Chinese only'); return 2;
+  }
+  if (all && nums.length) { console.error(USAGE); return 2; }
 
   const ctx = readContext();
-  ctx.globalErrs = validateGlobalReadings(ctx.readings, ctx.lex); // once, not once per passage
+  let lang;
+  if (en) {
+    lang = enLanguage(renderingOf, readJson(join(scripts, 'audio-en-lexicon.json')));
+  } else {
+    ctx.globalErrs = noForce ? [] : validateGlobalReadings(ctx.readings, ctx.lex); // once, not once per passage
+    lang = zhLanguage(ctx, noForce);
+  }
   const m = loadManifest();
-  const list = nums.length ? nums : Object.keys(m.zh).map(Number);
+  let list;
+  if (nums.length) list = nums;
+  else if (!all) list = Object.keys(m[key]).map(Number);
+  else if (en) list = ctx.text.map((t) => t.n).filter((n) => renderingOf(n)?.length);
+  else list = ctx.text.map((t) => t.n);
   let code = 0;
   for (const n of list) {
     try {
-      const prev = m.zh[n];
-      const entry = await record(n, ctx, { noForce, out, stored: prev });
+      const prev = m[key][n];
+      const entry = await record(n, lang, { out, stored: prev });
       if (entry) {
         const fresh = loadManifest(); // keep other entries
         const next = withPrev(entry, prev, (rel) => existsSync(join(app, rel)));
-        fresh.zh[n] = next;
+        fresh[key][n] = next;
         saveManifest(fresh);
-        removeOld(OUT_DIR, n, [next.file, next.prev].filter(Boolean).map((f) => f.split('/').pop()));
+        removeOld(OUT_DIR, n, key, [next.file, next.prev].filter(Boolean).map((f) => f.split('/').pop()));
       }
     } catch (e) {
       console.error(e.message);
