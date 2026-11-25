@@ -15,10 +15,18 @@ const LABEL = { idle: 'Listen', loading: 'Loading…', playing: 'Pause', paused:
 const PLAY = '\u25B6\uFE0E ';
 const GLYPH = { idle: PLAY, loading: '', playing: '❚❚ ', paused: PLAY, error: PLAY };
 const ERROR_TEXT = 'Audio did not load. Check the connection and try again.';
+const LANGUAGE = { zh: 'Chinese', en: 'English' };
+const ARIA = {
+  idle: (l) => 'Listen to the ' + l, loading: () => LABEL.loading, playing: (l) => 'Pause the ' + l,
+  paused: (l) => 'Resume the ' + l, error: (l) => 'Listen to the ' + l,
+};
 
-/** What the row shows in a state: button text, button aria-label, and the error line (empty unless error). */
-export function rowView(s) {
-  return { text: GLYPH[s] + LABEL[s], aria: LABEL[s], error: s === 'error' ? ERROR_TEXT : '' };
+/**
+ * What the row shows in a state: button text, button aria-label (names the language),
+ * and the error line (empty unless error). kind is 'zh' or 'en'.
+ */
+export function rowView(s, kind = 'zh') {
+  return { text: GLYPH[s] + LABEL[s], aria: ARIA[s](LANGUAGE[kind]), error: s === 'error' ? ERROR_TEXT : '' };
 }
 
 /** The last i with times[i] <= now, or -1. times is sorted. */
@@ -71,9 +79,13 @@ function savedRate(storage) {
 
 /**
  * The playback controller. deps: { raf, cancelRaf, isSheetOpen, events, doc, wakeLock, stopSay, track, storage }.
- * events gets tao:sound, hashchange, pagehide; doc gets visibilitychange.
+ * events gets tao:sound, tao:listen, hashchange, pagehide; doc gets visibilitychange.
+ * kind ('zh' or 'en') names the track detail; id names this row in tao:listen, so one row plays at a time.
+ * indexNow(lead) returns the cell index; lead is the seconds to add to currentTime.
  */
-export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => {}, onState = () => {} }) {
+export function createPlayer({
+  media, n, indexNow, cells, deps, kind = 'zh', id, lead = 0, onIndex = () => {}, onState = () => {},
+}) {
   let state = 'idle';
   let tracked = false;
   let stopped = false;
@@ -110,7 +122,7 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
   function loop() {
     frame = null;
     if (deps.isSheetOpen()) { media.pause(); return; } // a note opened: pause, never resume by itself
-    mark(indexNow());
+    mark(indexNow(lead));
     frame = deps.raf(loop);
   }
   function startLoop() { if (frame == null) frame = deps.raf(loop); }
@@ -134,6 +146,7 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
   }
 
   function play() {
+    deps.events.dispatchEvent(new CustomEvent('tao:listen', { detail: id })); // other rows pause
     Promise.resolve(media.play()).catch((e) => { if (e?.name !== 'AbortError' && !stopped) set('error'); });
   }
 
@@ -143,7 +156,9 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
   on(media, 'pause', () => { set('paused'); dropLock(); stopLoop(); });
   on(media, 'ended', () => { stopLoop(); dropLock(); clearMarks(); set('idle'); });
   on(media, 'error', () => { stopLoop(); dropLock(); set('error'); });
-  on(deps.events, 'tao:sound', () => { if (state === 'playing' || state === 'loading') media.pause(); });
+  const pauseIfActive = () => { if (state === 'playing' || state === 'loading') media.pause(); };
+  on(deps.events, 'tao:sound', pauseIfActive);
+  on(deps.events, 'tao:listen', (e) => { if (e.detail !== id) pauseIfActive(); });
   on(deps.events, 'hashchange', stop);
   on(deps.events, 'pagehide', stop);
   on(deps.doc, 'visibilitychange', () => {
@@ -156,7 +171,7 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
     if (stopped) return;
     if (state === 'playing' || state === 'loading') { media.pause(); return; }
     deps.stopSay(); // every start: from idle, on resume, and on retry
-    if (state === 'idle' && !tracked) { tracked = true; deps.track('listen', 'zh ' + n); }
+    if (state === 'idle' && !tracked) { tracked = true; deps.track('listen', kind + ' ' + n); }
     if (state === 'error') { media.load(); applyRate(); }
     set('loading');
     play();
@@ -189,9 +204,15 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
   };
 }
 
-/** The Listen button and speed chips, or null when the timings do not match the cells. */
-export function listenRow({ n, file, times, end, cells, onIndex, onStart, onStop }) {
+let rowCount = 0;
+
+/**
+ * The Listen button and speed chips, or null when the timings do not match the cells.
+ * kind is 'zh' or 'en'; cells may be wordCell objects (one per English word).
+ */
+export function listenRow({ kind = 'zh', n, file, times, end, cells, onIndex, onStart, onStop, lead = LEAD }) {
   if (!Array.isArray(times) || times.length !== cells.length) return null;
+  const id = 'listen-' + ++rowCount;
   let player = null;
   let started = false;
 
@@ -202,7 +223,7 @@ export function listenRow({ n, file, times, end, cells, onIndex, onStart, onStop
   chips.hidden = true;
 
   function label(s) {
-    const v = rowView(s);
+    const v = rowView(s, kind);
     btn.textContent = v.text;
     btn.setAttribute('aria-label', v.aria);
     err.textContent = v.error;
@@ -223,9 +244,9 @@ export function listenRow({ n, file, times, end, cells, onIndex, onStart, onStop
       media.preload = 'none';
       media.src = file;
       player = createPlayer({
-        media, n, cells,
-        indexNow: () => {
-          const t = media.currentTime + LEAD;
+        media, n, cells, kind, id, lead,
+        indexNow: (ahead) => {
+          const t = media.currentTime + ahead;
           return Number.isFinite(end) && t >= end ? cells.length : indexAt(times, t);
         },
         deps: {
