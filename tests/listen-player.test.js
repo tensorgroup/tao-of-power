@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 
 // listen.js keeps all DOM access inside functions, so it imports cleanly in Node.
-const { indexAt, createPlayer } = await import('../app/js/listen.js');
+const { indexAt, createPlayer, followTarget, followAllowed } = await import('../app/js/listen.js');
 
 test('indexAt: empty, before first, exact hit, between, after last', () => {
   assert.equal(indexAt([], 5), -1);
@@ -196,4 +196,34 @@ test('speed comes from storage and setRate keeps it', () => {
   assert.equal(t.media.defaultPlaybackRate, 0.8);
   assert.equal(t.store.get('tao-listen-rate'), '0.8');
   assert.equal(setup({ rate: 'junk' }).media.playbackRate, 1);
+});
+
+// A 300px box at x 50..350; content can scroll 0..1000 (positive scrollLeft, reading moves toward 0).
+const box = { boxLeft: 50, boxRight: 350, maxScroll: 1000, margin: 60 };
+
+test('followTarget: a cell inside the box leaves scrollLeft unchanged', () => {
+  assert.equal(followTarget({ ...box, cellLeft: 200, cellRight: 230, scrollLeft: 500 }), 500);
+  assert.equal(followTarget({ ...box, cellLeft: 110, cellRight: 140, scrollLeft: 500 }), 500); // exactly at the margin
+});
+
+test('followTarget: past the left margin, the cell lands at boxLeft + margin', () => {
+  // cellLeft 80 is 30px short of 110; scrolling left by 30 moves the content right by 30.
+  assert.equal(followTarget({ ...box, cellLeft: 80, cellRight: 110, scrollLeft: 500 }), 470);
+  assert.equal(followTarget({ ...box, cellLeft: -400, cellRight: -370, scrollLeft: 900 }), 390);
+});
+
+test('followTarget: past the right edge, the cell comes back inside', () => {
+  assert.equal(followTarget({ ...box, cellLeft: 400, cellRight: 430, scrollLeft: 100 }), 180);
+});
+
+test('followTarget: clamped to [0, maxScroll]', () => {
+  assert.equal(followTarget({ ...box, cellLeft: -400, cellRight: -370, scrollLeft: 100 }), 0);
+  assert.equal(followTarget({ ...box, cellLeft: 2000, cellRight: 2030, scrollLeft: 900 }), 1000);
+});
+
+test('followAllowed: never during a gesture; only 4 s after the last manual scroll', () => {
+  assert.equal(followAllowed(100000, 0, true), false);
+  assert.equal(followAllowed(10000, 6100, false), false); // 3.9 s
+  assert.equal(followAllowed(10000, 6000, false), true); // 4 s
+  assert.equal(followAllowed(10000, -Infinity, false), true); // never scrolled by hand
 });

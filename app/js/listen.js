@@ -24,6 +24,26 @@ export function indexAt(times, now) {
   return found;
 }
 
+/** Manual scrolls pause the column follow for this long (ms). */
+const FOLLOW_PAUSE = 4000;
+
+/**
+ * The scrollLeft that keeps a cell in view: at least margin px inside the box's left edge
+ * (the "← more" fade sits there, and reading moves left), and inside its right edge.
+ * Positive scrollLeft: a larger value moves the content left. Clamped to [0, maxScroll].
+ */
+export function followTarget({ cellLeft, cellRight, boxLeft, boxRight, scrollLeft, maxScroll, margin }) {
+  let next = scrollLeft;
+  if (cellLeft < boxLeft + margin) next -= boxLeft + margin - cellLeft;
+  else if (cellRight > boxRight) next += cellRight - boxRight;
+  return Math.min(Math.max(next, 0), Math.max(maxScroll, 0));
+}
+
+/** Follow only when no gesture is under way and the last manual scroll is 4 s old. */
+export function followAllowed(now, lastManual, gestureActive) {
+  return !gestureActive && now - lastManual >= FOLLOW_PAUSE;
+}
+
 function savedRate(storage) {
   try {
     const r = Number(storage?.getItem(RATE_KEY));

@@ -11,6 +11,7 @@ import { entryList } from './journal.js';
 import { brushPanel } from '../brush.js';
 import { sayButton } from '../audio.js';
 import { track } from '../track.js';
+import { listenRow, followTarget, followAllowed } from '../listen.js';
 
 const CLAUSE_END = new Set(['，', '；', '。', '：', '！', '？', ',']);
 const LAYOUT_KEY = 'tao.colLayout';
@@ -111,6 +112,30 @@ export async function passageView(n, drawId) {
   // the Chinese font arriving), until the reader touches the column themselves.
   let touched = false;
   for (const ev of ['pointerdown', 'touchstart', 'wheel', 'keydown']) colWrap.addEventListener(ev, () => { touched = true; }, { passive: true });
+  // Listen follow: keep the spoken character in view, but leave the column alone while the
+  // reader scrolls it by hand, and for 4 s after. A touch and a pointer are tracked apart,
+  // because Android sends pointercancel once a touch turns into a scroll.
+  let current = -1; // the cell being spoken, or -1
+  let pointerDown = false, touchDown = false, lastManual = -Infinity;
+  const gestureActive = () => pointerDown || touchDown;
+  const release = () => { lastManual = Date.now(); };
+  colWrap.addEventListener('pointerdown', () => { pointerDown = true; }, { passive: true });
+  colWrap.addEventListener('touchstart', () => { touchDown = true; }, { passive: true });
+  for (const ev of ['pointerup', 'pointercancel']) colWrap.addEventListener(ev, () => { pointerDown = false; release(); }, { passive: true });
+  colWrap.addEventListener('touchend', () => { touchDown = false; release(); }, { passive: true });
+  for (const ev of ['wheel', 'keydown']) colWrap.addEventListener(ev, release, { passive: true });
+  colWrap.addEventListener('scroll', () => { if (gestureActive()) release(); }, { passive: true });
+  const reveal = (i) => {
+    const cell = hanButtons[i].getBoundingClientRect();
+    const box = colWrap.getBoundingClientRect();
+    const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+    colWrap.scrollLeft = followTarget({
+      cellLeft: cell.left, cellRight: cell.right, boxLeft: box.left, boxRight: box.right,
+      scrollLeft: colWrap.scrollLeft, maxScroll: colWrap.scrollWidth - colWrap.clientWidth,
+      margin: Math.max(2 * cell.width, 3.2 * rem),
+    });
+    updateMore();
+  };
   if ('ResizeObserver' in window) new ResizeObserver(() => { if (!touched) toRight(); }).observe(col);
   document.fonts?.ready.then(() => { if (!touched && colWrap.isConnected) toRight(); });
   // Layout: "Lines" starts each clause at the top of a column (as many modern
@@ -126,10 +151,23 @@ export async function passageView(n, drawId) {
   const layoutBtns = h('div', { class: 'filters col-layout', role: 'group', 'aria-label': 'Layout of the Chinese' });
   const drawLayout = () => fill(layoutBtns, ...[['lines', 'Lines'], ['printed', 'As printed']].map(([k, label]) => h('button', {
     type: 'button', class: 'chip', 'aria-pressed': String(layout === k), text: label,
-    onclick: () => { layout = k; try { localStorage.setItem(LAYOUT_KEY, k); } catch { /* ignore */ } applyLayout(); drawLayout(); toRight(); },
+    onclick: () => { layout = k; try { localStorage.setItem(LAYOUT_KEY, k); } catch { /* ignore */ } applyLayout(); drawLayout(); if (current >= 0) reveal(current); else toRight(); },
   })));
   drawLayout();
   toRight();
+  // The Listen row, under the layout chips, once the manifest says this passage is recorded.
+  // The view does not wait for the manifest.
+  fetch('data/listen.json').then((r) => r.json()).then((m) => {
+    const rec = m?.zh?.[n];
+    if (!rec) return;
+    const row = listenRow({
+      n, file: rec.file, times: rec.t, end: rec.end, cells: hanButtons,
+      onStart: () => { touched = true; },
+      onIndex: (i) => { current = i; if (followAllowed(Date.now(), lastManual, gestureActive())) reveal(i); },
+      onStop: () => { current = -1; },
+    });
+    if (row) layoutBtns.after(row);
+  }).catch(() => { /* no Listen row */ });
   root.append(h('h2', { text: 'The Chinese' }),
     colBox, layoutBtns,
     h('p', { class: 'column-hint', text: 'Read top to bottom, right to left. Tap any character to look it up; red ones carry a note for this line.' }));
