@@ -10,6 +10,9 @@ import { enSource, enSourceHash } from './lib/listen-en.mjs';
 const app = fileURLToPath(new URL('../app/', import.meta.url));
 const scripts = fileURLToPath(new URL('./', import.meta.url));
 
+/** English word starts closer than this (s) are an error. */
+const MIN_EN_GAP = 0.03;
+
 /** The 8 hex digits in a recording's name (NN.<zh|en>.<h8>.mp3), or null. */
 const nameHash = (file) => /\.([0-9a-f]{8})\.mp3$/.exec(file)?.[1] ?? null;
 
@@ -17,8 +20,9 @@ const nameHash = (file) => /\.([0-9a-f]{8})\.mp3$/.exec(file)?.[1] ?? null;
  * Return a list of error strings; an empty list means the recordings are good.
  * `mp3s` holds file basenames; `exists(rel)` and `hashOf(rel)` (SHA-256 hex) take app-relative paths.
  * `renderingOf(n)` gives passage n's English lines (or null) and `ipa` the romanized-word table; both are used only for `en` entries.
+ * `passages` lists the passage numbers in text.json: each needs a `zh` entry, and each with a rendering an `en` entry.
  */
-export function checkListen({ manifest, segmentsOf, renderingOf, ipa, readings, lex, exists, hashOf, mp3s }) {
+export function checkListen({ manifest, passages = [], segmentsOf, renderingOf, ipa, readings, lex, exists, hashOf, mp3s }) {
   const global = validateGlobalReadings(readings, lex);
   const errs = [...global];
   const named = new Set();
@@ -34,10 +38,15 @@ export function checkListen({ manifest, segmentsOf, renderingOf, ipa, readings, 
     checkFile(n, 'file', e.file);
     if (e.prev != null) checkFile(n, 'prev', e.prev);
   };
-  // n and t match the passage's count of units (characters or words), t increases, end is after the last mark.
+  for (const n of passages) {
+    if (!manifest.zh?.[n]) errs.push(`Passage ${n} has no Chinese recording. Run \`npm run audio -- ${n}\`.`);
+    if (renderingOf?.(n)?.length && !manifest.en?.[n]) errs.push(`Passage ${n} has no English recording. Run \`npm run audio -- --en ${n}\`.`);
+  }
+  // n and t match the passage's count of units (characters or words), t starts at 0 or later and increases, end is after the last mark.
   const checkEntry = (who, n, e, count, unit) => {
     if (e.t.length !== e.n) errs.push(`${who}: t has ${e.t.length} times, but n is ${e.n}.`);
     else if (e.n !== count) errs.push(`${who}: n is ${e.n} and t has ${e.t.length} times, but the passage has ${count} ${unit}.`);
+    if (e.t.length && !(e.t[0] >= 0)) errs.push(`${who}: the first time (${e.t[0]}) is before 0.`);
     for (let i = 1; i < e.t.length; i++) {
       if (!(e.t[i] > e.t[i - 1])) { errs.push(`${who}: t does not increase at mark ${i}.`); break; }
     }
@@ -65,6 +74,11 @@ export function checkListen({ manifest, segmentsOf, renderingOf, ipa, readings, 
       errs.push(`${who} changed after the recording. Run \`npm run audio -- --en ${n}\`, or \`npm run audio -- --en --drop ${n}\`.`);
     }
     checkEntry(who, n, e, source.count, 'words');
+    // build-audio spreads close starts (spreadTimes): two words must not light at once.
+    for (let i = 1; i < e.t.length; i++) {
+      const d = e.t[i] - e.t[i - 1];
+      if (d < MIN_EN_GAP) { errs.push(`${who}: words ${i - 1} and ${i} start ${Number(d.toFixed(3))} s apart (under ${MIN_EN_GAP} s).`); break; }
+    }
   }
   for (const f of mp3s) if (!named.has(f)) errs.push(`audio/passages/${f} is not named by any entry in listen.json.`);
   return errs;
@@ -83,6 +97,7 @@ function main() {
   const dir = join(app, 'audio/passages');
   const errs = checkListen({
     manifest: readJson(mf),
+    passages: text.map((_, i) => i + 1),
     segmentsOf,
     renderingOf: (n) => passageFile(n)?.rendering ?? null,
     ipa: readJson(join(scripts, 'audio-en-lexicon.json')),

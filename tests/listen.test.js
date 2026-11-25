@@ -112,7 +112,7 @@ test('forcedReadings lists every forced character with place, context, reading, 
   assert.ok(rows[4].ctx.includes('長長'));
 });
 
-import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage, enTimes, enCheckTimes } from '../scripts/build-audio.mjs';
+import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage, enTimes, enCheckTimes, spreadTimes } from '../scripts/build-audio.mjs';
 import { SETTINGS_EN, enSourceHash, enSource } from '../scripts/lib/listen-en.mjs';
 
 test('joinTimes shifts later parts by the samples before them', () => {
@@ -200,7 +200,7 @@ function clGood() {
   const parts = buildSsml(CL_SEGS[1], (c) => resolveReading(1, c, CL_READ));
   const m = { v: 1, voice: SETTINGS.voice, rate: SETTINGS.rate, en: {},
     zh: { 1: { file: 'audio/passages/01.zh.aaaaaaaa.mp3', src: sourceHash(parts), n: 6, end: 5, t: [0.1, 0.5, 1, 1.5, 2, 3] } } }; // 道可道非常道: 6 characters
-  return { manifest: m, segmentsOf: (n) => CL_SEGS[n], readings: CL_READ, lex: {}, exists: () => true, mp3s: ['01.zh.aaaaaaaa.mp3'],
+  return { manifest: m, passages: [1], segmentsOf: (n) => CL_SEGS[n], readings: CL_READ, lex: {}, exists: () => true, mp3s: ['01.zh.aaaaaaaa.mp3'],
     hashOf: (rel) => rel.match(/\.([0-9a-f]{8})\.mp3$/)[1] + '0'.repeat(56) };
 }
 const clRun = (mut) => { const a = clGood(); mut(a); return checkListen(a); };
@@ -248,6 +248,13 @@ test('checkListen: a bad chars entry is reported once, not once per passage', ()
 test('checkListen: t must increase', () => {
   const e = clRun((a) => { a.manifest.zh[1].t[3] = 0.5; });
   assert.equal(e.length, 1); assert.match(e[0], /increas/);
+});
+test('checkListen: the first time must not be before 0', () => {
+  assert.deepEqual(clRun((a) => { a.manifest.zh[1].t[0] = -0.1; }), ['Passage 1: the first time (-0.1) is before 0.']);
+});
+test('checkListen: every passage needs a Chinese recording', () => {
+  assert.deepEqual(clRun((a) => { a.passages = [1, 2]; a.segmentsOf = (n) => CL_SEGS[n] ?? ['道。']; }),
+    ['Passage 2 has no Chinese recording. Run `npm run audio -- 2`.']);
 });
 test('checkListen: end must be after the last mark', () => {
   const e = clRun((a) => { a.manifest.zh[1].end = 3; });
@@ -311,11 +318,11 @@ test('build-audio: enTimes subtracts the bias (not below 0), rounds to 3 decimal
 });
 test('build-audio: enTimes makes times strictly increase when two words clamp to 0', () => {
   const heard = [{ word: 'a', start: 0.01 }, { word: 'way', start: 0.05 }, { word: 'is', start: 0.5 }];
-  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 5, 'p').t, [0, 0.001, 0.434]);
+  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 5, 'p').t, [0, 0.217, 0.434]); // then spread
 });
 test('build-audio: enTimes makes times strictly increase when starts are equal', () => {
   const heard = [{ word: 'a', start: 1.08 }, { word: 'way', start: 1.08 }, { word: 'is', start: 1.08 }];
-  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 5, 'p').t, [1.014, 1.015, 1.016]);
+  assert.deepEqual(enTimes(['a', 'way', 'is'], heard, 5, 'p').t, [1.014, 2.343, 3.671]); // then spread to end
 });
 test('build-audio: enTimes keeps every time before end', () => {
   const ten = Array.from({ length: 10 }, (_, i) => `w${i}`);
@@ -329,6 +336,26 @@ test('build-audio: enTimes spreads an unmatched tail before end', () => {
   const heard = ten.slice(0, 9).map((word, i) => ({ word, start: i * 0.3 + 0.066 }));
   const { t } = enTimes(ten, heard, 2.7, 'p');
   assert.ok(t[9] > t[8] && t[9] < 2.7, String(t));
+});
+test('build-audio: spreadTimes spreads a run of close starts evenly up to the next start', () => {
+  assert.deepEqual(spreadTimes([1, 1.01, 1.02, 1.3], 5), [1, 1.1, 1.2, 1.3]);
+  assert.deepEqual(spreadTimes([0, 0.5, 1], 5), [0, 0.5, 1], 'no run: unchanged');
+  assert.deepEqual(spreadTimes([0, 0.05, 0.5, 0.52, 1], 5), [0, 0.25, 0.5, 0.75, 1], 'two runs');
+  assert.deepEqual(spreadTimes([1, 1.001], 2), [1, 1.5], 'a run at the tail spreads up to end');
+  assert.deepEqual(spreadTimes([1, 1.05, 1.2], 5, 0.04), [1, 1.05, 1.2], 'minGap is a parameter');
+  assert.deepEqual(spreadTimes([], 5), []);
+});
+test('build-audio: spreadTimes keeps times strictly increasing and before end, in whole ms', () => {
+  const t = spreadTimes([0, 0.001, 0.002, 0.003, 0.004], 0.009);
+  for (let i = 1; i < t.length; i++) assert.ok(t[i] > t[i - 1], String(t));
+  assert.ok(t.at(-1) < 0.009, String(t));
+  assert.ok(t.every((x) => Number.isInteger(Math.round(x * 1000)) && Math.abs(x * 1000 - Math.round(x * 1000)) < 1e-9), String(t));
+});
+test('build-audio: spreadTimes on passage 30 English (as recorded): "of" and "people" end at least 60 ms apart', () => {
+  const t = spreadTimes([1.014, 1.054, 1.414, 1.415, 1.774, 2.014], 38.64); // words 3-8 before the spread
+  assert.ok(t[3] - t[2] >= 0.06, String(t));
+  assert.deepEqual(t, [1.014, 1.214, 1.414, 1.594, 1.774, 2.014]);
+  assert.deepEqual(spreadTimes(t, 38.64), t, 'spreading twice changes nothing');
 });
 test('build-audio: enCheckTimes throws on times the check would reject', () => {
   assert.doesNotThrow(() => enCheckTimes([0, 0.5], 1, 'p'));
@@ -365,6 +392,15 @@ test('checkListen: changed English gives the exact message', () => {
   assert.deepEqual(enRun((a) => { a.renderingOf = () => ['The [[Dao|dao]] that can be said', '', 'is not the constant Dao.']; }),
     ['Passage 1 English changed after the recording. Run `npm run audio -- --en 1`, or `npm run audio -- --en --drop 1`.']);
   assert.equal(enRun((a) => { a.ipa = { dao: 'daʊ', the: 'ðə' }; }).length, 1, 'a changed IPA table is stale too');
+});
+test('checkListen: every passage with a rendering needs an English recording', () => {
+  assert.deepEqual(enRun((a) => { delete a.manifest.en[1]; a.mp3s.pop(); }),
+    ['Passage 1 has no English recording. Run `npm run audio -- --en 1`.']);
+  assert.deepEqual(enRun((a) => { delete a.manifest.en[1]; a.mp3s.pop(); a.renderingOf = () => null; }), [], 'no rendering: no English needed');
+});
+test('checkListen: English starts are at least 0.03 s apart', () => {
+  const e = enRun((a) => { a.manifest.en[1].t[3] = a.manifest.en[1].t[2] + 0.02; });
+  assert.deepEqual(e, ['Passage 1 English: words 2 and 3 start 0.02 s apart (under 0.03 s).']);
 });
 test('checkListen: English n and t must match the word count', () => {
   const e = enRun((a) => { a.manifest.en[1].n = 10; a.manifest.en[1].t.pop(); });

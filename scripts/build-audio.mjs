@@ -123,7 +123,7 @@ async function post(url, body, what) {
 const synth = (ssml, voice, rate) => post(ENDPOINT, {
   input: { ssml },
   voice,
-  audioConfig: { audioEncoding: 'LINEAR16', speakingRate: rate },
+  audioConfig: { audioEncoding: SETTINGS.encoding, speakingRate: rate },
   enableTimePointing: ['SSML_MARK'],
 }, 'TTS');
 
@@ -197,9 +197,30 @@ export function enCheckTimes(t, end, who) {
 }
 
 /**
+ * Spread each run of starts less than minGap s apart evenly between the run's first start
+ * and the next start after the run (end, for a run at the tail). t is strictly increasing,
+ * in whole ms, and before end; so is the result. Two recognizer words that start together
+ * then light one after the other, not both at once.
+ */
+export function spreadTimes(t, end, minGap = 0.06) {
+  const ms = t.map((x) => Math.round(x * 1000));
+  const gap = Math.round(minGap * 1000);
+  for (let i = 0; i < ms.length;) {
+    let j = i;
+    while (j + 1 < ms.length && ms[j + 1] - ms[j] < gap) j++;
+    const next = j + 1 < ms.length ? ms[j + 1] : Math.round(end * 1000);
+    const len = j - i + 1;
+    // Each step is at least 1 ms: the times were strictly increasing in whole ms, and before end.
+    for (let k = 1; k < len; k++) ms[i + k] = Math.round(ms[i] + (k * (next - ms[i])) / len);
+    i = j + 1;
+  }
+  return ms.map((x) => x / 1000);
+}
+
+/**
  * English word times (s) from heard words: alignWords (wild = lexicon words), minus
  * SETTINGS_EN.alignBias (not below 0), in whole ms, each at least 1 ms after the one before
- * and 1 ms before end. Throws when fewer than 90 % of the words matched, or the times fail the check rules.
+ * and 1 ms before end, then spreadTimes. Throws when fewer than 90 % of the words matched, or the times fail the check rules.
  */
 export function enTimes(words, heard, end, who, wild = new Set()) {
   const { t, matched, wild: wildMatched } = alignWords(words, heard, { wild, end });
@@ -207,7 +228,7 @@ export function enTimes(words, heard, end, who, wild = new Set()) {
   const ms = t.map((x) => Math.max(0, Math.round((x - SETTINGS_EN.alignBias) * 1000)));
   for (let i = 1; i < ms.length; i++) ms[i] = Math.max(ms[i], ms[i - 1] + 1);
   for (let i = ms.length - 1, cap = Math.round(end * 1000) - 1; i >= 0; i--) { ms[i] = Math.min(ms[i], cap); cap = ms[i] - 1; }
-  const out = ms.map((x) => x / 1000);
+  const out = spreadTimes(ms.map((x) => x / 1000), end);
   enCheckTimes(out, end, who);
   return { t: out, matched, wild: wildMatched };
 }
