@@ -58,7 +58,7 @@ export function createPlayer({ media, n, indexNow, cells, deps, onIndex = () => 
     if (i === last) return;
     last = i;
     cells.forEach((c, j) => { c.classList.toggle('now', j === i); c.classList.toggle('done', j < i); });
-    if (i >= 0) onIndex(i);
+    if (i >= 0 && i < cells.length) onIndex(i); // past the end: all done, no current cell
   }
   function clearMarks() {
     last = -1;

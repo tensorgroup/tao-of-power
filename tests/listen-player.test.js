@@ -99,6 +99,7 @@ test('classes follow indexNow, and onIndex fires on change only', () => {
   assert.deepEqual(t.log.index, [0, 2]);
   t.at(3); t.step();
   assert.deepEqual(classes(t.cells), ['done', 'done', 'done']);
+  assert.deepEqual(t.log.index, [0, 2], 'onIndex is never called past the last cell');
 });
 
 test('an open sheet pauses, and later frames do not resume', () => {
