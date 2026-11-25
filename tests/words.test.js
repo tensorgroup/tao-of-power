@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { splitPlan, wordCell } from '../app/js/words.js';
+import { splitPlan, wrapWords, wordCell } from '../app/js/words.js';
 import { wordsOf } from '../app/js/markup.js';
 
 test('a word split over two nodes gives two pieces with one index', () => {
@@ -58,4 +58,34 @@ test('wordCell sends class calls to every span, aria to the first, rect from the
   cell.removeAttribute('aria-current');
   assert.equal('aria-current' in a.attrs, false);
   assert.deepEqual(cell.getBoundingClientRect(), { left: 7 });
+});
+
+// Minimal fake DOM: text nodes with splitText/replaceWith, spans, a tree walker over the initial text nodes.
+function fakeDoc(texts) {
+  const text = (data, parent) => ({
+    data, parent,
+    splitText(i) {
+      const t = text(this.data.slice(i), this.parent);
+      this.data = this.data.slice(0, i);
+      this.parent.kids.splice(this.parent.kids.indexOf(this) + 1, 0, t);
+      return t;
+    },
+    replaceWith(el) { el.parent = this.parent; this.parent.kids.splice(this.parent.kids.indexOf(this), 1, el); },
+  });
+  const line = { kids: [] };
+  line.kids = texts.map((t) => text(t, line));
+  const initial = [...line.kids];
+  line.ownerDocument = {
+    createTreeWalker: () => { let i = 0; return { nextNode: () => initial[i++] || null }; },
+    createElement: () => ({ kids: [], dataset: {}, appendChild(k) { k.parent = this; this.kids.push(k); }, get textContent() { return this.kids.map((k) => k.data).join(''); } }),
+  };
+  return line;
+}
+
+test('wrapWords returns the spans of a split word in node order', () => {
+  const line = fakeDoc(['Be like the sage', '’s way']);
+  const { words, cells } = wrapWords(line, 10);
+  assert.deepEqual(words, ['Be', 'like', 'the', 'sage’s', 'way']);
+  assert.deepEqual(cells[3].map((s) => s.textContent), ['sage', '’s']);
+  assert.deepEqual(cells.map((c) => c[0].dataset.w), ['10', '11', '12', '13', '14']);
 });

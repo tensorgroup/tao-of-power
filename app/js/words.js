@@ -59,7 +59,7 @@ export function wrapWords(lineEl, offset = 0) {
       span.dataset.w = String(offset + wi);
       tail.replaceWith(span);
       span.appendChild(tail);
-      cells[wi].unshift(span);
+      cells[wi].push(span);
     }
   });
   return { words, cells };
