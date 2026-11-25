@@ -45,40 +45,48 @@ async function copyLink(t) {
 
 // ---- Add to home screen ----
 
-/** Which help a browser needs. "prompt": the browser can install on a tap. */
-export function installMode({ standalone, canPrompt, ua = '', platform = '', touch = 0, brave = false }) {
+/**
+ * Which help a browser needs: 'installed' (hide), 'prompt' (the browser installs on a tap), 'ios-brave',
+ * 'ios', 'menu' (a touch device without a prompt), or 'hidden' (a computer without a prompt).
+ * The same rules and words as tarot.tensor.group and stoolstats.fyi.
+ */
+export function installMode({ standalone, canPrompt, ua = '', platform = '', touch = 0, brave = false, coarse = false }) {
   if (standalone) return 'installed';
   if (canPrompt) return 'prompt';
   const ios = /iPad|iPhone|iPod/.test(ua) || (platform === 'MacIntel' && touch > 1);
-  if (ios && brave) return 'ios-brave'; // Brave on iPhone has no Add to Home Screen (as of late 2026)
-  return ios ? 'ios' : 'menu';
+  if (ios) return brave ? 'ios-brave' : 'ios'; // Brave on iPhone has no Add to Home Screen (late 2026)
+  return coarse ? 'menu' : 'hidden';
 }
 
 /** The iPhone Share icon: a square with an arrow up. */
 const shareIcon = () => s('svg', { class: 'ios-share', viewBox: '0 0 24 24', width: 18, height: 18, 'aria-hidden': 'true' },
   s('path', { d: 'M8 9H6v12h12V9h-2M12 3v12M8 7l4-4 4 4', fill: 'none', stroke: 'currentColor', 'stroke-width': 1.8, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }));
 
-const SEPARATE = 'The home-screen app keeps its own journal. To have the same journal in both, turn on sync on the Journal page in each, with the same passkey.';
+const b = (t) => h('b', { text: t });
+const after = () => h('p', {}, 'The icon opens the Tao Te Ching full screen, and it works offline. It keeps its own journal: on the Journal page there, tap ', b('Turn on sync'), ', then ', b('Sign in with passkey'), '.');
 
-function hint(mode) {
+export function hint(mode) {
   if (mode === 'ios-brave') {
     return [
-      h('p', { class: 'install-lead', text: 'Brave on iPhone cannot add apps to the Home Screen yet. Safari can:' }),
+      h('p', { class: 'install-lead', text: 'Brave on iPhone can’t add apps to the Home Screen yet. Safari can:' }),
       h('ol', {},
-        h('li', {}, 'Tap the Share button ', shareIcon(), ' beside the address bar, then ', h('b', { text: 'Open in Safari' }), '.'),
-        h('li', {}, 'In Safari, tap Share ', shareIcon(), ' (at the bottom, or under •••), then ', h('b', { text: 'Add to Home Screen' }), ', then ', h('b', { text: 'Add' }), '.')),
-      h('p', { text: `The 道 icon is now on your home screen. It opens full screen and works offline. ${SEPARATE}` }),
+        h('li', {}, 'Tap Share ', shareIcon(), ' beside the address bar, then ', b('Open in Safari'), '.'),
+        h('li', {}, 'In Safari, tap Share ', shareIcon(), ', then ', b('Add to Home Screen'), ', then ', b('Add'), '.')),
+      after(),
     ];
   }
-  if (mode !== 'ios') return [h('p', { text: 'Open the browser menu (⋮ or ☰), then “Add to Home screen” or “Install app”.' })];
-  return [
-    h('p', { class: 'install-lead', text: 'On iPhone or iPad:' }),
-    h('ol', {},
-      h('li', {}, 'Tap your browser’s Share button ', shareIcon(), '. It is at the bottom of the screen, beside the address bar, or in the ••• menu.'),
-      h('li', {}, 'Scroll down the list and tap ', h('b', { text: 'Add to Home Screen' }), '. No such item? Your browser cannot do it yet: open this page in Safari and try there.'),
-      h('li', {}, 'If you see ', h('b', { text: 'Open as Web App' }), ', leave it on. Tap ', h('b', { text: 'Add' }), '.')),
-    h('p', { text: `The 道 icon is now on your home screen. It opens the app full screen, and it works offline. ${SEPARATE}` }),
-  ];
+  if (mode === 'ios') {
+    return [
+      h('p', { class: 'install-lead', text: 'On iPhone or iPad:' }),
+      h('ol', {},
+        h('li', {}, 'Tap your browser’s Share button ', shareIcon(), ': at the bottom of the screen, beside the address bar, or in the ••• menu.'),
+        h('li', {}, 'Tap ', b('Add to Home Screen'), ', then ', b('Add'), '. If you see ', b('Open as Web App'), ', leave it on.')),
+      h('p', { text: 'No Add to Home Screen? Open this page in Safari and try there.' }),
+      after(),
+    ];
+  }
+  if (mode === 'menu') return [h('p', {}, 'Open your browser menu (⋮), then tap ', b('Add to Home screen'), ' or ', b('Install app'), '.')];
+  return [];
 }
 
 let deferred = null;
@@ -99,6 +107,7 @@ function currentMode() {
     standalone, canPrompt: !!deferred,
     ua: navigator.userAgent, platform: navigator.platform, touch: navigator.maxTouchPoints || 0,
     brave: !!navigator.brave, // Brave on iPhone sends Safari's user agent; this is how to tell
+    coarse: matchMedia('(pointer: coarse)').matches,
   });
 }
 
@@ -121,7 +130,8 @@ function installParts() {
     if (!help.hidden) track('install', mode);
   } });
   const sync = () => {
-    const done = currentMode() === 'installed';
+    const m = currentMode();
+    const done = m === 'installed' || m === 'hidden';
     btn.hidden = done;
     if (done) help.hidden = true;
   };

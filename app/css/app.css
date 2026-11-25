@@ -111,7 +111,9 @@ main { display: block; padding: 1.25rem 1.1rem 3rem; max-width: 40rem; margin: 0
 .site-foot .foot-share { margin-bottom: .4rem; }
 .home-share { margin-top: 2rem; }
 .home-share .row { justify-content: center; }
-.install-hint { max-width: 24rem; margin: .9rem auto 0; text-align: left; }
+.install-hint { max-width: 24rem; margin: .9rem auto 0; text-align: left; padding: .85rem 1.1rem; border: 1px solid var(--rule); border-radius: 12px; background: var(--paper-2); }
+.install-hint p:last-child { margin-bottom: 0; }
+.install-hint b { color: var(--ink); font-weight: 600; }
 .install-hint p { margin: 0 0 .5rem; }
 .install-hint .install-lead { color: var(--ink-2); }
 .install-hint ol { margin: 0 0 .6rem; padding-left: 1.3rem; }
