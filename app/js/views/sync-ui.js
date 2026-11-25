@@ -66,9 +66,13 @@ function passkeyFlow(box, after, extra = []) {
       h('button', { class: 'btn primary', type: 'button', text: 'Create a passkey', onclick: async () => {
         const r = await attempt(() => signUp(syncer, { onSwitch }));
         if (r.ok) return done('sync-on');
-        if (r.message) msg.textContent = r.message;
+        msg.textContent = r.message || 'No passkey was made.';
       } }),
-      h('button', { class: 'btn quiet', type: 'button', text: 'I have one: sign in', onclick: () => { msg.textContent = ''; showSignIn('Sign in with passkey'); } }),
+      h('button', { class: 'btn', type: 'button', text: 'Sign in with passkey', onclick: async () => {
+        const r = await attempt(() => signIn(syncer, { onSwitch }));
+        if (r.ok) return done('sync-signin');
+        msg.textContent = r.message || 'No passkey was chosen. If it is on your phone, choose the option to use a phone or another device.';
+      } }),
       ...extra);
   };
 
@@ -77,7 +81,7 @@ function passkeyFlow(box, after, extra = []) {
     const r = await attempt(() => signIn(syncer, { onSwitch, immediate: silent }));
     if (r.ok) return done('sync-signin');
     if (r.message) msg.textContent = r.message;
-    if (r.none) showCreate(r.message ? null : silent ? 'No passkey for this site on this device yet.' : 'No passkey was chosen. If you have never made one for this site, create one now.');
+    if (r.none) showCreate(r.message ? null : silent ? 'No passkey for this site on this device. Made one on your phone? Sign in and choose to use a phone. Otherwise create one.' : 'No passkey was chosen. Made one on another device? Sign in again. Otherwise create one.');
   } }), ...extra);
 
   if (syncedHereBefore()) showSignIn('Sign in with passkey'); else showStart();
@@ -122,9 +126,10 @@ export function syncSection(render) {
     h('span', { text: 'Sign out of sync on this browser. Keep the journal here too?' }),
     h('button', { class: 'btn', type: 'button', text: 'Keep it here', onclick: () => out(false) }),
     h('button', { class: 'btn red', type: 'button', text: 'Remove it from this browser', onclick: () => out(true) }),
+    h('span', { class: 'muted small', text: 'Removing also deletes unsaved drafts here.' }),
     h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => fill(area) })));
   const out = async (clearLocal) => {
-    await syncer.signOut({ clearLocal });
+    try { await syncer.signOut({ clearLocal }); } catch (e) { fill(area, h('p', { class: 'backup', text: e.message })); return; }
     track('sync-off');
     toast(clearLocal ? 'Signed out. The journal is on the server, not in this browser.' : 'Signed out. The journal stays in this browser.');
     render();
@@ -137,9 +142,16 @@ export function syncSection(render) {
         track('sync-delete');
         toast(`Deleted. You can also remove the passkey “${r.label}” from your passwords app.`, { ms: 8000 });
         render();
-      } catch (e) { toast(e.message, { warn: true }); }
+      } catch (e) { toast(e.message, { warn: true }); render(); }
     } }),
     h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => fill(area) })));
+  const onNews = () => {
+    if (!box.isConnected) { removeEventListener('tao:sync', onNews); return; }
+    if (box.querySelector('.confirm')) return;
+    removeEventListener('tao:sync', onNews);
+    box.replaceWith(syncSection(render));
+  };
+  addEventListener('tao:sync', onNews);
   return fill(box,
     h('h2', { text: 'Sync' }),
     status,
@@ -150,27 +162,17 @@ export function syncSection(render) {
     area);
 }
 
-/** Re-render `render` on sync news while `root` is on screen, but not under a text field in use. */
+/**
+ * Re-render on sync news while `root` is on screen. Never while the reader is in
+ * the middle of something (an open editor or confirm box): the save or cancel that
+ * ends it re-renders anyway, from the merged journal.
+ */
 export function onSyncNews(root, render, { onlyWhenChanged = false } = {}) {
-  let waiting = false;
   const handler = (e) => {
     if (!root.isConnected) { removeEventListener('tao:sync', handler); return; }
-    if (onlyWhenChanged && !e.detail?.changed) return;
-    const busy = () => {
-      const a = document.activeElement;
-      return a && root.contains(a) && (a.tagName === 'TEXTAREA' || a.tagName === 'INPUT');
-    };
-    if (!busy()) { render(); return; }
-    if (waiting) return;
-    waiting = true;
-    root.addEventListener('focusout', function later() {
-      setTimeout(() => {
-        if (busy() || !root.isConnected) return;
-        root.removeEventListener('focusout', later);
-        waiting = false;
-        render();
-      }, 0);
-    });
+    if (onlyWhenChanged && !e.detail?.changed && !e.detail?.signedOut) return;
+    if (root.querySelector('textarea, input, .confirm')) return;
+    render();
   };
   addEventListener('tao:sync', handler);
 }

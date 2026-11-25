@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { makeSyncer, REC, LAST } from '../app/js/sync.js';
+import { makeSyncer, REC, LAST, PENDING_LOGOUT } from '../app/js/sync.js';
 import { emptyJournal, addEntry, merge } from '../app/js/journal.js';
 
 function memStorage() {
@@ -215,4 +215,94 @@ test('signOut syncs first, can clear local; deleteAccount keeps local', async ()
   await d.s.deleteAccount();
   assert.equal(d.journal.entries.length, 1);
   assert.equal(d.storage.getItem(REC), null);
+});
+
+test('check: a session for another account does not merge this browser\'s journal', async () => {
+  const h = harness({ signedIn: true });
+  h.storage.removeItem(REC);
+  h.storage.setItem(LAST, 'someone-else');
+  addEntry(h.journal, { passage: 1, text: 'their words' }, T(1));
+  const paths = [];
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { paths.push(p); return inner(p, i); };
+  await h.s.check();
+  assert.deepEqual(paths, ['/api/session', '/api/auth/logout']);
+  assert.equal(h.storage.getItem(REC), null);
+  assert.equal(h.sent.length, 0);
+});
+
+test('remove-from-browser refuses when the server did not confirm', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'offline words' }, T(1));
+  h.fetch = async () => { throw new TypeError('offline'); };
+  await assert.rejects(h.s.signOut({ clearLocal: true }));
+  assert.equal(h.journal.entries.length, 1);
+  assert.ok(h.storage.getItem(REC));
+});
+
+test('remove-from-browser wipes snapshot and drafts after a confirmed sync', async () => {
+  const h = harness();
+  let wiped = false;
+  const s = makeSyncer({ fetch: (...a) => h.fetch(...a), storage: h.storage, getJournal: () => h.journal, setJournal: (j) => { h.journal = j; }, wipe: () => { wiped = true; } });
+  addEntry(h.journal, { passage: 1, text: 'a' }, T(1));
+  await s.signOut({ clearLocal: true });
+  assert.equal(wiped, true);
+  assert.equal(h.journal.entries.length, 0);
+  assert.equal(h.server.entries.length, 1);
+});
+
+test('a sign-out the server never confirmed is finished at the next start, not resumed', async () => {
+  const h = harness();
+  const real = h.fetch;
+  h.fetch = async (p, i) => { if (p === '/api/auth/logout') throw new TypeError('offline'); return real(p, i); };
+  await h.s.signOut();
+  assert.equal(h.storage.getItem(PENDING_LOGOUT), '1');
+  const paths = [];
+  h.fetch = async (p, i) => { paths.push(p); return real(p, i); };
+  await h.s.check();
+  assert.deepEqual(paths, ['/api/auth/logout']);
+  assert.equal(h.storage.getItem(PENDING_LOGOUT), null);
+  assert.equal(h.storage.getItem(REC), null);
+});
+
+test('a hide during a running sync still sends the queued run with keepalive', async () => {
+  const h = harness();
+  const inits = [];
+  let release;
+  const gate = new Promise((r) => { release = r; });
+  h.fetch = async (p, i) => { inits.push(i); if (inits.length === 1) await gate; return reply(200, { journal: emptyJournal(), rev: 1 }); };
+  const a = h.s.syncNow();
+  h.s.syncNow({ keepalive: true });
+  release();
+  await a;
+  assert.equal(inits.length, 2);
+  assert.equal(inits[1].keepalive, true);
+});
+
+test('delete with an ended session says nothing was deleted', async () => {
+  const h = harness();
+  h.fetch = async () => reply(401, { error: 'signed-out' });
+  await assert.rejects(h.s.deleteAccount(), /nothing was deleted/);
+  assert.equal(h.storage.getItem(REC), null);
+});
+
+test('service worker never handles /api/ requests', async () => {
+  const { readFileSync } = await import('node:fs');
+  const sw = readFileSync(new URL('../app/sw.js', import.meta.url), 'utf8');
+  assert.match(sw, /if \(url\.pathname\.startsWith\('\/api\/'\)\) return;/);
+});
+
+test('an answer that arrives after sign-out is dropped', async () => {
+  const h = harness();
+  let release;
+  h.hold(new Promise((r) => { release = r; }));
+  const other = emptyJournal();
+  addEntry(other, { passage: 4, text: 'server only' }, T(1));
+  h.server = other;
+  const run = h.s.syncNow();
+  await Promise.resolve();
+  h.storage.removeItem(REC); // another tab signed out and cleared
+  release();
+  await run;
+  assert.equal(h.journal.entries.length, 0);
 });

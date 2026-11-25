@@ -45,6 +45,15 @@ export const syncer = makeSyncer({
     if (!r.ok) toast(`Could not save: ${r.error}. Export your journal now.`, { warn: true, ms: 8000 });
   },
   snapshot: (j) => journalStore.snapshot(j),
+  // "Remove it from this browser" also removes the Replace snapshot and unsent drafts.
+  wipe: () => {
+    try {
+      localStorage.removeItem(journalStore.SNAPSHOT_KEY);
+      const drafts = [];
+      for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k?.startsWith('tao.draft')) drafts.push(k); }
+      for (const k of drafts) localStorage.removeItem(k); // passage drafts, question drafts, margin-note drafts
+    } catch { /* storage blocked: nothing to remove */ }
+  },
   onChange: (detail) => {
     if (detail.expired) toast('Signed out of sync. Sign in again on the Journal page.', { warn: true, ms: 6000 });
     dispatchEvent(new CustomEvent('tao:sync', { detail }));

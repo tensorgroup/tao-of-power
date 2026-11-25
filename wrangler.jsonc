@@ -18,7 +18,8 @@
   // Per-IP request limits for sync (the IP is used for counting only, never stored).
   "ratelimits": [
     { "name": "AUTH_LIMIT", "namespace_id": "4101", "simple": { "limit": 20, "period": 60 } },
-    { "name": "SYNC_LIMIT", "namespace_id": "4102", "simple": { "limit": 60, "period": 60 } }
+    { "name": "SYNC_LIMIT", "namespace_id": "4102", "simple": { "limit": 60, "period": 60 } },
+    { "name": "SIGNUP_LIMIT", "namespace_id": "4103", "simple": { "limit": 3, "period": 60 } }
   ],
   "routes": [{ "pattern": "tao.tensor.group", "custom_domain": true }]
 }

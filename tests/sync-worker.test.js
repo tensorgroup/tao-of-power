@@ -250,3 +250,37 @@ test('logout ends the session; delete account removes every row', async () => {
   assert.equal(count('SELECT COUNT(*) AS n FROM users WHERE id = ?'), 0);
   assert.equal((await call('POST', '/api/journal/sync', { journal: emptyJournal() }, { cookie: s2.token })).status, 401);
 });
+
+test('sign-up has its own per-IP limit', async () => {
+  const { call, env } = setup();
+  env.SIGNUP_LIMIT = { limit: async () => ({ success: false }) };
+  assert.equal((await call('POST', '/api/auth/register/options', {})).status, 429);
+  assert.equal((await call('POST', '/api/auth/login/options', {})).status, 200);
+});
+
+test('a sync after the account is gone does not re-create its journal', async () => {
+  const { call, signUp, env } = setup();
+  const { token, res } = await signUp();
+  env.tao_sync.raw.prepare('DELETE FROM journals').run();
+  env.tao_sync.raw.prepare('DELETE FROM users').run();
+  const r = await call('POST', '/api/journal/sync', { journal: emptyJournal() }, { cookie: token });
+  assert.equal(r.status, 401);
+  assert.equal(env.tao_sync.raw.prepare('SELECT COUNT(*) AS n FROM journals WHERE user_id = ?').get(res.body.account.id).n, 0);
+});
+
+test('the sign-up cap is checked again at verify', async () => {
+  const { call, env } = setup();
+  const o = await call('POST', '/api/auth/register/options', {});
+  const ins = env.tao_sync.raw.prepare('INSERT INTO users (id, label, created) VALUES (?, ?, ?)');
+  for (let i = 0; i < 300; i++) ins.run(`u${i}`, 'x', T0 - 1000);
+  const v = await call('POST', '/api/auth/register/verify', { challengeId: o.body.challengeId, response: { id: 'c', ok: true, challenge: o.body.options.challenge } });
+  assert.equal(v.status, 503);
+});
+
+test('an oversized body is refused from content-length before it is read', async () => {
+  const { env, signUp } = setup();
+  const { token } = await signUp();
+  const req = new Request(`${ORIGIN}/api/journal/sync`, { method: 'POST', headers: { origin: ORIGIN, cookie: `__Host-tao_s=${token}`, 'content-length': String(600 * 1024) }, body: JSON.stringify({ journal: emptyJournal() }) });
+  const res = await handleApi(req, env, { lib: stubLib(), now: T0 });
+  assert.equal(res.status, 413);
+});

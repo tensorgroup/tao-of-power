@@ -12,11 +12,16 @@ const get = (storage, k) => { try { return storage.getItem(k); } catch { return 
 const put = (storage, k, v) => { try { if (v == null) storage.removeItem(k); else storage.setItem(k, v); } catch {} };
 
 /** Testable core: every browser API is passed in. */
-export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => true, storage, now = () => Date.now(), onChange = () => {} }) {
+export const PENDING_LOGOUT = 'tao.sync.logout'; // a sign-out the server has not confirmed yet
+
+const bytes = (s) => new TextEncoder().encode(s).length;
+
+/** Testable core: every browser API is passed in. `wipe()` removes local extras (snapshot, drafts). */
+export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => true, wipe = () => {}, storage, now = () => Date.now(), onChange = () => {} }) {
   const record = () => { try { return JSON.parse(get(storage, REC) || 'null'); } catch { return null; } };
   const setRecord = (r) => put(storage, REC, r ? JSON.stringify(r) : null);
   let running = null;
-  let again = false;
+  let again = null;
 
   async function api(method, path, body, extra = {}) {
     return fetch(path, {
@@ -27,35 +32,51 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
     });
   }
 
+  /** End the server session. Until the server confirms, remember to retry. */
+  async function logout() {
+    put(storage, PENDING_LOGOUT, '1');
+    try {
+      const res = await api('POST', '/api/auth/logout', {});
+      if (res.ok) put(storage, PENDING_LOGOUT, null);
+    } catch { /* retried by check() */ }
+  }
+
+  /** One request. True when the server copy now holds everything this device had. */
   async function once({ keepalive = false } = {}) {
     const r = record();
-    if (!r) return;
+    if (!r) return false;
     const body = JSON.stringify({ journal: syncCore(getJournal()) });
+    const sent = JSON.parse(body).journal; // a copy: saves during the request must not change it
     let res;
     try {
-      res = await api('POST', '/api/journal/sync', body, { keepalive: keepalive && body.length < KEEPALIVE_MAX });
-    } catch { return; } // offline: the next trigger retries
-    if (res.status === 401) { setRecord(null); onChange({ signedOut: true, expired: true }); return; }
-    if (res.status === 413) { setRecord({ ...r, error: 'too-large' }); onChange({}); return; }
-    if (!res.ok) return;
+      res = await api('POST', '/api/journal/sync', body, { keepalive: keepalive && bytes(body) < KEEPALIVE_MAX });
+    } catch { return false; } // offline: the next trigger retries
+    if (res.status === 401) { setRecord(null); onChange({ signedOut: true, expired: true }); return false; }
+    if (res.status === 413) { setRecord({ ...r, error: 'too-large' }); onChange({ status: true }); return false; }
+    if (!res.ok) return false;
     let remote;
-    try { ({ journal: remote } = await res.json()); } catch { return; }
+    try { ({ journal: remote } = await res.json()); } catch { return false; }
+    if (!record()) return false; // signed out (here or in another tab) while waiting: drop the answer
     const cur = getJournal(); // read after the wait: keeps anything saved meanwhile
     const merged = merge(cur, remote);
     const changed = !sameCore(merged, cur);
     if (changed) setJournal(merged);
     if (record()) setRecord({ ...record(), at: now(), error: null });
-    onChange({ changed });
+    onChange({ changed, status: true });
+    return sameCore(merge(remote, sent), remote);
   }
 
-  /** One sync at a time; a call during a run queues exactly one more run. */
-  function syncNow(opts) {
-    if (!record()) return Promise.resolve();
-    if (running) { again = true; return running; }
+  /** One sync at a time; a call during a run queues exactly one more run. Resolves true when the last run reached the server. */
+  function syncNow(opts = {}) {
+    if (!record()) return Promise.resolve(false);
+    if (running) { again = { keepalive: !!(opts.keepalive || again?.keepalive) }; return running; }
     running = (async () => {
+      let ok = false;
       try {
-        do { again = false; await once(opts); } while (again);
+        let next = opts;
+        do { again = null; ok = await once(next); next = again || {}; } while (again);
       } finally { running = null; }
+      return ok;
     })();
     return running;
   }
@@ -71,21 +92,28 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
     const hasLocal = j.entries.length > 0 || j.draws.length > 0;
     if (hasLocal && last && last !== account.id) {
       const choice = await onSwitch();
-      if (choice === 'cancel') { await api('POST', '/api/auth/logout', {}).catch(() => {}); return false; }
+      if (choice === 'cancel') { await logout(); return false; }
       if (choice === 'replace') {
-        if (!snapshot(j)) { await api('POST', '/api/auth/logout', {}).catch(() => {}); throw new Error('Could not keep a copy of this browser’s journal (storage full). Export it first.'); }
+        if (!snapshot(j)) { await logout(); throw new Error('Could not keep a copy of this browser’s journal (storage full). Export it first.'); }
         setJournal({ ...emptyJournal(), lastExportAt: j.lastExportAt ?? null });
       }
     }
+    put(storage, PENDING_LOGOUT, null);
     put(storage, LAST, account.id);
     setRecord({ account: account.id, label: account.label, at: null, error: null });
-    onChange({});
+    onChange({ status: true });
     await syncNow();
     return true;
   }
 
   /** On app start: trust the server's session, not localStorage alone. */
   async function check() {
+    if (get(storage, PENDING_LOGOUT)) {
+      // A sign-out that did not reach the server: finish it, never resume that session.
+      await logout();
+      if (record()) { setRecord(null); onChange({ signedOut: true }); }
+      return;
+    }
     let res;
     try { res = await api('GET', '/api/session'); } catch { return; }
     if (!res.ok) return;
@@ -95,24 +123,46 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
     if (!account) { if (r) { setRecord(null); onChange({ signedOut: true, expired: true }); } return; }
     if (!r || r.account !== account.id) {
       // A session this browser's storage forgot (e.g. an installed iPhone app copies
-      // cookies, not localStorage). Same account as last time: resume. Otherwise ask.
+      // cookies, not localStorage). Resume it, unless this browser holds another
+      // account's journal: then sign out, and the reader decides at the next sign-in.
+      const last = get(storage, LAST);
+      const j = getJournal();
+      if (last && last !== account.id && (j.entries.length || j.draws.length)) {
+        await logout();
+        setRecord(null);
+        onChange({ signedOut: true });
+        return;
+      }
       await adopt(account);
       return;
     }
     await syncNow();
   }
 
+  /**
+   * Sign out. With `clearLocal`, the journal leaves this browser only after the
+   * server confirms it holds everything; otherwise this throws and nothing changes.
+   */
   async function signOut({ clearLocal = false } = {}) {
-    await syncNow();
-    await api('POST', '/api/auth/logout', {}).catch(() => {});
+    if (clearLocal && !(await syncNow())) {
+      throw new Error('Could not reach the server, so the journal stays in this browser. Try again online, or Export first.');
+    }
+    await logout();
     setRecord(null);
-    if (clearLocal) setJournal(emptyJournal());
+    if (clearLocal) { setJournal(emptyJournal()); wipe(); }
     onChange({ signedOut: true, changed: clearLocal });
   }
 
   async function deleteAccount() {
+    await syncNow(); // bring entries from other devices here first: the server copy is about to go
     const res = await api('DELETE', '/api/account');
-    if (!res.ok && res.status !== 401) throw new Error('The server could not delete the synced copy. Try again later.');
+    if (res.status === 401) {
+      setRecord(null);
+      onChange({ signedOut: true });
+      throw new Error('Your sync session ended, so nothing was deleted. Sign in again, then delete.');
+    }
+    if (!res.ok) throw new Error('The server could not delete the synced copy. Try again later.');
+    put(storage, LAST, null); // that account is gone: a new passkey later is not "another account"
     setRecord(null);
     onChange({ signedOut: true });
   }
@@ -224,9 +274,6 @@ export async function signIn(syncer, { onSwitch, immediate = false } = {}) {
   if (!cred) return { ok: false, message: null, none: true };
   const v = await post(syncer, '/api/auth/login/verify', { challengeId: o.data.challengeId, response: authJSON(cred) });
   if (!v.res.ok) {
-    if (v.data.error === 'unknown-passkey') {
-      PublicKeyCredential.signalUnknownCredential?.({ rpId: location.hostname, credentialId: cred.id }).catch?.(() => {});
-    }
     return { ok: false, message: SERVER_MSG[v.data.error] || 'The passkey could not be checked. Try again.', none: v.data.error === 'unknown-passkey' };
   }
   return { ok: await syncer.adopt(v.data.account, { onSwitch }) };

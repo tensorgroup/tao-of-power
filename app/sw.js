@@ -1,7 +1,7 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 importScripts('js/sw-range.js'); // taoRange: Range (206) answers for cached audio, and the recordings to keep
 // <precache>
-const VERSION = 'd6adcae8b6f2';
+const VERSION = '9df8dc72fee2';
 const ART_VERSION = '3cfa7432';
 const SEARCH_VERSION = '3f692797';
 const MODEL_VERSION = 'a31ada72';
@@ -375,6 +375,7 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== location.origin) return;
+  if (url.pathname.startsWith('/api/')) return; // sync and session: never cached
   event.respondWith((async () => {
     const cache = await caches.open(CACHE);
     // Any navigation gets the app shell (hash routing).

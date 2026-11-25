@@ -38,7 +38,7 @@ export async function journalView() {
       draws(j, idx, render));
   };
   render();
-  onSyncNews(root, render);
+  onSyncNews(root, render, { onlyWhenChanged: true }); // a status-only sync must not close open confirm boxes
   return root;
 }
 

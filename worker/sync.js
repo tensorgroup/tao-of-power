@@ -104,6 +104,7 @@ async function takeChallenge(db, id, kind, now) {
 }
 
 async function readJson(request) {
+  if (Number(request.headers.get('content-length')) > MAX_BODY) return { tooLarge: true };
   const text = await request.text();
   if (enc.encode(text).length > MAX_BODY) return { tooLarge: true };
   try { return { body: JSON.parse(text) }; } catch { return { body: null }; }
@@ -132,11 +133,13 @@ async function registerVerify(request, env, lib, now) {
   const { body } = await readJson(request);
   const ch = await takeChallenge(db, body?.challengeId, 'reg', now);
   if (!ch) return err(400, 'challenge');
+  const { n } = await db.prepare('SELECT COUNT(*) AS n FROM users WHERE created > ?').bind(now - DAY).first();
+  if (n >= SIGNUPS_PER_DAY) return err(503, 'signups-full'); // again here: options fetched early must not pass the cap
   let info;
   try {
     const r = await lib.verifyRegistrationResponse({
       response: body.response, expectedChallenge: ch.challenge, expectedOrigin: env.ORIGIN, expectedRPID: env.RP_ID,
-      requireUserVerification: true,
+      requireUserVerification: true, supportedAlgorithmIDs: [-7, -257],
     });
     if (!r.verified) return err(400, 'verify');
     info = r.registrationInfo;
@@ -185,7 +188,7 @@ async function loginVerify(request, env, lib, now) {
     if (!r.verified) return err(400, 'verify');
     newCounter = r.authenticationInfo.newCounter;
   } catch { return err(400, 'verify'); }
-  await db.prepare('UPDATE credentials SET counter = ? WHERE id = ?').bind(newCounter || 0, cred.id).run();
+  await db.prepare('UPDATE credentials SET counter = ? WHERE id = ? AND counter <= ?').bind(newCounter || 0, cred.id, newCounter || 0).run();
   const cookie = await startSession(db, cred.user_id, now);
   return json({ account: { id: cred.user_id, label: cred.label } }, 200, { 'set-cookie': cookie });
 }
@@ -197,10 +200,12 @@ async function sync(request, env, user, now) {
   const r = validate(body?.journal);
   if (!r.ok) return err(400, 'invalid');
   const incoming = r.journal;
-  await db.prepare('INSERT OR IGNORE INTO journals (user_id, data, rev, updated) VALUES (?, ?, 0, ?)')
-    .bind(user.id, JSON.stringify(syncCore(emptyJournal())), now).run();
+  // Only for a live account: a sync racing an account delete must not re-create the row.
+  await db.prepare('INSERT OR IGNORE INTO journals (user_id, data, rev, updated) SELECT ?, ?, 0, ? WHERE EXISTS (SELECT 1 FROM users WHERE id = ?)')
+    .bind(user.id, JSON.stringify(syncCore(emptyJournal())), now, user.id).run();
   for (let i = 0; i < 3; i++) {
     const row = await db.prepare('SELECT data, rev FROM journals WHERE user_id = ?').bind(user.id).first();
+    if (!row) return err(401, 'signed-out');
     const stored = validate(JSON.parse(row.data));
     const base = stored.ok ? stored.journal : emptyJournal();
     const merged = syncCore(merge(base, incoming));
@@ -239,7 +244,9 @@ export async function handleApi(request, env, { lib = LIB, now = Date.now() } = 
   try {
     if (pathname.startsWith('/api/auth/') && pathname !== '/api/auth/logout' && await limited(env.AUTH_LIMIT, request)) return err(429, 'slow-down');
     switch (route) {
-      case 'POST /api/auth/register/options': return await registerOptions(request, env, lib, now);
+      case 'POST /api/auth/register/options':
+        if (await limited(env.SIGNUP_LIMIT, request)) return err(429, 'slow-down');
+        return await registerOptions(request, env, lib, now);
       case 'POST /api/auth/register/verify': return await registerVerify(request, env, lib, now);
       case 'POST /api/auth/login/options': return await loginOptions(request, env, lib, now);
       case 'POST /api/auth/login/verify': return await loginVerify(request, env, lib, now);

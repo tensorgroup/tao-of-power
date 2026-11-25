@@ -134,7 +134,8 @@ export function merge(local, incoming) {
   const entries = new Map();
   for (const e of [...local.entries, ...incoming.entries]) {
     const cur = entries.get(e.id);
-    if (!cur || t(e.updatedAt) > t(cur.updatedAt)) entries.set(e.id, { ...e });
+    // Same time on two devices: pick by text, so every device and the server agree.
+    if (!cur || t(e.updatedAt) > t(cur.updatedAt) || (t(e.updatedAt) === t(cur.updatedAt) && e.text > cur.text)) entries.set(e.id, { ...e });
   }
   const tombs = new Map();
   for (const x of [...local.tombstones, ...incoming.tombstones]) {

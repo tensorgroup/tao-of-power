@@ -217,3 +217,13 @@ test('syncCore drops lastExportAt; sameCore ignores it', () => {
   addEntry(b, { passage: 2, text: 'b' }, T(2));
   assert.equal(sameCore(a, b), false);
 });
+
+test('equal edit times resolve the same way in both merge orders', () => {
+  const base = emptyJournal();
+  const e = addEntry(base, { passage: 1, text: 'start' }, T(1));
+  const phone = merge(emptyJournal(), base);
+  const desk = merge(emptyJournal(), base);
+  updateEntry(phone, e.id, 'phone', T(3));
+  updateEntry(desk, e.id, 'desktop', T(3));
+  assert.deepEqual(merge(phone, desk), merge(desk, phone));
+});
