@@ -13,6 +13,10 @@ import { galleryView, storiesView, cultureView } from './views/library.js';
 import { setGlossary, setRareGlyphs } from './notes.js';
 import { trackView } from './track.js';
 import { getGlossary, getRareGlyphs } from './data.js';
+import { initInstall, sharePage } from './share.js';
+
+initInstall(); // before any await, so the browser's install offer is caught
+document.getElementById('share-btn')?.addEventListener('click', sharePage);
 
 export const state = {
   journal: journalStore.load(),

@@ -6,6 +6,7 @@ import { track } from '../track.js';
 import { state } from '../app.js';
 import { getIndex, getArt } from '../data.js';
 import { openArt } from './passage.js';
+import { homeShareRow } from '../share.js';
 
 const N = 64;
 const PITCH = 9;          // stick spacing
@@ -33,6 +34,7 @@ export async function drawView() {
     h('div', { class: 'row actions' }, h('button', { class: 'btn red', type: 'button', text: 'Draw', onclick: () => run(root) })),
     h('p', { class: 'small how-link' }, h('a', { href: '#/how', class: 'muted', text: 'How does the draw work?' })),
     homeArt(art),
+    homeShareRow(),
   );
   root.append(start, recentList(idx));
   return root;
