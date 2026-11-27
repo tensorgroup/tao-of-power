@@ -153,6 +153,9 @@ const KIND_LABEL = {
   practice: 'Practice', pair: 'Paired opposites',
 };
 
+/** Punctuation that must not start a line. */
+const CLOSING_PUNCT = /^[.,;:!?…’”)\]»。，；：！？、」』）]+/;
+
 /**
  * Render a string with [[text|id]] marks and inline Han characters.
  * ctx = { notes: {id: note}, gloss?: (char, i) => string }
@@ -160,13 +163,23 @@ const KIND_LABEL = {
 export function rich(str, ctx, { block = false } = {}) {
   const frag = document.createDocumentFragment();
   ctx = { ...ctx, glossSeen: new Set() }; // each paragraph marks its own first mention
-  for (const seg of parseMarked(str || '')) {
+  const segs = parseMarked(str || '');
+  for (let i = 0; i < segs.length; i++) {
+    const seg = segs[i];
     if (seg.note && ctx.notes?.[seg.note]) {
-      frag.append(h('button', {
+      const btn = h('button', {
         type: 'button', class: 'mark', 'aria-haspopup': 'dialog',
         onclick: (e) => openNote(seg.note, ctx, e.currentTarget),
-      }, hanify(seg.text, ctx, { inert: true }))); // no button inside a button: the phrase is the tap
-    } else {
+      }, hanify(seg.text, ctx, { inert: true })); // no button inside a button: the phrase is the tap
+      // A button is an atomic box, so the line may break after it, even before a period.
+      // Glue closing punctuation to the phrase so it never starts a line alone.
+      const next = segs[i + 1];
+      const punct = next && !next.note ? next.text.match(CLOSING_PUNCT)?.[0] : null;
+      if (punct) {
+        segs[i + 1] = { ...next, text: next.text.slice(punct.length) };
+        frag.append(h('span', { class: 'glue' }, btn, punct));
+      } else frag.append(btn);
+    } else if (seg.text) {
       frag.append(glossify(seg.text, ctx));
     }
   }

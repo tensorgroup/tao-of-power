@@ -103,6 +103,9 @@ async function route() {
   }
   clear(view).append(node);
   const section = (hash.split('/')[1] || 'draw').split('?')[0];
+  // The home page has its own Share row; the footer button would be a second one.
+  const footShare = document.querySelector('.foot-share');
+  if (footShare) footShare.hidden = section === 'draw';
   const navKey = { art: 'browse', stories: 'browse', culture: 'browse' }[section] || section;
   for (const a of document.querySelectorAll('[data-nav]')) {
     const on = a.dataset.nav === (section === 'p' ? '' : navKey || 'draw');

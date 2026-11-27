@@ -198,6 +198,7 @@ p { margin: 0 0 1rem; }
   text-decoration-thickness: 1.5px; text-underline-offset: .22em;
 }
 .mark:active, .mark.open { background: var(--wash); }
+.glue { white-space: nowrap; }
 .pending { padding: 1rem; background: var(--paper-2); border-radius: 6px; color: var(--ink-2); font-size: 1rem; }
 
 .column-wrap {
