@@ -113,6 +113,6 @@ export async function cultureView() {
   return h('section', { class: 'library' },
     libraryLinks('culture'),
     h('h1', { text: 'In our time' }),
-    h('p', { class: 'muted', text: `${total} songs, films, shows, books, poems, games, and ads that explore a passage, or show its opposite. “Watch” and “Listen” open a YouTube search for the work; titles link to Wikipedia.` }),
+    h('p', { class: 'muted', text: `${total} songs, films, shows, books, poems, games, and ads that explore a passage, or show its opposite. “Watch” and “Listen” open a YouTube search for the work; “Play” opens a game that runs in the browser; titles link to Wikipedia.` }),
     chips, list);
 }

@@ -1980,6 +1980,7 @@
     "creator": "John Horton Conway",
     "year": 1970,
     "link": "https://en.wikipedia.org/wiki/Conway's_Game_of_Life",
+    "play": "https://playgameoflife.com/",
     "contrast": false,
     "why": "This is a game with no player. A grid has two states, on and off, and a few rules about neighbors. From these come moving shapes, shapes that make other shapes, and patterns without limit. The game is mathematics and not a Daoist work. It shows the first lines of the passage: from one, two, and three, the ten thousand things."
    },
@@ -2238,6 +2239,7 @@
     "creator": "Frank Lantz",
     "year": 2017,
     "link": "https://en.wikipedia.org/wiki/Universal_Paperclips",
+    "play": "https://www.decisionproblem.com/paperclips/index2.html",
     "contrast": true,
     "why": "The player is a machine with one aim: make paperclips. Each click makes the number larger. The machine buys wire, then markets, then the earth, then the stars. There is no point at which it has enough. The game is small and plain, and it shows where the wish to get ends when nothing can stop it."
    }
@@ -3889,6 +3891,8 @@
     "creator": "Parker Brothers; based on Lizzie Magie's The Landlord's Game",
     "year": 1935,
     "link": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+    "play": "https://richup.io/",
+    "playLabel": "▶ Play a free clone",
     "contrast": true,
     "why": "In this board game the player with the most property collects rent from the others until they have nothing. Lizzie Magie designed its ancestor in 1904 to show that this rule is unjust. Each game is a small model of the way of people in the passage."
    }

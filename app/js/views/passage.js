@@ -435,9 +435,10 @@ const yt = (q) => `https://www.youtube.com/results?search_query=${encodeURICompo
 const firstName = (c) => String(c || '').split(/[;(]| and |, /)[0].trim();
 const bare = (t) => String(t).replace(/\s*\([^)]*\)\s*$/, '');
 
-/** Links that let a reader see, hear, or read the work now. Searches, not guessed video ids. */
+/** Links that let a reader see, hear, read, or play the work now. Searches, not guessed video ids. */
 export function cultureLinks(c) {
   const out = [];
+  if (c.play) out.push([c.playLabel || '▶ Play in browser', c.play, 'game']);
   if (LISTEN.has(c.kind)) out.push(['▶ Listen on YouTube', yt(`${bare(c.title)} ${firstName(c.creator)}`), 'play']);
   else if (c.kind === 'episode') out.push(['▶ Watch on YouTube', yt(`${c.title} clip`), 'play']);
   else if (c.kind === 'game') out.push(['▶ Watch on YouTube', yt(`${bare(c.title)} ${c.year || ''} trailer`), 'play']);

@@ -70,6 +70,8 @@ if (existsSync(cPath)) {
       for (const k of ['title', 'kind', 'why', 'link']) if (!e[k]) errors.push(`${w}: missing ${k}`);
       if (!KINDS.includes(e.kind)) errors.push(`${w}: bad kind ${e.kind}`);
       if (!/^https:\/\/en\.wikipedia\.org\/wiki\/\S+$/.test(e.link || '')) errors.push(`${w}: link must be an English Wikipedia article`);
+      if (e.play !== undefined && (e.kind !== 'game' || !/^https:\/\/\S+$/.test(e.play))) errors.push(`${w}: play must be an https link on a game`);
+      if (e.playLabel !== undefined && (!e.play || typeof e.playLabel !== 'string' || !e.playLabel.trim())) errors.push(`${w}: playLabel needs a play link and text`);
       const words = String(e.why || '').split(/\s+/).length;
       if (words > 110) errors.push(`${w}: why is ${words} words (max 110)`);
     }

@@ -651,7 +651,7 @@ button.crumb:active { color: var(--seal); }
 
 .c-links { display: flex; flex-wrap: wrap; gap: .55rem; margin: .5rem 0 0; }
 .c-link { display: inline-flex; align-items: center; min-height: 40px; padding: .3rem .9rem; border-radius: 999px; border: 1px solid var(--rule); color: var(--ink-2); text-decoration: none; font-size: .9rem; }
-.c-link.play { border-color: var(--seal); color: var(--seal); }
+.c-link.play, .c-link.game { border-color: var(--seal); color: var(--seal); }
 
 .more-row { display: flex; flex-wrap: wrap; gap: .5rem; margin: -.35rem 0 1.1rem; }
 .more-row .more-link { margin: 0; min-height: 40px; }
