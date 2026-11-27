@@ -15,6 +15,7 @@ import { brushPanel } from '../brush.js';
 import { sayButton } from '../audio.js';
 import { track } from '../track.js';
 import { listenRow, followTarget, followAllowed, gestureLive, pageFollowDelta, pageFollowStep, lineOnScreen } from '../listen.js';
+import { openInYouTubeApp } from '../applink.js';
 
 // Small forms (﹕ ﹗) occur in the source text too; they end a clause like the normal marks.
 const CLAUSE_END = new Set(['，', '；', '。', '：', '！', '？', ',', '﹕', '﹗']);
@@ -445,7 +446,7 @@ export function cultureLinks(c) {
   if (c.kind === 'poem' || c.kind === 'short-story') out.push(['▶ Hear a reading', yt(`${bare(c.title)} ${firstName(c.creator)} reading`), 'play']);
   if (READ.has(c.kind) && c.year && c.year < 1929) out.push(['Read free', `https://www.gutenberg.org/ebooks/search/?query=${encodeURIComponent(`${bare(c.title)} ${firstName(c.creator)}`)}`, 'read']);
   out.push(['Wikipedia', c.link, 'wiki']);
-  return h('p', { class: 'c-links' }, out.map(([label, href, kind]) => h('a', { class: `c-link ${kind}`, href, target: '_blank', rel: 'noopener noreferrer', text: label, onclick: () => track('culture', `${c.kind}:${kind}:${c.id}`) })));
+  return h('p', { class: 'c-links' }, out.map(([label, href, kind]) => h('a', { class: `c-link ${kind}`, href, target: '_blank', rel: 'noopener noreferrer', text: label, onclick: (e) => { track('culture', `${c.kind}:${kind}:${c.id}`); if (kind === 'play') openInYouTubeApp(e, href); } })));
 }
 
 function cultureSection(n, culture) {
