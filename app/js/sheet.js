@@ -57,6 +57,8 @@ function ensure() {
       h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Close', text: '×', onclick: closeAll })),
     crumbsEl,
     bodyEl);
+  hintEl = h('p', { class: 'here-hint', role: 'status', 'aria-live': 'polite', hidden: true });
+  panel.querySelector('header').after(hintEl);
   enableDrag();
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && stack.length) closeAll(); });
 }
@@ -152,6 +154,7 @@ function renderCrumbs() {
 }
 
 function render() {
+  clearHint();
   const top = stack.at(-1);
   kindEl.textContent = top.kind || '';
   titleEl.textContent = top.title || '';
@@ -161,12 +164,32 @@ function render() {
   bodyEl.scrollTop = 0;
 }
 
-/** build: () => Node. Pushes onto the stack (so chained notes can go back). */
-export function openSheet({ title, kind, build }) {
+// Blink the title and show a short line in the sheet: the thing tapped is the one already open.
+let hintEl, hintTimer;
+function clearHint() { clearTimeout(hintTimer); if (hintEl) { hintEl.textContent = ''; hintEl.hidden = true; } titleEl?.classList.remove('pulse'); }
+function pulse(msg) {
+  hintEl.hidden = false;
+  hintEl.textContent = msg;
+  titleEl.classList.remove('pulse'); void titleEl.offsetWidth; titleEl.classList.add('pulse');
+  clearTimeout(hintTimer);
+  hintTimer = setTimeout(clearHint, 1800);
+}
+
+/**
+ * build: () => Node. Pushes onto the stack (so chained notes can go back).
+ * key: names what the sheet shows (e.g. "char:道"). Opening a key that is already open does not nest:
+ * the current sheet blinks and says so; a key deeper in the trail jumps back to that level.
+ */
+export function openSheet({ title, kind, build, key }) {
   ensure();
   clearTimeout(closeTimer);
   const opening = stack.length === 0 || !panel.isConnected;
-  stack.push({ title, kind, build });
+  if (key && !opening) {
+    const at = stack.findIndex((x) => x.key === key);
+    if (at === stack.length - 1) { pulse('You are already here.'); return; }
+    if (at >= 0) { jumpTo(at + 1); setTimeout(() => pulse('Back to this one.'), 120); return; }
+  }
+  stack.push({ title, kind, build, key });
   if (pending) queued++; else history.pushState({ sheet: stack.length }, '');
   render();
   if (opening) {
@@ -193,6 +216,7 @@ function jumpTo(depth) {
 function back() { jumpTo(stack.length - 1); }
 
 function hide() {
+  clearHint();
   stack = []; queued = 0;
   scrim.classList.remove('in');
   panel.classList.remove('in');

@@ -742,3 +742,9 @@ a.ref { color: var(--seal); text-decoration: underline; text-decoration-thicknes
 .mnote-at { font-style: italic; color: var(--ink-2); border-left: 2px solid var(--seal); padding-left: .6rem; margin: 0 0 .8rem; }
 .mnote textarea { min-height: 7rem; }
 .mnote .entries { margin-top: 0; }
+
+/* The thing tapped is already the open sheet: blink its title and say so (sheet.js pulse). */
+.sheet .here-hint { margin: 0 1rem .4rem; font-size: .9rem; color: var(--seal); }
+.sheet h2.pulse { animation: here-pulse .9s ease 2; }
+@keyframes here-pulse { 50% { color: var(--seal); background: var(--wash); } }
+@media (prefers-reduced-motion: reduce) { .sheet h2.pulse { animation: none; color: var(--seal); } }

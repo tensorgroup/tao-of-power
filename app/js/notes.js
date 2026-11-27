@@ -34,6 +34,7 @@ export function openGlossary(key, ctx = {}) {
   const e = GLOSS?.[key];
   if (!e) return;
   openSheet({
+    key: `gloss:${key}`,
     kind: 'Glossary', title: e.zh ? `${e.term}  ${e.zh}` : e.term,
     build: () => {
       const box = h('div', {}, h('p', {}, h('b', { text: e.short })));
@@ -210,6 +211,7 @@ export function openNote(id, ctx, { passage } = {}) {
   const n = ctx.notes[id];
   track('note', id);
   openSheet({
+    key: `note:${id}`,
     kind: KIND_LABEL[n.kind] || n.kind,
     title: n.title,
     build: () => {
@@ -227,6 +229,7 @@ export async function openChar(c, occurrence, ctx = {}) {
   const lex = await getLexicon().catch(() => ({}));
   const e = lex[c] || {};
   openSheet({
+    key: `char:${c}`,
     kind: 'Character',
     title: `${c}  ${(e.py || []).join(' / ')}`,
     build: () => {
