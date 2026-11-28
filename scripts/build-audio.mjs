@@ -394,9 +394,12 @@ const FRESH_MS = 5000; // a lock file this new may belong to a run that has not 
  * One recording or drop at a time: a lock file next to the app folder (outside it, so it is never deployed),
  * holding the pid and a random token of this run. A lock whose process is gone is taken over. Returns a release
  * function, or null while another run holds it.
- * Takeover is safe when two runs find the same stale lock: each renames it to a name of its own; only the run
- * whose renamed file still holds the dead pid goes on, and it creates the new lock with 'wx', so at most one
- * run gets it. release() removes the lock only while it still holds this run's pid and token.
+ * Takeover of a stale lock: the run renames it to a name of its own, checks that the moved file still holds
+ * the text it read, and then creates the new lock with 'wx'. release() removes the lock only while it still
+ * holds this run's pid and token.
+ * This is not fully safe against two runs at once. rename acts on the path, not on the file that was read, so
+ * a narrow race remains: a run can move a lock that another run made after the read, and two runs can then
+ * both go on. The check after the rename makes this rare, not impossible. Start one recording run at a time.
  */
 export function takeLock(file) {
   const mine = `${process.pid}\n${randomBytes(8).toString('hex')}\n`;

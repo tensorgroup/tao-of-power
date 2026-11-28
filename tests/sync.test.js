@@ -397,7 +397,8 @@ test('delete refuses when the final sync fails (offline, 409, 413, 429, save fai
   const paths = [];
   const inner = h.fetch;
   h.fetch = async (p, i) => { paths.push(p); return inner(p, i); };
-  await assert.rejects(h.s.deleteAccount({ account: 'u1' }), /Could not sync first, so nothing was deleted/);
+  // The sync reached the server, but this browser could not save the answer: say that, not "try again online".
+  await assert.rejects(h.s.deleteAccount({ account: 'u1' }), /^Error: This browser could not save the synced copy, so nothing was deleted\./);
   assert.deepEqual(paths, ['/api/journal/sync']);
 });
 
@@ -527,7 +528,7 @@ test('delete refuses while storage lacks the server copy, even when memory has i
   addEntry(other, { passage: 2, text: 'only on the server' }, T(2));
   h.server = other;
   h.setSaves(false);
-  await assert.rejects(h.s.deleteAccount({ account: 'u1' }), /Could not sync first/);
+  await assert.rejects(h.s.deleteAccount({ account: 'u1' }), /^Error: This browser could not save the synced copy, so nothing was deleted\./);
   assert.equal(h.journal.entries.length, 1, 'memory holds the answer');
   assert.equal(load(h.storage).entries.length, 0, 'storage does not');
   // The retry: the sync sees "no change" in memory. Storage still lacks the entry, so nothing is deleted.
@@ -694,4 +695,73 @@ test('remove-from-browser tells this tab of the wipe before the logout request',
   h.fetch = async (p, i) => { if (p === '/api/auth/logout') seen = h.events.map((e) => !!e.wiped); return inner(p, i); };
   await h.s.signOut({ clearLocal: true });
   assert.ok(seen?.includes(true), 'the wiped news came before logout');
+});
+
+// ---- Review 2 ----
+
+test('replace stops when the empty journal cannot be saved: no new account, no sync', async () => {
+  const h = harness({ signedIn: false });
+  h.storage.setItem(LAST, 'someone-else');
+  addEntry(h.journal, { passage: 1, text: 'their journal' }, T(1));
+  save(h.journal, h.storage);
+  h.setSaves(false); // a replace now returns false
+  const paths = [];
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { paths.push(p); return inner(p, i); };
+  await assert.rejects(h.s.adopt({ id: 'u1', label: 'L' }, { onSwitch: async () => 'replace' }),
+    /^Error: This browser could not clear its journal \(storage full\), so sync did not start\. Export it first\.$/);
+  assert.deepEqual(paths, ['/api/auth/logout'], 'no sync was sent');
+  assert.equal(h.sent.length, 0);
+  assert.equal(h.storage.getItem(REC), null);
+  assert.equal(h.storage.getItem(LAST), 'someone-else');
+  assert.equal(h.journal.entries[0].text, 'their journal');
+});
+
+test('a sync answer that arrives after a wipe in another tab is dropped', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'stale in memory' }, T(1));
+  const other = emptyJournal();
+  addEntry(other, { passage: 2, text: 'from the server' }, T(2));
+  h.server = other;
+  let release;
+  h.hold(new Promise((r) => { release = r; }));
+  const run = h.s.syncNow();
+  await new Promise((r) => setTimeout(r, 0));
+  // Another tab removed the journal, and this browser signed in to the same account again; this tab's storage event is late.
+  h.storage.setItem(WIPED, 'w2');
+  release();
+  assert.equal(await run, false);
+  assert.equal(load(h.storage).entries.length, 0, 'nothing was saved back');
+  assert.deepEqual(h.journal.entries.map((e) => e.text), ['stale in memory'], 'the answer was not merged');
+});
+
+test('check: a /api/session answer after a wipe or a pending sign-out does not resume', async () => {
+  for (const [what, during] of [
+    ['wipe', (st) => st.setItem(WIPED, 'w2')],
+    ['pending sign-out', (st) => st.setItem(PENDING_LOGOUT, '1')],
+  ]) {
+    const h = harness({ signedIn: true });
+    h.storage.removeItem(REC); // a session that storage forgot: check() would adopt it
+    const inner = h.fetch;
+    h.fetch = async (p, i) => { if (p === '/api/session') during(h.storage); return inner(p, i); };
+    await h.s.check();
+    assert.equal(h.storage.getItem(REC), null, `${what}: not resumed`);
+    assert.equal(h.sent.length, 0, `${what}: no sync sent`);
+  }
+  // Same account signed in: no resume sync either.
+  const h = harness({ signedIn: true });
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { if (p === '/api/session') h.storage.setItem(WIPED, 'w3'); return inner(p, i); };
+  await h.s.check();
+  assert.equal(h.sent.length, 0);
+});
+
+test('remove-from-browser with a journal too large to sync says so, not "try again online"', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'big' }, T(1));
+  h.fetch = async (p) => (p === '/api/journal/sync' ? reply(413, { error: 'too-large' }) : reply(200, { ok: true }));
+  await assert.rejects(h.s.signOut({ clearLocal: true }),
+    /^Error: The journal is too large to sync, so it stays in this browser\. Export keeps a full copy\.$/);
+  assert.equal(h.journal.entries.length, 1);
+  assert.equal(JSON.parse(h.storage.getItem(REC)).account, 'u1');
 });

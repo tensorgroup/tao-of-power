@@ -19,6 +19,8 @@ const NOT_SAVED = 'This browser could not save the synced copy, so nothing was d
 const NOT_REMOVED = 'This browser could not remove the journal. Nothing changed.';
 const ENDED_OUT = 'Your sync session ended in another tab, so nothing changed.';
 const SWITCHED_OUT = 'The sync account changed in another tab, so nothing changed.';
+const TOO_LARGE_OUT = 'The journal is too large to sync, so it stays in this browser. Export keeps a full copy.';
+const NOT_CLEARED = 'This browser could not clear its journal (storage full), so sync did not start. Export it first.';
 const LOCK = 'tao-sync-account'; // one sign-out or delete at a time, across this browser's tabs
 
 const get = (storage, k) => { try { return storage.getItem(k); } catch { return null; } };
@@ -44,6 +46,7 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
   let again = null;
   let confirmed = null; // { account, journal, rev }: the server's copy in the last answer; the server holds all of it
   let lastStatus = null; // the HTTP status of the last sync request (0: no answer)
+  let notSaved = false; // the last sync reached the server, but this browser could not save its answer
 
   // Runs fn while no other tab of this browser runs a sign-out or a delete (navigator.locks). Without locks
   // (old browsers, tests), fn runs at once.
@@ -79,8 +82,12 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
     const { account } = r;
     const body = JSON.stringify({ account, journal: syncCore(getJournal()) });
     const sent = JSON.parse(body).journal; // a copy: saves during the request must not change it
+    // A wipe in another tab while this request is out: this tab's journal may be the old one (storage events
+    // arrive late), so its answer must not save it back.
+    const wiped = get(storage, WIPED);
     let res;
     lastStatus = 0;
+    notSaved = false;
     try {
       res = await api('POST', '/api/journal/sync', body, { keepalive: keepalive && bytes(body) < KEEPALIVE_MAX });
     } catch { return false; } // offline: the next trigger retries
@@ -94,11 +101,13 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
     let remote, rev;
     try { ({ journal: remote, rev } = await res.json()); } catch { return false; }
     if (!still()) return false; // signed out, or another account now: drop the answer
+    if (get(storage, WIPED) !== wiped) return false; // removed from this browser meanwhile: drop the answer
     confirmed = { account, journal: remote, rev };
     const cur = getJournal(); // read after the wait: keeps anything saved meanwhile
     const merged = merge(cur, remote);
     const changed = !sameCore(merged, cur);
     const saved = !changed || setJournal(merged) !== false; // false: storage full, so the answer lives in memory only
+    notSaved = !saved;
     setRecord({ ...record(), at: now(), error: null });
     onChange({ changed, status: true });
     return saved && sameCore(merge(remote, sent), remote);
@@ -140,7 +149,12 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
       if (choice === 'cancel') { await logout(); return false; }
       if (choice === 'replace') {
         if (!snapshot(j)) { await logout(); throw new Error('Could not keep a copy of this browser’s journal (storage full). Export it first.'); }
-        setJournal({ ...emptyJournal(), lastExportAt: j.lastExportAt ?? null }, { replace: true });
+        // Storage refused the empty journal: this browser still holds the other account's journal. Stop before
+        // this account owns it or a sync uploads it.
+        if (setJournal({ ...emptyJournal(), lastExportAt: j.lastExportAt ?? null }, { replace: true }) === false) {
+          await logout();
+          throw new Error(NOT_CLEARED);
+        }
       }
     }
     put(storage, PENDING_LOGOUT, null);
@@ -159,11 +173,15 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
       if (record()) { setRecord(null); onChange({ signedOut: true }); }
       return;
     }
+    // Another tab may remove the journal or sign out while this request is out: then its answer must not
+    // resume a session or sync this tab's (perhaps old) journal.
+    const wiped = get(storage, WIPED);
     let res;
     try { res = await api('GET', '/api/session'); } catch { return; }
     if (!res.ok) return;
     let account = null;
     try { ({ account } = await res.json()); } catch { return; }
+    if (get(storage, WIPED) !== wiped || get(storage, PENDING_LOGOUT)) return;
     const r = record();
     if (!account) { if (r) { setRecord(null); onChange({ signedOut: true, expired: true }); } return; }
     if (!r || r.account !== account.id) {
@@ -199,6 +217,7 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
       if (accountNow() !== account) throw new Error(account && !record() ? ENDED_OUT : SWITCHED_OUT);
       if (clearLocal) {
         if (!(await syncNow())) {
+          if (lastStatus === 413) throw new Error(TOO_LARGE_OUT);
           throw new Error('Could not reach the server, so the journal stays in this browser. Try again online, or Export first.');
         }
         if (accountNow() !== account) throw new Error(SWITCHED_OUT);
@@ -252,6 +271,7 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
         const pulled = lastStatus === 413 && (await pull(account));
         if (!pulled) {
           if (accountNow() !== account) throw new Error(record() ? SWITCHED : ENDED);
+          if (notSaved) throw new Error(NOT_SAVED); // the server answered; this browser's storage is the problem
           throw new Error('Could not sync first, so nothing was deleted. Try again online, or Export first.');
         }
       }

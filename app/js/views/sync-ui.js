@@ -134,18 +134,27 @@ export function syncSection(render, { more = [], moreOpen = false } = {}) {
   const status = r.error === 'too-large'
     ? h('p', { class: 'backup', text: 'The journal is too large to sync. Export keeps a full copy.' })
     : h('p', { class: 'muted small', text: `Sync is on · ${r.label} · ${r.at ? `synced ${ago(r.at)}` : 'not synced yet'}` });
-  // While a sign-out or delete runs, its confirm buttons stay disabled: a second tap must not start another.
-  const running = (on) => { for (const b of area.querySelectorAll('button')) b.disabled = on; };
+  // While a sign-out or delete runs, its confirm buttons and the buttons that open a confirm stay disabled,
+  // and ask() opens no new confirm: a second tap must not start another, or show an enabled Cancel.
+  let busy = false;
+  const running = (on) => {
+    busy = on;
+    for (const b of [...area.querySelectorAll('button'), signOutBtn, deleteBtn]) b.disabled = on;
+  };
+  // After the wait the section may be off the page (the reader left, or sync news rebuilt it). A render from
+  // here would build a section off the page, and its window listeners would stay.
+  const renderIfShown = () => { if (box.isConnected) render(); };
   const out = async (clearLocal) => {
     running(true);
-    try { await syncer.signOut({ clearLocal, account: shown }); } catch (e) { fill(area, h('p', { class: 'backup', text: e.message })); return; }
+    try { await syncer.signOut({ clearLocal, account: shown }); } catch (e) { running(false); fill(area, h('p', { class: 'backup', text: e.message })); return; }
     track('sync-off');
     toast(clearLocal ? 'Signed out. The journal is on the server, not in this browser.' : 'Signed out. The journal stays in this browser.');
-    render();
+    renderIfShown();
   };
   // A confirm box in `area`: focus goes to its first button (to Cancel with `focusCancel`, for a destructive
   // one), and Cancel gives it back to the button that opened it.
   const ask = (opener, label, text, buttons, after = [], { focusCancel = false } = {}) => {
+    if (busy) return;
     const cancel = h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => { fill(area); opener.focus(); } });
     fill(area, h('div', { class: 'confirm', role: 'alertdialog', 'aria-label': label }, h('span', { text }), ...buttons, ...after, cancel));
     (focusCancel ? cancel : buttons[0]).focus();
@@ -156,7 +165,7 @@ export function syncSection(render, { more = [], moreOpen = false } = {}) {
     if (!kept) return null;
     const what = [kept.entries ? `${kept.entries} entr${kept.entries === 1 ? 'y' : 'ies'}` : null,
       kept.draws ? `${kept.draws} draw${kept.draws === 1 ? '' : 's'}` : null].filter(Boolean).join(', ');
-    return h('span', { class: 'small', text: `Removing also deletes the journal kept from before your last Replace (${what}). Restore or Export it first.` });
+    return h('span', { class: 'small', text: `Removing also deletes the journal kept from before your last Replace (${what}). Export leaves it out. To keep it, restore it into this journal first, then Export. Otherwise it is removed with the rest.` });
   };
   const signOutBtn = h('button', { class: 'btn', type: 'button', text: 'Sign out', onclick: () => ask(signOutBtn, 'Sign out',
     'Sign out of sync on this browser. Keep the journal here too?', [
@@ -171,8 +180,8 @@ export function syncSection(render, { more = [], moreOpen = false } = {}) {
           await syncer.deleteAccount({ account: shown });
           track('sync-delete');
           toast(`Deleted. You can also remove the passkey “${r.label}” from your passwords app.`, { ms: 8000 });
-          render();
-        } catch (e) { toast(e.message, { warn: true }); render(); }
+          renderIfShown();
+        } catch (e) { toast(e.message, { warn: true }); running(false); renderIfShown(); }
       } }),
     ], [], { focusCancel: true }) });
   return fill(box,
