@@ -155,10 +155,6 @@ p { margin: 0 0 1rem; }
 
 /* Draw view */
 .draw { text-align: center; padding-top: 1.5rem; }
-.draw .big {
-  font: 400 clamp(5.5rem, 30vw, 9rem)/1 var(--brush);
-  color: var(--ink); margin: .5rem 0 0;
-}
 .home-head { max-width: 26rem; margin: 0 auto; }
 .home-head h1 { font-size: clamp(1.6rem, 7vw, 2.1rem); margin: 0; letter-spacing: .02em; }
 .home-head h1 .zh { font-family: var(--han); font-size: .8em; color: var(--ink-2); white-space: nowrap; }
@@ -588,6 +584,10 @@ button.crumb:active { color: var(--seal); }
   nav a { padding-left: .34rem; padding-right: .34rem; font-size: .92rem; letter-spacing: .02em; }
   .search-btn, .theme-btn { min-width: 38px; }
 }
+@media (max-width: 22rem) {
+  .bar { gap: .15rem; }
+  nav a { padding-inline: .25rem; }
+}
 
 /* In our time (modern culture) */
 .culture-list { list-style: none; padding: 0; margin: .6rem 0 1.5rem; }
@@ -676,11 +676,20 @@ a.ref { color: var(--seal); text-decoration: underline; text-decoration-thicknes
 .map-pt.tomb.on .map-dot { fill: var(--seal); }
 .map-legend .key-sym:not(:first-child) { margin-left: .3rem; }
 
-.home-art { margin: 2rem auto 0; max-width: 26rem; }
-.home-art .art-btn { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; }
-.home-art img { width: 100%; height: auto; border-radius: 8px; display: block; }
-.home-art figcaption { margin-top: .5rem; }
-.home-art figcaption a { color: var(--ink-3); display: inline-flex; align-items: center; min-height: var(--tap); }
+.home-art { margin: 1rem auto 0; max-width: 26rem; }
+.home-art .art-btn { width: fit-content; max-width: 100%; margin: 0 auto; }
+.home-art img { width: auto; height: auto; max-width: 100%; max-height: 220px; border-radius: 8px; display: block; }
+.home-art figcaption { margin-top: max(8px, .5rem); }
+.home-art figcaption a { color: var(--ink-2); display: inline-flex; align-items: center; min-height: var(--tap); }
+.home-art + .lede { margin: .5rem auto 1rem; }
+@media (max-width: 30rem) and (max-height: 44rem) {
+  .draw:has(.home-art) { padding-top: 0; }
+  .draw .home-head .intro { line-height: 1.4; }
+  .draw .home-art { margin-top: .5rem; }
+  .draw .home-art img { max-height: 140px; }
+  .draw .home-art + .lede { font-size: 1rem; line-height: 1.4; margin: .5rem auto; }
+  .draw .home-art + .lede + .actions { margin-top: .5rem; }
+}
 .about h4 { font-size: 1.02rem; margin: 1.3rem 0 .3rem; }
 
 /* Timeline: one list of eras, a sticky slider, pictures per era */

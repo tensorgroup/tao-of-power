@@ -30,11 +30,10 @@ export async function drawView() {
       h('p', { class: 'sub', text: 'Tao of Power' }),
       h('p', { class: 'intro' }, 'An interactive tool for exploring the Tao Te Ching. Draw a passage by chance, read it slowly, look into the Chinese, and write what arises. ',
         h('a', { href: '#/about', text: 'About: the how and the why' }))),
-    h('p', { class: 'big', lang: 'zh-Hant', 'aria-hidden': 'true', text: '道' }),
+    homeArt(art),
     h('p', { class: 'lede', text: 'Settle. Hold a question lightly, or none at all. Then let the sticks fall.' }),
     h('div', { class: 'row actions' }, h('button', { class: 'btn red', type: 'button', text: 'Draw', onclick: () => run(root) })),
     h('p', { class: 'small how-link' }, h('a', { href: '#/how', class: 'muted', text: 'How does the draw work?' })),
-    homeArt(art),
     homeShareRow(),
   );
   let recent = recentList(idx);
@@ -51,8 +50,8 @@ function homeArt(art) {
   const used = Object.entries(art.passages || {}).flatMap(([n, l]) => l.filter((e) => e.id === id).map((e) => [Number(n), e]));
   return h('figure', { class: 'home-art' },
     h('button', { class: 'art-btn', type: 'button', 'aria-label': `Look closer: ${a.title}`, onclick: () => openArt(a, used[0]?.[1] || {}, {}, { passages: used.map(([n]) => n) }) },
-      h('img', { src: a.file, alt: a.alt || a.title, width: a.w, height: a.h, loading: 'lazy', decoding: 'async' })),
-    h('figcaption', { class: 'muted small' }, 'Laozi leaves through the western pass on his water buffalo. ', h('a', { href: '#/about?s=ox', text: 'Why an ox?' })));
+      h('img', { src: a.file, alt: a.alt || a.title, width: a.w, height: a.h, loading: 'eager', decoding: 'async' })),
+    h('figcaption', { class: 'small' }, h('a', { href: '#/about?s=ox', text: 'Why an ox?' })));
 }
 
 function recentList(idx) {
