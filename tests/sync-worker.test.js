@@ -469,3 +469,56 @@ test('non-GET routes answer 503 when RP_ID or ORIGIN is missing', async () => {
     assert.deepEqual(await res.json(), { error: 'unavailable' });
   }
 });
+
+test('a counter-0 login starts no session when the stored counter moved past 0 meanwhile', async () => {
+  const { call, signUp, lib, env, tokenOf } = setup();
+  const { id } = await signUp('cred-z');
+  const sessions = () => env.tao_sync.raw.prepare('SELECT COUNT(*) AS n FROM sessions').get().n;
+  // This login read the stored counter (0). Another login raises it to 5 before this one writes.
+  const verify = lib.verifyAuthenticationResponse;
+  lib.verifyAuthenticationResponse = async (o) => {
+    env.tao_sync.raw.prepare('UPDATE credentials SET counter = 5 WHERE id = ?').run('cred-z');
+    return verify(o);
+  };
+  lib.nextCounter = 0;
+  const before = sessions();
+  const o = await call('POST', '/api/auth/login/options', {});
+  const r = await call('POST', '/api/auth/login/verify', { challengeId: o.body.challengeId, response: { id: 'cred-z', ok: true, challenge: o.body.options.challenge, response: { userHandle: id } } });
+  assert.deepEqual([r.status, r.body, tokenOf(r)], [400, { error: 'verify' }, undefined]);
+  assert.equal(sessions(), before);
+  assert.equal(env.tao_sync.raw.prepare('SELECT counter FROM credentials').get().counter, 5);
+});
+
+test('only logout and a successful delete clear the cookie; a 401 does not', async () => {
+  const { call, signUp } = setup();
+  const s = await signUp('cred-k');
+  const gone = 'no-such-session';
+  for (const [m, p, b] of [['POST', '/api/journal/sync', { journal: emptyJournal() }], ['DELETE', '/api/account', undefined]]) {
+    const r = await call(m, p, b, { cookie: gone });
+    assert.equal(r.status, 401, p);
+    assert.equal(r.headers.get('set-cookie'), null, `${p}: a 401 must not end a newer session`);
+  }
+  const sess = await call('GET', '/api/session', undefined, { cookie: gone });
+  assert.equal(sess.headers.get('set-cookie'), null);
+  const del = await call('DELETE', '/api/account', undefined, { cookie: s.token });
+  assert.equal(del.status, 200);
+  assert.match(del.headers.get('set-cookie'), /Max-Age=0/);
+});
+
+test('S6: the daily cookie refresh goes only on GET /api/session (app start), never on a sync or delete answer', async () => {
+  const { call, signUp, setNow, tokenOf } = setup();
+  const { token, id } = await signUp('cred-r');
+  let day = 0;
+  const later = () => setNow(T0 + (day += 2) * DAY); // each call is due for its daily refresh
+  later();
+  const wrong = await call('POST', '/api/journal/sync', { account: 'someone-else', journal: emptyJournal() }, { cookie: token });
+  assert.equal(wrong.status, 409);
+  assert.equal(wrong.headers.get('set-cookie'), null, '409: no refreshed cookie');
+  later();
+  const ok = await call('POST', '/api/journal/sync', { account: id, journal: emptyJournal() }, { cookie: token });
+  assert.equal(ok.status, 200);
+  assert.equal(ok.headers.get('set-cookie'), null, 'a sync answer can arrive late: no cookie on it');
+  later();
+  const sess = await call('GET', '/api/session', undefined, { cookie: token });
+  assert.equal(tokenOf(sess), token, 'the refreshed cookie comes at app start');
+});

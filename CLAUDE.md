@@ -90,6 +90,43 @@ the old files.
   is accepted for old installed clients, a wrong one gets 409. Rate-limit
   namespace ids are per Cloudflare account: Tao uses 4111–4114. `npm run dev` is the only way to test passkeys locally
   (RP ID `localhost`).
+  Cross-tab rules (keys under `tao.sync.*`). Sign-out and delete run under
+  one Web Lock (`navigator.locks`). Without Web Locks, "Remove it from this
+  browser" and "Delete synced copy" refuse; sync and a plain sign-out work.
+  "Remove it from this browser" writes `tao.sync.wiping` (`<ms>.<id>`,
+  ignored after 10 s) while it runs. Every journal, draft, and snapshot write
+  goes through `syncer.gate()`: journal saves through `state.change(fn,
+  after)` (`store.js`), drafts through `drafts.js`, sync writes inside
+  `sync.js`. While the marker is fresh, a write waits (it is never refused):
+  the reader is told once, and it runs when the marker is gone. The editor
+  keeps its text until `after()` runs. An editor belongs to the account it
+  opened under: get its save function from `state.editor()` when it opens
+  (or a list with Edit buttons is built). The gate refuses its save, now or
+  from the queue (`refused()` in `sync.js`), when another account is signed
+  in and the editor had an account or the journal was removed since; the
+  editor keeps the text and a toast says so. While writes wait, the browser asks
+  before the tab closes. Before a write or a sync body, a tab reads the
+  journal again if `tao.sync.wiped` or the account changed (also on
+  `pageshow` from the back-forward cache). Every read of the journal from
+  storage goes through `syncer.reloadJournal()`, which records the account
+  signed in at that moment. At sign-in, the switch prompt and the Replace
+  snapshot use memory merged with storage. `fn()` in `state.change()` must
+  return a true value; anything else means "nothing changed", and the editor
+  stays open with "Not saved.". An edit of an entry that is gone saves a new
+  entry (`reviseEntry`). A save rebuilds a list only when no other text box
+  in it holds typed text (text that differs from its `defaultValue`). A
+  removal in another tab never clears a text box that holds typed text.
+  Drafts: the last writer wins. A draft writer made before the latest
+  removal writes only after the reader types again. Saving an entry clears
+  its draft only if the draft still holds the saved text. A new writer must
+  use the gate. After an app update, only the tab that tapped Refresh
+  reloads; other tabs offer Reload. `tao.sync.deleting` and `tao.sync.logging-out` exist while a DELETE
+  or logout is out (ignored after 30 s); sign-in waits for them after the
+  passkey prompt, before verify (`syncer.settle()`, 30 s at most). Only
+  logout and a successful delete clear the cookie; only `GET /api/session`
+  refreshes it. Known gap: a late logout or delete answer from another tab
+  can still sign this tab out. Sign in again; no journal text is lost. A
+  counter-0 login counts only while the stored counter is still 0.
 - **Art** (`app/data/art.json`, `app/art/`): public domain or CC0 only, from
   Wikimedia Commons or the Cleveland Museum of Art / Art Institute of
   Chicago open-access collections (`scripts/check-art.mjs` enforces this, and

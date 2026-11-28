@@ -11,15 +11,31 @@ function src(text, links = []) {
     h('a', { href, target: '_blank', rel: 'noopener noreferrer', text: label }))) : null);
 }
 
-/** Scroll to a section after route() has put the page on screen (it scrolls to the top first). */
+/**
+ * Scroll to a section after route() has put the page on screen (it scrolls to the top first). On a reload the
+ * browser restores the old scroll position after the page loads, and late web fonts move the section: so
+ * scroll again when the fonts are ready and after the load event. The first touch, wheel, or key from the
+ * reader stops it for good (no time limit: a late font or load must never pull the reader back), and so does
+ * leaving the page, which also removes the listeners.
+ */
 function scrollToSection(id) {
   if (!id) return;
-  setTimeout(() => {
+  const hash = location.hash;
+  let stopped = false;
+  const events = ['touchstart', 'wheel', 'keydown'];
+  const stop = () => { stopped = true; for (const ev of events) removeEventListener(ev, stop); };
+  for (const ev of events) addEventListener(ev, stop, { passive: true });
+  addEventListener('hashchange', stop, { once: true });
+  const go = () => {
     const el = document.getElementById(`s-${id}`);
-    if (!el) return;
+    if (stopped || location.hash !== hash || !el?.isConnected) return;
     const bar = document.querySelector('.bar')?.offsetHeight || 0;
     window.scrollTo({ top: el.getBoundingClientRect().top + scrollY - bar - 12, behavior: 'auto' });
-  }, 0);
+  };
+  const later = () => setTimeout(go, 0);
+  later();
+  document.fonts?.ready.then(later);
+  if (document.readyState !== 'complete') addEventListener('load', later, { once: true });
 }
 
 export async function aboutView(section) {

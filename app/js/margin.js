@@ -3,8 +3,8 @@
 // The tabs live in one overlay layer, so the blocks' own DOM (and the Listen word spans) stay untouched.
 import { h, fill, toast, keepAboveKeyboard } from './ui.js';
 import { state } from './app.js';
-import { addEntry, saveDraft, loadDraft, clearDraft } from './journal.js';
-import { draftWriter } from './drafts.js';
+import { addEntry, saveDraft, loadDraft } from './journal.js';
+import { draftWriter, typedText } from './drafts.js';
 import { openSheet } from './sheet.js';
 import { entryList } from './views/journal.js';
 import { track } from './track.js';
@@ -88,32 +88,49 @@ export function marginTabs(root, n, { fallback, onChange } = {}) {
 
   const open = (key, b) => {
     track('margin', n);
+    // Released when the sheet body goes away (it writes what is unsaved, then stops).
+    let writer = null;
     openSheet({
       title: 'Margin note',
       kind: 'Your tab',
+      onClose: () => { writer?.release(); writer = null; },
       build: () => {
         const box = h('div', { class: 'mnote' });
-        let writer = null; // stopped by discardDrafts() ("Remove it from this browser")
-        const render = () => {
+        const listBox = h('div');
+        // The notes beside this block. Built again after a save, but never over an open edit with typed text.
+        const showList = () => {
+          if (typedText(listBox)) return;
           const list = groups().get(key) || [];
-          const ta = keepAboveKeyboard(h('textarea', { 'aria-label': 'New margin note', placeholder: 'A note in the margin' }));
-          ta.value = loadDraft(draftKey(n, key)); // a closed sheet keeps what was typed
-          writer?.release();
-          writer = draftWriter(() => saveDraft(draftKey(n, key), ta.value));
-          ta.addEventListener('input', () => writer.schedule());
-          const save = () => {
-            const text = ta.value.trim();
-            if (!text) { ta.focus(); return; }
-            addEntry(state.journal, { passage: n, text, at: { key, snip: key === fallback ? '' : snipOf(b) } });
-            if (state.persist()) { clearDraft(draftKey(n, key)); toast('Saved.'); render(); changed(); }
-          };
-          fill(box,
-            b && key !== fallback ? h('p', { class: 'mnote-at', text: `Beside: ${snipOf(b)}` }) : null,
-            list.length ? entryList(list, { showPassage: false, onChange: () => { render(); changed(); } }) : null,
-            h('div', { class: 'jedit' }, ta,
-              h('div', { class: 'tools' }, h('button', { class: 'btn primary', type: 'button', text: 'Save', onclick: save }))));
+          fill(listBox, list.length ? entryList(list, { showPassage: false, onChange: () => { showList(); changed(); } }) : null);
         };
-        render();
+        const ta = keepAboveKeyboard(h('textarea', { 'aria-label': 'New margin note', placeholder: 'A note in the margin' }));
+        const dk = draftKey(n, key);
+        ta.value = loadDraft(dk); // a closed sheet keeps what was typed
+        writer?.release(); // a level shown again runs build() again
+        const w = draftWriter({ load: () => loadDraft(dk), save: (v) => saveDraft(dk, v), value: () => ta.value });
+        writer = w;
+        ta.addEventListener('input', () => w.schedule());
+        // During a removal in another tab the save waits (store.js); the text stays until it is saved.
+        const change = state.editor(); // the note belongs to the account it opened under
+        const save = () => {
+          const raw = ta.value;
+          const text = raw.trim();
+          if (!text) { ta.focus(); return; }
+          w.flush();
+          change(() => addEntry(state.journal, { passage: n, text, at: { key, snip: key === fallback ? '' : snipOf(b) } }), () => {
+            w.clearIf(raw); // only while the draft still holds the saved text
+            if (ta.value === raw) ta.value = ''; // the reader may have typed on
+            toast('Saved.');
+            showList();
+            changed();
+          });
+        };
+        showList();
+        fill(box,
+          b && key !== fallback ? h('p', { class: 'mnote-at', text: `Beside: ${snipOf(b)}` }) : null,
+          listBox,
+          h('div', { class: 'jedit' }, ta,
+            h('div', { class: 'tools' }, h('button', { class: 'btn primary', type: 'button', text: 'Save', onclick: save }))));
         return box;
       },
     });

@@ -80,6 +80,15 @@ export function updateEntry(j, id, text, now = new Date().toISOString()) {
   return e;
 }
 
+/**
+ * Save an edit of entry `e`. When the entry is gone (removed meanwhile, e.g. "Remove it from this browser"
+ * in another tab), the text becomes a new entry in the same place (passage, question, margin block).
+ * Returns the saved entry.
+ */
+export function reviseEntry(j, e, text, now = new Date().toISOString()) {
+  return updateEntry(j, e.id, text, now) || addEntry(j, { passage: e.passage, text, drawId: e.drawId, q: e.q, at: e.at }, now);
+}
+
 export function deleteEntry(j, id, now = new Date().toISOString()) {
   const e = j.entries.find((x) => x.id === id);
   j.entries = j.entries.filter((x) => x.id !== id);
@@ -205,10 +214,12 @@ export function exportFilename(d = new Date()) {
   return `tao-journal-${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}.json`;
 }
 
+/** False when storage refused the write (full): the draft writer tries again later. */
 export function saveDraft(n, text, storage = ls()) {
   try {
     if (text) storage.setItem(DRAFT(n), text); else storage.removeItem(DRAFT(n));
-  } catch { /* draft is best effort */ }
+    return true;
+  } catch { return false; }
 }
 export function loadDraft(n, storage = ls()) {
   try { return storage.getItem(DRAFT(n)) || ''; } catch { return ''; }
@@ -220,7 +231,8 @@ export function clearDraft(n, storage = ls()) {
 export function saveDraftQ(n, q, storage = ls()) {
   try {
     if (q) storage.setItem(DRAFT_Q(n), JSON.stringify({ id: q.id, claim: q.claim })); else storage.removeItem(DRAFT_Q(n));
-  } catch { /* best effort */ }
+    return true;
+  } catch { return false; }
 }
 export function loadDraftQ(n, storage = ls()) {
   try {

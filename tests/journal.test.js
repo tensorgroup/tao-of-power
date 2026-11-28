@@ -4,7 +4,7 @@ import {
   emptyJournal, load, save, addEntry, updateEntry, deleteEntry, recordDraw,
   validate, merge, toExport, exportFilename, saveDraft, loadDraft, clearDraft,
   saveDraftQ, loadDraftQ, KEY, deleteDraw, syncCore, sameCore, replaceJournal,
-  snapshot, keptSnapshot, SNAPSHOT_KEY,
+  snapshot, keptSnapshot, SNAPSHOT_KEY, reviseEntry,
 } from '../app/js/journal.js';
 
 function memStorage(throwOnSet = false) {
@@ -266,4 +266,27 @@ test('keptSnapshot: null for none, invalid, or empty; counts entries and draws',
   recordDraw(d, { passage: 4, lines: [], bundles: [] });
   snapshot(d, st);
   assert.deepEqual([keptSnapshot(st).entries, keptSnapshot(st).draws], [0, 1], 'draws only still counts');
+});
+
+test('A6: reviseEntry changes the entry; when it is gone (removed meanwhile), it saves the text as a new entry with the same place', () => {
+  const j = emptyJournal();
+  const e = addEntry(j, { passage: 3, text: 'old', q: { id: 'q1', claim: 'C' }, at: { key: 'line:2', snip: 'a line' } }, '2026-11-25T10:00:00.000Z');
+  const same = reviseEntry(j, e, 'new', '2026-11-25T10:00:05.000Z');
+  assert.equal(same.id, e.id);
+  assert.deepEqual(j.entries.map((x) => x.text), ['new']);
+  const gone = emptyJournal(); // "Remove it from this browser" in another tab
+  const added = reviseEntry(gone, e, 'revised after the removal', '2026-11-25T10:00:09.000Z');
+  assert.ok(added && added.id !== e.id);
+  assert.deepEqual([added.passage, added.text, added.q, added.at], [3, 'revised after the removal', { id: 'q1', claim: 'C' }, { key: 'line:2', snip: 'a line' }]);
+  assert.equal(gone.entries.length, 1);
+});
+
+test('A8: saveDraft and saveDraftQ say when storage refused the write', () => {
+  const full = memStorage(true);
+  assert.equal(saveDraft(1, 'text', full), false);
+  assert.equal(saveDraftQ(1, { id: 'a', claim: 'b' }, full), false);
+  const ok = memStorage();
+  assert.equal(saveDraft(1, 'text', ok), true);
+  assert.equal(saveDraft(1, '', ok), true);
+  assert.equal(saveDraftQ(1, null, ok), true);
 });

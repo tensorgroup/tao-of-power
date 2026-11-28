@@ -3,25 +3,29 @@ import { h, fill, fmtDate, toast, keepAboveKeyboard } from '../ui.js';
 import { state, syncer } from '../app.js';
 import { syncSection, onSyncNews } from './sync-ui.js';
 import {
-  updateEntry, deleteEntry, deleteDraw, replaceJournal, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
+  reviseEntry, deleteEntry, deleteDraw, replaceJournal, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
   keptSnapshot,
 } from '../journal.js';
 import { getIndex } from '../data.js';
 import { track } from '../track.js';
 import { jumpTo } from '../margin.js';
+import { typedText } from '../drafts.js';
 
 const DAY = 86400000;
 
 export async function journalView() {
   const idx = await getIndex();
   const root = h('section', {});
+  // After a save: build the page again, but not over typed text in an open edit (the item that saved shows
+  // its new text by itself).
+  const rerender = () => { if (!typedText(root)) render(); };
   const render = () => {
     const j = state.journal;
     const entries = [...j.entries].reverse().filter((e) => !e.at);
     const tabs = [...j.entries].filter((e) => e.at).sort((a, b) => a.passage - b.passage || Date.parse(a.createdAt) - Date.parse(b.createdAt));
     const last = j.lastExportAt ? Date.parse(j.lastExportAt) : null;
     const newer = j.entries.filter((e) => !last || Date.parse(e.updatedAt) > last).length;
-    const exportBtn = h('button', { class: 'btn', type: 'button', text: 'Export', onclick: () => doExport(render) });
+    const exportBtn = h('button', { class: 'btn', type: 'button', text: 'Export', onclick: () => doExport(rerender) });
     const local = !syncer.record(); // sync is off: the export is the only copy, so Export stays in view
     fill(root,
       h('h1', { text: 'Journal' }),
@@ -30,16 +34,16 @@ export async function journalView() {
       local ? h('div', { class: 'row' }, exportBtn) : null,
       syncSection(render, { more: [
         local ? null : exportBtn,
-        h('button', { class: 'btn', type: 'button', text: 'Import', onclick: () => doImport(render) }),
+        h('button', { class: 'btn', type: 'button', text: 'Import', onclick: () => doImport(rerender) }),
       ] }),
-      restoreBox(render),
+      restoreBox(rerender),
       tabs.length ? h('details', { class: 'legge tab-list', open: true }, h('summary', { text: `Margin tabs (${tabs.length})` }),
-        entryList(tabs, { showPassage: true, idx, onChange: render })) : null,
-      entries.length ? entryList(entries, { showPassage: true, idx, onChange: render })
+        entryList(tabs, { showPassage: true, idx, onChange: rerender })) : null,
+      entries.length ? entryList(entries, { showPassage: true, idx, onChange: rerender })
         : tabs.length ? null : h('div', { class: 'empty' },
           h('p', { class: 'muted', text: 'No entries yet. Draw a passage and write what arises.' }),
           h('a', { class: 'btn red', href: '#/', text: 'Draw a passage' })),
-      draws(j, idx, render));
+      draws(j, idx, rerender));
   };
   render();
   onSyncNews(root, render, { onlyWhenChanged: true }); // a status-only sync must not close open confirm boxes
@@ -55,9 +59,12 @@ function restoreBox(render) {
   const what = [kept.entries ? plural(kept.entries, 'entry', 'entries') : null, kept.draws ? plural(kept.draws, 'draw', 'draws') : null].filter(Boolean).join(', ');
   return h('p', { class: 'backup' }, `A journal saved before your last Replace is kept (${what}). `,
     h('button', { class: 'btn quiet small-btn', type: 'button', text: 'Restore it (merge)', onclick: () => {
-      state.journal = merge(state.journal, kept.journal);
-      if (state.persist()) { try { localStorage.removeItem(SNAPSHOT_KEY); } catch {} toast('Restored and merged.'); }
-      render();
+      // Read the snapshot again inside the change: a removal in another tab may have removed it meanwhile.
+      state.change(() => { const k = keptSnapshot(); if (!k) return false; state.journal = merge(state.journal, k.journal); return true; }, () => {
+        try { localStorage.removeItem(SNAPSHOT_KEY); } catch {}
+        toast('Restored and merged.');
+        render();
+      }, 'The kept journal is gone (removed in another tab). Nothing changed.');
     } }));
 }
 
@@ -68,31 +75,42 @@ function backupNote(last, newer) {
 }
 
 export function entryList(entries, { showPassage, idx, onChange }) {
-  return h('ul', { class: 'entries' }, entries.map((e) => entryItem(e, { showPassage, idx, onChange })));
+  const change = state.editor(); // the list was built from this account's journal: its edits belong to it
+  return h('ul', { class: 'entries' }, entries.map((e) => entryItem(e, { showPassage, idx, onChange, change })));
 }
 
-function entryItem(e, { showPassage, idx, onChange }) {
+// One entry, with Edit and Delete. A save shows its result in this item; onChange() then builds the list
+// again, unless another open edit holds typed text.
+function entryItem(e, { showPassage, idx, onChange, change }) {
   const li = h('li', { class: 'entry' });
+  let cur = e; // the entry as last saved
   const view = () => fill(li,
     h('div', { class: 'meta' },
-      h('time', { datetime: e.createdAt, text: fmtDate(e.createdAt) }),
-      e.updatedAt !== e.createdAt ? h('span', { text: `edited ${fmtDate(e.updatedAt)}` }) : null,
-      showPassage ? h('a', { href: `#/p/${e.passage}`, onclick: e.at ? () => jumpTo(e.passage, e.at.key) : null, text: `${e.passage}${idx?.passages?.[e.passage]?.title ? ` · ${idx.passages[e.passage].title}` : ''}` }) : null),
-    e.at?.snip && showPassage ? h('p', { class: 'entry-q entry-at', text: `Beside: ${e.at.snip}` }) : null,
-    e.q?.claim ? h('p', { class: 'entry-q', text: e.q.claim }) : null,
-    h('div', { class: 'text', text: e.text }),
+      h('time', { datetime: cur.createdAt, text: fmtDate(cur.createdAt) }),
+      cur.updatedAt !== cur.createdAt ? h('span', { text: `edited ${fmtDate(cur.updatedAt)}` }) : null,
+      showPassage ? h('a', { href: `#/p/${cur.passage}`, onclick: cur.at ? () => jumpTo(cur.passage, cur.at.key) : null, text: `${cur.passage}${idx?.passages?.[cur.passage]?.title ? ` · ${idx.passages[cur.passage].title}` : ''}` }) : null),
+    cur.at?.snip && showPassage ? h('p', { class: 'entry-q entry-at', text: `Beside: ${cur.at.snip}` }) : null,
+    cur.q?.claim ? h('p', { class: 'entry-q', text: cur.q.claim }) : null,
+    h('div', { class: 'text', text: cur.text }),
     h('div', { class: 'tools' },
       h('button', { class: 'btn quiet', type: 'button', text: 'Edit', onclick: edit }),
       h('button', { class: 'btn quiet', type: 'button', text: 'Delete', onclick: askDelete })));
   const edit = () => {
     const ta = keepAboveKeyboard(h('textarea', { 'aria-label': 'Edit entry' }));
-    ta.value = e.text;
+    ta.defaultValue = cur.text; // typedText() compares with it
+    ta.value = cur.text;
     li.replaceChildren(h('div', { class: 'jedit' }, ta, h('div', { class: 'tools' },
       h('button', { class: 'btn primary', type: 'button', text: 'Save', onclick: () => {
         const t = ta.value.trim();
         if (!t) return;
-        updateEntry(state.journal, e.id, t);
-        if (state.persist()) onChange();
+        let saved = null;
+        // During a removal the save waits: it then saves the text in the box at that time (typed on since).
+        // An entry removed meanwhile is saved as a new entry (reviseEntry), so the text is never lost.
+        change(() => (saved = reviseEntry(state.journal, cur, (ta.isConnected && ta.value.trim()) || t)), () => {
+          cur = saved;
+          view();
+          onChange();
+        });
       } }),
       h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: view }))));
     ta.focus();
@@ -100,8 +118,7 @@ function entryItem(e, { showPassage, idx, onChange }) {
   const askDelete = () => {
     li.append(h('div', { class: 'confirm' }, h('span', { text: 'Delete this entry?' }),
       h('button', { class: 'btn red', type: 'button', text: 'Delete', onclick: () => {
-        deleteEntry(state.journal, e.id);
-        if (state.persist()) onChange();
+        change(() => { deleteEntry(state.journal, cur.id); return true; }, () => { li.remove(); onChange(); });
       } }),
       h('button', { class: 'btn quiet', type: 'button', text: 'Keep', onclick: view })));
   };
@@ -120,8 +137,7 @@ function draws(j, idx, render) {
       h('button', { class: 'btn quiet small-btn', type: 'button', text: 'Remove', 'aria-label': `Remove draw of passage ${d.passage} from history`, onclick: ask })));
     const ask = () => li.append(h('div', { class: 'confirm' }, h('span', { text: 'Remove this draw from the history?' }),
       h('button', { class: 'btn red', type: 'button', text: 'Remove', onclick: () => {
-        deleteDraw(state.journal, d.id);
-        if (state.persist()) { track('draw-remove'); render(); }
+        state.change(() => { deleteDraw(state.journal, d.id); return true; }, () => { track('draw-remove'); li.remove(); render(); });
       } }),
       h('button', { class: 'btn quiet', type: 'button', text: 'Keep', onclick: view })));
     view();
@@ -132,11 +148,9 @@ function draws(j, idx, render) {
 }
 
 async function doExport(render) {
-  const j = state.journal;
-  const prev = j.lastExportAt;
-  j.lastExportAt = new Date().toISOString();
+  const at = new Date().toISOString();
   const name = exportFilename();
-  const blob = new Blob([toExport(j)], { type: 'application/json' });
+  const blob = new Blob([toExport({ ...state.journal, lastExportAt: at })], { type: 'application/json' });
   const file = typeof File === 'function' ? new File([blob], name, { type: 'application/json' }) : null;
   const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
   try {
@@ -148,11 +162,10 @@ async function doExport(render) {
       document.body.append(a); a.click(); a.remove();
       setTimeout(() => URL.revokeObjectURL(url), 4000);
     }
-    state.persist();
+    state.change(() => { state.journal.lastExportAt = at; return true; });
     track('journal-export');
     toast('Journal exported.');
   } catch (e) {
-    j.lastExportAt = prev;
     if (e?.name !== 'AbortError') toast(`Export failed: ${e.message || e}`, { warn: true });
   }
   render();
@@ -179,21 +192,31 @@ function showImportChoice(incoming, before, render) {
   const box = h('div', { class: 'confirm', role: 'alertdialog', 'aria-label': 'Import' },
     h('span', { text: `File has ${incoming.entries.length} entries. Merge combines both journals; where they disagree, the newer edit or deletion wins.` }),
     h('button', { class: 'btn primary', type: 'button', text: 'Merge', onclick: () => {
-      const beforeIds = new Set(state.journal.entries.map((e) => e.id));
-      state.journal = merge(state.journal, incoming);
-      const afterIds = new Set(state.journal.entries.map((e) => e.id));
-      const added = [...afterIds].filter((id) => !beforeIds.has(id)).length;
-      const removed = [...beforeIds].filter((id) => !afterIds.has(id)).length;
-      if (state.persist()) toast(`Merged: ${added} added${removed ? `, ${removed} removed by newer deletions` : ''}.`);
-      render();
+      let added = 0, removed = 0;
+      state.change(() => {
+        const beforeIds = new Set(state.journal.entries.map((e) => e.id));
+        state.journal = merge(state.journal, incoming);
+        const afterIds = new Set(state.journal.entries.map((e) => e.id));
+        added = [...afterIds].filter((id) => !beforeIds.has(id)).length;
+        removed = [...beforeIds].filter((id) => !afterIds.has(id)).length;
+        return true;
+      }, () => {
+        toast(`Merged: ${added} added${removed ? `, ${removed} removed by newer deletions` : ''}.`);
+        render();
+      });
     } }),
     syncer.record() ? null : h('button', { class: 'btn quiet', type: 'button', text: 'Replace…', onclick: () => {
       box.replaceChildren(h('span', { text: 'Replace deletes this browser’s journal (a snapshot is kept). Sure?' }),
         h('button', { class: 'btn red', type: 'button', text: 'Replace', onclick: () => {
-          if (!snapshot(state.journal)) { toast('Could not save a snapshot (storage full). Export first, then replace.', { warn: true, ms: 7000 }); return; }
-          state.journal = replaceJournal(state.journal, incoming);
-          if (state.persist()) toast('Replaced. The previous journal is saved — use “Restore” on this page to bring it back.');
-          render();
+          // The snapshot is written inside the change, so it goes through the same gate as the save.
+          state.change(() => {
+            if (!snapshot(state.journal)) return false;
+            state.journal = replaceJournal(state.journal, incoming);
+            return true;
+          }, () => {
+            toast('Replaced. The previous journal is saved — use “Restore” on this page to bring it back.');
+            render();
+          }, 'Could not save a snapshot (storage full). Export first, then replace.');
         } }),
         h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => box.remove() }));
     } }),

@@ -64,13 +64,13 @@ export function lineNames(lines) {
 }
 
 /** A persistent "Update ready" banner that other toasts cannot replace. */
-export function showUpdate(onRefresh) {
+export function showUpdate(onRefresh, { text = 'Update ready. ', label = 'Refresh' } = {}) {
   let el = document.getElementById('update');
   if (!el) {
     el = h('div', { id: 'update', role: 'status' });
     document.body.append(el);
   }
-  el.replaceChildren('Update ready. ', h('button', { type: 'button', text: 'Refresh', onclick: () => { el.remove(); onRefresh(); } }));
+  el.replaceChildren(text, h('button', { type: 'button', text: label, onclick: () => { el.remove(); onRefresh(); } }));
 }
 
 let toastTimer;

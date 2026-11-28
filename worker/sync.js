@@ -78,8 +78,8 @@ async function startSession(db, userId, now) {
   return setCookie(token);
 }
 
-/** The signed-in account, or null. Slides the expiry at most once a day. */
-async function currentUser(request, db, now) {
+/** The signed-in account, or null. With `slide`, moves the expiry on at most once a day. */
+async function currentUser(request, db, now, slide = false) {
   const token = readCookie(request);
   if (!token) return null;
   const hash = await sha256(token);
@@ -88,7 +88,7 @@ async function currentUser(request, db, now) {
   ).bind(hash, now).first();
   if (!row) return null;
   let cookie = null;
-  if (now - row.refreshed > DAY) {
+  if (slide && now - row.refreshed > DAY) {
     await db.prepare('UPDATE sessions SET expires = ?, refreshed = ? WHERE token_hash = ?').bind(now + SESSION_DAYS * DAY, now, hash).run();
     cookie = setCookie(token);
   }
@@ -194,12 +194,14 @@ async function loginVerify(request, env, lib, now) {
     newCounter = r.authenticationInfo.newCounter;
   } catch { return err(400, 'verify'); }
   // A counter must move up. Two logins can check against the same stored counter; only the one that still
-  // raises it here gets a session. A passkey that always sends 0 (many do) has nothing to raise.
+  // raises it here gets a session. A passkey that always sends 0 (many do) has nothing to raise: its login
+  // counts only while the stored counter is still 0, checked in the same statement (another login may have
+  // raised it since the read above).
   const next = newCounter || 0;
-  if (next > 0 || cred.counter > 0) {
-    const res = await db.prepare('UPDATE credentials SET counter = ? WHERE id = ? AND counter < ?').bind(next, cred.id, next).run();
-    if (res.meta?.changes !== 1) return err(400, 'verify');
-  }
+  const res = next > 0
+    ? await db.prepare('UPDATE credentials SET counter = ? WHERE id = ? AND counter < ?').bind(next, cred.id, next).run()
+    : await db.prepare('UPDATE credentials SET counter = 0 WHERE id = ? AND counter = 0').bind(cred.id).run();
+  if (res.meta?.changes !== 1) return err(400, 'verify');
   const cookie = await startSession(db, cred.user_id, now);
   return json({ account: { id: cred.user_id, label: cred.label } }, 200, { 'set-cookie': cookie });
 }
@@ -297,15 +299,20 @@ export async function handleApi(request, env, { lib = LIB, now = Date.now() } = 
       case 'POST /api/auth/login/verify': return await loginVerify(request, env, lib, now);
       default: break;
     }
-    const user = await currentUser(request, env.tao_sync, now);
-    const withCookie = (res) => { if (user?.cookie && !res.headers.has('set-cookie')) res.headers.set('set-cookie', user.cookie); return res; };
-    if (route === 'GET /api/session') return withCookie(json({ account: user ? { id: user.id, label: user.label } : null }));
+    // The daily refresh happens only on GET /api/session, which the app sends once at start. A sync or
+    // delete answer can arrive after the browser signed in again, and its old token would replace the new
+    // session cookie.
+    const session = route === 'GET /api/session';
+    const user = await currentUser(request, env.tao_sync, now, session);
+    if (session) return json({ account: user ? { id: user.id, label: user.label } : null }, 200, user?.cookie ? { 'set-cookie': user.cookie } : {});
     if (route === 'POST /api/auth/logout') {
       if (user) await env.tao_sync.prepare('DELETE FROM sessions WHERE token_hash = ?').bind(user.hash).run();
       return json({ ok: true }, 200, { 'set-cookie': clearCookie });
     }
-    if (!user) return json({ error: 'signed-out' }, 401, { 'set-cookie': clearCookie });
-    if (route === 'POST /api/journal/sync') return (await overLimit(env.SYNC_LIMIT, request, env)) || withCookie(await sync(request, env, user, now));
+    // No clear-cookie here: this answer can arrive after the browser signed in again, and must not end that
+    // newer session. Only logout and a successful delete clear the cookie.
+    if (!user) return err(401, 'signed-out');
+    if (route === 'POST /api/journal/sync') return (await overLimit(env.SYNC_LIMIT, request, env)) || await sync(request, env, user, now);
     return (await overLimit(env.SYNC_LIMIT, request, env)) || await deleteAccount(request, env, user);
   } catch {
     return err(500, 'server'); // never echo the body: it may hold journal text

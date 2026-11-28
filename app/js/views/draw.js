@@ -66,6 +66,7 @@ function recentList(idx) {
 
 async function run(root) {
   const myRun = ++activeRun;
+  const change = state.editor(); // the draw belongs to the account signed in when it started
   const result = drawTetragram();
   let skip = reduced();
   const wait = (ms) => (skip ? Promise.resolve() : new Promise((r) => setTimeout(r, ms)));
@@ -123,9 +124,10 @@ async function run(root) {
     await wait(900);
   }
 
-  const d = recordDraw(state.journal, { passage: result.n, lines: result.lines, bundles: result.casts.map((x) => x.bundles) });
+  // The draw is made now, so its id is in the link; during a removal in another tab it is saved later.
+  const d = recordDraw({ draws: [] }, { passage: result.n, lines: result.lines, bundles: result.casts.map((x) => x.bundles) });
+  change(() => { state.journal.draws.push(d); return true; });
   track('draw', result.n);
-  state.persist();
   skipBtn.remove();
   build.replaceChildren(h('div', { class: 'badge' }, tetragram(result.lines, { size: 92, label: lineNames(result.lines) }), h('span', { class: 'num', text: `${result.n}` })));
   status.textContent = `Passage ${result.n}.`;

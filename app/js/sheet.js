@@ -4,6 +4,7 @@
 import { h, clear } from './ui.js';
 
 let stack = [];
+let shown = null; // the stack level whose body is on screen
 let root, scrim, panel, titleEl, kindEl, crumbsEl, bodyEl, backBtn, lastFocus, closeTimer;
 
 // True when the current history entry is the one we pushed for the top level.
@@ -160,6 +161,8 @@ function render() {
   titleEl.textContent = top.title || '';
   backBtn.hidden = stack.length < 2;
   renderCrumbs();
+  leave();
+  shown = top;
   clear(bodyEl).append(top.build());
   bodyEl.scrollTop = 0;
 }
@@ -177,10 +180,12 @@ function pulse(msg) {
 
 /**
  * build: () => Node. Pushes onto the stack (so chained notes can go back).
+ * onClose: () => void, optional. Runs each time this level's body leaves the screen (the sheet closes, or
+ * another level or a new build replaces it). A level shown again runs build() again.
  * key: names what the sheet shows (e.g. "char:道"). Opening a key that is already open does not nest:
  * the current sheet blinks and says so; a key deeper in the trail jumps back to that level.
  */
-export function openSheet({ title, kind, build, key }) {
+export function openSheet({ title, kind, build, key, onClose }) {
   ensure();
   clearTimeout(closeTimer);
   const opening = stack.length === 0 || !panel.isConnected;
@@ -189,7 +194,7 @@ export function openSheet({ title, kind, build, key }) {
     if (at === stack.length - 1) { pulse('You are already here.'); return; }
     if (at >= 0) { jumpTo(at + 1); setTimeout(() => pulse('Back to this one.'), 120); return; }
   }
-  stack.push({ title, kind, build, key });
+  stack.push({ title, kind, build, key, onClose });
   if (pending) queued++; else history.pushState({ sheet: stack.length }, '');
   render();
   if (opening) {
@@ -215,8 +220,16 @@ function jumpTo(depth) {
 
 function back() { jumpTo(stack.length - 1); }
 
+// The body on screen goes away (another level replaces it, or the sheet closes): tell its level.
+function leave() {
+  const was = shown;
+  shown = null;
+  was?.onClose?.();
+}
+
 function hide() {
   clearHint();
+  leave();
   stack = []; queued = 0;
   scrim.classList.remove('in');
   panel.classList.remove('in');

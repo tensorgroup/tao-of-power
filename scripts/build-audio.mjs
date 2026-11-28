@@ -1,9 +1,9 @@
 // Record the Listen read-aloud audio: one MP3 per passage + timings in listen.json.
 // Chinese: Google TTS with SSML marks. English: Chirp 3 HD markup, word times from Speech-to-Text.
 // The whole command line is checked before anything is read, written, or sent; a recording or a drop holds the
-// lock file .listen.lock beside the app folder, so two runs never write the manifest at once.
+// lock folder .listen.lock.d beside the app folder, so two runs never write the manifest at once.
 // Usage: node scripts/build-audio.mjs [--en] [N... | --all] | [--en] --drop N | --list N | --no-force --out <path> N
-import { readFileSync, writeFileSync, renameSync, readdirSync, unlinkSync, existsSync, mkdirSync, statSync, linkSync } from 'node:fs';
+import { readFileSync, writeFileSync, renameSync, readdirSync, unlinkSync, existsSync, mkdirSync, rmSync } from 'node:fs';
 import { randomBytes } from 'node:crypto';
 import { createHash } from 'node:crypto';
 import { execFileSync, spawnSync } from 'node:child_process';
@@ -383,58 +383,31 @@ export function parseArgs(args) {
   return cmd;
 }
 
-const alive = (pid) => {
-  if (!Number.isInteger(pid) || pid <= 0) return false;
-  try { process.kill(pid, 0); return true; } catch (e) { return e.code === 'EPERM'; } // EPERM: it runs, as another user
-};
-
-const FRESH_MS = 5000; // a lock file this new may belong to a run that has not written its pid yet
-
 /**
- * One recording or drop at a time: a lock file next to the app folder (outside it, so it is never deployed),
- * holding the pid and a random token of this run. A lock whose process is gone is taken over. Returns a release
- * function, or null while another run holds it.
- * Takeover of a stale lock: the run renames it to a name of its own, checks that the moved file still holds
- * the text it read, and then creates the new lock with 'wx'. release() removes the lock only while it still
- * holds this run's pid and token.
- * This is not fully safe against two runs at once. rename acts on the path, not on the file that was read, so
- * a narrow race remains: a run can move a lock that another run made after the read, and two runs can then
- * both go on. The check after the rename makes this rare, not impossible. Start one recording run at a time.
+ * One recording or drop at a time. The lock is the folder `<file>.d` next to the app folder (outside it, so it
+ * is never deployed). mkdir is atomic: only one run can make the folder. It holds `owner`: pid, start time,
+ * and a random token. A run that finds the folder refuses. Nothing removes it automatically, also when its run
+ * crashed: the reader removes it by hand (lockMessage). Returns a release function, or null while the folder
+ * exists. release() removes the folder only while its owner file still holds this run's token.
  */
 export function takeLock(file) {
-  const mine = `${process.pid}\n${randomBytes(8).toString('hex')}\n`;
-  const create = () => {
-    writeFileSync(file, mine, { flag: 'wx' });
-    return () => {
-      let now = null;
-      try { now = readFileSync(file, 'utf8'); } catch { return; } // gone already
-      if (now === mine) { try { unlinkSync(file); } catch { /* gone already */ } }
-    };
+  const dir = `${file}.d`;
+  const mine = `${process.pid}\n${new Date().toISOString()}\n${randomBytes(8).toString('hex')}\n`;
+  try { mkdirSync(dir); } catch (e) { if (e.code === 'EEXIST') return null; throw e; }
+  writeFileSync(join(dir, 'owner'), mine);
+  return () => {
+    try { if (readFileSync(join(dir, 'owner'), 'utf8') === mine) rmSync(dir, { recursive: true, force: true }); } catch { /* gone already */ }
   };
-  for (let tries = 0; tries < 3; tries++) {
-    try { return create(); } catch (e) { if (e.code !== 'EEXIST') throw e; }
-    let text, age;
-    try { text = readFileSync(file, 'utf8'); age = Date.now() - statSync(file).mtimeMs; } catch { continue; } // released meanwhile: try again
-    if (age < FRESH_MS) return null; // new, perhaps still empty: its run is starting
-    const pid = Number(text.split('\n')[0].trim());
-    if (text.trim() && alive(pid)) return null;
-    // Stale: move it aside under a name of our own, then check that it is still the stale lock we read.
-    const aside = `${file}.stale.${process.pid}.${randomBytes(4).toString('hex')}`;
-    try { renameSync(file, aside); } catch { continue; } // another run moved it first: try again
-    let moved = null;
-    try { moved = readFileSync(aside, 'utf8'); } catch { /* cannot happen: the name is ours */ }
-    if (moved !== text) {
-      // We moved a lock that another run made after our read. Give it back (link fails when a lock is there).
-      try { linkSync(aside, file); } catch { /* a newer lock is in place */ }
-      try { unlinkSync(aside); } catch { /* ignore */ }
-      return null;
-    }
-    try { unlinkSync(aside); } catch { /* ignore */ }
-  }
-  return null;
+}
+
+/** What to tell the reader when the lock folder exists: its owner (pid, start time) and how to clear it. */
+export function lockMessage(file) {
+  const dir = `${file}.d`;
+  let pid = '?', at = '?';
+  try { [pid = '?', at = '?'] = readFileSync(join(dir, 'owner'), 'utf8').split('\n'); } catch { /* a run that crashed before it wrote the file */ }
+  return `another recording run (pid ${pid || '?'}, started ${at || '?'}) holds ${dir}. If no recording run is active, remove ${dir} by hand.`;
 }
 const LOCK = join(app, '..', '.listen.lock');
-const heldBy = (file) => { try { return readFileSync(file, 'utf8').split('\n')[0].trim() || '?'; } catch { return '?'; } };
 
 /** --drop N: remove the entry of passage N in one language and its files. */
 function drop(n, key) {
@@ -462,7 +435,7 @@ export async function main(argv) {
   const en = !!cmd.en;
   const key = en ? 'en' : 'zh';
   const release = cmd.mode === 'plain' ? () => {} : takeLock(LOCK); // a plain test take writes no manifest
-  if (!release) { console.error(`another recording run (pid ${heldBy(LOCK)}) holds ${LOCK}; wait for it to end`); return 1; }
+  if (!release) { console.error(lockMessage(LOCK)); return 1; }
   try {
     if (cmd.mode === 'drop') return drop(cmd.n, key);
     return await recordAll(cmd, key);

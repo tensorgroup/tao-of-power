@@ -2,8 +2,10 @@
 import { h, clear, toast, showUpdate } from './ui.js';
 import { closeAll } from './sheet.js';
 import * as journalStore from './journal.js';
-import { makeSyncer, available as passkeysAvailable, REC } from './sync.js';
-import { discardDrafts } from './drafts.js';
+import { makeSyncer, available as passkeysAvailable, REC, WIPED, BLOCKED } from './sync.js';
+import { setDraftGate, typedText } from './drafts.js';
+import { makeState } from './store.js';
+import { controllerChange } from './sw-update.js';
 import { drawView } from './views/draw.js';
 import { passageView } from './views/passage.js';
 import { journalView } from './views/journal.js';
@@ -20,17 +22,16 @@ import { initInstall, sharePage } from './share.js';
 initInstall(); // before any await, so the browser's install offer is caught
 document.getElementById('share-btn')?.addEventListener('click', sharePage);
 
-export const state = {
-  journal: journalStore.load(),
-  persist() {
-    // Merge with what is stored: another tab may have saved since this tab last loaded.
-    state.journal = journalStore.merge(state.journal, journalStore.load());
-    const r = journalStore.save(state.journal);
-    if (!r.ok) toast(`Could not save: ${r.error}. Export your journal now.`, { warn: true, ms: 8000 });
-    else { askPersistentStorage(); syncer.syncNow(); }
-    return r.ok;
-  },
-};
+// state.change(fn, after) is the one way to change and save the journal (store.js). Every save, every draft
+// write, and every snapshot write goes through syncer.gate(): while a tab removes the journal, it waits.
+export const state = makeState({
+  load: () => journalStore.load(),
+  save: (j) => journalStore.save(j),
+  gate: (fn, st) => syncer.gate(fn, st),
+  stamp: () => syncer.stamp(), // an editor's saves carry it: another account never receives them (sync.js)
+  toast,
+  onSaved: () => { askPersistentStorage(); syncer.syncNow(); },
+});
 
 // Optional passkey sync. A sync saves straight to storage (not persist), so it never triggers itself.
 const lsProxy = {
@@ -55,6 +56,11 @@ export const syncer = makeSyncer({
   },
   snapshot: (j) => journalStore.snapshot(j),
   wipe: wipeLocal,
+  reload: () => { state.journal = journalStore.load(); },
+  onDefer: () => toast('Another tab is removing the journal from this browser. This will be saved when it is done.', { warn: true, ms: 8000 }),
+  // While a save waits, closing or reloading the tab would lose it: the browser asks first.
+  onWaiting: (on) => { if (on) addEventListener('beforeunload', askFirst); else removeEventListener('beforeunload', askFirst); },
+  onBlocked: () => toast(BLOCKED, { warn: true, ms: 12000 }),
   locks: navigator.locks, // one sign-out or delete at a time across tabs
   onChange: (detail) => {
     if (detail.expired) toast('Signed out of sync. Sign in again on the Journal page.', { warn: true, ms: 6000 });
@@ -62,6 +68,8 @@ export const syncer = makeSyncer({
     dispatchEvent(new CustomEvent('tao:sync', { detail }));
   },
 });
+
+function askFirst(e) { e.preventDefault(); e.returnValue = ''; }
 
 /** "Remove it from this browser" also removes the Replace snapshot and unsent drafts. Only the tab that runs it calls this (sync.js). */
 function wipeLocal() {
@@ -74,19 +82,39 @@ function wipeLocal() {
 }
 
 /**
- * "Remove it from this browser", in this tab or another: build the page again from the emptied journal, so no
- * entry or unsaved draft stays on screen and no open text box saves one back. First every open editor is
- * discarded without a save (its timers stop), then the journal is read again, then the router builds the page
- * (the hashchange event also stops a playing Listen row). Storage is never removed here: only the tab that
- * ran the wipe removes it (sync.js calls wipeLocal). A late WIPED event (a frozen tab that wakes up) so cannot
- * delete a draft or a Replace snapshot made after the wipe.
+ * "Remove it from this browser", in this tab or another. The journal in memory was read again already (the
+ * syncer did it). A text box that holds typed text keeps it: the page is not built again, and the reader is
+ * told. Its draft writer writes the draft again only after the reader types again (drafts.js). With no typed text, the router builds
+ * the page from the emptied journal (the hashchange event also stops a playing Listen row). Storage is never
+ * removed here: only the tab that ran the wipe removes it (sync.js calls wipeLocal).
  */
 function afterWipe() {
-  discardDrafts();
-  state.journal = journalStore.load();
+  if (typedText()) {
+    toast('The journal was removed from this browser in another tab. Your unsaved text is still here; Save keeps it.', { warn: true, ms: 10000 });
+    return;
+  }
   dispatchEvent(new HashChangeEvent('hashchange'));
 }
 syncer.onWipedElsewhere(afterWipe);
+setDraftGate((fn) => syncer.gate(fn), () => { try { return localStorage.getItem(WIPED); } catch { return null; } });
+
+// While a passkey sign-in or sign-up runs, the Journal page is not built again from another tab's change (its
+// account prompt must stay on screen). A change skipped meanwhile builds the page when the ceremony ends.
+let signingIn = 0;
+let skipped = false;
+export async function duringSignIn(fn) {
+  signingIn++;
+  try { return await fn(); } finally {
+    if (!--signingIn && skipped) { skipped = false; rebuildJournal(); }
+  }
+}
+// Another tab changed the journal or the account: build the Journal page again, but never over typed text
+// (an open entry edit has no draft). The save or cancel that ends the edit builds it anyway.
+function rebuildJournal() {
+  if (location.hash !== '#/journal') return;
+  if (signingIn) skipped = true;
+  else if (!typedText()) route();
+}
 
 let asked = false;
 function askPersistentStorage() {
@@ -146,12 +174,15 @@ addEventListener('hashchange', route);
 // the sync account and replace the journal, and a sync from this tab must not send the old account's journal.
 addEventListener('storage', (e) => {
   if (e.key === journalStore.KEY) {
-    state.journal = journalStore.load();
-    if (location.hash === '#/journal') route();
-  } else if (e.key === REC && location.hash === '#/journal' && accountOf(e.oldValue) !== accountOf(e.newValue)) {
-    route(); // signed in or out in another tab: Export, the backup note and the Sync section all change
+    syncer.reloadJournal(); // memory now belongs to the account signed in now
+    rebuildJournal();
+  } else if (e.key === REC && accountOf(e.oldValue) !== accountOf(e.newValue)) {
+    rebuildJournal(); // signed in or out in another tab: Export, the backup note and the Sync section all change
   }
 });
+// Back from the back-forward cache: storage events were missed. Read the journal again if another tab removed
+// it or changed the account, before any sync sends it.
+addEventListener('pageshow', (e) => { if (e.persisted) syncer.catchUp(); });
 await Promise.all([getGlossary().then(setGlossary), getRareGlyphs().then(setRareGlyphs)]);
 route();
 
@@ -164,8 +195,9 @@ if (passkeysAvailable() || syncer.record()) {
 // Service worker: offline + update flow.
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
   const hadController = !!navigator.serviceWorker.controller; // first visit: no reload on claim
+  let refreshedHere = false; // this tab's reader tapped Refresh: only this tab reloads by itself
   navigator.serviceWorker.register('sw.js').then((reg) => {
-    const offer = (w) => showUpdate(() => w.postMessage('skipWaiting'));
+    const offer = (w) => showUpdate(() => { refreshedHere = true; w.postMessage('skipWaiting'); });
     if (reg.waiting && navigator.serviceWorker.controller) offer(reg.waiting);
     reg.addEventListener('updatefound', () => {
       const w = reg.installing;
@@ -174,13 +206,18 @@ if ('serviceWorker' in navigator && location.protocol === 'https:') {
       });
     });
   }).catch(() => {});
-  let reloading = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => {
-    if (reloading || !hadController) return;
-    reloading = true;
-    location.reload();
-  });
+  navigator.serviceWorker.addEventListener('controllerchange', controllerChange({
+    hadController, chosen: () => refreshedHere, reload: () => location.reload(), onOther: offerReload,
+  }));
   navigator.serviceWorker.addEventListener('message', (e) => {
     if (e.data === 'incomplete') toast('Offline copy incomplete. It will retry next time.', { warn: true });
   });
+}
+
+/** Another tab installed an update. Reload only when the reader taps Reload; ask first over unsaved text. */
+function offerReload() {
+  showUpdate(() => {
+    if (!typedText()) { location.reload(); return; }
+    showUpdate(() => location.reload(), { text: 'This page holds text that is not saved. Reload anyway? ', label: 'Reload' });
+  }, { text: 'A new version is ready. Reload when you are done. ', label: 'Reload' });
 }

@@ -8,8 +8,8 @@ import { isHan, passageChars, segmentsFor, plainLine, wordsOf } from '../markup.
 import { planLine, wrapWords, wordCell } from '../words.js';
 import { state } from '../app.js';
 import { syncCard } from './sync-ui.js';
-import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
-import { draftWriter } from '../drafts.js';
+import { addEntry, saveDraft, loadDraft, saveDraftQ, loadDraftQ } from '../journal.js';
+import { draftWriter, releaseDrafts, typedText } from '../drafts.js';
 import { entryList } from './journal.js';
 import { marginTabs } from '../margin.js';
 import { brushPanel } from '../brush.js';
@@ -541,22 +541,23 @@ function questionSection(qs, jbox) {
   return box;
 }
 
-// One set of global listeners saves whichever draft is on screen. Leaving the page saves it once and ends
-// its writer, so the 600 ms timer cannot write it again later (after a wipe, say). discardDrafts() (drafts.js)
-// ends it without a save.
-let current = null;
-addEventListener('pagehide', () => current?.flush());
-document.addEventListener('visibilitychange', () => { if (document.hidden) current?.flush(); });
-addEventListener('hashchange', () => { current?.flush(); current?.release(); current = null; });
+// One set of global listeners saves the drafts on screen (the text box and the question line). Leaving the
+// page writes what is unsaved and ends every writer (releaseDrafts), so a timer cannot write later.
+let current = [];
+addEventListener('pagehide', () => { for (const w of current) w.flush(); });
+document.addEventListener('visibilitychange', () => { if (document.hidden) for (const w of current) w.flush(); });
+addEventListener('hashchange', () => { releaseDrafts(); current = []; });
+
+const qText = (q) => (q ? JSON.stringify({ id: q.id, claim: q.claim }) : ''); // '' is "no draft", as for text
 
 function journalBox(n, draw) {
   const ta = keepAboveKeyboard(h('textarea', { id: 'jtext', 'aria-label': 'Your thoughts on this passage', placeholder: 'What arises?' }));
   ta.value = loadDraft(n);
   let q = loadDraftQ(n);
-  current?.release();
-  const writer = draftWriter(() => saveDraft(n, ta.value), { delay: 600 });
-  current = writer;
-  const qWriter = draftWriter(() => saveDraftQ(n, q)); // the question line: also stopped by discardDrafts()
+  for (const w of current) w.release();
+  const writer = draftWriter({ load: () => loadDraft(n), save: (v) => saveDraft(n, v), value: () => ta.value, delay: 600 });
+  const qWriter = draftWriter({ load: () => qText(loadDraftQ(n)), save: (v) => saveDraftQ(n, v ? JSON.parse(v) : null), value: () => qText(q) });
+  current = [writer, qWriter];
   const qLine = h('div', { class: 'jq', hidden: true });
   const showQ = () => {
     qLine.hidden = !q;
@@ -566,12 +567,26 @@ function journalBox(n, draw) {
   showQ();
   ta.addEventListener('input', () => writer.schedule());
   const list = h('div');
-  const refresh = () => list.replaceChildren(entryList(state.journal.entries.filter((e) => e.passage === n && !e.at), { showPassage: false, onChange: refresh }));
+  // Built again after a save, but never over an open entry edit with typed text (that edit has no draft).
+  const refresh = () => { if (!typedText(list)) list.replaceChildren(entryList(state.journal.entries.filter((e) => e.passage === n && !e.at), { showPassage: false, onChange: refresh })); };
+  // During a removal in another tab the save waits (store.js): the text and its draft stay until it is saved.
+  // Then each is cleared only if it still holds what was saved (the reader may have typed on).
+  const change = state.editor(); // the box belongs to the account it opened under (with its question line)
   const save = () => {
-    const text = ta.value.trim();
+    const raw = ta.value;
+    const text = raw.trim();
     if (!text) { ta.focus(); return; }
-    addEntry(state.journal, { passage: n, text, drawId: draw?.id, q });
-    if (state.persist()) { track('journal-save', n); ta.value = ''; q = null; clearDraft(n); showQ(); toast('Saved.'); refresh(); }
+    writer.flush();
+    const asked = q;
+    change(() => addEntry(state.journal, { passage: n, text, drawId: draw?.id, q: asked }), () => {
+      track('journal-save', n);
+      writer.clearIf(raw);
+      if (ta.value === raw) ta.value = '';
+      qWriter.clearIf(qText(asked));
+      if (q === asked) { q = null; showQ(); }
+      toast('Saved.');
+      refresh();
+    });
   };
   refresh();
   const el = h('section', { class: 'jbox', 'aria-label': 'Journal', 'data-mark': 'sec:journal' },

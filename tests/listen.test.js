@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { SETTINGS, resolveReading, needsDecision, buildSsml, sourceHash, validateReadings, validateGlobalReadings, forcedReadings } from '../scripts/lib/listen-ssml.mjs';
-import { mkdtempSync, writeFileSync, readFileSync, readdirSync, existsSync, rmSync, utimesSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, readdirSync, existsSync, rmSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -112,7 +112,7 @@ test('forcedReadings lists every forced character with place, context, reading, 
   assert.ok(rows[4].ctx.includes('長長'));
 });
 
-import { joinTimes, parseWav, parseArgs, takeLock, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage, enTimes, enCheckTimes, spreadTimes } from '../scripts/build-audio.mjs';
+import { joinTimes, parseWav, parseArgs, takeLock, lockMessage, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage, enTimes, enCheckTimes, spreadTimes } from '../scripts/build-audio.mjs';
 import { SETTINGS_EN, enSourceHash, enSource } from '../scripts/lib/listen-en.mjs';
 
 test('joinTimes shifts later parts by the samples before them', () => {
@@ -446,59 +446,12 @@ test('build-audio: a bad command line returns 2 with one line, before any file i
     assert.match(lines[0], /Usage/);
   } finally { console.error = saved; }
 });
-test('a second run refuses while the lock pid lives; a stale lock is taken over', () => {
-  const dir = mkdtempSync(join(tmpdir(), 'tao-lock-'));
-  const lock = join(dir, '.listen.lock');
-  try {
-    const release = takeLock(lock);
-    assert.equal(readFileSync(lock, 'utf8').split('\n')[0], String(process.pid)); // then this run's token
-    assert.equal(takeLock(lock), null, 'this process still lives: refused');
-    release();
-    assert.equal(existsSync(lock), false);
-    writeFileSync(lock, '2147483646\n'); // no such process
-    const old = (Date.now() - 60000) / 1000;
-    utimesSync(lock, old, old); // a lock under 5 s old counts as held: its run may still be starting
-    const again = takeLock(lock);
-    assert.equal(typeof again, 'function', 'a stale lock is taken over');
-    assert.equal(readFileSync(lock, 'utf8').split('\n')[0], String(process.pid)); // then this run's token
-    again();
-  } finally { rmSync(dir, { recursive: true, force: true }); }
-});
-
 test('parseArgs refuses a passage number outside 1-81', () => {
   for (const args of [['0'], ['82'], ['3', '100'], ['--drop', '0'], ['--en', '--drop', '82'], ['--list', '99'], ['--no-force', '--out', 'x.mp3', '0']]) {
     assert.match(parseArgs(args).error || '', /from 1 to 81/, args.join(' '));
   }
   assert.deepEqual(parseArgs(['1', '81']).nums, [1, 81]);
 });
-test('a lock file that is new (or empty and new) counts as held; an old empty one is taken over', () => {
-  const dir = mkdtempSync(join(tmpdir(), 'tao-lock-'));
-  const lock = join(dir, '.listen.lock');
-  try {
-    writeFileSync(lock, '2147483646\n'); // a dead pid, but written just now
-    assert.equal(takeLock(lock), null, 'new: held');
-    writeFileSync(lock, ''); // a run between create and write
-    assert.equal(takeLock(lock), null, 'empty and new: held');
-    const old = (Date.now() - 60000) / 1000;
-    utimesSync(lock, old, old);
-    const mine = takeLock(lock);
-    assert.equal(typeof mine, 'function', 'old and empty: no run holds it');
-    mine();
-    assert.equal(existsSync(lock), false);
-    assert.deepEqual(readdirSync(dir), [], 'no renamed stale file is left behind');
-  } finally { rmSync(dir, { recursive: true, force: true }); }
-});
-test('release removes the lock only while it is still this run\'s', () => {
-  const dir = mkdtempSync(join(tmpdir(), 'tao-lock-'));
-  const lock = join(dir, '.listen.lock');
-  try {
-    const release = takeLock(lock);
-    writeFileSync(lock, '12345\nother-run\n'); // another run took it over meanwhile
-    release();
-    assert.equal(readFileSync(lock, 'utf8'), '12345\nother-run\n', 'the other run keeps its lock');
-  } finally { rmSync(dir, { recursive: true, force: true }); }
-});
-
 // ---- A new take must pass the checker's timing rules before it replaces anything ----
 
 test('timingErrors refuses English words under 30 ms apart', () => {
@@ -511,4 +464,37 @@ test('enTimes throws when spreadTimes leaves words under 30 ms apart', () => {
   const words = ['a', 'b', 'c', 'd', 'e', 'f'];
   const heard = words.map((word, i) => ({ word, start: [0.2, 0.201, 0.202, 0.203, 0.204, 0.3][i] }));
   assert.throws(() => enTimes(words, heard, 5, 'p'), /p: words 0 and 1 start 0\.0\d+ s apart \(under 0\.03 s\)[\s\S]*nothing written/);
+});
+test('S7: the recording lock is a folder made with mkdir: a second run refuses, even when the first one crashed', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tao-lock-'));
+  const lock = join(dir, '.listen.lock');
+  try {
+    const release = takeLock(lock);
+    assert.equal(typeof release, 'function');
+    const [pid, at] = readFileSync(join(`${lock}.d`, 'owner'), 'utf8').split('\n');
+    assert.equal(pid, String(process.pid));
+    assert.ok(!Number.isNaN(Date.parse(at)), 'the start time');
+    assert.equal(takeLock(lock), null, 'held: refused');
+    const msg = lockMessage(lock);
+    assert.match(msg, new RegExp(`pid ${process.pid}`));
+    assert.ok(msg.endsWith(`If no recording run is active, remove ${lock}.d by hand.`), msg);
+    release();
+    assert.deepEqual(readdirSync(dir), []);
+    // A crashed run leaves its folder (a dead pid, long ago): it is never taken over.
+    mkdirSync(`${lock}.d`);
+    writeFileSync(join(`${lock}.d`, 'owner'), '2147483646\n2020-01-01T00:00:00.000Z\nold\n');
+    assert.equal(takeLock(lock), null);
+    assert.equal(existsSync(`${lock}.d`), true, 'left for the reader to remove');
+    assert.equal(existsSync(`${lock}.takeover`), false, 'no takeover file');
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+test('S7: release removes the lock folder only while it holds this run\'s token', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tao-lock-'));
+  const lock = join(dir, '.listen.lock');
+  try {
+    const release = takeLock(lock);
+    writeFileSync(join(`${lock}.d`, 'owner'), '12345\n2026-01-01T00:00:00.000Z\nother-run\n'); // removed by hand, taken by another run
+    release();
+    assert.equal(readFileSync(join(`${lock}.d`, 'owner'), 'utf8'), '12345\n2026-01-01T00:00:00.000Z\nother-run\n', 'the other run keeps its lock');
+  } finally { rmSync(dir, { recursive: true, force: true }); }
 });
