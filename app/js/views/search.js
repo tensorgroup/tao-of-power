@@ -1,25 +1,27 @@
 // Search by idea: static-embedding similarity plus exact-word matches, all in the browser.
 import { h, fill } from '../ui.js';
-import { loadModel, rank } from '../search-core.js';
+import { loadModel, makeIndexLoader, searchResults } from '../search-core.js';
 import { getArt, getEchoes, getWing, getPassage } from '../data.js';
 import { openNote, openGlossary } from '../notes.js';
 import { openArt, openStory, openEcho, openWingNote } from './passage.js';
 import { libraryLinks } from './library.js';
 import { track } from '../track.js';
+import { makeSearchCounter } from '../search-count.js';
 
 const MODEL = 'potion-r29k-256-q4';
-let indexP = null;
 let modelP = null;
 
-function loadIndex() {
-  indexP ||= Promise.all([
-    fetch('data/search/index.json').then((r) => { if (!r.ok) throw new Error(`index ${r.status}`); return r.json(); }),
-    fetch('data/search/vecs.bin').then((r) => { if (!r.ok) throw new Error(`vectors ${r.status}`); return r.arrayBuffer(); }),
-  ]).then(([ix, buf]) => ({
-    docs: ix.docs, dim: ix.dim, vecs: new Int8Array(buf), texts: ix.text, titles: ix.docs.map((d) => d.title.toLowerCase()),
-  })).catch((e) => { indexP = null; throw e; });
-  return indexP;
+/** Delete these files from every cache of this site (sw.js keeps the search files in one of them). */
+async function forgetCached(paths) {
+  try {
+    for (const name of await caches.keys()) {
+      const c = await caches.open(name);
+      for (const p of paths) await c.delete(p);
+    }
+  } catch { /* no CacheStorage here (or blocked): the fetch with cache 'reload' still asks the server */ }
 }
+
+const loadIndex = makeIndexLoader({ forget: forgetCached });
 
 function loadSearchModel() {
   modelP ||= Promise.all([
@@ -80,7 +82,6 @@ export async function searchView(initial = '') {
   let index = null;
   let model = null;
   let timer;
-  let searchTimer;
   const input = h('input', {
     type: 'search', id: 'q', enterkeyhint: 'search', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false',
     placeholder: 'An idea, a feeling, a name…', 'aria-label': 'Search by idea or word',
@@ -89,7 +90,7 @@ export async function searchView(initial = '') {
   const status = h('p', { class: 'muted small search-status', role: 'status', 'aria-live': 'polite' });
   const chips = h('div', { class: 'filters', role: 'group', 'aria-label': 'Show' });
   const results = h('ol', { class: 'results' });
-  const suggest = h('p', { class: 'suggest' }, 'Try: ', SUGGEST.map((s) => h('button', { class: 'chip', type: 'button', text: s, onclick: () => { input.value = s; run(); } })));
+  const suggest = h('p', { class: 'suggest' }, 'Try: ', SUGGEST.map((s) => h('button', { class: 'chip', type: 'button', text: s, onclick: () => { input.value = s; search(); } })));
 
   const setStatus = () => {
     if (!index) status.textContent = 'Loading the index…';
@@ -101,24 +102,27 @@ export async function searchView(initial = '') {
     const q = input.value.trim();
     history.replaceState(null, '', q ? `#/search?q=${encodeURIComponent(q)}` : '#/search');
     suggest.hidden = !!q;
-    if (!q || !index) { fill(results); return; }
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => track('search', filter), 1500); // that a search happened, never its words
+    if (!q) { fill(results); setStatus(); return; } // no "2 results" over an empty list
+    if (!index) { fill(results); return; }
     const types = FILTERS.find(([k]) => k === filter)[2];
-    const ranked = rank(model, q, index, { limit: 40, filter: types ? (d) => types.includes(index.docs[d].type) : null });
-    // Relative cutoff: scores vary a lot by query (a Chinese term scores only on exact matches).
-    const top = ranked[0]?.[1] || 0;
-    const shown = ranked.filter(([, s]) => s > 0.01 && s >= Math.max(0.12, top * 0.6));
+    const shown = searchResults(model, q, index, { filter: types ? (d) => types.includes(index.docs[d].type) : null });
     fill(results, ...shown.map(([d]) => resultRow(index.docs[d])));
     if (!shown.length) results.append(h('li', { class: 'muted', text: 'Nothing close. Try other words, or fewer.' }));
-    if (model) status.textContent = shown.length ? `${shown.length} result${shown.length === 1 ? '' : 's'}` : '';
+    if (model) status.textContent = shown.length ? `${shown.length} result${shown.length === 1 ? '' : 's'}` : 'No close matches.';
   };
+  // Only the reader's actions count a search; the index or the model arriving just runs the results again.
+  const counter = makeSearchCounter({ track, onPage: () => input.isConnected && location.hash.startsWith('#/search') });
+  const search = () => { run(); counter.count(input.value.trim(), filter); };
   const drawChips = () => fill(chips, ...FILTERS.map(([k, label]) => h('button', {
-    type: 'button', class: 'chip', 'aria-pressed': String(filter === k), text: label, onclick: () => { filter = k; drawChips(); run(); },
+    type: 'button', class: 'chip', 'aria-pressed': String(filter === k), text: label, onclick: () => { filter = k; drawChips(); search(); },
   })));
   drawChips();
-  input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(run, 160); });
-  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') { clearTimeout(timer); run(); input.blur(); } });
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    if (!input.value.trim()) counter.cancel(); // cleared: a pending count stops now, not after the debounce
+    timer = setTimeout(search, 160);
+  });
+  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') { clearTimeout(timer); search(); input.blur(); } });
 
   setStatus();
   // setTimeout: when the files are already loaded, these resolve before route() attaches the view.
@@ -133,6 +137,6 @@ export async function searchView(initial = '') {
     libraryLinks('search'),
     h('h1', { text: 'Search' }),
     h('p', { class: 'muted', text: 'Search by idea, not only by word: “letting go”, “grief”, “a ruler who taxes too much”. It looks through the passages, notes, questions, stories, art, and echoes. Everything runs on this device.' }),
-    h('form', { class: 'search-box', role: 'search', onsubmit: (e) => { e.preventDefault(); run(); input.blur(); } }, input),
+    h('form', { class: 'search-box', role: 'search', onsubmit: (e) => { e.preventDefault(); search(); input.blur(); } }, input),
     chips, status, suggest, results);
 }

@@ -1,12 +1,25 @@
 // Optional journal sync with a passkey. Off until the reader turns it on.
 // The server merges; this module sends the journal, merges the answer into the
 // current journal (so a save made during the request is kept), and runs again.
-import { merge, syncCore, sameCore, emptyJournal } from './journal.js';
+// Each request names the account it is for: the Worker refuses it under another account's session, and
+// the answer is used only while this browser is still signed in to that account (tabs share one sign-in).
+import { merge, syncCore, sameCore, emptyJournal, load } from './journal.js';
 
 export const REC = 'tao.sync';               // { account, label, at, error } while signed in
-export const LAST = 'tao.sync.last';         // the account this browser last synced with (kept after sign-out)
+export const LAST = 'tao.sync.last';         // the account whose journal this browser holds (kept after sign-out and delete)
 export const DISMISSED = 'tao.sync.dismissed';
+export const WIPED = 'tao.sync.wiped';       // a new value at each "Remove it from this browser": other tabs clear their pages
 const KEEPALIVE_MAX = 60000;                 // browsers cap keepalive bodies at 64 KB
+
+const ENDED = 'Your sync session ended, so nothing was deleted. Sign in again, then delete.';
+const SWITCHED = 'The sync account changed in another tab, so nothing was deleted.';
+const NOT_DELETED = 'The server could not delete the synced copy. Try again later.';
+const NEWER = 'Something new reached the synced copy, so nothing was deleted. Try again.';
+const NOT_SAVED = 'This browser could not save the synced copy, so nothing was deleted. Free some storage, or Export first.';
+const NOT_REMOVED = 'This browser could not remove the journal. Nothing changed.';
+const ENDED_OUT = 'Your sync session ended in another tab, so nothing changed.';
+const SWITCHED_OUT = 'The sync account changed in another tab, so nothing changed.';
+const LOCK = 'tao-sync-account'; // one sign-out or delete at a time, across this browser's tabs
 
 const get = (storage, k) => { try { return storage.getItem(k); } catch { return null; } };
 const put = (storage, k, v) => { try { if (v == null) storage.removeItem(k); else storage.setItem(k, v); } catch {} };
@@ -16,12 +29,27 @@ export const PENDING_LOGOUT = 'tao.sync.logout'; // a sign-out the server has no
 
 const bytes = (s) => new TextEncoder().encode(s).length;
 
-/** Testable core: every browser API is passed in. `wipe()` removes local extras (snapshot, drafts). */
-export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => true, wipe = () => {}, storage, now = () => Date.now(), onChange = () => {} }) {
+/** True when journal `a` holds everything in `b` (b adds nothing to a). */
+const covers = (a, b) => sameCore(merge(a, b), merge(a, emptyJournal()));
+
+/**
+ * Testable core: every browser API is passed in. `wipe()` removes local extras (snapshot, drafts).
+ * `setJournal(j, { replace })` saves j and returns false when it could not.
+ */
+export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => true, wipe = () => {}, storage, now = () => Date.now(), onChange = () => {}, locks = null }) {
   const record = () => { try { return JSON.parse(get(storage, REC) || 'null'); } catch { return null; } };
   const setRecord = (r) => put(storage, REC, r ? JSON.stringify(r) : null);
+  const accountNow = () => record()?.account ?? null;
   let running = null;
   let again = null;
+  let confirmed = null; // { account, journal, rev }: the server's copy in the last answer; the server holds all of it
+  let lastStatus = null; // the HTTP status of the last sync request (0: no answer)
+
+  // Runs fn while no other tab of this browser runs a sign-out or a delete (navigator.locks). Without locks
+  // (old browsers, tests), fn runs at once.
+  const exclusive = (fn) => (locks?.request ? locks.request(LOCK, fn) : fn());
+  // After an await: true when this browser is still signed in to `account`, or to none.
+  const stillOrNone = (account) => { const a = accountNow(); return a === null || a === account; };
 
   async function api(method, path, body, extra = {}) {
     return fetch(path, {
@@ -41,29 +69,46 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
     } catch { /* retried by check() */ }
   }
 
-  /** One request. True when the server copy now holds everything this device had. */
+  /**
+   * One request, for the account signed in when it starts. True when the server copy now holds everything this
+   * device had, and this device saved what the answer brought.
+   */
   async function once({ keepalive = false } = {}) {
     const r = record();
     if (!r) return false;
-    const body = JSON.stringify({ journal: syncCore(getJournal()) });
+    const { account } = r;
+    const body = JSON.stringify({ account, journal: syncCore(getJournal()) });
     const sent = JSON.parse(body).journal; // a copy: saves during the request must not change it
     let res;
+    lastStatus = 0;
     try {
       res = await api('POST', '/api/journal/sync', body, { keepalive: keepalive && bytes(body) < KEEPALIVE_MAX });
     } catch { return false; } // offline: the next trigger retries
-    if (res.status === 401) { setRecord(null); onChange({ signedOut: true, expired: true }); return false; }
-    if (res.status === 413) { setRecord({ ...r, error: 'too-large' }); onChange({ status: true }); return false; }
-    if (!res.ok) return false;
-    let remote;
-    try { ({ journal: remote } = await res.json()); } catch { return false; }
-    if (!record()) return false; // signed out (here or in another tab) while waiting: drop the answer
+    lastStatus = res.status;
+    // Another tab may have signed out, or in to another account, while this request was out: then its answer
+    // (even a 401) is not news about the account signed in now.
+    const still = () => accountNow() === account;
+    if (res.status === 401) { if (still()) { setRecord(null); onChange({ signedOut: true, expired: true }); } return false; }
+    if (res.status === 413) { if (still()) { setRecord({ ...record(), error: 'too-large' }); onChange({ status: true }); } return false; }
+    if (!res.ok) return false; // 409 busy or account-changed, 429, 5xx: nothing merged; the next trigger retries
+    let remote, rev;
+    try { ({ journal: remote, rev } = await res.json()); } catch { return false; }
+    if (!still()) return false; // signed out, or another account now: drop the answer
+    confirmed = { account, journal: remote, rev };
     const cur = getJournal(); // read after the wait: keeps anything saved meanwhile
     const merged = merge(cur, remote);
     const changed = !sameCore(merged, cur);
-    if (changed) setJournal(merged);
-    if (record()) setRecord({ ...record(), at: now(), error: null });
+    const saved = !changed || setJournal(merged) !== false; // false: storage full, so the answer lives in memory only
+    setRecord({ ...record(), at: now(), error: null });
     onChange({ changed, status: true });
-    return sameCore(merge(remote, sent), remote);
+    return saved && sameCore(merge(remote, sent), remote);
+  }
+
+  /** True when everything this browser holds (this tab's journal and the stored one) is in the server copy of the last answer. */
+  function heldOnServer() {
+    if (!confirmed || confirmed.account !== accountNow()) return false;
+    const held = merge(getJournal(), load(storage));
+    return sameCore(merge(confirmed.journal, held), confirmed.journal);
   }
 
   /** One sync at a time; a call during a run queues exactly one more run. Resolves true when the last run reached the server. */
@@ -140,34 +185,106 @@ export function makeSyncer({ fetch, getJournal, setJournal, snapshot = () => tru
   }
 
   /**
-   * Sign out. With `clearLocal`, the journal leaves this browser only after the
-   * server confirms it holds everything; otherwise this throws and nothing changes.
+   * Sign out of `account`, the account the page showed. With `clearLocal` ("Remove it from this browser"), the
+   * journal leaves this browser only after the server confirms it holds everything this browser holds, also
+   * what another tab saved since; otherwise this throws and nothing changes. Then WIPED gets a new value, so
+   * other tabs rebuild their pages (onWipedElsewhere), and onChange gets `wiped`, so this tab does too.
+   * Runs under the account lock, so a delete in another tab cannot run at the same time.
+   * The lock does not cover ordinary saves in another tab (state.persist): a save in the milliseconds between
+   * the last check and the wipe is an accepted race.
    */
-  async function signOut({ clearLocal = false } = {}) {
-    if (clearLocal && !(await syncNow())) {
-      throw new Error('Could not reach the server, so the journal stays in this browser. Try again online, or Export first.');
-    }
-    await logout();
-    setRecord(null);
-    if (clearLocal) { setJournal(emptyJournal(), { replace: true }); wipe(); }
-    onChange({ signedOut: true, changed: clearLocal });
-  }
-
-  async function deleteAccount() {
-    await syncNow(); // bring entries from other devices here first: the server copy is about to go
-    const res = await api('DELETE', '/api/account');
-    if (res.status === 401) {
+  function signOut({ clearLocal = false, account = accountNow() } = {}) {
+    return exclusive(async () => {
+      // Checked again inside the lock: another tab may have signed out, or in to another account, meanwhile.
+      if (accountNow() !== account) throw new Error(account && !record() ? ENDED_OUT : SWITCHED_OUT);
+      if (clearLocal) {
+        if (!(await syncNow())) {
+          throw new Error('Could not reach the server, so the journal stays in this browser. Try again online, or Export first.');
+        }
+        if (accountNow() !== account) throw new Error(SWITCHED_OUT);
+        if (!heldOnServer()) throw new Error('Something new was saved in another tab, so the journal stays in this browser. Try again.');
+        // Save the empty journal first: when storage refuses it, nothing has changed yet.
+        if (setJournal(emptyJournal(), { replace: true }) === false) throw new Error(NOT_REMOVED);
+        setRecord(null); // no tab starts a sync from here on
+        wipe();
+        put(storage, WIPED, `${now()}.${Math.random().toString(36).slice(2)}`);
+        onChange({ signedOut: true, changed: true, wiped: true }); // before the logout wait: no editor here saves meanwhile
+        await logout();
+        return;
+      }
+      await logout();
+      // A late answer: another tab may have signed in to another account meanwhile. Leave that one alone.
+      if (!stillOrNone(account)) return;
       setRecord(null);
       onChange({ signedOut: true });
-      throw new Error('Your sync session ended, so nothing was deleted. Sign in again, then delete.');
-    }
-    if (!res.ok) throw new Error('The server could not delete the synced copy. Try again later.');
-    put(storage, LAST, null); // that account is gone: a new passkey later is not "another account"
-    setRecord(null);
-    onChange({ signedOut: true });
+    });
   }
 
-  return { record, syncNow, adopt, check, signOut, deleteAccount, api };
+  /** The last answer pulled with an empty journal: for a journal too large to upload (413). True when it arrived. */
+  async function pull(account) {
+    let res;
+    try { res = await api('POST', '/api/journal/sync', { account, journal: syncCore(emptyJournal()) }); } catch { return false; }
+    if (res.status === 401) { if (accountNow() === account) { setRecord(null); onChange({ signedOut: true, expired: true }); } return false; }
+    if (!res.ok) return false;
+    let remote, rev;
+    try { ({ journal: remote, rev } = await res.json()); } catch { return false; }
+    if (accountNow() !== account) return false;
+    confirmed = { account, journal: remote, rev };
+    const cur = getJournal();
+    const merged = merge(cur, remote);
+    if (!sameCore(merged, cur)) setJournal(merged);
+    onChange({ changed: !sameCore(merged, cur), status: true });
+    return true;
+  }
+
+  /**
+   * "Delete synced copy" of `account`, the account the page showed. A final sync brings entries from other
+   * devices here first (for a journal too large to upload, a pull only). The server copy is deleted only when
+   * this browser's STORAGE holds everything in that answer, and only while the server still has that answer's
+   * rev (another device may upload after it). LAST stays: the journal here was that account's, so a later
+   * sign-in to another account asks first (merge or keep apart). Runs under the account lock.
+   */
+  function deleteAccount({ account = accountNow() } = {}) {
+    return exclusive(async () => {
+      if (!account || accountNow() !== account) throw new Error(record() ? SWITCHED : ENDED);
+      if (!(await syncNow())) {
+        if (accountNow() !== account) throw new Error(record() ? SWITCHED : ENDED);
+        const pulled = lastStatus === 413 && (await pull(account));
+        if (!pulled) {
+          if (accountNow() !== account) throw new Error(record() ? SWITCHED : ENDED);
+          throw new Error('Could not sync first, so nothing was deleted. Try again online, or Export first.');
+        }
+      }
+      if (!confirmed || confirmed.account !== account || accountNow() !== account) throw new Error(record() ? SWITCHED : ENDED);
+      const { journal: remote, rev } = confirmed;
+      // Memory may hold the answer while storage does not (a save failed on an earlier try): save it again.
+      if (!covers(load(storage), remote)) setJournal(merge(getJournal(), remote));
+      if (!covers(load(storage), remote)) throw new Error(NOT_SAVED);
+      let res;
+      const body = typeof rev === 'number' ? { account, rev } : { account };
+      try { res = await api('DELETE', '/api/account', body); } catch { throw new Error(NOT_DELETED); } // offline: not "Failed to fetch"
+      if (res.status === 401) {
+        if (accountNow() === account) { setRecord(null); onChange({ signedOut: true }); }
+        throw new Error(ENDED);
+      }
+      if (res.status === 409) {
+        let error = null;
+        try { ({ error } = await res.json()); } catch {}
+        throw new Error(error === 'changed' ? NEWER : SWITCHED);
+      }
+      if (!res.ok) throw new Error(NOT_DELETED);
+      if (!stillOrNone(account)) return; // another tab signed in to another account meanwhile: leave it alone
+      setRecord(null);
+      onChange({ signedOut: true });
+    });
+  }
+
+  /** fn() runs in this tab when another tab removed the journal from this browser (signOut with clearLocal). */
+  function onWipedElsewhere(fn, target = globalThis) {
+    target.addEventListener?.('storage', (e) => { if (e.key === WIPED && e.newValue) fn(); });
+  }
+
+  return { record, syncNow, adopt, check, signOut, deleteAccount, onWipedElsewhere, api };
 }
 
 // ---- Browser glue: WebAuthn ceremonies ------------------------------------

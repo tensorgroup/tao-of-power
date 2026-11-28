@@ -43,6 +43,20 @@ export function snapshot(j, storage = ls()) {
   try { storage.setItem(SNAPSHOT_KEY, JSON.stringify(j)); return true; } catch { return false; }
 }
 
+/**
+ * The journal that Replace ("Use only this account's journal") kept aside here, or null when there is none,
+ * it is not valid, or it is empty (no entries and no draws: nothing to restore).
+ * @returns {{ journal: object, entries: number, draws: number } | null}
+ */
+export function keptSnapshot(storage = ls()) {
+  let snap;
+  try { snap = validate(JSON.parse(storage.getItem(SNAPSHOT_KEY) || 'null')); } catch { return null; }
+  if (!snap?.ok) return null;
+  const { entries, draws } = snap.journal;
+  if (!entries.length && !draws.length) return null;
+  return { journal: snap.journal, entries: entries.length, draws: draws.length };
+}
+
 export function addEntry(j, { passage, text, drawId, q, at }, now = new Date().toISOString()) {
   const e = { id: uuid(), createdAt: now, updatedAt: now, passage, text };
   if (drawId) e.drawId = drawId;

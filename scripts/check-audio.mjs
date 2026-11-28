@@ -11,7 +11,29 @@ const app = fileURLToPath(new URL('../app/', import.meta.url));
 const scripts = fileURLToPath(new URL('./', import.meta.url));
 
 /** English word starts closer than this (s) are an error. */
-const MIN_EN_GAP = 0.03;
+export const MIN_EN_GAP = 0.03;
+
+/**
+ * The timing rules of one entry ({ n, t, end }), as error strings: t has n times and count is n, t starts at 0
+ * or later and increases, end is after the last time, and (minGap) no two times are closer than minGap s.
+ * build-audio runs them on a new take before it writes anything, so it never writes what this check refuses.
+ */
+export function timingErrors(label, e, count, unit, { minGap = 0 } = {}) {
+  const errs = [];
+  if (e.t.length !== e.n) errs.push(`${label}: t has ${e.t.length} times, but n is ${e.n}.`);
+  else if (e.n !== count) errs.push(`${label}: n is ${e.n} and t has ${e.t.length} times, but the passage has ${count} ${unit}.`);
+  if (e.t.length && !(e.t[0] >= 0)) errs.push(`${label}: the first time (${e.t[0]}) is before 0.`);
+  for (let i = 1; i < e.t.length; i++) {
+    if (!(e.t[i] > e.t[i - 1])) { errs.push(`${label}: t does not increase at mark ${i}.`); break; }
+  }
+  if (e.t.length && !(e.end > e.t[e.t.length - 1])) errs.push(`${label}: end (${e.end}) is not after the last mark (${e.t[e.t.length - 1]}).`);
+  // build-audio spreads close starts (spreadTimes): two words must not light at once.
+  for (let i = 1; minGap && i < e.t.length; i++) {
+    const d = e.t[i] - e.t[i - 1];
+    if (d < minGap) { errs.push(`${label}: words ${i - 1} and ${i} start ${Number(d.toFixed(3))} s apart (under ${minGap} s).`); break; }
+  }
+  return errs;
+}
 
 /** The 8 hex digits in a recording's name (NN.<zh|en>.<h8>.mp3), or null. */
 const nameHash = (file) => /\.([0-9a-f]{8})\.mp3$/.exec(file)?.[1] ?? null;
@@ -42,15 +64,9 @@ export function checkListen({ manifest, passages = [], segmentsOf, renderingOf, 
     if (!manifest.zh?.[n]) errs.push(`Passage ${n} has no Chinese recording. Run \`npm run audio -- ${n}\`.`);
     if (renderingOf?.(n)?.length && !manifest.en?.[n]) errs.push(`Passage ${n} has no English recording. Run \`npm run audio -- --en ${n}\`.`);
   }
-  // n and t match the passage's count of units (characters or words), t starts at 0 or later and increases, end is after the last mark.
-  const checkEntry = (who, n, e, count, unit) => {
-    if (e.t.length !== e.n) errs.push(`${who}: t has ${e.t.length} times, but n is ${e.n}.`);
-    else if (e.n !== count) errs.push(`${who}: n is ${e.n} and t has ${e.t.length} times, but the passage has ${count} ${unit}.`);
-    if (e.t.length && !(e.t[0] >= 0)) errs.push(`${who}: the first time (${e.t[0]}) is before 0.`);
-    for (let i = 1; i < e.t.length; i++) {
-      if (!(e.t[i] > e.t[i - 1])) { errs.push(`${who}: t does not increase at mark ${i}.`); break; }
-    }
-    if (e.t.length && !(e.end > e.t[e.t.length - 1])) errs.push(`${who}: end (${e.end}) is not after the last mark (${e.t[e.t.length - 1]}).`);
+  // The timing rules (timingErrors), then the files.
+  const checkEntry = (who, n, e, count, unit, minGap) => {
+    errs.push(...timingErrors(who, e, count, unit, { minGap }));
     checkFiles(n, e);
   };
   for (const [key, e] of Object.entries(manifest.zh ?? {})) {
@@ -73,12 +89,7 @@ export function checkListen({ manifest, passages = [], segmentsOf, renderingOf, 
     if (e.src !== enSourceHash(source)) {
       errs.push(`${who} changed after the recording. Run \`npm run audio -- --en ${n}\`, or \`npm run audio -- --en --drop ${n}\`.`);
     }
-    checkEntry(who, n, e, source.count, 'words');
-    // build-audio spreads close starts (spreadTimes): two words must not light at once.
-    for (let i = 1; i < e.t.length; i++) {
-      const d = e.t[i] - e.t[i - 1];
-      if (d < MIN_EN_GAP) { errs.push(`${who}: words ${i - 1} and ${i} start ${Number(d.toFixed(3))} s apart (under ${MIN_EN_GAP} s).`); break; }
-    }
+    checkEntry(who, n, e, source.count, 'words', MIN_EN_GAP);
   }
   for (const f of mp3s) if (!named.has(f)) errs.push(`audio/passages/${f} is not named by any entry in listen.json.`);
   return errs;

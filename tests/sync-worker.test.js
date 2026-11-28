@@ -2,6 +2,8 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { handleApi } from '../worker/sync.js';
 import { fakeD1 } from './helpers/fake-d1.js';
+import { chunked } from './helpers/stream.js';
+import { openLimits } from './helpers/limits.js';
 import { emptyJournal, addEntry, recordDraw, deleteDraw } from '../app/js/journal.js';
 
 const ORIGIN = 'https://tao.tensor.group';
@@ -12,8 +14,9 @@ const DAY = 86400000;
 function stubLib() {
   const calls = { regOpts: [], authOpts: [], regVerify: [], authVerify: [] };
   let n = 0;
-  return {
+  const stub = {
     calls,
+    nextCounter: 0, // the signature counter the next login reports (many passkeys always send 0)
     generateRegistrationOptions: async (o) => { calls.regOpts.push(o); return { challenge: `reg-${++n}`, rp: { id: o.rpID } }; },
     generateAuthenticationOptions: async (o) => { calls.authOpts.push(o); return { challenge: `auth-${++n}` }; },
     verifyRegistrationResponse: async (o) => {
@@ -24,16 +27,17 @@ function stubLib() {
     verifyAuthenticationResponse: async (o) => {
       calls.authVerify.push(o);
       if (!o.response?.ok || o.response.challenge !== o.expectedChallenge) throw new Error('bad');
-      return { verified: true, authenticationInfo: { newCounter: 0 } };
+      return { verified: true, authenticationInfo: { newCounter: stub.nextCounter } };
     },
   };
+  return stub;
 }
 
-function setup() {
-  const env = { tao_sync: fakeD1(SCHEMA), RP_ID: 'tao.tensor.group', ORIGIN };
+function setup({ origin: site = ORIGIN, ...over } = {}) {
+  const env = { tao_sync: fakeD1(SCHEMA), RP_ID: 'tao.tensor.group', ORIGIN, ...openLimits(), ...over };
   const lib = stubLib();
   let now = T0;
-  const call = async (method, path, body, { cookie, origin = ORIGIN, headers = {} } = {}) => {
+  const call = async (method, path, body, { cookie, origin = site, headers = {} } = {}) => {
     const h = { ...headers };
     if (origin) h.origin = origin;
     if (cookie) h.cookie = `__Host-tao_s=${cookie}`;
@@ -46,7 +50,7 @@ function setup() {
   const signUp = async (credId = 'cred-1') => {
     const o = await call('POST', '/api/auth/register/options', {});
     const v = await call('POST', '/api/auth/register/verify', { challengeId: o.body.challengeId, response: { id: credId, ok: true, challenge: o.body.options.challenge } });
-    return { res: v, token: tokenOf(v) };
+    return { res: v, token: tokenOf(v), id: v.body?.account?.id };
   };
   return { env, lib, call, signUp, tokenOf, setNow: (t) => { now = t; } };
 }
@@ -283,4 +287,185 @@ test('an oversized body is refused from content-length before it is read', async
   const req = new Request(`${ORIGIN}/api/journal/sync`, { method: 'POST', headers: { origin: ORIGIN, cookie: `__Host-tao_s=${token}`, 'content-length': String(600 * 1024) }, body: JSON.stringify({ journal: emptyJournal() }) });
   const res = await handleApi(req, env, { lib: stubLib(), now: T0 });
   assert.equal(res.status, 413);
+});
+
+test('a chunked sync body over 512 KB stops early with 413', async () => {
+  const { env, lib, signUp } = setup();
+  const { token } = await signUp();
+  const { body, seen } = chunked(Array.from({ length: 32 }, () => new Uint8Array(64 * 1024).fill(0x20))); // 2 MiB, four times the cap
+  const req = new Request(`${ORIGIN}/api/journal/sync`, { method: 'POST', headers: { origin: ORIGIN, cookie: `__Host-tao_s=${token}` }, body, duplex: 'half' });
+  assert.equal(req.headers.get('content-length'), null);
+  const res = await handleApi(req, env, { lib, now: T0 });
+  assert.equal(res.status, 413);
+  assert.ok(seen.pulled <= 10, `${seen.pulled} of 32 chunks read`); // 8 chunks fill the cap; the 9th passes it
+  assert.equal(seen.cancelled, true);
+});
+
+test('a body under the cap with a character split across chunks still syncs', async () => {
+  const { env, lib, signUp } = setup();
+  const { token } = await signUp();
+  const j = emptyJournal();
+  addEntry(j, { passage: 1, text: 'é under water' });
+  const bytes = new TextEncoder().encode(JSON.stringify({ journal: j }));
+  const cut = bytes.indexOf(0xC3) + 1; // after the first of é's two bytes (C3 A9)
+  assert.ok(cut > 0);
+  const { body } = chunked([bytes.slice(0, cut), bytes.slice(cut)]);
+  const req = new Request(`${ORIGIN}/api/journal/sync`, { method: 'POST', headers: { origin: ORIGIN, cookie: `__Host-tao_s=${token}` }, body, duplex: 'half' });
+  const res = await handleApi(req, env, { lib, now: T0 });
+  assert.equal(res.status, 200);
+  assert.deepEqual((await res.json()).journal.entries.map((e) => e.text), ['é under water']);
+});
+
+test('a login whose counter does not move past the stored one starts no session; counter-0 passkeys still sign in', async () => {
+  const { call, signUp, lib, env, tokenOf } = setup();
+  const { id } = await signUp('cred-c');
+  // The stub does not check counters, as if each login had read the stored counter before the other wrote it.
+  const login = async (counter) => {
+    lib.nextCounter = counter;
+    const o = await call('POST', '/api/auth/login/options', {});
+    return call('POST', '/api/auth/login/verify', { challengeId: o.body.challengeId, response: { id: 'cred-c', ok: true, challenge: o.body.options.challenge, response: { userHandle: id } } });
+  };
+  const sessions = () => env.tao_sync.raw.prepare('SELECT COUNT(*) AS n FROM sessions').get().n;
+  const stored = () => env.tao_sync.raw.prepare('SELECT counter FROM credentials').get().counter;
+  for (let i = 0; i < 2; i++) assert.equal((await login(0)).status, 200, 'a passkey that always sends 0');
+  assert.equal((await login(7)).status, 200);
+  assert.equal(stored(), 7);
+  const before = sessions();
+  for (const c of [6, 7, 0]) {
+    const r = await login(c);
+    assert.deepEqual([r.status, r.body, tokenOf(r)], [400, { error: 'verify' }, undefined], `counter ${c} after 7`);
+  }
+  assert.equal(sessions(), before, 'no session for a counter that did not advance');
+  assert.equal(stored(), 7);
+  assert.equal((await login(8)).status, 200);
+  assert.equal(stored(), 8);
+});
+
+const LIMITS = [['AUTH_LIMIT', '/api/auth/login/options'], ['SIGNUP_LIMIT', '/api/auth/register/options'], ['SYNC_LIMIT', '/api/journal/sync']];
+
+test('a missing rate-limit binding answers 503, except on localhost', async () => {
+  for (const [name, path] of LIMITS) {
+    const { call, env, lib, signUp } = setup();
+    const { token, id } = await signUp();
+    const before = lib.calls.regOpts.length + lib.calls.authOpts.length;
+    delete env[name];
+    const r = await call('POST', path, path === '/api/journal/sync' ? { account: id, journal: emptyJournal() } : {}, { cookie: token });
+    assert.deepEqual([r.status, r.body], [503, { error: 'unavailable' }], name);
+    assert.equal(lib.calls.regOpts.length + lib.calls.authOpts.length, before, name);
+  }
+  {
+    const { call, env, signUp } = setup();
+    const who = await signUp();
+    delete env.SYNC_LIMIT;
+    assert.equal((await call('DELETE', '/api/account', { account: who.id }, { cookie: who.token })).status, 503, 'delete too');
+    delete env.AUTH_LIMIT;
+    assert.equal((await call('GET', '/api/session')).status, 200); // a read has no limit
+    assert.equal((await call('POST', '/api/auth/logout', {})).status, 200); // nor does signing out
+  }
+  const dev = 'http://localhost:8787';
+  const { call, env, signUp } = setup({ RP_ID: 'localhost', ORIGIN: dev, origin: dev });
+  for (const [name] of LIMITS) delete env[name];
+  const who = await signUp();
+  assert.equal(who.res.status, 200);
+  assert.equal((await call('POST', '/api/auth/login/options', {})).status, 200);
+  assert.equal((await call('POST', '/api/journal/sync', { account: who.id, journal: emptyJournal() }, { cookie: who.token })).status, 200);
+});
+
+test('delete account shares the sync rate limit', async () => {
+  const { call, signUp, env } = setup();
+  const who = await signUp();
+  env.SYNC_LIMIT = { limit: async () => ({ success: false }) };
+  const r = await call('DELETE', '/api/account', { account: who.id }, { cookie: who.token });
+  assert.deepEqual([r.status, r.body], [429, { error: 'slow-down' }]);
+  const count = (sql) => env.tao_sync.raw.prepare(sql).get(who.id).n;
+  assert.equal(count('SELECT COUNT(*) AS n FROM users WHERE id = ?'), 1);
+  assert.equal(count('SELECT COUNT(*) AS n FROM journals WHERE user_id = ?'), 1);
+  assert.equal(count('SELECT COUNT(*) AS n FROM credentials WHERE user_id = ?'), 1);
+  assert.equal(count('SELECT COUNT(*) AS n FROM sessions WHERE user_id = ?'), 1);
+});
+
+test('a sync that names another account takes nothing (409); no account named is still accepted', async () => {
+  const { call, signUp, env } = setup();
+  const a = await signUp('cred-a');
+  const b = await signUp('cred-b');
+  const mine = emptyJournal();
+  addEntry(mine, { passage: 1, text: 'A only' }, '2026-11-25T10:00:00.000Z');
+  const stored = (id) => env.tao_sync.raw.prepare('SELECT data, rev FROM journals WHERE user_id = ?').get(id);
+  // Another tab signed in to B, so this tab's request for A goes out with B's cookie.
+  const r = await call('POST', '/api/journal/sync', { account: a.id, journal: mine }, { cookie: b.token });
+  assert.deepEqual([r.status, r.body], [409, { error: 'account-changed' }]);
+  assert.equal(stored(b.id).rev, 0, "B's journal is untouched");
+  assert.ok(!stored(b.id).data.includes('A only'));
+  // An old installed client sends no account: still accepted.
+  assert.equal((await call('POST', '/api/journal/sync', { journal: mine }, { cookie: a.token })).status, 200);
+  assert.ok(stored(a.id).data.includes('A only'));
+  assert.equal((await call('POST', '/api/journal/sync', { account: a.id, journal: mine }, { cookie: a.token })).status, 200);
+  assert.equal((await call('POST', '/api/journal/sync', '[1]', { cookie: a.token })).status, 400);
+});
+
+test('delete that names another account deletes nothing; no body still deletes', async () => {
+  const { call, signUp, env } = setup();
+  const a = await signUp('cred-a');
+  const b = await signUp('cred-b');
+  const c = await signUp('cred-c');
+  const rows = (id) => env.tao_sync.raw.prepare('SELECT COUNT(*) AS n FROM users WHERE id = ?').get(id).n
+    + env.tao_sync.raw.prepare('SELECT COUNT(*) AS n FROM journals WHERE user_id = ?').get(id).n;
+  const r = await call('DELETE', '/api/account', { account: a.id }, { cookie: b.token }); // the confirm showed A; the cookie is B's now
+  assert.deepEqual([r.status, r.body], [409, { error: 'account-changed' }]);
+  assert.deepEqual([rows(a.id), rows(b.id)], [2, 2], 'both accounts are whole');
+  assert.equal((await call('DELETE', '/api/account', { account: b.id }, { cookie: b.token })).status, 200);
+  assert.deepEqual([rows(a.id), rows(b.id)], [2, 0]);
+  // An old installed client sends DELETE with no body: still accepted.
+  assert.equal((await call('DELETE', '/api/account', undefined, { cookie: c.token })).status, 200);
+  assert.equal(rows(c.id), 0);
+});
+
+// ---- Delete is tied to the server revision; only an empty body is the legacy request ----
+
+test('delete with the confirmed rev deletes; a newer rev is 409 changed and deletes nothing', async () => {
+  const { call, signUp, env } = setup();
+  const a = await signUp('cred-a');
+  const rows = (id) => ['users WHERE id', 'journals WHERE user_id', 'sessions WHERE user_id', 'credentials WHERE user_id']
+    .map((t) => env.tao_sync.raw.prepare(`SELECT COUNT(*) AS n FROM ${t} = ?`).get(id).n);
+  const mine = emptyJournal();
+  addEntry(mine, { passage: 1, text: 'first' }, '2026-11-25T10:00:00.000Z');
+  const s1 = await call('POST', '/api/journal/sync', { account: a.id, journal: mine }, { cookie: a.token });
+  assert.equal(s1.body.rev, 1);
+  // Another device uploads rev 2 after this device's final sync.
+  const other = emptyJournal();
+  addEntry(other, { passage: 2, text: 'from the other device' }, '2026-11-25T10:00:01.000Z');
+  assert.equal((await call('POST', '/api/journal/sync', { account: a.id, journal: other }, { cookie: a.token })).body.rev, 2);
+  const r = await call('DELETE', '/api/account', { account: a.id, rev: 1 }, { cookie: a.token });
+  assert.deepEqual([r.status, r.body], [409, { error: 'changed' }]);
+  assert.deepEqual(rows(a.id), [1, 1, 1, 1], 'every row is still there');
+  assert.equal((await call('DELETE', '/api/account', { account: a.id, rev: 2 }, { cookie: a.token })).status, 200);
+  assert.deepEqual(rows(a.id), [0, 0, 0, 0]);
+  // No rev (an old client): accepted.
+  const b = await signUp('cred-b');
+  assert.equal((await call('DELETE', '/api/account', { account: b.id }, { cookie: b.token })).status, 200);
+  assert.deepEqual(rows(b.id), [0, 0, 0, 0]);
+});
+
+test('delete: a non-empty body that is not JSON is 400; over the cap is 413; an empty body still deletes', async () => {
+  const { call, signUp, env } = setup();
+  const a = await signUp('cred-a');
+  const users = () => env.tao_sync.raw.prepare('SELECT COUNT(*) AS n FROM users').get().n;
+  const bad = await call('DELETE', '/api/account', '{not json', { cookie: a.token });
+  assert.deepEqual([bad.status, bad.body], [400, { error: 'invalid' }]);
+  const big = await call('DELETE', '/api/account', JSON.stringify({ account: a.id, pad: 'x'.repeat(600 * 1024) }), { cookie: a.token });
+  assert.deepEqual([big.status, big.body], [413, { error: 'too-large' }]);
+  assert.equal(users(), 1, 'nothing was deleted');
+  assert.equal((await call('DELETE', '/api/account', '', { cookie: a.token })).status, 200);
+  assert.equal(users(), 0);
+});
+
+test('non-GET routes answer 503 when RP_ID or ORIGIN is missing', async () => {
+  for (const missing of ['RP_ID', 'ORIGIN']) {
+    const env = { tao_sync: fakeD1(SCHEMA), RP_ID: 'tao.tensor.group', ORIGIN, ...openLimits() };
+    delete env[missing];
+    const req = new Request(`${ORIGIN}/api/auth/login/options`, { method: 'POST', headers: { origin: ORIGIN }, body: '{}' });
+    const res = await handleApi(req, env, { lib: stubLib() });
+    assert.equal(res.status, 503, missing);
+    assert.deepEqual(await res.json(), { error: 'unavailable' });
+  }
 });

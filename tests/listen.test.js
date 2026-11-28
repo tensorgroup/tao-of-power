@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { SETTINGS, resolveReading, needsDecision, buildSsml, sourceHash, validateReadings, validateGlobalReadings, forcedReadings } from '../scripts/lib/listen-ssml.mjs';
-import { mkdtempSync, writeFileSync, readdirSync, existsSync, rmSync } from 'node:fs';
+import { mkdtempSync, writeFileSync, readFileSync, readdirSync, existsSync, rmSync, utimesSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -112,7 +112,7 @@ test('forcedReadings lists every forced character with place, context, reading, 
   assert.ok(rows[4].ctx.includes('長長'));
 });
 
-import { joinTimes, parseWav, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage, enTimes, enCheckTimes, spreadTimes } from '../scripts/build-audio.mjs';
+import { joinTimes, parseWav, parseArgs, takeLock, main as buildMain, isUpToDate, withPrev, removeOld, writeMp3, enLanguage, enTimes, enCheckTimes, spreadTimes } from '../scripts/build-audio.mjs';
 import { SETTINGS_EN, enSourceHash, enSource } from '../scripts/lib/listen-en.mjs';
 
 test('joinTimes shifts later parts by the samples before them', () => {
@@ -192,7 +192,7 @@ test('build-audio: writeMp3 names the file by its hash, and a failed encode leav
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });
 
-import { checkListen } from '../scripts/check-audio.mjs';
+import { checkListen, timingErrors } from '../scripts/check-audio.mjs';
 
 const CL_READ = { engine: ['一'], at: {}, chars: {}, extra: {} };
 const CL_SEGS = { 1: ['道可道，非常道。'] };
@@ -417,4 +417,98 @@ test('checkListen: English file and prev are checked, and an unnamed English MP3
 test('checkListen: an English entry with no rendering is an error', () => {
   const e = enRun((a) => { a.renderingOf = () => null; });
   assert.equal(e.length, 1); assert.match(e[0], /Passage 1 English.*no rendering/);
+});
+
+// ---- The command line is read whole before anything runs; one recording run at a time ----
+
+test('parseArgs: an unknown flag, a repeated flag, or a mix of modes is an error', () => {
+  for (const args of [['n', 's', '--al'], ['--dorp', '5'], ['--drop', '3', '5'], ['--list', '3', '--drop', '4'], ['--en', '--en', '3'],
+    ['--list', '3', '--en'], ['--all', '3'], ['--drop', '3', '--drop', '3'], ['--out'], ['--no-force', '--out', 'x.mp3', '1', '2'], ['--en', '--no-force', '--out', 'x.mp3', '1']]) {
+    assert.ok(parseArgs(args).error, args.join(' '));
+  }
+});
+test('parseArgs: the good command lines', () => {
+  assert.deepEqual(parseArgs([]), { mode: 'record', en: false, all: false, nums: [] });
+  assert.deepEqual(parseArgs(['--en', '--all']), { mode: 'record', en: true, all: true, nums: [] });
+  assert.deepEqual(parseArgs(['3', '5']), { mode: 'record', en: false, all: false, nums: [3, 5] });
+  assert.deepEqual(parseArgs(['--en', '--drop', '3']), { mode: 'drop', en: true, n: 3 });
+  assert.deepEqual(parseArgs(['--list', '3']), { mode: 'list', n: 3 });
+  assert.deepEqual(parseArgs(['--no-force', '--out', 'x.mp3', '3']), { mode: 'plain', out: 'x.mp3', n: 3 });
+});
+test('build-audio: a bad command line returns 2 with one line, before any file is read', async () => {
+  const saved = console.error;
+  const lines = [];
+  console.error = (m) => lines.push(String(m));
+  try {
+    assert.equal(await buildMain(['node', 'build-audio.mjs', 'n', 's', '--dorp', '5']), 2);
+    assert.equal(await buildMain(['node', 'build-audio.mjs', '--drop', '3', '--list', '3']), 2);
+    assert.equal(lines.length, 2);
+    assert.match(lines[0], /Usage/);
+  } finally { console.error = saved; }
+});
+test('a second run refuses while the lock pid lives; a stale lock is taken over', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tao-lock-'));
+  const lock = join(dir, '.listen.lock');
+  try {
+    const release = takeLock(lock);
+    assert.equal(readFileSync(lock, 'utf8').split('\n')[0], String(process.pid)); // then this run's token
+    assert.equal(takeLock(lock), null, 'this process still lives: refused');
+    release();
+    assert.equal(existsSync(lock), false);
+    writeFileSync(lock, '2147483646\n'); // no such process
+    const old = (Date.now() - 60000) / 1000;
+    utimesSync(lock, old, old); // a lock under 5 s old counts as held: its run may still be starting
+    const again = takeLock(lock);
+    assert.equal(typeof again, 'function', 'a stale lock is taken over');
+    assert.equal(readFileSync(lock, 'utf8').split('\n')[0], String(process.pid)); // then this run's token
+    again();
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+test('parseArgs refuses a passage number outside 1-81', () => {
+  for (const args of [['0'], ['82'], ['3', '100'], ['--drop', '0'], ['--en', '--drop', '82'], ['--list', '99'], ['--no-force', '--out', 'x.mp3', '0']]) {
+    assert.match(parseArgs(args).error || '', /from 1 to 81/, args.join(' '));
+  }
+  assert.deepEqual(parseArgs(['1', '81']).nums, [1, 81]);
+});
+test('a lock file that is new (or empty and new) counts as held; an old empty one is taken over', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tao-lock-'));
+  const lock = join(dir, '.listen.lock');
+  try {
+    writeFileSync(lock, '2147483646\n'); // a dead pid, but written just now
+    assert.equal(takeLock(lock), null, 'new: held');
+    writeFileSync(lock, ''); // a run between create and write
+    assert.equal(takeLock(lock), null, 'empty and new: held');
+    const old = (Date.now() - 60000) / 1000;
+    utimesSync(lock, old, old);
+    const mine = takeLock(lock);
+    assert.equal(typeof mine, 'function', 'old and empty: no run holds it');
+    mine();
+    assert.equal(existsSync(lock), false);
+    assert.deepEqual(readdirSync(dir), [], 'no renamed stale file is left behind');
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+test('release removes the lock only while it is still this run\'s', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tao-lock-'));
+  const lock = join(dir, '.listen.lock');
+  try {
+    const release = takeLock(lock);
+    writeFileSync(lock, '12345\nother-run\n'); // another run took it over meanwhile
+    release();
+    assert.equal(readFileSync(lock, 'utf8'), '12345\nother-run\n', 'the other run keeps its lock');
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+// ---- A new take must pass the checker's timing rules before it replaces anything ----
+
+test('timingErrors refuses English words under 30 ms apart', () => {
+  assert.deepEqual(timingErrors('p', { n: 2, t: [0, 0.5], end: 1 }, 2, 'words', { minGap: 0.03 }), []);
+  assert.match(timingErrors('p', { n: 2, t: [0, 0.02], end: 1 }, 2, 'words', { minGap: 0.03 })[0], /p: words 0 and 1 start 0\.02 s apart \(under 0\.03 s\)/);
+  assert.deepEqual(timingErrors('p', { n: 2, t: [0, 0.02], end: 1 }, 2, 'characters'), [], 'no gap rule without minGap');
+  assert.match(timingErrors('p', { n: 2, t: [0, 0], end: 1 }, 2, 'characters')[0], /does not increase/);
+});
+test('enTimes throws when spreadTimes leaves words under 30 ms apart', () => {
+  const words = ['a', 'b', 'c', 'd', 'e', 'f'];
+  const heard = words.map((word, i) => ({ word, start: [0.2, 0.201, 0.202, 0.203, 0.204, 0.3][i] }));
+  assert.throws(() => enTimes(words, heard, 5, 'p'), /p: words 0 and 1 start 0\.0\d+ s apart \(under 0\.03 s\)[\s\S]*nothing written/);
 });

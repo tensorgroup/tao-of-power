@@ -15,11 +15,19 @@
   ],
   // Passkeys are bound to this RP ID and origin. `.dev.vars` overrides them for `npm run dev` on localhost.
   "vars": { "RP_ID": "tao.tensor.group", "ORIGIN": "https://tao.tensor.group" },
-  // Per-IP request limits for sync (the IP is used for counting only, never stored).
+  // Per-IP request limits for sync and analytics (the IP is used for counting only, never stored). Namespace
+  // ids are per Cloudflare account: no other Worker on the account may use 4111–4114. Taken blocks:
+  // 4101–4104 (tensor-tarot) and 4201–4204 (Book of Changes). Over EVENTS_LIMIT, analytics events are
+  // dropped silently; a missing sync limit answers 503 (worker/sync.js).
   "ratelimits": [
-    { "name": "AUTH_LIMIT", "namespace_id": "4101", "simple": { "limit": 20, "period": 60 } },
-    { "name": "SYNC_LIMIT", "namespace_id": "4102", "simple": { "limit": 60, "period": 60 } },
-    { "name": "SIGNUP_LIMIT", "namespace_id": "4103", "simple": { "limit": 3, "period": 60 } }
+    { "name": "AUTH_LIMIT", "namespace_id": "4111", "simple": { "limit": 20, "period": 60 } },
+    { "name": "SYNC_LIMIT", "namespace_id": "4112", "simple": { "limit": 60, "period": 60 } },
+    { "name": "SIGNUP_LIMIT", "namespace_id": "4113", "simple": { "limit": 3, "period": 60 } },
+    { "name": "EVENTS_LIMIT", "namespace_id": "4114", "simple": { "limit": 60, "period": 60 } }
   ],
-  "routes": [{ "pattern": "tao.tensor.group", "custom_domain": true }]
+  "routes": [{ "pattern": "tao.tensor.group", "custom_domain": true }],
+  // Only that domain: passkeys fail on a *.workers.dev or preview origin, and such a copy of the site
+  // would keep a separate journal in the browser.
+  "workers_dev": false,
+  "preview_urls": false
 }

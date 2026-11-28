@@ -9,6 +9,7 @@ import { planLine, wrapWords, wordCell } from '../words.js';
 import { state } from '../app.js';
 import { syncCard } from './sync-ui.js';
 import { addEntry, saveDraft, loadDraft, clearDraft, saveDraftQ, loadDraftQ } from '../journal.js';
+import { draftWriter } from '../drafts.js';
 import { entryList } from './journal.js';
 import { marginTabs } from '../margin.js';
 import { brushPanel } from '../brush.js';
@@ -540,27 +541,30 @@ function questionSection(qs, jbox) {
   return box;
 }
 
-// One pair of global listeners saves whichever draft is on screen.
-let currentFlush = null;
-addEventListener('pagehide', () => currentFlush?.());
-document.addEventListener('visibilitychange', () => { if (document.hidden) currentFlush?.(); });
-addEventListener('hashchange', () => { currentFlush?.(); currentFlush = null; });
+// One set of global listeners saves whichever draft is on screen. Leaving the page saves it once and ends
+// its writer, so the 600 ms timer cannot write it again later (after a wipe, say). discardDrafts() (drafts.js)
+// ends it without a save.
+let current = null;
+addEventListener('pagehide', () => current?.flush());
+document.addEventListener('visibilitychange', () => { if (document.hidden) current?.flush(); });
+addEventListener('hashchange', () => { current?.flush(); current?.release(); current = null; });
 
 function journalBox(n, draw) {
   const ta = keepAboveKeyboard(h('textarea', { id: 'jtext', 'aria-label': 'Your thoughts on this passage', placeholder: 'What arises?' }));
   ta.value = loadDraft(n);
   let q = loadDraftQ(n);
+  current?.release();
+  const writer = draftWriter(() => saveDraft(n, ta.value), { delay: 600 });
+  current = writer;
+  const qWriter = draftWriter(() => saveDraftQ(n, q)); // the question line: also stopped by discardDrafts()
   const qLine = h('div', { class: 'jq', hidden: true });
   const showQ = () => {
     qLine.hidden = !q;
     if (q) qLine.replaceChildren(h('span', { class: 'kind', text: 'Writing on' }), h('span', { class: 'jq-claim', text: q.claim }),
-      h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Stop writing on this question', text: '×', onclick: () => { q = null; saveDraftQ(n, null); showQ(); } }));
+      h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Stop writing on this question', text: '×', onclick: () => { q = null; qWriter.schedule(); showQ(); } }));
   };
   showQ();
-  let t;
-  const flush = () => saveDraft(n, ta.value);
-  ta.addEventListener('input', () => { clearTimeout(t); t = setTimeout(flush, 600); });
-  currentFlush = flush;
+  ta.addEventListener('input', () => writer.schedule());
   const list = h('div');
   const refresh = () => list.replaceChildren(entryList(state.journal.entries.filter((e) => e.passage === n && !e.at), { showPassage: false, onChange: refresh }));
   const save = () => {
@@ -581,7 +585,7 @@ function journalBox(n, draw) {
   el.refresh = refresh;
   el.ask = (next) => {
     q = { id: next.id, claim: next.claim };
-    saveDraftQ(n, q);
+    qWriter.schedule();
     showQ();
     el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
     ta.focus({ preventScroll: true });

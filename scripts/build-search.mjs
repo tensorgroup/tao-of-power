@@ -3,7 +3,7 @@
 // by app/js/search-core.js (the same code the browser runs on the query).
 // Writes app/data/search/index.json and app/data/search/vecs.bin.
 import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs';
-import { loadModel, embed, toInt8 } from '../app/js/search-core.js';
+import { loadModel, embed, toInt8, bytesHash } from '../app/js/search-core.js';
 
 const root = new URL('../', import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
@@ -65,7 +65,7 @@ docs.forEach((d, i) => { const v = embed(model, d.body); if (v) vecs.set(toInt8(
 const out = new URL('app/data/search/', root);
 mkdirSync(out, { recursive: true });
 writeFileSync(new URL('index.json', out), JSON.stringify({
-  model: MODEL, dim, count: docs.length,
+  model: MODEL, dim, count: docs.length, vecsHash: bytesHash(vecs.buffer),
   docs: docs.map(({ type, key, title, snippet, passages }) => ({ type, key, title, snippet, passages })),
   text: docs.map((d) => fold(d.body)),
 }));

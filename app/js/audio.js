@@ -19,61 +19,89 @@ export function candidates(py) {
   return out;
 }
 
+// The names of the recordings (audio/index.json), loaded once. A failed load is forgotten, so a later say()
+// tries again (for example, back online); until then every reading uses the device voice.
 let indexP = null;
-const index = () => (indexP ||= fetch('audio/index.json').then((r) => r.json()).then((l) => new Set(l)).catch(() => new Set()));
+const index = () => (indexP ||= fetch('audio/index.json')
+  .then((r) => { if (!r.ok) throw new Error(`audio/index.json: ${r.status}`); return r.json(); })
+  .then((l) => new Set(l))
+  .catch(() => { indexP = null; return new Set(); }));
 
-let current = null;
-let generation = 0;
+let current = null; // the recording of the newest say(), while it may still play
+let generation = 0; // every say() and stopSay() moves it: an older say() that is still waiting gives up
+
+/** Stop the recording and the device voice that are playing. */
+function halt() {
+  current?.pause();
+  current = null;
+  globalThis.speechSynthesis?.cancel();
+}
 
 /** Stop whatever sound is playing or about to play (a pending say() returns false). */
 export function stopSay() {
   generation += 1;
-  current?.pause();
-  globalThis.speechSynthesis?.cancel();
+  halt();
 }
 
 const announce = () => globalThis.dispatchEvent?.(new Event('tao:sound'));
 
-/** Speak with the device's voice. announced: tao:sound was already sent for this say(). */
-function speakFallback(char, announced = false) {
+/** Speak with the device's voice (tao:sound is already sent). Returns the utterance, or null. */
+function speakFallback(char) {
   const synth = globalThis.speechSynthesis;
-  if (!synth || !char) return false;
+  if (!synth || !char) return null;
   synth.cancel();
-  if (!announced) announce();
   const u = new SpeechSynthesisUtterance(char);
   u.lang = 'zh-CN';
   u.rate = 0.8;
   const voice = synth.getVoices().find((v) => /^zh[-_](CN|Hans)/i.test(v.lang)) || synth.getVoices().find((v) => /^zh/i.test(v.lang));
   if (voice) u.voice = voice;
   synth.speak(u);
-  return true;
+  return u;
+}
+
+/**
+ * Play one reading of a character: its recording, else the device's voice. Resolves the Audio or the
+ * utterance that plays, or null. A newer say() first stops this one (its recording, its speech); a play()
+ * that ends with AbortError was interrupted, so this say is over and never falls back to speech.
+ */
+async function sound(py, char) {
+  track('say', `${char} ${py}`);
+  const gen = ++generation;
+  halt(); // the sound of an earlier say(): its pending play() ends with AbortError
+  const have = await index();
+  if (gen !== generation) return null;
+  const file = candidates(py).find((c) => have.has(c));
+  announce();
+  if (gen !== generation) return null; // a tao:sound listener stopped sound
+  if (!file) return speakFallback(char);
+  const audio = new Audio(`audio/${file}.mp3`);
+  current = audio;
+  try {
+    await audio.play();
+  } catch (e) {
+    if (gen !== generation || e?.name === 'AbortError') return null;
+    current = null;
+    return speakFallback(char); // the recording cannot play here (e.g. NotAllowedError)
+  }
+  return gen === generation ? audio : null;
 }
 
 /** Play one reading of a character. Returns false when nothing can be played. */
 export async function say(py, char) {
-  track('say', `${char} ${py}`);
-  const gen = generation;
-  const have = await index();
-  if (gen !== generation) return false;
-  const file = candidates(py).find((c) => have.has(c));
-  current?.pause();
-  if (!file) return speakFallback(char);
-  announce();
-  if (gen !== generation) return false; // a tao:sound listener stopped sound
-  current = new Audio(`audio/${file}.mp3`);
-  try { await current.play(); return true; } catch { return gen === generation && speakFallback(char, true); }
+  return (await sound(py, char)) != null;
 }
 
-/** A small "▶ dào" button. */
+/** A small "▶ dào" button, marked "playing" until the sound it started ends (1.8 s at most). */
 export function sayButton(py, char, label = py) {
   const b = h('button', { class: 'say-btn', type: 'button', 'aria-label': `Hear ${char} spoken in Mandarin: ${py}` },
     h('span', { class: 'say-icon', 'aria-hidden': 'true', text: '▶' }), ` ${label}`);
   b.addEventListener('click', async (e) => {
     e.stopPropagation();
     b.classList.add('playing');
-    const ok = await say(py, char);
-    if (current && ok) current.onended = () => b.classList.remove('playing');
-    setTimeout(() => b.classList.remove('playing'), 1800);
+    const s = await sound(py, char);
+    const done = () => b.classList.remove('playing');
+    if (s) { s.onended = done; s.onend = done; } // an Audio ends with 'ended', an utterance with 'end'
+    setTimeout(done, 1800);
   });
   return b;
 }

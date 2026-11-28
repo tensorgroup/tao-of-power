@@ -112,8 +112,34 @@ export function keywords(q) {
 }
 
 /**
+ * True when a word of the query (not a stop word, 2+ letters) is one whole token of the model. A made-up
+ * word splits into word pieces ("zzqxv" is z ##z ##q ##x ##v), and the mean of those pieces lands near random
+ * texts with a meaning score as high as a real query's, so meaning-only results show only for a query with a known word.
+ */
+export function knowsAWord(model, query) {
+  if (!model) return false;
+  return preTokenize(query).some((w) => w.length >= 2 && /\p{L}/u.test(w) && !STOP.has(w) && model.ids.has(w));
+}
+
+/** The lowest score of a result that no query word is in (meaning only). */
+export const MEANING_FLOOR = 0.2;
+
+/**
+ * The results worth showing, from rank()'s [doc, score, exact]: within 60 % of the top score and over a floor of
+ * 0.12. The cutoff is relative because scores vary a lot by query (a Chinese term scores only on exact matches).
+ * A meaning-only result (exact false) shows only when meaning is true (knowsAWord) and its score is MEANING_FLOOR
+ * or more. The 60 % counts only the results that may show.
+ */
+export function visibleResults(ranked, { meaning = true } = {}) {
+  const may = ranked.filter(([, s, exact = true]) => s > 0.01 && (exact || (meaning && s >= MEANING_FLOOR)));
+  const top = may[0]?.[1] || 0;
+  return may.filter(([, s]) => s >= Math.max(0.12, top * 0.6));
+}
+
+/**
  * Rank documents (model may be null: keyword part only). vecs: Int8Array (n x dim); texts: lower-cased search text per doc.
  * Score = cosine similarity + a keyword bonus (exact terms, with a bonus for the title).
+ * Each result is [doc, score, exact]: exact when a query keyword is in the doc's text.
  */
 export function rank(model, query, { vecs, dim, texts, titles }, { limit = 40, filter } = {}) {
   const qv = model ? embed(model, query) : null;
@@ -122,7 +148,7 @@ export function rank(model, query, { vecs, dim, texts, titles }, { limit = 40, f
   const out = [];
   for (let d = 0; d < n; d++) {
     if (filter && !filter(d)) continue;
-    let s = 0;
+    let s = 0, exact = false;
     if (qv) {
       const off = d * dim;
       for (let i = 0; i < dim; i++) s += qv[i] * vecs[off + i];
@@ -135,9 +161,72 @@ export function rank(model, query, { vecs, dim, texts, titles }, { limit = 40, f
         if (titles[d].includes(t)) inTitle++;
       }
       s += 0.12 * (hit / terms.length) + 0.06 * (inTitle / terms.length);
+      exact = hit > 0;
     }
-    out.push([d, s]);
+    out.push([d, s, exact]);
   }
   out.sort((a, b) => b[1] - a[1]);
   return out.slice(0, limit);
+}
+
+/** How many results the Search page shows. */
+export const SHOW = 40;
+
+/**
+ * The results the Search page shows: rank every document, keep what visibleResults() allows, then the first
+ * `show`. rank() scores and sorts every document anyway, so the whole list costs only the filter. Cutting to `show` before visibleResults() would drop an exact word match ranked past it under
+ * meaning-only results that visibleResults() then removes ("Handan" showed "No close matches").
+ */
+export function searchResults(model, query, index, { filter = null, show = SHOW } = {}) {
+  const ranked = rank(model, query, index, { limit: Infinity, filter });
+  return visibleResults(ranked, { meaning: knowsAWord(model, query) }).slice(0, show);
+}
+
+/**
+ * A short hash of the bytes of an ArrayBuffer (FNV-1a, 32 bits, 8 hex digits): index.json names the vecs.bin it
+ * was built with (vecsHash). Not a security hash: it tells two builds apart, with no async call.
+ */
+export function bytesHash(buf) {
+  const b = new Uint8Array(buf);
+  let x = 0x811c9dc5;
+  for (let i = 0; i < b.length; i++) x = Math.imul(x ^ b[i], 0x01000193) >>> 0;
+  return x.toString(16).padStart(8, '0');
+}
+
+const mismatch = (message) => Object.assign(new Error(`search index: ${message}`), { code: 'index-mismatch' });
+
+/**
+ * The index as rank() reads it, from index.json (ix) and the ArrayBuffer of vecs.bin. Throws (code 'index-mismatch')
+ * when vecs.bin does not hold count x dim values or does not hash to the vecsHash that index.json names: the two
+ * files come from different builds (one of them cached), and a pair of the same size would score each doc on
+ * another doc's vector.
+ */
+export function indexFromFiles(ix, buf) {
+  const vecs = new Int8Array(buf);
+  if (vecs.length !== ix.count * ix.dim) throw mismatch(`vecs.bin holds ${vecs.length} values; index.json needs ${ix.count} x ${ix.dim}`);
+  const got = bytesHash(buf);
+  if (got !== ix.vecsHash) throw mismatch(`vecs.bin hashes to ${got}; index.json names ${ix.vecsHash ?? 'no hash'}`);
+  return { docs: ix.docs, dim: ix.dim, vecs, texts: ix.text, titles: ix.docs.map((d) => d.title.toLowerCase()) };
+}
+
+/**
+ * A loader for the index files. It loads once; a failed load is forgotten, so the next call tries again (for
+ * example, back online). When the two files do not pair, forget(paths) drops both from the cache and both are
+ * fetched once more from the server; only a second mismatch is an error.
+ */
+export function makeIndexLoader({ fetchFn = (...a) => fetch(...a), forget = async () => {}, dir = 'data/search/' } = {}) {
+  const files = [`${dir}index.json`, `${dir}vecs.bin`];
+  const get = (path, as, init) => fetchFn(path, init).then((r) => { if (!r.ok) throw new Error(`${path}: ${r.status}`); return r[as](); });
+  const loadPair = (init) => Promise.all([get(files[0], 'json', init), get(files[1], 'arrayBuffer', init)]).then(([ix, buf]) => indexFromFiles(ix, buf));
+  let indexP = null;
+  return () => {
+    indexP ||= loadPair()
+      .catch(async (e) => {
+        if (e?.code !== 'index-mismatch') throw e;
+        await forget(files);
+        return loadPair({ cache: 'reload' });
+      })
+      .catch((e) => { indexP = null; throw e; });
+    return indexP;
+  };
 }

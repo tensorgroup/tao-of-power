@@ -9,7 +9,7 @@
   --paper-2: #ebe4d4;
   --ink: #1d1b18;
   --ink-2: #4a453d;
-  --ink-3: #7c7466;
+  --ink-3: #6b6457; /* WCAG AA for small text, light: 5.11 on paper, 4.62 on paper-2, 4.56 on the sync card */
   --rule: #c9bfa9;
   --seal: #a63a2a;
   --seal-ink: #fff8ef;
@@ -257,7 +257,13 @@ p { margin: 0 0 1rem; }
 .listen-row .filters { margin: 0; align-items: center; }
 .listen-row .listen-btn { min-width: 11.5em; } /* fits "Listen in Chinese", so Pause and Resume do not move the chips */
 /* While a row plays or is paused, it sticks to the screen bottom, so Pause stays in reach. */
-.listen-row.active { position: sticky; bottom: env(safe-area-inset-bottom, 0px); background: var(--paper); z-index: 4; padding-block: .4rem; }
+/* Sticky at the very bottom, its padding over the home indicator, so no page text shows under it on an iPhone.
+   One line at 390 px: while active the button reads only Pause or Resume, so it needs less width. */
+.listen-row.active {
+  position: sticky; bottom: 0; background: var(--paper); z-index: 4; border-top: 1px solid var(--rule);
+  padding-top: .4rem; padding-bottom: calc(.4rem + env(safe-area-inset-bottom, 0px));
+}
+.listen-row.active .listen-btn { min-width: 7em; }
 .listen-row .listen-speed { color: var(--ink-2); margin-inline-end: .15rem; }
 .listen-row .listen-error { flex-basis: 100%; margin: 0; color: var(--ink-2); }
 /* Empty: out of the flow but still in the accessibility tree, so the status change is announced. */
@@ -608,7 +614,7 @@ button.crumb:active { color: var(--seal); }
 .entry .tools { gap: .7rem; }
 .entry .tools button { min-height: var(--tap); padding: .4rem 1rem; }
 .r-links { gap: .55rem; margin-top: .5rem; }
-.r-links a { display: inline-flex; align-items: center; min-height: 38px; padding: .25rem .85rem; }
+.r-links a { display: inline-flex; align-items: center; min-height: var(--tap); padding: .25rem .85rem; }
 .c-head .c-title { display: inline-block; padding: .45rem 0; }
 .library h2 a { display: inline-block; padding: .45rem 0; }
 .src-links { gap: .55rem .6rem; margin-top: .45rem; }

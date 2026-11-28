@@ -1,7 +1,10 @@
 // Record the Listen read-aloud audio: one MP3 per passage + timings in listen.json.
 // Chinese: Google TTS with SSML marks. English: Chirp 3 HD markup, word times from Speech-to-Text.
+// The whole command line is checked before anything is read, written, or sent; a recording or a drop holds the
+// lock file .listen.lock beside the app folder, so two runs never write the manifest at once.
 // Usage: node scripts/build-audio.mjs [--en] [N... | --all] | [--en] --drop N | --list N | --no-force --out <path> N
-import { readFileSync, writeFileSync, renameSync, readdirSync, unlinkSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, renameSync, readdirSync, unlinkSync, existsSync, mkdirSync, statSync, linkSync } from 'node:fs';
+import { randomBytes } from 'node:crypto';
 import { createHash } from 'node:crypto';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -10,6 +13,7 @@ import { segmentsFor } from '../app/js/markup.js';
 import { SETTINGS, resolveReading, buildSsml, sourceHash, validateReadings, validateGlobalReadings, forcedReadings } from './lib/listen-ssml.mjs';
 import { SETTINGS_EN, enSource, enSourceHash, romanizedCandidates } from './lib/listen-en.mjs';
 import { alignWords, recognize } from './lib/align.mjs';
+import { timingErrors, MIN_EN_GAP } from './check-audio.mjs';
 
 const app = fileURLToPath(new URL('../app/', import.meta.url));
 const scripts = fileURLToPath(new URL('./', import.meta.url));
@@ -64,7 +68,7 @@ function loadManifest() {
 function saveManifest(m) {
   const line = (o) => Object.keys(o).sort((a, b) => a - b).map((k) => `${JSON.stringify(k)}:${JSON.stringify(o[k])}`).join(',\n');
   const text = `{"v":${m.v},"voice":${JSON.stringify(m.voice)},"rate":${m.rate},"zh":{\n${line(m.zh)}\n},"en":{${Object.keys(m.en).length ? '\n' + line(m.en) + '\n' : ''}}}\n`;
-  const tmp = `${MANIFEST}.tmp`;
+  const tmp = `${MANIFEST}.${process.pid}.tmp`; // this process's own file: two runs never share one
   writeFileSync(tmp, text);
   renameSync(tmp, MANIFEST);
 }
@@ -93,9 +97,9 @@ export function withPrev(entry, stored, exists) {
   return { file, prev, ...rest };
 }
 
-/** Encode to NN.<key>.tmp.mp3, then rename to NN.<key>.<h8>.mp3. The tmp file never stays behind. */
+/** Encode to NN.<key>.<pid>.tmp.mp3, then rename to NN.<key>.<h8>.mp3. The tmp file never stays behind. */
 export function writeMp3(dir, n, key, pcm, rate, encode = encodeMp3) {
-  const tmp = join(dir, `${pad(n)}.${key}.tmp.mp3`);
+  const tmp = join(dir, `${pad(n)}.${key}.${process.pid}.tmp.mp3`);
   try {
     encode(pcm, rate, tmp);
     const name = `${pad(n)}.${key}.${sha(readFileSync(tmp)).slice(0, 8)}.mp3`;
@@ -162,6 +166,8 @@ export function zhLanguage(ctx, noForce = false) {
     validate: (n) => (noForce ? [] : [...ctx.globalErrs, ...validateReadings(n, segmentsOf(n, ctx.text), ctx.readings, ctx.lex)]),
     voice: { languageCode: 'cmn-CN', name: SETTINGS.voice },
     rate: SETTINGS.rate,
+    count: (n, parts) => parts.reduce((sum, p) => sum + p.count, 0),
+    minGap: 0, // the check has no gap rule for marks: the voice times each character itself
     speak: speakZh,
   };
 }
@@ -189,11 +195,10 @@ async function speakZh(parts, lang, who) {
   return { t, end, rate, pcm: Buffer.concat(got.map((g) => g.pcm)) };
 }
 
-/** Throw unless t starts at 0 or later, strictly increases, and ends before end (the check-audio rules). */
+/** Throw unless t passes the check-audio timing rules (starts at 0 or later, strictly increases, ends before end, words 30 ms apart). */
 export function enCheckTimes(t, end, who) {
-  if (t.length && !(t[0] >= 0)) throw new Error(`${who}: the first time is ${t[0]}; nothing written`);
-  for (let i = 1; i < t.length; i++) if (!(t[i] > t[i - 1])) throw new Error(`${who}: t does not increase at word ${i}; nothing written`);
-  if (t.length && !(end > t[t.length - 1])) throw new Error(`${who}: end (${end}) is not after the last time (${t[t.length - 1]}); nothing written`);
+  const bad = timingErrors(who, { n: t.length, t, end }, t.length, 'words', { minGap: MIN_EN_GAP });
+  if (bad.length) throw new Error(`${bad.join('\n')}\n${who}: nothing written`);
 }
 
 /**
@@ -248,6 +253,8 @@ export function enLanguage(renderingOf, ipa) {
     voice: { languageCode: SETTINGS_EN.lang, name: SETTINGS_EN.voice },
     rate: SETTINGS_EN.rate,
     wild: new Set(Object.keys(ipa)),
+    count: (n, built) => built.count,
+    minGap: MIN_EN_GAP,
     speak: speakEn,
   };
 }
@@ -273,6 +280,10 @@ async function record(n, lang, { out, stored }) {
   if (!out && isUpToDate(stored, src, (rel) => existsSync(join(app, rel)))) { console.log(`${who}: up to date`); return null; }
 
   const { t, end, rate, pcm } = await lang.speak(built, lang, who);
+
+  // The rules of check-audio, before anything is written: a take it would refuse never replaces a good one.
+  const bad = timingErrors(who, { n: t.length, t, end }, lang.count(n, built), lang.key === 'en' ? 'words' : 'characters', { minGap: lang.minGap });
+  if (bad.length) throw new Error(`${bad.join('\n')}\n${who}: nothing written; the recording before it stays`);
 
   if (out) { encodeMp3(pcm, rate, out); console.log(`${who}: wrote ${out} (${end} s)`); return null; }
   mkdirSync(OUT_DIR, { recursive: true });
@@ -309,46 +320,160 @@ function listForced(n) {
   return 0;
 }
 
-/** A passage number after a flag, or null. */
-const numberAfter = (args, i) => (/^\d+$/.test(args[i + 1] ?? '') ? Number(args[i + 1]) : null);
+const usage = (why) => { console.error(`${why}. ${USAGE}`); return 2; };
 
-export async function main(argv) {
-  const args = argv.slice(2);
-  const en = args.includes('--en');
-  const all = args.includes('--all');
-  const noForce = args.includes('--no-force');
-  const oi = args.indexOf('--out');
-  const out = oi >= 0 ? args[oi + 1] : null;
-  const li = args.indexOf('--list');
-  if (li >= 0) {
-    const n = numberAfter(args, li);
-    if (n == null || en) { console.error(USAGE); return 2; }
-    return listForced(n);
+const FLAGS = ['--en', '--all', '--no-force'];
+const WITH_VALUE = ['--out', '--list', '--drop'];
+
+
+/**
+ * Read the whole command line into one mode, or { error }. Nothing runs before this, so a typo never starts a
+ * paid run. Modes: list (--list N), drop ([--en] --drop N), plain (--no-force --out <path> N, Chinese only),
+ * record ([--en] [N... | --all]).
+ */
+function readArgs(args) {
+  const flags = new Set();
+  const value = {};
+  const nums = [];
+  for (let i = 0; i < args.length; i++) {
+    const a = args[i];
+    if (FLAGS.includes(a) || WITH_VALUE.includes(a)) {
+      if (flags.has(a)) return { error: `${a} is given twice` };
+      flags.add(a);
+      if (!WITH_VALUE.includes(a)) continue;
+      const v = args[++i];
+      if (a === '--out') {
+        if (!v || v.startsWith('--')) return { error: '--out needs a file path' };
+        value[a] = v;
+      } else {
+        if (!/^\d+$/.test(v ?? '')) return { error: `${a} needs a passage number` };
+        value[a] = Number(v);
+      }
+    } else if (/^\d+$/.test(a)) nums.push(Number(a));
+    else return { error: `unknown argument: ${a}` };
   }
-  const key = en ? 'en' : 'zh';
-  const di = args.indexOf('--drop');
-  if (di >= 0) {
-    const n = numberAfter(args, di);
-    if (n == null) { console.error(USAGE); return 2; }
-    const m = loadManifest();
-    const e = m[key][n];
-    if (!e) { console.log(`passage ${n}: no ${key} entry in listen.json`); return 0; }
-    delete m[key][n];
-    saveManifest(m);
-    for (const rel of [e.file, e.prev]) {
-      const f = rel && join(app, rel);
-      if (f && existsSync(f)) unlinkSync(f);
+  const has = (f) => flags.has(f);
+  const besides = (...allowed) => [...flags].filter((f) => !allowed.includes(f));
+  const not = (list) => (list.length ? ` (not with ${list.join(', ')})` : '');
+  if (has('--list')) {
+    if (besides('--list').length || nums.length) return { error: `--list takes one passage number and nothing else${not(besides('--list'))}` };
+    return { mode: 'list', n: value['--list'] };
+  }
+  if (has('--drop')) {
+    if (besides('--drop', '--en').length || nums.length) return { error: `--drop takes one passage number, and --en${not(besides('--drop', '--en'))}` };
+    return { mode: 'drop', en: has('--en'), n: value['--drop'] };
+  }
+  if (has('--out') || has('--no-force')) {
+    if (!(has('--out') && has('--no-force') && nums.length === 1 && besides('--out', '--no-force').length === 0)) {
+      return { error: '--no-force and --out go together, with exactly one passage number, Chinese only' };
     }
-    console.log(`passage ${n}: ${key} dropped`);
-    return 0;
+    return { mode: 'plain', out: value['--out'], n: nums[0] };
   }
-  const skip = new Set(oi >= 0 ? [oi, oi + 1] : []);
-  const nums = args.filter((a, i) => !skip.has(i) && /^\d+$/.test(a)).map(Number);
-  if ((noForce || out) && !(noForce && out && nums.length === 1 && !en && !all)) {
-    console.error('--no-force and --out go together, with exactly one passage number, Chinese only'); return 2;
-  }
-  if (all && nums.length) { console.error(USAGE); return 2; }
+  if (has('--all') && nums.length) return { error: '--all or passage numbers, not both' };
+  return { mode: 'record', en: has('--en'), all: has('--all'), nums };
+}
 
+/** readArgs(), and every passage number must be 1-81: a bad number never starts a run. */
+export function parseArgs(args) {
+  const cmd = readArgs(args);
+  if (cmd.error) return cmd;
+  const ns = [...(cmd.nums || []), ...(cmd.n !== undefined ? [cmd.n] : [])];
+  const bad = ns.find((n) => !(n >= 1 && n <= 81));
+  if (bad !== undefined) return { error: `passage ${bad} does not exist: use a number from 1 to 81` };
+  return cmd;
+}
+
+const alive = (pid) => {
+  if (!Number.isInteger(pid) || pid <= 0) return false;
+  try { process.kill(pid, 0); return true; } catch (e) { return e.code === 'EPERM'; } // EPERM: it runs, as another user
+};
+
+const FRESH_MS = 5000; // a lock file this new may belong to a run that has not written its pid yet
+
+/**
+ * One recording or drop at a time: a lock file next to the app folder (outside it, so it is never deployed),
+ * holding the pid and a random token of this run. A lock whose process is gone is taken over. Returns a release
+ * function, or null while another run holds it.
+ * Takeover is safe when two runs find the same stale lock: each renames it to a name of its own; only the run
+ * whose renamed file still holds the dead pid goes on, and it creates the new lock with 'wx', so at most one
+ * run gets it. release() removes the lock only while it still holds this run's pid and token.
+ */
+export function takeLock(file) {
+  const mine = `${process.pid}\n${randomBytes(8).toString('hex')}\n`;
+  const create = () => {
+    writeFileSync(file, mine, { flag: 'wx' });
+    return () => {
+      let now = null;
+      try { now = readFileSync(file, 'utf8'); } catch { return; } // gone already
+      if (now === mine) { try { unlinkSync(file); } catch { /* gone already */ } }
+    };
+  };
+  for (let tries = 0; tries < 3; tries++) {
+    try { return create(); } catch (e) { if (e.code !== 'EEXIST') throw e; }
+    let text, age;
+    try { text = readFileSync(file, 'utf8'); age = Date.now() - statSync(file).mtimeMs; } catch { continue; } // released meanwhile: try again
+    if (age < FRESH_MS) return null; // new, perhaps still empty: its run is starting
+    const pid = Number(text.split('\n')[0].trim());
+    if (text.trim() && alive(pid)) return null;
+    // Stale: move it aside under a name of our own, then check that it is still the stale lock we read.
+    const aside = `${file}.stale.${process.pid}.${randomBytes(4).toString('hex')}`;
+    try { renameSync(file, aside); } catch { continue; } // another run moved it first: try again
+    let moved = null;
+    try { moved = readFileSync(aside, 'utf8'); } catch { /* cannot happen: the name is ours */ }
+    if (moved !== text) {
+      // We moved a lock that another run made after our read. Give it back (link fails when a lock is there).
+      try { linkSync(aside, file); } catch { /* a newer lock is in place */ }
+      try { unlinkSync(aside); } catch { /* ignore */ }
+      return null;
+    }
+    try { unlinkSync(aside); } catch { /* ignore */ }
+  }
+  return null;
+}
+const LOCK = join(app, '..', '.listen.lock');
+const heldBy = (file) => { try { return readFileSync(file, 'utf8').split('\n')[0].trim() || '?'; } catch { return '?'; } };
+
+/** --drop N: remove the entry of passage N in one language and its files. */
+function drop(n, key) {
+  const m = loadManifest();
+  const e = m[key][n];
+  if (!e) { console.log(`passage ${n}: no ${key} entry in listen.json`); return 0; }
+  delete m[key][n];
+  saveManifest(m);
+  for (const rel of [e.file, e.prev]) {
+    const f = rel && join(app, rel);
+    if (f && existsSync(f)) unlinkSync(f);
+  }
+  console.log(`passage ${n}: ${key} dropped`);
+  return 0;
+}
+
+/**
+ * The recording command. Every argument is checked before anything is read, written, or sent. A recording or a
+ * drop holds the lock for the whole run. Returns the exit code.
+ */
+export async function main(argv) {
+  const cmd = parseArgs(argv.slice(2));
+  if (cmd.error) return usage(cmd.error);
+  if (cmd.mode === 'list') return listForced(cmd.n);
+  const en = !!cmd.en;
+  const key = en ? 'en' : 'zh';
+  const release = cmd.mode === 'plain' ? () => {} : takeLock(LOCK); // a plain test take writes no manifest
+  if (!release) { console.error(`another recording run (pid ${heldBy(LOCK)}) holds ${LOCK}; wait for it to end`); return 1; }
+  try {
+    if (cmd.mode === 'drop') return drop(cmd.n, key);
+    return await recordAll(cmd, key);
+  } finally {
+    release();
+  }
+}
+
+async function recordAll(cmd, key) {
+  const en = !!cmd.en;
+  const all = !!cmd.all;
+  const noForce = cmd.mode === 'plain';
+  const out = noForce ? cmd.out : null;
+  const nums = noForce ? [cmd.n] : cmd.nums;
   const ctx = readContext();
   let lang;
   if (en) {

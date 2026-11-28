@@ -30,9 +30,19 @@ function send(ev, detail) {
   } catch { /* never break the app for analytics */ }
 }
 
-/** Call on every route change with the hash route (query stripped, e.g. "/p/59"). */
-export function trackView(hash) {
-  const next = (hash.replace(/^#/, '') || '/').split('?')[0];
+/** The path sent for a fragment that matches none of the router's routes: its text may be anything. */
+export const UNKNOWN_ROUTE = 'unknown';
+
+/** The route of a fragment that matches one of the router's patterns (query dropped), else UNKNOWN_ROUTE. */
+export function viewPath(hash, patterns) {
+  const h = String(hash || '#/'); // as the router reads it
+  if (!patterns.some((re) => re.test(h))) return UNKNOWN_ROUTE;
+  return (h.replace(/^#/, '') || '/').split('?')[0];
+}
+
+/** Call on every route change with the hash and the router's patterns; a view is sent only when the path changes. */
+export function trackView(hash, patterns = []) {
+  const next = viewPath(hash, patterns);
   if (next === path) return;
   prev = path;
   path = next;

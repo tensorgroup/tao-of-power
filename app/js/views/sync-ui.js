@@ -1,8 +1,9 @@
 // The sync card (offered after a draw) and the Sync section on the Journal page.
 import { h, fill, toast } from '../ui.js';
 import { syncer } from '../app.js';
-import { available, signIn, signUp, DISMISSED, LAST } from '../sync.js';
+import { available, signIn, signUp, DISMISSED, LAST, REC } from '../sync.js';
 import { track } from '../track.js';
+import { keptSnapshot } from '../journal.js';
 
 const PRIVACY = 'Sync is optional. When it is on, your journal is stored on our server so your other devices can get it. It is not end-to-end encrypted. “Delete synced copy” removes it; database backups expire within 30 days.';
 
@@ -99,18 +100,28 @@ export function syncSection(render, { more = [], moreOpen = false } = {}) {
   const moreBox = (...items) => h('details', { class: 'more', open: moreOpen || null },
     h('summary', { text: 'More' }), h('div', { class: 'row' }, ...items.filter(Boolean)));
   const r = syncer.record();
-  const refresh = () => { box.replaceWith(syncSection(render, { more, moreOpen: !!box.querySelector('details.more')?.open })); };
+  const shown = r?.account ?? null; // the account this section shows: its confirm boxes act on it only
+  // Only while on the page: built off the page, the new section would take `more` out of the live one.
+  const refresh = () => { if (box.isConnected) box.replaceWith(syncSection(render, { more, moreOpen: !!box.querySelector('details.more')?.open })); };
+  const stop = () => { removeEventListener('tao:sync', onNews); removeEventListener('storage', onStorage); };
   const onNews = () => {
-    if (!box.isConnected) { removeEventListener('tao:sync', onNews); return; }
-    if (box.querySelector('.confirm')) return;
-    removeEventListener('tao:sync', onNews);
+    if (!box.isConnected) { stop(); return; }
+    // An open confirm waits for the reader, unless the account changed (here or in another tab): then its
+    // words and its action are about an account this browser has left.
+    if (box.querySelector('.confirm') && (syncer.record()?.account ?? null) === shown) return;
+    stop();
     refresh();
   };
+  const onStorage = (e) => { if (e.key === REC) onNews(); }; // another tab signed in or out
   addEventListener('tao:sync', onNews);
+  addEventListener('storage', onStorage);
 
   if (!r) {
     if (!available()) {
-      return fill(box, h('p', { class: 'muted small', text: 'Passkeys are not available in this browser, so sync is off here. Export keeps a full copy.' }), moreBox(...more));
+      return fill(box,
+        h('h2', { text: 'Sync' }),
+        h('p', { class: 'muted small', text: 'Passkeys are not available in this browser, so sync is off here. Export keeps a full copy.' }),
+        moreBox(...more));
     }
     const { row, msg, note } = passkeyFlow(box, render);
     return fill(box,
@@ -123,38 +134,56 @@ export function syncSection(render, { more = [], moreOpen = false } = {}) {
   const status = r.error === 'too-large'
     ? h('p', { class: 'backup', text: 'The journal is too large to sync. Export keeps a full copy.' })
     : h('p', { class: 'muted small', text: `Sync is on · ${r.label} · ${r.at ? `synced ${ago(r.at)}` : 'not synced yet'}` });
+  // While a sign-out or delete runs, its confirm buttons stay disabled: a second tap must not start another.
+  const running = (on) => { for (const b of area.querySelectorAll('button')) b.disabled = on; };
   const out = async (clearLocal) => {
-    try { await syncer.signOut({ clearLocal }); } catch (e) { fill(area, h('p', { class: 'backup', text: e.message })); return; }
+    running(true);
+    try { await syncer.signOut({ clearLocal, account: shown }); } catch (e) { fill(area, h('p', { class: 'backup', text: e.message })); return; }
     track('sync-off');
     toast(clearLocal ? 'Signed out. The journal is on the server, not in this browser.' : 'Signed out. The journal stays in this browser.');
     render();
   };
-  const signOutAsk = () => fill(area, h('div', { class: 'confirm', role: 'alertdialog', 'aria-label': 'Sign out' },
-    h('span', { text: 'Sign out of sync on this browser. Keep the journal here too?' }),
-    h('button', { class: 'btn', type: 'button', text: 'Keep it here', onclick: () => out(false) }),
-    h('button', { class: 'btn red', type: 'button', text: 'Remove it from this browser', onclick: () => out(true) }),
-    h('span', { class: 'muted small', text: 'Removing also deletes unsaved drafts here.' }),
-    h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => fill(area) })));
-  const deleteAsk = () => fill(area, h('div', { class: 'confirm', role: 'alertdialog', 'aria-label': 'Delete synced copy' },
-    h('span', { text: 'Delete the synced copy from the server? This browser keeps its journal. Your other devices stop syncing.' }),
-    h('button', { class: 'btn red', type: 'button', text: 'Delete synced copy', onclick: async () => {
-      try {
-        await syncer.deleteAccount();
-        track('sync-delete');
-        toast(`Deleted. You can also remove the passkey “${r.label}” from your passwords app.`, { ms: 8000 });
-        render();
-      } catch (e) { toast(e.message, { warn: true }); render(); }
-    } }),
-    h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => fill(area) })));
+  // A confirm box in `area`: focus goes to its first button (to Cancel with `focusCancel`, for a destructive
+  // one), and Cancel gives it back to the button that opened it.
+  const ask = (opener, label, text, buttons, after = [], { focusCancel = false } = {}) => {
+    const cancel = h('button', { class: 'btn quiet', type: 'button', text: 'Cancel', onclick: () => { fill(area); opener.focus(); } });
+    fill(area, h('div', { class: 'confirm', role: 'alertdialog', 'aria-label': label }, h('span', { text }), ...buttons, ...after, cancel));
+    (focusCancel ? cancel : buttons[0]).focus();
+  };
+  // "Remove it from this browser" also removes the journal kept by the last Replace: say so, with its counts.
+  const snapshotLine = () => {
+    const kept = keptSnapshot();
+    if (!kept) return null;
+    const what = [kept.entries ? `${kept.entries} entr${kept.entries === 1 ? 'y' : 'ies'}` : null,
+      kept.draws ? `${kept.draws} draw${kept.draws === 1 ? '' : 's'}` : null].filter(Boolean).join(', ');
+    return h('span', { class: 'small', text: `Removing also deletes the journal kept from before your last Replace (${what}). Restore or Export it first.` });
+  };
+  const signOutBtn = h('button', { class: 'btn', type: 'button', text: 'Sign out', onclick: () => ask(signOutBtn, 'Sign out',
+    'Sign out of sync on this browser. Keep the journal here too?', [
+      h('button', { class: 'btn', type: 'button', text: 'Keep it here', onclick: () => out(false) }),
+      h('button', { class: 'btn red', type: 'button', text: 'Remove it from this browser', onclick: () => out(true) }),
+    ], [h('span', { class: 'muted small', text: 'Removing also deletes unsaved drafts here.' }), snapshotLine()].filter(Boolean)) });
+  const deleteBtn = h('button', { class: 'btn quiet', type: 'button', text: 'Delete synced copy', onclick: () => ask(deleteBtn, 'Delete synced copy',
+    'Delete the synced copy from the server? This browser keeps its journal. Your other devices stop syncing.', [
+      h('button', { class: 'btn red', type: 'button', text: 'Delete synced copy', onclick: async () => {
+        running(true);
+        try {
+          await syncer.deleteAccount({ account: shown });
+          track('sync-delete');
+          toast(`Deleted. You can also remove the passkey “${r.label}” from your passwords app.`, { ms: 8000 });
+          render();
+        } catch (e) { toast(e.message, { warn: true }); render(); }
+      } }),
+    ], [], { focusCancel: true }) });
   return fill(box,
     h('h2', { text: 'Sync' }),
     status,
-    h('div', { class: 'row' }, h('button', { class: 'btn', type: 'button', text: 'Sign out', onclick: signOutAsk })),
+    h('div', { class: 'row' }, signOutBtn),
     area,
     moreBox(
       h('button', { class: 'btn', type: 'button', text: 'Sync now', onclick: async () => { await syncer.syncNow(); refresh(); } }),
       ...more,
-      h('button', { class: 'btn quiet', type: 'button', text: 'Delete synced copy', onclick: deleteAsk })));
+      deleteBtn));
 }
 
 /**

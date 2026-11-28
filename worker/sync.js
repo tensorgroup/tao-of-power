@@ -6,6 +6,7 @@ import {
   generateRegistrationOptions, verifyRegistrationResponse,
   generateAuthenticationOptions, verifyAuthenticationResponse,
 } from '@simplewebauthn/server';
+import { readCapped } from './body.js';
 import { validate, merge, syncCore, sameCore, emptyJournal } from '../app/js/journal.js';
 
 const DAY = 86400000;
@@ -58,11 +59,16 @@ function sameOrigin(request, env) {
   return request.headers.get('sec-fetch-site') === 'same-origin';
 }
 
-async function limited(binding, request) {
-  if (!binding?.limit) return false;
+/**
+ * The refusal when this client is over a per-IP limit, else null. A missing binding fails closed (503),
+ * so a deploy that loses its limits cannot take sign-ups and syncs without them; only on localhost
+ * (`npm run dev`, RP_ID "localhost") may a request go on without one.
+ */
+async function overLimit(binding, request, env) {
+  if (!binding?.limit) return env.RP_ID === 'localhost' ? null : err(503, 'unavailable');
   const key = request.headers.get('cf-connecting-ip') || 'unknown'; // used for the count only, never stored
   const { success } = await binding.limit({ key });
-  return !success;
+  return success ? null : err(429, 'slow-down');
 }
 
 async function startSession(db, userId, now) {
@@ -104,9 +110,8 @@ async function takeChallenge(db, id, kind, now) {
 }
 
 async function readJson(request) {
-  if (Number(request.headers.get('content-length')) > MAX_BODY) return { tooLarge: true };
-  const text = await request.text();
-  if (enc.encode(text).length > MAX_BODY) return { tooLarge: true };
+  const text = await readCapped(request, MAX_BODY);
+  if (text === null) return { tooLarge: true };
   try { return { body: JSON.parse(text) }; } catch { return { body: null }; }
 }
 
@@ -188,7 +193,13 @@ async function loginVerify(request, env, lib, now) {
     if (!r.verified) return err(400, 'verify');
     newCounter = r.authenticationInfo.newCounter;
   } catch { return err(400, 'verify'); }
-  await db.prepare('UPDATE credentials SET counter = ? WHERE id = ? AND counter <= ?').bind(newCounter || 0, cred.id, newCounter || 0).run();
+  // A counter must move up. Two logins can check against the same stored counter; only the one that still
+  // raises it here gets a session. A passkey that always sends 0 (many do) has nothing to raise.
+  const next = newCounter || 0;
+  if (next > 0 || cred.counter > 0) {
+    const res = await db.prepare('UPDATE credentials SET counter = ? WHERE id = ? AND counter < ?').bind(next, cred.id, next).run();
+    if (res.meta?.changes !== 1) return err(400, 'verify');
+  }
   const cookie = await startSession(db, cred.user_id, now);
   return json({ account: { id: cred.user_id, label: cred.label } }, 200, { 'set-cookie': cookie });
 }
@@ -197,7 +208,12 @@ async function sync(request, env, user, now) {
   const db = env.tao_sync;
   const { body, tooLarge } = await readJson(request);
   if (tooLarge) return err(413, 'too-large');
-  const r = validate(body?.journal);
+  if (!body || typeof body !== 'object') return err(400, 'invalid');
+  // The client names the account it sent this journal for. When another tab signed in to another account,
+  // the cookie is that account's: its journal must not take this one. An old installed client names no
+  // account; it is still accepted until those clients have updated.
+  if (body.account !== undefined && body.account !== user.id) return err(409, 'account-changed');
+  const r = validate(body.journal);
   if (!r.ok) return err(400, 'invalid');
   const incoming = r.journal;
   // Only for a live account: a sync racing an account delete must not re-create the row.
@@ -219,8 +235,33 @@ async function sync(request, env, user, now) {
   return err(409, 'busy');
 }
 
-async function deleteAccount(env, user) {
+async function deleteAccount(request, env, user) {
   const db = env.tao_sync;
+  // Only an empty body is the old installed client's request (no account, no rev); it is still accepted.
+  // A body that is there must be valid JSON under the cap.
+  const text = await readCapped(request, MAX_BODY);
+  if (text === null) return err(413, 'too-large');
+  let body = null;
+  if (text !== '') {
+    try { body = JSON.parse(text); } catch { return err(400, 'invalid'); }
+    if (!body || typeof body !== 'object') return err(400, 'invalid');
+  }
+  // The client names the account the reader confirmed; a session switched since (in another tab) is not deleted.
+  if (body?.account !== undefined && body.account !== user.id) return err(409, 'account-changed');
+  // The client names the rev of the server copy it last confirmed it holds. Another device can upload a newer
+  // rev after that; then nothing is deleted. Every statement checks the rev in the same batch, and the journal
+  // row goes last, so the check sees the row until the end.
+  if (typeof body?.rev === 'number') {
+    const guard = 'EXISTS (SELECT 1 FROM journals WHERE user_id = ? AND rev = ?)';
+    const out = await db.batch([
+      db.prepare(`DELETE FROM sessions WHERE user_id = ? AND ${guard}`).bind(user.id, user.id, body.rev),
+      db.prepare(`DELETE FROM credentials WHERE user_id = ? AND ${guard}`).bind(user.id, user.id, body.rev),
+      db.prepare(`DELETE FROM users WHERE id = ? AND ${guard}`).bind(user.id, user.id, body.rev),
+      db.prepare('DELETE FROM journals WHERE user_id = ? AND rev = ?').bind(user.id, body.rev),
+    ]);
+    if (out[3]?.meta?.changes !== 1) return err(409, 'changed');
+    return json({ ok: true }, 200, { 'set-cookie': clearCookie });
+  }
   await db.batch([
     db.prepare('DELETE FROM journals WHERE user_id = ?').bind(user.id),
     db.prepare('DELETE FROM sessions WHERE user_id = ?').bind(user.id),
@@ -240,13 +281,17 @@ export async function handleApi(request, env, { lib = LIB, now = Date.now() } = 
   ]);
   if (!routes.has(route)) return pathname.startsWith('/api/') ? err(404, 'not-found') : null;
   if (!env.tao_sync) return err(503, 'unavailable');
+  // Without these two vars no passkey can be checked and no Origin can be compared: refuse every write.
+  if (request.method !== 'GET' && (!env.RP_ID || !env.ORIGIN)) return err(503, 'unavailable');
   if (request.method !== 'GET' && !sameOrigin(request, env)) return err(403, 'origin');
   try {
-    if (pathname.startsWith('/api/auth/') && pathname !== '/api/auth/logout' && await limited(env.AUTH_LIMIT, request)) return err(429, 'slow-down');
+    if (pathname.startsWith('/api/auth/') && pathname !== '/api/auth/logout') {
+      const refused = await overLimit(env.AUTH_LIMIT, request, env);
+      if (refused) return refused;
+    }
     switch (route) {
       case 'POST /api/auth/register/options':
-        if (await limited(env.SIGNUP_LIMIT, request)) return err(429, 'slow-down');
-        return await registerOptions(request, env, lib, now);
+        return (await overLimit(env.SIGNUP_LIMIT, request, env)) || await registerOptions(request, env, lib, now);
       case 'POST /api/auth/register/verify': return await registerVerify(request, env, lib, now);
       case 'POST /api/auth/login/options': return await loginOptions(request, env, lib, now);
       case 'POST /api/auth/login/verify': return await loginVerify(request, env, lib, now);
@@ -260,11 +305,8 @@ export async function handleApi(request, env, { lib = LIB, now = Date.now() } = 
       return json({ ok: true }, 200, { 'set-cookie': clearCookie });
     }
     if (!user) return json({ error: 'signed-out' }, 401, { 'set-cookie': clearCookie });
-    if (route === 'POST /api/journal/sync') {
-      if (await limited(env.SYNC_LIMIT, request)) return err(429, 'slow-down');
-      return withCookie(await sync(request, env, user, now));
-    }
-    return await deleteAccount(env, user);
+    if (route === 'POST /api/journal/sync') return (await overLimit(env.SYNC_LIMIT, request, env)) || withCookie(await sync(request, env, user, now));
+    return (await overLimit(env.SYNC_LIMIT, request, env)) || await deleteAccount(request, env, user);
   } catch {
     return err(500, 'server'); // never echo the body: it may hold journal text
   }

@@ -7,6 +7,7 @@ import assert from 'node:assert/strict';
 import { handleApi } from '../worker/sync.js';
 import { makeSyncer, REC } from '../app/js/sync.js';
 import { fakeD1 } from './helpers/fake-d1.js';
+import { openLimits } from './helpers/limits.js';
 import { emptyJournal, addEntry, updateEntry, deleteEntry, recordDraw, deleteDraw, merge, syncCore } from '../app/js/journal.js';
 
 const ORIGIN = 'https://tao.tensor.group';
@@ -25,7 +26,7 @@ const lib = {
 };
 
 async function world(seed) {
-  const env = { tao_sync: fakeD1(SCHEMA), RP_ID: 'tao.tensor.group', ORIGIN };
+  const env = { tao_sync: fakeD1(SCHEMA), RP_ID: 'tao.tensor.group', ORIGIN, ...openLimits() };
   let clock = Date.parse('2026-11-25T00:00:00Z');
   const tick = () => new Date(clock += 1000).toISOString();
   const call = (path, init = {}, cookie) => handleApi(new Request(`${ORIGIN}${path}`, {

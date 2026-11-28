@@ -2,7 +2,8 @@
 import { h, clear, toast, showUpdate } from './ui.js';
 import { closeAll } from './sheet.js';
 import * as journalStore from './journal.js';
-import { makeSyncer, available as passkeysAvailable } from './sync.js';
+import { makeSyncer, available as passkeysAvailable, REC } from './sync.js';
+import { discardDrafts } from './drafts.js';
 import { drawView } from './views/draw.js';
 import { passageView } from './views/passage.js';
 import { journalView } from './views/journal.js';
@@ -44,25 +45,48 @@ export const syncer = makeSyncer({
   setJournal: (j, { replace = false } = {}) => {
     // A sync result merges with storage (another tab may have saved); only the
     // reader's explicit "use only the account's journal" / "remove it" replace it.
-    state.journal = replace ? j : journalStore.merge(j, journalStore.load());
-    const r = journalStore.save(state.journal);
+    const next = replace ? j : journalStore.merge(j, journalStore.load());
+    const r = journalStore.save(next);
+    // A merge result stays in memory even when storage is full (sync.js checks storage, not memory, before a
+    // delete). A replace that could not be saved changes nothing: "Nothing changed" must be true.
+    if (r.ok || !replace) state.journal = next;
     if (!r.ok) toast(`Could not save: ${r.error}. Export your journal now.`, { warn: true, ms: 8000 });
+    return r.ok; // false: "Delete synced copy" and "Remove it from this browser" must not go on
   },
   snapshot: (j) => journalStore.snapshot(j),
-  // "Remove it from this browser" also removes the Replace snapshot and unsent drafts.
-  wipe: () => {
-    try {
-      localStorage.removeItem(journalStore.SNAPSHOT_KEY);
-      const drafts = [];
-      for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k?.startsWith('tao.draft')) drafts.push(k); }
-      for (const k of drafts) localStorage.removeItem(k); // passage drafts, question drafts, margin-note drafts
-    } catch { /* storage blocked: nothing to remove */ }
-  },
+  wipe: wipeLocal,
+  locks: navigator.locks, // one sign-out or delete at a time across tabs
   onChange: (detail) => {
     if (detail.expired) toast('Signed out of sync. Sign in again on the Journal page.', { warn: true, ms: 6000 });
+    if (detail.wiped) afterWipe();
     dispatchEvent(new CustomEvent('tao:sync', { detail }));
   },
 });
+
+/** "Remove it from this browser" also removes the Replace snapshot and unsent drafts. Only the tab that runs it calls this (sync.js). */
+function wipeLocal() {
+  try {
+    localStorage.removeItem(journalStore.SNAPSHOT_KEY);
+    const drafts = [];
+    for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k?.startsWith('tao.draft')) drafts.push(k); }
+    for (const k of drafts) localStorage.removeItem(k); // passage drafts, question drafts, margin-note drafts
+  } catch { /* storage blocked: nothing to remove */ }
+}
+
+/**
+ * "Remove it from this browser", in this tab or another: build the page again from the emptied journal, so no
+ * entry or unsaved draft stays on screen and no open text box saves one back. First every open editor is
+ * discarded without a save (its timers stop), then the journal is read again, then the router builds the page
+ * (the hashchange event also stops a playing Listen row). Storage is never removed here: only the tab that
+ * ran the wipe removes it (sync.js calls wipeLocal). A late WIPED event (a frozen tab that wakes up) so cannot
+ * delete a draft or a Replace snapshot made after the wipe.
+ */
+function afterWipe() {
+  discardDrafts();
+  state.journal = journalStore.load();
+  dispatchEvent(new HashChangeEvent('hashchange'));
+}
+syncer.onWipedElsewhere(afterWipe);
 
 let asked = false;
 function askPersistentStorage() {
@@ -84,6 +108,7 @@ const routes = [
   [/^#\/culture$/, () => cultureView()],
 ];
 
+const accountOf = (v) => { try { return JSON.parse(v || 'null')?.account ?? null; } catch { return null; } };
 const safeDecode = (s) => { try { return decodeURIComponent(s); } catch { return s; } };
 
 async function route() {
@@ -112,18 +137,22 @@ async function route() {
     if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   }
   if (!hash.startsWith('#/p/')) window.scrollTo(0, 0);
-  trackView(hash);
+  trackView(hash, routes.map(([re]) => re));
   view.focus({ preventScroll: true });
 }
 
 addEventListener('hashchange', route);
-await Promise.all([getGlossary().then(setGlossary), getRareGlyphs().then(setRareGlyphs)]);
-// Another tab changed the journal.
+// Another tab changed the journal. Installed before the first await: during that wait another tab can switch
+// the sync account and replace the journal, and a sync from this tab must not send the old account's journal.
 addEventListener('storage', (e) => {
-  if (e.key !== journalStore.KEY) return;
-  state.journal = journalStore.load();
-  if (location.hash === '#/journal') route();
+  if (e.key === journalStore.KEY) {
+    state.journal = journalStore.load();
+    if (location.hash === '#/journal') route();
+  } else if (e.key === REC && location.hash === '#/journal' && accountOf(e.oldValue) !== accountOf(e.newValue)) {
+    route(); // signed in or out in another tab: Export, the backup note and the Sync section all change
+  }
 });
+await Promise.all([getGlossary().then(setGlossary), getRareGlyphs().then(setRareGlyphs)]);
 route();
 
 if (passkeysAvailable() || syncer.record()) {

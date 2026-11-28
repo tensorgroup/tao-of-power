@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { makeSyncer, REC, LAST, PENDING_LOGOUT } from '../app/js/sync.js';
-import { emptyJournal, addEntry, merge } from '../app/js/journal.js';
+import { makeSyncer, REC, LAST, PENDING_LOGOUT, WIPED } from '../app/js/sync.js';
+import { emptyJournal, addEntry, merge, load, save, sameCore, KEY } from '../app/js/journal.js';
 
 function memStorage() {
   const m = new Map();
@@ -14,8 +14,14 @@ const reply = (status, body) => ({ ok: status >= 200 && status < 300, status, js
 /** A fake server that merges like the real one; `gate` lets a test hold a response. */
 function harness({ signedIn = true } = {}) {
   const storage = memStorage();
-  if (signedIn) storage.setItem(REC, JSON.stringify({ account: 'u1', label: 'L', at: null }));
+  if (signedIn) { // as adopt() leaves a signed-in browser
+    storage.setItem(REC, JSON.stringify({ account: 'u1', label: 'L', at: null }));
+    storage.setItem(LAST, 'u1');
+  }
+  let saves = true; // false: storage is full, setJournal saves nothing
   let server = emptyJournal();
+  let rev = 0;
+  const deletes = [];
   let journal = emptyJournal();
   const sent = [];
   const events = [];
@@ -25,26 +31,38 @@ function harness({ signedIn = true } = {}) {
       const body = JSON.parse(init.body);
       sent.push(body);
       if (hold) await hold;
-      server = merge(server, body.journal);
-      delete server.lastExportAt;
-      return reply(200, { journal: server, rev: sent.length });
+      const next = merge(server, body.journal);
+      delete next.lastExportAt;
+      if (!sameCore(next, server)) rev++;
+      server = next;
+      return reply(200, { journal: server, rev });
     }
     if (path === '/api/session') return reply(200, { account: signedIn ? { id: 'u1', label: 'L' } : null });
     if (path === '/api/auth/logout') return reply(200, { ok: true });
-    if (path === '/api/account') return reply(200, { ok: true });
+    if (path === '/api/account') { deletes.push(init.body === undefined ? undefined : JSON.parse(init.body)); return reply(200, { ok: true }); }
     throw new Error(`unexpected ${path}`);
   };
   const snaps = [];
   const s = makeSyncer({
     fetch: (...a) => h.fetch(...a), storage, now: () => 1000,
-    getJournal: () => journal, setJournal: (j) => { journal = j; },
+    // As the app does: a merge result goes into memory even when storage is full; a replace changes nothing then.
+    getJournal: () => journal,
+    setJournal: (j, { replace = false } = {}) => {
+      if (!saves && replace) return false;
+      journal = j;
+      if (!saves) return false;
+      save(j, storage);
+      return true;
+    },
     snapshot: (j) => { snaps.push(j); return true; }, onChange: (e) => events.push(e),
   });
   const h = {
-    s, storage, sent, events, snaps, fetch,
+    s, storage, sent, events, snaps, fetch, deletes,
+    get rev() { return rev; },
     get journal() { return journal; }, set journal(j) { journal = j; },
     get server() { return server; }, set server(j) { server = j; },
     hold(p) { hold = p; },
+    setSaves(v) { saves = v; },
   };
   return h;
 }
@@ -305,4 +323,375 @@ test('an answer that arrives after sign-out is dropped', async () => {
   release();
   await run;
   assert.equal(h.journal.entries.length, 0);
+});
+
+// ---- Each sync and each delete belongs to the account it was sent for ----
+
+test('each sync names its account', async () => {
+  const h = harness();
+  await h.s.syncNow();
+  assert.equal(h.sent[0].account, 'u1');
+});
+
+test('an answer that arrives after another tab signed in to another account is dropped', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'A only' }, T(1));
+  const other = emptyJournal();
+  addEntry(other, { passage: 2, text: 'on A\'s server' }, T(2));
+  h.server = other;
+  let release;
+  h.hold(new Promise((r) => { release = r; }));
+  const run = h.s.syncNow();
+  await Promise.resolve();
+  // Meanwhile another tab signs out of A, into B, and keeps B's journal apart.
+  h.storage.setItem(REC, JSON.stringify({ account: 'u2', label: 'B', at: null }));
+  h.journal = emptyJournal();
+  h.hold(null);
+  release();
+  assert.equal(await run, false);
+  assert.equal(h.journal.entries.length, 0, 'nothing of A was merged into B');
+  assert.deepEqual(JSON.parse(h.storage.getItem(REC)), { account: 'u2', label: 'B', at: null }, 'B is not marked as synced by A\'s answer');
+  await h.s.syncNow();
+  assert.deepEqual(h.sent.map((b) => b.account), ['u1', 'u2']);
+  assert.equal(h.sent[1].journal.entries.length, 0, 'nothing of A goes up to B');
+});
+
+test('a late 401 for the old account does not sign out the new one', async () => {
+  const h = harness();
+  let release;
+  const gate = new Promise((r) => { release = r; });
+  h.fetch = async () => { await gate; return reply(401, { error: 'signed-out' }); };
+  const run = h.s.syncNow();
+  await Promise.resolve();
+  h.storage.setItem(REC, JSON.stringify({ account: 'u2', label: 'B', at: null })); // another tab signed in to B
+  release();
+  await run;
+  assert.equal(JSON.parse(h.storage.getItem(REC)).account, 'u2');
+  assert.ok(!h.events.some((e) => e.signedOut), 'no "signed out" news');
+});
+
+const FAILED_SYNCS = [
+  ['offline', () => { throw new TypeError('Failed to fetch'); }],
+  ['409 busy', () => reply(409, { error: 'busy' })],
+  ['409 account-changed', () => reply(409, { error: 'account-changed' })],
+  ['413 too-large', () => reply(413, { error: 'too-large' })],
+  ['429 slow-down', () => reply(429, { error: 'slow-down' })],
+];
+
+test('delete refuses when the final sync fails (offline, 409, 413, 429, save failed) and sends no DELETE', async () => {
+  for (const [what, answer] of FAILED_SYNCS) {
+    const h = harness();
+    const paths = [];
+    h.fetch = async (p) => { paths.push(p); return p === '/api/journal/sync' ? answer() : reply(200, { ok: true }); };
+    await assert.rejects(h.s.deleteAccount({ account: 'u1' }), /^Error: Could not sync first, so nothing was deleted\. Try again online, or Export first\.$/, what);
+    // 413: the journal is too large to upload, so a pull (an empty upload) follows; here it gets 413 too.
+    assert.deepEqual(paths, what.startsWith('413') ? ['/api/journal/sync', '/api/journal/sync'] : ['/api/journal/sync'], what);
+    assert.equal(JSON.parse(h.storage.getItem(REC)).account, 'u1', `${what}: still signed in`);
+  }
+  // This browser cannot save what the final sync brought down.
+  const h = harness();
+  const other = emptyJournal();
+  addEntry(other, { passage: 2, text: 'only on the server' }, T(2));
+  h.server = other;
+  h.setSaves(false);
+  const paths = [];
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { paths.push(p); return inner(p, i); };
+  await assert.rejects(h.s.deleteAccount({ account: 'u1' }), /Could not sync first, so nothing was deleted/);
+  assert.deepEqual(paths, ['/api/journal/sync']);
+});
+
+test('delete names the account it showed; a switched account throws SWITCHED and deletes nothing', async () => {
+  const h = harness();
+  const calls = [];
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { calls.push([p, i.method, i.body === undefined ? undefined : JSON.parse(i.body)]); return inner(p, i); };
+  await h.s.deleteAccount({ account: 'u1' });
+  assert.deepEqual(calls.find(([p]) => p === '/api/account'), ['/api/account', 'DELETE', { account: 'u1', rev: 0 }]);
+
+  const g = harness();
+  g.storage.setItem(REC, JSON.stringify({ account: 'u2', label: 'B', at: null })); // another tab signed in to B
+  const seen = [];
+  g.fetch = async (p) => { seen.push(p); return reply(200, { ok: true }); };
+  await assert.rejects(g.s.deleteAccount({ account: 'u1' }), /changed in another tab, so nothing was deleted/);
+  assert.deepEqual(seen, [], 'no sync and no DELETE');
+  assert.equal(JSON.parse(g.storage.getItem(REC)).account, 'u2');
+
+  const k = harness(); // the server's session is another account: 409
+  const kin = k.fetch;
+  k.fetch = async (p, i) => (p === '/api/account' ? reply(409, { error: 'account-changed' }) : kin(p, i));
+  await assert.rejects(k.s.deleteAccount({ account: 'u1' }), /changed in another tab, so nothing was deleted/);
+  assert.ok(k.storage.getItem(REC));
+});
+
+test('delete keeps LAST: a later sign-in to another account asks before upload', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'written while synced to A' }, T(1));
+  await h.s.deleteAccount({ account: 'u1' });
+  assert.deepEqual([h.storage.getItem(REC), h.storage.getItem(LAST), h.journal.entries.length], [null, 'u1', 1]);
+  const before = h.sent.length;
+  let uploadsBeforeChoice = null;
+  await h.s.adopt({ id: 'u2', label: 'B' }, { onSwitch: async () => { uploadsBeforeChoice = h.sent.length - before; return 'cancel'; } });
+  assert.equal(uploadsBeforeChoice, 0, 'the reader is asked, before any upload');
+  assert.equal(h.sent.length, before, 'Cancel: nothing went up to B');
+});
+
+test('a network error on DELETE says the copy could not be deleted', async () => {
+  const h = harness();
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { if (p === '/api/account') throw new TypeError('Failed to fetch'); return inner(p, i); };
+  await assert.rejects(h.s.deleteAccount({ account: 'u1' }), (e) => /could not delete/.test(e.message) && !/Failed to fetch/.test(e.message));
+  assert.ok(h.storage.getItem(REC), 'still signed in');
+});
+
+// ---- "Remove it from this browser" reaches every tab, and removes only what the server holds ----
+
+test('remove-from-browser refuses when another tab saved since the last answer', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'synced' }, T(1));
+  save(h.journal, h.storage); // as persist() does
+  await h.s.syncNow();
+  // Another tab saves a new entry; this tab's journal does not have it.
+  const there = load(h.storage);
+  addEntry(there, { passage: 2, text: 'saved in another tab' }, T(3));
+  save(there, h.storage);
+  const rec = h.storage.getItem(REC);
+  const stored = h.storage.getItem(KEY);
+  let wiped = false;
+  const s = makeSyncer({
+    fetch: (...a) => h.fetch(...a), storage: h.storage, now: () => 1000,
+    getJournal: () => h.journal, setJournal: (j) => { h.journal = j; save(j, h.storage); }, wipe: () => { wiped = true; },
+  });
+  await assert.rejects(s.signOut({ clearLocal: true }), /another tab/);
+  assert.equal(h.storage.getItem(REC), rec, 'still signed in: the reader can try again');
+  assert.equal(h.storage.getItem(KEY), stored, 'the stored journal is unchanged');
+  assert.deepEqual(load(h.storage).entries.map((e) => e.text), ['synced', 'saved in another tab']);
+  assert.equal(wiped, false);
+  assert.equal(h.storage.getItem(WIPED), null);
+});
+
+test('remove-from-browser clears REC before the logout request and writes WIPED', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'a' }, T(1));
+  const order = [];
+  const inner = h.fetch;
+  h.fetch = async (p, i) => {
+    if (p === '/api/auth/logout') order.push(['logout', h.storage.getItem(REC), h.storage.getItem(WIPED), load(h.storage).entries.length]);
+    return inner(p, i);
+  };
+  await h.s.signOut({ clearLocal: true });
+  assert.equal(order.length, 1);
+  const [, rec, mark, entries] = order[0];
+  assert.equal(rec, null, 'REC is gone before the logout request: no tab starts a sync in between');
+  assert.ok(mark, 'WIPED is written before the logout request');
+  assert.equal(entries, 0, 'the journal is removed before the logout request');
+  const first = h.storage.getItem(WIPED);
+  h.storage.setItem(REC, JSON.stringify({ account: 'u1', label: 'L', at: null })); // signed in again
+  await h.s.signOut({ clearLocal: true });
+  assert.notEqual(h.storage.getItem(WIPED), first, 'a new mark each time, so other tabs get a storage event again');
+  h.storage.setItem(REC, JSON.stringify({ account: 'u1', label: 'L', at: null }));
+  const mark2 = h.storage.getItem(WIPED);
+  await h.s.signOut();
+  assert.equal(h.storage.getItem(WIPED), mark2, 'a plain sign-out marks nothing');
+});
+
+test('onWipedElsewhere fires on a storage event for WIPED only', () => {
+  const h = harness();
+  const tab = new EventTarget();
+  let runs = 0;
+  h.s.onWipedElsewhere(() => { runs++; }, tab);
+  const storageEvent = (key, newValue) => Object.assign(new Event('storage'), { key, newValue });
+  tab.dispatchEvent(storageEvent(KEY, '{}'));
+  tab.dispatchEvent(storageEvent(REC, null));
+  tab.dispatchEvent(storageEvent(WIPED, null));
+  assert.equal(runs, 0);
+  tab.dispatchEvent(storageEvent(WIPED, '1000.x'));
+  assert.equal(runs, 1);
+});
+
+test('onChange gets wiped: true after a clear-local sign-out', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'a' }, T(1));
+  await h.s.signOut({ clearLocal: true });
+  assert.ok(h.events.some((e) => e.wiped === true && e.signedOut), 'this tab hears of it too');
+  const g = harness();
+  await g.s.signOut();
+  assert.ok(g.events.every((e) => !e.wiped), 'a plain sign-out is no wipe');
+});
+
+// ---- Delete only what this browser's storage holds; tie the delete to the server revision ----
+
+test('delete refuses while storage lacks the server copy, even when memory has it (a save failed on an earlier try)', async () => {
+  const h = harness();
+  const other = emptyJournal();
+  addEntry(other, { passage: 2, text: 'only on the server' }, T(2));
+  h.server = other;
+  h.setSaves(false);
+  await assert.rejects(h.s.deleteAccount({ account: 'u1' }), /Could not sync first/);
+  assert.equal(h.journal.entries.length, 1, 'memory holds the answer');
+  assert.equal(load(h.storage).entries.length, 0, 'storage does not');
+  // The retry: the sync sees "no change" in memory. Storage still lacks the entry, so nothing is deleted.
+  await assert.rejects(h.s.deleteAccount({ account: 'u1' }), /^Error: This browser could not save the synced copy, so nothing was deleted\./);
+  assert.deepEqual(h.deletes, [], 'no DELETE was sent');
+  assert.equal(JSON.parse(h.storage.getItem(REC)).account, 'u1');
+  // Storage works again: the next try saves the answer, then deletes.
+  h.setSaves(true);
+  await h.s.deleteAccount({ account: 'u1' });
+  assert.deepEqual(load(h.storage).entries.map((e) => e.text), ['only on the server']);
+  assert.equal(h.deletes.length, 1);
+});
+
+test('delete of a journal over the sync cap pulls the server copy, saves it, then deletes', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'too large to upload' }, T(1));
+  save(h.journal, h.storage);
+  const other = emptyJournal();
+  addEntry(other, { passage: 2, text: 'from another device' }, T(2));
+  h.server = other;
+  const inner = h.fetch;
+  h.fetch = async (p, i) => {
+    if (p === '/api/journal/sync' && JSON.parse(i.body).journal.entries.length) return reply(413, { error: 'too-large' });
+    return inner(p, i);
+  };
+  await h.s.deleteAccount({ account: 'u1' });
+  assert.deepEqual(h.sent.map((b) => [b.account, b.journal.entries.length]), [['u1', 0]], 'the pull sends an empty journal');
+  assert.deepEqual(load(h.storage).entries.map((e) => e.text), ['too large to upload', 'from another device']);
+  assert.deepEqual(h.deletes, [{ account: 'u1', rev: h.rev }]);
+  assert.equal(h.storage.getItem(REC), null);
+
+  // The same, when this browser cannot save what the pull brought: nothing is deleted.
+  const g = harness();
+  addEntry(g.journal, { passage: 1, text: 'big' }, T(1));
+  save(g.journal, g.storage);
+  g.server = other;
+  const gin = g.fetch;
+  g.fetch = async (p, i) => (p === '/api/journal/sync' && JSON.parse(i.body).journal.entries.length ? reply(413, { error: 'too-large' }) : gin(p, i));
+  g.setSaves(false);
+  await assert.rejects(g.s.deleteAccount({ account: 'u1' }), /could not save the synced copy, so nothing was deleted/);
+  assert.deepEqual(g.deletes, []);
+});
+
+test('delete sends the rev of the confirmed answer; 409 changed says something new arrived', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'a' }, T(1));
+  const inner = h.fetch;
+  h.fetch = async (p, i) => (p === '/api/account' ? (h.deletes.push(JSON.parse(i.body)), reply(409, { error: 'changed' })) : inner(p, i));
+  await assert.rejects(h.s.deleteAccount({ account: 'u1' }), /^Error: Something new reached the synced copy, so nothing was deleted\. Try again\.$/);
+  assert.deepEqual(h.deletes, [{ account: 'u1', rev: 1 }]);
+  assert.equal(JSON.parse(h.storage.getItem(REC)).account, 'u1', 'still signed in');
+});
+
+// ---- Two tabs: one account operation at a time; each is pinned to the account the page showed ----
+
+/** A stand-in for navigator.locks: one holder at a time, in order. */
+function fakeLocks() {
+  let tail = Promise.resolve();
+  return { request(name, fn) { const run = tail.then(() => fn()); tail = run.catch(() => {}); return run; } };
+}
+
+test('a delete in one tab and remove-from-browser in another never both run: one copy stays', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'the only words' }, T(1));
+  save(h.journal, h.storage);
+  const locks = fakeLocks();
+  let release;
+  const gate = new Promise((r) => { release = r; });
+  let serverGone = false;
+  const fetch = async (p, i) => {
+    if (p === '/api/account') { await gate; serverGone = true; return reply(200, { ok: true }); }
+    return h.fetch(p, i);
+  };
+  let tab2Journal = load(h.storage);
+  const mk = (getJournal, setJournal) => makeSyncer({ fetch, storage: h.storage, now: () => 1000, locks, getJournal, setJournal });
+  const tab1 = mk(() => h.journal, (j) => { h.journal = j; save(j, h.storage); return true; });
+  const tab2 = mk(() => tab2Journal, (j) => { tab2Journal = j; save(j, h.storage); return true; });
+  const del = tab1.deleteAccount({ account: 'u1' });
+  for (let i = 0; i < 20; i++) await Promise.resolve(); // tab 1 is waiting on the DELETE answer
+  const out = tab2.signOut({ clearLocal: true, account: 'u1' });
+  release();
+  await del;
+  await assert.rejects(out, /nothing changed|changed in another tab/i);
+  assert.equal(serverGone, true);
+  assert.deepEqual(load(h.storage).entries.map((e) => e.text), ['the only words'], 'this browser keeps the journal');
+});
+
+test('the lock wraps signOut and deleteAccount; without locks they still run', async () => {
+  const names = [];
+  const h = harness();
+  const locks = { request: (name, fn) => { names.push(name); return fn(); } };
+  const s = makeSyncer({ fetch: (...a) => h.fetch(...a), storage: h.storage, locks, getJournal: () => h.journal, setJournal: () => true });
+  await s.signOut({ account: 'u1' });
+  h.storage.setItem(REC, JSON.stringify({ account: 'u1', label: 'L', at: null }));
+  await s.deleteAccount({ account: 'u1' });
+  assert.deepEqual(names, ['tao-sync-account', 'tao-sync-account']);
+});
+
+test('signOut names the account the page showed; another account signed in meanwhile is left alone', async () => {
+  const h = harness();
+  h.storage.setItem(REC, JSON.stringify({ account: 'u2', label: 'B', at: null }));
+  const paths = [];
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { paths.push(p); return inner(p, i); };
+  await assert.rejects(h.s.signOut({ account: 'u1' }), /changed in another tab/);
+  await assert.rejects(h.s.signOut({ clearLocal: true, account: 'u1' }), /changed in another tab/);
+  assert.deepEqual(paths, [], 'no sync, no logout');
+  assert.equal(JSON.parse(h.storage.getItem(REC)).account, 'u2');
+});
+
+test('a late logout answer does not sign out the account another tab signed in to', async () => {
+  const h = harness();
+  let release;
+  const gate = new Promise((r) => { release = r; });
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { if (p === '/api/auth/logout') await gate; return inner(p, i); };
+  const out = h.s.signOut({ account: 'u1' });
+  for (let i = 0; i < 5; i++) await Promise.resolve();
+  h.storage.setItem(REC, JSON.stringify({ account: 'u2', label: 'B', at: null }));
+  release();
+  await out;
+  assert.equal(JSON.parse(h.storage.getItem(REC)).account, 'u2');
+  assert.ok(!h.events.some((e) => e.signedOut), 'no "signed out" news for B');
+});
+
+test('a late DELETE answer does not sign out the account another tab signed in to', async () => {
+  const h = harness();
+  let release;
+  const gate = new Promise((r) => { release = r; });
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { if (p === '/api/account') await gate; return inner(p, i); };
+  const del = h.s.deleteAccount({ account: 'u1' });
+  for (let i = 0; i < 20; i++) await Promise.resolve();
+  assert.equal(h.deletes.length, 0);
+  h.storage.setItem(REC, JSON.stringify({ account: 'u2', label: 'B', at: null }));
+  release();
+  await del;
+  assert.equal(JSON.parse(h.storage.getItem(REC)).account, 'u2');
+  assert.ok(!h.events.some((e) => e.signedOut));
+});
+
+test('remove-from-browser stops when the empty journal cannot be saved: nothing changes', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'keep' }, T(1));
+  save(h.journal, h.storage);
+  let wiped = false;
+  const s = makeSyncer({
+    fetch: (...a) => h.fetch(...a), storage: h.storage, now: () => 1000, getJournal: () => h.journal,
+    setJournal: (j, { replace = false } = {}) => { if (replace) return false; h.journal = j; save(j, h.storage); return true; },
+    wipe: () => { wiped = true; },
+  });
+  await assert.rejects(s.signOut({ clearLocal: true }), /^Error: This browser could not remove the journal\. Nothing changed\.$/);
+  assert.equal(JSON.parse(h.storage.getItem(REC)).account, 'u1', 'still signed in');
+  assert.deepEqual(load(h.storage).entries.map((e) => e.text), ['keep']);
+  assert.equal(wiped, false);
+  assert.equal(h.storage.getItem(WIPED), null);
+});
+
+test('remove-from-browser tells this tab of the wipe before the logout request', async () => {
+  const h = harness();
+  addEntry(h.journal, { passage: 1, text: 'a' }, T(1));
+  let seen = null;
+  const inner = h.fetch;
+  h.fetch = async (p, i) => { if (p === '/api/auth/logout') seen = h.events.map((e) => !!e.wiped); return inner(p, i); };
+  await h.s.signOut({ clearLocal: true });
+  assert.ok(seen?.includes(true), 'the wiped news came before logout');
 });

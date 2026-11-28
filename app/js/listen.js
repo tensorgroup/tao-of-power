@@ -198,7 +198,9 @@ export function createPlayer({
   on(media, 'error', () => { stopLoop(); dropLock(); set('error'); });
   const pauseIfActive = () => { if (state === 'playing' || state === 'loading') media.pause(); };
   on(deps.events, 'tao:sound', pauseIfActive);
-  on(deps.events, 'tao:listen', (e) => { if (e.detail !== id) pauseIfActive(); });
+  // Another row started: pause and clear the lit cell, so only one cell is lit on the page. Stop the loop
+  // now: the browser fires 'pause' later, and a frame before it would light the cell again. Resume relights it.
+  on(deps.events, 'tao:listen', (e) => { if (e.detail !== id) { pauseIfActive(); stopLoop(); clearMarks(); } });
   on(deps.events, 'hashchange', stop);
   on(deps.events, 'pagehide', stop);
   on(deps.doc, 'visibilitychange', () => {

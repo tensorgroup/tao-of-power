@@ -439,6 +439,48 @@ test('tao:listen from another row leaves an idle or paused player alone', () => 
   assert.equal(t.player.state, 'idle');
 });
 
+test("another row's start clears the lit cell of a playing row, and no later frame lights it again", () => {
+  const t = setup();
+  t.player.toggle();
+  t.media.fire('playing');
+  t.at(1); t.step();
+  assert.deepEqual(classes(t.cells), ['done', 'now', '-']);
+  // A browser fires 'pause' later, not inside pause(): a frame may run before it.
+  t.media.pause = function () { this.calls.pause++; this.paused = true; };
+  t.events.dispatchEvent(listenEvent('row-b'));
+  assert.deepEqual(classes(t.cells), ['-', '-', '-']);
+  assert.deepEqual(current(t.cells), ['-', '-', '-']);
+  t.step(); t.step();
+  assert.deepEqual(classes(t.cells), ['-', '-', '-'], 'the loop stopped with the clear');
+});
+
+test("another row's start clears the lit cell of a paused row and leaves it paused", () => {
+  const t = setup();
+  t.player.toggle();
+  t.media.fire('playing');
+  t.at(2); t.step();
+  t.player.toggle(); // pause
+  assert.deepEqual(classes(t.cells), ['done', 'done', 'now'], 'a pause alone keeps the lit cell');
+  const pauses = t.media.calls.pause;
+  t.events.dispatchEvent(listenEvent('row-b'));
+  assert.deepEqual(classes(t.cells), ['-', '-', '-']);
+  assert.equal(t.media.calls.pause, pauses, 'a paused row is not paused again');
+  assert.equal(t.player.state, 'paused');
+  t.player.toggle(); // resume: the lit cell comes back where the audio is
+  t.media.fire('playing');
+  t.step();
+  assert.deepEqual(classes(t.cells), ['done', 'done', 'now']);
+});
+
+test('tao:sound (a character reading) pauses but keeps the lit cell', () => {
+  const t = setup();
+  t.player.toggle();
+  t.media.fire('playing');
+  t.at(1); t.step();
+  t.events.dispatchEvent(new Event('tao:sound'));
+  assert.deepEqual(classes(t.cells), ['done', 'now', '-']);
+});
+
 test('resume and retry dispatch tao:listen before play', () => {
   const t = setup();
   const playsAtListen = [];

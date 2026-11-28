@@ -4,6 +4,7 @@ import { state, syncer } from '../app.js';
 import { syncSection, onSyncNews } from './sync-ui.js';
 import {
   updateEntry, deleteEntry, deleteDraw, replaceJournal, validate, merge, toExport, exportFilename, snapshot, emptyJournal, SNAPSHOT_KEY,
+  keptSnapshot,
 } from '../journal.js';
 import { getIndex } from '../data.js';
 import { track } from '../track.js';
@@ -20,12 +21,15 @@ export async function journalView() {
     const tabs = [...j.entries].filter((e) => e.at).sort((a, b) => a.passage - b.passage || Date.parse(a.createdAt) - Date.parse(b.createdAt));
     const last = j.lastExportAt ? Date.parse(j.lastExportAt) : null;
     const newer = j.entries.filter((e) => !last || Date.parse(e.updatedAt) > last).length;
+    const exportBtn = h('button', { class: 'btn', type: 'button', text: 'Export', onclick: () => doExport(render) });
+    const local = !syncer.record(); // sync is off: the export is the only copy, so Export stays in view
     fill(root,
       h('h1', { text: 'Journal' }),
       h('p', { class: 'muted', text: `${j.entries.length} entr${j.entries.length === 1 ? 'y' : 'ies'} · ${j.draws.length} draw${j.draws.length === 1 ? '' : 's'}` }),
-      syncer.record() ? null : backupNote(last, newer),
+      local ? backupNote(last, newer) : null,
+      local ? h('div', { class: 'row' }, exportBtn) : null,
       syncSection(render, { more: [
-        h('button', { class: 'btn', type: 'button', text: 'Export', onclick: () => doExport(render) }),
+        local ? null : exportBtn,
         h('button', { class: 'btn', type: 'button', text: 'Import', onclick: () => doImport(render) }),
       ] }),
       restoreBox(render),
@@ -42,13 +46,16 @@ export async function journalView() {
   return root;
 }
 
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+
+/** The journal kept aside by the last Replace, with a button to merge it back (none when it is empty: keptSnapshot). */
 function restoreBox(render) {
-  let snap = null;
-  try { snap = validate(JSON.parse(localStorage.getItem(SNAPSHOT_KEY) || 'null')); } catch { snap = null; }
-  if (!snap?.ok) return null;
-  return h('p', { class: 'backup' }, `A journal saved before your last Replace is kept (${snap.journal.entries.length} entries). `,
+  const kept = keptSnapshot();
+  if (!kept) return null;
+  const what = [kept.entries ? plural(kept.entries, 'entry', 'entries') : null, kept.draws ? plural(kept.draws, 'draw', 'draws') : null].filter(Boolean).join(', ');
+  return h('p', { class: 'backup' }, `A journal saved before your last Replace is kept (${what}). `,
     h('button', { class: 'btn quiet small-btn', type: 'button', text: 'Restore it (merge)', onclick: () => {
-      state.journal = merge(state.journal, snap.journal);
+      state.journal = merge(state.journal, kept.journal);
       if (state.persist()) { try { localStorage.removeItem(SNAPSHOT_KEY); } catch {} toast('Restored and merged.'); }
       render();
     } }));
@@ -57,7 +64,7 @@ function restoreBox(render) {
 function backupNote(last, newer) {
   if (!newer) return last ? h('p', { class: 'muted small', text: `Last backup ${Math.round((Date.now() - last) / DAY)} day(s) ago.` }) : null;
   const age = last ? `Last backup ${Math.round((Date.now() - last) / DAY)} day(s) ago. ` : 'Not backed up yet. ';
-  return h('p', { class: 'backup', text: `${age}${newer} entr${newer === 1 ? 'y is' : 'ies are'} only in this browser. Turn on sync, or use Export under More.` });
+  return h('p', { class: 'backup', text: `${age}${newer} entr${newer === 1 ? 'y is' : 'ies are'} only in this browser. Turn on sync, or Export it now.` });
 }
 
 export function entryList(entries, { showPassage, idx, onChange }) {

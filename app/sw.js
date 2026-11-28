@@ -1,9 +1,9 @@
 /* Offline service worker. The precache block is written by scripts/build-precache.mjs. */
 importScripts('js/sw-range.js'); // taoRange: Range (206) answers for cached audio, and the recordings to keep
 // <precache>
-const VERSION = '184a026049db';
+const VERSION = 'c78e3ade39c9';
 const ART_VERSION = '3cfa7432';
-const SEARCH_VERSION = '95466216';
+const SEARCH_VERSION = '10b79188';
 const MODEL_VERSION = 'a31ada72';
 const AUDIO_VERSION = 'a8506e97';
 const FILES = [
@@ -295,6 +295,7 @@ const FILES = [
  "js/audio.js",
  "js/brush.js",
  "js/data.js",
+ "js/drafts.js",
  "js/draw.js",
  "js/journal.js",
  "js/listen.js",
@@ -302,6 +303,7 @@ const FILES = [
  "js/markup.js",
  "js/notes.js",
  "js/search-core.js",
+ "js/search-count.js",
  "js/share.js",
  "js/sheet.js",
  "js/sw-range.js",
@@ -348,12 +350,15 @@ async function pruneListen() {
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
+    // A release that changes only a lazy version keeps the shell's name, so CACHE can be the cache the running
+    // worker serves: delete it on failure only when this install made it (addAll changes nothing when it fails).
+    const existed = await caches.has(CACHE);
     const cache = await caches.open(CACHE);
     try {
       // `reload` bypasses the HTTP cache so a new version never stores stale files.
       await cache.addAll(FILES.map((f) => new Request(f, { cache: 'reload' })));
     } catch (e) {
-      await caches.delete(CACHE);
+      if (!existed) await caches.delete(CACHE);
       const clients = await self.clients.matchAll({ includeUncontrolled: true });
       clients.forEach((c) => c.postMessage('incomplete'));
       throw e;
@@ -390,7 +395,8 @@ self.addEventListener('fetch', (event) => {
       const c = await caches.open(lazy[1]);
       // Audio is stored whole and sliced here: media elements send Range and need a 206.
       if (taoRange.isRangedAudio(url.pathname)) return taoRange.audioFetch(req, c, fetch);
-      const got = await c.match(req);
+      // cache 'reload' (the search pair after a mismatch): the page wants the server's copy, not this one.
+      const got = req.cache === 'reload' ? null : await c.match(req);
       if (got) return got;
       const res = await fetch(req);
       if (res.ok) event.waitUntil(c.put(req, res.clone()).catch(() => {})); // keep the worker alive until stored

@@ -4,6 +4,7 @@
 import { h, fill, toast, keepAboveKeyboard } from './ui.js';
 import { state } from './app.js';
 import { addEntry, saveDraft, loadDraft, clearDraft } from './journal.js';
+import { draftWriter } from './drafts.js';
 import { openSheet } from './sheet.js';
 import { entryList } from './views/journal.js';
 import { track } from './track.js';
@@ -92,11 +93,14 @@ export function marginTabs(root, n, { fallback, onChange } = {}) {
       kind: 'Your tab',
       build: () => {
         const box = h('div', { class: 'mnote' });
+        let writer = null; // stopped by discardDrafts() ("Remove it from this browser")
         const render = () => {
           const list = groups().get(key) || [];
           const ta = keepAboveKeyboard(h('textarea', { 'aria-label': 'New margin note', placeholder: 'A note in the margin' }));
           ta.value = loadDraft(draftKey(n, key)); // a closed sheet keeps what was typed
-          ta.addEventListener('input', () => saveDraft(draftKey(n, key), ta.value));
+          writer?.release();
+          writer = draftWriter(() => saveDraft(draftKey(n, key), ta.value));
+          ta.addEventListener('input', () => writer.schedule());
           const save = () => {
             const text = ta.value.trim();
             if (!text) { ta.focus(); return; }

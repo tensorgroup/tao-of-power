@@ -70,7 +70,8 @@ the old files.
   storing anonymous events in D1 `tao-analytics` (schema in
   `worker/schema.sql`). The client is `app/js/track.js`: route views plus a
   few named actions; never typed text, journal content, IPs, or UA strings;
-  off under DNT/GPC. Report: `scripts/analytics.sh [days] [--local]`. A new
+  off under DNT/GPC. The Worker also drops DNT/GPC, foreign-origin, and
+  over-`EVENTS_LIMIT` events (it fails open without that binding). Report: `scripts/analytics.sh [days] [--local]`. A new
   event name must be added to `EVENTS` in the Worker.
 - **DOM.** Build nodes with `h()`; replace children with `fill()` from `ui.js`. Native `replaceChildren()`/`append()` print
   `null` as the text "null"; filter nulls or pass the children through `h()`.
@@ -84,7 +85,10 @@ the old files.
   `app/js/sync.js` (single-flight sync after each save, on tab focus/hide, and
   online) and `app/js/views/sync-ui.js` (card after a draw, Sync section on the
   Journal page). Removals sync as tombstones (entries and draws). Never log or
-  echo journal text. `npm run dev` is the only way to test passkeys locally
+  echo journal text. A missing rate-limit binding answers 503 (except with
+  `RP_ID` localhost). Each sync and delete names its account; a missing name
+  is accepted for old installed clients, a wrong one gets 409. Rate-limit
+  namespace ids are per Cloudflare account: Tao uses 4111–4114. `npm run dev` is the only way to test passkeys locally
   (RP ID `localhost`).
 - **Art** (`app/data/art.json`, `app/art/`): public domain or CC0 only, from
   Wikimedia Commons or the Cleveland Museum of Art / Art Institute of

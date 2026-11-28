@@ -4,6 +4,7 @@ import {
   emptyJournal, load, save, addEntry, updateEntry, deleteEntry, recordDraw,
   validate, merge, toExport, exportFilename, saveDraft, loadDraft, clearDraft,
   saveDraftQ, loadDraftQ, KEY, deleteDraw, syncCore, sameCore, replaceJournal,
+  snapshot, keptSnapshot, SNAPSHOT_KEY,
 } from '../app/js/journal.js';
 
 function memStorage(throwOnSet = false) {
@@ -242,4 +243,27 @@ test('replace marks dropped entries and draws removed, so a merge cannot bring t
   const again = merge(r, cur); // another tab, or the server, still holds the old copy
   assert.deepEqual(again.entries.map((e) => e.text).sort(), ['from file', 'in both']);
   assert.equal(again.draws.length, 0);
+});
+
+test('keptSnapshot: null for none, invalid, or empty; counts entries and draws', () => {
+  const st = memStorage();
+  assert.equal(keptSnapshot(st), null, 'none');
+  st.setItem(SNAPSHOT_KEY, '{not json');
+  assert.equal(keptSnapshot(st), null, 'not JSON');
+  st.setItem(SNAPSHOT_KEY, JSON.stringify({ version: 99 }));
+  assert.equal(keptSnapshot(st), null, 'invalid');
+  snapshot(emptyJournal(), st);
+  assert.equal(keptSnapshot(st), null, 'empty: nothing to restore');
+  const j = emptyJournal();
+  addEntry(j, { passage: 1, text: 'a' });
+  addEntry(j, { passage: 2, text: 'b' });
+  recordDraw(j, { passage: 3, lines: [], bundles: [] });
+  snapshot(j, st);
+  const k = keptSnapshot(st);
+  assert.deepEqual([k.entries, k.draws], [2, 1]);
+  assert.deepEqual(k.journal.entries.map((e) => e.text), ['a', 'b']);
+  const d = emptyJournal();
+  recordDraw(d, { passage: 4, lines: [], bundles: [] });
+  snapshot(d, st);
+  assert.deepEqual([keptSnapshot(st).entries, keptSnapshot(st).draws], [0, 1], 'draws only still counts');
 });
